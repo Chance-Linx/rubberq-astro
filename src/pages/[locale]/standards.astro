@@ -1,0 +1,195 @@
+---
+import LocaleLayout from '@/layouts/LocaleLayout.astro';
+import { getTranslations, t } from '@/lib/i18n';
+
+export function getStaticPaths() {
+  return ['en','de','ja','es','zh'].map(locale => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params;
+const messages = await getTranslations(locale);
+const meta = messages?.metadata || {};
+const _ = (key: string, fallback = '') => t(messages, `standardsPage.${key}`, fallback);
+
+const categories = [
+  {
+    title: _('categories.materialClassification.title'),
+    desc: _('categories.materialClassification.desc'),
+    standards: [
+      {
+        id: "ASTM D2000",
+        name: _('categories.materialClassification.standards.astmD2000.name'),
+        detail: _('categories.materialClassification.standards.astmD2000.detail')
+      },
+      {
+        id: "SAE J200",
+        name: _('categories.materialClassification.standards.saeJ200.name'),
+        detail: _('categories.materialClassification.standards.saeJ200.detail')
+      }
+    ]
+  },
+  {
+    title: _('categories.environmentalCompliance.title'),
+    desc: _('categories.environmentalCompliance.desc'),
+    standards: [
+      {
+        id: "RoHS 3",
+        name: _('categories.environmentalCompliance.standards.rohs3.name'),
+        detail: _('categories.environmentalCompliance.standards.rohs3.detail')
+      },
+      {
+        id: "REACH",
+        name: _('categories.environmentalCompliance.standards.reach.name'),
+        detail: _('categories.environmentalCompliance.standards.reach.detail')
+      }
+    ]
+  },
+  {
+    title: _('categories.applicationCertifications.title'),
+    desc: _('categories.applicationCertifications.desc'),
+    standards: [
+      {
+        id: "FDA 21 CFR 177.2600",
+        name: _('categories.applicationCertifications.standards.fda.name'),
+        detail: _('categories.applicationCertifications.standards.fda.detail')
+      },
+      {
+        id: "MIL-SPEC",
+        name: _('categories.applicationCertifications.standards.milSpec.name'),
+        detail: _('categories.applicationCertifications.standards.milSpec.detail')
+      }
+    ]
+  }
+];
+---
+
+<LocaleLayout locale={locale}>
+  <Fragment slot="head">
+    <title>{meta.standards?.title || 'Industry Standards | RubberQ'}</title>
+    <meta name="description" content={meta.standards?.description || ''} />
+  </Fragment>
+
+  <div class="bg-white min-h-screen">
+    <!-- Header -->
+    <section class="bg-industrial-900 text-white py-24 px-4 border-b border-accent-orange/20">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex items-center gap-3 mb-6 text-accent-orange">
+          <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="8" r="7"/>
+            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/>
+          </svg>
+          <span class="font-bold uppercase tracking-widest text-sm">{_('hero.badge')}</span>
+        </div>
+        <h1 class="text-4xl md:text-6xl font-bold mb-6 uppercase tracking-tight">{_('hero.title')}</h1>
+        <p class="text-xl text-industrial-400 max-w-3xl leading-relaxed">
+          {_('hero.subtitle')}
+        </p>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="py-20 px-4">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-16">
+          <div class="lg:col-span-2 space-y-24">
+            {categories.map((category) => (
+              <div class="relative">
+                <div class="mb-8">
+                  <h2 class="text-2xl font-bold uppercase tracking-tight mb-2">{category.title}</h2>
+                  <p class="text-industrial-500">{category.desc}</p>
+                </div>
+                <div class="grid grid-cols-1 gap-6">
+                  {category.standards.map((std) => (
+                    <div class="p-8 border-l-4 border-industrial-900 bg-industrial-50 group hover:bg-industrial-100 transition-colors">
+                      <div class="flex justify-between items-start mb-4">
+                        <span class="text-accent-orange font-bold text-sm tracking-widest uppercase">{std.id}</span>
+                        <svg class="w-5 h-5 text-industrial-300 group-hover:text-industrial-900 transition-colors" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                          <polyline points="14 2 14 8 20 8"/>
+                        </svg>
+                      </div>
+                      <h3 class="text-lg font-bold mb-3 uppercase leading-tight">{std.name}</h3>
+                      <p class="text-industrial-600 text-sm leading-relaxed">{std.detail}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <!-- Sidebar / CTA -->
+          <div class="lg:col-span-1">
+            <div class="sticky top-24 space-y-8">
+              <div class="bg-industrial-900 text-white p-10 rounded-sm">
+                <h4 class="text-xl font-bold mb-6 uppercase tracking-tight border-b border-industrial-700 pb-4 text-accent-orange">{_('sidebar.callOutTitle')}</h4>
+                <p class="text-industrial-400 text-sm leading-relaxed mb-8">
+                  {_('sidebar.callOutDesc')}
+                </p>
+                <a href={`/${locale}/contact`} class="inline-block w-full py-4 bg-white text-industrial-900 font-bold text-center uppercase tracking-widest hover:bg-accent-orange hover:text-white transition-all">
+                  {_('sidebar.consultEngineer')}
+                </a>
+              </div>
+
+              <div class="border border-industrial-200 p-8">
+                <div class="flex items-center gap-3 mb-4 text-industrial-900 font-bold uppercase text-sm tracking-wider">
+                  <svg class="w-5 h-5 text-accent-orange" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+                    <line x1="12" y1="9" x2="12" y2="13"/>
+                    <line x1="12" y1="17" x2="12.01" y2="17"/>
+                  </svg>
+                  <span>{_('sidebar.complianceNotice')}</span>
+                </div>
+                <p class="text-industrial-600 text-xs leading-relaxed">
+                  {_('sidebar.complianceNoticeText')}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Summary Section -->
+    <section class="py-20 px-4 bg-industrial-50 border-t border-industrial-100">
+      <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 text-center">
+        <div>
+          <svg class="w-10 h-10 mx-auto mb-4 text-industrial-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="2" y1="12" x2="22" y2="12"/>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
+          <h5 class="font-bold uppercase text-xs tracking-[0.2em] mb-2">{_('footer.globalReach')}</h5>
+          <p class="text-industrial-500 text-[10px] leading-tight px-4">{_('footer.globalReachDesc')}</p>
+        </div>
+        <div>
+          <svg class="w-10 h-10 mx-auto mb-4 text-industrial-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+          <h5 class="font-bold uppercase text-xs tracking-[0.2em] mb-2">{_('footer.ipProtection')}</h5>
+          <p class="text-industrial-500 text-[10px] leading-tight px-4">{_('footer.ipProtectionDesc')}</p>
+        </div>
+        <div>
+          <svg class="w-10 h-10 mx-auto mb-4 text-industrial-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M2 12h1"/>
+            <path d="M6 8h1"/>
+            <path d="M14 19h1"/>
+            <path d="M21 12h1"/>
+            <path d="M18 8h1"/>
+            <path d="M10 19h1"/>
+            <circle cx="12" cy="12" r="2"/>
+          </svg>
+          <h5 class="font-bold uppercase text-xs tracking-[0.2em] mb-2">{_('footer.materialScience')}</h5>
+          <p class="text-industrial-500 text-[10px] leading-tight px-4">{_('footer.materialScienceDesc')}</p>
+        </div>
+        <div>
+          <svg class="w-10 h-10 mx-auto mb-4 text-industrial-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+            <polyline points="22 4 12 14.01 9 11.01"/>
+          </svg>
+          <h5 class="font-bold uppercase text-xs tracking-[0.2em] mb-2">{_('footer.verifiedTesting')}</h5>
+          <p class="text-industrial-500 text-[10px] leading-tight px-4">{_('footer.verifiedTestingDesc')}</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</LocaleLayout>

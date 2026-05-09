@@ -1,0 +1,184 @@
+---
+import LocaleLayout from '@/layouts/LocaleLayout.astro';
+import { getTranslations } from '@/lib/i18n';
+import TrustSignals from '@/components/TrustSignals.astro';
+
+export function getStaticPaths() {
+  return ['en','de','ja','es','zh'].map(locale => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params;
+const messages = await getTranslations(locale);
+const meta = messages?.metadata || {};
+const homeMeta = meta?.home || {};
+
+// Flatten translation helper
+const t = (key: string, fallback = '') => {
+  const keys = key.split('.');
+  let v: any = messages;
+  for (const k of keys) { if (v && typeof v === 'object') v = v[k]; else return fallback || key; }
+  return typeof v === 'string' ? v : fallback || key;
+};
+
+// Get summary items array
+const summaryItems = messages?.features?.summaryItems || [];
+---
+
+<LocaleLayout locale={locale}>
+  <Fragment slot="head">
+    <title>{homeMeta.title || 'RubberQ — Precision Rubber Manufacturing'}</title>
+    <meta name="description" content={homeMeta.description || meta.description || ''} />
+  </Fragment>
+
+  <div class="flex flex-col">
+    <!-- Hero Section -->
+    <section class="relative h-[90vh] flex items-center bg-industrial-900 overflow-hidden">
+      <div class="absolute inset-0 bg-grid-pattern bg-grid-size opacity-10"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-industrial-900 via-transparent to-transparent z-10"></div>
+      
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
+        <div class="max-w-3xl">
+          <div class="inline-block bg-accent-orange/10 border border-accent-orange/30 text-accent-orange px-3 py-1 text-xs font-bold tracking-widest uppercase mb-6">
+            {t('hero.badge', 'AUTOMOTIVE-GRADE EXCELLENCE')}
+          </div>
+          <h1 class="text-6xl md:text-8xl font-bold tracking-tighter text-white mb-8 leading-[0.9]">
+            {t('hero.titleLine1', 'PRECISION')} <br />
+            <span class="text-industrial-500">{t('hero.titleLine2', 'IN EVERY')}</span> <br />
+            {t('hero.titleLine3', 'MOLECULE.')}
+          </h1>
+          <p class="text-xl text-industrial-100 mb-10 max-w-xl leading-relaxed">
+            {t('hero.subtitle')}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href={`/${locale}/blog`}
+               class="bg-accent-orange text-white px-8 py-4 font-bold text-sm tracking-widest hover:bg-white hover:text-industrial-900 transition-all duration-300 text-center">
+              {t('hero.ctaPrimary', 'TECHNICAL HUB')}
+            </a>
+            <a href={`/${locale}/quality`}
+               class="border border-industrial-500 text-white px-8 py-4 font-bold text-sm tracking-widest hover:border-white transition-all duration-300 text-center">
+              {t('hero.ctaSecondary', 'QUALITY & TRUST')}
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="absolute right-0 bottom-0 w-1/2 h-full opacity-20 pointer-events-none">
+        <div class="w-full h-full border-l border-t border-industrial-700 absolute top-1/4 left-1/4"></div>
+        <div class="w-full h-full border-l border-t border-industrial-700 absolute top-1/2 left-1/2"></div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div>
+            <h2 class="text-4xl font-bold tracking-tighter text-industrial-900 uppercase mb-8">
+              {t('features.title', 'WHY GLOBAL LEADERS TRUST RUBBERQ')}
+            </h2>
+            <div class="bg-industrial-100 border-l-4 border-industrial-900 p-6 my-8 shadow-sm">
+              <h3 class="text-xl font-bold text-industrial-900 mb-4 uppercase tracking-tight">
+                {t('features.summaryTitle', 'QUICK TECHNICAL SUMMARY')}
+              </h3>
+              <ul class="space-y-3">
+                {summaryItems.length > 0 ? summaryItems.map((item: any) => (
+                  <li class="text-industrial-600 leading-relaxed">
+                    <span class="font-bold text-industrial-900">{item.term}</span>: {item.description}
+                  </li>
+                )) : (
+                  <>
+                    <li class="text-industrial-600 leading-relaxed">
+                      <span class="font-bold text-industrial-900">{t('features.summaryItems.0.term', 'IATF 16949 Certified')}</span>: {t('features.summaryItems.0.desc', 'Rigorous automotive quality management system ensuring zero-defect production.')}
+                    </li>
+                    <li class="text-industrial-600 leading-relaxed">
+                      <span class="font-bold text-industrial-900">{t('features.summaryItems.1.term', 'Entity-Driven Traceability')}</span>: {t('features.summaryItems.1.desc', 'Full digital logging from raw material batch to finished component.')}
+                    </li>
+                  </>
+                )}
+              </ul>
+            </div>
+          </div>
+          <div class="grid grid-cols-2 gap-8">
+            <!-- Reliability -->
+            <div class="p-8 border border-industrial-100 hover:border-accent-orange transition-colors group">
+              <svg class="w-10 h-10 text-industrial-900 group-hover:text-accent-orange mb-4 transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+              <h4 class="font-bold text-lg mb-2 uppercase">{t('features.reliability.title', 'RELIABILITY')}</h4>
+              <p class="text-sm text-industrial-600">{t('features.reliability.desc')}</p>
+            </div>
+            <!-- Precision -->
+            <div class="p-8 border border-industrial-100 hover:border-accent-orange transition-colors group">
+              <svg class="w-10 h-10 text-industrial-900 group-hover:text-accent-orange mb-4 transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+              <h4 class="font-bold text-lg mb-2 uppercase">{t('features.precision.title', 'PRECISION')}</h4>
+              <p class="text-sm text-industrial-600">{t('features.precision.desc')}</p>
+            </div>
+            <!-- Traceability -->
+            <div class="p-8 border border-industrial-100 hover:border-accent-orange transition-colors group">
+              <svg class="w-10 h-10 text-industrial-900 group-hover:text-accent-orange mb-4 transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+              </svg>
+              <h4 class="font-bold text-lg mb-2 uppercase">{t('features.traceability.title', 'TRACEABILITY')}</h4>
+              <p class="text-sm text-industrial-600">{t('features.traceability.desc')}</p>
+            </div>
+            <!-- Innovation -->
+            <div class="p-8 border border-industrial-100 hover:border-accent-orange transition-colors group">
+              <svg class="w-10 h-10 text-industrial-900 group-hover:text-accent-orange mb-4 transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+              </svg>
+              <h4 class="font-bold text-lg mb-2 uppercase">{t('features.innovation.title', 'INNOVATION')}</h4>
+              <p class="text-sm text-industrial-600">{t('features.innovation.desc')}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Signals: Proof of Trust + Client Voice -->
+    <TrustSignals locale={locale} />
+
+    <!-- Industries Section -->
+    <section class="py-24 bg-industrial-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
+        <h2 class="text-4xl font-bold tracking-tighter text-industrial-900 uppercase">{t('industries.title', 'Specialized Industries')}</h2>
+      </div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <a href={`/${locale}/blog/how-iatf-16949-standards-influence-rubber-component-quality-for-robotics`} class="group relative h-96 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800" 
+               alt={t('industries.robotics.title', 'Robotics & Cobots')}
+               class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+               loading="lazy" />
+          <div class="absolute inset-0 bg-industrial-900/40 group-hover:bg-industrial-900/60 transition-colors"></div>
+          <div class="absolute bottom-8 left-8 right-8">
+            <h3 class="text-2xl font-bold text-white uppercase tracking-tighter mb-2">{t('industries.robotics.title', 'Robotics & Cobots')}</h3>
+            <div class="w-12 h-1 bg-accent-orange transition-all duration-300 group-hover:w-full"></div>
+          </div>
+        </a>
+        <a href={`/${locale}/blog/technical-comparison-why-fkm-o-rings-are-replacing-nbr-in-ev-cooling-systems`} class="group relative h-96 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc51?auto=format&fit=crop&q=80&w=800" 
+               alt={t('industries.ai.title', 'AI Infrastructure')}
+               class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+               loading="lazy" />
+          <div class="absolute inset-0 bg-industrial-900/40 group-hover:bg-industrial-900/60 transition-colors"></div>
+          <div class="absolute bottom-8 left-8 right-8">
+            <h3 class="text-2xl font-bold text-white uppercase tracking-tighter mb-2">{t('industries.ai.title', 'AI Infrastructure')}</h3>
+            <div class="w-12 h-1 bg-accent-orange transition-all duration-300 group-hover:w-full"></div>
+          </div>
+        </a>
+        <a href={`/${locale}/blog/the-role-of-hnbr-in-high-temperature-automotive-sealing-environments`} class="group relative h-96 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?auto=format&fit=crop&q=80&w=800"
+               alt={t('industries.machinery.title', 'Precision Machinery')}
+               class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+               loading="lazy" />
+          <div class="absolute inset-0 bg-industrial-900/40 group-hover:bg-industrial-900/60 transition-colors"></div>
+          <div class="absolute bottom-8 left-8 right-8">
+            <h3 class="text-2xl font-bold text-white uppercase tracking-tighter mb-2">{t('industries.machinery.title', 'Precision Machinery')}</h3>
+            <div class="w-12 h-1 bg-accent-orange transition-all duration-300 group-hover:w-full"></div>
+          </div>
+        </a>
+      </div>
+    </section>
+  </div>
+</LocaleLayout>

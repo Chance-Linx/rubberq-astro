@@ -1,0 +1,291 @@
+---
+import LocaleLayout from '@/layouts/LocaleLayout.astro';
+import { getTranslations, t } from '@/lib/i18n';
+
+export function getStaticPaths() {
+  const locales = ['en','de','ja','es','zh'];
+  const slugs = ['fkm','epdm','nbr','silicone'];
+  return locales.flatMap(locale => slugs.map(slug => ({ params: { locale, slug } })));
+}
+
+const { locale, slug } = Astro.params;
+const messages = await getTranslations(locale);
+const mp = (key: string, fallback = '') => t(messages, `materialsPage.materials.${slug}.${key}`, fallback);
+
+interface MaterialData {
+  name: string;
+  slug: string;
+  description: string;
+  summaryItems: { term: string; description: string }[];
+  techData: { name: string; value: string }[];
+  engineeringTitle: string;
+  engineeringP1: string;
+  engineeringP2: string;
+  comparisonTitle: string;
+  comparisonRows: { feature: string; values: string[] };
+  ctaTitle: string;
+  ctaDesc: string;
+  jsonLdName: string;
+}
+
+const materialMap: Record<string, MaterialData> = {
+  fkm: {
+    name: 'FKM (Fluoroelastomer)',
+    slug: 'fkm',
+    description: 'Superior resistance to heat, chemicals, and fuels. Engineered for extreme automotive and industrial environments.',
+    summaryItems: [
+      { term: 'Heat Resistance', description: 'Up to 250°C continuous service' },
+      { term: 'Chemical Profile', description: 'Excellent stability in fuels, oils, and aggressive solvents' },
+      { term: 'Standard Compliance', description: 'ASTM D2000 HK, ISO 3302-1 M1' },
+    ],
+    techData: [
+      { name: 'Material Grade', value: 'High-Fluorine FKM' },
+      { name: 'Hardness Range', value: '50 - 90 Shore A' },
+      { name: 'Tensile Strength', value: '> 12 MPa' },
+      { name: 'Compression Set', value: '< 15% (200°C @ 22h)' },
+    ],
+    engineeringTitle: 'The Engineering Advantage',
+    engineeringP1:
+      'In the 2026 industrial landscape, material integrity is the foundation of hardware reliability. RubberQ\'s FKM solutions are formulated to survive where others fail—specifically in <strong>AI Server Liquid Cooling</strong> and <strong>High-Performance Automotive Engines</strong>.',
+    engineeringP2:
+      'Our IATF 16949 certification ensures that every batch of FKM undergoes rigorous rheology and physical property testing, guaranteeing zero-leakage performance for critical infrastructure.',
+    comparisonTitle: 'Material Comparison: FKM vs. EPDM vs. NBR',
+    comparisonRows: [
+      { feature: 'Heat Limit', values: ['250°C', '150°C', '120°C'] },
+      { feature: 'Oil Resistance', values: ['Superior', 'Poor', 'Excellent'] },
+      { feature: 'Cost Index', values: ['High', 'Low', 'Medium'] },
+    ],
+    ctaTitle: 'Custom Solution?',
+    ctaDesc: 'Need a custom FKM formulation for a specific AI or Robotics application? Our material engineers are ready to assist.',
+    jsonLdName: 'FKM (Fluoroelastomer)',
+  },
+  epdm: {
+    name: 'EPDM (Ethylene Propylene)',
+    slug: 'epdm',
+    description: 'Superior weather resistance and flex life for robotics and outdoor machinery applications.',
+    summaryItems: [
+      { term: 'Weather Resistance', description: 'Outstanding ozone and UV stability for outdoor use' },
+      { term: 'Temperature Range', description: '-50°C to +150°C continuous service' },
+      { term: 'Standard Compliance', description: 'ASTM D2000 CA, ISO 3302-1 M2' },
+    ],
+    techData: [
+      { name: 'Material Grade', value: 'Sulfur-Cured EPDM' },
+      { name: 'Hardness Range', value: '40 - 90 Shore A' },
+      { name: 'Tensile Strength', value: '> 10 MPa' },
+      { name: 'Elongation at Break', value: '> 300%' },
+    ],
+    engineeringTitle: 'The Engineering Advantage',
+    engineeringP1:
+      'EPDM delivers unmatched weathering performance for outdoor and water-based applications. RubberQ\'s EPDM compounds are optimized for <strong>Robotics Joint Bellows</strong> and <strong>AI Data Center Cooling Gaskets</strong> where long-term environmental exposure is a concern.',
+    engineeringP2:
+      'Our IATF 16949 certified production ensures consistent compound dispersion and vulcanization, delivering zero-leakage sealing for extended outdoor service life.',
+    comparisonTitle: 'Material Comparison: EPDM vs. FKM vs. NBR',
+    comparisonRows: [
+      { feature: 'Heat Limit', values: ['150°C', '250°C', '120°C'] },
+      { feature: 'Weather Resistance', values: ['Superior', 'Good', 'Fair'] },
+      { feature: 'Cost Index', values: ['Low', 'High', 'Medium'] },
+    ],
+    ctaTitle: 'Custom Solution?',
+    ctaDesc: 'Need a custom EPDM formulation for outdoor or water-based applications? Our material engineers are ready to assist.',
+    jsonLdName: 'EPDM (Ethylene Propylene)',
+  },
+  nbr: {
+    name: 'NBR (Nitrile Rubber)',
+    slug: 'nbr',
+    description: 'Standard for oil resistance in general industrial and mechanical seals.',
+    summaryItems: [
+      { term: 'Oil Resistance', description: 'Excellent resistance to petroleum-based oils and fuels' },
+      { term: 'Temperature Range', description: '-30°C to +120°C continuous service' },
+      { term: 'Standard Compliance', description: 'ASTM D2000 BF, ISO 3601-1 Class B' },
+    ],
+    techData: [
+      { name: 'Material Grade', value: 'Medium-High ACN NBR' },
+      { name: 'Hardness Range', value: '50 - 90 Shore A' },
+      { name: 'Tensile Strength', value: '> 12 MPa' },
+      { name: 'Compression Set', value: '< 20% (100°C @ 22h)' },
+    ],
+    engineeringTitle: 'The Engineering Advantage',
+    engineeringP1:
+      'NBR is the workhorse of industrial sealing — cost-effective yet highly capable in oil-rich environments. RubberQ\'s NBR compounds are specified for <strong>Hydraulic Systems</strong> and <strong>General Machinery Seals</strong> requiring reliable fluid containment.',
+    engineeringP2:
+      'Every NBR batch undergoes oil-immersion swell testing per ASTM D471, ensuring predictable dimensional stability in service.',
+    comparisonTitle: 'Material Comparison: NBR vs. FKM vs. EPDM',
+    comparisonRows: [
+      { feature: 'Heat Limit', values: ['120°C', '250°C', '150°C'] },
+      { feature: 'Oil Resistance', values: ['Excellent', 'Superior', 'Poor'] },
+      { feature: 'Cost Index', values: ['Medium', 'High', 'Low'] },
+    ],
+    ctaTitle: 'Custom Solution?',
+    ctaDesc: 'Need a custom NBR formulation for specialized oil resistance? Our material engineers are ready to assist.',
+    jsonLdName: 'NBR (Nitrile Rubber)',
+  },
+  silicone: {
+    name: 'Silicone (VMQ)',
+    slug: 'silicone',
+    description: 'Medical and food-grade safety with excellent thermal stability.',
+    summaryItems: [
+      { term: 'Thermal Stability', description: '-60°C to +230°C continuous service' },
+      { term: 'Biocompatibility', description: 'FDA and USP Class VI compliant grades available' },
+      { term: 'Standard Compliance', description: 'ASTM D2000 GE, ISO 10993 biocompatibility' },
+    ],
+    techData: [
+      { name: 'Material Grade', value: 'Platinum-Cured VMQ' },
+      { name: 'Hardness Range', value: '30 - 80 Shore A' },
+      { name: 'Tensile Strength', value: '> 8 MPa' },
+      { name: 'Tear Strength', value: '> 20 kN/m' },
+    ],
+    engineeringTitle: 'The Engineering Advantage',
+    engineeringP1:
+      'Silicone excels in extreme temperature and biocompatibility applications. RubberQ\'s platinum-cured VMQ is the material of choice for <strong>Medical Device Seals</strong> and <strong>Food Processing Equipment</strong> where purity and thermal cycling stability are non-negotiable.',
+    engineeringP2:
+      'Our cleanroom-compatible production ensures low extractables and full traceability for regulated industries.',
+    comparisonTitle: 'Material Comparison: Silicone vs. FKM vs. EPDM',
+    comparisonRows: [
+      { feature: 'Heat Limit', values: ['230°C', '250°C', '150°C'] },
+      { feature: 'Biocompatibility', values: ['Superior', 'Fair', 'Good'] },
+      { feature: 'Cost Index', values: ['Medium', 'High', 'Low'] },
+    ],
+    ctaTitle: 'Custom Solution?',
+    ctaDesc: 'Need a custom silicone formulation for medical or food-grade applications? Our material engineers are ready to assist.',
+    jsonLdName: 'Silicone (VMQ)',
+  },
+};
+
+const data = materialMap[slug];
+if (!data) {
+  throw new Error(`Unknown material: ${slug}`);
+}
+
+const jsonLd = JSON.stringify({
+  '@context': 'https://schema.org/',
+  '@type': 'Product',
+  name: data.jsonLdName,
+  description: data.description,
+  brand: { '@type': 'Brand', name: 'RubberQ' },
+  additionalProperty: data.techData.map(prop => ({
+    '@type': 'PropertyValue',
+    name: prop.name,
+    value: prop.value,
+  })),
+});
+---
+
+<LocaleLayout locale={locale}>
+  <Fragment slot="head">
+    <title>{data.name} — Technical Specifications | RubberQ</title>
+    <meta name="description" content={data.description} />
+    <script type="application/ld+json" set:html={jsonLd}></script>
+  </Fragment>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <!-- Header -->
+    <div class="mb-12 border-b border-industrial-100 pb-8">
+      <h1 class="text-4xl md:text-5xl font-bold tracking-tighter text-industrial-900 mb-4 uppercase">
+        {data.name}
+      </h1>
+      <p class="text-xl text-industrial-600 max-w-3xl leading-relaxed">
+        {data.description}
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+      <!-- Main Content -->
+      <div class="lg:col-span-2">
+        <!-- Summary Snippet -->
+        <div class="bg-industrial-100 border-l-4 border-industrial-900 p-6 my-8 shadow-sm">
+          <ul class="space-y-3">
+            {data.summaryItems.map((item) => (
+              <li class="text-industrial-600 leading-relaxed">
+                <span class="font-bold text-industrial-900">{item.term}</span>: {item.description}
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <!-- Engineering Prose -->
+        <section class="prose prose-slate max-w-none my-12">
+          <h2 class="text-2xl font-bold text-industrial-900 uppercase mb-6 tracking-tight">{data.engineeringTitle}</h2>
+          <p class="text-industrial-600 leading-7 mb-6" set:html={data.engineeringP1}></p>
+          <p class="text-industrial-600 leading-7">{data.engineeringP2}</p>
+        </section>
+
+        <!-- Comparison Matrix -->
+        <div class="my-10">
+          <h3 class="text-lg font-bold mb-4 text-industrial-900 uppercase tracking-wider">{data.comparisonTitle}</h3>
+          <div class="overflow-x-auto border border-industrial-700 rounded-lg shadow-sm bg-white">
+            <table class="min-w-full divide-y divide-industrial-200">
+              <thead class="bg-gray-50">
+                <tr>
+                  <th class="px-6 py-3 text-left text-sm font-bold text-industrial-900 tracking-wider border-r border-industrial-200 bg-industrial-100">Feature</th>
+                  {data.comparisonRows[0].values.map((_, i) => {
+                    const names = data.comparisonTitle.includes(' vs. ')
+                      ? data.comparisonTitle.split(' vs. ').slice(1)
+                      : [];
+                    const headerNames = [data.name.split(' ')[0], ...names];
+                    return (
+                      <th class="px-6 py-3 text-left text-sm font-bold text-industrial-900 tracking-wider border-r border-industrial-200 bg-gray-50">
+                        {headerNames[i] || `Col ${i + 1}`}
+                      </th>
+                    );
+                  })}
+                </tr>
+              </thead>
+              <tbody class="bg-white divide-y divide-industrial-200">
+                {data.comparisonRows.map((row) => (
+                  <tr class="hover:bg-gray-50 transition-colors">
+                    <td class="px-6 py-4 whitespace-nowrap text-sm font-bold text-industrial-900 bg-industrial-100 border-r border-industrial-200">
+                      {row.feature}
+                    </td>
+                    {row.values.map((val) => (
+                      <td class="px-6 py-4 whitespace-nowrap text-sm text-industrial-600 border-r border-industrial-200 last:border-r-0">
+                        {val}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="lg:col-span-1">
+        <!-- Technical Table -->
+        <div class="overflow-hidden border border-industrial-700 rounded-lg">
+          <div class="bg-industrial-900 text-white px-4 py-2 font-semibold text-sm uppercase tracking-wider">
+            Technical Specifications
+          </div>
+          <table class="min-w-full divide-y divide-industrial-700">
+            <tbody class="bg-white divide-y divide-industrial-100">
+              {data.techData.map((prop, i) => (
+                <tr class={i % 2 === 0 ? 'bg-white' : 'bg-industrial-100/50'}>
+                  <td class="px-6 py-4 text-sm font-semibold text-industrial-900 w-1/3 border-r border-industrial-100">
+                    {prop.name}
+                  </td>
+                  <td class="px-6 py-4 text-sm text-industrial-600 font-mono">
+                    {prop.value}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <!-- CTA -->
+        <div class="bg-industrial-900 text-white p-8 rounded-sm shadow-xl sticky top-24 mt-8">
+          <h4 class="text-lg font-bold mb-4 uppercase tracking-wider">{data.ctaTitle}</h4>
+          <p class="text-industrial-500 text-sm mb-6 leading-relaxed">
+            {data.ctaDesc}
+          </p>
+          <a
+            href={`/${locale}/contact`}
+            class="block text-center w-full bg-accent-orange text-white py-3 font-bold text-sm tracking-widest hover:bg-white hover:text-industrial-900 transition-all duration-300"
+          >
+            REQUEST CONSULTATION
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</LocaleLayout>

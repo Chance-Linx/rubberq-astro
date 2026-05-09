@@ -1,0 +1,30 @@
+---
+import LocaleLayout from '@/layouts/LocaleLayout.astro';
+import { getTranslations, t } from '@/lib/i18n';
+import SearchPageClient from '@/components/search/SearchPageClient';
+
+export function getStaticPaths() {
+  return ['en','de','ja','es','zh'].map(locale => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params;
+const messages = await getTranslations(locale);
+const meta = messages?.metadata || {};
+const se = (key: string, fallback = '') => t(messages, `search.${key}`, fallback);
+
+const labels = {
+  title: se('hero.title') || 'Search',
+  subtitle: se('hero.subtitle') || 'Find products, materials, resources, and technical articles.',
+  placeholder: se('placeholder') || 'Search...',
+  emptyState: se('emptyState') || 'Enter a search term above to find products, materials, guides, and blog articles.',
+  empty: se('empty') || 'No results found. Try different keywords.',
+};
+---
+
+<LocaleLayout locale={locale}>
+  <Fragment slot="head">
+    <title>{meta.search?.title || 'Search'}</title>
+    <meta name="description" content={meta.search?.description || ''} />
+  </Fragment>
+  <SearchPageClient client:load locale={locale} labels={labels} />
+</LocaleLayout>

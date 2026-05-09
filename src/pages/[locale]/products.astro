@@ -1,0 +1,314 @@
+---
+import LocaleLayout from '@/layouts/LocaleLayout.astro';
+import { getTranslations, t } from '@/lib/i18n';
+import OptimizedImage from '@/components/OptimizedImage.tsx';
+import TrackableDownloadLink from '@/components/TrackableDownloadLink.tsx';
+
+export function getStaticPaths() {
+  return ['en','de','ja','es','zh'].map(locale => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params;
+const messages = await getTranslations(locale);
+const pp = (key: string, fallback = '') => t(messages, `productsPage.${key}`, fallback);
+
+const productCategories = [
+  {
+    id: 'seals',
+    name: pp('seals.name'),
+    description: pp('seals.desc'),
+    materials: ['FKM (Viton®)', 'NBR (Nitrile)', 'EPDM', 'HNBR', 'FFKM'],
+    applications: [pp('seals.applications.0'), pp('seals.applications.1'), pp('seals.applications.2'), pp('seals.applications.3')],
+    specs: pp('seals.specs'),
+    image: '/images/legacy_resource/2021/01/13/5ffee6d29ce67.jpg',
+    features: [pp('seals.features.0'), pp('seals.features.1'), pp('seals.features.2')],
+  },
+  {
+    id: 'gaskets',
+    name: pp('gaskets.name'),
+    description: pp('gaskets.desc'),
+    materials: ['Reinforced NBR', 'EPDM sponge', 'Silicone rubber', 'PTFE bonded', 'Graphite filled'],
+    applications: [pp('gaskets.applications.0'), pp('gaskets.applications.1'), pp('gaskets.applications.2'), pp('gaskets.applications.3')],
+    specs: pp('gaskets.specs'),
+    image: '/images/legacy_resource/2021/01/13/5ffee5e7e0129.jpg',
+    features: [pp('gaskets.features.0'), pp('gaskets.features.1'), pp('gaskets.features.2')],
+  },
+  {
+    id: 'bellows',
+    name: pp('bellows.name'),
+    description: pp('bellows.desc'),
+    materials: ['Neoprene (CR)', 'TPU-coated', 'FKM', 'Fabric-reinforced', 'Convoluted designs'],
+    applications: [pp('bellows.applications.0'), pp('bellows.applications.1'), pp('bellows.applications.2'), pp('bellows.applications.3')],
+    specs: pp('bellows.specs'),
+    image: '/images/legacy_resource/2021/01/13/5ffee5f922736.jpg',
+    features: [pp('bellows.features.0'), pp('bellows.features.1'), pp('bellows.features.2')],
+  },
+  {
+    id: 'custom',
+    name: pp('custom.name'),
+    description: pp('custom.desc'),
+    materials: ['All elastomer types', 'Metal bonding', 'Plastic overmolding', 'Multi-durometer'],
+    applications: [pp('custom.applications.0'), pp('custom.applications.1'), pp('custom.applications.2'), pp('custom.applications.3')],
+    specs: pp('custom.specs'),
+    image: '/images/legacy_resource/2021/01/13/5ffee5158656d.jpg',
+    features: [pp('custom.features.0'), pp('custom.features.1'), pp('custom.features.2')],
+  },
+];
+
+const certifications = [pp('certifications.0'), pp('certifications.1'), pp('certifications.2'), pp('certifications.3')];
+const engineeringServices = [pp('engineeringServices.0'), pp('engineeringServices.1'), pp('engineeringServices.2'), pp('engineeringServices.3'), pp('engineeringServices.4')];
+
+const downloads = [
+  { name: pp('downloads.0.name'), size: pp('downloads.0.size'), url: '/downloads/material-selection-guide.pdf', fileType: 'PDF' },
+  { name: pp('downloads.1.name'), size: pp('downloads.1.size'), url: '/downloads/rubber-design-manual.pdf', fileType: 'PDF' },
+  { name: pp('downloads.2.name'), size: pp('downloads.2.size'), url: '/downloads/iso-tolerance-chart.pdf', fileType: 'PDF' },
+];
+---
+
+<LocaleLayout locale={locale}>
+  <Fragment slot="head">
+    <title>{pp('metadata.title')}</title>
+    <meta name="description" content={pp('metadata.description')} />
+  </Fragment>
+
+  <div class="bg-white min-h-screen">
+    <!-- Hero Section -->
+    <section class="relative bg-industrial-900 text-white py-24 overflow-hidden">
+      <div class="absolute inset-0 bg-grid-pattern bg-grid-size opacity-5"></div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="max-w-3xl">
+          <div class="inline-flex items-center gap-2 bg-accent-orange/10 border border-accent-orange/30 text-accent-orange px-4 py-1.5 text-xs font-bold tracking-widest uppercase mb-6">
+            {pp('badge')}
+          </div>
+          <h1 class="text-5xl md:text-6xl font-bold tracking-tighter mb-6 leading-[0.95]">
+            {pp('title').split(' ')[0]} <span class="text-industrial-500">{pp('title').split(' ')[1]}</span>
+          </h1>
+          <p class="text-xl text-industrial-300 leading-relaxed max-w-2xl">
+            {pp('subtitle')}
+          </p>
+        </div>
+      </div>
+
+      <!-- Floating Badge -->
+      <div class="absolute right-8 bottom-8 hidden lg:block">
+        <div class="bg-white/10 backdrop-blur-sm border border-white/20 p-6 max-w-xs">
+          <p class="text-xs font-bold uppercase tracking-widest text-accent-orange mb-2">{pp('capability')}</p>
+          <p class="text-2xl font-bold tracking-tighter">20,000m²</p>
+          <p class="text-xs text-industrial-400 mt-1">{pp('manufacturingFootprint')}</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Bar -->
+    <section class="bg-industrial-100 py-6 border-b border-industrial-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-wrap justify-center gap-6 md:gap-12">
+          {certifications.map((cert) => (
+            <div class="flex items-center gap-2">
+              <svg class="w-4 h-4 text-accent-orange flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <span class="text-xs font-bold uppercase tracking-wider text-industrial-700">{cert}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section class="py-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="mb-16 text-center">
+          <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-4">
+            {pp('categoriesTitle').split(' ')[0]} <span class="text-industrial-500">{pp('categoriesTitle').split(' ')[1]}</span>
+          </h2>
+          <p class="text-industrial-600 max-w-2xl mx-auto">
+            {pp('categoriesSubtitle')}
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {productCategories.map((product) => (
+            <div class="group border border-industrial-200 hover:border-accent-orange transition-all duration-300 bg-white hover:shadow-xl">
+              <!-- Image -->
+              <div class="aspect-[16/9] overflow-hidden bg-industrial-100 relative">
+                <OptimizedImage
+                  client:load
+                  src={product.image}
+                  alt={product.name}
+                  width={800}
+                  height={450}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+                />
+                <div class="absolute top-4 right-4 bg-white px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-industrial-900">
+                  {product.specs}
+                </div>
+              </div>
+
+              <!-- Content -->
+              <div class="p-8">
+                <h3 class="text-2xl font-bold text-industrial-900 mb-3 group-hover:text-accent-orange transition-colors">
+                  {product.name}
+                </h3>
+                <p class="text-industrial-600 text-sm leading-relaxed mb-6">
+                  {product.description}
+                </p>
+
+                <!-- Materials -->
+                <div class="mb-6">
+                  <h4 class="text-xs font-bold uppercase tracking-wider text-industrial-500 mb-3">
+                    {pp('seals.materialsTitle')}
+                  </h4>
+                  <div class="flex flex-wrap gap-2">
+                    {product.materials.map((mat) => (
+                      <span class="bg-industrial-100 text-industrial-700 px-3 py-1 text-xs font-medium">
+                        {mat}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <!-- Features -->
+                <div class="mb-6">
+                  <h4 class="text-xs font-bold uppercase tracking-wider text-industrial-500 mb-3">
+                    {pp('seals.featuresTitle')}
+                  </h4>
+                  <ul class="space-y-2">
+                    {product.features.map((feature) => (
+                      <li class="flex items-start gap-2 text-sm text-industrial-600">
+                        <span class="text-accent-orange font-bold mt-0.5">›</span>
+                        {feature}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <!-- Applications -->
+                <div class="bg-industrial-50 p-4 mb-6">
+                  <h4 class="text-xs font-bold uppercase tracking-wider text-industrial-500 mb-2">
+                    {pp('seals.applicationsTitle')}
+                  </h4>
+                  <p class="text-sm text-industrial-700">
+                    {product.applications.join(' • ')}
+                  </p>
+                </div>
+
+                <!-- CTA -->
+                <div class="flex flex-wrap items-center gap-4">
+                  <a
+                    href={`/${locale}/products/${product.id}`}
+                    class="inline-flex items-center gap-2 text-sm font-bold uppercase tracking-wider text-industrial-900 hover:text-accent-orange transition-colors group/link"
+                  >
+                    {pp('viewDetails')}
+                    <svg class="w-4 h-4 group-hover/link:translate-x-1 transition-transform" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  </a>
+
+                  <a
+                    href={`/${locale}/contact`}
+                    class="inline-flex items-center gap-2 text-sm font-bold uppercase tracking-wider text-accent-orange hover:text-industrial-900 transition-colors"
+                  >
+                    {pp('requestQuote')}
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Custom Engineering Section -->
+    <section class="bg-industrial-900 text-white py-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div>
+            <h2 class="text-4xl font-bold tracking-tighter mb-6">
+              {pp('customEngineering').split(' ')[0]} <span class="text-accent-orange">{pp('customEngineering').split(' ')[1]}</span>
+            </h2>
+            <p class="text-industrial-300 text-lg leading-relaxed mb-8">
+              {pp('customEngineeringDesc')}
+            </p>
+
+            <div class="space-y-4 mb-10">
+              {engineeringServices.map((item) => (
+                <div class="flex items-center gap-3">
+                  <svg class="w-5 h-5 text-accent-orange flex-shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                  <span class="text-industrial-200">{item}</span>
+                </div>
+              ))}
+            </div>
+
+            <a
+              href={`/${locale}/sample-request`}
+              class="inline-flex items-center gap-2 bg-accent-orange text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-industrial-900 transition-all duration-300"
+            >
+              {pp('startProject')}
+              <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+
+            <a
+              href={`/${locale}/batch-rfq`}
+              class="inline-flex mt-4 items-center gap-2 text-sm font-bold uppercase tracking-wider text-industrial-200 hover:text-white transition-colors"
+            >
+              Batch RFQ
+              <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+
+          <div class="grid grid-cols-2 gap-6">
+            <div class="bg-white/5 backdrop-blur-sm border border-white/10 p-8 text-center">
+              <div class="text-4xl font-bold text-accent-orange mb-2">2,000+</div>
+              <div class="text-xs font-bold uppercase tracking-wider text-industrial-400">{pp('stats.toolings')}</div>
+            </div>
+            <div class="bg-white/5 backdrop-blur-sm border border-white/10 p-8 text-center">
+              <div class="text-4xl font-bold text-accent-orange mb-2">72hr</div>
+              <div class="text-xs font-bold uppercase tracking-wider text-industrial-400">{pp('stats.turnaround')}</div>
+            </div>
+            <div class="bg-white/5 backdrop-blur-sm border border-white/10 p-8 text-center">
+              <div class="text-4xl font-bold text-accent-orange mb-2">±0.05mm</div>
+              <div class="text-xs font-bold uppercase tracking-wider text-industrial-400">{pp('stats.tolerance')}</div>
+            </div>
+            <div class="bg-white/5 backdrop-blur-sm border border-white/10 p-8 text-center">
+              <div class="text-4xl font-bold text-accent-orange mb-2">ISO</div>
+              <div class="text-xs font-bold uppercase tracking-wider text-industrial-400">{pp('stats.standard')}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Downloads Section -->
+    <section class="py-24 bg-industrial-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl font-bold tracking-tighter text-industrial-900 mb-4">
+            {pp('resourcesTitle').split(' ')[0]} <span class="text-industrial-500">{pp('resourcesTitle').split(' ')[1]}</span>
+          </h2>
+          <p class="text-industrial-600">{pp('resourcesSubtitle')}</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {downloads.map((doc) => (
+            <TrackableDownloadLink
+              client:load
+              href={doc.url}
+              fileName={doc.name}
+              fileType={doc.fileType}
+              className="bg-white border border-industrial-200 p-6 flex items-center gap-4 hover:border-accent-orange transition-colors cursor-pointer group"
+            >
+              <div class="bg-industrial-100 p-3 group-hover:bg-accent-orange/10 transition-colors">
+                <svg class="w-6 h-6 text-industrial-600 group-hover:text-accent-orange" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
+              </div>
+              <div class="flex-1">
+                <h4 class="font-bold text-industrial-900 text-sm group-hover:text-accent-orange transition-colors">
+                  {doc.name}
+                </h4>
+                <p class="text-xs text-industrial-500">{doc.size}</p>
+              </div>
+              <svg class="w-5 h-5 text-industrial-400 group-hover:text-accent-orange transition-colors" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            </TrackableDownloadLink>
+          ))}
+        </div>
+      </div>
+    </section>
+  </div>
+</LocaleLayout>

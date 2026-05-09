@@ -1,0 +1,73 @@
+---
+import LocaleLayout from '@/layouts/LocaleLayout.astro';
+import { getTranslations, t } from '@/lib/i18n';
+import BatchRfqForm from '@/components/contact/BatchRfqForm.tsx';
+
+export function getStaticPaths() {
+  return ['en','de','ja','es','zh'].map(locale => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params;
+const messages = await getTranslations(locale);
+const pp = (key: string, fallback = '') => t(messages, `productsPage.${key}`, fallback);
+const productOptions = [
+  { id: 'seals', label: pp('seals.name') },
+  { id: 'gaskets', label: pp('gaskets.name') },
+  { id: 'bellows', label: pp('bellows.name') },
+  { id: 'custom', label: pp('custom.name') },
+];
+
+const labelsByLocale: Record<string, Record<string,string>> = {
+  en: { title:'Batch RFQ', subtitle:'Select multiple product families and submit one consolidated quotation request.', point1:'Select all product families needed in this project.', point2:'Provide target material and annual volume estimate.', point3:'Attach drawing link for faster engineering response.', name:'Name *', email:'Email *', company:'Company', country:'Country *', annualVolume:'Annual Volume (pcs/year)', targetMaterial:'Target Material', drawingLink:'Drawing/File Link', notes:'Project Notes', productsTitle:'Select Products', productHint:'Please select at least one product.', submit:'Submit Batch RFQ', submitting:'Submitting...', success:'Batch RFQ Submitted', successMessage:'Your request has been delivered to engineering sales.', error:'Submission Failed', errorMessage:'Please retry or email contact@rubberq.com.' },
+  zh: { title:'批量询价', subtitle:'可一次选择多个产品线并提交统一报价需求。', point1:'勾选本项目涉及的全部产品类型。', point2:'填写目标材料与年需求量。', point3:'提供图纸链接可加快工程响应。', name:'姓名 *', email:'邮箱 *', company:'公司', country:'国家/地区 *', annualVolume:'年需求量 (件/年)', targetMaterial:'目标材料', drawingLink:'图纸/文件链接', notes:'项目备注', productsTitle:'选择产品', productHint:'请至少选择一个产品。', submit:'提交批量询价', submitting:'提交中...', success:'提交成功', successMessage:'批量询价已发送至工程销售团队。', error:'提交失败', errorMessage:'请重试或发送邮件至 contact@rubberq.com。' },
+  de: { title:'Sammelanfrage', subtitle:'Wahlen Sie mehrere Produktfamilien und senden Sie eine gebundelte Anfrage.', point1:'Alle relevanten Produktfamilien fur das Projekt auswahlen.', point2:'Zielmaterial und Jahresmenge angeben.', point3:'Zeichnungslink fur schnellere technische Ruckmeldung teilen.', name:'Name *', email:'E-Mail *', company:'Unternehmen', country:'Land *', annualVolume:'Jahresvolumen (Stk/Jahr)', targetMaterial:'Zielmaterial', drawingLink:'Zeichnungs-/Dateilink', notes:'Projektnotizen', productsTitle:'Produkte auswahlen', productHint:'Bitte mindestens ein Produkt auswahlen.', submit:'Sammelanfrage senden', submitting:'Wird gesendet...', success:'Anfrage gesendet', successMessage:'Ihre Sammelanfrage wurde an den technischen Vertrieb ubermittelt.', error:'Senden fehlgeschlagen', errorMessage:'Bitte erneut versuchen oder contact@rubberq.com kontaktieren.' },
+  ja: { title:'一括見積依頼', subtitle:'複数の製品カテゴリをまとめて見積依頼できます。', point1:'本案件で必要な製品カテゴリを複数選択。', point2:'目標材質と年間数量を入力。', point3:'図面リンク共有で技術回答を迅速化。', name:'お名前 *', email:'メール *', company:'会社名', country:'国/地域 *', annualVolume:'年間数量 (個/年)', targetMaterial:'希望材質', drawingLink:'図面/ファイルリンク', notes:'プロジェクトメモ', productsTitle:'製品を選択', productHint:'少なくとも1つ選択してください。', submit:'一括見積を送信', submitting:'送信中...', success:'送信完了', successMessage:'一括見積依頼を営業技術チームへ送信しました。', error:'送信失敗', errorMessage:'再試行するか contact@rubberq.com へご連絡ください。' },
+  es: { title:'RFQ por Lote', subtitle:'Seleccione varias familias de productos y envie una sola solicitud de cotizacion.', point1:'Seleccione todas las familias de productos del proyecto.', point2:'Indique material objetivo y volumen anual.', point3:'Comparta enlace de plano para acelerar respuesta tecnica.', name:'Nombre *', email:'Correo *', company:'Empresa', country:'Pais *', annualVolume:'Volumen anual (pzs/ano)', targetMaterial:'Material objetivo', drawingLink:'Enlace de plano/archivo', notes:'Notas del proyecto', productsTitle:'Seleccione productos', productHint:'Seleccione al menos un producto.', submit:'Enviar RFQ por lote', submitting:'Enviando...', success:'Solicitud enviada', successMessage:'La solicitud fue enviada al equipo tecnico-comercial.', error:'Error de envio', errorMessage:'Intente de nuevo o escriba a contact@rubberq.com.' },
+};
+const L = labelsByLocale[locale] || labelsByLocale.en;
+---
+
+<LocaleLayout locale={locale}>
+  <Fragment slot="head">
+    <title>{L.title} | RubberQ</title>
+    <meta name="description" content={L.subtitle} />
+  </Fragment>
+
+  <div class="bg-white min-h-screen">
+    <section class="bg-industrial-900 text-white py-20 px-4">
+      <div class="max-w-6xl mx-auto">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">{L.title}</h1>
+        <p class="text-industrial-300 text-lg max-w-3xl">{L.subtitle}</p>
+      </div>
+    </section>
+
+    <section class="max-w-6xl mx-auto px-4 py-14 grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <div class="space-y-4">
+        <div class="border border-industrial-200 p-5 bg-industrial-50">
+          <div class="flex items-center gap-2 mb-2 text-accent-orange">
+            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/><path d="M9 14h6"/><path d="M9 18h6"/></svg>
+            <span class="text-xs font-bold uppercase tracking-wider">Step 1</span>
+          </div>
+          <p class="text-sm text-industrial-700">{L.point1}</p>
+        </div>
+        <div class="border border-industrial-200 p-5 bg-industrial-50">
+          <div class="flex items-center gap-2 mb-2 text-accent-orange">
+            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+            <span class="text-xs font-bold uppercase tracking-wider">Step 2</span>
+          </div>
+          <p class="text-sm text-industrial-700">{L.point2}</p>
+        </div>
+        <div class="border border-industrial-200 p-5 bg-industrial-50">
+          <div class="flex items-center gap-2 mb-2 text-accent-orange">
+            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+            <span class="text-xs font-bold uppercase tracking-wider">Step 3</span>
+          </div>
+          <p class="text-sm text-industrial-700">{L.point3}</p>
+        </div>
+      </div>
+      <div class="lg:col-span-2">
+        <BatchRfqForm client:load labels={L} productOptions={productOptions} />
+      </div>
+    </section>
+  </div>
+</LocaleLayout>

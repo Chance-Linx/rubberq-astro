@@ -1,0 +1,125 @@
+---
+import LocaleLayout from '@/layouts/LocaleLayout.astro';
+import { getTranslations, t } from '@/lib/i18n';
+
+export function getStaticPaths() {
+  return ['en','de','ja','es','zh'].map(locale => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params;
+const messages = await getTranslations(locale);
+const meta = messages?.metadata || {};
+const _ = (key: string, fallback = '') => t(messages, `termsPage.${key}`, fallback);
+---
+
+<LocaleLayout locale={locale}>
+  <Fragment slot="head">
+    <title>{meta.terms?.title || 'Terms of Service | RubberQ'}</title>
+    <meta name="description" content={meta.terms?.description || ''} />
+  </Fragment>
+
+  <div class="bg-white min-h-screen">
+    <!-- Header -->
+    <section class="bg-industrial-900 text-white py-20 px-4">
+      <div class="max-w-4xl mx-auto">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4 uppercase tracking-tight">{_('title')}</h1>
+        <p class="text-industrial-400">{_('lastUpdated')}</p>
+      </div>
+    </section>
+
+    <!-- Content -->
+    <section class="py-16 px-4">
+      <div class="max-w-4xl mx-auto prose prose-industrial max-w-none">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+          <div class="flex gap-4 p-6 border border-industrial-100 bg-industrial-50 rounded-lg">
+            <svg class="w-10 h-10 text-accent-orange shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="4 17 10 11 4 5"/>
+              <line x1="12" y1="19" x2="20" y2="19"/>
+            </svg>
+            <div>
+              <h3 class="font-bold uppercase mb-2">{_('cards.legalBinding.title')}</h3>
+              <p class="text-sm text-industrial-600">{_('cards.legalBinding.description')}</p>
+            </div>
+          </div>
+          <div class="flex gap-4 p-6 border border-industrial-100 bg-industrial-50 rounded-lg">
+            <svg class="w-10 h-10 text-accent-orange shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+              <line x1="12" y1="9" x2="12" y2="13"/>
+              <line x1="12" y1="17" x2="12.01" y2="17"/>
+            </svg>
+            <div>
+              <h3 class="font-bold uppercase mb-2">{_('cards.technicalDisclaimer.title')}</h3>
+              <p class="text-sm text-industrial-600">{_('cards.technicalDisclaimer.description')}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-12 text-industrial-800">
+          <section>
+            <h2 class="text-2xl font-bold border-b border-industrial-200 pb-2 mb-4 uppercase tracking-wide">{_('sections.acceptance.title')}</h2>
+            <p class="leading-relaxed">
+              {_('sections.acceptance.content')}
+            </p>
+          </section>
+
+          <section>
+            <h2 class="text-2xl font-bold border-b border-industrial-200 pb-2 mb-4 uppercase tracking-wide">{_('sections.siteContent.title')}</h2>
+            <p class="leading-relaxed mb-4">
+              {_('sections.siteContent.content')}
+            </p>
+            <ul class="list-disc pl-6 space-y-2">
+              <li>{_('sections.siteContent.items.0')}</li>
+              <li>{_('sections.siteContent.items.1')}</li>
+              <li>{_('sections.siteContent.items.2')}</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 class="text-2xl font-bold border-b border-industrial-200 pb-2 mb-4 uppercase tracking-wide">{_('sections.intellectualProperty.title')}</h2>
+            <p class="leading-relaxed">
+              {_('sections.intellectualProperty.content')}
+            </p>
+          </section>
+
+          <section>
+            <h2 class="text-2xl font-bold border-b border-industrial-200 pb-2 mb-4 uppercase tracking-wide">{_('sections.engineeringDisclaimer.title')}</h2>
+            <p class="leading-relaxed bg-industrial-50 p-6 italic border-l-4 border-accent-orange">
+              {_('sections.engineeringDisclaimer.content')}
+            </p>
+          </section>
+
+          <section>
+            <h2 class="text-2xl font-bold border-b border-industrial-200 pb-2 mb-4 uppercase tracking-wide">{_('sections.quotations.title')}</h2>
+            <p class="leading-relaxed">
+              {_('sections.quotations.content')}
+            </p>
+          </section>
+
+          <section>
+            <h2 class="text-2xl font-bold border-b border-industrial-200 pb-2 mb-4 uppercase tracking-wide">{_('sections.liability.title')}</h2>
+            <p class="leading-relaxed">
+              {_('sections.liability.content')}
+            </p>
+          </section>
+
+          <section>
+            <h2 class="text-2xl font-bold border-b border-industrial-200 pb-2 mb-4 uppercase tracking-wide">{_('sections.governingLaw.title')}</h2>
+            <p class="leading-relaxed">
+              {_('sections.governingLaw.content')}
+            </p>
+          </section>
+
+          <section class="bg-industrial-900 text-white p-8">
+            <h2 class="text-xl font-bold mb-4 uppercase">{_('contact.title')}</h2>
+            <p class="text-industrial-400">
+              {_('contact.description')}<br /><br />
+              <strong>{_('contact.department')}</strong><br />
+              {_('contact.company')}<br />
+              {_('contact.email')}
+            </p>
+          </section>
+        </div>
+      </div>
+    </section>
+  </div>
+</LocaleLayout>

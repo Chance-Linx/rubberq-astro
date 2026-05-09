@@ -1,0 +1,21 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Navbar from '@/components/Navbar.astro';
+import Footer from '@/components/Footer.astro';
+
+interface Props {
+  locale: string;
+  title?: string;
+  description?: string;
+}
+
+const { locale, title, description } = Astro.props;
+---
+
+<BaseLayout>
+  <Navbar locale={locale} />
+  <main class="min-h-screen pt-20">
+    <slot />
+  </main>
+  <Footer locale={locale} />
+</BaseLayout>

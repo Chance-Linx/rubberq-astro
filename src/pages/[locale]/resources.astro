@@ -1,0 +1,246 @@
+---
+import LocaleLayout from '@/layouts/LocaleLayout.astro';
+import { getTranslations, t, tRaw } from '@/lib/i18n';
+import { getTechnicalGlossary } from '@/lib/technicalGlossary';
+
+export function getStaticPaths() {
+  return ['en','de','ja','es','zh'].map(locale => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params;
+const messages = await getTranslations(locale);
+const meta = messages?.metadata || {};
+const r = (key: string, fallback = '') => t(messages, `resources.${key}`, fallback);
+const ra = (key: string) => tRaw(messages, `resources.${key}`, []) as string[];
+
+const materials = [
+  { name: 'FKM (Viton®)', description: r('materials.fkm.description'), tempRange: r('materials.fkm.tempRange'), applications: ra('materials.fkm.applications'), features: ra('materials.fkm.features'), icon: 'flask' },
+  { name: 'NBR (Nitrile)', description: r('materials.nbr.description'), tempRange: r('materials.nbr.tempRange'), applications: ra('materials.nbr.applications'), features: ra('materials.nbr.features'), icon: 'droplets' },
+  { name: 'EPDM', description: r('materials.epdm.description'), tempRange: r('materials.epdm.tempRange'), applications: ra('materials.epdm.applications'), features: ra('materials.epdm.features'), icon: 'shield' },
+  { name: 'Silicone', description: r('materials.silicone.description'), tempRange: r('materials.silicone.tempRange'), applications: ra('materials.silicone.applications'), features: ra('materials.silicone.features'), icon: 'thermometer' },
+];
+
+const downloads = [
+  { title: r('downloads.materialGuide.title'), description: r('downloads.materialGuide.description'), fileType: 'PDF', fileSize: '3 KB', url: '/downloads/material-selection-guide.pdf' },
+  { title: r('downloads.designManual.title'), description: r('downloads.designManual.description'), fileType: 'PDF', fileSize: '5 KB', url: '/downloads/rubber-design-manual.pdf' },
+  { title: r('downloads.toleranceChart.title'), description: r('downloads.toleranceChart.description'), fileType: 'PDF', fileSize: '6 KB', url: '/downloads/iso-tolerance-chart.pdf' },
+  { title: r('downloads.qaChecklist.title'), description: r('downloads.qaChecklist.description'), fileType: 'PDF', fileSize: '4 KB', url: '/downloads/quality-checklist.pdf' },
+];
+
+const designGuides = [
+  { title: r('designGuides.wallThickness.title'), content: r('designGuides.wallThickness.content'), tips: ra('designGuides.wallThickness.tips'), icon: 'ruler' },
+  { title: r('designGuides.draftAngles.title'), content: r('designGuides.draftAngles.content'), tips: ra('designGuides.draftAngles.tips'), icon: 'code' },
+  { title: r('designGuides.shrinkage.title'), content: r('designGuides.shrinkage.content'), tips: ra('designGuides.shrinkage.tips'), icon: 'layers' },
+];
+
+const standards = [
+  { code: 'ISO 3601', title: r('standards.iso3601.title'), description: r('standards.iso3601.description') },
+  { code: 'ISO 3302', title: r('standards.iso3302.title'), description: r('standards.iso3302.description') },
+  { code: 'ASTM D2000', title: r('standards.astm.title'), description: r('standards.astm.description') },
+  { code: 'IATF 16949', title: r('standards.iatf.title'), description: r('standards.iatf.description') },
+];
+
+const faqs = [
+  { q: r('faq.q1.question'), a: r('faq.q1.answer') },
+  { q: r('faq.q2.question'), a: r('faq.q2.answer') },
+  { q: r('faq.q3.question'), a: r('faq.q3.answer') },
+  { q: r('faq.q4.question'), a: r('faq.q4.answer') },
+  { q: r('faq.q5.question'), a: r('faq.q5.answer') },
+];
+
+const glossary = getTechnicalGlossary(locale);
+---
+
+<LocaleLayout locale={locale}>
+  <Fragment slot="head">
+    <title>{meta.resources?.title || 'Resources'}</title>
+    <meta name="description" content={meta.resources?.description || ''} />
+  </Fragment>
+
+  <div class="bg-white min-h-screen">
+    <!-- Hero -->
+    <section class="bg-industrial-900 text-white py-24 px-4">
+      <div class="max-w-7xl mx-auto">
+        <div class="max-w-3xl">
+          <div class="inline-flex items-center gap-2 bg-white/10 border border-white/20 px-4 py-1.5 text-xs font-bold tracking-widest uppercase mb-6">
+            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+            {r('hero.badge')}
+          </div>
+          <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">{r('hero.title')}</h1>
+          <p class="text-xl text-industrial-300 leading-relaxed">{r('hero.subtitle')}</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Material Guide -->
+    <section id="materials" class="py-20 px-4 max-w-7xl mx-auto">
+      <div class="mb-12">
+        <h2 class="text-3xl font-bold text-industrial-900 mb-4">{r('materials.title')}</h2>
+        <p class="text-industrial-600 max-w-2xl">{r('materials.subtitle')}</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {materials.map((mat) => (
+          <div class="bg-white border border-industrial-200 p-6 hover:border-accent-orange hover:shadow-lg transition-all group">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-12 h-12 bg-industrial-100 flex items-center justify-center group-hover:bg-accent-orange/10 transition-colors">
+                <svg class="w-6 h-6 text-industrial-600 group-hover:text-accent-orange" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <h3 class="text-xl font-bold text-industrial-900">{mat.name}</h3>
+            </div>
+            <p class="text-sm text-industrial-600 mb-4">{mat.description}</p>
+            <div class="flex items-center gap-2 mb-3 text-sm">
+              <svg class="w-4 h-4 text-accent-orange" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4c0-1.1.9-2 2-2"/><path d="M20 2c1.1 0 2 .9 2 2"/><path d="M22 8c0 1.1-.9 2-2 2"/><path d="M16 10c-1.1 0-2-.9-2-2"/><path d="m3 7 3 3 3-3"/><path d="M6 10V5c0-1.7 1.3-3 3-3h1"/><rect x="2" y="14" width="20" height="8" rx="2"/></svg>
+              <span class="font-medium text-industrial-900">{mat.tempRange}</span>
+            </div>
+            <div class="mb-4">
+              <p class="text-xs font-bold uppercase text-industrial-500 mb-2">{r('materials.applicationsLabel')}</p>
+              <div class="flex flex-wrap gap-2">
+                {mat.applications.map((app) => (<span class="text-xs bg-industrial-50 text-industrial-700 px-2 py-1">{app}</span>))}
+              </div>
+            </div>
+            <ul class="space-y-1 mb-4">
+              {mat.features.map((feat) => (<li class="text-sm text-industrial-600 flex items-start gap-2"><span class="text-accent-orange mt-1">•</span>{feat}</li>))}
+            </ul>
+            <a href={`/${locale}/materials`} class="text-sm text-accent-orange font-medium hover:underline inline-flex items-center gap-1 mt-auto pt-4 border-t border-industrial-100 w-full">
+              {r('materials.viewDatabase')}
+            </a>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Design Guides -->
+    <section id="design" class="py-20 px-4 bg-industrial-50">
+      <div class="max-w-7xl mx-auto">
+        <div class="mb-12">
+          <h2 class="text-3xl font-bold text-industrial-900 mb-4">{r('designGuides.title')}</h2>
+          <p class="text-industrial-600 max-w-2xl">{r('designGuides.subtitle')}</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {designGuides.map((guide) => (
+            <div class="bg-white border-l-4 border-accent-orange p-6 shadow-sm">
+              <div class="flex items-center gap-3 mb-4">
+                <svg class="w-6 h-6 text-accent-orange" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+                <h3 class="text-lg font-bold text-industrial-900">{guide.title}</h3>
+              </div>
+              <p class="text-industrial-600 mb-4">{guide.content}</p>
+              <div class="bg-industrial-50 p-4 rounded">
+                <p class="text-xs font-bold uppercase text-industrial-500 mb-2">{r('designGuides.keyTips')}</p>
+                <ul class="space-y-2">
+                  {guide.tips.map((tip) => (<li class="text-sm text-industrial-700 flex items-start gap-2"><span class="text-accent-orange font-bold">✓</span>{tip}</li>))}
+                </ul>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Standards -->
+    <section id="standards" class="py-20 px-4 max-w-7xl mx-auto">
+      <div class="mb-12">
+        <h2 class="text-3xl font-bold text-industrial-900 mb-4">{r('standards.title')}</h2>
+        <p class="text-industrial-600 max-w-2xl">{r('standards.subtitle')}</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {standards.map((s) => (
+          <div class="flex gap-4 p-6 bg-white border border-industrial-200 hover:border-accent-orange transition-colors">
+            <div class="w-16 h-16 bg-industrial-900 text-white flex items-center justify-center font-bold text-sm flex-shrink-0">{s.code}</div>
+            <div>
+              <h3 class="text-lg font-bold text-industrial-900 mb-2">{s.title}</h3>
+              <p class="text-sm text-industrial-600">{s.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Glossary -->
+    <section id="glossary" class="py-20 px-4 max-w-7xl mx-auto">
+      <div class="mb-8">
+        <h2 class="text-3xl font-bold text-industrial-900 mb-3">{glossary.labels.title}</h2>
+        <p class="text-industrial-600 max-w-3xl">{glossary.labels.subtitle}</p>
+      </div>
+      <div class="overflow-x-auto border border-industrial-200 bg-white">
+        <table class="min-w-full text-sm">
+          <thead class="bg-industrial-50">
+            <tr>
+              <th class="px-4 py-3 text-left font-bold text-industrial-900 uppercase tracking-wider">{glossary.labels.canonicalColumn}</th>
+              <th class="px-4 py-3 text-left font-bold text-industrial-900 uppercase tracking-wider">{glossary.labels.localizedColumn}</th>
+              <th class="px-4 py-3 text-left font-bold text-industrial-900 uppercase tracking-wider">{glossary.labels.definitionColumn}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {glossary.terms.map((term) => (
+              <tr class="border-t border-industrial-100 align-top">
+                <td class="px-4 py-3 font-semibold text-industrial-900">{term.canonical}</td>
+                <td class="px-4 py-3 text-industrial-800">{term.localized}</td>
+                <td class="px-4 py-3 text-industrial-600">{term.definition}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-20 px-4 bg-industrial-50">
+      <div class="max-w-3xl mx-auto">
+        <div class="text-center mb-12">
+          <svg class="w-12 h-12 text-accent-orange mx-auto mb-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>
+          <h2 class="text-3xl font-bold text-industrial-900 mb-4">{r('faq.title')}</h2>
+          <p class="text-industrial-600">{r('faq.subtitle')}</p>
+        </div>
+        <div class="space-y-4">
+          {faqs.map((faq) => (
+            <details class="bg-white border border-industrial-200 group">
+              <summary class="p-6 cursor-pointer font-bold text-industrial-900 hover:text-accent-orange transition-colors list-none flex items-center justify-between">
+                {faq.q}
+                <svg class="w-5 h-5 text-industrial-400 group-open:rotate-180 transition-transform" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+              </summary>
+              <div class="px-6 pb-6 text-industrial-600 text-sm leading-relaxed"><p>{faq.a}</p></div>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- Downloads + CTA -->
+    <section id="downloads" class="py-20 px-4 max-w-7xl mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+        <div>
+          <h2 class="text-3xl font-bold text-industrial-900 mb-4">{r('downloads.title')}</h2>
+          <p class="text-industrial-600 mb-8">{r('downloads.subtitle')}</p>
+          <div class="space-y-4">
+            {downloads.map((dl) => (
+              <div class="flex items-start gap-4 p-4 bg-white border border-industrial-200 hover:border-accent-orange transition-colors">
+                <div class="w-12 h-12 bg-industrial-100 flex items-center justify-center flex-shrink-0">
+                  <svg class="w-6 h-6 text-industrial-600" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <h4 class="font-bold text-industrial-900 mb-1">{dl.title}</h4>
+                  <p class="text-sm text-industrial-600 mb-2">{dl.description}</p>
+                  <div class="flex items-center gap-3">
+                    <span class="text-xs bg-industrial-100 text-industrial-600 px-2 py-0.5">{dl.fileType}</span>
+                    <span class="text-xs text-industrial-500">{dl.fileSize}</span>
+                  </div>
+                </div>
+                <a href={dl.url} download class="flex-shrink-0 p-2 text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 rounded transition-colors" title="Download">
+                  <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div class="bg-industrial-900 text-white p-8">
+          <svg class="w-10 h-10 text-accent-orange mb-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          <h3 class="text-2xl font-bold mb-4">{r('cta.title')}</h3>
+          <p class="text-industrial-300 mb-6">{r('cta.description')}</p>
+          <a href={`/${locale}/contact`} class="inline-flex items-center gap-2 bg-accent-orange text-white px-6 py-3 font-bold uppercase tracking-wider text-sm hover:bg-accent-orange/90 transition-colors">
+            {r('cta.button')}
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</LocaleLayout>

@@ -1,0 +1,1157 @@
+{
+  "metadata": {
+    "title": "RubberQ | 精密橡胶零件制造商 (IATF 16949 认证)",
+    "description": "福州瑞博橡胶有限公司是一家全球汽车级橡胶零部件制造商。专注于为人工智能硬件、机器人及高精度机械提供FKM、EPDM和NBR产品。",
+    "home": {
+      "title": "RubberQ — 精密橡胶制造",
+      "description": "汽车级橡胶部件，服务于机器人、AI基础设施和精密机械领域。IATF 16949认证。"
+    },
+    "blog": {
+      "title": "技术知识中心 | RubberQ",
+      "description": "橡胶工程、质量标准和特定应用解决方案的专业分析。"
+    },
+    "capabilities": {
+      "title": "制造工艺 | RubberQ",
+      "description": "探索RubberQ两阶段混炼和成型工艺，实现汽车级精密制造。"
+    },
+    "caseStudies": {
+      "title": "案例研究 | RubberQ",
+      "description": "机器人、AI基础设施和汽车领域的真实橡胶工程解决方案。"
+    },
+    "contact": {
+      "title": "联系我们 | RubberQ",
+      "description": "联系我们的工程团队，获取定制橡胶部件解决方案。"
+    },
+    "factory": {
+      "title": "工厂参观 | RubberQ",
+      "description": "RubberQ 20,000平方米IATF 16949认证制造设施虚拟参观。"
+    },
+    "materials": {
+      "title": "工业材料 | RubberQ",
+      "description": "工业弹性体技术资源中心 — FKM、EPDM、NBR、硅胶。"
+    },
+    "privacy": {
+      "title": "隐私政策 | RubberQ",
+      "description": "RubberQ如何收集、使用和保护您的商业数据。"
+    },
+    "quality": {
+      "title": "质量保证 | RubberQ",
+      "description": "以IATF 16949、ISO 9001和ISO 14001认证确保毫不妥协的质量。"
+    },
+    "resources": {
+      "title": "技术资源 | RubberQ",
+      "description": "材料选择指南、设计建议和工程技术资源。"
+    },
+    "standards": {
+      "title": "行业标准 | RubberQ",
+      "description": "ASTM D2000、SAE J200、RoHS、REACH合规综合指南。"
+    },
+    "terms": {
+      "title": "Terms of Service | RubberQ",
+      "description": "Terms and conditions for RubberQ website and manufacturing services."
+    },
+    "about": {
+      "title": "我们的传承 | RubberQ",
+      "description": "福州瑞博橡胶有限公司成立于1995年，最初为中日合资企业，将严格的日本制造标准引入中国工业腹地。"
+    }
+  },
+  "navigation": {
+    "products": "产品",
+    "caseStudies": "案例研究",
+    "factory": "工厂",
+    "about": "关于我们",
+    "capabilities": "制造能力",
+    "materials": "材料",
+    "quality": "质量",
+    "resources": "技术资源",
+    "blog": "博客",
+    "search": "搜索",
+    "contact": "联系我们",
+    "getQuote": "获取报价"
+  },
+  "hero": {
+    "badge": "汽车级卓越品质",
+    "title": "每个分子都精准。",
+    "titleLine1": "精密",
+    "titleLine2": "融入每个",
+    "titleLine3": "分子。",
+    "subtitle": "以IATF 16949认证橡胶部件，助力机器人、AI基础设施及高性能机械的未来发展。",
+    "ctaPrimary": "技术资料",
+    "ctaSecondary": "质量与信任"
+  },
+  "features": {
+    "title": "全球领导者信赖RubberQ的原因",
+    "summaryTitle": "技术摘要",
+    "summaryItems": [
+      {
+        "term": "IATF 16949 认证",
+        "description": "严格的汽车质量管理体系，确保零缺陷生产。"
+      },
+      {
+        "term": "全流程追溯",
+        "description": "从原材料批次到成品的完整数字日志记录。"
+      },
+      {
+        "term": "精密工程",
+        "description": "高科技应用的标准符合 ISO 3302-1 Class M1 公差。"
+      }
+    ],
+    "reliability": {
+      "title": "可靠性",
+      "desc": "适用于全天候运行的基础设施的汽车级耐用性。"
+    },
+    "precision": {
+      "title": "精准度",
+      "desc": "用于机器人关节和传感器的微米级精度。"
+    },
+    "traceability": {
+      "title": "可追溯性",
+      "desc": "全ERP集成，确保关键任务的问责制。"
+    },
+    "innovation": {
+      "title": "创新",
+      "desc": "为AI液冷系统定制材料研发。"
+    }
+  },
+  "products": {
+    "title": "我们的产品",
+    "subtitle": "专为您的特定需求设计的高性能橡胶部件",
+    "viewAll": "查看所有产品",
+    "categories": {
+      "seals": "密封件与垫圈",
+      "automotive": "汽车零部件",
+      "industrial": "工业部件",
+      "medical": "医疗级"
+    }
+  },
+  "industries": {
+    "title": "专业行业",
+    "robotics": {
+      "title": "机器人与协作机器人",
+      "desc": "用于机器人关节和协作机器人应用的高精度密封件和阻尼部件"
+    },
+    "ai": {
+      "title": "AI基础设施",
+      "desc": "用于数据中心和AI硬件冷却系统的热管理密封件"
+    },
+    "machinery": {
+      "title": "精密机械",
+      "desc": "用于精密设备的工业密封件和定制部件"
+    },
+    "automotive": {
+      "title": "汽车",
+      "desc": "发动机密封件、垫圈、软管和减振器"
+    },
+    "industrial": {
+      "title": "工业",
+      "desc": "泵、阀门、机械密封件和定制模压件"
+    },
+    "medical": {
+      "title": "医疗",
+      "desc": "符合FDA标准的密封件、垫圈和精密部件"
+    },
+    "electronics": {
+      "title": "电子产品",
+      "desc": "EMI屏蔽、键盘和保护密封件"
+    }
+  },
+  "cta": {
+    "title": "准备好开始您的项目了吗？",
+    "subtitle": "获取我们工程团队的免费报价和技术咨询",
+    "button": "请求报价"
+  },
+  "footer": {
+    "company": "公司",
+    "products": "产品",
+    "resources": "资源",
+    "legal": "法律",
+    "copyright": "© 2026 福州瑞博橡胶有限公司。版权所有。",
+    "certifications": "认证：IATF 16949 | ISO 9001 | ISO 14001",
+    "technicalHub": "技术资料",
+    "materialHub": "材料中心",
+    "manufacturing": "制造流程",
+    "qualityAssurance": "质量保证",
+    "industryStandards": "行业标准",
+    "aboutRubberQ": "关于RubberQ",
+    "globalSupport": "全球支持",
+    "globalPresence": "全球布局",
+    "address": "中国福建省福州市",
+    "email": "邮箱：contact@rubberq.com",
+    "privacyPolicy": "隐私政策",
+    "termsOfService": "服务条款"
+  },
+  "contact": {
+    "title": "请求技术报价",
+    "subtitle": "我们的工程团队通常在12-24小时内回复技术咨询和报价请求。",
+    "form": {
+      "name": "姓名",
+      "namePlaceholder": "张三",
+      "email": "邮箱地址",
+      "emailPlaceholder": "zhangsan@company.cn",
+      "company": "公司名称",
+      "companyPlaceholder": "科技创新有限公司",
+      "industry": "目标行业",
+      "industryOptions": {
+        "robotics": "机器人与自动化",
+        "ai": "AI硬件 / 数据中心",
+        "automotive": "汽车（需IATF 16949认证）",
+        "machinery": "精密机械",
+        "other": "其他"
+      },
+      "message": "项目需求",
+      "messagePlaceholder": "请描述您的应用、材料要求（例如：FKM、EPDM）和预计年产量。",
+      "fileLink": "设计文件链接（可选）",
+      "fileLinkPlaceholder": "https://drive.google.com/... 或 Dropbox 链接",
+      "fileLinkHelp": "分享Google Drive、Dropbox或WeTransfer链接（STEP、STP、PDF、DXF）",
+      "submit": "提交询价",
+      "submitting": "提交中...",
+      "success": "提交成功！",
+      "successMessage": "我们已收到您的询价，将在12-24小时内回复。",
+      "error": "提交失败",
+      "errorMessage": "请稍后再试。",
+      "required": "必填项"
+    },
+    "directContact": "直接联系",
+    "engineeringSales": "工程/销售",
+    "manufacturingSite": "制造基地",
+    "fastTrack": "2026年快速通道",
+    "fastTrackDesc": "分享您的设计文件（Google Drive / Dropbox链接），帮助我们的AI辅助报价引擎更快提供价格。",
+    "manufacturingAddress": "中国福建省福州市",
+    "enhancement": {
+      "globalDeliveryTitle": "全球交付覆盖",
+      "globalDeliveryDesc": "所有地区采用统一流程与单一工程窗口，响应标准一致。",
+      "unitsPolicy": "技术参数统一采用国际公认公制单位。",
+      "complianceTitle": "简化合规说明",
+      "complianceHint": "可在 RFQ 备注里写明要求，我们会一次性匹配对应文件。",
+      "complianceItems": ["支持 REACH / RoHS 声明", "按需提供 FDA 材料合规说明", "可提供 PPAP / FAI 文件包"]
+    }
+  },
+  "about": {
+    "title": "我们的传承",
+    "subtitle": "福州瑞博橡胶有限公司成立于1995年，最初为中日合资企业，将严格的日本制造标准引入中国工业腹地。",
+    "watchVideo": "观看企业宣传片",
+    "videoDuration": "[公司概览与工厂参观 - 3:45]",
+    "heritageQuote": "\"汽车品质根植于我们的DNA。\"",
+    "heritageText1": "三十多年来，我们一直作为日本主要汽车品牌的长期OEM供应商。这段经历让我们深知，在精密制造中，容不得丝毫差错。",
+    "heritageText2": "今天，随着我们向人工智能和机器人领域拓展，我们将这种'零缺陷'文化传承到未来的技术中。",
+    "stats": {
+      "years": "年经验",
+      "factory": "平方米工厂",
+      "certified": "16949认证",
+      "partners": "全球合作伙伴"
+    },
+    "manufacturing": "卓越制造",
+    "scenes": {
+      "injection": {
+        "title": "精密注塑成型",
+        "desc": "我们拥有50多台自动化机器的最先进注塑车间。"
+      },
+      "rnd": {
+        "title": "先进研发中心",
+        "desc": "材料创新与严格测试标准相结合的地方。"
+      },
+      "qc": {
+        "title": "质量控制中心",
+        "desc": "100%自动化视觉检测系统，实现汽车级精度。"
+      },
+      "logistics": {
+        "title": "全球物流枢纽",
+        "desc": "高效的仓储和全球运输能力。"
+      }
+    },
+    "imageNote": "注意：这些图片展示了我们实际的车间环境和技術能力。我们欢迎实地考察和第三方审核。",
+    "coreValues": "核心价值观",
+    "values": {
+      "precision": {
+        "title": "精准",
+        "desc": "每一套模具、每一批产品都达到微米级精度。"
+      },
+      "partnership": {
+        "title": "伙伴关系",
+        "desc": "作为您工程团队的延伸。"
+      },
+      "sustainability": {
+        "title": "可持续发展",
+        "desc": "符合ISO 14001标准的绿色制造。"
+      }
+    }
+  },
+  "productsPage": {
+    "metadata": {
+      "title": "产品 | RubberQ - 汽车级橡胶零部件",
+      "description": "定制橡胶密封件、垫圈、波纹管和模压件。通过IATF 16949认证，应用于机器人、汽车和工业领域。"
+    },
+    "badge": "IATF 16949 认证",
+    "title": "产品组合",
+    "subtitle": "为严苛应用而设计的精密橡胶部件。从标准密封件到复杂的定制模具，均采用汽车级质量体系制造。",
+    "capability": "能力",
+    "manufacturingFootprint": "制造足迹",
+    "categoriesTitle": "零部件类别",
+    "categoriesSubtitle": "四大核心产品系列，服务于机器人、汽车、AI基础设施和精密机械行业。",
+    "certifications": [
+      "IATF 16949:2016 认证",
+      "ISO 9001:2015 质量",
+      "ISO 14001:2015 环境",
+      "符合 RoHS / REACH"
+    ],
+    "seals": {
+      "name": "密封件与O型圈",
+      "desc": "符合ISO 3601和ASTM D2000标准的精密公差静态和动态密封解决方案。",
+      "materialsTitle": "可用材料",
+      "featuresTitle": "主要特点",
+      "applicationsTitle": "典型应用",
+      "applications": ["液压系统", "气动缸", "旋转轴", "静态法兰"],
+      "features": ["温度范围：-60°C至320°C", "耐化学性定制", "低压缩永久变形"],
+      "specs": "ISO 3601-1 Class B"
+    },
+    "gaskets": {
+      "name": "垫圈与垫片",
+      "desc": "用于流体密封、EMI屏蔽和热管理应用的模切和模压垫圈。",
+      "applications": ["电池包", "外壳", "热交换器", "泵壳"],
+      "features": ["厚度：0.5mm至25mm", "定制背胶", "提供FDA级材料"],
+      "specs": "ISO 3302-1 Class M1"
+    },
+    "bellows": {
+      "name": "波纹管与防尘罩",
+      "desc": "用于直线和旋转运动系统的柔性保护套，具有延长疲劳寿命。",
+      "applications": ["机器人关节", "线性执行器", "等速万向节", "机床导轨"],
+      "features": ["多褶设计", "可折叠/伸缩", "化学飞溅防护"],
+      "specs": "1M+ cycle rating"
+    },
+    "custom": {
+      "name": "定制模压件",
+      "desc": "从原型到大批量生产的应用专用橡胶部件。",
+      "applications": ["减振器", "缓冲器", "阀门组件", "连接器密封"],
+      "features": ["精密公差成型", "嵌件成型能力", "颜色匹配"],
+      "specs": "SPI-SPE Standards"
+    },
+    "requestQuote": "请求报价",
+    "viewDetails": "查看详情",
+    "customEngineering": "定制工程",
+    "customEngineeringDesc": "除了我们的标准产品线外，我们的工程团队专注于开发应用特定的橡胶解决方案。从材料配方到模具设计，我们处理完整的开发周期。",
+    "engineeringServices": [
+      "材料配方开发",
+      "FEA仿真与验证",
+      "快速原型制作（3-5天）",
+      "模具设计与制造",
+      "PPAP文件支持"
+    ],
+    "startProject": "启动定制项目",
+    "stats": {
+      "toolings": "活跃模具",
+      "turnaround": "报价周转",
+      "tolerance": "公差能力",
+      "standard": "M1级标准"
+    },
+    "resourcesTitle": "技术资源",
+    "resourcesSubtitle": "下载规格和材料数据表",
+    "downloads": [
+      { "name": "材料选择指南", "size": "PDF, 2.4 MB" },
+      { "name": "公差参考 (ISO 3302)", "size": "PDF, 1.1 MB" },
+      { "name": "ASTM D2000 规格", "size": "PDF, 3.2 MB" }
+    ]
+  },
+  "resources": {
+    "metadata": {
+      "title": "技术资源 | RubberQ",
+      "description": "橡胶部件工程的材料指南、设计建议、行业标准、FAQ和可下载的技术文档。"
+    },
+    "hero": {
+      "badge": "技术资源",
+      "title": "工程知识中心",
+      "subtitle": "全面的指南、标准和技术文档，帮助您自信地设计和规范橡胶部件。"
+    },
+    "materials": {
+      "title": "材料选择指南",
+      "subtitle": "比较弹性体特性，为您的应用需求选择最佳材料。",
+      "viewDatabase": "查看完整材料数据库 →",
+      "applicationsLabel": "应用",
+      "fkm": {
+        "description": "氟橡胶，具有出色的耐化学性和高温稳定性。",
+        "tempRange": "-20°C to +200°C",
+        "applications": ["航空航天", "化学加工", "高性能汽车"],
+        "features": ["优异的耐化学性", "高温耐受性", "卓越的耐油/燃料性"]
+      },
+      "nbr": {
+        "description": "丁腈橡胶，以具有竞争力的成本提供优异的耐油性和机械性能。",
+        "tempRange": "-40°C to +120°C",
+        "applications": ["液压系统", "汽车", "通用工业"],
+        "features": ["经济实惠的解决方案", "良好的耐油性", "可提供多种硬度范围"]
+      },
+      "epdm": {
+        "description": "三元乙丙橡胶，具有出色的耐候性和耐臭氧性。",
+        "tempRange": "-50°C to +150°C",
+        "applications": ["户外应用", "水系统", "蒸汽应用"],
+        "features": ["优异的耐候性", "卓越的耐水/蒸汽性", "良好的电绝缘性"]
+      },
+      "silicone": {
+        "description": "多功能弹性体，具有极端温度范围和生物相容性。",
+        "tempRange": "-60°C to +230°C",
+        "applications": ["医疗器械", "食品加工", "极端温度"],
+        "features": ["可提供FDA合规等级", "极端温度范围", "优异的压缩永久变形"]
+      }
+    },
+    "designGuides": {
+      "title": "设计建议",
+      "subtitle": "橡胶零件设计的最佳实践，确保可制造性和最佳性能。",
+      "keyTips": "关键提示",
+      "wallThickness": {
+        "title": "壁厚指南",
+        "content": "均匀的壁厚对于一致的硫化和防止缺陷至关重要。避免横截面的突然变化。",
+        "tips": [
+          "大多数材料的最小壁厚：0.5mm",
+          "保持均匀厚度以防止缩痕",
+          "在厚薄截面之间使用渐变过渡"
+        ]
+      },
+      "draftAngles": {
+        "title": "拔模角度要求",
+        "content": "适当的拔模角度确保零件从模具中干净顶出，并防止脱模过程中损坏。",
+        "tips": [
+          "外壁最小拔模角度0.5°",
+          "纹理表面建议1-2°",
+          "内部特征可能需要1-3°拔模角度"
+        ]
+      },
+      "shrinkage": {
+        "title": "收缩补偿",
+        "content": "所有橡胶材料在固化时都会收缩。设计模具时应有适当的收缩余量，以获得精确的最终尺寸。",
+        "tips": [
+          "NBR/FKM：1.5-2.5%线性收缩",
+          "EPDM：1.0-2.0%线性收缩",
+          "硅胶：2.0-3.0%线性收缩"
+        ]
+      }
+    },
+    "standards": {
+      "title": "行业标准",
+      "subtitle": "管理橡胶部件设计、公差和质量的关键国际标准。",
+      "iso3601": {
+        "title": "液压气动系统 - O型圈",
+        "description": "定义用于流体动力应用的O型圈的内径、横截面、公差和尺寸识别代码。"
+      },
+      "iso3302": {
+        "title": "橡胶 - 产品公差",
+        "description": "规定了模压、挤出和压延橡胶产品的尺寸公差等级。"
+      },
+      "astm": {
+        "title": "橡胶标准分类",
+        "description": "基于材料要求的汽车应用中橡胶材料的分类系统。"
+      },
+      "iatf": {
+        "title": "质量管理标准",
+        "description": "国际汽车质量管理体系标准，确保一致的产品质量和持续改进。"
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "subtitle": "关于橡胶部件设计、制造和质量保证的常见问题。",
+      "q1": {
+        "question": "定制橡胶零件的典型交付周期是多久？",
+        "answer": "标准交付周期为现有模具2-4周，新模具开发4-6周。使用快速模具方法，原型零件通常可以在1-2周内交付。"
+      },
+      "q2": {
+        "question": "如何为我的应用选择合适的橡胶材料？",
+        "answer": "材料选择取决于温度范围、化学品暴露、机械要求和法规需求（FDA、UL等）。我们的材料选择指南提供详细的比较数据，或联系我们的工程团队获取建议。"
+      },
+      "q3": {
+        "question": "你们能达到什么公差水平？",
+        "answer": "我们通常能达到ISO 3302 M1级公差（小零件±0.05mm）。通过专业模具和过程控制，可以实现更严格的公差。"
+      },
+      "q4": {
+        "question": "你们提供PPAP文件吗？",
+        "answer": "是的，我们提供完整的PPAP文件，包括3级提交的所有支持数据。我们的质量管理体系已通过IATF 16949认证。"
+      },
+      "q5": {
+        "question": "你们可以使用客户提供的材料吗？",
+        "answer": "是的，我们可以加工客户提供的材料或根据需要采购特定等级。所有材料在生产使用前都要经过进货检验和验证。"
+      }
+    },
+    "downloads": {
+      "title": "技术下载",
+      "subtitle": "下载全面的技术文档、指南和参考资料。",
+      "materialGuide": {
+        "title": "材料选择指南",
+        "description": "橡胶材料的完整比较，包括特性、应用和选择标准。"
+      },
+      "designManual": {
+        "title": "橡胶零件设计手册",
+        "description": "设计可制造且性能最佳的橡胶部件的工程指南。"
+      },
+      "toleranceChart": {
+        "title": "ISO公差表",
+        "description": "ISO 3302公差等级和尺寸限制的快速参考。"
+      },
+      "qaChecklist": {
+        "title": "质量保证检查表",
+        "description": "生产前检查表，确保所有要求都被捕获和验证。"
+      }
+    },
+    "cta": {
+      "title": "需要定制规格？",
+      "description": "我们的工程团队可以提供应用特定的建议，并为您的独特需求开发定制配方。",
+      "button": "联系工程团队"
+    }
+  },
+  "quality": {
+    "title": "质量保证",
+    "hero": {
+      "title": "毫不妥协的质量",
+      "subtitle": "从原材料配料到最终检验，RubberQ的IATF 16949认证质量体系确保为AI、机器人和汽车行业提供零缺陷性能。"
+    },
+    "certifications": {
+      "title": "全球认证",
+      "subtitle": "点击任何证书查看详情并下载",
+      "valid": "有效",
+      "expiring": "即将到期",
+      "expired": "已过期",
+      "status": {
+        "active": "有效",
+        "expiring": "即将到期",
+        "expired": "已过期"
+      },
+      "viewDetails": "查看详情",
+      "download": "下载PDF",
+      "issuingAuthority": "颁发机构",
+      "issued": "颁发日期",
+      "expires": "到期日期",
+      "scope": "范围",
+      "verification": "可通过颁发机构的官方注册表使用证书编号验证此证书。"
+    },
+    "certificates": {
+      "iatf": {
+        "name": "IATF 16949:2016",
+        "org": "汽车质量管理",
+        "issuer": "TÜV SÜD",
+        "description": "国际汽车质量管理体系标准，确保整个供应链的一致产品质量和持续改进。"
+      },
+      "iso9001": {
+        "name": "ISO 9001:2015",
+        "org": "质量管理体系",
+        "issuer": "SGS",
+        "description": "全球质量管理体系标准，证明我们能够持续提供满足客户和法规要求的产品。"
+      },
+      "iso14001": {
+        "name": "ISO 14001:2015",
+        "org": "环境管理",
+        "issuer": "Bureau Veritas",
+        "description": "环境管理体系认证，证明我们对可持续制造实践、减少废物和环境责任的承诺。"
+      },
+      "rohs": {
+        "name": "RoHS & REACH",
+        "org": "环境合规",
+        "issuer": "Intertek",
+        "description": "符合欧盟限制有害物质（RoHS）法规，并确保橡胶制造过程中化学品的安全使用（REACH）。"
+      }
+    },
+    "lab": {
+      "title": "内部实验室",
+      "description": "我们最先进的测试设施配备了根据ASTM、ISO和SAE标准进行全面材料分析和产品验证的设备。",
+      "note": "所有设备每年由CNAS认可的第三方实验室校准。",
+      "equipment": [
+        { "name": "流变仪", "function": "材料硫化特性分析", "img": "https://images.unsplash.com/photo-1579154236594-c199f346e992?auto=format&fit=crop&q=80&w=400" },
+        { "name": "拉力试验机", "function": "强度和伸长率验证", "img": "https://images.unsplash.com/photo-1581093450021-4a7360e9a6ad?auto=format&fit=crop&q=80&w=400" },
+        { "name": "老化烘箱", "function": "长期耐久性模拟", "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=400" },
+        { "name": "影像测量系统", "function": "高精度尺寸检测", "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=400" }
+      ]
+    },
+    "process": {
+      "title": "卓越的视觉证明",
+      "steps": {
+        "incoming": "来料检验",
+        "incomingDesc": "每批次SGS认证原材料验证。",
+        "monitoring": "过程监控",
+        "monitoringDesc": "实时SPC（统计过程控制）数据跟踪。",
+        "inspection": "最终100%检验",
+        "inspectionDesc": "通过人工和AI辅助检查保证零缺陷。"
+      },
+      "scenes": [
+        { "title": "来料检验", "desc": "每批次SGS认证原材料验证。", "img": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=600" },
+        { "title": "过程监控", "desc": "实时SPC（统计过程控制）数据跟踪。", "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600" },
+        { "title": "最终100%检验", "desc": "通过人工和AI辅助检查保证零缺陷。", "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=600" }
+      ]
+    },
+    "traceability": {
+      "title": "全过程控制",
+      "mainTitle": "全链路可追溯",
+      "subtitle": "我们的汽车级传承意味着每个部件都遵循严格的基于证据的制造周期。",
+      "steps": [
+        { "title": "APQP", "desc": "先期产品质量策划" },
+        { "title": "配料", "desc": "精密自动称重" },
+        { "title": "成型", "desc": "实时传感器监控" },
+        { "title": "FQC", "desc": "100%视觉或自动化检验" }
+      ],
+      "flow": [
+        { "step": "01", "title": "原材料", "desc": "来料检验与批次认证" },
+        { "step": "02", "title": "配料", "desc": "自动称重与全数字化记录" },
+        { "step": "03", "title": "成型", "desc": "实时过程监控与SPC控制" },
+        { "step": "04", "title": "检验", "desc": "100%终检与可追溯记录" }
+      ]
+    },
+    "documentation": {
+      "title": "需要质量文档？",
+      "description": "从我们的技术资源页面下载完整的质量手册、检验报告和材料认证。",
+      "link": "访问技术资源 →"
+    }
+  },
+  "summaryItems": {
+    "globalPresence": {
+      "title": "全球布局",
+      "description": "为5大洲30多个国家的客户提供服务。"
+    },
+    "yearsExperience": {
+      "title": "年经验",
+      "description": "超过25年的精密橡胶制造专业知识。"
+    },
+    "certified": {
+      "title": "IATF 16949认证",
+      "description": "汽车级质量管理体系。"
+    },
+    "sqmFactory": {
+      "title": "平方米工厂",
+      "description": "最先进的制造设施。"
+    }
+  },
+  "termsPage": {
+    "title": "服务条款",
+    "lastUpdated": "最后更新：2026年1月26日",
+    "cards": {
+      "legalBinding": {
+        "title": "法律约束",
+        "description": "访问本网站即表示您同意遵守我们的使用条款和工业标准。"
+      },
+      "technicalDisclaimer": {
+        "title": "技术免责声明",
+        "description": "所提供的工程数据仅供参考。最终规格取决于经验证的图纸。"
+      }
+    },
+    "sections": {
+      "acceptance": {
+        "title": "1. 条款接受",
+        "content": "访问和使用福州瑞博橡胶有限公司（以下简称「本网站」）的网站，即表示您已阅读、理解并同意受这些服务条款的约束。如果您不同意，请停止使用本网站。"
+      },
+      "siteContent": {
+        "title": "2. 网站内容使用",
+        "content": "本网站上的内容，包括技术数据表、材料规格和制造工艺描述，仅供专业参考之用。",
+        "items": [
+          "您可以下载材料用于贵公司对我们服务的评估。",
+          "未经授权的商业分发或复制是被禁止的。",
+          "滥用我们的询价系统或自动抓取技术数据是严格禁止的。"
+        ]
+      },
+      "intellectualProperty": {
+        "title": "3. 知识产权",
+        "content": "本网站上显示的所有商标、标志和服务标记均为RubberQ或第三方的财产。「RubberQ」和RubberQ标志是注册商标。本网站的设计、布局和「外观和感觉」受版权法保护。"
+      },
+      "engineeringDisclaimer": {
+        "title": "4. 工程免责声明",
+        "content": "虽然我们力求在技术博客和材料指南中达到100%的准确性，但所提供的信息仅供一般参考。橡胶部件的性能高度依赖于具体的应用环境。最终的材料选择和零件设计应通过专业的工程审查和原型验证来确认。"
+      },
+      "quotations": {
+        "title": "5. 报价与订单",
+        "content": "通过本网站提交询价并不构成具有约束力的合同。正式的制造协议仅在RubberQ以书面形式接受采购订单（PO）后才成立，并受我们标准的工业销售条款和条件约束。"
+      },
+      "liability": {
+        "title": "6. 责任限制",
+        "content": "RubberQ不对因您使用本网站或依赖本网站提供的任何信息而产生的任何直接、间接、附带或后果性损害承担责任。"
+      },
+      "governingLaw": {
+        "title": "7. 适用法律",
+        "content": "这些条款受中华人民共和国法律管辖。因使用本网站而产生的任何争议应由福建省福州市的法院专属管辖。"
+      }
+    },
+    "contact": {
+      "title": "有疑问？",
+      "description": "如有关于我们条款的法律咨询，请联系：",
+      "department": "法务部",
+      "company": "福州瑞博橡胶有限公司",
+      "email": "邮箱：contact@rubberq.com"
+    }
+  },
+  "privacyPage": {
+    "title": "隐私政策",
+    "lastUpdated": "最后更新：2026年1月26日",
+    "cards": {
+      "dataSecurity": {
+        "title": "数据安全",
+        "description": "您的技术图纸和专有设计受到我们工业级安全协议的保护。"
+      },
+      "zeroSharing": {
+        "title": "零共享",
+        "description": "我们绝不会将您的商业联系信息或项目详情出售给第三方营销公司。"
+      },
+      "transparency": {
+        "title": "透明度",
+        "description": "清晰记录我们如何使用您的数据来提供制造和工程服务。"
+      }
+    },
+    "sections": {
+      "informationCollect": {
+        "title": "1. 我们收集的信息",
+        "content": "福州瑞博橡胶有限公司（以下简称「RubberQ」、「我们」）在您进行以下操作时收集您直接提供给我们的信息：",
+        "items": [
+          "提交询价（RFQ）或联系表单。",
+          "上传技术图纸、规格或3D模型。",
+          "请求材料样品或技术咨询。",
+          "与我们的工程和销售团队沟通。"
+        ],
+        "additionalInfo": "这些信息可能包括您的姓名、公司名称、电子邮件地址、电话号码、国家和具体项目需求。"
+      },
+      "howWeUse": {
+        "title": "2. 信息使用方式",
+        "content": "我们将收集的数据用于特定的工业和商业目的：",
+        "items": [
+          { "label": "询价处理：", "text": "评估制造可行性并提供准确报价。" },
+          { "label": "工程咨询：", "text": "提供材料选择和可制造性设计（DFM）建议。" },
+          { "label": "订单履行：", "text": "制造和运输您的定制橡胶部件。" },
+          { "label": "质量控制：", "text": "按照IATF 16949和ISO 9001标准维护生产记录。" }
+        ]
+      },
+      "intellectualProperty": {
+        "title": "3. 知识产权保护",
+        "content": "作为领先汽车品牌的OEM供应商，我们深知知识产权（IP）的重要性。上传到我们平台的任何图纸或专有数据都将被严格保密处理。访问权限仅限于必要的工程和生产人员。我们随时准备为您的项目签署正式的保密协议（NDA）。"
+      },
+      "cookies": {
+        "title": "4. Cookie与追踪",
+        "content": "我们的网站使用必要的Cookie来确保网站功能和性能。我们还可能使用分析工具（如Google Analytics）来了解访问者如何与我们的内容互动，这有助于我们改进技术文档和用户体验。"
+      },
+      "dataRetention": {
+        "title": "5. 数据保留",
+        "content": "根据IATF 16949汽车标准的要求，我们可能会在规定期限内保留生产和质量记录以确保可追溯性。商业联系信息将在维持我们专业关系所需的期限内保留。"
+      },
+      "yourRights": {
+        "title": "6. 您的权利",
+        "content": "您有权请求访问、更正或删除您的个人商业数据。如需提出此类请求，请通过以下提供的电子邮件联系我们的数据合规官。"
+      }
+    },
+    "contact": {
+      "title": "联系我们",
+      "description": "如果您对本隐私政策有任何疑问，请联系：",
+      "company": "福州瑞博橡胶有限公司",
+      "department": "数据保护办公室",
+      "email": "邮箱：contact@rubberq.com",
+      "address": "地址：中国福建省福州市"
+    }
+  },
+  "language": {
+    "title": "语言",
+    "select": "选择语言"
+  },
+  "cookieConsent": {
+    "title": "您的隐私至关重要",
+    "descriptionPrefix": "我们使用 Cookie 来增强您的浏览体验，提供个性化的技术内容，并根据 GDPR 和 CCPA 分析我们的流量。点击“接受”即表示您同意我们使用 Cookie。阅读我们的",
+    "privacyLink": "隐私政策",
+    "descriptionSuffix": "了解详情。",
+    "decline": "拒绝",
+    "acceptAll": "全部接受"
+  },
+  "capabilities": {
+    "hero": {
+      "title": "RubberQ标准",
+      "subtitle": "我们的两阶段混炼工艺是质量承诺的基石。通过将母炼胶与终炼胶分离，我们为关键应用实现了卓越的材料一致性。"
+    },
+    "processes": {
+      "phase1": {
+        "stage": "第一阶段：原材料采购与质检",
+        "rawMaterial": {
+          "title": "原材料接收",
+          "desc": "按照IATF 16949 8.4.2标准对聚合物和化学品进行来料检验。"
+        },
+        "warehousing": {
+          "title": "受控仓储",
+          "desc": "环境监控和FEFO（先过期先出）存储管理。"
+        }
+      },
+      "phase2": {
+        "stage": "第二阶段：母炼胶（第一段混炼）",
+        "formulation": {
+          "title": "A配方",
+          "desc": "使用自动配料系统精确称量母炼胶组分。"
+        },
+        "internalMixer": {
+          "title": "密炼机（A段混炼）",
+          "desc": "在密炼设备中进行高剪切混炼，确保填料均匀分散。"
+        },
+        "calendering": {
+          "title": "压延与冷却",
+          "desc": "片材挤出后快速冷却以稳定胶料。"
+        },
+        "testing": {
+          "title": "母炼胶检测",
+          "desc": "在进入第二阶段前验证门尼粘度和比重。"
+        }
+      },
+      "phase3": {
+        "stage": "第三阶段：终炼（第二段混炼）",
+        "bMixing": {
+          "title": "B段混炼（终炼胶）",
+          "desc": "在严格温度控制下添加硫化剂和促进剂。"
+        },
+        "maturation": {
+          "title": "熟化/停放",
+          "desc": "受控存储以允许材料松弛和化学稳定。"
+        },
+        "compoundTesting": {
+          "title": "终炼胶检测",
+          "desc": "MDR（无转子硫化仪）测试以验证硫化曲线和性能。"
+        }
+      },
+      "phase4": {
+        "stage": "第四阶段：成型与精加工",
+        "molding": {
+          "title": "精密成型",
+          "desc": "采用真空压缩和注射成型生产高精度部件。"
+        },
+        "deflashing": {
+          "title": "去毛边与修整",
+          "desc": "使用冷冻去毛边或高精度手工修整去除多余材料。"
+        }
+      },
+      "phase5": {
+        "stage": "第五阶段：质量保证与物流",
+        "inspection": {
+          "title": "100%终检",
+          "desc": "根据客户规格验证尺寸、外观和物理性能。"
+        },
+        "fulfillment": {
+          "title": "全球配送",
+          "desc": "条码追踪包装，通过临港物流进行国际运输。"
+        }
+      }
+    },
+    "footer": {
+      "title": "先进过程控制",
+      "description": "RubberQ生产的每一批产品都通过我们的集成ERP系统管理，确保从原材料批号到最终出货零件的100%可追溯性。我们利用SPC（统计过程控制）实时监控关键参数。",
+      "tagTraceability": "可追溯性：100%",
+      "tagMixing": "混炼阶段：两段式",
+      "tagCompliance": "合规：IATF 16949",
+      "zero": "零",
+      "toleranceForDefects": "缺陷零容忍"
+    }
+  },
+  "factory": {
+    "hero": {
+      "location": "中国福州",
+      "title": "卓越",
+      "titleHighlight": "制造",
+      "subtitle": "两个生产基地占地20,000平方米，拥有IATF 16949:2016认证质量体系。自1995年起服务全球OEM客户。",
+      "scheduleVisit": "预约参观",
+      "exploreCapabilities": "探索制造能力"
+    },
+    "stats": {
+      "totalFacilityArea": "总设施面积",
+      "yearEstablished": "成立年份",
+      "teamMembers": "团队成员",
+      "greenCoverage": "绿化覆盖率"
+    },
+    "location": {
+      "title": "战略",
+      "titleHighlight": "位置",
+      "description": "我们位于福建省福州市的制造基地拥有卓越的物流优势。凭借福州港（中国前20大集装箱港口之一）、高铁连接以及毗邻厦门和上海机场的优势，我们确保高效交付至全球市场。",
+      "airport": "30分钟",
+      "airportDesc": "至福州长乐国际机场",
+      "port": "45分钟",
+      "portDesc": "至福州港集装箱码头",
+      "rail": "4.5小时",
+      "railDesc": "高铁至上海",
+      "facilityAddress": "工厂地址",
+      "address": "中国福建省福州市马尾区福州瑞博工业园"
+    },
+    "production": {
+      "title": "生产",
+      "titleHighlight": "能力",
+      "subtitle": "从原材料到成品的端到端制造，每个阶段都有完整的ERP可追溯性。",
+      "lines": {
+        "mixing": {
+          "title": "混炼与配料",
+          "description": "自动称量系统和密炼机，确保精确的批次一致性。",
+          "capabilities": [
+            "密闭式密炼机（110L和75L）",
+            "自动称量系统（±0.1g精度）",
+            "开放式混炼机用于最终精炼",
+            "条码系统实现批次可追溯"
+          ]
+        },
+        "preforming": {
+          "title": "预成型与准备",
+          "description": "计算机控制的预成型设备，确保材料利用效率。",
+          "capabilities": [
+            "CNC橡胶预成型机",
+            "精密切割设备",
+            "型材挤出生产线",
+            "片材压延设备"
+          ]
+        },
+        "compression": {
+          "title": "压缩与传递模压",
+          "description": "多吨位压机，配备过热保护和自动控制。",
+          "capabilities": [
+            "压机范围：100T至500T",
+            "真空压缩成型",
+            "复杂几何形状的传递模压",
+            "过热报警保护系统"
+          ]
+        },
+        "injection": {
+          "title": "注射成型",
+          "description": "高精度橡胶注射，适用于大批量生产。",
+          "capabilities": [
+            "卧式橡胶注射机",
+            "立式嵌件成型能力",
+            "液态硅橡胶（LSR）加工",
+            "自动取件系统"
+          ]
+        }
+      }
+    },
+    "lab": {
+      "badge": "IATF 16949:2016",
+      "title": "质量",
+      "titleHighlight": "实验室",
+      "description": "我们的现场实验室配备了从原材料验证到成品认证的全面橡胶测试设备。每一批次可追溯，每一项测试有记录。",
+      "equipment": [
+        "门尼粘度计（粘度测试）",
+        "流变仪（硫化特性）",
+        "拉力试验机（ASTM D412）",
+        "邵氏A硬度计（硬度）",
+        "老化烘箱（耐热性）",
+        "压缩永久变形仪（ASTM D395）",
+        "光学测量投影仪（尺寸）",
+        "臭氧试验箱（耐候性）"
+      ]
+    },
+    "qualityProcess": {
+      "title": "质量",
+      "titleHighlight": "流程",
+      "subtitle": "四阶段质量保证，确保每个部件在出货前达到汽车级标准。",
+      "steps": {
+        "incoming": {
+          "title": "来料检验",
+          "description": "每批原材料在投入生产前都要检测粘度、灰分含量和门尼值。"
+        },
+        "inProcess": {
+          "title": "过程控制",
+          "description": "每次设置都进行首件检验（FAI）。SPC监控关键尺寸。"
+        },
+        "final": {
+          "title": "终检",
+          "description": "100%目视检验。AQL抽样进行尺寸和功能测试。"
+        },
+        "shipment": {
+          "title": "出货验证",
+          "description": "出货前检验报告。完整的批次可追溯文档。"
+        }
+      }
+    },
+    "certifications": {
+      "title": "认证与",
+      "titleHighlight": "资质",
+      "iatf": "汽车质量管理",
+      "iso9001": "质量管理体系",
+      "iso14001": "环境管理"
+    },
+    "cta": {
+      "title": "准备",
+      "titleHighlight": "参观？",
+      "description": "我们欢迎工厂审核和客户参观。预约参观，亲身了解我们的制造能力并与工程团队会面。",
+      "scheduleTour": "预约工厂参观",
+      "viewQuality": "查看质量标准"
+    }
+  },
+  "materialsPage": {
+    "hero": {
+      "badge": "技术资源",
+      "title": "工业材料中心",
+      "subtitle": "为您的2026级应用选择合适的弹性体。我们的材料均通过ASTM D2000和ISO 3302-1标准验证。"
+    },
+    "crossLink": {
+      "prompt": "不确定选择哪种材料？请查看我们的",
+      "guide": "材料选择指南",
+      "suffix": "获取推荐"
+    },
+    "materials": {
+      "fkm": {
+        "name": "FKM（氟橡胶）",
+        "desc": "极端耐热和耐化学性，适用于AI液冷和汽车发动机。"
+      },
+      "epdm": {
+        "name": "EPDM（三元乙丙橡胶）",
+        "desc": "卓越的耐候性和弯曲寿命，适用于机器人和户外机械。"
+      },
+      "nbr": {
+        "name": "NBR（丁腈橡胶）",
+        "desc": "通用工业和机械密封件的耐油标准材料。"
+      },
+      "silicone": {
+        "name": "硅胶（VMQ）",
+        "desc": "医疗和食品级安全，具有优异的热稳定性。"
+      }
+    },
+    "technicalSpecifications": "技术规格",
+    "matrix": {
+      "title": "材料性能矩阵",
+      "property": "属性",
+      "tempRange": "温度范围（°C）",
+      "oilResistance": "耐油性",
+      "chemicalResistance": "耐化学性",
+      "durabilityIndex": "耐久性指数",
+      "superior": "优异",
+      "excellent": "优异",
+      "good": "良好",
+      "fair": "一般",
+      "poor": "差",
+      "high": "高",
+      "medium": "中"
+    }
+  },
+  "blogPage": {
+    "hero": {
+      "badge": "技术知识中心",
+      "title": "材料科学与工业洞察",
+      "subtitle": "关于橡胶工程、质量标准和特定应用解决方案的专业分析。"
+    },
+    "emptyState": "暂无技术论文发布。",
+    "cardLabel": "技术",
+    "readPaper": "阅读技术论文"
+  },
+  "blogPost": {
+    "backToHub": "返回技术中心",
+    "categoryTechnical": "技术文章",
+    "ctaTitle": "需要技术咨询？",
+    "ctaDescription": "我们的工程团队可以帮助您将这些材料见解应用于您的具体项目。",
+    "ctaButton": "请求报价"
+  },
+  "standardsPage": {
+    "hero": {
+      "badge": "技术合规",
+      "title": "全球行业标准",
+      "subtitle": "在RubberQ，我们不仅制造橡胶，更是合规工程的践行者。我们在材料科学与国际法规框架的交汇处运营，确保您的产品符合市场准入要求。"
+    },
+    "categories": {
+      "materialClassification": {
+        "title": "材料分类体系",
+        "desc": "我们如何对橡胶物理性能进行分类和认证，以实现工程清晰度。",
+        "standards": {
+          "astmD2000": {
+            "name": "橡胶产品标准分类系统",
+            "detail": "橡胶的全球通用语言。我们使用线路标注系统来定义耐热性、耐油膨胀性和物理性能（例如 2BC715B14）。"
+          },
+          "saeJ200": {
+            "name": "橡胶材料分类系统",
+            "detail": "类似于ASTM D2000的汽车专用标准，主要用于北美汽车OEM零部件。"
+          }
+        }
+      },
+      "environmentalCompliance": {
+        "title": "环境与化学合规",
+        "desc": "确保我们的零部件对全球市场安全，且不含有害物质。",
+        "standards": {
+          "rohs3": {
+            "name": "有害物质限制指令 (2011/65/EU)",
+            "detail": "保证我们的橡胶零件中铅、汞、镉及其他受限材料含量低于允许限值。"
+          },
+          "reach": {
+            "name": "化学品注册、评估、授权和限制法规",
+            "detail": "遵守欧盟关于供应链中SVHC（高度关注物质）的法规。"
+          }
+        }
+      },
+      "applicationCertifications": {
+        "title": "特定应用认证",
+        "desc": "针对食品、医疗和航空航天等高风险行业的专业标准。",
+        "standards": {
+          "fda": {
+            "name": "用于食品反复接触的橡胶制品",
+            "detail": "食品级硅胶、EPDM和NBR零部件的萃取测试和原材料白名单。"
+          },
+          "milSpec": {
+            "name": "军用规格（例如 MIL-R-25988）",
+            "detail": "满足严格的国防要求，包括耐流体性、极端温度稳定性和保质期。"
+          }
+        }
+      }
+    },
+    "sidebar": {
+      "callOutTitle": "需要线路标注？",
+      "callOutDesc": "我们的工程团队可以帮助您将应用需求转化为正式的ASTM D2000或SAE J200规格。",
+      "consultEngineer": "咨询工程师",
+      "complianceNotice": "合规声明",
+      "complianceNoticeText": "每次发货均附带分析证书（COA）和合格证书（COC）。汽车和高精度机械项目可按要求提供完整的PPAP 3级文件。"
+    },
+    "footer": {
+      "globalReach": "全球覆盖",
+      "globalReachDesc": "符合美国、欧盟和亚洲市场法规。",
+      "ipProtection": "知识产权保护",
+      "ipProtectionDesc": "对定制配方严格保密。",
+      "materialScience": "材料科学",
+      "materialScienceDesc": "专注于高性能弹性体（FKM、HNBR、硅胶）。",
+      "verifiedTesting": "验证测试",
+      "verifiedTestingDesc": "所有数据均在我们符合ISO标准的实验室中验证。"
+    }
+  },
+  "caseStudies": {
+    "hero": {
+      "badge": "卓越实证",
+      "titleLine1": "案例",
+      "titleLine2": "研究",
+      "subtitle": "汽车级橡胶工程的实际应用。了解我们如何解决机器人、AI基础设施和下一代出行领域的关键密封挑战。"
+    },
+    "stats": {
+      "projectsDelivered": "已交付项目",
+      "qualityRate": "质量合格率",
+      "countriesServed": "服务国家",
+      "yearsExperience": "年经验"
+    },
+    "labels": {
+      "client": "客户",
+      "challenge": "挑战",
+      "solution": "解决方案",
+      "results": "成果"
+    },
+    "studies": {
+      "robotics": {
+        "industry": "协作机器人",
+        "client": "欧洲协作机器人制造商",
+        "location": "德国",
+        "challenge": "全天候生产环境中关节密封失效导致停机",
+        "solution": "具有增强抗疲劳性能的定制FKM关节波纹管",
+        "results": [
+          "MTBF从8,000小时提升至25,000小时",
+          "18个月内零现场故障",
+          "维护成本降低15%"
+        ]
+      },
+      "aiDataCenters": {
+        "industry": "AI数据中心",
+        "client": "领先的云基础设施提供商",
+        "location": "美国",
+        "challenge": "高密度GPU集群中液冷系统泄漏",
+        "solution": "具有亚微米公差的精密EPDM冷却密封件",
+        "results": [
+          "99.97%无泄漏性能",
+          "兼容介电冷却液",
+          "温度范围：-40°C至150°C"
+        ]
+      },
+      "automotiveEV": {
+        "industry": "汽车电动化",
+        "client": "一级电动汽车零部件供应商",
+        "location": "日本",
+        "challenge": "热管理系统的电池包密封",
+        "solution": "具有阻燃性能的多材料垫片系统",
+        "results": [
+          "通过UL94 V-0阻燃等级",
+          "IP67和IP69K认证",
+          "年产能：50万件"
+        ]
+      }
+    },
+    "cta": {
+      "titleLine1": "面临",
+      "titleLine2": "密封挑战？",
+      "subtitle": "我们的工程团队已解决了机器人、汽车和工业应用中的复杂密封问题。让我们讨论您的需求。",
+      "discussProject": "讨论您的项目",
+      "exploreMaterials": "探索材料"
+    }
+  }
+}

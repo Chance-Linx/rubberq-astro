@@ -1,0 +1,130 @@
+---
+import LocaleLayout from '@/layouts/LocaleLayout.astro';
+import { getTranslations, t } from '@/lib/i18n';
+
+export function getStaticPaths() {
+  return ['en','de','ja','es','zh'].map(locale => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params;
+const messages = await getTranslations(locale);
+const meta = messages?.metadata || {};
+const _ = (key: string, fallback = '') => t(messages, `capabilities.${key}`, fallback);
+
+const processes = [
+  {
+    stage: _('processes.phase1.stage'),
+    steps: [
+      { title: _('processes.phase1.rawMaterial.title'), desc: _('processes.phase1.rawMaterial.desc') },
+      { title: _('processes.phase1.warehousing.title'), desc: _('processes.phase1.warehousing.desc') }
+    ]
+  },
+  {
+    stage: _('processes.phase2.stage'),
+    steps: [
+      { title: _('processes.phase2.formulation.title'), desc: _('processes.phase2.formulation.desc') },
+      { title: _('processes.phase2.internalMixer.title'), desc: _('processes.phase2.internalMixer.desc') },
+      { title: _('processes.phase2.calendering.title'), desc: _('processes.phase2.calendering.desc') },
+      { title: _('processes.phase2.testing.title'), desc: _('processes.phase2.testing.desc') }
+    ]
+  },
+  {
+    stage: _('processes.phase3.stage'),
+    steps: [
+      { title: _('processes.phase3.bMixing.title'), desc: _('processes.phase3.bMixing.desc') },
+      { title: _('processes.phase3.maturation.title'), desc: _('processes.phase3.maturation.desc') },
+      { title: _('processes.phase3.compoundTesting.title'), desc: _('processes.phase3.compoundTesting.desc') }
+    ]
+  },
+  {
+    stage: _('processes.phase4.stage'),
+    steps: [
+      { title: _('processes.phase4.molding.title'), desc: _('processes.phase4.molding.desc') },
+      { title: _('processes.phase4.deflashing.title'), desc: _('processes.phase4.deflashing.desc') }
+    ]
+  },
+  {
+    stage: _('processes.phase5.stage'),
+    steps: [
+      { title: _('processes.phase5.inspection.title'), desc: _('processes.phase5.inspection.desc') },
+      { title: _('processes.phase5.fulfillment.title'), desc: _('processes.phase5.fulfillment.desc') }
+    ]
+  }
+];
+---
+
+<LocaleLayout locale={locale}>
+  <Fragment slot="head">
+    <title>{meta.capabilities?.title || 'Manufacturing Capabilities | RubberQ'}</title>
+    <meta name="description" content={meta.capabilities?.description || ''} />
+  </Fragment>
+
+  <div class="bg-white min-h-screen">
+    <!-- Hero -->
+    <section class="bg-industrial-900 text-white py-24 px-4">
+      <div class="max-w-7xl mx-auto">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6 uppercase tracking-tight">{_('hero.title')}</h1>
+        <p class="text-xl text-industrial-400 max-w-2xl leading-relaxed">
+          {_('hero.subtitle')}
+        </p>
+      </div>
+    </section>
+
+    <!-- Process Map -->
+    <section class="py-20 px-4">
+      <div class="max-w-5xl mx-auto">
+        {processes.map((phase, phaseIdx) => (
+          <div class="mb-20 last:mb-0">
+            <div class="flex items-center gap-4 mb-10">
+              <div class="h-px bg-industrial-200 flex-grow"></div>
+              <h2 class="text-sm font-bold uppercase tracking-[0.3em] text-accent-orange whitespace-nowrap">{phase.stage}</h2>
+              <div class="h-px bg-industrial-200 flex-grow"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {phase.steps.map((step) => (
+                <div class="flex gap-6 p-8 border border-industrial-50 bg-industrial-50/50 hover:bg-white hover:border-industrial-900 transition-all duration-300 group">
+                  <div class="flex-shrink-0 w-12 h-12 bg-industrial-900 text-white flex items-center justify-center rounded-sm group-hover:bg-accent-orange transition-colors">
+                    <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="3"/>
+                      <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="text-lg font-bold mb-2 uppercase tracking-tight">{step.title}</h3>
+                    <p class="text-industrial-600 text-sm leading-relaxed">{step.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Technical Footnote -->
+    <section class="bg-industrial-50 py-16 px-4 border-t border-industrial-100">
+      <div class="max-w-7xl mx-auto">
+        <div class="bg-white p-8 md:p-12 border border-industrial-200 shadow-sm flex flex-col md:flex-row gap-12 items-center">
+          <div class="flex-grow">
+            <h3 class="text-2xl font-bold mb-4 uppercase italic">{_('footer.title')}</h3>
+            <p class="text-industrial-600 leading-relaxed mb-6">
+              {_('footer.description')}
+            </p>
+            <div class="flex flex-wrap gap-4">
+              <span class="px-3 py-1 bg-industrial-100 text-[10px] font-bold uppercase tracking-widest text-industrial-600">{_('footer.tagTraceability')}</span>
+              <span class="px-3 py-1 bg-industrial-100 text-[10px] font-bold uppercase tracking-widest text-industrial-600">{_('footer.tagMixing')}</span>
+              <span class="px-3 py-1 bg-industrial-100 text-[10px] font-bold uppercase tracking-widest text-industrial-600">{_('footer.tagCompliance')}</span>
+            </div>
+          </div>
+          <div class="shrink-0 w-full md:w-64 aspect-square bg-industrial-900 flex items-center justify-center text-white text-center p-8">
+            <div>
+              <p class="text-4xl font-bold mb-2">{_('footer.zero')}</p>
+              <p class="text-xs uppercase tracking-widest text-industrial-400">{_('footer.toleranceForDefects')}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</LocaleLayout>

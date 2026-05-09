@@ -1,0 +1,1302 @@
+{
+  "metadata": {
+    "title": "RubberQ | Fabricante de Piezas de Goma de Precisión (Certificado IATF 16949)",
+    "description": "Fuzhou RubberQ Rubber Co., Ltd. es un fabricante global de componentes de goma de grado automotriz. Especializado en FKM, EPDM y NBR para hardware de IA, robótica y maquinaria de alta precisión.",
+    "home": {
+      "title": "RubberQ — Fabricación de Goma de Precisión",
+      "description": "Componentes de goma de grado automotriz para robótica, infraestructura de IA y maquinaria de precisión. Certificado IATF 16949."
+    },
+    "blog": {
+      "title": "Centro de Conocimiento Técnico | RubberQ",
+      "description": "Análisis experto en ingeniería de caucho, estándares de calidad y soluciones específicas para aplicaciones."
+    },
+    "capabilities": {
+      "title": "Proceso de Manufactura | RubberQ",
+      "description": "Explore el proceso de mezcla y moldeo de dos etapas de RubberQ para precisión de grado automotriz."
+    },
+    "caseStudies": {
+      "title": "Casos de Estudio | RubberQ",
+      "description": "Soluciones de ingeniería de caucho del mundo real para robótica, infraestructura de IA y automotriz."
+    },
+    "contact": {
+      "title": "Contáctenos | RubberQ",
+      "description": "Póngase en contacto con nuestro equipo de ingeniería para soluciones de componentes de goma personalizados."
+    },
+    "factory": {
+      "title": "Tour de Fábrica | RubberQ",
+      "description": "Tour virtual de las instalaciones de fabricación de 20,000m² certificadas IATF 16949 de RubberQ."
+    },
+    "materials": {
+      "title": "Materiales Industriales | RubberQ",
+      "description": "Centro de recursos técnicos para elastómeros industriales — FKM, EPDM, NBR, Silicona."
+    },
+    "privacy": {
+      "title": "Política de Privacidad | RubberQ",
+      "description": "Cómo RubberQ recopila, utiliza y protege sus datos comerciales."
+    },
+    "quality": {
+      "title": "Garantía de Calidad | RubberQ",
+      "description": "Calidad intransigente con certificaciones IATF 16949, ISO 9001 e ISO 14001."
+    },
+    "resources": {
+      "title": "Recursos Técnicos | RubberQ",
+      "description": "Guías de selección de materiales, pautas de diseño y recursos de ingeniería."
+    },
+    "standards": {
+      "title": "Estándares de la Industria | RubberQ",
+      "description": "Guía completa de cumplimiento ASTM D2000, SAE J200, RoHS, REACH."
+    },
+    "terms": {
+      "title": "Terms of Service | RubberQ",
+      "description": "Terms and conditions for RubberQ website and manufacturing services."
+    },
+    "about": {
+      "title": "Nuestro Legado | RubberQ",
+      "description": "Establecida en 1995, Fuzhou RubberQ Rubber Co., Ltd. comenzó como una empresa conjunta sino-japonesa, trayendo rigurosos estándares de manufactura japoneses al corazón industrial de China."
+    }
+  },
+  "navigation": {
+    "products": "Productos",
+    "caseStudies": "Casos",
+    "factory": "Fábrica",
+    "about": "Nosotros",
+    "capabilities": "Capacidades",
+    "materials": "Materiales",
+    "quality": "Calidad",
+    "resources": "Recursos",
+    "blog": "Blog",
+    "search": "Buscar",
+    "contact": "Contacto",
+    "getQuote": "Solicitar Presupuesto"
+  },
+  "hero": {
+    "badge": "EXCELENCIA AUTOMOTRIZ",
+    "title": "PRECISIÓN EN CADA MOLÉCULA.",
+    "titleLine1": "PRECISIÓN",
+    "titleLine2": "EN CADA",
+    "titleLine3": "MOLÉCULA.",
+    "subtitle": "Sirviendo el futuro de la robótica, infraestructura de IA y maquinaria de alto rendimiento con componentes de goma certificados IATF 16949.",
+    "ctaPrimary": "CENTRO TÉCNICO",
+    "ctaSecondary": "CALIDAD Y CONFIANZA"
+  },
+  "features": {
+    "title": "POR QUÉ LOS LÍDERES GLOBALES CONFIAN EN RUBBERQ",
+    "summaryTitle": "RESUMEN TÉCNICO",
+    "summaryItems": [
+      {
+        "term": "Certificación IATF 16949",
+        "description": "Riguroso sistema de gestión de calidad automotriz que garantiza una producción sin defectos."
+      },
+      {
+        "term": "Trazabilidad completa",
+        "description": "Registro digital completo desde el lote de materia prima hasta el componente terminado."
+      },
+      {
+        "term": "Ingeniería de precisión",
+        "description": "Tolerancias ISO 3302-1 Clase M1 estándar para aplicaciones de alta tecnología."
+      }
+    ],
+    "reliability": {
+      "title": "FIABILIDAD",
+      "desc": "Durabilidad de grado automotriz para infraestructura 24/7."
+    },
+    "precision": {
+      "title": "PRECISIÓN",
+      "desc": "Precisión a nivel de micrones para articulaciones robóticas y sensores."
+    },
+    "traceability": {
+      "title": "TRAZABILIDAD",
+      "desc": "Integración ERP completa para responsabilidad crítica."
+    },
+    "innovation": {
+      "title": "INNOVACIÓN",
+      "desc": "I+D de materiales personalizados para sistemas de refrigeración líquida de IA."
+    }
+  },
+  "products": {
+    "title": "Nuestros Productos",
+    "subtitle": "Componentes de goma de alto rendimiento diseñados para sus requisitos específicos",
+    "viewAll": "Ver Todos los Productos",
+    "categories": {
+      "seals": "Sellos y Juntas",
+      "automotive": "Piezas Automotrices",
+      "industrial": "Componentes Industriales",
+      "medical": "Grado Médico"
+    }
+  },
+  "industries": {
+    "title": "Industrias Especializadas",
+    "robotics": {
+      "title": "Robótica y Cobots",
+      "desc": "Sellos de alta precisión y componentes de amortiguación para articulaciones robóticas y aplicaciones de cobots"
+    },
+    "ai": {
+      "title": "Infraestructura de IA",
+      "desc": "Sellos de gestión térmica para centros de datos y sistemas de refrigeración de hardware de IA"
+    },
+    "machinery": {
+      "title": "Maquinaria de Precisión",
+      "desc": "Sellos industriales y componentes personalizados para equipos de precisión"
+    },
+    "automotive": {
+      "title": "Automotriz",
+      "desc": "Sellos de motor, juntas, mangueras y aisladores de vibración"
+    },
+    "industrial": {
+      "title": "Industrial",
+      "desc": "Bombas, válvulas, sellos de maquinaria y piezas moldeadas personalizadas"
+    },
+    "medical": {
+      "title": "Médico",
+      "desc": "Sellos compatibles con FDA, juntas y componentes de precisión"
+    },
+    "electronics": {
+      "title": "Electrónica",
+      "desc": "Blindaje EMI, teclados y sellos protectores"
+    }
+  },
+  "cta": {
+    "title": "¿Listo para Iniciar su Proyecto?",
+    "subtitle": "Obtenga una consulta técnica y presupuesto gratuito de nuestro equipo de ingeniería",
+    "button": "Solicitar Presupuesto"
+  },
+  "footer": {
+    "company": "Empresa",
+    "products": "Productos",
+    "resources": "Recursos",
+    "legal": "Legal",
+    "copyright": "© 2026 Fuzhou RubberQ Rubber Co., Ltd. Todos los derechos reservados.",
+    "certifications": "Certificaciones: IATF 16949 | ISO 9001 | ISO 14001",
+    "technicalHub": "Centro Técnico",
+    "materialHub": "Centro de Materiales",
+    "manufacturing": "Proceso de Manufactura",
+    "qualityAssurance": "Garantía de Calidad",
+    "industryStandards": "Estándares de la Industria",
+    "aboutRubberQ": "Sobre RubberQ",
+    "globalSupport": "Soporte Global",
+    "globalPresence": "Presencia Global",
+    "address": "Fuzhou, Fujian, China",
+    "email": "Correo: contact@rubberq.com",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio"
+  },
+  "contact": {
+    "title": "Solicitar Presupuesto Técnico",
+    "subtitle": "Nuestro equipo de ingeniería generalmente responde a consultas técnicas y RFQ dentro de 12-24 horas.",
+    "form": {
+      "name": "Nombre Completo",
+      "namePlaceholder": "Juan Pérez",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "juan@empresa.com",
+      "company": "Nombre de la Empresa",
+      "companyPlaceholder": "Innovaciones Tech S.A.",
+      "industry": "Industria Objetivo",
+      "industryOptions": {
+        "robotics": "Robótica y Automatización",
+        "ai": "Hardware de IA / Centros de Datos",
+        "automotive": "Automotriz (Req. IATF 16949)",
+        "machinery": "Maquinaria de Precisión",
+        "other": "Otra"
+      },
+      "message": "Requisitos del Proyecto",
+      "messagePlaceholder": "Describa su aplicación, requisitos de material (ej. FKM, EPDM) y volumen anual estimado.",
+      "fileLink": "Enlace de Archivos de Diseño (Opcional)",
+      "fileLinkPlaceholder": "https://drive.google.com/... o enlace de Dropbox",
+      "fileLinkHelp": "Comparta enlace de Google Drive, Dropbox o WeTransfer (STEP, STP, PDF, DXF)",
+      "submit": "ENVIAR SOLICITUD",
+      "submitting": "ENVIANDO...",
+      "success": "¡Envío exitoso!",
+      "successMessage": "Hemos recibido su RFQ y responderemos dentro de 12-24 horas.",
+      "error": "Envío fallido",
+      "errorMessage": "Por favor intente nuevamente más tarde.",
+      "required": "Campo obligatorio"
+    },
+    "directContact": "Contacto Directo",
+    "engineeringSales": "Ingeniería / Ventas",
+    "manufacturingSite": "Sitio de Manufactura",
+    "fastTrack": "Servicio Rápido 2026",
+    "fastTrackDesc": "Comparta sus archivos de diseño (enlace de Google Drive / Dropbox) para ayudar a nuestro motor de cotización asistido por IA a proporcionar precios más rápidos.",
+    "manufacturingAddress": "Ciudad de Fuzhou, Provincia de Fujian, China",
+    "enhancement": {
+      "globalDeliveryTitle": "Cobertura de Entrega Global",
+      "globalDeliveryDesc": "Mismo flujo para todas las regiones con un unico contacto de ingenieria.",
+      "unitsPolicy": "Los datos tecnicos usan unidades metricas internacionales unificadas.",
+      "complianceTitle": "Guia de Cumplimiento Ligera",
+      "complianceHint": "Incluya estos requisitos en su RFQ y respondemos con los documentos aplicables.",
+      "complianceItems": ["Soporte de declaracion REACH / RoHS", "Declaracion de cumplimiento FDA (si aplica)", "Disponibilidad de paquete PPAP / FAI"]
+    }
+  },
+  "about": {
+    "title": "Nuestro Legado",
+    "subtitle": "Establecida en 1995, Fuzhou RubberQ Rubber Co., Ltd. comenzó como una empresa conjunta sino-japonesa, trayendo rigurosos estándares de manufactura japoneses al corazón industrial de China.",
+    "watchVideo": "Ver Video Corporativo",
+    "videoDuration": "[Resumen de la Empresa y Tour de Fábrica - 3:45]",
+    "heritageQuote": "\"La calidad automotriz está en nuestro ADN.\"",
+    "heritageText1": "Durante más de tres décadas, hemos servido como proveedor OEM a largo plazo para las principales marcas automotrices japonesas. Esta experiencia nos enseñó que en la manufactura de precisión no hay margen para el error.",
+    "heritageText2": "Hoy, mientras nos expandimos hacia los sectores de IA y robótica, llevamos este legado de cultura \"Cero Defectos\" hacia las tecnologías del mañana.",
+    "stats": {
+      "years": "Años de Experiencia",
+      "factory": "m² de Fábrica",
+      "certified": "16949 Certificado",
+      "partners": "Socios Globales"
+    },
+    "manufacturing": "Excelencia en Manufactura",
+    "scenes": {
+      "injection": {
+        "title": "Moldeo por Inyección de Precisión",
+        "desc": "Nuestro taller de moldeo por inyección de última generación con 50+ máquinas automatizadas."
+      },
+      "rnd": {
+        "title": "Laboratorio de I+D Avanzado",
+        "desc": "Donde la innovación de materiales se encuentra con rigurosos estándares de prueba."
+      },
+      "qc": {
+        "title": "Centro de Control de Calidad",
+        "desc": "Sistemas de inspección visual 100% automatizados para precisión de grado automotriz."
+      },
+      "logistics": {
+        "title": "Centro Logístico Global",
+        "desc": "Almacenamiento eficiente y capacidades de envío global."
+      }
+    },
+    "imageNote": "Nota: Estas imágenes representan nuestros entornos de taller reales y capacidades técnicas. Damos la bienvenida a visitas in situ y auditorías de terceros.",
+    "coreValues": "Valores Fundamentales",
+    "values": {
+      "precision": {
+        "title": "Precisión",
+        "desc": "Precisión a nivel de micrones en cada molde y cada lote."
+      },
+      "partnership": {
+        "title": "Asociación",
+        "desc": "Trabajando como una extensión de su equipo de ingeniería."
+      },
+      "sustainability": {
+        "title": "Sostenibilidad",
+        "desc": "Manufactura conforme a ISO 14001 para un futuro más verde."
+      }
+    }
+  },
+  "productsPage": {
+    "metadata": {
+      "title": "Productos | RubberQ - Componentes de Goma de Grado Automotriz",
+      "description": "Sellos de goma personalizados, juntas, fuelles y componentes moldeados. Manufactura certificada IATF 16949 para robótica, aplicaciones automotrices e industriales."
+    },
+    "badge": "Certificado IATF 16949",
+    "title": "PORTAFOLIO DE PRODUCTOS",
+    "subtitle": "Componentes de goma diseñados con precisión para aplicaciones exigentes. Desde sellos estándar hasta moldes personalizados complejos, fabricados con sistemas de calidad de grado automotriz.",
+    "capability": "Capacidad",
+    "manufacturingFootprint": "Huella de Manufactura",
+    "categoriesTitle": "CATEGORÍAS DE COMPONENTES",
+    "categoriesSubtitle": "Cuatro familias de productos principales que sirven a las industrias de robótica, automotriz, infraestructura de IA y maquinaria de precisión.",
+    "certifications": [
+      "Certificado IATF 16949:2016",
+      "Calidad ISO 9001:2015",
+      "Medio Ambiente ISO 14001:2015",
+      "Cumplimiento RoHS / REACH"
+    ],
+    "seals": {
+      "name": "Sellos y O-Rings",
+      "desc": "Soluciones de sellado estático y dinámico con tolerancias de precisión según estándares ISO 3601 y ASTM D2000.",
+      "materialsTitle": "Materiales Disponibles",
+      "featuresTitle": "Características Principales",
+      "applicationsTitle": "Aplicaciones Típicas",
+      "applications": [
+        "Sistemas hidráulicos",
+        "Cilindros neumáticos",
+        "Ejes rotativos",
+        "Bridas estáticas"
+      ],
+      "features": [
+        "Rango de temperatura: -60°C a 320°C",
+        "Personalización de resistencia química",
+        "Baja deformación remanente"
+      ],
+      "specs": "ISO 3601-1 Class B"
+    },
+    "gaskets": {
+      "name": "Juntas y Arandelas",
+      "desc": "Juntas troqueladas y moldeadas para aplicaciones de sellado de fluidos, blindaje EMI y gestión térmica.",
+      "applications": [
+        "Paquetes de baterías",
+        "Carcasas",
+        "Intercambiadores de calor",
+        "Cuerpos de bomba"
+      ],
+      "features": [
+        "Espesor: 0.5mm a 25mm",
+        "Respaldo adhesivo personalizado",
+        "Grados FDA disponibles"
+      ],
+      "specs": "ISO 3302-1 Class M1"
+    },
+    "bellows": {
+      "name": "Fuelles y Guardapolvos",
+      "desc": "Cubiertas protectoras flexibles para sistemas de movimiento lineal y rotativo, con vida útil extendida.",
+      "applications": [
+        "Articulaciones de robots",
+        "Actuadores lineales",
+        "Juntas homocinéticas",
+        "Guías de maquinaria"
+      ],
+      "features": [
+        "Diseños de múltiples convoluciones",
+        "Plegable/retráctil",
+        "Protección contra salpicaduras químicas"
+      ],
+      "specs": "Clasificación de 1M+ ciclos"
+    },
+    "custom": {
+      "name": "Piezas Moldeadas Personalizadas",
+      "desc": "Componentes de goma específicos para aplicaciones desde prototipos hasta producción en alto volumen.",
+      "applications": [
+        "Aisladores de vibración",
+        "Topes",
+        "Componentes de válvulas",
+        "Sellos de conectores"
+      ],
+      "features": [
+        "Moldeo de tolerancia ajustada",
+        "Capacidad de moldeo por inserción",
+        "Igualación de color"
+      ],
+      "specs": "Estándares SPI-SPE"
+    },
+    "requestQuote": "Solicitar Presupuesto",
+    "viewDetails": "Ver detalles",
+    "customEngineering": "INGENIERÍA PERSONALIZADA",
+    "customEngineeringDesc": "Más allá de nuestras líneas de productos estándar, nuestro equipo de ingeniería se especializa en desarrollar soluciones de goma específicas para aplicaciones. Desde la formulación de materiales hasta el diseño de moldes, manejamos el ciclo de desarrollo completo.",
+    "engineeringServices": [
+      "Desarrollo de formulación de materiales",
+      "Simulación FEA y validación",
+      "Prototipado rápido (3-5 días)",
+      "Diseño y fabricación de herramentales",
+      "Soporte de documentación PPAP"
+    ],
+    "startProject": "Iniciar Proyecto Personalizado",
+    "stats": {
+      "toolings": "Herramentales Activos",
+      "turnaround": "Tiempo de Respuesta",
+      "tolerance": "Capacidad de Tolerancia",
+      "standard": "Estándar Clase M1"
+    },
+    "resourcesTitle": "RECURSOS TÉCNICOS",
+    "resourcesSubtitle": "Descargue especificaciones y hojas de datos de materiales",
+    "downloads": [
+      {
+        "name": "Guía de Selección de Materiales",
+        "size": "PDF, 2.4 MB"
+      },
+      {
+        "name": "Referencia de Tolerancias (ISO 3302)",
+        "size": "PDF, 1.1 MB"
+      },
+      {
+        "name": "Especificación ASTM D2000",
+        "size": "PDF, 3.2 MB"
+      }
+    ]
+  },
+  "resources": {
+    "metadata": {
+      "title": "Recursos Técnicos | RubberQ",
+      "description": "Guías de materiales, recomendaciones de diseño, estándares de la industria, FAQ y documentos técnicos descargables para ingeniería de componentes de caucho."
+    },
+    "hero": {
+      "badge": "Recursos Técnicos",
+      "title": "Centro de Conocimiento de Ingeniería",
+      "subtitle": "Guías integrales, estándares y documentación técnica para ayudarle a diseñar y especificar componentes de caucho con confianza."
+    },
+    "materials": {
+      "title": "Guía de Selección de Materiales",
+      "subtitle": "Compare las propiedades del elastómero para seleccionar el material óptimo para sus requisitos de aplicación.",
+      "viewDatabase": "Ver Base de Datos Completa de Materiales →",
+      "applicationsLabel": "Aplicaciones",
+      "fkm": {
+        "description": "Fluoroelastómero con resistencia química excepcional y estabilidad a alta temperatura.",
+        "tempRange": "-20°C to +200°C",
+        "applications": [
+          "Aeroespacial",
+          "Procesamiento químico",
+          "Automotriz de alto rendimiento"
+        ],
+        "features": [
+          "Excelente resistencia química",
+          "Alta tolerancia a temperatura",
+          "Resistencia superior a aceite/combustible"
+        ]
+      },
+      "nbr": {
+        "description": "Caucho nitrilo que ofrece excelente resistencia al aceite y propiedades mecánicas a costo competitivo.",
+        "tempRange": "-40°C to +120°C",
+        "applications": [
+          "Sistemas hidráulicos",
+          "Automotriz",
+          "Industrial general"
+        ],
+        "features": [
+          "Solución rentable",
+          "Buena resistencia al aceite",
+          "Amplia gama de dureza disponible"
+        ]
+      },
+      "epdm": {
+        "description": "Etileno propileno dieno monómero con resistencia excepcional a la intemperie y al ozono.",
+        "tempRange": "-50°C to +150°C",
+        "applications": [
+          "Aplicaciones exteriores",
+          "Sistemas de agua",
+          "Aplicaciones de vapor"
+        ],
+        "features": [
+          "Excelente resistencia a la intemperie",
+          "Resistencia superior al agua/vapor",
+          "Buen aislamiento eléctrico"
+        ]
+      },
+      "silicone": {
+        "description": "Elastómero versátil con rango de temperatura extremo y biocompatibilidad.",
+        "tempRange": "-60°C to +230°C",
+        "applications": [
+          "Dispositivos médicos",
+          "Procesamiento de alimentos",
+          "Temperaturas extremas"
+        ],
+        "features": [
+          "Grados compatibles con FDA disponibles",
+          "Rango de temperatura extremo",
+          "Excelente conjunto de compresión"
+        ]
+      }
+    },
+    "designGuides": {
+      "title": "Recomendaciones de Diseño",
+      "subtitle": "Mejores prácticas para el diseño de piezas de caucho para garantizar la fabricabilidad y el rendimiento óptimo.",
+      "keyTips": "Consejos Clave",
+      "wallThickness": {
+        "title": "Directrices de Espesor de Pared",
+        "content": "El espesor de pared uniforme es crítico para la vulcanización consistente y la prevención de defectos. Evite cambios abruptos en la sección transversal.",
+        "tips": [
+          "Espesor mínimo de pared: 0.5mm para la mayoría de los materiales",
+          "Mantenga un espesor uniforme para prevenir marcas de hundimiento",
+          "Use transiciones graduales entre secciones gruesas y delgadas"
+        ]
+      },
+      "draftAngles": {
+        "title": "Requisitos de Ángulos de Salida",
+        "content": "Los ángulos de salida adecuados aseguran la expulsión limpia de las piezas de los moldes y previenen daños durante el desmoldeo.",
+        "tips": [
+          "Ángulo de salida mínimo de 0.5° para paredes exteriores",
+          "Se recomienda 1-2° para superficies texturizadas",
+          "Las características internas pueden requerir ángulo de salida de 1-3°"
+        ]
+      },
+      "shrinkage": {
+        "title": "Compensación de Contracción",
+        "content": "Todos los materiales de caucho se contraen durante el curado. Diseñe moldes con tolerancias de contracción apropiadas para dimensiones finales precisas.",
+        "tips": [
+          "NBR/FKM: 1.5-2.5% de contracción lineal",
+          "EPDM: 1.0-2.0% de contracción lineal",
+          "Silicona: 2.0-3.0% de contracción lineal"
+        ]
+      }
+    },
+    "standards": {
+      "title": "Estándares de la Industria",
+      "subtitle": "Estándares internacionales clave que rigen el diseño, las tolerancias y la calidad de los componentes de caucho.",
+      "iso3601": {
+        "title": "Sistemas de Fluidos - O-Rings",
+        "description": "Define diámetros interiores, secciones transversales, tolerancias y códigos de identificación de tamaño para O-rings utilizados en aplicaciones de fluidos."
+      },
+      "iso3302": {
+        "title": "Caucho - Tolerancias para Productos",
+        "description": "Especifica clases de tolerancias dimensionales para productos de caucho moldeados, extruidos y calandrados."
+      },
+      "astm": {
+        "title": "Clasificación Estándar para Caucho",
+        "description": "Sistema de clasificación para materiales de caucho en aplicaciones automotrices basado en requisitos de material."
+      },
+      "iatf": {
+        "title": "Estándar de Gestión de Calidad",
+        "description": "Estándar internacional de sistema de gestión de calidad automotriz que garantiza calidad de producto consistente y mejora continua."
+      }
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "subtitle": "Preguntas comunes sobre diseño, fabricación y aseguramiento de calidad de componentes de caucho.",
+      "q1": {
+        "question": "¿Cuál es el tiempo de entrega típico para piezas de caucho personalizadas?",
+        "answer": "Los tiempos de entrega estándar varían de 2-4 semanas para herramentales existentes y 4-6 semanas para el desarrollo de nuevos herramentales. Las piezas de prototipo a menudo pueden entregarse dentro de 1-2 semanas utilizando métodos de herramental rápido."
+      },
+      "q2": {
+        "question": "¿Cómo elijo el material de caucho adecuado para mi aplicación?",
+        "answer": "La selección de material depende del rango de temperatura, exposición química, requisitos mecánicos y necesidades regulatorias (FDA, UL, etc.). Nuestra guía de selección de materiales proporciona datos de comparación detallados, o contacte a nuestro equipo de ingeniería para recomendaciones."
+      },
+      "q3": {
+        "question": "¿Qué niveles de tolerancia puede lograr?",
+        "answer": "Rutinariamente logramos tolerancias Clase M1 ISO 3302 (±0.05mm para piezas pequeñas). Las tolerancias más ajustadas son posibles con herramental especializado y control de proceso."
+      },
+      "q4": {
+        "question": "¿Proporcionan documentación PPAP?",
+        "answer": "Sí, proporcionamos documentación PPAP completa incluyendo envíos Nivel 3 con todos los datos de soporte. Nuestro sistema de gestión de calidad está certificado IATF 16949."
+      },
+      "q5": {
+        "question": "¿Pueden trabajar con materiales proporcionados por el cliente?",
+        "answer": "Sí, podemos procesar materiales proporcionados por el cliente o adquirir grados específicos según sea requerido. Todos los materiales se someten a inspección y verificación de entrada antes del uso en producción."
+      }
+    },
+    "downloads": {
+      "title": "Descargas Técnicas",
+      "subtitle": "Descargue documentación técnica integral, guías y materiales de referencia.",
+      "materialGuide": {
+        "title": "Guía de Selección de Materiales",
+        "description": "Comparación completa de materiales de caucho incluyendo propiedades, aplicaciones y criterios de selección."
+      },
+      "designManual": {
+        "title": "Manual de Diseño para Piezas de Caucho",
+        "description": "Directrices de ingeniería para diseñar componentes de caucho fabricables con rendimiento óptimo."
+      },
+      "toleranceChart": {
+        "title": "Tabla de Tolerancias ISO",
+        "description": "Referencia rápida para clases de tolerancia ISO 3302 y límites dimensionales."
+      },
+      "qaChecklist": {
+        "title": "Lista de Verificación de Aseguramiento de Calidad",
+        "description": "Lista de verificación pre-producción para asegurar que todos los requisitos sean capturados y validados."
+      }
+    },
+    "cta": {
+      "title": "¿Necesita Especificaciones Personalizadas?",
+      "description": "Nuestro equipo de ingeniería puede proporcionar recomendaciones específicas para su aplicación y desarrollar formulaciones personalizadas para sus requisitos únicos.",
+      "button": "Contactar Equipo de Ingeniería"
+    }
+  },
+  "language": {
+    "title": "Idioma",
+    "select": "Seleccionar Idioma"
+  },
+  "cookieConsent": {
+    "title": "Su Privacidad Importa",
+    "descriptionPrefix": "Utilizamos cookies para mejorar su experiencia de navegación, ofrecer contenido técnico personalizado y analizar nuestro tráfico en cumplimiento con GDPR y CCPA. Al hacer clic en \"Aceptar\", consiente nuestro uso de cookies. Lea nuestra",
+    "privacyLink": "Política de Privacidad",
+    "descriptionSuffix": "para más detalles.",
+    "decline": "Rechazar",
+    "acceptAll": "Aceptar Todo"
+  },
+  "quality": {
+    "title": "Garantía de Calidad",
+    "hero": {
+      "title": "Calidad Intransigente",
+      "subtitle": "Desde el compuesto de materia prima hasta la inspección final, el sistema de calidad certificado IATF 16949 de RubberQ garantiza un rendimiento cero defectos para las industrias de IA, Robótica y Automotriz."
+    },
+    "certifications": {
+      "title": "Certificaciones Globales",
+      "subtitle": "Haga clic en cualquier certificado para ver detalles y descargar",
+      "valid": "Válido",
+      "expiring": "Expira pronto",
+      "expired": "Caducado",
+      "status": {
+        "active": "Válido",
+        "expiring": "Expira pronto",
+        "expired": "Caducado"
+      },
+      "viewDetails": "Ver Detalles",
+      "download": "Descargar PDF",
+      "issuingAuthority": "Autoridad Emisora",
+      "issued": "Emitido",
+      "expires": "Expira",
+      "scope": "Alcance",
+      "verification": "Este certificado puede ser verificado a través del registro oficial de la autoridad emisora utilizando el número de certificado."
+    },
+    "certificates": {
+      "iatf": {
+        "name": "IATF 16949:2016",
+        "org": "Gestión de Calidad Automotriz",
+        "issuer": "TÜV SÜD",
+        "description": "Estándar internacional de sistema de gestión de calidad automotriz que garantiza una calidad de producto consistente y mejora continua en toda la cadena de suministro."
+      },
+      "iso9001": {
+        "name": "ISO 9001:2015",
+        "org": "Sistema de Gestión de Calidad",
+        "issuer": "SGS",
+        "description": "Estándar global para sistemas de gestión de calidad, demostrando nuestra capacidad para proporcionar consistentemente productos que cumplen con los requisitos del cliente y regulatorios."
+      },
+      "iso14001": {
+        "name": "ISO 14001:2015",
+        "org": "Gestión Ambiental",
+        "issuer": "Bureau Veritas",
+        "description": "Certificación del sistema de gestión ambiental que demuestra nuestro compromiso con prácticas de fabricación sostenibles, reducción de residuos y responsabilidad ambiental."
+      },
+      "rohs": {
+        "name": "RoHS y REACH",
+        "org": "Cumplimiento Ambiental",
+        "issuer": "Intertek",
+        "description": "Cumplimiento con las regulaciones de la UE que restringen sustancias peligrosas (RoHS) y garantizan el uso seguro de productos químicos (REACH) en los procesos de fabricación de caucho."
+      }
+    },
+    "lab": {
+      "title": "Laboratorio Interno",
+      "description": "Nuestra instalación de pruebas de última generación está equipada para realizar análisis completos de materiales y validación de productos de acuerdo con los estándares ASTM, ISO y SAE.",
+      "note": "Todo el equipo es calibrado anualmente por laboratorios externos acreditados por CNAS.",
+      "equipment": [
+        {
+          "name": "Reómetro",
+          "function": "Análisis de características de curado de material",
+          "img": "https://images.unsplash.com/photo-1579154236594-c199f346e992?auto=format&fit=crop&q=80&w=400"
+        },
+        {
+          "name": "Probador de Tracción",
+          "function": "Verificación de resistencia y elongación",
+          "img": "https://images.unsplash.com/photo-1581093450021-4a7360e9a6ad?auto=format&fit=crop&q=80&w=400"
+        },
+        {
+          "name": "Hornos de Envejecimiento",
+          "function": "Simulación de durabilidad a largo plazo",
+          "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=400"
+        },
+        {
+          "name": "Sistema de Medición por Video",
+          "function": "Inspección dimensional de alta precisión",
+          "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=400"
+        }
+      ]
+    },
+    "process": {
+      "title": "Prueba Visual de Excelencia",
+      "steps": {
+        "incoming": "Verificación de Material Entrante",
+        "incomingDesc": "Verificación de materia prima certificada por SGS para cada lote.",
+        "monitoring": "Monitoreo en Proceso",
+        "monitoringDesc": "Seguimiento de datos SPC (Control Estadístico de Procesos) en tiempo real.",
+        "inspection": "Inspección Final 100%",
+        "inspectionDesc": "Garantía de cero defectos a través de verificación manual y asistida por IA."
+      },
+      "scenes": [
+        {
+          "title": "Verificación de Material Entrante",
+          "desc": "Verificación de materia prima certificada por SGS para cada lote.",
+          "img": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=600"
+        },
+        {
+          "title": "Monitoreo en Proceso",
+          "desc": "Seguimiento de datos SPC (Control Estadístico de Procesos) en tiempo real.",
+          "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600"
+        },
+        {
+          "title": "Inspección Final 100%",
+          "desc": "Garantía de cero defectos a través de verificación manual y asistida por IA.",
+          "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=600"
+        }
+      ]
+    },
+    "traceability": {
+      "title": "Control Total del Proceso",
+      "mainTitle": "Cadena de Trazabilidad Completa",
+      "subtitle": "Nuestra herencia de grado automotriz significa que cada componente sigue un ciclo de fabricación riguroso basado en evidencia.",
+      "steps": [
+        {
+          "title": "APQP",
+          "desc": "Planificación Avanzada de Calidad del Producto"
+        },
+        {
+          "title": "Compuesto",
+          "desc": "Pesaje automatizado de precisión"
+        },
+        {
+          "title": "Moldeo",
+          "desc": "Monitoreo de sensores en tiempo real"
+        },
+        {
+          "title": "FQC",
+          "desc": "Inspección 100% visual o automatizada"
+        }
+      ],
+      "flow": [
+        {
+          "step": "01",
+          "title": "Materia Prima",
+          "desc": "Inspección de entrada y certificación de lotes"
+        },
+        {
+          "step": "02",
+          "title": "Compuesto",
+          "desc": "Pesaje automatizado con registro digital completo"
+        },
+        {
+          "step": "03",
+          "title": "Moldeo",
+          "desc": "Monitoreo de proceso en tiempo real y control SPC"
+        },
+        {
+          "step": "04",
+          "title": "Inspección",
+          "desc": "Inspección final 100% con registros de trazabilidad"
+        }
+      ]
+    },
+    "documentation": {
+      "title": "¿Necesita Documentación de Calidad?",
+      "description": "Descargue nuestro manual de calidad completo, informes de inspección y certificaciones de materiales desde nuestra página de Recursos Técnicos.",
+      "link": "Visitar Recursos Técnicos →"
+    }
+  },
+  "summaryItems": {
+    "globalPresence": {
+      "title": "Presencia Global",
+      "description": "Sirviendo a clientes en más de 30 países en 5 continentes."
+    },
+    "yearsExperience": {
+      "title": "Años de Experiencia",
+      "description": "Más de 25 años de experiencia en la fabricación de caucho de precisión."
+    },
+    "certified": {
+      "title": "Certificado IATF 16949",
+      "description": "Sistema de gestión de calidad de grado automotriz."
+    },
+    "sqmFactory": {
+      "title": "m² de Fábrica",
+      "description": "Instalación de fabricación de última generación."
+    }
+  },
+  "blogPage": {
+    "hero": {
+      "badge": "Centro de Conocimiento Técnico",
+      "title": "Ciencia de Materiales e Insights Industriales",
+      "subtitle": "Análisis experto en ingeniería de caucho, estándares de calidad y soluciones específicas para aplicaciones en industrias modernas."
+    },
+    "emptyState": "No hay documentos técnicos publicados todavía.",
+    "cardLabel": "Técnico",
+    "readPaper": "LEER DOCUMENTO TÉCNICO"
+  },
+  "blogPost": {
+    "backToHub": "VOLVER AL CENTRO",
+    "categoryTechnical": "Técnico",
+    "ctaTitle": "¿Necesita consulta técnica?",
+    "ctaDescription": "Nuestro equipo de ingeniería puede ayudar a aplicar estos conocimientos de materiales a su proyecto específico.",
+    "ctaButton": "SOLICITAR UN PRESUPUESTO"
+  },
+  "capabilities": {
+    "hero": {
+      "title": "El Estándar RubberQ",
+      "subtitle": "Nuestro proceso de mezcla de dos etapas es la columna vertebral de nuestra promesa de calidad. Al separar la elaboración del masterbatch del compuesto final, logramos una consistencia de material superior para aplicaciones críticas."
+    },
+    "processes": {
+      "phase1": {
+        "stage": "Fase 1: Abastecimiento de Material y Control de Calidad",
+        "rawMaterial": {
+          "title": "Recepción de Materia Prima",
+          "desc": "Inspección de entrada de polímeros y químicos según estándares IATF 16949 8.4.2."
+        },
+        "warehousing": {
+          "title": "Almacenamiento Controlado",
+          "desc": "Monitoreo ambiental y gestión de almacenamiento FEFO (Primero en Caducar, Primero en Salir)."
+        }
+      },
+      "phase2": {
+        "stage": "Fase 2: Masterbatch (Mezcla Etapa 1)",
+        "formulation": {
+          "title": "Formulación A",
+          "desc": "Pesaje preciso de componentes de masterbatch utilizando sistemas de dosificación automatizados."
+        },
+        "internalMixer": {
+          "title": "Mezclador Interno (Mezcla A)",
+          "desc": "Mezcla de alto cizallamiento en equipo Banbury para asegurar una dispersión uniforme de los rellenos."
+        },
+        "calendering": {
+          "title": "Calandrado y Enfriamiento",
+          "desc": "Extrusión de láminas seguida de enfriamiento rápido para estabilizar el compuesto."
+        },
+        "testing": {
+          "title": "Prueba de Masterbatch",
+          "desc": "Verificación de viscosidad Mooney y gravedad específica antes de pasar a la etapa 2."
+        }
+      },
+      "phase3": {
+        "stage": "Fase 3: Mezcla Final (Mezcla Etapa 2)",
+        "bMixing": {
+          "title": "Mezcla B (Compuesto Final)",
+          "desc": "Adición de agentes vulcanizantes y aceleradores bajo estricto control de temperatura."
+        },
+        "maturation": {
+          "title": "Maduración/Envejecimiento",
+          "desc": "Almacenamiento controlado para permitir la relajación del material y la estabilización química."
+        },
+        "compoundTesting": {
+          "title": "Prueba de Compuesto Final",
+          "desc": "Prueba MDR (Reómetro de Matriz Móvil) para verificar curvas de curado y rendimiento."
+        }
+      },
+      "phase4": {
+        "stage": "Fase 4: Moldeo y Acabado",
+        "molding": {
+          "title": "Moldeo de Precisión",
+          "desc": "Utilizando moldeo por compresión al vacío e inyección para componentes de alta tolerancia."
+        },
+        "deflashing": {
+          "title": "Desbarbado y Recorte",
+          "desc": "Eliminación de material excedente utilizando desbarbado criogénico o recorte manual de alta precisión."
+        }
+      },
+      "phase5": {
+        "stage": "Fase 5: Garantía de Calidad y Logística",
+        "inspection": {
+          "title": "Inspección Final 100%",
+          "desc": "Dimensiones, apariencia y propiedades físicas verificadas contra especificaciones del cliente."
+        },
+        "fulfillment": {
+          "title": "Cumplimiento Global",
+          "desc": "Embalaje rastreado por código de barras y envío internacional a través de logística próxima al puerto."
+        }
+      }
+    },
+    "footer": {
+      "title": "Control de Proceso Avanzado",
+      "description": "Cada lote producido en RubberQ se gestiona a través de nuestro sistema ERP integrado, asegurando una trazabilidad del 100% desde el número de lote de materia prima hasta la pieza final enviada. Utilizamos SPC (Control Estadístico de Procesos) para monitorear parámetros críticos en tiempo real.",
+      "tagTraceability": "Trazabilidad: 100%",
+      "tagMixing": "Etapa de Mezcla: Dos Pasadas",
+      "tagCompliance": "Cumplimiento: IATF 16949",
+      "zero": "Cero",
+      "toleranceForDefects": "Tolerancia para Defectos"
+    }
+  },
+  "caseStudies": {
+    "hero": {
+      "badge": "Excelencia Comprobada",
+      "titleLine1": "CASOS DE",
+      "titleLine2": "ESTUDIO",
+      "subtitle": "Aplicaciones del mundo real de ingeniería de caucho de grado automotriz. Vea cómo resolvemos desafíos críticos de sellado en robótica, infraestructura de IA y movilidad de próxima generación."
+    },
+    "stats": {
+      "projectsDelivered": "Proyectos Entregados",
+      "qualityRate": "Tasa de Calidad",
+      "countriesServed": "Países Atendidos",
+      "yearsExperience": "Años de Experiencia"
+    },
+    "labels": {
+      "client": "Cliente",
+      "challenge": "Desafío",
+      "solution": "Solución",
+      "results": "Resultados"
+    },
+    "studies": {
+      "robotics": {
+        "industry": "Robótica Colaborativa",
+        "client": "Fabricante de Cobots Europeo",
+        "location": "Alemania",
+        "challenge": "Fallo del sello de la articulación en entornos de producción 24/7 causando tiempo de inactividad",
+        "solution": "Fuelles de articulación FKM personalizados con resistencia a la fatiga mejorada",
+        "results": [
+          "MTBF incrementado de 8,000 a 25,000 horas",
+          "Cero fallos en campo en 18 meses",
+          "15% de reducción en costos de mantenimiento"
+        ]
+      },
+      "aiDataCenters": {
+        "industry": "Centros de Datos de IA",
+        "client": "Proveedor Líder de Infraestructura en la Nube",
+        "location": "Estados Unidos",
+        "challenge": "Fugas en el sistema de refrigeración líquida en clústeres de GPU de alta densidad",
+        "solution": "Sellos de refrigeración EPDM de precisión con tolerancias submicrónicas",
+        "results": [
+          "Rendimiento libre de fugas del 99.97%",
+          "Compatible con refrigerantes dieléctricos",
+          "Rango de temperatura: -40°C a 150°C"
+        ]
+      },
+      "automotiveEV": {
+        "industry": "Vehículo Eléctrico Automotriz",
+        "client": "Proveedor de Componentes EV Nivel 1",
+        "location": "Japón",
+        "challenge": "Sellado de paquetes de baterías para sistemas de gestión térmica",
+        "solution": "Sistema de juntas multimaterial con propiedades resistentes al fuego",
+        "results": [
+          "Clasificación de fuego UL94 V-0 aprobada",
+          "Certificado IP67 e IP69K",
+          "Capacidad de producción: 500K unidades/año"
+        ]
+      }
+    },
+    "cta": {
+      "titleLine1": "¿ENFRENTANDO UN",
+      "titleLine2": "DESAFÍO DE SELLADO?",
+      "subtitle": "Nuestro equipo de ingeniería ha resuelto problemas complejos de sellado en robótica, automoción y aplicaciones industriales. Hablemos del suyo.",
+      "discussProject": "Discuta Su Proyecto",
+      "exploreMaterials": "Explorar Materiales"
+    }
+  },
+  "factory": {
+    "hero": {
+      "location": "Fuzhou, China",
+      "title": "EXCELENCIA EN",
+      "titleHighlight": "MANUFACTURA",
+      "subtitle": "Dos instalaciones de producción que abarcan 20,000m² con sistemas de calidad certificados IATF 16949:2016. Sirviendo a OEM globales desde 1995.",
+      "scheduleVisit": "Programar una Visita",
+      "exploreCapabilities": "Explorar Capacidades"
+    },
+    "stats": {
+      "totalFacilityArea": "Área Total de Instalaciones",
+      "yearEstablished": "Año Establecido",
+      "teamMembers": "Miembros del Equipo",
+      "greenCoverage": "Cobertura Verde"
+    },
+    "location": {
+      "title": "UBICACIÓN",
+      "titleHighlight": "ESTRATÉGICA",
+      "description": "Nuestra base de fabricación en Fuzhou, Provincia de Fujian ofrece ventajas logísticas excepcionales. Con acceso al Puerto de Fuzhou (uno de los 20 puertos de contenedores más importantes de China), conexiones de tren de alta velocidad y proximidad a los aeropuertos de Xiamen y Shanghai, aseguramos una entrega eficiente a los mercados globales.",
+      "airport": "30 minutos",
+      "airportDesc": "al Aeropuerto Internacional de Fuzhou Changle",
+      "port": "45 minutos",
+      "portDesc": "a la terminal de contenedores del Puerto de Fuzhou",
+      "rail": "4.5 horas",
+      "railDesc": "tren de alta velocidad a Shanghai",
+      "facilityAddress": "Dirección de la Instalación",
+      "address": "Parque Industrial RubberQ Fuzhou, Distrito de Mawei, Fuzhou, Fujian, China"
+    },
+    "production": {
+      "title": "CAPACIDADES DE",
+      "titleHighlight": "PRODUCCIÓN",
+      "subtitle": "Manufactura de extremo a extremo desde la materia prima hasta el componente terminado, con trazabilidad ERP completa en cada etapa.",
+      "lines": {
+        "mixing": {
+          "title": "Mezcla y Compuesto",
+          "description": "Sistemas de pesaje automatizados y mezcladores internos para una consistencia de lote precisa.",
+          "capabilities": [
+            "Mezcladores internos de tipo cerrado (110L y 75L)",
+            "Sistema de pesaje automático (precisión de ±0.1g)",
+            "Molinos de mezcla de tipo abierto para refinamiento final",
+            "Trazabilidad de lote vía sistema de código de barras"
+          ]
+        },
+        "preforming": {
+          "title": "Pre-formado y Preparación",
+          "description": "Equipo de pre-formado controlado por computadora asegurando eficiencia de material.",
+          "capabilities": [
+            "Máquinas de pre-formado de caucho CNC",
+            "Equipo de corte de precisión",
+            "Líneas de extrusión para perfiles",
+            "Calandrado para materiales en lámina"
+          ]
+        },
+        "compression": {
+          "title": "Moldeo por Compresión y Transferencia",
+          "description": "Prensas de múltiples tonelajes con protección contra sobrecalentamiento y controles automatizados.",
+          "capabilities": [
+            "Rango de prensa: 100T a 500T",
+            "Moldeo por compresión al vacío",
+            "Moldeo por transferencia para geometrías complejas",
+            "Sistema de protección de alarma de sobrecalentamiento"
+          ]
+        },
+        "injection": {
+          "title": "Moldeo por Inyección",
+          "description": "Inyección de caucho de alta precisión para producción de gran volumen.",
+          "capabilities": [
+            "Máquinas de inyección de caucho horizontales",
+            "Capacidad de moldeo por inserción vertical",
+            "Procesamiento de Caucho de Silicona Líquida (LSR)",
+            "Sistemas de remoción de piezas automatizados"
+          ]
+        }
+      }
+    },
+    "lab": {
+      "badge": "IATF 16949:2016",
+      "title": "LABORATORIO DE",
+      "titleHighlight": "CALIDAD",
+      "description": "Nuestro laboratorio in situ está equipado para pruebas completas de caucho desde la validación de materia prima hasta la certificación de producto terminado. Cada lote es rastreable, cada prueba está documentada.",
+      "equipment": [
+        "Viscosímetro Mooney (Prueba de viscosidad)",
+        "Reómetro (Características de curado)",
+        "Máquina de Ensayo de Tracción (ASTM D412)",
+        "Durómetro Shore A (Dureza)",
+        "Hornos de Envejecimiento (Resistencia al calor)",
+        "Aparato de Deformación Remanente (ASTM D395)",
+        "Proyector de Medición Óptica (Dimensiones)",
+        "Cámara de Prueba de Ozono (Intemperismo)"
+      ]
+    },
+    "qualityProcess": {
+      "title": "PROCESO DE",
+      "titleHighlight": "CALIDAD",
+      "subtitle": "Garantía de calidad de cuatro etapas asegurando que cada componente cumpla con los estándares de grado automotriz antes del envío.",
+      "steps": {
+        "incoming": {
+          "title": "Inspección de Material Entrante",
+          "description": "Cada lote de materia prima probado para viscosidad, contenido de ceniza y valor Mooney antes de la liberación a producción."
+        },
+        "inProcess": {
+          "title": "Control En Proceso",
+          "description": "Inspección de Primer Artículo (FAI) para cada configuración. Monitoreo SPC para dimensiones críticas."
+        },
+        "final": {
+          "title": "Inspección Final",
+          "description": "Inspección visual 100%. Muestreo AQL para pruebas dimensionales y funcionales."
+        },
+        "shipment": {
+          "title": "Verificación de Envío",
+          "description": "Informes de inspección pre-embarque. Documentación de trazabilidad de lote completa."
+        }
+      }
+    },
+    "certifications": {
+      "title": "CERTIFICACIONES Y",
+      "titleHighlight": "ACREDITACIONES",
+      "iatf": "Gestión de Calidad Automotriz",
+      "iso9001": "Sistema de Gestión de Calidad",
+      "iso14001": "Gestión Ambiental"
+    },
+    "cta": {
+      "title": "¿LISTO PARA",
+      "titleHighlight": "VISITAR?",
+      "description": "Damos la bienvenida a auditorías de fábrica y visitas de clientes. Programe un recorrido para ver nuestras capacidades de primera mano y conocer a nuestro equipo de ingeniería.",
+      "scheduleTour": "Programar Tour de Fábrica",
+      "viewQuality": "Ver Estándares de Calidad"
+    }
+  },
+  "materialsPage": {
+    "hero": {
+      "badge": "Recurso Técnico",
+      "title": "Centro de Materiales Industriales",
+      "subtitle": "Elija el elastómero adecuado para su aplicación de grado 2026. Nuestros materiales son verificados contra estándares ASTM D2000 e ISO 3302-1."
+    },
+    "crossLink": {
+      "prompt": "¿No está seguro de qué material elegir? Consulte nuestra",
+      "guide": "Guía de Selección de Materiales",
+      "suffix": " para recomendaciones"
+    },
+    "materials": {
+      "fkm": {
+        "name": "FKM (Fluoroelastómero)",
+        "desc": "Resistencia extrema al calor y química para refrigeración líquida de IA y motores automotrices."
+      },
+      "epdm": {
+        "name": "EPDM (Etileno Propileno)",
+        "desc": "Resistencia superior a la intemperie y vida útil flexible para robótica y maquinaria exterior."
+      },
+      "nbr": {
+        "name": "NBR (Caucho Nitrilo)",
+        "desc": "Estándar para resistencia al aceite en sellos industriales generales y mecánicos."
+      },
+      "silicone": {
+        "name": "Silicona (VMQ)",
+        "desc": "Seguridad médica y de grado alimenticio con excelente estabilidad térmica."
+      }
+    },
+    "technicalSpecifications": "ESPECIFICACIONES TÉCNICAS",
+    "matrix": {
+      "title": "Matriz de Rendimiento de Material",
+      "property": "Propiedad",
+      "tempRange": "Rango de Temp (°C)",
+      "oilResistance": "Resistencia al Aceite",
+      "chemicalResistance": "Resistencia Química",
+      "durabilityIndex": "Índice de Durabilidad",
+      "superior": "Superior",
+      "excellent": "Excelente",
+      "good": "Bueno",
+      "fair": "Regular",
+      "poor": "Pobre",
+      "high": "Alto",
+      "medium": "Medio"
+    }
+  },
+  "privacyPage": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última Actualización: 26 de Enero, 2026",
+    "cards": {
+      "dataSecurity": {
+        "title": "Seguridad de Datos",
+        "description": "Sus dibujos técnicos y diseños propietarios están protegidos bajo nuestros protocolos de seguridad de grado industrial."
+      },
+      "zeroSharing": {
+        "title": "Cero Compartición",
+        "description": "Nunca vendemos su información de contacto comercial o detalles del proyecto a firmas de marketing de terceros."
+      },
+      "transparency": {
+        "title": "Transparencia",
+        "description": "Documentación clara sobre cómo utilizamos sus datos para proporcionar servicios de fabricación e ingeniería."
+      }
+    },
+    "sections": {
+      "informationCollect": {
+        "title": "1. Información Que Recopilamos",
+        "content": "Fuzhou RubberQ Rubber Co., Ltd. (\"RubberQ\", \"nosotros\", \"nos\" o \"nuestro\") recopila información que usted nos proporciona directamente cuando:",
+        "items": [
+          "Envía una Solicitud de Cotización (RFQ) o formulario de contacto.",
+          "Sube dibujos técnicos, especificaciones o modelos 3D.",
+          "Solicita muestras de materiales o consultas técnicas.",
+          "Se comunica con nuestros equipos de ingeniería y ventas."
+        ],
+        "additionalInfo": "Esta información puede incluir su nombre, nombre de la empresa, dirección de correo electrónico, número de teléfono, país y requisitos específicos del proyecto."
+      },
+      "howWeUse": {
+        "title": "2. Cómo Utilizamos Su Información",
+        "content": "Utilizamos los datos recopilados para fines industriales y comerciales específicos:",
+        "items": [
+          {
+            "label": "Procesamiento de RFQ:",
+            "text": "Para evaluar la viabilidad de fabricación y proporcionar precios precisos."
+          },
+          {
+            "label": "Consulta de Ingeniería:",
+            "text": "Para ofrecer asesoramiento sobre selección de materiales y diseño para manufactura (DFM)."
+          },
+          {
+            "label": "Cumplimiento de Pedidos:",
+            "text": "Para fabricar y enviar sus componentes de caucho personalizados."
+          },
+          {
+            "label": "Control de Calidad:",
+            "text": "Para mantener registros de producción según lo requerido por los estándares IATF 16949 e ISO 9001."
+          }
+        ]
+      },
+      "intellectualProperty": {
+        "title": "3. Protección de la Propiedad Intelectual",
+        "content": "Como proveedor OEM para marcas automotrices líderes, entendemos la importancia crítica de la Propiedad Intelectual (IP). Cualquier dibujo o dato propietario subido a nuestra plataforma se trata con estricta confidencialidad. El acceso está restringido al personal de ingeniería y producción necesario. Estamos preparados para firmar Acuerdos de Confidencialidad (NDA) formales para sus proyectos."
+      },
+      "cookies": {
+        "title": "4. Cookies y Rastreo",
+        "content": "Nuestro sitio web utiliza cookies esenciales para garantizar la funcionalidad y el rendimiento del sitio. También podemos utilizar herramientas de análisis (como Google Analytics) para entender cómo los visitantes interactúan con nuestro contenido, lo que nos ayuda a mejorar nuestra documentación técnica y experiencia de usuario."
+      },
+      "dataRetention": {
+        "title": "5. Retención de Datos",
+        "content": "En cumplimiento con los estándares automotrices IATF 16949, podemos retener registros de producción y calidad por períodos especificados para asegurar la trazabilidad. La información de contacto comercial se retiene tanto tiempo como sea necesario para mantener nuestra relación profesional."
+      },
+      "yourRights": {
+        "title": "6. Sus Derechos",
+        "content": "Usted tiene el derecho de solicitar acceso a, corrección de o eliminación de sus datos comerciales personales. Para tales solicitudes, por favor contacte a nuestro oficial de cumplimiento de datos en el correo electrónico proporcionado a continuación."
+      }
+    },
+    "contact": {
+      "title": "Contáctenos",
+      "description": "Si tiene preguntas sobre esta Política de Privacidad, por favor contacte:",
+      "company": "Fuzhou RubberQ Rubber Co., Ltd.",
+      "department": "Oficina de Protección de Datos",
+      "email": "Correo: contact@rubberq.com",
+      "address": "Dirección: Fuzhou, Provincia de Fujian, China"
+    }
+  },
+  "standardsPage": {
+    "hero": {
+      "badge": "Cumplimiento Técnico",
+      "title": "Estándares Globales de la Industria",
+      "subtitle": "En RubberQ, no solo fabricamos caucho; diseñamos cumplimiento. Operamos en la intersección de la ciencia de materiales y los marcos regulatorios internacionales para asegurar que sus productos estén listos para el mercado."
+    },
+    "categories": {
+      "materialClassification": {
+        "title": "Sistemas de Clasificación de Materiales",
+        "desc": "Cómo categorizamos y certificamos las propiedades físicas del caucho para claridad de ingeniería.",
+        "standards": {
+          "astmD2000": {
+            "name": "Sistema de Clasificación Estándar para Productos de Caucho",
+            "detail": "El lenguaje global para el caucho. Utilizamos el sistema de llamada de línea para definir resistencia al calor, hinchamiento por aceite y propiedades físicas (ej., 2BC715B14)."
+          },
+          "saeJ200": {
+            "name": "Sistema de Clasificación para Materiales de Caucho",
+            "detail": "Estándar específico automotriz similar a ASTM D2000, utilizado principalmente para componentes OEM automotrices de América del Norte."
+          }
+        }
+      },
+      "environmentalCompliance": {
+        "title": "Cumplimiento Ambiental y Químico",
+        "desc": "Asegurando que nuestros componentes sean seguros para los mercados globales y libres de sustancias peligrosas.",
+        "standards": {
+          "rohs3": {
+            "name": "Restricción de Sustancias Peligrosas (2011/65/EU)",
+            "detail": "Garantizando que nuestras piezas de caucho contengan menos de los límites permitidos de Plomo, Mercurio, Cadmio y otros materiales restringidos."
+          },
+          "reach": {
+            "name": "Registro, Evaluación, Autorización y Restricción de Químicos",
+            "detail": "Cumplimiento con las regulaciones de la UE con respecto a SVHC (Sustancias de Muy Alta Preocupación) en nuestra cadena de suministro."
+          }
+        }
+      },
+      "applicationCertifications": {
+        "title": "Certificaciones Específicas de Aplicación",
+        "desc": "Estándares especializados para industrias de alto riesgo como alimentos, médica y aeroespacial.",
+        "standards": {
+          "fda": {
+            "name": "Artículos de Caucho Destinados al Uso Repetido con Alimentos",
+            "detail": "Pruebas de extracción y lista blanca de materias primas para componentes de silicona, EPDM y NBR de grado alimenticio."
+          },
+          "milSpec": {
+            "name": "Especificaciones Militares (ej., MIL-R-25988)",
+            "detail": "Cumpliendo con rigurosos requisitos de defensa para resistencia a fluidos, estabilidad a temperaturas extremas y vida útil."
+          }
+        }
+      }
+    },
+    "sidebar": {
+      "callOutTitle": "¿Necesita una Llamada de Línea?",
+      "callOutDesc": "Nuestro equipo de ingeniería puede ayudarle a traducir sus requisitos de aplicación en una especificación formal ASTM D2000 o SAE J200.",
+      "consultEngineer": "Consultar a un Ingeniero",
+      "complianceNotice": "Aviso de Cumplimiento",
+      "complianceNoticeText": "Los Certificados de Análisis (COA) y Certificados de Conformidad (COC) se proporcionan con cada envío. La documentación completa PPAP Nivel 3 está disponible para proyectos automotrices y de maquinaria de alta precisión bajo solicitud."
+    },
+    "footer": {
+      "globalReach": "Alcance Global",
+      "globalReachDesc": "Cumple con las regulaciones de mercado de EE. UU., UE y Asia.",
+      "ipProtection": "Protección de IP",
+      "ipProtectionDesc": "Confidencialidad rigurosa para formulaciones personalizadas.",
+      "materialScience": "Ciencia de Materiales",
+      "materialScienceDesc": "Especializados en elastómeros de alto rendimiento (FKM, HNBR, Silicona).",
+      "verifiedTesting": "Pruebas Verificadas",
+      "verifiedTestingDesc": "Todos los datos validados en nuestro laboratorio compatible con ISO."
+    }
+  },
+  "termsPage": {
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última Actualización: 26 de Enero, 2026",
+    "cards": {
+      "legalBinding": {
+        "title": "Vinculación Legal",
+        "description": "Al acceder a este sitio, usted acepta cumplir con nuestros términos de uso y estándares industriales."
+      },
+      "technicalDisclaimer": {
+        "title": "Descargo de Responsabilidad Técnico",
+        "description": "Los datos de ingeniería proporcionados son para referencia. Las especificaciones finales dependen de los dibujos validados."
+      }
+    },
+    "sections": {
+      "acceptance": {
+        "title": "1. Aceptación de los Términos",
+        "content": "Al acceder y utilizar el sitio web de Fuzhou RubberQ Rubber Co., Ltd. (el \"Sitio\"), usted reconoce que ha leído, entendido y acepta estar sujeto a estos Términos de Servicio. Si no está de acuerdo, por favor absténgase de usar el Sitio."
+      },
+      "siteContent": {
+        "title": "2. Uso del Contenido del Sitio",
+        "content": "El contenido en este Sitio, incluyendo hojas de datos técnicos, especificaciones de materiales y descripciones de procesos de fabricación, se proporciona con fines informativos profesionales.",
+        "items": [
+          "Puede descargar material para la evaluación de nuestros servicios por parte de su empresa.",
+          "La distribución no autorizada o reproducción para ganancia comercial está prohibida.",
+          "El mal uso de nuestro sistema RFQ o el raspado automatizado de datos técnicos está estrictamente prohibido."
+        ]
+      },
+      "intellectualProperty": {
+        "title": "3. Propiedad Intelectual",
+        "content": "Todas las marcas comerciales, logotipos y marcas de servicio mostradas en el Sitio son propiedad de RubberQ o de terceros. \"RubberQ\" y el logotipo de RubberQ son marcas registradas. El diseño, disposición y \"apariencia\" del Sitio están protegidos bajo leyes de derechos de autor."
+      },
+      "engineeringDisclaimer": {
+        "title": "4. Descargo de Responsabilidad de Ingeniería",
+        "content": "Si bien nos esforzamos por lograr una precisión del 100% en nuestro blog técnico y guías de materiales, la información proporcionada es solo para referencia general. El rendimiento de los componentes de caucho depende en gran medida de los entornos de aplicación específicos. La selección final del material y el diseño de la pieza deben validarse a través de revisiones de ingeniería profesional y prototipado."
+      },
+      "quotations": {
+        "title": "5. Cotizaciones y Pedidos",
+        "content": "Enviar una solicitud de cotización (RFQ) a través de este Sitio no constituye un contrato vinculante. Un acuerdo de fabricación formal solo se establece una vez que una Orden de Compra (PO) es aceptada por RubberQ por escrito, sujeta a nuestros Términos y Condiciones de Ventas Industriales estándar."
+      },
+      "liability": {
+        "title": "6. Limitación de Responsabilidad",
+        "content": "RubberQ no será responsable de ningún daño directo, indirecto, incidental o consecuente que surja de su uso del Sitio o la confianza en cualquier información proporcionada en el mismo."
+      },
+      "governingLaw": {
+        "title": "7. Ley Aplicable",
+        "content": "Estos términos se rigen por las leyes de la República Popular China. Cualquier disputa que surja del uso de este Sitio estará sujeta a la jurisdicción exclusiva de los tribunales en Fuzhou, Provincia de Fujian."
+      }
+    },
+    "contact": {
+      "title": "¿Preguntas?",
+      "description": "Para consultas legales con respecto a nuestros términos, por favor contacte:",
+      "department": "Departamento Legal",
+      "company": "Fuzhou RubberQ Rubber Co., Ltd.",
+      "email": "Correo: contact@rubberq.com"
+    }
+  }
+}

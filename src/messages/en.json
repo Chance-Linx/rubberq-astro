@@ -1,0 +1,1158 @@
+{
+  "metadata": {
+    "title": "RubberQ | Precision Rubber Parts Manufacturer (IATF 16949 Certified)",
+    "description": "Fuzhou RubberQ Rubber Co., Ltd. is a global manufacturer of automotive-grade rubber components. Specialized in FKM, EPDM, and NBR for AI hardware, Robotics, and High-Precision Machinery.",
+    "home": {
+      "title": "RubberQ — Precision Rubber Manufacturing",
+      "description": "Automotive-grade rubber components for robotics, AI infrastructure, and precision machinery. IATF 16949 certified."
+    },
+    "blog": {
+      "title": "Technical Knowledge Hub | RubberQ",
+      "description": "Expert analysis on rubber engineering, quality standards, and application-specific solutions."
+    },
+    "capabilities": {
+      "title": "Manufacturing Process | RubberQ",
+      "description": "Explore RubberQ's two-stage mixing and molding process for automotive-grade precision."
+    },
+    "caseStudies": {
+      "title": "Case Studies | RubberQ",
+      "description": "Real-world rubber engineering solutions for robotics, AI infrastructure, and automotive."
+    },
+    "contact": {
+      "title": "Contact Us | RubberQ",
+      "description": "Get in touch with our engineering team for custom rubber component solutions."
+    },
+    "factory": {
+      "title": "Factory Tour | RubberQ",
+      "description": "Virtual tour of RubberQ's 20,000m² IATF 16949 certified manufacturing facilities."
+    },
+    "materials": {
+      "title": "Industrial Materials | RubberQ",
+      "description": "Technical resource hub for industrial elastomers — FKM, EPDM, NBR, Silicone."
+    },
+    "privacy": {
+      "title": "Privacy Policy | RubberQ",
+      "description": "How RubberQ collects, uses, and protects your business data."
+    },
+    "quality": {
+      "title": "Quality Assurance | RubberQ",
+      "description": "Uncompromising quality with IATF 16949, ISO 9001, and ISO 14001 certifications."
+    },
+    "resources": {
+      "title": "Technical Resources | RubberQ",
+      "description": "Material selection guides, design guidelines, and engineering resources."
+    },
+    "standards": {
+      "title": "Industry Standards | RubberQ",
+      "description": "Comprehensive guide to ASTM D2000, SAE J200, RoHS, REACH compliance."
+    },
+    "terms": {
+      "title": "Terms of Service | RubberQ",
+      "description": "Terms and conditions for RubberQ website and manufacturing services."
+    },
+    "about": {
+      "title": "Our Heritage | RubberQ",
+      "description": "Established in 1995, Fuzhou RubberQ Rubber Co., Ltd. began as a Sino-Japanese joint venture, bringing rigorous Japanese manufacturing standards to China's industrial heartland."
+    }
+  },
+  "navigation": {
+    "products": "Products",
+    "caseStudies": "Case Studies",
+    "factory": "Factory",
+    "about": "About Us",
+    "capabilities": "Capabilities",
+    "materials": "Materials",
+    "quality": "Quality",
+    "resources": "Resources",
+    "blog": "Blog",
+    "search": "Search",
+    "contact": "Contact",
+    "getQuote": "Get Quote",
+    "language": "Language"
+  },
+  "hero": {
+    "badge": "AUTOMOTIVE-GRADE EXCELLENCE",
+    "title": "PRECISION IN EVERY MOLECULE.",
+    "titleLine1": "PRECISION",
+    "titleLine2": "IN EVERY",
+    "titleLine3": "MOLECULE.",
+    "subtitle": "Serving the future of Robotics, AI Infrastructure, and High-Performance Machinery with IATF 16949 certified rubber components.",
+    "ctaPrimary": "TECHNICAL HUB",
+    "ctaSecondary": "QUALITY & TRUST"
+  },
+  "features": {
+    "title": "WHY GLOBAL LEADERS TRUST RUBBERQ",
+    "summaryTitle": "QUICK TECHNICAL SUMMARY",
+    "summaryItems": [
+      {
+        "term": "IATF 16949 Certified",
+        "description": "Rigorous automotive quality management system ensuring zero-defect production."
+      },
+      {
+        "term": "Entity-Driven Traceability",
+        "description": "Full digital logging from raw material batch to finished component."
+      },
+      {
+        "term": "Precision Engineering",
+        "description": "ISO 3302-1 Class M1 tolerances as standard for high-tech applications."
+      }
+    ],
+    "reliability": {
+      "title": "RELIABILITY",
+      "desc": "Automotive-grade durability for 24/7 infrastructure."
+    },
+    "precision": {
+      "title": "PRECISION",
+      "desc": "Micron-level accuracy for robotic joints and sensors."
+    },
+    "traceability": {
+      "title": "TRACEABILITY",
+      "desc": "Full ERP integration for mission-critical accountability."
+    },
+    "innovation": {
+      "title": "INNOVATION",
+      "desc": "Custom material R&D for AI liquid cooling systems."
+    }
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "High-performance rubber components engineered for your specific requirements",
+    "viewAll": "View All Products",
+    "categories": {
+      "seals": "Seals & Gaskets",
+      "automotive": "Automotive Parts",
+      "industrial": "Industrial Components",
+      "medical": "Medical Grade"
+    }
+  },
+  "industries": {
+    "title": "Specialized Industries",
+    "robotics": {
+      "title": "Robotics & Cobots",
+      "desc": "High-precision seals and damping components for robotic joints and cobot applications"
+    },
+    "ai": {
+      "title": "AI Infrastructure",
+      "desc": "Thermal management seals for data centers and AI hardware cooling systems"
+    },
+    "machinery": {
+      "title": "Precision Machinery",
+      "desc": "Industrial seals and custom components for precision equipment"
+    },
+    "automotive": {
+      "title": "Automotive",
+      "desc": "Engine seals, gaskets, hoses, and vibration isolators"
+    },
+    "industrial": {
+      "title": "Industrial",
+      "desc": "Pumps, valves, machinery seals and custom molded parts"
+    },
+    "medical": {
+      "title": "Medical",
+      "desc": "FDA-compliant seals, gaskets, and precision components"
+    },
+    "electronics": {
+      "title": "Electronics",
+      "desc": "EMI shielding, keypads, and protective seals"
+    }
+  },
+  "cta": {
+    "title": "Ready to Start Your Project?",
+    "subtitle": "Get a free quote and technical consultation from our engineering team",
+    "button": "Request a Quote"
+  },
+  "footer": {
+    "company": "Company",
+    "products": "Products",
+    "resources": "Resources",
+    "legal": "Legal",
+    "copyright": "© 2026 Fuzhou RubberQ Rubber Co., Ltd. All rights reserved.",
+    "certifications": "Certifications: IATF 16949 | ISO 9001 | ISO 14001",
+    "technicalHub": "Technical Hub",
+    "materialHub": "Material Hub",
+    "manufacturing": "Manufacturing Process",
+    "qualityAssurance": "Quality Assurance",
+    "industryStandards": "Industry Standards",
+    "aboutRubberQ": "About RubberQ",
+    "globalSupport": "Global Support",
+    "globalPresence": "Global Presence",
+    "address": "Fuzhou, Fujian, China",
+    "email": "Email: contact@rubberq.com",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "contact": {
+    "title": "Request a Technical Quote",
+    "subtitle": "Our engineering team typically responds to technical inquiries and RFQs within 12-24 hours.",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "john@company.com",
+      "company": "Company Name",
+      "companyPlaceholder": "Tech Innovations Inc.",
+      "industry": "Target Industry",
+      "industryOptions": {
+        "robotics": "Robotics & Automation",
+        "ai": "AI Hardware / Data Centers",
+        "automotive": "Automotive (IATF 16949 req.)",
+        "machinery": "Precision Machinery",
+        "other": "Other"
+      },
+      "message": "Project Requirements",
+      "messagePlaceholder": "Please describe your application, material requirements (e.g., FKM, EPDM), and estimated annual volume.",
+      "fileLink": "Design Files Link (Optional)",
+      "fileLinkPlaceholder": "https://drive.google.com/... or Dropbox link",
+      "fileLinkHelp": "Share Google Drive, Dropbox, or WeTransfer link (STEP, STP, PDF, DXF)",
+      "submit": "SUBMIT RFQ",
+      "submitting": "SUBMITTING...",
+      "success": "Submission successful!",
+      "successMessage": "We've received your RFQ and will respond within 12-24 hours.",
+      "error": "Submission failed",
+      "errorMessage": "Please try again later.",
+      "required": "Required field"
+    },
+    "directContact": "Direct Contact",
+    "engineeringSales": "Engineering / Sales",
+    "manufacturingSite": "Manufacturing Site",
+    "fastTrack": "Fast-Track for 2026",
+    "fastTrackDesc": "Share your design files (Google Drive / Dropbox link) to help our AI-assisted quoting engine provide faster pricing.",
+    "manufacturingAddress": "Fuzhou City, Fujian Province, China",
+    "enhancement": {
+      "globalDeliveryTitle": "Global Delivery Coverage",
+      "globalDeliveryDesc": "Single workflow for all regions with one engineering contact and unified response standards.",
+      "unitsPolicy": "Technical data uses unified international metric units by default.",
+      "complianceTitle": "Lightweight Compliance Guidance",
+      "complianceHint": "Provide these requirements in RFQ notes and our team maps matching documents in one reply.",
+      "complianceItems": ["REACH / RoHS declaration support", "FDA material compliance statement (when required)", "PPAP / FAI package availability"]
+    }
+  },
+  "about": {
+    "title": "Our Heritage",
+    "subtitle": "Established in 1995, Fuzhou RubberQ Rubber Co., Ltd. began as a Sino-Japanese joint venture, bringing rigorous Japanese manufacturing standards to China's industrial heartland.",
+    "watchVideo": "Watch Corporate Video",
+    "videoDuration": "[Company Overview & Factory Tour - 3:45]",
+    "heritageQuote": "\"Automotive quality is in our DNA.\"",
+    "heritageText1": "For over three decades, we have served as a long-term OEM supplier for leading Japanese automotive brands. This experience taught us that in precision manufacturing, there is no room for error.",
+    "heritageText2": "Today, as we expand into the AI and Robotics sectors, we carry this legacy of \"Zero-Defect\" culture into the technologies of tomorrow.",
+    "stats": {
+      "years": "Years Experience",
+      "factory": "Sqm Factory",
+      "certified": "16949 Certified",
+      "partners": "Global Partners"
+    },
+    "manufacturing": "Manufacturing Excellence",
+    "scenes": {
+      "injection": {
+        "title": "Precision Injection Molding",
+        "desc": "Our state-of-the-art injection molding workshop featuring 50+ automated machines."
+      },
+      "rnd": {
+        "title": "Advanced R&D Lab",
+        "desc": "Where material innovation meets rigorous testing standards."
+      },
+      "qc": {
+        "title": "Quality Control Center",
+        "desc": "100% automated visual inspection systems for automotive-grade precision."
+      },
+      "logistics": {
+        "title": "Global Logistics Hub",
+        "desc": "Efficient warehousing and global shipping capabilities."
+      }
+    },
+    "imageNote": "Note: These images represent our actual workshop environments and technical capabilities. We welcome on-site visits and third-party audits.",
+    "coreValues": "Core Values",
+    "values": {
+      "precision": {
+        "title": "Precision",
+        "desc": "Micron-level accuracy in every mold and every batch."
+      },
+      "partnership": {
+        "title": "Partnership",
+        "desc": "Working as an extension of your engineering team."
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "desc": "ISO 14001 compliant manufacturing for a greener future."
+      }
+    }
+  },
+  "productsPage": {
+    "metadata": {
+      "title": "Products | RubberQ - Automotive-Grade Rubber Components",
+      "description": "Custom rubber seals, gaskets, bellows, and molded components. IATF 16949 certified manufacturing for robotics, automotive, and industrial applications."
+    },
+    "badge": "IATF 16949 Certified",
+    "title": "PRODUCT PORTFOLIO",
+    "subtitle": "Precision-engineered rubber components for demanding applications. From standard seals to complex custom molds, manufactured with automotive-grade quality systems.",
+    "capability": "Capability",
+    "manufacturingFootprint": "Manufacturing Footprint",
+    "categoriesTitle": "COMPONENT CATEGORIES",
+    "categoriesSubtitle": "Four core product families serving robotics, automotive, AI infrastructure, and precision machinery industries.",
+    "certifications": [
+      "IATF 16949:2016 Certified",
+      "ISO 9001:2015 Quality",
+      "ISO 14001:2015 Environment",
+      "RoHS / REACH Compliant"
+    ],
+    "seals": {
+      "name": "Seals & O-Rings",
+      "desc": "Static and dynamic sealing solutions with precision tolerances to ISO 3601 and ASTM D2000 standards.",
+      "materialsTitle": "Available Materials",
+      "featuresTitle": "Key Features",
+      "applicationsTitle": "Typical Applications",
+      "applications": ["Hydraulic systems", "Pneumatic cylinders", "Rotary shafts", "Static flanges"],
+      "features": ["Temperature range: -60°C to 320°C", "Chemical resistance customization", "Low compression set"],
+      "specs": "ISO 3601-1 Class B"
+    },
+    "gaskets": {
+      "name": "Gaskets & Washers",
+      "desc": "Die-cut and molded gaskets for fluid sealing, EMI shielding, and thermal management applications.",
+      "applications": ["Battery packs", "Enclosures", "Heat exchangers", "Pump housings"],
+      "features": ["Thickness: 0.5mm to 25mm", "Custom adhesive backing", "FDA grades available"],
+      "specs": "ISO 3302-1 Class M1"
+    },
+    "bellows": {
+      "name": "Bellows & Boots",
+      "desc": "Flexible protective covers for linear and rotary motion systems, with extended fatigue life.",
+      "applications": ["Robot joints", "Linear actuators", "CV joints", "Machine ways"],
+      "features": ["Multi-convolution designs", "Collapsible/retractable", "Chemical splash protection"],
+      "specs": "1M+ cycle rating"
+    },
+    "custom": {
+      "name": "Custom Molded Parts",
+      "desc": "Application-specific rubber components from prototype to high-volume production.",
+      "applications": ["Vibration isolators", "Bumpers", "Valve components", "Connector seals"],
+      "features": ["Tight tolerance molding", "Insert molding capability", "Color matching"],
+      "specs": "SPI-SPE Standards"
+    },
+    "requestQuote": "Request Quote",
+    "viewDetails": "View Details",
+    "customEngineering": "CUSTOM ENGINEERING",
+    "customEngineeringDesc": "Beyond our standard product lines, our engineering team specializes in developing application-specific rubber solutions. From material formulation to mold design, we handle the complete development cycle.",
+    "engineeringServices": [
+      "Material formulation development",
+      "FEA simulation and validation",
+      "Rapid prototyping (3-5 days)",
+      "Tooling design and manufacture",
+      "PPAP documentation support"
+    ],
+    "startProject": "Start Custom Project",
+    "stats": {
+      "toolings": "Active Toolings",
+      "turnaround": "Quote Turnaround",
+      "tolerance": "Tolerance Capability",
+      "standard": "Class M1 Standard"
+    },
+    "resourcesTitle": "TECHNICAL RESOURCES",
+    "resourcesSubtitle": "Download specifications and material datasheets",
+    "downloads": [
+      { "name": "Material Selection Guide", "size": "PDF, 2.4 MB" },
+      { "name": "Tolerances Reference (ISO 3302)", "size": "PDF, 1.1 MB" },
+      { "name": "ASTM D2000 Specification", "size": "PDF, 3.2 MB" }
+    ]
+  },
+  "resources": {
+    "metadata": {
+      "title": "Technical Resources | RubberQ",
+      "description": "Material guides, design recommendations, industry standards, FAQ, and downloadable technical documents for rubber component engineering."
+    },
+    "hero": {
+      "badge": "Technical Resources",
+      "title": "Engineering Knowledge Hub",
+      "subtitle": "Comprehensive guides, standards, and technical documentation to help you design and specify rubber components with confidence."
+    },
+    "materials": {
+      "title": "Material Selection Guide",
+      "subtitle": "Compare elastomer properties to select the optimal material for your application requirements.",
+      "viewDatabase": "View Full Material Database →",
+      "applicationsLabel": "Applications",
+      "fkm": {
+        "description": "Fluoroelastomer with exceptional chemical resistance and high-temperature stability.",
+        "tempRange": "-20°C to +200°C",
+        "applications": ["Aerospace", "Chemical processing", "High-performance automotive"],
+        "features": ["Excellent chemical resistance", "High temperature tolerance", "Superior oil/fuel resistance"]
+      },
+      "nbr": {
+        "description": "Nitrile rubber offers excellent oil resistance and mechanical properties at competitive cost.",
+        "tempRange": "-40°C to +120°C",
+        "applications": ["Hydraulic systems", "Automotive", "General industrial"],
+        "features": ["Cost-effective solution", "Good oil resistance", "Wide hardness range available"]
+      },
+      "epdm": {
+        "description": "Ethylene propylene diene monomer with outstanding weather and ozone resistance.",
+        "tempRange": "-50°C to +150°C",
+        "applications": ["Outdoor applications", "Water systems", "Steam applications"],
+        "features": ["Excellent weather resistance", "Superior water/steam resistance", "Good electrical insulation"]
+      },
+      "silicone": {
+        "description": "Versatile elastomer with extreme temperature range and biocompatibility.",
+        "tempRange": "-60°C to +230°C",
+        "applications": ["Medical devices", "Food processing", "Extreme temperatures"],
+        "features": ["FDA compliant grades available", "Extreme temperature range", "Excellent compression set"]
+      }
+    },
+    "designGuides": {
+      "title": "Design Recommendations",
+      "subtitle": "Best practices for rubber part design to ensure manufacturability and optimal performance.",
+      "keyTips": "Key Tips",
+      "wallThickness": {
+        "title": "Wall Thickness Guidelines",
+        "content": "Uniform wall thickness is critical for consistent vulcanization and preventing defects. Avoid abrupt changes in cross-section.",
+        "tips": [
+          "Minimum wall thickness: 0.5mm for most materials",
+          "Maintain uniform thickness to prevent sink marks",
+          "Use gradual transitions between thick and thin sections"
+        ]
+      },
+      "draftAngles": {
+        "title": "Draft Angle Requirements",
+        "content": "Proper draft angles ensure clean part ejection from molds and prevent damage during demolding.",
+        "tips": [
+          "Minimum 0.5° draft for exterior walls",
+          "1-2° recommended for textured surfaces",
+          "Internal features may require 1-3° draft"
+        ]
+      },
+      "shrinkage": {
+        "title": "Shrinkage Compensation",
+        "content": "All rubber materials shrink during curing. Design molds with appropriate shrinkage allowances for accurate final dimensions.",
+        "tips": [
+          "NBR/FKM: 1.5-2.5% linear shrinkage",
+          "EPDM: 1.0-2.0% linear shrinkage",
+          "Silicone: 2.0-3.0% linear shrinkage"
+        ]
+      }
+    },
+    "standards": {
+      "title": "Industry Standards",
+      "subtitle": "Key international standards governing rubber component design, tolerances, and quality.",
+      "iso3601": {
+        "title": "Fluid Power Systems - O-Rings",
+        "description": "Defines inside diameters, cross-sections, tolerances and size identification codes for O-rings used in fluid power applications."
+      },
+      "iso3302": {
+        "title": "Rubber - Tolerances for Products",
+        "description": "Specifies classes of dimensional tolerances for molded, extruded, and calendered rubber products."
+      },
+      "astm": {
+        "title": "Standard Classification for Rubber",
+        "description": "Classification system for rubber materials in automotive applications based on material requirements."
+      },
+      "iatf": {
+        "title": "Quality Management Standard",
+        "description": "International automotive quality management system standard ensuring consistent product quality and continuous improvement."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Common questions about rubber component design, manufacturing, and quality assurance.",
+      "q1": {
+        "question": "What is the typical lead time for custom rubber parts?",
+        "answer": "Standard lead times range from 2-4 weeks for existing tooling, and 4-6 weeks for new tooling development. Prototype parts can often be delivered within 1-2 weeks using rapid tooling methods."
+      },
+      "q2": {
+        "question": "How do I choose the right rubber material for my application?",
+        "answer": "Material selection depends on temperature range, chemical exposure, mechanical requirements, and regulatory needs (FDA, UL, etc.). Our material selection guide provides detailed comparison data, or contact our engineering team for recommendations."
+      },
+      "q3": {
+        "question": "What tolerance levels can you achieve?",
+        "answer": "We routinely achieve ISO 3302 Class M1 tolerances (±0.05mm for small parts). Tighter tolerances are possible with specialized tooling and process control - consult our engineering team for feasibility."
+      },
+      "q4": {
+        "question": "Do you provide PPAP documentation?",
+        "answer": "Yes, we provide full PPAP documentation including Level 3 submissions with all supporting data. Our quality management system is IATF 16949 certified, ensuring automotive-grade documentation standards."
+      },
+      "q5": {
+        "question": "Can you work with customer-supplied materials?",
+        "answer": "Yes, we can process customer-supplied materials or source specific grades as required. All materials undergo incoming inspection and verification before use in production."
+      }
+    },
+    "downloads": {
+      "title": "Technical Downloads",
+      "subtitle": "Download comprehensive technical documentation, guides, and reference materials.",
+      "materialGuide": {
+        "title": "Material Selection Guide",
+        "description": "Complete comparison of rubber materials including properties, applications, and selection criteria."
+      },
+      "designManual": {
+        "title": "Design Manual for Rubber Parts",
+        "description": "Engineering guidelines for designing manufacturable rubber components with optimal performance."
+      },
+      "toleranceChart": {
+        "title": "ISO Tolerance Chart",
+        "description": "Quick reference for ISO 3302 tolerance classes and dimensional limits."
+      },
+      "qaChecklist": {
+        "title": "Quality Assurance Checklist",
+        "description": "Pre-production checklist to ensure all requirements are captured and validated."
+      }
+    },
+    "cta": {
+      "title": "Need Custom Specifications?",
+      "description": "Our engineering team can provide application-specific recommendations and develop custom formulations for your unique requirements.",
+      "button": "Contact Engineering Team"
+    }
+  },
+  "quality": {
+    "title": "Quality Assurance",
+    "hero": {
+      "title": "Uncompromising Quality",
+      "subtitle": "From raw material compounding to final inspection, RubberQ's IATF 16949 certified quality system ensures zero-defect performance for AI, Robotics, and Automotive industries."
+    },
+    "certifications": {
+      "title": "Global Certifications",
+      "subtitle": "Click any certificate to view details and download",
+      "valid": "Valid",
+      "expiring": "Expiring Soon",
+      "expired": "Expired",
+      "status": {
+        "active": "Valid",
+        "expiring": "Expiring Soon",
+        "expired": "Expired"
+      },
+      "viewDetails": "View Details",
+      "download": "Download PDF",
+      "issuingAuthority": "Issuing Authority",
+      "issued": "Issued",
+      "expires": "Expires",
+      "scope": "Scope",
+      "verification": "This certificate can be verified through the issuing authority's official registry using the certificate number."
+    },
+    "certificates": {
+      "iatf": {
+        "name": "IATF 16949:2016",
+        "org": "Automotive Quality Management",
+        "issuer": "TÜV SÜD",
+        "description": "International automotive quality management system standard ensuring consistent product quality and continuous improvement throughout the supply chain."
+      },
+      "iso9001": {
+        "name": "ISO 9001:2015",
+        "org": "Quality Management System",
+        "issuer": "SGS",
+        "description": "Global standard for quality management systems, demonstrating our ability to consistently provide products that meet customer and regulatory requirements."
+      },
+      "iso14001": {
+        "name": "ISO 14001:2015",
+        "org": "Environmental Management",
+        "issuer": "Bureau Veritas",
+        "description": "Environmental management system certification demonstrating our commitment to sustainable manufacturing practices, waste reduction, and environmental responsibility."
+      },
+      "rohs": {
+        "name": "RoHS & REACH",
+        "org": "Environmental Compliance",
+        "issuer": "Intertek",
+        "description": "Compliance with EU regulations restricting hazardous substances (RoHS) and ensuring safe use of chemicals (REACH) in rubber manufacturing processes."
+      }
+    },
+    "lab": {
+      "title": "In-house Laboratory",
+      "description": "Our state-of-the-art testing facility is equipped to perform comprehensive material analysis and product validation according to ASTM, ISO, and SAE standards.",
+      "note": "All equipment is calibrated annually by CNAS accredited third-party laboratories.",
+      "equipment": [
+        { "name": "Rheometer", "function": "Material curing characteristics analysis", "img": "https://images.unsplash.com/photo-1579154236594-c199f346e992?auto=format&fit=crop&q=80&w=400" },
+        { "name": "Tensile Tester", "function": "Strength and elongation verification", "img": "https://images.unsplash.com/photo-1581093450021-4a7360e9a6ad?auto=format&fit=crop&q=80&w=400" },
+        { "name": "Aging Ovens", "function": "Long-term durability simulation", "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=400" },
+        { "name": "Video Measuring System", "function": "High-precision dimensional inspection", "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=400" }
+      ]
+    },
+    "process": {
+      "title": "Visual Proof of Excellence",
+      "steps": {
+        "incoming": "Incoming Material Check",
+        "incomingDesc": "SGS certified raw material verification for every batch.",
+        "monitoring": "In-process Monitoring",
+        "monitoringDesc": "Real-time SPC (Statistical Process Control) data tracking.",
+        "inspection": "Final 100% Inspection",
+        "inspectionDesc": "Zero-defect guarantee through manual and AI-assisted check."
+      },
+      "scenes": [
+        { "title": "Incoming Material Check", "desc": "SGS certified raw material verification for every batch.", "img": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=600" },
+        { "title": "In-process Monitoring", "desc": "Real-time SPC (Statistical Process Control) data tracking.", "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600" },
+        { "title": "Final 100% Inspection", "desc": "Zero-defect guarantee through manual and AI-assisted check.", "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=600" }
+      ]
+    },
+    "traceability": {
+      "title": "Total Process Control",
+      "mainTitle": "Full Traceability Chain",
+      "subtitle": "Our automotive-grade heritage means every component follows a rigorous evidence-based manufacturing cycle.",
+      "steps": [
+        { "title": "APQP", "desc": "Advanced Product Quality Planning" },
+        { "title": "Compounding", "desc": "Precision automated weighing" },
+        { "title": "Molding", "desc": "Real-time sensor monitoring" },
+        { "title": "FQC", "desc": "100% Visual or automated inspection" }
+      ],
+      "flow": [
+        { "step": "01", "title": "Raw Material", "desc": "Incoming inspection and batch certification" },
+        { "step": "02", "title": "Compounding", "desc": "Automated weighing with full digital logging" },
+        { "step": "03", "title": "Molding", "desc": "Real-time process monitoring and SPC control" },
+        { "step": "04", "title": "Inspection", "desc": "100% final inspection with traceability records" }
+      ]
+    },
+    "documentation": {
+      "title": "Need Quality Documentation?",
+      "description": "Download our complete quality manual, inspection reports, and material certifications from our Technical Resources page.",
+      "link": "Visit Technical Resources →"
+    }
+  },
+  "language": {
+    "title": "Language",
+    "select": "Select Language"
+  },
+  "cookieConsent": {
+    "title": "Your Privacy Matters",
+    "descriptionPrefix": "We use cookies to enhance your browsing experience, serve personalized technical content, and analyze our traffic in compliance with GDPR and CCPA. By clicking \"Accept\", you consent to our use of cookies. Read our",
+    "privacyLink": "Privacy Policy",
+    "descriptionSuffix": "for details.",
+    "decline": "Decline",
+    "acceptAll": "Accept All"
+  },
+  "summaryItems": {
+    "globalPresence": {
+      "title": "Global Presence",
+      "description": "Serving clients in over 30 countries across 5 continents."
+    },
+    "yearsExperience": {
+      "title": "Years Experience",
+      "description": "Over 25 years of expertise in precision rubber manufacturing."
+    },
+    "certified": {
+      "title": "IATF 16949 Certified",
+      "description": "Automotive-grade quality management system."
+    },
+    "sqmFactory": {
+      "title": "Sqm Factory",
+      "description": "State-of-the-art manufacturing facility."
+    }
+  },
+  "termsPage": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: January 26, 2026",
+    "cards": {
+      "legalBinding": {
+        "title": "Legal Binding",
+        "description": "By accessing this site, you agree to comply with our terms of use and industrial standards."
+      },
+      "technicalDisclaimer": {
+        "title": "Technical Disclaimer",
+        "description": "Engineering data provided is for reference. Final specifications depend on validated drawings."
+      }
+    },
+    "sections": {
+      "acceptance": {
+        "title": "1. Acceptance of Terms",
+        "content": "By accessing and using the website of Fuzhou RubberQ Rubber Co., Ltd. (the \"Site\"), you acknowledge that you have read, understood, and agree to be bound by these Terms of Service. If you do not agree, please refrain from using the Site."
+      },
+      "siteContent": {
+        "title": "2. Use of Site Content",
+        "content": "The content on this Site, including technical data sheets, material specifications, and manufacturing process descriptions, is provided for professional informational purposes.",
+        "items": [
+          "You may download material for your company's evaluation of our services.",
+          "Unauthorized distribution or reproduction for commercial gain is prohibited.",
+          "Misuse of our RFQ system or automated scraping of technical data is strictly forbidden."
+        ]
+      },
+      "intellectualProperty": {
+        "title": "3. Intellectual Property",
+        "content": "All trademarks, logos, and service marks displayed on the Site are the property of RubberQ or third parties. \"RubberQ\" and the RubberQ logo are registered trademarks. The design, layout, and \"look and feel\" of the Site are protected under copyright laws."
+      },
+      "engineeringDisclaimer": {
+        "title": "4. Engineering Disclaimer",
+        "content": "While we strive for 100% accuracy in our technical blog and material guides, the information provided is for general reference only. Rubber component performance is highly dependent on specific application environments. Final material selection and part design should be validated through professional engineering reviews and prototyping."
+      },
+      "quotations": {
+        "title": "5. Quotations and Orders",
+        "content": "Submitting an RFQ through this Site does not constitute a binding contract. A formal manufacturing agreement is only established once a Purchase Order (PO) is accepted by RubberQ in writing, subject to our standard Industrial Sales Terms & Conditions."
+      },
+      "liability": {
+        "title": "6. Limitation of Liability",
+        "content": "RubberQ shall not be liable for any direct, indirect, incidental, or consequential damages arising from your use of the Site or reliance on any information provided herein."
+      },
+      "governingLaw": {
+        "title": "7. Governing Law",
+        "content": "These terms are governed by the laws of the People's Republic of China. Any disputes arising from the use of this Site shall be subject to the exclusive jurisdiction of the courts in Fuzhou, Fujian Province."
+      }
+    },
+    "contact": {
+      "title": "Questions?",
+      "description": "For legal inquiries regarding our terms, please contact:",
+      "department": "Legal Department",
+      "company": "Fuzhou RubberQ Rubber Co., Ltd.",
+      "email": "Email: contact@rubberq.com"
+    }
+  },
+  "privacyPage": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: January 26, 2026",
+    "cards": {
+      "dataSecurity": {
+        "title": "Data Security",
+        "description": "Your technical drawings and proprietary designs are protected under our industrial-grade security protocols."
+      },
+      "zeroSharing": {
+        "title": "Zero Sharing",
+        "description": "We never sell your business contact information or project details to third-party marketing firms."
+      },
+      "transparency": {
+        "title": "Transparency",
+        "description": "Clear documentation on how we use your data to provide manufacturing and engineering services."
+      }
+    },
+    "sections": {
+      "informationCollect": {
+        "title": "1. Information We Collect",
+        "content": "Fuzhou RubberQ Rubber Co., Ltd. (\"RubberQ\", \"we\", \"us\", or \"our\") collects information that you provide directly to us when you:",
+        "items": [
+          "Submit a Request for Quote (RFQ) or contact form.",
+          "Upload technical drawings, specifications, or 3D models.",
+          "Request material samples or technical consultations.",
+          "Communicate with our engineering and sales teams."
+        ],
+        "additionalInfo": "This information may include your name, company name, email address, phone number, country, and specific project requirements."
+      },
+      "howWeUse": {
+        "title": "2. How We Use Your Information",
+        "content": "We use the collected data for specific industrial and business purposes:",
+        "items": [
+          { "label": "RFQ Processing:", "text": "To evaluate manufacturing feasibility and provide accurate pricing." },
+          { "label": "Engineering Consultation:", "text": "To offer material selection and design-for-manufacturability (DFM) advice." },
+          { "label": "Order Fulfillment:", "text": "To manufacture and ship your custom rubber components." },
+          { "label": "Quality Control:", "text": "To maintain production records as required by IATF 16949 and ISO 9001 standards." }
+        ]
+      },
+      "intellectualProperty": {
+        "title": "3. Protection of Intellectual Property",
+        "content": "As an OEM supplier for leading automotive brands, we understand the critical importance of Intellectual Property (IP). Any drawings or proprietary data uploaded to our platform are treated with strict confidentiality. Access is restricted to necessary engineering and production personnel. We are prepared to sign formal Non-Disclosure Agreements (NDAs) for your projects."
+      },
+      "cookies": {
+        "title": "4. Cookies and Tracking",
+        "content": "Our website uses essential cookies to ensure site functionality and performance. We may also use analytics tools (such as Google Analytics) to understand how visitors interact with our content, which helps us improve our technical documentation and user experience."
+      },
+      "dataRetention": {
+        "title": "5. Data Retention",
+        "content": "In compliance with IATF 16949 automotive standards, we may retain production and quality records for specified periods to ensure traceability. Business contact information is retained as long as necessary to maintain our professional relationship."
+      },
+      "yourRights": {
+        "title": "6. Your Rights",
+        "content": "You have the right to request access to, correction of, or deletion of your personal business data. For such requests, please contact our data compliance officer at the email provided below."
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "If you have questions about this Privacy Policy, please contact:",
+      "company": "Fuzhou RubberQ Rubber Co., Ltd.",
+      "department": "Data Protection Office",
+      "email": "Email: contact@rubberq.com",
+      "address": "Address: Fuzhou, Fujian Province, China"
+    }
+  },
+  "capabilities": {
+    "hero": {
+      "title": "The RubberQ Standard",
+      "subtitle": "Our two-stage mixing process is the backbone of our quality promise. By separating masterbatching from final compounding, we achieve superior material consistency for critical applications."
+    },
+    "processes": {
+      "phase1": {
+        "stage": "Phase 1: Material Sourcing & QC",
+        "rawMaterial": {
+          "title": "Raw Material Receiving",
+          "desc": "Incoming inspection of polymers and chemicals according to IATF 16949 8.4.2 standards."
+        },
+        "warehousing": {
+          "title": "Controlled Warehousing",
+          "desc": "Environmental monitoring and FEFO (First-Expired-First-Out) storage management."
+        }
+      },
+      "phase2": {
+        "stage": "Phase 2: Masterbatching (Stage 1 Mixing)",
+        "formulation": {
+          "title": "A-Formulation",
+          "desc": "Precise weighing of masterbatch components using automated dosing systems."
+        },
+        "internalMixer": {
+          "title": "Internal Mixer (A-Mixing)",
+          "desc": "High-shear mixing in Banbury equipment to ensure uniform dispersion of fillers."
+        },
+        "calendering": {
+          "title": "Calendering & Cooling",
+          "desc": "Sheet extrusion followed by rapid cooling to stabilize the compound."
+        },
+        "testing": {
+          "title": "Masterbatch Testing",
+          "desc": "Verification of Mooney viscosity and specific gravity before moving to stage 2."
+        }
+      },
+      "phase3": {
+        "stage": "Phase 3: Final Mixing (Stage 2 Mixing)",
+        "bMixing": {
+          "title": "B-Mixing (Final Compound)",
+          "desc": "Addition of vulcanizing agents and accelerators under strict temperature control."
+        },
+        "maturation": {
+          "title": "Maturation/Aging",
+          "desc": "Controlled storage to allow material relaxation and chemical stabilization."
+        },
+        "compoundTesting": {
+          "title": "Final Compound Testing",
+          "desc": "MDR (Moving Die Rheometer) testing to verify curing curves and performance."
+        }
+      },
+      "phase4": {
+        "stage": "Phase 4: Molding & Finishing",
+        "molding": {
+          "title": "Precision Molding",
+          "desc": "Utilizing vacuum compression and injection molding for high-tolerance components."
+        },
+        "deflashing": {
+          "title": "Deflashing & Trimming",
+          "desc": "Removal of excess material using cryo-deflashing or high-precision manual trimming."
+        }
+      },
+      "phase5": {
+        "stage": "Phase 5: Quality Guarantee & Logistics",
+        "inspection": {
+          "title": "Final 100% Inspection",
+          "desc": "Dimensions, appearance, and physical properties verified against customer specs."
+        },
+        "fulfillment": {
+          "title": "Global Fulfillment",
+          "desc": "Barcode-tracked packaging and international shipping via port-proximate logistics."
+        }
+      }
+    },
+    "footer": {
+      "title": "Advanced Process Control",
+      "description": "Every batch produced at RubberQ is managed via our integrated ERP system, ensuring 100% traceability from raw material lot number to the final part shipped. We utilize SPC (Statistical Process Control) to monitor critical parameters in real-time.",
+      "tagTraceability": "Traceability: 100%",
+      "tagMixing": "Mixing Stage: Two-Pass",
+      "tagCompliance": "Compliance: IATF 16949",
+      "zero": "Zero",
+      "toleranceForDefects": "Tolerance for Defects"
+    }
+  },
+  "factory": {
+    "hero": {
+      "location": "Fuzhou, China",
+      "title": "MANUFACTURING",
+      "titleHighlight": "EXCELLENCE",
+      "subtitle": "Two production facilities spanning 20,000m² with IATF 16949:2016 certified quality systems. Serving global OEMs since 1995.",
+      "scheduleVisit": "Schedule a Visit",
+      "exploreCapabilities": "Explore Capabilities"
+    },
+    "stats": {
+      "totalFacilityArea": "Total Facility Area",
+      "yearEstablished": "Year Established",
+      "teamMembers": "Team Members",
+      "greenCoverage": "Green Coverage"
+    },
+    "location": {
+      "title": "STRATEGIC",
+      "titleHighlight": "LOCATION",
+      "description": "Our manufacturing base in Fuzhou, Fujian Province offers exceptional logistical advantages. With access to Fuzhou Port (one of China's top 20 container ports), high-speed rail connections, and proximity to Xiamen and Shanghai airports, we ensure efficient delivery to global markets.",
+      "airport": "30 minutes",
+      "airportDesc": "to Fuzhou Changle International Airport",
+      "port": "45 minutes",
+      "portDesc": "to Fuzhou Port container terminal",
+      "rail": "4.5 hours",
+      "railDesc": "high-speed rail to Shanghai",
+      "facilityAddress": "Facility Address",
+      "address": "Fuzhou RubberQ Industrial Park, Mawei District, Fuzhou, Fujian, China"
+    },
+    "production": {
+      "title": "PRODUCTION",
+      "titleHighlight": "CAPABILITIES",
+      "subtitle": "End-to-end manufacturing from raw material to finished component, with full ERP traceability at every stage.",
+      "lines": {
+        "mixing": {
+          "title": "Mixing & Compounding",
+          "description": "Automated weighing systems and internal mixers for precise batch consistency.",
+          "capabilities": [
+            "Closed-type internal mixers (110L & 75L)",
+            "Automatic weighing system (±0.1g precision)",
+            "Open-type mixing mills for final refinement",
+            "Batch traceability via barcode system"
+          ]
+        },
+        "preforming": {
+          "title": "Pre-forming & Preparation",
+          "description": "Computer-controlled pre-forming equipment ensuring material efficiency.",
+          "capabilities": [
+            "CNC rubber pre-forming machines",
+            "Precision cutting equipment",
+            "Extrusion lines for profiles",
+            "Calendaring for sheet materials"
+          ]
+        },
+        "compression": {
+          "title": "Compression & Transfer Molding",
+          "description": "Multi-tonnage presses with overheat protection and automated controls.",
+          "capabilities": [
+            "Press range: 100T to 500T",
+            "Vacuum compression molding",
+            "Transfer molding for complex geometries",
+            "Overheat alarm protection system"
+          ]
+        },
+        "injection": {
+          "title": "Injection Molding",
+          "description": "High-precision rubber injection for large-volume production.",
+          "capabilities": [
+            "Horizontal rubber injection machines",
+            "Vertical insert molding capability",
+            "Liquid Silicone Rubber (LSR) processing",
+            "Automated part removal systems"
+          ]
+        }
+      }
+    },
+    "lab": {
+      "badge": "IATF 16949:2016",
+      "title": "QUALITY",
+      "titleHighlight": "LABORATORY",
+      "description": "Our on-site laboratory is equipped for comprehensive rubber testing from raw material validation to finished product certification. Every batch is traceable, every test is documented.",
+      "equipment": [
+        "Mooney Viscometer (Viscosity testing)",
+        "Rheometer (Curing characteristics)",
+        "Tensile Testing Machine (ASTM D412)",
+        "Shore A Durometer (Hardness)",
+        "Aging Ovens (Heat resistance)",
+        "Compression Set Apparatus (ASTM D395)",
+        "Optical Measuring Projector (Dimensions)",
+        "Ozone Test Chamber (Weathering)"
+      ]
+    },
+    "qualityProcess": {
+      "title": "QUALITY",
+      "titleHighlight": "PROCESS",
+      "subtitle": "Four-stage quality assurance ensuring every component meets automotive-grade standards before shipment.",
+      "steps": {
+        "incoming": {
+          "title": "Incoming Material Inspection",
+          "description": "Every raw material batch tested for viscosity, ash content, and Mooney value before release to production."
+        },
+        "inProcess": {
+          "title": "In-Process Control",
+          "description": "First Article Inspection (FAI) for every setup. SPC monitoring for critical dimensions."
+        },
+        "final": {
+          "title": "Final Inspection",
+          "description": "100% visual inspection. AQL sampling for dimensional and functional testing."
+        },
+        "shipment": {
+          "title": "Shipment Verification",
+          "description": "Pre-shipment inspection reports. Full lot traceability documentation."
+        }
+      }
+    },
+    "certifications": {
+      "title": "CERTIFICATIONS &",
+      "titleHighlight": "ACCREDITATIONS",
+      "iatf": "Automotive Quality Management",
+      "iso9001": "Quality Management System",
+      "iso14001": "Environmental Management"
+    },
+    "cta": {
+      "title": "READY TO",
+      "titleHighlight": "VISIT?",
+      "description": "We welcome factory audits and customer visits. Schedule a tour to see our capabilities firsthand and meet our engineering team.",
+      "scheduleTour": "Schedule Factory Tour",
+      "viewQuality": "View Quality Standards"
+    }
+  },
+  "materialsPage": {
+    "hero": {
+      "badge": "Technical Resource",
+      "title": "Industrial Material Hub",
+      "subtitle": "Choose the right elastomer for your 2026-grade application. Our materials are verified against ASTM D2000 and ISO 3302-1 standards."
+    },
+    "crossLink": {
+      "prompt": "Not sure which material to choose? Check out our",
+      "guide": "Material Selection Guide",
+      "suffix": " for recommendations"
+    },
+    "materials": {
+      "fkm": {
+        "name": "FKM (Fluoroelastomer)",
+        "desc": "Extreme heat and chemical resistance for AI liquid cooling and automotive engines."
+      },
+      "epdm": {
+        "name": "EPDM (Ethylene Propylene)",
+        "desc": "Superior weather resistance and flex life for robotics and outdoor machinery."
+      },
+      "nbr": {
+        "name": "NBR (Nitrile Rubber)",
+        "desc": "Standard for oil resistance in general industrial and mechanical seals."
+      },
+      "silicone": {
+        "name": "Silicone (VMQ)",
+        "desc": "Medical and food-grade safety with excellent thermal stability."
+      }
+    },
+    "technicalSpecifications": "TECHNICAL SPECIFICATIONS",
+    "matrix": {
+      "title": "Material Performance Matrix",
+      "property": "Property",
+      "tempRange": "Temp Range (°C)",
+      "oilResistance": "Oil Resistance",
+      "chemicalResistance": "Chemical Resistance",
+      "durabilityIndex": "Durability Index",
+      "superior": "Superior",
+      "excellent": "Excellent",
+      "good": "Good",
+      "fair": "Fair",
+      "poor": "Poor",
+      "high": "High",
+      "medium": "Medium"
+    }
+  },
+  "blogPage": {
+    "hero": {
+      "badge": "Technical Knowledge Hub",
+      "title": "Material Science & Industrial Insights",
+      "subtitle": "Expert analysis on rubber engineering, quality standards, and application-specific solutions for modern industries."
+    },
+    "emptyState": "No technical papers published yet.",
+    "cardLabel": "Technical",
+    "readPaper": "READ TECHNICAL PAPER"
+  },
+  "blogPost": {
+    "backToHub": "BACK TO HUB",
+    "categoryTechnical": "Technical",
+    "ctaTitle": "Need technical consultation?",
+    "ctaDescription": "Our engineering team can help apply these material insights to your specific project.",
+    "ctaButton": "REQUEST A QUOTE"
+  },
+  "standardsPage": {
+    "hero": {
+      "badge": "Technical Compliance",
+      "title": "Global Industry Standards",
+      "subtitle": "At RubberQ, we don't just manufacture rubber; we engineer compliance. We operate at the intersection of material science and international regulatory frameworks to ensure your products are market-ready."
+    },
+    "categories": {
+      "materialClassification": {
+        "title": "Material Classification Systems",
+        "desc": "How we categorize and certify rubber physical properties for engineering clarity.",
+        "standards": {
+          "astmD2000": {
+            "name": "Standard Classification System for Rubber Products",
+            "detail": "The global language for rubber. We use the line call-out system to define heat resistance, oil swelling, and physical properties (e.g., 2BC715B14)."
+          },
+          "saeJ200": {
+            "name": "Classification System for Rubber Materials",
+            "detail": "Automotive-specific standard similar to ASTM D2000, used primarily for North American automotive OEM components."
+          }
+        }
+      },
+      "environmentalCompliance": {
+        "title": "Environmental & Chemical Compliance",
+        "desc": "Ensuring our components are safe for global markets and free from hazardous substances.",
+        "standards": {
+          "rohs3": {
+            "name": "Restriction of Hazardous Substances (2011/65/EU)",
+            "detail": "Guaranteeing that our rubber parts contain less than the allowable limits of Lead, Mercury, Cadmium, and other restricted materials."
+          },
+          "reach": {
+            "name": "Registration, Evaluation, Authorisation and Restriction of Chemicals",
+            "detail": "Compliance with EU regulations regarding SVHC (Substances of Very High Concern) in our supply chain."
+          }
+        }
+      },
+      "applicationCertifications": {
+        "title": "Application-Specific Certifications",
+        "desc": "Specialized standards for high-stakes industries like food, medical, and aerospace.",
+        "standards": {
+          "fda": {
+            "name": "Rubber Articles Intended for Repeated Use with Food",
+            "detail": "Extraction testing and raw material white-listing for food-grade silicone, EPDM, and NBR components."
+          },
+          "milSpec": {
+            "name": "Military Specifications (e.g., MIL-R-25988)",
+            "detail": "Meeting rigorous defense requirements for fluid resistance, extreme temperature stability, and shelf life."
+          }
+        }
+      }
+    },
+    "sidebar": {
+      "callOutTitle": "Need a Line Call-Out?",
+      "callOutDesc": "Our engineering team can help you translate your application requirements into a formal ASTM D2000 or SAE J200 specification.",
+      "consultEngineer": "Consult an Engineer",
+      "complianceNotice": "Compliance Notice",
+      "complianceNoticeText": "Certificates of Analysis (COA) and Certificates of Conformance (COC) are provided with every shipment. Full PPAP Level 3 documentation is available for automotive and high-precision machinery projects upon request."
+    },
+    "footer": {
+      "globalReach": "Global Reach",
+      "globalReachDesc": "Compliant with US, EU, and Asian market regulations.",
+      "ipProtection": "IP Protection",
+      "ipProtectionDesc": "Rigorous confidentiality for custom formulations.",
+      "materialScience": "Material Science",
+      "materialScienceDesc": "Specialized in high-performance elastomers (FKM, HNBR, Silicone).",
+      "verifiedTesting": "Verified Testing",
+      "verifiedTestingDesc": "All data validated in our ISO-compliant laboratory."
+    }
+  },
+  "caseStudies": {
+    "hero": {
+      "badge": "Proven Excellence",
+      "titleLine1": "CASE",
+      "titleLine2": "STUDIES",
+      "subtitle": "Real-world applications of automotive-grade rubber engineering. See how we solve critical sealing challenges across robotics, AI infrastructure, and next-generation mobility."
+    },
+    "stats": {
+      "projectsDelivered": "Projects Delivered",
+      "qualityRate": "Quality Rate",
+      "countriesServed": "Countries Served",
+      "yearsExperience": "Years Experience"
+    },
+    "labels": {
+      "client": "Client",
+      "challenge": "Challenge",
+      "solution": "Solution",
+      "results": "Results"
+    },
+    "studies": {
+      "robotics": {
+        "industry": "Collaborative Robotics",
+        "client": "European Cobot Manufacturer",
+        "location": "Germany",
+        "challenge": "Joint seal failure in 24/7 production environments causing downtime",
+        "solution": "Custom FKM joint bellows with enhanced fatigue resistance",
+        "results": [
+          "MTBF increased from 8,000 to 25,000 hours",
+          "Zero field failures in 18 months",
+          "15% reduction in maintenance costs"
+        ]
+      },
+      "aiDataCenters": {
+        "industry": "AI Data Centers",
+        "client": "Leading Cloud Infrastructure Provider",
+        "location": "United States",
+        "challenge": "Liquid cooling system leaks in high-density GPU clusters",
+        "solution": "Precision EPDM cooling seals with sub-micron tolerances",
+        "results": [
+          "99.97% leak-free performance",
+          "Compatible with dielectric coolants",
+          "Temperature range: -40°C to 150°C"
+        ]
+      },
+      "automotiveEV": {
+        "industry": "Automotive EV",
+        "client": "Tier-1 EV Component Supplier",
+        "location": "Japan",
+        "challenge": "Battery pack sealing for thermal management systems",
+        "solution": "Multi-material gasket system with fire-resistant properties",
+        "results": [
+          "Passed UL94 V-0 fire rating",
+          "IP67 and IP69K certified",
+          "Production capacity: 500K units/year"
+        ]
+      }
+    },
+    "cta": {
+      "titleLine1": "FACING A",
+      "titleLine2": "SEALING CHALLENGE?",
+      "subtitle": "Our engineering team has solved complex sealing problems across robotics, automotive, and industrial applications. Let's discuss yours.",
+      "discussProject": "Discuss Your Project",
+      "exploreMaterials": "Explore Materials"
+    }
+  }
+}

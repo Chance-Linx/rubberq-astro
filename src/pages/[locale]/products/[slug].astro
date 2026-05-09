@@ -1,0 +1,303 @@
+---
+import LocaleLayout from '@/layouts/LocaleLayout.astro';
+import { getTranslations, t, tRaw } from '@/lib/i18n';
+
+export function getStaticPaths() {
+  const locales = ['en','de','ja','es','zh'];
+  const slugs = ['seals','gaskets','bellows','custom'];
+  return locales.flatMap(locale => slugs.map(slug => ({ params: { locale, slug } })));
+}
+
+const { locale, slug } = Astro.params;
+const messages = await getTranslations(locale);
+const pp = (key: string, fallback = '') => t(messages, `productsPage.${key}`, fallback);
+
+type Blueprint = {
+  slug: string; modelCode: string; heroImage: string;
+  summary: {term:string; description:string}[];
+  specifications: {name:string; value:string}[];
+  materialCompatibility: {material:string; compatibility:string; note:string}[];
+  applicationCases: {title:string; scenario:string; result:string}[];
+  cadFiles: {fileName:string; format:string; size:string; url:string}[];
+};
+
+const PRODUCTS: Record<string, Blueprint> = {
+  seals: {
+    slug:'seals', modelCode:'RQ-SL', heroImage:'/images/legacy_resource/2021/01/13/5ffee6d29ce67.jpg',
+    summary:[
+      {term:'Primary Function', description:'Dynamic and static sealing for pressure-bearing assemblies.'},
+      {term:'Tolerance Capability', description:'Up to ISO 3601-1 Class B with validated compression control.'},
+      {term:'Typical Lifecycle', description:'Designed for long service intervals in fluid and thermal systems.'},
+    ],
+    specifications:[
+      {name:'Standard Range', value:'ISO 3601 / ASTM D2000'},
+      {name:'Hardness Window', value:'50-90 Shore A'},
+      {name:'Operating Temperature', value:'-60°C to +320°C (compound-dependent)'},
+      {name:'Compression Set Target', value:'< 15% @ 200°C / 22h'},
+      {name:'Surface Finish', value:'Ra 0.8-1.6 μm (critical lines)'},
+      {name:'Inspection', value:'100% visual + AQL sampling for dimensions'},
+    ],
+    materialCompatibility:[
+      {material:'FKM', compatibility:'Excellent', note:'High heat and fuel resistance for demanding environments.'},
+      {material:'NBR', compatibility:'Excellent', note:'Strong oil resistance with balanced cost profile.'},
+      {material:'EPDM', compatibility:'Good', note:'Preferred for water, steam, and weather exposure.'},
+      {material:'HNBR', compatibility:'Excellent', note:'Enhanced mechanical durability at elevated temperature.'},
+    ],
+    applicationCases:[
+      {title:'Automotive Cooling Module Seal', scenario:'High-cycle thermal sealing for EV coolant manifold.', result:'Leakage incidents reduced after migrating to high-fluorine compound.'},
+      {title:'Robot Actuator Shaft Seal', scenario:'Dynamic sealing with repeated rotational movement.', result:'Extended maintenance interval through lower compression-set profile.'},
+      {title:'Industrial Pump Face Seal', scenario:'Chemical handling line requiring stable elastomer behavior.', result:'Improved resistance to solvent swelling and edge cracking.'},
+    ],
+    cadFiles:[
+      {fileName:'rq-seals-standard.step', format:'STEP', size:'48 KB', url:'/downloads/cad/rq-seals-standard.step'},
+      {fileName:'rq-seals-standard.iges', format:'IGES', size:'35 KB', url:'/downloads/cad/rq-seals-standard.iges'},
+    ],
+  },
+  gaskets: {
+    slug:'gaskets', modelCode:'RQ-GK', heroImage:'/images/legacy_resource/2021/01/13/5ffee5e7e0129.jpg',
+    summary:[
+      {term:'Primary Function', description:'Surface sealing and interface compensation for flanged assemblies.'},
+      {term:'Design Focus', description:'Thickness and compression behavior for repeatable sealing performance.'},
+      {term:'Manufacturing Mode', description:'Die-cut and molded variants with optional adhesive backing.'},
+    ],
+    specifications:[
+      {name:'Thickness Range', value:'0.5-25 mm'},
+      {name:'Dimensional Class', value:'ISO 3302-1 Class M1'},
+      {name:'Media Resistance', value:'Compound-specific (oil, coolant, steam)'},
+      {name:'Adhesive Option', value:'Single or double-side pressure-sensitive layer'},
+      {name:'Maximum Panel Size', value:'Up to 1200 × 800 mm (sheet process)'},
+      {name:'Validation', value:'Compression and leakage tests per drawing'},
+    ],
+    materialCompatibility:[
+      {material:'NBR', compatibility:'Excellent', note:'Preferred for oil-contact static sealing.'},
+      {material:'EPDM', compatibility:'Excellent', note:'Strong steam and weather resistance.'},
+      {material:'Silicone', compatibility:'Good', note:'Broad thermal range and clean-room adaptability.'},
+      {material:'PTFE-bonded', compatibility:'Excellent', note:'Improved chemical barrier for aggressive media.'},
+    ],
+    applicationCases:[
+      {title:'Battery Pack Enclosure Gasket', scenario:'Ingress protection for EV electronics enclosure interfaces.', result:'Stable compression retention across long thermal cycling profiles.'},
+      {title:'Heat Exchanger Port Seal', scenario:'Coolant manifold with dimensional tolerance stack-up.', result:'Leak path control improved with tailored gasket geometry.'},
+      {title:'Industrial Cabinet EMI Gasket', scenario:'Combined sealing and interference shielding requirement.', result:'Integrated design reduced assembly complexity and rework.'},
+    ],
+    cadFiles:[
+      {fileName:'rq-gaskets-standard.step', format:'STEP', size:'44 KB', url:'/downloads/cad/rq-gaskets-standard.step'},
+      {fileName:'rq-gaskets-standard.iges', format:'IGES', size:'33 KB', url:'/downloads/cad/rq-gaskets-standard.iges'},
+    ],
+  },
+  bellows: {
+    slug:'bellows', modelCode:'RQ-BL', heroImage:'/images/legacy_resource/2021/01/13/5ffee5f922736.jpg',
+    summary:[
+      {term:'Primary Function', description:'Protective motion cover for linear and rotary mechanisms.'},
+      {term:'Fatigue Profile', description:'Multi-convolution geometries for repeated extension cycles.'},
+      {term:'Protection Scope', description:'Barrier against dust, splash, and process contaminants.'},
+    ],
+    specifications:[
+      {name:'Cycle Target', value:'1M+ cycles (application-dependent)'},
+      {name:'Convolution Count', value:'4-16 folds typical'},
+      {name:'Extension Ratio', value:'Up to 3.5× compressed length'},
+      {name:'Wall Thickness', value:'0.8-3.0 mm'},
+      {name:'Reinforcement Option', value:'Fabric or wire insert on demand'},
+      {name:'Ingress Class Support', value:'IP54-IP67 dependent on assembly design'},
+    ],
+    materialCompatibility:[
+      {material:'Neoprene (CR)', compatibility:'Good', note:'Balanced outdoor durability for general applications.'},
+      {material:'FKM', compatibility:'Excellent', note:'Enhanced heat and chemical durability.'},
+      {material:'TPU-coated', compatibility:'Good', note:'Improved abrasion resistance on sliding contact.'},
+      {material:'Fabric-reinforced', compatibility:'Excellent', note:'Higher shape retention for extended stroke use.'},
+    ],
+    applicationCases:[
+      {title:'Robot Joint Dust Boot', scenario:'Protection for articulated joints in dusty shop-floor conditions.', result:'Reduced contamination ingress and lower unplanned maintenance.'},
+      {title:'Linear Guide Protective Bellows', scenario:'Covering precision rails with repeated acceleration cycles.', result:'Extended rail cleanliness and improved long-run repeatability.'},
+      {title:'Automotive CV Joint Boot', scenario:'Flexing component under vibration and temperature fluctuation.', result:'Improved durability over baseline commodity compounds.'},
+    ],
+    cadFiles:[
+      {fileName:'rq-bellows-standard.step', format:'STEP', size:'51 KB', url:'/downloads/cad/rq-bellows-standard.step'},
+      {fileName:'rq-bellows-standard.iges', format:'IGES', size:'37 KB', url:'/downloads/cad/rq-bellows-standard.iges'},
+    ],
+  },
+  custom: {
+    slug:'custom', modelCode:'RQ-CM', heroImage:'/images/legacy_resource/2021/01/13/5ffee5158656d.jpg',
+    summary:[
+      {term:'Primary Function', description:'Application-specific molded elastomer components from drawing to SOP.'},
+      {term:'Engineering Depth', description:'Material formulation, tooling design, and process validation in one flow.'},
+      {term:'Delivery Mode', description:'Prototype, pilot run, and mass-production release support.'},
+    ],
+    specifications:[
+      {name:'Development Lead Time', value:'Prototype 3-5 days (typical)'},
+      {name:'Tooling Capability', value:'Insert molding and multi-durometer options'},
+      {name:'Tolerance Capability', value:'Up to ±0.05 mm in critical geometry'},
+      {name:'Validation Package', value:'PPAP and process capability reports on request'},
+      {name:'Surface/Color Options', value:'Texture and color matching supported'},
+      {name:'Scale-up', value:'Pilot to high-volume transfer path available'},
+    ],
+    materialCompatibility:[
+      {material:'FKM / FFKM', compatibility:'Excellent', note:'For severe chemical and high-temperature applications.'},
+      {material:'NBR / HNBR', compatibility:'Excellent', note:'For oil-sealing and mechanical load-bearing parts.'},
+      {material:'EPDM / Silicone', compatibility:'Good', note:'For weather, steam, and clean-contact scenarios.'},
+      {material:'Metal-bonded systems', compatibility:'Excellent', note:'Supports integrated hybrid component design.'},
+    ],
+    applicationCases:[
+      {title:'AI Cooling Connector Seal', scenario:'Custom geometry for quick-connect liquid cooling assembly.', result:'Accelerated prototype iteration and faster qualification cycle.'},
+      {title:'Precision Machinery Damper', scenario:'Vibration control component with strict dimensional targets.', result:'Improved vibration attenuation while holding assembly tolerances.'},
+      {title:'Valve Elastomer Insert', scenario:'Insert-molded part for fluid control module.', result:'Reduced part count and streamlined assembly process.'},
+    ],
+    cadFiles:[
+      {fileName:'rq-custom-reference.step', format:'STEP', size:'54 KB', url:'/downloads/cad/rq-custom-reference.step'},
+      {fileName:'rq-custom-reference.iges', format:'IGES', size:'39 KB', url:'/downloads/cad/rq-custom-reference.iges'},
+    ],
+  },
+};
+
+const blueprint = PRODUCTS[slug];
+if (!blueprint) {
+  return new Response(null, { status: 404 });
+}
+
+const productKey = slug as 'seals'|'gaskets'|'bellows'|'custom';
+const productName = pp(`${productKey}.name`);
+const productDescription = pp(`${productKey}.desc`);
+const productFeatures = tRaw(messages, `productsPage.${productKey}.features`, []) as string[];
+const productApplications = tRaw(messages, `productsPage.${productKey}.applications`, []) as string[];
+
+const summaryItems = [...blueprint.summary, { term: 'Core Features', description: productFeatures.join(' | ') }];
+
+const labelsByLocale: Record<string, Record<string,string>> = {
+  en: { back:'Back to Products', specs:'Key Specifications', materials:'Material Compatibility', apps:'Application Cases', cad:'3D CAD Downloads', download:'Download', engTitle:'Need Engineering Support?', engDesc:'Share your drawing and application constraints. Our team will propose material and geometry recommendations.', engCta:'Request Engineering Review' },
+  zh: { back:'返回产品中心', specs:'关键规格参数', materials:'材料兼容性说明', apps:'应用案例', cad:'3D CAD 下载', download:'下载', engTitle:'需要工程支持？', engDesc:'提交图纸和应用约束，我们将提供材料与结构建议。', engCta:'申请工程评估' },
+  de: { back:'Zurück zur Produktübersicht', specs:'Wichtige Spezifikationen', materials:'Materialkompatibilität', apps:'Anwendungsfalle', cad:'3D CAD Downloads', download:'Download', engTitle:'Engineering-Unterstützung benötigt?', engDesc:'Teilen Sie Zeichnungen und Randbedingungen. Unser Team empfiehlt Material und Geometrie.', engCta:'Engineering-Review anfordern' },
+  ja: { back:'製品一覧へ戻る', specs:'主要仕様', materials:'材料適合情報', apps:'適用事例', cad:'3D CAD ダウンロード', download:'ダウンロード', engTitle:'技術サポートが必要ですか？', engDesc:'図面と使用条件を共有いただければ、材質と形状の提案を行います。', engCta:'技術レビューを依頼' },
+  es: { back:'Volver a Productos', specs:'Especificaciones Clave', materials:'Compatibilidad de Materiales', apps:'Casos de Aplicacion', cad:'Descargas CAD 3D', download:'Descargar', engTitle:'Necesita soporte de ingenieria?', engDesc:'Comparta su plano y restricciones de aplicacion para recibir recomendaciones de material y geometria.', engCta:'Solicitar revision tecnica' },
+};
+const L = labelsByLocale[locale] || labelsByLocale.en;
+---
+
+<LocaleLayout locale={locale}>
+  <Fragment slot="head">
+    <title>{productName} | RubberQ</title>
+    <meta name="description" content={productDescription} />
+  </Fragment>
+
+  <div class="bg-white min-h-screen">
+    <!-- Hero -->
+    <section class="bg-industrial-900 text-white py-20 px-4">
+      <div class="max-w-7xl mx-auto">
+        <a href={`/${locale}/products`} class="inline-flex items-center gap-2 text-industrial-300 hover:text-white transition-colors mb-8">
+          <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
+          {L.back}
+        </a>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+          <div>
+            <div class="inline-flex items-center gap-2 bg-accent-orange/10 border border-accent-orange/30 text-accent-orange px-4 py-1.5 text-xs font-bold tracking-widest uppercase mb-6">
+              <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+              {blueprint.modelCode}
+            </div>
+            <h1 class="text-4xl md:text-5xl font-bold tracking-tighter mb-6">{productName}</h1>
+            <p class="text-xl text-industrial-300 leading-relaxed">{productDescription}</p>
+          </div>
+          <div class="aspect-[16/10] overflow-hidden border border-white/10 bg-industrial-800">
+            <img src={blueprint.heroImage} alt={productName} class="w-full h-full object-cover" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Content + Sidebar -->
+    <section class="max-w-7xl mx-auto px-4 py-16 grid grid-cols-1 lg:grid-cols-3 gap-10">
+      <!-- Main -->
+      <div class="lg:col-span-2">
+        <!-- Summary -->
+        <div class="mb-12">
+          <h2 class="text-2xl font-bold text-industrial-900 mb-5">{L.apps}</h2>
+          <div class="space-y-3">
+            {summaryItems.map((item) => (
+              <div class="flex gap-3 border-l-4 border-accent-orange bg-industrial-50 p-4">
+                <dt class="font-bold text-industrial-900 text-sm min-w-[140px]">{item.term}</dt>
+                <dd class="text-sm text-industrial-600">{item.description}</dd>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <!-- Specifications Table -->
+        <div class="mb-12">
+          <h2 class="text-2xl font-bold text-industrial-900 mb-5">{L.specs}</h2>
+          <table class="w-full border-collapse">
+            <tbody>
+              {blueprint.specifications.map((spec,i) => (
+                <tr class={i % 2 === 0 ? 'bg-industrial-50' : 'bg-white'}>
+                  <td class="p-4 text-sm font-bold text-industrial-900 border-b border-industrial-200 w-1/3">{spec.name}</td>
+                  <td class="p-4 text-sm text-industrial-600 border-b border-industrial-200">{spec.value}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Material Compatibility -->
+        <div class="mb-12">
+          <h2 class="text-2xl font-bold text-industrial-900 mb-5">{L.materials}</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+            {blueprint.materialCompatibility.map((item) => (
+              <div class="border border-industrial-200 p-5 bg-white">
+                <div class="flex items-center justify-between mb-2">
+                  <h3 class="font-bold text-industrial-900">{item.material}</h3>
+                  <span class="text-xs font-bold uppercase tracking-wider text-accent-orange">{item.compatibility}</span>
+                </div>
+                <p class="text-sm text-industrial-600 leading-relaxed">{item.note}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <!-- Application Cases -->
+        <div class="mb-12">
+          <h2 class="text-2xl font-bold text-industrial-900 mb-5">{L.apps}</h2>
+          <div class="space-y-4">
+            {blueprint.applicationCases.map((item) => (
+              <div class="border-l-4 border-accent-orange bg-industrial-50 p-5">
+                <h3 class="font-bold text-industrial-900 mb-2">{item.title}</h3>
+                <p class="text-sm text-industrial-600 mb-2">{item.scenario}</p>
+                <p class="text-sm text-industrial-800">{item.result}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+      <div class="lg:col-span-1 space-y-6">
+        <div class="border border-industrial-200 p-6 bg-white sticky top-24">
+          <div class="flex items-center gap-2 mb-4">
+            <svg class="w-5 h-5 text-accent-orange" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            <h3 class="text-lg font-bold text-industrial-900">{L.cad}</h3>
+          </div>
+          <div class="space-y-3 mb-6">
+            {blueprint.cadFiles.map((file) => (
+              <a href={file.url} download class="flex items-center justify-between gap-3 border border-industrial-200 p-3 hover:border-accent-orange transition-colors">
+                <div>
+                  <p class="text-sm font-bold text-industrial-900">{file.fileName}</p>
+                  <p class="text-xs text-industrial-500">{file.format} | {file.size}</p>
+                </div>
+                <div class="text-accent-orange inline-flex items-center gap-1 text-sm font-medium">
+                  <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                  {L.download}
+                </div>
+              </a>
+            ))}
+          </div>
+          <h4 class="text-base font-bold text-industrial-900 mb-2">{L.engTitle}</h4>
+          <p class="text-sm text-industrial-600 mb-4">{L.engDesc}</p>
+          <a href={`/${locale}/contact`} class="inline-flex items-center justify-center gap-2 w-full bg-industrial-900 text-white px-5 py-3 font-bold text-sm uppercase tracking-wider hover:bg-accent-orange transition-colors">
+            {L.engCta}
+            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+
+        <div class="border border-industrial-200 p-6 bg-industrial-50">
+          <h4 class="text-sm font-bold uppercase tracking-wider text-industrial-500 mb-2">{pp('seals.applicationsTitle')}</h4>
+          <p class="text-sm text-industrial-700 leading-relaxed">{productApplications.join(' | ')}</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</LocaleLayout>

@@ -1,0 +1,230 @@
+---
+// TrustSignals.astro — Proof of Trust + Client Voice carousel
+// Replicates Next.js TrustSignals.tsx as a static Astro component
+
+interface Props {
+  locale: string;
+}
+
+const { locale } = Astro.props;
+
+interface Testimonial {
+  quote: string;
+  person: string;
+  role: string;
+}
+
+type TrustContent = {
+  title: string;
+  subtitle: string;
+  logosTitle: string;
+  testimonialsTitle: string;
+  logos: string[];
+  testimonials: Testimonial[];
+};
+
+const TRUST_CONTENT: Record<string, TrustContent> = {
+  en: {
+    title: 'Proof of Trust',
+    subtitle: 'Built for procurement teams that need stable quality, traceability, and predictable delivery.',
+    logosTitle: 'Trusted by Engineering Teams In',
+    testimonialsTitle: 'Client Voice',
+    logos: ['Nippon Mobility Group', 'Apex Robotics', 'Vector EV Systems', 'Polar Data Cooling', 'Omni Precision Works', 'Titan Fluid Tech'],
+    testimonials: [
+      { quote: 'RubberQ delivered repeatable sealing quality over six production lots with no leakage escalation.', person: 'Senior Sourcing Manager', role: 'EV Cooling System Integrator' },
+      { quote: 'Their engineering feedback reduced our mold iteration cycle and accelerated pilot approval.', person: 'Program Engineer', role: 'Industrial Robotics OEM' },
+      { quote: 'The PPAP-ready documentation and process traceability made supplier onboarding straightforward.', person: 'Quality Lead', role: 'Tier-1 Automotive Supplier' },
+    ],
+  },
+  zh: {
+    title: '信任证明',
+    subtitle: '面向重视稳定质量、全流程追溯和可预测交付的采购团队。',
+    logosTitle: '合作行业客户',
+    testimonialsTitle: '客户反馈',
+    logos: ['日系出行集团', 'Apex 机器人', 'Vector 电驱系统', 'Polar 液冷平台', 'Omni 精密制造', 'Titan 流体科技'],
+    testimonials: [
+      { quote: 'RubberQ 在连续六批交付中保持稳定密封质量，没有出现泄漏升级问题。', person: '高级采购经理', role: '新能源汽车液冷系统集成商' },
+      { quote: '他们的工程反馈帮助我们减少模具迭代次数并加快了试产批准。', person: '项目工程师', role: '工业机器人 OEM' },
+      { quote: 'PPAP 级文档与过程追溯能力让供应商导入流程更加顺畅。', person: '质量负责人', role: '汽车一级供应商' },
+    ],
+  },
+  de: {
+    title: 'Vertrauensnachweis',
+    subtitle: 'Fur Einkaufsteams mit Fokus auf stabile Qualitat, Ruckverfolgbarkeit und planbare Lieferung.',
+    logosTitle: 'Vertrauen aus folgenden Branchen',
+    testimonialsTitle: 'Kundenstimmen',
+    logos: ['Nippon Mobility Group', 'Apex Robotics', 'Vector EV Systems', 'Polar Data Cooling', 'Omni Precision Works', 'Titan Fluid Tech'],
+    testimonials: [
+      { quote: 'RubberQ lieferte uber sechs Produktionslose hinweg konstant hohe Dichtungsqualitat.', person: 'Senior Sourcing Manager', role: 'EV-Kuhlsystem Integrator' },
+      { quote: 'Das Engineering-Feedback reduzierte unsere Werkzeug-Iterationen deutlich.', person: 'Program Engineer', role: 'Robotik OEM' },
+      { quote: 'PPAP-fahige Dokumentation und Prozess-Traceability vereinfachten das Onboarding.', person: 'Quality Lead', role: 'Automotive Tier-1' },
+    ],
+  },
+  ja: {
+    title: '信頼の実績',
+    subtitle: '安定品質、トレーサビリティ、納期の確実性を重視する調達チーム向け。',
+    logosTitle: '採用業界',
+    testimonialsTitle: 'お客様の声',
+    logos: ['Nippon Mobility Group', 'Apex Robotics', 'Vector EV Systems', 'Polar Data Cooling', 'Omni Precision Works', 'Titan Fluid Tech'],
+    testimonials: [
+      { quote: '6ロット連続で安定したシール品質を維持し、漏れ問題は発生しませんでした。', person: '調達マネージャー', role: 'EV冷却システム企業' },
+      { quote: '設計フィードバックにより金型の試作回数を削減し、承認を早められました。', person: 'プログラムエンジニア', role: 'ロボティクス OEM' },
+      { quote: 'PPAP対応資料と工程追跡により、サプライヤ導入がスムーズでした。', person: '品質責任者', role: '自動車 Tier-1' },
+    ],
+  },
+  es: {
+    title: 'Prueba de Confianza',
+    subtitle: 'Para equipos de compras que priorizan calidad estable, trazabilidad y entrega predecible.',
+    logosTitle: 'Confianza en sectores',
+    testimonialsTitle: 'Voz del Cliente',
+    logos: ['Nippon Mobility Group', 'Apex Robotics', 'Vector EV Systems', 'Polar Data Cooling', 'Omni Precision Works', 'Titan Fluid Tech'],
+    testimonials: [
+      { quote: 'RubberQ mantuvo calidad de sellado estable durante seis lotes de produccion.', person: 'Senior Sourcing Manager', role: 'Integrador de enfriamiento EV' },
+      { quote: 'Su retroalimentacion tecnica redujo iteraciones de molde y acelero aprobaciones.', person: 'Ingeniero de Programa', role: 'OEM de Robotica' },
+      { quote: 'La documentacion tipo PPAP y trazabilidad facilitaron el onboarding del proveedor.', person: 'Lider de Calidad', role: 'Tier-1 Automotriz' },
+    ],
+  },
+};
+
+const content = TRUST_CONTENT[locale] || TRUST_CONTENT.en;
+const testimonialsJson = JSON.stringify(content.testimonials);
+---
+
+<section class="py-16 md:py-24 bg-industrial-50 border-t border-industrial-200 border-b border-industrial-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl mb-12">
+      <h2 class="text-4xl font-bold tracking-tighter text-industrial-900 uppercase mb-4">{content.title}</h2>
+      <p class="text-industrial-600 text-lg">{content.subtitle}</p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+      <!-- Client Logos -->
+      <div>
+        <h3 class="text-xs font-bold uppercase tracking-widest text-industrial-500 mb-5">{content.logosTitle}</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+          {content.logos.map((logo) => (
+            <div class="min-h-16 bg-white border border-industrial-200 flex items-center justify-center text-center px-3 py-2 text-[11px] font-bold uppercase tracking-wide text-industrial-600">
+              {logo}
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- Client Voice Carousel -->
+      <div class="bg-white border border-industrial-200 p-6 md:p-8 touch-pan-y" id="testimonial-carousel" data-testimonials={testimonialsJson}>
+        <div class="flex items-center justify-between mb-6">
+          <h3 class="text-xs font-bold uppercase tracking-widest text-industrial-500">{content.testimonialsTitle}</h3>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-orange, #F97316)" stroke-width="1.5" class="text-accent-orange">
+            <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
+            <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/>
+          </svg>
+        </div>
+
+        <p class="text-industrial-800 text-lg leading-relaxed mb-6 min-h-[110px]" id="testimonial-quote">&ldquo;{content.testimonials[0].quote}&rdquo;</p>
+
+        <div class="border-t border-industrial-100 pt-4">
+          <p class="font-bold text-industrial-900" id="testimonial-person">{content.testimonials[0].person}</p>
+          <p class="text-sm text-industrial-500" id="testimonial-role">{content.testimonials[0].role}</p>
+        </div>
+
+        <div class="mt-6 flex items-center justify-between">
+          <div class="flex gap-2" id="testimonial-dots">
+            {content.testimonials.map((_, dotIndex) => (
+              <button type="button" data-index={dotIndex}
+                      class={`h-3 transition-all ${dotIndex === 0 ? 'w-8 bg-accent-orange' : 'w-5 bg-industrial-200'}`}
+                      aria-label={`Testimonial ${dotIndex + 1}`} aria-current={dotIndex === 0 ? 'true' : 'false'}>
+              </button>
+            ))}
+          </div>
+
+          <div class="flex gap-2">
+            <button type="button" id="testimonial-prev"
+                    class="w-11 h-11 border border-industrial-200 flex items-center justify-center text-industrial-600 hover:text-accent-orange hover:border-accent-orange transition-colors"
+                    aria-label="Previous testimonial">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <button type="button" id="testimonial-next"
+                    class="w-11 h-11 border border-industrial-200 flex items-center justify-center text-industrial-600 hover:text-accent-orange hover:border-accent-orange transition-colors"
+                    aria-label="Next testimonial">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Testimonial carousel — vanilla JS
+  const testimonials = JSON.parse(document.getElementById('testimonial-carousel')?.dataset.testimonials || '[]');
+  let currentIndex = 0;
+
+  const quoteEl = document.getElementById('testimonial-quote');
+  const personEl = document.getElementById('testimonial-person');
+  const roleEl = document.getElementById('testimonial-role');
+  const dotsContainer = document.getElementById('testimonial-dots');
+
+  function updateCarousel(index: number) {
+    if (!testimonials[index]) return;
+    currentIndex = index;
+    const t = testimonials[index];
+    if (quoteEl) quoteEl.textContent = `"${t.quote}"`;
+    if (personEl) personEl.textContent = t.person;
+    if (roleEl) roleEl.textContent = t.role;
+
+    // Update dots
+    const dots = dotsContainer?.querySelectorAll('button');
+    dots?.forEach((dot, i) => {
+      if (i === index) {
+        dot.className = 'h-3 transition-all w-8 bg-accent-orange';
+        dot.setAttribute('aria-current', 'true');
+      } else {
+        dot.className = 'h-3 transition-all w-5 bg-industrial-200';
+        dot.setAttribute('aria-current', 'false');
+      }
+    });
+  }
+
+  document.getElementById('testimonial-prev')?.addEventListener('click', () => {
+    const newIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
+    updateCarousel(newIndex);
+  });
+
+  document.getElementById('testimonial-next')?.addEventListener('click', () => {
+    const newIndex = (currentIndex + 1) % testimonials.length;
+    updateCarousel(newIndex);
+  });
+
+  // Dot clicks
+  dotsContainer?.querySelectorAll('button').forEach((dot) => {
+    dot.addEventListener('click', () => {
+      const index = parseInt(dot.getAttribute('data-index') || '0', 10);
+      updateCarousel(index);
+    });
+  });
+
+  // Touch swipe
+  let touchStartX: number | null = null;
+  const carousel = document.getElementById('testimonial-carousel');
+  carousel?.addEventListener('touchstart', (e: TouchEvent) => {
+    touchStartX = e.changedTouches[0]?.clientX ?? null;
+  });
+  carousel?.addEventListener('touchend', (e: TouchEvent) => {
+    if (touchStartX === null) return;
+    const touchEndX = e.changedTouches[0]?.clientX ?? touchStartX;
+    const delta = touchEndX - touchStartX;
+    const threshold = 40;
+    if (delta > threshold) {
+      updateCarousel((currentIndex - 1 + testimonials.length) % testimonials.length);
+    } else if (delta < -threshold) {
+      updateCarousel((currentIndex + 1) % testimonials.length);
+    }
+    touchStartX = null;
+  });
+
+  // Auto-rotate every 5s
+  setInterval(() => {
+    updateCarousel((currentIndex + 1) % testimonials.length);
+  }, 5000);
+</script>

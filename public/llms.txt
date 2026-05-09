@@ -1,0 +1,31 @@
+# RubberQ — Precision Rubber Manufacturer
+
+## Site Info
+- Domain: https://rubberq.com
+- Languages: English, Deutsch, 日本語, Español, 中文
+- Industry: Precision Rubber Manufacturing (IATF 16949 Certified)
+- Key Materials: FKM, EPDM, NBR, HNBR, FFKM
+
+## Key Pages
+- /en — Homepage (Precision Rubber Manufacturing)
+- /en/products — Full product catalog
+- /en/case-studies — Engineering case studies
+- /en/materials — Material science hub
+- /en/capabilities — Manufacturing capabilities
+- /en/quality — Quality assurance & certifications
+- /en/factory — Virtual factory tour
+- /blog — Technical Knowledge Hub (148+ articles on rubber engineering, material science, industry applications)
+- /en/contact — Global support & RFQ
+- /en/resources — Technical resources & downloads
+- /en/search — Site search
+
+## Blog Topics
+- Material science: rubber compounds, polymer properties, material selection
+- Standards compliance: ISO, ASTM, FDA, REACH, RoHS, IATF 16949
+- Industry applications: automotive, AI hardware, robotics, medical, semiconductor
+- Manufacturing: molding, mixing, extrusion, quality control, traceability
+- Troubleshooting: failure analysis, best practices, engineering solutions
+
+## Contact
+- Engineering team available for custom rubber component inquiries
+- Batch RFQ and sample request forms available

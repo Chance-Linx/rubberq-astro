@@ -1,0 +1,218 @@
+---
+import { defaultLocale } from '@/lib/i18n';
+
+interface Props {
+  locale: string;
+  currentPath?: string;
+}
+
+const { locale, currentPath = '/' } = Astro.props;
+const locales = ['en', 'de', 'ja', 'es', 'zh'] as const;
+const current = locale || defaultLocale;
+
+// Load translations for navigation
+let messages: any;
+try {
+  messages = (await import(`../messages/${current}.json`)).default;
+} catch {
+  messages = (await import('../messages/en.json')).default;
+}
+const nav = messages?.navigation || {};
+---
+
+<nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-industrial-100">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between h-20 items-center">
+      <div class="flex-shrink-0 flex items-center">
+        <a href={`/${current}`} class="text-2xl font-bold tracking-tighter text-industrial-900">
+          RUBBER<span class="text-accent-orange">Q</span>
+        </a>
+      </div>
+
+      <!-- Desktop Menu -->
+      <div class="hidden lg:flex items-center">
+        <div class="ml-10 flex items-baseline space-x-6">
+          <a href={`/${current}/products`}
+             class="text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange transition-colors duration-200">
+            {nav.products || 'Products'}
+          </a>
+          <a href={`/${current}/case-studies`}
+             class="text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange transition-colors duration-200">
+            {nav.caseStudies || 'Case Studies'}
+          </a>
+          <a href={`/${current}/materials`}
+             class="text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange transition-colors duration-200">
+            {nav.materials || 'Materials'}
+          </a>
+
+          <!-- Resources Dropdown -->
+          <div class="relative group">
+            <a href={`/${current}/resources`}
+               class="text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange transition-colors duration-200 inline-flex items-center gap-1">
+              {nav.resources || 'Resources'}
+              <svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+            </a>
+            <div class="absolute left-0 top-full pt-3 hidden group-hover:block group-focus-within:block z-40">
+              <div class="bg-white border border-industrial-100 shadow-lg min-w-[200px] py-2">
+                <a href={`/${current}/resources`} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
+                  {nav.resources || 'Resources'}
+                </a>
+                <a href={`/${current}/quality`} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
+                  {nav.quality || 'Quality'}
+                </a>
+                <a href={`/${current}/blog`} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
+                  {nav.blog || 'Blog'}
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- About Dropdown -->
+          <div class="relative group">
+            <a href={`/${current}/about`}
+               class="text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange transition-colors duration-200 inline-flex items-center gap-1">
+              {nav.about || 'About Us'}
+              <svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+            </a>
+            <div class="absolute left-0 top-full pt-3 hidden group-hover:block group-focus-within:block z-40">
+              <div class="bg-white border border-industrial-100 shadow-lg min-w-[200px] py-2">
+                <a href={`/${current}/about`} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
+                  {nav.about || 'About Us'}
+                </a>
+                <a href={`/${current}/factory`} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
+                  {nav.factory || 'Factory'}
+                </a>
+                <a href={`/${current}/capabilities`} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
+                  {nav.capabilities || 'Capabilities'}
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Search -->
+          <a href={`/${current}/search`}
+             aria-label="Search"
+             title="Search"
+             class="w-11 h-11 inline-flex items-center justify-center text-industrial-600 hover:text-accent-orange transition-colors duration-200">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+            </svg>
+          </a>
+
+          <!-- Language Switcher (dropdown) -->
+          <div class="flex items-center">
+            <span class="h-4 w-px bg-industrial-200 mx-2"></span>
+            <div class="relative lang-switcher-desktop" id="lang-switcher">
+              <button id="lang-btn"
+                      class="w-11 h-11 inline-flex items-center justify-center text-industrial-500 hover:text-industrial-700 transition-colors duration-200"
+                      aria-label="Select language" title="Change language">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                </svg>
+              </button>
+              <div id="lang-dropdown" class="absolute right-0 mt-2 w-48 bg-white rounded-sm shadow-xl border border-industrial-100 py-2 z-50 hidden">
+                <div class="px-4 py-2 text-xs font-bold text-industrial-400 uppercase tracking-widest border-b border-industrial-50 mb-2">{nav.language || 'Language'}</div>
+                {locales.map(l => (
+                  <a href={`/${l}`}
+                     class={`flex items-center justify-between w-full px-4 py-2.5 text-sm transition-colors duration-200 ${l === current ? 'bg-industrial-50 text-accent-orange font-medium' : 'text-industrial-700 hover:bg-industrial-50 hover:text-industrial-900'}`}
+                     data-locale={l}>
+                    <span>{l.toUpperCase()}</span>
+                    {l === current && <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-accent-orange"><polyline points="20 6 9 17 4 12"/></svg>}
+                  </a>
+                ))}
+              </div>
+            </div>
+            <span class="h-4 w-px bg-industrial-200 mx-2"></span>
+          </div>
+
+          <!-- GET QUOTE CTA -->
+          <a href={`/${current}/contact`}
+             class="bg-industrial-900 text-white px-6 py-2.5 rounded-sm text-xs font-bold uppercase tracking-widest hover:bg-accent-orange transition-all duration-300 shadow-lg">
+            {nav.getQuote || 'Get Quote'}
+          </a>
+        </div>
+      </div>
+
+      <!-- Mobile Right: Search + Lang + Hamburger -->
+      <div class="lg:hidden flex items-center gap-1">
+        <a href={`/${current}/search`}
+           aria-label="Search"
+           title="Search"
+           class="w-11 h-11 inline-flex items-center justify-center text-industrial-500 hover:text-accent-orange transition-colors duration-200">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+          </svg>
+        </a>
+        <button id="mobile-lang-btn" class="w-11 h-11 inline-flex items-center justify-center text-industrial-500 hover:text-industrial-700" aria-label="Switch language">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
+        </button>
+        <button id="mobile-menu-btn" class="w-11 h-11 inline-flex items-center justify-center text-industrial-900 focus:outline-none" aria-label="Toggle mobile menu">
+          <svg id="menu-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu Panel -->
+  <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-industrial-100">
+    <div class="px-4 pt-2 pb-8 space-y-1">
+      <a href={`/${current}/products`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.products || 'Products'}</a>
+      <a href={`/${current}/case-studies`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.caseStudies || 'Case Studies'}</a>
+      <a href={`/${current}/materials`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.materials || 'Materials'}</a>
+      <div class="pt-4 pb-2 px-3 text-xs font-bold uppercase tracking-widest text-industrial-400 border-b border-industrial-100">{nav.resources || 'Resources'}</div>
+      <a href={`/${current}/resources`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.resources || 'Resources'}</a>
+      <a href={`/${current}/quality`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.quality || 'Quality'}</a>
+      <a href={`/${current}/blog`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.blog || 'Blog'}</a>
+      <div class="pt-4 pb-2 px-3 text-xs font-bold uppercase tracking-widest text-industrial-400 border-b border-industrial-100">{nav.about || 'About Us'}</div>
+      <a href={`/${current}/about`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.about || 'About Us'}</a>
+      <a href={`/${current}/factory`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.factory || 'Factory'}</a>
+      <a href={`/${current}/capabilities`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.capabilities || 'Capabilities'}</a>
+      <div class="pt-4 px-3">
+        <a href={`/${current}/contact`}
+           class="block w-full text-center bg-industrial-900 text-white py-4 rounded-sm font-bold uppercase tracking-widest shadow-xl">
+          {nav.getQuote || 'Get Quote'}
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script define:vars={{ locales: [...locales], current }}>
+  // Mobile menu toggle
+  document.getElementById('mobile-menu-btn')?.addEventListener('click', () => {
+    const menu = document.getElementById('mobile-menu');
+    const icon = document.getElementById('menu-icon');
+    const isOpen = menu?.classList.toggle('hidden');
+    if (icon && !isOpen) {
+      icon.innerHTML = '<line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>';
+    } else if (icon) {
+      icon.innerHTML = '<line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/>';
+    }
+  });
+
+  // Language dropdown toggle (desktop)
+  const langBtn = document.getElementById('lang-btn');
+  const langDropdown = document.getElementById('lang-dropdown');
+  langBtn?.addEventListener('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    langDropdown?.classList.toggle('hidden');
+  });
+  document.addEventListener('click', (e) => {
+    const sw = document.getElementById('lang-switcher');
+    if (sw && !sw.contains(e.target as Node)) {
+      langDropdown?.classList.add('hidden');
+    }
+  });
+
+  // Mobile language button cycles through locales
+  let mobileLocaleIndex = locales.indexOf(current);
+  document.getElementById('mobile-lang-btn')?.addEventListener('click', () => {
+    mobileLocaleIndex = (mobileLocaleIndex + 1) % locales.length;
+    window.location.href = '/' + locales[mobileLocaleIndex];
+  });
+</script>

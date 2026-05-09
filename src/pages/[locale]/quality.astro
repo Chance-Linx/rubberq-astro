@@ -1,0 +1,457 @@
+---
+import LocaleLayout from '@/layouts/LocaleLayout.astro';
+import { getTranslations, t, tRaw } from '@/lib/i18n';
+import QualityPageClient from '@/components/quality/QualityPageClient';
+import SummarySnippet from '@/components/aio/SummarySnippet';
+
+export function getStaticPaths() {
+  return ['en','de','ja','es','zh'].map(locale => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params;
+const messages = await getTranslations(locale);
+const meta = messages?.metadata || {};
+const f = (key: string, fallback = '') => t(messages, `quality.${key}`, fallback);
+const fa = (key: string) => tRaw(messages, `quality.${key}`);
+
+// --- Trust labels (not in translations, inline for all 5 locales) ---
+const trustLabels: Record<string, {
+  sectionTitle: string; sectionSubtitle: string;
+  reportsTitle: string; reportsSubtitle: string; reportsAction: string;
+  traceTitle: string; traceSubtitle: string;
+  videoTitle: string; videoSubtitle: string;
+  watch: string; stepLabel: string;
+}> = {
+  en: {
+    sectionTitle: 'Trust Evidence Center',
+    sectionSubtitle: 'Verification assets for quality teams, sourcing teams, and compliance audits.',
+    reportsTitle: 'Lab Reports & Validation Downloads',
+    reportsSubtitle: 'Standardized test evidence for material qualification and process stability.',
+    reportsAction: 'Open Resource Pack',
+    traceTitle: 'Supplier Traceability Chain',
+    traceSubtitle: 'From approved suppliers to final outgoing inspection with digital batch references.',
+    videoTitle: 'Video Testimonials',
+    videoSubtitle: 'Short customer narratives on delivery consistency and engineering collaboration.',
+    watch: 'Watch',
+    stepLabel: 'Stage',
+  },
+  zh: {
+    sectionTitle: '信任证据中心',
+    sectionSubtitle: '面向质量、采购与合规审查团队的验证资料集合。',
+    reportsTitle: '检测报告与验证资料下载',
+    reportsSubtitle: '用于材料导入与过程稳定性评估的标准化测试证据。',
+    reportsAction: '打开资料包',
+    traceTitle: '供应链追溯链路',
+    traceSubtitle: '从合格供应商到出货终检，形成批次级数字追踪。',
+    videoTitle: '客户视频见证',
+    videoSubtitle: '围绕交付稳定性与工程协同的短视频反馈。',
+    watch: '观看',
+    stepLabel: '阶段',
+  },
+  de: {
+    sectionTitle: 'Vertrauensnachweis-Zentrum',
+    sectionSubtitle: 'Verifizierbare Nachweise für Qualität, Einkauf und Compliance-Audits.',
+    reportsTitle: 'Laborberichte & Validierungs-Downloads',
+    reportsSubtitle: 'Standardisierte Testnachweise für Materialfreigabe und Prozessstabilität.',
+    reportsAction: 'Ressourcenpaket öffnen',
+    traceTitle: 'Lieferketten-Rückverfolgbarkeit',
+    traceSubtitle: 'Von freigegebenen Lieferanten bis zur Endprüfung mit digitalem Chargenbezug.',
+    videoTitle: 'Video-Testimonials',
+    videoSubtitle: 'Kurze Kundenstimmen zu Lieferstabilität und Engineering-Zusammenarbeit.',
+    watch: 'Ansehen',
+    stepLabel: 'Stufe',
+  },
+  ja: {
+    sectionTitle: '信頼エビデンスセンター',
+    sectionSubtitle: '品質・調達・監査チーム向けの検証資料を集約。',
+    reportsTitle: '試験レポートと検証資料ダウンロード',
+    reportsSubtitle: '材料認定と工程安定性評価のための標準化データ。',
+    reportsAction: '資料パックを開く',
+    traceTitle: 'サプライチェーントレーサビリティ',
+    traceSubtitle: '承認サプライヤから最終出荷検査までをロット単位で追跡。',
+    videoTitle: 'お客様動画レビュー',
+    videoSubtitle: '納期安定性と技術協働に関する短編レビュー。',
+    watch: '視聴',
+    stepLabel: '工程',
+  },
+  es: {
+    sectionTitle: 'Centro de Evidencia de Confianza',
+    sectionSubtitle: 'Activos verificables para calidad, compras y auditorías de cumplimiento.',
+    reportsTitle: 'Descargas de Reportes y Validaciones',
+    reportsSubtitle: 'Evidencia estandarizada para calificación de material y estabilidad de proceso.',
+    reportsAction: 'Abrir paquete técnico',
+    traceTitle: 'Cadena de Trazabilidad de Proveedores',
+    traceSubtitle: 'Desde proveedores aprobados hasta inspección final con referencia digital por lote.',
+    videoTitle: 'Testimonios en Video',
+    videoSubtitle: 'Relatos cortos sobre consistencia de entrega y colaboración técnica.',
+    watch: 'Ver',
+    stepLabel: 'Etapa',
+  },
+};
+
+const trust = trustLabels[locale] || trustLabels.en;
+
+// --- Status labels ---
+const statusLabels = {
+  active: f('certifications.valid'),
+  expiring: f('certifications.expiring'),
+  expired: f('certifications.expired'),
+};
+
+// --- Certificates ---
+const certificates = [
+  {
+    id: 'iatf-16949',
+    name: 'IATF 16949:2016',
+    org: f('certificates.iatf.org'),
+    issuer: 'TÜV SÜD',
+    issueDate: '2023-03-15',
+    expiryDate: '2026-03-14',
+    status: 'active' as const,
+    description: f('certificates.iatf.description'),
+    placeholder: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=800',
+    downloadUrl: '/downloads/certificates/IATF-16949-2023.pdf',
+  },
+  {
+    id: 'iso-9001',
+    name: 'ISO 9001:2015',
+    org: f('certificates.iso9001.org'),
+    issuer: 'SGS',
+    issueDate: '2022-06-20',
+    expiryDate: '2025-06-19',
+    status: 'expiring' as const,
+    description: f('certificates.iso9001.description'),
+    placeholder: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=800',
+    downloadUrl: '/downloads/certificates/ISO-9001-2022.pdf',
+  },
+  {
+    id: 'iso-14001',
+    name: 'ISO 14001:2015',
+    org: f('certificates.iso14001.org'),
+    issuer: 'Bureau Veritas',
+    issueDate: '2023-01-10',
+    expiryDate: '2026-01-09',
+    status: 'active' as const,
+    description: f('certificates.iso14001.description'),
+    placeholder: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800',
+    downloadUrl: '/downloads/certificates/ISO-14001-2023.pdf',
+  },
+  {
+    id: 'rohs-reach',
+    name: 'RoHS & REACH',
+    org: f('certificates.rohs.org'),
+    issuer: 'Intertek',
+    issueDate: '2024-01-15',
+    expiryDate: '2025-01-14',
+    status: 'active' as const,
+    description: f('certificates.rohs.description'),
+    placeholder: 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&q=80&w=800',
+    downloadUrl: '/downloads/certificates/RoHS-REACH-2024.pdf',
+  },
+];
+
+// --- Lab equipment and QC scenes from translations ---
+const labEquipment = fa('lab.equipment') || [];
+const qcScenes = fa('process.scenes') || [];
+const traceabilitySteps = fa('traceability.steps') || [];
+const traceabilityFlow = fa('traceability.flow') || [];
+
+// --- Report downloads ---
+const reportDownloads = [
+  {
+    title: locale === 'zh' ? '材料验证报告包' : 'Material Validation Pack',
+    description:
+      locale === 'zh'
+        ? '包含硬度、拉伸、压缩永久变形及热老化测试摘要。'
+        : 'Includes hardness, tensile, compression-set, and thermal aging summary results.',
+    href: '/resources',
+  },
+  {
+    title: locale === 'zh' ? '批次检验模板' : 'Batch Inspection Template',
+    description:
+      locale === 'zh'
+        ? '展示来料检验、过程巡检与终检记录字段结构。'
+        : 'Shows incoming, in-process, and final inspection record fields.',
+    href: '/resources',
+  },
+  {
+    title: locale === 'zh' ? '合规证明摘要' : 'Compliance Proof Summary',
+    description:
+      locale === 'zh'
+        ? 'RoHS/REACH 与质量体系证书关联清单。'
+        : 'Cross-reference list for RoHS/REACH and quality-system certificates.',
+    href: '/standards',
+  },
+];
+
+// --- Supplier traceability ---
+const supplierTraceability = [
+  {
+    stage: '01',
+    title: locale === 'zh' ? '供应商准入' : 'Supplier Qualification',
+    description:
+      locale === 'zh'
+        ? '按材料类别建立合格供应商白名单与年度复审。'
+        : 'Approved supplier whitelist by material family with annual re-validation.',
+  },
+  {
+    stage: '02',
+    title: locale === 'zh' ? '原料批次绑定' : 'Raw Batch Binding',
+    description:
+      locale === 'zh'
+        ? '每批原料入库即绑定批次号与证书信息。'
+        : 'Each incoming lot is linked to batch ID and certificate metadata.',
+  },
+  {
+    stage: '03',
+    title: locale === 'zh' ? '过程追踪' : 'In-Process Tracking',
+    description:
+      locale === 'zh'
+        ? '配料、硫化、检验节点记录完整过程参数。'
+        : 'Compounding, curing, and inspection nodes keep complete process parameters.',
+  },
+  {
+    stage: '04',
+    title: locale === 'zh' ? '出货追溯' : 'Shipment Traceback',
+    description:
+      locale === 'zh'
+        ? '每个发货批次可反查到原料与过程记录。'
+        : 'Every shipped lot can be traced back to raw material and process records.',
+  },
+];
+
+// --- Video testimonials ---
+const videoTestimonials = [
+  {
+    title: locale === 'zh' ? '机器人密封项目客户反馈' : 'Robotics Sealing Program Review',
+    summary:
+      locale === 'zh'
+        ? '聚焦试产周期与量产稳定性，时长 2:18。'
+        : 'Focused on pilot speed and production stability, duration 2:18.',
+    href: '/case-studies',
+  },
+  {
+    title: locale === 'zh' ? '新能源液冷项目交付复盘' : 'EV Cooling Delivery Retrospective',
+    summary:
+      locale === 'zh'
+        ? '围绕批次一致性与问题闭环，时长 1:46。'
+        : 'Discusses lot consistency and issue closure loop, duration 1:46.',
+    href: '/case-studies',
+  },
+];
+---
+
+<LocaleLayout locale={locale}>
+  <Fragment slot="head">
+    <title>{meta.quality?.title || 'Quality Assurance'}</title>
+    <meta name="description" content={meta.quality?.description || ''} />
+  </Fragment>
+
+  <div class="bg-white min-h-screen">
+    <!-- Hero -->
+    <section class="bg-industrial-900 text-white py-24 px-4">
+      <div class="max-w-7xl mx-auto">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6">{f('hero.title')}</h1>
+        <p class="text-xl text-industrial-300 max-w-2xl">
+          {f('hero.subtitle')}
+        </p>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="py-20 px-4 max-w-7xl mx-auto">
+      <div class="flex items-center justify-between mb-12">
+        <div class="flex items-center gap-3">
+          <svg class="w-8 h-8 text-accent-orange" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <div>
+            <h2 class="text-3xl font-bold text-industrial-900">{f('certifications.title')}</h2>
+            <p class="text-industrial-500 mt-1">{f('certifications.subtitle')}</p>
+          </div>
+        </div>
+        <div class="hidden md:flex items-center gap-2 text-sm text-industrial-500">
+          <span class="w-3 h-3 rounded-full bg-green-500"></span>
+          <span>{f('certifications.valid')}</span>
+          <span class="w-3 h-3 rounded-full bg-yellow-500 ml-4"></span>
+          <span>{f('certifications.expiring')}</span>
+        </div>
+      </div>
+
+      <QualityPageClient
+        certificates={certificates}
+        statusLabels={statusLabels}
+        viewDetailsText={f('certifications.viewDetails')}
+        expiresText={f('certifications.expires')}
+        client:load
+      />
+
+      <!-- Cross-link to Resources -->
+      <div class="mt-12 p-6 bg-industrial-50 border-l-4 border-accent-orange">
+        <div class="flex items-start gap-4">
+          <svg class="w-6 h-6 text-accent-orange flex-shrink-0 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
+          <div>
+            <h4 class="font-bold text-industrial-900 mb-1">{f('documentation.title')}</h4>
+            <p class="text-sm text-industrial-600">
+              {f('documentation.description')}
+              <a href={`/${locale}/resources`} class="text-accent-orange font-medium hover:underline ml-1">
+                {f('documentation.link')}
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lab Capability & Visual Proof -->
+    <section class="py-20 px-4 bg-industrial-50">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
+          <div>
+            <div class="flex items-center gap-2 mb-6 text-industrial-600">
+              <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="8" x="3" y="3" rx="2"/><path d="M3 13h4v8H3z"/><path d="M17 3h4v8h-4z"/><path d="M13 13h8v8h-8z"/></svg>
+              <h2 class="text-3xl font-bold">{f('lab.title')}</h2>
+            </div>
+            <p class="text-lg text-industrial-600 mb-8">
+              {f('lab.description')}
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              {Array.isArray(labEquipment) && labEquipment.map((eq: {name: string, function: string, img: string}) => (
+                <div class="flex flex-col gap-3 group">
+                  <div class="aspect-video overflow-hidden border border-industrial-100 shadow-sm">
+                    <img src={eq.img} alt={eq.name} class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
+                  </div>
+                  <div class="flex items-start gap-3">
+                    <svg class="w-5 h-5 text-industrial-900 mt-1 shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    <div>
+                      <span class="font-bold block text-sm">{eq.name}</span>
+                      <span class="text-xs text-industrial-500">{eq.function}</span>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div class="bg-white p-8 shadow-xl border border-industrial-100">
+            <SummarySnippet
+              title={f('traceability.title')}
+              items={Array.isArray(traceabilitySteps) ? traceabilitySteps : []}
+              client:load
+            />
+            <div class="mt-8 pt-8 border-t border-industrial-100">
+              <p class="text-sm text-industrial-500 italic">
+                {f('lab.note')}
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex items-center gap-2 mb-10 text-industrial-600">
+            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+            <h3 class="text-2xl font-bold">{f('process.title')}</h3>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {Array.isArray(qcScenes) && qcScenes.map((scene: {title: string, desc: string, img: string}, idx: number) => (
+              <div class="relative group overflow-hidden bg-white border border-industrial-100">
+                <div class="aspect-[4/3] overflow-hidden">
+                  <img src={scene.img} alt={scene.title} class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                </div>
+                <div class="p-6">
+                  <h4 class="font-bold mb-2">{scene.title}</h4>
+                  <p class="text-sm text-industrial-600">{scene.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Traceability Flow -->
+    <section class="py-20 px-4 max-w-7xl mx-auto">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl font-bold mb-4">{f('traceability.mainTitle')}</h2>
+        <p class="text-industrial-500 max-w-2xl mx-auto">{f('traceability.subtitle')}</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+        {Array.isArray(traceabilityFlow) && traceabilityFlow.map((item: {step: string, title: string, desc: string}) => (
+          <div class="text-center p-6 bg-white border border-industrial-100 relative overflow-hidden group">
+            <span class="text-6xl font-black text-industrial-50 absolute -bottom-4 -right-4 transition-transform group-hover:scale-110">{item.step}</span>
+            <h4 class="text-xl font-bold mb-2 relative z-10">{item.title}</h4>
+            <p class="text-sm text-industrial-600 relative z-10">{item.desc}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Trust Evidence Center -->
+    <section class="py-20 px-4 bg-industrial-50 border-t border-industrial-200">
+      <div class="max-w-7xl mx-auto">
+        <div class="mb-12">
+          <h2 class="text-3xl font-bold text-industrial-900 mb-3">{trust.sectionTitle}</h2>
+          <p class="text-industrial-600 max-w-3xl">{trust.sectionSubtitle}</p>
+        </div>
+
+        <div class="grid grid-cols-1 xl:grid-cols-3 gap-8">
+          <!-- Reports -->
+          <div class="bg-white border border-industrial-200 p-6">
+            <div class="flex items-center gap-3 mb-4">
+              <svg class="w-5 h-5 text-accent-orange" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
+              <h3 class="text-lg font-bold text-industrial-900">{trust.reportsTitle}</h3>
+            </div>
+            <p class="text-sm text-industrial-600 mb-5">{trust.reportsSubtitle}</p>
+            <div class="space-y-3">
+              {reportDownloads.map((item) => (
+                <a href={`/${locale}${item.href}`} class="block border border-industrial-200 p-4 hover:border-accent-orange transition-colors">
+                  <p class="font-bold text-sm text-industrial-900 mb-1">{item.title}</p>
+                  <p class="text-xs text-industrial-600">{item.description}</p>
+                </a>
+              ))}
+            </div>
+            <a href={`/${locale}/resources`} class="inline-block mt-5 text-sm font-bold uppercase tracking-wider text-accent-orange hover:underline">
+              {trust.reportsAction}
+            </a>
+          </div>
+
+          <!-- Traceability -->
+          <div class="bg-white border border-industrial-200 p-6">
+            <div class="flex items-center gap-3 mb-4">
+              <svg class="w-5 h-5 text-accent-orange" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21 21-5.2-5.2"/><circle cx="11" cy="11" r="8"/><path d="M11 3a8 8 0 0 1 0 16"/><path d="m21 3-8 8"/></svg>
+              <h3 class="text-lg font-bold text-industrial-900">{trust.traceTitle}</h3>
+            </div>
+            <p class="text-sm text-industrial-600 mb-5">{trust.traceSubtitle}</p>
+            <div class="space-y-3">
+              {supplierTraceability.map((item) => (
+                <div class="border-l-4 border-industrial-200 pl-4 py-1">
+                  <p class="text-xs font-bold uppercase tracking-widest text-industrial-500 mb-1">
+                    {trust.stepLabel} {item.stage}
+                  </p>
+                  <p class="font-bold text-sm text-industrial-900 mb-1">{item.title}</p>
+                  <p class="text-xs text-industrial-600">{item.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <!-- Videos -->
+          <div class="bg-white border border-industrial-200 p-6">
+            <div class="flex items-center gap-3 mb-4">
+              <svg class="w-5 h-5 text-accent-orange" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+              <h3 class="text-lg font-bold text-industrial-900">{trust.videoTitle}</h3>
+            </div>
+            <p class="text-sm text-industrial-600 mb-5">{trust.videoSubtitle}</p>
+            <div class="space-y-3">
+              {videoTestimonials.map((item) => (
+                <a href={`/${locale}${item.href}`} class="block border border-industrial-200 p-4 hover:border-accent-orange transition-colors group">
+                  <p class="font-bold text-sm text-industrial-900 mb-1 group-hover:text-accent-orange transition-colors">{item.title}</p>
+                  <p class="text-xs text-industrial-600 mb-2">{item.summary}</p>
+                  <span class="text-xs font-bold uppercase tracking-wider text-accent-orange">{trust.watch}</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</LocaleLayout>

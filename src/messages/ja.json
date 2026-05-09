@@ -1,0 +1,1307 @@
+{
+  "metadata": {
+    "title": "RubberQ | 精密ゴム部品メーカー (IATF 16949 認証)",
+    "description": "福州RubberQゴム有限公司は、自動車グレードのゴム部品のグローバルメーカーです。AIハードウェア、ロボティクス、高精度機械向けのFKM、EPDM、NBRを専門としています。",
+    "home": {
+      "title": "RubberQ — 精密ゴム製造",
+      "description": "ロボティクス、AIインフラ、精密機械向けの自動車グレードゴム部品。IATF 16949 認証。"
+    },
+    "blog": {
+      "title": "技術知識ハブ | RubberQ",
+      "description": "ゴム工学、品質基準、用途別ソリューションに関する専門的な分析。"
+    },
+    "capabilities": {
+      "title": "製造プロセス | RubberQ",
+      "description": "自動車グレードの精度のためのRubberQの2段階混合および成形プロセスをご覧ください。"
+    },
+    "caseStudies": {
+      "title": "導入事例 | RubberQ",
+      "description": "ロボティクス、AIインフラ、自動車向けの実際のゴム工学ソリューション。"
+    },
+    "contact": {
+      "title": "お問い合わせ | RubberQ",
+      "description": "カスタムゴム部品ソリューションについて、当社のエンジニアリングチームにご連絡ください。"
+    },
+    "factory": {
+      "title": "工場見学 | RubberQ",
+      "description": "RubberQの20,000m²のIATF 16949認証製造施設のバーチャルツアー。"
+    },
+    "materials": {
+      "title": "工業用材料 | RubberQ",
+      "description": "工業用エラストマー（FKM、EPDM、NBR、シリコーン）の技術リソースハブ。"
+    },
+    "privacy": {
+      "title": "プライバシーポリシー | RubberQ",
+      "description": "RubberQがお客様のビジネスデータを収集、使用、保護する方法。"
+    },
+    "quality": {
+      "title": "品質保証 | RubberQ",
+      "description": "IATF 16949、ISO 9001、ISO 14001認証による妥協のない品質。"
+    },
+    "resources": {
+      "title": "技術資料 | RubberQ",
+      "description": "材料選択ガイド、設計ガイドライン、エンジニアリングリソース。"
+    },
+    "standards": {
+      "title": "業界規格 | RubberQ",
+      "description": "ASTM D2000、SAE J200、RoHS、REACHコンプライアンスへの包括的ガイド。"
+    },
+    "terms": {
+      "title": "Terms of Service | RubberQ",
+      "description": "Terms and conditions for RubberQ website and manufacturing services."
+    },
+    "about": {
+      "title": "私たちの歴史 | RubberQ",
+      "description": "1995年に設立された福州RubberQゴム有限公司は、中日合弁企業として始まり、厳格な日本の製造基準を中国の工業地帯に導入しました。"
+    }
+  },
+  "navigation": {
+    "products": "製品",
+    "caseStudies": "事例紹介",
+    "factory": "工場",
+    "about": "会社概要",
+    "capabilities": "技術能力",
+    "materials": "材料",
+    "quality": "品質",
+    "resources": "技術資料",
+    "blog": "ブログ",
+    "search": "検索",
+    "contact": "お問い合わせ",
+    "getQuote": "見積もり依頼"
+  },
+  "hero": {
+    "badge": "自動車グレードの品質",
+    "title": "すべての分子に精度を。",
+    "titleLine1": "すべての",
+    "titleLine2": "分子に",
+    "titleLine3": "精度を。",
+    "subtitle": "IATF 16949認証ゴム部品で、ロボティクス、AIインフラ、高性能機械の未来を支えます。",
+    "ctaPrimary": "技術資料",
+    "ctaSecondary": "品質と信頼"
+  },
+  "features": {
+    "title": "グローバルリーダーがRubberQを信頼する理由",
+    "summaryTitle": "技術概要",
+    "summaryItems": [
+      {
+        "term": "IATF 16949 認証",
+        "description": "ゼロ欠陥生産を保証する厳格な自動車品質管理システム。"
+      },
+      {
+        "term": "完全なトレーサビリティ",
+        "description": "原材料バッチから完成品までの完全なデジタルログ記録。"
+      },
+      {
+        "term": "精密エンジニアリング",
+        "description": "ハイテク用途向けの標準としての ISO 3302-1 クラス M1 公差。"
+      }
+    ],
+    "reliability": {
+      "title": "信頼性",
+      "desc": "24時間365日稼働するインフラ向けの自動車グレードの耐久性。"
+    },
+    "precision": {
+      "title": "精度",
+      "desc": "ロボットジョイントとセンサー用のミクロン級精度。"
+    },
+    "traceability": {
+      "title": "追溯性",
+      "desc": "ミッションクリティカルな説明責任のための完全なERP統合。"
+    },
+    "innovation": {
+      "title": "革新",
+      "desc": "AI液冷システム向けのカスタム材料研究開発。"
+    }
+  },
+  "products": {
+    "title": "製品一覧",
+    "subtitle": "お客様の特定の要件のために設計された高性能ゴム部品",
+    "viewAll": "すべての製品を見る",
+    "categories": {
+      "seals": "シール＆ガスケット",
+      "automotive": "自動車部品",
+      "industrial": "工業用部品",
+      "medical": "医療グレード"
+    }
+  },
+  "industries": {
+    "title": "専門業界",
+    "robotics": {
+      "title": "ロボティクス＆コボット",
+      "desc": "ロボットジョイントおよびコボット用途向けの、高精度シールと減衰部品"
+    },
+    "ai": {
+      "title": "AIインフラ",
+      "desc": "データセンターおよびAIハードウェア冷却システム向けの熱管理シール"
+    },
+    "machinery": {
+      "title": "精密機械",
+      "desc": "精密機器向けの工業用シールおよびカスタム部品"
+    },
+    "automotive": {
+      "title": "自動車産業",
+      "desc": "エンジンシール、ガスケット、ホース、防振ゴム"
+    },
+    "industrial": {
+      "title": "一般産業",
+      "desc": "ポンプ、バルブ、機械シール、カスタム成形部品"
+    },
+    "medical": {
+      "title": "医療機器",
+      "desc": "FDA準拠シール、ガスケット、精密部品"
+    },
+    "electronics": {
+      "title": "電子機器",
+      "desc": "EMIシールド、キーパッド、保護シール"
+    }
+  },
+  "cta": {
+    "title": "プロジェクトを始めますか？",
+    "subtitle": "エンジニアリングチームから無料見積もりと技術相談を受けましょう",
+    "button": "見積もり依頼"
+  },
+  "footer": {
+    "company": "会社概要",
+    "products": "製品",
+    "resources": "資料",
+    "legal": "法的情報",
+    "copyright": "© 2026 福州RubberQゴム有限公司 無断転載禁止",
+    "certifications": "認証: IATF 16949 | ISO 9001 | ISO 14001",
+    "technicalHub": "技術資料",
+    "materialHub": "材料情報",
+    "manufacturing": "製造プロセス",
+    "qualityAssurance": "品質保証",
+    "industryStandards": "業界規格",
+    "aboutRubberQ": "RubberQについて",
+    "globalSupport": "グローバルサポート",
+    "globalPresence": "グローバル拠点",
+    "address": "中国福建省福州市",
+    "email": "メール: contact@rubberq.com",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約"
+  },
+  "contact": {
+    "title": "技術見積もり依頼",
+    "subtitle": "エンジニアリングチームは通常、技術的なお問い合わせとRFQに12〜24時間以内に回答いたします。",
+    "form": {
+      "name": "お名前",
+      "namePlaceholder": "山田太郎",
+      "email": "メールアドレス",
+      "emailPlaceholder": "taro@company.jp",
+      "company": "会社名",
+      "companyPlaceholder": "株式会社テックイノベーション",
+      "industry": "対象業界",
+      "industryOptions": {
+        "robotics": "ロボティクス＆自動化",
+        "ai": "AIハードウェア/データセンター",
+        "automotive": "自動車（IATF 16949対応）",
+        "machinery": "精密機械",
+        "other": "その他"
+      },
+      "message": "プロジェクト要件",
+      "messagePlaceholder": "用途、材料要件（例：FKM、EPDM）、推定年間数量についてご記入ください。",
+      "fileLink": "設計ファイルリンク（任意）",
+      "fileLinkPlaceholder": "https://drive.google.com/... またはDropboxリンク",
+      "fileLinkHelp": "Google Drive、Dropbox、WeTransferリンクを共有（STEP、STP、PDF、DXF）",
+      "submit": "見積もり送信",
+      "submitting": "送信中...",
+      "success": "送信完了",
+      "successMessage": "RFQを受け付けました。12〜24時間以内に回答いたします。",
+      "error": "送信失敗",
+      "errorMessage": "後でもう一度お試しください。",
+      "required": "必須項目"
+    },
+    "directContact": "直接連絡",
+    "engineeringSales": "技術/営業",
+    "manufacturingSite": "製造拠点",
+    "fastTrack": "2026年高速対応",
+    "fastTrackDesc": "設計ファイル（Google Drive/Dropboxリンク）を共有していただくと、AI支援見積もりエンジンがより迅速な価格提示が可能になります。",
+    "manufacturingAddress": "中国福建省福州市",
+    "enhancement": {
+      "globalDeliveryTitle": "グローバル納品対応",
+      "globalDeliveryDesc": "全地域で同一フロー・単一窓口で対応し、回答品質を統一します。",
+      "unitsPolicy": "技術データは国際標準のメートル系単位で統一しています。",
+      "complianceTitle": "簡易コンプライアンス案内",
+      "complianceHint": "RFQ備考に要件を記載いただければ、対応書類をまとめて提示します。",
+      "complianceItems": ["REACH / RoHS 適合宣言", "FDA 材料適合書（必要時）", "PPAP / FAI 資料対応"]
+    }
+  },
+  "about": {
+    "title": "私たちの歴史",
+    "subtitle": "1995年に設立された福州RubberQゴム有限公司は、中日合弁企業として始まり、厳格な日本の製造基準を中国の工業地帯に導入しました。",
+    "watchVideo": "企業紹介動画を見る",
+    "videoDuration": "[会社概要＆工場見学 - 3:45]",
+    "heritageQuote": "\"自動車品質は私たちのDNAにあります。\"",
+    "heritageText1": "30年以上にわたり、主要な日本の自動車ブランドの長期OEMサプライヤーとして活動してきました。この経験により、精密製造において誤りの余地はないことを学びました。",
+    "heritageText2": "今日、AIとロボティクス分野へ展開するにつれて、この「ゼロ欠陥」文化の伝統を明日の技術へと引き継いでいます。",
+    "stats": {
+      "years": "年の経験",
+      "factory": "m²工場",
+      "certified": "16949認証",
+      "partners": "グローバルパートナー"
+    },
+    "manufacturing": "製造の卓越性",
+    "scenes": {
+      "injection": {
+        "title": "精密射出成形",
+        "desc": "50台以上の自動化マシンを備えた最先端の射出成形ワークショップ。"
+      },
+      "rnd": {
+        "title": "先端R&Dラボ",
+        "desc": "材料革新と厳格なテスト基準が出会う場所。"
+      },
+      "qc": {
+        "title": "品質管理センター",
+        "desc": "自動車グレードの精度を実現する100%自動化視覚検査システム。"
+      },
+      "logistics": {
+        "title": "グローバル物流ハブ",
+        "desc": "効率的な倉庫管理とグローバル出荷能力。"
+      }
+    },
+    "imageNote": "注：これらの画像は実際のワークショップ環境と技術能力を示しています。工場見学と第三者監査を歓迎いたします。",
+    "coreValues": "中核価値",
+    "values": {
+      "precision": {
+        "title": "精度",
+        "desc": "すべての金型とすべてのロットにおいてミクロン級の精度を実現。"
+      },
+      "partnership": {
+        "title": "パートナーシップ",
+        "desc": "お客様のエンジニアリングチームの延長として機能。"
+      },
+      "sustainability": {
+        "title": "持続可能性",
+        "desc": "より緑豊かな未来のためのISO 14001対応製造。"
+      }
+    }
+  },
+  "productsPage": {
+    "metadata": {
+      "title": "製品 | RubberQ - 自動車グレードゴム部品",
+      "description": "カスタムゴムシール、ガスケット、ベローズ、成形部品。ロボティクス、自動車、産業用アプリケーション向けのIATF 16949認証製造。"
+    },
+    "badge": "IATF 16949 認証",
+    "title": "製品ポートフォリオ",
+    "subtitle": "要求の厳しいアプリケーション向けの精密ゴム部品。標準シールから複雑なカスタム金型まで、自動車グレードの品質システムで製造。",
+    "capability": "能力",
+    "manufacturingFootprint": "製造拠点",
+    "categoriesTitle": "部品カテゴリー",
+    "categoriesSubtitle": "ロボティクス、自動車、AIインフラ、精密機械産業を支える4つの中核製品ファミリー。",
+    "certifications": [
+      "IATF 16949:2016 認証",
+      "ISO 9001:2015 品質",
+      "ISO 14001:2015 環境",
+      "RoHS / REACH 準拠"
+    ],
+    "seals": {
+      "name": "シール＆Oリング",
+      "desc": "ISO 3601およびASTM D2000規格への精密公差を持つ静的正および動的正シーリングソリューション。",
+      "materialsTitle": "利用可能な材料",
+      "featuresTitle": "主な特徴",
+      "applicationsTitle": "典型的な用途",
+      "applications": ["油圧システム", "空圧シリンダー", "回転シャフト", "静的フランジ"],
+      "features": ["温度範囲: -60°C to 320°C", "耐薬品性のカスタマイズ", "低圧縮永久歪み"],
+      "specs": "ISO 3601-1 Class B"
+    },
+    "gaskets": {
+      "name": "ガスケット＆ワッシャー",
+      "desc": "流体シーリング、EMIシールド、熱管理アプリケーション向けのダイカットおよび成形ガスケット。",
+      "applications": ["バッテリーパック", "エンクロージャー", "熱交換器", "ポンプハウジング"],
+      "features": ["厚さ: 0.5mm to 25mm", "カスタム粘着バッキング", "FDAグレード利用可能"],
+      "specs": "ISO 3302-1 Class M1"
+    },
+    "bellows": {
+      "name": "ベローズ＆ブーツ",
+      "desc": "延長疲労寿命を持つ直線運動および回転運動システム用の柔軟な保護カバー。",
+      "applications": ["ロボットジョイント", "リニアアクチュエーター", "CVジョイント", "工作機械摺動面"],
+      "features": ["マルチコンボリューション設計", "折りたたみ/格納可能", "薬液飛散保護"],
+      "specs": "100万回以上のサイクル定格"
+    },
+    "custom": {
+      "name": "カスタム成形部品",
+      "desc": "試作から高量産までのアプリケーション固有のゴム部品。",
+      "applications": ["防振装置", "バンパー", "バルブ部品", "コネクタシール"],
+      "features": ["厳密公差成形", "インサート成形能力", "カラーマッチング"],
+      "specs": "SPI-SPE 規格"
+    },
+    "requestQuote": "見積もり依頼",
+    "viewDetails": "詳細を見る",
+    "customEngineering": "カスタムエンジニアリング",
+    "customEngineeringDesc": "標準製品ラインを超えて、エンジニアリングチームはアプリケーション固有のゴムソリューションの開発に特化しています。材料配合から金型設計まで、完全な開発サイクルを担当します。",
+    "engineeringServices": [
+      "材料配合開発",
+      "FEAシミュレーションと検証",
+      "急速試作（3-5日）",
+      "金型設計と製造",
+      "PPAP文書サポート"
+    ],
+    "seals": {
+      "name": "シール＆Oリング",
+      "desc": "ISO 3601およびASTM D2000規格への精密公差を持つ静的正および動的正シーリングソリューション。",
+      "materialsTitle": "利用可能な材料",
+      "featuresTitle": "主な特徴",
+      "applicationsTitle": "典型的な用途",
+      "applications": ["Hydraulic systems", "Pneumatic cylinders", "Rotary shafts", "Static flanges"],
+      "features": ["Temperature range: -60°C to 320°C", "Chemical resistance customization", "Low compression set"],
+      "specs": "ISO 3601-1 Class B"
+    },
+    "gaskets": {
+      "name": "ガスケット＆ワッシャー",
+      "desc": "流体シーリング、EMIシールド、熱管理アプリケーション向けのダイカットおよび成形ガスケット。",
+      "applications": ["Battery packs", "Enclosures", "Heat exchangers", "Pump housings"],
+      "features": ["Thickness: 0.5mm to 25mm", "Custom adhesive backing", "FDA grades available"],
+      "specs": "ISO 3302-1 Class M1"
+    },
+    "bellows": {
+      "name": "ベローズ＆ブーツ",
+      "desc": "延長疲労寿命を持つ直線運動および回転運動システム用の柔軟な保護カバー。",
+      "applications": ["Robot joints", "Linear actuators", "CV joints", "Machine ways"],
+      "features": ["Multi-convolution designs", "Collapsible/retractable", "Chemical splash protection"],
+      "specs": "1M+ cycle rating"
+    },
+    "custom": {
+      "name": "カスタム成形部品",
+      "desc": "試作から高量産までのアプリケーション固有のゴム部品。",
+      "applications": ["Vibration isolators", "Bumpers", "Valve components", "Connector seals"],
+      "features": ["Tight tolerance molding", "Insert molding capability", "Color matching"],
+      "specs": "SPI-SPE Standards"
+    },
+    "requestQuote": "見積もり依頼",
+    "customEngineering": "カスタムエンジニアリング",
+    "customEngineeringDesc": "標準製品ラインを超えて、エンジニアリングチームはアプリケーション固有のゴムソリューションの開発に特化しています。材料配合から金型設計まで、完全な開発サイクルを担当します。",
+    "engineeringServices": [
+      "材料配合開発",
+      "FEAシミュレーションと検証",
+      "急速試作（3-5日）",
+      "金型設計と製造",
+      "PPAP文書サポート"
+    ],
+    "startProject": "カスタムプロジェクト開始",
+    "stats": {
+      "toolings": "アクティブ金型",
+      "turnaround": "見積もり対応時間",
+      "tolerance": "公差能力",
+      "standard": "クラスM1標準"
+    },
+    "resourcesTitle": "技術資料",
+    "resourcesSubtitle": "仕様書と材料データシートをダウンロード",
+    "downloads": [
+      {
+        "name": "材料選択ガイド",
+        "size": "PDF, 2.4 MB"
+      },
+      {
+        "name": "公差基準 (ISO 3302)",
+        "size": "PDF, 1.1 MB"
+      },
+      {
+        "name": "ASTM D2000 仕様",
+        "size": "PDF, 3.2 MB"
+      }
+    ]
+  },
+  "resources": {
+    "metadata": {
+      "title": "技術資料 | RubberQ",
+      "description": "ゴム部品設計のための材料ガイド、設計推奨事項、業界規格、FAQ、およびダウンロード可能な技術文書。"
+    },
+    "hero": {
+      "badge": "技術資料",
+      "title": "エンジニアリング知識ハブ",
+      "subtitle": "ゴム部品の設計と仕様を確実に行うための包括的なガイド、規格、技術文書。"
+    },
+    "materials": {
+      "title": "材料選択ガイド",
+      "subtitle": "アプリケーション要件に最適な材料を選択するためにエラストマー特性を比較します。",
+      "viewDatabase": "材料データベース全体を見る →",
+      "applicationsLabel": "用途",
+      "fkm": {
+        "description": "優れた耐薬品性と高温安定性を持つフルオロエラストマー。",
+        "tempRange": "-20°C to +200°C",
+        "applications": [
+          "航空宇宙",
+          "化学処理",
+          "高性能自動車"
+        ],
+        "features": [
+          "優れた耐薬品性",
+          "高温耐性",
+          "優れた耐油・耐燃料性"
+        ]
+      },
+      "nbr": {
+        "description": "コスト競争力のある優れた耐油性と機械的特性を提供するニトリルゴム。",
+        "tempRange": "-40°C to +120°C",
+        "applications": [
+          "油圧システム",
+          "自動車",
+          "一般産業"
+        ],
+        "features": [
+          "コスト効率の高いソリューション",
+          "優れた耐油性",
+          "幅広い硬度範囲が利用可能"
+        ]
+      },
+      "epdm": {
+        "description": "優れた耐候性と耐オゾン性を持つエチレンプロピレンゴム。",
+        "tempRange": "-50°C to +150°C",
+        "applications": [
+          "屋外用途",
+          "水システム",
+          "蒸気用途"
+        ],
+        "features": [
+          "優れた耐候性",
+          "優れた耐水・耐蒸気性",
+          "優れた電気絶縁性"
+        ]
+      },
+      "silicone": {
+        "description": "極端な温度範囲と生体適合性を持つ多用途エラストマー。",
+        "tempRange": "-60°C to +230°C",
+        "applications": [
+          "医療機器",
+          "食品加工",
+          "極端な温度"
+        ],
+        "features": [
+          "FDA準拠グレードが利用可能",
+          "極端な温度範囲",
+          "優れた圧縮永久歪み"
+        ]
+      }
+    },
+    "designGuides": {
+      "title": "設計推奨事項",
+      "subtitle": "製造可能性と最適な性能を確保するためのゴム部品設計のベストプラクティス。",
+      "keyTips": "重要なヒント",
+      "wallThickness": {
+        "title": "肉厚ガイドライン",
+        "content": "均一な肉厚は、一貫した加硫と欠陥の防止に不可欠です。断面の急激な変化を避けてください。",
+        "tips": [
+          "最小肉厚：ほとんどの材料で0.5mm",
+          "シンクマークを防ぐために均一な厚さを維持",
+          "厚い部分と薄い部分の間は段階的に移行"
+        ]
+      },
+      "draftAngles": {
+        "title": "抜き勾配要件",
+        "content": "適切な抜き勾配は、金型からの部品取出しを確実にし、離型時の損傷を防ぎます。",
+        "tips": [
+          "外壁の最小抜き勾配：0.5°",
+          "テクスチャ面には1-2°を推奨",
+          "内部形状には1-3°の抜き勾配が必要な場合がある"
+        ]
+      },
+      "shrinkage": {
+        "title": "収縮補償",
+        "content": "すべてのゴム材料は硬化時に収縮します。正確な最終寸法のために適切な収縮許容度を持つ金型を設計します。",
+        "tips": [
+          "NBR/FKM：1.5-2.5%の線形収縮",
+          "EPDM：1.0-2.0%の線形収縮",
+          "シリコーン：2.0-3.0%の線形収縮"
+        ]
+      }
+    },
+    "standards": {
+      "title": "業界規格",
+      "subtitle": "ゴム部品の設計、公差、品質を規定する主要な国際規格。",
+      "iso3601": {
+        "title": "油圧・空圧 - Oリング",
+        "description": "油圧用途で使用されるOリングの内径、断面、公差、サイズ識別コードを定義します。"
+      },
+      "iso3302": {
+        "title": "ゴム - 製品の公差",
+        "description": "成形、押出、カレンダリングされたゴム製品の寸法公差クラスを指定します。"
+      },
+      "astm": {
+        "title": "ゴムの標準分類",
+        "description": "材料要件に基づく自動車用途におけるゴム材料の分類システム。"
+      },
+      "iatf": {
+        "title": "品質管理標準",
+        "description": "一貫した製品品質と継続的な改善を保証する国際自動車品質管理システム標準。"
+      }
+    },
+    "faq": {
+      "title": "よくある質問",
+      "subtitle": "ゴム部品の設計、製造、品質保証に関する一般的な質問。",
+      "q1": {
+        "question": "カスタムゴム部品の標準的な納期はどのくらいですか？",
+        "answer": "標準納期は既存金型で2〜4週間、新規金型開発で4〜6週間です。試作部品は急速金型製作方式を使用して1〜2週間以内に納入できることが多いです。"
+      },
+      "q2": {
+        "question": "アプリケーションに適したゴム材料をどのように選びますか？",
+        "answer": "材料選択は、温度範囲、化学物質曝露、機械的要件、規制要件（FDA、UL等）に依存します。詳細な比較データは材料選択ガイドにあります。また、エンジニアリングチームへのご相談も承っております。"
+      },
+      "q3": {
+        "question": "どのような公差レベルを達成できますか？",
+        "answer": "ISO 3302クラスM1公差（小部品で±0.05mm）を日常的に達成しています。より厳しい公差は特殊な金型と工程管理で可能です。"
+      },
+      "q4": {
+        "question": "PPAP文書を提供していますか？",
+        "answer": "はい、すべてのサポートデータを含むレベル3提出を含む完全なPPAP文書を提供しています。品質管理システムはIATF 16949認証を取得しており、自動車グレードの文書基準を保証しています。"
+      },
+      "q5": {
+        "question": "お客様提供の材料で作業できますか？",
+        "answer": "はい、お客様提供の材料を処理したり、必要に応じて特定のグレードを調達したりできます。すべての材料は生産での使用前に入荷検査と検証を受けます。"
+      }
+    },
+    "downloads": {
+      "title": "技術ダウンロード",
+      "subtitle": "包括的な技術文書、ガイド、参考資料をダウンロードします。",
+      "materialGuide": {
+        "title": "材料選択ガイド",
+        "description": "特性、アプリケーション、選択基準を含むゴム材料の完全な比較。"
+      },
+      "designManual": {
+        "title": "ゴム部品設計マニュアル",
+        "description": "製造可能で最適な性能を持つゴム部品を設計するためのエンジニアリングガイドライン。"
+      },
+      "toleranceChart": {
+        "title": "ISO公差表",
+        "description": "ISO 3302公差クラスと寸法制限のクイックリファレンス。"
+      },
+      "qaChecklist": {
+        "title": "品質保証チェックリスト",
+        "description": "すべての要件が捕捉され検証されていることを確認するための生産前チェックリスト。"
+      }
+    },
+    "cta": {
+      "title": "カスタム仕様が必要ですか？",
+      "description": "エンジニアリングチームは、アプリケーション固有の推奨事項を提供し、お客様の独自の要件に対応するカスタム配合を開発できます。",
+      "button": "エンジニアリングチームに問い合わせ"
+    }
+  },
+  "quality": {
+    "title": "品質保証",
+    "hero": {
+      "title": "妥協なき品質",
+      "subtitle": "原材料の配合から最終検査に至るまで、RubberQのIATF 16949認証品質システムは、AI、ロボティクス、自動車産業向けにゼロ欠陥の性能を保証します。"
+    },
+    "certifications": {
+      "title": "国際認証",
+      "subtitle": "証明書をクリックして詳細を表示・ダウンロードできます",
+      "valid": "有効",
+      "expiring": "期限間近",
+      "expired": "期限切れ",
+      "status": {
+        "active": "有効",
+        "expiring": "期限間近",
+        "expired": "期限切れ"
+      },
+      "viewDetails": "詳細を見る",
+      "download": "PDFをダウンロード",
+      "issuingAuthority": "発行機関",
+      "issued": "発行日",
+      "expires": "有効期限",
+      "scope": "認証範囲",
+      "verification": "この証明書は、証明書番号を使用して発行機関の公式レジストリで確認できます。"
+    },
+    "certificates": {
+      "iatf": {
+        "name": "IATF 16949:2016",
+        "org": "自動車産業品質マネジメントシステム",
+        "issuer": "テュフズード (TÜV SÜD)",
+        "description": "サプライチェーン全体での一貫した製品品質と継続的な改善を保証する、国際的な自動車産業品質マネジメントシステム規格。"
+      },
+      "iso9001": {
+        "name": "ISO 9001:2015",
+        "org": "品質マネジメントシステム",
+        "issuer": "SGS",
+        "description": "顧客および規制要件を満たす製品を一貫して提供する能力を実証する、品質マネジメントシステムの国際規格。"
+      },
+      "iso14001": {
+        "name": "ISO 14001:2015",
+        "org": "環境マネジメントシステム",
+        "issuer": "ビューローベリタス (Bureau Veritas)",
+        "description": "持続可能な製造慣行、廃棄物削減、環境責任へのコミットメントを実証する環境マネジメントシステム認証。"
+      },
+      "rohs": {
+        "name": "RoHS & REACH",
+        "org": "環境コンプライアンス",
+        "issuer": "インターテック (Intertek)",
+        "description": "ゴム製造プロセスにおける有害物質の制限（RoHS）および化学物質の安全な使用（REACH）に関するEU規制への準拠。"
+      }
+    },
+    "lab": {
+      "title": "社内研究所",
+      "description": "当社の最先端試験施設は、ASTM、ISO、SAE規格に準拠した包括的な材料分析と製品検証を行う設備を備えています。",
+      "note": "すべての機器は、CNAS認定の第三者機関によって毎年校正されています。",
+      "equipment": [
+        {
+          "name": "レオメーター",
+          "function": "材料加硫特性分析",
+          "img": "https://images.unsplash.com/photo-1579154236594-c199f346e992?auto=format&fit=crop&q=80&w=400"
+        },
+        {
+          "name": "引張試験機",
+          "function": "強度および伸びの検証",
+          "img": "https://images.unsplash.com/photo-1581093450021-4a7360e9a6ad?auto=format&fit=crop&q=80&w=400"
+        },
+        {
+          "name": "老化試験オーブン",
+          "function": "長期耐久性シミュレーション",
+          "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=400"
+        },
+        {
+          "name": "画像測定システム",
+          "function": "高精度寸法検査",
+          "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=400"
+        }
+      ]
+    },
+    "process": {
+      "title": "卓越性の可視化",
+      "steps": {
+        "incoming": "受入材料検査",
+        "incomingDesc": "各バッチに対するSGS認証原材料の検証。",
+        "monitoring": "工程内監視",
+        "monitoringDesc": "リアルタイムSPC（統計的工程管理）データ追跡。",
+        "inspection": "最終全数検査",
+        "inspectionDesc": "手動およびAI支援チェックによるゼロ欠陥保証。"
+      },
+      "scenes": [
+        {
+          "title": "受入材料検査",
+          "desc": "各バッチに対するSGS認証原材料の検証。",
+          "img": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=600"
+        },
+        {
+          "title": "工程内監視",
+          "desc": "リアルタイムSPC（統計的工程管理）データ追跡。",
+          "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600"
+        },
+        {
+          "title": "最終全数検査",
+          "desc": "手動およびAI支援チェックによるゼロ欠陥保証。",
+          "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=600"
+        }
+      ]
+    },
+    "traceability": {
+      "title": "完全な工程管理",
+      "mainTitle": "完全なトレーサビリティチェーン",
+      "subtitle": "当社の自動車グレードの伝統は、すべての部品が厳格な証拠に基づく製造サイクルに従うことを意味します。",
+      "steps": [
+        {
+          "title": "APQP",
+          "desc": "先行製品品質計画"
+        },
+        {
+          "title": "配合",
+          "desc": "精密自動計量"
+        },
+        {
+          "title": "成形",
+          "desc": "リアルタイムセンサー監視"
+        },
+        {
+          "title": "FQC",
+          "desc": "100% 目視または自動検査"
+        }
+      ],
+      "flow": [
+        {
+          "step": "01",
+          "title": "原材料",
+          "desc": "受入検査とバッチ認証"
+        },
+        {
+          "step": "02",
+          "title": "配合",
+          "desc": "自動計量と完全デジタル記録"
+        },
+        {
+          "step": "03",
+          "title": "成形",
+          "desc": "リアルタイム工程監視とSPC管理"
+        },
+        {
+          "step": "04",
+          "title": "検査",
+          "desc": "100%最終検査とトレーサビリティ記録"
+        }
+      ]
+    },
+    "documentation": {
+      "title": "品質文書が必要ですか？",
+      "description": "品質マニュアル完全版、検査報告書、材料証明書を技術資料ページからダウンロードできます。",
+      "link": "技術資料を見る →"
+    }
+  },
+  "language": {
+    "title": "言語",
+    "select": "言語を選択"
+  },
+  "cookieConsent": {
+    "title": "お客様のプライバシーを尊重します",
+    "descriptionPrefix": "当社は、閲覧体験の向上、パーソナライズされた技術コンテンツの提供、およびGDPRとCCPAに準拠したトラフィック分析のためにCookieを使用しています。「同意する」をクリックすると、Cookieの使用に同意したことになります。詳細は",
+    "privacyLink": "プライバシーポリシー",
+    "descriptionSuffix": "をご覧ください。",
+    "decline": "拒否",
+    "acceptAll": "すべて同意"
+  },
+  "summaryItems": {
+    "globalPresence": {
+      "title": "グローバル拠点",
+      "description": "5大陸30カ国以上のお客様にサービスを提供。"
+    },
+    "yearsExperience": {
+      "title": "長年の経験",
+      "description": "精密ゴム製造における25年以上の専門知識。"
+    },
+    "certified": {
+      "title": "IATF 16949 認証",
+      "description": "自動車グレードの品質管理システム。"
+    },
+    "sqmFactory": {
+      "title": "工場面積",
+      "description": "最先端の製造施設。"
+    }
+  },
+  "blogPage": {
+    "hero": {
+      "badge": "技術知識ハブ",
+      "title": "材料科学と産業インサイト",
+      "subtitle": "現代産業向けのゴム工学、品質基準、用途別ソリューションに関する専門的な分析。"
+    },
+    "emptyState": "技術論文はまだ公開されていません。",
+    "cardLabel": "技術",
+    "readPaper": "技術論文を読む"
+  },
+  "blogPost": {
+    "backToHub": "ハブに戻る",
+    "categoryTechnical": "技術",
+    "ctaTitle": "技術相談が必要ですか？",
+    "ctaDescription": "当社のエンジニアリングチームが、これらの材料インサイトをお客様の特定のプロジェクトに適用するお手伝いをします。",
+    "ctaButton": "見積もり依頼"
+  },
+  "capabilities": {
+    "hero": {
+      "title": "RubberQの標準",
+      "subtitle": "当社の2段階混合プロセスは、品質の約束の根幹です。マスターバッチと最終配合を分離することで、重要な用途向けの優れた材料の一貫性を実現しています。"
+    },
+    "processes": {
+      "phase1": {
+        "stage": "フェーズ 1: 材料調達とQC",
+        "rawMaterial": {
+          "title": "原材料受入",
+          "desc": "IATF 16949 8.4.2基準に従ったポリマーと化学物質の受入検査。"
+        },
+        "warehousing": {
+          "title": "管理倉庫",
+          "desc": "環境監視とFEFO（先入れ先出し）保管管理。"
+        }
+      },
+      "phase2": {
+        "stage": "フェーズ 2: マスターバッチ（第1段階混合）",
+        "formulation": {
+          "title": "A-配合",
+          "desc": "自動計量システムを使用したマスターバッチ成分の精密計量。"
+        },
+        "internalMixer": {
+          "title": "インターナルミキサー（A-混合）",
+          "desc": "フィラーの均一な分散を保証するためのバンバリー装置での高せん断混合。"
+        },
+        "calendering": {
+          "title": "カレンダー加工と冷却",
+          "desc": "シート押出しとそれに続くコンパウンド安定化のための急速冷却。"
+        },
+        "testing": {
+          "title": "マスターバッチ試験",
+          "desc": "第2段階へ移行する前のムーニー粘度と比重の検証。"
+        }
+      },
+      "phase3": {
+        "stage": "フェーズ 3: 最終混合（第2段階混合）",
+        "bMixing": {
+          "title": "B-混合（最終コンパウンド）",
+          "desc": "厳格な温度管理下での加硫剤と促進剤の添加。"
+        },
+        "maturation": {
+          "title": "熟成/エージング",
+          "desc": "材料の緩和と化学的安定化のための管理された保管。"
+        },
+        "compoundTesting": {
+          "title": "最終コンパウンド試験",
+          "desc": "加硫曲線と性能を検証するためのMDR（ムービングダイレオメーター）試験。"
+        }
+      },
+      "phase4": {
+        "stage": "フェーズ 4: 成形と仕上げ",
+        "molding": {
+          "title": "精密成形",
+          "desc": "高公差部品のための真空圧縮および射出成形の活用。"
+        },
+        "deflashing": {
+          "title": "バリ取りとトリミング",
+          "desc": "極低温バリ取りまたは高精度手動トリミングによる余剰材料の除去。"
+        }
+      },
+      "phase5": {
+        "stage": "フェーズ 5: 品質保証と物流",
+        "inspection": {
+          "title": "最終全数検査",
+          "desc": "寸法、外観、物理的特性をお客様の仕様と照合して検証。"
+        },
+        "fulfillment": {
+          "title": "グローバルフルフィルメント",
+          "desc": "バーコード追跡された梱包と港に近い物流による国際配送。"
+        }
+      }
+    },
+    "footer": {
+      "title": "高度な工程管理",
+      "description": "RubberQで生産されるすべてのバッチは統合ERPシステムで管理され、原材料のロット番号から出荷される最終部品まで100%のトレーサビリティを保証します。SPC（統計的工程管理）を利用して、重要なパラメータをリアルタイムで監視しています。",
+      "tagTraceability": "トレーサビリティ: 100%",
+      "tagMixing": "混合段階: 2パス",
+      "tagCompliance": "コンプライアンス: IATF 16949",
+      "zero": "ゼロ",
+      "toleranceForDefects": "欠陥許容度"
+    }
+  },
+  "caseStudies": {
+    "hero": {
+      "badge": "実証された卓越性",
+      "titleLine1": "導入",
+      "titleLine2": "事例",
+      "subtitle": "自動車グレードのゴム工学の実際のアプリケーション。ロボティクス、AIインフラ、次世代モビリティにおける重要なシーリング課題を私たちがどのように解決するかをご覧ください。"
+    },
+    "stats": {
+      "projectsDelivered": "納品プロジェクト",
+      "qualityRate": "品質率",
+      "countriesServed": "提供国数",
+      "yearsExperience": "年の経験"
+    },
+    "labels": {
+      "client": "クライアント",
+      "challenge": "課題",
+      "solution": "ソリューション",
+      "results": "結果"
+    },
+    "studies": {
+      "robotics": {
+        "industry": "協働ロボティクス",
+        "client": "欧州コボットメーカー",
+        "location": "ドイツ",
+        "challenge": "24時間365日の生産環境でのジョイントシールの破損によるダウンタイム",
+        "solution": "強化された疲労耐性を持つカスタムFKMジョイントベローズ",
+        "results": [
+          "MTBFが8,000時間から25,000時間に増加",
+          "18ヶ月間の現場故障ゼロ",
+          "メンテナンスコストの15%削減"
+        ]
+      },
+      "aiDataCenters": {
+        "industry": "AIデータセンター",
+        "client": "大手クラウドインフラプロバイダー",
+        "location": "アメリカ合衆国",
+        "challenge": "高密度GPUクラスターにおける液冷システムの漏れ",
+        "solution": "サブミクロン公差の精密EPDM冷却シール",
+        "results": [
+          "99.97%の漏れのない性能",
+          "誘電性冷却材との適合性",
+          "温度範囲: -40°C to 150°C"
+        ]
+      },
+      "automotiveEV": {
+        "industry": "自動車 EV",
+        "client": "ティア1 EV部品サプライヤー",
+        "location": "日本",
+        "challenge": "熱管理システム用バッテリーパックのシーリング",
+        "solution": "難燃性を持つマルチマテリアルガスケットシステム",
+        "results": [
+          "UL94 V-0 難燃性評価に合格",
+          "IP67 および IP69K 認証",
+          "生産能力: 50万個/年"
+        ]
+      }
+    },
+    "cta": {
+      "titleLine1": "シーリングの課題に",
+      "titleLine2": "直面していますか？",
+      "subtitle": "当社のエンジニアリングチームは、ロボティクス、自動車、産業用途における複雑なシーリング問題を解決してきました。あなたの課題についてお話ししましょう。",
+      "discussProject": "プロジェクトについて相談する",
+      "exploreMaterials": "材料を探す"
+    }
+  },
+  "factory": {
+    "hero": {
+      "location": "中国福州",
+      "title": "製造の",
+      "titleHighlight": "卓越性",
+      "subtitle": "IATF 16949:2016認証品質システムを備えた2つの生産施設、総面積20,000m²。1995年以来、世界のOEMにサービスを提供しています。",
+      "scheduleVisit": "訪問を予約",
+      "exploreCapabilities": "能力を探る"
+    },
+    "stats": {
+      "totalFacilityArea": "総施設面積",
+      "yearEstablished": "設立年",
+      "teamMembers": "チームメンバー",
+      "greenCoverage": "緑化率"
+    },
+    "location": {
+      "title": "戦略的",
+      "titleHighlight": "ロケーション",
+      "description": "福建省福州市にある当社の製造拠点は、優れた物流上の利点を提供します。中国のトップ20コンテナ港の一つである福州港へのアクセス、高速鉄道の接続、厦門および上海空港への近接性により、世界市場への効率的な配送を保証します。",
+      "airport": "30分",
+      "airportDesc": "福州長楽国際空港まで",
+      "port": "45分",
+      "portDesc": "福州港コンテナターミナルまで",
+      "rail": "4.5時間",
+      "railDesc": "上海への高速鉄道",
+      "facilityAddress": "施設住所",
+      "address": "中国福建省福州市馬尾区RubberQ工業団地"
+    },
+    "production": {
+      "title": "生産",
+      "titleHighlight": "能力",
+      "subtitle": "原材料から完成部品までのエンドツーエンドの製造、各段階での完全なERPトレーサビリティ。",
+      "lines": {
+        "mixing": {
+          "title": "混合＆配合",
+          "description": "正確なバッチ一貫性のための自動計量システムとインターナルミキサー。",
+          "capabilities": [
+            "密閉型インターナルミキサー (110L & 75L)",
+            "自動計量システム (±0.1g 精度)",
+            "最終精製用オープンロール",
+            "バーコードシステムによるバッチトレーサビリティ"
+          ]
+        },
+        "preforming": {
+          "title": "予備成形＆準備",
+          "description": "材料効率を保証するコンピュータ制御の予備成形装置。",
+          "capabilities": [
+            "CNCゴム予備成形機",
+            "精密切断装置",
+            "プロファイル用押出ライン",
+            "シート材料用カレンダー加工"
+          ]
+        },
+        "compression": {
+          "title": "圧縮＆トランスファー成形",
+          "description": "過熱保護と自動制御を備えた多トン数プレス。",
+          "capabilities": [
+            "プレス範囲: 100T to 500T",
+            "真空圧縮成形",
+            "複雑な形状のためのトランスファー成形",
+            "過熱アラーム保護システム"
+          ]
+        },
+        "injection": {
+          "title": "射出成形",
+          "description": "大量生産向けの高精度ゴム射出成形。",
+          "capabilities": [
+            "横型ゴム射出成形機",
+            "垂直インサート成形能力",
+            "液状シリコーンゴム (LSR) 加工",
+            "自動部品取り出しシステム"
+          ]
+        }
+      }
+    },
+    "lab": {
+      "badge": "IATF 16949:2016",
+      "title": "品質",
+      "titleHighlight": "研究所",
+      "description": "当社の社内研究所は、原材料の検証から完成品の認証まで、包括的なゴム試験を行う設備を備えています。すべてのバッチは追跡可能で、すべての試験は文書化されています。",
+      "equipment": [
+        "ムーニー粘度計 (粘度試験)",
+        "レオメーター (加硫特性)",
+        "引張試験機 (ASTM D412)",
+        "ショアA硬度計 (硬度)",
+        "老化試験オーブン (耐熱性)",
+        "圧縮永久歪み試験機 (ASTM D395)",
+        "画像測定投影機 (寸法)",
+        "オゾン試験槽 (耐候性)"
+      ]
+    },
+    "qualityProcess": {
+      "title": "品質",
+      "titleHighlight": "プロセス",
+      "subtitle": "出荷前にすべての部品が自動車グレードの基準を満たすことを保証する4段階の品質保証。",
+      "steps": {
+        "incoming": {
+          "title": "受入材料検査",
+          "description": "生産へのリリース前に、すべての原材料バッチの粘度、灰分、およびムーニー値を試験。"
+        },
+        "inProcess": {
+          "title": "工程内管理",
+          "description": "すべてのセットアップに対する初回製品検査（FAI）。重要寸法のSPC監視。"
+        },
+        "final": {
+          "title": "最終検査",
+          "description": "100%目視検査。寸法および機能試験のためのAQLサンプリング。"
+        },
+        "shipment": {
+          "title": "出荷検証",
+          "description": "出荷前検査報告書。完全なロットトレーサビリティ文書。"
+        }
+      }
+    },
+    "certifications": {
+      "title": "認証と",
+      "titleHighlight": "認定",
+      "iatf": "自動車品質マネジメント",
+      "iso9001": "品質マネジメントシステム",
+      "iso14001": "環境マネジメント"
+    },
+    "cta": {
+      "title": "訪問する",
+      "titleHighlight": "準備はできましたか？",
+      "description": "工場監査やお客様の訪問を歓迎いたします。当社の能力を直接確認し、エンジニアリングチームに会うために、見学をご予約ください。",
+      "scheduleTour": "工場見学を予約",
+      "viewQuality": "品質基準を見る"
+    }
+  },
+  "materialsPage": {
+    "hero": {
+      "badge": "技術リソース",
+      "title": "工業用材料ハブ",
+      "subtitle": "2026年グレードのアプリケーションに最適なエラストマーをお選びください。当社の材料はASTM D2000およびISO 3302-1規格に対して検証されています。"
+    },
+    "crossLink": {
+      "prompt": "どの材料を選ぶべきか迷っていますか？当社の",
+      "guide": "材料選択ガイド",
+      "suffix": "をご覧ください"
+    },
+    "materials": {
+      "fkm": {
+        "name": "FKM (フルオロエラストマー)",
+        "desc": "AI液冷システムや自動車エンジン向けの極度の耐熱性と耐薬品性。"
+      },
+      "epdm": {
+        "name": "EPDM (エチレンプロピレン)",
+        "desc": "ロボティクスや屋外機械向けの優れた耐候性と屈曲寿命。"
+      },
+      "nbr": {
+        "name": "NBR (ニトリルゴム)",
+        "desc": "一般産業用および機械シール向けの耐油性標準。"
+      },
+      "silicone": {
+        "name": "シリコーン (VMQ)",
+        "desc": "優れた熱安定性を持つ医療および食品グレードの安全性。"
+      }
+    },
+    "technicalSpecifications": "技術仕様",
+    "matrix": {
+      "title": "材料性能マトリックス",
+      "property": "特性",
+      "tempRange": "温度範囲 (°C)",
+      "oilResistance": "耐油性",
+      "chemicalResistance": "耐薬品性",
+      "durabilityIndex": "耐久性指数",
+      "superior": "卓越",
+      "excellent": "優秀",
+      "good": "良",
+      "fair": "可",
+      "poor": "不可",
+      "high": "高",
+      "medium": "中"
+    }
+  },
+  "privacyPage": {
+    "title": "プライバシーポリシー",
+    "lastUpdated": "最終更新日: 2026年1月26日",
+    "cards": {
+      "dataSecurity": {
+        "title": "データセキュリティ",
+        "description": "お客様の技術図面と独自の設計は、当社の産業グレードのセキュリティプロトコル下で保護されています。"
+      },
+      "zeroSharing": {
+        "title": "共有ゼロ",
+        "description": "お客様のビジネス連絡先情報やプロジェクトの詳細を第三者のマーケティング会社に販売することはありません。"
+      },
+      "transparency": {
+        "title": "透明性",
+        "description": "製造およびエンジニアリングサービスを提供するためにデータをどのように使用するかについての明確な文書。"
+      }
+    },
+    "sections": {
+      "informationCollect": {
+        "title": "1. 収集する情報",
+        "content": "福州RubberQゴム有限公司（以下「RubberQ」、「当社」）は、お客様が以下を行う際に直接提供する情報を収集します：",
+        "items": [
+          "見積もり依頼（RFQ）またはお問い合わせフォームの送信。",
+          "技術図面、仕様書、または3Dモデルのアップロード。",
+          "材料サンプルまたは技術相談の依頼。",
+          "当社のエンジニアリングおよび営業チームとの通信。"
+        ],
+        "additionalInfo": "この情報には、お名前、会社名、メールアドレス、電話番号、国、および特定のプロジェクト要件が含まれる場合があります。"
+      },
+      "howWeUse": {
+        "title": "2. 情報の利用目的",
+        "content": "収集したデータは、特定の産業およびビジネス目的で使用されます：",
+        "items": [
+          {
+            "label": "RFQ処理:",
+            "text": "製造の実現可能性を評価し、正確な価格を提供するため。"
+          },
+          {
+            "label": "技術相談:",
+            "text": "材料選択および製造性考慮設計（DFM）のアドバイスを提供するため。"
+          },
+          {
+            "label": "注文履行:",
+            "text": "カスタムゴム部品を製造および出荷するため。"
+          },
+          {
+            "label": "品質管理:",
+            "text": "IATF 16949およびISO 9001規格で要求される生産記録を維持するため。"
+          }
+        ]
+      },
+      "intellectualProperty": {
+        "title": "3. 知的財産の保護",
+        "content": "主要な自動車ブランドのOEMサプライヤーとして、当社は知的財産（IP）の重要性を理解しています。当社のプラットフォームにアップロードされた図面や独自データは、厳格な機密保持の下で扱われます。アクセスは必要なエンジニアリングおよび生産担当者に制限されます。プロジェクトのために正式な秘密保持契約（NDA）を締結する用意があります。"
+      },
+      "cookies": {
+        "title": "4. Cookieとトラッキング",
+        "content": "当社のウェブサイトは、サイトの機能とパフォーマンスを確保するために必須のCookieを使用しています。また、訪問者がコンテンツとどのように対話するかを理解するために分析ツール（Google Analyticsなど）を使用する場合があり、これは技術文書とユーザーエクスペリエンスの改善に役立ちます。"
+      },
+      "dataRetention": {
+        "title": "5. データ保持",
+        "content": "IATF 16949自動車規格に準拠して、トレーサビリティを確保するために生産および品質記録を指定された期間保持する場合があります。ビジネス連絡先情報は、専門的な関係を維持するために必要な期間保持されます。"
+      },
+      "yourRights": {
+        "title": "6. お客様の権利",
+        "content": "お客様は、自身の個人的なビジネスデータへのアクセス、訂正、または削除を要求する権利を有します。そのような要求については、下記のメールアドレスのデータコンプライアンス責任者にご連絡ください。"
+      }
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "description": "このプライバシーポリシーについてご質問がある場合は、以下にご連絡ください：",
+      "company": "福州RubberQゴム有限公司",
+      "department": "データ保護室",
+      "email": "メール: contact@rubberq.com",
+      "address": "住所: 中国福建省福州市"
+    }
+  },
+  "standardsPage": {
+    "hero": {
+      "badge": "技術コンプライアンス",
+      "title": "グローバル業界規格",
+      "subtitle": "RubberQでは、単にゴムを製造するだけでなく、コンプライアンスを設計します。材料科学と国際規制の交差点で操業し、製品が市場に対応できるようにします。"
+    },
+    "categories": {
+      "materialClassification": {
+        "title": "材料分類システム",
+        "desc": "エンジニアリングの明確さのために、ゴムの物理的特性をどのように分類し認証するか。",
+        "standards": {
+          "astmD2000": {
+            "name": "ゴム製品の標準分類システム",
+            "detail": "ゴムの世界共通言語。耐熱性、耐油膨潤性、物理的特性を定義するためにラインコールアウトシステムを使用します（例：2BC715B14）。"
+          },
+          "saeJ200": {
+            "name": "ゴム材料の分類システム",
+            "detail": "ASTM D2000に類似した自動車固有の規格で、主に北米の自動車OEM部品に使用されます。"
+          }
+        }
+      },
+      "environmentalCompliance": {
+        "title": "環境・化学コンプライアンス",
+        "desc": "当社の部品が世界市場にとって安全であり、有害物質を含まないことを保証します。",
+        "standards": {
+          "rohs3": {
+            "name": "特定有害物質使用制限指令 (2011/65/EU)",
+            "detail": "当社のゴム部品が鉛、水銀、カドミウム、その他の制限物質の許容限度未満であることを保証します。"
+          },
+          "reach": {
+            "name": "化学物質の登録、評価、認可および制限",
+            "detail": "サプライチェーンにおけるSVHC（高懸念物質）に関するEU規制への準拠。"
+          }
+        }
+      },
+      "applicationCertifications": {
+        "title": "用途別認証",
+        "desc": "食品、医療、航空宇宙などのリスクの高い産業向けの専門規格。",
+        "standards": {
+          "fda": {
+            "name": "食品との繰り返し使用を目的としたゴム製品",
+            "detail": "食品グレードのシリコーン、EPDM、NBR部品のための抽出試験と原材料ホワイトリスト。"
+          },
+          "milSpec": {
+            "name": "軍事仕様 (例: MIL-R-25988)",
+            "detail": "耐液性、極端な温度安定性、保存期間に関する厳格な防衛要件を満たす。"
+          }
+        }
+      }
+    },
+    "sidebar": {
+      "callOutTitle": "ラインコールアウトが必要ですか？",
+      "callOutDesc": "当社のエンジニアリングチームは、お客様のアプリケーション要件を正式なASTM D2000またはSAE J200仕様に変換するお手伝いをします。",
+      "consultEngineer": "エンジニアに相談",
+      "complianceNotice": "コンプライアンス通知",
+      "complianceNoticeText": "すべての出荷に分析証明書（COA）と適合証明書（COC）が添付されます。自動車および高精度機械プロジェクト向けに、完全なPPAPレベル3文書をご要望に応じて提供いたします。"
+    },
+    "footer": {
+      "globalReach": "グローバルリーチ",
+      "globalReachDesc": "米国、EU、アジア市場の規制に準拠。",
+      "ipProtection": "IP保護",
+      "ipProtectionDesc": "カスタム配合に対する厳格な機密保持。",
+      "materialScience": "材料科学",
+      "materialScienceDesc": "高性能エラストマー（FKM、HNBR、シリコーン）に特化。",
+      "verifiedTesting": "検証済み試験",
+      "verifiedTestingDesc": "ISO準拠の研究所ですべてのデータを検証。"
+    }
+  },
+  "termsPage": {
+    "title": "利用規約",
+    "lastUpdated": "最終更新日: 2026年1月26日",
+    "cards": {
+      "legalBinding": {
+        "title": "法的拘束力",
+        "description": "このサイトにアクセスすることにより、当社の利用規約および産業基準に従うことに同意したことになります。"
+      },
+      "technicalDisclaimer": {
+        "title": "技術的免責事項",
+        "description": "提供されるエンジニアリングデータは参照用です。最終仕様は検証された図面に依存します。"
+      }
+    },
+    "sections": {
+      "acceptance": {
+        "title": "1. 規約の受諾",
+        "content": "福州RubberQゴム有限公司（以下「サイト」）のウェブサイトにアクセスして使用することにより、お客様はこれらの利用規約を読み、理解し、拘束されることに同意したことになります。同意しない場合は、サイトの使用をお控えください。"
+      },
+      "siteContent": {
+        "title": "2. サイトコンテンツの使用",
+        "content": "技術データシート、材料仕様、製造プロセス記述を含む本サイトのコンテンツは、専門的な情報提供を目的としています。",
+        "items": [
+          "当社のサービスを評価するためにお客様の会社用に資料をダウンロードすることができます。",
+          "商業的利益のための無許可の配布または複製は禁止されています。",
+          "当社のRFQシステムの悪用または技術データの自動スクレイピングは固く禁じられています。"
+        ]
+      },
+      "intellectualProperty": {
+        "title": "3. 知的財産",
+        "content": "サイトに表示されるすべての商標、ロゴ、サービスマークは、RubberQまたは第三者の財産です。「RubberQ」およびRubberQロゴは登録商標です。サイトのデザイン、レイアウト、「ルック＆フィール」は著作権法により保護されています。"
+      },
+      "engineeringDisclaimer": {
+        "title": "4. エンジニアリング免責事項",
+        "content": "技術ブログや材料ガイドの正確性を100%目指していますが、提供される情報は一般的な参照のみを目的としています。ゴム部品の性能は特定のアプリケーション環境に大きく依存します。最終的な材料選択と部品設計は、専門的なエンジニアリングレビューとプロトタイピングを通じて検証する必要があります。"
+      },
+      "quotations": {
+        "title": "5. 見積もりと注文",
+        "content": "このサイトを通じてRFQを送信しても、拘束力のある契約は成立しません。正式な製造契約は、当社の標準産業販売条件に従い、RubberQが書面で注文書（PO）を受諾した時点で初めて成立します。"
+      },
+      "liability": {
+        "title": "6. 責任の制限",
+        "content": "RubberQは、サイトの使用または提供された情報への依存から生じる直接的、間接的、偶発的、または結果的な損害について責任を負いません。"
+      },
+      "governingLaw": {
+        "title": "7. 準拠法",
+        "content": "これらの規約は中華人民共和国の法律に準拠します。本サイトの使用から生じる紛争は、福建省福州市の裁判所の専属管轄権に従うものとします。"
+      }
+    },
+    "contact": {
+      "title": "ご質問ですか？",
+      "description": "当社の規約に関する法的なお問い合わせは、以下にご連絡ください：",
+      "department": "法務部",
+      "company": "福州RubberQゴム有限公司",
+      "email": "メール: contact@rubberq.com"
+    }
+  }
+}
