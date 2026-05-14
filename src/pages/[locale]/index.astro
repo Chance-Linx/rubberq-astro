@@ -1,183 +1,392 @@
 ---
 import LocaleLayout from '@/layouts/LocaleLayout.astro';
-import { getTranslations } from '@/lib/i18n';
+import JsonLd from '@/components/JsonLd';
 import TrustSignals from '@/components/TrustSignals.astro';
+import { getTranslations, t, tRaw } from '@/lib/i18n';
+import { createOrganizationSchema } from '@/lib/structuredData';
+import { createLocaleAlternates } from '@/lib/seoMetadata';
 
 export function getStaticPaths() {
-  return ['en','de','ja','es','zh'].map(locale => ({ params: { locale } }));
+  return ['en', 'de', 'ja', 'es', 'zh'].map((locale) => ({ params: { locale } }));
 }
 
 const { locale } = Astro.params;
 const messages = await getTranslations(locale);
 const meta = messages?.metadata || {};
 const homeMeta = meta?.home || {};
+const h = (key: string, fallback = '') => t(messages, key, fallback);
 
-// Flatten translation helper
-const t = (key: string, fallback = '') => {
-  const keys = key.split('.');
-  let v: any = messages;
-  for (const k of keys) { if (v && typeof v === 'object') v = v[k]; else return fallback || key; }
-  return typeof v === 'string' ? v : fallback || key;
-};
+const summaryItems = tRaw(messages, 'features.summaryItems', []);
+const fitItems = tRaw(messages, 'goodFit.fitItems', []);
+const notFitItems = tRaw(messages, 'goodFit.notFitItems', []);
+const trustBadges = tRaw(messages, 'hero.trustBadges', ['IATF 16949', 'ISO 9001', 'ISO 14001']);
 
-// Get summary items array
-const summaryItems = messages?.features?.summaryItems || [];
+const alternates = createLocaleAlternates(locale!, '/');
+const orgSchema = createOrganizationSchema(locale!);
 ---
 
 <LocaleLayout locale={locale}>
   <Fragment slot="head">
-    <title>{homeMeta.title || 'RubberQ — Precision Rubber Manufacturing'}</title>
+    <title>{homeMeta.title || 'RubberQ | Japanese Formulation. Chinese Precision. Trusted Since 1995.'}</title>
     <meta name="description" content={homeMeta.description || meta.description || ''} />
+    <link rel="canonical" href={alternates.canonical} />
+    {Object.entries(alternates.languages).map(([lang, url]) => (
+      <link rel="alternate" hreflang={lang} href={url} />
+    ))}
+    <JsonLd data={orgSchema} />
   </Fragment>
 
   <div class="flex flex-col">
-    <!-- Hero Section -->
+    <!-- ============================================================ -->
+    <!-- HERO                                                          -->
+    <!-- ============================================================ -->
     <section class="relative h-[90vh] flex items-center bg-industrial-900 overflow-hidden">
+      <!-- Hero background placeholder -->
+      <div
+        class="absolute inset-0 opacity-30"
+        data-slot-id="home-hero-bg"
+        data-purpose="工厂车间 / A 炼车间环境图，营造工业感"
+        data-spec="1920x1080 横向，可带 industrial-900 蒙版"
+        data-priority="critical"
+      >
+        <div class="w-full h-full bg-gradient-to-br from-industrial-800 to-industrial-900"></div>
+      </div>
       <div class="absolute inset-0 bg-grid-pattern bg-grid-size opacity-10"></div>
-      <div class="absolute inset-0 bg-gradient-to-r from-industrial-900 via-transparent to-transparent z-10"></div>
-      
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
+      <div class="absolute inset-0 bg-gradient-to-r from-industrial-900 via-industrial-900/80 to-transparent z-10"></div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full">
         <div class="max-w-3xl">
           <div class="inline-block bg-accent-orange/10 border border-accent-orange/30 text-accent-orange px-3 py-1 text-xs font-bold tracking-widest uppercase mb-6">
-            {t('hero.badge', 'AUTOMOTIVE-GRADE EXCELLENCE')}
+            {h('hero.badge', 'JAPANESE FORMULATION × CHINESE PRECISION × SINCE 1995')}
           </div>
-          <h1 class="text-6xl md:text-8xl font-bold tracking-tighter text-white mb-8 leading-[0.9]">
-            {t('hero.titleLine1', 'PRECISION')} <br />
-            <span class="text-industrial-500">{t('hero.titleLine2', 'IN EVERY')}</span> <br />
-            {t('hero.titleLine3', 'MOLECULE.')}
+          <h1 class="text-5xl md:text-7xl font-bold tracking-tighter text-white mb-6 leading-[0.95]">
+            {h('hero.titleLine1', 'PRECISION')}<br />
+            <span class="text-industrial-500">{h('hero.titleLine2', 'IN EVERY')}</span><br />
+            {h('hero.titleLine3', 'MOLECULE.')}
           </h1>
-          <p class="text-xl text-industrial-100 mb-10 max-w-xl leading-relaxed">
-            {t('hero.subtitle')}
+          <p class="text-xl md:text-2xl text-accent-orange font-bold tracking-tight mb-4 italic">
+            "{h('hero.tagline', 'Japanese Formulation. Chinese Precision. Trusted Since 1995.')}"
           </p>
-          <div class="flex flex-col sm:flex-row gap-4">
-            <a href={`/${locale}/blog`}
-               class="bg-accent-orange text-white px-8 py-4 font-bold text-sm tracking-widest hover:bg-white hover:text-industrial-900 transition-all duration-300 text-center">
-              {t('hero.ctaPrimary', 'TECHNICAL HUB')}
+          <p class="text-lg text-industrial-100 mb-8 max-w-2xl leading-relaxed">
+            {h('hero.subtitle')}
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 mb-10">
+            <a
+              href={`/${locale}/contact`}
+              class="bg-accent-orange text-white px-8 py-4 font-bold text-sm tracking-widest hover:bg-white hover:text-industrial-900 transition-all duration-300 text-center uppercase"
+            >
+              {h('hero.ctaPrimary', 'REQUEST QUOTE')}
             </a>
-            <a href={`/${locale}/quality`}
-               class="border border-industrial-500 text-white px-8 py-4 font-bold text-sm tracking-widest hover:border-white transition-all duration-300 text-center">
-              {t('hero.ctaSecondary', 'QUALITY & TRUST')}
+            <a
+              href={`/${locale}/compounding`}
+              class="border border-industrial-500 text-white px-8 py-4 font-bold text-sm tracking-widest hover:border-white transition-all duration-300 text-center uppercase"
+            >
+              {h('hero.ctaSecondary', 'EXPLORE OUR R&D')}
             </a>
+          </div>
+          <div class="flex flex-wrap gap-3 items-center">
+            {trustBadges.map((badge: string) => (
+              <span class="text-industrial-400 text-xs font-mono tracking-widest border border-industrial-700 px-3 py-1.5">{badge}</span>
+            ))}
           </div>
         </div>
       </div>
-
-      <div class="absolute right-0 bottom-0 w-1/2 h-full opacity-20 pointer-events-none">
-        <div class="w-full h-full border-l border-t border-industrial-700 absolute top-1/4 left-1/4"></div>
-        <div class="w-full h-full border-l border-t border-industrial-700 absolute top-1/2 left-1/2"></div>
-      </div>
     </section>
 
-    <!-- Features Section -->
+    <!-- ============================================================ -->
+    <!-- FEATURES — 4 v2 cards                                          -->
+    <!-- ============================================================ -->
     <section class="py-24 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           <div>
             <h2 class="text-4xl font-bold tracking-tighter text-industrial-900 uppercase mb-8">
-              {t('features.title', 'WHY GLOBAL LEADERS TRUST RUBBERQ')}
+              {h('features.title', 'WHY GLOBAL ENGINEERING TEAMS CHOOSE RUBBERQ')}
             </h2>
-            <div class="bg-industrial-100 border-l-4 border-industrial-900 p-6 my-8 shadow-sm">
+            <div class="bg-industrial-100 border-l-4 border-accent-orange p-6 my-4">
               <h3 class="text-xl font-bold text-industrial-900 mb-4 uppercase tracking-tight">
-                {t('features.summaryTitle', 'QUICK TECHNICAL SUMMARY')}
+                {h('features.summaryTitle', 'QUICK TECHNICAL SUMMARY')}
               </h3>
-              <ul class="space-y-3">
-                {summaryItems.length > 0 ? summaryItems.map((item: any) => (
-                  <li class="text-industrial-600 leading-relaxed">
-                    <span class="font-bold text-industrial-900">{item.term}</span>: {item.description}
+              <ul class="space-y-4">
+                {summaryItems.map((item: any) => (
+                  <li class="text-industrial-700 leading-relaxed">
+                    <strong class="text-industrial-900 block mb-1">{item.term}</strong>
+                    <span class="text-sm">{item.description}</span>
                   </li>
-                )) : (
-                  <>
-                    <li class="text-industrial-600 leading-relaxed">
-                      <span class="font-bold text-industrial-900">{t('features.summaryItems.0.term', 'IATF 16949 Certified')}</span>: {t('features.summaryItems.0.desc', 'Rigorous automotive quality management system ensuring zero-defect production.')}
-                    </li>
-                    <li class="text-industrial-600 leading-relaxed">
-                      <span class="font-bold text-industrial-900">{t('features.summaryItems.1.term', 'Entity-Driven Traceability')}</span>: {t('features.summaryItems.1.desc', 'Full digital logging from raw material batch to finished component.')}
-                    </li>
-                  </>
-                )}
+                ))}
               </ul>
             </div>
           </div>
-          <div class="grid grid-cols-2 gap-8">
-            <!-- Reliability -->
-            <div class="p-8 border border-industrial-100 hover:border-accent-orange transition-colors group">
-              <svg class="w-10 h-10 text-industrial-900 group-hover:text-accent-orange mb-4 transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-              </svg>
-              <h4 class="font-bold text-lg mb-2 uppercase">{t('features.reliability.title', 'RELIABILITY')}</h4>
-              <p class="text-sm text-industrial-600">{t('features.reliability.desc')}</p>
+
+          <div class="grid grid-cols-2 gap-6">
+            <!-- JP R&D -->
+            <div class="p-6 border border-industrial-100 hover:border-accent-orange transition-colors group">
+              <div
+                class="aspect-square bg-industrial-100 mb-4 flex items-center justify-center text-xs text-industrial-500"
+                data-slot-id="home-features-rd"
+                data-purpose="配方实验室设备特写 / 配方研发场景"
+                data-spec="800x600"
+                data-priority="important"
+              >[home-features-rd]</div>
+              <h4 class="font-bold text-base mb-2 uppercase tracking-tight">{h('features.jpRd.title')}</h4>
+              <p class="text-sm text-industrial-600 leading-relaxed">{h('features.jpRd.desc')}</p>
             </div>
-            <!-- Precision -->
-            <div class="p-8 border border-industrial-100 hover:border-accent-orange transition-colors group">
-              <svg class="w-10 h-10 text-industrial-900 group-hover:text-accent-orange mb-4 transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
-              </svg>
-              <h4 class="font-bold text-lg mb-2 uppercase">{t('features.precision.title', 'PRECISION')}</h4>
-              <p class="text-sm text-industrial-600">{t('features.precision.desc')}</p>
+            <!-- In-House Compounding -->
+            <div class="p-6 border border-industrial-100 hover:border-accent-orange transition-colors group">
+              <div
+                class="aspect-square bg-industrial-100 mb-4 flex items-center justify-center text-xs text-industrial-500"
+                data-slot-id="home-features-compounding"
+                data-purpose="A 炼车间设备特写（密炼机）"
+                data-spec="800x600"
+                data-priority="important"
+              >[home-features-compounding]</div>
+              <h4 class="font-bold text-base mb-2 uppercase tracking-tight">{h('features.compounding.title')}</h4>
+              <p class="text-sm text-industrial-600 leading-relaxed">{h('features.compounding.desc')}</p>
             </div>
-            <!-- Traceability -->
-            <div class="p-8 border border-industrial-100 hover:border-accent-orange transition-colors group">
-              <svg class="w-10 h-10 text-industrial-900 group-hover:text-accent-orange mb-4 transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
-              </svg>
-              <h4 class="font-bold text-lg mb-2 uppercase">{t('features.traceability.title', 'TRACEABILITY')}</h4>
-              <p class="text-sm text-industrial-600">{t('features.traceability.desc')}</p>
+            <!-- Own Lab -->
+            <div class="p-6 border border-industrial-100 hover:border-accent-orange transition-colors group">
+              <div
+                class="aspect-square bg-industrial-100 mb-4 flex items-center justify-center text-xs text-industrial-500"
+                data-slot-id="home-features-lab"
+                data-purpose="试验设备特写（拉力机或老化箱）"
+                data-spec="800x600"
+                data-priority="important"
+              >[home-features-lab]</div>
+              <h4 class="font-bold text-base mb-2 uppercase tracking-tight">{h('features.lab.title')}</h4>
+              <p class="text-sm text-industrial-600 leading-relaxed">{h('features.lab.desc')}</p>
             </div>
-            <!-- Innovation -->
-            <div class="p-8 border border-industrial-100 hover:border-accent-orange transition-colors group">
-              <svg class="w-10 h-10 text-industrial-900 group-hover:text-accent-orange mb-4 transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
-              </svg>
-              <h4 class="font-bold text-lg mb-2 uppercase">{t('features.innovation.title', 'INNOVATION')}</h4>
-              <p class="text-sm text-industrial-600">{t('features.innovation.desc')}</p>
+            <!-- Heritage -->
+            <div class="p-6 border border-industrial-100 hover:border-accent-orange transition-colors group">
+              <div
+                class="aspect-square bg-industrial-100 mb-4 flex items-center justify-center text-xs text-industrial-500"
+                data-slot-id="home-features-heritage"
+                data-purpose="工厂建筑外观 / 厂区航拍"
+                data-spec="800x600"
+                data-priority="important"
+              >[home-features-heritage]</div>
+              <h4 class="font-bold text-base mb-2 uppercase tracking-tight">{h('features.heritage.title')}</h4>
+              <p class="text-sm text-industrial-600 leading-relaxed">{h('features.heritage.desc')}</p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Trust Signals: Proof of Trust + Client Voice -->
+    <!-- ============================================================ -->
+    <!-- IS MY PROJECT A GOOD FIT?                                     -->
+    <!-- ============================================================ -->
+    <section class="py-24 bg-industrial-50">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 uppercase mb-4">
+            {h('goodFit.title')}
+          </h2>
+          <p class="text-lg text-industrial-700 max-w-3xl mx-auto">{h('goodFit.subtitle')}</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <!-- Great fit -->
+          <div class="bg-white border-2 border-green-500 p-8">
+            <div class="flex items-baseline gap-2 mb-6">
+              <span class="text-green-600 text-2xl">✅</span>
+              <h3 class="text-xl font-bold text-industrial-900 uppercase tracking-tight">{h('goodFit.fitTitle')}</h3>
+            </div>
+            <ul class="space-y-3">
+              {fitItems.map((item: string) => (
+                <li class="flex gap-3 text-industrial-700 leading-relaxed">
+                  <span class="text-green-600 font-bold flex-shrink-0">▸</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <!-- Not fit -->
+          <div class="bg-white border-2 border-amber-500 p-8">
+            <div class="flex items-baseline gap-2 mb-6">
+              <span class="text-amber-600 text-2xl">⚠</span>
+              <h3 class="text-xl font-bold text-industrial-900 uppercase tracking-tight">{h('goodFit.notFitTitle')}</h3>
+            </div>
+            <ul class="space-y-3">
+              {notFitItems.map((item: string) => (
+                <li class="flex gap-3 text-industrial-700 leading-relaxed">
+                  <span class="text-amber-600 font-bold flex-shrink-0">▸</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        <div class="text-center mt-10">
+          <a
+            href={`/${locale}/contact`}
+            class="inline-block bg-industrial-900 text-white px-8 py-4 font-bold text-sm tracking-widest uppercase hover:bg-accent-orange transition-colors"
+          >
+            {h('goodFit.cta')} →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- CAPACITY RE-FRAMING                                            -->
+    <!-- ============================================================ -->
+    <section class="py-20 bg-white">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl md:text-3xl font-bold tracking-tighter text-industrial-900 uppercase mb-6">
+          {h('capacityReframing.title')}
+        </h2>
+        <p class="text-lg text-industrial-700 leading-relaxed mb-6 max-w-4xl">
+          {h('capacityReframing.body')}
+        </p>
+        <a
+          href={`/${locale}/compounding`}
+          class="inline-flex items-center gap-2 text-accent-orange font-bold uppercase text-sm tracking-widest hover:underline"
+        >
+          {h('capacityReframing.learnMore')} →
+        </a>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- TRUST SIGNALS                                                  -->
+    <!-- ============================================================ -->
     <TrustSignals locale={locale} />
 
-    <!-- Industries Section -->
+    <!-- ============================================================ -->
+    <!-- INDUSTRIES — v2: EV / Industrial / Semicon / Auto Tier 2       -->
+    <!-- ============================================================ -->
     <section class="py-24 bg-industrial-100">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
-        <h2 class="text-4xl font-bold tracking-tighter text-industrial-900 uppercase">{t('industries.title', 'Specialized Industries')}</h2>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 uppercase text-center mb-4">
+          {h('industries.title', 'Specialized Industries We Serve')}
+        </h2>
+        <p class="text-lg text-industrial-700 text-center max-w-3xl mx-auto mb-12">
+          {h('industries.subtitle')}
+        </p>
+
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- EV -->
+          <a href={`/${locale}/industries/ev-energy-storage`} class="group relative h-80 overflow-hidden border border-industrial-200">
+            <div
+              class="absolute inset-0 bg-industrial-200 flex items-center justify-center"
+              data-slot-id="home-industries-ev"
+              data-purpose="EV/储能相关密封件成品图 或 工艺中场景"
+              data-spec="800x800 方形"
+              data-priority="critical"
+            >
+              <span class="text-xs text-industrial-500">[home-industries-ev]</span>
+            </div>
+            <div class="absolute inset-0 bg-industrial-900/50 group-hover:bg-industrial-900/70 transition-colors"></div>
+            <div class="absolute bottom-6 left-6 right-6 text-white">
+              <div class="text-3xl mb-2">{h('industries.ev.icon')}</div>
+              <h3 class="text-lg font-bold uppercase tracking-tight mb-2">{h('industries.ev.title')}</h3>
+              <p class="text-sm text-industrial-200 leading-snug">{h('industries.ev.shortDesc')}</p>
+              <div class="w-10 h-1 bg-accent-orange mt-4 transition-all duration-300 group-hover:w-full"></div>
+            </div>
+          </a>
+
+          <!-- Industrial -->
+          <a href={`/${locale}/industries/industrial-equipment`} class="group relative h-80 overflow-hidden border border-industrial-200">
+            <div
+              class="absolute inset-0 bg-industrial-200 flex items-center justify-center"
+              data-slot-id="home-industries-industrial"
+              data-purpose="液压/泵阀密封件成品图"
+              data-spec="800x800"
+              data-priority="important"
+            >
+              <span class="text-xs text-industrial-500">[home-industries-industrial]</span>
+            </div>
+            <div class="absolute inset-0 bg-industrial-900/50 group-hover:bg-industrial-900/70 transition-colors"></div>
+            <div class="absolute bottom-6 left-6 right-6 text-white">
+              <div class="text-3xl mb-2">{h('industries.industrial.icon')}</div>
+              <h3 class="text-lg font-bold uppercase tracking-tight mb-2">{h('industries.industrial.title')}</h3>
+              <p class="text-sm text-industrial-200 leading-snug">{h('industries.industrial.shortDesc')}</p>
+              <div class="w-10 h-1 bg-accent-orange mt-4 transition-all duration-300 group-hover:w-full"></div>
+            </div>
+          </a>
+
+          <!-- Semicon -->
+          <a href={`/${locale}/industries/semiconductor`} class="group relative h-80 overflow-hidden border border-industrial-200">
+            <div
+              class="absolute inset-0 bg-industrial-200 flex items-center justify-center"
+              data-slot-id="home-industries-semicon"
+              data-purpose="FFKM 制品特写 或 洁净环境工艺图"
+              data-spec="800x800"
+              data-priority="important"
+            >
+              <span class="text-xs text-industrial-500">[home-industries-semicon]</span>
+            </div>
+            <div class="absolute inset-0 bg-industrial-900/50 group-hover:bg-industrial-900/70 transition-colors"></div>
+            <div class="absolute bottom-6 left-6 right-6 text-white">
+              <div class="text-3xl mb-2">{h('industries.semiconductor.icon')}</div>
+              <h3 class="text-lg font-bold uppercase tracking-tight mb-2">{h('industries.semiconductor.title')}</h3>
+              <p class="text-sm text-industrial-200 leading-snug">{h('industries.semiconductor.shortDesc')}</p>
+              <div class="w-10 h-1 bg-accent-orange mt-4 transition-all duration-300 group-hover:w-full"></div>
+            </div>
+          </a>
+
+          <!-- Auto Tier 2 -->
+          <a href={`/${locale}/industries/automotive-tier2`} class="group relative h-80 overflow-hidden border border-industrial-200">
+            <div
+              class="absolute inset-0 bg-industrial-200 flex items-center justify-center"
+              data-slot-id="home-industries-auto"
+              data-purpose="汽车密封件成品图"
+              data-spec="800x800"
+              data-priority="important"
+            >
+              <span class="text-xs text-industrial-500">[home-industries-auto]</span>
+            </div>
+            <div class="absolute inset-0 bg-industrial-900/50 group-hover:bg-industrial-900/70 transition-colors"></div>
+            <div class="absolute bottom-6 left-6 right-6 text-white">
+              <div class="text-3xl mb-2">{h('industries.automotive.icon')}</div>
+              <h3 class="text-lg font-bold uppercase tracking-tight mb-2">{h('industries.automotive.title')}</h3>
+              <p class="text-sm text-industrial-200 leading-snug">{h('industries.automotive.shortDesc')}</p>
+              <div class="w-10 h-1 bg-accent-orange mt-4 transition-all duration-300 group-hover:w-full"></div>
+            </div>
+          </a>
+        </div>
+
+        <p class="text-center text-industrial-600 mt-10 text-sm">
+          {h('industries.notSeeing')}
+          <a href={`/${locale}/contact`} class="text-accent-orange font-bold hover:underline ml-2">
+            {h('industries.talkCta')} →
+          </a>
+        </p>
       </div>
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
-        <a href={`/${locale}/blog/how-iatf-16949-standards-influence-rubber-component-quality-for-robotics`} class="group relative h-96 overflow-hidden">
-          <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=800" 
-               alt={t('industries.robotics.title', 'Robotics & Cobots')}
-               class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-               loading="lazy" />
-          <div class="absolute inset-0 bg-industrial-900/40 group-hover:bg-industrial-900/60 transition-colors"></div>
-          <div class="absolute bottom-8 left-8 right-8">
-            <h3 class="text-2xl font-bold text-white uppercase tracking-tighter mb-2">{t('industries.robotics.title', 'Robotics & Cobots')}</h3>
-            <div class="w-12 h-1 bg-accent-orange transition-all duration-300 group-hover:w-full"></div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- COMPOUNDING & R&D ENTRY                                       -->
+    <!-- ============================================================ -->
+    <section class="py-20 bg-industrial-900 text-white">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tighter mb-6 uppercase">
+              {h('compoundingRDEntry.title')}
+            </h2>
+            <p class="text-lg text-industrial-300 leading-relaxed mb-8">
+              {h('compoundingRDEntry.subtext')}
+            </p>
+            <a
+              href={`/${locale}/compounding`}
+              class="inline-block bg-accent-orange text-white px-8 py-4 font-bold text-sm tracking-widest uppercase hover:bg-white hover:text-industrial-900 transition-all duration-300"
+            >
+              {h('compoundingRDEntry.cta')} →
+            </a>
           </div>
-        </a>
-        <a href={`/${locale}/blog/technical-comparison-why-fkm-o-rings-are-replacing-nbr-in-ev-cooling-systems`} class="group relative h-96 overflow-hidden">
-          <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc51?auto=format&fit=crop&q=80&w=800" 
-               alt={t('industries.ai.title', 'AI Infrastructure')}
-               class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-               loading="lazy" />
-          <div class="absolute inset-0 bg-industrial-900/40 group-hover:bg-industrial-900/60 transition-colors"></div>
-          <div class="absolute bottom-8 left-8 right-8">
-            <h3 class="text-2xl font-bold text-white uppercase tracking-tighter mb-2">{t('industries.ai.title', 'AI Infrastructure')}</h3>
-            <div class="w-12 h-1 bg-accent-orange transition-all duration-300 group-hover:w-full"></div>
+          <div
+            class="aspect-video bg-industrial-800 border-2 border-dashed border-industrial-700 flex items-center justify-center"
+            data-slot-id="home-compounding-entry"
+            data-purpose="A 炼车间或配方实验室一张代表性图"
+            data-spec="1600x900"
+            data-priority="important"
+          >
+            <span class="text-xs text-industrial-500">[home-compounding-entry]</span>
           </div>
-        </a>
-        <a href={`/${locale}/blog/the-role-of-hnbr-in-high-temperature-automotive-sealing-environments`} class="group relative h-96 overflow-hidden">
-          <img src="https://images.unsplash.com/photo-1537462715879-360eeb61a0ad?auto=format&fit=crop&q=80&w=800"
-               alt={t('industries.machinery.title', 'Precision Machinery')}
-               class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-               loading="lazy" />
-          <div class="absolute inset-0 bg-industrial-900/40 group-hover:bg-industrial-900/60 transition-colors"></div>
-          <div class="absolute bottom-8 left-8 right-8">
-            <h3 class="text-2xl font-bold text-white uppercase tracking-tighter mb-2">{t('industries.machinery.title', 'Precision Machinery')}</h3>
-            <div class="w-12 h-1 bg-accent-orange transition-all duration-300 group-hover:w-full"></div>
-          </div>
-        </a>
+        </div>
       </div>
     </section>
   </div>

@@ -1,0 +1,314 @@
+---
+import LocaleLayout from '@/layouts/LocaleLayout.astro';
+import JsonLd from '@/components/JsonLd';
+import { getTranslations, t, tRaw } from '@/lib/i18n';
+import { createOrganizationSchema } from '@/lib/structuredData';
+import { createLocaleAlternates } from '@/lib/seoMetadata';
+
+export function getStaticPaths() {
+  const locales = ['en', 'de', 'ja', 'es', 'zh'];
+  const slugs = ['ev-energy-storage', 'industrial-equipment', 'semiconductor', 'automotive-tier2'];
+  return locales.flatMap((locale) => slugs.map((slug) => ({ params: { locale, slug } })));
+}
+
+const { locale, slug } = Astro.params;
+const messages = await getTranslations(locale);
+
+// Map slug → i18n key under industriesPage
+const slugToKey: Record<string, string> = {
+  'ev-energy-storage': 'ev',
+  'industrial-equipment': 'industrial',
+  'semiconductor': 'semiconductor',
+  'automotive-tier2': 'automotive',
+};
+const slugToMetaKey: Record<string, string> = {
+  'ev-energy-storage': 'industriesEv',
+  'industrial-equipment': 'industriesIndustrial',
+  'semiconductor': 'industriesSemiconductor',
+  'automotive-tier2': 'industriesAutomotive',
+};
+
+const i18nKey = slugToKey[slug!];
+const metaKey = slugToMetaKey[slug!];
+const meta = messages?.metadata?.[metaKey] || {};
+const ip = (key: string, fallback = '') => t(messages, `industriesPage.${i18nKey}.${key}`, fallback);
+
+const alternates = createLocaleAlternates(locale!, `/industries/${slug}`);
+const orgSchema = createOrganizationSchema(locale!);
+
+// Sector-specific data extractors
+const evSubSectors = i18nKey === 'ev'
+  ? ['charging', 'bess', 'peripheral', 'vehicle'].map((k) => ({
+      key: k,
+      data: tRaw(messages, `industriesPage.ev.subSectors.${k}`, {}),
+    }))
+  : [];
+const evWhyPoints = i18nKey === 'ev' ? tRaw(messages, 'industriesPage.ev.whyChemistry.points', []) : [];
+const industrialSubs = i18nKey === 'industrial' ? tRaw(messages, 'industriesPage.industrial.subSectors.items', []) : [];
+const industrialWhy = i18nKey === 'industrial' ? tRaw(messages, 'industriesPage.industrial.whyUs.items', []) : [];
+const autoFit = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.automotive.whereWeFit.fitItems', []) : [];
+const autoNotFit = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.automotive.whereWeFit.notFitItems', []) : [];
+const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.automotive.customerProfile.items', []) : [];
+---
+
+<LocaleLayout locale={locale}>
+  <Fragment slot="head">
+    <title>{meta.title || `${ip('hero.title')} | RubberQ`}</title>
+    <meta name="description" content={meta.description || ''} />
+    <link rel="canonical" href={alternates.canonical} />
+    {Object.entries(alternates.languages).map(([lang, url]) => (
+      <link rel="alternate" hreflang={lang} href={url} />
+    ))}
+    <JsonLd data={orgSchema} />
+  </Fragment>
+
+  <div class="bg-white">
+    <!-- HERO -->
+    <section class="relative bg-industrial-900 text-white py-32 overflow-hidden">
+      <div
+        class="absolute inset-0 opacity-25"
+        data-slot-id={`industries-${i18nKey}-hero`}
+        data-purpose={`${i18nKey} 行业 Hero 背景`}
+        data-spec="2560x1080"
+        data-priority="critical"
+      >
+        <div class="w-full h-full bg-gradient-to-br from-industrial-800 to-industrial-900"></div>
+      </div>
+      <div class="absolute inset-0 bg-grid-pattern bg-grid-size opacity-10"></div>
+      <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <a href={`/${locale}/industries`} class="text-industrial-400 text-xs uppercase tracking-widest hover:text-white mb-6 inline-block">
+          ← Industries
+        </a>
+        <h1 class="text-4xl md:text-6xl font-bold tracking-tighter mb-6 leading-[1.05]">
+          {ip('hero.title')}
+        </h1>
+        <p class="text-xl text-industrial-200 max-w-3xl leading-relaxed">
+          {ip('hero.subtitle')}
+        </p>
+      </div>
+    </section>
+
+    {/* ====================================================== */}
+    {/* EV SECTOR-SPECIFIC CONTENT                              */}
+    {/* ====================================================== */}
+    {i18nKey === 'ev' && (
+      <>
+        <!-- 4 Sub-Sectors -->
+        <section class="py-20 bg-white">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-12 uppercase">
+              {ip('subSectors.title')}
+            </h2>
+            <div class="grid md:grid-cols-2 gap-8">
+              {evSubSectors.map(({ key, data }) => (
+                <div class="border-l-4 border-accent-orange pl-6 py-2">
+                  <div class="flex items-baseline gap-3 mb-3">
+                    <span class="text-2xl">{data.icon || '⚡'}</span>
+                    <h3 class="text-xl font-bold tracking-tight text-industrial-900">{data.name}</h3>
+                  </div>
+                  <ul class="space-y-2 mb-4">
+                    {(data.apps || []).map((app: string) => (
+                      <li class="text-industrial-700 leading-relaxed text-sm">▸ {app}</li>
+                    ))}
+                  </ul>
+                  <p class="text-sm text-industrial-600 italic">
+                    <strong>Recommended compounds:</strong> {data.compounds}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <!-- Why Chemistry Wins -->
+        <section class="py-20 bg-industrial-50">
+          <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
+              {ip('whyChemistry.title')}
+            </h2>
+            <p class="text-lg text-industrial-700 mb-6">{ip('whyChemistry.intro')}</p>
+            <ul class="space-y-3 mb-8">
+              {evWhyPoints.map((point: string) => (
+                <li class="flex gap-3 text-industrial-700 leading-relaxed">
+                  <span class="text-accent-orange font-bold flex-shrink-0">▸</span>
+                  <span>{point}</span>
+                </li>
+              ))}
+            </ul>
+            <div class="bg-industrial-900 text-white p-6 border-l-4 border-accent-orange">
+              <p class="leading-relaxed">{ip('whyChemistry.edge')}</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Engagement -->
+        <section class="py-20 bg-white">
+          <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold tracking-tighter text-industrial-900 mb-8 uppercase">
+              {ip('engagement.title')}
+            </h2>
+            <div class="space-y-6">
+              <div class="border-l-4 border-green-500 pl-6 py-2">
+                <p class="text-industrial-700 leading-relaxed">{ip('engagement.drawings')}</p>
+              </div>
+              <div class="border-l-4 border-blue-500 pl-6 py-2">
+                <p class="text-industrial-700 leading-relaxed">{ip('engagement.application')}</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </>
+    )}
+
+    {/* ====================================================== */}
+    {/* INDUSTRIAL EQUIPMENT CONTENT                            */}
+    {/* ====================================================== */}
+    {i18nKey === 'industrial' && (
+      <>
+        <section class="py-20 bg-white">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-12 uppercase">
+              {ip('subSectors.title')}
+            </h2>
+            <div class="grid md:grid-cols-2 gap-8">
+              {industrialSubs.map((sub: { name: string; list: string[] }) => (
+                <div class="bg-industrial-50 p-8 border border-industrial-200">
+                  <h3 class="text-xl font-bold text-industrial-900 mb-4 tracking-tight">{sub.name}</h3>
+                  <ul class="space-y-2">
+                    {sub.list.map((item) => (
+                      <li class="text-industrial-700 text-sm">▸ {item}</li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section class="py-20 bg-industrial-50">
+          <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold tracking-tighter text-industrial-900 mb-8 uppercase">
+              {ip('whyUs.title')}
+            </h2>
+            <ul class="space-y-3">
+              {industrialWhy.map((item: string) => (
+                <li class="flex gap-3 text-industrial-700 leading-relaxed">
+                  <span class="text-accent-orange font-bold flex-shrink-0">▸</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      </>
+    )}
+
+    {/* ====================================================== */}
+    {/* SEMICONDUCTOR CONTENT                                   */}
+    {/* ====================================================== */}
+    {i18nKey === 'semiconductor' && (
+      <>
+        <section class="py-20 bg-white">
+          <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
+              {ip('engagement.title')}
+            </h2>
+            <p class="text-lg text-industrial-700 mb-8">{ip('engagement.intro')}</p>
+            <div class="space-y-6">
+              <div class="bg-industrial-50 border-l-4 border-green-500 p-6">
+                <h3 class="text-lg font-bold text-industrial-900 mb-2">{ip('engagement.fkm.label')}</h3>
+                <p class="text-industrial-700 leading-relaxed">{ip('engagement.fkm.desc')}</p>
+              </div>
+              <div class="bg-industrial-50 border-l-4 border-accent-orange p-6">
+                <h3 class="text-lg font-bold text-industrial-900 mb-2">{ip('engagement.ffkm.label')}</h3>
+                <p class="text-industrial-700 leading-relaxed">{ip('engagement.ffkm.desc')}</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="py-20 bg-industrial-50">
+          <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
+              {ip('whySingleLine.title')}
+            </h2>
+            <p class="text-industrial-700 leading-relaxed">{ip('whySingleLine.body')}</p>
+          </div>
+        </section>
+
+        <section class="py-20 bg-white">
+          <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
+              {ip('processCompat.title')}
+            </h2>
+            <p class="text-industrial-700 leading-relaxed">{ip('processCompat.body')}</p>
+          </div>
+        </section>
+      </>
+    )}
+
+    {/* ====================================================== */}
+    {/* AUTOMOTIVE TIER 2 CONTENT                              */}
+    {/* ====================================================== */}
+    {i18nKey === 'automotive' && (
+      <>
+        <section class="py-20 bg-white">
+          <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-10 uppercase">
+              {ip('whereWeFit.title')}
+            </h2>
+            <div class="grid md:grid-cols-2 gap-6">
+              <div class="bg-white border-2 border-green-500 p-8">
+                <h3 class="text-lg font-bold text-industrial-900 mb-4 uppercase">✅ Fit</h3>
+                <ul class="space-y-2">
+                  {autoFit.map((item: string) => (
+                    <li class="text-industrial-700 leading-relaxed text-sm">▸ {item}</li>
+                  ))}
+                </ul>
+              </div>
+              <div class="bg-white border-2 border-red-400 p-8">
+                <h3 class="text-lg font-bold text-industrial-900 mb-4 uppercase">❌ Not Fit</h3>
+                <ul class="space-y-2">
+                  {autoNotFit.map((item: string) => (
+                    <li class="text-industrial-700 leading-relaxed text-sm">▸ {item}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="py-20 bg-industrial-50">
+          <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
+              {ip('customerProfile.title')}
+            </h2>
+            <ul class="space-y-3">
+              {autoCustomer.map((item: string) => (
+                <li class="flex gap-3 text-industrial-700 leading-relaxed">
+                  <span class="text-accent-orange font-bold flex-shrink-0">▸</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      </>
+    )}
+
+    <!-- CTA (shared across all sectors) -->
+    <section class="py-20 bg-industrial-900 text-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <a
+          href={`/${locale}/contact`}
+          class="inline-block bg-accent-orange text-white px-10 py-5 font-bold tracking-widest uppercase hover:bg-white hover:text-industrial-900 transition-all duration-300"
+        >
+          {i18nKey === 'ev' && ip('ctaPrimary')}
+          {i18nKey === 'industrial' && ip('cta')}
+          {i18nKey === 'semiconductor' && ip('cta')}
+          {i18nKey === 'automotive' && ip('cta')}
+        </a>
+      </div>
+    </section>
+  </div>
+</LocaleLayout>

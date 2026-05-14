@@ -21,5 +21,6 @@ export default defineConfig({
     ssr: {
       noExternal: ['@sanity/client'],
     },
+    cacheDir: process.env.VITE_CACHE_DIR || undefined,
   },
 });

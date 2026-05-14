@@ -1,0 +1,197 @@
+---
+import LocaleLayout from '@/layouts/LocaleLayout.astro';
+import JsonLd from '@/components/JsonLd';
+import { getTranslations, t, tRaw } from '@/lib/i18n';
+import { createOrganizationSchema } from '@/lib/structuredData';
+import { createLocaleAlternates } from '@/lib/seoMetadata';
+
+export function getStaticPaths() {
+  return ['en', 'de', 'ja', 'es', 'zh'].map((locale) => ({ params: { locale } }));
+}
+
+const { locale } = Astro.params;
+const messages = await getTranslations(locale);
+const meta = messages?.metadata?.testing || {};
+const tx = (key: string, fallback = '') => t(messages, `testing.${key}`, fallback);
+
+const matrixColumns = tRaw(messages, 'testing.matrix.columns', []);
+const matrixRows = tRaw(messages, 'testing.matrix.rows', []);
+const customItems = tRaw(messages, 'testing.customProtocols.items', []);
+
+const alternates = createLocaleAlternates(locale!, '/testing');
+const orgSchema = createOrganizationSchema(locale!);
+---
+
+<LocaleLayout locale={locale}>
+  <Fragment slot="head">
+    <title>{meta.title || 'Testing & Validation | RubberQ'}</title>
+    <meta name="description" content={meta.description || ''} />
+    <link rel="canonical" href={alternates.canonical} />
+    {Object.entries(alternates.languages).map(([lang, url]) => (
+      <link rel="alternate" hreflang={lang} href={url} />
+    ))}
+    <JsonLd data={orgSchema} />
+  </Fragment>
+
+  <div class="bg-white">
+    <!-- ============================================================ -->
+    <!-- HERO                                                          -->
+    <!-- ============================================================ -->
+    <section class="relative bg-industrial-900 text-white overflow-hidden">
+      <div
+        class="absolute inset-0 opacity-25"
+        data-slot-id="testing-hero-bg"
+        data-purpose="实验室全景"
+        data-spec="2560x1080"
+        data-priority="important"
+      >
+        <div class="w-full h-full bg-gradient-to-br from-industrial-800 to-industrial-900 flex items-center justify-center">
+          <span class="text-industrial-600 text-xs uppercase tracking-widest">[IMAGE · testing-hero-bg] 实验室全景</span>
+        </div>
+      </div>
+      <div class="absolute inset-0 bg-grid-pattern bg-grid-size opacity-10"></div>
+
+      <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
+        <div class="max-w-4xl">
+          <div class="inline-block bg-accent-orange/10 border border-accent-orange/30 text-accent-orange px-3 py-1 text-xs font-bold tracking-widest uppercase mb-6">
+            {tx('hero.badge')}
+          </div>
+          <h1 class="text-4xl md:text-6xl font-bold tracking-tighter mb-6 leading-[1.05]">
+            {tx('hero.title')}
+          </h1>
+          <p class="text-xl text-industrial-200 max-w-3xl leading-relaxed">
+            {tx('hero.subtitle')}
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- TESTING CAPABILITY MATRIX                                     -->
+    <!-- ============================================================ -->
+    <section class="py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-12 uppercase">
+          {tx('matrix.title')}
+        </h2>
+
+        <div class="overflow-x-auto border border-industrial-200">
+          <table class="w-full">
+            <thead class="bg-industrial-900 text-white">
+              <tr>
+                {matrixColumns.map((col: string) => (
+                  <th class="text-left text-xs uppercase tracking-widest font-bold px-4 py-4">{col}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {matrixRows.map((row: any, idx: number) => (
+                <tr class={idx % 2 === 0 ? 'bg-white hover:bg-industrial-50' : 'bg-industrial-50 hover:bg-industrial-100'}>
+                  <td class="px-4 py-4 font-bold text-industrial-900 align-top">{row.equipment}</td>
+                  <td class="px-4 py-4 text-industrial-700 align-top">{row.test}</td>
+                  <td class="px-4 py-4 text-industrial-700 font-mono text-sm align-top whitespace-nowrap">{row.standards}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+
+        <p class="mt-6 text-sm text-industrial-600 italic">{tx('matrix.calibrationNote')}</p>
+
+        <!-- Equipment image gallery -->
+        <div class="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4">
+          {[1,2,3,4,5,6,7,8].map((i: number) => (
+            <div
+              class="aspect-square bg-industrial-100 border-2 border-dashed border-industrial-300 flex flex-col items-center justify-center text-center p-3"
+              data-slot-id={`testing-equipment-${i}`}
+              data-purpose={`测试设备特写 #${i}`}
+              data-spec="600x600"
+              data-priority="important"
+            >
+              <span class="text-[10px] uppercase tracking-widest text-industrial-400 mb-1">PLACEHOLDER</span>
+              <span class="text-xs text-industrial-600">设备特写 #{i}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- SAMPLE TEST REPORT                                            -->
+    <!-- ============================================================ -->
+    <section class="py-24 bg-industrial-50">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div
+            class="aspect-[800/1130] bg-white border-2 border-dashed border-industrial-300 flex flex-col items-center justify-center text-center p-6 max-w-md mx-auto"
+            data-slot-id="testing-report-thumbnail"
+            data-purpose="脱敏后的测试报告 PDF 缩略图"
+            data-spec="800x1130（A4 比例）"
+            data-priority="critical"
+          >
+            <span class="text-xs uppercase tracking-widest text-industrial-500 mb-2">PLACEHOLDER · testing-report-thumbnail</span>
+            <span class="text-sm text-industrial-700">脱敏测试报告 PDF</span>
+            <span class="text-xs text-industrial-500 mt-2">A4 / critical</span>
+          </div>
+
+          <div>
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
+              {tx('sampleReport.title')}
+            </h2>
+            <p class="text-industrial-700 leading-relaxed mb-8">
+              {tx('sampleReport.body')}
+            </p>
+            <a
+              href="/downloads/sample-test-report.pdf"
+              class="inline-block bg-industrial-900 text-white px-6 py-3 font-bold text-sm tracking-widest uppercase hover:bg-accent-orange transition-colors"
+            >
+              {tx('sampleReport.cta')} →
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- CUSTOM TESTING PROTOCOLS                                      -->
+    <!-- ============================================================ -->
+    <section class="py-24 bg-white">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
+          {tx('customProtocols.title')}
+        </h2>
+        <p class="text-lg text-industrial-700 mb-8">{tx('customProtocols.intro')}</p>
+
+        <ul class="space-y-4 mb-10">
+          {customItems.map((item: string) => (
+            <li class="flex gap-4 text-industrial-700 leading-relaxed">
+              <span class="text-accent-orange font-bold flex-shrink-0">▸</span>
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+
+        <a
+          href={`/${locale}/contact?type=application`}
+          class="inline-block bg-accent-orange text-white px-6 py-3 font-bold text-sm tracking-widest uppercase hover:bg-industrial-900 transition-colors"
+        >
+          {tx('customProtocols.cta')} →
+        </a>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- LINK TO QUALITY                                               -->
+    <!-- ============================================================ -->
+    <section class="py-12 bg-industrial-50 border-t border-industrial-100">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <a
+          href={`/${locale}/quality`}
+          class="inline-flex items-center gap-2 text-accent-orange font-bold uppercase text-sm tracking-widest hover:underline"
+        >
+          {tx('qualityLink')} →
+        </a>
+      </div>
+    </section>
+  </div>
+</LocaleLayout>
