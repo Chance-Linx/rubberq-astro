@@ -1,0 +1,16 @@
+Category,Keyword,Intent,Priority
+Product,"Custom Rubber Parts",Transactional,High
+Product,"Automotive Rubber Components",Transactional,High
+Product,"Precision Rubber Seals",Transactional,High
+Material,"FKM O-rings",Technical/Commercial,High
+Material,"EPDM Weatherstrips",Technical/Commercial,High
+Material,"NBR Fuel Hoses",Technical/Commercial,Medium
+Service,"Rubber Molding Services China",Transactional,High
+Service,"IATF 16949 Rubber Manufacturer",Trust/Transactional,High
+Service,"OEM Rubber Parts Supplier",Transactional,High
+Service,"Custom Silicone Gaskets",Transactional,Medium
+Technical,"Rubber Compound Development",Research,Medium
+Technical,"ASTM D2000 Rubber Classification",Research,Low
+Technical,"Oil Resistant Rubber Seals",Problem-Solving,High
+Technical,"High Temperature Rubber Diaphragms",Problem-Solving,High
+Company,"RubberQ Fuzhou",Branded,Medium
