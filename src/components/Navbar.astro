@@ -36,13 +36,9 @@ const nav = messages?.navigation || {};
              class="text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange transition-colors duration-200">
             {nav.products || 'Products'}
           </a>
-          <a href={`/${current}/compounding`}
+          <a href={`/${current}/case-studies`}
              class="text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange transition-colors duration-200">
-            {nav.compounding || 'Compounding & R&D'}
-          </a>
-          <a href={`/${current}/industries`}
-             class="text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange transition-colors duration-200">
-            {nav.industries || 'Industries'}
+            {nav.caseStudies || 'Case Studies'}
           </a>
           <a href={`/${current}/materials`}
              class="text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange transition-colors duration-200">
@@ -61,14 +57,8 @@ const nav = messages?.navigation || {};
                 <a href={`/${current}/resources`} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
                   {nav.resources || 'Resources'}
                 </a>
-                <a href={`/${current}/testing`} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
-                  {nav.testing || 'Testing & Validation'}
-                </a>
                 <a href={`/${current}/quality`} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
                   {nav.quality || 'Quality'}
-                </a>
-                <a href={`/${current}/case-studies`} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
-                  {nav.caseStudies || 'Case Studies'}
                 </a>
                 <a href={`/${current}/blog`} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
                   {nav.blog || 'Blog'}
@@ -171,14 +161,11 @@ const nav = messages?.navigation || {};
   <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-industrial-100">
     <div class="px-4 pt-2 pb-8 space-y-1">
       <a href={`/${current}/products`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.products || 'Products'}</a>
-      <a href={`/${current}/compounding`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-accent-orange border-b border-industrial-50">{nav.compounding || 'Compounding & R&D'}</a>
-      <a href={`/${current}/industries`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-accent-orange border-b border-industrial-50">{nav.industries || 'Industries'}</a>
+      <a href={`/${current}/case-studies`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.caseStudies || 'Case Studies'}</a>
       <a href={`/${current}/materials`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.materials || 'Materials'}</a>
       <div class="pt-4 pb-2 px-3 text-xs font-bold uppercase tracking-widest text-industrial-400 border-b border-industrial-100">{nav.resources || 'Resources'}</div>
       <a href={`/${current}/resources`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.resources || 'Resources'}</a>
-      <a href={`/${current}/testing`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.testing || 'Testing & Validation'}</a>
       <a href={`/${current}/quality`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.quality || 'Quality'}</a>
-      <a href={`/${current}/case-studies`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.caseStudies || 'Case Studies'}</a>
       <a href={`/${current}/blog`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.blog || 'Blog'}</a>
       <div class="pt-4 pb-2 px-3 text-xs font-bold uppercase tracking-widest text-industrial-400 border-b border-industrial-100">{nav.about || 'About Us'}</div>
       <a href={`/${current}/about`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.about || 'About Us'}</a>

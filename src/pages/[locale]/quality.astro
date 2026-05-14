@@ -314,7 +314,7 @@ const videoTestimonials = [
               {f('lab.description')}
             </p>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              {Array.isArray(labEquipment) && labEquipment.map((eq: {name: string, function: string, standards?: string, img: string}) => (
+              {Array.isArray(labEquipment) && labEquipment.map((eq: {name: string, function: string, img: string}) => (
                 <div class="flex flex-col gap-3 group">
                   <div class="aspect-video overflow-hidden border border-industrial-100 shadow-sm">
                     <img src={eq.img} alt={eq.name} class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
@@ -323,16 +323,12 @@ const videoTestimonials = [
                     <svg class="w-5 h-5 text-industrial-900 mt-1 shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
                     <div>
                       <span class="font-bold block text-sm">{eq.name}</span>
-                      <span class="text-xs text-industrial-500 block">{eq.function}</span>
-                      {eq.standards && <span class="text-xs font-mono text-accent-orange mt-1 inline-block">{eq.standards}</span>}
+                      <span class="text-xs text-industrial-500">{eq.function}</span>
                     </div>
                   </div>
                 </div>
               ))}
             </div>
-            <a href={`/${locale}/testing`} class="mt-8 inline-flex items-center gap-2 text-accent-orange font-bold uppercase text-xs tracking-widest hover:underline">
-              {f('lab.fullCapabilityLink', 'See full ASTM/ISO testing matrix')} →
-            </a>
           </div>
 
           <div class="bg-white p-8 shadow-xl border border-industrial-100">
@@ -368,33 +364,6 @@ const videoTestimonials = [
             ))}
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Why Single-Line Matters (v2) -->
-    <section class="py-20 px-4 bg-industrial-900 text-white">
-      <div class="max-w-5xl mx-auto">
-        <h2 class="text-3xl md:text-4xl font-bold tracking-tighter mb-6 uppercase">
-          {f('whySingleLine.title', 'Why We Run a Single A-Mixing Line')}
-        </h2>
-        <p class="text-lg text-industrial-300 mb-10">{f('whySingleLine.intro')}</p>
-        <div class="grid md:grid-cols-3 gap-6 mb-10">
-          <div class="border-l-2 border-accent-orange pl-6">
-            <span class="text-accent-orange text-3xl font-bold block mb-3">01</span>
-            <p class="leading-relaxed">{f('whySingleLine.point1')}</p>
-          </div>
-          <div class="border-l-2 border-accent-orange pl-6">
-            <span class="text-accent-orange text-3xl font-bold block mb-3">02</span>
-            <p class="leading-relaxed">{f('whySingleLine.point2')}</p>
-          </div>
-          <div class="border-l-2 border-accent-orange pl-6">
-            <span class="text-accent-orange text-3xl font-bold block mb-3">03</span>
-            <p class="leading-relaxed">{f('whySingleLine.point3')}</p>
-          </div>
-        </div>
-        <a href={`/${locale}/compounding`} class="inline-flex items-center gap-2 text-accent-orange font-bold uppercase text-sm tracking-widest hover:underline">
-          {f('whySingleLine.link', 'See our compounding capabilities in detail')} →
-        </a>
       </div>
     </section>
 

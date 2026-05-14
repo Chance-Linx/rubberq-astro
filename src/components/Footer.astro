@@ -16,20 +16,10 @@ try {
 }
 const footer = messages?.footer || {};
 const nav = messages?.navigation || {};
-const tagline = messages?.footerTagline || 'Japanese Formulation. Chinese Precision. Trusted Since 1995.';
 ---
 
-<footer class="bg-industrial-900 text-industrial-100 pt-0 pb-8 border-t border-industrial-800">
-  <!-- v2 Tagline banner -->
-  <div class="bg-gradient-to-r from-industrial-900 via-industrial-800 to-industrial-900 border-b border-industrial-700 py-8">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <p class="text-xl md:text-2xl font-bold text-white tracking-tight italic">
-        "{tagline}"
-      </p>
-    </div>
-  </div>
-
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
+<footer class="bg-industrial-900 text-industrial-100 pt-16 pb-8 border-t border-industrial-800">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
       <div class="col-span-1 md:col-span-1">
         <a href={`/${current}`} class="text-2xl font-bold tracking-tighter mb-4 block text-white">
@@ -45,15 +35,13 @@ const tagline = messages?.footerTagline || 'Japanese Formulation. Chinese Precis
           {footer.technicalHub || 'Technical Hub'}
         </h4>
         <ul class="space-y-4 text-sm text-industrial-400">
-          <li><a href={`/${current}/compounding`} class="hover:text-accent-orange transition-colors font-bold">{nav.compounding || 'Compounding & R&D'}</a></li>
-          <li><a href={`/${current}/testing`} class="hover:text-white transition-colors">{nav.testing || 'Testing & Validation'}</a></li>
           <li><a href={`/${current}/materials`} class="hover:text-white transition-colors">{footer.materialHub || 'Material Hub'}</a></li>
-          <li><a href={`/${current}/industries`} class="hover:text-white transition-colors">{nav.industries || 'Industries'}</a></li>
           <li><a href={`/${current}/quality`} class="hover:text-white transition-colors">{footer.qualityAssurance || 'Quality Assurance'}</a></li>
           <li><a href={`/${current}/standards`} class="hover:text-white transition-colors">{footer.industryStandards || 'Industry Standards'}</a></li>
           <li><a href={`/${current}/resources`} class="hover:text-white transition-colors">{nav.resources || 'Resources'}</a></li>
           <li><a href={`/${current}/case-studies`} class="hover:text-white transition-colors">{nav.caseStudies || 'Case Studies'}</a></li>
           <li><a href={`/${current}/blog`} class="hover:text-white transition-colors">{nav.blog || 'Blog'}</a></li>
+          <li><a href={`/${current}/search`} class="hover:text-white transition-colors">{nav.search || 'Search'}</a></li>
         </ul>
       </div>
 

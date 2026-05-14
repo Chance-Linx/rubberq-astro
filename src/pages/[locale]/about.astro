@@ -1,224 +1,148 @@
 ---
 import LocaleLayout from '@/layouts/LocaleLayout.astro';
-import JsonLd from '@/components/JsonLd';
-import { getTranslations, t, tRaw } from '@/lib/i18n';
-import { createOrganizationSchema } from '@/lib/structuredData';
-import { createLocaleAlternates } from '@/lib/seoMetadata';
+import { getTranslations, t } from '@/lib/i18n';
 
 export function getStaticPaths() {
-  return ['en', 'de', 'ja', 'es', 'zh'].map((locale) => ({ params: { locale } }));
+  return ['en','de','ja','es','zh'].map(locale => ({ params: { locale } }));
 }
 
 const { locale } = Astro.params;
 const messages = await getTranslations(locale);
 const meta = messages?.metadata || {};
 const a = (key: string, fallback = '') => t(messages, `about.${key}`, fallback);
-const av2 = (key: string, fallback = '') => t(messages, `aboutV2.${key}`, fallback);
-
-const notFitItems = tRaw(messages, 'aboutV2.whatWeDontDo.notFitItems', []);
-const rightFitItems = tRaw(messages, 'aboutV2.whatWeDontDo.rightFitItems', []);
-
-const alternates = createLocaleAlternates(locale!, '/about');
-const orgSchema = createOrganizationSchema(locale!);
 
 const factoryScenes = [
-  { titleKey: 'scenes.injection.title', descKey: 'scenes.injection.desc', slotId: 'about-scene-injection' },
-  { titleKey: 'scenes.rnd.title', descKey: 'scenes.rnd.desc', slotId: 'about-scene-rnd' },
-  { titleKey: 'scenes.qc.title', descKey: 'scenes.qc.desc', slotId: 'about-scene-qc' },
-  { titleKey: 'scenes.logistics.title', descKey: 'scenes.logistics.desc', slotId: 'about-scene-logistics' },
+  {
+    title: a('scenes.injection.title'),
+    description: a('scenes.injection.desc'),
+    img: "/images/legacy/workshop-1.webp",
+    alt: "Injection molding factory floor"
+  },
+  {
+    title: a('scenes.rnd.title'),
+    description: a('scenes.rnd.desc'),
+    img: "/images/legacy/rnd-1.webp",
+    alt: "Rubber material testing lab"
+  },
+  {
+    title: a('scenes.qc.title'),
+    description: a('scenes.qc.desc'),
+    img: "/images/legacy/workshop-2.webp",
+    alt: "Quality inspection process"
+  },
+  {
+    title: a('scenes.logistics.title'),
+    description: a('scenes.logistics.desc'),
+    img: "/images/legacy/workshop-3.webp",
+    alt: "Factory warehouse and logistics"
+  }
 ];
 ---
 
 <LocaleLayout locale={locale}>
   <Fragment slot="head">
-    <title>{meta.about?.title || 'Our Heritage | RubberQ'}</title>
+    <title>{meta.about?.title || 'About RubberQ | RubberQ'}</title>
     <meta name="description" content={meta.about?.description || ''} />
-    <link rel="canonical" href={alternates.canonical} />
-    {Object.entries(alternates.languages).map(([lang, url]) => (
-      <link rel="alternate" hreflang={lang} href={url} />
-    ))}
-    <JsonLd data={orgSchema} />
   </Fragment>
 
   <div class="bg-white min-h-screen">
-    <!-- ============================================================ -->
-    <!-- HERO                                                          -->
-    <!-- ============================================================ -->
-    <section class="relative bg-industrial-900 text-white py-32 overflow-hidden">
-      <div
-        class="absolute inset-0 opacity-25"
-        data-slot-id="about-hero-bg"
-        data-purpose="工厂建筑外景 / 创始期老照片拼贴"
-        data-spec="1920x1080"
-        data-priority="important"
-      >
-        <div class="w-full h-full bg-gradient-to-br from-industrial-800 to-industrial-900"></div>
-      </div>
-      <div class="absolute inset-0 bg-grid-pattern bg-grid-size opacity-10"></div>
-
-      <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 class="text-4xl md:text-6xl font-bold mb-6 tracking-tighter">{a('title', 'Our Heritage')}</h1>
-        <p class="text-xl text-industrial-200 max-w-3xl leading-relaxed">
-          {av2('subtitleV2')}
+    <!-- Hero Section -->
+    <section class="bg-industrial-900 text-white py-24 px-4">
+      <div class="max-w-7xl mx-auto">
+        <h1 class="text-4xl md:text-6xl font-bold mb-6">{a('title')}</h1>
+        <p class="text-xl text-industrial-300 max-w-2xl">
+          {a('subtitle')}
         </p>
       </div>
     </section>
 
-    <!-- ============================================================ -->
-    <!-- HERITAGE QUOTE                                                -->
-    <!-- ============================================================ -->
-    <section class="py-20 bg-industrial-50">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <p class="text-2xl md:text-4xl font-bold text-industrial-900 italic leading-tight tracking-tight">
-          "{av2('heroQuote')}"
-        </p>
-      </div>
-    </section>
-
-    <!-- ============================================================ -->
-    <!-- DUAL-BRAIN MODEL                                              -->
-    <!-- ============================================================ -->
-    <section class="py-24 bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-16 uppercase text-center">
-          {av2('dualBrain.title')}
-        </h2>
-
-        <div class="grid md:grid-cols-3 gap-8 mb-12">
-          <!-- Japan -->
-          <div class="text-center p-8 border border-industrial-200 hover:border-accent-orange transition-colors">
-            <div
-              class="w-32 h-32 mx-auto mb-6 bg-industrial-100 flex flex-col items-center justify-center border-2 border-dashed border-industrial-300 text-xs"
-              data-slot-id="about-dual-brain-japan"
-              data-purpose="Dual-Brain 板块 日方研发图标/插画或会议照"
-              data-spec="400x400"
-              data-priority="important"
-            >
-              <span class="text-4xl mb-1">{av2('dualBrain.japan.icon')}</span>
-              <span class="text-industrial-500">[placeholder]</span>
+    <!-- Corporate Video Section -->
+    <section class="py-20 px-4 bg-industrial-50">
+      <div class="max-w-7xl mx-auto">
+        <div class="relative aspect-video bg-industrial-200 group cursor-pointer overflow-hidden rounded-lg shadow-2xl">
+          <!-- Placeholder Image for Video -->
+          <img
+            src="/images/legacy/workshop-4.webp"
+            alt="RubberQ Corporate Video Placeholder"
+            width="1600"
+            height="900"
+            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 1200px"
+          />
+          <div class="absolute inset-0 bg-black/40 flex items-center justify-center">
+            <div class="text-center">
+              <div class="w-20 h-20 bg-accent-orange rounded-full flex items-center justify-center mb-4 mx-auto shadow-lg group-hover:scale-110 transition-transform">
+                <svg class="w-8 h-8 text-white fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+              <h3 class="text-2xl font-bold text-white uppercase tracking-widest">{a('watchVideo')}</h3>
+              <p class="text-industrial-200 mt-2">{a('videoDuration')}</p>
             </div>
-            <h3 class="text-lg font-bold tracking-widest text-accent-orange mb-3 uppercase">{av2('dualBrain.japan.label')}</h3>
-            <p class="text-industrial-700 leading-relaxed">{av2('dualBrain.japan.body')}</p>
           </div>
-
-          <!-- China -->
-          <div class="text-center p-8 border border-industrial-200 hover:border-accent-orange transition-colors">
-            <div
-              class="w-32 h-32 mx-auto mb-6 bg-industrial-100 flex flex-col items-center justify-center border-2 border-dashed border-industrial-300 text-xs"
-              data-slot-id="about-dual-brain-china"
-              data-purpose="Dual-Brain 板块 中方制造图标/车间俯瞰"
-              data-spec="400x400"
-              data-priority="important"
-            >
-              <span class="text-4xl mb-1">{av2('dualBrain.china.icon')}</span>
-              <span class="text-industrial-500">[placeholder]</span>
-            </div>
-            <h3 class="text-lg font-bold tracking-widest text-accent-orange mb-3 uppercase">{av2('dualBrain.china.label')}</h3>
-            <p class="text-industrial-700 leading-relaxed">{av2('dualBrain.china.body')}</p>
-          </div>
-
-          <!-- Lab -->
-          <div class="text-center p-8 border border-industrial-200 hover:border-accent-orange transition-colors">
-            <div
-              class="w-32 h-32 mx-auto mb-6 bg-industrial-100 flex flex-col items-center justify-center border-2 border-dashed border-industrial-300 text-xs"
-              data-slot-id="about-dual-brain-lab"
-              data-purpose="Dual-Brain 板块 自有实验室图标/仪器照"
-              data-spec="400x400"
-              data-priority="important"
-            >
-              <span class="text-4xl mb-1">{av2('dualBrain.lab.icon')}</span>
-              <span class="text-industrial-500">[placeholder]</span>
-            </div>
-            <h3 class="text-lg font-bold tracking-widest text-accent-orange mb-3 uppercase">{av2('dualBrain.lab.label')}</h3>
-            <p class="text-industrial-700 leading-relaxed">{av2('dualBrain.lab.body')}</p>
-          </div>
-        </div>
-
-        <div class="bg-industrial-900 text-white p-8 border-l-4 border-accent-orange max-w-5xl mx-auto">
-          <p class="text-lg leading-relaxed italic">{av2('dualBrain.caption')}</p>
         </div>
       </div>
     </section>
 
-    <!-- ============================================================ -->
-    <!-- CORPORATE VIDEO                                               -->
-    <!-- ============================================================ -->
-    <section class="py-20 bg-industrial-50">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div
-          class="relative aspect-video bg-industrial-200 border-2 border-dashed border-industrial-300 flex flex-col items-center justify-center cursor-pointer overflow-hidden"
-          data-slot-id="about-corporate-video"
-          data-purpose="Watch Corporate Video 嵌入视频（用户已有素材）"
-          data-spec="MP4，3-5 分钟工厂全流程介绍"
-          data-priority="critical"
-        >
-          <div class="w-20 h-20 bg-accent-orange rounded-full flex items-center justify-center mb-4 shadow-lg">
-            <svg class="w-8 h-8 text-white fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-              <path d="M8 5v14l11-7z" />
-            </svg>
-          </div>
-          <h3 class="text-2xl font-bold text-industrial-900 uppercase tracking-widest">{a('watchVideo')}</h3>
-          <p class="text-industrial-600 mt-2 text-sm">[VIDEO PLACEHOLDER · about-corporate-video · 用户已有素材]</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================================ -->
-    <!-- HERITAGE TEXT + STATS                                          -->
-    <!-- ============================================================ -->
-    <section class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <!-- History & Stats -->
+    <section class="py-20 px-4 max-w-7xl mx-auto">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         <div>
-          <p class="text-lg text-industrial-700 mb-6 leading-relaxed">
-            {av2('heritageText1V2')}
+          <h2 class="text-3xl font-bold mb-6 italic">{a('heritageQuote')}</h2>
+          <p class="text-lg text-industrial-600 mb-6">
+            {a('heritageText1')}
           </p>
-          <p class="text-lg text-industrial-700 leading-relaxed">
-            {av2('heritageText2V2')}
+          <p class="text-lg text-industrial-600">
+            {a('heritageText2')}
           </p>
         </div>
         <div class="grid grid-cols-2 gap-4">
           <div class="p-8 bg-industrial-50 border border-industrial-100 text-center">
-            <span class="text-4xl font-bold text-industrial-900 block mb-2">{av2('stats.years')}</span>
-            <span class="text-sm font-bold uppercase text-industrial-500">{av2('stats.yearsLabel')}</span>
+            <span class="text-4xl font-bold text-industrial-900 block mb-2">30+</span>
+            <span class="text-sm font-bold uppercase text-industrial-500">{a('stats.years')}</span>
           </div>
           <div class="p-8 bg-industrial-50 border border-industrial-100 text-center">
-            <span class="text-4xl font-bold text-industrial-900 block mb-2">{av2('stats.factoryArea')}</span>
-            <span class="text-sm font-bold uppercase text-industrial-500">{av2('stats.factoryAreaLabel')}</span>
+            <span class="text-4xl font-bold text-industrial-900 block mb-2">20k+</span>
+            <span class="text-sm font-bold uppercase text-industrial-500">{a('stats.factory')}</span>
           </div>
           <div class="p-8 bg-industrial-50 border border-industrial-100 text-center">
             <span class="text-4xl font-bold text-industrial-900 block mb-2">IATF</span>
-            <span class="text-sm font-bold uppercase text-industrial-500">{av2('stats.iatfLabel')}</span>
+            <span class="text-sm font-bold uppercase text-industrial-500">{a('stats.certified')}</span>
           </div>
           <div class="p-8 bg-industrial-50 border border-industrial-100 text-center">
-            <span class="text-4xl font-bold text-industrial-900 block mb-2">{av2('stats.jpEngineers')}</span>
-            <span class="text-xs font-bold uppercase text-industrial-500 leading-tight">{av2('stats.jpEngineersLabel')}</span>
+            <span class="text-4xl font-bold text-industrial-900 block mb-2">Top 5</span>
+            <span class="text-sm font-bold uppercase text-industrial-500">{a('stats.partners')}</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ============================================================ -->
-    <!-- FACTORY SCENES                                                 -->
-    <!-- ============================================================ -->
-    <section class="py-20 bg-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-bold uppercase tracking-tight mb-12">{a('manufacturing', 'Manufacturing Excellence')}</h2>
+    <!-- Factory Scenes Gallery -->
+    <section class="py-20 px-4 bg-white">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex items-center gap-3 mb-12">
+          <svg class="w-8 h-8 text-industrial-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+            <circle cx="12" cy="13" r="4"/>
+          </svg>
+          <h2 class="text-3xl font-bold uppercase tracking-tight">{a('manufacturing')}</h2>
+        </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {factoryScenes.map((scene) => (
+          {factoryScenes.map((scene, idx) => (
             <div class="group border border-industrial-100 overflow-hidden bg-industrial-50">
-              <div
-                class="aspect-[4/3] bg-industrial-100 border-b border-dashed border-industrial-300 flex flex-col items-center justify-center text-center p-3"
-                data-slot-id={scene.slotId}
-                data-purpose={a(scene.titleKey)}
-                data-spec="1200x800"
-                data-priority="important"
-              >
-                <span class="text-[10px] uppercase tracking-widest text-industrial-400">PLACEHOLDER</span>
-                <span class="text-xs text-industrial-600 mt-1">{scene.slotId}</span>
+              <div class="aspect-[4/3] overflow-hidden">
+                <img
+                  src={scene.img}
+                  alt={scene.alt}
+                  width="800"
+                  height="600"
+                  class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                />
               </div>
               <div class="p-6">
-                <h4 class="font-bold text-lg mb-2">{a(scene.titleKey)}</h4>
-                <p class="text-sm text-industrial-600 leading-relaxed">{a(scene.descKey)}</p>
+                <h4 class="font-bold text-lg mb-2">{scene.title}</h4>
+                <p class="text-sm text-industrial-600 leading-relaxed">{scene.description}</p>
               </div>
             </div>
           ))}
@@ -229,89 +153,35 @@ const factoryScenes = [
       </div>
     </section>
 
-    <!-- ============================================================ -->
-    <!-- WHAT WE DON'T DO                                              -->
-    <!-- ============================================================ -->
-    <section class="py-24 bg-industrial-50">
-      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-12 uppercase text-center">
-          {av2('whatWeDontDo.title')}
-        </h2>
-
-        <div class="grid md:grid-cols-2 gap-6">
-          <div class="bg-white border-2 border-amber-500 p-8">
-            <h3 class="text-lg font-bold text-industrial-900 mb-4 uppercase">
-              <span class="text-amber-600 mr-2">⚠</span>
-              {av2('whatWeDontDo.notFitTitle')}
-            </h3>
-            <ul class="space-y-3">
-              {notFitItems.map((item: string) => (
-                <li class="flex gap-3 text-industrial-700 leading-relaxed">
-                  <span class="text-amber-600 flex-shrink-0">▸</span>
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div class="bg-white border-2 border-green-500 p-8">
-            <h3 class="text-lg font-bold text-industrial-900 mb-4 uppercase">
-              <span class="text-green-600 mr-2">✅</span>
-              {av2('whatWeDontDo.rightFitTitle')}
-            </h3>
-            <ul class="space-y-3">
-              {rightFitItems.map((item: string) => (
-                <li class="flex gap-3 text-industrial-700 leading-relaxed">
-                  <span class="text-green-600 flex-shrink-0">▸</span>
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-
-        <div class="text-center mt-10">
-          <a
-            href={`/${locale}/contact`}
-            class="inline-block bg-industrial-900 text-white px-8 py-4 font-bold text-sm tracking-widest uppercase hover:bg-accent-orange transition-colors"
-          >
-            {av2('whatWeDontDo.cta')} →
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============================================================ -->
-    <!-- CORE VALUES (preserved from v1)                                -->
-    <!-- ============================================================ -->
-    <section class="py-20 bg-industrial-900 text-white">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-3xl font-bold mb-12 uppercase tracking-widest">{a('coreValues', 'Core Values')}</h2>
+    <!-- Core Values -->
+    <section class="py-20 px-4 bg-industrial-900 text-white">
+      <div class="max-w-7xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-12 uppercase tracking-widest">{a('coreValues')}</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
             <svg class="w-12 h-12 mx-auto mb-6 text-accent-orange" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10" />
-              <circle cx="12" cy="12" r="6" />
-              <circle cx="12" cy="12" r="2" />
+              <circle cx="12" cy="12" r="10"/>
+              <circle cx="12" cy="12" r="6"/>
+              <circle cx="12" cy="12" r="2"/>
             </svg>
             <h4 class="text-xl font-bold mb-4">{a('values.precision.title')}</h4>
             <p class="text-industrial-400">{a('values.precision.desc')}</p>
           </div>
           <div>
             <svg class="w-12 h-12 mx-auto mb-6 text-accent-orange" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-              <circle cx="9" cy="7" r="4" />
-              <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
-              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
             </svg>
             <h4 class="text-xl font-bold mb-4">{a('values.partnership.title')}</h4>
             <p class="text-industrial-400">{a('values.partnership.desc')}</p>
           </div>
           <div>
             <svg class="w-12 h-12 mx-auto mb-6 text-accent-orange" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10" />
-              <line x1="2" y1="12" x2="22" y2="12" />
-              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="2" y1="12" x2="22" y2="12"/>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
             </svg>
             <h4 class="text-xl font-bold mb-4">{a('values.sustainability.title')}</h4>
             <p class="text-industrial-400">{a('values.sustainability.desc')}</p>

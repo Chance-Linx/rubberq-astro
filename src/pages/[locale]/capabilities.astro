@@ -97,30 +97,6 @@ const processes = [
                 </div>
               ))}
             </div>
-
-            {/* Insert Single-Line callout after Phase 2 (A-Mixing / Masterbatching) */}
-            {phaseIdx === 1 && (
-              <div class="mt-12 bg-industrial-900 text-white p-8 md:p-10 border-l-4 border-accent-orange">
-                <div class="flex flex-col md:flex-row gap-6 items-start">
-                  <div class="flex-shrink-0 w-16 h-16 bg-accent-orange flex items-center justify-center rounded-sm">
-                    <svg class="w-8 h-8 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                    </svg>
-                  </div>
-                  <div class="flex-grow">
-                    <h3 class="text-xl md:text-2xl font-bold tracking-tight mb-3 uppercase">
-                      {_('singleLineCallout.title', 'Single Line, Zero Cross-Contamination')}
-                    </h3>
-                    <p class="text-industrial-200 leading-relaxed mb-4">
-                      {_('singleLineCallout.body')}
-                    </p>
-                    <a href={`/${locale}/compounding`} class="inline-flex items-center gap-2 text-accent-orange font-bold uppercase text-sm tracking-widest hover:underline">
-                      {_('singleLineCallout.cta', 'Learn more about our compounding strategy')} →
-                    </a>
-                  </div>
-                </div>
-              </div>
-            )}
           </div>
         ))}
       </div>
