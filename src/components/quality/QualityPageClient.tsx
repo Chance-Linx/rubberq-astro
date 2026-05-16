@@ -45,9 +45,9 @@ function CertificateCard({
   expiresText: string;
 }) {
   const statusColors = {
-    active: 'bg-green-100 text-green-800',
-    expiring: 'bg-yellow-100 text-yellow-800',
-    expired: 'bg-red-100 text-red-800'
+    active: 'bg-industrial-100 text-industrial-700',
+    expiring: 'bg-industrial-100 text-industrial-700',
+    expired: 'bg-industrial-100 text-industrial-700'
   };
 
   return (

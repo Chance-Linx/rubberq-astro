@@ -2,10 +2,7 @@
 
 import { FormEvent, useEffect, useRef, useState } from 'react';
 import { Loader2, Send, CheckCircle, XCircle } from 'lucide-react';
-import { gaEvents } from '../GoogleAnalytics';
-// Stub — lib/inquiryTracking not yet migrated
-const buildFieldPriorityPayload = () => ({});
-const collectSourceTracking = () => ({});
+import { buildFieldPriorityPayload, collectSourceTracking } from '../../lib/inquiryTracking';
 
 interface SampleRequestLabels {
   name: string;
@@ -229,21 +226,21 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
       />
 
       {status === 'success' && (
-        <div className="bg-green-50 border border-green-200 p-4 flex items-start gap-3">
-          <CheckCircle className="w-5 h-5 text-green-600 mt-0.5" />
+        <div className="bg-industrial-50 border border-industrial-200 p-4 flex items-start gap-3">
+          <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5" />
           <div>
-            <p className="font-bold text-green-900">{labels.success}</p>
-            <p className="text-sm text-green-700">{labels.successMessage}</p>
+            <p className="font-bold text-industrial-900">{labels.success}</p>
+            <p className="text-sm text-industrial-700">{labels.successMessage}</p>
           </div>
         </div>
       )}
 
       {status === 'error' && (
-        <div className="bg-red-50 border border-red-200 p-4 flex items-start gap-3">
-          <XCircle className="w-5 h-5 text-red-600 mt-0.5" />
+        <div className="bg-industrial-50 border border-accent-orange p-4 flex items-start gap-3">
+          <XCircle className="w-5 h-5 text-accent-orange mt-0.5" />
           <div>
-            <p className="font-bold text-red-900">{labels.error}</p>
-            <p className="text-sm text-red-700">{errorMsg || labels.errorMessage}</p>
+            <p className="font-bold text-industrial-900">{labels.error}</p>
+            <p className="text-sm text-industrial-700">{errorMsg || labels.errorMessage}</p>
           </div>
         </div>
       )}

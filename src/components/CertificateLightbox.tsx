@@ -45,9 +45,9 @@ export default function CertificateLightbox({ certificate, isOpen, onClose }: Ce
   if (!isOpen || !certificate) return null;
 
   const statusColors = {
-    active: 'bg-green-100 text-green-800 border-green-200',
-    expiring: 'bg-yellow-100 text-yellow-800 border-yellow-200',
-    expired: 'bg-red-100 text-red-800 border-red-200'
+    active: 'bg-industrial-100 text-industrial-700 border-industrial-200',
+    expiring: 'bg-industrial-100 text-industrial-700 border-industrial-200',
+    expired: 'bg-industrial-100 text-industrial-700 border-accent-orange'
   };
 
   const statusLabels = {
@@ -137,8 +137,8 @@ export default function CertificateLightbox({ certificate, isOpen, onClose }: Ce
                     <span className="font-medium uppercase tracking-wider">Expires</span>
                   </div>
                   <p className={`font-semibold ${
-                    certificate.status === 'expiring' ? 'text-yellow-600' : 
-                    certificate.status === 'expired' ? 'text-red-600' : 'text-industrial-900'
+                    certificate.status === 'expiring' ? 'text-accent-orange' :
+                    certificate.status === 'expired' ? 'text-accent-orange' : 'text-industrial-900'
                   }`}>
                     {certificate.expiryDate}
                   </p>

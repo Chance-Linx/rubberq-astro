@@ -186,15 +186,15 @@ const orgSchema = createOrganizationSchema(locale!);
 
         <div class="grid md:grid-cols-2 gap-6">
           <!-- Great fit -->
-          <div class="bg-white border-2 border-green-500 p-8">
+          <div class="bg-white border-2 border-accent-orange p-8">
             <div class="flex items-baseline gap-2 mb-6">
-              <span class="text-green-600 text-2xl">✅</span>
+              <span class="text-accent-orange text-2xl">✅</span>
               <h3 class="text-xl font-bold text-industrial-900 uppercase tracking-tight">{h('goodFit.fitTitle')}</h3>
             </div>
             <ul class="space-y-3">
               {fitItems.map((item: string) => (
                 <li class="flex gap-3 text-industrial-700 leading-relaxed">
-                  <span class="text-green-600 font-bold flex-shrink-0">▸</span>
+                  <span class="text-accent-orange font-bold flex-shrink-0">▸</span>
                   <span>{item}</span>
                 </li>
               ))}
@@ -202,15 +202,15 @@ const orgSchema = createOrganizationSchema(locale!);
           </div>
 
           <!-- Not fit -->
-          <div class="bg-white border-2 border-amber-500 p-8">
+          <div class="bg-white border-2 border-accent-orange p-8">
             <div class="flex items-baseline gap-2 mb-6">
-              <span class="text-amber-600 text-2xl">⚠</span>
+              <span class="text-accent-orange text-2xl">⚠</span>
               <h3 class="text-xl font-bold text-industrial-900 uppercase tracking-tight">{h('goodFit.notFitTitle')}</h3>
             </div>
             <ul class="space-y-3">
               {notFitItems.map((item: string) => (
                 <li class="flex gap-3 text-industrial-700 leading-relaxed">
-                  <span class="text-amber-600 font-bold flex-shrink-0">▸</span>
+                  <span class="text-accent-orange font-bold flex-shrink-0">▸</span>
                   <span>{item}</span>
                 </li>
               ))}

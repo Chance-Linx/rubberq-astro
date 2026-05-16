@@ -239,30 +239,30 @@ const factoryScenes = [
         </h2>
 
         <div class="grid md:grid-cols-2 gap-6">
-          <div class="bg-white border-2 border-amber-500 p-8">
+          <div class="bg-white border-2 border-accent-orange p-8">
             <h3 class="text-lg font-bold text-industrial-900 mb-4 uppercase">
-              <span class="text-amber-600 mr-2">⚠</span>
+              <span class="text-accent-orange mr-2">⚠</span>
               {av2('whatWeDontDo.notFitTitle')}
             </h3>
             <ul class="space-y-3">
               {notFitItems.map((item: string) => (
                 <li class="flex gap-3 text-industrial-700 leading-relaxed">
-                  <span class="text-amber-600 flex-shrink-0">▸</span>
+                  <span class="text-accent-orange flex-shrink-0">▸</span>
                   <span>{item}</span>
                 </li>
               ))}
             </ul>
           </div>
 
-          <div class="bg-white border-2 border-green-500 p-8">
+          <div class="bg-white border-2 border-accent-orange p-8">
             <h3 class="text-lg font-bold text-industrial-900 mb-4 uppercase">
-              <span class="text-green-600 mr-2">✅</span>
+              <span class="text-accent-orange mr-2">✅</span>
               {av2('whatWeDontDo.rightFitTitle')}
             </h3>
             <ul class="space-y-3">
               {rightFitItems.map((item: string) => (
                 <li class="flex gap-3 text-industrial-700 leading-relaxed">
-                  <span class="text-green-600 flex-shrink-0">▸</span>
+                  <span class="text-accent-orange flex-shrink-0">▸</span>
                   <span>{item}</span>
                 </li>
               ))}

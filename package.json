@@ -6,9 +6,10 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro build && wrangler pages dev dist",
-    "deploy": "astro build && wrangler pages deploy dist --project-name=rubberq-site"
+    "check:brand-colors": "node scripts/check-brand-colors.mjs",
+    "build": "npm run check:brand-colors && astro build",
+    "preview": "npm run check:brand-colors && astro build && wrangler pages dev dist",
+    "deploy": "npm run check:brand-colors && astro build && wrangler pages deploy dist --project-name=rubberq-site"
   },
   "dependencies": {
     "@astrojs/check": "^0.9",

@@ -217,7 +217,7 @@ const nav = messages?.navigation || {};
   });
   document.addEventListener('click', (e) => {
     const sw = document.getElementById('lang-switcher');
-    if (sw && !sw.contains(e.target as Node)) {
+    if (sw && e.target instanceof Node && !sw.contains(e.target)) {
       langDropdown?.classList.add('hidden');
     }
   });

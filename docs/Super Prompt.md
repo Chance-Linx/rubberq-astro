@@ -226,3 +226,28 @@ RubberQ（福州 RubberQ 橡胶有限公司）全球化外贸与品牌独立站�
 - 更新日期：2026-05-11
 - 更新人：Claude（基于 Claude 讨论.md 四轮战略对话整理）
 - 后续追加规则：本节为 v2 强制口径。新认知请按日期追加到文末，不覆盖本节。
+
+---
+
+## 2026-05-16 品牌配色锁定（覆盖性补丁）
+
+> 本节追加于 2026-05-16，用于锁定 RubberQ 官网视觉配色。与上方旧设计系统或任何改版草稿冲突时，以本节为准。
+
+### 配色只允许四类
+
+1. **Brand Orange**: `#F97316`，只用于 CTA、链接、active state、关键强调线。
+2. **Rubber Black**: `#0A0A0A`，用于正文前景、深色 hero/footer、品牌黑。
+3. **White**: `#FFFFFF`，用于页面底色和反白文字。
+4. **Neutral Rubber Grayscale**: `industrial.50 … 950`，必须是中性黑灰阶，不得带 Slate/Blue/Navy 偏色。
+
+### 禁止项
+
+- 不得使用深蓝、Slate、Navy、Blue 作为页面底色、正文色、卡片色或辅助色。
+- 不得新增 `blue/slate/indigo/cyan/sky/purple/green/red/yellow/amber/gray` 等 Tailwind 语义色类作为页面视觉配色。
+- 成功、错误、警告等状态提示也不得引入红绿黄语义色；统一用橙色强调 + 黑灰层级 + 文案/图标表达状态。
+
+### 执行规则
+
+- `tailwind.config.js` 是唯一品牌色板来源。
+- `npm run build` 必须先通过 `npm run check:brand-colors`。
+- 后续任何改版、组件新增、页面新增，必须保持 Brand Orange + Rubber Black + 白色 + 中性黑灰阶，不得绕过品牌色检查脚本。

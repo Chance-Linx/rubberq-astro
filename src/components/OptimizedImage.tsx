@@ -35,7 +35,7 @@ export default function OptimizedImage({
         <div
           className="absolute inset-0 animate-pulse bg-industrial-100"
           style={{
-            background: 'linear-gradient(90deg, #f0f0f0 0%, #e5e7eb 50%, #f0f0f0 100%)',
+            background: 'linear-gradient(90deg, #f5f5f5 0%, #e5e5e5 50%, #f5f5f5 100%)',
           }}
         />
       )}

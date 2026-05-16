@@ -165,7 +165,7 @@ const testimonialsJson = JSON.stringify(content.testimonials);
   const roleEl = document.getElementById('testimonial-role');
   const dotsContainer = document.getElementById('testimonial-dots');
 
-  function updateCarousel(index: number) {
+  function updateCarousel(index) {
     if (!testimonials[index]) return;
     currentIndex = index;
     const t = testimonials[index];
@@ -205,12 +205,12 @@ const testimonialsJson = JSON.stringify(content.testimonials);
   });
 
   // Touch swipe
-  let touchStartX: number | null = null;
+  let touchStartX = null;
   const carousel = document.getElementById('testimonial-carousel');
-  carousel?.addEventListener('touchstart', (e: TouchEvent) => {
+  carousel?.addEventListener('touchstart', (e) => {
     touchStartX = e.changedTouches[0]?.clientX ?? null;
   });
-  carousel?.addEventListener('touchend', (e: TouchEvent) => {
+  carousel?.addEventListener('touchend', (e) => {
     if (touchStartX === null) return;
     const touchEndX = e.changedTouches[0]?.clientX ?? touchStartX;
     const delta = touchEndX - touchStartX;

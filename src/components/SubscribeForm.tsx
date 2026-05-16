@@ -159,16 +159,16 @@ export default function SubscribeForm({ locale }: { locale: string }) {
       </form>
 
       {status === 'success' && (
-        <div className="mt-4 bg-green-50 border border-green-200 p-3 flex items-start gap-2">
-          <CheckCircle className="w-4 h-4 text-green-600 mt-0.5" />
-          <p className="text-sm text-green-700">{labels.successMessage}</p>
+        <div className="mt-4 bg-industrial-50 border border-industrial-200 p-3 flex items-start gap-2">
+          <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5" />
+          <p className="text-sm text-industrial-700">{labels.successMessage}</p>
         </div>
       )}
 
       {status === 'error' && (
-        <div className="mt-4 bg-red-50 border border-red-200 p-3 flex items-start gap-2">
-          <XCircle className="w-4 h-4 text-red-600 mt-0.5" />
-          <p className="text-sm text-red-700">{errorMsg || labels.error}</p>
+        <div className="mt-4 bg-industrial-50 border border-accent-orange p-3 flex items-start gap-2">
+          <XCircle className="w-4 h-4 text-accent-orange mt-0.5" />
+          <p className="text-sm text-industrial-700">{errorMsg || labels.error}</p>
         </div>
       )}
     </section>

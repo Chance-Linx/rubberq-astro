@@ -2,11 +2,8 @@
 
 import { Send, CheckCircle, XCircle, Loader2, Upload } from 'lucide-react';
 import { useState, useEffect, useRef, FormEvent } from 'react';
-import { gaEvents } from '../GoogleAnalytics';
 import { defaultLocale, locales, type Locale } from '../../lib/i18n';
-// Stub — lib/inquiryTracking not yet migrated
-const buildFieldPriorityPayload = () => ({});
-const collectSourceTracking = () => ({});
+import { buildFieldPriorityPayload, collectSourceTracking } from '../../lib/inquiryTracking';
 
 interface ContactFormLabels {
   name: string;
@@ -402,21 +399,21 @@ export default function ContactForm({
         </div>
 
         {status === 'success' && (
-          <div className="bg-green-50 border border-green-200 p-4 rounded flex items-start gap-3">
-            <CheckCircle className="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" />
+          <div className="bg-industrial-50 border border-industrial-200 p-4 rounded flex items-start gap-3">
+            <CheckCircle className="w-5 h-5 text-accent-orange flex-shrink-0 mt-0.5" />
             <div>
-              <p className="font-bold text-green-900">{labels.success}</p>
-              <p className="text-sm text-green-700">{labels.successMessage}</p>
+              <p className="font-bold text-industrial-900">{labels.success}</p>
+              <p className="text-sm text-industrial-700">{labels.successMessage}</p>
             </div>
           </div>
         )}
 
         {status === 'error' && (
-          <div className="bg-red-50 border border-red-200 p-4 rounded flex items-start gap-3">
-            <XCircle className="w-5 h-5 text-red-600 flex-shrink-0 mt-0.5" />
+          <div className="bg-industrial-50 border border-accent-orange p-4 rounded flex items-start gap-3">
+            <XCircle className="w-5 h-5 text-accent-orange flex-shrink-0 mt-0.5" />
             <div>
-              <p className="font-bold text-red-900">{labels.error}</p>
-              <p className="text-sm text-red-700">{errorMsg || labels.errorMessage}</p>
+              <p className="font-bold text-industrial-900">{labels.error}</p>
+              <p className="text-sm text-industrial-700">{errorMsg || labels.errorMessage}</p>
             </div>
           </div>
         )}

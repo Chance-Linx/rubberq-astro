@@ -4,7 +4,11 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #0f172a;
+  --foreground: #0a0a0a;
+  --rubber-black: #0a0a0a;
+  --rubber-carbon: #171717;
+  --rubber-graphite: #262626;
+  --accent-orange: #f97316;
 }
 
 body {
