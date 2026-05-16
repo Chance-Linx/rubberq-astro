@@ -49,9 +49,31 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const ROOT = path.resolve(__dirname, '..');
 
+// ── Auto-load env vars from .env and .env.local (no dotenv dep) ──────────
+function loadDotEnv(filePath) {
+  if (!fs.existsSync(filePath)) return;
+  const lines = fs.readFileSync(filePath, 'utf8').split('\n');
+  for (const raw of lines) {
+    const line = raw.trim();
+    if (!line || line.startsWith('#')) continue;
+    const eq = line.indexOf('=');
+    if (eq === -1) continue;
+    const key = line.slice(0, eq).trim();
+    let val = line.slice(eq + 1).trim();
+    // Strip surrounding quotes if present
+    if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith("'") && val.endsWith("'"))) {
+      val = val.slice(1, -1);
+    }
+    if (!process.env[key]) process.env[key] = val;
+  }
+}
+// Load .env first (lower precedence) then .env.local (higher)
+loadDotEnv(path.join(ROOT, '.env'));
+loadDotEnv(path.join(ROOT, '.env.local'));
+
 const ARTICLES_DIR = path.join(ROOT, 'docs/content/articles-v2');
-const PROJECT_ID = 'tcjl4afv';
-const DATASET = 'production';
+const PROJECT_ID = process.env.SANITY_PROJECT_ID || 'tcjl4afv';
+const DATASET = process.env.SANITY_DATASET || 'production';
 const API_VERSION = '2024-01-01';
 
 // CLI args

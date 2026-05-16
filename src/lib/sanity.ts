@@ -1,13 +1,15 @@
 import { createClient } from '@sanity/client';
 
-const PROJECT_ID = 'tcjl4afv';
-const DATASET = 'production';
+const PROJECT_ID = import.meta.env.SANITY_PROJECT_ID || 'tcjl4afv';
+const DATASET = import.meta.env.SANITY_DATASET || 'production';
+const API_TOKEN = import.meta.env.SANITY_API_TOKEN;
 
 const sanityClient = createClient({
   projectId: PROJECT_ID,
   dataset: DATASET,
   apiVersion: '2024-01-01',
   useCdn: true,
+  token: API_TOKEN,
 });
 
 export interface BlogPost {
@@ -69,8 +71,8 @@ export async function getBlogPostBySlug(slug: string): Promise<BlogPost | null> 
 // Get featured image URL
 export function getFeaturedImageUrl(post: BlogPost): string | null {
   if (!post.coverImage?.asset?._ref) return null;
-  const projectId = 'tcjl4afv';
-  const dataset = 'production';
+  const projectId = PROJECT_ID;
+  const dataset = DATASET;
   const ref = post.coverImage.asset._ref.replace(/^image-/, '');
   const extMatch = ref.match(/-(jpg|png|webp)$/);
   const ext = extMatch ? extMatch[1] : 'jpg';
