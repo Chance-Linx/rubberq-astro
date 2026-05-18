@@ -361,7 +361,7 @@ export function renderRfqEmail(normalized) {
   };
 }
 
-if (process.argv.includes('--self-test')) {
+if (typeof process !== 'undefined' && process.argv.includes('--self-test')) {
   const result = normalizeRfqPayload({
     name: 'Alex Buyer',
     email: 'alex@example.com',
