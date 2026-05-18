@@ -14,6 +14,9 @@
  *   # Import only one file
  *   SANITY_API_TOKEN=sk_xxx node scripts/import-articles-to-sanity.mjs --apply --file 01-compound-chemistry...
  *
+ *   # Assign one article per day at deterministic EU/US daytime random times
+ *   node scripts/import-articles-to-sanity.mjs --dry-run --schedule-daily-from=2026-06-01
+ *
  * Token: Create at https://sanity.io/manage → tcjl4afv → API → Tokens
  * Permissions: "Editor" or "Maintainer" (needs write access to articles).
  *
@@ -80,6 +83,14 @@ const API_VERSION = '2024-01-01';
 // CLI args
 const args = process.argv.slice(2);
 const DRY_RUN = args.includes('--dry-run') || !args.includes('--apply');
+const getArgValue = (name) => {
+  const inline = args.find((a) => a.startsWith(`${name}=`));
+  if (inline) return inline.split('=').slice(1).join('=');
+  const index = args.indexOf(name);
+  if (index === -1) return null;
+  const value = args[index + 1];
+  return value && !value.startsWith('--') ? value : null;
+};
 const SPECIFIC_FILE = args.find((a) => a.startsWith('--file='))?.split('=')[1]
   || (args[args.indexOf('--file') + 1] && !args[args.indexOf('--file') + 1].startsWith('--')
     ? args[args.indexOf('--file') + 1]
@@ -87,9 +98,15 @@ const SPECIFIC_FILE = args.find((a) => a.startsWith('--file='))?.split('=')[1]
 const FORCE_PUBLISH = args.includes('--force-publish');
 const FORCE_DRAFT = args.includes('--draft');
 const PRESERVE_STATUS = args.includes('--preserve-status');
+const SCHEDULE_DAILY_FROM = getArgValue('--schedule-daily-from');
 
 if (FORCE_PUBLISH && FORCE_DRAFT) {
   console.error('❌ Use either --force-publish or --draft, not both.');
+  process.exit(1);
+}
+
+if (SCHEDULE_DAILY_FROM && !/^\d{4}-\d{2}-\d{2}$/.test(SCHEDULE_DAILY_FROM)) {
+  console.error('❌ --schedule-daily-from must use YYYY-MM-DD format.');
   process.exit(1);
 }
 
@@ -102,6 +119,7 @@ console.log(`Project:        ${PROJECT_ID}`);
 console.log(`Dataset:        ${DATASET}`);
 console.log(`Status mode:    ${FORCE_DRAFT ? 'draft' : PRESERVE_STATUS ? 'frontmatter' : 'published'}`);
 console.log('Scheduling:     publishedAt controls public visibility');
+if (SCHEDULE_DAILY_FROM) console.log(`Daily schedule: ${SCHEDULE_DAILY_FROM} + one article/day, random EU/US daytime UTC`);
 if (SPECIFIC_FILE) console.log(`Specific file:  ${SPECIFIC_FILE}`);
 console.log('');
 
@@ -182,10 +200,13 @@ function parseFrontmatter(rawContent) {
 // ── Validate parsed article ────────────────────────────────────────────────
 
 function validate(fm, filename) {
-  const required = ['title', 'slug', 'excerpt', 'category', 'publishedAt'];
+  const required = ['title', 'slug', 'excerpt', 'category'];
   const errors = [];
   for (const key of required) {
     if (!fm[key]) errors.push(`Missing required field: ${key}`);
+  }
+  if (!SCHEDULE_DAILY_FROM && !fm.publishedAt) {
+    errors.push('Missing required field: publishedAt');
   }
   if (fm.status && !['draft', 'published', 'archived'].includes(fm.status)) {
     errors.push(`Invalid status: ${fm.status}`);
@@ -199,7 +220,31 @@ function validate(fm, filename) {
 
 // ── Build Sanity document ──────────────────────────────────────────────────
 
-function buildDocument(fm, body) {
+function hashToUnit(value) {
+  let hash = 2166136261;
+  for (let i = 0; i < value.length; i++) {
+    hash ^= value.charCodeAt(i);
+    hash = Math.imul(hash, 16777619);
+  }
+  return (hash >>> 0) / 4294967296;
+}
+
+function scheduledPublishedAt(startDate, index, slug) {
+  const date = new Date(`${startDate}T00:00:00.000Z`);
+  date.setUTCDate(date.getUTCDate() + index);
+  const day = date.toISOString().slice(0, 10);
+  const windows = [
+    { start: 8 * 60, end: 12 * 60 },  // Europe business morning
+    { start: 13 * 60, end: 17 * 60 }, // Europe / US East overlap
+    { start: 17 * 60, end: 22 * 60 }, // North America daytime
+  ];
+  const window = windows[Math.floor(hashToUnit(`${day}:${slug}:window`) * windows.length)];
+  const offset = Math.floor(hashToUnit(`${day}:${slug}:minute`) * (window.end - window.start));
+  date.setUTCHours(0, window.start + offset, 0, 0);
+  return date.toISOString();
+}
+
+function buildDocument(fm, body, scheduleIndex) {
   const status = FORCE_PUBLISH
     ? 'published'
     : FORCE_DRAFT
@@ -207,6 +252,9 @@ function buildDocument(fm, body) {
       : PRESERVE_STATUS
         ? (fm.status || 'published')
         : 'published';
+  const publishedAt = SCHEDULE_DAILY_FROM
+    ? scheduledPublishedAt(SCHEDULE_DAILY_FROM, scheduleIndex, fm.slug)
+    : fm.publishedAt;
   return {
     _id: `article-${fm.slug}`,
     _type: 'article',
@@ -214,7 +262,7 @@ function buildDocument(fm, body) {
     slug: { _type: 'slug', current: fm.slug },
     excerpt: fm.excerpt,
     content: body,
-    publishedAt: fm.publishedAt,
+    publishedAt,
     author: fm.author || 'RubberQ Engineering Team',
     category: fm.category,
     tags: Array.isArray(fm.tags) ? fm.tags : [],
@@ -249,7 +297,7 @@ async function main() {
   let okCount = 0;
   let errCount = 0;
 
-  for (const file of files) {
+  for (const [scheduleIndex, file] of files.entries()) {
     const fullPath = path.join(ARTICLES_DIR, file);
     const raw = fs.readFileSync(fullPath, 'utf8');
 
@@ -259,13 +307,14 @@ async function main() {
         errCount++;
         continue;
       }
-      const doc = buildDocument(frontmatter, body);
+      const doc = buildDocument(frontmatter, body, scheduleIndex);
 
       console.log(`📄 ${file}`);
       console.log(`   _id:          ${doc._id}`);
       console.log(`   title:        ${doc.title.slice(0, 70)}${doc.title.length > 70 ? '...' : ''}`);
       console.log(`   slug:         ${doc.slug.current}`);
       console.log(`   category:     ${doc.category}`);
+      console.log(`   publishedAt:  ${doc.publishedAt}`);
       console.log(`   tags:         ${doc.tags.join(', ')}`);
       console.log(`   status:       ${doc.status}`);
       console.log(`   body length:  ${doc.content.length} chars (${doc.content.split(/\s+/).length} words)`);

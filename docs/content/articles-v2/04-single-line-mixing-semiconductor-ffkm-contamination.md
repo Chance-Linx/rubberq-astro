@@ -4,7 +4,7 @@ slug: "single-line-mixing-semiconductor-ffkm-contamination"
 excerpt: "Semiconductor process sealing applications — particularly aggressive plasma etch chambers, ALD/CVD environments, and high-purity gas delivery lines — have near-zero tolerance for compound contamination. A multi-product mixing line that processes high-carbon-black or peroxide-cured compounds today cannot guarantee that tomorrow's FFKM batch is clean. This article explains why single-line A-mixing with sequence-ordered scheduling is the structural answer, and what to verify when sourcing FFKM for semiconductor manufacturing."
 category: "Semiconductor"
 tags: ["custom FFKM compound development", "single line rubber mixing", "semiconductor process seal", "plasma etch chamber seal"]
-publishedAt: "2026-06-08T08:00:00Z"
+publishedAt: "2026-06-04T10:21:00Z"
 author: "RubberQ Engineering Team"
 status: "draft"
 coverImageSlot: "single-line-ffkm-hero"

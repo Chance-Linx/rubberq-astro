@@ -4,7 +4,7 @@ slug: "compound-traceability-ppap-10-year-reproducibility"
 excerpt: "The PPAP submission documents your production-released compound, mold, and process. But when a service replacement is needed five years later, can your supplier reproduce that exact compound? For most rubber suppliers, the honest answer is no — the formulation has drifted, the trader has changed, or the mixing process has evolved. Compound traceability over years is structural, not procedural. Here is how to specify it before tooling release."
 category: "Quality"
 tags: ["rubber compound batch consistency 5 years", "PPAP rubber component supplier", "compound traceability", "rubber supplier audit"]
-publishedAt: "2026-06-10T08:00:00Z"
+publishedAt: "2026-06-05T16:08:00Z"
 author: "RubberQ Engineering Team"
 status: "draft"
 coverImageSlot: "ppap-traceability-hero"

@@ -4,7 +4,7 @@ slug: "hnbr-vs-fkm-ev-thermal-management-compound-guide"
 excerpt: "HNBR and FKM are the two dominant elastomer families for EV thermal management sealing — but they are not interchangeable. HNBR is the right default for cost-sensitive, sustained-heat plus glycol-coolant service up to 160°C. FKM is the right choice for higher temperatures, broader fluid resistance, or aggressive dielectric environments. This guide explains where each family wins, where compound formulation overrides family selection, and how to specify both for procurement."
 category: "Compounding"
 tags: ["HNBR formulation for EV thermal management", "HNBR vs FKM", "EV thermal management hose", "elastomer selection"]
-publishedAt: "2026-06-03T08:00:00Z"
+publishedAt: "2026-06-02T14:12:00Z"
 author: "RubberQ Engineering Team"
 status: "draft"
 coverImageSlot: "hnbr-fkm-thermal-hero"

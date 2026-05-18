@@ -106,3 +106,16 @@ SANITY_API_TOKEN=sk_xxx node scripts/import-articles-to-sanity.mjs --apply --pre
 - 默认：导入为 `published`，由 `publishedAt` 控制前台什么时候显示。
 - `--draft`：强制导入为草稿。
 - `--preserve-status`：保留 Markdown frontmatter 里的 `status`。
+
+## 2026-05-18 补充：每日随机白天时间
+
+为了延续“每天在欧美白天随机露出一篇”的目标，导入脚本补充了 `--schedule-daily-from=YYYY-MM-DD` 参数：
+
+```bash
+node scripts/import-articles-to-sanity.mjs --dry-run --schedule-daily-from=2026-06-01
+SANITY_API_TOKEN=sk_xxx node scripts/import-articles-to-sanity.mjs --apply --schedule-daily-from=2026-06-01
+```
+
+该参数会按文件排序生成一天一篇的 `publishedAt`，时间落在 UTC 08:00-11:59、13:00-16:59、17:00-21:59 三个窗口之一，对应欧洲白天、欧美重叠时段、北美白天。随机值是确定性的：同一日期与 slug 会得到同一时间，便于 dry run 后再 apply。
+
+当前 5 篇 `docs/content/articles-v2/` 文章的 frontmatter 也已改为 2026-06-01 至 2026-06-05 每天一篇，并使用随机白天时间。

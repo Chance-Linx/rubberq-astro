@@ -4,7 +4,7 @@ slug: "what-is-in-house-rubber-compounding"
 excerpt: "In-house rubber compounding means the supplier mixes the raw rubber compound from polymer, fillers, curing agents, and plasticizers — rather than buying pre-mixed compound stock from a trader. Roughly 95% of rubber molders are L1 (molding-only) operations that have no compound chemistry control. Understanding this tier distinction is the single most important thing an engineer can know when evaluating rubber suppliers."
 category: "Compounding"
 tags: ["in-house rubber mixing supplier", "rubber compounder vs molder difference", "L3 rubber manufacturing", "compound chemistry"]
-publishedAt: "2026-06-05T08:00:00Z"
+publishedAt: "2026-06-03T18:46:00Z"
 author: "RubberQ Engineering Team"
 status: "draft"
 coverImageSlot: "in-house-compounding-hero"

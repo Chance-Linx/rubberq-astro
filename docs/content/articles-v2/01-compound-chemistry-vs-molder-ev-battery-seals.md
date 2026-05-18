@@ -4,7 +4,7 @@ slug: "compound-chemistry-vs-molder-ev-thermal-energy-storage-seals"
 excerpt: "EV thermal and energy-storage seals fail in the field for one dominant reason — the compound was wrong for the service environment, not the molding process. The supplier you choose to develop the rubber formulation matters more than the supplier you choose to mold it. Here is how to evaluate compound chemistry decisions for thermal management and outdoor energy-infrastructure sealing."
 category: "EV"
 tags: ["custom rubber compound formulation", "EV thermal and energy-storage seal", "HNBR", "EPDM", "compound chemistry"]
-publishedAt: "2026-06-01T08:00:00Z"
+publishedAt: "2026-06-01T09:37:00Z"
 author: "RubberQ Engineering Team"
 status: "draft"
 coverImageSlot: "compound-vs-molder-hero"
