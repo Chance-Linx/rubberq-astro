@@ -34,7 +34,7 @@ export interface BlogPost {
 }
 
 export function getBlogUrl(slug: string): string {
-  return `/blog/${encodeURIComponent(slug)}`;
+  return `/en/blog/${encodeURIComponent(slug)}`;
 }
 
 const blockedBlogTerms = [

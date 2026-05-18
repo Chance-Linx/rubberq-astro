@@ -1,9 +1,8 @@
 ---
 import BlogLayout from '@/layouts/BlogLayout.astro';
-import { getBlogPostBySlug, getFeaturedImageUrl, getBlogUrl, getRelatedPosts, getAllBlogPosts } from '@/lib/sanity';
+import { getBlogPostBySlug, getFeaturedImageUrl, getRelatedPosts, getAllBlogPosts } from '@/lib/sanity';
 import type { BlogPost } from '@/lib/sanity';
 
-// Generate static paths from all published posts
 export async function getStaticPaths() {
   const posts = await getAllBlogPosts();
   return posts.map((post: BlogPost) => ({
@@ -12,6 +11,7 @@ export async function getStaticPaths() {
 }
 
 const { slug } = Astro.params;
+
 const post = await getBlogPostBySlug(slug!);
 
 if (!post) {
@@ -36,10 +36,9 @@ const relatedPosts = await getRelatedPosts(post);
 
   <article class="py-16">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-      <!-- Header -->
       <header class="mb-12">
         {post.category && (
-          <a href={`/blog?category=${encodeURIComponent(post.category)}`}
+          <a href={`/en/blog?category=${encodeURIComponent(post.category)}`}
              class="text-xs font-bold uppercase tracking-wider text-primary mb-4 inline-block hover:underline">
             {post.category}
           </a>
@@ -60,14 +59,12 @@ const relatedPosts = await getRelatedPosts(post);
         )}
       </header>
 
-      <!-- Featured Image -->
       {imageUrl && (
         <div class="mb-12">
           <img src={imageUrl} alt={post.title} class="w-full h-auto max-h-96 object-cover" loading="eager" />
         </div>
       )}
 
-      <!-- Content - rendered as HTML from Sanity portable text or markdown -->
       <div class="prose prose-invert prose-lg max-w-none mb-16">
         {post.content ? (
           <Fragment set:html={post.content} />
@@ -76,7 +73,6 @@ const relatedPosts = await getRelatedPosts(post);
         )}
       </div>
 
-      <!-- Related Posts -->
       {relatedPosts.length > 0 && (
         <section class="border-t border-border pt-12 mt-12">
           <h2 class="text-2xl font-bold mb-8">Related Articles</h2>
@@ -84,7 +80,7 @@ const relatedPosts = await getRelatedPosts(post);
             {relatedPosts.map((related: BlogPost) => {
               const relatedImage = getFeaturedImageUrl(related);
               return (
-                <a href={getBlogUrl(related.slug)}
+                <a href={`/en/blog/${encodeURIComponent(related.slug)}`}
                    class="group border border-border hover:border-primary transition-colors">
                   {relatedImage ? (
                     <img src={relatedImage} alt={related.title} class="w-full h-36 object-cover" loading="lazy" />
