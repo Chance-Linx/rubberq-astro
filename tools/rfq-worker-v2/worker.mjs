@@ -7,8 +7,15 @@ import {
 const DEFAULT_ALLOWED_ORIGINS = [
   'https://rubberq.com',
   'https://www.rubberq.com',
+  'https://rubberq-site.pages.dev',
+  'https://rubberq-astro.pages.dev',
   'http://localhost:4321',
   'http://127.0.0.1:4321',
+];
+
+const ALLOWED_PREVIEW_HOST_SUFFIXES = [
+  '.rubberq-site.pages.dev',
+  '.rubberq-astro.pages.dev',
 ];
 
 function allowedOrigins(env) {
@@ -22,8 +29,7 @@ function allowedOrigins(env) {
 
 function corsHeaders(request, env) {
   const origin = request.headers.get('Origin') || '';
-  const allowed = allowedOrigins(env);
-  const allowOrigin = allowed.has(origin) ? origin : 'https://rubberq.com';
+  const allowOrigin = isAllowedOrigin(origin, env) ? origin : 'https://rubberq.com';
 
   return {
     'Access-Control-Allow-Origin': allowOrigin,
@@ -32,6 +38,23 @@ function corsHeaders(request, env) {
     'Access-Control-Max-Age': '86400',
     Vary: 'Origin',
   };
+}
+
+function isAllowedOrigin(origin, env) {
+  if (!origin) {
+    return false;
+  }
+
+  if (allowedOrigins(env).has(origin)) {
+    return true;
+  }
+
+  try {
+    const { hostname } = new URL(origin);
+    return ALLOWED_PREVIEW_HOST_SUFFIXES.some((suffix) => hostname.endsWith(suffix));
+  } catch {
+    return false;
+  }
 }
 
 function json(request, env, body, status = 200) {
