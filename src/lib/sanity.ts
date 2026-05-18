@@ -2,15 +2,15 @@ import { createClient } from '@sanity/client';
 
 const PROJECT_ID = import.meta.env.SANITY_PROJECT_ID || 'tcjl4afv';
 const DATASET = import.meta.env.SANITY_DATASET || 'production';
-const API_TOKEN = import.meta.env.SANITY_API_TOKEN;
 
 const sanityClient = createClient({
   projectId: PROJECT_ID,
   dataset: DATASET,
   apiVersion: '2024-01-01',
-  useCdn: true,
-  token: API_TOKEN,
+  useCdn: false,
 });
+
+const PUBLIC_ARTICLE_FILTER = '_type == "article" && status == "published" && publishedAt <= now()';
 
 export interface BlogPost {
   _id: string;
@@ -73,13 +73,14 @@ function isPublicAllowedBlogPost(post: Pick<BlogPost, 'title' | 'slug' | 'excerp
   return !blockedBlogTerms.some((term) => source.includes(term));
 }
 
-// Get all published blog posts
+// Get all public blog posts. Future publishedAt values act as scheduled publishing.
 export async function getAllBlogPosts(): Promise<BlogPost[]> {
   try {
-    const query = `*[_type == "article" && status == "published"] | order(publishedAt desc) {
+    const query = `*[${PUBLIC_ARTICLE_FILTER}] | order(publishedAt desc) {
       _id, _createdAt, _updatedAt, title, "slug": slug.current,
       excerpt, content, publishedAt, author, category, tags,
-      coverImage { asset { _ref, _type } }
+      coverImage { asset { _ref, _type } },
+      status
     }`;
     const posts = await sanityClient.fetch<BlogPost[]>(query);
     return posts.filter(isPublicAllowedBlogPost);
@@ -92,10 +93,11 @@ export async function getAllBlogPosts(): Promise<BlogPost[]> {
 // Get single blog post by slug
 export async function getBlogPostBySlug(slug: string): Promise<BlogPost | null> {
   try {
-    const query = `*[_type == "article" && slug.current == $slug && status == "published"][0] {
+    const query = `*[${PUBLIC_ARTICLE_FILTER} && slug.current == $slug][0] {
       _id, _createdAt, _updatedAt, title, "slug": slug.current,
       excerpt, content, publishedAt, author, category, tags,
-      coverImage { asset { _ref, _type } }
+      coverImage { asset { _ref, _type } },
+      status
     }`;
     const post = await sanityClient.fetch<BlogPost | null>(query, { slug });
     if (!post || !isPublicAllowedBlogPost(post)) {
@@ -123,8 +125,8 @@ export function getFeaturedImageUrl(post: BlogPost): string | null {
 // Get categories
 export async function getCategories(): Promise<{ name: string; count: number }[]> {
   try {
-    const posts = await sanityClient.fetch<BlogPost[]>(`*[_type == "article" && status == "published"] {
-      title, "slug": slug.current, excerpt, content, category, tags
+    const posts = await sanityClient.fetch<BlogPost[]>(`*[${PUBLIC_ARTICLE_FILTER}] {
+      title, "slug": slug.current, excerpt, content, category, tags, status
     }`);
     const categoryCount: Record<string, number> = {};
     posts.filter(isPublicAllowedBlogPost).forEach((p: BlogPost) => {
@@ -140,9 +142,10 @@ export async function getCategories(): Promise<{ name: string; count: number }[]
 // Get related posts
 export async function getRelatedPosts(currentPost: BlogPost, limit = 3): Promise<BlogPost[]> {
   try {
-    const query = `*[_type == "article" && status == "published" && _id != $currentId && category == $category] | order(publishedAt desc)[0...${limit}] {
+    const query = `*[${PUBLIC_ARTICLE_FILTER} && _id != $currentId && category == $category] | order(publishedAt desc)[0...${limit}] {
       _id, title, "slug": slug.current, excerpt, publishedAt, author, category,
-      coverImage { asset { _ref, _type } }
+      coverImage { asset { _ref, _type } },
+      status
     }`;
     const posts = await sanityClient.fetch<BlogPost[]>(query, { currentId: currentPost._id, category: currentPost.category });
     return posts.filter(isPublicAllowedBlogPost).slice(0, limit);

@@ -33,8 +33,9 @@
  *
  * Behavior:
  *   - Frontmatter `slug` is treated as Sanity slug.current
- *   - Frontmatter `status` defaults to "draft" so articles are not published until
- *     manually toggled in Sanity Studio (safe default for review)
+ *   - Articles default to status "published"; future `publishedAt` controls when
+ *     the Astro site exposes them publicly, matching Leafclock-style scheduling
+ *   - Use --draft to force draft imports, or --preserve-status to honor frontmatter status
  *   - If a Sanity document with the same slug already exists, it is UPDATED.
  *     Otherwise a new document is created with _id = "article-{slug}"
  *   - Markdown body (everything after frontmatter) goes into `content` as a string
@@ -84,6 +85,13 @@ const SPECIFIC_FILE = args.find((a) => a.startsWith('--file='))?.split('=')[1]
     ? args[args.indexOf('--file') + 1]
     : null);
 const FORCE_PUBLISH = args.includes('--force-publish');
+const FORCE_DRAFT = args.includes('--draft');
+const PRESERVE_STATUS = args.includes('--preserve-status');
+
+if (FORCE_PUBLISH && FORCE_DRAFT) {
+  console.error('❌ Use either --force-publish or --draft, not both.');
+  process.exit(1);
+}
 
 console.log('═══════════════════════════════════════════════');
 console.log(' RubberQ Article Import to Sanity');
@@ -92,7 +100,8 @@ console.log(`Mode:           ${DRY_RUN ? 'DRY RUN (no writes)' : 'APPLY (uploads
 console.log(`Articles dir:   ${ARTICLES_DIR}`);
 console.log(`Project:        ${PROJECT_ID}`);
 console.log(`Dataset:        ${DATASET}`);
-console.log(`Force publish:  ${FORCE_PUBLISH}`);
+console.log(`Status mode:    ${FORCE_DRAFT ? 'draft' : PRESERVE_STATUS ? 'frontmatter' : 'published'}`);
+console.log('Scheduling:     publishedAt controls public visibility');
 if (SPECIFIC_FILE) console.log(`Specific file:  ${SPECIFIC_FILE}`);
 console.log('');
 
@@ -191,7 +200,13 @@ function validate(fm, filename) {
 // ── Build Sanity document ──────────────────────────────────────────────────
 
 function buildDocument(fm, body) {
-  const status = FORCE_PUBLISH ? 'published' : (fm.status || 'draft');
+  const status = FORCE_PUBLISH
+    ? 'published'
+    : FORCE_DRAFT
+      ? 'draft'
+      : PRESERVE_STATUS
+        ? (fm.status || 'published')
+        : 'published';
   return {
     _id: `article-${fm.slug}`,
     _type: 'article',

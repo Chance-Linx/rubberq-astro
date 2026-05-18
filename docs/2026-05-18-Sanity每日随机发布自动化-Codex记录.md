@@ -68,3 +68,41 @@ npm run sanity:daily-publish -- --force
 - 如果没有合格 draft，任务会正常跳过，不会发布旧方向或红线内容。
 - 如果要临时暂停某篇文章自动发布，在 Sanity 文档上加 `holdPublish: true` 或 `noAutoPublish: true`。
 - 前台文章 URL 为 `/en/blog/:slug`，脚本日志中的 URL 使用 `https://rubberq.com/en/blog/:slug`。
+
+## 2026-05-18 修订：改为 Leafclock-style future `publishedAt`
+
+基于 Leafclock 项目的实现复盘，RubberQ 不再使用 GitHub Actions 每日写入 Sanity 的发布器，也不再要求 GitHub 保存 `SANITY_API_TOKEN` 来定时修改文章状态。
+
+新的发布逻辑：
+
+- Sanity 文章导入时默认写入 `status: "published"`。
+- `publishedAt` 可以设置为未来时间。
+- Astro 前台查询统一要求 `status == "published" && publishedAt <= now()`。
+- 到达 `publishedAt` 之后，文章在前台自然可见；发布时不会再有脚本去更新 Sanity 文档。
+- 前台 Sanity client 改为公开读取，不再读取 `SANITY_API_TOKEN`。
+- 为避免按时间露出的文章被旧 CDN 查询结果挡住，前台读取关闭 Sanity CDN。
+
+已废弃并删除：
+
+- `.github/workflows/sanity-daily-publish.yml`
+- `scripts/daily-publish-sanity.mjs`
+- `package.json` 中的 `sanity:daily-publish`
+- GitHub Actions secret `SANITY_API_TOKEN` 已从 `Chance-Linx/rubberq-astro` 删除。
+
+保留的写入场景：
+
+- 只有本地批量导入或人工维护 Sanity 内容时才需要 `SANITY_API_TOKEN`。
+- token 应放在本机环境变量、临时 shell、密码管理器或执行机器的 secret 中；不再放入 GitHub Actions secret 作为每日发布器使用。
+
+导入脚本的新参数约定：
+
+```bash
+node scripts/import-articles-to-sanity.mjs --dry-run
+SANITY_API_TOKEN=sk_xxx node scripts/import-articles-to-sanity.mjs --apply
+SANITY_API_TOKEN=sk_xxx node scripts/import-articles-to-sanity.mjs --apply --draft
+SANITY_API_TOKEN=sk_xxx node scripts/import-articles-to-sanity.mjs --apply --preserve-status
+```
+
+- 默认：导入为 `published`，由 `publishedAt` 控制前台什么时候显示。
+- `--draft`：强制导入为草稿。
+- `--preserve-status`：保留 Markdown frontmatter 里的 `status`。
