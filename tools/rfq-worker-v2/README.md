@@ -1,7 +1,16 @@
 # RubberQ RFQ v2 Worker Contract
 
 This folder is the handoff package for the deployed `rubberq-rfq-api` Worker.
-The Worker source was not found in this repository or nearby local project paths, so the active Astro site now keeps the backend contract here until the deployed Worker repository is recovered.
+The Worker was originally deployed from Cloudflare Dashboard / Quick Editor, so the active Astro site keeps the backend contract here until the Worker source is restored into version control.
+
+Confirmed production resources via Wrangler on 2026-05-18:
+
+- Worker: `rubberq-rfq-api`
+- D1 binding: `DB`
+- D1 database: `rubberq_rfq`
+- D1 table: `rfqs`
+- Existing Worker secret: `RESEND_API_KEY`
+- Existing plain-text bindings: `ALLOWED_ORIGIN`, `FROM_EMAIL`, `TO_EMAIL`
 
 ## What "Worker input schema" means
 
@@ -37,6 +46,8 @@ It must also accept these v2 fields:
 
 - `rfq-v2-contract.mjs` normalizes and validates incoming payloads, grades lead quality, produces D1 column values, and renders a structured Resend email.
 - `migrations/2026-05-18-rfq-v2-fields.sql` adds RFQ v2 columns to the existing D1 table.
+- `worker.mjs` is a deployable Worker entrypoint rebuilt around the RFQ v2 contract.
+- `wrangler.toml` targets the existing production Worker name and D1 binding.
 
 ## Worker integration sketch
 
@@ -76,15 +87,15 @@ export default {
     const d1 = toD1ColumnValues(lead);
 
     await env.DB.prepare(`
-      INSERT INTO inquiries (
-        name, email, company, industry, message, fileLink,
+      INSERT INTO rfqs (
+        name, email, company, industry, message, fileLink, pageUrl,
         schema_version, inquiry_type, project_type, annual_volume, project_stage,
         quote_components_json, selected_products_json, product_type, target_material,
         material, sample_quantity, country, source_tracking_json, field_priority_json,
         lead_grade, quote_readiness, rfq_context_json,
         attachment_name, attachment_mime_type, attachment_size
       ) VALUES (
-        ?, ?, ?, ?, ?, ?,
+        ?, ?, ?, ?, ?, ?, ?,
         ?, ?, ?, ?, ?,
         ?, ?, ?, ?,
         ?, ?, ?, ?, ?,
@@ -98,6 +109,7 @@ export default {
       lead.industry,
       lead.message,
       lead.fileLink,
+      lead.pageUrl,
       d1.schema_version,
       d1.inquiry_type,
       d1.project_type,
@@ -146,4 +158,27 @@ Keep production Worker changes aligned with Cloudflare Worker practices:
 
 ```bash
 node tools/rfq-worker-v2/rfq-v2-contract.mjs --self-test
+```
+
+## Production migration note
+
+The active database table is `rfqs`, not `inquiries`. Apply the migration only after confirming the table still has not received these v2 columns:
+
+```bash
+npx wrangler d1 execute rubberq_rfq --remote --command "PRAGMA table_info(rfqs);"
+npx wrangler d1 execute rubberq_rfq --remote --file tools/rfq-worker-v2/migrations/2026-05-18-rfq-v2-fields.sql
+```
+
+If the Worker is rebuilt from this contract, deploy to the existing Worker name `rubberq-rfq-api` and keep the existing secret/bindings. Keep rollback version `97faf548-8795-4992-9b9b-363366da6896` available until a live RFQ test passes.
+
+Dry-run the rebuilt Worker bundle before production deployment:
+
+```bash
+npx wrangler deploy --config tools/rfq-worker-v2/wrangler.toml --dry-run --outdir /tmp/rubberq-rfq-worker-build
+```
+
+Production deployment, after D1 migration and a final review:
+
+```bash
+npx wrangler deploy --config tools/rfq-worker-v2/wrangler.toml --message "RFQ v2 schema and lead grading"
 ```
