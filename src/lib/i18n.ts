@@ -19,14 +19,39 @@ export const localeFlags: Record<Locale, string> = {
   zh: '🇨🇳'
 };
 
-// Load translation messages for a locale
+type Messages = Record<string, any>;
+
+function isPlainObject(value: unknown): value is Messages {
+  return Boolean(value) && typeof value === 'object' && !Array.isArray(value);
+}
+
+function mergeWithFallback(fallback: unknown, override: unknown): unknown {
+  if (!isPlainObject(fallback) || !isPlainObject(override)) {
+    return override ?? fallback;
+  }
+
+  const merged: Messages = { ...fallback };
+
+  for (const [key, value] of Object.entries(override)) {
+    merged[key] = key in merged ? mergeWithFallback(merged[key], value) : value;
+  }
+
+  return merged;
+}
+
+// Load translation messages for a locale, using English as a deep fallback.
 export async function getTranslations(locale: string) {
+  const fallback = (await import('../messages/en.json')).default;
+
+  if (locale === defaultLocale) {
+    return fallback;
+  }
+
   try {
     const messages = await import(`../messages/${locale}.json`);
-    return messages.default;
+    return mergeWithFallback(fallback, messages.default);
   } catch {
-    const fallback = await import('../messages/en.json');
-    return fallback.default;
+    return fallback;
   }
 }
 
