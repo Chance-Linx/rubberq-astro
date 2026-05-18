@@ -29,6 +29,26 @@ type CaseStudySchemaItem = {
   results: string[];
 };
 
+type BlogPostSchemaItem = {
+  slug: string;
+  title: string;
+  excerpt?: string;
+  publishedAt: string;
+  updatedAt?: string;
+  author?: string;
+  image?: string | null;
+};
+
+function latestIsoDate(...values: Array<string | undefined>): string | undefined {
+  const dates = values
+    .filter(Boolean)
+    .map((value) => new Date(value as string))
+    .filter((date) => !Number.isNaN(date.getTime()));
+
+  if (!dates.length) return undefined;
+  return new Date(Math.max(...dates.map((date) => date.getTime()))).toISOString();
+}
+
 export function createOrganizationSchema(locale: string) {
   const baseUrl = localeBaseUrl(locale);
 
@@ -180,5 +200,34 @@ export function createCaseStudiesSchema(locale: string, studies: CaseStudySchema
         },
       },
     })),
+  };
+}
+
+export function createBlogPostingSchema(post: BlogPostSchemaItem) {
+  const url = `${SITE_URL}/en/blog/${encodeURIComponent(post.slug)}`;
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    '@id': `${url}#blogposting`,
+    mainEntityOfPage: url,
+    headline: post.title,
+    description: post.excerpt || post.title,
+    datePublished: post.publishedAt,
+    dateModified: latestIsoDate(post.updatedAt, post.publishedAt) || post.publishedAt,
+    author: {
+      '@type': 'Organization',
+      name: post.author || 'RubberQ Engineering Team',
+    },
+    publisher: {
+      '@type': 'Organization',
+      '@id': `${SITE_URL}/#organization`,
+      name: 'RubberQ',
+      logo: {
+        '@type': 'ImageObject',
+        url: `${SITE_URL}/logo.png`,
+      },
+    },
+    ...(post.image ? { image: post.image } : {}),
   };
 }

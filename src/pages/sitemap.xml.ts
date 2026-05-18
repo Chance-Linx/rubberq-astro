@@ -8,6 +8,16 @@ export const GET: APIRoute = async () => {
   const posts = await getAllBlogPosts();
   const locales = ['en', 'de', 'ja', 'es', 'zh'] as const;
 
+  const latestIsoDate = (...values: Array<string | undefined>) => {
+    const dates = values
+      .filter(Boolean)
+      .map((value) => new Date(value as string))
+      .filter((date) => !Number.isNaN(date.getTime()));
+
+    if (!dates.length) return '';
+    return new Date(Math.max(...dates.map((date) => date.getTime()))).toISOString();
+  };
+
   const staticPages = [
     '', 'products', 'case-studies', 'factory', 'about', 'capabilities',
     'compounding', 'testing', 'industries',
@@ -43,7 +53,8 @@ export const GET: APIRoute = async () => {
 
   for (const post of posts) {
     const url = getBlogUrl(post.slug);
-    urls.push(`  <url><loc>${base}${url}</loc><lastmod>${post._updatedAt || post.publishedAt || ''}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>`);
+    const lastmod = latestIsoDate(post._updatedAt, post.publishedAt);
+    urls.push(`  <url><loc>${base}${url}</loc><lastmod>${lastmod}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>`);
   }
 
   return new Response(

@@ -1,6 +1,8 @@
 ---
 import BlogLayout from '@/layouts/BlogLayout.astro';
 import { getBlogPostBySlug, getFeaturedImageUrl, getRelatedPosts, getAllBlogPosts } from '@/lib/sanity';
+import JsonLd from '@/components/JsonLd';
+import { createBlogPostingSchema } from '@/lib/structuredData';
 import type { BlogPost } from '@/lib/sanity';
 
 export async function getStaticPaths() {
@@ -21,6 +23,15 @@ if (!post) {
 const imageUrl = getFeaturedImageUrl(post);
 const date = post.publishedAt ? new Date(post.publishedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) : '';
 const relatedPosts = await getRelatedPosts(post);
+const blogSchema = createBlogPostingSchema({
+  slug: post.slug,
+  title: post.title,
+  excerpt: post.excerpt,
+  publishedAt: post.publishedAt,
+  updatedAt: post._updatedAt,
+  author: post.author,
+  image: imageUrl,
+});
 ---
 
 <BlogLayout locale="en">
@@ -32,6 +43,7 @@ const relatedPosts = await getRelatedPosts(post);
     {imageUrl && <meta property="og:image" content={imageUrl} />}
     <meta property="og:type" content="article" />
     <meta property="article:published_time" content={post.publishedAt} />
+    <JsonLd data={blogSchema} />
   </Fragment>
 
   <article class="py-16">
