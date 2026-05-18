@@ -293,3 +293,69 @@ npx astro check                                          # passed, 0 errors
 2. 确认线上 D1 表名；如果不是 `inquiries`，先替换 migration 表名。
 3. 通过 Wrangler D1 migration 应用字段。
 4. 用一条测试 RFQ 跑通：前端表单 -> Worker -> D1 -> Resend -> `contact@rubberq.com`。
+
+---
+
+## 12. 2026-05-18 RFQ v2 线上 D1 / Worker 实施记录
+
+本轮已按用户要求直接维护线上同一个 D1，没有创建第二个 D1。
+
+线上资源确认：
+
+| 资源 | 当前状态 |
+| --- | --- |
+| Cloudflare account | `midnightblue.lin@qq.com` / `bd6443a7f85aea8396ebb239016261e3` |
+| Worker | `rubberq-rfq-api` |
+| Worker endpoint | `https://rubberq-rfq-api.midnightblue-lin.workers.dev` |
+| D1 database | `rubberq_rfq` |
+| D1 database id | `e51f8f7e-6137-45f4-acb4-61dc4eb3def7` |
+| D1 binding | `DB` |
+| D1 table | `rfqs` |
+| Existing secret | `RESEND_API_KEY` |
+| Plain bindings | `ALLOWED_ORIGIN` / `FROM_EMAIL` / `TO_EMAIL` |
+
+已完成：
+
+- 将 D1 migration 改为作用于线上真实表 `rfqs`，而不是交接草稿里的 `inquiries`。
+- 已对线上 `rubberq_rfq` 执行 `tools/rfq-worker-v2/migrations/2026-05-18-rfq-v2-fields.sql`。
+- `rfqs` 表已追加 RFQ v2 字段：`schema_version`、`inquiry_type`、`project_type`、`annual_volume`、`project_stage`、`quote_components_json`、`selected_products_json`、`product_type`、`target_material`、`material`、`sample_quantity`、`country`、`source_tracking_json`、`field_priority_json`、`lead_grade`、`quote_readiness`、`rfq_context_json`、`attachment_name`、`attachment_mime_type`、`attachment_size`。
+- 已用 `tools/rfq-worker-v2/worker.mjs` 部署到同名 Worker `rubberq-rfq-api`。
+- 当前线上 Worker version id：`98ef9d07-83cb-4f41-9478-47d4464e38c3`。
+- 旧回滚版本保留：`97faf548-8795-4992-9b9b-363366da6896`。
+
+验证状态：
+
+```bash
+node tools/rfq-worker-v2/rfq-v2-contract.mjs --self-test  # passed
+npx wrangler deploy --config tools/rfq-worker-v2/wrangler.toml --dry-run --outdir /tmp/rubberq-rfq-worker-build  # passed
+npm run build  # passed，追加本记录前
+```
+
+本机 live POST 限制：
+
+- 从本机访问 `https://rubberq.com` 正常。
+- 从本机访问 `*.workers.dev` 超时，包括 `https://workers.dev` 与 `https://rubberq-rfq-api.midnightblue-lin.workers.dev`。
+- 因此本机未能完成真实 POST 到 Worker 的端到端测试。
+- 已查询 D1，确认 `codex-test@example.com` 没有写入测试脏数据。
+
+后续需要从能正常访问 `workers.dev` 的网络环境，或给 Worker 绑定 `rubberq.com` 自有子路径/子域后，再跑一次真实链路测试：前端表单 -> Worker -> D1 -> Resend -> 收件箱。
+
+---
+
+## 13. 2026-05-18 Sanity 文章排期导入状态
+
+Sanity 发布链路已改为 Leafclock-style：文章本身写入 `status: "published"` 与未来 `publishedAt`，Astro 前台只显示 `publishedAt <= now()` 的文章。
+
+当前状态：
+
+- GitHub Actions 每日发布器已删除。
+- GitHub secret `SANITY_API_TOKEN` 已删除。
+- `.env` 与 `.env.local` 已合并为本机单一 `.env.local`，该文件被 Git 忽略。
+- `scripts/import-articles-to-sanity.mjs --apply` 已尝试执行，但 Sanity 返回 `permission "create" required`。
+- 这表示当前 token 没有创建文章权限，5 篇排期文章尚未导入 Sanity。
+
+处理原则：
+
+- 不把 Sanity token 提交到 Git。
+- 不把 Sanity token 放回 GitHub secret 做每日发布。
+- 换用具备 `create` 权限的 Sanity token 后，只需在本机重新运行导入脚本。

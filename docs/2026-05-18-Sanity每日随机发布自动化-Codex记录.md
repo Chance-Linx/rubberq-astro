@@ -119,3 +119,35 @@ SANITY_API_TOKEN=sk_xxx node scripts/import-articles-to-sanity.mjs --apply --sch
 该参数会按文件排序生成一天一篇的 `publishedAt`，时间落在 UTC 08:00-11:59、13:00-16:59、17:00-21:59 三个窗口之一，对应欧洲白天、欧美重叠时段、北美白天。随机值是确定性的：同一日期与 slug 会得到同一时间，便于 dry run 后再 apply。
 
 当前 5 篇 `docs/content/articles-v2/` 文章的 frontmatter 也已改为 2026-06-01 至 2026-06-05 每天一篇，并使用随机白天时间。
+
+## 2026-05-18 导入状态记录
+
+本地已将 `.env` 与 `.env.local` 合并为单一 `.env.local` 文件，`.env.local` 仍被 Git 忽略，不会提交到仓库。导入脚本能够从 `.env.local` 读取 `SANITY_API_TOKEN`，但本次执行：
+
+```bash
+node scripts/import-articles-to-sanity.mjs --apply
+```
+
+Sanity 返回：
+
+```text
+Insufficient permissions; permission "create" required
+```
+
+结论：
+
+- 当前 token 不是可创建 Sanity 文档的写权限 token。
+- 5 篇 `docs/content/articles-v2/` 排期文章尚未导入 Sanity。
+- 公开 Sanity 查询已复核：这 5 个 slug 当前返回空结果。
+- 需要换用具备 `create` 权限的 Sanity token 后，再重新执行 `node scripts/import-articles-to-sanity.mjs --apply`。
+- 不需要把 token 放回 GitHub secret；导入只在本机或受控执行环境临时使用 token。
+
+待导入文章排期：
+
+| 日期 UTC | Slug |
+| --- | --- |
+| 2026-06-01 09:37 | `compound-chemistry-vs-molder-ev-thermal-energy-storage-seals` |
+| 2026-06-02 14:12 | `hnbr-vs-fkm-ev-thermal-management-compound-guide` |
+| 2026-06-03 18:46 | `what-is-in-house-rubber-compounding` |
+| 2026-06-04 10:21 | `single-line-mixing-semiconductor-ffkm-contamination` |
+| 2026-06-05 16:08 | `compound-traceability-ppap-10-year-reproducibility` |

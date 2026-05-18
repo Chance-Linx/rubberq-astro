@@ -182,3 +182,26 @@ Production deployment, after D1 migration and a final review:
 ```bash
 npx wrangler deploy --config tools/rfq-worker-v2/wrangler.toml --message "RFQ v2 schema and lead grading"
 ```
+
+## Production status on 2026-05-18
+
+The production upgrade has been applied to the existing resources. No second D1 database was created.
+
+- D1 database `rubberq_rfq` was migrated in place.
+- Active table is `rfqs`.
+- Worker `rubberq-rfq-api` was deployed from `tools/rfq-worker-v2/worker.mjs`.
+- Active deployed version after this upgrade: `98ef9d07-83cb-4f41-9478-47d4464e38c3`.
+- Rollback version kept for reference: `97faf548-8795-4992-9b9b-363366da6896`.
+
+Local end-to-end POST testing from this machine could not reach `*.workers.dev`; both `https://workers.dev` and the Worker endpoint timed out from the local network. D1 was queried afterward and no `codex-test@example.com` row was written.
+
+Recommended remaining live check:
+
+```bash
+curl -i https://rubberq-rfq-api.midnightblue-lin.workers.dev \
+  -H 'content-type: application/json' \
+  -H 'origin: https://rubberq.com' \
+  --data '{"name":"Codex Test","email":"codex-test@example.com","company":"RubberQ Test","industry":"EV / Energy Storage","message":"RFQ v2 live connectivity test.","inquiryType":"contact_rfq","projectType":"application_driven","annualVolume":"100k_500k","projectStage":"sample_validation","quoteComponents":["unit_price","sample"],"country":"US","pageUrl":"https://rubberq.com/en/contact"}'
+```
+
+Run the live check only from a network that can access `workers.dev`, or after the Worker is mapped under a RubberQ-owned hostname.
