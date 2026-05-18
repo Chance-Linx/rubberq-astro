@@ -3,7 +3,6 @@ import LocaleLayout from '@/layouts/LocaleLayout.astro';
 import JsonLd from '@/components/JsonLd';
 import { getTranslations, t, tRaw } from '@/lib/i18n';
 import { createOrganizationSchema } from '@/lib/structuredData';
-import { createLocaleAlternates } from '@/lib/seoMetadata';
 
 export function getStaticPaths() {
   return ['en', 'de', 'ja', 'es', 'zh'].map((locale) => ({ params: { locale } }));
@@ -18,7 +17,6 @@ const matrixColumns = tRaw(messages, 'testing.matrix.columns', []);
 const matrixRows = tRaw(messages, 'testing.matrix.rows', []);
 const customItems = tRaw(messages, 'testing.customProtocols.items', []);
 
-const alternates = createLocaleAlternates(locale!, '/testing');
 const orgSchema = createOrganizationSchema(locale!);
 ---
 
@@ -26,10 +24,6 @@ const orgSchema = createOrganizationSchema(locale!);
   <Fragment slot="head">
     <title>{meta.title || 'Testing & Validation | RubberQ'}</title>
     <meta name="description" content={meta.description || ''} />
-    <link rel="canonical" href={alternates.canonical} />
-    {Object.entries(alternates.languages).map(([lang, url]) => (
-      <link rel="alternate" hreflang={lang} href={url} />
-    ))}
     <JsonLd data={orgSchema} />
   </Fragment>
 

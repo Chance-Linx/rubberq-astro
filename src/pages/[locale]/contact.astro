@@ -12,6 +12,7 @@ const messages = await getTranslations(locale);
 const meta = messages?.metadata || {};
 const f = (key: string, fallback = '') => t(messages, `contact.${key}`, fallback);
 const fa = (key: string) => tRaw(messages, `contact.${key}`, []);
+const rfq = (key: string, fallback = '') => t(messages, `rfqV2.${key}`, fallback);
 
 const formLabels = {
   name: f('form.name'),
@@ -22,11 +23,27 @@ const formLabels = {
   companyPlaceholder: f('form.companyPlaceholder'),
   industry: f('form.industry'),
   industryOptions: {
-    robotics: f('form.industryOptions.robotics'),
-    ai: f('form.industryOptions.ai'),
-    automotive: f('form.industryOptions.automotive'),
-    machinery: f('form.industryOptions.machinery'),
+    ev: rfq('industryOptionsV2.ev'),
+    industrial: rfq('industryOptionsV2.industrial'),
+    semiconductor: rfq('industryOptionsV2.semiconductor'),
+    automotiveTier2: rfq('industryOptionsV2.automotiveTier2'),
     other: f('form.industryOptions.other'),
+  },
+  projectType: {
+    label: rfq('projectType.label'),
+    options: tRaw(messages, 'rfqV2.projectType', {}),
+  },
+  annualVolume: {
+    label: rfq('annualVolume.label'),
+    options: tRaw(messages, 'rfqV2.annualVolume.options', {}),
+  },
+  quoteComponents: {
+    label: rfq('quoteComponents.label'),
+    options: tRaw(messages, 'rfqV2.quoteComponents', {}),
+  },
+  projectStage: {
+    label: rfq('projectStage.label'),
+    options: tRaw(messages, 'rfqV2.projectStage', {}),
   },
   message: f('form.message'),
   messagePlaceholder: f('form.messagePlaceholder'),

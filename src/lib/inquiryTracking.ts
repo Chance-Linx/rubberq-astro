@@ -1,6 +1,15 @@
 type PrimitiveValue = string | number | boolean | null | undefined;
 
 type FieldMap = Record<string, PrimitiveValue>;
+type AnalyticsValue = PrimitiveValue | string[];
+type AnalyticsPayload = Record<string, AnalyticsValue>;
+
+declare global {
+  interface Window {
+    dataLayer?: unknown[];
+    gtag?: (command: 'event' | 'config' | 'js', target: string | Date, params?: Record<string, PrimitiveValue>) => void;
+  }
+}
 
 export type FieldPriorityPayload = {
   required: FieldMap;
@@ -94,4 +103,67 @@ export function collectSourceTracking(pageUrl: string): SourceTrackingPayload {
     firstTouchReferrer,
     submittedAt: new Date().toISOString(),
   };
+}
+
+function normalizeAnalyticsPayload(payload: AnalyticsPayload): Record<string, PrimitiveValue> {
+  return Object.fromEntries(
+    Object.entries(payload)
+      .map(([key, value]) => {
+        if (Array.isArray(value)) {
+          return [key, value.join(',')];
+        }
+
+        return [key, normalizeValue(value)];
+      })
+      .filter(([, value]) => value !== null && value !== undefined && value !== '')
+  );
+}
+
+export function trackGaEvent(eventName: string, payload: AnalyticsPayload = {}): void {
+  if (typeof window === 'undefined' || typeof window.gtag !== 'function') {
+    return;
+  }
+
+  window.gtag('event', eventName, normalizeAnalyticsPayload(payload));
+}
+
+export function trackQuoteRequest(location: string, payload: AnalyticsPayload = {}): void {
+  trackGaEvent('quote_request', {
+    category: 'conversion',
+    location,
+    ...payload,
+  });
+}
+
+export function trackContactFormSubmit(result: 'success' | 'error', payload: AnalyticsPayload = {}): void {
+  trackGaEvent('contact_form_submit', {
+    category: 'conversion',
+    result,
+    ...payload,
+  });
+}
+
+export function trackFormAbandon(inquiryType: string, payload: AnalyticsPayload = {}): void {
+  trackGaEvent('form_abandon', {
+    category: 'engagement',
+    inquiryType,
+    ...payload,
+  });
+}
+
+export function trackDownload(fileName: string, fileType: string, payload: AnalyticsPayload = {}): void {
+  trackGaEvent('file_download', {
+    category: 'engagement',
+    fileName,
+    fileType,
+    ...payload,
+  });
+}
+
+export function trackOutboundLink(href: string, payload: AnalyticsPayload = {}): void {
+  trackGaEvent('outbound_link_click', {
+    category: 'engagement',
+    href,
+    ...payload,
+  });
 }

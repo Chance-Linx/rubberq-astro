@@ -121,7 +121,7 @@
       "seals": "Sellos y Juntas",
       "automotive": "Piezas Automotrices",
       "industrial": "Componentes Industriales",
-      "medical": "Grado Médico"
+      "medical": "Grado de precision"
     }
   },
   "industries": {
@@ -147,8 +147,8 @@
       "desc": "Bombas, válvulas, sellos de maquinaria y piezas moldeadas personalizadas"
     },
     "medical": {
-      "title": "Médico",
-      "desc": "Sellos compatibles con FDA, juntas y componentes de precisión"
+      "title": "Equipo de precision",
+      "desc": "Sellos, juntas y componentes personalizados para equipos de precision"
     },
     "electronics": {
       "title": "Electrónica",
@@ -192,7 +192,7 @@
       "companyPlaceholder": "Innovaciones Tech S.A.",
       "industry": "Industria Objetivo",
       "industryOptions": {
-        "robotics": "Robótica y Automatización",
+        "robotics": "EV y almacenamiento de energia",
         "ai": "Hardware de IA / Centros de Datos",
         "automotive": "Automotriz (Req. IATF 16949)",
         "machinery": "Maquinaria de Precisión",
@@ -223,7 +223,11 @@
       "unitsPolicy": "Los datos tecnicos usan unidades metricas internacionales unificadas.",
       "complianceTitle": "Guia de Cumplimiento Ligera",
       "complianceHint": "Incluya estos requisitos en su RFQ y respondemos con los documentos aplicables.",
-      "complianceItems": ["Soporte de declaracion REACH / RoHS", "Declaracion de cumplimiento FDA (si aplica)", "Disponibilidad de paquete PPAP / FAI"]
+      "complianceItems": [
+        "Soporte de declaracion REACH / RoHS",
+        "Soporte de declaracion de material por aplicacion",
+        "Disponibilidad de paquete PPAP / FAI"
+      ]
     }
   },
   "about": {
@@ -325,7 +329,7 @@
       "features": [
         "Espesor: 0.5mm a 25mm",
         "Respaldo adhesivo personalizado",
-        "Grados FDA disponibles"
+        "Grados especificos por aplicacion"
       ],
       "specs": "ISO 3302-1 Class M1"
     },
@@ -457,12 +461,12 @@
         "description": "Elastómero versátil con rango de temperatura extremo y biocompatibilidad.",
         "tempRange": "-60°C to +230°C",
         "applications": [
-          "Dispositivos médicos",
-          "Procesamiento de alimentos",
+          "Electronica",
+          "Equipos industriales limpios",
           "Temperaturas extremas"
         ],
         "features": [
-          "Grados compatibles con FDA disponibles",
+          "Grados para procesos limpios",
           "Rango de temperatura extremo",
           "Excelente conjunto de compresión"
         ]
@@ -529,7 +533,7 @@
       },
       "q2": {
         "question": "¿Cómo elijo el material de caucho adecuado para mi aplicación?",
-        "answer": "La selección de material depende del rango de temperatura, exposición química, requisitos mecánicos y necesidades regulatorias (FDA, UL, etc.). Nuestra guía de selección de materiales proporciona datos de comparación detallados, o contacte a nuestro equipo de ingeniería para recomendaciones."
+        "answer": "La selección de material depende del rango de temperatura, exposición química, requisitos mecánicos y normas de aplicacion y condiciones operativas. Nuestra guía de selección de materiales proporciona datos de comparación detallados, o contacte a nuestro equipo de ingeniería para recomendaciones."
       },
       "q3": {
         "question": "¿Qué niveles de tolerancia puede lograr?",

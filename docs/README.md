@@ -51,3 +51,7 @@ docs/
 | `rubberq-astro/docs/`（本目录） | **规范位置**（canonical） | ✅ 主更新位置 |
 | `项目文档/`（项目根目录） | 导航便利镜像 | 🔄 定期从本目录同步 |
 | `RubberQ-B2B-Site/docs/` | 历史原位（与 Next.js 实现同期） | 🚫 只读，不再更新 |
+
+## 2026-05-16 追加导航
+
+- `2026-05-16-Leafclock经验迁移推进总台账-执行版.md`：当前推进控制面板。读取范围覆盖根目录、Astro 文档、项目文档镜像、旧 Next.js 文档与 CodeBuddy 阶段计划、Readdy、rqing.com、全球增长系统复用目录；用于把 Leafclock 的证据资产优先、页面任务第二、线索承接第三的方法迁移到 RubberQ。

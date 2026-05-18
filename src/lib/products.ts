@@ -63,12 +63,12 @@ const PRODUCT_BLUEPRINTS: Record<ProductSlug, ProductBlueprint> = {
     ],
     applicationCases: [
       {
-        title: 'Automotive Cooling Module Seal',
+        title: 'EV Thermal Module Seal',
         scenario: 'High-cycle thermal sealing for EV coolant manifold.',
         result: 'Leakage incidents reduced after migrating to high-fluorine compound.',
       },
       {
-        title: 'Robot Actuator Shaft Seal',
+        title: 'Industrial Actuator Shaft Seal',
         scenario: 'Dynamic sealing with repeated rotational movement.',
         result: 'Extended maintenance interval through lower compression-set profile.',
       },
@@ -108,8 +108,8 @@ const PRODUCT_BLUEPRINTS: Record<ProductSlug, ProductBlueprint> = {
     ],
     applicationCases: [
       {
-        title: 'Battery Pack Enclosure Gasket',
-        scenario: 'Ingress protection for EV electronics enclosure interfaces.',
+        title: 'BESS Cabinet Interface Gasket',
+        scenario: 'Ingress protection for charging and energy-storage enclosure interfaces.',
         result: 'Stable compression retention across long thermal cycling profiles.',
       },
       {
@@ -153,7 +153,7 @@ const PRODUCT_BLUEPRINTS: Record<ProductSlug, ProductBlueprint> = {
     ],
     applicationCases: [
       {
-        title: 'Robot Joint Dust Boot',
+        title: 'Motion Equipment Dust Boot',
         scenario: 'Protection for articulated joints in dusty shop-floor conditions.',
         result: 'Reduced contamination ingress and lower unplanned maintenance.',
       },
@@ -183,7 +183,7 @@ const PRODUCT_BLUEPRINTS: Record<ProductSlug, ProductBlueprint> = {
       { term: 'Delivery Mode', description: 'Prototype, pilot run, and mass-production release support.' },
     ],
     specifications: [
-      { name: 'Development Lead Time', value: 'Prototype 3-5 days (typical)' },
+      { name: 'Development Lead Time', value: 'Scoped after drawing, compound, and validation review' },
       { name: 'Tooling Capability', value: 'Insert molding and multi-durometer options' },
       { name: 'Tolerance Capability', value: 'Up to +/-0.05 mm in critical geometry' },
       { name: 'Validation Package', value: 'PPAP and process capability reports on request' },
@@ -198,7 +198,7 @@ const PRODUCT_BLUEPRINTS: Record<ProductSlug, ProductBlueprint> = {
     ],
     applicationCases: [
       {
-        title: 'AI Cooling Connector Seal',
+        title: 'Thermal Management Connector Seal',
         scenario: 'Custom geometry for quick-connect liquid cooling assembly.',
         result: 'Accelerated prototype iteration and faster qualification cycle.',
       },

@@ -1,6 +1,7 @@
 'use client';
 
-import { FormEvent, useState } from 'react';
+import { useState } from 'react';
+import type { FormEvent } from 'react';
 import { Loader2, Mail, CheckCircle, XCircle } from 'lucide-react';
 
 // ── Locale support ──────────────────────────────────────────────────────────

@@ -15,8 +15,10 @@ type StaticRoutePath =
   | '/blog'
   | '/capabilities'
   | '/case-studies'
+  | '/compounding'
   | '/contact'
   | '/factory'
+  | '/industries'
   | '/materials'
   | '/privacy'
   | '/products'
@@ -25,6 +27,7 @@ type StaticRoutePath =
   | '/sample-request'
   | '/search'
   | '/standards'
+  | '/testing'
   | '/terms';
 
 function normalizePath(pathname: string): string {

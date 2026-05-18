@@ -3,7 +3,7 @@ import LocaleLayout from '@/layouts/LocaleLayout.astro';
 import { getTranslations, t } from '@/lib/i18n';
 
 export function getStaticPaths() {
-  return ['en','de','ja','es','zh'].map(locale => ({ params: { locale } }));
+  return ['en', 'de', 'ja', 'es', 'zh'].map((locale) => ({ params: { locale } }));
 }
 
 const { locale } = Astro.params;
@@ -11,228 +11,217 @@ const messages = await getTranslations(locale);
 const meta = messages?.metadata || {};
 const cs = (key: string, fallback = '') => t(messages, `caseStudies.${key}`, fallback);
 
-const industryLabels: Record<string, Record<string, string>> = {
-  en: { all: 'All Industries', robotics: 'Robotics', ai: 'AI Infrastructure', automotive: 'Automotive', industrial: 'Industrial' },
-  zh: { all: '全部行业', robotics: '机器人', ai: 'AI 基础设施', automotive: '汽车', industrial: '工业制造' },
-  de: { all: 'Alle Branchen', robotics: 'Robotik', ai: 'KI-Infrastruktur', automotive: 'Automotive', industrial: 'Industrie' },
-  ja: { all: '全業界', robotics: 'ロボティクス', ai: 'AIインフラ', automotive: '自動車', industrial: '産業機械' },
-  es: { all: 'Todas las industrias', robotics: 'Robotica', ai: 'Infraestructura AI', automotive: 'Automotriz', industrial: 'Industrial' },
+const labelsByLocale: Record<string, Record<string, string>> = {
+  en: {
+    eyebrow: 'Application Notes',
+    title: 'Anonymized Engineering Cases',
+    subtitle: 'Representative sealing programs showing how RubberQ evaluates compound fit, process control, and validation evidence before a production quote.',
+    all: 'All Industries',
+    ev: 'EV & Energy Storage',
+    industrial: 'Industrial Equipment',
+    semiconductor: 'Semiconductor',
+    automotiveTier2: 'Automotive Tier 2',
+    challenge: 'Challenge',
+    response: 'RubberQ Response',
+    evidence: 'Evidence To Verify',
+    cta: 'Discuss Similar Project',
+    review: 'Request Engineering Review',
+    note: 'Customer names, drawings, and volumes are anonymized. Placeholder images remain until RubberQ-owned proof assets are added.',
+    bottomTitle: 'Bring us the drawing, media, temperature window, and annual volume.',
+    bottomSubtitle: 'We will tell you whether RubberQ is the right fit before pushing for a quote.',
+  },
+  zh: {
+    eyebrow: '应用说明',
+    title: '匿名工程案例',
+    subtitle: '用代表性密封项目说明 RubberQ 如何先判断配方适配、过程控制与验证证据，再进入量产报价。',
+    all: '全部行业',
+    ev: 'EV 与储能',
+    industrial: '工业设备',
+    semiconductor: '半导体',
+    automotiveTier2: '汽车 Tier 2',
+    challenge: '项目挑战',
+    response: 'RubberQ 处理方式',
+    evidence: '待验证证据',
+    cta: '沟通类似项目',
+    review: '申请工程评估',
+    note: '客户名称、图纸与数量均已匿名。图片保留为占位，待后续替换为 RubberQ 自有证据资产。',
+    bottomTitle: '请先给我们图纸、介质、温度窗口和年用量。',
+    bottomSubtitle: '在推动报价前，我们会先判断 RubberQ 是否适合这个项目。',
+  },
+  de: {
+    eyebrow: 'Application Notes',
+    title: 'Anonymisierte Engineering-Falle',
+    subtitle: 'Reprasentative Dichtungsprogramme, die Compound-Fit, Prozesskontrolle und Validierungsnachweise vor dem Serienangebot zeigen.',
+    all: 'Alle Branchen',
+    ev: 'EV & Energiespeicher',
+    industrial: 'Industrieausrustung',
+    semiconductor: 'Halbleiter',
+    automotiveTier2: 'Automotive Tier 2',
+    challenge: 'Herausforderung',
+    response: 'RubberQ Antwort',
+    evidence: 'Nachweise',
+    cta: 'Ahnliches Projekt besprechen',
+    review: 'Engineering-Review anfragen',
+    note: 'Kundennamen, Zeichnungen und Mengen sind anonymisiert. Bilder bleiben Platzhalter bis eigene RubberQ-Nachweise erganzt werden.',
+    bottomTitle: 'Senden Sie Zeichnung, Medium, Temperaturfenster und Jahresvolumen.',
+    bottomSubtitle: 'Wir sagen zuerst, ob RubberQ der richtige Partner ist, bevor wir ein Angebot erzwingen.',
+  },
+  ja: {
+    eyebrow: 'Application Notes',
+    title: '匿名エンジニアリング事例',
+    subtitle: '量産見積の前に、配合適合性、工程管理、検証資料をどのように確認するかを示す代表事例です。',
+    all: '全業界',
+    ev: 'EV・蓄電',
+    industrial: '産業機器',
+    semiconductor: '半導体',
+    automotiveTier2: '自動車 Tier 2',
+    challenge: '課題',
+    response: 'RubberQ の対応',
+    evidence: '確認すべき証拠',
+    cta: '類似案件を相談',
+    review: '技術レビューを依頼',
+    note: '顧客名、図面、数量は匿名化しています。画像は RubberQ 自社証拠素材の追加までプレースホルダーです。',
+    bottomTitle: '図面、媒体、温度範囲、年間数量を共有してください。',
+    bottomSubtitle: '見積を進める前に、RubberQ が適した案件かを先に判断します。',
+  },
+  es: {
+    eyebrow: 'Application Notes',
+    title: 'Casos de ingenieria anonimizados',
+    subtitle: 'Programas representativos que muestran ajuste de compuesto, control de proceso y evidencia de validacion antes de cotizar produccion.',
+    all: 'Todas las industrias',
+    ev: 'EV y almacenamiento',
+    industrial: 'Equipo industrial',
+    semiconductor: 'Semiconductor',
+    automotiveTier2: 'Automotriz Tier 2',
+    challenge: 'Reto',
+    response: 'Respuesta RubberQ',
+    evidence: 'Evidencia a verificar',
+    cta: 'Discutir proyecto similar',
+    review: 'Solicitar revision tecnica',
+    note: 'Nombres de clientes, planos y volumenes estan anonimizados. Las imagenes quedan como marcadores hasta agregar evidencia propia de RubberQ.',
+    bottomTitle: 'Comparta plano, medio, temperatura y volumen anual.',
+    bottomSubtitle: 'Primero diremos si RubberQ encaja antes de empujar una cotizacion.',
+  },
 };
-const labels = industryLabels[locale] || industryLabels.en;
 
-const enhancementByLocale: Record<string, any> = {
-  en: { trustSignalsTitle: 'Trust Signals', trustSignals: ['IATF 16949 Process Control', 'Material Traceability', 'PPAP / FAI Workflow'], impactTitle: 'Execution Impact', discussCta: 'Discuss Similar Case', reviewCta: 'Request Engineering Review', responseNote: 'Engineering response within 24 hours for scoped inquiries.' },
-  zh: { trustSignalsTitle: '可信交付要点', trustSignals: ['IATF 16949 过程控制', '材料全程可追溯', 'PPAP / FAI 交付流程'], impactTitle: '落地成效', discussCta: '沟通类似案例', reviewCta: '申请工程评估', responseNote: '范围明确的询盘，24小时内由工程团队响应。' },
-  de: { trustSignalsTitle: 'Vertrauenssignale', trustSignals: ['IATF 16949 Prozesskontrolle', 'Materialruckverfolgbarkeit', 'PPAP / FAI Workflow'], impactTitle: 'Umsetzungsergebnisse', discussCta: 'Ahnlichen Fall besprechen', reviewCta: 'Engineering-Review anfragen', responseNote: 'Technische Ruckmeldung innerhalb von 24 Stunden bei klaren Anfragen.' },
-  ja: { trustSignalsTitle: '信頼性の根拠', trustSignals: ['IATF 16949 プロセス管理', '材料トレーサビリティ', 'PPAP / FAI 運用'], impactTitle: '実装成果', discussCta: '類似案件を相談', reviewCta: '技術レビューを依頼', responseNote: '要件が明確なお問い合わせには24時間以内に技術回答します。' },
-  es: { trustSignalsTitle: 'Senales de confianza', trustSignals: ['Control de proceso IATF 16949', 'Trazabilidad de material', 'Flujo PPAP / FAI'], impactTitle: 'Impacto de ejecucion', discussCta: 'Discutir caso similar', reviewCta: 'Solicitar revision tecnica', responseNote: 'Respuesta de ingenieria en 24 horas para consultas bien definidas.' },
-};
-const enh = enhancementByLocale[locale] || enhancementByLocale.en;
+const labels = labelsByLocale[locale] || labelsByLocale.en;
 
-const lithographyByLocale: Record<string, any> = {
-  en: { title: 'Semiconductor Lithography Platform: Ultra-Clean Sealing for Vacuum Process Modules', location: 'East Asia', challenge: 'A lithography subsystem faced recurring preventive-maintenance interruptions due to particle excursions and sealing drift across vacuum pump-down and thermal cycling windows.', solution: 'RubberQ developed a semiconductor-grade FFKM sealing package for gate interfaces and vacuum transfer points, using low-outgassing compounds, flash-controlled molding, and lot-level traceability aligned with cleanroom assembly practice.', results: ['Stabilized sealing behavior through repeated vacuum and bake cycles, reducing unplanned seal-change events.', 'Lower particle-risk exposure during service windows through cleaner seal surfaces and tighter process control.', 'Improved maintenance planning confidence with traceable batches and consistent incoming quality verification.'] },
-  zh: { title: '半导体光刻设备案例：真空工艺模块超洁净密封方案', location: '东亚', challenge: '某光刻设备子系统在抽真空与热循环工况下，出现颗粒波动与密封性能漂移，导致预防性维护窗口被反复压缩。', solution: 'RubberQ 为腔门接口与真空传输节点开发半导体级 FFKM 密封组合，采用低释气配方、飞边受控成型与批次级追溯，并匹配洁净装配流程要求。', results: ['在多轮抽真空与烘烤循环中保持更稳定的密封表现，减少计划外换封。', '通过更洁净的密封表面与更严过程控制，降低维护窗口中的颗粒风险暴露。', '依托批次可追溯与一致性来料验证，提升维护计划的确定性。'] },
-  de: { title: 'Halbleiter-Lithographie: Ultrasaubere Dichtungslosung fur Vakuum-Prozessmodule', location: 'Ostasien', challenge: 'Ein Lithographie-Subsystem zeigte wiederkehrende Wartungsunterbrechungen durch Partikelabweichungen und Dichtungsdrift in Vakuum- und Thermozyklen.', solution: 'RubberQ entwickelte ein halbleitertaugliches FFKM-Dichtungspaket fur Schnittstellen und Vakuum-Transferpunkte mit niedriger Ausgasung, kontrollierter Gratbildung und Chargenruckverfolgbarkeit.', results: ['Stabileres Dichtungsverhalten uber wiederholte Vakuum- und Bake-Zyklen mit weniger ungeplanten Wechseln.', 'Reduziertes Partikelrisiko in Servicefenstern durch sauberere Oberflachen und strengere Prozesskontrolle.', 'Hoheres Planungsvertrauen durch ruckverfolgbare Chargen und konsistente Eingangsprufung.'] },
-  ja: { title: '半導体露光装置向け事例：真空プロセスモジュール用クリーンシール', location: '東アジア', challenge: '露光装置サブシステムで、真空引きと熱サイクル時にパーティクル変動とシール性能のドリフトが発生し、保守枠の圧迫が続いていました。', solution: 'RubberQ はゲート部と真空搬送部向けに半導体グレード FFKM シールを設計し、低アウトガス配合、バリ管理成形、ロット追跡を組み合わせてクリーン組立要件に合わせました。', results: ['真空・ベークの繰り返し条件でもシール挙動を安定化し、計画外交換を抑制。', 'よりクリーンなシール面と工程管理で、保守時のパーティクルリスクを低減。', 'ロット追跡と受入品質の一貫性により、保守計画の見通しを改善。'] },
-  es: { title: 'Litografia de semiconductores: sellado ultralimpio para modulos de vacio', location: 'Asia Oriental', challenge: 'Un subsistema de litografia sufria interrupciones de mantenimiento por variaciones de particulas y deriva del sellado durante ciclos de vacio y temperatura.', solution: 'RubberQ desarrollo un paquete de sellos FFKM grado semiconductor para interfaces de compuerta y transferencia en vacio, con bajo outgassing, control de rebaba y trazabilidad por lote.', results: ['Comportamiento de sellado mas estable en ciclos repetidos de vacio y horneado, con menos recambios no planificados.', 'Menor exposicion al riesgo de particulas en ventanas de servicio gracias a superficies mas limpias y mejor control de proceso.', 'Mayor previsibilidad del mantenimiento mediante trazabilidad de lotes y verificacion consistente de calidad de entrada.'] },
-};
-const litho = lithographyByLocale[locale] || lithographyByLocale.en;
-
-const caseStudies = [
+const cases = [
   {
-    id: 'semiconductor-lithography', industry: 'industrial' as const,
-    title: litho.title, location: litho.location,
-    challenge: litho.challenge, solution: litho.solution, results: litho.results as string[],
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200',
+    id: 'ev-thermal-interface',
+    industry: 'ev',
+    title: 'EV Thermal Interface Seal Compound Review',
+    image: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&q=80&w=1200',
+    challenge: 'A cooling interface required stable compression under glycol exposure, thermal cycling, and repeated assembly handling.',
+    response: 'RubberQ reviewed EPDM, HNBR, and FKM options, then scoped compound testing around compression set, coolant swell, and dimensional repeatability before quoting tooling.',
+    evidence: ['Compound shortlist with service-window rationale', 'Compression-set and coolant-swell validation plan', 'Batch traceability path for future repeat orders'],
   },
   {
-    id: 'robotics', industry: 'robotics' as const,
-    title: cs('studies.robotics.client'), location: cs('studies.robotics.location'),
-    challenge: cs('studies.robotics.challenge'), solution: cs('studies.robotics.solution'),
-    results: [cs('studies.robotics.results.0'), cs('studies.robotics.results.1'), cs('studies.robotics.results.2')],
+    id: 'industrial-hydraulic-valve',
+    industry: 'industrial',
+    title: 'Hydraulic Valve Seal Migration From Commodity NBR',
     image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=1200',
+    challenge: 'A valve program needed better oil aging and extrusion resistance without over-specifying a premium fluoroelastomer.',
+    response: 'RubberQ compared NBR and HNBR formulations against the drawing groove, pressure window, and target maintenance interval.',
+    evidence: ['Material recommendation tied to pressure and oil exposure', 'Pilot-run inspection plan', 'Incoming and final inspection record template'],
   },
   {
-    id: 'ai-datacenters', industry: 'ai' as const,
-    title: cs('studies.aiDataCenters.client'), location: cs('studies.aiDataCenters.location'),
-    challenge: cs('studies.aiDataCenters.challenge'), solution: cs('studies.aiDataCenters.solution'),
-    results: [cs('studies.aiDataCenters.results.0'), cs('studies.aiDataCenters.results.1'), cs('studies.aiDataCenters.results.2')],
-    image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc51?auto=format&fit=crop&q=80&w=1200',
+    id: 'semiconductor-ffkm-vacuum',
+    industry: 'semiconductor',
+    title: 'Semiconductor Vacuum Module FFKM Seal Path',
+    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200',
+    challenge: 'A process-module interface required chemical resistance, low contamination risk, and lot-level traceability for maintenance planning.',
+    response: 'RubberQ scoped an FFKM sealing package with low-outgassing compound selection, flash-control review, and clean-process handling requirements.',
+    evidence: ['FFKM material path with contamination-control notes', 'Lot-level traceability requirement', 'Incoming verification and storage handling checklist'],
   },
   {
-    id: 'automotive-ev', industry: 'automotive' as const,
-    title: cs('studies.automotiveEV.client'), location: cs('studies.automotiveEV.location'),
-    challenge: cs('studies.automotiveEV.challenge'), solution: cs('studies.automotiveEV.solution'),
-    results: [cs('studies.automotiveEV.results.0'), cs('studies.automotiveEV.results.1'), cs('studies.automotiveEV.results.2')],
+    id: 'automotive-tier2-cooling',
+    industry: 'automotiveTier2',
+    title: 'Automotive Tier 2 Cooling Module Seal Qualification',
     image: 'https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=1200',
+    challenge: 'A Tier 2 module supplier needed a repeatable elastomer part with quality-system evidence suitable for downstream customer review.',
+    response: 'RubberQ aligned material choice, tooling review, dimensional control, and PPAP-oriented documentation under its IATF 16949 process system.',
+    evidence: ['Drawing-based tolerance and inspection plan', 'PPAP-oriented documentation scope', 'Material batch and process traceability flow'],
   },
 ];
 ---
 
 <LocaleLayout locale={locale}>
   <Fragment slot="head">
-    <title>{meta.caseStudies?.title || 'Case Studies'}</title>
-    <meta name="description" content={meta.caseStudies?.description || ''} />
+    <title>{meta.caseStudies?.title || 'Case Studies'} | RubberQ</title>
+    <meta name="description" content={meta.caseStudies?.description || labels.subtitle} />
   </Fragment>
 
   <div class="bg-white min-h-screen">
-    <!-- Hero -->
-    <section class="relative bg-industrial-900 text-white py-24 overflow-hidden">
-      <div class="absolute inset-0 bg-grid-pattern bg-grid-size opacity-5"></div>
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div class="max-w-3xl">
-          <div class="inline-flex items-center gap-2 bg-accent-orange/10 border border-accent-orange/30 text-accent-orange px-4 py-1.5 text-xs font-bold tracking-widest uppercase mb-6">
-            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
-            {cs('hero.badge')}
-          </div>
-          <h1 class="text-5xl md:text-6xl font-bold tracking-tighter mb-6 leading-[0.95]">
-            {cs('hero.titleLine1')} <span class="text-industrial-500">{cs('hero.titleLine2')}</span>
-          </h1>
-          <p class="text-xl text-industrial-300 leading-relaxed max-w-2xl">{cs('hero.subtitle')}</p>
-        </div>
+    <section class="bg-industrial-900 text-white py-24 px-4">
+      <div class="max-w-7xl mx-auto">
+        <p class="text-accent-orange text-sm font-bold uppercase tracking-widest mb-4">{labels.eyebrow}</p>
+        <h1 class="text-5xl md:text-6xl font-bold tracking-tighter mb-6 max-w-4xl">{labels.title}</h1>
+        <p class="text-xl text-industrial-300 leading-relaxed max-w-3xl">{labels.subtitle}</p>
       </div>
     </section>
 
-    <!-- Stats -->
-    <section class="bg-industrial-100 py-8 border-b border-industrial-200">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
-          {[
-            { number: '500+', label: cs('stats.projectsDelivered') },
-            { number: '99.7%', label: cs('stats.qualityRate') },
-            { number: '30+', label: cs('stats.countriesServed') },
-            { number: '29', label: cs('stats.yearsExperience') },
-          ].map((stat) => (
-            <div class="text-center">
-              <div class="text-3xl md:text-4xl font-bold text-industrial-900 tracking-tighter">{stat.number}</div>
-              <div class="text-xs font-bold uppercase tracking-widest text-industrial-500 mt-1">{stat.label}</div>
+    <section class="py-8 border-b border-industrial-200 bg-industrial-50">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="px-4 py-2 text-sm font-bold uppercase tracking-wider border bg-industrial-900 text-white border-industrial-900">{labels.all} (4)</span>
+          <span class="px-4 py-2 text-sm font-bold uppercase tracking-wider border bg-white text-industrial-700 border-industrial-200">{labels.ev} (1)</span>
+          <span class="px-4 py-2 text-sm font-bold uppercase tracking-wider border bg-white text-industrial-700 border-industrial-200">{labels.industrial} (1)</span>
+          <span class="px-4 py-2 text-sm font-bold uppercase tracking-wider border bg-white text-industrial-700 border-industrial-200">{labels.semiconductor} (1)</span>
+          <span class="px-4 py-2 text-sm font-bold uppercase tracking-wider border bg-white text-industrial-700 border-industrial-200">{labels.automotiveTier2} (1)</span>
+        </div>
+        <p class="text-sm text-industrial-600">{labels.note}</p>
+      </div>
+    </section>
+
+    <section class="py-20 px-4">
+      <div class="max-w-7xl mx-auto space-y-16">
+        {cases.map((item, index) => (
+          <article class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center border-b border-industrial-100 pb-16 last:border-b-0 last:pb-0">
+            <div class={`aspect-[4/3] overflow-hidden bg-industrial-100 ${index % 2 === 1 ? 'lg:order-2' : ''}`}>
+              <img src={item.image} alt={item.title} class="w-full h-full object-cover" />
             </div>
-          ))}
-        </div>
-      </div>
-    </section>
-
-    <!-- Industry Filter Tabs -->
-    <section class="py-10 border-b border-industrial-100">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex flex-wrap gap-2">
-          <span class="px-4 py-2 text-sm font-bold uppercase tracking-wider border bg-industrial-900 text-white border-industrial-900">
-            {labels.all} (4)
-          </span>
-          <a href="?industry=robotics" class="px-4 py-2 text-sm font-bold uppercase tracking-wider border bg-white text-industrial-700 border-industrial-200 hover:border-accent-orange hover:text-accent-orange transition-colors">
-            {labels.robotics} (1)
-          </a>
-          <a href="?industry=ai" class="px-4 py-2 text-sm font-bold uppercase tracking-wider border bg-white text-industrial-700 border-industrial-200 hover:border-accent-orange hover:text-accent-orange transition-colors">
-            {labels.ai} (1)
-          </a>
-          <a href="?industry=automotive" class="px-4 py-2 text-sm font-bold uppercase tracking-wider border bg-white text-industrial-700 border-industrial-200 hover:border-accent-orange hover:text-accent-orange transition-colors">
-            {labels.automotive} (1)
-          </a>
-          <a href="?industry=industrial" class="px-4 py-2 text-sm font-bold uppercase tracking-wider border bg-white text-industrial-700 border-industrial-200 hover:border-accent-orange hover:text-accent-orange transition-colors">
-            {labels.industrial} (1)
-          </a>
-        </div>
-        <div class="mt-6 bg-industrial-50 border border-industrial-200 p-4 text-sm text-industrial-700">
-          {enh.responseNote}
-        </div>
-      </div>
-    </section>
-
-    <!-- Case Studies List -->
-    <section class="py-24">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="space-y-24">
-          {caseStudies.map((study, index) => (
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div class={`relative ${index % 2 === 1 ? 'lg:order-2' : ''}`}>
-                <div class="aspect-[4/3] overflow-hidden bg-industrial-100">
-                  <img src={study.image} alt={study.title} class="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+            <div class={index % 2 === 1 ? 'lg:order-1' : ''}>
+              <p class="text-accent-orange text-xs font-bold uppercase tracking-widest mb-3">{labels[item.industry]}</p>
+              <h2 class="text-3xl font-bold text-industrial-900 tracking-tight mb-6">{item.title}</h2>
+              <div class="space-y-5">
+                <div class="bg-industrial-50 border-l-4 border-accent-orange p-5">
+                  <h3 class="font-bold text-industrial-900 uppercase text-xs tracking-wider mb-2">{labels.challenge}</h3>
+                  <p class="text-sm text-industrial-700 leading-relaxed">{item.challenge}</p>
                 </div>
-                <div class="absolute bottom-0 left-0 bg-accent-orange text-white px-6 py-3 font-bold text-sm uppercase tracking-wider">
-                  {labels[study.industry]}
+                <div class="bg-industrial-50 border-l-4 border-accent-orange p-5">
+                  <h3 class="font-bold text-industrial-900 uppercase text-xs tracking-wider mb-2">{labels.response}</h3>
+                  <p class="text-sm text-industrial-700 leading-relaxed">{item.response}</p>
                 </div>
-                <div class="absolute top-6 right-6 bg-white p-3 shadow-xl">
-                  <svg class="w-8 h-8 text-industrial-900" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                <div class="bg-white border border-industrial-200 p-5">
+                  <h3 class="font-bold text-industrial-900 uppercase text-xs tracking-wider mb-3">{labels.evidence}</h3>
+                  <ul class="space-y-2">
+                    {item.evidence.map((point) => (
+                      <li class="text-sm text-industrial-700 flex items-start gap-2">
+                        <span class="text-accent-orange font-bold mt-0.5">•</span>
+                        {point}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </div>
-
-              <div class={`${index % 2 === 1 ? 'lg:order-1' : ''}`}>
-                <div class="flex items-center gap-3 mb-4">
-                  <span class="text-xs font-bold uppercase tracking-widest text-industrial-500">{cs('labels.client')}</span>
-                  <span class="text-industrial-300">|</span>
-                  <span class="text-xs font-bold uppercase tracking-widest text-accent-orange">{study.location}</span>
-                </div>
-
-                <h2 class="text-3xl font-bold text-industrial-900 mb-6 tracking-tight">{study.title}</h2>
-
-                <div class="space-y-6">
-                  <div class="bg-industrial-50 border-l-4 border-accent-orange p-5">
-                    <h4 class="font-bold text-industrial-900 uppercase text-xs tracking-wider mb-2">{cs('labels.challenge')}</h4>
-                    <p class="text-industrial-700 text-sm leading-relaxed">{study.challenge}</p>
-                  </div>
-
-                  <div class="bg-industrial-50 border-l-4 border-accent-orange p-5">
-                    <h4 class="font-bold text-industrial-900 uppercase text-xs tracking-wider mb-2">{cs('labels.solution')}</h4>
-                    <p class="text-industrial-700 text-sm leading-relaxed">{study.solution}</p>
-                  </div>
-
-                  <div class="bg-industrial-50 border-l-4 border-accent-orange p-5">
-                    <h4 class="font-bold text-industrial-900 uppercase text-xs tracking-wider mb-3">{enh.impactTitle}</h4>
-                    <ul class="space-y-2">
-                      {study.results.map((result) => (
-                        <li class="flex items-start gap-3 text-industrial-700 text-sm">
-                          <span class="text-accent-orange font-bold mt-0.5">→</span>
-                          {result}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <div class="bg-industrial-50 border border-industrial-200 p-5">
-                    <h4 class="font-bold text-industrial-900 uppercase text-xs tracking-wider mb-3">{enh.trustSignalsTitle}</h4>
-                    <ul class="space-y-2">
-                      {enh.trustSignals.map((signal: string) => (
-                        <li class="text-sm text-industrial-700 flex items-start gap-2">
-                          <span class="text-accent-orange font-bold mt-0.5">•</span>
-                          {signal}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <div class="flex flex-col sm:flex-row gap-3">
-                    <a href={`/${locale}/contact`} class="inline-flex items-center justify-center gap-2 bg-industrial-900 text-white px-6 py-3 font-bold text-xs uppercase tracking-widest hover:bg-accent-orange transition-colors">
-                      {enh.discussCta}
-                      <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-                    </a>
-                    <a href={`/${locale}/batch-rfq`} class="inline-flex items-center justify-center gap-2 border border-industrial-300 text-industrial-900 px-6 py-3 font-bold text-xs uppercase tracking-widest hover:border-accent-orange hover:text-accent-orange transition-colors">
-                      {enh.reviewCta}
-                    </a>
-                  </div>
-                </div>
+              <div class="flex flex-col sm:flex-row gap-3 mt-7">
+                <a href={`/${locale}/contact`} class="inline-flex items-center justify-center bg-industrial-900 text-white px-6 py-3 font-bold text-xs uppercase tracking-widest hover:bg-accent-orange transition-colors">{labels.cta}</a>
+                <a href={`/${locale}/batch-rfq`} class="inline-flex items-center justify-center border border-industrial-300 text-industrial-900 px-6 py-3 font-bold text-xs uppercase tracking-widest hover:border-accent-orange hover:text-accent-orange transition-colors">{labels.review}</a>
               </div>
             </div>
-          ))}
-        </div>
+          </article>
+        ))}
       </div>
     </section>
 
-    <!-- CTA -->
-    <section class="bg-industrial-900 text-white py-20">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-4xl font-bold tracking-tighter mb-6">
-          {cs('cta.titleLine1')} <span class="text-accent-orange">{cs('cta.titleLine2')}</span>
-        </h2>
-        <p class="text-industrial-300 text-lg mb-10 max-w-2xl mx-auto">{cs('cta.subtitle')}</p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href={`/${locale}/contact`} class="inline-flex items-center justify-center gap-2 bg-accent-orange text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-industrial-900 transition-all duration-300">
-            {cs('cta.discussProject')}
-            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-          </a>
-          <a href={`/${locale}/materials`} class="inline-flex items-center justify-center gap-2 border border-industrial-500 text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:border-white transition-all duration-300">
-            {cs('cta.exploreMaterials')}
-          </a>
-        </div>
+    <section class="bg-industrial-900 text-white py-20 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-4xl font-bold tracking-tighter mb-5">{labels.bottomTitle}</h2>
+        <p class="text-industrial-300 mb-8">{labels.bottomSubtitle}</p>
+        <a href={`/${locale}/contact`} class="inline-flex items-center justify-center bg-accent-orange text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-industrial-900 transition-colors">
+          {cs('cta.discussProject', 'Discuss Project')}
+        </a>
       </div>
     </section>
   </div>

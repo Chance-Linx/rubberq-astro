@@ -2,6 +2,8 @@
 import BaseLayout from './BaseLayout.astro';
 import Navbar from '@/components/Navbar.astro';
 import Footer from '@/components/Footer.astro';
+import { locales } from '@/lib/i18n';
+import { createLocaleAlternates } from '@/lib/seoMetadata';
 
 interface Props {
   locale: string;
@@ -10,9 +12,22 @@ interface Props {
 }
 
 const { locale, title, description } = Astro.props;
+const localePrefixPattern = new RegExp(`^/(${locales.join('|')})(?=/|$)`);
+const pathnameWithoutLocale = Astro.url.pathname.replace(localePrefixPattern, '') || '/';
+const alternates = createLocaleAlternates(locale, pathnameWithoutLocale);
 ---
 
-<BaseLayout>
+<BaseLayout lang={locale}>
+  <Fragment slot="head">
+    {title && <title>{title}</title>}
+    {description && <meta name="description" content={description} />}
+    <slot name="head" />
+    <link rel="canonical" href={alternates.canonical} />
+    {Object.entries(alternates.languages).map(([lang, href]) => (
+      <link rel="alternate" hreflang={lang} href={href} />
+    ))}
+    <link rel="alternate" hreflang="x-default" href={alternates.languages.en} />
+  </Fragment>
   <Navbar locale={locale} />
   <main class="min-h-screen pt-20">
     <slot />

@@ -5,7 +5,11 @@ import Footer from '@/components/Footer.astro';
 const locale = 'en';
 ---
 
-<BaseLayout>
+<BaseLayout lang={locale}>
+  <Fragment slot="head">
+    <slot name="head" />
+    <link rel="canonical" href={`https://rubberq.com${Astro.url.pathname}`} />
+  </Fragment>
   <Navbar locale={locale} />
   <main class="min-h-screen pt-20">
     <slot />

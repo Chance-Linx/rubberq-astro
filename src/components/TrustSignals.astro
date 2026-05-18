@@ -1,5 +1,5 @@
 ---
-// TrustSignals.astro — Proof of Trust + Client Voice carousel
+// TrustSignals.astro — Proof of Trust + procurement signal carousel
 // Replicates Next.js TrustSignals.tsx as a static Astro component
 
 interface Props {
@@ -27,61 +27,61 @@ const TRUST_CONTENT: Record<string, TrustContent> = {
   en: {
     title: 'Proof of Trust',
     subtitle: 'Built for procurement teams that need stable quality, traceability, and predictable delivery.',
-    logosTitle: 'Trusted by Engineering Teams In',
-    testimonialsTitle: 'Client Voice',
-    logos: ['Nippon Mobility Group', 'Apex Robotics', 'Vector EV Systems', 'Polar Data Cooling', 'Omni Precision Works', 'Titan Fluid Tech'],
+    logosTitle: 'Built for Engineering Teams In',
+    testimonialsTitle: 'Procurement Signals',
+    logos: ['EV & Energy Storage', 'Industrial Equipment', 'Semiconductor Tools', 'Automotive Tier 2', 'Fluid Power Systems', 'Precision Machinery'],
     testimonials: [
-      { quote: 'RubberQ delivered repeatable sealing quality over six production lots with no leakage escalation.', person: 'Senior Sourcing Manager', role: 'EV Cooling System Integrator' },
-      { quote: 'Their engineering feedback reduced our mold iteration cycle and accelerated pilot approval.', person: 'Program Engineer', role: 'Industrial Robotics OEM' },
-      { quote: 'The PPAP-ready documentation and process traceability made supplier onboarding straightforward.', person: 'Quality Lead', role: 'Tier-1 Automotive Supplier' },
+      { quote: 'Batch traceability, drawing review, and material test data are prepared as part of supplier qualification conversations.', person: 'Qualification signal', role: 'Documentation and traceability' },
+      { quote: 'Formulation, molding, and validation teams work from the same project inputs before sample or production approval.', person: 'Engineering signal', role: 'Compound-to-production coordination' },
+      { quote: 'RFQs with drawings, annual volume, material target, and application conditions can be triaged faster and more accurately.', person: 'RFQ signal', role: 'Technical sourcing readiness' },
     ],
   },
   zh: {
     title: '信任证明',
     subtitle: '面向重视稳定质量、全流程追溯和可预测交付的采购团队。',
-    logosTitle: '合作行业客户',
-    testimonialsTitle: '客户反馈',
-    logos: ['日系出行集团', 'Apex 机器人', 'Vector 电驱系统', 'Polar 液冷平台', 'Omni 精密制造', 'Titan 流体科技'],
+    logosTitle: '服务的工程团队类型',
+    testimonialsTitle: '采购信号',
+    logos: ['EV 与储能', '工业设备', '半导体设备', '汽车 Tier 2', '液压气动系统', '精密机械'],
     testimonials: [
-      { quote: 'RubberQ 在连续六批交付中保持稳定密封质量，没有出现泄漏升级问题。', person: '高级采购经理', role: '新能源汽车液冷系统集成商' },
-      { quote: '他们的工程反馈帮助我们减少模具迭代次数并加快了试产批准。', person: '项目工程师', role: '工业机器人 OEM' },
-      { quote: 'PPAP 级文档与过程追溯能力让供应商导入流程更加顺畅。', person: '质量负责人', role: '汽车一级供应商' },
+      { quote: '批次追溯、图纸评审和材料测试数据会作为供应商导入沟通的一部分准备。', person: '资质信号', role: '文件与追溯' },
+      { quote: '配方、成型和验证团队会基于同一组项目输入推进样品或量产评估。', person: '工程信号', role: '配方到生产协同' },
+      { quote: '带图纸、年用量、目标材料和应用条件的 RFQ 能更快、更准确地完成初筛。', person: 'RFQ 信号', role: '技术采购准备度' },
     ],
   },
   de: {
     title: 'Vertrauensnachweis',
     subtitle: 'Fur Einkaufsteams mit Fokus auf stabile Qualitat, Ruckverfolgbarkeit und planbare Lieferung.',
-    logosTitle: 'Vertrauen aus folgenden Branchen',
-    testimonialsTitle: 'Kundenstimmen',
-    logos: ['Nippon Mobility Group', 'Apex Robotics', 'Vector EV Systems', 'Polar Data Cooling', 'Omni Precision Works', 'Titan Fluid Tech'],
+    logosTitle: 'Ausgelegt fur Engineering-Teams in',
+    testimonialsTitle: 'Beschaffungssignale',
+    logos: ['EV & Energiespeicher', 'Industrieanlagen', 'Halbleiteranlagen', 'Automotive Tier 2', 'Fluidtechnik', 'Prazisionsmaschinen'],
     testimonials: [
-      { quote: 'RubberQ lieferte uber sechs Produktionslose hinweg konstant hohe Dichtungsqualitat.', person: 'Senior Sourcing Manager', role: 'EV-Kuhlsystem Integrator' },
-      { quote: 'Das Engineering-Feedback reduzierte unsere Werkzeug-Iterationen deutlich.', person: 'Program Engineer', role: 'Robotik OEM' },
-      { quote: 'PPAP-fahige Dokumentation und Prozess-Traceability vereinfachten das Onboarding.', person: 'Quality Lead', role: 'Automotive Tier-1' },
+      { quote: 'Chargenruckverfolgung, Zeichnungsprufung und Materialtestdaten werden fur Lieferantenqualifizierung vorbereitet.', person: 'Qualifizierungssignal', role: 'Dokumentation und Traceability' },
+      { quote: 'Rezeptur-, Formgebungs- und Validierungsteams arbeiten vor Muster- oder Serienfreigabe mit denselben Projektdaten.', person: 'Engineering-Signal', role: 'Compound-to-production Koordination' },
+      { quote: 'RFQs mit Zeichnung, Jahresmenge, Zielmaterial und Einsatzbedingungen lassen sich schneller bewerten.', person: 'RFQ-Signal', role: 'Technische Beschaffungsreife' },
     ],
   },
   ja: {
     title: '信頼の実績',
     subtitle: '安定品質、トレーサビリティ、納期の確実性を重視する調達チーム向け。',
-    logosTitle: '採用業界',
-    testimonialsTitle: 'お客様の声',
-    logos: ['Nippon Mobility Group', 'Apex Robotics', 'Vector EV Systems', 'Polar Data Cooling', 'Omni Precision Works', 'Titan Fluid Tech'],
+    logosTitle: '対応するエンジニアリング領域',
+    testimonialsTitle: '調達判断のシグナル',
+    logos: ['EV・蓄電', '産業設備', '半導体装置', '自動車 Tier 2', '流体制御', '精密機械'],
     testimonials: [
-      { quote: '6ロット連続で安定したシール品質を維持し、漏れ問題は発生しませんでした。', person: '調達マネージャー', role: 'EV冷却システム企業' },
-      { quote: '設計フィードバックにより金型の試作回数を削減し、承認を早められました。', person: 'プログラムエンジニア', role: 'ロボティクス OEM' },
-      { quote: 'PPAP対応資料と工程追跡により、サプライヤ導入がスムーズでした。', person: '品質責任者', role: '自動車 Tier-1' },
+      { quote: 'ロット追跡、図面確認、材料試験データをサプライヤ評価の会話に合わせて準備します。', person: '認定シグナル', role: '文書化とトレーサビリティ' },
+      { quote: '配合、成形、検証チームが同じ案件情報をもとに試作または量産評価を進めます。', person: '技術シグナル', role: '配合から生産までの連携' },
+      { quote: '図面、年間数量、目標材料、使用条件が揃った RFQ はより早く正確に初期評価できます。', person: 'RFQ シグナル', role: '技術調達の準備度' },
     ],
   },
   es: {
     title: 'Prueba de Confianza',
     subtitle: 'Para equipos de compras que priorizan calidad estable, trazabilidad y entrega predecible.',
-    logosTitle: 'Confianza en sectores',
-    testimonialsTitle: 'Voz del Cliente',
-    logos: ['Nippon Mobility Group', 'Apex Robotics', 'Vector EV Systems', 'Polar Data Cooling', 'Omni Precision Works', 'Titan Fluid Tech'],
+    logosTitle: 'Preparado para equipos de ingenieria en',
+    testimonialsTitle: 'Senales de compra',
+    logos: ['EV y almacenamiento', 'Equipos industriales', 'Herramientas semiconductor', 'Automotive Tier 2', 'Sistemas fluidos', 'Maquinaria de precision'],
     testimonials: [
-      { quote: 'RubberQ mantuvo calidad de sellado estable durante seis lotes de produccion.', person: 'Senior Sourcing Manager', role: 'Integrador de enfriamiento EV' },
-      { quote: 'Su retroalimentacion tecnica redujo iteraciones de molde y acelero aprobaciones.', person: 'Ingeniero de Programa', role: 'OEM de Robotica' },
-      { quote: 'La documentacion tipo PPAP y trazabilidad facilitaron el onboarding del proveedor.', person: 'Lider de Calidad', role: 'Tier-1 Automotriz' },
+      { quote: 'La trazabilidad por lote, revision de planos y datos de ensayo se preparan para conversaciones de calificacion.', person: 'Senal de calificacion', role: 'Documentacion y trazabilidad' },
+      { quote: 'Formulacion, moldeo y validacion trabajan desde los mismos datos antes de aprobar muestra o produccion.', person: 'Senal de ingenieria', role: 'Coordinacion de compuesto a produccion' },
+      { quote: 'RFQs con plano, volumen anual, material objetivo y condiciones de aplicacion se trian mas rapido.', person: 'Senal RFQ', role: 'Preparacion tecnica de compra' },
     ],
   },
 };

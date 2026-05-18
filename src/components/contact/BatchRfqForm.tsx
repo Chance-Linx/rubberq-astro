@@ -3,14 +3,20 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { FormEvent } from 'react';
 import { CheckCircle, Loader2, Send, XCircle } from 'lucide-react';
-import { buildFieldPriorityPayload, collectSourceTracking } from '../../lib/inquiryTracking';
+import {
+  buildFieldPriorityPayload,
+  collectSourceTracking,
+  trackContactFormSubmit,
+  trackFormAbandon,
+  trackQuoteRequest,
+} from '../../lib/inquiryTracking';
 
 type ProductOption = {
   id: string;
   label: string;
 };
 
-interface BatchRfqLabels {
+export interface BatchRfqLabels {
   name: string;
   email: string;
   company: string;
@@ -19,6 +25,9 @@ interface BatchRfqLabels {
   targetMaterial: string;
   drawingLink: string;
   notes: string;
+  projectType: string;
+  projectStage: string;
+  quoteComponents: string;
   productsTitle: string;
   productHint: string;
   submit: string;
@@ -28,6 +37,27 @@ interface BatchRfqLabels {
   error: string;
   errorMessage: string;
 }
+
+const projectTypeOptions = [
+  ['drawing', 'Drawing-driven RFQ'],
+  ['application', 'Application-driven compound review'],
+  ['sample', 'Sample request only'],
+];
+
+const projectStageOptions = [
+  ['feasibility', 'Feasibility study'],
+  ['pilot', 'Prototype / pilot'],
+  ['validation', 'Pre-production validation'],
+  ['production', 'Production / supply agreement'],
+];
+
+const quoteComponentOptions = [
+  ['compoundReview', 'Compound feasibility'],
+  ['tooling', 'Tooling estimate'],
+  ['perPiece', 'Per-piece quote'],
+  ['validation', 'Testing / validation'],
+  ['sample', 'Sample quote'],
+];
 
 export default function BatchRfqForm({
   labels,
@@ -39,6 +69,7 @@ export default function BatchRfqForm({
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
   const [errorMsg, setErrorMsg] = useState('');
   const [selectedProducts, setSelectedProducts] = useState<string[]>([]);
+  const [quoteComponents, setQuoteComponents] = useState<string[]>(['compoundReview', 'perPiece']);
   const [hasSubmitted, setHasSubmitted] = useState(false);
   const touchedFieldsRef = useRef(new Set<string>());
   const abandonTrackedRef = useRef(false);
@@ -49,6 +80,8 @@ export default function BatchRfqForm({
     country: '',
     annualVolume: '',
     targetMaterial: '',
+    projectType: 'drawing',
+    projectStage: 'feasibility',
     drawingLink: '',
     notes: '',
   });
@@ -72,16 +105,25 @@ export default function BatchRfqForm({
     setSelectedProducts((prev) => (prev.includes(productId) ? prev.filter((id) => id !== productId) : [...prev, productId]));
   };
 
+  const toggleQuoteComponent = (componentId: string) => {
+    touchedFieldsRef.current.add('quoteComponents');
+    setQuoteComponents((prev) => (prev.includes(componentId) ? prev.filter((id) => id !== componentId) : [...prev, componentId]));
+  };
+
   useEffect(() => {
     const trackAbandon = (source: string) => {
       if (abandonTrackedRef.current || hasSubmitted || status === 'success' || touchedFieldsRef.current.size === 0) {
         return;
       }
 
-      // gaEvents.trackFormAbandon('batch_rfq', {
-      //   touchedFields: touchedFieldsRef.current.size,
-      //   source,
-      // });
+      trackFormAbandon('batch_rfq', {
+        touchedFields: touchedFieldsRef.current.size,
+        selectedProducts,
+        projectType: formData.projectType,
+        annualVolume: formData.annualVolume,
+        projectStage: formData.projectStage,
+        source,
+      });
       abandonTrackedRef.current = true;
     };
 
@@ -114,7 +156,14 @@ export default function BatchRfqForm({
     setStatus('submitting');
     setErrorMsg('');
 
-    // gaEvents.trackQuoteRequest('batch_rfq_page');
+    trackQuoteRequest('batch_rfq_page', {
+      inquiryType: 'batch_rfq',
+      selectedProducts,
+      projectType: formData.projectType,
+      annualVolume: formData.annualVolume,
+      projectStage: formData.projectStage,
+      quoteComponents,
+    });
 
     try {
       const pageUrl = window.location.href;
@@ -129,6 +178,9 @@ export default function BatchRfqForm({
           company: formData.company,
           annualVolume: formData.annualVolume,
           targetMaterial: formData.targetMaterial,
+          projectType: formData.projectType,
+          projectStage: formData.projectStage,
+          quoteComponents: quoteComponents.join(','),
           drawingLink: formData.drawingLink,
           notes: formData.notes,
         }
@@ -142,10 +194,16 @@ export default function BatchRfqForm({
           email: formData.email,
           company: formData.company,
           industry: 'Batch RFQ',
-          message: `Products: ${selectedProductNames}; Country: ${formData.country}; Annual Volume: ${formData.annualVolume}; Target Material: ${formData.targetMaterial}; Notes: ${formData.notes}`,
+          message: `Products: ${selectedProductNames}; Project Type: ${formData.projectType}; Stage: ${formData.projectStage}; Quote Components: ${quoteComponents.join(', ')}; Country: ${formData.country}; Annual Volume: ${formData.annualVolume}; Target Material: ${formData.targetMaterial}; Notes: ${formData.notes}`,
           fileLink: formData.drawingLink,
           inquiryType: 'batch_rfq',
           selectedProducts,
+          country: formData.country,
+          annualVolume: formData.annualVolume,
+          targetMaterial: formData.targetMaterial,
+          projectType: formData.projectType,
+          projectStage: formData.projectStage,
+          quoteComponents,
           pageUrl,
           sourceTracking: collectSourceTracking(pageUrl),
           fieldPriority,
@@ -157,7 +215,14 @@ export default function BatchRfqForm({
       if (data.ok) {
         setStatus('success');
         setHasSubmitted(true);
-        // gaEvents.trackContactFormSubmit('success');
+        trackContactFormSubmit('success', {
+          inquiryType: 'batch_rfq',
+          selectedProducts,
+          projectType: formData.projectType,
+          annualVolume: formData.annualVolume,
+          projectStage: formData.projectStage,
+          quoteComponents,
+        });
         setSelectedProducts([]);
         setFormData({
           name: '',
@@ -166,19 +231,34 @@ export default function BatchRfqForm({
           country: '',
           annualVolume: '',
           targetMaterial: '',
+          projectType: 'drawing',
+          projectStage: 'feasibility',
           drawingLink: '',
           notes: '',
         });
+        setQuoteComponents(['compoundReview', 'perPiece']);
         touchedFieldsRef.current.clear();
         abandonTrackedRef.current = false;
       } else {
         setStatus('error');
-        // gaEvents.trackContactFormSubmit('error');
+        trackContactFormSubmit('error', {
+          inquiryType: 'batch_rfq',
+          selectedProducts,
+          projectType: formData.projectType,
+          annualVolume: formData.annualVolume,
+          projectStage: formData.projectStage,
+        });
         setErrorMsg(data.error || labels.errorMessage);
       }
     } catch {
       setStatus('error');
-      // gaEvents.trackContactFormSubmit('error');
+      trackContactFormSubmit('error', {
+        inquiryType: 'batch_rfq',
+        selectedProducts,
+        projectType: formData.projectType,
+        annualVolume: formData.annualVolume,
+        projectStage: formData.projectStage,
+      });
       setErrorMsg(labels.errorMessage);
     }
   };
@@ -218,6 +298,46 @@ export default function BatchRfqForm({
           placeholder={labels.email}
           className="w-full bg-white border border-industrial-200 px-4 py-3"
         />
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <select
+          value={formData.projectType}
+          onChange={(e) => updateField('projectType', e.target.value)}
+          className="w-full bg-white border border-industrial-200 px-4 py-3"
+          aria-label={labels.projectType}
+        >
+          {projectTypeOptions.map(([value, label]) => (
+            <option key={value} value={value}>{label}</option>
+          ))}
+        </select>
+        <select
+          value={formData.projectStage}
+          onChange={(e) => updateField('projectStage', e.target.value)}
+          className="w-full bg-white border border-industrial-200 px-4 py-3"
+          aria-label={labels.projectStage}
+        >
+          {projectStageOptions.map(([value, label]) => (
+            <option key={value} value={value}>{label}</option>
+          ))}
+        </select>
+      </div>
+
+      <div>
+        <h3 className="text-sm font-bold uppercase tracking-widest text-industrial-500 mb-3">{labels.quoteComponents}</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          {quoteComponentOptions.map(([value, label]) => (
+            <label key={value} className="flex items-center gap-3 border border-industrial-200 bg-white px-4 py-3 cursor-pointer">
+              <input
+                type="checkbox"
+                checked={quoteComponents.includes(value)}
+                onChange={() => toggleQuoteComponent(value)}
+                className="w-4 h-4"
+              />
+              <span className="text-sm text-industrial-800">{label}</span>
+            </label>
+          ))}
+        </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">

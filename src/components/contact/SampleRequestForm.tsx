@@ -3,15 +3,23 @@
 import { useEffect, useRef, useState } from 'react';
 import type { FormEvent } from 'react';
 import { Loader2, Send, CheckCircle, XCircle } from 'lucide-react';
-import { buildFieldPriorityPayload, collectSourceTracking } from '../../lib/inquiryTracking';
+import {
+  buildFieldPriorityPayload,
+  collectSourceTracking,
+  trackContactFormSubmit,
+  trackFormAbandon,
+  trackQuoteRequest,
+} from '../../lib/inquiryTracking';
 
-interface SampleRequestLabels {
+export interface SampleRequestLabels {
   name: string;
   email: string;
   company: string;
   productType: string;
   material: string;
   quantity: string;
+  annualVolume: string;
+  projectStage: string;
   country: string;
   notes: string;
   drawingLink: string;
@@ -22,6 +30,21 @@ interface SampleRequestLabels {
   error: string;
   errorMessage: string;
 }
+
+const annualVolumeOptions = [
+  ['under10k', 'Under 10,000 parts'],
+  ['10kTo100k', '10,000 - 100,000 parts'],
+  ['100kTo1m', '100,000 - 1,000,000 parts'],
+  ['1mTo5m', '1,000,000 - 5,000,000 parts'],
+  ['over5m', 'Over 5,000,000 parts'],
+];
+
+const projectStageOptions = [
+  ['sample', 'Sample evaluation'],
+  ['pilot', 'Prototype / pilot'],
+  ['validation', 'Pre-production validation'],
+  ['production', 'Production planning'],
+];
 
 export default function SampleRequestForm({ labels }: { labels: SampleRequestLabels }) {
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
@@ -36,6 +59,8 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
     productType: 'Seals & O-Rings',
     material: 'FKM',
     quantity: '50',
+    annualVolume: '10kTo100k',
+    projectStage: 'sample',
     country: '',
     notes: '',
     drawingLink: '',
@@ -52,10 +77,13 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
         return;
       }
 
-      // gaEvents.trackFormAbandon('sample_request', {
-      //   touchedFields: touchedFieldsRef.current.size,
-      //   source,
-      // });
+      trackFormAbandon('sample_request', {
+        touchedFields: touchedFieldsRef.current.size,
+        productType: formData.productType,
+        annualVolume: formData.annualVolume,
+        projectStage: formData.projectStage,
+        source,
+      });
       abandonTrackedRef.current = true;
     };
 
@@ -81,7 +109,13 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
     setStatus('submitting');
     setErrorMsg('');
 
-    // gaEvents.trackQuoteRequest('sample_request_page');
+    trackQuoteRequest('sample_request_page', {
+      inquiryType: 'sample_request',
+      productType: formData.productType,
+      material: formData.material,
+      annualVolume: formData.annualVolume,
+      projectStage: formData.projectStage,
+    });
 
     try {
       const pageUrl = window.location.href;
@@ -96,6 +130,8 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
           company: formData.company,
           material: formData.material,
           quantity: formData.quantity,
+          annualVolume: formData.annualVolume,
+          projectStage: formData.projectStage,
           notes: formData.notes,
           drawingLink: formData.drawingLink,
         }
@@ -109,9 +145,15 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
           email: formData.email,
           company: formData.company,
           industry: `Sample Request / ${formData.productType}`,
-          message: `Material: ${formData.material}; Qty: ${formData.quantity}; Country: ${formData.country}; Notes: ${formData.notes}`,
+          message: `Material: ${formData.material}; Sample Qty: ${formData.quantity}; Annual Volume: ${formData.annualVolume}; Stage: ${formData.projectStage}; Country: ${formData.country}; Notes: ${formData.notes}`,
           fileLink: formData.drawingLink,
           inquiryType: 'sample_request',
+          productType: formData.productType,
+          material: formData.material,
+          quantity: formData.quantity,
+          country: formData.country,
+          annualVolume: formData.annualVolume,
+          projectStage: formData.projectStage,
           pageUrl,
           sourceTracking: collectSourceTracking(pageUrl),
           fieldPriority,
@@ -123,7 +165,13 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
       if (data.ok) {
         setStatus('success');
         setHasSubmitted(true);
-        // gaEvents.trackContactFormSubmit('success');
+        trackContactFormSubmit('success', {
+          inquiryType: 'sample_request',
+          productType: formData.productType,
+          material: formData.material,
+          annualVolume: formData.annualVolume,
+          projectStage: formData.projectStage,
+        });
         setFormData({
           name: '',
           email: '',
@@ -131,6 +179,8 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
           productType: 'Seals & O-Rings',
           material: 'FKM',
           quantity: '50',
+          annualVolume: '10kTo100k',
+          projectStage: 'sample',
           country: '',
           notes: '',
           drawingLink: '',
@@ -139,12 +189,24 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
         abandonTrackedRef.current = false;
       } else {
         setStatus('error');
-        // gaEvents.trackContactFormSubmit('error');
+        trackContactFormSubmit('error', {
+          inquiryType: 'sample_request',
+          productType: formData.productType,
+          material: formData.material,
+          annualVolume: formData.annualVolume,
+          projectStage: formData.projectStage,
+        });
         setErrorMsg(data.error || labels.errorMessage);
       }
     } catch {
       setStatus('error');
-      // gaEvents.trackContactFormSubmit('error');
+      trackContactFormSubmit('error', {
+        inquiryType: 'sample_request',
+        productType: formData.productType,
+        material: formData.material,
+        annualVolume: formData.annualVolume,
+        projectStage: formData.projectStage,
+      });
       setErrorMsg(labels.errorMessage);
     }
   };
@@ -208,6 +270,29 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
           placeholder={labels.quantity}
           className="w-full bg-white border border-industrial-200 px-4 py-3"
         />
+      </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <select
+          value={formData.annualVolume}
+          onChange={(e) => updateField('annualVolume', e.target.value)}
+          className="w-full bg-white border border-industrial-200 px-4 py-3"
+          aria-label={labels.annualVolume}
+        >
+          {annualVolumeOptions.map(([value, label]) => (
+            <option key={value} value={value}>{label}</option>
+          ))}
+        </select>
+        <select
+          value={formData.projectStage}
+          onChange={(e) => updateField('projectStage', e.target.value)}
+          className="w-full bg-white border border-industrial-200 px-4 py-3"
+          aria-label={labels.projectStage}
+        >
+          {projectStageOptions.map(([value, label]) => (
+            <option key={value} value={value}>{label}</option>
+          ))}
+        </select>
       </div>
 
       <input

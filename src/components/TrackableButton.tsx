@@ -1,7 +1,7 @@
 'use client';
 
-import { ReactNode } from 'react';
-import { gaEvents } from './GoogleAnalytics';
+import type { ReactNode } from 'react';
+import { trackGaEvent, trackOutboundLink } from '../lib/inquiryTracking';
 
 interface TrackableButtonProps {
   children: ReactNode;
@@ -10,7 +10,7 @@ interface TrackableButtonProps {
     category?: string;
     label?: string;
     value?: number;
-    [key: string]: any;
+    [key: string]: string | number | boolean | null | undefined;
   };
   onClick?: () => void;
   className?: string;
@@ -34,8 +34,7 @@ export default function TrackableButton({
   disabled = false,
 }: TrackableButtonProps) {
   const handleClick = () => {
-    // Track the event
-    // gaEvents.track(eventName, eventParams);
+    trackGaEvent(eventName, eventParams);
     
     // Call the original onClick if provided
     if (onClick) {
@@ -121,7 +120,7 @@ export function TrackableLink({
   const handleClick = () => {
     // Check if it's an outbound link
     if (href.startsWith('http') && !href.includes('rubberq.com')) {
-      // gaEvents.trackOutboundLink(href);
+      trackOutboundLink(href);
     }
   };
 

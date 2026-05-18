@@ -3,7 +3,6 @@ import LocaleLayout from '@/layouts/LocaleLayout.astro';
 import JsonLd from '@/components/JsonLd';
 import { getTranslations, t, tRaw } from '@/lib/i18n';
 import { createOrganizationSchema } from '@/lib/structuredData';
-import { createLocaleAlternates } from '@/lib/seoMetadata';
 
 export function getStaticPaths() {
   return ['en', 'de', 'ja', 'es', 'zh'].map((locale) => ({ params: { locale } }));
@@ -18,7 +17,6 @@ const av2 = (key: string, fallback = '') => t(messages, `aboutV2.${key}`, fallba
 const notFitItems = tRaw(messages, 'aboutV2.whatWeDontDo.notFitItems', []);
 const rightFitItems = tRaw(messages, 'aboutV2.whatWeDontDo.rightFitItems', []);
 
-const alternates = createLocaleAlternates(locale!, '/about');
 const orgSchema = createOrganizationSchema(locale!);
 
 const factoryScenes = [
@@ -33,10 +31,6 @@ const factoryScenes = [
   <Fragment slot="head">
     <title>{meta.about?.title || 'Our Heritage | RubberQ'}</title>
     <meta name="description" content={meta.about?.description || ''} />
-    <link rel="canonical" href={alternates.canonical} />
-    {Object.entries(alternates.languages).map(([lang, url]) => (
-      <link rel="alternate" hreflang={lang} href={url} />
-    ))}
     <JsonLd data={orgSchema} />
   </Fragment>
 

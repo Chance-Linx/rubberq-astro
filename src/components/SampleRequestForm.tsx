@@ -1,6 +1,7 @@
 'use client';
 
-import { FormEvent, useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import type { FormEvent } from 'react';
 import { Loader2, Send, CheckCircle, XCircle } from 'lucide-react';
 import { buildFieldPriorityPayload, collectSourceTracking } from '../lib/inquiryTracking';
 

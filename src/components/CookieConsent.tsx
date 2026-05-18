@@ -1,9 +1,12 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
-import { Link } from '../lib/i18n';
-import { useLocale, useTranslations } from '../lib/i18n' // was next-intl;
-import { defaultLocale, locales, type Locale } from '../lib/i18n';
+import { useState, useEffect } from 'react';
+import { defaultLocale, locales, type Locale, t } from '../lib/i18n';
+import en from '../messages/en.json';
+import de from '../messages/de.json';
+import ja from '../messages/ja.json';
+import es from '../messages/es.json';
+import zh from '../messages/zh.json';
 
 type CookiePreferences = {
   necessary: true;
@@ -66,6 +69,16 @@ const categoryLabels: Record<Locale, CategoryLabels> = {
 
 const legacyConsentKey = 'rubberq-cookie-consent';
 const consentPrefsKey = 'rubberq-cookie-preferences';
+const messagesByLocale = { en, de, ja, es, zh };
+
+function getClientLocale(): Locale {
+  if (typeof window === 'undefined') {
+    return defaultLocale;
+  }
+
+  const maybeLocale = window.location.pathname.split('/')[1] as Locale;
+  return locales.includes(maybeLocale) ? maybeLocale : defaultLocale;
+}
 
 function persistPreferences(status: 'accepted' | 'declined' | 'custom', preferences: CookiePreferences) {
   localStorage.setItem(legacyConsentKey, status);
@@ -74,13 +87,12 @@ function persistPreferences(status: 'accepted' | 'declined' | 'custom', preferen
 }
 
 const CookieConsent = () => {
-  const t = useTranslations('cookieConsent');
-  const locale = useLocale();
   const [isVisible, setIsVisible] = useState(false);
   const [analytics, setAnalytics] = useState(true);
   const [marketing, setMarketing] = useState(false);
 
-  const normalizedLocale = locales.includes(locale as Locale) ? (locale as Locale) : defaultLocale;
+  const normalizedLocale = getClientLocale();
+  const cookieMessages = messagesByLocale[normalizedLocale] ?? messagesByLocale[defaultLocale];
   const labels = categoryLabels[normalizedLocale];
 
   useEffect(() => {
@@ -163,9 +175,9 @@ const CookieConsent = () => {
     <div className="fixed bottom-0 left-0 right-0 z-[100] p-4 md:p-6 animate-in fade-in slide-in slide-in-from-bottom-10 duration-700">
       <div className="max-w-7xl mx-auto bg-industrial-900 border border-industrial-700 shadow-2xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex-grow">
-          <h3 className="text-white font-bold text-lg mb-2 uppercase tracking-tight">{t('title')}</h3>
+          <h3 className="text-white font-bold text-lg mb-2 uppercase tracking-tight">{t(cookieMessages, 'cookieConsent.title')}</h3>
           <p className="text-white text-sm leading-relaxed max-w-3xl">
-            {t('descriptionPrefix')} <Link href="/privacy" className="text-accent-orange underline hover:text-white transition-colors">{t('privacyLink')}</Link> {t('descriptionSuffix')}
+            {t(cookieMessages, 'cookieConsent.descriptionPrefix')} <a href={`/${normalizedLocale}/privacy`} className="text-accent-orange underline hover:text-white transition-colors">{t(cookieMessages, 'cookieConsent.privacyLink')}</a> {t(cookieMessages, 'cookieConsent.descriptionSuffix')}
           </p>
 
           <div className="mt-5 border border-industrial-700 bg-industrial-800/60 p-4">
@@ -210,13 +222,13 @@ const CookieConsent = () => {
             onClick={handleDecline}
             className="px-6 py-3 text-sm font-bold uppercase tracking-widest text-white border border-white hover:bg-white hover:text-industrial-900 transition-all"
           >
-            {t('decline')}
+            {t(cookieMessages, 'cookieConsent.decline')}
           </button>
           <button 
             onClick={handleAccept}
             className="px-8 py-3 text-sm font-bold uppercase tracking-widest bg-accent-orange text-white hover:bg-white hover:text-industrial-900 transition-all shadow-lg"
           >
-            {t('acceptAll')}
+            {t(cookieMessages, 'cookieConsent.acceptAll')}
           </button>
         </div>
       </div>

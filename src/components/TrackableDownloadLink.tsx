@@ -1,6 +1,7 @@
 'use client';
 
-import { ReactNode } from 'react';
+import type { ReactNode } from 'react';
+import { trackDownload } from '../lib/inquiryTracking';
 
 export default function TrackableDownloadLink({
   href,
@@ -20,7 +21,7 @@ export default function TrackableDownloadLink({
   download?: boolean;
 }) {
   const handleClick = () => {
-    // gaEvents.trackDownload(fileName, fileType);
+    trackDownload(fileName, fileType);
   };
 
   return (

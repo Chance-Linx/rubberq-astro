@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { Award, Calendar, Building2, ZoomIn } from 'lucide-react';
 import CertificateLightbox from '../CertificateLightbox';
-import { gaEvents } from '../GoogleAnalytics';
+import { trackGaEvent } from '../../lib/inquiryTracking';
 
 interface Certificate {
   id: string;
@@ -111,7 +111,7 @@ export default function QualityPageClient({
   const handleCertClick = (cert: Certificate) => {
     setSelectedCert(cert);
     setIsLightboxOpen(true);
-    // gaEvents.trackCertificateView(cert.name);
+    trackGaEvent('certificate_view', { category: 'engagement', certificate: cert.name });
   };
 
   return (

@@ -68,7 +68,7 @@ Beyond sequence-ordering, the cleaning protocol between batches determines resid
 
 **Standard cleaning (between different families):** Mechanical scraping of mixer chamber, mill roller wipe-down with isopropyl alcohol, conveyor belt vacuum, drop gate inspection. Takes 60-90 minutes. Required between non-similar compound families.
 
-**Deep cleaning (before semiconductor or medical batches):** Full disassembly of mixer drop gate, ultrasonic cleaning of removable parts, multi-stage solvent wipe of all contact surfaces, particle count verification, blank ("dummy") batch run to capture residual contamination, dummy batch discard. Takes 4-8 hours. Required before any semiconductor FFKM batch.
+**Deep cleaning (before semiconductor FFKM batches):** Full disassembly of mixer drop gate, ultrasonic cleaning of removable parts, multi-stage solvent wipe of all contact surfaces, particle count verification, blank ("dummy") batch run to capture residual contamination, dummy batch discard. Takes 4-8 hours. Required before any semiconductor FFKM batch.
 
 A supplier whose cleaning protocol skips the deep cleaning step before FFKM batches is producing material that may pass mechanical specs but will fail semiconductor contamination requirements.
 

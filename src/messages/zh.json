@@ -121,7 +121,7 @@
       "seals": "密封件与垫圈",
       "automotive": "汽车零部件",
       "industrial": "工业部件",
-      "medical": "医疗级"
+      "medical": "精密级"
     }
   },
   "industries": {
@@ -147,8 +147,8 @@
       "desc": "泵、阀门、机械密封件和定制模压件"
     },
     "medical": {
-      "title": "医疗",
-      "desc": "符合FDA标准的密封件、垫圈和精密部件"
+      "title": "精密设备",
+      "desc": "精密设备密封件、垫圈和定制部件"
     },
     "electronics": {
       "title": "电子产品",
@@ -192,7 +192,7 @@
       "companyPlaceholder": "科技创新有限公司",
       "industry": "目标行业",
       "industryOptions": {
-        "robotics": "机器人与自动化",
+        "robotics": "EV 与储能",
         "ai": "AI硬件 / 数据中心",
         "automotive": "汽车（需IATF 16949认证）",
         "machinery": "精密机械",
@@ -223,7 +223,11 @@
       "unitsPolicy": "技术参数统一采用国际公认公制单位。",
       "complianceTitle": "简化合规说明",
       "complianceHint": "可在 RFQ 备注里写明要求，我们会一次性匹配对应文件。",
-      "complianceItems": ["支持 REACH / RoHS 声明", "按需提供 FDA 材料合规说明", "可提供 PPAP / FAI 文件包"]
+      "complianceItems": [
+        "支持 REACH / RoHS 声明",
+        "支持应用专项材料声明",
+        "可提供 PPAP / FAI 文件包"
+      ]
     }
   },
   "about": {
@@ -300,29 +304,65 @@
       "materialsTitle": "可用材料",
       "featuresTitle": "主要特点",
       "applicationsTitle": "典型应用",
-      "applications": ["液压系统", "气动缸", "旋转轴", "静态法兰"],
-      "features": ["温度范围：-60°C至320°C", "耐化学性定制", "低压缩永久变形"],
+      "applications": [
+        "液压系统",
+        "气动缸",
+        "旋转轴",
+        "静态法兰"
+      ],
+      "features": [
+        "温度范围：-60°C至320°C",
+        "耐化学性定制",
+        "低压缩永久变形"
+      ],
       "specs": "ISO 3601-1 Class B"
     },
     "gaskets": {
       "name": "垫圈与垫片",
       "desc": "用于流体密封、EMI屏蔽和热管理应用的模切和模压垫圈。",
-      "applications": ["电池包", "外壳", "热交换器", "泵壳"],
-      "features": ["厚度：0.5mm至25mm", "定制背胶", "提供FDA级材料"],
+      "applications": [
+        "电池包",
+        "外壳",
+        "热交换器",
+        "泵壳"
+      ],
+      "features": [
+        "厚度：0.5mm至25mm",
+        "定制背胶",
+        "提供应用定制材料等级"
+      ],
       "specs": "ISO 3302-1 Class M1"
     },
     "bellows": {
       "name": "波纹管与防尘罩",
       "desc": "用于直线和旋转运动系统的柔性保护套，具有延长疲劳寿命。",
-      "applications": ["机器人关节", "线性执行器", "等速万向节", "机床导轨"],
-      "features": ["多褶设计", "可折叠/伸缩", "化学飞溅防护"],
+      "applications": [
+        "机器人关节",
+        "线性执行器",
+        "等速万向节",
+        "机床导轨"
+      ],
+      "features": [
+        "多褶设计",
+        "可折叠/伸缩",
+        "化学飞溅防护"
+      ],
       "specs": "1M+ cycle rating"
     },
     "custom": {
       "name": "定制模压件",
       "desc": "从原型到大批量生产的应用专用橡胶部件。",
-      "applications": ["减振器", "缓冲器", "阀门组件", "连接器密封"],
-      "features": ["精密公差成型", "嵌件成型能力", "颜色匹配"],
+      "applications": [
+        "减振器",
+        "缓冲器",
+        "阀门组件",
+        "连接器密封"
+      ],
+      "features": [
+        "精密公差成型",
+        "嵌件成型能力",
+        "颜色匹配"
+      ],
       "specs": "SPI-SPE Standards"
     },
     "requestQuote": "请求报价",
@@ -346,9 +386,18 @@
     "resourcesTitle": "技术资源",
     "resourcesSubtitle": "下载规格和材料数据表",
     "downloads": [
-      { "name": "材料选择指南", "size": "PDF, 2.4 MB" },
-      { "name": "公差参考 (ISO 3302)", "size": "PDF, 1.1 MB" },
-      { "name": "ASTM D2000 规格", "size": "PDF, 3.2 MB" }
+      {
+        "name": "材料选择指南",
+        "size": "PDF, 2.4 MB"
+      },
+      {
+        "name": "公差参考 (ISO 3302)",
+        "size": "PDF, 1.1 MB"
+      },
+      {
+        "name": "ASTM D2000 规格",
+        "size": "PDF, 3.2 MB"
+      }
     ]
   },
   "resources": {
@@ -369,26 +418,58 @@
       "fkm": {
         "description": "氟橡胶，具有出色的耐化学性和高温稳定性。",
         "tempRange": "-20°C to +200°C",
-        "applications": ["航空航天", "化学加工", "高性能汽车"],
-        "features": ["优异的耐化学性", "高温耐受性", "卓越的耐油/燃料性"]
+        "applications": [
+          "航空航天",
+          "化学加工",
+          "高性能汽车"
+        ],
+        "features": [
+          "优异的耐化学性",
+          "高温耐受性",
+          "卓越的耐油/燃料性"
+        ]
       },
       "nbr": {
         "description": "丁腈橡胶，以具有竞争力的成本提供优异的耐油性和机械性能。",
         "tempRange": "-40°C to +120°C",
-        "applications": ["液压系统", "汽车", "通用工业"],
-        "features": ["经济实惠的解决方案", "良好的耐油性", "可提供多种硬度范围"]
+        "applications": [
+          "液压系统",
+          "汽车",
+          "通用工业"
+        ],
+        "features": [
+          "经济实惠的解决方案",
+          "良好的耐油性",
+          "可提供多种硬度范围"
+        ]
       },
       "epdm": {
         "description": "三元乙丙橡胶，具有出色的耐候性和耐臭氧性。",
         "tempRange": "-50°C to +150°C",
-        "applications": ["户外应用", "水系统", "蒸汽应用"],
-        "features": ["优异的耐候性", "卓越的耐水/蒸汽性", "良好的电绝缘性"]
+        "applications": [
+          "户外应用",
+          "水系统",
+          "蒸汽应用"
+        ],
+        "features": [
+          "优异的耐候性",
+          "卓越的耐水/蒸汽性",
+          "良好的电绝缘性"
+        ]
       },
       "silicone": {
         "description": "多功能弹性体，具有极端温度范围和生物相容性。",
         "tempRange": "-60°C to +230°C",
-        "applications": ["医疗器械", "食品加工", "极端温度"],
-        "features": ["可提供FDA合规等级", "极端温度范围", "优异的压缩永久变形"]
+        "applications": [
+          "电子设备",
+          "洁净工业设备",
+          "极端温度"
+        ],
+        "features": [
+          "可提供洁净工艺材料等级",
+          "极端温度范围",
+          "优异的压缩永久变形"
+        ]
       }
     },
     "designGuides": {
@@ -452,7 +533,7 @@
       },
       "q2": {
         "question": "如何为我的应用选择合适的橡胶材料？",
-        "answer": "材料选择取决于温度范围、化学品暴露、机械要求和法规需求（FDA、UL等）。我们的材料选择指南提供详细的比较数据，或联系我们的工程团队获取建议。"
+        "answer": "材料选择取决于温度范围、化学品暴露、机械要求和应用标准和工况条件。我们的材料选择指南提供详细的比较数据，或联系我们的工程团队获取建议。"
       },
       "q3": {
         "question": "你们能达到什么公差水平？",
@@ -549,10 +630,26 @@
       "description": "我们最先进的测试设施配备了根据ASTM、ISO和SAE标准进行全面材料分析和产品验证的设备。",
       "note": "所有设备每年由CNAS认可的第三方实验室校准。",
       "equipment": [
-        { "name": "流变仪", "function": "材料硫化特性分析", "img": "https://images.unsplash.com/photo-1579154236594-c199f346e992?auto=format&fit=crop&q=80&w=400" },
-        { "name": "拉力试验机", "function": "强度和伸长率验证", "img": "https://images.unsplash.com/photo-1581093450021-4a7360e9a6ad?auto=format&fit=crop&q=80&w=400" },
-        { "name": "老化烘箱", "function": "长期耐久性模拟", "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=400" },
-        { "name": "影像测量系统", "function": "高精度尺寸检测", "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=400" }
+        {
+          "name": "流变仪",
+          "function": "材料硫化特性分析",
+          "img": "https://images.unsplash.com/photo-1579154236594-c199f346e992?auto=format&fit=crop&q=80&w=400"
+        },
+        {
+          "name": "拉力试验机",
+          "function": "强度和伸长率验证",
+          "img": "https://images.unsplash.com/photo-1581093450021-4a7360e9a6ad?auto=format&fit=crop&q=80&w=400"
+        },
+        {
+          "name": "老化烘箱",
+          "function": "长期耐久性模拟",
+          "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=400"
+        },
+        {
+          "name": "影像测量系统",
+          "function": "高精度尺寸检测",
+          "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=400"
+        }
       ]
     },
     "process": {
@@ -566,9 +663,21 @@
         "inspectionDesc": "通过人工和AI辅助检查保证零缺陷。"
       },
       "scenes": [
-        { "title": "来料检验", "desc": "每批次SGS认证原材料验证。", "img": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=600" },
-        { "title": "过程监控", "desc": "实时SPC（统计过程控制）数据跟踪。", "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600" },
-        { "title": "最终100%检验", "desc": "通过人工和AI辅助检查保证零缺陷。", "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=600" }
+        {
+          "title": "来料检验",
+          "desc": "每批次SGS认证原材料验证。",
+          "img": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=600"
+        },
+        {
+          "title": "过程监控",
+          "desc": "实时SPC（统计过程控制）数据跟踪。",
+          "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600"
+        },
+        {
+          "title": "最终100%检验",
+          "desc": "通过人工和AI辅助检查保证零缺陷。",
+          "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=600"
+        }
       ]
     },
     "traceability": {
@@ -576,16 +685,44 @@
       "mainTitle": "全链路可追溯",
       "subtitle": "我们的汽车级传承意味着每个部件都遵循严格的基于证据的制造周期。",
       "steps": [
-        { "title": "APQP", "desc": "先期产品质量策划" },
-        { "title": "配料", "desc": "精密自动称重" },
-        { "title": "成型", "desc": "实时传感器监控" },
-        { "title": "FQC", "desc": "100%视觉或自动化检验" }
+        {
+          "title": "APQP",
+          "desc": "先期产品质量策划"
+        },
+        {
+          "title": "配料",
+          "desc": "精密自动称重"
+        },
+        {
+          "title": "成型",
+          "desc": "实时传感器监控"
+        },
+        {
+          "title": "FQC",
+          "desc": "100%视觉或自动化检验"
+        }
       ],
       "flow": [
-        { "step": "01", "title": "原材料", "desc": "来料检验与批次认证" },
-        { "step": "02", "title": "配料", "desc": "自动称重与全数字化记录" },
-        { "step": "03", "title": "成型", "desc": "实时过程监控与SPC控制" },
-        { "step": "04", "title": "检验", "desc": "100%终检与可追溯记录" }
+        {
+          "step": "01",
+          "title": "原材料",
+          "desc": "来料检验与批次认证"
+        },
+        {
+          "step": "02",
+          "title": "配料",
+          "desc": "自动称重与全数字化记录"
+        },
+        {
+          "step": "03",
+          "title": "成型",
+          "desc": "实时过程监控与SPC控制"
+        },
+        {
+          "step": "04",
+          "title": "检验",
+          "desc": "100%终检与可追溯记录"
+        }
       ]
     },
     "documentation": {
@@ -701,10 +838,22 @@
         "title": "2. 信息使用方式",
         "content": "我们将收集的数据用于特定的工业和商业目的：",
         "items": [
-          { "label": "询价处理：", "text": "评估制造可行性并提供准确报价。" },
-          { "label": "工程咨询：", "text": "提供材料选择和可制造性设计（DFM）建议。" },
-          { "label": "订单履行：", "text": "制造和运输您的定制橡胶部件。" },
-          { "label": "质量控制：", "text": "按照IATF 16949和ISO 9001标准维护生产记录。" }
+          {
+            "label": "询价处理：",
+            "text": "评估制造可行性并提供准确报价。"
+          },
+          {
+            "label": "工程咨询：",
+            "text": "提供材料选择和可制造性设计（DFM）建议。"
+          },
+          {
+            "label": "订单履行：",
+            "text": "制造和运输您的定制橡胶部件。"
+          },
+          {
+            "label": "质量控制：",
+            "text": "按照IATF 16949和ISO 9001标准维护生产记录。"
+          }
         ]
       },
       "intellectualProperty": {
@@ -984,7 +1133,7 @@
       },
       "silicone": {
         "name": "硅胶（VMQ）",
-        "desc": "医疗和食品级安全，具有优异的热稳定性。"
+        "desc": "面向电子、洁净工业设备和热循环场景的宽温域弹性体。"
       }
     },
     "technicalSpecifications": "技术规格",
@@ -1058,7 +1207,7 @@
       },
       "applicationCertifications": {
         "title": "特定应用认证",
-        "desc": "针对食品、医疗和航空航天等高风险行业的专业标准。",
+        "desc": "针对工业、移动出行和高要求设备场景的专业标准。",
         "standards": {
           "fda": {
             "name": "用于食品反复接触的橡胶制品",

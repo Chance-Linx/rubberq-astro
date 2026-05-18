@@ -1,9 +1,10 @@
 'use client';
 
-import { FormEvent, useState } from 'react';
+import { useState } from 'react';
+import type { FormEvent } from 'react';
 import { Loader2, Mail, CheckCircle, XCircle } from 'lucide-react';
-import { defaultLocale, locales, type Locale } from '../lib/i18n';
-import { gaEvents } from '../GoogleAnalytics';
+import { defaultLocale, locales, type Locale } from '../../lib/i18n';
+import { trackGaEvent } from '../../lib/inquiryTracking';
 
 type SubscribeLabels = {
   title: string;
@@ -103,16 +104,16 @@ export default function SubscribeForm({ locale }: { locale: string }) {
 
       const data = await response.json();
       if (data.ok) {
-        // gaEvents.track('blog_subscribe', { category: 'conversion', label: 'success' });
+        trackGaEvent('blog_subscribe', { category: 'conversion', result: 'success' });
         setStatus('success');
         setEmail('');
       } else {
-        // gaEvents.track('blog_subscribe', { category: 'conversion', label: 'error' });
+        trackGaEvent('blog_subscribe', { category: 'conversion', result: 'error' });
         setStatus('error');
         setErrorMsg(data.error || labels.error);
       }
     } catch {
-      // gaEvents.track('blog_subscribe', { category: 'conversion', label: 'error' });
+      trackGaEvent('blog_subscribe', { category: 'conversion', result: 'error' });
       setStatus('error');
       setErrorMsg(labels.error);
     }

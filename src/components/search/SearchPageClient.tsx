@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
+import type { FormEvent } from 'react';
 
 interface SearchResult {
   title: string;
@@ -32,7 +33,7 @@ export default function SearchPageClient({ locale, labels }: { locale: string; l
     ];
     for (const p of products) {
       if (p.title.toLowerCase().includes(lower) || p.desc.toLowerCase().includes(lower)) {
-        items.push({ ...p, category: p.cat });
+        items.push({ title: p.title, description: p.desc, href: p.href, category: p.cat });
       }
     }
 
@@ -45,7 +46,7 @@ export default function SearchPageClient({ locale, labels }: { locale: string; l
     ];
     for (const m of materials) {
       if (m.title.toLowerCase().includes(lower) || m.desc.toLowerCase().includes(lower)) {
-        items.push({ ...m, category: m.cat });
+        items.push({ title: m.title, description: m.desc, href: m.href, category: m.cat });
       }
     }
 
@@ -57,15 +58,14 @@ export default function SearchPageClient({ locale, labels }: { locale: string; l
     ];
     for (const r of resources) {
       if (r.title.toLowerCase().includes(lower) || r.desc.toLowerCase().includes(lower)) {
-        items.push({ ...r, category: r.cat });
+        items.push({ title: r.title, description: r.desc, href: r.href, category: r.cat });
       }
     }
 
     // Blog - fetch from Sanity
     try {
       const sanityRes = await fetch(
-        `https://tcjl4afv.api.sanity.io/v2023-08-01/data/query/production?query=*[_type=="article" && (title match $q || seo.metaDescription match $q)]{title, "slug":slug.current, seo}|order(_createdAt desc)[0...10]`,
-        { headers: { Authorization: `Bearer skQFIpHJFVAN00zYKq30TujwOmPBEBgL1fWF0QRyfGGw5SCB7A54ZgswqKXlpGJCOk4pN7vDnBW3dZwQXDZ1VqdjA8SXWz1g` } }
+        `https://tcjl4afv.api.sanity.io/v2023-08-01/data/query/production?query=*[_type=="article" && status=="published" && (title match $q || seo.metaDescription match $q)]{title, "slug":slug.current, seo}|order(_createdAt desc)[0...10]`
       );
       const blogData = await sanityRes.json();
       if (blogData?.result) {
@@ -95,7 +95,7 @@ export default function SearchPageClient({ locale, labels }: { locale: string; l
     }
   }, [performSearch]);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     performSearch(query);
   };

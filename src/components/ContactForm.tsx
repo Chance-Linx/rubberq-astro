@@ -1,7 +1,8 @@
 'use client';
 
 import { Send, CheckCircle, XCircle, Loader2, Upload } from 'lucide-react';
-import { useState, useEffect, useRef, FormEvent } from 'react';
+import { useState, useEffect, useRef } from 'react';
+import type { FormEvent } from 'react';
 import { buildFieldPriorityPayload, collectSourceTracking } from '../lib/inquiryTracking';
 
 // ── Locale support ──────────────────────────────────────────────────────────
@@ -19,8 +20,8 @@ interface Labels {
   companyPlaceholder: string;
   industry: string;
   industryOptions: {
-    robotics: string;
-    ai: string;
+    ev: string;
+    semiconductor: string;
     automotive: string;
     machinery: string;
     other: string;
@@ -53,8 +54,8 @@ const labelsByLocale: Record<Locale, Labels> = {
     companyPlaceholder: 'Tech Innovations Inc.',
     industry: 'Target Industry',
     industryOptions: {
-      robotics: 'Robotics & Automation',
-      ai: 'AI Hardware / Data Centers',
+      ev: 'EV & Energy Storage',
+      semiconductor: 'Semiconductor Process Equipment',
       automotive: 'Automotive (IATF 16949 req.)',
       machinery: 'Precision Machinery',
       other: 'Other',
@@ -86,8 +87,8 @@ const labelsByLocale: Record<Locale, Labels> = {
     companyPlaceholder: '科技创新有限公司',
     industry: '目标行业',
     industryOptions: {
-      robotics: '机器人与自动化',
-      ai: 'AI硬件 / 数据中心',
+      ev: 'EV & Energy Storage',
+      semiconductor: '半导体工艺设备',
       automotive: '汽车（需IATF 16949认证）',
       machinery: '精密机械',
       other: '其他',
@@ -118,8 +119,8 @@ const labelsByLocale: Record<Locale, Labels> = {
     companyPlaceholder: 'Tech Innovations GmbH',
     industry: 'Zielbranche',
     industryOptions: {
-      robotics: 'Robotik & Automatisierung',
-      ai: 'KI-Hardware / Rechenzentren',
+      ev: 'EV & Energy Storage',
+      semiconductor: 'Halbleiter-Prozessausrüstung',
       automotive: 'Automobil (IATF 16949 erforderlich)',
       machinery: 'Präzisionsmaschinenbau',
       other: 'Andere',
@@ -153,8 +154,8 @@ const labelsByLocale: Record<Locale, Labels> = {
     companyPlaceholder: '株式会社テックイノベーション',
     industry: '対象業界',
     industryOptions: {
-      robotics: 'ロボット工学・オートメーション',
-      ai: 'AIハードウェア / データセンター',
+      ev: 'EV & Energy Storage',
+      semiconductor: '半導体プロセス装置',
       automotive: '自動車（IATF 16949 要）',
       machinery: '精密機械',
       other: 'その他',
@@ -188,8 +189,8 @@ const labelsByLocale: Record<Locale, Labels> = {
     companyPlaceholder: 'Innovaciones Tech S.A.',
     industry: 'Industria objetivo',
     industryOptions: {
-      robotics: 'Robótica y Automatización',
-      ai: 'Hardware de IA / Centros de datos',
+      ev: 'EV & Energy Storage',
+      semiconductor: 'Equipo de proceso semiconductor',
       automotive: 'Automotriz (req. IATF 16949)',
       machinery: 'Maquinaria de precisión',
       other: 'Otro',
@@ -253,7 +254,7 @@ export default function ContactForm({ locale }: { locale: string }) {
     name: '',
     email: '',
     company: '',
-    industry: 'Robotics & Automation',
+    industry: 'EV & Energy Storage',
     message: '',
     fileLink: '',
   });
@@ -382,7 +383,7 @@ export default function ContactForm({ locale }: { locale: string }) {
           name: '',
           email: '',
           company: '',
-          industry: 'Robotics & Automation',
+          industry: 'EV & Energy Storage',
           message: '',
           fileLink: '',
         });
@@ -453,8 +454,8 @@ export default function ContactForm({ locale }: { locale: string }) {
               onChange={(e) => updateField('industry', e.target.value)}
               className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-industrial-900 transition-colors"
             >
-              <option value="Robotics & Automation">{labels.industryOptions.robotics}</option>
-              <option value="AI Hardware / Data Centers">{labels.industryOptions.ai}</option>
+              <option value="EV & Energy Storage">{labels.industryOptions.ev}</option>
+              <option value="Semiconductor Process Equipment">{labels.industryOptions.semiconductor}</option>
               <option value="Automotive (IATF 16949 req.)">{labels.industryOptions.automotive}</option>
               <option value="Precision Machinery">{labels.industryOptions.machinery}</option>
               <option value="Other">{labels.industryOptions.other}</option>

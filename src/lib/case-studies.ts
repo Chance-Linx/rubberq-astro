@@ -12,7 +12,7 @@ type CaseStudiesCacheEntry = {
   expiresAt: number;
 };
 
-export type IndustryKey = 'robotics' | 'ai' | 'automotive' | 'industrial';
+export type IndustryKey = 'ev' | 'industrial' | 'semiconductor' | 'automotiveTier2';
 
 export interface CaseStudyEntry {
   id: number;
@@ -75,16 +75,16 @@ function extractResults(content: string) {
 function inferIndustry(post: BlogPost): IndustryKey {
   const source = `${post.title} ${post.excerpt} ${post.content}`.toLowerCase();
 
-  if (source.includes('robot') || source.includes('cobot')) {
-    return 'robotics';
+  if (source.includes('semiconductor') || source.includes('ffkm') || source.includes('vacuum')) {
+    return 'semiconductor';
   }
 
-  if (source.includes('ai') || source.includes('data center') || source.includes('gpu')) {
-    return 'ai';
+  if (source.includes('automotive') || source.includes('tier 2')) {
+    return 'automotiveTier2';
   }
 
-  if (source.includes('automotive') || source.includes('ev') || source.includes('battery')) {
-    return 'automotive';
+  if (source.includes('ev') || source.includes('energy storage') || source.includes('thermal')) {
+    return 'ev';
   }
 
   return 'industrial';

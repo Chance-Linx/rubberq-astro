@@ -111,7 +111,11 @@
     "subtitle": "Custom-formulated precision rubber components for EV & energy storage, industrial equipment, semiconductor, and Tier 2 automotive — engineered through 30 years of Sino-Japanese collaboration, validated in our in-house lab.",
     "ctaPrimary": "REQUEST QUOTE",
     "ctaSecondary": "EXPLORE OUR R&D",
-    "trustBadges": ["IATF 16949", "ISO 9001", "ISO 14001"]
+    "trustBadges": [
+      "IATF 16949",
+      "ISO 9001",
+      "ISO 14001"
+    ]
   },
   "features": {
     "title": "WHY GLOBAL ENGINEERING TEAMS CHOOSE RUBBERQ",
@@ -163,7 +167,7 @@
       "Over 10M parts annually (commodity rubber)",
       "Single-source ultra-low-cost orders",
       "Standard catalog items only",
-      "Medical implant-grade (we don't hold ISO 13485)"
+      "Regulated healthcare-grade qualification"
     ],
     "cta": "Tell us about your project"
   },
@@ -186,7 +190,7 @@
       "seals": "Seals & Gaskets",
       "automotive": "Automotive Parts",
       "industrial": "Industrial Components",
-      "medical": "Medical Grade"
+      "medical": "Precision Grade"
     }
   },
   "industries": {
@@ -252,8 +256,8 @@
       "companyPlaceholder": "Tech Innovations Inc.",
       "industry": "Target Industry",
       "industryOptions": {
-        "robotics": "Robotics & Automation",
-        "ai": "AI Hardware / Data Centers",
+        "robotics": "Industrial Equipment",
+        "ai": "Semiconductor Process Equipment",
         "automotive": "Automotive (IATF 16949 req.)",
         "machinery": "Precision Machinery",
         "other": "Other"
@@ -283,7 +287,11 @@
       "unitsPolicy": "Technical data uses unified international metric units by default.",
       "complianceTitle": "Lightweight Compliance Guidance",
       "complianceHint": "Provide these requirements in RFQ notes and our team maps matching documents in one reply.",
-      "complianceItems": ["REACH / RoHS declaration support", "FDA material compliance statement (when required)", "PPAP / FAI package availability"]
+      "complianceItems": [
+        "REACH / RoHS declaration support",
+        "Application-specific material declaration support",
+        "PPAP / FAI package availability"
+      ]
     }
   },
   "about": {
@@ -293,7 +301,7 @@
     "videoDuration": "[Company Overview & Factory Tour - 3:45]",
     "heritageQuote": "\"Automotive quality is in our DNA.\"",
     "heritageText1": "For over three decades, we have served as a long-term OEM supplier for leading Japanese automotive brands. This experience taught us that in precision manufacturing, there is no room for error.",
-    "heritageText2": "Today, as we expand into the AI and Robotics sectors, we carry this legacy of \"Zero-Defect\" culture into the technologies of tomorrow.",
+    "heritageText2": "Today, as we expand into the EV and industrial equipment sectors, we carry this legacy of \"Zero-Defect\" culture into the technologies of tomorrow.",
     "stats": {
       "years": "Years Experience",
       "factory": "Sqm Factory",
@@ -339,7 +347,7 @@
   "productsPage": {
     "metadata": {
       "title": "Products | RubberQ - Automotive-Grade Rubber Components",
-      "description": "Custom rubber seals, gaskets, bellows, and molded components. IATF 16949 certified manufacturing for robotics, automotive, and industrial applications."
+      "description": "Custom rubber seals, gaskets, bellows, and molded components. IATF 16949 certified manufacturing for industrial equipment, automotive, and industrial applications."
     },
     "badge": "IATF 16949 Certified",
     "title": "PRODUCT PORTFOLIO",
@@ -347,7 +355,7 @@
     "capability": "Capability",
     "manufacturingFootprint": "Manufacturing Footprint",
     "categoriesTitle": "COMPONENT CATEGORIES",
-    "categoriesSubtitle": "Four core product families serving robotics, automotive, AI infrastructure, and precision machinery industries.",
+    "categoriesSubtitle": "Four core product families serving industrial equipment, automotive, semiconductor and energy infrastructure, and precision machinery industries.",
     "certifications": [
       "IATF 16949:2016 Certified",
       "ISO 9001:2015 Quality",
@@ -360,29 +368,65 @@
       "materialsTitle": "Available Materials",
       "featuresTitle": "Key Features",
       "applicationsTitle": "Typical Applications",
-      "applications": ["Hydraulic systems", "Pneumatic cylinders", "Rotary shafts", "Static flanges"],
-      "features": ["Temperature range: -60°C to 320°C", "Chemical resistance customization", "Low compression set"],
+      "applications": [
+        "Hydraulic systems",
+        "Pneumatic cylinders",
+        "Rotary shafts",
+        "Static flanges"
+      ],
+      "features": [
+        "Temperature range: -60°C to 320°C",
+        "Chemical resistance customization",
+        "Low compression set"
+      ],
       "specs": "ISO 3601-1 Class B"
     },
     "gaskets": {
       "name": "Gaskets & Washers",
       "desc": "Die-cut and molded gaskets for fluid sealing, EMI shielding, and thermal management applications.",
-      "applications": ["Battery packs", "Enclosures", "Heat exchangers", "Pump housings"],
-      "features": ["Thickness: 0.5mm to 25mm", "Custom adhesive backing", "FDA grades available"],
+      "applications": [
+        "Energy-storage systems",
+        "Enclosures",
+        "Heat exchangers",
+        "Pump housings"
+      ],
+      "features": [
+        "Thickness: 0.5mm to 25mm",
+        "Custom adhesive backing",
+        "Application-specific grades available"
+      ],
       "specs": "ISO 3302-1 Class M1"
     },
     "bellows": {
       "name": "Bellows & Boots",
       "desc": "Flexible protective covers for linear and rotary motion systems, with extended fatigue life.",
-      "applications": ["Robot joints", "Linear actuators", "CV joints", "Machine ways"],
-      "features": ["Multi-convolution designs", "Collapsible/retractable", "Chemical splash protection"],
+      "applications": [
+        "Robot joints",
+        "Linear actuators",
+        "CV joints",
+        "Machine ways"
+      ],
+      "features": [
+        "Multi-convolution designs",
+        "Collapsible/retractable",
+        "Chemical splash protection"
+      ],
       "specs": "1M+ cycle rating"
     },
     "custom": {
       "name": "Custom Molded Parts",
       "desc": "Application-specific rubber components from prototype to high-volume production.",
-      "applications": ["Vibration isolators", "Bumpers", "Valve components", "Connector seals"],
-      "features": ["Tight tolerance molding", "Insert molding capability", "Color matching"],
+      "applications": [
+        "Vibration isolators",
+        "Bumpers",
+        "Valve components",
+        "Connector seals"
+      ],
+      "features": [
+        "Tight tolerance molding",
+        "Insert molding capability",
+        "Color matching"
+      ],
       "specs": "SPI-SPE Standards"
     },
     "requestQuote": "Request Quote",
@@ -392,7 +436,7 @@
     "engineeringServices": [
       "Material formulation development",
       "FEA simulation and validation",
-      "Rapid prototyping (3-5 days)",
+      "Scoped prototype planning after drawing review",
       "Tooling design and manufacture",
       "PPAP documentation support"
     ],
@@ -406,9 +450,18 @@
     "resourcesTitle": "TECHNICAL RESOURCES",
     "resourcesSubtitle": "Download specifications and material datasheets",
     "downloads": [
-      { "name": "Material Selection Guide", "size": "PDF, 2.4 MB" },
-      { "name": "Tolerances Reference (ISO 3302)", "size": "PDF, 1.1 MB" },
-      { "name": "ASTM D2000 Specification", "size": "PDF, 3.2 MB" }
+      {
+        "name": "Material Selection Guide",
+        "size": "PDF, 2.4 MB"
+      },
+      {
+        "name": "Tolerances Reference (ISO 3302)",
+        "size": "PDF, 1.1 MB"
+      },
+      {
+        "name": "ASTM D2000 Specification",
+        "size": "PDF, 3.2 MB"
+      }
     ]
   },
   "resources": {
@@ -429,26 +482,58 @@
       "fkm": {
         "description": "Fluoroelastomer with exceptional chemical resistance and high-temperature stability.",
         "tempRange": "-20°C to +200°C",
-        "applications": ["Aerospace", "Chemical processing", "High-performance automotive"],
-        "features": ["Excellent chemical resistance", "High temperature tolerance", "Superior oil/fuel resistance"]
+        "applications": [
+          "Aerospace",
+          "Chemical processing",
+          "High-performance automotive"
+        ],
+        "features": [
+          "Excellent chemical resistance",
+          "High temperature tolerance",
+          "Superior oil/fuel resistance"
+        ]
       },
       "nbr": {
         "description": "Nitrile rubber offers excellent oil resistance and mechanical properties at competitive cost.",
         "tempRange": "-40°C to +120°C",
-        "applications": ["Hydraulic systems", "Automotive", "General industrial"],
-        "features": ["Cost-effective solution", "Good oil resistance", "Wide hardness range available"]
+        "applications": [
+          "Hydraulic systems",
+          "Automotive",
+          "General industrial"
+        ],
+        "features": [
+          "Cost-effective solution",
+          "Good oil resistance",
+          "Wide hardness range available"
+        ]
       },
       "epdm": {
         "description": "Ethylene propylene diene monomer with outstanding weather and ozone resistance.",
         "tempRange": "-50°C to +150°C",
-        "applications": ["Outdoor applications", "Water systems", "Steam applications"],
-        "features": ["Excellent weather resistance", "Superior water/steam resistance", "Good electrical insulation"]
+        "applications": [
+          "Outdoor applications",
+          "Water systems",
+          "Steam applications"
+        ],
+        "features": [
+          "Excellent weather resistance",
+          "Superior water/steam resistance",
+          "Good electrical insulation"
+        ]
       },
       "silicone": {
         "description": "Versatile elastomer with extreme temperature range and biocompatibility.",
         "tempRange": "-60°C to +230°C",
-        "applications": ["Medical devices", "Food processing", "Extreme temperatures"],
-        "features": ["FDA compliant grades available", "Extreme temperature range", "Excellent compression set"]
+        "applications": [
+          "Electronics",
+          "Clean industrial equipment",
+          "Extreme temperatures"
+        ],
+        "features": [
+          "Clean-process grades available",
+          "Extreme temperature range",
+          "Excellent compression set"
+        ]
       }
     },
     "designGuides": {
@@ -512,7 +597,7 @@
       },
       "q2": {
         "question": "How do I choose the right rubber material for my application?",
-        "answer": "Material selection depends on temperature range, chemical exposure, mechanical requirements, and regulatory needs (FDA, UL, etc.). Our material selection guide provides detailed comparison data, or contact our engineering team for recommendations."
+        "answer": "Material selection depends on temperature range, chemical exposure, mechanical requirements, and application standards and operating conditions. Our material selection guide provides detailed comparison data, or contact our engineering team for recommendations."
       },
       "q3": {
         "question": "What tolerance levels can you achieve?",
@@ -610,10 +695,30 @@
       "note": "All equipment is calibrated annually by CNAS accredited third-party laboratories.",
       "fullCapabilityLink": "See full ASTM/ISO testing matrix on our Testing & Validation page",
       "equipment": [
-        { "name": "Rheometer (MDR)", "function": "Cure characteristics analysis", "standards": "ASTM D5289", "img": "https://images.unsplash.com/photo-1579154236594-c199f346e992?auto=format&fit=crop&q=80&w=400" },
-        { "name": "Universal Tensile Tester", "function": "Strength, elongation, modulus", "standards": "ASTM D412 / ISO 37", "img": "https://images.unsplash.com/photo-1581093450021-4a7360e9a6ad?auto=format&fit=crop&q=80&w=400" },
-        { "name": "Aging Oven", "function": "Heat & ozone aging simulation", "standards": "ASTM D573 / D1149", "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=400" },
-        { "name": "Video Measuring System", "function": "Dimensional inspection", "standards": "ISO 3302-1 Class M1", "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=400" }
+        {
+          "name": "Rheometer (MDR)",
+          "function": "Cure characteristics analysis",
+          "standards": "ASTM D5289",
+          "img": "https://images.unsplash.com/photo-1579154236594-c199f346e992?auto=format&fit=crop&q=80&w=400"
+        },
+        {
+          "name": "Universal Tensile Tester",
+          "function": "Strength, elongation, modulus",
+          "standards": "ASTM D412 / ISO 37",
+          "img": "https://images.unsplash.com/photo-1581093450021-4a7360e9a6ad?auto=format&fit=crop&q=80&w=400"
+        },
+        {
+          "name": "Aging Oven",
+          "function": "Heat & ozone aging simulation",
+          "standards": "ASTM D573 / D1149",
+          "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=400"
+        },
+        {
+          "name": "Video Measuring System",
+          "function": "Dimensional inspection",
+          "standards": "ISO 3302-1 Class M1",
+          "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=400"
+        }
       ]
     },
     "whySingleLine": {
@@ -635,9 +740,21 @@
         "inspectionDesc": "Zero-defect guarantee through manual and AI-assisted check."
       },
       "scenes": [
-        { "title": "Incoming Material Check", "desc": "SGS certified raw material verification for every batch.", "img": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=600" },
-        { "title": "In-process Monitoring", "desc": "Real-time SPC (Statistical Process Control) data tracking.", "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600" },
-        { "title": "Final 100% Inspection", "desc": "Zero-defect guarantee through manual and AI-assisted check.", "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=600" }
+        {
+          "title": "Incoming Material Check",
+          "desc": "SGS certified raw material verification for every batch.",
+          "img": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=600"
+        },
+        {
+          "title": "In-process Monitoring",
+          "desc": "Real-time SPC (Statistical Process Control) data tracking.",
+          "img": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600"
+        },
+        {
+          "title": "Final 100% Inspection",
+          "desc": "Zero-defect guarantee through manual and AI-assisted check.",
+          "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=600"
+        }
       ]
     },
     "traceability": {
@@ -645,16 +762,44 @@
       "mainTitle": "Full Traceability Chain",
       "subtitle": "Our automotive-grade heritage means every component follows a rigorous evidence-based manufacturing cycle.",
       "steps": [
-        { "title": "APQP", "desc": "Advanced Product Quality Planning" },
-        { "title": "Compounding", "desc": "Precision automated weighing" },
-        { "title": "Molding", "desc": "Real-time sensor monitoring" },
-        { "title": "FQC", "desc": "100% Visual or automated inspection" }
+        {
+          "title": "APQP",
+          "desc": "Advanced Product Quality Planning"
+        },
+        {
+          "title": "Compounding",
+          "desc": "Precision automated weighing"
+        },
+        {
+          "title": "Molding",
+          "desc": "Real-time sensor monitoring"
+        },
+        {
+          "title": "FQC",
+          "desc": "100% Visual or automated inspection"
+        }
       ],
       "flow": [
-        { "step": "01", "title": "Raw Material", "desc": "Incoming inspection and batch certification" },
-        { "step": "02", "title": "Compounding", "desc": "Automated weighing with full digital logging" },
-        { "step": "03", "title": "Molding", "desc": "Real-time process monitoring and SPC control" },
-        { "step": "04", "title": "Inspection", "desc": "100% final inspection with traceability records" }
+        {
+          "step": "01",
+          "title": "Raw Material",
+          "desc": "Incoming inspection and batch certification"
+        },
+        {
+          "step": "02",
+          "title": "Compounding",
+          "desc": "Automated weighing with full digital logging"
+        },
+        {
+          "step": "03",
+          "title": "Molding",
+          "desc": "Real-time process monitoring and SPC control"
+        },
+        {
+          "step": "04",
+          "title": "Inspection",
+          "desc": "100% final inspection with traceability records"
+        }
       ]
     },
     "documentation": {
@@ -782,10 +927,22 @@
         "title": "2. How We Use Your Information",
         "content": "We use the collected data for specific industrial and business purposes:",
         "items": [
-          { "label": "RFQ Processing:", "text": "To evaluate manufacturing feasibility and provide accurate pricing." },
-          { "label": "Engineering Consultation:", "text": "To offer material selection and design-for-manufacturability (DFM) advice." },
-          { "label": "Order Fulfillment:", "text": "To manufacture and ship your custom rubber components." },
-          { "label": "Quality Control:", "text": "To maintain production records as required by IATF 16949 and ISO 9001 standards." }
+          {
+            "label": "RFQ Processing:",
+            "text": "To evaluate manufacturing feasibility and provide accurate pricing."
+          },
+          {
+            "label": "Engineering Consultation:",
+            "text": "To offer material selection and design-for-manufacturability (DFM) advice."
+          },
+          {
+            "label": "Order Fulfillment:",
+            "text": "To manufacture and ship your custom rubber components."
+          },
+          {
+            "label": "Quality Control:",
+            "text": "To maintain production records as required by IATF 16949 and ISO 9001 standards."
+          }
         ]
       },
       "intellectualProperty": {
@@ -821,7 +978,7 @@
     },
     "singleLineCallout": {
       "title": "Single Line, Zero Cross-Contamination",
-      "body": "Sequence-ordered scheduling: highest-purity compounds first in the day, high-carbon-black and peroxide-cured compounds last. SOP-driven cleaning between batch families. Critical for semiconductor FFKM and EV battery seal applications where compound purity cannot be compromised.",
+      "body": "Sequence-ordered scheduling: highest-purity compounds first in the day, high-carbon-black and peroxide-cured compounds last. SOP-driven cleaning between batch families. Critical for semiconductor FFKM and EV thermal and energy-storage seal applications where compound purity cannot be compromised.",
       "cta": "Learn more about our compounding strategy"
     },
     "processes": {
@@ -1058,7 +1215,7 @@
       },
       "epdm": {
         "name": "EPDM (Ethylene Propylene Diene)",
-        "desc": "Weather, ozone, and steam resistance. Used for EV battery pack seals, charging infrastructure, BESS cabinets, and outdoor industrial enclosures."
+        "desc": "Weather, ozone, and steam resistance. Used for EV thermal and energy-storage seals, charging infrastructure, BESS cabinets, and outdoor industrial enclosures."
       },
       "nbr": {
         "name": "NBR (Nitrile Rubber)",
@@ -1074,7 +1231,7 @@
       },
       "silicone": {
         "name": "Silicone (HCR — Heat Cured Rubber)",
-        "desc": "Industrial-grade silicone with -60°C to +230°C temperature range. FDA-compliant grades on request for food-contact and industrial equipment applications — not for medical implant use (we do not hold ISO 13485)."
+        "desc": "Industrial-grade silicone with -60°C to +230°C temperature range for electronics, clean industrial equipment, and thermal cycling applications."
       },
       "lsr": {
         "name": "LSR (Liquid Silicone Rubber)",
@@ -1152,11 +1309,11 @@
       },
       "applicationCertifications": {
         "title": "Application-Specific Certifications",
-        "desc": "Specialized standards for high-stakes industries like food, medical, and aerospace.",
+        "desc": "Specialized standards for high-stakes industrial, mobility, and aerospace-adjacent applications.",
         "standards": {
           "fda": {
-            "name": "Rubber Articles Intended for Repeated Use with Food",
-            "detail": "Extraction testing and raw material white-listing for food-grade silicone, EPDM, and NBR components."
+            "name": "Application-Specific Material Declarations",
+            "detail": "Material declarations and test summaries can be prepared for reviewed application requirements."
           },
           "milSpec": {
             "name": "Military Specifications (e.g., MIL-R-25988)",
@@ -1188,7 +1345,7 @@
       "badge": "Proven Excellence",
       "titleLine1": "CASE",
       "titleLine2": "STUDIES",
-      "subtitle": "Real-world applications of automotive-grade rubber engineering. See how we solve critical sealing challenges across robotics, AI infrastructure, and next-generation mobility."
+      "subtitle": "Real-world applications of automotive-grade rubber engineering. See how we solve critical sealing challenges across industrial equipment, semiconductor and energy infrastructure, and next-generation mobility."
     },
     "stats": {
       "projectsDelivered": "Projects Delivered",
@@ -1204,7 +1361,7 @@
     },
     "studies": {
       "robotics": {
-        "industry": "Collaborative Robotics",
+        "industry": "Precision Industrial Equipment",
         "client": "European Cobot Manufacturer",
         "location": "Germany",
         "challenge": "Joint seal failure in 24/7 production environments causing downtime",
@@ -1216,7 +1373,7 @@
         ]
       },
       "aiDataCenters": {
-        "industry": "AI Data Centers",
+        "industry": "Thermal Management Equipment",
         "client": "Leading Cloud Infrastructure Provider",
         "location": "United States",
         "challenge": "Liquid cooling system leaks in high-density GPU clusters",
@@ -1231,7 +1388,7 @@
         "industry": "Automotive EV",
         "client": "Tier-1 EV Component Supplier",
         "location": "Japan",
-        "challenge": "Battery pack sealing for thermal management systems",
+        "challenge": "Thermal-interface sealing for EV and energy-storage systems",
         "solution": "Multi-material gasket system with fire-resistant properties",
         "results": [
           "Passed UL94 V-0 fire rating",
@@ -1243,7 +1400,7 @@
     "cta": {
       "titleLine1": "FACING A",
       "titleLine2": "SEALING CHALLENGE?",
-      "subtitle": "Our engineering team has solved complex sealing problems across robotics, automotive, and industrial applications. Let's discuss yours.",
+      "subtitle": "Our engineering team has solved complex sealing problems across industrial equipment, automotive, and industrial applications. Let's discuss yours.",
       "discussProject": "Discuss Your Project",
       "exploreMaterials": "Explore Materials"
     }
@@ -1282,19 +1439,37 @@
       "adv1Title": "1. COMPOUND CONSISTENCY",
       "adv1Body": "Same Banbury, same process curve, same operator team. Your 2030 PPAP file will reproduce your 2026 part exactly. Multi-line plants can't guarantee this.",
       "adv2Title": "2. CROSS-CONTAMINATION CONTROL",
-      "adv2Body": "Strict cleaning SOP between batches. Sequence-ordered scheduling: highest-purity compounds first, high-carbon-black/peroxide compounds last. Critical for semiconductor FFKM and EV battery seal applications.",
+      "adv2Body": "Strict cleaning SOP between batches. Sequence-ordered scheduling: highest-purity compounds first, high-carbon-black/peroxide compounds last. Critical for semiconductor FFKM and EV thermal and energy-storage seal applications.",
       "adv3Title": "3. ENGINEER-WITNESSED PRODUCTION",
       "adv3Body": "Every batch's rheology curve and Mooney viscosity is reviewed in real time by our lab team — not sampled. Multi-line plants only sample-check."
     },
     "labEquipment": {
       "title": "Inside Our R&D Laboratory",
       "items": [
-        { "name": "Rheometer / Mooney Viscometer", "desc": "Cure characteristics & viscosity" },
-        { "name": "Universal Tensile Tester", "desc": "Strength & elongation" },
-        { "name": "Aging Oven", "desc": "Long-term thermal & ozone aging" },
-        { "name": "Compression Set Tester", "desc": "Sealing durability" },
-        { "name": "Oil Immersion Bath", "desc": "Fluid resistance" },
-        { "name": "Durometer", "desc": "Shore A / Shore D hardness" }
+        {
+          "name": "Rheometer / Mooney Viscometer",
+          "desc": "Cure characteristics & viscosity"
+        },
+        {
+          "name": "Universal Tensile Tester",
+          "desc": "Strength & elongation"
+        },
+        {
+          "name": "Aging Oven",
+          "desc": "Long-term thermal & ozone aging"
+        },
+        {
+          "name": "Compression Set Tester",
+          "desc": "Sealing durability"
+        },
+        {
+          "name": "Oil Immersion Bath",
+          "desc": "Fluid resistance"
+        },
+        {
+          "name": "Durometer",
+          "desc": "Shore A / Shore D hardness"
+        }
       ],
       "fullLink": "See full equipment + ASTM/ISO standards"
     },
@@ -1337,17 +1512,67 @@
     "library": {
       "title": "Our Compound Library",
       "intro": "[TBD: 200+] proprietary compounds developed over 30 years. Categorized by polymer family and application chemistry. Specific formulations remain proprietary; high-level capability shown below:",
-      "columns": ["Family", "Typical Applications", "Temp Range", "Key Property"],
+      "columns": [
+        "Family",
+        "Typical Applications",
+        "Temp Range",
+        "Key Property"
+      ],
       "rows": [
-        { "family": "FKM", "apps": "Auto / Industrial / Chemical", "temp": "-20 to +200°C", "key": "Chemical resistance" },
-        { "family": "FFKM", "apps": "Semiconductor / Plasma / High-purity", "temp": "-20 to +260°C", "key": "Extreme chemical & thermal purity" },
-        { "family": "HNBR", "apps": "EV thermal management / High-temp auto", "temp": "-40 to +160°C", "key": "Low compression set, oil + heat" },
-        { "family": "NBR", "apps": "Hydraulic / Oil sealing / General industrial", "temp": "-40 to +120°C", "key": "Cost-effective oil resistance" },
-        { "family": "EPDM", "apps": "Battery seals / Outdoor / Steam systems", "temp": "-50 to +150°C", "key": "Weather, ozone, steam resistance" },
-        { "family": "ACM", "apps": "Automotive transmission / ATF", "temp": "-25 to +175°C", "key": "ATF resistance" },
-        { "family": "AEM", "apps": "Automotive heat ducts / Hoses", "temp": "-40 to +175°C", "key": "Heat + oil resistance" },
-        { "family": "HCR Silicone", "apps": "Industrial seals / Wide temperature", "temp": "-60 to +230°C", "key": "Extreme temperature range" },
-        { "family": "LSR", "apps": "Precision overmolding / Liquid injection", "temp": "-60 to +200°C", "key": "Tight-tolerance overmolding" }
+        {
+          "family": "FKM",
+          "apps": "Auto / Industrial / Chemical",
+          "temp": "-20 to +200°C",
+          "key": "Chemical resistance"
+        },
+        {
+          "family": "FFKM",
+          "apps": "Semiconductor / Plasma / High-purity",
+          "temp": "-20 to +260°C",
+          "key": "Extreme chemical & thermal purity"
+        },
+        {
+          "family": "HNBR",
+          "apps": "EV thermal management / High-temp auto",
+          "temp": "-40 to +160°C",
+          "key": "Low compression set, oil + heat"
+        },
+        {
+          "family": "NBR",
+          "apps": "Hydraulic / Oil sealing / General industrial",
+          "temp": "-40 to +120°C",
+          "key": "Cost-effective oil resistance"
+        },
+        {
+          "family": "EPDM",
+          "apps": "Battery seals / Outdoor / Steam systems",
+          "temp": "-50 to +150°C",
+          "key": "Weather, ozone, steam resistance"
+        },
+        {
+          "family": "ACM",
+          "apps": "Automotive transmission / ATF",
+          "temp": "-25 to +175°C",
+          "key": "ATF resistance"
+        },
+        {
+          "family": "AEM",
+          "apps": "Automotive heat ducts / Hoses",
+          "temp": "-40 to +175°C",
+          "key": "Heat + oil resistance"
+        },
+        {
+          "family": "HCR Silicone",
+          "apps": "Industrial seals / Wide temperature",
+          "temp": "-60 to +230°C",
+          "key": "Extreme temperature range"
+        },
+        {
+          "family": "LSR",
+          "apps": "Precision overmolding / Liquid injection",
+          "temp": "-60 to +200°C",
+          "key": "Tight-tolerance overmolding"
+        }
       ],
       "outro": "Need a property combination not listed? That's exactly what we develop.",
       "cta": "Start a custom compound brief"
@@ -1367,7 +1592,7 @@
         "label": "NDA-DEPENDENT (12-24 weeks)",
         "desc": "Ground-up new compound from first-principles polymer chemistry. Timeline depends on Japanese team availability — disclosed in NDA."
       },
-      "redLine": "We will not promise \"new compound from scratch in 4 weeks.\" Anyone who does is either lying or cutting corners that will fail PPAP."
+      "redLine": "We will not promise \"ground-up compound development without a proper validation plan.\" Anyone who does is either lying or cutting corners that will fail PPAP."
     },
     "finalCta": {
       "title": "Ready to Co-Develop?",
@@ -1384,19 +1609,67 @@
     },
     "matrix": {
       "title": "Our Testing Capability Matrix",
-      "columns": ["Equipment", "Test", "Standards"],
+      "columns": [
+        "Equipment",
+        "Test",
+        "Standards"
+      ],
       "rows": [
-        { "equipment": "Universal Tensile Tester", "test": "Tensile Strength, Elongation, Modulus", "standards": "ASTM D412 / ISO 37" },
-        { "equipment": "Aging Oven", "test": "Heat Aging, Ozone Resistance", "standards": "ASTM D573 / D1149" },
-        { "equipment": "Compression Set Tester", "test": "Compression Set", "standards": "ASTM D395" },
-        { "equipment": "Oil Immersion Bath", "test": "Fluid / Oil / Fuel Resistance", "standards": "ASTM D471 / ISO 1817" },
-        { "equipment": "Durometer (Shore A/D)", "test": "Hardness", "standards": "ASTM D2240" },
-        { "equipment": "Rheometer (MDR)", "test": "Cure Characteristics", "standards": "ASTM D5289" },
-        { "equipment": "Mooney Viscometer", "test": "Mooney Viscosity, Scorch", "standards": "ASTM D1646 / ISO 289" },
-        { "equipment": "Specific Gravity Balance", "test": "Density Verification", "standards": "ASTM D297" },
-        { "equipment": "DMA (if equipped)", "test": "Dynamic Mechanical Analysis", "standards": "ASTM D5992 / ISO 4664" },
-        { "equipment": "TGA (if equipped)", "test": "Thermogravimetric Analysis", "standards": "ASTM E1131" },
-        { "equipment": "Video Measuring System", "test": "Dimensional Inspection", "standards": "ISO 3302-1 Class M1" }
+        {
+          "equipment": "Universal Tensile Tester",
+          "test": "Tensile Strength, Elongation, Modulus",
+          "standards": "ASTM D412 / ISO 37"
+        },
+        {
+          "equipment": "Aging Oven",
+          "test": "Heat Aging, Ozone Resistance",
+          "standards": "ASTM D573 / D1149"
+        },
+        {
+          "equipment": "Compression Set Tester",
+          "test": "Compression Set",
+          "standards": "ASTM D395"
+        },
+        {
+          "equipment": "Oil Immersion Bath",
+          "test": "Fluid / Oil / Fuel Resistance",
+          "standards": "ASTM D471 / ISO 1817"
+        },
+        {
+          "equipment": "Durometer (Shore A/D)",
+          "test": "Hardness",
+          "standards": "ASTM D2240"
+        },
+        {
+          "equipment": "Rheometer (MDR)",
+          "test": "Cure Characteristics",
+          "standards": "ASTM D5289"
+        },
+        {
+          "equipment": "Mooney Viscometer",
+          "test": "Mooney Viscosity, Scorch",
+          "standards": "ASTM D1646 / ISO 289"
+        },
+        {
+          "equipment": "Specific Gravity Balance",
+          "test": "Density Verification",
+          "standards": "ASTM D297"
+        },
+        {
+          "equipment": "DMA (if equipped)",
+          "test": "Dynamic Mechanical Analysis",
+          "standards": "ASTM D5992 / ISO 4664"
+        },
+        {
+          "equipment": "TGA (if equipped)",
+          "test": "Thermogravimetric Analysis",
+          "standards": "ASTM E1131"
+        },
+        {
+          "equipment": "Video Measuring System",
+          "test": "Dimensional Inspection",
+          "standards": "ISO 3302-1 Class M1"
+        }
       ],
       "calibrationNote": "All equipment calibrated annually by CNAS-accredited third-party laboratories."
     },
@@ -1474,7 +1747,7 @@
           "apps": [
             "Thermal management hoses and O-rings",
             "Low/medium-voltage connector seals",
-            "Vibration isolators (motor mounts, battery pack mounts)",
+            "Vibration isolators (motor mounts, energy-system mounts)",
             "Sensor seals (Tier 2 supplied to Tier 1 modules)"
           ],
           "compounds": "HNBR, FKM, EPDM, ACM, AEM"
@@ -1485,7 +1758,7 @@
         "intro": "Unlike legacy ICE seals, EV seals operate in:",
         "points": [
           "Continuous high-temperature exposure (thermal management hoses see 130-160°C constantly, not just at peak)",
-          "Compression set under long-duration static load (battery pack lifecycle = 8-15 years, not warranty replacement)",
+          "Compression set under long-duration static load (energy-system lifecycle = 8-15 years, not warranty replacement)",
           "Mixed-fluid environments (coolants, dielectric fluids, electrolyte vapor)",
           "Vibration combined with thermal cycling"
         ],
@@ -1509,19 +1782,30 @@
         "items": [
           {
             "name": "Hydraulic & Pneumatic",
-            "list": ["Cylinder rod seals, piston seals, wiper seals", "Pneumatic actuator seals"]
+            "list": [
+              "Cylinder rod seals, piston seals, wiper seals",
+              "Pneumatic actuator seals"
+            ]
           },
           {
             "name": "Pump & Valve",
-            "list": ["Pump housing gaskets", "Valve stem seals"]
+            "list": [
+              "Pump housing gaskets",
+              "Valve stem seals"
+            ]
           },
           {
             "name": "Machine Way Protection",
-            "list": ["Bellows, boots, way covers"]
+            "list": [
+              "Bellows, boots, way covers"
+            ]
           },
           {
             "name": "Process Equipment",
-            "list": ["Steam-resistant gaskets", "Chemical-resistant seals"]
+            "list": [
+              "Steam-resistant gaskets",
+              "Chemical-resistant seals"
+            ]
           }
         ]
       },
@@ -1576,7 +1860,7 @@
           "Compound co-development with Tier 1 R&D engineers"
         ],
         "notFitItems": [
-          "Tier 1 platform-wide volume parts (millions/year per SKU)",
+          "platform-wide volume parts (millions/year per SKU)",
           "Commodity replacement parts (catalog-grade)"
         ]
       },
@@ -1630,7 +1914,7 @@
       "notFitItems": [
         "High-volume commodity rubber (tens of millions+ parts/year)",
         "Single-source ultra-low-cost orders",
-        "Medical implant-grade applications (we don't hold ISO 13485)"
+        "Regulated healthcare-grade qualification"
       ],
       "rightFitTitle": "We're the right partner for:",
       "rightFitItems": [
@@ -1659,7 +1943,7 @@
     "heroSubtitleV2": "Our two-stage mixing process — run on a single, dedicated A-mixing line designed by our Japanese formulation partners — is the backbone of our quality promise. By separating masterbatching from final compounding, we achieve superior batch-to-batch consistency for critical applications.",
     "singleLineCallout": {
       "title": "Single Line, Zero Cross-Contamination",
-      "body": "Sequence-ordered scheduling: highest-purity compounds first in the day, high-carbon-black/peroxide compounds last. SOP-driven cleaning between batch families. Critical for semiconductor FFKM and EV battery seal applications.",
+      "body": "Sequence-ordered scheduling: highest-purity compounds first in the day, high-carbon-black/peroxide compounds last. SOP-driven cleaning between batch families. Critical for semiconductor FFKM and EV thermal and energy-storage seal applications.",
       "cta": "Learn more about our compounding strategy"
     }
   },
@@ -1708,8 +1992,8 @@
       "industrial": "Industrial Equipment (Hydraulic / Pneumatic / Pumps / Valves)",
       "semiconductor": "Semiconductor (FFKM / Process Seals)",
       "automotiveTier2": "Automotive Tier 2",
-      "robotics": "Robotics & Automation",
-      "aiHardware": "AI Hardware / Data Centers",
+      "robotics": "Industrial Equipment",
+      "aiHardware": "Semiconductor Process Equipment",
       "other": "Other (please describe)"
     }
   }

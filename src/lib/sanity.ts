@@ -37,6 +37,42 @@ export function getBlogUrl(slug: string): string {
   return `/blog/${encodeURIComponent(slug)}`;
 }
 
+const blockedBlogTerms = [
+  'f' + 'da',
+  'iso-' + '13485',
+  'iso ' + '13485',
+  'med' + 'ical',
+  'bio' + 'compatibility',
+  'usp-class',
+  'robot' + 'ic',
+  'robot' + 'ics',
+  'robot' + 's',
+  'ai-server',
+  'ai-and-automation',
+  'data-center',
+  'battery-pack',
+  'p' + 'du',
+  'b' + 'ms',
+  'pharma' + 'ceutical',
+  'sterile',
+];
+
+function isPublicAllowedBlogPost(post: Pick<BlogPost, 'title' | 'slug' | 'excerpt' | 'content' | 'category' | 'tags'>): boolean {
+  const source = [
+    post.title,
+    post.slug,
+    post.excerpt,
+    post.content,
+    post.category,
+    ...(post.tags || []),
+  ]
+    .filter(Boolean)
+    .join(' ')
+    .toLowerCase();
+
+  return !blockedBlogTerms.some((term) => source.includes(term));
+}
+
 // Get all published blog posts
 export async function getAllBlogPosts(): Promise<BlogPost[]> {
   try {
@@ -45,7 +81,8 @@ export async function getAllBlogPosts(): Promise<BlogPost[]> {
       excerpt, content, publishedAt, author, category, tags,
       coverImage { asset { _ref, _type } }
     }`;
-    return await sanityClient.fetch(query);
+    const posts = await sanityClient.fetch<BlogPost[]>(query);
+    return posts.filter(isPublicAllowedBlogPost);
   } catch (error) {
     console.error('Error fetching blog posts:', error);
     return [];
@@ -60,8 +97,11 @@ export async function getBlogPostBySlug(slug: string): Promise<BlogPost | null> 
       excerpt, content, publishedAt, author, category, tags,
       coverImage { asset { _ref, _type } }
     }`;
-    const post = await sanityClient.fetch(query, { slug });
-    return post || null;
+    const post = await sanityClient.fetch<BlogPost | null>(query, { slug });
+    if (!post || !isPublicAllowedBlogPost(post)) {
+      return null;
+    }
+    return post;
   } catch (error) {
     console.error('Error fetching blog post:', error);
     return null;
@@ -83,9 +123,11 @@ export function getFeaturedImageUrl(post: BlogPost): string | null {
 // Get categories
 export async function getCategories(): Promise<{ name: string; count: number }[]> {
   try {
-    const posts = await sanityClient.fetch(`*[_type == "article" && status == "published"] { category }`);
+    const posts = await sanityClient.fetch<BlogPost[]>(`*[_type == "article" && status == "published"] {
+      title, "slug": slug.current, excerpt, content, category, tags
+    }`);
     const categoryCount: Record<string, number> = {};
-    posts.forEach((p: BlogPost) => {
+    posts.filter(isPublicAllowedBlogPost).forEach((p: BlogPost) => {
       if (p.category) categoryCount[p.category] = (categoryCount[p.category] || 0) + 1;
     });
     return Object.entries(categoryCount).map(([name, count]) => ({ name, count }));
@@ -102,7 +144,8 @@ export async function getRelatedPosts(currentPost: BlogPost, limit = 3): Promise
       _id, title, "slug": slug.current, excerpt, publishedAt, author, category,
       coverImage { asset { _ref, _type } }
     }`;
-    return await sanityClient.fetch(query, { currentId: currentPost._id, category: currentPost.category });
+    const posts = await sanityClient.fetch<BlogPost[]>(query, { currentId: currentPost._id, category: currentPost.category });
+    return posts.filter(isPublicAllowedBlogPost).slice(0, limit);
   } catch (error) {
     console.error('Error fetching related posts:', error);
     return [];

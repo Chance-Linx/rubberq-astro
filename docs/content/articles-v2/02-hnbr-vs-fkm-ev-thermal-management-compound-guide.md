@@ -26,7 +26,7 @@ This guide breaks down where each family wins, where compound formulation can ov
 | Sustained 130-160°C, glycol or oil contamination | **HNBR (high-saturation grade)** | Saturation level controls upper temperature limit. |
 | 150-200°C, exposure to dielectric coolants (immersion-style cooling) | **FKM** | HNBR oxidizes; FKM remains stable. |
 | Cold-start to -40°C required, low durometer | **HNBR with plasticizer-tuned compound** | FKM's low-temp glass transition is too high without specialty grades. |
-| Charging connector seal exposed to outdoor weather + brief high-voltage events | **EPDM (not HNBR or FKM)** | Different application — included here to flag misuse. |
+| Charging connector seal exposed to outdoor weather + outdoor electrical exposure | **EPDM (not HNBR or FKM)** | Different application — included here to flag misuse. |
 
 The interesting cases are in the middle rows, where compound formulation choices matter more than family choice.
 

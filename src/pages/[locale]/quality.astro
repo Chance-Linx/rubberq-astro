@@ -30,9 +30,9 @@ const trustLabels: Record<string, {
     reportsAction: 'Open Resource Pack',
     traceTitle: 'Supplier Traceability Chain',
     traceSubtitle: 'From approved suppliers to final outgoing inspection with digital batch references.',
-    videoTitle: 'Video Testimonials',
-    videoSubtitle: 'Short customer narratives on delivery consistency and engineering collaboration.',
-    watch: 'Watch',
+    videoTitle: 'Proof Asset Slots',
+    videoSubtitle: 'Reserved places for RubberQ-owned factory, testing, and engineering evidence.',
+    watch: 'Open',
     stepLabel: 'Stage',
   },
   zh: {
@@ -43,9 +43,9 @@ const trustLabels: Record<string, {
     reportsAction: '打开资料包',
     traceTitle: '供应链追溯链路',
     traceSubtitle: '从合格供应商到出货终检，形成批次级数字追踪。',
-    videoTitle: '客户视频见证',
-    videoSubtitle: '围绕交付稳定性与工程协同的短视频反馈。',
-    watch: '观看',
+    videoTitle: '证据资产占位',
+    videoSubtitle: '预留给 RubberQ 自有工厂、测试与工程证据素材。',
+    watch: '打开',
     stepLabel: '阶段',
   },
   de: {
@@ -56,9 +56,9 @@ const trustLabels: Record<string, {
     reportsAction: 'Ressourcenpaket öffnen',
     traceTitle: 'Lieferketten-Rückverfolgbarkeit',
     traceSubtitle: 'Von freigegebenen Lieferanten bis zur Endprüfung mit digitalem Chargenbezug.',
-    videoTitle: 'Video-Testimonials',
-    videoSubtitle: 'Kurze Kundenstimmen zu Lieferstabilität und Engineering-Zusammenarbeit.',
-    watch: 'Ansehen',
+    videoTitle: 'Proof-Asset-Slots',
+    videoSubtitle: 'Reserviert fur eigene RubberQ-Nachweise aus Werk, Labor und Engineering.',
+    watch: 'Offnen',
     stepLabel: 'Stufe',
   },
   ja: {
@@ -69,9 +69,9 @@ const trustLabels: Record<string, {
     reportsAction: '資料パックを開く',
     traceTitle: 'サプライチェーントレーサビリティ',
     traceSubtitle: '承認サプライヤから最終出荷検査までをロット単位で追跡。',
-    videoTitle: 'お客様動画レビュー',
-    videoSubtitle: '納期安定性と技術協働に関する短編レビュー。',
-    watch: '視聴',
+    videoTitle: '証拠素材スロット',
+    videoSubtitle: 'RubberQ 自社の工場・試験・技術素材を追加するための枠です。',
+    watch: '開く',
     stepLabel: '工程',
   },
   es: {
@@ -82,9 +82,9 @@ const trustLabels: Record<string, {
     reportsAction: 'Abrir paquete técnico',
     traceTitle: 'Cadena de Trazabilidad de Proveedores',
     traceSubtitle: 'Desde proveedores aprobados hasta inspección final con referencia digital por lote.',
-    videoTitle: 'Testimonios en Video',
-    videoSubtitle: 'Relatos cortos sobre consistencia de entrega y colaboración técnica.',
-    watch: 'Ver',
+    videoTitle: 'Espacios de evidencia',
+    videoSubtitle: 'Reservados para evidencia propia de fabrica, laboratorio e ingenieria de RubberQ.',
+    watch: 'Abrir',
     stepLabel: 'Etapa',
   },
 };
@@ -104,49 +104,45 @@ const certificates = [
     id: 'iatf-16949',
     name: 'IATF 16949:2016',
     org: f('certificates.iatf.org'),
-    issuer: 'TÜV SÜD',
-    issueDate: '2023-03-15',
-    expiryDate: '2026-03-14',
+    issuer: 'Official scan pending',
+    issueDate: 'To be verified',
+    expiryDate: 'To be verified',
     status: 'active' as const,
     description: f('certificates.iatf.description'),
     placeholder: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=800',
-    downloadUrl: '/downloads/certificates/IATF-16949-2023.pdf',
   },
   {
     id: 'iso-9001',
     name: 'ISO 9001:2015',
     org: f('certificates.iso9001.org'),
-    issuer: 'SGS',
-    issueDate: '2022-06-20',
-    expiryDate: '2025-06-19',
-    status: 'expiring' as const,
+    issuer: 'Official scan pending',
+    issueDate: 'To be verified',
+    expiryDate: 'To be verified',
+    status: 'active' as const,
     description: f('certificates.iso9001.description'),
     placeholder: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=800',
-    downloadUrl: '/downloads/certificates/ISO-9001-2022.pdf',
   },
   {
     id: 'iso-14001',
     name: 'ISO 14001:2015',
     org: f('certificates.iso14001.org'),
-    issuer: 'Bureau Veritas',
-    issueDate: '2023-01-10',
-    expiryDate: '2026-01-09',
+    issuer: 'Official scan pending',
+    issueDate: 'To be verified',
+    expiryDate: 'To be verified',
     status: 'active' as const,
     description: f('certificates.iso14001.description'),
     placeholder: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800',
-    downloadUrl: '/downloads/certificates/ISO-14001-2023.pdf',
   },
   {
     id: 'rohs-reach',
     name: 'RoHS & REACH',
     org: f('certificates.rohs.org'),
-    issuer: 'Intertek',
-    issueDate: '2024-01-15',
-    expiryDate: '2025-01-14',
+    issuer: 'Official scan pending',
+    issueDate: 'To be verified',
+    expiryDate: 'To be verified',
     status: 'active' as const,
     description: f('certificates.rohs.description'),
     placeholder: 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&q=80&w=800',
-    downloadUrl: '/downloads/certificates/RoHS-REACH-2024.pdf',
   },
 ];
 
@@ -220,23 +216,23 @@ const supplierTraceability = [
   },
 ];
 
-// --- Video testimonials ---
+// --- Proof asset slots ---
 const videoTestimonials = [
   {
-    title: locale === 'zh' ? '机器人密封项目客户反馈' : 'Robotics Sealing Program Review',
+    title: locale === 'zh' ? '混炼线证据素材占位' : 'Compounding Line Proof Asset Slot',
     summary:
       locale === 'zh'
-        ? '聚焦试产周期与量产稳定性，时长 2:18。'
-        : 'Focused on pilot speed and production stability, duration 2:18.',
-    href: '/case-studies',
+        ? '后续替换为 A 混炼线、批次记录或工程师现场复核素材。'
+        : 'Reserved for A-line mixing, batch record, or engineer-witnessed production footage.',
+    href: `/${locale}/factory`,
   },
   {
-    title: locale === 'zh' ? '新能源液冷项目交付复盘' : 'EV Cooling Delivery Retrospective',
+    title: locale === 'zh' ? '实验室验证素材占位' : 'In-House Lab Validation Slot',
     summary:
       locale === 'zh'
-        ? '围绕批次一致性与问题闭环，时长 1:46。'
-        : 'Discusses lot consistency and issue closure loop, duration 1:46.',
-    href: '/case-studies',
+        ? '后续替换为硬度、拉伸、压缩永久变形、热老化等测试素材。'
+        : 'Reserved for hardness, tensile, compression-set, and thermal-aging test evidence.',
+    href: `/${locale}/testing`,
   },
 ];
 ---

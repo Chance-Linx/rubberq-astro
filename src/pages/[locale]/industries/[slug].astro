@@ -3,7 +3,6 @@ import LocaleLayout from '@/layouts/LocaleLayout.astro';
 import JsonLd from '@/components/JsonLd';
 import { getTranslations, t, tRaw } from '@/lib/i18n';
 import { createOrganizationSchema } from '@/lib/structuredData';
-import { createLocaleAlternates } from '@/lib/seoMetadata';
 
 export function getStaticPaths() {
   const locales = ['en', 'de', 'ja', 'es', 'zh'];
@@ -33,7 +32,6 @@ const metaKey = slugToMetaKey[slug!];
 const meta = messages?.metadata?.[metaKey] || {};
 const ip = (key: string, fallback = '') => t(messages, `industriesPage.${i18nKey}.${key}`, fallback);
 
-const alternates = createLocaleAlternates(locale!, `/industries/${slug}`);
 const orgSchema = createOrganizationSchema(locale!);
 
 // Sector-specific data extractors
@@ -55,10 +53,6 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
   <Fragment slot="head">
     <title>{meta.title || `${ip('hero.title')} | RubberQ`}</title>
     <meta name="description" content={meta.description || ''} />
-    <link rel="canonical" href={alternates.canonical} />
-    {Object.entries(alternates.languages).map(([lang, url]) => (
-      <link rel="alternate" hreflang={lang} href={url} />
-    ))}
     <JsonLd data={orgSchema} />
   </Fragment>
 

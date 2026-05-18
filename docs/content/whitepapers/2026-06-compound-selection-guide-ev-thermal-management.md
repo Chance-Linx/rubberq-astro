@@ -37,7 +37,7 @@ The guide is written for engineers who need to make a compound-level specificati
 
 **Best applied to:** Battery cooling circuits, motor cooling loops, inverter coolant hoses, charging infrastructure seals, BESS cabinet sealing, EV peripheral test equipment, EV Tier 2 thermal connector seals.
 
-**Not applicable to:** High-voltage battery pack internal sealing (specialized application class requiring direct supplier consultation), medical implant sealing (different regulatory framework), aerospace fuel system sealing.
+**Not applicable to:** Unconfirmed high-risk internal energy-system sealing programs requiring direct supplier consultation, regulated healthcare sealing, aerospace fuel system sealing.
 
 ---
 
@@ -69,7 +69,7 @@ The performance variation between two "FKM 75 Shore A" compounds from different 
 | Low-temperature brittle point | -10°C to -35°C |
 | Service life in glycol coolant at 130°C | 3-10 years |
 
-The 3× variation in expected service life is the difference between a 10-year battery pack design surviving its design life or failing in years 4-6 with warranty exposure. The variation is not due to FKM being a bad material. It is due to the compound being chosen without enough specificity.
+The 3× variation in expected service life is the difference between a 10-year energy-system design surviving its design life or failing in years 4-6 with warranty exposure. The variation is not due to FKM being a bad material. It is due to the compound being chosen without enough specificity.
 
 This guide focuses on getting the compound decision right.
 
@@ -268,7 +268,7 @@ EPDM is generally not specified for thermal management circuits exposed to oil o
 - Charging connector seals (weather + ozone resistance dominant)
 - Charging cable junction gaskets
 - BESS cabinet enclosure sealing (outdoor weather protection)
-- Battery pack outer enclosure gaskets (water/weather exclusion)
+- Energy-storage outer enclosure gaskets (water/weather exclusion)
 - Brake hose seals (DOT brake fluid compatible)
 - Steam-bearing component seals (where present)
 
@@ -382,7 +382,7 @@ For EV thermal management applications, we offer:
 - 5-stage compound development workflow (4-24 week timelines)
 - 5-year batch retention samples and compound traceability
 
-We work best with annual volumes between 10,000 and 5,000,000 parts per SKU. We do not compete in commodity high-volume sealing or medical implant-grade applications.
+We work best with annual volumes between 10,000 and 5,000,000 parts per SKU. We do not compete in commodity high-volume sealing or regulated healthcare-grade applications.
 
 ---
 

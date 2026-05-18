@@ -121,7 +121,7 @@
       "seals": "シール＆ガスケット",
       "automotive": "自動車部品",
       "industrial": "工業用部品",
-      "medical": "医療グレード"
+      "medical": "精密グレード"
     }
   },
   "industries": {
@@ -147,8 +147,8 @@
       "desc": "ポンプ、バルブ、機械シール、カスタム成形部品"
     },
     "medical": {
-      "title": "医療機器",
-      "desc": "FDA準拠シール、ガスケット、精密部品"
+      "title": "精密機器",
+      "desc": "精密機器向けシール、ガスケット、カスタム部品"
     },
     "electronics": {
       "title": "電子機器",
@@ -192,7 +192,7 @@
       "companyPlaceholder": "株式会社テックイノベーション",
       "industry": "対象業界",
       "industryOptions": {
-        "robotics": "ロボティクス＆自動化",
+        "robotics": "EV・蓄電",
         "ai": "AIハードウェア/データセンター",
         "automotive": "自動車（IATF 16949対応）",
         "machinery": "精密機械",
@@ -223,7 +223,11 @@
       "unitsPolicy": "技術データは国際標準のメートル系単位で統一しています。",
       "complianceTitle": "簡易コンプライアンス案内",
       "complianceHint": "RFQ備考に要件を記載いただければ、対応書類をまとめて提示します。",
-      "complianceItems": ["REACH / RoHS 適合宣言", "FDA 材料適合書（必要時）", "PPAP / FAI 資料対応"]
+      "complianceItems": [
+        "REACH / RoHS 適合宣言",
+        "用途別材料宣言サポート",
+        "PPAP / FAI 資料対応"
+      ]
     }
   },
   "about": {
@@ -300,74 +304,69 @@
       "materialsTitle": "利用可能な材料",
       "featuresTitle": "主な特徴",
       "applicationsTitle": "典型的な用途",
-      "applications": ["油圧システム", "空圧シリンダー", "回転シャフト", "静的フランジ"],
-      "features": ["温度範囲: -60°C to 320°C", "耐薬品性のカスタマイズ", "低圧縮永久歪み"],
+      "applications": [
+        "Hydraulic systems",
+        "Pneumatic cylinders",
+        "Rotary shafts",
+        "Static flanges"
+      ],
+      "features": [
+        "Temperature range: -60°C to 320°C",
+        "Chemical resistance customization",
+        "Low compression set"
+      ],
       "specs": "ISO 3601-1 Class B"
     },
     "gaskets": {
       "name": "ガスケット＆ワッシャー",
       "desc": "流体シーリング、EMIシールド、熱管理アプリケーション向けのダイカットおよび成形ガスケット。",
-      "applications": ["バッテリーパック", "エンクロージャー", "熱交換器", "ポンプハウジング"],
-      "features": ["厚さ: 0.5mm to 25mm", "カスタム粘着バッキング", "FDAグレード利用可能"],
+      "applications": [
+        "Energy-storage systems",
+        "Enclosures",
+        "Heat exchangers",
+        "Pump housings"
+      ],
+      "features": [
+        "Thickness: 0.5mm to 25mm",
+        "Custom adhesive backing",
+        "Application-specific grades available"
+      ],
       "specs": "ISO 3302-1 Class M1"
     },
     "bellows": {
       "name": "ベローズ＆ブーツ",
       "desc": "延長疲労寿命を持つ直線運動および回転運動システム用の柔軟な保護カバー。",
-      "applications": ["ロボットジョイント", "リニアアクチュエーター", "CVジョイント", "工作機械摺動面"],
-      "features": ["マルチコンボリューション設計", "折りたたみ/格納可能", "薬液飛散保護"],
-      "specs": "100万回以上のサイクル定格"
-    },
-    "custom": {
-      "name": "カスタム成形部品",
-      "desc": "試作から高量産までのアプリケーション固有のゴム部品。",
-      "applications": ["防振装置", "バンパー", "バルブ部品", "コネクタシール"],
-      "features": ["厳密公差成形", "インサート成形能力", "カラーマッチング"],
-      "specs": "SPI-SPE 規格"
-    },
-    "requestQuote": "見積もり依頼",
-    "viewDetails": "詳細を見る",
-    "customEngineering": "カスタムエンジニアリング",
-    "customEngineeringDesc": "標準製品ラインを超えて、エンジニアリングチームはアプリケーション固有のゴムソリューションの開発に特化しています。材料配合から金型設計まで、完全な開発サイクルを担当します。",
-    "engineeringServices": [
-      "材料配合開発",
-      "FEAシミュレーションと検証",
-      "急速試作（3-5日）",
-      "金型設計と製造",
-      "PPAP文書サポート"
-    ],
-    "seals": {
-      "name": "シール＆Oリング",
-      "desc": "ISO 3601およびASTM D2000規格への精密公差を持つ静的正および動的正シーリングソリューション。",
-      "materialsTitle": "利用可能な材料",
-      "featuresTitle": "主な特徴",
-      "applicationsTitle": "典型的な用途",
-      "applications": ["Hydraulic systems", "Pneumatic cylinders", "Rotary shafts", "Static flanges"],
-      "features": ["Temperature range: -60°C to 320°C", "Chemical resistance customization", "Low compression set"],
-      "specs": "ISO 3601-1 Class B"
-    },
-    "gaskets": {
-      "name": "ガスケット＆ワッシャー",
-      "desc": "流体シーリング、EMIシールド、熱管理アプリケーション向けのダイカットおよび成形ガスケット。",
-      "applications": ["Battery packs", "Enclosures", "Heat exchangers", "Pump housings"],
-      "features": ["Thickness: 0.5mm to 25mm", "Custom adhesive backing", "FDA grades available"],
-      "specs": "ISO 3302-1 Class M1"
-    },
-    "bellows": {
-      "name": "ベローズ＆ブーツ",
-      "desc": "延長疲労寿命を持つ直線運動および回転運動システム用の柔軟な保護カバー。",
-      "applications": ["Robot joints", "Linear actuators", "CV joints", "Machine ways"],
-      "features": ["Multi-convolution designs", "Collapsible/retractable", "Chemical splash protection"],
+      "applications": [
+        "Robot joints",
+        "Linear actuators",
+        "CV joints",
+        "Machine ways"
+      ],
+      "features": [
+        "Multi-convolution designs",
+        "Collapsible/retractable",
+        "Chemical splash protection"
+      ],
       "specs": "1M+ cycle rating"
     },
     "custom": {
       "name": "カスタム成形部品",
       "desc": "試作から高量産までのアプリケーション固有のゴム部品。",
-      "applications": ["Vibration isolators", "Bumpers", "Valve components", "Connector seals"],
-      "features": ["Tight tolerance molding", "Insert molding capability", "Color matching"],
+      "applications": [
+        "Vibration isolators",
+        "Bumpers",
+        "Valve components",
+        "Connector seals"
+      ],
+      "features": [
+        "Tight tolerance molding",
+        "Insert molding capability",
+        "Color matching"
+      ],
       "specs": "SPI-SPE Standards"
     },
     "requestQuote": "見積もり依頼",
+    "viewDetails": "詳細を見る",
     "customEngineering": "カスタムエンジニアリング",
     "customEngineeringDesc": "標準製品ラインを超えて、エンジニアリングチームはアプリケーション固有のゴムソリューションの開発に特化しています。材料配合から金型設計まで、完全な開発サイクルを担当します。",
     "engineeringServices": [
@@ -462,12 +461,12 @@
         "description": "極端な温度範囲と生体適合性を持つ多用途エラストマー。",
         "tempRange": "-60°C to +230°C",
         "applications": [
-          "医療機器",
-          "食品加工",
+          "電子機器",
+          "クリーン産業設備",
           "極端な温度"
         ],
         "features": [
-          "FDA準拠グレードが利用可能",
+          "クリーンプロセス向けグレード対応",
           "極端な温度範囲",
           "優れた圧縮永久歪み"
         ]
@@ -534,7 +533,7 @@
       },
       "q2": {
         "question": "アプリケーションに適したゴム材料をどのように選びますか？",
-        "answer": "材料選択は、温度範囲、化学物質曝露、機械的要件、規制要件（FDA、UL等）に依存します。詳細な比較データは材料選択ガイドにあります。また、エンジニアリングチームへのご相談も承っております。"
+        "answer": "材料選択は、温度範囲、化学物質曝露、機械的要件、用途規格と使用条件に依存します。詳細な比較データは材料選択ガイドにあります。また、エンジニアリングチームへのご相談も承っております。"
       },
       "q3": {
         "question": "どのような公差レベルを達成できますか？",
@@ -1083,7 +1082,7 @@
       },
       "silicone": {
         "name": "シリコーン (VMQ)",
-        "desc": "優れた熱安定性を持つ医療および食品グレードの安全性。"
+        "desc": "電子機器、クリーン産業設備、熱サイクル用途向けの広温度域エラストマー。"
       }
     },
     "technicalSpecifications": "技術仕様",
@@ -1217,7 +1216,7 @@
       },
       "applicationCertifications": {
         "title": "用途別認証",
-        "desc": "食品、医療、航空宇宙などのリスクの高い産業向けの専門規格。",
+        "desc": "産業、モビリティ、高要求設備分野向けの専門規格。",
         "standards": {
           "fda": {
             "name": "食品との繰り返し使用を目的としたゴム製品",

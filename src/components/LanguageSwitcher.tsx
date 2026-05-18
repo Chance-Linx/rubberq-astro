@@ -1,20 +1,18 @@
 'use client';
 
-import React, { useState, useRef, useEffect } from 'react';
-import { useRouter, usePathname } from 'next/navigation';
-import { locales, localeNames, localeFlags, type Locale } from '../lib/i18n';
-import { useLocale, useTranslations } from '../lib/i18n' // was next-intl;
+import { useState, useRef, useEffect } from 'react';
+import { defaultLocale, locales, localeNames, localeFlags, type Locale } from '../lib/i18n';
 import { Globe, Check } from 'lucide-react';
 
 export default function LanguageSwitcher() {
   const [isOpen, setIsOpen] = useState(false);
-  const router = useRouter();
-  const rawPathname = usePathname();
-  const currentLocale = useLocale() as Locale;
-  const t = useTranslations();
+  const [currentLocale, setCurrentLocale] = useState<Locale>(defaultLocale);
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    const maybeLocale = window.location.pathname.split('/')[1] as Locale;
+    setCurrentLocale(locales.includes(maybeLocale) ? maybeLocale : defaultLocale);
+
     function handleClickOutside(event: MouseEvent) {
       if (containerRef.current && !containerRef.current.contains(event.target as Node)) {
         setIsOpen(false);
@@ -28,13 +26,13 @@ export default function LanguageSwitcher() {
     setIsOpen(false);
     if (targetLocale === currentLocale) return;
 
-    const pathname = rawPathname || '/';
+    const pathname = window.location.pathname || '/';
     const segments = pathname.split('/');
     const hasLocalePrefix = locales.includes(segments[1] as Locale);
     const pathWithoutLocale = hasLocalePrefix ? `/${segments.slice(2).join('/')}` : pathname;
     const normalizedPath = pathWithoutLocale === '/' || pathWithoutLocale === '' ? '' : pathWithoutLocale;
 
-    router.replace(`/${targetLocale}${normalizedPath}`);
+    window.location.assign(`/${targetLocale}${normalizedPath}${window.location.search}`);
   }
 
   return (
@@ -46,12 +44,12 @@ export default function LanguageSwitcher() {
         title="Change language"
       >
         <Globe size={18} strokeWidth={1.5} />
-      </button>
+          </button>
 
       {isOpen && (
         <div className="absolute right-0 mt-2 w-48 bg-white rounded-sm shadow-xl border border-industrial-100 py-2 z-50 animate-in fade-in zoom-in-95 duration-200">
           <div className="px-4 py-2 text-xs font-bold text-industrial-400 uppercase tracking-widest border-b border-industrial-50 mb-2">
-            {t('language.title')}
+            Language
           </div>
           {locales.map((locale) => (
             <button

@@ -1,9 +1,9 @@
 ---
-title: "Why Compound Chemistry Matters More Than the Molder for EV Battery Seals"
-slug: "compound-chemistry-vs-molder-ev-battery-seals"
-excerpt: "EV battery pack seals fail in the field for one dominant reason — the compound was wrong for the service environment, not the molding process. The supplier you choose to develop the rubber formulation matters more than the supplier you choose to mold it. Here is how to evaluate compound chemistry decisions for high-voltage and thermal management sealing."
+title: "Why Compound Chemistry Matters More Than the Molder for EV Thermal and Energy-Storage Seals"
+slug: "compound-chemistry-vs-molder-ev-thermal-energy-storage-seals"
+excerpt: "EV thermal and energy-storage seals fail in the field for one dominant reason — the compound was wrong for the service environment, not the molding process. The supplier you choose to develop the rubber formulation matters more than the supplier you choose to mold it. Here is how to evaluate compound chemistry decisions for thermal management and outdoor energy-infrastructure sealing."
 category: "EV"
-tags: ["custom rubber compound formulation", "EV battery pack seal", "HNBR", "EPDM", "compound chemistry"]
+tags: ["custom rubber compound formulation", "EV thermal and energy-storage seal", "HNBR", "EPDM", "compound chemistry"]
 publishedAt: "2026-06-01T08:00:00Z"
 author: "RubberQ Engineering Team"
 status: "draft"
@@ -12,9 +12,9 @@ coverImageNote: "Split image: A-mixing line operator on left, molded EV battery 
 internalLinks: ["/compounding", "/industries/ev-energy-storage", "/quality"]
 ---
 
-# Why Compound Chemistry Matters More Than the Molder for EV Battery Seals
+# Why Compound Chemistry Matters More Than the Molder for EV Thermal and Energy-Storage Seals
 
-When an EV battery pack seal fails in the field — losing IP rating, allowing electrolyte vapor migration, hardening prematurely, or showing compression set after 18 months of thermal cycling — engineers tend to blame the molder. In our experience reviewing failure analyses, the root cause is rarely the molding step. It is almost always the compound: a formulation that was bought off the shelf, mixed in a cross-contaminated line, or chosen by SKU code rather than by service conditions.
+When an EV thermal and energy-storage seal fails in the field — losing IP rating, allowing ingress risk, hardening prematurely, or showing compression set after 18 months of thermal cycling — engineers tend to blame the molder. In our experience reviewing failure analyses, the root cause is rarely the molding step. It is almost always the compound: a formulation that was bought off the shelf, mixed in a cross-contaminated line, or chosen by SKU code rather than by service conditions.
 
 This article explains why compound chemistry deserves more procurement scrutiny than mold tooling for EV sealing applications, and what the right diligence looks like.
 
@@ -34,7 +34,7 @@ EV sealing differs from legacy ICE sealing in four ways that make compound chemi
 
 **1. Continuous high temperature, not peak temperature.** ICE engine seals see 130°C spikes during operation but cool between trips. EV thermal management hoses see 130-160°C as a sustained operating temperature for the battery's entire service life — 8 to 15 years. Compounds optimized for peak-temperature survival fail under sustained exposure. HNBR formulations need to be specifically tuned for sustained heat-and-oil combined service.
 
-**2. Long-duration static compression set under load.** Battery pack seals are static gaskets compressed once at assembly and held for the product life. Compounds that perform well in dynamic, cycling applications can develop catastrophic compression set in static high-temperature service. The ASTM D395 Method B test (compression set at elevated temperature) is the right specification — but most "FKM 75A" datasheets don't disclose long-duration data.
+**2. Long-duration static compression set under load.** Large enclosure and thermal-interface seals are static gaskets compressed once at assembly and held for the product life. Compounds that perform well in dynamic, cycling applications can develop catastrophic compression set in static high-temperature service. The ASTM D395 Method B test (compression set at elevated temperature) is the right specification — but most "FKM 75A" datasheets don't disclose long-duration data.
 
 **3. Mixed-fluid environments.** Battery thermal management circulates glycol-based coolants, dielectric fluids, or refrigerants. EV-adjacent equipment can also see electrolyte vapor, charging connector contact spray, and outdoor weather. A single seal may need to resist three or four different fluids — and the compound must be qualified against each individually, not just one.
 

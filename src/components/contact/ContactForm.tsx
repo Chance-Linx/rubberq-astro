@@ -4,7 +4,13 @@ import { Send, CheckCircle, XCircle, Loader2, Upload } from 'lucide-react';
 import { useState, useEffect, useRef } from 'react';
 import type { FormEvent } from 'react';
 import { defaultLocale, locales, type Locale } from '../../lib/i18n';
-import { buildFieldPriorityPayload, collectSourceTracking } from '../../lib/inquiryTracking';
+import {
+  buildFieldPriorityPayload,
+  collectSourceTracking,
+  trackContactFormSubmit,
+  trackFormAbandon,
+  trackQuoteRequest,
+} from '../../lib/inquiryTracking';
 
 interface ContactFormLabels {
   name: string;
@@ -15,11 +21,27 @@ interface ContactFormLabels {
   companyPlaceholder: string;
   industry: string;
   industryOptions: {
-    robotics: string;
-    ai: string;
-    automotive: string;
-    machinery: string;
+    ev: string;
+    industrial: string;
+    semiconductor: string;
+    automotiveTier2: string;
     other: string;
+  };
+  projectType: {
+    label: string;
+    options: Record<string, string>;
+  };
+  annualVolume: {
+    label: string;
+    options: Record<string, string>;
+  };
+  quoteComponents: {
+    label: string;
+    options: Record<string, string>;
+  };
+  projectStage: {
+    label: string;
+    options: Record<string, string>;
   };
   message: string;
   messagePlaceholder: string;
@@ -124,10 +146,14 @@ export default function ContactForm({
     name: '',
     email: '',
     company: '',
-    industry: 'Robotics & Automation',
+    industry: 'EV & Energy Storage',
+    projectType: 'drawing',
+    annualVolume: '100kTo1m',
+    projectStage: 'feasibility',
     message: '',
     fileLink: '',
   });
+  const [quoteComponents, setQuoteComponents] = useState<string[]>(['compoundDev', 'perPiece']);
 
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
   const [errorMsg, setErrorMsg] = useState('');
@@ -144,6 +170,11 @@ export default function ContactForm({
     touchedFieldsRef.current.add(field);
   };
 
+  const toggleQuoteComponent = (key: string) => {
+    touchedFieldsRef.current.add('quoteComponents');
+    setQuoteComponents((prev) => (prev.includes(key) ? prev.filter((item) => item !== key) : [...prev, key]));
+  };
+
   useEffect(() => {
     const trackAbandon = (source: string) => {
       if (abandonTrackedRef.current) {
@@ -154,10 +185,13 @@ export default function ContactForm({
         return;
       }
 
-      // gaEvents.trackFormAbandon('contact_rfq', {
-      //   touchedFields: touchedFieldsRef.current.size,
-      //   source,
-      // });
+      trackFormAbandon('contact_rfq', {
+        touchedFields: touchedFieldsRef.current.size,
+        projectType: formData.projectType,
+        annualVolume: formData.annualVolume,
+        projectStage: formData.projectStage,
+        source,
+      });
       abandonTrackedRef.current = true;
     };
 
@@ -226,12 +260,20 @@ export default function ContactForm({
     setStatus('submitting');
     setErrorMsg('');
 
-    // gaEvents.trackQuoteRequest('contact_page');
+    trackQuoteRequest('contact_page', {
+      inquiryType: 'contact_rfq',
+      projectType: formData.projectType,
+      annualVolume: formData.annualVolume,
+      projectStage: formData.projectStage,
+      quoteComponents,
+      industry: formData.industry,
+    });
 
     try {
       const pageUrl = window.location.href;
       const payload = {
         ...formData,
+        quoteComponents,
         inquiryType: 'contact_rfq',
         attachment,
         pageUrl,
@@ -245,6 +287,10 @@ export default function ContactForm({
           {
             company: formData.company,
             industry: formData.industry,
+            projectType: formData.projectType,
+            annualVolume: formData.annualVolume,
+            projectStage: formData.projectStage,
+            quoteComponents: quoteComponents.join(', '),
             fileLink: formData.fileLink,
             attachmentName: attachment?.name,
           }
@@ -262,26 +308,46 @@ export default function ContactForm({
       if (data.ok) {
         setStatus('success');
         setHasSubmitted(true);
-        // gaEvents.trackContactFormSubmit('success');
+        trackContactFormSubmit('success', {
+          inquiryType: 'contact_rfq',
+          projectType: formData.projectType,
+          annualVolume: formData.annualVolume,
+          projectStage: formData.projectStage,
+          quoteComponents,
+        });
         setFormData({
           name: '',
           email: '',
           company: '',
-          industry: 'Robotics & Automation',
+          industry: 'EV & Energy Storage',
+          projectType: 'drawing',
+          annualVolume: '100kTo1m',
+          projectStage: 'feasibility',
           message: '',
           fileLink: '',
         });
+        setQuoteComponents(['compoundDev', 'perPiece']);
         setAttachment(null);
         touchedFieldsRef.current.clear();
         abandonTrackedRef.current = false;
       } else {
         setStatus('error');
-        // gaEvents.trackContactFormSubmit('error');
+        trackContactFormSubmit('error', {
+          inquiryType: 'contact_rfq',
+          projectType: formData.projectType,
+          annualVolume: formData.annualVolume,
+          projectStage: formData.projectStage,
+        });
         setErrorMsg(data.error || labels.errorMessage);
       }
     } catch {
       setStatus('error');
-      // gaEvents.trackContactFormSubmit('error');
+      trackContactFormSubmit('error', {
+        inquiryType: 'contact_rfq',
+        projectType: formData.projectType,
+        annualVolume: formData.annualVolume,
+        projectStage: formData.projectStage,
+      });
       setErrorMsg(labels.errorMessage);
     }
   };
@@ -340,12 +406,82 @@ export default function ContactForm({
               onChange={(e) => updateField('industry', e.target.value)}
               className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-industrial-900 transition-colors"
             >
-              <option value="Robotics & Automation">{labels.industryOptions.robotics}</option>
-              <option value="AI Hardware / Data Centers">{labels.industryOptions.ai}</option>
-              <option value="Automotive (IATF 16949 req.)">{labels.industryOptions.automotive}</option>
-              <option value="Precision Machinery">{labels.industryOptions.machinery}</option>
+              <option value="EV & Energy Storage">{labels.industryOptions.ev}</option>
+              <option value="Industrial Equipment">{labels.industryOptions.industrial}</option>
+              <option value="Semiconductor Process Equipment">{labels.industryOptions.semiconductor}</option>
+              <option value="Automotive Tier 2">{labels.industryOptions.automotiveTier2}</option>
               <option value="Other">{labels.industryOptions.other}</option>
             </select>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div>
+            <label className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
+              {labels.projectType.label}
+            </label>
+            <select
+              value={formData.projectType}
+              onChange={(e) => updateField('projectType', e.target.value)}
+              className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-industrial-900 transition-colors"
+            >
+              {Object.entries(labels.projectType.options)
+                .filter(([key]) => key !== 'label')
+                .map(([key, value]) => (
+                  <option key={key} value={key}>{value}</option>
+                ))}
+            </select>
+          </div>
+          <div>
+            <label className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
+              {labels.annualVolume.label}
+            </label>
+            <select
+              value={formData.annualVolume}
+              onChange={(e) => updateField('annualVolume', e.target.value)}
+              className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-industrial-900 transition-colors"
+            >
+              {Object.entries(labels.annualVolume.options).map(([key, value]) => (
+                <option key={key} value={key}>{value}</option>
+              ))}
+            </select>
+          </div>
+          <div>
+            <label className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
+              {labels.projectStage.label}
+            </label>
+            <select
+              value={formData.projectStage}
+              onChange={(e) => updateField('projectStage', e.target.value)}
+              className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-industrial-900 transition-colors"
+            >
+              {Object.entries(labels.projectStage.options)
+                .filter(([key]) => key !== 'label')
+                .map(([key, value]) => (
+                  <option key={key} value={key}>{value}</option>
+                ))}
+            </select>
+          </div>
+        </div>
+
+        <div>
+          <label className="block text-sm font-bold text-industrial-700 mb-3 uppercase tracking-tight">
+            {labels.quoteComponents.label}
+          </label>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {Object.entries(labels.quoteComponents.options)
+              .filter(([key]) => key !== 'label')
+              .map(([key, value]) => (
+                <label key={key} className="flex items-start gap-3 bg-white border border-industrial-200 px-4 py-3 cursor-pointer hover:border-accent-orange transition-colors">
+                  <input
+                    type="checkbox"
+                    checked={quoteComponents.includes(key)}
+                    onChange={() => toggleQuoteComponent(key)}
+                    className="mt-1 h-4 w-4"
+                  />
+                  <span className="text-sm text-industrial-700">{value}</span>
+                </label>
+              ))}
           </div>
         </div>
 

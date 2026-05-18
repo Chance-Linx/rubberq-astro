@@ -7,9 +7,10 @@
     "dev": "astro dev",
     "start": "astro dev",
     "check:brand-colors": "node scripts/check-brand-colors.mjs",
-    "build": "npm run check:brand-colors && astro build",
-    "preview": "npm run check:brand-colors && astro build && wrangler pages dev dist",
-    "deploy": "npm run check:brand-colors && astro build && wrangler pages deploy dist --project-name=rubberq-site"
+    "check:public-redlines": "node scripts/check-public-redlines.mjs",
+    "build": "npm run check:public-redlines && npm run check:brand-colors && astro build",
+    "preview": "npm run check:public-redlines && npm run check:brand-colors && astro build && wrangler pages dev dist",
+    "deploy": "npm run check:public-redlines && npm run check:brand-colors && astro build && wrangler pages deploy dist --project-name=rubberq-site"
   },
   "dependencies": {
     "@astrojs/check": "^0.9",

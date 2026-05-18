@@ -121,7 +121,7 @@
       "seals": "Dichtungen & O-Ringe",
       "automotive": "Automobilteile",
       "industrial": "Industriekomponenten",
-      "medical": "Medizinische Qualität"
+      "medical": "Prazisionsqualitat"
     }
   },
   "industries": {
@@ -140,14 +140,14 @@
     },
     "machinery": {
       "title": "Präzisionsmaschinen",
-      "desc": "FDA-konforme Dichtungen, Dichtungsringe und Präzisionskomponenten"
+      "desc": "Prazisionsdichtungen, Dichtungsringe und kundenspezifische Komponenten"
     },
     "industrial": {
       "title": "Industrielle Ausrüstung",
       "desc": "Langlebige Dichtungen und Komponenten für Hochleistungsmaschinen"
     },
     "medical": {
-      "title": "Medizintechnik",
+      "title": "Prazisionsausrustung",
       "desc": "Biokompatible und präzise Silikonkomponenten"
     },
     "electronics": {
@@ -192,7 +192,7 @@
       "companyPlaceholder": "Tech Innovations GmbH",
       "industry": "Zielindustrie",
       "industryOptions": {
-        "robotics": "Robotik & Automation",
+        "robotics": "EV & Energiespeicher",
         "ai": "KI-Hardware / Rechenzentren",
         "automotive": "Automobil (IATF 16949 erf.)",
         "machinery": "Präzisionsmaschinen",
@@ -223,7 +223,11 @@
       "unitsPolicy": "Technische Daten verwenden standardisiert internationale metrische Einheiten.",
       "complianceTitle": "Kompakte Compliance-Hinweise",
       "complianceHint": "Nennen Sie diese Anforderungen in Ihrer Anfrage; wir liefern passende Nachweise in einer Antwort.",
-      "complianceItems": ["REACH / RoHS Erklarungen", "FDA-Materialkonformitat (falls erforderlich)", "PPAP / FAI Unterlagen verfugbar"]
+      "complianceItems": [
+        "REACH / RoHS Erklarungen",
+        "Anwendungsspezifische Materialerklarungen",
+        "PPAP / FAI Unterlagen verfugbar"
+      ]
     }
   },
   "about": {
@@ -325,7 +329,7 @@
       "features": [
         "Dicke: 0,5 mm bis 25 mm",
         "Kundenspezifische Kleberückseite",
-        "FDA-Qualitäten verfügbar"
+        "Anwendungsspezifische Qualitaten verfugbar"
       ],
       "specs": "ISO 3302-1 Class M1"
     },
@@ -457,12 +461,12 @@
         "description": "Vielseitiges Elastomer mit extremem Temperaturbereich und Biokompatibilität.",
         "tempRange": "-60°C to +230°C",
         "applications": [
-          "Medizinische Geräte",
-          "Lebensmittelverarbeitung",
+          "Elektronikbaugruppen",
+          "Reine Industrieanlagen",
           "Extreme Temperaturen"
         ],
         "features": [
-          "FDA-konforme Qualitäten verfügbar",
+          "Reinprozess-Qualitaten verfugbar",
           "Extremer Temperaturbereich",
           "Hervorragender Druckverformungsrest"
         ]
@@ -529,7 +533,7 @@
       },
       "q2": {
         "question": "Wie wähle ich das richtige Gummimaterial für meine Anwendung?",
-        "answer": "Die Materialauswahl hängt von Temperaturbereich, chemischer Belastung, mechanischen Anforderungen und regulatorischen Anforderungen (FDA, UL usw.) ab. Unser Materialauswahl-Leitfaden bietet detaillierte Vergleichsdaten, oder kontaktieren Sie unser Ingenieurteam für Empfehlungen."
+        "answer": "Die Materialauswahl hängt von Temperaturbereich, chemischer Belastung, mechanischen Anforderungen und Anwendungsnormen und Einsatzbedingungen ab. Unser Materialauswahl-Leitfaden bietet detaillierte Vergleichsdaten, oder kontaktieren Sie unser Ingenieurteam für Empfehlungen."
       },
       "q3": {
         "question": "Welche Toleranzniveaus können Sie erreichen?",
@@ -1078,7 +1082,7 @@
       },
       "silicone": {
         "name": "Silikon (VMQ)",
-        "desc": "Sicherheit in Medizin- und Lebensmittelqualität mit hervorragender thermischer Stabilität."
+        "desc": "Breiter Temperaturbereich fur Elektronik, reine Industrieanlagen und thermische Wechselbelastung."
       }
     },
     "technicalSpecifications": "TECHNISCHE SPEZIFIKATIONEN",
@@ -1099,80 +1103,80 @@
     }
   },
   "privacyPage": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: January 26, 2026",
+    "title": "Datenschutzrichtlinie",
+    "lastUpdated": "Zuletzt aktualisiert: 26. Januar 2026",
     "cards": {
       "dataSecurity": {
-        "title": "Data Security",
-        "description": "Your technical drawings and proprietary designs are protected under our industrial-grade security protocols."
+        "title": "Datensicherheit",
+        "description": "Ihre technischen Zeichnungen und proprietären Designs sind durch unsere Sicherheitsprotokolle in Industriestandard geschützt."
       },
       "zeroSharing": {
-        "title": "Zero Sharing",
-        "description": "We never sell your business contact information or project details to third-party marketing firms."
+        "title": "Keine Weitergabe",
+        "description": "Wir verkaufen Ihre geschäftlichen Kontaktinformationen oder Projektdetails niemals an Marketingfirmen Dritter."
       },
       "transparency": {
-        "title": "Transparency",
-        "description": "Clear documentation on how we use your data to provide manufacturing and engineering services."
+        "title": "Transparenz",
+        "description": "Klare Dokumentation darüber, wie wir Ihre Daten verwenden, um Fertigungs- und Ingenieurdienstleistungen zu erbringen."
       }
     },
     "sections": {
       "informationCollect": {
-        "title": "1. Information We Collect",
-        "content": "Fuzhou RubberQ Rubber Co., Ltd. (\"RubberQ\", \"we\", \"us\", or \"our\") collects information that you provide directly to us when you:",
+        "title": "1. Informationen, die wir sammeln",
+        "content": "Fuzhou RubberQ Rubber Co., Ltd. (\"RubberQ\", \"wir\", \"uns\" oder \"unser\") sammelt Informationen, die Sie uns direkt zur Verfügung stellen, wenn Sie:",
         "items": [
-          "Submit a Request for Quote (RFQ) or contact form.",
-          "Upload technical drawings, specifications, or 3D models.",
-          "Request material samples or technical consultations.",
-          "Communicate with our engineering and sales teams."
+          "Eine Anfrage (RFQ) oder ein Kontaktformular absenden.",
+          "Technische Zeichnungen, Spezifikationen oder 3D-Modelle hochladen.",
+          "Materialmuster oder technische Beratungen anfordern.",
+          "Mit unseren Ingenieur- und Vertriebsteams kommunizieren."
         ],
-        "additionalInfo": "This information may include your name, company name, email address, phone number, country, and specific project requirements."
+        "additionalInfo": "Diese Informationen können Ihren Namen, Firmennamen, E-Mail-Adresse, Telefonnummer, Land und spezifische Projektanforderungen umfassen."
       },
       "howWeUse": {
-        "title": "2. How We Use Your Information",
-        "content": "We use the collected data for specific industrial and business purposes:",
+        "title": "2. Wie wir Ihre Informationen verwenden",
+        "content": "Wir verwenden die gesammelten Daten für spezifische industrielle und geschäftliche Zwecke:",
         "items": [
           {
-            "label": "RFQ Processing:",
-            "text": "To evaluate manufacturing feasibility and provide accurate pricing."
+            "label": "Angebotsbearbeitung:",
+            "text": "Zur Bewertung der Herstellbarkeit und Bereitstellung genauer Preise."
           },
           {
-            "label": "Engineering Consultation:",
-            "text": "To offer material selection and design-for-manufacturability (DFM) advice."
+            "label": "Technische Beratung:",
+            "text": "Um Materialauswahl- und Design-for-Manufacturability (DFM) Beratung anzubieten."
           },
           {
-            "label": "Order Fulfillment:",
-            "text": "To manufacture and ship your custom rubber components."
+            "label": "Auftragsabwicklung:",
+            "text": "Zur Herstellung und zum Versand Ihrer kundenspezifischen Gummikomponenten."
           },
           {
-            "label": "Quality Control:",
-            "text": "To maintain production records as required by IATF 16949 and ISO 9001 standards."
+            "label": "Qualitätskontrolle:",
+            "text": "Zur Führung von Produktionsaufzeichnungen gemäß IATF 16949 und ISO 9001 Standards."
           }
         ]
       },
       "intellectualProperty": {
-        "title": "3. Protection of Intellectual Property",
-        "content": "As an OEM supplier for leading automotive brands, we understand the critical importance of Intellectual Property (IP). Any drawings or proprietary data uploaded to our platform are treated with strict confidentiality. Access is restricted to necessary engineering and production personnel. We are prepared to sign formal Non-Disclosure Agreements (NDAs) for your projects."
+        "title": "3. Schutz des geistigen Eigentums",
+        "content": "Als OEM-Lieferant für führende Automobilmarken verstehen wir die entscheidende Bedeutung von geistigem Eigentum (IP). Alle auf unsere Plattform hochgeladenen Zeichnungen oder proprietären Daten werden streng vertraulich behandelt. Der Zugang ist auf notwendiges Ingenieur- und Produktionspersonal beschränkt. Wir sind bereit, formelle Geheimhaltungsvereinbarungen (NDAs) für Ihre Projekte zu unterzeichnen."
       },
       "cookies": {
-        "title": "4. Cookies and Tracking",
-        "content": "Our website uses essential cookies to ensure site functionality and performance. We may also use analytics tools (such as Google Analytics) to understand how visitors interact with our content, which helps us improve our technical documentation and user experience."
+        "title": "4. Cookies und Tracking",
+        "content": "Unsere Website verwendet essentielle Cookies, um die Funktionalität und Leistung der Website zu gewährleisten. Wir können auch Analysetools (wie Google Analytics) verwenden, um zu verstehen, wie Besucher mit unseren Inhalten interagieren, was uns hilft, unsere technische Dokumentation und Benutzererfahrung zu verbessern."
       },
       "dataRetention": {
-        "title": "5. Data Retention",
-        "content": "In compliance with IATF 16949 automotive standards, we may retain production and quality records for specified periods to ensure traceability. Business contact information is retained as long as necessary to maintain our professional relationship."
+        "title": "5. Vorratsdatenspeicherung",
+        "content": "In Übereinstimmung mit IATF 16949 Automobilstandards können wir Produktions- und Qualitätsaufzeichnungen für bestimmte Zeiträume aufbewahren, um die Rückverfolgbarkeit zu gewährleisten. Geschäftliche Kontaktinformationen werden so lange aufbewahrt, wie es zur Aufrechterhaltung unserer professionellen Beziehung erforderlich ist."
       },
       "yourRights": {
-        "title": "6. Your Rights",
-        "content": "You have the right to request access to, correction of, or deletion of your personal business data. For such requests, please contact our data compliance officer at the email provided below."
+        "title": "6. Ihre Rechte",
+        "content": "Sie haben das Recht, Zugang zu, Korrektur von oder Löschung Ihrer persönlichen Geschäftsdaten zu verlangen. Für solche Anfragen wenden Sie sich bitte an unseren Datenschutzbeauftragten unter der unten angegebenen E-Mail-Adresse."
       }
     },
     "contact": {
-      "title": "Contact Us",
-      "description": "If you have questions about this Privacy Policy, please contact:",
+      "title": "Kontaktieren Sie uns",
+      "description": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, wenden Sie sich bitte an:",
       "company": "Fuzhou RubberQ Rubber Co., Ltd.",
-      "department": "Data Protection Office",
-      "email": "Email: contact@rubberq.com",
-      "address": "Address: Fuzhou, Fujian Province, China"
+      "department": "Datenschutzbüro",
+      "email": "E-Mail: contact@rubberq.com",
+      "address": "Adresse: Fuzhou, Provinz Fujian, China"
     }
   },
   "standardsPage": {
@@ -1212,7 +1216,7 @@
       },
       "applicationCertifications": {
         "title": "Anwendungsspezifische Zertifizierungen",
-        "desc": "Spezialisierte Standards für hochriskante Industrien wie Lebensmittel, Medizin und Luft- und Raumfahrt.",
+        "desc": "Spezialisierte Standards für hochriskante Industrien wie Industrie, Mobilitat und anspruchsvolle Anlagen.",
         "standards": {
           "fda": {
             "name": "Gummigegenstände für den wiederholten Gebrauch mit Lebensmitteln",
@@ -1297,83 +1301,6 @@
       "department": "Rechtsabteilung",
       "company": "Fuzhou RubberQ Rubber Co., Ltd.",
       "email": "E-Mail: contact@rubberq.com"
-    }
-  },
-  "privacyPage": {
-    "title": "Datenschutzrichtlinie",
-    "lastUpdated": "Zuletzt aktualisiert: 26. Januar 2026",
-    "cards": {
-      "dataSecurity": {
-        "title": "Datensicherheit",
-        "description": "Ihre technischen Zeichnungen und proprietären Designs sind durch unsere Sicherheitsprotokolle in Industriestandard geschützt."
-      },
-      "zeroSharing": {
-        "title": "Keine Weitergabe",
-        "description": "Wir verkaufen Ihre geschäftlichen Kontaktinformationen oder Projektdetails niemals an Marketingfirmen Dritter."
-      },
-      "transparency": {
-        "title": "Transparenz",
-        "description": "Klare Dokumentation darüber, wie wir Ihre Daten verwenden, um Fertigungs- und Ingenieurdienstleistungen zu erbringen."
-      }
-    },
-    "sections": {
-      "informationCollect": {
-        "title": "1. Informationen, die wir sammeln",
-        "content": "Fuzhou RubberQ Rubber Co., Ltd. (\"RubberQ\", \"wir\", \"uns\" oder \"unser\") sammelt Informationen, die Sie uns direkt zur Verfügung stellen, wenn Sie:",
-        "items": [
-          "Eine Anfrage (RFQ) oder ein Kontaktformular absenden.",
-          "Technische Zeichnungen, Spezifikationen oder 3D-Modelle hochladen.",
-          "Materialmuster oder technische Beratungen anfordern.",
-          "Mit unseren Ingenieur- und Vertriebsteams kommunizieren."
-        ],
-        "additionalInfo": "Diese Informationen können Ihren Namen, Firmennamen, E-Mail-Adresse, Telefonnummer, Land und spezifische Projektanforderungen umfassen."
-      },
-      "howWeUse": {
-        "title": "2. Wie wir Ihre Informationen verwenden",
-        "content": "Wir verwenden die gesammelten Daten für spezifische industrielle und geschäftliche Zwecke:",
-        "items": [
-          {
-            "label": "Angebotsbearbeitung:",
-            "text": "Zur Bewertung der Herstellbarkeit und Bereitstellung genauer Preise."
-          },
-          {
-            "label": "Technische Beratung:",
-            "text": "Um Materialauswahl- und Design-for-Manufacturability (DFM) Beratung anzubieten."
-          },
-          {
-            "label": "Auftragsabwicklung:",
-            "text": "Zur Herstellung und zum Versand Ihrer kundenspezifischen Gummikomponenten."
-          },
-          {
-            "label": "Qualitätskontrolle:",
-            "text": "Zur Führung von Produktionsaufzeichnungen gemäß IATF 16949 und ISO 9001 Standards."
-          }
-        ]
-      },
-      "intellectualProperty": {
-        "title": "3. Schutz des geistigen Eigentums",
-        "content": "Als OEM-Lieferant für führende Automobilmarken verstehen wir die entscheidende Bedeutung von geistigem Eigentum (IP). Alle auf unsere Plattform hochgeladenen Zeichnungen oder proprietären Daten werden streng vertraulich behandelt. Der Zugang ist auf notwendiges Ingenieur- und Produktionspersonal beschränkt. Wir sind bereit, formelle Geheimhaltungsvereinbarungen (NDAs) für Ihre Projekte zu unterzeichnen."
-      },
-      "cookies": {
-        "title": "4. Cookies und Tracking",
-        "content": "Unsere Website verwendet essentielle Cookies, um die Funktionalität und Leistung der Website zu gewährleisten. Wir können auch Analysetools (wie Google Analytics) verwenden, um zu verstehen, wie Besucher mit unseren Inhalten interagieren, was uns hilft, unsere technische Dokumentation und Benutzererfahrung zu verbessern."
-      },
-      "dataRetention": {
-        "title": "5. Vorratsdatenspeicherung",
-        "content": "In Übereinstimmung mit IATF 16949 Automobilstandards können wir Produktions- und Qualitätsaufzeichnungen für bestimmte Zeiträume aufbewahren, um die Rückverfolgbarkeit zu gewährleisten. Geschäftliche Kontaktinformationen werden so lange aufbewahrt, wie es zur Aufrechterhaltung unserer professionellen Beziehung erforderlich ist."
-      },
-      "yourRights": {
-        "title": "6. Ihre Rechte",
-        "content": "Sie haben das Recht, Zugang zu, Korrektur von oder Löschung Ihrer persönlichen Geschäftsdaten zu verlangen. Für solche Anfragen wenden Sie sich bitte an unseren Datenschutzbeauftragten unter der unten angegebenen E-Mail-Adresse."
-      }
-    },
-    "contact": {
-      "title": "Kontaktieren Sie uns",
-      "description": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, wenden Sie sich bitte an:",
-      "company": "Fuzhou RubberQ Rubber Co., Ltd.",
-      "department": "Datenschutzbüro",
-      "email": "E-Mail: contact@rubberq.com",
-      "address": "Adresse: Fuzhou, Provinz Fujian, China"
     }
   }
 }
