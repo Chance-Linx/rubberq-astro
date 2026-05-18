@@ -10,4 +10,4 @@ database_id = "e51f8f7e-6137-45f4-acb4-61dc4eb3def7"
 [vars]
 ALLOWED_ORIGIN = "https://rubberq.com,https://www.rubberq.com,https://rubberq-site.pages.dev,https://rubberq-astro.pages.dev"
 FROM_EMAIL = "RubberQ RFQ <onboarding@resend.dev>"
-TO_EMAIL = "sales@rubberq.com"
+TO_EMAIL = "contact@rubberq.com"

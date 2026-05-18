@@ -152,22 +152,20 @@
     }
   },
   "goodFit": {
-    "title": "Is Your Project a Good Fit for RubberQ?",
-    "subtitle": "We're transparent about who we serve best — and who we don't. Here's how to know.",
-    "fitTitle": "GREAT FIT",
+    "title": "Can RubberQ Support Your Project?",
+    "subtitle": "Standard parts, custom parts, small batches, and larger-volume orders are all open for discussion. RubberQ's advantage is stable quality, finer process control, and long-term Japanese formulation support.",
+    "fitTitle": "WHERE WE ADD MORE VALUE",
     "fitItems": [
-      "Annual volumes 10,000 – 5,000,000 parts per SKU",
-      "Precision tolerances ±0.05mm or tighter",
-      "Custom or proprietary compound development",
-      "Long-term supply with compound traceability",
-      "ISO / IATF certified manufacturing required"
+      "Projects that need more stable rubber quality and batch-to-batch consistency",
+      "Parts that benefit from tighter dimensional, tolerance, or appearance control",
+      "Applications where material, formulation, tooling, or process engineering support matters",
+      "Standard parts, custom parts, small batches, and larger-volume programs are all welcome",
+      "Customers that need IATF 16949 / ISO 9001 / ISO 14001 manufacturing systems"
     ],
-    "notFitTitle": "NOT THE RIGHT FIT",
+    "notFitTitle": "CONFIRM FIRST",
     "notFitItems": [
-      "Over 10M parts annually (commodity rubber)",
-      "Single-source ultra-low-cost orders",
-      "Standard catalog items only",
-      "Regulated healthcare-grade qualification"
+      "Projects requiring regulated healthcare-device qualification should be reviewed separately before quotation.",
+      "If a project requires special industry approvals or third-party certification, share those requirements during RFQ so we can confirm support early."
     ],
     "cta": "Tell us about your project"
   },

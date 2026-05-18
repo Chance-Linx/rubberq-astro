@@ -141,6 +141,19 @@ async function insertRfq(env, lead) {
     .run();
 }
 
+async function notifySales(env, lead) {
+  const email = renderRfqEmail(lead);
+
+  await sendWithResend(env, {
+    from: env.FROM_EMAIL || 'RubberQ RFQ <onboarding@resend.dev>',
+    to: env.TO_EMAIL || 'contact@rubberq.com',
+    reply_to: lead.email,
+    subject: email.subject,
+    html: email.html,
+    text: email.text,
+  });
+}
+
 export default {
   async fetch(request, env) {
     if (request.method === 'OPTIONS') {
@@ -174,26 +187,26 @@ export default {
     try {
       await insertRfq(env, lead);
 
-      const email = renderRfqEmail(lead);
-      await sendWithResend(env, {
-        from: env.FROM_EMAIL || 'RubberQ RFQ <onboarding@resend.dev>',
-        to: env.TO_EMAIL || 'sales@rubberq.com',
-        reply_to: lead.email,
-        subject: email.subject,
-        html: email.html,
-        text: email.text,
-      });
+      let emailDelivered = true;
+
+      try {
+        await notifySales(env, lead);
+      } catch (emailError) {
+        emailDelivered = false;
+        console.error('RFQ email notification failed:', emailError);
+      }
 
       return json(request, env, {
         ok: true,
         leadGrade: lead.leadGrade,
         quoteReadiness: lead.quoteReadiness,
+        emailDelivered,
       });
     } catch (error) {
       console.error('RFQ submission failed:', error);
       return json(request, env, {
         ok: false,
-        error: 'Submission failed. Please email sales@rubberq.com directly.',
+        error: 'Submission failed. Please email contact@rubberq.com directly.',
       }, 500);
     }
   },
