@@ -1,0 +1,64 @@
+name: Sanity Daily Article Publish
+
+on:
+  schedule:
+    # Runs every 30 minutes during the UTC range that covers Europe and North
+    # America daytime windows. The script itself chooses one deterministic
+    # random slot per day and publishes only after that slot has arrived.
+    - cron: '*/30 8-23 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Check the next eligible article without writing to Sanity'
+        required: false
+        type: boolean
+        default: false
+      force:
+        description: 'Publish now, still respecting the one-per-day Sanity log'
+        required: false
+        type: boolean
+        default: false
+      plan_only:
+        description: 'Print today’s random target time only'
+        required: false
+        type: boolean
+        default: false
+
+concurrency:
+  group: sanity-daily-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Publish one eligible draft
+        env:
+          SANITY_API_TOKEN: ${{ secrets.SANITY_API_TOKEN }}
+          SANITY_PROJECT_ID: ${{ vars.SANITY_PROJECT_ID || 'tcjl4afv' }}
+          SANITY_DATASET: ${{ vars.SANITY_DATASET || 'production' }}
+          SANITY_DAILY_PUBLISH_SALT: ${{ secrets.SANITY_DAILY_PUBLISH_SALT }}
+          SITE_URL: https://rubberq.com
+        run: |
+          ARGS=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            ARGS="$ARGS --force"
+          fi
+          if [ "${{ github.event.inputs.plan_only }}" = "true" ]; then
+            ARGS="$ARGS --plan"
+          fi
+          npm run sanity:daily-publish -- $ARGS
