@@ -346,7 +346,7 @@ npm run build  # passed，追加本记录前
 
 Sanity 发布链路已改为 Leafclock-style：文章本身写入 `status: "published"` 与未来 `publishedAt`，Astro 前台只显示 `publishedAt <= now()` 的文章。
 
-当前状态：
+第一轮状态：
 
 - GitHub Actions 每日发布器已删除。
 - GitHub secret `SANITY_API_TOKEN` 已删除。
@@ -359,3 +359,29 @@ Sanity 发布链路已改为 Leafclock-style：文章本身写入 `status: "publ
 - 不把 Sanity token 提交到 Git。
 - 不把 Sanity token 放回 GitHub secret 做每日发布。
 - 换用具备 `create` 权限的 Sanity token 后，只需在本机重新运行导入脚本。
+
+第二轮完成状态：
+
+- 用户已在本机 `.env.local` 更新具备 Editor 权限的 Sanity token。
+- 5 篇本地 v2 文章已导入 Sanity，排期为 2026-06-01 至 2026-06-05。
+- Sanity 中 51 篇旧 `status: "draft"` 文章已改为 `status: "published"`，排期为 2026-06-06 至 2026-07-26。
+- 共 56 篇未来发布文章已就绪，当前不会前台显示，到时间后自然露出。
+- 12 篇旧草稿因医疗/FDA、旧 AI/data-center、旧 robotics、高压 battery pack 或测试占位等原因保留为草稿。
+- 新增 `scripts/schedule-sanity-drafts.mjs` 与 `npm run sanity:schedule-drafts`，用于以后继续批量排期 Sanity 草稿。
+
+第三轮完成状态：
+
+- 用户要求从每天一篇改为每天两篇。
+- 已将 `scripts/import-articles-to-sanity.mjs` 和 `scripts/schedule-sanity-drafts.mjs` 的排期默认值改为每天 2 篇，并保留 `--per-day` 参数可调整。
+- 已对 Sanity 当前 56 篇未来发布文章重新排期。
+- 新排期范围为 2026-06-01 至 2026-06-28，共 28 天，每天正好 2 篇。
+- 每天两篇分别落在 UTC 08:00-17:00 与 UTC 17:00-22:00 两个时间段，避免同一分钟集中露出。
+
+第四轮完成状态：
+
+- 用户指出起点应从今天开始。
+- 已按当前日期 2026-05-18 重新排期 Sanity 当前 56 篇未来文章。
+- 新排期范围为 2026-05-18 至 2026-06-14，共 28 天，每天正好 2 篇。
+- 首篇未来文章时间为 2026-05-18T14:37:00.000Z，末篇为 2026-06-14T18:00:00.000Z。
+- 当前前台立即可见文章数仍为 156，未来排期文章数为 56，保留草稿为 12。
+- 5 篇本地 v2 文章 frontmatter 已同步到今天起的 Sanity 排期，并改为 `status: "published"`。

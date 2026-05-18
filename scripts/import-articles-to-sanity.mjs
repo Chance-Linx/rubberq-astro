@@ -99,6 +99,7 @@ const FORCE_PUBLISH = args.includes('--force-publish');
 const FORCE_DRAFT = args.includes('--draft');
 const PRESERVE_STATUS = args.includes('--preserve-status');
 const SCHEDULE_DAILY_FROM = getArgValue('--schedule-daily-from');
+const SCHEDULE_PER_DAY = Number.parseInt(getArgValue('--per-day') || '2', 10);
 
 if (FORCE_PUBLISH && FORCE_DRAFT) {
   console.error('❌ Use either --force-publish or --draft, not both.');
@@ -107,6 +108,11 @@ if (FORCE_PUBLISH && FORCE_DRAFT) {
 
 if (SCHEDULE_DAILY_FROM && !/^\d{4}-\d{2}-\d{2}$/.test(SCHEDULE_DAILY_FROM)) {
   console.error('❌ --schedule-daily-from must use YYYY-MM-DD format.');
+  process.exit(1);
+}
+
+if (!Number.isInteger(SCHEDULE_PER_DAY) || SCHEDULE_PER_DAY < 1 || SCHEDULE_PER_DAY > 12) {
+  console.error('❌ --per-day must be an integer between 1 and 12.');
   process.exit(1);
 }
 
@@ -119,7 +125,7 @@ console.log(`Project:        ${PROJECT_ID}`);
 console.log(`Dataset:        ${DATASET}`);
 console.log(`Status mode:    ${FORCE_DRAFT ? 'draft' : PRESERVE_STATUS ? 'frontmatter' : 'published'}`);
 console.log('Scheduling:     publishedAt controls public visibility');
-if (SCHEDULE_DAILY_FROM) console.log(`Daily schedule: ${SCHEDULE_DAILY_FROM} + one article/day, random EU/US daytime UTC`);
+if (SCHEDULE_DAILY_FROM) console.log(`Daily schedule: ${SCHEDULE_DAILY_FROM} + ${SCHEDULE_PER_DAY} article(s)/day, random EU/US daytime UTC`);
 if (SPECIFIC_FILE) console.log(`Specific file:  ${SPECIFIC_FILE}`);
 console.log('');
 
@@ -231,17 +237,47 @@ function hashToUnit(value) {
 
 function scheduledPublishedAt(startDate, index, slug) {
   const date = new Date(`${startDate}T00:00:00.000Z`);
-  date.setUTCDate(date.getUTCDate() + index);
+  const dayOffset = Math.floor(index / SCHEDULE_PER_DAY);
+  const slot = index % SCHEDULE_PER_DAY;
+  date.setUTCDate(date.getUTCDate() + dayOffset);
   const day = date.toISOString().slice(0, 10);
-  const windows = [
-    { start: 8 * 60, end: 12 * 60 },  // Europe business morning
-    { start: 13 * 60, end: 17 * 60 }, // Europe / US East overlap
-    { start: 17 * 60, end: 22 * 60 }, // North America daytime
-  ];
-  const window = windows[Math.floor(hashToUnit(`${day}:${slug}:window`) * windows.length)];
-  const offset = Math.floor(hashToUnit(`${day}:${slug}:minute`) * (window.end - window.start));
+  const window = scheduleWindowForSlot(SCHEDULE_PER_DAY, slot, `${day}:${slug}`);
+  const offset = Math.floor(hashToUnit(`${day}:${slot}:${slug}:minute`) * (window.end - window.start));
   date.setUTCHours(0, window.start + offset, 0, 0);
   return date.toISOString();
+}
+
+function scheduleWindowForSlot(perDay, slot, seed) {
+  if (perDay === 1) {
+    const windows = [
+      { start: 8 * 60, end: 12 * 60 },
+      { start: 13 * 60, end: 17 * 60 },
+      { start: 17 * 60, end: 22 * 60 },
+    ];
+    return windows[Math.floor(hashToUnit(`${seed}:window`) * windows.length)];
+  }
+
+  if (perDay === 2) {
+    return slot === 0
+      ? { start: 8 * 60, end: 17 * 60 }
+      : { start: 17 * 60, end: 22 * 60 };
+  }
+
+  if (perDay === 3) {
+    return [
+      { start: 8 * 60, end: 12 * 60 },
+      { start: 13 * 60, end: 17 * 60 },
+      { start: 17 * 60, end: 22 * 60 },
+    ][slot];
+  }
+
+  const start = 8 * 60;
+  const end = 22 * 60;
+  const bucket = Math.floor((end - start) / perDay);
+  return {
+    start: start + bucket * slot,
+    end: slot === perDay - 1 ? end : start + bucket * (slot + 1),
+  };
 }
 
 function buildDocument(fm, body, scheduleIndex) {

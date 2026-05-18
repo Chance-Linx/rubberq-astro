@@ -151,3 +151,115 @@ Insufficient permissions; permission "create" required
 | 2026-06-03 18:46 | `what-is-in-house-rubber-compounding` |
 | 2026-06-04 10:21 | `single-line-mixing-semiconductor-ffkm-contamination` |
 | 2026-06-05 16:08 | `compound-traceability-ppap-10-year-reproducibility` |
+
+## 2026-05-18 执行完成：本地 5 篇 + Sanity 旧草稿 51 篇排期
+
+用户已在本机 `.env.local` 更新具备 Editor 权限的 `SANITY_API_TOKEN`。本轮没有输出 token，也没有把 token 写入 GitHub secret。
+
+新增脚本：
+
+```bash
+npm run sanity:schedule-drafts -- --dry-run --schedule-daily-from=2026-06-06
+npm run sanity:schedule-drafts -- --apply --schedule-daily-from=2026-06-06
+```
+
+该脚本用途：
+
+- 读取 Sanity 中 `_type == "article" && status == "draft"` 的文章。
+- 使用与本地导入脚本一致的确定性随机排期算法：每天一篇，时间落在 UTC 08:00-11:59、13:00-16:59、17:00-21:59。
+- 将通过公开红线检查的旧草稿改为 `status: "published"`，并写入未来 `publishedAt`。
+- 对医疗、FDA/ISO 13485、旧 robotics、旧 AI/data-center、高压 battery pack/PDU/BMS、测试占位文章保持草稿，不公开。
+
+实际执行结果：
+
+| 批次 | 数量 | 排期范围 |
+| --- | ---: | --- |
+| 本地 `docs/content/articles-v2/` 新文章 | 5 | 2026-06-01 至 2026-06-05 |
+| Sanity 旧草稿转未来发布 | 51 | 2026-06-06 至 2026-07-26 |
+| 保留草稿不公开 | 12 | 因公开红线或测试占位跳过 |
+
+复核查询结果：
+
+```text
+futurePublishedCount: 56
+remainingDraftCount: 12
+publicNowCount: 156
+nextFuture: 2026-06-01T20:57:00.000Z
+lastFuture: 2026-07-26T16:46:00.000Z
+```
+
+说明：
+
+- 这 56 篇已是 `status: "published"`，但因为 `publishedAt` 在未来，当前前台不会显示。
+- 到达对应 `publishedAt` 后，Astro 前台通过 `publishedAt <= now()` 查询自然露出。
+- 不需要 GitHub Actions 或 Cloudflare Cron 每天改 Sanity。
+
+保留草稿的 12 篇：
+
+| 标题 | 原因 |
+| --- | --- |
+| AI Data Center Liquid Cooling Seals: Why FKM Outperforms in 24/7 Operation | 旧 AI/data-center 定位 |
+| Silicone vs. LSR: Comparing Precision and Cost in High-Volume Medical Gaskets. | 医疗方向 |
+| 800V EV Architecture: Material Selection for High-Voltage Battery Pack Seals. | 未确认高压 battery pack 应用 |
+| Liquid Cooling for AI Servers: Preventing Coolant Leaks with Precision HNBR Gaskets. | 旧 AI/data-center 定位 |
+| Vibration Dampening in High-Density Racks: Custom Rubber Mounts for Servers. | 旧 AI/data-center 定位 |
+| High-Flex Bellows for 6-Axis Robots: Material Fatigue and Cycle Life Testing. | 旧 robotics 定位 |
+| Gripper Pads for Food Automation: FDA-Compliant Silicone Solutions. | FDA 公开红线 |
+| Cleanroom Manufacturing: Controlling Particle Contamination in Medical Seals. | 医疗方向 |
+| Molding Shrinkage: Why the Same Tool Produces Different Sizes with Different Materials. | 命中旧 AI/data-center 红线词 |
+| Warping in Molded Parts: Managing Internal Stresses during Cooling. | 命中旧 AI/data-center 红线词 |
+| 文章标题 | 缺 slug / 占位测试 |
+| 测试文章 - Obsidian 同步功能 | 占位测试 |
+
+## 2026-05-18 追更：改为每天两篇
+
+用户要求从每天一篇改为每天两篇。本轮已完成：
+
+- `scripts/import-articles-to-sanity.mjs` 增加 `--per-day` 参数，默认值改为 `2`。
+- `scripts/schedule-sanity-drafts.mjs` 增加 `--per-day` 参数，默认值为 `2`。
+- `scripts/schedule-sanity-drafts.mjs` 增加 `--source=future-published`，可重新排期已经写入未来 `publishedAt` 的文章。
+- 每天两篇时，第一篇落在 UTC 08:00-17:00，第二篇落在 UTC 17:00-22:00，避免两篇随机到同一时间段或同一分钟。
+
+已对 Sanity 当前 56 篇未来文章执行重新排期：
+
+```bash
+npm run sanity:schedule-drafts -- --apply --source=future-published --schedule-daily-from=2026-06-01 --per-day=2
+```
+
+复核结果：
+
+```text
+futurePublishedCount: 56
+date range: 2026-06-01 to 2026-06-28
+dayCount: 28
+minPerDay: 2
+maxPerDay: 2
+firstFuture: 2026-06-01T11:24:00.000Z
+lastFuture: 2026-06-28T18:03:00.000Z
+```
+
+结论：当前排期已是每天两篇，仍然依靠 `publishedAt <= now()` 自然露出，不需要每日 Cron 去修改文章。
+
+## 2026-05-18 追更：起点改为今天
+
+用户指出排期起点应该从今天开始。当前环境时间为 2026-05-18 18:11 CST，本轮已将 Sanity 当前 56 篇未来发布文章重新排期为：
+
+```bash
+npm run sanity:schedule-drafts -- --apply --source=future-published --schedule-daily-from=2026-05-18 --per-day=2
+```
+
+复核结果：
+
+```text
+publicNowCount: 156
+futurePublishedCount: 56
+remainingDraftCount: 12
+date range: 2026-05-18 to 2026-06-14
+dayCount: 28
+minPerDay: 2
+maxPerDay: 2
+firstFuture: 2026-05-18T14:37:00.000Z
+lastFuture: 2026-06-14T18:00:00.000Z
+```
+
+结论：当前最终排期是从今天 2026-05-18 开始，每天两篇，覆盖 28 天。5 篇本地 v2 文章的 frontmatter 也已同步到对应 Sanity 时间，并改为 `status: "published"`。
