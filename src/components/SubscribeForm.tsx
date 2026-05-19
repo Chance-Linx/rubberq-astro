@@ -160,8 +160,8 @@ export default function SubscribeForm({ locale }: { locale: string }) {
       </form>
 
       {status === 'success' && (
-        <div className="mt-4 bg-industrial-50 border border-industrial-200 p-3 flex items-start gap-2">
-          <CheckCircle className="w-4 h-4 text-accent-orange mt-0.5" />
+        <div className="mt-4 form-status-success border p-3 flex items-start gap-2">
+          <CheckCircle className="w-4 h-4 form-status-success-icon mt-0.5" />
           <p className="text-sm text-industrial-700">{labels.successMessage}</p>
         </div>
       )}

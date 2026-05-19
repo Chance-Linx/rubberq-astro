@@ -320,8 +320,8 @@ export default function SampleRequestForm({ locale }: { locale: string }) {
       />
 
       {status === 'success' && (
-        <div className="bg-industrial-50 border border-industrial-200 p-4 flex items-start gap-3">
-          <CheckCircle className="w-5 h-5 text-accent-orange mt-0.5" />
+        <div className="form-status-success border p-4 flex items-start gap-3">
+          <CheckCircle className="w-5 h-5 form-status-success-icon mt-0.5" />
           <div>
             <p className="font-bold text-industrial-900">{labels.success}</p>
             <p className="text-sm text-industrial-700">{labels.successMessage}</p>
