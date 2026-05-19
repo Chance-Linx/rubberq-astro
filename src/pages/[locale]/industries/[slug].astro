@@ -252,19 +252,25 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
               {ip('whereWeFit.title')}
             </h2>
             <div class="grid md:grid-cols-2 gap-6">
-              <div class="bg-white border-2 border-accent-orange p-8">
-                <h3 class="text-lg font-bold text-industrial-900 mb-4 uppercase">✅ Fit</h3>
+              <div class="bg-white border border-industrial-200 border-t-4 border-accent-orange p-8">
+                <h3 class="text-lg font-bold text-industrial-900 mb-4 uppercase">{ip('whereWeFit.fitTitle', 'Stronger value')}</h3>
                 <ul class="space-y-2">
                   {autoFit.map((item: string) => (
-                    <li class="text-industrial-700 leading-relaxed text-sm">▸ {item}</li>
+                    <li class="flex gap-3 text-industrial-700 leading-relaxed text-sm">
+                      <span class="mt-2 h-px w-5 bg-accent-orange flex-shrink-0"></span>
+                      <span>{item}</span>
+                    </li>
                   ))}
                 </ul>
               </div>
-              <div class="bg-white border-2 border-accent-orange p-8">
-                <h3 class="text-lg font-bold text-industrial-900 mb-4 uppercase">❌ Not Fit</h3>
+              <div class="bg-white border border-industrial-200 border-t-4 border-industrial-300 p-8">
+                <h3 class="text-lg font-bold text-industrial-900 mb-4 uppercase">{ip('whereWeFit.confirmTitle', 'Confirm early')}</h3>
                 <ul class="space-y-2">
                   {autoNotFit.map((item: string) => (
-                    <li class="text-industrial-700 leading-relaxed text-sm">▸ {item}</li>
+                    <li class="flex gap-3 text-industrial-700 leading-relaxed text-sm">
+                      <span class="mt-2 h-px w-5 bg-industrial-400 flex-shrink-0"></span>
+                      <span>{item}</span>
+                    </li>
                   ))}
                 </ul>
               </div>

@@ -56,7 +56,7 @@
     },
     "industriesAutomotive": {
       "title": "Automotive Tier 2 Components | RubberQ",
-      "description": "30 years supplying Japanese automotive OEMs. Today serving Tier 2 applications where custom compound chemistry and tight tolerance — not raw volume — drive supplier selection."
+      "description": "30 years supplying Japanese automotive OEMs. Today serving Tier 2 applications where custom compound chemistry, tight tolerance, and stable manufacturing support matter."
     },
     "privacy": {
       "title": "Privacy Policy | RubberQ",
@@ -171,7 +171,7 @@
   },
   "capacityReframing": {
     "title": "Purposefully Sized for Precision",
-    "body": "Our manufacturing is purposefully sized for precision and small-to-medium batch production — typically 500g to 5,000kg per compound batch. We deliberately don't compete on commodity rubber volumes. This dedicated single-line setup gives us stronger compound-to-compound traceability and reduced cross-contamination risk — critical for customers who need formulation consistency across years of production.",
+    "body": "Our manufacturing system is built around stable quality, controlled compounding, and repeatable precision production — typically 500g to 5,000kg per compound batch. Standard parts, custom parts, small batches, and larger-volume programs can all be discussed; our strongest value appears when quality consistency, traceability, and engineering support matter.",
     "learnMore": "Learn how our single-line setup works"
   },
   "compoundingRDEntry": {
@@ -1810,7 +1810,7 @@
       "whyUs": {
         "title": "Why Industrial Customers Choose Us",
         "items": [
-          "Engineered compounds, not commodity rubber",
+          "Engineered compounds with controlled manufacturing support",
           "±0.05mm tolerance achievable",
           "IATF 16949 supplied to industrial OEMs since 1995",
           "Compound consistency for 5+ year supply contracts"
@@ -1848,18 +1848,20 @@
     "automotive": {
       "hero": {
         "title": "Automotive Tier 2 Components — Where Precision Matters Most",
-        "subtitle": "We've supplied long-term to Japanese automotive OEMs since 1995. Today we focus on Tier 2 applications where custom compounds and tight tolerance — not raw volume — drive supplier selection."
+        "subtitle": "We've supplied long-term to Japanese automotive OEMs since 1995. Today we support Tier 2 applications where custom compounds, tight tolerance, and stable long-term supply drive supplier selection."
       },
       "whereWeFit": {
-        "title": "Where We Fit",
+        "title": "Where We Add Value",
+        "fitTitle": "Stronger value",
         "fitItems": [
           "Tier 2 key components (thermal mgmt, sensor seals, sub-system gaskets)",
-          "Low-to-medium volume premium parts (10K-1M annually)",
+          "Standard, custom, small-batch, or larger-volume parts that need stable quality",
           "Compound co-development with Tier 1 R&D engineers"
         ],
+        "confirmTitle": "Confirm early",
         "notFitItems": [
-          "platform-wide volume parts (millions/year per SKU)",
-          "Commodity replacement parts (catalog-grade)"
+          "Programs with special customer approvals, audits, or documentation requirements",
+          "Healthcare-device or other regulated applications that require special-market certification"
         ]
       },
       "customerProfile": {
@@ -1907,19 +1909,19 @@
       "jpEngineersLabel": "Japanese Engineering Partners"
     },
     "whatWeDontDo": {
-      "title": "We're Honest About Where We Fit",
-      "notFitTitle": "We are not the right partner for:",
+      "title": "How We Support Different Projects",
+      "notFitTitle": "Confirm first when your project requires:",
       "notFitItems": [
-        "High-volume commodity rubber (tens of millions+ parts/year)",
-        "Single-source ultra-low-cost orders",
-        "Regulated healthcare-grade qualification"
+        "Healthcare-device or other regulated-market qualification that requires special certification beyond RubberQ's current ISO / IATF system.",
+        "Special industry approvals, customer audits, or regulated documentation beyond standard ISO / IATF manufacturing files.",
+        "Lowest-price or very high-volume commodity programs. We can review or quote them, and we will be clear about cost, quality, and delivery tradeoffs."
       ],
-      "rightFitTitle": "We're the right partner for:",
+      "rightFitTitle": "Where RubberQ adds the most value:",
       "rightFitItems": [
-        "Engineered compounds with custom chemistry",
-        "±0.05mm tolerance precision parts",
-        "Long-term supply with full compound traceability",
-        "10,000 – 5,000,000 parts annually per SKU"
+        "Rubber parts that need stable quality, cleaner appearance, or tighter dimensional control",
+        "Standard or custom parts that benefit from material, mold, process, or tolerance review",
+        "Long-term supply programs with compound traceability and batch-to-batch consistency",
+        "Small, medium, or larger-volume RFQs where Japanese formulation support and Chinese precision manufacturing matter"
       ],
       "cta": "Discuss your project"
     }
@@ -1959,10 +1961,10 @@
         "10kTo100k": "10,000 – 100,000 parts (Sweet spot)",
         "100kTo1m": "100,000 – 1,000,000 parts (Sweet spot)",
         "1mTo5m": "1,000,000 – 5,000,000 parts (Sweet spot)",
-        "over5m": "Over 5,000,000 parts (We may not be the right fit)"
+        "over5m": "Over 5,000,000 parts (please share volume details)"
       },
       "hintLow": "Our setup is purposefully sized for 10K-5M annual volumes. Smaller pilot orders may require a custom engagement.",
-      "hintHigh": "Our setup is purposefully sized for 10K-5M annual volumes. Larger commodity orders may require a different supplier."
+      "hintHigh": "For larger-volume programs, share annual volume, tolerance, quality, and delivery expectations so we can review the best production approach."
     },
     "quoteComponents": {
       "label": "Quote Components Needed",
