@@ -825,11 +825,11 @@
     "select": "Sprache wählen"
   },
   "cookieConsent": {
-    "title": "Ihre Privatsphäre ist uns wichtig",
-    "descriptionPrefix": "Wir verwenden Cookies, um Ihr Surferlebnis zu verbessern, personalisierte technische Inhalte bereitzustellen und unseren Datenverkehr gemäß DSGVO und CCPA zu analysieren. Durch Klicken auf „Akzeptieren“ stimmen Sie unserer Verwendung von Cookies zu. Lesen Sie unsere",
+    "title": "Cookie-Einstellungen",
+    "descriptionPrefix": "RubberQ verwendet notwendige Cookies, damit diese Website zuverlässig funktioniert. Mit Ihrer Zustimmung nutzen wir Analyse-Cookies, um zu verstehen, welche technischen Seiten hilfreich sind und die Website zu verbessern. Lesen Sie unsere",
     "privacyLink": "Datenschutzrichtlinie",
-    "descriptionSuffix": "für Details.",
-    "decline": "Ablehnen",
+    "descriptionSuffix": "für weitere Informationen.",
+    "decline": "Nur notwendige Cookies",
     "acceptAll": "Alle akzeptieren"
   },
   "summaryItems": {

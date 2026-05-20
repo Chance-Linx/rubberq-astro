@@ -1,5 +1,7 @@
 ---
 import '@/styles/globals.css';
+import CookieConsent from '@/components/CookieConsent';
+import { defaultLocale, getTranslations, locales, t, type Locale } from '@/lib/i18n';
 
 interface Props {
   lang?: string;
@@ -7,6 +9,16 @@ interface Props {
 
 const { lang = 'en' } = Astro.props;
 const gaMeasurementId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID || 'G-NXD6LQQDHP';
+const normalizedLang = locales.includes(lang as Locale) ? (lang as Locale) : defaultLocale;
+const messages = await getTranslations(normalizedLang);
+const cookieConsentMessages = {
+  title: t(messages, 'cookieConsent.title'),
+  descriptionPrefix: t(messages, 'cookieConsent.descriptionPrefix'),
+  privacyLink: t(messages, 'cookieConsent.privacyLink'),
+  descriptionSuffix: t(messages, 'cookieConsent.descriptionSuffix'),
+  decline: t(messages, 'cookieConsent.decline'),
+  acceptAll: t(messages, 'cookieConsent.acceptAll'),
+};
 ---
 
 <!doctype html>
@@ -16,17 +28,59 @@ const gaMeasurementId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID || 'G-NXD6LQQDH
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`}></script>
     <script is:inline define:vars={{ gaMeasurementId }}>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){window.dataLayer.push(arguments);}
-      window.gtag = gtag;
-      gtag('js', new Date());
-      gtag('config', gaMeasurementId, { send_page_view: true });
+      (function () {
+        var preferencesKey = 'rubberq-cookie-preferences';
+        var legacyConsentKey = 'rubberq-cookie-consent';
+
+        function readPreferences() {
+          try {
+            var stored = window.localStorage.getItem(preferencesKey);
+            if (stored) {
+              return JSON.parse(stored);
+            }
+
+            if (window.localStorage.getItem(legacyConsentKey) === 'accepted') {
+              return { analytics: true };
+            }
+          } catch (_) {
+            return null;
+          }
+
+          return null;
+        }
+
+        function loadAnalytics(preferences) {
+          if (!preferences || preferences.analytics !== true || window.__rubberqAnalyticsLoaded) {
+            return;
+          }
+
+          window.__rubberqAnalyticsLoaded = true;
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function gtag() {
+            window.dataLayer.push(arguments);
+          };
+
+          var script = document.createElement('script');
+          script.async = true;
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(gaMeasurementId);
+          document.head.appendChild(script);
+
+          window.gtag('js', new Date());
+          window.gtag('config', gaMeasurementId, { send_page_view: true });
+        }
+
+        window.rubberqLoadAnalytics = loadAnalytics;
+        loadAnalytics(readPreferences());
+        window.addEventListener('rubberq-cookie-consent-updated', function (event) {
+          loadAnalytics(event.detail);
+        });
+      })();
     </script>
     <slot name="head" />
   </head>
   <body class="bg-background text-foreground antialiased min-h-screen">
     <slot />
+    <CookieConsent locale={normalizedLang} messages={cookieConsentMessages} client:load />
   </body>
 </html>

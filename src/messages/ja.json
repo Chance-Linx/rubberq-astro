@@ -825,11 +825,11 @@
     "select": "言語を選択"
   },
   "cookieConsent": {
-    "title": "お客様のプライバシーを尊重します",
-    "descriptionPrefix": "当社は、閲覧体験の向上、パーソナライズされた技術コンテンツの提供、およびGDPRとCCPAに準拠したトラフィック分析のためにCookieを使用しています。「同意する」をクリックすると、Cookieの使用に同意したことになります。詳細は",
+    "title": "Cookie設定",
+    "descriptionPrefix": "RubberQ は、このWebサイトを正常に動作させるために必須Cookieを使用します。お客様の同意がある場合、どの技術ページが役立つかを把握し、サイトを改善するために分析Cookieを使用します。詳しくは",
     "privacyLink": "プライバシーポリシー",
     "descriptionSuffix": "をご覧ください。",
-    "decline": "拒否",
+    "decline": "必須Cookieのみ",
     "acceptAll": "すべて同意"
   },
   "summaryItems": {

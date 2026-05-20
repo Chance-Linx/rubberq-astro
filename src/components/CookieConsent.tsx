@@ -1,12 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { defaultLocale, locales, type Locale, t } from '../lib/i18n';
-import en from '../messages/en.json';
-import de from '../messages/de.json';
-import ja from '../messages/ja.json';
-import es from '../messages/es.json';
-import zh from '../messages/zh.json';
 
 type CookiePreferences = {
   necessary: true;
@@ -20,17 +14,15 @@ type CategoryLabels = {
   savePreferences: string;
   necessaryLabel: string;
   analyticsLabel: string;
-  marketingLabel: string;
   alwaysOn: string;
 };
 
-const categoryLabels: Record<Locale, CategoryLabels> = {
+const categoryLabels: Record<string, CategoryLabels> = {
   en: {
     preferencesTitle: 'Cookie Categories',
     savePreferences: 'Save Preferences',
     necessaryLabel: 'Necessary cookies',
     analyticsLabel: 'Analytics cookies',
-    marketingLabel: 'Marketing cookies',
     alwaysOn: 'Always active',
   },
   zh: {
@@ -38,7 +30,6 @@ const categoryLabels: Record<Locale, CategoryLabels> = {
     savePreferences: '保存偏好',
     necessaryLabel: '必要 Cookie',
     analyticsLabel: '分析 Cookie',
-    marketingLabel: '营销 Cookie',
     alwaysOn: '始终开启',
   },
   de: {
@@ -46,7 +37,6 @@ const categoryLabels: Record<Locale, CategoryLabels> = {
     savePreferences: 'Einstellungen speichern',
     necessaryLabel: 'Notwendige Cookies',
     analyticsLabel: 'Analyse-Cookies',
-    marketingLabel: 'Marketing-Cookies',
     alwaysOn: 'Immer aktiv',
   },
   ja: {
@@ -54,7 +44,6 @@ const categoryLabels: Record<Locale, CategoryLabels> = {
     savePreferences: '設定を保存',
     necessaryLabel: '必須Cookie',
     analyticsLabel: '分析Cookie',
-    marketingLabel: 'マーケティングCookie',
     alwaysOn: '常に有効',
   },
   es: {
@@ -62,23 +51,21 @@ const categoryLabels: Record<Locale, CategoryLabels> = {
     savePreferences: 'Guardar preferencias',
     necessaryLabel: 'Cookies necesarias',
     analyticsLabel: 'Cookies analiticas',
-    marketingLabel: 'Cookies de marketing',
     alwaysOn: 'Siempre activas',
   },
 };
 
 const legacyConsentKey = 'rubberq-cookie-consent';
 const consentPrefsKey = 'rubberq-cookie-preferences';
-const messagesByLocale = { en, de, ja, es, zh };
 
-function getClientLocale(): Locale {
-  if (typeof window === 'undefined') {
-    return defaultLocale;
-  }
-
-  const maybeLocale = window.location.pathname.split('/')[1] as Locale;
-  return locales.includes(maybeLocale) ? maybeLocale : defaultLocale;
-}
+type CookieConsentCopy = {
+  title: string;
+  descriptionPrefix: string;
+  privacyLink: string;
+  descriptionSuffix: string;
+  decline: string;
+  acceptAll: string;
+};
 
 function persistPreferences(status: 'accepted' | 'declined' | 'custom', preferences: CookiePreferences) {
   localStorage.setItem(legacyConsentKey, status);
@@ -86,13 +73,16 @@ function persistPreferences(status: 'accepted' | 'declined' | 'custom', preferen
   window.dispatchEvent(new CustomEvent('rubberq-cookie-consent-updated', { detail: preferences }));
 }
 
-const CookieConsent = () => {
-  const [isVisible, setIsVisible] = useState(false);
-  const [analytics, setAnalytics] = useState(true);
-  const [marketing, setMarketing] = useState(false);
+type CookieConsentProps = {
+  locale?: string;
+  messages: CookieConsentCopy;
+};
 
-  const normalizedLocale = getClientLocale();
-  const cookieMessages = messagesByLocale[normalizedLocale] ?? messagesByLocale[defaultLocale];
+const CookieConsent = ({ locale = 'en', messages }: CookieConsentProps) => {
+  const [isVisible, setIsVisible] = useState(false);
+  const [analytics, setAnalytics] = useState(false);
+
+  const normalizedLocale = categoryLabels[locale] ? locale : 'en';
   const labels = categoryLabels[normalizedLocale];
 
   useEffect(() => {
@@ -103,10 +93,8 @@ const CookieConsent = () => {
       try {
         const parsed = JSON.parse(prefs) as CookiePreferences;
         setAnalytics(!!parsed.analytics);
-        setMarketing(!!parsed.marketing);
       } catch {
-        setAnalytics(true);
-        setMarketing(false);
+        setAnalytics(false);
       }
       return;
     }
@@ -115,7 +103,7 @@ const CookieConsent = () => {
       persistPreferences('accepted', {
         necessary: true,
         analytics: true,
-        marketing: true,
+        marketing: false,
         updatedAt: new Date().toISOString(),
       });
       return;
@@ -141,7 +129,7 @@ const CookieConsent = () => {
     persistPreferences('accepted', {
       necessary: true,
       analytics: true,
-      marketing: true,
+      marketing: false,
       updatedAt: new Date().toISOString(),
     });
     setIsVisible(false);
@@ -155,7 +143,6 @@ const CookieConsent = () => {
       updatedAt: new Date().toISOString(),
     });
     setAnalytics(false);
-    setMarketing(false);
     setIsVisible(false);
   };
 
@@ -163,7 +150,7 @@ const CookieConsent = () => {
     persistPreferences('custom', {
       necessary: true,
       analytics,
-      marketing,
+      marketing: false,
       updatedAt: new Date().toISOString(),
     });
     setIsVisible(false);
@@ -175,9 +162,9 @@ const CookieConsent = () => {
     <div className="fixed bottom-0 left-0 right-0 z-[100] p-4 md:p-6 animate-in fade-in slide-in slide-in-from-bottom-10 duration-700">
       <div className="max-w-7xl mx-auto bg-industrial-900 border border-industrial-700 shadow-2xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex-grow">
-          <h3 className="text-white font-bold text-lg mb-2 uppercase tracking-tight">{t(cookieMessages, 'cookieConsent.title')}</h3>
+          <h3 className="text-white font-bold text-lg mb-2 uppercase tracking-tight">{messages.title}</h3>
           <p className="text-white text-sm leading-relaxed max-w-3xl">
-            {t(cookieMessages, 'cookieConsent.descriptionPrefix')} <a href={`/${normalizedLocale}/privacy`} className="text-accent-orange underline hover:text-white transition-colors">{t(cookieMessages, 'cookieConsent.privacyLink')}</a> {t(cookieMessages, 'cookieConsent.descriptionSuffix')}
+            {messages.descriptionPrefix} <a href={`/${normalizedLocale}/privacy`} className="text-accent-orange underline hover:text-white transition-colors">{messages.privacyLink}</a> {messages.descriptionSuffix}
           </p>
 
           <div className="mt-5 border border-industrial-700 bg-industrial-800/60 p-4">
@@ -189,22 +176,12 @@ const CookieConsent = () => {
                 <span className="text-xs uppercase text-industrial-300">{labels.alwaysOn}</span>
               </div>
 
-              <label className="flex items-center justify-between text-sm text-white cursor-pointer">
+              <label className="flex items-center justify-between gap-6 text-sm text-white cursor-pointer">
                 <span>{labels.analyticsLabel}</span>
                 <input
                   type="checkbox"
                   checked={analytics}
                   onChange={(event) => setAnalytics(event.target.checked)}
-                  className="w-4 h-4"
-                />
-              </label>
-
-              <label className="flex items-center justify-between text-sm text-white cursor-pointer">
-                <span>{labels.marketingLabel}</span>
-                <input
-                  type="checkbox"
-                  checked={marketing}
-                  onChange={(event) => setMarketing(event.target.checked)}
                   className="w-4 h-4"
                 />
               </label>
@@ -222,13 +199,13 @@ const CookieConsent = () => {
             onClick={handleDecline}
             className="px-6 py-3 text-sm font-bold uppercase tracking-widest text-white border border-white hover:bg-white hover:text-industrial-900 transition-all"
           >
-            {t(cookieMessages, 'cookieConsent.decline')}
+            {messages.decline}
           </button>
           <button 
             onClick={handleAccept}
             className="px-8 py-3 text-sm font-bold uppercase tracking-widest bg-accent-orange text-white hover:bg-white hover:text-industrial-900 transition-all shadow-lg"
           >
-            {t(cookieMessages, 'cookieConsent.acceptAll')}
+            {messages.acceptAll}
           </button>
         </div>
       </div>

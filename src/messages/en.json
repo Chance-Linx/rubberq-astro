@@ -874,11 +874,11 @@
     "select": "Select Language"
   },
   "cookieConsent": {
-    "title": "Your Privacy Matters",
-    "descriptionPrefix": "We use cookies to enhance your browsing experience, serve personalized technical content, and analyze our traffic in compliance with GDPR and CCPA. By clicking \"Accept\", you consent to our use of cookies. Read our",
+    "title": "Cookie Preferences",
+    "descriptionPrefix": "RubberQ uses necessary cookies to keep this website working. With your permission, we use analytics cookies to understand which technical pages are useful and improve the site. Read our",
     "privacyLink": "Privacy Policy",
     "descriptionSuffix": "for details.",
-    "decline": "Decline",
+    "decline": "Necessary Only",
     "acceptAll": "Accept All"
   },
   "summaryItems": {

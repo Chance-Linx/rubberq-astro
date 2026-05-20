@@ -596,12 +596,12 @@
     "select": "Seleccionar Idioma"
   },
   "cookieConsent": {
-    "title": "Su Privacidad Importa",
-    "descriptionPrefix": "Utilizamos cookies para mejorar su experiencia de navegación, ofrecer contenido técnico personalizado y analizar nuestro tráfico en cumplimiento con GDPR y CCPA. Al hacer clic en \"Aceptar\", consiente nuestro uso de cookies. Lea nuestra",
+    "title": "Preferencias de cookies",
+    "descriptionPrefix": "RubberQ utiliza cookies necesarias para que este sitio funcione correctamente. Con su permiso, usamos cookies analíticas para entender qué páginas técnicas son útiles y mejorar el sitio. Lea nuestra",
     "privacyLink": "Política de Privacidad",
     "descriptionSuffix": "para más detalles.",
-    "decline": "Rechazar",
-    "acceptAll": "Aceptar Todo"
+    "decline": "Solo necesarias",
+    "acceptAll": "Aceptar todo"
   },
   "quality": {
     "title": "Garantía de Calidad",

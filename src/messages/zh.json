@@ -1035,11 +1035,11 @@
     "select": "选择语言"
   },
   "cookieConsent": {
-    "title": "您的隐私至关重要",
-    "descriptionPrefix": "我们使用 Cookie 来增强您的浏览体验，提供个性化的技术内容，并根据 GDPR 和 CCPA 分析我们的流量。点击“接受”即表示您同意我们使用 Cookie。阅读我们的",
+    "title": "Cookie 偏好",
+    "descriptionPrefix": "RubberQ 使用必要 Cookie 保持网站正常运行。经您同意，我们会使用分析 Cookie 了解哪些技术页面更有帮助，并持续改进网站。请阅读我们的",
     "privacyLink": "隐私政策",
     "descriptionSuffix": "了解详情。",
-    "decline": "拒绝",
+    "decline": "仅必要 Cookie",
     "acceptAll": "全部接受"
   },
   "capabilities": {
