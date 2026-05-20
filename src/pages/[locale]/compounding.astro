@@ -19,6 +19,8 @@ const libraryColumns = tRaw(messages, 'compounding.library.columns', []);
 const libraryRows = tRaw(messages, 'compounding.library.rows', []);
 const typicalItems = tRaw(messages, 'compounding.whyCompounding.typicalItems', []);
 const rubberQItems = tRaw(messages, 'compounding.whyCompounding.rubberQItems', []);
+const abMixingStages = tRaw(messages, 'compounding.abMixing.stages', []);
+const abReleaseTests = tRaw(messages, 'compounding.abMixing.tests', []);
 
 const orgSchema = createOrganizationSchema(locale!);
 ---
@@ -197,6 +199,67 @@ const orgSchema = createOrganizationSchema(locale!);
           >
             <span class="text-xs uppercase tracking-widest text-industrial-500 mb-2">PLACEHOLDER · compounding-aline-process</span>
             <span class="text-sm text-industrial-700">原料投放/排料场景</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- A/B MIXING RELEASE CONTROL                                    -->
+    <!-- ============================================================ -->
+    <section class="py-24 bg-white border-y border-industrial-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-[0.9fr_1.1fr] gap-14 items-start">
+          <div class="lg:sticky lg:top-24">
+            <p class="text-xs font-bold uppercase tracking-[0.28em] text-accent-orange mb-4">
+              {c('abMixing.eyebrow')}
+            </p>
+            <h2 class="text-3xl md:text-5xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
+              {c('abMixing.title')}
+            </h2>
+            <p class="text-lg text-industrial-700 leading-relaxed mb-8">
+              {c('abMixing.intro')}
+            </p>
+            <div
+              class="mb-8 aspect-[16/9] bg-industrial-50 border-2 border-dashed border-industrial-300 flex flex-col items-center justify-center text-center p-6"
+              data-slot-id="compounding-ab-mixing-release-flow"
+              data-purpose="A/B 炼流程图、实验室批次放行记录或混炼线照片"
+              data-spec="1600x900"
+              data-priority="important"
+            >
+              <span class="text-xs font-bold uppercase tracking-[0.28em] text-industrial-500 mb-3">
+                {c('abMixing.imageSlot.label')}
+              </span>
+              <span class="text-lg font-bold text-industrial-900 mb-2">{c('abMixing.imageSlot.title')}</span>
+              <span class="text-xs text-industrial-500 max-w-md leading-relaxed">{c('abMixing.imageSlot.meta')}</span>
+            </div>
+            <div class="bg-industrial-900 text-white p-7 border-l-4 border-accent-orange">
+              <h3 class="font-bold uppercase tracking-tight mb-4">{c('abMixing.testsTitle')}</h3>
+              <div class="flex flex-wrap gap-2">
+                {Array.isArray(abReleaseTests) && abReleaseTests.map((test: string) => (
+                  <span class="text-xs font-bold uppercase tracking-wider bg-white/10 border border-white/15 px-3 py-2 text-industrial-200">
+                    {test}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div class="space-y-5">
+            {Array.isArray(abMixingStages) && abMixingStages.map((stage: { stage: string; title: string; body: string }, idx: number) => (
+              <div class="grid sm:grid-cols-[88px_1fr] gap-5 bg-industrial-50 border border-industrial-200 p-6 md:p-7">
+                <div class="flex sm:flex-col items-baseline gap-3">
+                  <span class="text-accent-orange text-sm font-bold uppercase tracking-widest">
+                    {String(idx + 1).padStart(2, '0')}
+                  </span>
+                  <span class="text-xs font-bold uppercase tracking-widest text-industrial-500">{stage.stage}</span>
+                </div>
+                <div>
+                  <h3 class="text-xl font-bold text-industrial-900 mb-3 uppercase tracking-tight">{stage.title}</h3>
+                  <p class="text-industrial-700 leading-relaxed">{stage.body}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 ---
 import LocaleLayout from '@/layouts/LocaleLayout.astro';
-import { getTranslations, t } from '@/lib/i18n';
+import { getTranslations, t, tRaw } from '@/lib/i18n';
 
 export function getStaticPaths() {
   return ['en','de','ja','es','zh'].map(locale => ({ params: { locale } }));
@@ -10,6 +10,8 @@ const { locale } = Astro.params;
 const messages = await getTranslations(locale);
 const meta = messages?.metadata || {};
 const _ = (key: string, fallback = '') => t(messages, `capabilities.${key}`, fallback);
+const controlFlowGroups = tRaw(messages, 'capabilities.controlFlow.groups', []);
+const controlFlowProofItems = tRaw(messages, 'capabilities.controlFlow.proofItems', []);
 
 const processes = [
   {
@@ -70,6 +72,67 @@ const processes = [
       </div>
     </section>
 
+    <!-- Control Flow Evidence -->
+    <section class="py-20 px-4 bg-white border-b border-industrial-100">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid lg:grid-cols-[0.85fr_1.15fr] gap-12 items-start mb-14">
+          <div>
+            <p class="text-xs font-bold uppercase tracking-[0.28em] text-accent-orange mb-4">
+              {_('controlFlow.eyebrow')}
+            </p>
+            <h2 class="text-3xl md:text-5xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
+              {_('controlFlow.title')}
+            </h2>
+            <p class="text-lg text-industrial-700 leading-relaxed mb-6">
+              {_('controlFlow.subtitle')}
+            </p>
+            <p class="text-sm text-industrial-500 border-l-4 border-accent-orange pl-4 leading-relaxed">
+              {_('controlFlow.sourceNote')}
+            </p>
+            <div
+              class="mt-8 aspect-[16/9] bg-industrial-50 border-2 border-dashed border-industrial-300 flex flex-col items-center justify-center text-center p-6"
+              data-slot-id="capabilities-controlled-production-flow"
+              data-purpose="22 步受控橡胶生产流程脱敏流程图或工厂流程图"
+              data-spec="1600x900"
+              data-priority="important"
+            >
+              <span class="text-xs font-bold uppercase tracking-[0.28em] text-industrial-500 mb-3">
+                {_('controlFlow.imageSlot.label')}
+              </span>
+              <span class="text-lg font-bold text-industrial-900 mb-2">{_('controlFlow.imageSlot.title')}</span>
+              <span class="text-xs text-industrial-500 max-w-md leading-relaxed">{_('controlFlow.imageSlot.meta')}</span>
+            </div>
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-4">
+            {Array.isArray(controlFlowProofItems) && controlFlowProofItems.map((item: { title: string; desc: string }) => (
+              <div class="bg-industrial-50 border border-industrial-200 p-6">
+                <h3 class="font-bold text-industrial-900 mb-3 uppercase tracking-tight">{item.title}</h3>
+                <p class="text-sm text-industrial-600 leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-5 gap-4">
+          {Array.isArray(controlFlowGroups) && controlFlowGroups.map((group: { label: string; title: string; steps: string[] }) => (
+            <div class="bg-industrial-900 text-white p-6 min-h-full">
+              <div class="text-accent-orange text-sm font-bold tracking-[0.25em] mb-5">{group.label}</div>
+              <h3 class="text-lg font-bold uppercase tracking-tight mb-5 leading-tight">{group.title}</h3>
+              <ul class="space-y-3">
+                {Array.isArray(group.steps) && group.steps.map((step: string) => (
+                  <li class="flex gap-3 text-sm text-industrial-300 leading-relaxed">
+                    <span class="text-accent-orange font-bold shrink-0">▸</span>
+                    <span>{step}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
     <!-- Process Map -->
     <section class="py-20 px-4">
       <div class="max-w-5xl mx-auto">
@@ -109,7 +172,7 @@ const processes = [
                   </div>
                   <div class="flex-grow">
                     <h3 class="text-xl md:text-2xl font-bold tracking-tight mb-3 uppercase">
-                      {_('singleLineCallout.title', 'Single Line, Zero Cross-Contamination')}
+                      {_('singleLineCallout.title', 'Single-Line Mixing Control')}
                     </h3>
                     <p class="text-industrial-200 leading-relaxed mb-4">
                       {_('singleLineCallout.body')}

@@ -590,7 +590,7 @@
     "title": "Garantía de Calidad",
     "hero": {
       "title": "Calidad Intransigente",
-      "subtitle": "Desde el compuesto de materia prima hasta la inspección final, el sistema de calidad certificado IATF 16949 de RubberQ garantiza un rendimiento cero defectos para las industrias de IA, Robótica y Automotriz."
+      "subtitle": "Desde el diseño del compuesto hasta la inspección final, el sistema de calidad IATF 16949 de RubberQ respalda proyectos de EV/almacenamiento de energía, equipo industrial, semiconductores y Tier 2 automotriz con trazabilidad por lote durante años de producción."
     },
     "certifications": {
       "title": "Certificaciones Globales",
@@ -662,7 +662,8 @@
           "function": "Inspección dimensional de alta precisión",
           "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=400"
         }
-      ]
+      ],
+      "fullCapabilityLink": "Ver la matriz completa ASTM/ISO en Testing & Validation"
     },
     "process": {
       "title": "Prueba Visual de Excelencia",
@@ -672,7 +673,7 @@
         "monitoring": "Monitoreo en Proceso",
         "monitoringDesc": "Seguimiento de datos SPC (Control Estadístico de Procesos) en tiempo real.",
         "inspection": "Inspección Final 100%",
-        "inspectionDesc": "Garantía de cero defectos a través de verificación manual y asistida por IA."
+        "inspectionDesc": "La inspección final verifica apariencia, dimensiones y requisitos de lote; las anomalías se registran y se aíslan."
       },
       "scenes": [
         {
@@ -687,7 +688,7 @@
         },
         {
           "title": "Inspección Final 100%",
-          "desc": "Garantía de cero defectos a través de verificación manual y asistida por IA.",
+          "desc": "La inspección final verifica apariencia, dimensiones y requisitos de lote; las anomalías se registran y se aíslan.",
           "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=600"
         }
       ]
@@ -741,6 +742,75 @@
       "title": "¿Necesita Documentación de Calidad?",
       "description": "Descargue nuestro manual de calidad completo, informes de inspección y certificaciones de materiales desde nuestra página de Recursos Técnicos.",
       "link": "Visitar Recursos Técnicos →"
+    },
+    "controlPlan": {
+      "title": "Aseguramiento de calidad basado en plan de control",
+      "subtitle": "La calidad de RubberQ no se basa solo en certificados. Un plan de control define qué se revisa, cuándo se revisa, cómo se registra y qué ocurre ante una desviación.",
+      "groups": [
+        {
+          "title": "Incoming material checks",
+          "checks": [
+            "Material name and code",
+            "Weight against delivery or production instruction",
+            "Batch number and validity window",
+            "Packaging condition and technical indicators"
+          ],
+          "evidence": "Incoming inspection records, supplier documents, and raw-material labels"
+        },
+        {
+          "title": "Compounding mistake-proofing",
+          "checks": [
+            "Barcode verification",
+            "Recipe name and material sequence",
+            "Ingredient weight and mixer filling level",
+            "Mixing time, temperature, pressure, and discharge condition"
+          ],
+          "evidence": "Recipe system records, weighing logs, and mixing instruction sheets"
+        },
+        {
+          "title": "Compound release testing",
+          "checks": [
+            "Dispersion",
+            "Specific gravity",
+            "Mooney viscosity",
+            "Rheometer torque curve",
+            "Hardness, tensile strength, and elongation"
+          ],
+          "evidence": "In-house lab reports and batch release records"
+        },
+        {
+          "title": "Molding and shipment release",
+          "checks": [
+            "First and last article dimensions",
+            "SPC on critical dimensions",
+            "Appearance defects such as flash, missing material, cracks, or bubbles",
+            "Packing quantity, lot number, and shipment FIFO"
+          ],
+          "evidence": "Dimensional reports, final inspection records, packaging labels, and shipment checks"
+        }
+      ],
+      "metricsTitle": "Controles de liberación derivados del plan anonimizado",
+      "metrics": [
+        "B-compound storage temperature controlled below 28 C",
+        "Rheometer curve must stay within the approved standard curve",
+        "Hardness, tensile strength, and elongation verified before release",
+        "Critical dimensions can be monitored through SPC when required by drawing"
+      ],
+      "eyebrow": "Evidencia de proceso",
+      "linkToFlow": "Ver flujo de producción controlado",
+      "imageSlot": {
+        "label": "ESPACIO DE IMAGEN",
+        "title": "Registro de plan de control anonimizado",
+        "meta": "Recomendado: captura difuminada del plan de control, hoja de inspección o registro de liberación de lote, 1200x900"
+      }
+    },
+    "whySingleLine": {
+      "title": "Por qué importa la mezcla A en línea única",
+      "intro": "Tres ventajas operativas que preservamos para una calidad repetible del compuesto:",
+      "point1": "Consistencia del compuesto a largo plazo entre lotes repetidos.",
+      "point2": "Control de riesgo de contaminación mediante planificación de secuencia y limpieza SOP entre familias de lote.",
+      "point3": "Registros de lote vinculados a reología, Mooney y controles de liberación.",
+      "link": "Ver capacidades de compounding en detalle"
     }
   },
   "summaryItems": {
@@ -860,6 +930,87 @@
       "tagCompliance": "Cumplimiento: IATF 16949",
       "zero": "Cero",
       "toleranceForDefects": "Tolerancia para Defectos"
+    },
+    "controlFlow": {
+      "title": "Flujo de producción controlado en 22 pasos",
+      "subtitle": "Derivado de un plan de control real anonimizado: desde recepción de materias primas hasta envío, cada etapa define equipos, controles, registros y planes de reacción.",
+      "sourceNote": "Activo público anonimizado: números de pieza, datos de cliente y dimensiones específicas de dibujo fueron retirados.",
+      "groups": [
+        {
+          "label": "01",
+          "title": "Raw Material & FIFO Control",
+          "steps": [
+            "Raw material receiving",
+            "Storage and controlled warehousing",
+            "Raw material issue by batch and weight"
+          ]
+        },
+        {
+          "label": "02",
+          "title": "A-Mixing / Masterbatch Control",
+          "steps": [
+            "A-formulation and barcode verification",
+            "Internal mixing with time, temperature, pressure, and sequence control",
+            "Calendering, cooling, foreign-matter detection, packing, and A-compound release checks"
+          ]
+        },
+        {
+          "label": "03",
+          "title": "B-Mixing & Compound Release",
+          "steps": [
+            "B-formulation with accelerator and cure-system control",
+            "B-mixing under process instruction",
+            "Maturation, cutting, controlled storage, and final compound testing"
+          ]
+        },
+        {
+          "label": "04",
+          "title": "Molding & Finishing",
+          "steps": [
+            "Vacuum compression molding",
+            "First and last article dimensional checks",
+            "SPC on critical dimensions and trimming control"
+          ]
+        },
+        {
+          "label": "05",
+          "title": "Final Inspection, Packing & Shipment",
+          "steps": [
+            "Appearance inspection for flash, missing material, cracks, and bubbles",
+            "Bag and carton quantity verification",
+            "Shipment check by part number, quantity, lot, and FIFO"
+          ]
+        }
+      ],
+      "proofItems": [
+        {
+          "title": "Barcode mistake-proofing",
+          "desc": "Material name, recipe name, batch number, and weight are checked against production instructions."
+        },
+        {
+          "title": "Defined inspection gates",
+          "desc": "Incoming, A-compound, B-compound, molding, trimming, final inspection, packing, and shipment all have control points."
+        },
+        {
+          "title": "Compound release tests",
+          "desc": "Dispersion, specific gravity, Mooney viscosity, rheometer curve, hardness, tensile strength, and elongation can be linked to the batch record."
+        },
+        {
+          "title": "Reaction-plan discipline",
+          "desc": "Each control point is tied to an acceptance rule and documented response path before production continues."
+        }
+      ],
+      "eyebrow": "Evidencia de fabricación",
+      "imageSlot": {
+        "label": "ESPACIO DE IMAGEN",
+        "title": "Visual del flujo de producción controlado",
+        "meta": "Recomendado: diagrama anonimizado de 22 pasos o foto del flujo de fábrica, 1600x900"
+      }
+    },
+    "singleLineCallout": {
+      "title": "Control de mezcla en línea única",
+      "body": "RubberQ programa las familias de compuestos según el riesgo de contaminación, aplica limpieza basada en SOP entre familias de lote y vincula los registros de mezcla A con cada lote. Esto respalda alta pureza y repetibilidad a largo plazo sin revelar fórmulas específicas del cliente.",
+      "cta": "Ver la estrategia de compounding"
     }
   },
   "caseStudies": {
@@ -1301,6 +1452,50 @@
       "department": "Departamento Legal",
       "company": "Fuzhou RubberQ Rubber Co., Ltd.",
       "email": "Correo: contact@rubberq.com"
+    }
+  },
+  "compounding": {
+    "abMixing": {
+      "title": "A-Mixing, B-Mixing, and Batch Release Control",
+      "intro": "The process flow separates masterbatch preparation from final cure-system addition. This reduces formulation drift, improves traceability, and gives the lab a defined release gate before molding.",
+      "stages": [
+        {
+          "stage": "A-Mixing",
+          "title": "Masterbatch foundation",
+          "body": "Base polymer, filler, oil, and reinforcement materials are weighed, barcode-checked, mixed, sheeted, cooled, and screened for foreign matter before release."
+        },
+        {
+          "stage": "A-Compound Control",
+          "title": "Intermediate material check",
+          "body": "A-compound can be checked for dispersion, specific gravity, and Mooney viscosity before it moves to final mixing."
+        },
+        {
+          "stage": "B-Mixing",
+          "title": "Cure-system addition",
+          "body": "Accelerators and cure-system ingredients are added later under process instruction, then the compound is matured, cut, stored, and prepared for molding."
+        },
+        {
+          "stage": "Final Release",
+          "title": "Lab gate before molding",
+          "body": "Rheometer curve, hardness, tensile strength, elongation, and drawing-specific checks confirm the batch is suitable for production."
+        }
+      ],
+      "testsTitle": "Release tests typically linked to this flow",
+      "tests": [
+        "Rheometer torque curve",
+        "Hardness",
+        "Tensile strength",
+        "Elongation",
+        "Specific gravity",
+        "Mooney viscosity",
+        "Drawing-specific abnormal-condition checks"
+      ],
+      "eyebrow": "Lógica de liberación de lote",
+      "imageSlot": {
+        "label": "ESPACIO DE IMAGEN",
+        "title": "Visual de mezcla A/B y liberación de lote",
+        "meta": "Recomendado: diagrama de mezcla A/B, registro de liberación de laboratorio o foto de línea de mezcla, 1600x900"
+      }
     }
   }
 }

@@ -578,7 +578,7 @@
     "title": "Qualitätssicherung",
     "hero": {
       "title": "Kompromisslose Qualität",
-      "subtitle": "Von der Rohstoffmischung bis zur Endkontrolle gewährleistet das IATF 16949-zertifizierte Qualitätssystem von RubberQ eine Null-Fehler-Leistung für KI, Robotik und Automobilindustrie."
+      "subtitle": "Vom Compound-Design bis zur Endprüfung unterstützt das IATF-16949-Qualitätssystem von RubberQ EV-/Energiespeicher-, Industrieanlagen-, Halbleiter- und Tier-2-Automotive-Projekte mit chargenbasierter Rückverfolgbarkeit über Jahre."
     },
     "certifications": {
       "title": "Globale Zertifizierungen",
@@ -650,7 +650,8 @@
           "function": "Hochpräzise Maßprüfung",
           "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=400"
         }
-      ]
+      ],
+      "fullCapabilityLink": "Vollständige ASTM/ISO-Prüfmatrix auf der Testing-&-Validation-Seite ansehen"
     },
     "process": {
       "title": "Visueller Beweis für Exzellenz",
@@ -660,7 +661,7 @@
         "monitoring": "Prozessüberwachung",
         "monitoringDesc": "Echtzeit-SPC (Statistische Prozesskontrolle) Datenerfassung.",
         "inspection": "100% Endkontrolle",
-        "inspectionDesc": "Null-Fehler-Garantie durch manuelle und KI-gestützte Prüfung."
+        "inspectionDesc": "Die Endprüfung kontrolliert Aussehen, Abmessungen und Chargenanforderungen; Abweichungen werden dokumentiert und isoliert."
       },
       "scenes": [
         {
@@ -675,7 +676,7 @@
         },
         {
           "title": "100% Endkontrolle",
-          "desc": "Null-Fehler-Garantie durch manuelle und KI-gestützte Prüfung.",
+          "desc": "Die Endprüfung kontrolliert Aussehen, Abmessungen und Chargenanforderungen; Abweichungen werden dokumentiert und isoliert.",
           "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=600"
         }
       ]
@@ -729,6 +730,75 @@
       "title": "Benötigen Sie Qualitätsdokumentation?",
       "description": "Laden Sie unser komplettes Qualitätshandbuch, Prüfberichte und Materialzertifikate von unserer Seite für technische Ressourcen herunter.",
       "link": "Technische Ressourcen besuchen →"
+    },
+    "controlPlan": {
+      "title": "Qualitätssicherung auf Basis des Control Plans",
+      "subtitle": "RubberQ Qualität basiert nicht nur auf Zertifikaten. Der Control Plan definiert, was geprüft wird, wann geprüft wird, wie Ergebnisse dokumentiert werden und was bei Abweichungen passiert.",
+      "groups": [
+        {
+          "title": "Incoming material checks",
+          "checks": [
+            "Material name and code",
+            "Weight against delivery or production instruction",
+            "Batch number and validity window",
+            "Packaging condition and technical indicators"
+          ],
+          "evidence": "Incoming inspection records, supplier documents, and raw-material labels"
+        },
+        {
+          "title": "Compounding mistake-proofing",
+          "checks": [
+            "Barcode verification",
+            "Recipe name and material sequence",
+            "Ingredient weight and mixer filling level",
+            "Mixing time, temperature, pressure, and discharge condition"
+          ],
+          "evidence": "Recipe system records, weighing logs, and mixing instruction sheets"
+        },
+        {
+          "title": "Compound release testing",
+          "checks": [
+            "Dispersion",
+            "Specific gravity",
+            "Mooney viscosity",
+            "Rheometer torque curve",
+            "Hardness, tensile strength, and elongation"
+          ],
+          "evidence": "In-house lab reports and batch release records"
+        },
+        {
+          "title": "Molding and shipment release",
+          "checks": [
+            "First and last article dimensions",
+            "SPC on critical dimensions",
+            "Appearance defects such as flash, missing material, cracks, or bubbles",
+            "Packing quantity, lot number, and shipment FIFO"
+          ],
+          "evidence": "Dimensional reports, final inspection records, packaging labels, and shipment checks"
+        }
+      ],
+      "metricsTitle": "Beispiele für Freigabekontrollen aus dem anonymisierten Plan",
+      "metrics": [
+        "B-compound storage temperature controlled below 28 C",
+        "Rheometer curve must stay within the approved standard curve",
+        "Hardness, tensile strength, and elongation verified before release",
+        "Critical dimensions can be monitored through SPC when required by drawing"
+      ],
+      "eyebrow": "Prozessnachweis",
+      "linkToFlow": "Kontrollierten Produktionsfluss ansehen",
+      "imageSlot": {
+        "label": "BILDSLOT",
+        "title": "Anonymisierter Control-Plan-Nachweis",
+        "meta": "Empfohlen: unscharfer Control-Plan-Screenshot, Prüfblatt oder Chargenfreigabeprotokoll, 1200x900"
+      }
+    },
+    "whySingleLine": {
+      "title": "Warum A-Mischen auf einer Linie wichtig ist",
+      "intro": "Drei operative Vorteile für reproduzierbare Compound-Qualität:",
+      "point1": "Langfristige Compound-Konsistenz über wiederholte Produktionslose.",
+      "point2": "Kontaminationsrisiko-Kontrolle durch Reihenfolgeplanung und SOP-Reinigung zwischen Chargenfamilien.",
+      "point3": "Chargenprotokolle werden mit Rheologie-, Mooney- und Freigabeprüfungen verknüpft.",
+      "link": "Compound-Fähigkeiten im Detail ansehen"
     }
   },
   "language": {
@@ -860,6 +930,87 @@
       "tagCompliance": "Konformität: IATF 16949",
       "zero": "Null",
       "toleranceForDefects": "Toleranz für Defekte"
+    },
+    "controlFlow": {
+      "title": "22-stufiger kontrollierter Produktionsfluss",
+      "subtitle": "Aus einem anonymisierten realen Control Plan abgeleitet: vom Wareneingang bis zum Versand sind Ausrüstung, Prüfungen, Aufzeichnungen und Reaktionspläne definiert.",
+      "sourceNote": "Öffentlich anonymisierter Nachweis: Teilenummern, Kundendaten und zeichnungsspezifische Maße wurden entfernt.",
+      "groups": [
+        {
+          "label": "01",
+          "title": "Raw Material & FIFO Control",
+          "steps": [
+            "Raw material receiving",
+            "Storage and controlled warehousing",
+            "Raw material issue by batch and weight"
+          ]
+        },
+        {
+          "label": "02",
+          "title": "A-Mixing / Masterbatch Control",
+          "steps": [
+            "A-formulation and barcode verification",
+            "Internal mixing with time, temperature, pressure, and sequence control",
+            "Calendering, cooling, foreign-matter detection, packing, and A-compound release checks"
+          ]
+        },
+        {
+          "label": "03",
+          "title": "B-Mixing & Compound Release",
+          "steps": [
+            "B-formulation with accelerator and cure-system control",
+            "B-mixing under process instruction",
+            "Maturation, cutting, controlled storage, and final compound testing"
+          ]
+        },
+        {
+          "label": "04",
+          "title": "Molding & Finishing",
+          "steps": [
+            "Vacuum compression molding",
+            "First and last article dimensional checks",
+            "SPC on critical dimensions and trimming control"
+          ]
+        },
+        {
+          "label": "05",
+          "title": "Final Inspection, Packing & Shipment",
+          "steps": [
+            "Appearance inspection for flash, missing material, cracks, and bubbles",
+            "Bag and carton quantity verification",
+            "Shipment check by part number, quantity, lot, and FIFO"
+          ]
+        }
+      ],
+      "proofItems": [
+        {
+          "title": "Barcode mistake-proofing",
+          "desc": "Material name, recipe name, batch number, and weight are checked against production instructions."
+        },
+        {
+          "title": "Defined inspection gates",
+          "desc": "Incoming, A-compound, B-compound, molding, trimming, final inspection, packing, and shipment all have control points."
+        },
+        {
+          "title": "Compound release tests",
+          "desc": "Dispersion, specific gravity, Mooney viscosity, rheometer curve, hardness, tensile strength, and elongation can be linked to the batch record."
+        },
+        {
+          "title": "Reaction-plan discipline",
+          "desc": "Each control point is tied to an acceptance rule and documented response path before production continues."
+        }
+      ],
+      "eyebrow": "Fertigungsnachweis",
+      "imageSlot": {
+        "label": "BILDSLOT",
+        "title": "Visualisierung des kontrollierten Produktionsflusses",
+        "meta": "Empfohlen: anonymisiertes 22-Schritte-Prozessdiagramm oder Werksprozessfoto, 1600x900"
+      }
+    },
+    "singleLineCallout": {
+      "title": "Mischkontrolle auf einer Linie",
+      "body": "RubberQ plant Compound-Familien nach Kontaminationsrisiko, reinigt nach SOP zwischen Chargenfamilien und verknüpft A-Mischprotokolle mit der Charge. So werden hohe Reinheit und langfristige Wiederholbarkeit unterstützt, ohne kundenspezifische Rezepturen offenzulegen.",
+      "cta": "Mehr zur Compound-Strategie"
     }
   },
   "caseStudies": {
@@ -1301,6 +1452,50 @@
       "department": "Rechtsabteilung",
       "company": "Fuzhou RubberQ Rubber Co., Ltd.",
       "email": "E-Mail: contact@rubberq.com"
+    }
+  },
+  "compounding": {
+    "abMixing": {
+      "title": "A-Mixing, B-Mixing, and Batch Release Control",
+      "intro": "The process flow separates masterbatch preparation from final cure-system addition. This reduces formulation drift, improves traceability, and gives the lab a defined release gate before molding.",
+      "stages": [
+        {
+          "stage": "A-Mixing",
+          "title": "Masterbatch foundation",
+          "body": "Base polymer, filler, oil, and reinforcement materials are weighed, barcode-checked, mixed, sheeted, cooled, and screened for foreign matter before release."
+        },
+        {
+          "stage": "A-Compound Control",
+          "title": "Intermediate material check",
+          "body": "A-compound can be checked for dispersion, specific gravity, and Mooney viscosity before it moves to final mixing."
+        },
+        {
+          "stage": "B-Mixing",
+          "title": "Cure-system addition",
+          "body": "Accelerators and cure-system ingredients are added later under process instruction, then the compound is matured, cut, stored, and prepared for molding."
+        },
+        {
+          "stage": "Final Release",
+          "title": "Lab gate before molding",
+          "body": "Rheometer curve, hardness, tensile strength, elongation, and drawing-specific checks confirm the batch is suitable for production."
+        }
+      ],
+      "testsTitle": "Release tests typically linked to this flow",
+      "tests": [
+        "Rheometer torque curve",
+        "Hardness",
+        "Tensile strength",
+        "Elongation",
+        "Specific gravity",
+        "Mooney viscosity",
+        "Drawing-specific abnormal-condition checks"
+      ],
+      "eyebrow": "Chargenfreigabe-Logik",
+      "imageSlot": {
+        "label": "BILDSLOT",
+        "title": "A/B-Mischen und Chargenfreigabe visualisieren",
+        "meta": "Empfohlen: A/B-Mischflussdiagramm, Laborfreigabeprotokoll oder Foto der Mischlinie, 1600x900"
+      }
     }
   }
 }

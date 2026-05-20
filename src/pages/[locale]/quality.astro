@@ -151,6 +151,8 @@ const labEquipment = fa('lab.equipment') || [];
 const qcScenes = fa('process.scenes') || [];
 const traceabilitySteps = fa('traceability.steps') || [];
 const traceabilityFlow = fa('traceability.flow') || [];
+const controlPlanGroups = fa('controlPlan.groups') || [];
+const controlPlanMetrics = fa('controlPlan.metrics') || [];
 
 // --- Report downloads ---
 const reportDownloads = [
@@ -224,7 +226,7 @@ const videoTestimonials = [
       locale === 'zh'
         ? '后续替换为 A 混炼线、批次记录或工程师现场复核素材。'
         : 'Reserved for A-line mixing, batch record, or engineer-witnessed production footage.',
-    href: `/${locale}/factory`,
+    href: '/factory',
   },
   {
     title: locale === 'zh' ? '实验室验证素材占位' : 'In-House Lab Validation Slot',
@@ -232,7 +234,7 @@ const videoTestimonials = [
       locale === 'zh'
         ? '后续替换为硬度、拉伸、压缩永久变形、热老化等测试素材。'
         : 'Reserved for hardness, tensile, compression-set, and thermal-aging test evidence.',
-    href: `/${locale}/testing`,
+    href: '/testing',
   },
 ];
 ---
@@ -295,6 +297,69 @@ const videoTestimonials = [
           </div>
         </div>
       </div>
+
+      <!-- Control Plan Proof -->
+      <div class="mt-16 bg-white border border-industrial-200">
+        <div class="grid lg:grid-cols-[0.9fr_1.1fr] gap-0">
+          <div class="bg-industrial-900 text-white p-8 md:p-10 flex flex-col justify-between">
+            <div>
+              <p class="text-xs font-bold uppercase tracking-[0.28em] text-accent-orange mb-4">
+                {f('controlPlan.eyebrow')}
+              </p>
+              <h3 class="text-3xl md:text-4xl font-bold tracking-tighter uppercase mb-6">
+                {f('controlPlan.title')}
+              </h3>
+              <p class="text-industrial-300 leading-relaxed">
+                {f('controlPlan.subtitle')}
+              </p>
+              <div
+                class="mt-8 aspect-[4/3] bg-white/5 border-2 border-dashed border-white/20 flex flex-col items-center justify-center text-center p-6"
+                data-slot-id="quality-control-plan-record"
+                data-purpose="脱敏控制计划截图、检验记录或批次放行记录"
+                data-spec="1200x900"
+                data-priority="important"
+              >
+                <span class="text-xs font-bold uppercase tracking-[0.28em] text-accent-orange mb-3">
+                  {f('controlPlan.imageSlot.label')}
+                </span>
+                <span class="text-lg font-bold text-white mb-2">{f('controlPlan.imageSlot.title')}</span>
+                <span class="text-xs text-industrial-400 max-w-sm leading-relaxed">{f('controlPlan.imageSlot.meta')}</span>
+              </div>
+            </div>
+            <a href={`/${locale}/capabilities`} class="inline-flex items-center gap-2 text-accent-orange font-bold uppercase text-xs tracking-widest hover:underline mt-8">
+              {f('controlPlan.linkToFlow')} →
+            </a>
+          </div>
+
+          <div class="p-8 md:p-10">
+            <div class="grid md:grid-cols-2 gap-6 mb-10">
+              {Array.isArray(controlPlanGroups) && controlPlanGroups.map((group: { title: string; checks: string[]; evidence: string }) => (
+                <div class="border border-industrial-200 p-6 bg-industrial-50/60">
+                  <h4 class="font-bold text-industrial-900 mb-4 uppercase tracking-tight">{group.title}</h4>
+                  <ul class="space-y-2 mb-5">
+                    {Array.isArray(group.checks) && group.checks.map((check: string) => (
+                      <li class="flex gap-3 text-sm text-industrial-700 leading-relaxed">
+                        <span class="text-accent-orange font-bold shrink-0">▸</span>
+                        <span>{check}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <p class="text-xs text-industrial-500 border-t border-industrial-200 pt-4 leading-relaxed">{group.evidence}</p>
+                </div>
+              ))}
+            </div>
+
+            <div class="border-l-4 border-accent-orange pl-6">
+              <h4 class="font-bold text-industrial-900 mb-4">{f('controlPlan.metricsTitle')}</h4>
+              <div class="grid sm:grid-cols-2 gap-3">
+                {Array.isArray(controlPlanMetrics) && controlPlanMetrics.map((metric: string) => (
+                  <p class="text-sm text-industrial-700 bg-white border border-industrial-200 px-4 py-3">{metric}</p>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Lab Capability & Visual Proof -->
@@ -334,7 +399,14 @@ const videoTestimonials = [
           <div class="bg-white p-8 shadow-xl border border-industrial-100">
             <SummarySnippet
               title={f('traceability.title')}
-              items={Array.isArray(traceabilitySteps) ? traceabilitySteps : []}
+              items={
+                Array.isArray(traceabilitySteps)
+                  ? traceabilitySteps.map((item: { term?: string; title?: string; description?: string; desc?: string }) => ({
+                      term: item.term || item.title || '',
+                      description: item.description || item.desc || '',
+                    }))
+                  : []
+              }
               client:load
             />
             <div class="mt-8 pt-8 border-t border-industrial-100">

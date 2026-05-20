@@ -578,7 +578,7 @@
     "title": "品質保証",
     "hero": {
       "title": "妥協なき品質",
-      "subtitle": "原材料の配合から最終検査に至るまで、RubberQのIATF 16949認証品質システムは、AI、ロボティクス、自動車産業向けにゼロ欠陥の性能を保証します。"
+      "subtitle": "配合設計から最終検査まで、RubberQ の IATF 16949 品質システムは EV/蓄電、産業設備、半導体、高度な Automotive Tier 2 プロジェクトを支え、長期にわたりロット単位のトレーサビリティを維持します。"
     },
     "certifications": {
       "title": "国際認証",
@@ -650,7 +650,8 @@
           "function": "高精度寸法検査",
           "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=400"
         }
-      ]
+      ],
+      "fullCapabilityLink": "Testing & Validation ページで ASTM/ISO 試験マトリクスを見る"
     },
     "process": {
       "title": "卓越性の可視化",
@@ -660,12 +661,12 @@
         "monitoring": "工程内監視",
         "monitoringDesc": "リアルタイムSPC（統計的工程管理）データ追跡。",
         "inspection": "最終全数検査",
-        "inspectionDesc": "手動およびAI支援チェックによるゼロ欠陥保証。"
+        "inspectionDesc": "最終検査では外観、寸法、ロット要求を確認し、異常品は記録して隔離します。"
       },
       "scenes": [
         {
           "title": "受入材料検査",
-          "desc": "各バッチに対するSGS認証原材料の検証。",
+          "desc": "各ロットで SGS 認証原材料を確認します。",
           "img": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=600"
         },
         {
@@ -675,7 +676,7 @@
         },
         {
           "title": "最終全数検査",
-          "desc": "手動およびAI支援チェックによるゼロ欠陥保証。",
+          "desc": "最終検査では外観、寸法、ロット要求を確認し、異常品は記録して隔離します。",
           "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=600"
         }
       ]
@@ -729,6 +730,75 @@
       "title": "品質文書が必要ですか？",
       "description": "品質マニュアル完全版、検査報告書、材料証明書を技術資料ページからダウンロードできます。",
       "link": "技術資料を見る →"
+    },
+    "controlPlan": {
+      "title": "管理計画に基づく品質保証",
+      "subtitle": "RubberQ の品質管理は認証だけではありません。実際の部品管理計画により、確認項目、確認タイミング、記録方法、異常時対応を明確化しています。",
+      "groups": [
+        {
+          "title": "Incoming material checks",
+          "checks": [
+            "Material name and code",
+            "Weight against delivery or production instruction",
+            "Batch number and validity window",
+            "Packaging condition and technical indicators"
+          ],
+          "evidence": "Incoming inspection records, supplier documents, and raw-material labels"
+        },
+        {
+          "title": "Compounding mistake-proofing",
+          "checks": [
+            "Barcode verification",
+            "Recipe name and material sequence",
+            "Ingredient weight and mixer filling level",
+            "Mixing time, temperature, pressure, and discharge condition"
+          ],
+          "evidence": "Recipe system records, weighing logs, and mixing instruction sheets"
+        },
+        {
+          "title": "Compound release testing",
+          "checks": [
+            "Dispersion",
+            "Specific gravity",
+            "Mooney viscosity",
+            "Rheometer torque curve",
+            "Hardness, tensile strength, and elongation"
+          ],
+          "evidence": "In-house lab reports and batch release records"
+        },
+        {
+          "title": "Molding and shipment release",
+          "checks": [
+            "First and last article dimensions",
+            "SPC on critical dimensions",
+            "Appearance defects such as flash, missing material, cracks, or bubbles",
+            "Packing quantity, lot number, and shipment FIFO"
+          ],
+          "evidence": "Dimensional reports, final inspection records, packaging labels, and shipment checks"
+        }
+      ],
+      "metricsTitle": "匿名化された計画に含まれる代表的な放行管理",
+      "metrics": [
+        "B-compound storage temperature controlled below 28 C",
+        "Rheometer curve must stay within the approved standard curve",
+        "Hardness, tensile strength, and elongation verified before release",
+        "Critical dimensions can be monitored through SPC when required by drawing"
+      ],
+      "eyebrow": "工程エビデンス",
+      "linkToFlow": "管理された生産フローを見る",
+      "imageSlot": {
+        "label": "画像枠",
+        "title": "匿名化したコントロールプラン記録",
+        "meta": "推奨：ぼかし処理した管理計画スクリーンショット、検査表、またはロットリリース記録、1200x900"
+      }
+    },
+    "whySingleLine": {
+      "title": "単一 A 練りラインが重要な理由",
+      "intro": "再現性のあるコンパウンド品質のために維持している3つの運用上の利点です。",
+      "point1": "繰り返し生産ロットにおける長期的なコンパウンド一貫性。",
+      "point2": "順序計画とロットファミリー間の SOP 清掃による汚染リスク管理。",
+      "point3": "レオロジー、ムーニー、リリース検査とロット記録を紐付けます。",
+      "link": "配合・混練能力を詳しく見る"
     }
   },
   "language": {
@@ -860,6 +930,87 @@
       "tagCompliance": "コンプライアンス: IATF 16949",
       "zero": "ゼロ",
       "toleranceForDefects": "欠陥許容度"
+    },
+    "controlFlow": {
+      "title": "22工程の管理された生産フロー",
+      "subtitle": "匿名化した実際の管理計画をもとに、原材料受入から出荷まで、設備・確認項目・記録・対応計画を整理しています。",
+      "sourceNote": "公開用に匿名化した証拠資産です。品番、顧客情報、図面固有寸法は削除しています。",
+      "groups": [
+        {
+          "label": "01",
+          "title": "Raw Material & FIFO Control",
+          "steps": [
+            "Raw material receiving",
+            "Storage and controlled warehousing",
+            "Raw material issue by batch and weight"
+          ]
+        },
+        {
+          "label": "02",
+          "title": "A-Mixing / Masterbatch Control",
+          "steps": [
+            "A-formulation and barcode verification",
+            "Internal mixing with time, temperature, pressure, and sequence control",
+            "Calendering, cooling, foreign-matter detection, packing, and A-compound release checks"
+          ]
+        },
+        {
+          "label": "03",
+          "title": "B-Mixing & Compound Release",
+          "steps": [
+            "B-formulation with accelerator and cure-system control",
+            "B-mixing under process instruction",
+            "Maturation, cutting, controlled storage, and final compound testing"
+          ]
+        },
+        {
+          "label": "04",
+          "title": "Molding & Finishing",
+          "steps": [
+            "Vacuum compression molding",
+            "First and last article dimensional checks",
+            "SPC on critical dimensions and trimming control"
+          ]
+        },
+        {
+          "label": "05",
+          "title": "Final Inspection, Packing & Shipment",
+          "steps": [
+            "Appearance inspection for flash, missing material, cracks, and bubbles",
+            "Bag and carton quantity verification",
+            "Shipment check by part number, quantity, lot, and FIFO"
+          ]
+        }
+      ],
+      "proofItems": [
+        {
+          "title": "Barcode mistake-proofing",
+          "desc": "Material name, recipe name, batch number, and weight are checked against production instructions."
+        },
+        {
+          "title": "Defined inspection gates",
+          "desc": "Incoming, A-compound, B-compound, molding, trimming, final inspection, packing, and shipment all have control points."
+        },
+        {
+          "title": "Compound release tests",
+          "desc": "Dispersion, specific gravity, Mooney viscosity, rheometer curve, hardness, tensile strength, and elongation can be linked to the batch record."
+        },
+        {
+          "title": "Reaction-plan discipline",
+          "desc": "Each control point is tied to an acceptance rule and documented response path before production continues."
+        }
+      ],
+      "eyebrow": "製造能力の証拠",
+      "imageSlot": {
+        "label": "画像枠",
+        "title": "管理された生産フローのビジュアル",
+        "meta": "推奨：匿名化した22工程図または工場フロー写真、1600x900"
+      }
+    },
+    "singleLineCallout": {
+      "title": "単一ライン混練の管理",
+      "body": "RubberQ はコンパウンドファミリーを汚染リスクに応じて順序付けし、ファミリー間で SOP に基づく清掃を行い、A 練り記録をロットに紐付けます。顧客専用配合を公開せず、高純度と長期再現性を支えます。",
+      "cta": "配合・混練戦略を見る"
     }
   },
   "caseStudies": {
@@ -1301,6 +1452,50 @@
       "department": "法務部",
       "company": "福州RubberQゴム有限公司",
       "email": "メール: contact@rubberq.com"
+    }
+  },
+  "compounding": {
+    "abMixing": {
+      "title": "A-Mixing, B-Mixing, and Batch Release Control",
+      "intro": "The process flow separates masterbatch preparation from final cure-system addition. This reduces formulation drift, improves traceability, and gives the lab a defined release gate before molding.",
+      "stages": [
+        {
+          "stage": "A-Mixing",
+          "title": "Masterbatch foundation",
+          "body": "Base polymer, filler, oil, and reinforcement materials are weighed, barcode-checked, mixed, sheeted, cooled, and screened for foreign matter before release."
+        },
+        {
+          "stage": "A-Compound Control",
+          "title": "Intermediate material check",
+          "body": "A-compound can be checked for dispersion, specific gravity, and Mooney viscosity before it moves to final mixing."
+        },
+        {
+          "stage": "B-Mixing",
+          "title": "Cure-system addition",
+          "body": "Accelerators and cure-system ingredients are added later under process instruction, then the compound is matured, cut, stored, and prepared for molding."
+        },
+        {
+          "stage": "Final Release",
+          "title": "Lab gate before molding",
+          "body": "Rheometer curve, hardness, tensile strength, elongation, and drawing-specific checks confirm the batch is suitable for production."
+        }
+      ],
+      "testsTitle": "Release tests typically linked to this flow",
+      "tests": [
+        "Rheometer torque curve",
+        "Hardness",
+        "Tensile strength",
+        "Elongation",
+        "Specific gravity",
+        "Mooney viscosity",
+        "Drawing-specific abnormal-condition checks"
+      ],
+      "eyebrow": "ロットリリースロジック",
+      "imageSlot": {
+        "label": "画像枠",
+        "title": "A/B 練りとロットリリースのビジュアル",
+        "meta": "推奨：A/B 練りフロー図、ラボリリース記録、または混練ライン写真、1600x900"
+      }
     }
   }
 }

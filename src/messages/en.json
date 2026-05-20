@@ -640,7 +640,7 @@
     "title": "Quality Assurance",
     "hero": {
       "title": "Uncompromising Quality",
-      "subtitle": "From compound design to final inspection, our IATF 16949 certified quality system serves EV/energy storage, industrial equipment, semiconductor, and Tier 2 automotive customers — with compound traceability maintained across years of production. Your 2030 PPAP file will still match your 2026 part."
+      "subtitle": "From compound design to final inspection, RubberQ's IATF 16949 quality system supports EV/energy storage, industrial equipment, semiconductor, and Tier 2 automotive projects with batch-level traceability maintained across years of production."
     },
     "certifications": {
       "title": "Global Certifications",
@@ -691,7 +691,7 @@
       "title": "In-house Laboratory",
       "description": "Our in-house testing facility validates every compound and batch to recognized ASTM and ISO standards — not outsourced to third-party labs we can't control.",
       "note": "All equipment is calibrated annually by CNAS accredited third-party laboratories.",
-      "fullCapabilityLink": "See full ASTM/ISO testing matrix on our Testing & Validation page",
+      "fullCapabilityLink": "See the full ASTM/ISO testing matrix on our Testing & Validation page",
       "equipment": [
         {
           "name": "Rheometer (MDR)",
@@ -720,11 +720,11 @@
       ]
     },
     "whySingleLine": {
-      "title": "Why We Run a Single A-Mixing Line",
-      "intro": "Three operational advantages we deliberately preserve:",
-      "point1": "Compound consistency over years — your 2030 PPAP reproduces your 2026 part exactly.",
-      "point2": "Cross-contamination control — sequence-ordered scheduling + strict SOP between batches.",
-      "point3": "Engineer-witnessed batches — real-time rheology + Mooney review on every charge, not sampled.",
+      "title": "Why Single-Line A-Mixing Matters",
+      "intro": "Three operational advantages we preserve for repeatable compound quality:",
+      "point1": "Long-term compound consistency across repeated production lots.",
+      "point2": "Contamination-risk control through sequence planning and SOP cleaning between batch families.",
+      "point3": "Batch records linked to rheology, Mooney, and release checks before production moves forward.",
       "link": "See our compounding capabilities in detail"
     },
     "process": {
@@ -735,7 +735,7 @@
         "monitoring": "In-process Monitoring",
         "monitoringDesc": "Real-time SPC (Statistical Process Control) data tracking.",
         "inspection": "Final 100% Inspection",
-        "inspectionDesc": "Zero-defect guarantee through manual and AI-assisted check."
+        "inspectionDesc": "Final inspection checks appearance, dimensions, and batch requirements, with abnormal items recorded and isolated."
       },
       "scenes": [
         {
@@ -750,7 +750,7 @@
         },
         {
           "title": "Final 100% Inspection",
-          "desc": "Zero-defect guarantee through manual and AI-assisted check.",
+          "desc": "Final inspection checks appearance, dimensions, and batch requirements, with abnormal items recorded and isolated.",
           "img": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=600"
         }
       ]
@@ -804,6 +804,67 @@
       "title": "Need Quality Documentation?",
       "description": "Download our complete quality manual, inspection reports, and material certifications from our Technical Resources page.",
       "link": "Visit Technical Resources →"
+    },
+    "controlPlan": {
+      "title": "Control Plan-Based Quality Assurance",
+      "subtitle": "RubberQ quality control is not only certificate-based. A real part control plan defines what must be checked, when it is checked, how it is recorded, and what happens if a result is out of range.",
+      "groups": [
+        {
+          "title": "Incoming material checks",
+          "checks": [
+            "Material name and code",
+            "Weight against delivery or production instruction",
+            "Batch number and validity window",
+            "Packaging condition and technical indicators"
+          ],
+          "evidence": "Incoming inspection records, supplier documents, and raw-material labels"
+        },
+        {
+          "title": "Compounding mistake-proofing",
+          "checks": [
+            "Barcode verification",
+            "Recipe name and material sequence",
+            "Ingredient weight and mixer filling level",
+            "Mixing time, temperature, pressure, and discharge condition"
+          ],
+          "evidence": "Recipe system records, weighing logs, and mixing instruction sheets"
+        },
+        {
+          "title": "Compound release testing",
+          "checks": [
+            "Dispersion",
+            "Specific gravity",
+            "Mooney viscosity",
+            "Rheometer torque curve",
+            "Hardness, tensile strength, and elongation"
+          ],
+          "evidence": "In-house lab reports and batch release records"
+        },
+        {
+          "title": "Molding and shipment release",
+          "checks": [
+            "First and last article dimensions",
+            "SPC on critical dimensions",
+            "Appearance defects such as flash, missing material, cracks, or bubbles",
+            "Packing quantity, lot number, and shipment FIFO"
+          ],
+          "evidence": "Dimensional reports, final inspection records, packaging labels, and shipment checks"
+        }
+      ],
+      "metricsTitle": "Example release controls from the anonymized plan",
+      "metrics": [
+        "B-compound storage temperature controlled below 28 C",
+        "Rheometer curve must stay within the approved standard curve",
+        "Hardness, tensile strength, and elongation verified before release",
+        "Critical dimensions can be monitored through SPC when required by drawing"
+      ],
+      "eyebrow": "Process evidence",
+      "linkToFlow": "View controlled production flow",
+      "imageSlot": {
+        "label": "IMAGE SLOT",
+        "title": "Anonymized control-plan record",
+        "meta": "Recommended: blurred control-plan screenshot, inspection sheet, or batch release record, 1200x900"
+      }
     }
   },
   "language": {
@@ -975,8 +1036,8 @@
       "subtitle": "Our two-stage mixing process — run on a single, dedicated A-mixing line designed with our Japanese formulation partners — is the backbone of our quality promise. By separating masterbatching from final compounding, we achieve superior batch-to-batch consistency across years of production for critical EV, semiconductor, and Tier 2 automotive applications."
     },
     "singleLineCallout": {
-      "title": "Single Line, Zero Cross-Contamination",
-      "body": "Sequence-ordered scheduling: highest-purity compounds first in the day, high-carbon-black and peroxide-cured compounds last. SOP-driven cleaning between batch families. Critical for semiconductor FFKM and EV thermal and energy-storage seal applications where compound purity cannot be compromised.",
+      "title": "Single-Line Mixing Control",
+      "body": "RubberQ schedules compound families by contamination risk, runs SOP-based cleaning between batch families, and keeps A-mixing records tied to the batch. This supports high-purity and long-term repeatability needs without exposing customer-specific recipes.",
       "cta": "Learn more about our compounding strategy"
     },
     "processes": {
@@ -1056,6 +1117,82 @@
       "tagCompliance": "Compliance: IATF 16949",
       "zero": "Zero",
       "toleranceForDefects": "Tolerance for Defects"
+    },
+    "controlFlow": {
+      "title": "22-Step Controlled Production Flow",
+      "subtitle": "Built from an anonymized real control plan: from raw material receiving to shipment, every stage has defined equipment, checks, records, and reaction plans.",
+      "sourceNote": "Public-anonymized proof asset: product numbers, customer details, and drawing-specific dimensions are intentionally removed.",
+      "groups": [
+        {
+          "label": "01",
+          "title": "Raw Material & FIFO Control",
+          "steps": [
+            "Raw material receiving",
+            "Storage and controlled warehousing",
+            "Raw material issue by batch and weight"
+          ]
+        },
+        {
+          "label": "02",
+          "title": "A-Mixing / Masterbatch Control",
+          "steps": [
+            "A-formulation and barcode verification",
+            "Internal mixing with time, temperature, pressure, and sequence control",
+            "Calendering, cooling, foreign-matter detection, packing, and A-compound release checks"
+          ]
+        },
+        {
+          "label": "03",
+          "title": "B-Mixing & Compound Release",
+          "steps": [
+            "B-formulation with accelerator and cure-system control",
+            "B-mixing under process instruction",
+            "Maturation, cutting, controlled storage, and final compound testing"
+          ]
+        },
+        {
+          "label": "04",
+          "title": "Molding & Finishing",
+          "steps": [
+            "Vacuum compression molding",
+            "First and last article dimensional checks",
+            "SPC on critical dimensions and trimming control"
+          ]
+        },
+        {
+          "label": "05",
+          "title": "Final Inspection, Packing & Shipment",
+          "steps": [
+            "Appearance inspection for flash, missing material, cracks, and bubbles",
+            "Bag and carton quantity verification",
+            "Shipment check by part number, quantity, lot, and FIFO"
+          ]
+        }
+      ],
+      "proofItems": [
+        {
+          "title": "Barcode mistake-proofing",
+          "desc": "Material name, recipe name, batch number, and weight are checked against production instructions."
+        },
+        {
+          "title": "Defined inspection gates",
+          "desc": "Incoming, A-compound, B-compound, molding, trimming, final inspection, packing, and shipment all have control points."
+        },
+        {
+          "title": "Compound release tests",
+          "desc": "Dispersion, specific gravity, Mooney viscosity, rheometer curve, hardness, tensile strength, and elongation can be linked to the batch record."
+        },
+        {
+          "title": "Reaction-plan discipline",
+          "desc": "Each control point is tied to an acceptance rule and documented response path before production continues."
+        }
+      ],
+      "eyebrow": "Manufacturing proof",
+      "imageSlot": {
+        "label": "IMAGE SLOT",
+        "title": "Controlled production flow visual",
+        "meta": "Recommended: anonymized 22-step process diagram or factory workflow photo, 1600x900"
+      }
     }
   },
   "factory": {
@@ -1597,6 +1734,48 @@
       "subtitle": "Whether you have a drawing waiting for a quote, or a material problem looking for a solution — start the conversation.",
       "ctaPrimary": "Submit Application Brief",
       "ctaSecondary": "Request Compound Datasheet"
+    },
+    "abMixing": {
+      "title": "A-Mixing, B-Mixing, and Batch Release Control",
+      "intro": "The process flow separates masterbatch preparation from final cure-system addition. This reduces formulation drift, improves traceability, and gives the lab a defined release gate before molding.",
+      "stages": [
+        {
+          "stage": "A-Mixing",
+          "title": "Masterbatch foundation",
+          "body": "Base polymer, filler, oil, and reinforcement materials are weighed, barcode-checked, mixed, sheeted, cooled, and screened for foreign matter before release."
+        },
+        {
+          "stage": "A-Compound Control",
+          "title": "Intermediate material check",
+          "body": "A-compound can be checked for dispersion, specific gravity, and Mooney viscosity before it moves to final mixing."
+        },
+        {
+          "stage": "B-Mixing",
+          "title": "Cure-system addition",
+          "body": "Accelerators and cure-system ingredients are added later under process instruction, then the compound is matured, cut, stored, and prepared for molding."
+        },
+        {
+          "stage": "Final Release",
+          "title": "Lab gate before molding",
+          "body": "Rheometer curve, hardness, tensile strength, elongation, and drawing-specific checks confirm the batch is suitable for production."
+        }
+      ],
+      "testsTitle": "Release tests typically linked to this flow",
+      "tests": [
+        "Rheometer torque curve",
+        "Hardness",
+        "Tensile strength",
+        "Elongation",
+        "Specific gravity",
+        "Mooney viscosity",
+        "Drawing-specific abnormal-condition checks"
+      ],
+      "eyebrow": "Batch release logic",
+      "imageSlot": {
+        "label": "IMAGE SLOT",
+        "title": "A/B mixing and batch release visual",
+        "meta": "Recommended: A/B mixing flow diagram, lab release record, or mixing-line photo, 1600x900"
+      }
     }
   },
   "testing": {
@@ -1942,8 +2121,8 @@
   "capabilitiesV2": {
     "heroSubtitleV2": "Our two-stage mixing process — run on a single, dedicated A-mixing line designed by our Japanese formulation partners — is the backbone of our quality promise. By separating masterbatching from final compounding, we achieve superior batch-to-batch consistency for critical applications.",
     "singleLineCallout": {
-      "title": "Single Line, Zero Cross-Contamination",
-      "body": "Sequence-ordered scheduling: highest-purity compounds first in the day, high-carbon-black/peroxide compounds last. SOP-driven cleaning between batch families. Critical for semiconductor FFKM and EV thermal and energy-storage seal applications.",
+      "title": "Single-Line Mixing Control",
+      "body": "RubberQ schedules compound families by contamination risk, runs SOP-based cleaning between batch families, and keeps A-mixing records tied to the batch. This supports high-purity and long-term repeatability needs without exposing customer-specific recipes.",
       "cta": "Learn more about our compounding strategy"
     }
   },
