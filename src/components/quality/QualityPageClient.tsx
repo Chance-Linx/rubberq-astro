@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Award, Calendar, Building2, ZoomIn } from 'lucide-react';
+import { Award, Building2, ZoomIn } from 'lucide-react';
 import CertificateLightbox from '../CertificateLightbox';
 import { trackGaEvent } from '../../lib/inquiryTracking';
 
@@ -12,44 +12,25 @@ interface Certificate {
   issuer: string;
   issueDate: string;
   expiryDate: string;
-  status: 'active' | 'expiring' | 'expired';
   description: string;
   placeholder: string;
   downloadUrl?: string;
 }
 
-interface StatusLabels {
-  active: string;
-  expiring: string;
-  expired: string;
-}
-
 interface QualityPageClientProps {
   certificates: Certificate[];
-  statusLabels: StatusLabels;
   viewDetailsText: string;
-  expiresText: string;
 }
 
 function CertificateCard({ 
   certificate, 
   onClick,
-  statusLabels,
-  viewDetailsText,
-  expiresText
+  viewDetailsText
 }: { 
   certificate: Certificate; 
   onClick: () => void;
-  statusLabels: StatusLabels;
   viewDetailsText: string;
-  expiresText: string;
 }) {
-  const statusColors = {
-    active: 'bg-industrial-100 text-industrial-700',
-    expiring: 'bg-industrial-100 text-industrial-700',
-    expired: 'bg-industrial-100 text-industrial-700'
-  };
-
   return (
     <div 
       className="group bg-white border border-industrial-200 hover:border-accent-orange hover:shadow-xl transition-all cursor-pointer overflow-hidden"
@@ -71,10 +52,6 @@ function CertificateCard({
           </div>
         </div>
 
-        {/* Status Badge */}
-        <div className={`absolute top-3 right-3 px-2 py-1 rounded text-xs font-bold ${statusColors[certificate.status]}`}>
-          {statusLabels[certificate.status]}
-        </div>
       </div>
 
       {/* Certificate Info */}
@@ -89,10 +66,6 @@ function CertificateCard({
             <Building2 className="w-3 h-3" />
             <span>{certificate.issuer}</span>
           </div>
-          <div className="flex items-center gap-1">
-            <Calendar className="w-3 h-3" />
-            <span>{expiresText}: {certificate.expiryDate}</span>
-          </div>
         </div>
       </div>
     </div>
@@ -101,9 +74,7 @@ function CertificateCard({
 
 export default function QualityPageClient({ 
   certificates, 
-  statusLabels, 
-  viewDetailsText, 
-  expiresText 
+  viewDetailsText
 }: QualityPageClientProps) {
   const [selectedCert, setSelectedCert] = useState<Certificate | null>(null);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
@@ -122,9 +93,7 @@ export default function QualityPageClient({
             key={cert.id} 
             certificate={cert} 
             onClick={() => handleCertClick(cert)}
-            statusLabels={statusLabels}
             viewDetailsText={viewDetailsText}
-            expiresText={expiresText}
           />
         ))}
       </div>

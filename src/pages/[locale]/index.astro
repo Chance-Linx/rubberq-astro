@@ -19,6 +19,13 @@ const summaryItems = tRaw(messages, 'features.summaryItems', []);
 const fitItems = tRaw(messages, 'goodFit.fitItems', []);
 const notFitItems = tRaw(messages, 'goodFit.notFitItems', []);
 const trustBadges = tRaw(messages, 'hero.trustBadges', ['IATF 16949', 'ISO 9001', 'ISO 14001']);
+const visualLabels = {
+  manufacturing: h('visualLabels.manufacturing', 'Factory Manufacturing Scene'),
+  ev: h('visualLabels.ev', 'EV & Energy Storage Applications'),
+  industrial: h('visualLabels.industrial', 'Industrial Equipment Applications'),
+  semiconductor: h('visualLabels.semiconductor', 'Semiconductor Seal Applications'),
+  automotive: h('visualLabels.automotive', 'Automotive Tier 2 Applications'),
+};
 
 const orgSchema = createOrganizationSchema(locale!);
 ---
@@ -35,7 +42,6 @@ const orgSchema = createOrganizationSchema(locale!);
     <!-- HERO                                                          -->
     <!-- ============================================================ -->
     <section class="relative min-h-[92vh] flex items-center bg-industrial-900 overflow-hidden">
-      <!-- Hero background placeholder -->
       <div
         class="absolute inset-0 opacity-45"
         data-slot-id="home-hero-bg"
@@ -102,7 +108,7 @@ const orgSchema = createOrganizationSchema(locale!);
           <div class="absolute inset-0 bg-gradient-to-br from-industrial-700 via-industrial-800 to-industrial-950"></div>
           <div class="absolute inset-0 bg-industrial-900/30"></div>
           <div class="absolute left-6 bottom-6 right-6 border border-white/20 bg-industrial-900/70 p-5 text-white md:left-10 md:bottom-10 md:right-auto md:w-[360px]">
-            <p class="text-sm leading-relaxed text-industrial-200">[home-proof-manufacturing-scene / 1800x1400]</p>
+            <p class="text-sm leading-relaxed text-industrial-200">{visualLabels.manufacturing}</p>
           </div>
         </div>
 
@@ -262,7 +268,7 @@ const orgSchema = createOrganizationSchema(locale!);
               data-spec="1600x1200 或 2200x1200，主视觉级别"
               data-priority="critical"
             >
-              <span class="absolute top-6 right-6 text-[10px] uppercase tracking-widest text-industrial-500">home-industries-ev</span>
+                <span class="absolute top-6 right-6 text-[10px] uppercase tracking-widest text-industrial-500">{visualLabels.ev}</span>
             </div>
             <div class="absolute inset-0 bg-industrial-900/45 group-hover:bg-industrial-900/60 transition-colors"></div>
             <div class="absolute bottom-8 left-8 right-8 text-white md:bottom-10 md:left-10 md:right-10">
@@ -283,7 +289,7 @@ const orgSchema = createOrganizationSchema(locale!);
                 data-spec="900x520"
                 data-priority="important"
               >
-                <span class="absolute top-4 right-4 text-[10px] uppercase tracking-widest text-industrial-500">home-industries-industrial</span>
+                <span class="absolute top-4 right-4 text-[10px] uppercase tracking-widest text-industrial-500">{visualLabels.industrial}</span>
               </div>
               <div class="absolute inset-0 bg-industrial-900/55 group-hover:bg-industrial-900/72 transition-colors"></div>
               <div class="absolute bottom-5 left-5 right-5 text-white">
@@ -301,7 +307,7 @@ const orgSchema = createOrganizationSchema(locale!);
                 data-spec="900x520"
                 data-priority="important"
               >
-                <span class="absolute top-4 right-4 text-[10px] uppercase tracking-widest text-industrial-500">home-industries-semicon</span>
+                <span class="absolute top-4 right-4 text-[10px] uppercase tracking-widest text-industrial-500">{visualLabels.semiconductor}</span>
               </div>
               <div class="absolute inset-0 bg-industrial-900/55 group-hover:bg-industrial-900/72 transition-colors"></div>
               <div class="absolute bottom-5 left-5 right-5 text-white">
@@ -319,7 +325,7 @@ const orgSchema = createOrganizationSchema(locale!);
                 data-spec="900x520"
                 data-priority="important"
               >
-                <span class="absolute top-4 right-4 text-[10px] uppercase tracking-widest text-industrial-500">home-industries-auto</span>
+                <span class="absolute top-4 right-4 text-[10px] uppercase tracking-widest text-industrial-500">{visualLabels.automotive}</span>
               </div>
               <div class="absolute inset-0 bg-industrial-900/55 group-hover:bg-industrial-900/72 transition-colors"></div>
               <div class="absolute bottom-5 left-5 right-5 text-white">

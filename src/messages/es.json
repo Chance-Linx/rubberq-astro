@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "title": "RubberQ | Fabricante de Piezas de Goma de Precisión (Certificado IATF 16949)",
-    "description": "Fuzhou RubberQ Rubber Co., Ltd. es un fabricante global de componentes de goma de grado automotriz. Especializado en FKM, EPDM y NBR para hardware de IA, robótica y maquinaria de alta precisión.",
+    "title": "RubberQ | Compuestos de goma personalizados y piezas de precisión desde 1995",
+    "description": "RubberQ combina soporte japonés de formulación y manufactura precisa en China para EV/almacenamiento, equipo industrial, semiconductor y automotriz Tier 2.",
     "home": {
-      "title": "RubberQ — Fabricación de Goma de Precisión",
-      "description": "Componentes de goma de grado automotriz para robótica, infraestructura de IA y maquinaria de precisión. Certificado IATF 16949."
+      "title": "RubberQ | Formulación japonesa. Precisión china. Confiable desde 1995.",
+      "description": "Compuestos de goma personalizados para EV/almacenamiento, equipo industrial, semiconductor y automotriz Tier 2."
     },
     "blog": {
       "title": "Centro de Conocimiento Técnico | RubberQ",
@@ -16,7 +16,7 @@
     },
     "caseStudies": {
       "title": "Casos de Estudio | RubberQ",
-      "description": "Soluciones de ingeniería de caucho del mundo real para robótica, infraestructura de IA y automotriz."
+      "description": "Soluciones de ingeniería de caucho del mundo real para equipo industrial, equipo de proceso semiconductor y automotriz."
     },
     "contact": {
       "title": "Contáctenos | RubberQ",
@@ -70,39 +70,39 @@
     "getQuote": "Solicitar Presupuesto"
   },
   "hero": {
-    "badge": "EXCELENCIA AUTOMOTRIZ",
+    "badge": "EXCELENCingeniería AUTOMOTRIZ",
     "title": "PRECISIÓN EN CADA MOLÉCULA.",
     "titleLine1": "PRECISIÓN",
     "titleLine2": "EN CADA",
     "titleLine3": "MOLÉCULA.",
-    "subtitle": "Sirviendo el futuro de la robótica, infraestructura de IA y maquinaria de alto rendimiento con componentes de goma certificados IATF 16949.",
+    "subtitle": "Sirviendo el futuro de la equipo industrial, equipo de proceso semiconductor y maquinaria de alto rendimiento con componentes de goma certificados IATF 16949.",
     "ctaPrimary": "CENTRO TÉCNICO",
-    "ctaSecondary": "CALIDAD Y CONFIANZA"
+    "ctaSecondary": "CALIDAD Y CONFingenieríaNZA"
   },
   "features": {
-    "title": "POR QUÉ LOS LÍDERES GLOBALES CONFIAN EN RUBBERQ",
+    "title": "POR QUÉ LOS EQUIPOS DE INGENIERÍA ELIGEN RUBBERQ",
     "summaryTitle": "RESUMEN TÉCNICO",
     "summaryItems": [
       {
-        "term": "Certificación IATF 16949",
-        "description": "Riguroso sistema de gestión de calidad automotriz que garantiza una producción sin defectos."
+        "term": "Soporte japonés de formulación desde 1995",
+        "description": "Compuestos desarrollados para condiciones específicas del cliente."
       },
       {
-        "term": "Trazabilidad completa",
-        "description": "Registro digital completo desde el lote de materia prima hasta el componente terminado."
+        "term": "Una línea A de mezcla",
+        "description": "Una ruta controlada ayuda a repetir el comportamiento del lote por años."
       },
       {
-        "term": "Ingeniería de precisión",
-        "description": "Tolerancias ISO 3302-1 Clase M1 estándar para aplicaciones de alta tecnología."
+        "term": "Laboratorio propio",
+        "description": "Envejecimiento, tracción, resistencia al aceite, dureza y curado se prueban antes de producción."
       }
     ],
     "reliability": {
-      "title": "FIABILIDAD",
+      "title": "FingenieríaBILIDAD",
       "desc": "Durabilidad de grado automotriz para infraestructura 24/7."
     },
     "precision": {
       "title": "PRECISIÓN",
-      "desc": "Precisión a nivel de micrones para articulaciones robóticas y sensores."
+      "desc": "Precisión a nivel de micrones para articulaciones equipo industrials y sensores."
     },
     "traceability": {
       "title": "TRAZABILIDAD",
@@ -110,7 +110,7 @@
     },
     "innovation": {
       "title": "INNOVACIÓN",
-      "desc": "I+D de materiales personalizados para sistemas de refrigeración líquida de IA."
+      "desc": "I+D de materiales personalizados para sistemas de refrigeración líquida de ingeniería."
     }
   },
   "products": {
@@ -125,26 +125,30 @@
     }
   },
   "industries": {
-    "title": "Industrias Especializadas",
+    "title": "Industrias que servimos",
     "robotics": {
-      "title": "Robótica y Cobots",
-      "desc": "Sellos de alta precisión y componentes de amortiguación para articulaciones robóticas y aplicaciones de cobots"
+      "title": "Equipo industrial",
+      "desc": "Sellos de alta precisión y componentes de amortiguación para articulaciones equipo industrials y aplicaciones de cobots"
     },
     "ai": {
-      "title": "Infraestructura de IA",
-      "desc": "Sellos de gestión térmica para centros de datos y sistemas de refrigeración de hardware de IA"
+      "title": "equipo de proceso semiconductor",
+      "desc": "Sellos de gestión térmica para centros de datos y sistemas de refrigeración de equipo de proceso semiconductor"
     },
     "machinery": {
       "title": "Maquinaria de Precisión",
       "desc": "Sellos industriales y componentes personalizados para equipos de precisión"
     },
     "automotive": {
-      "title": "Automotriz",
-      "desc": "Sellos de motor, juntas, mangueras y aisladores de vibración"
+      "title": "Automotriz Tier 2",
+      "desc": "Sellos de motor, juntas, mangueras y aisladores de vibración",
+      "shortDesc": "Componentes donde la química del compuesto importa más que el número de moldes.",
+      "icon": "🚗"
     },
     "industrial": {
-      "title": "Industrial",
-      "desc": "Bombas, válvulas, sellos de maquinaria y piezas moldeadas personalizadas"
+      "title": "Equipo industrial",
+      "desc": "Bombas, válvulas, sellos de maquinaria y piezas moldeadas personalizadas",
+      "shortDesc": "Sellos hidráulicos, neumáticos, para bombas y válvulas.",
+      "icon": "⚙"
     },
     "medical": {
       "title": "Equipo de precision",
@@ -153,7 +157,20 @@
     "electronics": {
       "title": "Electrónica",
       "desc": "Blindaje EMI, teclados y sellos protectores"
-    }
+    },
+    "subtitle": "RubberQ apoya EV y almacenamiento, equipo industrial, semiconductor y automotriz Tier 2 donde importan compuestos técnicos y manufactura estable.",
+    "ev": {
+      "title": "EV y almacenamiento",
+      "shortDesc": "Química de compuestos para carga, BESS, periféricos EV y automotriz Tier 2.",
+      "icon": "⚡"
+    },
+    "semiconductor": {
+      "title": "Semiconductor (FFKM)",
+      "shortDesc": "Sellos de proceso FKM/FFKM con mezcla A controlada.",
+      "icon": "🔬"
+    },
+    "notSeeing": "¿No ve su industria? Muchas aplicaciones de goma de precisión encajan en estos cuatro grupos.",
+    "talkCta": "Hablar con ingeniería"
   },
   "cta": {
     "title": "¿Listo para Iniciar su Proyecto?",
@@ -193,7 +210,7 @@
       "industry": "Industria Objetivo",
       "industryOptions": {
         "robotics": "EV y almacenamiento de energia",
-        "ai": "Hardware de IA / Centros de Datos",
+        "ai": "equipo de proceso semiconductor / Centros de Datos",
         "automotive": "Automotriz (Req. IATF 16949)",
         "machinery": "Maquinaria de Precisión",
         "other": "Otra"
@@ -203,8 +220,8 @@
       "fileLink": "Enlace de Archivos de Diseño (Opcional)",
       "fileLinkPlaceholder": "https://drive.google.com/... o enlace de Dropbox",
       "fileLinkHelp": "Comparta enlace de Google Drive, Dropbox o WeTransfer (STEP, STP, PDF, DXF)",
-      "submit": "ENVIAR SOLICITUD",
-      "submitting": "ENVIANDO...",
+      "submit": "ENVingenieríaR SOLICITUD",
+      "submitting": "ENVingenieríaNDO...",
       "success": "¡Envío exitoso!",
       "successMessage": "Hemos recibido su RFQ y responderemos dentro de 12-24 horas.",
       "error": "Envío fallido",
@@ -215,7 +232,7 @@
     "engineeringSales": "Ingeniería / Ventas",
     "manufacturingSite": "Sitio de Manufactura",
     "fastTrack": "Servicio Rápido 2026",
-    "fastTrackDesc": "Comparta sus archivos de diseño (enlace de Google Drive / Dropbox) para ayudar a nuestro motor de cotización asistido por IA a proporcionar precios más rápidos.",
+    "fastTrackDesc": "Comparta sus archivos de diseño (enlace de Google Drive / Dropbox) para ayudar a nuestro motor de cotización asistido por ingeniería a proporcionar precios más rápidos.",
     "manufacturingAddress": "Ciudad de Fuzhou, Provincia de Fujian, China",
     "enhancement": {
       "globalDeliveryTitle": "Cobertura de Entrega Global",
@@ -226,7 +243,7 @@
       "complianceItems": [
         "Soporte de declaracion REACH / RoHS",
         "Soporte de declaracion de material por aplicacion",
-        "Disponibilidad de paquete PPAP / FAI"
+        "Disponibilidad de paquete PPAP / Fsemiconductor"
       ]
     }
   },
@@ -236,8 +253,8 @@
     "watchVideo": "Ver Video Corporativo",
     "videoDuration": "[Resumen de la Empresa y Tour de Fábrica - 3:45]",
     "heritageQuote": "\"La calidad automotriz está en nuestro ADN.\"",
-    "heritageText1": "Durante más de tres décadas, hemos servido como proveedor OEM a largo plazo para las principales marcas automotrices japonesas. Esta experiencia nos enseñó que en la manufactura de precisión no hay margen para el error.",
-    "heritageText2": "Hoy, mientras nos expandimos hacia los sectores de IA y robótica, llevamos este legado de cultura \"Cero Defectos\" hacia las tecnologías del mañana.",
+    "heritageText1": "Desde 1995, RubberQ suministra componentes de caucho de precisión para programas automotrices japoneses de largo plazo. Esa experiencia formó nuestra disciplina en control de material, consistencia dimensional y producción repetible.",
+    "heritageText2": "Hoy aplicamos esa disciplina de manufactura a EV y almacenamiento, equipo industrial, sellos de proceso semiconductor y programas automotrices Tier 2 seleccionados.",
     "stats": {
       "years": "Años de Experiencia",
       "factory": "m² de Fábrica",
@@ -263,7 +280,7 @@
         "desc": "Almacenamiento eficiente y capacidades de envío global."
       }
     },
-    "imageNote": "Nota: Estas imágenes representan nuestros entornos de taller reales y capacidades técnicas. Damos la bienvenida a visitas in situ y auditorías de terceros.",
+    "imageNote": "Nota: Estas imágenes representan nuestros entornos de taller reales y capacidades técnicas. Damos la bienvenida a visitas in situ y evaluaciones de proveedor por proyecto.",
     "coreValues": "Valores Fundamentales",
     "values": {
       "precision": {
@@ -283,7 +300,7 @@
   "productsPage": {
     "metadata": {
       "title": "Productos | RubberQ - Componentes de Goma de Grado Automotriz",
-      "description": "Sellos de goma personalizados, juntas, fuelles y componentes moldeados. Manufactura certificada IATF 16949 para robótica, aplicaciones automotrices e industriales."
+      "description": "Sellos de goma personalizados, juntas, fuelles y componentes moldeados. Manufactura certificada IATF 16949 para equipo industrial, aplicaciones automotrices e industriales."
     },
     "badge": "Certificado IATF 16949",
     "title": "PORTAFOLIO DE PRODUCTOS",
@@ -291,7 +308,7 @@
     "capability": "Capacidad",
     "manufacturingFootprint": "Huella de Manufactura",
     "categoriesTitle": "CATEGORÍAS DE COMPONENTES",
-    "categoriesSubtitle": "Cuatro familias de productos principales que sirven a las industrias de robótica, automotriz, infraestructura de IA y maquinaria de precisión.",
+    "categoriesSubtitle": "Cuatro familias de productos principales que sirven a las industrias de equipo industrial, automotriz, equipo de proceso semiconductor y maquinaria de precisión.",
     "certifications": [
       "Certificado IATF 16949:2016",
       "Calidad ISO 9001:2015",
@@ -609,7 +626,9 @@
       "issued": "Emitido",
       "expires": "Expira",
       "scope": "Alcance",
-      "verification": "Este certificado puede ser verificado a través del registro oficial de la autoridad emisora utilizando el número de certificado."
+      "verification": "Este certificado puede ser verificado a través del registro oficial de la autoridad emisora utilizando el número de certificado.",
+      "documentCenter": "Centro de documentación de calidad RubberQ",
+      "availableOnRequest": "Disponible bajo solicitud"
     },
     "certificates": {
       "iatf": {
@@ -789,19 +808,19 @@
           "evidence": "Dimensional reports, final inspection records, packaging labels, and shipment checks"
         }
       ],
-      "metricsTitle": "Controles de liberación derivados del plan anonimizado",
+      "metricsTitle": "Ejemplos de controles de liberación del plan de producción",
       "metrics": [
         "B-compound storage temperature controlled below 28 C",
         "Rheometer curve must stay within the approved standard curve",
         "Hardness, tensile strength, and elongation verified before release",
         "Critical dimensions can be monitored through SPC when required by drawing"
       ],
-      "eyebrow": "Evidencia de proceso",
+      "eyebrow": "Registros de proceso",
       "linkToFlow": "Ver flujo de producción controlado",
       "imageSlot": {
-        "label": "ESPACIO DE IMAGEN",
-        "title": "Registro de plan de control anonimizado",
-        "meta": "Recomendado: captura difuminada del plan de control, hoja de inspección o registro de liberación de lote, 1200x900"
+        "label": "REGISTRO DE CALIDAD",
+        "title": "Ejemplo de registro de plan de control",
+        "meta": "Vista del plan de control, hoja de inspección o liberación de lote"
       }
     },
     "whySingleLine": {
@@ -933,8 +952,8 @@
     },
     "controlFlow": {
       "title": "Flujo de producción controlado en 22 pasos",
-      "subtitle": "Derivado de un plan de control real anonimizado: desde recepción de materias primas hasta envío, cada etapa define equipos, controles, registros y planes de reacción.",
-      "sourceNote": "Activo público anonimizado: números de pieza, datos de cliente y dimensiones específicas de dibujo fueron retirados.",
+      "subtitle": "Desde recepción de materia prima hasta envío, cada etapa define equipo, controles, registros y acciones de respuesta.",
+      "sourceNote": "El modelo se basa en la práctica de control de producción de RubberQ y se presenta en lenguaje claro para clientes.",
       "groups": [
         {
           "label": "01",
@@ -1000,11 +1019,11 @@
           "desc": "Each control point is tied to an acceptance rule and documented response path before production continues."
         }
       ],
-      "eyebrow": "Evidencia de fabricación",
+      "eyebrow": "Proceso de fabricación",
       "imageSlot": {
-        "label": "ESPACIO DE IMAGEN",
-        "title": "Visual del flujo de producción controlado",
-        "meta": "Recomendado: diagrama anonimizado de 22 pasos o foto del flujo de fábrica, 1600x900"
+        "label": "VISUAL DE PROCESO",
+        "title": "Flujo de producción controlado",
+        "meta": "Diagrama de proceso o foto de flujo de fábrica"
       }
     },
     "singleLineCallout": {
@@ -1018,7 +1037,7 @@
       "badge": "Excelencia Comprobada",
       "titleLine1": "CASOS DE",
       "titleLine2": "ESTUDIO",
-      "subtitle": "Aplicaciones del mundo real de ingeniería de caucho de grado automotriz. Vea cómo resolvemos desafíos críticos de sellado en robótica, infraestructura de IA y movilidad de próxima generación."
+      "subtitle": "Aplicaciones del mundo real de ingeniería de caucho de grado automotriz. Vea cómo resolvemos desafíos críticos de sellado en equipo industrial, equipo de proceso semiconductor y movilidad de próxima generación."
     },
     "stats": {
       "projectsDelivered": "Proyectos Entregados",
@@ -1034,7 +1053,7 @@
     },
     "studies": {
       "robotics": {
-        "industry": "Robótica Colaborativa",
+        "industry": "Equipo industrial",
         "client": "Fabricante de Cobots Europeo",
         "location": "Alemania",
         "challenge": "Fallo del sello de la articulación en entornos de producción 24/7 causando tiempo de inactividad",
@@ -1046,7 +1065,7 @@
         ]
       },
       "aiDataCenters": {
-        "industry": "Centros de Datos de IA",
+        "industry": "Centros de Datos de ingeniería",
         "client": "Proveedor Líder de Infraestructura en la Nube",
         "location": "Estados Unidos",
         "challenge": "Fugas en el sistema de refrigeración líquida en clústeres de GPU de alta densidad",
@@ -1073,7 +1092,7 @@
     "cta": {
       "titleLine1": "¿ENFRENTANDO UN",
       "titleLine2": "DESAFÍO DE SELLADO?",
-      "subtitle": "Nuestro equipo de ingeniería ha resuelto problemas complejos de sellado en robótica, automoción y aplicaciones industriales. Hablemos del suyo.",
+      "subtitle": "Nuestro equipo de ingeniería ha resuelto problemas complejos de sellado en equipo industrial, automoción y aplicaciones industriales. Hablemos del suyo.",
       "discussProject": "Discuta Su Proyecto",
       "exploreMaterials": "Explorar Materiales"
     }
@@ -1081,7 +1100,7 @@
   "factory": {
     "hero": {
       "location": "Fuzhou, China",
-      "title": "EXCELENCIA EN",
+      "title": "EXCELENCingeniería EN",
       "titleHighlight": "MANUFACTURA",
       "subtitle": "Dos instalaciones de producción que abarcan 20,000m² con sistemas de calidad certificados IATF 16949:2016. Sirviendo a OEM globales desde 1995.",
       "scheduleVisit": "Programar una Visita",
@@ -1180,7 +1199,7 @@
         },
         "inProcess": {
           "title": "Control En Proceso",
-          "description": "Inspección de Primer Artículo (FAI) para cada configuración. Monitoreo SPC para dimensiones críticas."
+          "description": "Inspección de Primer Artículo (Fsemiconductor) para cada configuración. Monitoreo SPC para dimensiones críticas."
         },
         "final": {
           "title": "Inspección Final",
@@ -1202,7 +1221,7 @@
     "cta": {
       "title": "¿LISTO PARA",
       "titleHighlight": "VISITAR?",
-      "description": "Damos la bienvenida a auditorías de fábrica y visitas de clientes. Programe un recorrido para ver nuestras capacidades de primera mano y conocer a nuestro equipo de ingeniería.",
+      "description": "Damos la bienvenida a visitas de clientes y evaluaciones de proveedor. Programe un recorrido para ver nuestras capacidades de primera mano y conocer a nuestro equipo de ingeniería.",
       "scheduleTour": "Programar Tour de Fábrica",
       "viewQuality": "Ver Estándares de Calidad"
     }
@@ -1221,11 +1240,11 @@
     "materials": {
       "fkm": {
         "name": "FKM (Fluoroelastómero)",
-        "desc": "Resistencia extrema al calor y química para refrigeración líquida de IA y motores automotrices."
+        "desc": "Resistencia extrema al calor y química para refrigeración líquida de ingeniería y motores automotrices."
       },
       "epdm": {
         "name": "EPDM (Etileno Propileno)",
-        "desc": "Resistencia superior a la intemperie y vida útil flexible para robótica y maquinaria exterior."
+        "desc": "Resistencia superior a la intemperie y vida útil flexible para equipo industrial y maquinaria exterior."
       },
       "nbr": {
         "name": "NBR (Caucho Nitrilo)",
@@ -1332,9 +1351,9 @@
   },
   "standardsPage": {
     "hero": {
-      "badge": "Cumplimiento Técnico",
+      "badge": "Normas Técnicas",
       "title": "Estándares Globales de la Industria",
-      "subtitle": "En RubberQ, no solo fabricamos caucho; diseñamos cumplimiento. Operamos en la intersección de la ciencia de materiales y los marcos regulatorios internacionales para asegurar que sus productos estén listos para el mercado."
+      "subtitle": "RubberQ ayuda a convertir requisitos ASTM, ISO, SAE, IATF y de plano en selección práctica de material, registros de prueba y control de producción para piezas de caucho."
     },
     "categories": {
       "materialClassification": {
@@ -1384,7 +1403,7 @@
       "callOutTitle": "¿Necesita una Llamada de Línea?",
       "callOutDesc": "Nuestro equipo de ingeniería puede ayudarle a traducir sus requisitos de aplicación en una especificación formal ASTM D2000 o SAE J200.",
       "consultEngineer": "Consultar a un Ingeniero",
-      "complianceNotice": "Aviso de Cumplimiento",
+      "complianceNotice": "Nota de documentación",
       "complianceNoticeText": "Los Certificados de Análisis (COA) y Certificados de Conformidad (COC) se proporcionan con cada envío. La documentación completa PPAP Nivel 3 está disponible para proyectos automotrices y de maquinaria de alta precisión bajo solicitud."
     },
     "footer": {
@@ -1456,8 +1475,8 @@
   },
   "compounding": {
     "abMixing": {
-      "title": "A-Mixing, B-Mixing, and Batch Release Control",
-      "intro": "The process flow separates masterbatch preparation from final cure-system addition. This reduces formulation drift, improves traceability, and gives the lab a defined release gate before molding.",
+      "title": "Mezcla A, mezcla B y liberación de lote",
+      "intro": "El flujo separa preparación de masterbatch y adición final del sistema de curado. Reduce deriva de formulación, mejora trazabilidad y crea una puerta de laboratorio antes de moldeo.",
       "stages": [
         {
           "stage": "A-Mixing",
@@ -1480,22 +1499,667 @@
           "body": "Rheometer curve, hardness, tensile strength, elongation, and drawing-specific checks confirm the batch is suitable for production."
         }
       ],
-      "testsTitle": "Release tests typically linked to this flow",
+      "testsTitle": "Pruebas de liberación típicas vinculadas a este flujo",
       "tests": [
-        "Rheometer torque curve",
-        "Hardness",
-        "Tensile strength",
-        "Elongation",
-        "Specific gravity",
-        "Mooney viscosity",
-        "Drawing-specific abnormal-condition checks"
+        "Curva de torque de reómetro",
+        "Dureza",
+        "Resistencia a tracción",
+        "Elongación",
+        "Gravedad específica",
+        "Viscosidad Mooney",
+        "Controles específicos del plano"
       ],
       "eyebrow": "Lógica de liberación de lote",
       "imageSlot": {
-        "label": "ESPACIO DE IMAGEN",
-        "title": "Visual de mezcla A/B y liberación de lote",
-        "meta": "Recomendado: diagrama de mezcla A/B, registro de liberación de laboratorio o foto de línea de mezcla, 1600x900"
+        "label": "VISUAL DE PROCESO",
+        "title": "Mezcla A/B y liberación de lote",
+        "meta": "Diagrama de flujo, registro de laboratorio o foto de línea de mezcla"
       }
+    },
+    "hero": {
+      "badge": "30 años de trabajo sino-japonés en formulación",
+      "tagline": "Formulado por Japón. Fabricado en China. Probado en laboratorio propio.",
+      "subtitle": "RubberQ desarrolla y controla compuestos personalizados desde selección de polímero hasta liberación de lote. Soporte japonés de formulación, manufactura precisa en Fuzhou y pruebas internas funcionan como una sola cadena de ingeniería.",
+      "ctaPrimary": "Discutir aplicación",
+      "ctaSecondary": "Descargar hoja de capacidad de compuestos"
+    },
+    "whyCompounding": {
+      "title": "Por qué importa la formulación",
+      "introTypical": "En muchas piezas de goma, el riesgo oculto no es el molde, sino si el compuesto puede reproducirse durante años de suministro.",
+      "typicalItems": [
+        "Los compuestos comprados limitan visibilidad de formulación",
+        "Las rutas de mezcla compartidas pueden aumentar variación",
+        "Moldear sin validación de lote dificulta repetición de suministro",
+        "Un pedido futuro puede no igualar el comportamiento original del material"
+      ],
+      "introRubberQ": "RubberQ gestiona la formulación como parte del sistema de fabricación:",
+      "rubberQItems": [
+        "Soporte de formulación japonesa desde 1995",
+        "Una línea A de mezcla con planificación y limpieza controladas",
+        "Pruebas de liberación para curado, dureza, tracción, viscosidad y envejecimiento",
+        "Registros trazables para pedidos repetidos y archivos de calificación"
+      ]
+    },
+    "aline": {
+      "title": "Nuestra línea A de mezcla",
+      "capacity": "Rango de lote: 500g – 5.000kg por lote de compuesto",
+      "mixer": "Mezclador: proceso Banbury interno con receta y registros de pesaje controlados",
+      "throughput": "Planificación: según volumen, familia de compuesto y pruebas de liberación",
+      "intro": "Tres ventajas operativas de una línea controlada:",
+      "adv1Title": "1. CONSISTENCingeniería DEL COMPUESTO",
+      "adv1Body": "La misma ruta de proceso, ventana de control y registros repetibles estabilizan el suministro a largo plazo.",
+      "adv2Title": "2. CONTROL DE RIESGO DE CONTAMINACIÓN",
+      "adv2Body": "La planificación de secuencia y limpieza ayuda a proteger programas limpios y de larga vida.",
+      "adv3Title": "3. REVISIÓN TÉCNICA EN LIBERACIÓN",
+      "adv3Body": "Reología, viscosidad Mooney e indicadores clave se revisan antes de moldeo."
+    },
+    "labEquipment": {
+      "title": "Dentro de nuestro laboratorio I+D",
+      "items": [
+        {
+          "name": "Reómetro / viscosímetro Mooney",
+          "desc": "Características de curado y viscosidad"
+        },
+        {
+          "name": "Máquina universal de tracción",
+          "desc": "Resistencia y elongación"
+        },
+        {
+          "name": "Horno de envejecimiento",
+          "desc": "Envejecimiento térmico y ozono"
+        },
+        {
+          "name": "Probador de compresión permanente",
+          "desc": "Durabilidad de sellado"
+        },
+        {
+          "name": "Baño de inmersión en aceite",
+          "desc": "Resistencia a fluidos"
+        },
+        {
+          "name": "Durómetro",
+          "desc": "Dureza Shore A / Shore D"
+        }
+      ],
+      "fullLink": "Ver equipos completos y normas ASTM/ISO"
+    },
+    "workflow": {
+      "title": "De la aplicación a la producción",
+      "stages": [
+        {
+          "stage": "Etapa 1",
+          "name": "EVALUACIÓN DE NECESIDAD",
+          "timeline": "Dentro de 5 días hábiles",
+          "desc": "Comparte temperatura, medio, movimiento, vida útil, plano y volumen anual."
+        },
+        {
+          "stage": "Etapa 2",
+          "name": "DISEÑO DE FORMULACIÓN",
+          "timeline": "3-6 semanas",
+          "desc": "Seleccionamos o ajustamos compuestos candidatos según polímero, química de servicio y ruta de producción."
+        },
+        {
+          "stage": "Etapa 3",
+          "name": "PRUEBA DE LABORATORIO",
+          "timeline": "2-4 semanas",
+          "desc": "Se mezclan y prueban lotes pequeños para entender la ventana de material antes de muestras moldeadas."
+        },
+        {
+          "stage": "Etapa 4",
+          "name": "MOLDEO PILOTO",
+          "timeline": "2-3 semanas",
+          "desc": "Herramental piloto o moldeo de prueba produce muestras para revisión dimensional y funcional."
+        },
+        {
+          "stage": "Etapa 5",
+          "name": "LIBERACIÓN DE PRODUCCIÓN",
+          "timeline": "4-8 semanas",
+          "desc": "Inspección de primer artículo, trazabilidad y controles se alinean para suministro repetido."
+        }
+      ],
+      "totalNote": "Tiempo típico: 12-24 semanas para una nueva ruta de compuesto, o 4-8 semanas al adaptar un compuesto RubberQ existente."
+    },
+    "library": {
+      "title": "Biblioteca de compuestos",
+      "intro": "RubberQ mantiene una biblioteca creciente en principales familias de polímeros. Las recetas son propietarias; el rango de capacidad se muestra abajo.",
+      "columns": [
+        "Familia",
+        "Aplicaciones típicas",
+        "Rango de temperatura",
+        "Propiedad clave"
+      ],
+      "rows": [
+        {
+          "family": "FKM",
+          "apps": "Industrial / Automotive / Chemical",
+          "temp": "-20 to +200°C",
+          "key": "Chemical resistance"
+        },
+        {
+          "family": "FFKM",
+          "apps": "Semiconductor / Plasma / High-purity",
+          "temp": "-20 to +260°C",
+          "key": "Extreme chemical and thermal purity"
+        },
+        {
+          "family": "HNBR",
+          "apps": "EV thermal systems / High-temp equipment",
+          "temp": "-40 to +160°C",
+          "key": "Low compression set, oil and heat"
+        },
+        {
+          "family": "NBR",
+          "apps": "Hydraulic / Oil sealing / General industrial",
+          "temp": "-40 to +120°C",
+          "key": "Cost-effective oil resistance"
+        },
+        {
+          "family": "EPDM",
+          "apps": "Outdoor enclosures / Steam / Energy systems",
+          "temp": "-50 to +150°C",
+          "key": "Weather, ozone, steam resistance"
+        },
+        {
+          "family": "ACM",
+          "apps": "Automotive transmission / ATF",
+          "temp": "-25 to +175°C",
+          "key": "ATF resistance"
+        },
+        {
+          "family": "AEM",
+          "apps": "Automotive heat ducts / Hoses",
+          "temp": "-40 to +175°C",
+          "key": "Heat and oil resistance"
+        },
+        {
+          "family": "HCR Silicone",
+          "apps": "Industrial seals / Wide temperature",
+          "temp": "-60 to +230°C",
+          "key": "Extreme temperature range"
+        },
+        {
+          "family": "LSR",
+          "apps": "Precision overmolding / Liquid injection",
+          "temp": "-60 to +200°C",
+          "key": "Tight-tolerance overmolding"
+        }
+      ],
+      "outro": "¿Necesita una combinación no listada? Comparta condiciones de aplicación y revisaremos la ruta de material.",
+      "cta": "Iniciar brief de compuesto personalizado"
+    },
+    "boundaries": {
+      "title": "Rutas de desarrollo y tiempos",
+      "intro": "Alineamos alcance y tiempos temprano para que compras e ingeniería puedan planificar:",
+      "fast": {
+        "label": "AJUSTE DE COMPUESTO EXISTENTE (4-8 semanas)",
+        "desc": "Ajustar dureza, costo objetivo o una propiedad de un compuesto RubberQ existente."
+      },
+      "standard": {
+        "label": "SELECCIÓN Y VALIDACIÓN (8-16 semanas)",
+        "desc": "Seleccionar y validar desde nuestra biblioteca para aplicación y plano específicos."
+      },
+      "ndaDependent": {
+        "label": "NUEVA RUTA DE COMPUESTO (12-24 semanas)",
+        "desc": "Desarrollar una nueva ruta de material con plan de prueba, muestras y criterios de liberación acordados."
+      },
+      "validationNote": "Para nuevos compuestos, unimos formulación con plan de validación para alinear muestras, pruebas y liberación de producción."
+    },
+    "finalCta": {
+      "title": "¿Listo para co-desarrollar?",
+      "subtitle": "Si tiene plano para cotizar o una condición de aplicación que necesita guía de material, empiece con los datos de operación.",
+      "ctaPrimary": "Enviar brief de aplicación",
+      "ctaSecondary": "Solicitar ficha de compuesto"
+    },
+    "visualLabels": {
+      "hero": "Línea A de mezcla en operación",
+      "machine": "Línea A de mezcla",
+      "control": "Pesaje y control de proceso",
+      "process": "Alimentación y descarga de material",
+      "equipment": "Equipo de laboratorio",
+      "processVideo": "Video de proceso",
+      "processVideoMeta": "Resumen del proceso de fábrica"
+    }
+  },
+  "rfqV2": {
+    "projectType": {
+      "label": "Tipo de proyecto",
+      "drawing": "RFQ con plano — tengo especificación y necesito cotización",
+      "application": "Consulta por aplicación — tengo condiciones de uso y necesito guía de material",
+      "sample": "Solo solicitud de muestra"
+    },
+    "annualVolume": {
+      "label": "Volumen anual estimado",
+      "options": {
+        "under10k": "Menos de 10.000 piezas",
+        "10kTo100k": "10.000 – 100.000 piezas",
+        "100kTo1m": "100.000 – 1.000.000 piezas",
+        "1mTo5m": "1.000.000 – 5.000.000 piezas",
+        "over5m": "Más de 5.000.000 piezas"
+      },
+      "hintLow": "Para pilotos o bajo volumen, comparta planos y requisitos de material para recomendar una ruta práctica.",
+      "hintHigh": "Para programas grandes, comparta volumen anual, tolerancia, calidad y expectativas de entrega."
+    },
+    "quoteComponents": {
+      "label": "Componentes de cotización necesarios",
+      "compoundDev": "Factibilidad de material y guía técnica",
+      "tooling": "Estimación de herramental",
+      "perPiece": "Precio por pieza en producción",
+      "nda": "NDA antes del intercambio técnico",
+      "sample": "Cotización de muestra para evaluación"
+    },
+    "projectStage": {
+      "label": "Etapa del proyecto",
+      "feasibility": "Estudio de factibilidad",
+      "prototype": "Prototipo / piloto",
+      "preProduction": "Validación preproducción",
+      "production": "Producción / acuerdo de suministro"
+    },
+    "responseSla": {
+      "title": "Tiempo típico de respuesta:",
+      "drawing": "RFQ con plano: 12-24 horas tras recibir información completa",
+      "application": "Consulta por aplicación: 3-5 días hábiles para revisión técnica inicial",
+      "sample": "Solicitud de muestra: 24-48 horas"
+    },
+    "industryOptionsV2": {
+      "ev": "EV y almacenamiento de energía",
+      "industrial": "Equipo industrial (hidráulica / neumática / bombas / válvulas)",
+      "semiconductor": "Semiconductor (sellos de proceso FKM / FFKM)",
+      "automotiveTier2": "Automotriz Tier 2",
+      "robotics": "Equipo industrial",
+      "aiHardware": "Equipo de proceso semiconductor",
+      "other": "Otro (describa)"
+    }
+  },
+  "testing": {
+    "hero": {
+      "badge": "Validación interna según ASTM / ISO",
+      "title": "Cada compuesto. Cada lote. Probado internamente.",
+      "subtitle": "Nuestro laboratorio valida formulaciones y lotes de producción con métodos ASTM e ISO reconocidos antes de pasar a producción."
+    },
+    "matrix": {
+      "title": "Matriz de capacidad de prueba",
+      "columns": [
+        "Equipo",
+        "Prueba",
+        "Normas"
+      ],
+      "rows": [
+        {
+          "equipment": "Universal Tensile Tester",
+          "test": "Tensile Strength, Elongation, Modulus",
+          "standards": "ASTM D412 / ISO 37"
+        },
+        {
+          "equipment": "Aging Oven",
+          "test": "Heat Aging, Ozone Resistance",
+          "standards": "ASTM D573 / D1149"
+        },
+        {
+          "equipment": "Compression Set Tester",
+          "test": "Compression Set",
+          "standards": "ASTM D395"
+        },
+        {
+          "equipment": "Oil Immersion Bath",
+          "test": "Fluid / Oil / Fuel Resistance",
+          "standards": "ASTM D471 / ISO 1817"
+        },
+        {
+          "equipment": "Durometer (Shore A/D)",
+          "test": "Hardness",
+          "standards": "ASTM D2240"
+        },
+        {
+          "equipment": "Rheometer (MDR)",
+          "test": "Cure Characteristics",
+          "standards": "ASTM D5289"
+        },
+        {
+          "equipment": "Mooney Viscometer",
+          "test": "Mooney Viscosity, Scorch",
+          "standards": "ASTM D1646 / ISO 289"
+        },
+        {
+          "equipment": "Specific Gravity Balance",
+          "test": "Density Verification",
+          "standards": "ASTM D297"
+        },
+        {
+          "equipment": "DMA",
+          "test": "Dynamic Mechanical Analysis when required",
+          "standards": "ASTM D5992 / ISO 4664"
+        },
+        {
+          "equipment": "TGA",
+          "test": "Thermogravimetric Analysis when required",
+          "standards": "ASTM E1131"
+        },
+        {
+          "equipment": "Video Measuring System",
+          "test": "Dimensional Inspection",
+          "standards": "ISO 3302-1 Class M1"
+        }
+      ],
+      "calibrationNote": "Los equipos de medición se gestionan con registros programados de calibración y mantenimiento."
+    },
+    "sampleReport": {
+      "title": "Qué incluyen nuestros reportes de prueba",
+      "body": "Los reportes estándar pueden incluir referencia del cliente, ID de lote, familia de polímero, valores de propiedades, método ASTM/ISO, comparación contra objetivo, aprobación técnica, revisión de laboratorio y referencias de calibración.",
+      "cta": "Descargar reporte de muestra (PDF)"
+    },
+    "customProtocols": {
+      "title": "Protocolos de prueba personalizados disponibles",
+      "intro": "Además de métodos ASTM/ISO, podemos realizar pruebas específicas por aplicación, como:",
+      "items": [
+        "Inmersión prolongada en su fluido de servicio",
+        "Ciclos de envejecimiento con temperatura personalizada",
+        "Compresión permanente a temperaturas no estándar",
+        "Relajación de esfuerzo",
+        "Utillajes de prueba suministrados por el cliente"
+      ],
+      "cta": "Discutir protocolo de validación"
+    },
+    "qualityLink": "Quality systems & certifications",
+    "visualLabels": {
+      "hero": "Laboratorio de pruebas",
+      "equipment": "Equipo de prueba",
+      "report": "Reporte de prueba de muestra",
+      "reportMeta": "Formato de reporte A4"
+    }
+  },
+  "aboutV2": {
+    "heroQuote": "Ingeniería de formulación japonesa. Manufactura precisa china. Un socio confiable desde 1995.",
+    "subtitleV2": "Joint venture sino-japonés establecido en junio de 1995, que combina experiencia japonesa en formulación con manufactura precisa china y pruebas internas.",
+    "heritageText1V2": "Desde 1995, RubberQ suministra componentes de goma de precisión bajo sistemas de calidad exigentes. Nuestros compuestos se apoyan en conocimiento japonés de formulación y se validan en laboratorio propio antes de liberar producción.",
+    "heritageText2V2": "Hoy aplicamos esa experiencia a EV y almacenamiento, equipo industrial, sellos de proceso semiconductor y programas automotrices Tier 2.",
+    "dualBrain": {
+      "title": "Cómo trabajamos — modelo de doble capacidad",
+      "japan": {
+        "icon": "JPN",
+        "label": "JAPÓN",
+        "body": "Soporte de formulación a largo plazo y experiencia en química de polímeros."
+      },
+      "china": {
+        "icon": "CN",
+        "label": "CHINA",
+        "body": "Manufactura precisa con ruta A de mezcla controlada en Fuzhou."
+      },
+      "lab": {
+        "icon": "LAB",
+        "label": "LABORATORIO PROPIO",
+        "body": "Pruebas de material y liberación de lote antes de producción."
+      },
+      "caption": "RubberQ combina disciplina de formulación, control de fabricación y eficiencia práctica de costo para suministro B2B a largo plazo."
+    },
+    "stats": {
+      "years": "30",
+      "yearsLabel": "Años de experiencia",
+      "factoryArea": "20K",
+      "factoryAreaLabel": "m² de fábrica",
+      "iatfLabel": "16949 certificado",
+      "jpEngineers": "1995",
+      "jpEngineersLabel": "Alianza de formulación desde"
+    },
+    "whatWeDontDo": {
+      "title": "Cómo RubberQ apoya su proyecto",
+      "notFitTitle": "Confirme temprano si su proyecto requiere:",
+      "notFitItems": [
+        "Calificación healthcare regulada u otra certificación especial fuera del sistema ISO/IATF actual de RubberQ.",
+        "Aprobaciones específicas de cliente, documentación especial o evaluación de sitio.",
+        "Programas commodity muy grandes o proyectos de precio mínimo donde deben alinearse plano, calidad y entrega."
+      ],
+      "rightFitTitle": "Dónde RubberQ aporta más valor:",
+      "rightFitItems": [
+        "Piezas de goma que necesitan calidad estable, apariencia limpia o control dimensional estricto",
+        "Piezas estándar o personalizadas que se benefician de revisión de material, molde, proceso o tolerancia",
+        "Programas de suministro a largo plazo con trazabilidad de compuesto y consistencia por lote",
+        "RFQ pequeños, medianos o grandes donde importan formulación japonesa y manufactura precisa china"
+      ],
+      "cta": "Discutir proyecto"
+    },
+    "media": {
+      "formulation": "Alianza de formulación",
+      "manufacturing": "Manufactura de precisión",
+      "lab": "Laboratorio de pruebas",
+      "video": "Video de fábrica",
+      "scene": "Visual de capacidad de fábrica"
+    }
+  },
+  "industriesPage": {
+    "index": {
+      "hero": {
+        "title": "Industrias que servimos",
+        "subtitle": "RubberQ apoya cuatro sectores donde los compuestos técnicos y la manufactura estable son clave."
+      },
+      "notSeeing": "¿No ve su industria? Muchas aplicaciones de goma de precisión encajan en estos cuatro grupos.",
+      "talkCta": "Hablar con ingeniería",
+      "visualLabel": "Visual de aplicación",
+      "explore": "Explorar"
+    },
+    "common": {
+      "recommendedCompounds": "Compuestos recomendados"
+    },
+    "ev": {
+      "hero": {
+        "title": "Goma de precisión para EV y almacenamiento de energía",
+        "subtitle": "Las aplicaciones EV y de almacenamiento requieren materiales de sellado estables frente a ciclos térmicos, fluidos, vibración y clima exterior."
+      },
+      "subSectors": {
+        "title": "Áreas de aplicación EV y energía",
+        "charging": {
+          "name": "Infraestructura de carga",
+          "icon": "⚡",
+          "apps": [
+            "Sellos para conectores de carga e interfaces de cable",
+            "Juntas para gabinetes y envolventes de carga",
+            "Sellos para paneles exteriores",
+            "Piezas de sellado para uniones de cable"
+          ],
+          "compounds": "EPDM, FKM, Silicona"
+        },
+        "bess": {
+          "name": "Sistemas de almacenamiento BESS",
+          "icon": "⚡",
+          "apps": [
+            "Sellado de gabinete y puerta de acceso",
+            "Sellos para prensaestopas y bujes",
+            "Soportes de aislamiento de vibración",
+            "Juntas para envolventes exteriores"
+          ],
+          "compounds": "EPDM, HNBR, NBR"
+        },
+        "peripheral": {
+          "name": "Periféricos EV y equipo de fabricación",
+          "icon": "⚡",
+          "apps": [
+            "Juntas para cámaras de ciclo térmico",
+            "Sellado de líneas de producción de componentes EV",
+            "Sellos para equipos de prueba de unidad motriz",
+            "Piezas elastoméricas para utillajes"
+          ],
+          "compounds": "FKM, HNBR, FFKM según condiciones de proceso"
+        },
+        "vehicle": {
+          "name": "Componentes EV Tier 2",
+          "icon": "⚡",
+          "apps": [
+            "O-rings y mangueras de gestión térmica",
+            "Sellos para conectores de bajo/medio voltaje",
+            "Aisladores y soportes de vibración",
+            "Sellos de sensores y módulos"
+          ],
+          "compounds": "HNBR, FKM, EPDM, ACM, AEM"
+        }
+      },
+      "whyChemistry": {
+        "title": "Por qué importa la química del compuesto en EV",
+        "intro": "Las aplicaciones EV y de energía suelen combinar:",
+        "points": [
+          "Exposición térmica continua en sistemas térmicos",
+          "Compresión prolongada bajo carga estática",
+          "Refrigerantes, fluidos dieléctricos, ozono y clima exterior",
+          "Vibración combinada con ciclos térmicos"
+        ],
+        "edge": "RubberQ revisa la química del compuesto contra las condiciones reales de servicio, no solo la geometría moldeada."
+      },
+      "engagement": {
+        "title": "Cómo trabajamos",
+        "drawings": "Para RFQ con plano, comparta plano, material objetivo, volumen anual y requisitos de calidad.",
+        "application": "Para consultas por aplicación, revisamos temperatura, medio, movimiento, vida útil y expectativas de calificación antes de recomendar material."
+      },
+      "ctaPrimary": "Enviar aplicación EV",
+      "ctaSecondary": "Descargar hoja de capacidad EV"
+    },
+    "industrial": {
+      "hero": {
+        "title": "Sellos de precisión para equipo industrial",
+        "subtitle": "Equipos hidráulicos, neumáticos, bombas, válvulas y procesos necesitan piezas de goma estables bajo presión, aceite, calor y movimiento repetido."
+      },
+      "subSectors": {
+        "title": "Subsectores de aplicación",
+        "items": [
+          {
+            "name": "Hidráulica y neumática",
+            "list": [
+              "Sellos de vástago, pistón y limpiadores",
+              "Sellos para actuadores neumáticos"
+            ]
+          },
+          {
+            "name": "Bombas y válvulas",
+            "list": [
+              "Juntas de carcasa de bomba",
+              "Sellos de vástago de válvula"
+            ]
+          },
+          {
+            "name": "Protección de guías de máquina",
+            "list": [
+              "Fuelles, botas, cubiertas de guías"
+            ]
+          },
+          {
+            "name": "Equipo de proceso",
+            "list": [
+              "Juntas resistentes al vapor",
+              "Sellos resistentes a químicos"
+            ]
+          }
+        ]
+      },
+      "whyUs": {
+        "title": "Por qué clientes industriales eligen RubberQ",
+        "items": [
+          "Compuestos técnicos con manufactura controlada",
+          "Moldeo e inspección de precisión según plano",
+          "Disciplina IATF 16949 aplicada a suministro OEM industrial",
+          "Consistencia de compuesto para programas repetidos"
+        ]
+      },
+      "cta": "Solicitar cotización"
+    },
+    "semiconductor": {
+      "hero": {
+        "title": "Sellos FKM y FFKM para manufactura de semiconductores",
+        "subtitle": "Los equipos de proceso semiconductor requieren pureza de material, resistencia química, manejo limpio y registros trazables."
+      },
+      "engagement": {
+        "title": "Dónde participamos",
+        "intro": "El sellado semiconductor se revisa según condiciones de proceso, no como pieza genérica de catálogo.",
+        "fkm": {
+          "label": "Sellos de proceso basados en FKM",
+          "desc": "Para interfaces donde FKM encaja con medio, temperatura y manejo."
+        },
+        "ffkm": {
+          "label": "Sellos de proceso basados en FFKM",
+          "desc": "Para condiciones exigentes que requieren resistencia química y térmica premium."
+        }
+      },
+      "whySingleLine": {
+        "title": "Por qué importa una línea de mezcla única",
+        "body": "Una ruta A de mezcla controlada, planificación de secuencia y registros de limpieza ayudan a manejar consistencia para programas limpios y de larga vida."
+      },
+      "processCompat": {
+        "title": "Revisión de compatibilidad de proceso",
+        "body": "Comparta condiciones de proceso, medio, temperatura, movimiento y vida útil esperada. RubberQ revisará la ruta FKM o FFKM adecuada."
+      },
+      "cta": "Enviar aplicación semiconductor"
+    },
+    "automotive": {
+      "hero": {
+        "title": "Componentes automotrices Tier 2 — donde importa la precisión",
+        "subtitle": "RubberQ tiene experiencia en programas automotrices japoneses y apoya componentes Tier 2 donde importan estabilidad del compuesto, control de tolerancia y suministro repetible."
+      },
+      "whereWeFit": {
+        "title": "Dónde RubberQ aporta valor",
+        "fitTitle": "Mayor valor",
+        "fitItems": [
+          "Componentes Tier 2 donde el material afecta el rendimiento de ensamblaje",
+          "Piezas estándar, personalizadas, de bajo o alto volumen que necesitan calidad estable",
+          "Revisión de compuesto y proceso con equipos de ingeniería del cliente"
+        ],
+        "confirmTitle": "Confirmar temprano",
+        "notFitItems": [
+          "Programas con aprobaciones especiales de cliente, evaluaciones de sitio o documentos específicos",
+          "Aplicaciones healthcare u otras reguladas que requieren certificación especial"
+        ]
+      },
+      "customerProfile": {
+        "title": "Perfil de cliente",
+        "items": [
+          "Relaciones OEM japonesas desde 1995",
+          "Experiencia en cadenas Tier 1 y Tier 2",
+          "Aplicaciones donde importan química del compuesto y estabilidad de fabricación"
+        ]
+      },
+      "cta": "Discutir componente Tier 2"
+    }
+  },
+  "visualLabels": {
+    "manufacturing": "Escena de manufactura en fábrica",
+    "ev": "Aplicaciones EV y almacenamiento",
+    "industrial": "Aplicaciones de equipo industrial",
+    "semiconductor": "Aplicaciones de sellado semiconductor",
+    "automotive": "Aplicaciones automotriz Tier 2"
+  },
+  "goodFit": {
+    "title": "¿RubberQ puede apoyar su proyecto?",
+    "subtitle": "Piezas estándar, personalizadas, lotes pequeños y programas grandes se pueden discutir.",
+    "fitTitle": "DÓNDE APORTAMOS MÁS VALOR",
+    "fitItems": [
+      "Calidad de goma estable y consistencia por lote",
+      "Control más estricto de dimensión, tolerancia o apariencia",
+      "Apoyo en material, molde o proceso",
+      "Piezas estándar, personalizadas, bajo volumen o programas grandes",
+      "Sistemas IATF 16949 / ISO 9001 / ISO 14001"
+    ],
+    "notFitTitle": "CONFIRMAR EN RFQ",
+    "notFitItems": [
+      "Proyectos que requieren certificación healthcare dedicada deben revisarse primero.",
+      "Aprobaciones de cliente, documentos especiales o evaluación en sitio deben compartirse en RFQ."
+    ],
+    "cta": "Discutir proyecto"
+  },
+  "footerTagline": "Formulación japonesa. Precisión china. Confiable desde 1995.",
+  "qualityV2": {
+    "heroSubtitleV2": "Desde el diseño de compuesto hasta la inspección final, nuestro sistema de calidad certificado IATF 16949 apoya a clientes de EV/almacenamiento, equipo industrial, semiconductor y automotriz Tier 2 con trazabilidad de compuesto durante años de producción.",
+    "whySingleLine": {
+      "title": "Por qué usamos una sola línea de mezcla A",
+      "intro": "Esta línea ofrece tres ventajas prácticas para el cliente:",
+      "points": [
+        "Consistencia de compuesto en producción repetida a largo plazo.",
+        "Menor riesgo de contaminación cruzada mediante programación por secuencia y SOP de limpieza.",
+        "Lotes acompañados por ingeniería con controles de reología, Mooney y propiedades clave."
+      ],
+      "link": "Ver capacidades de compounding"
+    }
+  },
+  "capabilitiesV2": {
+    "heroSubtitleV2": "Nuestro proceso de mezcla en dos etapas opera en una línea A dedicada, desarrollada con soporte japonés de formulación. Al separar masterbatch y mezcla final, logramos consistencia estable entre lotes para aplicaciones exigentes.",
+    "singleLineCallout": {
+      "title": "Control en una sola línea A",
+      "body": "RubberQ programa familias de compuesto según riesgo de contaminación, limpia entre familias de lote con SOP y mantiene registros de mezcla A ligados a cada lote. Esto apoya alta pureza y repetibilidad a largo plazo sin exponer recetas específicas del cliente.",
+      "cta": "Ver estrategia de compounding"
     }
   }
 }

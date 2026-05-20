@@ -16,6 +16,13 @@ const av2 = (key: string, fallback = '') => t(messages, `aboutV2.${key}`, fallba
 
 const notFitItems = tRaw(messages, 'aboutV2.whatWeDontDo.notFitItems', []);
 const rightFitItems = tRaw(messages, 'aboutV2.whatWeDontDo.rightFitItems', []);
+const mediaLabels = {
+  formulation: av2('media.formulation', 'Formulation Partnership'),
+  manufacturing: av2('media.manufacturing', 'Precision Manufacturing'),
+  lab: av2('media.lab', 'Testing Laboratory'),
+  video: av2('media.video', 'Factory Introduction Video'),
+  scene: av2('media.scene', 'Factory Capability Visual'),
+};
 
 const orgSchema = createOrganizationSchema(locale!);
 
@@ -89,7 +96,7 @@ const factoryScenes = [
               data-priority="important"
             >
               <span class="text-4xl mb-1">{av2('dualBrain.japan.icon')}</span>
-              <span class="text-industrial-500">[placeholder]</span>
+              <span class="text-industrial-500">{mediaLabels.formulation}</span>
             </div>
             <h3 class="text-lg font-bold tracking-widest text-accent-orange mb-3 uppercase">{av2('dualBrain.japan.label')}</h3>
             <p class="text-industrial-700 leading-relaxed">{av2('dualBrain.japan.body')}</p>
@@ -105,7 +112,7 @@ const factoryScenes = [
               data-priority="important"
             >
               <span class="text-4xl mb-1">{av2('dualBrain.china.icon')}</span>
-              <span class="text-industrial-500">[placeholder]</span>
+              <span class="text-industrial-500">{mediaLabels.manufacturing}</span>
             </div>
             <h3 class="text-lg font-bold tracking-widest text-accent-orange mb-3 uppercase">{av2('dualBrain.china.label')}</h3>
             <p class="text-industrial-700 leading-relaxed">{av2('dualBrain.china.body')}</p>
@@ -121,7 +128,7 @@ const factoryScenes = [
               data-priority="important"
             >
               <span class="text-4xl mb-1">{av2('dualBrain.lab.icon')}</span>
-              <span class="text-industrial-500">[placeholder]</span>
+              <span class="text-industrial-500">{mediaLabels.lab}</span>
             </div>
             <h3 class="text-lg font-bold tracking-widest text-accent-orange mb-3 uppercase">{av2('dualBrain.lab.label')}</h3>
             <p class="text-industrial-700 leading-relaxed">{av2('dualBrain.lab.body')}</p>
@@ -152,7 +159,7 @@ const factoryScenes = [
             </svg>
           </div>
           <h3 class="text-2xl font-bold text-industrial-900 uppercase tracking-widest">{a('watchVideo')}</h3>
-          <p class="text-industrial-600 mt-2 text-sm">[VIDEO PLACEHOLDER · about-corporate-video · 用户已有素材]</p>
+          <p class="text-industrial-600 mt-2 text-sm">{mediaLabels.video}</p>
         </div>
       </div>
     </section>
@@ -207,8 +214,8 @@ const factoryScenes = [
                 data-spec="1200x800"
                 data-priority="important"
               >
-                <span class="text-[10px] uppercase tracking-widest text-industrial-400">PLACEHOLDER</span>
-                <span class="text-xs text-industrial-600 mt-1">{scene.slotId}</span>
+                <span class="text-[10px] uppercase tracking-widest text-industrial-400">{mediaLabels.scene}</span>
+                <span class="text-xs text-industrial-600 mt-1">{a(scene.titleKey)}</span>
               </div>
               <div class="p-6">
                 <h4 class="font-bold text-lg mb-2">{a(scene.titleKey)}</h4>

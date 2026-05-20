@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useCallback } from 'react';
-import { X, ZoomIn, Download, Calendar, Building2, Award } from 'lucide-react';
+import { X, ZoomIn, Download, FileText, Building2, Award } from 'lucide-react';
 // TrackableDownloadLink stub - removed for Astro migration
 
 interface Certificate {
@@ -11,7 +11,6 @@ interface Certificate {
   issuer: string;
   issueDate: string;
   expiryDate: string;
-  status: 'active' | 'expiring' | 'expired';
   description: string;
   placeholder: string;
   downloadUrl?: string;
@@ -44,18 +43,6 @@ export default function CertificateLightbox({ certificate, isOpen, onClose }: Ce
 
   if (!isOpen || !certificate) return null;
 
-  const statusColors = {
-    active: 'bg-industrial-100 text-industrial-700 border-industrial-200',
-    expiring: 'bg-industrial-100 text-industrial-700 border-industrial-200',
-    expired: 'bg-industrial-100 text-industrial-700 border-accent-orange'
-  };
-
-  const statusLabels = {
-    active: 'Valid',
-    expiring: 'Expiring Soon',
-    expired: 'Expired'
-  };
-
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center">
       {/* Backdrop */}
@@ -85,7 +72,6 @@ export default function CertificateLightbox({ certificate, isOpen, onClose }: Ce
           {/* Certificate Image */}
           <div className="lg:w-2/3 bg-industrial-50 p-8 flex items-center justify-center min-h-[400px]">
             <div className="relative w-full max-w-2xl">
-              {/* Placeholder Certificate */}
               <div className="bg-white shadow-xl border-8 border-industrial-100 p-8 aspect-[1.414/1] flex flex-col items-center justify-center text-center">
                 <div className="w-24 h-24 bg-industrial-100 rounded-full flex items-center justify-center mb-6">
                   <Award className="w-12 h-12 text-industrial-400" />
@@ -93,26 +79,20 @@ export default function CertificateLightbox({ certificate, isOpen, onClose }: Ce
                 <h3 className="text-2xl font-bold text-industrial-900 mb-2">{certificate.name}</h3>
                 <p className="text-industrial-500 mb-4">{certificate.org}</p>
                 <div className="w-32 h-1 bg-accent-orange mb-4" />
-                <p className="text-sm text-industrial-400">Certificate Preview</p>
+                <p className="text-sm text-industrial-400">Certificate Summary</p>
                 <p className="text-xs text-industrial-300 mt-8">Issued by {certificate.issuer}</p>
               </div>
               
               {/* Zoom Hint */}
               <div className="absolute bottom-4 right-4 bg-black/70 text-white px-3 py-1.5 rounded-full text-xs flex items-center gap-2">
                 <ZoomIn className="w-3 h-3" />
-                Click to zoom (placeholder)
+                Open certificate summary
               </div>
             </div>
           </div>
 
           {/* Certificate Details */}
           <div className="lg:w-1/3 p-6 bg-white border-l border-industrial-100">
-            {/* Status Badge */}
-            <div className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-medium border mb-6 ${statusColors[certificate.status]}`}>
-              <span className="w-2 h-2 rounded-full bg-current" />
-              {statusLabels[certificate.status]}
-            </div>
-
             {/* Details */}
             <div className="space-y-6">
               <div>
@@ -123,26 +103,12 @@ export default function CertificateLightbox({ certificate, isOpen, onClose }: Ce
                 <p className="text-industrial-900 font-semibold">{certificate.issuer}</p>
               </div>
 
-              <div className="grid grid-cols-2 gap-4">
-                <div>
-                  <div className="flex items-center gap-2 text-industrial-500 text-sm mb-1">
-                    <Calendar className="w-4 h-4" />
-                    <span className="font-medium uppercase tracking-wider">Issued</span>
-                  </div>
-                  <p className="text-industrial-900">{certificate.issueDate}</p>
+              <div>
+                <div className="flex items-center gap-2 text-industrial-500 text-sm mb-1">
+                  <FileText className="w-4 h-4" />
+                  <span className="font-medium uppercase tracking-wider">Documentation</span>
                 </div>
-                <div>
-                  <div className="flex items-center gap-2 text-industrial-500 text-sm mb-1">
-                    <Calendar className="w-4 h-4" />
-                    <span className="font-medium uppercase tracking-wider">Expires</span>
-                  </div>
-                  <p className={`font-semibold ${
-                    certificate.status === 'expiring' ? 'text-accent-orange' :
-                    certificate.status === 'expired' ? 'text-accent-orange' : 'text-industrial-900'
-                  }`}>
-                    {certificate.expiryDate}
-                  </p>
-                </div>
+                <p className="text-industrial-900">{certificate.issueDate}</p>
               </div>
 
               <div>

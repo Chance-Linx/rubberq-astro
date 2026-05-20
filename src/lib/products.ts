@@ -199,8 +199,8 @@ const PRODUCT_BLUEPRINTS: Record<ProductSlug, ProductBlueprint> = {
     applicationCases: [
       {
         title: 'Thermal Management Connector Seal',
-        scenario: 'Custom geometry for quick-connect liquid cooling assembly.',
-        result: 'Accelerated prototype iteration and faster qualification cycle.',
+        scenario: 'Custom geometry for a quick-connect thermal-fluid assembly.',
+        result: 'Accelerated prototype iteration and clearer qualification path.',
       },
       {
         title: 'Precision Machinery Damper',

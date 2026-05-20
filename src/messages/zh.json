@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "title": "RubberQ | 定制橡胶配方与精密零部件制造商",
-    "description": "RubberQ 自 1995 年起融合日本配方经验与中国精密制造，为 EV 与储能、工业设备、半导体和高端汽车 Tier 2 项目开发定制橡胶配方与精密零部件。",
+    "title": "RubberQ | 自 1995 年以来的定制橡胶配方与精密零部件",
+    "description": "RubberQ 融合日本配方支持与中国精密制造，为 EV 与储能、工业设备、半导体和汽车 Tier 2 项目开发定制橡胶配方与精密零部件。",
     "home": {
       "title": "RubberQ | 日本配方。中国精密制造。自 1995 年以来值得信赖。",
-      "description": "RubberQ 为 EV 与储能、工业设备、半导体和高端汽车 Tier 2 项目开发定制橡胶配方与精密零部件。自有 A 炼线与内部实验室支持批次一致性。"
+      "description": "RubberQ 为 EV 与储能、工业设备、半导体和汽车 Tier 2 项目开发定制橡胶配方与精密零部件，自有 A 炼线和自有实验室支持批次一致性。"
     },
     "blog": {
       "title": "技术知识中心 | RubberQ",
@@ -12,11 +12,11 @@
     },
     "capabilities": {
       "title": "制造工艺 | RubberQ",
-      "description": "探索RubberQ两阶段混炼和成型工艺，实现汽车级精密制造。"
+      "description": "探索 RubberQ 两阶段混炼和成型工艺，了解精密橡胶制造能力。"
     },
     "caseStudies": {
-      "title": "案例研究 | RubberQ",
-      "description": "机器人、AI基础设施和汽车领域的真实橡胶工程解决方案。"
+      "title": "工程应用案例 | RubberQ",
+      "description": "面向 EV、工业设备、半导体和汽车 Tier 2 客户的橡胶配方与零部件工程应用案例。"
     },
     "contact": {
       "title": "联系我们 | RubberQ",
@@ -27,8 +27,8 @@
       "description": "RubberQ 20,000平方米IATF 16949认证制造设施虚拟参观。"
     },
     "materials": {
-      "title": "工业材料 | RubberQ",
-      "description": "工业弹性体技术资源中心 — FKM、EPDM、NBR、硅胶。"
+      "title": "自有配方材料 | RubberQ",
+      "description": "RubberQ 在 HNBR、FKM、FFKM、EPDM、NBR、ACM、AEM、HCR 硅胶和 LSR 等材料上提供配方与测试支持。"
     },
     "privacy": {
       "title": "隐私政策 | RubberQ",
@@ -36,7 +36,7 @@
     },
     "quality": {
       "title": "质量保证 | RubberQ",
-      "description": "以IATF 16949、ISO 9001和ISO 14001认证确保毫不妥协的质量。"
+      "description": "IATF 16949 / ISO 9001 / ISO 14001 认证。RubberQ 管理配方追溯、检验记录和长期稳定生产。"
     },
     "resources": {
       "title": "技术资源 | RubberQ",
@@ -53,6 +53,10 @@
     "about": {
       "title": "我们的传承 | RubberQ",
       "description": "福州瑞博橡胶有限公司成立于1995年，最初为中日合资企业，将严格的日本制造标准引入中国工业腹地。"
+    },
+    "testing": {
+      "title": "测试与验证实验室 | RubberQ",
+      "description": "RubberQ 自有实验室依据 ASTM 与 ISO 方法验证配方和生产批次，再进入成型生产。"
     }
   },
   "navigation": {
@@ -80,7 +84,7 @@
     "titleLine2": "融入每个",
     "titleLine3": "分子。",
     "tagline": "日本配方。中国精密制造。自 1995 年以来值得信赖。",
-    "subtitle": "面向 EV 与储能、工业设备、半导体和高端汽车 Tier 2 项目的定制橡胶配方与精密零部件，依托 30 年中日协作经验，并由自有实验室完成验证。",
+    "subtitle": "面向 EV 与储能、工业设备、半导体和汽车 Tier 2 项目的定制橡胶配方与精密零部件，依托 30 年中日协作经验，并由自有实验室完成验证。",
     "ctaPrimary": "提交需求",
     "ctaSecondary": "了解研发能力",
     "trustBadges": [
@@ -94,16 +98,16 @@
     "summaryTitle": "快速技术摘要",
     "summaryItems": [
       {
-        "term": "自 1995 年延续至今的日本配方协作",
-        "description": "与日本配方工程师长期协作，把 30 年聚合物配方经验应用到客户项目。"
+        "term": "自 1995 年延续的日本配方支持",
+        "description": "根据客户工况开发和调整橡胶配方。"
       },
       {
         "term": "自有 A 炼线",
-        "description": "单线混炼结构帮助控制批次一致性，让多年后的复购仍能匹配原始配方。"
+        "description": "受控混炼路径支持多年供货中的批次一致性。"
       },
       {
-        "term": "内部验证实验室",
-        "description": "老化、拉伸、耐油、热稳定等测试在量产前按 ASTM / ISO 标准完成验证。"
+        "term": "自有测试实验室",
+        "description": "老化、拉伸、耐油、硬度和硫化行为在生产放行前完成测试。"
       }
     ],
     "jpRd": {
@@ -115,8 +119,8 @@
       "desc": "自有 A 炼线让 RubberQ 可以从配方源头控制批次一致性。"
     },
     "lab": {
-      "title": "内部测试实验室",
-      "desc": "老化、拉伸、耐油、热稳定等关键指标在内部完成验证。"
+      "title": "自有测试实验室",
+      "desc": "老化、拉伸、耐油、热稳定等关键指标在自有实验室完成验证。"
     },
     "heritage": {
       "title": "30 年中日制造传承",
@@ -124,11 +128,11 @@
     },
     "reliability": {
       "title": "可靠性",
-      "desc": "适用于全天候运行的基础设施的汽车级耐用性。"
+      "desc": "适用于全天候运行的基础设施的长期耐用性。"
     },
     "precision": {
       "title": "精准度",
-      "desc": "用于机器人关节和传感器的微米级精度。"
+      "desc": "用于工业设备关节和传感器的微米级精度。"
     },
     "traceability": {
       "title": "可追溯性",
@@ -136,36 +140,36 @@
     },
     "innovation": {
       "title": "创新",
-      "desc": "为AI液冷系统定制材料研发。"
+      "desc": "为高温流体密封系统定制材料研发。"
     }
   },
   "goodFit": {
-    "title": "你的项目可以交给 RubberQ 吗？",
-    "subtitle": "标准件、定制件、小批量或大批量项目都可以沟通。RubberQ 的优势在于更稳定的质量、更精细的制造控制，以及长期日本配方研发支持。",
+    "title": "RubberQ 可以支持您的项目吗？",
+    "subtitle": "标准件、定制件、小批量或大批量订单都可以沟通。RubberQ 的优势是稳定质量、更精细的过程控制，以及长期日本配方支持。",
     "fitTitle": "我们更能创造价值",
     "fitItems": [
-      "希望橡胶件质量更稳定、批次一致性更好",
-      "需要更精细的尺寸、公差或外观控制",
-      "需要材料、配方、模具或工艺上的工程配合",
-      "标准件、定制件、小批量或大批量项目都可以沟通",
-      "需要 IATF 16949 / ISO 9001 / ISO 14001 体系支持"
+      "需要更稳定橡胶质量和批次一致性的项目",
+      "需要更精细尺寸、公差或外观控制的零部件",
+      "需要材料、配方、模具或工艺工程支持的应用",
+      "标准件、定制件、小批量或大批量项目都欢迎沟通",
+      "需要 IATF 16949 / ISO 9001 / ISO 14001 制造体系支持的客户"
     ],
-    "notFitTitle": "需要提前确认",
+    "notFitTitle": "询价时请提前说明",
     "notFitItems": [
-      "涉及医疗器械级监管资质的项目，请先单独确认资质、文件和应用边界。",
-      "如项目有特殊行业准入或第三方认证要求，请在询盘阶段说明，我们会先确认是否可以配合。"
+      "如项目需要专门医疗体系认证，请在询价前说明，我们会先确认是否可以支持。",
+      "如项目有客户指定准入、特殊文件或现场评估要求，请在 RFQ 阶段说明。"
     ],
     "cta": "提交项目需求"
   },
   "capacityReframing": {
-    "title": "为精密项目而设计的产能结构",
-    "body": "我们的制造体系围绕稳定质量、可控混炼和可重复的精密生产来设计，典型配方批量约 500g 至 5,000kg。标准件、定制件、小批量或大批量项目都可以沟通；当客户重视质量一致性、材料追溯和工程配合时，RubberQ 的价值会更明显。",
+    "title": "为稳定精密生产而设计",
+    "body": "RubberQ 的制造体系围绕稳定质量、受控混炼和可重复精密生产展开。标准件、定制件、小批量或大批量项目都可以沟通；当客户重视质量一致性、材料追溯和工程支持时，我们的价值更明显。",
     "learnMore": "了解单线混炼如何运作"
   },
   "compoundingRDEntry": {
-    "title": "从聚合物到成品件：RubberQ 真正的隐藏优势",
-    "subtext": "多数橡胶供应商购买现成混炼胶。RubberQ 从配方开始控制材料。依托日本配方经验、自有 A 炼线和内部实验室，我们把聚合物化学、混炼、成型与验证放在同一条工程链路里。",
-    "cta": "了解我们的研发能力"
+    "title": "从聚合物到成品件",
+    "subtext": "RubberQ 依托日本配方支持、自有 A 炼线和自有实验室，把聚合物选择、混炼、成型和验证放在同一条工程链路里。",
+    "cta": "了解配方研发能力"
   },
   "footerTagline": "日本配方。中国精密制造。自 1995 年以来值得信赖。",
   "products": {
@@ -181,28 +185,28 @@
   },
   "industries": {
     "title": "我们服务的专业行业",
-    "subtitle": "我们聚焦四类最依赖工程配方和精密制造的行业，不试图服务所有市场。",
+    "subtitle": "RubberQ 支持 EV 与储能、工业设备、半导体和汽车 Tier 2 项目，尤其适合重视工程配方和稳定制造的应用。",
     "ev": {
       "title": "EV 与储能",
       "shortDesc": "面向充电基础设施、BESS、EV 周边设备和 Tier 2 车辆部件的橡胶配方。",
       "icon": "⚡"
     },
     "robotics": {
-      "title": "机器人与协作机器人",
-      "desc": "用于机器人关节和协作机器人应用的高精度密封件和阻尼部件"
+      "title": "工业设备",
+      "desc": "用于工业设备关节和工业自动化设备应用的高精度密封件和阻尼部件"
     },
     "ai": {
-      "title": "AI基础设施",
-      "desc": "用于数据中心和AI硬件冷却系统的热管理密封件"
+      "title": "半导体工艺设备",
+      "desc": "用于工业设备和半导体工艺设备冷却系统的热管理密封件"
     },
     "machinery": {
       "title": "精密机械",
       "desc": "用于精密设备的工业密封件和定制部件"
     },
     "automotive": {
-      "title": "高端汽车 Tier 2",
+      "title": "汽车 Tier 2",
       "desc": "发动机密封件、垫圈、软管和减振器",
-      "shortDesc": "面向高端汽车 Tier 2 关键部件，重点解决配方、验证和长期一致性问题。",
+      "shortDesc": "面向汽车 Tier 2 关键部件，重点解决配方、验证和长期一致性问题。",
       "icon": "🚗"
     },
     "industrial": {
@@ -265,7 +269,7 @@
       "industry": "目标行业",
       "industryOptions": {
         "robotics": "EV 与储能",
-        "ai": "AI硬件 / 数据中心",
+        "ai": "半导体工艺设备 / 工业设备",
         "automotive": "汽车（需IATF 16949认证）",
         "machinery": "精密机械",
         "other": "其他"
@@ -287,7 +291,7 @@
     "engineeringSales": "工程/销售",
     "manufacturingSite": "制造基地",
     "fastTrack": "2026年快速通道",
-    "fastTrackDesc": "分享您的设计文件（Google Drive / Dropbox链接），帮助我们的AI辅助报价引擎更快提供价格。",
+    "fastTrackDesc": "分享您的设计文件（Google Drive / Dropbox 链接），帮助工程报价团队更快评估价格。",
     "manufacturingAddress": "中国福建省福州市",
     "enhancement": {
       "globalDeliveryTitle": "全球交付覆盖",
@@ -308,8 +312,8 @@
     "watchVideo": "观看企业宣传片",
     "videoDuration": "[公司概览与工厂参观 - 3:45]",
     "heritageQuote": "\"汽车品质根植于我们的DNA。\"",
-    "heritageText1": "三十多年来，我们一直作为日本主要汽车品牌的长期OEM供应商。这段经历让我们深知，在精密制造中，容不得丝毫差错。",
-    "heritageText2": "今天，随着我们向人工智能和机器人领域拓展，我们将这种'零缺陷'文化传承到未来的技术中。",
+    "heritageText1": "自 1995 年以来，RubberQ 长期为日本汽车项目供应精密橡胶部件。这段经验沉淀为我们在材料控制、尺寸稳定和可重复量产上的制造纪律。",
+    "heritageText2": "今天，我们把同样的制造纪律延伸到 EV 与储能、工业设备、半导体工艺密封，以及部分汽车 Tier 2 项目。",
     "stats": {
       "years": "年经验",
       "factory": "平方米工厂",
@@ -328,14 +332,14 @@
       },
       "qc": {
         "title": "质量控制中心",
-        "desc": "100%自动化视觉检测系统，实现汽车级精度。"
+        "desc": "自动化视觉检测系统，支持精密制造要求。"
       },
       "logistics": {
         "title": "全球物流枢纽",
         "desc": "高效的仓储和全球运输能力。"
       }
     },
-    "imageNote": "注意：这些图片展示了我们实际的车间环境和技術能力。我们欢迎实地考察和第三方审核。",
+    "imageNote": "注意：这些图片展示了我们实际的车间环境和技術能力。我们欢迎实地考察和客户现场评估。",
     "coreValues": "核心价值观",
     "values": {
       "precision": {
@@ -354,16 +358,16 @@
   },
   "productsPage": {
     "metadata": {
-      "title": "产品 | RubberQ - 汽车级橡胶零部件",
-      "description": "定制橡胶密封件、垫圈、波纹管和模压件。通过IATF 16949认证，应用于机器人、汽车和工业领域。"
+      "title": "产品 | RubberQ - 精密橡胶零部件",
+      "description": "定制橡胶密封件、垫圈、波纹管和模压件。通过IATF 16949认证，应用于工业设备、汽车和工业领域。"
     },
     "badge": "IATF 16949 认证",
     "title": "产品组合",
-    "subtitle": "为严苛应用而设计的精密橡胶部件。从标准密封件到复杂的定制模具，均采用汽车级质量体系制造。",
+    "subtitle": "为严苛应用而设计的精密橡胶部件。从标准密封件到复杂的定制模具，均采用 IATF 16949 质量体系制造。",
     "capability": "能力",
     "manufacturingFootprint": "制造足迹",
     "categoriesTitle": "零部件类别",
-    "categoriesSubtitle": "四大核心产品系列，服务于机器人、汽车、AI基础设施和精密机械行业。",
+    "categoriesSubtitle": "四大核心产品系列，服务于工业设备、汽车、半导体工艺设备和精密机械行业。",
     "certifications": [
       "IATF 16949:2016 认证",
       "ISO 9001:2015 质量",
@@ -409,7 +413,7 @@
       "name": "波纹管与防尘罩",
       "desc": "用于直线和旋转运动系统的柔性保护套，具有延长疲劳寿命。",
       "applications": [
-        "机器人关节",
+        "工业设备关节",
         "线性执行器",
         "等速万向节",
         "机床导轨"
@@ -563,7 +567,7 @@
         "tips": [
           "外壁最小拔模角度0.5°",
           "纹理表面建议1-2°",
-          "内部特征可能需要1-3°拔模角度"
+          "内侧结构可能需要1-3°拔模角度"
         ]
       },
       "shrinkage": {
@@ -650,7 +654,7 @@
     "title": "质量保证",
     "hero": {
       "title": "毫不妥协的质量",
-      "subtitle": "从配方设计到最终检验，RubberQ 的 IATF 16949 质量体系服务 EV/储能、工业设备、半导体和高端汽车 Tier 2 项目，并保持跨年度批次追溯。"
+      "subtitle": "从配方设计到最终检验，RubberQ 的 IATF 16949 质量体系服务 EV/储能、工业设备、半导体和汽车 Tier 2 项目，并保持跨年度批次追溯。"
     },
     "certifications": {
       "title": "全球认证",
@@ -669,7 +673,9 @@
       "issued": "颁发日期",
       "expires": "到期日期",
       "scope": "范围",
-      "verification": "可通过颁发机构的官方注册表使用证书编号验证此证书。"
+      "verification": "可通过颁发机构的官方注册表使用证书编号验证此证书。",
+      "documentCenter": "RubberQ 质量资料中心",
+      "availableOnRequest": "可按需提供"
     },
     "certificates": {
       "iatf": {
@@ -698,7 +704,7 @@
       }
     },
     "lab": {
-      "title": "内部实验室",
+      "title": "自有实验室",
       "description": "我们最先进的测试设施配备了根据ASTM、ISO和SAE标准进行全面材料分析和产品验证的设备。",
       "note": "所有设备每年由CNAS认可的第三方实验室校准。",
       "equipment": [
@@ -756,7 +762,7 @@
     "traceability": {
       "title": "全过程控制",
       "mainTitle": "全链路可追溯",
-      "subtitle": "我们的汽车级传承意味着每个部件都遵循严格的基于证据的制造周期。",
+      "subtitle": "RubberQ 的长期供货经验，沉淀为稳定、可追溯的制造周期。",
       "steps": [
         {
           "title": "APQP",
@@ -836,7 +842,7 @@
             "硫化仪扭力曲线",
             "硬度、拉伸强度和扯断伸长率"
           ],
-          "evidence": "内部实验室报告和批次放行记录"
+          "evidence": "自有实验室报告和批次放行记录"
         },
         {
           "title": "成型与出货放行",
@@ -849,19 +855,19 @@
           "evidence": "尺寸报告、终检记录、包装标签和出货确认"
         }
       ],
-      "metricsTitle": "脱敏控制计划中的典型放行控制",
+      "metricsTitle": "生产计划中的典型放行控制",
       "metrics": [
         "B 炼材料保管温度控制在 28 C 以下",
         "硫化曲线必须处于批准标准曲线范围内",
         "硬度、拉伸强度和伸长率在放行前确认",
         "图纸要求的关键尺寸可纳入 SPC 管控"
       ],
-      "eyebrow": "过程证据",
+      "eyebrow": "过程记录",
       "linkToFlow": "查看完整生产流程",
       "imageSlot": {
-        "label": "图片占位",
-        "title": "脱敏控制计划记录",
-        "meta": "建议：模糊处理后的控制计划截图、检验表或批次放行记录，1200x900"
+        "label": "质量记录",
+        "title": "控制计划记录示例",
+        "meta": "控制计划视图、检验表或批次放行记录"
       }
     },
     "whySingleLine": {
@@ -884,7 +890,7 @@
     },
     "certified": {
       "title": "IATF 16949认证",
-      "description": "汽车级质量管理体系。"
+      "description": "IATF 16949 质量管理体系。"
     },
     "sqmFactory": {
       "title": "平方米工厂",
@@ -1121,8 +1127,8 @@
     },
     "controlFlow": {
       "title": "22 步受控橡胶生产流程",
-      "subtitle": "基于真实控制计划脱敏整理：从原材料验收到最终出货，每个阶段都有对应设备、检查项目、记录方式和异常反应计划。",
-      "sourceNote": "公开脱敏证据资产：品番、客户信息、图纸尺寸和具体公差已刻意移除。",
+      "subtitle": "从原材料验收到最终出货，每个阶段都有对应设备、检查项目、记录方式和异常处理动作。",
+      "sourceNote": "该流程模型基于 RubberQ 的生产控制实践，并以客户可理解的方式展示。",
       "groups": [
         {
           "label": "01",
@@ -1188,11 +1194,11 @@
           "desc": "每个控制点都有接受标准和记录路径，异常未确认前不进入下一阶段。"
         }
       ],
-      "eyebrow": "制造能力证明",
+      "eyebrow": "制造流程",
       "imageSlot": {
-        "label": "图片占位",
-        "title": "受控生产流程视觉图",
-        "meta": "建议：脱敏 22 步流程图或工厂流程照片，1600x900"
+        "label": "工艺影像",
+        "title": "受控生产流程展示",
+        "meta": "流程图或工厂流程照片"
       }
     },
     "singleLineCallout": {
@@ -1295,7 +1301,7 @@
     "qualityProcess": {
       "title": "质量",
       "titleHighlight": "流程",
-      "subtitle": "四阶段质量保证，确保每个部件在出货前达到汽车级标准。",
+      "subtitle": "四阶段质量保证，确保每个部件在出货前达到项目质量要求。",
       "steps": {
         "incoming": {
           "title": "来料检验",
@@ -1325,7 +1331,7 @@
     "cta": {
       "title": "准备",
       "titleHighlight": "参观？",
-      "description": "我们欢迎工厂审核和客户参观。预约参观，亲身了解我们的制造能力并与工程团队会面。",
+      "description": "我们欢迎工厂参观和客户参观。预约参观，亲身了解我们的制造能力并与工程团队会面。",
       "scheduleTour": "预约工厂参观",
       "viewQuality": "查看质量标准"
     }
@@ -1344,11 +1350,11 @@
     "materials": {
       "fkm": {
         "name": "FKM（氟橡胶）",
-        "desc": "极端耐热和耐化学性，适用于AI液冷和汽车发动机。"
+        "desc": "极端耐热和耐化学性，适用于高温流体密封和汽车发动机。"
       },
       "epdm": {
         "name": "EPDM（三元乙丙橡胶）",
-        "desc": "卓越的耐候性和弯曲寿命，适用于机器人和户外机械。"
+        "desc": "卓越的耐候性和弯曲寿命，适用于工业设备和户外机械。"
       },
       "nbr": {
         "name": "NBR（丁腈橡胶）",
@@ -1395,9 +1401,9 @@
   },
   "standardsPage": {
     "hero": {
-      "badge": "技术合规",
+      "badge": "技术标准",
       "title": "全球行业标准",
-      "subtitle": "在RubberQ，我们不仅制造橡胶，更是合规工程的践行者。我们在材料科学与国际法规框架的交汇处运营，确保您的产品符合市场准入要求。"
+      "subtitle": "RubberQ 帮助客户把 ASTM、ISO、SAE、IATF 和图纸要求，落实到橡胶件的材料选择、测试记录和量产控制中。"
     },
     "categories": {
       "materialClassification": {
@@ -1447,7 +1453,7 @@
       "callOutTitle": "需要线路标注？",
       "callOutDesc": "我们的工程团队可以帮助您将应用需求转化为正式的ASTM D2000或SAE J200规格。",
       "consultEngineer": "咨询工程师",
-      "complianceNotice": "合规声明",
+      "complianceNotice": "资料说明",
       "complianceNoticeText": "每次发货均附带分析证书（COA）和合格证书（COC）。汽车和高精度机械项目可按要求提供完整的PPAP 3级文件。"
     },
     "footer": {
@@ -1466,7 +1472,7 @@
       "badge": "卓越实证",
       "titleLine1": "案例",
       "titleLine2": "研究",
-      "subtitle": "汽车级橡胶工程的实际应用。了解我们如何解决机器人、AI基础设施和下一代出行领域的关键密封挑战。"
+      "subtitle": "精密橡胶工程的实际应用。了解我们如何解决工业设备、半导体工艺设备和下一代出行领域的关键密封挑战。"
     },
     "stats": {
       "projectsDelivered": "已交付项目",
@@ -1482,8 +1488,8 @@
     },
     "studies": {
       "robotics": {
-        "industry": "协作机器人",
-        "client": "欧洲协作机器人制造商",
+        "industry": "工业自动化设备",
+        "client": "欧洲工业自动化设备制造商",
         "location": "德国",
         "challenge": "全天候生产环境中关节密封失效导致停机",
         "solution": "具有增强抗疲劳性能的定制FKM关节波纹管",
@@ -1494,10 +1500,10 @@
         ]
       },
       "aiDataCenters": {
-        "industry": "AI数据中心",
+        "industry": "工业热管理设备",
         "client": "领先的云基础设施提供商",
         "location": "美国",
-        "challenge": "高密度GPU集群中液冷系统泄漏",
+        "challenge": "高温设备中流体系统泄漏",
         "solution": "具有亚微米公差的精密EPDM冷却密封件",
         "results": [
           "99.97%无泄漏性能",
@@ -1521,7 +1527,7 @@
     "cta": {
       "titleLine1": "面临",
       "titleLine2": "密封挑战？",
-      "subtitle": "我们的工程团队已解决了机器人、汽车和工业应用中的复杂密封问题。让我们讨论您的需求。",
+      "subtitle": "我们的工程团队已解决了工业设备、汽车和工业应用中的复杂密封问题。让我们讨论您的需求。",
       "discussProject": "讨论您的项目",
       "exploreMaterials": "探索材料"
     }
@@ -1529,45 +1535,671 @@
   "compounding": {
     "abMixing": {
       "title": "A 炼、B 炼与批次放行控制",
-      "intro": "工艺流程把母炼胶制备与最终硫化体系加入分开管理。这有助于减少配方波动、强化追溯，并在成型前形成明确的实验室放行节点。",
+      "intro": "工艺流程将母炼胶制备和最终硫化体系加入分开控制，降低配方波动，提升追溯能力，并在成型前设置实验室放行节点。",
       "stages": [
         {
-          "stage": "A 炼",
-          "title": "母炼胶基础",
-          "body": "生胶、填充剂、油料和补强体系经过称量、条码核对、密炼、出片、冷却和异物筛查后进入放行。"
+          "stage": "A-Mixing",
+          "title": "Masterbatch foundation",
+          "body": "Base polymer, filler, oil, and reinforcement materials are weighed, barcode-checked, mixed, sheeted, cooled, and screened for foreign matter before release."
         },
         {
-          "stage": "A 炼控制",
-          "title": "中间胶料检查",
-          "body": "A 炼材料可在进入终炼前检查分散度、比重和门尼粘度。"
+          "stage": "A-Compound Control",
+          "title": "Intermediate material check",
+          "body": "A-compound can be checked for dispersion, specific gravity, and Mooney viscosity before it moves to final mixing."
         },
         {
-          "stage": "B 炼",
-          "title": "硫化体系加入",
-          "body": "促进剂和硫化体系在后段按工艺指导加入，胶料随后熟成、切割、保管并准备成型。"
+          "stage": "B-Mixing",
+          "title": "Cure-system addition",
+          "body": "Accelerators and cure-system ingredients are added later under process instruction, then the compound is matured, cut, stored, and prepared for molding."
         },
         {
-          "stage": "最终放行",
-          "title": "成型前实验室关口",
-          "body": "通过硫化曲线、硬度、拉伸强度、伸长率和图纸要求的专项检查，确认批次适合投入生产。"
+          "stage": "Final Release",
+          "title": "Lab gate before molding",
+          "body": "Rheometer curve, hardness, tensile strength, elongation, and drawing-specific checks confirm the batch is suitable for production."
         }
       ],
-      "testsTitle": "该流程通常关联的放行检测",
+      "testsTitle": "该流程常关联的放行测试",
       "tests": [
-        "硫化仪扭力曲线",
+        "流变扭矩曲线",
         "硬度",
         "拉伸强度",
-        "扯断伸长率",
+        "伸长率",
         "比重",
-        "门尼粘度",
-        "图纸要求的专项检查"
+        "门尼黏度",
+        "图纸相关异常条件检查"
       ],
       "eyebrow": "批次放行逻辑",
       "imageSlot": {
-        "label": "图片占位",
-        "title": "A/B 炼与批次放行视觉图",
-        "meta": "建议：A/B 炼流程图、实验室放行记录或混炼线照片，1600x900"
+        "label": "工艺影像",
+        "title": "A/B 炼与批次放行流程",
+        "meta": "流程图、实验室放行记录或混炼线照片"
       }
+    },
+    "hero": {
+      "badge": "30 年中日配方研发协作",
+      "tagline": "日本配方。中国制造。自有实验室验证。",
+      "subtitle": "RubberQ 从聚合物选择到批次放行管理定制橡胶配方。日本配方支持、福州精密制造和自有实验室检测，构成同一条工程链路。",
+      "ctaPrimary": "沟通应用需求",
+      "ctaSecondary": "下载配方能力资料"
+    },
+    "whyCompounding": {
+      "title": "为什么配方能力重要",
+      "introTypical": "很多橡胶件真正的风险不在模具，而在于材料是否能多年稳定复现。",
+      "typicalItems": [
+        "外购混炼胶会限制配方透明度",
+        "共用混炼路径可能增加波动风险",
+        "缺少批次验证会让后续复购更难保持一致",
+        "几年后再次采购时，材料行为可能与原件不同"
+      ],
+      "introRubberQ": "RubberQ 把配方工作纳入制造系统管理：",
+      "rubberQItems": [
+        "自 1995 年延续至今的日本配方支持",
+        "自有 A 炼线，配合排产和清洁控制",
+        "批次放行检测覆盖硫化、硬度、拉伸、黏度和老化行为",
+        "生产记录可追溯，支持复购和客户导入文件"
+      ]
+    },
+    "aline": {
+      "title": "自有 A 炼线",
+      "capacity": "批次范围：每批配方 500g – 5,000kg",
+      "mixer": "混炼过程：密炼工艺，配方、称重和过程记录受控",
+      "throughput": "生产规划：根据项目数量、配方族和放行检测需求安排",
+      "intro": "受控单线流程带来三个运营优势：",
+      "adv1Title": "1. 配方一致性",
+      "adv1Body": "相同工艺路径、相同控制窗口和可复查的批次记录，让长期供货更稳定。",
+      "adv2Title": "2. 污染风险控制",
+      "adv2Body": "通过顺序排产和清洁流程，支持高洁净和长寿命密封项目。",
+      "adv3Title": "3. 放行前工程复核",
+      "adv3Body": "流变曲线、门尼黏度和关键批次指标会在进入成型前完成复核。"
+    },
+    "labEquipment": {
+      "title": "研发实验室能力",
+      "items": [
+        {
+          "name": "流变仪 / 门尼黏度仪",
+          "desc": "硫化特性与黏度"
+        },
+        {
+          "name": "万能拉力机",
+          "desc": "强度与伸长率"
+        },
+        {
+          "name": "老化箱",
+          "desc": "热老化与臭氧老化"
+        },
+        {
+          "name": "压缩永久变形测试仪",
+          "desc": "密封耐久性"
+        },
+        {
+          "name": "油液浸泡槽",
+          "desc": "介质耐受性"
+        },
+        {
+          "name": "硬度计",
+          "desc": "Shore A / Shore D 硬度"
+        }
+      ],
+      "fullLink": "查看完整设备与 ASTM/ISO 标准"
+    },
+    "workflow": {
+      "title": "从应用需求到量产",
+      "stages": [
+        {
+          "stage": "阶段 1",
+          "name": "需求评估",
+          "timeline": "5 个工作日内",
+          "desc": "客户提供温度、介质、运动方式、目标寿命、图纸和年用量等工况。"
+        },
+        {
+          "stage": "阶段 2",
+          "name": "配方设计",
+          "timeline": "3-6 周",
+          "desc": "根据聚合物类别、使用介质和生产路径选择或调整候选配方。"
+        },
+        {
+          "stage": "阶段 3",
+          "name": "实验室试炼",
+          "timeline": "2-4 周",
+          "desc": "小批量混炼并检测，在成型样品前确认材料窗口。"
+        },
+        {
+          "stage": "阶段 4",
+          "name": "试模与样件",
+          "timeline": "2-3 周",
+          "desc": "通过试模或小批量成型获得样件，用于尺寸和功能评估。"
+        },
+        {
+          "stage": "阶段 5",
+          "name": "量产放行",
+          "timeline": "4-8 周",
+          "desc": "首件检验、批次追溯和生产控制对齐后进入稳定供货。"
+        }
+      ],
+      "totalNote": "典型周期：新配方路径 12-24 周；基于 RubberQ 现有配方调整通常 4-8 周。"
+    },
+    "library": {
+      "title": "配方材料库",
+      "intro": "RubberQ 在主要橡胶材料族上持续积累配方库。具体配方属于专有技术，以下展示能力范围。",
+      "columns": [
+        "材料族",
+        "典型应用",
+        "温度范围",
+        "关键性能"
+      ],
+      "rows": [
+        {
+          "family": "FKM",
+          "apps": "Industrial / Automotive / Chemical",
+          "temp": "-20 to +200°C",
+          "key": "Chemical resistance"
+        },
+        {
+          "family": "FFKM",
+          "apps": "Semiconductor / Plasma / High-purity",
+          "temp": "-20 to +260°C",
+          "key": "Extreme chemical and thermal purity"
+        },
+        {
+          "family": "HNBR",
+          "apps": "EV thermal systems / High-temp equipment",
+          "temp": "-40 to +160°C",
+          "key": "Low compression set, oil and heat"
+        },
+        {
+          "family": "NBR",
+          "apps": "Hydraulic / Oil sealing / General industrial",
+          "temp": "-40 to +120°C",
+          "key": "Cost-effective oil resistance"
+        },
+        {
+          "family": "EPDM",
+          "apps": "Outdoor enclosures / Steam / Energy systems",
+          "temp": "-50 to +150°C",
+          "key": "Weather, ozone, steam resistance"
+        },
+        {
+          "family": "ACM",
+          "apps": "Automotive transmission / ATF",
+          "temp": "-25 to +175°C",
+          "key": "ATF resistance"
+        },
+        {
+          "family": "AEM",
+          "apps": "Automotive heat ducts / Hoses",
+          "temp": "-40 to +175°C",
+          "key": "Heat and oil resistance"
+        },
+        {
+          "family": "HCR Silicone",
+          "apps": "Industrial seals / Wide temperature",
+          "temp": "-60 to +230°C",
+          "key": "Extreme temperature range"
+        },
+        {
+          "family": "LSR",
+          "apps": "Precision overmolding / Liquid injection",
+          "temp": "-60 to +200°C",
+          "key": "Tight-tolerance overmolding"
+        }
+      ],
+      "outro": "如果需要表格外的性能组合，请提供应用条件，我们会评估材料路径。",
+      "cta": "提交定制配方需求"
+    },
+    "boundaries": {
+      "title": "开发路径与周期",
+      "intro": "我们会尽早对齐范围和周期，便于采购和工程团队规划：",
+      "fast": {
+        "label": "现有配方调整（4-8 周）",
+        "desc": "基于 RubberQ 现有配方调整硬度、成本目标或单一性能。"
+      },
+      "standard": {
+        "label": "配方选择与验证（8-16 周）",
+        "desc": "从配方库中选择并针对具体应用和图纸进行验证。"
+      },
+      "ndaDependent": {
+        "label": "新配方路径（12-24 周）",
+        "desc": "按约定测试计划、样品和放行标准开发新的材料路径。"
+      },
+      "validationNote": "新配方工作会与验证计划同步推进，让打样、测试和量产放行保持一致。"
+    },
+    "finalCta": {
+      "title": "准备共同开发？",
+      "subtitle": "无论您已有图纸需要报价，还是已有工况需要材料建议，都可以先从应用细节开始。",
+      "ctaPrimary": "提交应用需求",
+      "ctaSecondary": "索取材料资料"
+    },
+    "visualLabels": {
+      "hero": "A 炼线运行场景",
+      "machine": "A 炼线",
+      "control": "称重与过程控制",
+      "process": "投料与排料过程",
+      "equipment": "实验室设备",
+      "processVideo": "工艺视频",
+      "processVideoMeta": "工厂工艺流程展示"
+    }
+  },
+  "rfqV2": {
+    "projectType": {
+      "label": "项目类型",
+      "drawing": "图纸驱动询价 — 已有规格，需要报价",
+      "application": "应用驱动 — 已有工况，需要材料建议",
+      "sample": "仅申请样品"
+    },
+    "annualVolume": {
+      "label": "预计年用量",
+      "options": {
+        "under10k": "10,000 件以下",
+        "10kTo100k": "10,000 – 100,000 件",
+        "100kTo1m": "100,000 – 1,000,000 件",
+        "1mTo5m": "1,000,000 – 5,000,000 件",
+        "over5m": "5,000,000 件以上"
+      },
+      "hintLow": "小批量或试产项目请提供图纸和材料需求，我们会建议合适的生产路径。",
+      "hintHigh": "大批量项目请说明年用量、公差、质量和交付要求，便于我们评估生产方案。"
+    },
+    "quoteComponents": {
+      "label": "需要报价的内容",
+      "compoundDev": "材料可行性与配方建议",
+      "tooling": "模具费用估算",
+      "perPiece": "量产单价",
+      "nda": "技术交流前签署保密协议",
+      "sample": "评估样品报价"
+    },
+    "projectStage": {
+      "label": "项目阶段",
+      "feasibility": "可行性评估",
+      "prototype": "样件 / 试产",
+      "preProduction": "量产前验证",
+      "production": "量产 / 长期供货"
+    },
+    "responseSla": {
+      "title": "典型响应时间：",
+      "drawing": "图纸驱动询价：资料完整后 12-24 小时",
+      "application": "应用驱动需求：3-5 个工作日完成初步工程评估",
+      "sample": "样品需求：24-48 小时"
+    },
+    "industryOptionsV2": {
+      "ev": "EV 与储能",
+      "industrial": "工业设备（液压 / 气动 / 泵 / 阀）",
+      "semiconductor": "半导体（FKM / FFKM 工艺密封）",
+      "automotiveTier2": "汽车 Tier 2",
+      "robotics": "工业设备",
+      "aiHardware": "半导体工艺设备",
+      "other": "其他（请描述）"
+    }
+  },
+  "testing": {
+    "hero": {
+      "badge": "自有实验室按 ASTM / ISO 方法验证",
+      "title": "每个配方，每个批次，由自有实验室完成测试。",
+      "subtitle": "RubberQ 自有实验室会依据 ASTM 与 ISO 方法验证配方和生产批次，再进入成型生产。"
+    },
+    "matrix": {
+      "title": "测试能力矩阵",
+      "columns": [
+        "设备",
+        "测试项目",
+        "标准"
+      ],
+      "rows": [
+        {
+          "equipment": "Universal Tensile Tester",
+          "test": "Tensile Strength, Elongation, Modulus",
+          "standards": "ASTM D412 / ISO 37"
+        },
+        {
+          "equipment": "Aging Oven",
+          "test": "Heat Aging, Ozone Resistance",
+          "standards": "ASTM D573 / D1149"
+        },
+        {
+          "equipment": "Compression Set Tester",
+          "test": "Compression Set",
+          "standards": "ASTM D395"
+        },
+        {
+          "equipment": "Oil Immersion Bath",
+          "test": "Fluid / Oil / Fuel Resistance",
+          "standards": "ASTM D471 / ISO 1817"
+        },
+        {
+          "equipment": "Durometer (Shore A/D)",
+          "test": "Hardness",
+          "standards": "ASTM D2240"
+        },
+        {
+          "equipment": "Rheometer (MDR)",
+          "test": "Cure Characteristics",
+          "standards": "ASTM D5289"
+        },
+        {
+          "equipment": "Mooney Viscometer",
+          "test": "Mooney Viscosity, Scorch",
+          "standards": "ASTM D1646 / ISO 289"
+        },
+        {
+          "equipment": "Specific Gravity Balance",
+          "test": "Density Verification",
+          "standards": "ASTM D297"
+        },
+        {
+          "equipment": "DMA",
+          "test": "Dynamic Mechanical Analysis when required",
+          "standards": "ASTM D5992 / ISO 4664"
+        },
+        {
+          "equipment": "TGA",
+          "test": "Thermogravimetric Analysis when required",
+          "standards": "ASTM E1131"
+        },
+        {
+          "equipment": "Video Measuring System",
+          "test": "Dimensional Inspection",
+          "standards": "ISO 3302-1 Class M1"
+        }
+      ],
+      "calibrationNote": "测量设备通过计划校准和维护记录进行管理。"
+    },
+    "sampleReport": {
+      "title": "测试报告包含哪些内容",
+      "body": "标准报告可包含客户参考号、批次号、材料族、性能数值、ASTM/ISO 方法、目标值对比、技术员签署、实验室复核和校准参考。",
+      "cta": "下载测试报告样张（PDF）"
+    },
+    "customProtocols": {
+      "title": "可配合定制测试方案",
+      "intro": "除标准 ASTM/ISO 方法外，我们也可以根据应用条件安排专项测试，例如：",
+      "items": [
+        "在客户实际介质中长期浸泡",
+        "定制温度老化循环",
+        "非标准温度下的压缩永久变形",
+        "应力松弛",
+        "客户提供的测试夹具"
+      ],
+      "cta": "沟通验证方案"
+    },
+    "qualityLink": "质量体系与证书",
+    "visualLabels": {
+      "hero": "测试实验室",
+      "equipment": "测试设备",
+      "report": "测试报告样张",
+      "reportMeta": "A4 报告格式"
+    }
+  },
+  "aboutV2": {
+    "heroQuote": "日本配方工程。中国精密制造。自 1995 年以来值得信赖。",
+    "subtitleV2": "RubberQ 是 1995 年 6 月成立的中日合资企业，将日本配方经验、中国精密制造和自有实验室测试结合在一起。",
+    "heritageText1V2": "自 1995 年以来，RubberQ 在严格质量体系下供应精密橡胶零部件。我们的配方依托长期日本配方经验，并在生产放行前通过自有实验室验证。",
+    "heritageText2V2": "今天，我们把这些经验应用在 EV 与储能、工业设备、半导体工艺密封和汽车 Tier 2 项目上，服务重视材料稳定和制造一致性的客户。",
+    "dualBrain": {
+      "title": "RubberQ 的双能力模型",
+      "japan": {
+        "icon": "JPN",
+        "label": "日本",
+        "body": "长期配方支持与聚合物化学经验。"
+      },
+      "china": {
+        "icon": "CN",
+        "label": "中国",
+        "body": "福州工厂的精密制造与受控 A 炼路径。"
+      },
+      "lab": {
+        "icon": "LAB",
+        "label": "自有实验室",
+        "body": "生产前完成材料测试与批次放行检查。"
+      },
+      "caption": "RubberQ 将配方纪律、制造控制和实际成本效率结合起来，支持长期 B2B 供货。"
+    },
+    "stats": {
+      "years": "30",
+      "yearsLabel": "年经验",
+      "factoryArea": "20K",
+      "factoryAreaLabel": "平方米厂区",
+      "iatfLabel": "16949 认证",
+      "jpEngineers": "1995",
+      "jpEngineersLabel": "配方协作始于"
+    },
+    "whatWeDontDo": {
+      "title": "RubberQ 如何支持不同项目",
+      "notFitTitle": "以下需求请在询价时提前说明：",
+      "notFitItems": [
+        "需要专门医疗体系认证或当前 ISO / IATF 体系外特殊行业认证的项目。",
+        "客户指定供应商准入、特殊文件或现场评估要求。",
+        "超大批量通用件或最低价比价项目，需要提前对齐图纸、质量和交付条件。"
+      ],
+      "rightFitTitle": "RubberQ 更能创造价值的场景：",
+      "rightFitItems": [
+        "需要稳定质量、更好外观或更严尺寸控制的橡胶件",
+        "标准件或定制件，需要材料、模具、工艺或公差评估",
+        "长期供货项目，需要配方追溯和批次一致性",
+        "小批量、中批量或大批量 RFQ，重视日本配方支持和中国精密制造"
+      ],
+      "cta": "沟通项目需求"
+    },
+    "media": {
+      "formulation": "配方协作",
+      "manufacturing": "精密制造",
+      "lab": "测试实验室",
+      "video": "工厂介绍视频",
+      "scene": "工厂能力影像"
+    }
+  },
+  "industriesPage": {
+    "index": {
+      "hero": {
+        "title": "服务行业",
+        "subtitle": "RubberQ 支持四类最重视工程配方和稳定制造的行业。"
+      },
+      "notSeeing": "没有看到您的行业？多数精密橡胶应用都可以归入这四类场景。",
+      "talkCta": "联系工程团队",
+      "visualLabel": "应用场景",
+      "explore": "了解更多"
+    },
+    "common": {
+      "recommendedCompounds": "推荐材料"
+    },
+    "ev": {
+      "hero": {
+        "title": "面向 EV 与储能应用的精密橡胶件",
+        "subtitle": "EV 与储能应用要求密封材料在热循环、介质接触、振动和户外环境中保持稳定。"
+      },
+      "subSectors": {
+        "title": "EV 与储能应用场景",
+        "charging": {
+          "name": "充电基础设施",
+          "icon": "⚡",
+          "apps": [
+            "充电连接器和电缆接口密封",
+            "充电柜体和箱体垫片",
+            "户外检修门密封",
+            "电缆接线密封件"
+          ],
+          "compounds": "EPDM、FKM、硅胶"
+        },
+        "bess": {
+          "name": "储能系统（BESS）",
+          "icon": "⚡",
+          "apps": [
+            "柜体和检修门密封",
+            "电缆格兰头和衬套密封",
+            "减振安装件",
+            "户外箱体垫片"
+          ],
+          "compounds": "EPDM、HNBR、NBR"
+        },
+        "peripheral": {
+          "name": "EV 周边与制造设备",
+          "icon": "⚡",
+          "apps": [
+            "热循环箱垫片",
+            "EV 零部件产线密封",
+            "驱动单元测试设备密封",
+            "工装治具弹性件"
+          ],
+          "compounds": "FKM、HNBR，必要时按工况评估 FFKM"
+        },
+        "vehicle": {
+          "name": "EV 车辆 Tier 2 部件",
+          "icon": "⚡",
+          "apps": [
+            "热管理 O 型圈和胶管",
+            "低/中压连接器密封",
+            "减振件和安装件",
+            "传感器与模块密封"
+          ],
+          "compounds": "HNBR、FKM、EPDM、ACM、AEM"
+        }
+      },
+      "whyChemistry": {
+        "title": "为什么 EV 应用更依赖配方化学",
+        "intro": "EV 与储能应用常同时面对：",
+        "points": [
+          "热管理系统中的持续热暴露",
+          "长期静载下的压缩永久变形",
+          "冷却液、介电液、臭氧和户外气候",
+          "振动与热循环叠加"
+        ],
+        "edge": "RubberQ 会围绕真实工况评估配方，而不是只把零件当作简单模压件处理。"
+      },
+      "engagement": {
+        "title": "我们如何配合",
+        "drawings": "已有图纸的 RFQ，请提供图纸、目标材料、年用量和质量要求，我们会给出实际报价路径。",
+        "application": "应用型需求，请提供温度、介质、运动方式、寿命和导入要求，我们会先评估材料路径。"
+      },
+      "ctaPrimary": "提交 EV 应用需求",
+      "ctaSecondary": "下载 EV 材料能力资料"
+    },
+    "industrial": {
+      "hero": {
+        "title": "工业设备精密密封件",
+        "subtitle": "液压、气动、泵阀和工艺设备客户需要橡胶件在压力、油液、热和重复运动下保持稳定。"
+      },
+      "subSectors": {
+        "title": "应用细分",
+        "items": [
+          {
+            "name": "液压与气动",
+            "list": [
+              "油缸杆封、活塞密封、防尘圈",
+              "气动执行器密封"
+            ]
+          },
+          {
+            "name": "泵与阀",
+            "list": [
+              "泵体垫片",
+              "阀杆密封"
+            ]
+          },
+          {
+            "name": "机床与导轨防护",
+            "list": [
+              "波纹管、防尘套、导轨护罩"
+            ]
+          },
+          {
+            "name": "工艺设备",
+            "list": [
+              "耐蒸汽垫片",
+              "耐化学密封件"
+            ]
+          }
+        ]
+      },
+      "whyUs": {
+        "title": "工业客户为什么选择 RubberQ",
+        "items": [
+          "工程配方与受控制造配合",
+          "按图纸要求进行精密成型和检验",
+          "将 IATF 16949 制造纪律应用于工业 OEM 供货",
+          "支持长期重复供货的配方一致性"
+        ]
+      },
+      "cta": "获取报价"
+    },
+    "semiconductor": {
+      "hero": {
+        "title": "半导体制造用 FKM 与 FFKM 密封件",
+        "subtitle": "半导体工艺设备需要材料洁净度、耐化学性、洁净处理和可追溯生产记录。"
+      },
+      "engagement": {
+        "title": "我们参与的方式",
+        "intro": "半导体密封需要围绕工艺条件进行工程讨论，而不是简单目录选型。",
+        "fkm": {
+          "label": "FKM 工艺密封",
+          "desc": "适用于介质、温度和处理要求与 FKM 性能匹配的工艺接口。"
+        },
+        "ffkm": {
+          "label": "FFKM 工艺密封",
+          "desc": "适用于更严苛工况，需要高等级耐化学与耐热性能的项目，并通过结构化材料路径评估。"
+        }
+      },
+      "whySingleLine": {
+        "title": "为什么单线混炼重要",
+        "body": "受控 A 炼路径、顺序排产和清洁记录，有助于管理高洁净和长寿命密封项目的配方一致性。"
+      },
+      "processCompat": {
+        "title": "工艺兼容性评估",
+        "body": "请提供工艺条件、介质、温度、运动方式和预期寿命。RubberQ 会在技术交流后评估合适的 FKM 或 FFKM 材料路径。"
+      },
+      "cta": "提交半导体应用需求"
+    },
+    "automotive": {
+      "hero": {
+        "title": "汽车 Tier 2 部件：更重视精密与稳定",
+        "subtitle": "RubberQ 长期服务日本汽车项目，现在支持更重视配方稳定、公差控制和长期重复供货的 Tier 2 部件。"
+      },
+      "whereWeFit": {
+        "title": "RubberQ 的价值场景",
+        "fitTitle": "更适合的项目",
+        "fitItems": [
+          "材料行为会影响装配性能的 Tier 2 部件",
+          "需要稳定质量的标准件、定制件、小批量或大批量零件",
+          "与客户工程团队共同评估配方和工艺"
+        ],
+        "confirmTitle": "需要提前确认",
+        "notFitItems": [
+          "有特殊客户准入、现场评估或文件要求的项目",
+          "需要专门医疗体系认证等特殊行业资质的应用"
+        ]
+      },
+      "customerProfile": {
+        "title": "客户类型",
+        "items": [
+          "自 1995 年以来的长期日本 OEM 关系",
+          "Tier 1 与 Tier 2 供应链经验",
+          "重视配方化学和制造稳定性的应用"
+        ]
+      },
+      "cta": "沟通 Tier 2 部件"
+    }
+  },
+  "visualLabels": {
+    "manufacturing": "工厂制造场景",
+    "ev": "EV 与储能应用",
+    "industrial": "工业设备应用",
+    "semiconductor": "半导体密封应用",
+    "automotive": "汽车 Tier 2 应用"
+  },
+  "qualityV2": {
+    "heroSubtitleV2": "从配方设计到最终检验，RubberQ 的 IATF 16949 质量体系服务 EV 与储能、工业设备、半导体和汽车 Tier 2 客户，并在长期生产中保持配方追溯。",
+    "whySingleLine": {
+      "title": "为什么采用单条 A 炼线",
+      "intro": "这种流程带来三个运营优势：",
+      "points": [
+        "多年生产中的配方一致性。",
+        "通过顺序排产和清洁流程降低污染风险。",
+        "批次放行前完成流变、门尼和关键性能复核。"
+      ],
+      "link": "了解配方能力"
+    }
+  },
+  "capabilitiesV2": {
+    "heroSubtitleV2": "RubberQ 的两段式混炼流程运行在自有 A 炼线上，是稳定质量的基础。通过区分母炼胶和最终混炼，我们提升批次一致性和长期供货稳定性。",
+    "singleLineCallout": {
+      "title": "单线混炼控制",
+      "body": "RubberQ 按配方族和洁净要求安排混炼顺序，并把 A 炼记录与批次绑定，支持高洁净和长期重复供货需求。",
+      "cta": "了解配方策略"
     }
   }
 }

@@ -12,6 +12,7 @@ const { locale } = Astro.params;
 const messages = await getTranslations(locale);
 const meta = messages?.metadata?.industries || {};
 const ix = (key: string, fallback = '') => t(messages, key, fallback);
+const visualLabel = ix('industriesPage.index.visualLabel', 'Application Visual');
 
 const orgSchema = createOrganizationSchema(locale!);
 
@@ -59,7 +60,7 @@ const sectors = [
                 data-spec="1600x900"
                 data-priority={sector.priority}
               >
-                <span class="text-xs text-industrial-500">[{sector.slotId}]</span>
+                <span class="text-xs text-industrial-500">{visualLabel}</span>
               </div>
               <div class="p-8">
                 <div class="flex items-baseline gap-3 mb-3">
@@ -72,7 +73,7 @@ const sectors = [
                   {ix(`industries.${sector.i18nKey}.shortDesc`)}
                 </p>
                 <span class="inline-flex items-center gap-2 text-accent-orange font-bold uppercase text-sm tracking-widest group-hover:underline">
-                  Explore →
+                  {ix('industriesPage.index.explore', 'Explore')} →
                 </span>
               </div>
             </a>

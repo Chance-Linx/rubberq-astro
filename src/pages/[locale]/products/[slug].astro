@@ -137,7 +137,7 @@ const PRODUCTS: Record<string, Blueprint> = {
       {material:'Metal-bonded systems', compatibility:'Excellent', note:'Supports integrated hybrid component design.'},
     ],
     applicationCases:[
-      {title:'Thermal Management Connector Seal', scenario:'Custom geometry for quick-connect liquid cooling assembly.', result:'Focused prototype iteration and clearer qualification path.'},
+      {title:'Thermal Management Connector Seal', scenario:'Custom geometry for a quick-connect thermal-fluid assembly.', result:'Focused prototype iteration and clearer qualification path.'},
       {title:'Precision Machinery Damper', scenario:'Vibration control component with strict dimensional targets.', result:'Improved vibration attenuation while holding assembly tolerances.'},
       {title:'Valve Elastomer Insert', scenario:'Insert-molded part for fluid control module.', result:'Reduced part count and streamlined assembly process.'},
     ],
@@ -162,11 +162,11 @@ const productApplications = tRaw(messages, `productsPage.${productKey}.applicati
 const summaryItems = [...blueprint.summary, { term: 'Core Features', description: productFeatures.join(' | ') }];
 
 const labelsByLocale: Record<string, Record<string,string>> = {
-  en: { back:'Back to Products', specs:'Key Specifications', materials:'Material Compatibility', apps:'Application Cases', cad:'3D CAD Downloads', download:'Download', engTitle:'Need Engineering Support?', engDesc:'Share your drawing and application constraints. Our team will propose material and geometry recommendations.', engCta:'Request Engineering Review' },
-  zh: { back:'返回产品中心', specs:'关键规格参数', materials:'材料兼容性说明', apps:'应用案例', cad:'3D CAD 下载', download:'下载', engTitle:'需要工程支持？', engDesc:'提交图纸和应用约束，我们将提供材料与结构建议。', engCta:'申请工程评估' },
-  de: { back:'Zurück zur Produktübersicht', specs:'Wichtige Spezifikationen', materials:'Materialkompatibilität', apps:'Anwendungsfalle', cad:'3D CAD Downloads', download:'Download', engTitle:'Engineering-Unterstützung benötigt?', engDesc:'Teilen Sie Zeichnungen und Randbedingungen. Unser Team empfiehlt Material und Geometrie.', engCta:'Engineering-Review anfordern' },
-  ja: { back:'製品一覧へ戻る', specs:'主要仕様', materials:'材料適合情報', apps:'適用事例', cad:'3D CAD ダウンロード', download:'ダウンロード', engTitle:'技術サポートが必要ですか？', engDesc:'図面と使用条件を共有いただければ、材質と形状の提案を行います。', engCta:'技術レビューを依頼' },
-  es: { back:'Volver a Productos', specs:'Especificaciones Clave', materials:'Compatibilidad de Materiales', apps:'Casos de Aplicacion', cad:'Descargas CAD 3D', download:'Descargar', engTitle:'Necesita soporte de ingenieria?', engDesc:'Comparta su plano y restricciones de aplicacion para recibir recomendaciones de material y geometria.', engCta:'Solicitar revision tecnica' },
+  en: { back:'Back to Products', specs:'Key Specifications', materials:'Material Compatibility', apps:'Application Cases', cad:'3D CAD Downloads', download:'Download', engTitle:'Need Engineering Support?', engDesc:'Share your drawing and application constraints. Our team will propose material and geometry recommendations.', engCta:'Send Project Details' },
+  zh: { back:'返回产品中心', specs:'关键规格参数', materials:'材料兼容性说明', apps:'应用案例', cad:'3D CAD 下载', download:'下载', engTitle:'需要工程支持？', engDesc:'提交图纸和应用约束，我们将提供材料与结构建议。', engCta:'提交项目资料' },
+  de: { back:'Zurück zur Produktübersicht', specs:'Wichtige Spezifikationen', materials:'Materialkompatibilität', apps:'Anwendungsfalle', cad:'3D CAD Downloads', download:'Download', engTitle:'Engineering-Unterstützung benötigt?', engDesc:'Teilen Sie Zeichnungen und Randbedingungen. Unser Team empfiehlt Material und Geometrie.', engCta:'Projektdaten senden' },
+  ja: { back:'製品一覧へ戻る', specs:'主要仕様', materials:'材料適合情報', apps:'適用事例', cad:'3D CAD ダウンロード', download:'ダウンロード', engTitle:'技術サポートが必要ですか？', engDesc:'図面と使用条件を共有いただければ、材質と形状の提案を行います。', engCta:'案件情報を送る' },
+  es: { back:'Volver a Productos', specs:'Especificaciones Clave', materials:'Compatibilidad de Materiales', apps:'Casos de Aplicacion', cad:'Descargas CAD 3D', download:'Descargar', engTitle:'Necesita soporte de ingenieria?', engDesc:'Comparta su plano y restricciones de aplicacion para recibir recomendaciones de material y geometria.', engCta:'Enviar datos del proyecto' },
 };
 const L = labelsByLocale[locale] || labelsByLocale.en;
 ---

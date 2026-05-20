@@ -31,6 +31,10 @@ const i18nKey = slugToKey[slug!];
 const metaKey = slugToMetaKey[slug!];
 const meta = messages?.metadata?.[metaKey] || {};
 const ip = (key: string, fallback = '') => t(messages, `industriesPage.${i18nKey}.${key}`, fallback);
+const pageLabels = {
+  industries: t(messages, 'navigation.industries', 'Industries'),
+  recommendedCompounds: t(messages, 'industriesPage.common.recommendedCompounds', 'Recommended compounds'),
+};
 
 const orgSchema = createOrganizationSchema(locale!);
 
@@ -71,7 +75,7 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
       <div class="absolute inset-0 bg-grid-pattern bg-grid-size opacity-10"></div>
       <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <a href={`/${locale}/industries`} class="text-industrial-400 text-xs uppercase tracking-widest hover:text-white mb-6 inline-block">
-          ← Industries
+          ← {pageLabels.industries}
         </a>
         <h1 class="text-4xl md:text-6xl font-bold tracking-tighter mb-6 leading-[1.05]">
           {ip('hero.title')}
@@ -106,7 +110,7 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
                     ))}
                   </ul>
                   <p class="text-sm text-industrial-600 italic">
-                    <strong>Recommended compounds:</strong> {data.compounds}
+                    <strong>{pageLabels.recommendedCompounds}:</strong> {data.compounds}
                   </p>
                 </div>
               ))}

@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "title": "RubberQ | 精密ゴム部品メーカー (IATF 16949 認証)",
-    "description": "福州RubberQゴム有限公司は、自動車グレードのゴム部品のグローバルメーカーです。AIハードウェア、ロボティクス、高精度機械向けのFKM、EPDM、NBRを専門としています。",
+    "title": "RubberQ | 1995年からのカスタムゴム配合と精密部品",
+    "description": "RubberQは日本の配合支援と中国の精密製造を組み合わせ、EV・蓄電、産業機器、半導体、自動車Tier 2向けにカスタムゴム部品を提供します。",
     "home": {
-      "title": "RubberQ — 精密ゴム製造",
-      "description": "ロボティクス、AIインフラ、精密機械向けの自動車グレードゴム部品。IATF 16949 認証。"
+      "title": "RubberQ | 日本の配合。中国の精密製造。1995年からの信頼。",
+      "description": "EV・蓄電、産業機器、半導体、自動車Tier 2向けのカスタムゴム配合と精密部品。"
     },
     "blog": {
       "title": "技術知識ハブ | RubberQ",
@@ -16,7 +16,7 @@
     },
     "caseStudies": {
       "title": "導入事例 | RubberQ",
-      "description": "ロボティクス、AIインフラ、自動車向けの実際のゴム工学ソリューション。"
+      "description": "産業機器、半導体プロセス装置、自動車向けの実際のゴム工学ソリューション。"
     },
     "contact": {
       "title": "お問い合わせ | RubberQ",
@@ -75,25 +75,25 @@
     "titleLine1": "すべての",
     "titleLine2": "分子に",
     "titleLine3": "精度を。",
-    "subtitle": "IATF 16949認証ゴム部品で、ロボティクス、AIインフラ、高性能機械の未来を支えます。",
+    "subtitle": "IATF 16949認証ゴム部品で、産業機器、半導体プロセス装置、高性能機械の未来を支えます。",
     "ctaPrimary": "技術資料",
     "ctaSecondary": "品質と信頼"
   },
   "features": {
-    "title": "グローバルリーダーがRubberQを信頼する理由",
+    "title": "世界の技術チームが RUBBERQ を選ぶ理由",
     "summaryTitle": "技術概要",
     "summaryItems": [
       {
-        "term": "IATF 16949 認証",
-        "description": "ゼロ欠陥生産を保証する厳格な自動車品質管理システム。"
+        "term": "1995年からの日本配合支援",
+        "description": "具体的な使用条件に合わせてコンパウンドを開発・調整します。"
       },
       {
-        "term": "完全なトレーサビリティ",
-        "description": "原材料バッチから完成品までの完全なデジタルログ記録。"
+        "term": "単一A混練ライン",
+        "description": "管理された混練ルートが長期供給でのロット安定性を支えます。"
       },
       {
-        "term": "精密エンジニアリング",
-        "description": "ハイテク用途向けの標準としての ISO 3302-1 クラス M1 公差。"
+        "term": "自社試験ラボ",
+        "description": "老化、引張、耐油、硬度、硫化挙動を量産前に試験します。"
       }
     ],
     "reliability": {
@@ -102,7 +102,7 @@
     },
     "precision": {
       "title": "精度",
-      "desc": "ロボットジョイントとセンサー用のミクロン級精度。"
+      "desc": "産業機器ジョイントとセンサー用のミクロン級精度。"
     },
     "traceability": {
       "title": "追溯性",
@@ -110,7 +110,7 @@
     },
     "innovation": {
       "title": "革新",
-      "desc": "AI液冷システム向けのカスタム材料研究開発。"
+      "desc": "高温流体シールシステム向けのカスタム材料研究開発。"
     }
   },
   "products": {
@@ -125,26 +125,30 @@
     }
   },
   "industries": {
-    "title": "専門業界",
+    "title": "対応産業",
     "robotics": {
-      "title": "ロボティクス＆コボット",
-      "desc": "ロボットジョイントおよびコボット用途向けの、高精度シールと減衰部品"
+      "title": "産業機器",
+      "desc": "産業機器ジョイントおよびコボット用途向けの、高精度シールと減衰部品"
     },
     "ai": {
-      "title": "AIインフラ",
-      "desc": "データセンターおよびAIハードウェア冷却システム向けの熱管理シール"
+      "title": "半導体プロセス装置",
+      "desc": "データセンターおよび半導体プロセス装置冷却システム向けの熱管理シール"
     },
     "machinery": {
       "title": "精密機械",
       "desc": "精密機器向けの工業用シールおよびカスタム部品"
     },
     "automotive": {
-      "title": "自動車産業",
-      "desc": "エンジンシール、ガスケット、ホース、防振ゴム"
+      "title": "自動車 Tier 2",
+      "desc": "エンジンシール、ガスケット、ホース、防振ゴム",
+      "shortDesc": "配合技術が重要なTier 2部品。",
+      "icon": "🚗"
     },
     "industrial": {
-      "title": "一般産業",
-      "desc": "ポンプ、バルブ、機械シール、カスタム成形部品"
+      "title": "産業機器",
+      "desc": "ポンプ、バルブ、機械シール、カスタム成形部品",
+      "shortDesc": "油圧、空圧、ポンプ、バルブ向けシール。",
+      "icon": "⚙"
     },
     "medical": {
       "title": "精密機器",
@@ -153,7 +157,20 @@
     "electronics": {
       "title": "電子機器",
       "desc": "EMIシールド、キーパッド、保護シール"
-    }
+    },
+    "subtitle": "RubberQは、配合技術と安定製造が重要なEV・蓄電、産業機器、半導体、自動車Tier 2を支援します。",
+    "ev": {
+      "title": "EV・蓄電",
+      "shortDesc": "充電インフラ、BESS、EV周辺機器、自動車Tier 2向けの配合技術。",
+      "icon": "⚡"
+    },
+    "semiconductor": {
+      "title": "半導体（FFKM）",
+      "shortDesc": "管理されたA混練によるFKM/FFKMプロセスシール。",
+      "icon": "🔬"
+    },
+    "notSeeing": "該当産業がありませんか？多くの精密ゴム用途はこの4分野に含まれます。",
+    "talkCta": "技術相談する"
   },
   "cta": {
     "title": "プロジェクトを始めますか？",
@@ -193,7 +210,7 @@
       "industry": "対象業界",
       "industryOptions": {
         "robotics": "EV・蓄電",
-        "ai": "AIハードウェア/データセンター",
+        "ai": "半導体プロセス装置/データセンター",
         "automotive": "自動車（IATF 16949対応）",
         "machinery": "精密機械",
         "other": "その他"
@@ -215,7 +232,7 @@
     "engineeringSales": "技術/営業",
     "manufacturingSite": "製造拠点",
     "fastTrack": "2026年高速対応",
-    "fastTrackDesc": "設計ファイル（Google Drive/Dropboxリンク）を共有していただくと、AI支援見積もりエンジンがより迅速な価格提示が可能になります。",
+    "fastTrackDesc": "設計ファイル（Google Drive/Dropboxリンク）を共有いただくと、見積チームがより早く価格を確認できます。",
     "manufacturingAddress": "中国福建省福州市",
     "enhancement": {
       "globalDeliveryTitle": "グローバル納品対応",
@@ -236,8 +253,8 @@
     "watchVideo": "企業紹介動画を見る",
     "videoDuration": "[会社概要＆工場見学 - 3:45]",
     "heritageQuote": "\"自動車品質は私たちのDNAにあります。\"",
-    "heritageText1": "30年以上にわたり、主要な日本の自動車ブランドの長期OEMサプライヤーとして活動してきました。この経験により、精密製造において誤りの余地はないことを学びました。",
-    "heritageText2": "今日、AIとロボティクス分野へ展開するにつれて、この「ゼロ欠陥」文化の伝統を明日の技術へと引き継いでいます。",
+    "heritageText1": "RubberQ は1995年から、日本の自動車プログラム向けに精密ゴム部品を継続供給してきました。その経験が、材料管理、寸法安定性、再現性ある量産の基礎になっています。",
+    "heritageText2": "現在はその製造規律を、EV・蓄電、産業機器、半導体プロセスシール、選定された自動車 Tier 2 案件に展開しています。",
     "stats": {
       "years": "年の経験",
       "factory": "m²工場",
@@ -283,7 +300,7 @@
   "productsPage": {
     "metadata": {
       "title": "製品 | RubberQ - 自動車グレードゴム部品",
-      "description": "カスタムゴムシール、ガスケット、ベローズ、成形部品。ロボティクス、自動車、産業用アプリケーション向けのIATF 16949認証製造。"
+      "description": "カスタムゴムシール、ガスケット、ベローズ、成形部品。産業機器、自動車、産業用アプリケーション向けのIATF 16949認証製造。"
     },
     "badge": "IATF 16949 認証",
     "title": "製品ポートフォリオ",
@@ -291,7 +308,7 @@
     "capability": "能力",
     "manufacturingFootprint": "製造拠点",
     "categoriesTitle": "部品カテゴリー",
-    "categoriesSubtitle": "ロボティクス、自動車、AIインフラ、精密機械産業を支える4つの中核製品ファミリー。",
+    "categoriesSubtitle": "産業機器、自動車、半導体プロセス装置、精密機械産業を支える4つの中核製品ファミリー。",
     "certifications": [
       "IATF 16949:2016 認証",
       "ISO 9001:2015 品質",
@@ -337,7 +354,7 @@
       "name": "ベローズ＆ブーツ",
       "desc": "延長疲労寿命を持つ直線運動および回転運動システム用の柔軟な保護カバー。",
       "applications": [
-        "Robot joints",
+        "Industrial actuators",
         "Linear actuators",
         "CV joints",
         "Machine ways"
@@ -491,7 +508,7 @@
         "tips": [
           "外壁の最小抜き勾配：0.5°",
           "テクスチャ面には1-2°を推奨",
-          "内部形状には1-3°の抜き勾配が必要な場合がある"
+          "内側形状には1-3°の抜き勾配が必要な場合がある"
         ]
       },
       "shrinkage": {
@@ -597,7 +614,9 @@
       "issued": "発行日",
       "expires": "有効期限",
       "scope": "認証範囲",
-      "verification": "この証明書は、証明書番号を使用して発行機関の公式レジストリで確認できます。"
+      "verification": "この証明書は、証明書番号を使用して発行機関の公式レジストリで確認できます。",
+      "documentCenter": "RubberQ 品質資料センター",
+      "availableOnRequest": "ご要望に応じて提供"
     },
     "certificates": {
       "iatf": {
@@ -777,19 +796,19 @@
           "evidence": "Dimensional reports, final inspection records, packaging labels, and shipment checks"
         }
       ],
-      "metricsTitle": "匿名化された計画に含まれる代表的な放行管理",
+      "metricsTitle": "生産計画に基づくリリース管理例",
       "metrics": [
         "B-compound storage temperature controlled below 28 C",
         "Rheometer curve must stay within the approved standard curve",
         "Hardness, tensile strength, and elongation verified before release",
         "Critical dimensions can be monitored through SPC when required by drawing"
       ],
-      "eyebrow": "工程エビデンス",
+      "eyebrow": "工程記録",
       "linkToFlow": "管理された生産フローを見る",
       "imageSlot": {
-        "label": "画像枠",
-        "title": "匿名化したコントロールプラン記録",
-        "meta": "推奨：ぼかし処理した管理計画スクリーンショット、検査表、またはロットリリース記録、1200x900"
+        "label": "品質記録",
+        "title": "コントロールプラン記録例",
+        "meta": "コントロールプラン、検査表、ロットリリース記録"
       }
     },
     "whySingleLine": {
@@ -932,9 +951,9 @@
       "toleranceForDefects": "欠陥許容度"
     },
     "controlFlow": {
-      "title": "22工程の管理された生産フロー",
-      "subtitle": "匿名化した実際の管理計画をもとに、原材料受入から出荷まで、設備・確認項目・記録・対応計画を整理しています。",
-      "sourceNote": "公開用に匿名化した証拠資産です。品番、顧客情報、図面固有寸法は削除しています。",
+      "title": "22ステップの管理生産フロー",
+      "subtitle": "原材料受入から出荷まで、各段階に設備、検査、記録、対応アクションを設定しています。",
+      "sourceNote": "このプロセスモデルはRubberQの生産管理実務に基づき、顧客向けに分かりやすく表示しています。",
       "groups": [
         {
           "label": "01",
@@ -1000,11 +1019,11 @@
           "desc": "Each control point is tied to an acceptance rule and documented response path before production continues."
         }
       ],
-      "eyebrow": "製造能力の証拠",
+      "eyebrow": "製造プロセス",
       "imageSlot": {
-        "label": "画像枠",
-        "title": "管理された生産フローのビジュアル",
-        "meta": "推奨：匿名化した22工程図または工場フロー写真、1600x900"
+        "label": "工程ビジュアル",
+        "title": "管理生産フロー",
+        "meta": "工程図または工場フロー写真"
       }
     },
     "singleLineCallout": {
@@ -1018,7 +1037,7 @@
       "badge": "実証された卓越性",
       "titleLine1": "導入",
       "titleLine2": "事例",
-      "subtitle": "自動車グレードのゴム工学の実際のアプリケーション。ロボティクス、AIインフラ、次世代モビリティにおける重要なシーリング課題を私たちがどのように解決するかをご覧ください。"
+      "subtitle": "自動車グレードのゴム工学の実際のアプリケーション。産業機器、半導体プロセス装置、次世代モビリティにおける重要なシーリング課題を私たちがどのように解決するかをご覧ください。"
     },
     "stats": {
       "projectsDelivered": "納品プロジェクト",
@@ -1034,7 +1053,7 @@
     },
     "studies": {
       "robotics": {
-        "industry": "協働ロボティクス",
+        "industry": "産業機器",
         "client": "欧州コボットメーカー",
         "location": "ドイツ",
         "challenge": "24時間365日の生産環境でのジョイントシールの破損によるダウンタイム",
@@ -1046,10 +1065,10 @@
         ]
       },
       "aiDataCenters": {
-        "industry": "AIデータセンター",
+        "industry": "産業熱管理設備",
         "client": "大手クラウドインフラプロバイダー",
         "location": "アメリカ合衆国",
-        "challenge": "高密度GPUクラスターにおける液冷システムの漏れ",
+        "challenge": "高温設備における流体制御システムの漏れ",
         "solution": "サブミクロン公差の精密EPDM冷却シール",
         "results": [
           "99.97%の漏れのない性能",
@@ -1073,7 +1092,7 @@
     "cta": {
       "titleLine1": "シーリングの課題に",
       "titleLine2": "直面していますか？",
-      "subtitle": "当社のエンジニアリングチームは、ロボティクス、自動車、産業用途における複雑なシーリング問題を解決してきました。あなたの課題についてお話ししましょう。",
+      "subtitle": "当社のエンジニアリングチームは、産業機器、自動車、産業用途における複雑なシーリング問題を解決してきました。あなたの課題についてお話ししましょう。",
       "discussProject": "プロジェクトについて相談する",
       "exploreMaterials": "材料を探す"
     }
@@ -1221,11 +1240,11 @@
     "materials": {
       "fkm": {
         "name": "FKM (フルオロエラストマー)",
-        "desc": "AI液冷システムや自動車エンジン向けの極度の耐熱性と耐薬品性。"
+        "desc": "高温流体シールシステムや自動車エンジン向けの極度の耐熱性と耐薬品性。"
       },
       "epdm": {
         "name": "EPDM (エチレンプロピレン)",
-        "desc": "ロボティクスや屋外機械向けの優れた耐候性と屈曲寿命。"
+        "desc": "産業機器や屋外機械向けの優れた耐候性と屈曲寿命。"
       },
       "nbr": {
         "name": "NBR (ニトリルゴム)",
@@ -1332,9 +1351,9 @@
   },
   "standardsPage": {
     "hero": {
-      "badge": "技術コンプライアンス",
+      "badge": "技術規格",
       "title": "グローバル業界規格",
-      "subtitle": "RubberQでは、単にゴムを製造するだけでなく、コンプライアンスを設計します。材料科学と国際規制の交差点で操業し、製品が市場に対応できるようにします。"
+      "subtitle": "RubberQ は ASTM、ISO、SAE、IATF、図面要求を、ゴム部品の材料選定、試験記録、量産管理へ落とし込む支援を行います。"
     },
     "categories": {
       "materialClassification": {
@@ -1384,7 +1403,7 @@
       "callOutTitle": "ラインコールアウトが必要ですか？",
       "callOutDesc": "当社のエンジニアリングチームは、お客様のアプリケーション要件を正式なASTM D2000またはSAE J200仕様に変換するお手伝いをします。",
       "consultEngineer": "エンジニアに相談",
-      "complianceNotice": "コンプライアンス通知",
+      "complianceNotice": "資料について",
       "complianceNoticeText": "すべての出荷に分析証明書（COA）と適合証明書（COC）が添付されます。自動車および高精度機械プロジェクト向けに、完全なPPAPレベル3文書をご要望に応じて提供いたします。"
     },
     "footer": {
@@ -1456,8 +1475,8 @@
   },
   "compounding": {
     "abMixing": {
-      "title": "A-Mixing, B-Mixing, and Batch Release Control",
-      "intro": "The process flow separates masterbatch preparation from final cure-system addition. This reduces formulation drift, improves traceability, and gives the lab a defined release gate before molding.",
+      "title": "A混練、B混練、ロットリリース管理",
+      "intro": "マスターバッチ準備と最終加硫系添加を分けることで、配合ばらつきを抑え、追跡性を高め、成形前にラボリリースゲートを設けます。",
       "stages": [
         {
           "stage": "A-Mixing",
@@ -1480,22 +1499,667 @@
           "body": "Rheometer curve, hardness, tensile strength, elongation, and drawing-specific checks confirm the batch is suitable for production."
         }
       ],
-      "testsTitle": "Release tests typically linked to this flow",
+      "testsTitle": "この流れに紐づく代表的なリリース試験",
       "tests": [
-        "Rheometer torque curve",
-        "Hardness",
-        "Tensile strength",
-        "Elongation",
-        "Specific gravity",
-        "Mooney viscosity",
-        "Drawing-specific abnormal-condition checks"
+        "レオメータートルク曲線",
+        "硬度",
+        "引張強度",
+        "伸び",
+        "比重",
+        "ムーニー粘度",
+        "図面固有の異常条件確認"
       ],
       "eyebrow": "ロットリリースロジック",
       "imageSlot": {
-        "label": "画像枠",
-        "title": "A/B 練りとロットリリースのビジュアル",
-        "meta": "推奨：A/B 練りフロー図、ラボリリース記録、または混練ライン写真、1600x900"
+        "label": "工程ビジュアル",
+        "title": "A/B混練とロットリリース",
+        "meta": "フロー図、ラボリリース記録、混練ライン写真"
       }
+    },
+    "hero": {
+      "badge": "30年の中日配合技術協力",
+      "tagline": "日本の配合。中国の精密製造。自社ラボ検証。",
+      "subtitle": "RubberQはポリマー選定からロットリリースまで、カスタムコンパウンドを管理します。日本の配合支援、福州の精密製造、自社試験を一つの技術チェーンとして運用します。",
+      "ctaPrimary": "用途を相談",
+      "ctaSecondary": "配合能力資料をダウンロード"
+    },
+    "whyCompounding": {
+      "title": "配合が重要な理由",
+      "introTypical": "多くのゴム部品で隠れたリスクは金型ではなく、材料が長期にわたり再現できるかです。",
+      "typicalItems": [
+        "購入コンパウンドは配合の見通しを制限します",
+        "共用混練ルートはばらつきリスクを高めます",
+        "ロット検証なしの成形は継続供給を難しくします",
+        "将来の再注文が初回材料挙動と一致しない場合があります"
+      ],
+      "introRubberQ": "RubberQは配合作業を製造システムの一部として管理します：",
+      "rubberQItems": [
+        "1995年からの日本配合パートナーによる支援",
+        "計画と洗浄を管理した単一A混練ライン",
+        "硫化、硬度、引張、粘度、老化挙動のロット試験",
+        "再注文と顧客認定資料に使える追跡可能な生産記録"
+      ]
+    },
+    "aline": {
+      "title": "自社A混練ライン",
+      "capacity": "ロット範囲：配合1ロットあたり500g – 5,000kg",
+      "mixer": "ミキサー：管理されたレシピと計量記録を伴うバンバリー混練工程",
+      "throughput": "生産計画：数量、配合ファミリー、リリース試験に合わせて計画",
+      "intro": "管理された単一ライン工程がもたらす3つの利点：",
+      "adv1Title": "1. 配合安定性",
+      "adv1Body": "同じ工程ルート、同じ管理幅、再現可能なロット記録により長期供給を安定させます。",
+      "adv2Title": "2. 混入リスク管理",
+      "adv2Body": "順序計画と洗浄ルーチンにより、高純度・長寿命シール案件を支援します。",
+      "adv3Title": "3. リリース時の技術確認",
+      "adv3Body": "成形前にレオロジー、ムーニー粘度、主要ロット指標を確認します。"
+    },
+    "labEquipment": {
+      "title": "R&Dラボ設備",
+      "items": [
+        {
+          "name": "レオメーター / ムーニー粘度計",
+          "desc": "硫化特性と粘度"
+        },
+        {
+          "name": "万能引張試験機",
+          "desc": "強度と伸び"
+        },
+        {
+          "name": "老化炉",
+          "desc": "熱老化とオゾン老化"
+        },
+        {
+          "name": "圧縮永久ひずみ試験機",
+          "desc": "シール耐久性"
+        },
+        {
+          "name": "油浸漬槽",
+          "desc": "流体耐性"
+        },
+        {
+          "name": "硬度計",
+          "desc": "Shore A / Shore D 硬度"
+        }
+      ],
+      "fullLink": "全設備とASTM/ISO規格を見る"
+    },
+    "workflow": {
+      "title": "用途から量産まで",
+      "stages": [
+        {
+          "stage": "段階1",
+          "name": "要求確認",
+          "timeline": "5営業日以内",
+          "desc": "温度、媒体、動き、目標寿命、図面、年間数量を共有いただきます。"
+        },
+        {
+          "stage": "段階2",
+          "name": "配合設計",
+          "timeline": "3-6週間",
+          "desc": "ポリマー種、使用化学条件、生産ルートに基づき候補配合を選定または調整します。"
+        },
+        {
+          "stage": "段階3",
+          "name": "ラボ試作",
+          "timeline": "2-4週間",
+          "desc": "小ロットを混練・試験し、成形サンプル前に材料範囲を確認します。"
+        },
+        {
+          "stage": "段階4",
+          "name": "パイロット成形",
+          "timeline": "2-3週間",
+          "desc": "試作金型または試験成形で寸法と機能を確認します。"
+        },
+        {
+          "stage": "段階5",
+          "name": "量産リリース",
+          "timeline": "4-8週間",
+          "desc": "初品検査、ロット追跡、生産管理を整えて継続供給へ進みます。"
+        }
+      ],
+      "totalNote": "目安：新規配合ルートは12-24週間、既存RubberQ配合の調整は4-8週間。"
+    },
+    "library": {
+      "title": "配合ライブラリ",
+      "intro": "RubberQは主要ポリマー群にわたる配合ライブラリを継続的に拡張しています。具体レシピは専有技術ですが、対応範囲を以下に示します。",
+      "columns": [
+        "材料ファミリー",
+        "典型用途",
+        "温度範囲",
+        "主要特性"
+      ],
+      "rows": [
+        {
+          "family": "FKM",
+          "apps": "Industrial / Automotive / Chemical",
+          "temp": "-20 to +200°C",
+          "key": "Chemical resistance"
+        },
+        {
+          "family": "FFKM",
+          "apps": "Semiconductor / Plasma / High-purity",
+          "temp": "-20 to +260°C",
+          "key": "Extreme chemical and thermal purity"
+        },
+        {
+          "family": "HNBR",
+          "apps": "EV thermal systems / High-temp equipment",
+          "temp": "-40 to +160°C",
+          "key": "Low compression set, oil and heat"
+        },
+        {
+          "family": "NBR",
+          "apps": "Hydraulic / Oil sealing / General industrial",
+          "temp": "-40 to +120°C",
+          "key": "Cost-effective oil resistance"
+        },
+        {
+          "family": "EPDM",
+          "apps": "Outdoor enclosures / Steam / Energy systems",
+          "temp": "-50 to +150°C",
+          "key": "Weather, ozone, steam resistance"
+        },
+        {
+          "family": "ACM",
+          "apps": "Automotive transmission / ATF",
+          "temp": "-25 to +175°C",
+          "key": "ATF resistance"
+        },
+        {
+          "family": "AEM",
+          "apps": "Automotive heat ducts / Hoses",
+          "temp": "-40 to +175°C",
+          "key": "Heat and oil resistance"
+        },
+        {
+          "family": "HCR Silicone",
+          "apps": "Industrial seals / Wide temperature",
+          "temp": "-60 to +230°C",
+          "key": "Extreme temperature range"
+        },
+        {
+          "family": "LSR",
+          "apps": "Precision overmolding / Liquid injection",
+          "temp": "-60 to +200°C",
+          "key": "Tight-tolerance overmolding"
+        }
+      ],
+      "outro": "表にない特性組み合わせが必要な場合は、使用条件を共有ください。材料ルートを確認します。",
+      "cta": "カスタム配合相談を開始"
+    },
+    "boundaries": {
+      "title": "開発ルートと期間",
+      "intro": "購買・技術チームが計画しやすいよう、範囲と期間を早期に合わせます：",
+      "fast": {
+        "label": "既存配合の調整（4-8週間）",
+        "desc": "既存RubberQ配合の硬度、コスト目標、単一特性を調整します。"
+      },
+      "standard": {
+        "label": "配合選定と検証（8-16週間）",
+        "desc": "用途と図面に合わせて配合ライブラリから選定・検証します。"
+      },
+      "ndaDependent": {
+        "label": "新規配合ルート（12-24週間）",
+        "desc": "合意した試験計画、サンプル、リリース基準に基づいて新材料ルートを開発します。"
+      },
+      "validationNote": "新規配合では、試作、試験、量産リリースがそろうよう検証計画と合わせて進めます。"
+    },
+    "finalCta": {
+      "title": "共同開発を始めますか？",
+      "subtitle": "見積用図面がある場合も、材料相談が必要な用途条件がある場合も、まず使用条件から共有ください。",
+      "ctaPrimary": "用途ブリーフを送信",
+      "ctaSecondary": "配合データシートを依頼"
+    },
+    "visualLabels": {
+      "hero": "A混練ライン稼働シーン",
+      "machine": "A混練ライン",
+      "control": "計量と工程管理",
+      "process": "材料投入と排出",
+      "equipment": "ラボ設備",
+      "processVideo": "工程動画",
+      "processVideoMeta": "工場工程の概要"
+    }
+  },
+  "rfqV2": {
+    "projectType": {
+      "label": "案件タイプ",
+      "drawing": "図面ベースRFQ — 仕様があり見積が必要",
+      "application": "用途ベース — 使用条件があり材料提案が必要",
+      "sample": "サンプル依頼のみ"
+    },
+    "annualVolume": {
+      "label": "想定年間数量",
+      "options": {
+        "under10k": "10,000個未満",
+        "10kTo100k": "10,000 – 100,000個",
+        "100kTo1m": "100,000 – 1,000,000個",
+        "1mTo5m": "1,000,000 – 5,000,000個",
+        "over5m": "5,000,000個超"
+      },
+      "hintLow": "試作や少量案件では、図面と材料要求を共有いただければ実務的な生産ルートを提案します。",
+      "hintHigh": "大ロット案件では、年間数量、公差、品質、納期条件を共有ください。"
+    },
+    "quoteComponents": {
+      "label": "必要な見積内容",
+      "compoundDev": "材料可否と材料提案",
+      "tooling": "金型費用見積",
+      "perPiece": "量産単価",
+      "nda": "技術交換前のNDA",
+      "sample": "評価用サンプル見積"
+    },
+    "projectStage": {
+      "label": "案件段階",
+      "feasibility": "実現性評価",
+      "prototype": "試作 / パイロット",
+      "preProduction": "量産前検証",
+      "production": "量産 / 供給契約"
+    },
+    "responseSla": {
+      "title": "標準的な回答時間：",
+      "drawing": "図面ベースRFQ：情報完備後12-24時間",
+      "application": "用途ベース相談：初期技術確認に3-5営業日",
+      "sample": "サンプル依頼：24-48時間"
+    },
+    "industryOptionsV2": {
+      "ev": "EV・蓄電",
+      "industrial": "産業機器（油圧 / 空圧 / ポンプ / バルブ）",
+      "semiconductor": "半導体（FKM / FFKM プロセスシール）",
+      "automotiveTier2": "自動車 Tier 2",
+      "robotics": "産業機器",
+      "aiHardware": "半導体プロセス装置",
+      "other": "その他（ご記入ください）"
+    }
+  },
+  "testing": {
+    "hero": {
+      "badge": "ASTM / ISO 方法に基づく自社検証",
+      "title": "すべての配合、すべてのロットを自社ラボで試験。",
+      "subtitle": "RubberQの自社ラボは、配合と生産ロットをASTMおよびISOの方法に基づいて検証し、生産へ進めます。"
+    },
+    "matrix": {
+      "title": "試験能力マトリクス",
+      "columns": [
+        "設備",
+        "試験",
+        "規格"
+      ],
+      "rows": [
+        {
+          "equipment": "Universal Tensile Tester",
+          "test": "Tensile Strength, Elongation, Modulus",
+          "standards": "ASTM D412 / ISO 37"
+        },
+        {
+          "equipment": "Aging Oven",
+          "test": "Heat Aging, Ozone Resistance",
+          "standards": "ASTM D573 / D1149"
+        },
+        {
+          "equipment": "Compression Set Tester",
+          "test": "Compression Set",
+          "standards": "ASTM D395"
+        },
+        {
+          "equipment": "Oil Immersion Bath",
+          "test": "Fluid / Oil / Fuel Resistance",
+          "standards": "ASTM D471 / ISO 1817"
+        },
+        {
+          "equipment": "Durometer (Shore A/D)",
+          "test": "Hardness",
+          "standards": "ASTM D2240"
+        },
+        {
+          "equipment": "Rheometer (MDR)",
+          "test": "Cure Characteristics",
+          "standards": "ASTM D5289"
+        },
+        {
+          "equipment": "Mooney Viscometer",
+          "test": "Mooney Viscosity, Scorch",
+          "standards": "ASTM D1646 / ISO 289"
+        },
+        {
+          "equipment": "Specific Gravity Balance",
+          "test": "Density Verification",
+          "standards": "ASTM D297"
+        },
+        {
+          "equipment": "DMA",
+          "test": "Dynamic Mechanical Analysis when required",
+          "standards": "ASTM D5992 / ISO 4664"
+        },
+        {
+          "equipment": "TGA",
+          "test": "Thermogravimetric Analysis when required",
+          "standards": "ASTM E1131"
+        },
+        {
+          "equipment": "Video Measuring System",
+          "test": "Dimensional Inspection",
+          "standards": "ISO 3302-1 Class M1"
+        }
+      ],
+      "calibrationNote": "測定設備は計画校正と保守記録により管理しています。"
+    },
+    "sampleReport": {
+      "title": "試験レポートに含まれる内容",
+      "body": "標準レポートには、顧客参照、ロットID、ポリマー種、物性値、ASTM/ISO方法、目標値比較、担当者承認、ラボ確認、校正参照を含められます。",
+      "cta": "サンプルレポートをダウンロード（PDF）"
+    },
+    "customProtocols": {
+      "title": "カスタム試験プロトコルに対応",
+      "intro": "標準ASTM/ISO方法に加え、用途条件に応じた試験も可能です：",
+      "items": [
+        "実使用流体での長期浸漬",
+        "カスタム温度老化サイクル",
+        "非標準温度での圧縮永久ひずみ",
+        "応力緩和",
+        "顧客提供治具での試験"
+      ],
+      "cta": "検証プロトコルを相談"
+    },
+    "qualityLink": "Quality systems & certifications",
+    "visualLabels": {
+      "hero": "試験ラボ",
+      "equipment": "試験設備",
+      "report": "サンプル試験レポート",
+      "reportMeta": "A4レポート形式"
+    }
+  },
+  "aboutV2": {
+    "heroQuote": "日本の配合技術。中国の精密製造。1995年から信頼されるパートナー。",
+    "subtitleV2": "1995年6月設立の中日合弁企業として、日本の配合知見、中国の精密製造、自社試験を組み合わせています。",
+    "heritageText1V2": "1995年以来、RubberQは厳格な品質システムのもとで精密ゴム部品を供給しています。配合は日本の長期的な技術知見に支えられ、生産リリース前に自社ラボで検証されます。",
+    "heritageText2V2": "現在は、EV・蓄電、産業機器、半導体プロセスシール、自動車Tier 2にこの経験を展開しています。",
+    "dualBrain": {
+      "title": "RubberQのデュアルブレインモデル",
+      "japan": {
+        "icon": "JPN",
+        "label": "日本",
+        "body": "長期的な配合支援とポリマー化学の経験。"
+      },
+      "china": {
+        "icon": "CN",
+        "label": "中国",
+        "body": "福州での管理されたA混練ルートによる精密製造。"
+      },
+      "lab": {
+        "icon": "LAB",
+        "label": "自社ラボ",
+        "body": "生産前の材料試験とロットリリース確認。"
+      },
+      "caption": "RubberQは配合規律、製造管理、実用的なコスト効率を組み合わせ、長期B2B供給を支えます。"
+    },
+    "stats": {
+      "years": "30",
+      "yearsLabel": "年の経験",
+      "factoryArea": "20K",
+      "factoryAreaLabel": "m² 工場面積",
+      "iatfLabel": "16949 認証",
+      "jpEngineers": "1995",
+      "jpEngineersLabel": "配合協力開始"
+    },
+    "whatWeDontDo": {
+      "title": "RubberQが支援できるプロジェクト",
+      "notFitTitle": "以下は早期に確認してください：",
+      "notFitItems": [
+        "現在のISO/IATF体系外の専用ヘルスケア認証や特殊市場認証。",
+        "顧客指定のサプライヤ承認、特殊書類、現地評価要件。",
+        "図面、品質、納期条件の慎重な整合が必要な大規模汎用品または価格比較案件。"
+      ],
+      "rightFitTitle": "RubberQが最も価値を出す領域：",
+      "rightFitItems": [
+        "安定品質、きれいな外観、厳しい寸法管理が必要なゴム部品",
+        "材料、金型、工程、公差レビューが有効な標準品またはカスタム品",
+        "配合トレーサビリティとロット安定性が必要な長期供給案件",
+        "日本配合支援と中国精密製造が重要な小・中・大ロットRFQ"
+      ],
+      "cta": "案件を相談"
+    },
+    "media": {
+      "formulation": "配合パートナーシップ",
+      "manufacturing": "精密製造",
+      "lab": "試験ラボ",
+      "video": "工場紹介動画",
+      "scene": "工場能力ビジュアル"
+    }
+  },
+  "industriesPage": {
+    "index": {
+      "hero": {
+        "title": "対応産業",
+        "subtitle": "RubberQは、配合技術と安定製造が重要な4分野を支援します。"
+      },
+      "notSeeing": "該当産業がありませんか？多くの精密ゴム用途はこの4分野に含まれます。",
+      "talkCta": "技術相談する",
+      "visualLabel": "用途イメージ",
+      "explore": "詳しく見る"
+    },
+    "common": {
+      "recommendedCompounds": "推奨材料"
+    },
+    "ev": {
+      "hero": {
+        "title": "EV・蓄電用途向け精密ゴム部品",
+        "subtitle": "EV・蓄電用途では、熱サイクル、流体接触、振動、屋外環境に耐えるシール材料が必要です。"
+      },
+      "subSectors": {
+        "title": "EV・エネルギー用途領域",
+        "charging": {
+          "name": "充電インフラ",
+          "icon": "⚡",
+          "apps": [
+            "充電コネクタとケーブル界面シール",
+            "充電キャビネットと筐体ガスケット",
+            "屋外アクセスパネルシール",
+            "ケーブル接続部シール部品"
+          ],
+          "compounds": "EPDM、FKM、シリコーン"
+        },
+        "bess": {
+          "name": "蓄電システム（BESS）",
+          "icon": "⚡",
+          "apps": [
+            "キャビネットとアクセスドアのシール",
+            "ケーブルグランドとブッシュシール",
+            "防振マウント",
+            "屋外筐体ガスケット"
+          ],
+          "compounds": "EPDM、HNBR、NBR"
+        },
+        "peripheral": {
+          "name": "EV周辺・製造設備",
+          "icon": "⚡",
+          "apps": [
+            "熱サイクルチャンバーガスケット",
+            "EV部品生産ラインのシール",
+            "駆動ユニット試験設備シール",
+            "製造治具用エラストマー部品"
+          ],
+          "compounds": "FKM、HNBR、必要条件によりFFKM"
+        },
+        "vehicle": {
+          "name": "EV車両Tier 2部品",
+          "icon": "⚡",
+          "apps": [
+            "熱管理Oリングとホース",
+            "低/中電圧コネクタシール",
+            "防振アイソレータとマウント",
+            "センサー・モジュールシール"
+          ],
+          "compounds": "HNBR、FKM、EPDM、ACM、AEM"
+        }
+      },
+      "whyChemistry": {
+        "title": "EV用途で配合化学が重要な理由",
+        "intro": "EV・エネルギー用途では次の条件が重なります：",
+        "points": [
+          "熱システムでの連続熱負荷",
+          "静荷重下での長期圧縮",
+          "冷却液、誘電流体、オゾン、屋外環境",
+          "振動と熱サイクルの組み合わせ"
+        ],
+        "edge": "RubberQは部品形状だけでなく、実使用条件に対して配合を評価します。"
+      },
+      "engagement": {
+        "title": "進め方",
+        "drawings": "図面ベースのRFQでは、図面、目標材料、年間数量、品質要求を共有ください。",
+        "application": "用途相談では、温度、媒体、動き、寿命、認定要件を確認して材料ルートを提案します。"
+      },
+      "ctaPrimary": "EV用途を相談",
+      "ctaSecondary": "EV配合能力資料をダウンロード"
+    },
+    "industrial": {
+      "hero": {
+        "title": "産業機器向け精密シール",
+        "subtitle": "油圧、空圧、ポンプ、バルブ、プロセス設備には、圧力、油、熱、反復運動下で安定するゴム部品が必要です。"
+      },
+      "subSectors": {
+        "title": "用途分野",
+        "items": [
+          {
+            "name": "油圧・空圧",
+            "list": [
+              "ロッドシール、ピストンシール、ワイパーシール",
+              "空圧アクチュエータシール"
+            ]
+          },
+          {
+            "name": "ポンプ・バルブ",
+            "list": [
+              "ポンプハウジングガスケット",
+              "バルブステムシール"
+            ]
+          },
+          {
+            "name": "機械摺動部保護",
+            "list": [
+              "ベローズ、ブーツ、ウェイカバー"
+            ]
+          },
+          {
+            "name": "プロセス設備",
+            "list": [
+              "耐蒸気ガスケット",
+              "耐薬品シール"
+            ]
+          }
+        ]
+      },
+      "whyUs": {
+        "title": "産業顧客がRubberQを選ぶ理由",
+        "items": [
+          "管理製造と連動した技術配合",
+          "図面ベース部品の精密成形と検査",
+          "産業OEM供給にIATF 16949の製造規律を適用",
+          "継続供給向けの配合安定性"
+        ]
+      },
+      "cta": "見積を依頼"
+    },
+    "semiconductor": {
+      "hero": {
+        "title": "半導体製造向けFKM・FFKMシール",
+        "subtitle": "半導体プロセス装置には、材料純度、耐薬品性、クリーンな取り扱い、追跡可能な生産記録が求められます。"
+      },
+      "engagement": {
+        "title": "対応領域",
+        "intro": "半導体シールは一律カタログではなく、プロセス条件に基づいて技術評価します。",
+        "fkm": {
+          "label": "FKMベースプロセスシール",
+          "desc": "媒体、温度、取り扱い条件にFKM性能が適合するプロセス界面向け。"
+        },
+        "ffkm": {
+          "label": "FFKMベースプロセスシール",
+          "desc": "高い耐薬品性・耐熱性が必要な厳しいプロセス条件向け。"
+        }
+      },
+      "whySingleLine": {
+        "title": "単一混練ラインが重要な理由",
+        "body": "管理されたA混練、順序計画、洗浄記録により、高純度・長寿命シール向けの配合安定性を支えます。"
+      },
+      "processCompat": {
+        "title": "プロセス適合性確認",
+        "body": "プロセス条件、媒体、温度、動き、期待寿命を共有ください。RubberQが適切なFKMまたはFFKM材料ルートを確認します。"
+      },
+      "cta": "半導体用途を相談"
+    },
+    "automotive": {
+      "hero": {
+        "title": "自動車Tier 2部品 — 精密性が重要な用途",
+        "subtitle": "RubberQは日本自動車プログラムでの経験を活かし、配合安定性、公差管理、再現供給が重要なTier 2部品を支援します。"
+      },
+      "whereWeFit": {
+        "title": "RubberQが価値を出す領域",
+        "fitTitle": "より価値が出る案件",
+        "fitItems": [
+          "材料挙動が組立性能に影響するTier 2部品",
+          "安定品質が必要な標準品、カスタム品、小ロットまたは大ロット部品",
+          "顧客技術チームとの配合・工程レビュー"
+        ],
+        "confirmTitle": "早期確認",
+        "notFitItems": [
+          "顧客指定承認、現地評価、特殊書類が必要なプログラム",
+          "専用認証が必要なヘルスケア等の規制用途"
+        ]
+      },
+      "customerProfile": {
+        "title": "顧客プロフィール",
+        "items": [
+          "1995年からの長期日本OEM関係",
+          "Tier 1・Tier 2サプライチェーン経験",
+          "配合化学と製造安定性が重要な用途"
+        ]
+      },
+      "cta": "Tier 2部品を相談"
+    }
+  },
+  "visualLabels": {
+    "manufacturing": "工場製造シーン",
+    "ev": "EV・蓄電用途",
+    "industrial": "産業機器用途",
+    "semiconductor": "半導体シール用途",
+    "automotive": "自動車 Tier 2 用途"
+  },
+  "goodFit": {
+    "title": "RubberQは貴社案件を支援できますか？",
+    "subtitle": "標準品、カスタム品、小ロット、大ロットまで相談可能です。",
+    "fitTitle": "価値を出しやすい案件",
+    "fitItems": [
+      "ゴム品質とロット安定性を重視する案件",
+      "寸法、公差、外観管理が重要な部品",
+      "材料、金型、工程の技術支援が必要な用途",
+      "標準品、カスタム品、小ロット、大ロットの相談",
+      "IATF 16949 / ISO 9001 / ISO 14001 製造体系が必要な案件"
+    ],
+    "notFitTitle": "RFQ時に確認したい内容",
+    "notFitItems": [
+      "専用ヘルスケア認証が必要な案件は事前にご相談ください。",
+      "顧客指定承認、特殊書類、現地評価条件はRFQ時に共有ください。"
+    ],
+    "cta": "案件を相談"
+  },
+  "footerTagline": "日本の配合。中国の精密製造。1995年からの信頼。",
+  "qualityV2": {
+    "heroSubtitleV2": "配合設計から最終検査まで、IATF 16949 認証の品質システムにより、EV・蓄電、産業機器、半導体、自動車 Tier 2 の顧客に、長期量産で追跡可能な品質管理を提供します。",
+    "whySingleLine": {
+      "title": "単一A混練ラインを使う理由",
+      "intro": "このラインは顧客に三つの実務的な利点を提供します。",
+      "points": [
+        "繰り返し量産での長期的な配合安定性。",
+        "順序管理と清掃SOPによる交差汚染リスクの低減。",
+        "流変、ムーニー、主要物性を確認するエンジニア立会いのバッチ管理。"
+      ],
+      "link": "配合製造能力を見る"
+    }
+  },
+  "capabilitiesV2": {
+    "heroSubtitleV2": "RubberQ の二段混練プロセスは、日本の配合支援を受けて構築した専用A混練ラインで運用されます。マスターバッチと最終混練を分けることで、重要用途向けに安定したロット間品質を実現します。",
+    "singleLineCallout": {
+      "title": "単一A混練ラインでの管理",
+      "body": "RubberQ は汚染リスクに応じて配合ファミリーを計画し、ロット間でSOPに基づく清掃を行い、A混練記録を各ロットに紐づけます。顧客固有のレシピを公開せずに、高純度と長期再現性を支えます。",
+      "cta": "配合戦略を見る"
     }
   }
 }

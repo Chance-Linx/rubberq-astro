@@ -12,10 +12,10 @@ const meta = messages?.metadata || {};
 const cs = (key: string, fallback = '') => t(messages, `caseStudies.${key}`, fallback);
 
 const labelsByLocale: Record<string, Record<string, string>> = {
-  en: {
-    eyebrow: 'Application Notes',
-    title: 'Anonymized Engineering Cases',
-    subtitle: 'Representative sealing programs showing how RubberQ evaluates compound fit, process control, and validation evidence before a production quote.',
+	  en: {
+	    eyebrow: 'Application Notes',
+	    title: 'Engineering Application Cases',
+	    subtitle: 'Representative sealing programs showing how RubberQ matches compound selection, process control, and testing plans to customer application conditions.',
     all: 'All Industries',
     ev: 'EV & Energy Storage',
     industrial: 'Industrial Equipment',
@@ -23,17 +23,17 @@ const labelsByLocale: Record<string, Record<string, string>> = {
     automotiveTier2: 'Automotive Tier 2',
     challenge: 'Challenge',
     response: 'RubberQ Response',
-    evidence: 'Evidence To Verify',
-    cta: 'Discuss Similar Project',
-    review: 'Request Engineering Review',
-    note: 'Customer names, drawings, and volumes are anonymized. Placeholder images remain until RubberQ-owned proof assets are added.',
-    bottomTitle: 'Bring us the drawing, media, temperature window, and annual volume.',
-    bottomSubtitle: 'We will tell you whether RubberQ is the right fit before pushing for a quote.',
-  },
+	    deliverables: 'Project Records',
+	    cta: 'Discuss Similar Project',
+	    rfq: 'Send RFQ Details',
+	    note: 'These case notes focus on engineering approach, material selection, and process control while keeping customer-specific details private.',
+	    bottomTitle: 'Bring us the drawing, media, temperature window, and annual volume.',
+	    bottomSubtitle: 'RubberQ will map the material path and confirm the practical next step before quotation.',
+	  },
   zh: {
     eyebrow: '应用说明',
-    title: '匿名工程案例',
-    subtitle: '用代表性密封项目说明 RubberQ 如何先判断配方适配、过程控制与验证证据，再进入量产报价。',
+    title: '工程应用案例',
+	    subtitle: '用代表性密封项目说明 RubberQ 如何根据客户应用条件匹配配方、过程控制和测试计划。',
     all: '全部行业',
     ev: 'EV 与储能',
     industrial: '工业设备',
@@ -41,17 +41,17 @@ const labelsByLocale: Record<string, Record<string, string>> = {
     automotiveTier2: '汽车 Tier 2',
     challenge: '项目挑战',
     response: 'RubberQ 处理方式',
-    evidence: '待验证证据',
-    cta: '沟通类似项目',
-    review: '申请工程评估',
-    note: '客户名称、图纸与数量均已匿名。图片保留为占位，待后续替换为 RubberQ 自有证据资产。',
-    bottomTitle: '请先给我们图纸、介质、温度窗口和年用量。',
-    bottomSubtitle: '在推动报价前，我们会先判断 RubberQ 是否适合这个项目。',
-  },
+	    deliverables: '项目资料',
+	    cta: '沟通类似项目',
+	    rfq: '提交 RFQ 资料',
+	    note: '案例重点说明工程处理方式、材料选择和过程控制，客户项目细节不在页面公开展示。',
+	    bottomTitle: '请先给我们图纸、介质、温度窗口和年用量。',
+	    bottomSubtitle: 'RubberQ 会先梳理材料路径和下一步资料，再进入正式报价。',
+	  },
   de: {
     eyebrow: 'Application Notes',
-    title: 'Anonymisierte Engineering-Falle',
-    subtitle: 'Reprasentative Dichtungsprogramme, die Compound-Fit, Prozesskontrolle und Validierungsnachweise vor dem Serienangebot zeigen.',
+    title: 'Engineering-Anwendungsfälle',
+	    subtitle: 'Repräsentative Dichtungsprogramme, die Materialauswahl, Prozesskontrolle und Prüfplanung mit den Einsatzbedingungen des Kunden verbinden.',
     all: 'Alle Branchen',
     ev: 'EV & Energiespeicher',
     industrial: 'Industrieausrustung',
@@ -59,17 +59,17 @@ const labelsByLocale: Record<string, Record<string, string>> = {
     automotiveTier2: 'Automotive Tier 2',
     challenge: 'Herausforderung',
     response: 'RubberQ Antwort',
-    evidence: 'Nachweise',
-    cta: 'Ahnliches Projekt besprechen',
-    review: 'Engineering-Review anfragen',
-    note: 'Kundennamen, Zeichnungen und Mengen sind anonymisiert. Bilder bleiben Platzhalter bis eigene RubberQ-Nachweise erganzt werden.',
+	    deliverables: 'Projektunterlagen',
+	    cta: 'Ahnliches Projekt besprechen',
+	    rfq: 'RFQ-Daten senden',
+    note: 'Diese Fallnotizen konzentrieren sich auf Engineering-Ansatz, Materialauswahl und Prozesskontrolle und schützen kundenspezifische Details.',
     bottomTitle: 'Senden Sie Zeichnung, Medium, Temperaturfenster und Jahresvolumen.',
-    bottomSubtitle: 'Wir sagen zuerst, ob RubberQ der richtige Partner ist, bevor wir ein Angebot erzwingen.',
-  },
+	    bottomSubtitle: 'RubberQ klärt den Materialweg und den nächsten praktischen Schritt vor dem Angebot.',
+	  },
   ja: {
     eyebrow: 'Application Notes',
-    title: '匿名エンジニアリング事例',
-    subtitle: '量産見積の前に、配合適合性、工程管理、検証資料をどのように確認するかを示す代表事例です。',
+    title: 'エンジニアリング適用事例',
+	    subtitle: '顧客の使用条件に合わせて、材料選定、工程管理、試験計画をどのように組み立てるかを示す代表事例です。',
     all: '全業界',
     ev: 'EV・蓄電',
     industrial: '産業機器',
@@ -77,17 +77,17 @@ const labelsByLocale: Record<string, Record<string, string>> = {
     automotiveTier2: '自動車 Tier 2',
     challenge: '課題',
     response: 'RubberQ の対応',
-    evidence: '確認すべき証拠',
-    cta: '類似案件を相談',
-    review: '技術レビューを依頼',
-    note: '顧客名、図面、数量は匿名化しています。画像は RubberQ 自社証拠素材の追加までプレースホルダーです。',
+	    deliverables: 'プロジェクト資料',
+	    cta: '類似案件を相談',
+	    rfq: 'RFQ情報を送る',
+    note: '各事例は技術対応、材料選定、工程管理に焦点を当て、顧客固有情報は公開していません。',
     bottomTitle: '図面、媒体、温度範囲、年間数量を共有してください。',
-    bottomSubtitle: '見積を進める前に、RubberQ が適した案件かを先に判断します。',
-  },
+	    bottomSubtitle: 'RubberQ が材料ルートと次の実務ステップを整理してから見積に進みます。',
+	  },
   es: {
     eyebrow: 'Application Notes',
-    title: 'Casos de ingenieria anonimizados',
-    subtitle: 'Programas representativos que muestran ajuste de compuesto, control de proceso y evidencia de validacion antes de cotizar produccion.',
+    title: 'Casos de Aplicación de Ingeniería',
+	    subtitle: 'Programas representativos que conectan selección de compuesto, control de proceso y plan de pruebas con las condiciones reales de aplicación.',
     all: 'Todas las industrias',
     ev: 'EV y almacenamiento',
     industrial: 'Equipo industrial',
@@ -95,55 +95,219 @@ const labelsByLocale: Record<string, Record<string, string>> = {
     automotiveTier2: 'Automotriz Tier 2',
     challenge: 'Reto',
     response: 'Respuesta RubberQ',
-    evidence: 'Evidencia a verificar',
-    cta: 'Discutir proyecto similar',
-    review: 'Solicitar revision tecnica',
-    note: 'Nombres de clientes, planos y volumenes estan anonimizados. Las imagenes quedan como marcadores hasta agregar evidencia propia de RubberQ.',
+	    deliverables: 'Registros del proyecto',
+	    cta: 'Discutir proyecto similar',
+	    rfq: 'Enviar datos RFQ',
+    note: 'Estas notas se enfocan en enfoque técnico, selección de material y control de proceso, protegiendo detalles específicos del cliente.',
     bottomTitle: 'Comparta plano, medio, temperatura y volumen anual.',
-    bottomSubtitle: 'Primero diremos si RubberQ encaja antes de empujar una cotizacion.',
-  },
+	    bottomSubtitle: 'RubberQ definirá la ruta de material y el siguiente paso práctico antes de cotizar.',
+	  },
 };
 
 const labels = labelsByLocale[locale] || labelsByLocale.en;
 
-const cases = [
-  {
-    id: 'ev-thermal-interface',
-    industry: 'ev',
-    title: 'EV Thermal Interface Seal Compound Review',
-    image: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&q=80&w=1200',
-    challenge: 'A cooling interface required stable compression under glycol exposure, thermal cycling, and repeated assembly handling.',
-    response: 'RubberQ reviewed EPDM, HNBR, and FKM options, then scoped compound testing around compression set, coolant swell, and dimensional repeatability before quoting tooling.',
-    evidence: ['Compound shortlist with service-window rationale', 'Compression-set and coolant-swell validation plan', 'Batch traceability path for future repeat orders'],
-  },
-  {
-    id: 'industrial-hydraulic-valve',
+const casesByLocale: Record<string, Array<{
+  id: string;
+  industry: string;
+  title: string;
+  image: string;
+  challenge: string;
+  response: string;
+  deliverables: string[];
+}>> = {
+  en: [
+	  {
+	    id: 'ev-thermal-interface',
+	    industry: 'ev',
+	    title: 'EV Thermal Interface Seal Compound Review',
+	    image: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&q=80&w=1200',
+	    challenge: 'A cooling interface required stable compression under glycol exposure, thermal cycling, and repeated assembly handling.',
+	    response: 'RubberQ compared EPDM, HNBR, and FKM options, then built the testing path around compression set, coolant swell, and dimensional repeatability before quoting tooling.',
+	    deliverables: ['Compound shortlist with service-window rationale', 'Compression-set and coolant-swell test plan', 'Batch traceability path for future repeat orders'],
+	  },
+	  {
+	    id: 'industrial-hydraulic-valve',
     industry: 'industrial',
-    title: 'Hydraulic Valve Seal Migration From Commodity NBR',
-    image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=1200',
-    challenge: 'A valve program needed better oil aging and extrusion resistance without over-specifying a premium fluoroelastomer.',
-    response: 'RubberQ compared NBR and HNBR formulations against the drawing groove, pressure window, and target maintenance interval.',
-    evidence: ['Material recommendation tied to pressure and oil exposure', 'Pilot-run inspection plan', 'Incoming and final inspection record template'],
-  },
-  {
+	    title: 'Hydraulic Valve Seal Migration From Commodity NBR',
+	    image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=1200',
+	    challenge: 'A valve program needed better oil aging and extrusion resistance without over-specifying a premium fluoroelastomer.',
+	    response: 'RubberQ compared NBR and HNBR formulations against the drawing groove, pressure window, and target maintenance interval.',
+	    deliverables: ['Material recommendation tied to pressure and oil exposure', 'Pilot-run inspection plan', 'Incoming and final inspection record template'],
+	  },
+	  {
     id: 'semiconductor-ffkm-vacuum',
     industry: 'semiconductor',
-    title: 'Semiconductor Vacuum Module FFKM Seal Path',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200',
-    challenge: 'A process-module interface required chemical resistance, low contamination risk, and lot-level traceability for maintenance planning.',
-    response: 'RubberQ scoped an FFKM sealing package with low-outgassing compound selection, flash-control review, and clean-process handling requirements.',
-    evidence: ['FFKM material path with contamination-control notes', 'Lot-level traceability requirement', 'Incoming verification and storage handling checklist'],
-  },
-  {
+	    title: 'Semiconductor Vacuum Module FFKM Seal Path',
+	    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200',
+	    challenge: 'A process-module interface required chemical resistance, low contamination risk, and lot-level traceability for maintenance planning.',
+	    response: 'RubberQ scoped an FFKM sealing package with low-outgassing compound selection, flash-control targets, and clean-process handling requirements.',
+	    deliverables: ['FFKM material path with contamination-control notes', 'Lot-level traceability requirement', 'Incoming verification and storage handling checklist'],
+	  },
+	  {
     id: 'automotive-tier2-cooling',
     industry: 'automotiveTier2',
-    title: 'Automotive Tier 2 Cooling Module Seal Qualification',
-    image: 'https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=1200',
-    challenge: 'A Tier 2 module supplier needed a repeatable elastomer part with quality-system evidence suitable for downstream customer review.',
-    response: 'RubberQ aligned material choice, tooling review, dimensional control, and PPAP-oriented documentation under its IATF 16949 process system.',
-    evidence: ['Drawing-based tolerance and inspection plan', 'PPAP-oriented documentation scope', 'Material batch and process traceability flow'],
-  },
-];
+	    title: 'Automotive Tier 2 Cooling Module Seal Qualification',
+	    image: 'https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=1200',
+	    challenge: 'A Tier 2 module supplier needed a repeatable elastomer part with quality-system records suitable for downstream customer approval.',
+	    response: 'RubberQ aligned material choice, tooling assessment, dimensional control, and PPAP-oriented documentation under its IATF 16949 process system.',
+	    deliverables: ['Drawing-based tolerance and inspection plan', 'PPAP-oriented documentation scope', 'Material batch and process traceability flow'],
+	  },
+  ],
+  zh: [
+	  {
+	    id: 'ev-thermal-interface',
+	    industry: 'ev',
+	    title: 'EV 热管理界面密封配方路径',
+	    image: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&q=80&w=1200',
+	    challenge: '冷却界面需要在乙二醇介质、冷热循环和重复装配条件下保持稳定压缩性能。',
+	    response: 'RubberQ 对比 EPDM、HNBR 与 FKM 方案，并围绕压缩永久变形、冷却液膨胀和尺寸重复性制定测试路径，再进行模具报价。',
+	    deliverables: ['按使用窗口筛选的配方方案', '压缩永久变形与冷却液膨胀测试计划', '后续重复订单的批次追溯路径'],
+	  },
+	  {
+	    id: 'industrial-hydraulic-valve',
+	    industry: 'industrial',
+	    title: '液压阀密封件从通用 NBR 升级',
+	    image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=1200',
+	    challenge: '阀体项目需要提升耐油老化和抗挤出能力，同时避免过度使用高成本氟橡胶。',
+	    response: 'RubberQ 根据图纸沟槽、压力窗口和维护周期目标，对比 NBR 与 HNBR 配方路径。',
+	    deliverables: ['结合压力和油介质的材料建议', '试产检验计划', '来料与终检记录模板'],
+	  },
+	  {
+	    id: 'semiconductor-ffkm-vacuum',
+	    industry: 'semiconductor',
+	    title: '半导体真空模块 FFKM 密封路径',
+	    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200',
+	    challenge: '工艺模块界面需要耐化学介质、低污染风险，并支持按批次追溯以配合维护计划。',
+	    response: 'RubberQ 围绕低析出 FFKM 材料选择、飞边控制目标和洁净工艺处理要求制定密封方案。',
+	    deliverables: ['包含污染控制要点的 FFKM 材料路径', '批次级追溯要求', '入库确认与存储处理清单'],
+	  },
+	  {
+	    id: 'automotive-tier2-cooling',
+	    industry: 'automotiveTier2',
+	    title: '汽车 Tier 2 冷却模块密封件定点准备',
+	    image: 'https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=1200',
+	    challenge: 'Tier 2 模块供应商需要稳定可复制的橡胶件，并配套可供下游客户确认的质量体系记录。',
+	    response: 'RubberQ 在 IATF 16949 体系下同步材料选择、模具评估、尺寸控制和 PPAP 导向资料。',
+	    deliverables: ['基于图纸的公差与检验计划', 'PPAP 导向资料范围', '材料批次与过程追溯流程'],
+	  },
+  ],
+  de: [
+	  {
+	    id: 'ev-thermal-interface',
+	    industry: 'ev',
+	    title: 'Dichtungswerkstoff fuer EV-Thermalschnittstellen',
+	    image: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&q=80&w=1200',
+	    challenge: 'Eine Kühlschnittstelle musste unter Glykol, Temperaturwechseln und wiederholter Montage stabile Kompression halten.',
+	    response: 'RubberQ verglich EPDM-, HNBR- und FKM-Optionen und legte den Prüfpfad auf Compression Set, Kühlmittelquellung und Maßwiederholbarkeit aus.',
+	    deliverables: ['Materialauswahl mit Begründung zum Einsatzfenster', 'Prüfplan für Compression Set und Kühlmittelquellung', 'Chargenrückverfolgung für spätere Wiederholaufträge'],
+	  },
+	  {
+	    id: 'industrial-hydraulic-valve',
+	    industry: 'industrial',
+	    title: 'Hydraulikventil-Dichtung als Upgrade von Standard-NBR',
+	    image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=1200',
+	    challenge: 'Ein Ventilprogramm benötigte bessere Ölalterung und Extrusionsbeständigkeit, ohne unnötig auf teures Fluorelastomer zu wechseln.',
+	    response: 'RubberQ verglich NBR- und HNBR-Formulierungen anhand von Nutgeometrie, Druckfenster und Wartungsziel.',
+	    deliverables: ['Materialempfehlung nach Druck und Ölkontakt', 'Prüfplan für die Vorserie', 'Vorlage für Wareneingangs- und Endprüfung'],
+	  },
+	  {
+	    id: 'semiconductor-ffkm-vacuum',
+	    industry: 'semiconductor',
+	    title: 'FFKM-Dichtungspfad für Halbleiter-Vakuummodule',
+	    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200',
+	    challenge: 'Eine Prozessmodul-Schnittstelle erforderte Chemikalienbeständigkeit, geringes Kontaminationsrisiko und chargenbezogene Rückverfolgung.',
+	    response: 'RubberQ definierte ein FFKM-Dichtungspaket mit ausgasungsarmer Materialwahl, Gratkontrollzielen und sauberer Prozesshandhabung.',
+	    deliverables: ['FFKM-Materialpfad mit Kontaminationshinweisen', 'Anforderung an Chargenrückverfolgung', 'Checkliste für Eingangskontrolle und Lagerung'],
+	  },
+	  {
+	    id: 'automotive-tier2-cooling',
+	    industry: 'automotiveTier2',
+	    title: 'Kuehlmodul-Dichtung für Automotive Tier 2',
+	    image: 'https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=1200',
+	    challenge: 'Ein Tier-2-Modullieferant benötigte ein wiederholbares Elastomerbauteil mit Qualitätsunterlagen für die Freigabe beim Endkunden.',
+	    response: 'RubberQ verband Materialauswahl, Werkzeugbewertung, Maßkontrolle und PPAP-orientierte Dokumentation im IATF-16949-Prozesssystem.',
+	    deliverables: ['Toleranz- und Prüfplan auf Zeichnungsbasis', 'PPAP-orientierter Dokumentationsumfang', 'Materialchargen- und Prozessrückverfolgung'],
+	  },
+  ],
+  ja: [
+	  {
+	    id: 'ev-thermal-interface',
+	    industry: 'ev',
+	    title: 'EV熱管理インターフェース用シール配合',
+	    image: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&q=80&w=1200',
+	    challenge: '冷却インターフェースには、グリコール、熱サイクル、繰り返し組付けの条件下で安定した圧縮性能が求められました。',
+	    response: 'RubberQ は EPDM、HNBR、FKM の候補を比較し、圧縮永久ひずみ、冷却液膨潤、寸法再現性を中心に試験ルートを組み立てました。',
+	    deliverables: ['使用条件に基づく配合候補', '圧縮永久ひずみと冷却液膨潤の試験計画', '継続発注に向けたロット追跡ルート'],
+	  },
+	  {
+	    id: 'industrial-hydraulic-valve',
+	    industry: 'industrial',
+	    title: '油圧バルブシールの汎用NBRからの改善',
+	    image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=1200',
+	    challenge: 'バルブ案件では、高価なフッ素ゴムに過剰仕様化せず、耐油老化性と耐押出性を高める必要がありました。',
+	    response: 'RubberQ は図面溝、圧力範囲、保全間隔の目標に合わせて NBR と HNBR の配合ルートを比較しました。',
+	    deliverables: ['圧力と油接触条件に基づく材料提案', '試作ロットの検査計画', '受入検査と最終検査の記録テンプレート'],
+	  },
+	  {
+	    id: 'semiconductor-ffkm-vacuum',
+	    industry: 'semiconductor',
+	    title: '半導体真空モジュール向け FFKM シールルート',
+	    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200',
+	    challenge: 'プロセスモジュールの界面には、耐薬品性、低汚染リスク、保全計画に使えるロット追跡が必要でした。',
+	    response: 'RubberQ は低アウトガス FFKM の材料選定、バリ管理目標、クリーンな工程取扱いを組み合わせたシール案を整理しました。',
+	    deliverables: ['汚染管理要点を含む FFKM 材料ルート', 'ロット単位の追跡要求', '受入確認と保管取扱いチェックリスト'],
+	  },
+	  {
+	    id: 'automotive-tier2-cooling',
+	    industry: 'automotiveTier2',
+	    title: '自動車 Tier 2 冷却モジュール用シール準備',
+	    image: 'https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=1200',
+	    challenge: 'Tier 2 モジュールサプライヤーには、再現性の高いゴム部品と、下流顧客の承認に使える品質記録が必要でした。',
+	    response: 'RubberQ は IATF 16949 の工程体系に沿って、材料選定、金型評価、寸法管理、PPAP 向け資料を整理しました。',
+	    deliverables: ['図面ベースの公差と検査計画', 'PPAP 向け資料範囲', '材料ロットと工程追跡フロー'],
+	  },
+  ],
+  es: [
+	  {
+	    id: 'ev-thermal-interface',
+	    industry: 'ev',
+	    title: 'Ruta de compuesto para sello térmico EV',
+	    image: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&q=80&w=1200',
+	    challenge: 'Una interfaz de enfriamiento necesitaba compresión estable bajo glicol, ciclos térmicos y montaje repetido.',
+	    response: 'RubberQ comparó opciones EPDM, HNBR y FKM, y definió pruebas de compression set, hinchamiento en refrigerante y repetibilidad dimensional.',
+	    deliverables: ['Lista corta de compuestos según ventana de servicio', 'Plan de pruebas de compression set e hinchamiento', 'Ruta de trazabilidad de lote para pedidos repetidos'],
+	  },
+	  {
+	    id: 'industrial-hydraulic-valve',
+	    industry: 'industrial',
+	    title: 'Migración de sello de válvula hidráulica desde NBR estándar',
+	    image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=1200',
+	    challenge: 'Un programa de válvula requería mejor envejecimiento en aceite y resistencia a extrusión sin sobredimensionar con fluoroelastómero premium.',
+	    response: 'RubberQ comparó formulaciones NBR y HNBR contra la ranura del plano, ventana de presión e intervalo de mantenimiento objetivo.',
+	    deliverables: ['Recomendación de material según presión y exposición a aceite', 'Plan de inspección para corrida piloto', 'Plantilla de inspección de entrada y final'],
+	  },
+	  {
+	    id: 'semiconductor-ffkm-vacuum',
+	    industry: 'semiconductor',
+	    title: 'Ruta de sello FFKM para módulo de vacío semiconductor',
+	    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200',
+	    challenge: 'Una interfaz de módulo de proceso requería resistencia química, bajo riesgo de contaminación y trazabilidad por lote para mantenimiento.',
+	    response: 'RubberQ definió un paquete de sellado FFKM con selección de bajo outgassing, objetivos de control de rebaba y manejo de proceso limpio.',
+	    deliverables: ['Ruta de material FFKM con notas de control de contaminación', 'Requisito de trazabilidad por lote', 'Lista de entrada y manejo de almacenamiento'],
+	  },
+	  {
+	    id: 'automotive-tier2-cooling',
+	    industry: 'automotiveTier2',
+	    title: 'Preparación de sello para módulo de enfriamiento Tier 2',
+	    image: 'https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&q=80&w=1200',
+	    challenge: 'Un proveedor Tier 2 necesitaba una pieza elastomérica repetible con registros de calidad adecuados para aprobación del cliente final.',
+	    response: 'RubberQ alineó selección de material, evaluación de herramental, control dimensional y documentación orientada a PPAP dentro de su sistema IATF 16949.',
+	    deliverables: ['Plan de tolerancias e inspección basado en plano', 'Alcance documental orientado a PPAP', 'Flujo de trazabilidad de lote y proceso'],
+	  },
+  ],
+};
+
+const cases = casesByLocale[locale] || casesByLocale.en;
 ---
 
 <LocaleLayout locale={locale}>
@@ -194,9 +358,9 @@ const cases = [
                   <p class="text-sm text-industrial-700 leading-relaxed">{item.response}</p>
                 </div>
                 <div class="bg-white border border-industrial-200 p-5">
-                  <h3 class="font-bold text-industrial-900 uppercase text-xs tracking-wider mb-3">{labels.evidence}</h3>
+                  <h3 class="font-bold text-industrial-900 uppercase text-xs tracking-wider mb-3">{labels.deliverables}</h3>
                   <ul class="space-y-2">
-                    {item.evidence.map((point) => (
+                    {item.deliverables.map((point) => (
                       <li class="text-sm text-industrial-700 flex items-start gap-2">
                         <span class="text-accent-orange font-bold mt-0.5">•</span>
                         {point}
@@ -207,7 +371,7 @@ const cases = [
               </div>
               <div class="flex flex-col sm:flex-row gap-3 mt-7">
                 <a href={`/${locale}/contact`} class="inline-flex items-center justify-center bg-industrial-900 text-white px-6 py-3 font-bold text-xs uppercase tracking-widest hover:bg-accent-orange transition-colors">{labels.cta}</a>
-                <a href={`/${locale}/batch-rfq`} class="inline-flex items-center justify-center border border-industrial-300 text-industrial-900 px-6 py-3 font-bold text-xs uppercase tracking-widest hover:border-accent-orange hover:text-accent-orange transition-colors">{labels.review}</a>
+                <a href={`/${locale}/batch-rfq`} class="inline-flex items-center justify-center border border-industrial-300 text-industrial-900 px-6 py-3 font-bold text-xs uppercase tracking-widest hover:border-accent-orange hover:text-accent-orange transition-colors">{labels.rfq}</a>
               </div>
             </div>
           </article>

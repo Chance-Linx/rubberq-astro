@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "title": "RubberQ | Präzisions-Gummiteile Hersteller (IATF 16949 Zertifiziert)",
-    "description": "Fuzhou RubberQ Rubber Co., Ltd. ist ein globaler Hersteller von Gummikomponenten in Automobilqualität. Spezialisiert auf FKM, EPDM und NBR für KI-Hardware, Robotik und Hochpräzisionsmaschinen.",
+    "title": "RubberQ | Kundenspezifische Gummimischungen & Präzisionsteile seit 1995",
+    "description": "RubberQ verbindet japanische Formulierungsunterstützung mit chinesischer Präzisionsfertigung für EV/Energiespeicher, Industrieanlagen, Halbleiter und Automotive Tier 2.",
     "home": {
-      "title": "RubberQ — Präzisions-Gummifertigung",
-      "description": "Gummikomponenten in Automobilqualität für Robotik, KI-Infrastruktur und Präzisionsmaschinen. IATF 16949 zertifiziert."
+      "title": "RubberQ | Japanische Formulierung. Chinesische Präzision. Seit 1995 vertrauenswürdig.",
+      "description": "Sino-japanisches Joint Venture für kundenspezifische Gummimischungen in EV/Energiespeicher, Industrieanlagen, Halbleiter und Automotive Tier 2."
     },
     "blog": {
       "title": "Technisches Wissenszentrum | RubberQ",
@@ -16,7 +16,7 @@
     },
     "caseStudies": {
       "title": "Fallstudien | RubberQ",
-      "description": "Reale Gummi-Engineering-Lösungen für Robotik, KI-Infrastruktur und Automobilindustrie."
+      "description": "Reale Gummi-Engineering-Lösungen für Industrieanlagen, Halbleiter-Prozessausrüstung und Automobilindustrie."
     },
     "contact": {
       "title": "Kontakt | RubberQ",
@@ -75,25 +75,25 @@
     "titleLine1": "PRÄZISION IN",
     "titleLine2": "JEDEM",
     "titleLine3": "MOLEKÜL.",
-    "subtitle": "Im Dienst der Zukunft von Robotik, KI-Infrastruktur und Hochleistungsmaschinen mit IATF 16949 zertifizierten Gummikomponenten.",
+    "subtitle": "Im Dienst der Zukunft von Industrieanlagen, Halbleiter-Prozessausrüstung und Hochleistungsmaschinen mit IATF 16949 zertifizierten Gummikomponenten.",
     "ctaPrimary": "TECHNISCHES ZENTRUM",
     "ctaSecondary": "QUALITÄT & VERTRAUEN"
   },
   "features": {
-    "title": "WARUM GLOBALE FÜHRER RUBBERQ VERTRAUEN",
-    "summaryTitle": "TECHNISCHE ZUSAMMENFASSUNG",
+    "title": "WARUM ENGINEERING-TEAMS RUBBERQ WÄHLEN",
+    "summaryTitle": "TECHNISCHE KURZÜBERSICHT",
     "summaryItems": [
       {
-        "term": "IATF 16949 Zertifiziert",
-        "description": "Strenges Qualitätsmanagementsystem der Automobilindustrie für eine Null-Fehler-Produktion."
+        "term": "Japanische Formulierungsunterstützung seit 1995",
+        "description": "Compounds werden mit langfristiger japanischer Unterstützung für konkrete Einsatzbedingungen entwickelt."
       },
       {
-        "term": "Vollständige Rückverfolgbarkeit",
-        "description": "Vollständige digitale Protokollierung von der Rohstoffcharge bis zum fertigen Bauteil."
+        "term": "Eine A-Mischlinie",
+        "description": "Ein kontrollierter Mischweg unterstützt reproduzierbares Chargenverhalten über Jahre."
       },
       {
-        "term": "Präzisionstechnik",
-        "description": "ISO 3302-1 Klasse M1 Toleranzen als Standard für High-Tech-Anwendungen."
+        "term": "Eigenes Prüflabor",
+        "description": "Alterung, Zug, Ölbeständigkeit, Härte und Vulkanisationsverhalten werden vor Produktionsfreigabe geprüft."
       }
     ],
     "reliability": {
@@ -125,17 +125,19 @@
     }
   },
   "industries": {
-    "title": "Spezialisierte Industrien",
+    "title": "Branchen, die wir bedienen",
     "automotive": {
-      "title": "Automobilindustrie",
-      "desc": "IATF 16949 zertifizierte Komponenten für Tier-1-Lieferanten"
+      "title": "Automotive Tier 2",
+      "desc": "IATF 16949 zertifizierte Komponenten für Tier-1-Lieferanten",
+      "shortDesc": "Teile, bei denen Compound-Chemie wichtiger ist als reine Werkzeuganzahl.",
+      "icon": "🚗"
     },
     "robotics": {
-      "title": "Robotik & Cobots",
+      "title": "Industrieanlagen",
       "desc": "Motordichtungen, Dichtungsringe, Schläuche und Schwingungsdämpfer"
     },
     "ai": {
-      "title": "KI-Infrastruktur",
+      "title": "Halbleiter-Prozessausrüstung",
       "desc": "Pumpen, Ventile, Maschinendichtungen und kundenspezifische Formteile"
     },
     "machinery": {
@@ -143,8 +145,10 @@
       "desc": "Prazisionsdichtungen, Dichtungsringe und kundenspezifische Komponenten"
     },
     "industrial": {
-      "title": "Industrielle Ausrüstung",
-      "desc": "Langlebige Dichtungen und Komponenten für Hochleistungsmaschinen"
+      "title": "Industrieanlagen",
+      "desc": "Langlebige Dichtungen und Komponenten für Hochleistungsmaschinen",
+      "shortDesc": "Hydraulik, Pneumatik, Pumpen- und Ventildichtungen.",
+      "icon": "⚙"
     },
     "medical": {
       "title": "Prazisionsausrustung",
@@ -153,7 +157,20 @@
     "electronics": {
       "title": "Elektronik",
       "desc": "EMI-Abschirmung, Tastaturen und Schutzdichtungen"
-    }
+    },
+    "subtitle": "RubberQ unterstützt EV/Energiespeicher, Industrieanlagen, Halbleiter und Automotive Tier 2, wenn technische Compounds und stabile Fertigung entscheidend sind.",
+    "ev": {
+      "title": "EV & Energiespeicher",
+      "shortDesc": "Compound-Chemie für Ladeinfrastruktur, BESS, EV-Peripherie und Automotive Tier 2.",
+      "icon": "⚡"
+    },
+    "semiconductor": {
+      "title": "Halbleiter (FFKM)",
+      "shortDesc": "FKM/FFKM Prozessdichtungen mit kontrollierter A-Mischung.",
+      "icon": "🔬"
+    },
+    "notSeeing": "Ihre Branche ist nicht aufgeführt? Viele Präzisionsanwendungen passen in eine dieser Gruppen.",
+    "talkCta": "Mit Engineering sprechen"
   },
   "cta": {
     "title": "Bereit, Ihr Projekt zu starten?",
@@ -193,7 +210,7 @@
       "industry": "Zielindustrie",
       "industryOptions": {
         "robotics": "EV & Energiespeicher",
-        "ai": "KI-Hardware / Rechenzentren",
+        "ai": "Halbleiter-Prozessausrüstung / Rechenzentren",
         "automotive": "Automobil (IATF 16949 erf.)",
         "machinery": "Präzisionsmaschinen",
         "other": "Andere"
@@ -236,8 +253,8 @@
     "watchVideo": "Unternehmensvideo ansehen",
     "videoDuration": "[Unternehmensüberblick & Werksführung - 3:45]",
     "heritageQuote": "\"Qualität in Automobilgüte ist unsere DNA.\"",
-    "heritageText1": "Seit über drei Jahrzehnten sind wir als langfristiger OEM-Lieferant für führende japanische Automobilmarken tätig. Diese Erfahrung hat uns gelehrt, dass es in der Präzisionsfertigung keinen Raum für Fehler gibt.",
-    "heritageText2": "Heute, da wir in die Bereiche KI und Robotik expandieren, tragen wir dieses Erbe der \"Null-Fehler\"-Kultur in die Technologien von morgen.",
+    "heritageText1": "Seit 1995 liefert RubberQ Präzisions-Gummiteile für langfristige japanische Automobilprogramme. Diese Erfahrung prägt unsere Disziplin bei Materialkontrolle, Maßstabilität und wiederholbarer Produktion.",
+    "heritageText2": "Heute setzen wir diese Fertigungsdisziplin für EV und Energiespeicher, Industrieausrüstung, Halbleiter-Prozessdichtungen und ausgewählte Automotive-Tier-2-Programme ein.",
     "stats": {
       "years": "Jahre Erfahrung",
       "factory": "qm Fabrik",
@@ -263,7 +280,7 @@
         "desc": "Effiziente Lagerhaltung und globale Versandkapazitäten."
       }
     },
-    "imageNote": "Hinweis: Diese Bilder zeigen unsere tatsächlichen Werkstattumgebungen und technischen Fähigkeiten. Wir begrüßen Vor-Ort-Besuche und Audits durch Dritte.",
+    "imageNote": "Hinweis: Diese Bilder zeigen unsere tatsächlichen Werkstattumgebungen und technischen Fähigkeiten. Wir begrüßen Vor-Ort-Besuche und projektspezifische Lieferantenbewertungen.",
     "coreValues": "Kernwerte",
     "values": {
       "precision": {
@@ -283,7 +300,7 @@
   "productsPage": {
     "metadata": {
       "title": "Produkte | RubberQ - Gummikomponenten in Automobilqualität",
-      "description": "Kundenspezifische Gummidichtungen, Dichtungsringe, Faltenbälge und Formteile. IATF 16949 zertifizierte Fertigung für Robotik, Automobil und industrielle Anwendungen."
+      "description": "Kundenspezifische Gummidichtungen, Dichtungsringe, Faltenbälge und Formteile. IATF 16949 zertifizierte Fertigung für Industrieanlagen, Automobil und industrielle Anwendungen."
     },
     "badge": "IATF 16949 Zertifiziert",
     "title": "PRODUKTPORTFOLIO",
@@ -291,7 +308,7 @@
     "capability": "Fähigkeit",
     "manufacturingFootprint": "Fertigungsstandort",
     "categoriesTitle": "KOMPONENTENKATEGORIEN",
-    "categoriesSubtitle": "Vier Kernproduktfamilien für die Robotik-, Automobil-, KI-Infrastruktur- und Präzisionsmaschinenindustrie.",
+    "categoriesSubtitle": "Vier Kernproduktfamilien für die Industrieanlagen-, Automobil-, Halbleiter-Prozessausrüstung- und Präzisionsmaschinenindustrie.",
     "certifications": [
       "IATF 16949:2016 Zertifiziert",
       "ISO 9001:2015 Qualität",
@@ -597,7 +614,9 @@
       "issued": "Ausgestellt",
       "expires": "Läuft ab",
       "scope": "Geltungsbereich",
-      "verification": "Dieses Zertifikat kann über das offizielle Register der ausstellenden Behörde unter Verwendung der Zertifikatsnummer verifiziert werden."
+      "verification": "Dieses Zertifikat kann über das offizielle Register der ausstellenden Behörde unter Verwendung der Zertifikatsnummer verifiziert werden.",
+      "documentCenter": "RubberQ Qualitätsdokumentation",
+      "availableOnRequest": "Auf Anfrage verfügbar"
     },
     "certificates": {
       "iatf": {
@@ -777,19 +796,19 @@
           "evidence": "Dimensional reports, final inspection records, packaging labels, and shipment checks"
         }
       ],
-      "metricsTitle": "Beispiele für Freigabekontrollen aus dem anonymisierten Plan",
+      "metricsTitle": "Beispiele für Freigabekontrollen aus dem Produktionsplan",
       "metrics": [
         "B-compound storage temperature controlled below 28 C",
         "Rheometer curve must stay within the approved standard curve",
         "Hardness, tensile strength, and elongation verified before release",
         "Critical dimensions can be monitored through SPC when required by drawing"
       ],
-      "eyebrow": "Prozessnachweis",
+      "eyebrow": "Prozessaufzeichnungen",
       "linkToFlow": "Kontrollierten Produktionsfluss ansehen",
       "imageSlot": {
-        "label": "BILDSLOT",
-        "title": "Anonymisierter Control-Plan-Nachweis",
-        "meta": "Empfohlen: unscharfer Control-Plan-Screenshot, Prüfblatt oder Chargenfreigabeprotokoll, 1200x900"
+        "label": "QUALITÄTSAUFZEICHNUNG",
+        "title": "Beispiel eines Control-Plan-Eintrags",
+        "meta": "Control-Plan-Ansicht, Prüfblatt oder Chargenfreigabe"
       }
     },
     "whySingleLine": {
@@ -933,8 +952,8 @@
     },
     "controlFlow": {
       "title": "22-stufiger kontrollierter Produktionsfluss",
-      "subtitle": "Aus einem anonymisierten realen Control Plan abgeleitet: vom Wareneingang bis zum Versand sind Ausrüstung, Prüfungen, Aufzeichnungen und Reaktionspläne definiert.",
-      "sourceNote": "Öffentlich anonymisierter Nachweis: Teilenummern, Kundendaten und zeichnungsspezifische Maße wurden entfernt.",
+      "subtitle": "Vom Wareneingang bis zum Versand sind Ausrüstung, Prüfungen, Aufzeichnungen und Reaktionswege definiert.",
+      "sourceNote": "Das Prozessmodell basiert auf RubberQ-Produktionskontrolle und ist kundenverständlich dargestellt.",
       "groups": [
         {
           "label": "01",
@@ -1000,11 +1019,11 @@
           "desc": "Each control point is tied to an acceptance rule and documented response path before production continues."
         }
       ],
-      "eyebrow": "Fertigungsnachweis",
+      "eyebrow": "Fertigungsprozess",
       "imageSlot": {
-        "label": "BILDSLOT",
-        "title": "Visualisierung des kontrollierten Produktionsflusses",
-        "meta": "Empfohlen: anonymisiertes 22-Schritte-Prozessdiagramm oder Werksprozessfoto, 1600x900"
+        "label": "PROZESSVISUAL",
+        "title": "Kontrollierter Produktionsfluss",
+        "meta": "Prozessdiagramm oder Werksablauffoto"
       }
     },
     "singleLineCallout": {
@@ -1018,7 +1037,7 @@
       "badge": "Bewiesene Exzellenz",
       "titleLine1": "FALL-",
       "titleLine2": "STUDIEN",
-      "subtitle": "Reale Anwendungen von Gummitechnik in Automobilqualität. Sehen Sie, wie wir kritische Dichtungsherausforderungen in Robotik, KI-Infrastruktur und Mobilität der nächsten Generation lösen."
+      "subtitle": "Reale Anwendungen von Gummitechnik in Automobilqualität. Sehen Sie, wie wir kritische Dichtungsherausforderungen in Industrieanlagen, Halbleiter-Prozessausrüstung und Mobilität der nächsten Generation lösen."
     },
     "stats": {
       "projectsDelivered": "Gelieferte Projekte",
@@ -1034,7 +1053,7 @@
     },
     "studies": {
       "robotics": {
-        "industry": "Kollaborative Robotik",
+        "industry": "Industrieanlagen",
         "client": "Europäischer Cobot-Hersteller",
         "location": "Deutschland",
         "challenge": "Dichtungsversagen an Gelenken in 24/7-Produktionsumgebungen verursachte Ausfallzeiten",
@@ -1073,7 +1092,7 @@
     "cta": {
       "titleLine1": "VOR EINER",
       "titleLine2": "DICHTUNGSHERAUSFORDERUNG?",
-      "subtitle": "Unser Ingenieurteam hat komplexe Dichtungsprobleme in Robotik, Automobil und Industrieanwendungen gelöst. Lassen Sie uns über Ihres sprechen.",
+      "subtitle": "Unser Ingenieurteam hat komplexe Dichtungsprobleme in Industrieanlagen, Automobil und Industrieanwendungen gelöst. Lassen Sie uns über Ihres sprechen.",
       "discussProject": "Projekt besprechen",
       "exploreMaterials": "Materialien erkunden"
     }
@@ -1202,7 +1221,7 @@
     "cta": {
       "title": "BEREIT FÜR EINEN",
       "titleHighlight": "BESUCH?",
-      "description": "Wir begrüßen Werksaudits und Kundenbesuche. Vereinbaren Sie einen Rundgang, um unsere Fähigkeiten aus erster Hand zu sehen und unser Ingenieurteam zu treffen.",
+      "description": "Wir begrüßen Kundenbesuche und Lieferantenbewertungen. Vereinbaren Sie einen Rundgang, um unsere Fähigkeiten aus erster Hand zu sehen und unser Ingenieurteam zu treffen.",
       "scheduleTour": "Werksführung vereinbaren",
       "viewQuality": "Qualitätsstandards ansehen"
     }
@@ -1225,7 +1244,7 @@
       },
       "epdm": {
         "name": "EPDM (Ethylen-Propylen)",
-        "desc": "Überlegene Witterungsbeständigkeit und Biegefestigkeit für Robotik und Außenmaschinen."
+        "desc": "Überlegene Witterungsbeständigkeit und Biegefestigkeit für Industrieanlagen und Außenmaschinen."
       },
       "nbr": {
         "name": "NBR (Nitrilkautschuk)",
@@ -1332,9 +1351,9 @@
   },
   "standardsPage": {
     "hero": {
-      "badge": "Technische Konformität",
+      "badge": "Technische Standards",
       "title": "Globale Industriestandards",
-      "subtitle": "Bei RubberQ stellen wir nicht nur Gummi her; wir konstruieren Konformität. Wir arbeiten an der Schnittstelle von Materialwissenschaft und internationalen regulatorischen Rahmenbedingungen, um sicherzustellen, dass Ihre Produkte marktreif sind."
+      "subtitle": "RubberQ unterstützt Kunden dabei, ASTM-, ISO-, SAE-, IATF- und Zeichnungsanforderungen in Materialauswahl, Prüfunterlagen und stabile Produktionskontrolle für Gummiteile zu übersetzen."
     },
     "categories": {
       "materialClassification": {
@@ -1384,7 +1403,7 @@
       "callOutTitle": "Benötigen Sie einen Line Call-Out?",
       "callOutDesc": "Unser Ingenieurteam kann Ihnen helfen, Ihre Anwendungsanforderungen in eine formale ASTM D2000 oder SAE J200 Spezifikation zu übersetzen.",
       "consultEngineer": "Ingenieur konsultieren",
-      "complianceNotice": "Konformitätshinweis",
+      "complianceNotice": "Dokumentationshinweis",
       "complianceNoticeText": "Analysezertifikate (COA) und Konformitätszertifikate (COC) werden mit jeder Lieferung bereitgestellt. Vollständige PPAP Level 3 Dokumentation ist für Automobil- und Hochpräzisionsmaschinenprojekte auf Anfrage verfügbar."
     },
     "footer": {
@@ -1456,8 +1475,8 @@
   },
   "compounding": {
     "abMixing": {
-      "title": "A-Mixing, B-Mixing, and Batch Release Control",
-      "intro": "The process flow separates masterbatch preparation from final cure-system addition. This reduces formulation drift, improves traceability, and gives the lab a defined release gate before molding.",
+      "title": "A-Mischung, B-Mischung und Chargenfreigabe",
+      "intro": "Der Prozess trennt Masterbatch-Herstellung von der finalen Zugabe des Vulkanisationssystems. Das reduziert Drift, verbessert Rückverfolgbarkeit und schafft ein Labor-Freigabetor vor dem Formen.",
       "stages": [
         {
           "stage": "A-Mixing",
@@ -1480,22 +1499,667 @@
           "body": "Rheometer curve, hardness, tensile strength, elongation, and drawing-specific checks confirm the batch is suitable for production."
         }
       ],
-      "testsTitle": "Release tests typically linked to this flow",
+      "testsTitle": "Typische Freigabeprüfungen in diesem Ablauf",
       "tests": [
-        "Rheometer torque curve",
-        "Hardness",
-        "Tensile strength",
-        "Elongation",
-        "Specific gravity",
-        "Mooney viscosity",
-        "Drawing-specific abnormal-condition checks"
+        "Rheometer-Drehmomentkurve",
+        "Härte",
+        "Zugfestigkeit",
+        "Dehnung",
+        "Dichte",
+        "Mooney-Viskosität",
+        "Zeichnungsspezifische Sonderprüfungen"
       ],
-      "eyebrow": "Chargenfreigabe-Logik",
+      "eyebrow": "Chargenfreigabelogik",
       "imageSlot": {
-        "label": "BILDSLOT",
-        "title": "A/B-Mischen und Chargenfreigabe visualisieren",
-        "meta": "Empfohlen: A/B-Mischflussdiagramm, Laborfreigabeprotokoll oder Foto der Mischlinie, 1600x900"
+        "label": "PROZESSVISUAL",
+        "title": "A/B-Mischung und Chargenfreigabe",
+        "meta": "Ablaufdiagramm, Laborfreigabe oder Foto der Mischlinie"
       }
+    },
+    "hero": {
+      "badge": "30 Jahre sino-japanische Formulierungsarbeit",
+      "tagline": "In Japan formuliert. In China gefertigt. Im eigenen Labor geprüft.",
+      "subtitle": "RubberQ entwickelt und steuert kundenspezifische Compound-Arbeit von der Polymerauswahl bis zur Chargenfreigabe. Japanische Formulierungsunterstützung, Präzisionsfertigung in Fuzhou und eigene Prüfungen arbeiten als eine Engineering-Kette.",
+      "ctaPrimary": "Anwendung besprechen",
+      "ctaSecondary": "Compound-Fähigkeitsblatt herunterladen"
+    },
+    "whyCompounding": {
+      "title": "Warum Compoundierung wichtig ist",
+      "introTypical": "Bei vielen Gummiteilen liegt das versteckte Risiko nicht im Werkzeug, sondern darin, ob das Material über Jahre reproduzierbar bleibt.",
+      "typicalItems": [
+        "Zugekaufte Compounds begrenzen die Formulierungstransparenz",
+        "Gemeinsame Mischwege können Schwankungen erhöhen",
+        "Formgebung ohne Chargenprüfung erschwert Wiederholaufträge",
+        "Eine spätere Nachbestellung kann vom ursprünglichen Materialverhalten abweichen"
+      ],
+      "introRubberQ": "RubberQ behandelt Compound-Arbeit als Teil des Fertigungssystems:",
+      "rubberQItems": [
+        "Formulierungsunterstützung aus japanischer Partnerschaft seit 1995",
+        "Eine A-Mischlinie mit gesteuerter Planung und Reinigung",
+        "Chargenfreigaben für Vulkanisation, Härte, Zug, Viskosität und Alterung",
+        "Rückverfolgbare Produktionsunterlagen für Wiederholaufträge und Qualifikationsdateien"
+      ]
+    },
+    "aline": {
+      "title": "Unsere einzelne A-Mischlinie",
+      "capacity": "Chargenbereich: 500g – 5.000kg pro Compound-Charge",
+      "mixer": "Mischer: Banbury-Innenmischprozess mit kontrolliertem Rezept und Wägeaufzeichnungen",
+      "throughput": "Produktionsplanung: abgestimmt auf Volumen, Compound-Familie und Freigabeprüfungen",
+      "intro": "Drei betriebliche Vorteile eines kontrollierten Einlinienprozesses:",
+      "adv1Title": "1. COMPOUND-KONSISTENZ",
+      "adv1Body": "Gleicher Prozessweg, gleiches Kontrollfenster und wiederholbare Chargenunterlagen stabilisieren die Langzeitlieferung.",
+      "adv2Title": "2. KONTROLLE DES VERUNREINIGUNGSRISIKOS",
+      "adv2Body": "Reihenfolgeplanung und Reinigungsroutinen schützen hochreine und langlebige Dichtprogramme.",
+      "adv3Title": "3. TECHNISCHE PRÜFUNG BEI FREIGABE",
+      "adv3Body": "Rheologie, Mooney-Viskosität und wichtige Chargenindikatoren werden vor dem Formen geprüft."
+    },
+    "labEquipment": {
+      "title": "Unser F&E-Labor",
+      "items": [
+        {
+          "name": "Rheometer / Mooney-Viskosimeter",
+          "desc": "Vulkanisationsverhalten und Viskosität"
+        },
+        {
+          "name": "Universal-Zugprüfmaschine",
+          "desc": "Festigkeit und Dehnung"
+        },
+        {
+          "name": "Alterungsofen",
+          "desc": "Wärme- und Ozonalterung"
+        },
+        {
+          "name": "Druckverformungsrest-Prüfer",
+          "desc": "Dichtungsdauerhaftigkeit"
+        },
+        {
+          "name": "Ölbad",
+          "desc": "Medienbeständigkeit"
+        },
+        {
+          "name": "Durometer",
+          "desc": "Shore A / Shore D Härte"
+        }
+      ],
+      "fullLink": "Alle Geräte und ASTM/ISO-Normen ansehen"
+    },
+    "workflow": {
+      "title": "Von der Anwendung zur Produktion",
+      "stages": [
+        {
+          "stage": "Stufe 1",
+          "name": "BEDARFSKLÄRUNG",
+          "timeline": "Innerhalb von 5 Arbeitstagen",
+          "desc": "Sie teilen Temperatur, Medium, Bewegung, Lebensdauer, Zeichnung und Jahresvolumen."
+        },
+        {
+          "stage": "Stufe 2",
+          "name": "FORMULIERUNGSDESIGN",
+          "timeline": "3-6 Wochen",
+          "desc": "Wir wählen oder justieren Kandidatencompounds nach Polymerfamilie, Chemie und Produktionsweg."
+        },
+        {
+          "stage": "Stufe 3",
+          "name": "LABORVERSUCH",
+          "timeline": "2-4 Wochen",
+          "desc": "Kleinchargen werden gemischt und geprüft, bevor Formmuster entstehen."
+        },
+        {
+          "stage": "Stufe 4",
+          "name": "PILOTFORMUNG",
+          "timeline": "2-3 Wochen",
+          "desc": "Pilotwerkzeug oder Versuchsmuster ermöglichen Maß- und Funktionsprüfung."
+        },
+        {
+          "stage": "Stufe 5",
+          "name": "PRODUKTIONSFREIGABE",
+          "timeline": "4-8 Wochen",
+          "desc": "Erstmusterprüfung, Rückverfolgbarkeit und Produktionskontrollen werden für Wiederholversorgung abgestimmt."
+        }
+      ],
+      "totalNote": "Typischer Zeitrahmen: 12-24 Wochen für einen neuen Compound-Weg, 4-8 Wochen bei Anpassung eines bestehenden RubberQ-Compounds."
+    },
+    "library": {
+      "title": "Unsere Compound-Bibliothek",
+      "intro": "RubberQ pflegt eine wachsende Compound-Bibliothek über wichtige Polymerfamilien. Rezepturen bleiben geschützt; der Fähigkeitsbereich ist unten dargestellt.",
+      "columns": [
+        "Familie",
+        "Typische Anwendungen",
+        "Temperaturbereich",
+        "Kerneigenschaft"
+      ],
+      "rows": [
+        {
+          "family": "FKM",
+          "apps": "Industrial / Automotive / Chemical",
+          "temp": "-20 to +200°C",
+          "key": "Chemical resistance"
+        },
+        {
+          "family": "FFKM",
+          "apps": "Semiconductor / Plasma / High-purity",
+          "temp": "-20 to +260°C",
+          "key": "Extreme chemical and thermal purity"
+        },
+        {
+          "family": "HNBR",
+          "apps": "EV thermal systems / High-temp equipment",
+          "temp": "-40 to +160°C",
+          "key": "Low compression set, oil and heat"
+        },
+        {
+          "family": "NBR",
+          "apps": "Hydraulic / Oil sealing / General industrial",
+          "temp": "-40 to +120°C",
+          "key": "Cost-effective oil resistance"
+        },
+        {
+          "family": "EPDM",
+          "apps": "Outdoor enclosures / Steam / Energy systems",
+          "temp": "-50 to +150°C",
+          "key": "Weather, ozone, steam resistance"
+        },
+        {
+          "family": "ACM",
+          "apps": "Automotive transmission / ATF",
+          "temp": "-25 to +175°C",
+          "key": "ATF resistance"
+        },
+        {
+          "family": "AEM",
+          "apps": "Automotive heat ducts / Hoses",
+          "temp": "-40 to +175°C",
+          "key": "Heat and oil resistance"
+        },
+        {
+          "family": "HCR Silicone",
+          "apps": "Industrial seals / Wide temperature",
+          "temp": "-60 to +230°C",
+          "key": "Extreme temperature range"
+        },
+        {
+          "family": "LSR",
+          "apps": "Precision overmolding / Liquid injection",
+          "temp": "-60 to +200°C",
+          "key": "Tight-tolerance overmolding"
+        }
+      ],
+      "outro": "Benötigen Sie eine nicht gelistete Eigenschaftskombination? Teilen Sie die Einsatzbedingungen, wir prüfen den Materialweg.",
+      "cta": "Custom-Compound-Brief starten"
+    },
+    "boundaries": {
+      "title": "Entwicklungswege und Timing",
+      "intro": "Wir stimmen Umfang und Zeitplan früh ab, damit Einkauf und Engineering sicher planen können:",
+      "fast": {
+        "label": "ANPASSUNG BESTEHENDER COMPOUNDS (4-8 Wochen)",
+        "desc": "Härte, Kostenziel oder eine einzelne Eigenschaft eines bestehenden RubberQ-Compounds anpassen."
+      },
+      "standard": {
+        "label": "COMPOUND-AUSWAHL UND VALIDIERUNG (8-16 Wochen)",
+        "desc": "Auswahl und Prüfung aus unserer Bibliothek für Anwendung und Zeichnung."
+      },
+      "ndaDependent": {
+        "label": "NEUER COMPOUND-WEG (12-24 Wochen)",
+        "desc": "Entwicklung eines neuen Materialwegs mit abgestimmtem Prüfplan, Mustern und Freigabekriterien."
+      },
+      "validationNote": "Bei neuer Compound-Arbeit verbinden wir Formulierung mit einem Validierungsplan, damit Muster, Prüfungen und Produktionsfreigabe zusammenpassen."
+    },
+    "finalCta": {
+      "title": "Bereit zur gemeinsamen Entwicklung?",
+      "subtitle": "Ob Zeichnung für ein Angebot oder Anwendung mit Materialfrage: Starten Sie mit den Betriebsdetails.",
+      "ctaPrimary": "Anwendungsbrief einreichen",
+      "ctaSecondary": "Compound-Datenblatt anfordern"
+    },
+    "visualLabels": {
+      "hero": "A-Mischlinie im Betrieb",
+      "machine": "A-Mischlinie",
+      "control": "Wägen und Prozesskontrolle",
+      "process": "Materialzufuhr und Austrag",
+      "equipment": "Laborgerät",
+      "processVideo": "Prozessvideo",
+      "processVideoMeta": "Überblick über den Fabrikprozess"
+    }
+  },
+  "rfqV2": {
+    "projectType": {
+      "label": "Projekttyp",
+      "drawing": "Zeichnungsbasierte RFQ — Spezifikation vorhanden, Angebot benötigt",
+      "application": "Anwendungsbasiert — Betriebsbedingungen vorhanden, Materialberatung benötigt",
+      "sample": "Nur Musteranfrage"
+    },
+    "annualVolume": {
+      "label": "Geschätztes Jahresvolumen",
+      "options": {
+        "under10k": "Unter 10.000 Teile",
+        "10kTo100k": "10.000 – 100.000 Teile",
+        "100kTo1m": "100.000 – 1.000.000 Teile",
+        "1mTo5m": "1.000.000 – 5.000.000 Teile",
+        "over5m": "Über 5.000.000 Teile"
+      },
+      "hintLow": "Für Pilot- oder Kleinserien teilen Sie Zeichnungen und Materialanforderungen, damit wir den praktischen Produktionsweg empfehlen können.",
+      "hintHigh": "Für größere Programme nennen Sie bitte Jahresvolumen, Toleranzen, Qualitäts- und Lieferanforderungen."
+    },
+    "quoteComponents": {
+      "label": "Benötigte Angebotsbestandteile",
+      "compoundDev": "Materialmachbarkeit und Werkstoffberatung",
+      "tooling": "Werkzeugkostenschätzung",
+      "perPiece": "Stückpreis für Produktion",
+      "nda": "NDA vor technischem Austausch",
+      "sample": "Musterangebot zur Bewertung"
+    },
+    "projectStage": {
+      "label": "Projektphase",
+      "feasibility": "Machbarkeitsstudie",
+      "prototype": "Prototyp / Pilot",
+      "preProduction": "Vorserienvalidierung",
+      "production": "Produktion / Liefervereinbarung"
+    },
+    "responseSla": {
+      "title": "Typische Antwortzeit:",
+      "drawing": "Zeichnungsbasierte RFQ: 12-24 Stunden nach vollständigen Informationen",
+      "application": "Anwendungsbasierte Anfrage: 3-5 Arbeitstage für die erste technische Prüfung",
+      "sample": "Musteranfrage: 24-48 Stunden"
+    },
+    "industryOptionsV2": {
+      "ev": "EV & Energiespeicher",
+      "industrial": "Industrieanlagen (Hydraulik / Pneumatik / Pumpen / Ventile)",
+      "semiconductor": "Halbleiter (FKM / FFKM Prozessdichtungen)",
+      "automotiveTier2": "Automotive Tier 2",
+      "robotics": "Industrieanlagen",
+      "aiHardware": "Halbleiter-Prozessausrüstung",
+      "other": "Andere Anwendung (bitte beschreiben)"
+    }
+  },
+  "testing": {
+    "hero": {
+      "badge": "Eigene Validierung nach ASTM / ISO",
+      "title": "Jedes Compound. Jede Charge. Im eigenen Labor geprüft.",
+      "subtitle": "Unser Labor validiert Formulierungen und Produktionschargen nach anerkannten ASTM- und ISO-Methoden, bevor Compounds in die Produktion gehen."
+    },
+    "matrix": {
+      "title": "Unsere Prüfmatrix",
+      "columns": [
+        "Ausrüstung",
+        "Prüfung",
+        "Normen"
+      ],
+      "rows": [
+        {
+          "equipment": "Universal Tensile Tester",
+          "test": "Tensile Strength, Elongation, Modulus",
+          "standards": "ASTM D412 / ISO 37"
+        },
+        {
+          "equipment": "Aging Oven",
+          "test": "Heat Aging, Ozone Resistance",
+          "standards": "ASTM D573 / D1149"
+        },
+        {
+          "equipment": "Compression Set Tester",
+          "test": "Compression Set",
+          "standards": "ASTM D395"
+        },
+        {
+          "equipment": "Oil Immersion Bath",
+          "test": "Fluid / Oil / Fuel Resistance",
+          "standards": "ASTM D471 / ISO 1817"
+        },
+        {
+          "equipment": "Durometer (Shore A/D)",
+          "test": "Hardness",
+          "standards": "ASTM D2240"
+        },
+        {
+          "equipment": "Rheometer (MDR)",
+          "test": "Cure Characteristics",
+          "standards": "ASTM D5289"
+        },
+        {
+          "equipment": "Mooney Viscometer",
+          "test": "Mooney Viscosity, Scorch",
+          "standards": "ASTM D1646 / ISO 289"
+        },
+        {
+          "equipment": "Specific Gravity Balance",
+          "test": "Density Verification",
+          "standards": "ASTM D297"
+        },
+        {
+          "equipment": "DMA",
+          "test": "Dynamic Mechanical Analysis when required",
+          "standards": "ASTM D5992 / ISO 4664"
+        },
+        {
+          "equipment": "TGA",
+          "test": "Thermogravimetric Analysis when required",
+          "standards": "ASTM E1131"
+        },
+        {
+          "equipment": "Video Measuring System",
+          "test": "Dimensional Inspection",
+          "standards": "ISO 3302-1 Class M1"
+        }
+      ],
+      "calibrationNote": "Messgeräte werden über geplante Kalibrier- und Wartungsaufzeichnungen geführt."
+    },
+    "sampleReport": {
+      "title": "Was unsere Prüfberichte enthalten",
+      "body": "Standardberichte können Kundenreferenz, Chargen-ID, Polymerfamilie, Eigenschaftswerte, ASTM/ISO-Methode, Zielvergleich, technische Freigabe, Laborprüfung und Kalibrierhinweise enthalten.",
+      "cta": "Musterbericht herunterladen (PDF)"
+    },
+    "customProtocols": {
+      "title": "Kundenspezifische Prüfprotokolle verfügbar",
+      "intro": "Neben ASTM/ISO-Methoden können wir anwendungsspezifische Prüfungen durchführen, etwa:",
+      "items": [
+        "Langzeitimmersion in Ihrem Betriebsmedium",
+        "Temperaturzyklen nach Kundenprofil",
+        "Druckverformungsrest bei Sondertemperaturen",
+        "Spannungsrelaxation",
+        "Vom Kunden bereitgestellte Prüfvorrichtungen"
+      ],
+      "cta": "Validierungsprotokoll besprechen"
+    },
+    "qualityLink": "Quality systems & certifications",
+    "visualLabels": {
+      "hero": "Prüflabor",
+      "equipment": "Prüfgerät",
+      "report": "Musterprüfbericht",
+      "reportMeta": "A4-Berichtsformat"
+    }
+  },
+  "aboutV2": {
+    "heroQuote": "Japanische Formulierung. Chinesische Präzisionsfertigung. Ein verlässlicher Partner seit 1995.",
+    "subtitleV2": "Ein sino-japanisches Joint Venture seit Juni 1995, das japanische Formulierungserfahrung mit chinesischer Präzisionsfertigung und eigener Prüfung verbindet.",
+    "heritageText1V2": "Seit 1995 liefert RubberQ Präzisionsgummiteile unter anspruchsvollen Qualitätssystemen. Unsere Compounds werden durch langfristiges japanisches Formulierungswissen unterstützt und vor Produktionsfreigabe im eigenen Labor geprüft.",
+    "heritageText2V2": "Heute wenden wir diese Erfahrung auf EV- und Energiespeicher, Industrieanlagen, Halbleiter-Prozessdichtungen und Automotive Tier 2 an.",
+    "dualBrain": {
+      "title": "So arbeiten wir — das Dual-Brain-Modell",
+      "japan": {
+        "icon": "JPN",
+        "label": "JAPAN",
+        "body": "Langfristige Formulierungsunterstützung und Polymerchemie-Erfahrung."
+      },
+      "china": {
+        "icon": "CN",
+        "label": "CHINA",
+        "body": "Präzisionsfertigung mit kontrollierter A-Mischroute in Fuzhou."
+      },
+      "lab": {
+        "icon": "LAB",
+        "label": "EIGENES LABOR",
+        "body": "Materialprüfungen und Chargenfreigaben vor Produktion."
+      },
+      "caption": "RubberQ verbindet Formulierungsdisziplin, Fertigungskontrolle und praktische Kosteneffizienz für langfristige B2B-Lieferung."
+    },
+    "stats": {
+      "years": "30",
+      "yearsLabel": "Jahre Erfahrung",
+      "factoryArea": "20K",
+      "factoryAreaLabel": "m² Werkfläche",
+      "iatfLabel": "16949 zertifiziert",
+      "jpEngineers": "1995",
+      "jpEngineersLabel": "Formulierungspartnerschaft seit"
+    },
+    "whatWeDontDo": {
+      "title": "Wie RubberQ Ihr Projekt unterstützt",
+      "notFitTitle": "Bitte früh klären, wenn Ihr Projekt Folgendes erfordert:",
+      "notFitItems": [
+        "Regulierte Healthcare-Qualifikation oder Sonderzertifizierung außerhalb unseres ISO/IATF-Systems.",
+        "Kundenspezifische Lieferantenzulassung, Sonderdokumentation oder Standortbewertung.",
+        "Sehr große Commodity-Programme oder Preisvergleichsprojekte, bei denen Zeichnung, Qualität und Lieferung genau abgestimmt werden müssen."
+      ],
+      "rightFitTitle": "Wo RubberQ den größten Wert schafft:",
+      "rightFitItems": [
+        "Gummiteile mit Bedarf an stabiler Qualität, sauberer Oberfläche oder enger Maßkontrolle",
+        "Standard- oder Sonderteile mit Material-, Werkzeug-, Prozess- oder Toleranzprüfung",
+        "Langfristige Lieferprogramme mit Compound-Rückverfolgbarkeit und Chargenkonsistenz",
+        "Kleine, mittlere oder größere RFQs, bei denen japanische Formulierungsunterstützung und chinesische Präzisionsfertigung zählen"
+      ],
+      "cta": "Projekt besprechen"
+    },
+    "media": {
+      "formulation": "Formulierungspartnerschaft",
+      "manufacturing": "Präzisionsfertigung",
+      "lab": "Prüflabor",
+      "video": "Werksvorstellungsvideo",
+      "scene": "Werkfähigkeitsansicht"
+    }
+  },
+  "industriesPage": {
+    "index": {
+      "hero": {
+        "title": "Branchen",
+        "subtitle": "RubberQ unterstützt vier Sektoren, in denen technische Compounds und stabile Fertigung entscheidend sind."
+      },
+      "notSeeing": "Ihre Branche ist nicht aufgeführt? Viele Präzisionsanwendungen passen in eine dieser vier Gruppen.",
+      "talkCta": "Mit Engineering sprechen",
+      "visualLabel": "Anwendungsbild",
+      "explore": "Mehr erfahren"
+    },
+    "common": {
+      "recommendedCompounds": "Empfohlene Compounds"
+    },
+    "ev": {
+      "hero": {
+        "title": "Präzisionsgummi für EV- und Energiespeicheranwendungen",
+        "subtitle": "EV- und Energiespeicheranwendungen benötigen Dichtungsmaterialien, die Wärmezyklen, Medienkontakt, Vibration und Außenbewitterung standhalten."
+      },
+      "subSectors": {
+        "title": "EV- und Energieanwendungen",
+        "charging": {
+          "name": "Ladeinfrastruktur",
+          "icon": "⚡",
+          "apps": [
+            "Dichtungen für Ladeanschlüsse und Kabelschnittstellen",
+            "Dichtungen für Ladeschränke und Gehäuse",
+            "Dichtungen für Außenklappen",
+            "Kabelverbindungs-Dichtteile"
+          ],
+          "compounds": "EPDM, FKM, Silikon"
+        },
+        "bess": {
+          "name": "Batterie-Energiespeichersysteme (BESS)",
+          "icon": "⚡",
+          "apps": [
+            "Schrank- und Türdichtungen",
+            "Kabelverschraubungs- und Buchsendichtungen",
+            "Schwingungsisolierende Lager",
+            "Gehäusedichtungen für Außenbereiche"
+          ],
+          "compounds": "EPDM, HNBR, NBR"
+        },
+        "peripheral": {
+          "name": "EV-Peripherie & Fertigungsausrüstung",
+          "icon": "⚡",
+          "apps": [
+            "Dichtungen für Temperaturwechselkammern",
+            "Dichtungen für EV-Komponentenlinien",
+            "Dichtungen für Antriebsprüfstände",
+            "Elastomerteile für Fertigungsvorrichtungen"
+          ],
+          "compounds": "FKM, HNBR, FFKM nach Prozessanforderung"
+        },
+        "vehicle": {
+          "name": "EV-Fahrzeug Tier-2-Komponenten",
+          "icon": "⚡",
+          "apps": [
+            "O-Ringe und Schläuche für Thermomanagement",
+            "Dichtungen für Niedrig-/Mittelspannungsverbinder",
+            "Schwingungsisolatoren und Lager",
+            "Sensor- und Moduldichtungen"
+          ],
+          "compounds": "HNBR, FKM, EPDM, ACM, AEM"
+        }
+      },
+      "whyChemistry": {
+        "title": "Warum Compound-Chemie in EV-Anwendungen zählt",
+        "intro": "EV- und Energieanwendungen kombinieren häufig:",
+        "points": [
+          "Dauerhafte Wärmebelastung in Thermosystemen",
+          "Langzeitkompression unter statischer Last",
+          "Kühlmittel, dielektrische Medien, Ozon und Außenbewitterung",
+          "Vibration in Kombination mit Wärmezyklen"
+        ],
+        "edge": "RubberQ bewertet Compound-Chemie anhand realer Betriebsbedingungen statt nur anhand der Formgeometrie."
+      },
+      "engagement": {
+        "title": "So arbeiten wir zusammen",
+        "drawings": "Bei RFQs mit Zeichnung teilen Sie Zeichnung, Zielmaterial, Jahresvolumen und Qualitätsanforderungen.",
+        "application": "Bei Anwendungsbriefings prüfen wir Temperatur, Medium, Bewegung, Lebensdauer und Qualifikationsanforderungen vor der Materialempfehlung."
+      },
+      "ctaPrimary": "EV-Anwendung einreichen",
+      "ctaSecondary": "EV-Compound-Fähigkeitsblatt herunterladen"
+    },
+    "industrial": {
+      "hero": {
+        "title": "Präzisionsdichtungen für Industrieanlagen",
+        "subtitle": "Hydraulik, Pneumatik, Pumpen, Ventile und Prozessanlagen benötigen Gummiteile, die unter Druck, Öl, Wärme und Bewegung stabil bleiben."
+      },
+      "subSectors": {
+        "title": "Anwendungsbereiche",
+        "items": [
+          {
+            "name": "Hydraulik & Pneumatik",
+            "list": [
+              "Stangen-, Kolben- und Abstreifdichtungen",
+              "Dichtungen für Pneumatikzylinder"
+            ]
+          },
+          {
+            "name": "Pumpen & Ventile",
+            "list": [
+              "Pumpengehäusedichtungen",
+              "Ventilschaftdichtungen"
+            ]
+          },
+          {
+            "name": "Maschinenführungsschutz",
+            "list": [
+              "Bälge, Manschetten, Führungsabdeckungen"
+            ]
+          },
+          {
+            "name": "Prozessanlagen",
+            "list": [
+              "Dampfbeständige Dichtungen",
+              "Chemikalienbeständige Dichtungen"
+            ]
+          }
+        ]
+      },
+      "whyUs": {
+        "title": "Warum Industriekunden RubberQ wählen",
+        "items": [
+          "Technische Compounds mit kontrollierter Fertigung",
+          "Präzisionsformgebung und Prüfung nach Zeichnung",
+          "IATF-16949-Fertigungsdisziplin für industrielle OEM-Lieferung",
+          "Compound-Konsistenz für Wiederholprogramme"
+        ]
+      },
+      "cta": "Angebot anfordern"
+    },
+    "semiconductor": {
+      "hero": {
+        "title": "FKM- und FFKM-Dichtungen für die Halbleiterfertigung",
+        "subtitle": "Halbleiter-Prozessanlagen benötigen Materialreinheit, chemische Beständigkeit, saubere Handhabung und rückverfolgbare Produktionsunterlagen."
+      },
+      "engagement": {
+        "title": "Wo wir unterstützen",
+        "intro": "Halbleiterdichtungen werden anhand von Prozessbedingungen technisch bewertet, nicht als Einheitskatalogteil.",
+        "fkm": {
+          "label": "FKM-basierte Prozessdichtungen",
+          "desc": "Für Prozessschnittstellen, bei denen FKM zu Medium, Temperatur und Handling passt."
+        },
+        "ffkm": {
+          "label": "FFKM-basierte Prozessdichtungen",
+          "desc": "Für anspruchsvolle Prozessbedingungen mit hoher chemischer und thermischer Beständigkeit."
+        }
+      },
+      "whySingleLine": {
+        "title": "Warum Einlinien-Mischung wichtig ist",
+        "body": "Kontrollierte A-Mischung, Reihenfolgeplanung und Reinigungsaufzeichnungen unterstützen die Compound-Konsistenz für hochreine und langlebige Dichtprogramme."
+      },
+      "processCompat": {
+        "title": "Prüfung der Prozesskompatibilität",
+        "body": "Teilen Sie Prozessbedingungen, Medien, Temperatur, Bewegung und erwartete Lebensdauer. RubberQ prüft den passenden FKM- oder FFKM-Materialweg."
+      },
+      "cta": "Halbleiter-Anwendung einreichen"
+    },
+    "automotive": {
+      "hero": {
+        "title": "Automotive Tier-2-Komponenten — wenn Präzision zählt",
+        "subtitle": "RubberQ hat Erfahrung in japanischen Automotive-Programmen und unterstützt heute Tier-2-Teile mit Bedarf an Compound-Stabilität und Toleranzkontrolle."
+      },
+      "whereWeFit": {
+        "title": "Wo RubberQ Wert schafft",
+        "fitTitle": "Stärkerer Wert",
+        "fitItems": [
+          "Tier-2-Komponenten, bei denen Materialverhalten die Montageleistung beeinflusst",
+          "Standard-, Sonder-, Kleinserien- oder größere Teile mit stabilem Qualitätsbedarf",
+          "Compound- und Prozessprüfung mit Kundenteams"
+        ],
+        "confirmTitle": "Früh klären",
+        "notFitItems": [
+          "Programme mit speziellen Kundenzulassungen, Standortbewertungen oder Dokumentationsanforderungen",
+          "Healthcare- oder andere regulierte Anwendungen mit Sonderzertifizierung"
+        ]
+      },
+      "customerProfile": {
+        "title": "Kundenprofil",
+        "items": [
+          "Langjährige japanische OEM-Beziehungen seit 1995",
+          "Erfahrung in Tier-1- und Tier-2-Lieferketten",
+          "Anwendungen mit Bedarf an Compound-Chemie und Fertigungsstabilität"
+        ]
+      },
+      "cta": "Tier-2-Komponente besprechen"
+    }
+  },
+  "visualLabels": {
+    "manufacturing": "Fertigungsszene im Werk",
+    "ev": "EV- und Energiespeicheranwendungen",
+    "industrial": "Industrieanwendungen",
+    "semiconductor": "Halbleiter-Dichtungsanwendungen",
+    "automotive": "Automotive Tier 2 Anwendungen"
+  },
+  "goodFit": {
+    "title": "Kann RubberQ Ihr Projekt unterstützen?",
+    "subtitle": "Standardteile, kundenspezifische Teile, Kleinserien und größere Programme können besprochen werden.",
+    "fitTitle": "WO WIR MEHR WERT SCHAFFEN",
+    "fitItems": [
+      "Stabile Gummiqualität und Chargenkonsistenz",
+      "Engere Maß-, Toleranz- oder Oberflächenanforderungen",
+      "Material-, Werkzeug- oder Prozessunterstützung",
+      "Standardteile, kundenspezifische Teile, Kleinserien und größere Programme",
+      "IATF 16949 / ISO 9001 / ISO 14001 Fertigungssysteme"
+    ],
+    "notFitTitle": "BITTE BEI RFQ FRÜH KLÄREN",
+    "notFitItems": [
+      "Projekte mit spezieller Healthcare-Zertifizierung sollten vorab besprochen werden.",
+      "Kundenspezifische Zulassungen, Sonderdokumente oder Vor-Ort-Bewertungen bitte in der RFQ nennen."
+    ],
+    "cta": "Projekt besprechen"
+  },
+  "footerTagline": "Japanische Formulierung. Chinesische Präzision. Seit 1995 vertrauenswürdig.",
+  "qualityV2": {
+    "heroSubtitleV2": "Vom Compound-Design bis zur Endprüfung unterstützt unser nach IATF 16949 zertifiziertes Qualitätssystem Kunden in EV/Energiespeicher, Industrieausrüstung, Halbleiter und Automotive Tier 2 mit rückverfolgbaren Chargen über Jahre der Serienproduktion.",
+    "whySingleLine": {
+      "title": "Warum wir eine einzelne A-Mischlinie nutzen",
+      "intro": "Diese Linie bietet Kunden drei praktische Vorteile:",
+      "points": [
+        "Langfristige Compound-Konsistenz über wiederholte Produktionsläufe.",
+        "Geringeres Kontaminationsrisiko durch reihenfolgebasierte Planung und Reinigungs-SOPs.",
+        "Vom Engineering begleitete Chargen mit Rheologie-, Mooney- und Eigenschaftsprüfungen."
+      ],
+      "link": "Mehr über unsere Compound-Fertigung erfahren"
+    }
+  },
+  "capabilitiesV2": {
+    "heroSubtitleV2": "Unser zweistufiger Mischprozess läuft auf einer eigenen A-Mischlinie, die mit japanischer Formulierungsunterstützung aufgebaut wurde. Durch die Trennung von Masterbatch und Endmischung erreichen wir stabile Chargenkonsistenz für anspruchsvolle Anwendungen.",
+    "singleLineCallout": {
+      "title": "Kontrolle auf einer A-Mischlinie",
+      "body": "RubberQ plant Compound-Familien nach Kontaminationsrisiko, reinigt zwischen Chargenfamilien nach SOP und verknüpft A-Mischdaten mit der jeweiligen Charge. Das unterstützt hohe Reinheit und langfristige Wiederholbarkeit, ohne kundenspezifische Rezepturen offenzulegen.",
+      "cta": "Compound-Strategie ansehen"
     }
   }
 }

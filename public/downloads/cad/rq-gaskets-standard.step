@@ -1,6 +1,6 @@
 ISO-10303-21;
 HEADER;
-FILE_DESCRIPTION(('RubberQ reference STEP placeholder'),'2;1');
+FILE_DESCRIPTION(('RubberQ reference STEP reference'),'2;1');
 FILE_NAME('rq-gaskets-standard.step','2026-03-01T00:00:00',('RubberQ'),('RubberQ'),'OpenCode','','');
 ENDSEC;
 DATA;

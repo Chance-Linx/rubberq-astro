@@ -16,6 +16,12 @@ const tx = (key: string, fallback = '') => t(messages, `testing.${key}`, fallbac
 const matrixColumns = tRaw(messages, 'testing.matrix.columns', []);
 const matrixRows = tRaw(messages, 'testing.matrix.rows', []);
 const customItems = tRaw(messages, 'testing.customProtocols.items', []);
+const visualLabels = {
+  hero: tx('visualLabels.hero', 'Testing Laboratory'),
+  equipment: tx('visualLabels.equipment', 'Testing Equipment'),
+  report: tx('visualLabels.report', 'Sample Test Report'),
+  reportMeta: tx('visualLabels.reportMeta', 'A4 report format'),
+};
 
 const orgSchema = createOrganizationSchema(locale!);
 ---
@@ -40,7 +46,7 @@ const orgSchema = createOrganizationSchema(locale!);
         data-priority="important"
       >
         <div class="w-full h-full bg-gradient-to-br from-industrial-800 to-industrial-900 flex items-center justify-center">
-          <span class="text-industrial-600 text-xs uppercase tracking-widest">[IMAGE · testing-hero-bg] 实验室全景</span>
+          <span class="text-industrial-600 text-xs uppercase tracking-widest">{visualLabels.hero}</span>
         </div>
       </div>
       <div class="absolute inset-0 bg-grid-pattern bg-grid-size opacity-10"></div>
@@ -98,12 +104,12 @@ const orgSchema = createOrganizationSchema(locale!);
             <div
               class="aspect-square bg-industrial-100 border-2 border-dashed border-industrial-300 flex flex-col items-center justify-center text-center p-3"
               data-slot-id={`testing-equipment-${i}`}
-              data-purpose={`测试设备特写 #${i}`}
+              data-purpose={`测试设备特写 ${i}`}
               data-spec="600x600"
               data-priority="important"
             >
-              <span class="text-[10px] uppercase tracking-widest text-industrial-400 mb-1">PLACEHOLDER</span>
-              <span class="text-xs text-industrial-600">设备特写 #{i}</span>
+              <span class="text-[10px] uppercase tracking-widest text-industrial-400 mb-1">{visualLabels.equipment}</span>
+              <span class="text-xs text-industrial-600">{i}</span>
             </div>
           ))}
         </div>
@@ -119,13 +125,13 @@ const orgSchema = createOrganizationSchema(locale!);
           <div
             class="aspect-[800/1130] bg-white border-2 border-dashed border-industrial-300 flex flex-col items-center justify-center text-center p-6 max-w-md mx-auto"
             data-slot-id="testing-report-thumbnail"
-            data-purpose="脱敏后的测试报告 PDF 缩略图"
+            data-purpose="测试报告样张缩略图"
             data-spec="800x1130（A4 比例）"
             data-priority="critical"
           >
-            <span class="text-xs uppercase tracking-widest text-industrial-500 mb-2">PLACEHOLDER · testing-report-thumbnail</span>
-            <span class="text-sm text-industrial-700">脱敏测试报告 PDF</span>
-            <span class="text-xs text-industrial-500 mt-2">A4 / critical</span>
+            <span class="text-xs uppercase tracking-widest text-industrial-500 mb-2">{visualLabels.report}</span>
+            <span class="text-sm text-industrial-700">{tx('sampleReport.title')}</span>
+            <span class="text-xs text-industrial-500 mt-2">{visualLabels.reportMeta}</span>
           </div>
 
           <div>

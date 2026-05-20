@@ -28,7 +28,7 @@
     },
     "materials": {
       "title": "In-House Compounded Materials | RubberQ",
-      "description": "We don't buy compounds — we engineer them. HNBR, FKM, FFKM, EPDM, NBR, ACM, AEM, Silicone (HCR & LSR) developed in-house with Japanese formulation partners."
+      "description": "RubberQ develops and controls HNBR, FKM, FFKM, EPDM, NBR, ACM, AEM, HCR Silicone, and LSR compounds with Japanese formulation support and in-house testing."
     },
     "compounding": {
       "title": "Compounding & R&D | RubberQ",
@@ -36,7 +36,7 @@
     },
     "testing": {
       "title": "Testing & Validation Laboratory | RubberQ",
-      "description": "Every compound and batch validated in our in-house lab to ASTM D412 / D573 / D395 / D471 / D2240 / D5289 / ISO 37 / ISO 1817 and more. Compound consistency assured."
+      "description": "RubberQ validates compounds and production batches in its in-house lab using recognized ASTM and ISO methods before release to production."
     },
     "industries": {
       "title": "Industries We Serve | RubberQ",
@@ -64,7 +64,7 @@
     },
     "quality": {
       "title": "Quality Assurance | RubberQ",
-      "description": "IATF 16949 / ISO 9001 / ISO 14001 certified. Compound traceability maintained across years of production — your 2030 PPAP file will still match your 2026 part."
+      "description": "IATF 16949 / ISO 9001 / ISO 14001 certified. RubberQ controls compound traceability, inspection records, and repeat production across long-term supply programs."
     },
     "resources": {
       "title": "Technical Resources | RubberQ",
@@ -123,15 +123,15 @@
     "summaryItems": [
       {
         "term": "Japanese Formulation Partnership Since 1995",
-        "description": "Compounds engineered with our Japanese formulation partners — 30 years of polymer chemistry, applied to your application."
+        "description": "Compounds developed with long-term Japanese formulation support and applied to customer-specific service conditions."
       },
       {
         "term": "Single A-Mixing Line",
-        "description": "One dedicated line means batch-to-batch consistency for years. Your 2030 PPAP reproduces your 2026 part exactly."
+        "description": "A controlled mixing route supports repeatable batch behavior across years of supply."
       },
       {
-        "term": "In-House Validation Lab",
-        "description": "Aging, tensile, oil resistance, thermal endurance — every formulation tested to ASTM/ISO standards before production release."
+        "term": "Own Testing Laboratory",
+        "description": "Aging, tensile, oil resistance, hardness, and cure behavior are tested before production release."
       }
     ],
     "jpRd": {
@@ -193,7 +193,7 @@
   },
   "industries": {
     "title": "Specialized Industries We Serve",
-    "subtitle": "We focus on four sectors where engineered compounds and precision manufacturing matter most. We deliberately don't serve everyone.",
+    "subtitle": "RubberQ supports EV and energy storage, industrial equipment, semiconductor, and Tier 2 automotive programs where engineered compounds and stable manufacturing matter.",
     "ev": {
       "title": "EV & Energy Storage",
       "shortDesc": "Compound chemistry for charging infrastructure, BESS, EV peripheral equipment, and EV vehicle Tier 2.",
@@ -277,7 +277,7 @@
     "engineeringSales": "Engineering / Sales",
     "manufacturingSite": "Manufacturing Site",
     "fastTrack": "Fast-Track for 2026",
-    "fastTrackDesc": "Share your design files (Google Drive / Dropbox link) to help our AI-assisted quoting engine provide faster pricing.",
+    "fastTrackDesc": "Share your design files (Google Drive / Dropbox link) so our engineering quote team can review pricing faster.",
     "manufacturingAddress": "Fuzhou City, Fujian Province, China",
     "enhancement": {
       "globalDeliveryTitle": "Global Delivery Coverage",
@@ -298,8 +298,8 @@
     "watchVideo": "Watch Corporate Video",
     "videoDuration": "[Company Overview & Factory Tour - 3:45]",
     "heritageQuote": "\"Automotive quality is in our DNA.\"",
-    "heritageText1": "For over three decades, we have served as a long-term OEM supplier for leading Japanese automotive brands. This experience taught us that in precision manufacturing, there is no room for error.",
-    "heritageText2": "Today, as we expand into the EV and industrial equipment sectors, we carry this legacy of \"Zero-Defect\" culture into the technologies of tomorrow.",
+    "heritageText1": "Since 1995, RubberQ has supplied precision rubber components through long-term Japanese automotive programs. That background shaped our discipline in material control, dimensional consistency, and repeatable production.",
+    "heritageText2": "Today we apply the same manufacturing discipline to EV and energy storage, industrial equipment, semiconductor process seals, and selected Tier 2 automotive programs.",
     "stats": {
       "years": "Years Experience",
       "factory": "Sqm Factory",
@@ -325,7 +325,7 @@
         "desc": "Efficient warehousing and global shipping capabilities."
       }
     },
-    "imageNote": "Note: These images represent our actual workshop environments and technical capabilities. We welcome on-site visits and third-party audits.",
+    "imageNote": "Note: These images represent our actual workshop environments and technical capabilities. We welcome on-site visits and project-specific supplier evaluations.",
     "coreValues": "Core Values",
     "values": {
       "precision": {
@@ -399,7 +399,7 @@
       "name": "Bellows & Boots",
       "desc": "Flexible protective covers for linear and rotary motion systems, with extended fatigue life.",
       "applications": [
-        "Robot joints",
+        "Precision moving assemblies",
         "Linear actuators",
         "CV joints",
         "Machine ways"
@@ -659,7 +659,9 @@
       "issued": "Issued",
       "expires": "Expires",
       "scope": "Scope",
-      "verification": "This certificate can be verified through the issuing authority's official registry using the certificate number."
+      "verification": "This certificate can be verified through the issuing authority's official registry using the certificate number.",
+      "documentCenter": "RubberQ quality document center",
+      "availableOnRequest": "Available on request"
     },
     "certificates": {
       "iatf": {
@@ -851,19 +853,19 @@
           "evidence": "Dimensional reports, final inspection records, packaging labels, and shipment checks"
         }
       ],
-      "metricsTitle": "Example release controls from the anonymized plan",
+      "metricsTitle": "Example release controls from the production plan",
       "metrics": [
         "B-compound storage temperature controlled below 28 C",
         "Rheometer curve must stay within the approved standard curve",
         "Hardness, tensile strength, and elongation verified before release",
         "Critical dimensions can be monitored through SPC when required by drawing"
       ],
-      "eyebrow": "Process evidence",
+      "eyebrow": "Process records",
       "linkToFlow": "View controlled production flow",
       "imageSlot": {
-        "label": "IMAGE SLOT",
-        "title": "Anonymized control-plan record",
-        "meta": "Recommended: blurred control-plan screenshot, inspection sheet, or batch release record, 1200x900"
+        "label": "QUALITY RECORD",
+        "title": "Control-plan record example",
+        "meta": "Control-plan view, inspection sheet, or batch release record"
       }
     }
   },
@@ -1120,8 +1122,8 @@
     },
     "controlFlow": {
       "title": "22-Step Controlled Production Flow",
-      "subtitle": "Built from an anonymized real control plan: from raw material receiving to shipment, every stage has defined equipment, checks, records, and reaction plans.",
-      "sourceNote": "Public-anonymized proof asset: product numbers, customer details, and drawing-specific dimensions are intentionally removed.",
+      "subtitle": "From raw material receiving to shipment, every stage has defined equipment, checks, records, and response actions.",
+      "sourceNote": "The process model is based on RubberQ production-control practice and is presented at a customer-readable level.",
       "groups": [
         {
           "label": "01",
@@ -1187,11 +1189,11 @@
           "desc": "Each control point is tied to an acceptance rule and documented response path before production continues."
         }
       ],
-      "eyebrow": "Manufacturing proof",
+      "eyebrow": "Manufacturing process",
       "imageSlot": {
-        "label": "IMAGE SLOT",
+        "label": "PROCESS VISUAL",
         "title": "Controlled production flow visual",
-        "meta": "Recommended: anonymized 22-step process diagram or factory workflow photo, 1600x900"
+        "meta": "Process diagram or factory workflow photo"
       }
     }
   },
@@ -1319,7 +1321,7 @@
     "cta": {
       "title": "READY TO",
       "titleHighlight": "VISIT?",
-      "description": "We welcome factory audits and customer visits. Schedule a tour to see our capabilities firsthand and meet our engineering team.",
+      "description": "We welcome customer visits and supplier evaluations. Schedule a tour to see our capabilities firsthand and meet our engineering team.",
       "scheduleTour": "Schedule Factory Tour",
       "viewQuality": "View Quality Standards"
     }
@@ -1328,7 +1330,7 @@
     "hero": {
       "badge": "In-House Compounding × 30 Years",
       "title": "In-House Rubber Compounding Across 9+ Polymer Families",
-      "subtitle": "We don't buy compounds. We engineer them — with Japanese formulation partners, across 30 years and [TBD: 200+] proprietary formulations. Custom chemistry for unique application requirements is our core strength, not an exception."
+      "subtitle": "We don't buy compounds. We engineer them — with Japanese formulation partners, across 30 years and our proprietary formulations. Custom chemistry for unique application requirements is our core strength, not an exception."
     },
     "crossLink": {
       "prompt": "Want to see how we develop compounds, not just process them?",
@@ -1409,9 +1411,9 @@
   },
   "standardsPage": {
     "hero": {
-      "badge": "Technical Compliance",
+      "badge": "Technical Standards",
       "title": "Global Industry Standards",
-      "subtitle": "At RubberQ, we don't just manufacture rubber; we engineer compliance. We operate at the intersection of material science and international regulatory frameworks to ensure your products are market-ready."
+      "subtitle": "RubberQ helps customers translate ASTM, ISO, SAE, IATF, and drawing requirements into practical material selection, testing records, and production control for rubber parts."
     },
     "categories": {
       "materialClassification": {
@@ -1461,7 +1463,7 @@
       "callOutTitle": "Need a Line Call-Out?",
       "callOutDesc": "Our engineering team can help you translate your application requirements into a formal ASTM D2000 or SAE J200 specification.",
       "consultEngineer": "Consult an Engineer",
-      "complianceNotice": "Compliance Notice",
+      "complianceNotice": "Documentation Note",
       "complianceNoticeText": "Certificates of Analysis (COA) and Certificates of Conformance (COC) are provided with every shipment. Full PPAP Level 3 documentation is available for automotive and high-precision machinery projects upon request."
     },
     "footer": {
@@ -1511,7 +1513,7 @@
         "industry": "Thermal Management Equipment",
         "client": "Leading Cloud Infrastructure Provider",
         "location": "United States",
-        "challenge": "Liquid cooling system leaks in high-density GPU clusters",
+        "challenge": "Seal leakage in high-temperature process equipment",
         "solution": "Precision EPDM cooling seals with sub-micron tolerances",
         "results": [
           "99.97% leak-free performance",
@@ -1542,56 +1544,56 @@
   },
   "compounding": {
     "hero": {
-      "badge": "OUR HIDDEN EDGE — 30 YEARS OF SINO-JAPANESE R&D",
+      "badge": "30 YEARS OF SINO-JAPANESE FORMULATION WORK",
       "tagline": "Compounded by Japan. Built in China. Tested in-House.",
-      "subtitle": "While 95% of rubber suppliers buy compounds off the shelf, RubberQ engineers them. From polymer chemistry to validated batch release — we own the entire value chain.",
+      "subtitle": "RubberQ develops and controls custom compound work from polymer selection to validated batch release. Japanese formulation support, Fuzhou precision manufacturing, and in-house testing work as one engineering chain.",
       "ctaPrimary": "Discuss Your Application",
       "ctaSecondary": "Download Compound Capability Sheet"
     },
     "whyCompounding": {
       "title": "Why Compounding Matters",
-      "introTypical": "When you buy a rubber part from a typical Asian supplier, the compound was likely:",
+      "introTypical": "For many rubber parts, the hidden risk is not the mold. It is whether the compound can be reproduced across years of supply.",
       "typicalItems": [
-        "Bought in bulk from a Chinese compound trader",
-        "Mixed in a shared multi-product line with cross-contamination risk",
-        "Untested by the molder before molding",
-        "Impossible to reproduce 5 years later when you need replacement parts"
+        "Purchased compounds can limit formulation visibility",
+        "Shared mixing routes can increase variation risk",
+        "Molding without batch validation makes repeat supply harder",
+        "A future reorder may not match the original material behavior"
       ],
-      "introRubberQ": "When you work with us, every compound is:",
+      "introRubberQ": "RubberQ manages compound work as part of the manufacturing system:",
       "rubberQItems": [
-        "Designed by our Japanese formulation partners since 1995",
-        "Mixed on our dedicated single A-line (zero cross-contamination)",
-        "Tested in-house for every batch (aging, tensile, viscosity, cure)",
-        "Permanently traceable — your 2030 PPAP file will still match your 2026 part"
+        "Formulation support developed through Japanese partnership since 1995",
+        "Single A-mixing line with controlled scheduling and cleaning routines",
+        "Batch release tests for cure, hardness, tensile, viscosity, and aging behavior",
+        "Traceable production records for repeat orders and customer qualification files"
       ]
     },
     "aline": {
       "title": "Our Single A-Mixing Line",
-      "capacity": "Capacity: 500g – 5,000kg per compound batch",
-      "mixer": "Mixer: [TBD] kg Banbury internal mixer",
-      "throughput": "Throughput: [TBD] tons / month",
-      "intro": "Three operational advantages we deliberately preserve by running ONE line, not many:",
+      "capacity": "Batch range: 500g – 5,000kg per compound batch",
+      "mixer": "Mixer: Banbury internal mixing process with controlled recipe and weighing records",
+      "throughput": "Production planning: matched to project volume, formulation family, and release-test needs",
+      "intro": "Three operational advantages we preserve by running a controlled single-line process:",
       "adv1Title": "1. COMPOUND CONSISTENCY",
-      "adv1Body": "Same Banbury, same process curve, same operator team. Your 2030 PPAP file will reproduce your 2026 part exactly. Multi-line plants can't guarantee this.",
-      "adv2Title": "2. CROSS-CONTAMINATION CONTROL",
-      "adv2Body": "Strict cleaning SOP between batches. Sequence-ordered scheduling: highest-purity compounds first, high-carbon-black/peroxide compounds last. Critical for semiconductor FFKM and EV thermal and energy-storage seal applications.",
-      "adv3Title": "3. ENGINEER-WITNESSED PRODUCTION",
-      "adv3Body": "Every batch's rheology curve and Mooney viscosity is reviewed in real time by our lab team — not sampled. Multi-line plants only sample-check."
+      "adv1Body": "Same process route, same control window, and repeatable batch records make long-term supply more stable.",
+      "adv2Title": "2. CONTAMINATION-RISK CONTROL",
+      "adv2Body": "Sequence planning and cleaning routines help protect high-purity and long-life sealing programs.",
+      "adv3Title": "3. ENGINEERING REVIEW AT RELEASE",
+      "adv3Body": "Rheology, Mooney viscosity, and key batch indicators are reviewed before the compound moves to molding."
     },
     "labEquipment": {
       "title": "Inside Our R&D Laboratory",
       "items": [
         {
           "name": "Rheometer / Mooney Viscometer",
-          "desc": "Cure characteristics & viscosity"
+          "desc": "Cure characteristics and viscosity"
         },
         {
           "name": "Universal Tensile Tester",
-          "desc": "Strength & elongation"
+          "desc": "Strength and elongation"
         },
         {
           "name": "Aging Oven",
-          "desc": "Long-term thermal & ozone aging"
+          "desc": "Thermal and ozone aging"
         },
         {
           "name": "Compression Set Tester",
@@ -1606,7 +1608,7 @@
           "desc": "Shore A / Shore D hardness"
         }
       ],
-      "fullLink": "See full equipment + ASTM/ISO standards"
+      "fullLink": "See full equipment and ASTM/ISO standards"
     },
     "workflow": {
       "title": "From Application to Production",
@@ -1615,38 +1617,38 @@
           "stage": "Stage 1",
           "name": "NEED ASSESSMENT",
           "timeline": "Within 5 business days",
-          "desc": "You describe operating conditions (temp, fluid, lifecycle). Mutual NDA in place."
+          "desc": "You share operating conditions such as temperature, medium, movement, target life, drawing, and annual volume."
         },
         {
           "stage": "Stage 2",
           "name": "FORMULATION DESIGN",
           "timeline": "3-6 weeks",
-          "desc": "Japanese formulation partners propose 2-3 candidate compounds based on application chemistry."
+          "desc": "We select or adjust candidate compounds based on polymer family, service chemistry, and production route."
         },
         {
           "stage": "Stage 3",
           "name": "LAB TRIAL",
           "timeline": "2-4 weeks",
-          "desc": "We mix small batches (500g) and run full property tests. You receive the test report; we iterate as needed."
+          "desc": "Small batches are mixed and tested so the material window is understood before molded samples."
         },
         {
           "stage": "Stage 4",
           "name": "PILOT MOLDING",
           "timeline": "2-3 weeks",
-          "desc": "Pilot tooling + small-batch molded samples for your functional validation in your end environment."
+          "desc": "Pilot tooling or trial molding produces samples for dimensional and functional review."
         },
         {
           "stage": "Stage 5",
           "name": "PRODUCTION RELEASE",
           "timeline": "4-8 weeks",
-          "desc": "Tooling scaled to production. First-article inspection, PPAP/FAI documentation, batch traceability live."
+          "desc": "First-article inspection, batch traceability, and production controls are aligned for repeat supply."
         }
       ],
-      "totalNote": "Total: 12-24 weeks for ground-up compound development. 4-8 weeks if optimizing an existing RubberQ compound."
+      "totalNote": "Typical timing: 12-24 weeks for a new compound path, or 4-8 weeks when adapting an existing RubberQ compound."
     },
     "library": {
       "title": "Our Compound Library",
-      "intro": "[TBD: 200+] proprietary compounds developed over 30 years. Categorized by polymer family and application chemistry. Specific formulations remain proprietary; high-level capability shown below:",
+      "intro": "RubberQ maintains a growing compound library across major polymer families. Specific recipes remain proprietary, but the capability range is shown below.",
       "columns": [
         "Family",
         "Typical Applications",
@@ -1656,7 +1658,7 @@
       "rows": [
         {
           "family": "FKM",
-          "apps": "Auto / Industrial / Chemical",
+          "apps": "Industrial / Automotive / Chemical",
           "temp": "-20 to +200°C",
           "key": "Chemical resistance"
         },
@@ -1664,13 +1666,13 @@
           "family": "FFKM",
           "apps": "Semiconductor / Plasma / High-purity",
           "temp": "-20 to +260°C",
-          "key": "Extreme chemical & thermal purity"
+          "key": "Extreme chemical and thermal purity"
         },
         {
           "family": "HNBR",
-          "apps": "EV thermal management / High-temp auto",
+          "apps": "EV thermal systems / High-temp equipment",
           "temp": "-40 to +160°C",
-          "key": "Low compression set, oil + heat"
+          "key": "Low compression set, oil and heat"
         },
         {
           "family": "NBR",
@@ -1680,7 +1682,7 @@
         },
         {
           "family": "EPDM",
-          "apps": "Battery seals / Outdoor / Steam systems",
+          "apps": "Outdoor enclosures / Steam / Energy systems",
           "temp": "-50 to +150°C",
           "key": "Weather, ozone, steam resistance"
         },
@@ -1694,7 +1696,7 @@
           "family": "AEM",
           "apps": "Automotive heat ducts / Hoses",
           "temp": "-40 to +175°C",
-          "key": "Heat + oil resistance"
+          "key": "Heat and oil resistance"
         },
         {
           "family": "HCR Silicone",
@@ -1709,29 +1711,29 @@
           "key": "Tight-tolerance overmolding"
         }
       ],
-      "outro": "Need a property combination not listed? That's exactly what we develop.",
+      "outro": "Need a property combination not listed? Share the application conditions and we will review the material path.",
       "cta": "Start a custom compound brief"
     },
     "boundaries": {
-      "title": "What We Can — and Cannot — Promise",
-      "intro": "We're transparent about development scope so you can plan accordingly:",
+      "title": "Development Paths and Timing",
+      "intro": "We align scope and timing early so purchasing and engineering teams can plan with confidence:",
       "fast": {
-        "label": "FAST (4-8 weeks)",
-        "desc": "Optimize an existing RubberQ compound (e.g., adjust hardness, cost, single property)."
+        "label": "EXISTING COMPOUND ADJUSTMENT (4-8 weeks)",
+        "desc": "Adjust hardness, cost target, or a single property from an existing RubberQ compound."
       },
       "standard": {
-        "label": "STANDARD (8-16 weeks)",
-        "desc": "Select + validate from our compound library for your specific application."
+        "label": "COMPOUND SELECTION AND VALIDATION (8-16 weeks)",
+        "desc": "Select and validate from our compound library for a specific application and drawing."
       },
       "ndaDependent": {
-        "label": "NDA-DEPENDENT (12-24 weeks)",
-        "desc": "Ground-up new compound from first-principles polymer chemistry. Timeline depends on Japanese team availability — disclosed in NDA."
+        "label": "NEW COMPOUND PATH (12-24 weeks)",
+        "desc": "Develop a new compound route with agreed test plan, samples, and release criteria."
       },
-      "redLine": "We will not promise \"ground-up compound development without a proper validation plan.\" Anyone who does is either lying or cutting corners that will fail PPAP."
+      "validationNote": "For new compound work, we pair formulation with a validation plan so sampling, testing, and production release stay aligned."
     },
     "finalCta": {
       "title": "Ready to Co-Develop?",
-      "subtitle": "Whether you have a drawing waiting for a quote, or a material problem looking for a solution — start the conversation.",
+      "subtitle": "Whether you have a drawing ready for quote or an application condition that needs material guidance, start with the operating details.",
       "ctaPrimary": "Submit Application Brief",
       "ctaSecondary": "Request Compound Datasheet"
     },
@@ -1772,17 +1774,26 @@
       ],
       "eyebrow": "Batch release logic",
       "imageSlot": {
-        "label": "IMAGE SLOT",
+        "label": "PROCESS VISUAL",
         "title": "A/B mixing and batch release visual",
-        "meta": "Recommended: A/B mixing flow diagram, lab release record, or mixing-line photo, 1600x900"
+        "meta": "Flow diagram, lab release record, or mixing-line photo"
       }
+    },
+    "visualLabels": {
+      "hero": "A-Mixing Line in Operation",
+      "machine": "A-Mixing Line",
+      "control": "Weighing and Process Control",
+      "process": "Material Feeding and Discharge",
+      "equipment": "Lab Equipment",
+      "processVideo": "Process Video",
+      "processVideoMeta": "Factory process overview"
     }
   },
   "testing": {
     "hero": {
       "badge": "IN-HOUSE VALIDATION TO ASTM / ISO STANDARDS",
       "title": "Every Compound. Every Batch. Tested in-House.",
-      "subtitle": "We don't outsource testing to third-party labs we can't control. Our in-house laboratory runs full property validation on every formulation — to recognized international standards — before any compound enters production."
+      "subtitle": "Our in-house laboratory validates formulations and production batches against recognized ASTM and ISO methods before compounds move into production."
     },
     "matrix": {
       "title": "Our Testing Capability Matrix",
@@ -1833,13 +1844,13 @@
           "standards": "ASTM D297"
         },
         {
-          "equipment": "DMA (if equipped)",
-          "test": "Dynamic Mechanical Analysis",
+          "equipment": "DMA",
+          "test": "Dynamic Mechanical Analysis when required",
           "standards": "ASTM D5992 / ISO 4664"
         },
         {
-          "equipment": "TGA (if equipped)",
-          "test": "Thermogravimetric Analysis",
+          "equipment": "TGA",
+          "test": "Thermogravimetric Analysis when required",
           "standards": "ASTM E1131"
         },
         {
@@ -1848,18 +1859,18 @@
           "standards": "ISO 3302-1 Class M1"
         }
       ],
-      "calibrationNote": "All equipment calibrated annually by CNAS-accredited third-party laboratories."
+      "calibrationNote": "Measurement equipment is managed through scheduled calibration and maintenance records."
     },
     "sampleReport": {
-      "title": "What Our Test Reports Look Like",
-      "body": "Standard report includes: customer ref, batch ID, polymer family, property values, ASTM/ISO standard reference, pass/fail vs target, technician signature, lab manager counter-signature, calibration cert references.",
+      "title": "What Our Test Reports Include",
+      "body": "Standard reports can include customer reference, batch ID, polymer family, property values, ASTM/ISO method, target comparison, technician signoff, lab review, and calibration references.",
       "cta": "Download Sample Report (PDF)"
     },
     "customProtocols": {
       "title": "Custom Test Protocols Available",
-      "intro": "Beyond standard ASTM/ISO methods, we run customer-specified test protocols including:",
+      "intro": "Beyond standard ASTM/ISO methods, we can run application-specific test protocols such as:",
       "items": [
-        "Long-term immersion in your specific service fluid",
+        "Long-term immersion in your service fluid",
         "Custom-temperature aging cycles",
         "Compression set at non-standard temperatures",
         "Stress relaxation",
@@ -1867,43 +1878,51 @@
       ],
       "cta": "Discuss your validation protocol"
     },
-    "qualityLink": "Quality systems & certifications"
+    "qualityLink": "Quality systems & certifications",
+    "visualLabels": {
+      "hero": "Testing Laboratory",
+      "equipment": "Testing Equipment",
+      "report": "Sample Test Report",
+      "reportMeta": "A4 report format"
+    }
   },
   "industriesPage": {
     "index": {
       "hero": {
         "title": "Industries We Serve",
-        "subtitle": "We focus on four sectors where engineered compounds and precision manufacturing matter most. We deliberately don't serve everyone."
+        "subtitle": "RubberQ supports four sectors where engineered compounds and stable manufacturing matter most."
       },
-      "notSeeing": "Not seeing your industry? Most precision rubber applications fit into one of these four.",
-      "talkCta": "Talk to an engineer"
+      "notSeeing": "Not seeing your industry? Most precision rubber applications fit into one of these four groups.",
+      "talkCta": "Talk to an engineer",
+      "visualLabel": "Application Visual",
+      "explore": "Explore"
     },
     "ev": {
       "hero": {
         "title": "Precision Rubber for EV & Energy Storage Applications",
-        "subtitle": "EV and energy storage applications demand sealing chemistry that holds for years — across thermal cycling, fluid exposure, vibration, and outdoor weathering. We bring 30 years of Japanese automotive-grade compound development into the next generation of mobility and grid infrastructure."
+        "subtitle": "EV and energy storage applications require sealing materials that hold up across thermal cycling, fluid exposure, vibration, and outdoor weathering."
       },
       "subSectors": {
-        "title": "Four EV & Energy Sub-Sectors We Serve",
+        "title": "EV & Energy Application Areas",
         "charging": {
           "name": "Charging Infrastructure",
           "icon": "⚡",
           "apps": [
-            "Charging gun and connector seals",
-            "Charging cable junction gaskets",
-            "Charging pile cabinet seals (IP67)",
-            "Outdoor enclosure gaskets"
+            "Charging connector and cable-interface seals",
+            "Charging cabinet and enclosure gaskets",
+            "Outdoor access-panel seals",
+            "Cable junction sealing parts"
           ],
-          "compounds": "EPDM (weather + flame-retardant grades), FKM, Silicone"
+          "compounds": "EPDM, FKM, Silicone"
         },
         "bess": {
           "name": "Battery Energy Storage Systems (BESS)",
           "icon": "⚡",
           "apps": [
-            "BESS cabinet sealing (IP67 / IP68)",
+            "Cabinet and access-door sealing",
             "Cable gland and bushing seals",
             "Vibration isolation mounts",
-            "Door and access panel gaskets"
+            "Outdoor enclosure gaskets"
           ],
           "compounds": "EPDM, HNBR, NBR"
         },
@@ -1911,48 +1930,48 @@
           "name": "EV Peripheral & Manufacturing Equipment",
           "icon": "⚡",
           "apps": [
-            "EV battery test rig seals",
             "Thermal cycling chamber gaskets",
-            "Production-line sealing for EV component OEMs",
-            "Drive-unit dynamometer seals"
+            "EV component production-line sealing",
+            "Drive-unit test equipment seals",
+            "Manufacturing fixture elastomer parts"
           ],
-          "compounds": "FKM, HNBR, FFKM (for plasma cleaning equipment)"
+          "compounds": "FKM, HNBR, FFKM when required by process conditions"
         },
         "vehicle": {
           "name": "EV Vehicle Tier 2 Components",
           "icon": "⚡",
           "apps": [
-            "Thermal management hoses and O-rings",
+            "Thermal management O-rings and hoses",
             "Low/medium-voltage connector seals",
-            "Vibration isolators (motor mounts, energy-system mounts)",
-            "Sensor seals (Tier 2 supplied to Tier 1 modules)"
+            "Vibration isolators and mounts",
+            "Sensor and module seals"
           ],
           "compounds": "HNBR, FKM, EPDM, ACM, AEM"
         }
       },
       "whyChemistry": {
-        "title": "Why Compound Chemistry Wins in EV Applications",
-        "intro": "Unlike legacy ICE seals, EV seals operate in:",
+        "title": "Why Compound Chemistry Matters in EV Applications",
+        "intro": "EV and energy applications often combine:",
         "points": [
-          "Continuous high-temperature exposure (thermal management hoses see 130-160°C constantly, not just at peak)",
-          "Compression set under long-duration static load (energy-system lifecycle = 8-15 years, not warranty replacement)",
-          "Mixed-fluid environments (coolants, dielectric fluids, electrolyte vapor)",
+          "Continuous heat exposure in thermal systems",
+          "Long-duration compression under static load",
+          "Coolants, dielectric fluids, ozone, and outdoor weathering",
           "Vibration combined with thermal cycling"
         ],
-        "edge": "Our advantage: every compound is developed with these specific service conditions in mind — not pulled off a shelf."
+        "edge": "RubberQ reviews compound chemistry against the service conditions instead of treating the part as a simple molded shape."
       },
       "engagement": {
         "title": "How We Engage",
-        "drawings": "For drawings-in-hand RFQs: 12-24h quote turnaround.",
-        "application": "For application briefs (where you have a sealing problem but no compound selected yet): we engage in a structured 5-stage co-development process with our Japanese formulation team. Full process: 12-24 weeks ground-up; 4-8 weeks if optimizing from our existing library."
+        "drawings": "For drawings-in-hand RFQs, share drawings, material target, annual volume, and quality requirements for a practical quotation path.",
+        "application": "For application briefs, we review temperature, medium, movement, service life, and qualification expectations before recommending a material route."
       },
       "ctaPrimary": "Submit Your EV Application Brief",
-      "ctaSecondary": "Download EV Compound Capability Sheet (PDF)"
+      "ctaSecondary": "Download EV Compound Capability Sheet"
     },
     "industrial": {
       "hero": {
         "title": "Precision Seals for Industrial Equipment",
-        "subtitle": "Our most established sector. Pneumatic, hydraulic, pump, and valve OEMs are our day-to-day customers — many for over a decade."
+        "subtitle": "Hydraulic, pneumatic, pump, valve, and process-equipment customers need rubber parts that stay stable under pressure, oil, heat, and repeated motion."
       },
       "subSectors": {
         "title": "Application Sub-Sectors",
@@ -1987,96 +2006,99 @@
         ]
       },
       "whyUs": {
-        "title": "Why Industrial Customers Choose Us",
+        "title": "Why Industrial Customers Choose RubberQ",
         "items": [
           "Engineered compounds with controlled manufacturing support",
-          "±0.05mm tolerance achievable",
-          "IATF 16949 supplied to industrial OEMs since 1995",
-          "Compound consistency for 5+ year supply contracts"
+          "Precision molding and inspection for drawing-based parts",
+          "IATF 16949 manufacturing discipline applied to industrial OEM supply",
+          "Compound consistency for repeat supply programs"
         ]
       },
-      "cta": "Get a quote"
+      "cta": "Get a Quote"
     },
     "semiconductor": {
       "hero": {
         "title": "FKM and FFKM Seals for Semiconductor Manufacturing",
-        "subtitle": "Cross-contamination tolerance in semiconductor process is near-zero. Our single dedicated A-mixing line — with sequence-ordered scheduling and validated cleaning SOP — delivers the compound purity that wafer-fab seals demand."
+        "subtitle": "Semiconductor process equipment requires material purity, chemical resistance, clean handling, and traceable production records."
       },
       "engagement": {
         "title": "Where We Engage",
-        "intro": "We engage on semiconductor sealing as a co-development service, not as an off-shelf catalog. Two engagement modes:",
+        "intro": "We support semiconductor sealing as an engineering discussion tied to process conditions, not as a one-size catalog item.",
         "fkm": {
-          "label": "FKM-Based Process Seals (proven)",
-          "desc": "Wafer handling, chamber static seals, gas-line gaskets in non-aggressive plasma environments. Built on 30 years of FKM compound development. Standard 8-16 week lead time."
+          "label": "FKM-Based Process Seals",
+          "desc": "For process interfaces where FKM performance fits the medium, temperature, and handling requirements."
         },
         "ffkm": {
-          "label": "FFKM-Based Process Seals (co-development)",
-          "desc": "Aggressive plasma etch, ALD/CVD chamber dynamic seals, high-purity gas delivery. FFKM is our flagship co-development offering — premium chemistry, premium pricing, premium reliability. Engagement: structured 5-stage development with our Japanese formulation team, NDA-backed."
+          "label": "FFKM-Based Process Seals",
+          "desc": "For aggressive process conditions requiring premium chemical and thermal resistance, reviewed through a structured material-development path."
         }
       },
       "whySingleLine": {
-        "title": "Why Single-Line Matters in Semicon",
-        "body": "In a multi-line plant, yesterday's high-carbon-black batch can leave residue affecting today's FFKM batch — even with cleaning. We eliminate that risk by design: ONE A-line, sequence-ordered (high-purity first, high-filler last), validated SOP between batches. Auditable."
+        "title": "Why Single-Line Mixing Matters",
+        "body": "A controlled A-mixing route, sequence planning, and cleaning records help manage compound consistency for high-purity and long-life sealing programs."
       },
       "processCompat": {
-        "title": "Process Compatibility (Customer-Specified)",
-        "body": "We do not publish standard FFKM formulations — every semiconductor application has unique process chemistry (etchant gases, RF power, thermal cycling). Submit your process conditions; we'll propose compound chemistry within 2-3 weeks under NDA."
+        "title": "Process Compatibility Review",
+        "body": "Share process conditions, media, temperature, movement, and expected service life. RubberQ will review the suitable FKM or FFKM material path after technical exchange."
       },
-      "cta": "Submit Your Semicon Application Brief"
+      "cta": "Submit Your Semiconductor Application Brief"
     },
     "automotive": {
       "hero": {
-        "title": "Automotive Tier 2 Components — Where Precision Matters Most",
-        "subtitle": "We've supplied long-term to Japanese automotive OEMs since 1995. Today we support Tier 2 applications where custom compounds, tight tolerance, and stable long-term supply drive supplier selection."
+        "title": "Automotive Tier 2 Components — Where Precision Matters",
+        "subtitle": "RubberQ has long-term experience supplying Japanese automotive programs and now supports Tier 2 components where compound stability, tolerance control, and repeat supply matter."
       },
       "whereWeFit": {
         "title": "Where We Add Value",
         "fitTitle": "Stronger value",
         "fitItems": [
-          "Tier 2 key components (thermal mgmt, sensor seals, sub-system gaskets)",
+          "Tier 2 components where material behavior affects assembly performance",
           "Standard, custom, small-batch, or larger-volume parts that need stable quality",
-          "Compound co-development with Tier 1 R&D engineers"
+          "Compound and process review with customer engineering teams"
         ],
         "confirmTitle": "Confirm early",
         "notFitItems": [
-          "Programs with special customer approvals, audits, or documentation requirements",
-          "Healthcare-device or other regulated applications that require special-market certification"
+          "Programs with special customer approvals, site evaluations, or documentation requirements",
+          "Healthcare-device or other regulated applications requiring special-market certification"
         ]
       },
       "customerProfile": {
         "title": "Existing Customer Profile",
         "items": [
           "Long-term Japanese OEM relationships since 1995",
-          "Tier 1 supplier base in Europe and North America",
-          "Specialty: applications where compound chemistry matters more than mold count"
+          "Tier 1 and Tier 2 supply-chain experience",
+          "Applications where compound chemistry and manufacturing stability matter"
         ]
       },
-      "cta": "Discuss your Tier 2 component"
+      "cta": "Discuss Your Tier 2 Component"
+    },
+    "common": {
+      "recommendedCompounds": "Recommended compounds"
     }
   },
   "aboutV2": {
-    "heroQuote": "Japanese formulation engineering. Chinese precision craftsmanship. One trusted partner since 1995.",
-    "subtitleV2": "A Sino-Japanese joint venture established in June 1995, combining Japanese formulation expertise with Chinese precision manufacturing — validated by our in-house testing laboratory.",
-    "heritageText1V2": "For over three decades, we have served as a long-term OEM supplier for leading Japanese automotive brands. Our compounds are developed in collaboration with Japanese formulation engineers we've partnered with since 1995. Every formulation undergoes full validation in our in-house lab — aging, tensile, oil resistance, thermal endurance — before release to production.",
-    "heritageText2V2": "Today, as Japanese automotive demand stabilizes, we are expanding into EV/energy storage, industrial equipment, semiconductor (FFKM), and Tier 2 automotive applications where precision compounds matter most. We bring the same zero-defect discipline to every new sector we enter.",
+    "heroQuote": "Japanese formulation engineering. Chinese precision manufacturing. One trusted partner since 1995.",
+    "subtitleV2": "A Sino-Japanese joint venture established in June 1995, combining Japanese formulation expertise with Chinese precision manufacturing and in-house testing.",
+    "heritageText1V2": "Since 1995, RubberQ has supplied precision rubber components under demanding quality systems. Our compounds are supported by long-term Japanese formulation know-how and validated through in-house testing before production release.",
+    "heritageText2V2": "Today we apply that experience to EV and energy storage, industrial equipment, semiconductor process sealing, and automotive Tier 2 programs where stable compound behavior and repeatable manufacturing matter.",
     "dualBrain": {
       "title": "How We Work — The Dual-Brain Model",
       "japan": {
-        "icon": "🧠",
+        "icon": "JPN",
         "label": "JAPAN",
-        "body": "Formulation engineering team — partnered with us since 1995."
+        "body": "Long-term formulation support and polymer chemistry experience."
       },
       "china": {
-        "icon": "🛠",
+        "icon": "CN",
         "label": "CHINA",
-        "body": "Precision manufacturing — single A-mixing line + IATF 16949 facility in Fuzhou."
+        "body": "Precision manufacturing with a controlled A-mixing route in Fuzhou."
       },
       "lab": {
-        "icon": "🔬",
+        "icon": "LAB",
         "label": "OWN LAB",
-        "body": "Aging, tensile, oil, thermal tests every formulation before production."
+        "body": "Material tests and batch-release checks before production."
       },
-      "caption": "European mid-sized peers can't match our cost. Pure Chinese peers can't match our quality. Pure Japanese peers can't match our scale."
+      "caption": "RubberQ combines formulation discipline, manufacturing control, and practical cost efficiency for long-term B2B supply."
     },
     "stats": {
       "years": "30",
@@ -2084,16 +2106,16 @@
       "factoryArea": "20K",
       "factoryAreaLabel": "Sqm Factory",
       "iatfLabel": "16949 Certified",
-      "jpEngineers": "[TBD]",
-      "jpEngineersLabel": "Japanese Engineering Partners"
+      "jpEngineers": "1995",
+      "jpEngineersLabel": "Formulation Partnership Since"
     },
     "whatWeDontDo": {
-      "title": "How We Support Different Projects",
-      "notFitTitle": "Confirm first when your project requires:",
+      "title": "How RubberQ Supports Your Project",
+      "notFitTitle": "Please confirm early when your project requires:",
       "notFitItems": [
-        "Healthcare-device or other regulated-market qualification that requires special certification beyond RubberQ's current ISO / IATF system.",
-        "Special industry approvals, customer audits, or regulated documentation beyond standard ISO / IATF manufacturing files.",
-        "Lowest-price or very high-volume commodity programs. We can review or quote them, and we will be clear about cost, quality, and delivery tradeoffs."
+        "Regulated healthcare-device qualification or other special-market certification beyond RubberQ’s current ISO / IATF system.",
+        "Customer-specific supplier approvals, special documentation, or site evaluation requirements.",
+        "Very large commodity programs or lowest-price benchmark projects where drawings, quality expectations, and delivery terms need careful alignment."
       ],
       "rightFitTitle": "Where RubberQ adds the most value:",
       "rightFitItems": [
@@ -2103,17 +2125,24 @@
         "Small, medium, or larger-volume RFQs where Japanese formulation support and Chinese precision manufacturing matter"
       ],
       "cta": "Discuss your project"
+    },
+    "media": {
+      "formulation": "Formulation Partnership",
+      "manufacturing": "Precision Manufacturing",
+      "lab": "Testing Laboratory",
+      "video": "Factory Introduction Video",
+      "scene": "Factory Capability Visual"
     }
   },
   "qualityV2": {
     "heroSubtitleV2": "From compound design to final inspection, our IATF 16949 certified quality system serves EV/energy storage, industrial equipment, semiconductor, and Tier 2 automotive customers with compound traceability maintained across years of production.",
     "whySingleLine": {
       "title": "Why We Run a Single A-Mixing Line",
-      "intro": "Three operational advantages we deliberately preserve:",
+      "intro": "This line gives customers three practical advantages:",
       "points": [
-        "Compound consistency over years (your 2030 PPAP reproduces your 2026 part).",
-        "Cross-contamination control (sequence-ordered scheduling + strict SOP).",
-        "Engineer-witnessed batches (real-time rheology + Mooney review, not sampled)."
+        "Long-term compound consistency across repeat production.",
+        "Lower cross-contamination risk through sequence-based scheduling and cleaning SOPs.",
+        "Engineer-attended batches with real-time rheology, Mooney, and key property checks."
       ],
       "link": "See our compounding capabilities in detail"
     }
@@ -2129,29 +2158,29 @@
   "rfqV2": {
     "projectType": {
       "label": "Project Type",
-      "drawing": "Drawing-driven RFQ — I have a spec, need a quote",
-      "application": "Application-driven — I have a problem, need a compound solution",
+      "drawing": "Drawing-driven RFQ — I have a specification and need a quote",
+      "application": "Application-driven — I have operating conditions and need material guidance",
       "sample": "Sample request only"
     },
     "annualVolume": {
       "label": "Estimated Annual Volume",
       "options": {
         "under10k": "Under 10,000 parts",
-        "10kTo100k": "10,000 – 100,000 parts (Sweet spot)",
-        "100kTo1m": "100,000 – 1,000,000 parts (Sweet spot)",
-        "1mTo5m": "1,000,000 – 5,000,000 parts (Sweet spot)",
-        "over5m": "Over 5,000,000 parts (please share volume details)"
+        "10kTo100k": "10,000 – 100,000 parts",
+        "100kTo1m": "100,000 – 1,000,000 parts",
+        "1mTo5m": "1,000,000 – 5,000,000 parts",
+        "over5m": "Over 5,000,000 parts"
       },
-      "hintLow": "Our setup is purposefully sized for 10K-5M annual volumes. Smaller pilot orders may require a custom engagement.",
+      "hintLow": "For pilot or low-volume orders, share drawings and material needs so we can recommend the practical production route.",
       "hintHigh": "For larger-volume programs, share annual volume, tolerance, quality, and delivery expectations so we can review the best production approach."
     },
     "quoteComponents": {
       "label": "Quote Components Needed",
-      "compoundDev": "Compound development feasibility & cost",
+      "compoundDev": "Compound feasibility and material guidance",
       "tooling": "Tooling cost estimate",
-      "perPiece": "Per-piece cost (production-ready)",
-      "nda": "NDA template (we'll send first)",
-      "sample": "Sample quote (small qty for evaluation)"
+      "perPiece": "Per-piece production quote",
+      "nda": "NDA before technical exchange",
+      "sample": "Sample quote for evaluation"
     },
     "projectStage": {
       "label": "Project Stage",
@@ -2161,19 +2190,26 @@
       "production": "Production / supply agreement"
     },
     "responseSla": {
-      "title": "Response SLA:",
-      "drawing": "Drawing-driven RFQ: 12-24 hours",
-      "application": "Application-driven inquiry: 3-5 business days (includes preliminary Japanese formulation team review)",
+      "title": "Typical response time:",
+      "drawing": "Drawing-driven RFQ: 12-24 hours after complete information is received",
+      "application": "Application-driven inquiry: 3-5 business days for preliminary engineering review",
       "sample": "Sample request: 24-48 hours"
     },
     "industryOptionsV2": {
       "ev": "EV & Energy Storage",
       "industrial": "Industrial Equipment (Hydraulic / Pneumatic / Pumps / Valves)",
-      "semiconductor": "Semiconductor (FFKM / Process Seals)",
+      "semiconductor": "Semiconductor (FKM / FFKM Process Seals)",
       "automotiveTier2": "Automotive Tier 2",
       "robotics": "Industrial Equipment",
       "aiHardware": "Semiconductor Process Equipment",
       "other": "Other (please describe)"
     }
+  },
+  "visualLabels": {
+    "manufacturing": "Factory Manufacturing Scene",
+    "ev": "EV & Energy Storage Applications",
+    "industrial": "Industrial Equipment Applications",
+    "semiconductor": "Semiconductor Seal Applications",
+    "automotive": "Automotive Tier 2 Applications"
   }
 }
