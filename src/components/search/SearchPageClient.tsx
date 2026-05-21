@@ -15,6 +15,7 @@ export default function SearchPageClient({ locale, labels }: { locale: string; l
   const [results, setResults] = useState<SearchResult[]>([]);
   const [loading, setLoading] = useState(false);
   const [searched, setSearched] = useState(false);
+  const prefix = locale === 'en' ? '' : `/${locale}`;
 
   const performSearch = useCallback(async (q: string) => {
     if (!q.trim()) { setResults([]); setSearched(false); return; }
@@ -26,10 +27,10 @@ export default function SearchPageClient({ locale, labels }: { locale: string; l
 
     // Products
     const products = [
-      { title: 'Seals & O-Rings', desc: 'Static and dynamic sealing solutions with precision tolerances to ISO 3601 and ASTM D2000 standards.', href: `/${locale}/products/seals`, cat: 'Product' },
-      { title: 'Gaskets & Washers', desc: 'Die-cut and molded gaskets for fluid sealing, EMI shielding, and thermal management applications.', href: `/${locale}/products/gaskets`, cat: 'Product' },
-      { title: 'Bellows & Boots', desc: 'Flexible protective covers for linear and rotary motion systems, with extended fatigue life.', href: `/${locale}/products/bellows`, cat: 'Product' },
-      { title: 'Custom Molded Parts', desc: 'Application-specific rubber components from prototype to high-volume production.', href: `/${locale}/products/custom`, cat: 'Product' },
+      { title: 'Seals & O-Rings', desc: 'Static and dynamic sealing solutions with precision tolerances to ISO 3601 and ASTM D2000 standards.', href: `${prefix}/products/seals`, cat: 'Product' },
+      { title: 'Gaskets & Washers', desc: 'Die-cut and molded gaskets for fluid sealing, EMI shielding, and thermal management applications.', href: `${prefix}/products/gaskets`, cat: 'Product' },
+      { title: 'Bellows & Boots', desc: 'Flexible protective covers for linear and rotary motion systems, with extended fatigue life.', href: `${prefix}/products/bellows`, cat: 'Product' },
+      { title: 'Custom Molded Parts', desc: 'Application-specific rubber components from prototype to high-volume production.', href: `${prefix}/products/custom`, cat: 'Product' },
     ];
     for (const p of products) {
       if (p.title.toLowerCase().includes(lower) || p.desc.toLowerCase().includes(lower)) {
@@ -39,10 +40,10 @@ export default function SearchPageClient({ locale, labels }: { locale: string; l
 
     // Materials
     const materials = [
-      { title: 'FKM (Viton®)', desc: 'High heat and fuel resistance for demanding environments. -20°C to +250°C.', href: `/${locale}/materials/fkm`, cat: 'Material' },
-      { title: 'EPDM', desc: 'Preferred for water, steam, and weather exposure. -50°C to +150°C.', href: `/${locale}/materials/epdm`, cat: 'Material' },
-      { title: 'NBR (Nitrile)', desc: 'Strong oil resistance with balanced cost profile. -30°C to +120°C.', href: `/${locale}/materials/nbr`, cat: 'Material' },
-      { title: 'Silicone', desc: 'Broad thermal range and clean-room adaptability. -60°C to +230°C.', href: `/${locale}/materials/silicone`, cat: 'Material' },
+      { title: 'FKM (Viton®)', desc: 'High heat and fuel resistance for demanding environments. -20°C to +250°C.', href: `${prefix}/materials/fkm`, cat: 'Material' },
+      { title: 'EPDM', desc: 'Preferred for water, steam, and weather exposure. -50°C to +150°C.', href: `${prefix}/materials/epdm`, cat: 'Material' },
+      { title: 'NBR (Nitrile)', desc: 'Strong oil resistance with balanced cost profile. -30°C to +120°C.', href: `${prefix}/materials/nbr`, cat: 'Material' },
+      { title: 'Silicone', desc: 'Broad thermal range and clean-room adaptability. -60°C to +230°C.', href: `${prefix}/materials/silicone`, cat: 'Material' },
     ];
     for (const m of materials) {
       if (m.title.toLowerCase().includes(lower) || m.desc.toLowerCase().includes(lower)) {
@@ -73,7 +74,7 @@ export default function SearchPageClient({ locale, labels }: { locale: string; l
           items.push({
             title: post.title || 'Blog Post',
             description: post.seo?.metaDescription || '',
-            href: `/en/blog/${post.slug}`,
+            href: `/blog/${post.slug}`,
             category: 'Blog',
           });
         }
@@ -84,7 +85,7 @@ export default function SearchPageClient({ locale, labels }: { locale: string; l
 
     setResults(items);
     setLoading(false);
-  }, [locale]);
+  }, [locale, prefix]);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);

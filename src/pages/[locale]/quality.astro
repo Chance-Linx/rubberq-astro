@@ -1,6 +1,6 @@
 ---
 import LocaleLayout from '@/layouts/LocaleLayout.astro';
-import { getTranslations, t, tRaw } from '@/lib/i18n';
+import { getTranslations, localizedPath, t, tRaw } from '@/lib/i18n';
 import QualityPageClient from '@/components/quality/QualityPageClient';
 import SummarySnippet from '@/components/aio/SummarySnippet';
 
@@ -8,7 +8,7 @@ export function getStaticPaths() {
   return ['en','de','ja','es','zh'].map(locale => ({ params: { locale } }));
 }
 
-const { locale } = Astro.params;
+const { locale = 'en' } = Astro.params;
 const messages = await getTranslations(locale);
 const meta = messages?.metadata || {};
 const f = (key: string, fallback = '') => t(messages, `quality.${key}`, fallback);
@@ -306,7 +306,7 @@ const videoTestimonials = [
             <h4 class="font-bold text-industrial-900 mb-1">{f('documentation.title')}</h4>
             <p class="text-sm text-industrial-600">
               {f('documentation.description')}
-              <a href={`/${locale}/resources`} class="text-accent-orange font-medium hover:underline ml-1">
+              <a href={localizedPath(locale, `/resources`)} class="text-accent-orange font-medium hover:underline ml-1">
                 {f('documentation.link')}
               </a>
             </p>
@@ -342,7 +342,7 @@ const videoTestimonials = [
                 <span class="text-xs text-industrial-400 max-w-sm leading-relaxed">{f('controlPlan.imageSlot.meta')}</span>
               </div>
             </div>
-            <a href={`/${locale}/capabilities`} class="inline-flex items-center gap-2 text-accent-orange font-bold uppercase text-xs tracking-widest hover:underline mt-8">
+            <a href={localizedPath(locale, `/capabilities`)} class="inline-flex items-center gap-2 text-accent-orange font-bold uppercase text-xs tracking-widest hover:underline mt-8">
               {f('controlPlan.linkToFlow')} →
             </a>
           </div>
@@ -407,7 +407,7 @@ const videoTestimonials = [
                 </div>
               ))}
             </div>
-            <a href={`/${locale}/testing`} class="mt-8 inline-flex items-center gap-2 text-accent-orange font-bold uppercase text-xs tracking-widest hover:underline">
+            <a href={localizedPath(locale, `/testing`)} class="mt-8 inline-flex items-center gap-2 text-accent-orange font-bold uppercase text-xs tracking-widest hover:underline">
               {f('lab.fullCapabilityLink', 'See full ASTM/ISO testing matrix')} →
             </a>
           </div>
@@ -476,7 +476,7 @@ const videoTestimonials = [
             <p class="leading-relaxed">{f('whySingleLine.point3')}</p>
           </div>
         </div>
-        <a href={`/${locale}/compounding`} class="inline-flex items-center gap-2 text-accent-orange font-bold uppercase text-sm tracking-widest hover:underline">
+        <a href={localizedPath(locale, `/compounding`)} class="inline-flex items-center gap-2 text-accent-orange font-bold uppercase text-sm tracking-widest hover:underline">
           {f('whySingleLine.link', 'See our compounding capabilities in detail')} →
         </a>
       </div>
@@ -517,13 +517,13 @@ const videoTestimonials = [
             <p class="text-sm text-industrial-600 mb-5">{trust.reportsSubtitle}</p>
             <div class="space-y-3">
               {reportDownloads.map((item) => (
-                <a href={`/${locale}${item.href}`} class="block border border-industrial-200 p-4 hover:border-accent-orange transition-colors">
+                <a href={localizedPath(locale, `${item.href}`)} class="block border border-industrial-200 p-4 hover:border-accent-orange transition-colors">
                   <p class="font-bold text-sm text-industrial-900 mb-1">{item.title}</p>
                   <p class="text-xs text-industrial-600">{item.description}</p>
                 </a>
               ))}
             </div>
-            <a href={`/${locale}/resources`} class="inline-block mt-5 text-sm font-bold uppercase tracking-wider text-accent-orange hover:underline">
+            <a href={localizedPath(locale, `/resources`)} class="inline-block mt-5 text-sm font-bold uppercase tracking-wider text-accent-orange hover:underline">
               {trust.reportsAction}
             </a>
           </div>
@@ -557,7 +557,7 @@ const videoTestimonials = [
             <p class="text-sm text-industrial-600 mb-5">{trust.videoSubtitle}</p>
             <div class="space-y-3">
               {videoTestimonials.map((item) => (
-                <a href={`/${locale}${item.href}`} class="block border border-industrial-200 p-4 hover:border-accent-orange transition-colors group">
+                <a href={localizedPath(locale, `${item.href}`)} class="block border border-industrial-200 p-4 hover:border-accent-orange transition-colors group">
                   <p class="font-bold text-sm text-industrial-900 mb-1 group-hover:text-accent-orange transition-colors">{item.title}</p>
                   <p class="text-xs text-industrial-600 mb-2">{item.summary}</p>
                   <span class="text-xs font-bold uppercase tracking-wider text-accent-orange">{trust.watch}</span>

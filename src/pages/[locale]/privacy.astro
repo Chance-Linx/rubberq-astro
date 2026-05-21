@@ -6,7 +6,7 @@ export function getStaticPaths() {
   return ['en','de','ja','es','zh'].map(locale => ({ params: { locale } }));
 }
 
-const { locale } = Astro.params;
+const { locale = 'en' } = Astro.params;
 const messages = await getTranslations(locale);
 const meta = messages?.metadata || {};
 const _ = (key: string, fallback = '') => t(messages, `privacyPage.${key}`, fallback);

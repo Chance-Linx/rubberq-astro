@@ -1,3 +1,7 @@
-<!-- Root redirect to /en -->
-<meta http-equiv="refresh" content="0;url=/en" />
-<script>location.href='/en'</script>
+---
+import HomePage from './[locale]/index.astro';
+
+const Home = HomePage as any;
+---
+
+<Home />

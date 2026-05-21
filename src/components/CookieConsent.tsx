@@ -84,6 +84,7 @@ const CookieConsent = ({ locale = 'en', messages }: CookieConsentProps) => {
 
   const normalizedLocale = categoryLabels[locale] ? locale : 'en';
   const labels = categoryLabels[normalizedLocale];
+  const privacyHref = normalizedLocale === 'en' ? '/privacy' : `/${normalizedLocale}/privacy`;
 
   useEffect(() => {
     const prefs = localStorage.getItem(consentPrefsKey);
@@ -164,7 +165,7 @@ const CookieConsent = ({ locale = 'en', messages }: CookieConsentProps) => {
         <div className="flex-grow">
           <h3 className="text-white font-bold text-lg mb-2 uppercase tracking-tight">{messages.title}</h3>
           <p className="text-white text-sm leading-relaxed max-w-3xl">
-            {messages.descriptionPrefix} <a href={`/${normalizedLocale}/privacy`} className="text-accent-orange underline hover:text-white transition-colors">{messages.privacyLink}</a> {messages.descriptionSuffix}
+            {messages.descriptionPrefix} <a href={privacyHref} className="text-accent-orange underline hover:text-white transition-colors">{messages.privacyLink}</a> {messages.descriptionSuffix}
           </p>
 
           <div className="mt-5 border border-industrial-700 bg-industrial-800/60 p-4">

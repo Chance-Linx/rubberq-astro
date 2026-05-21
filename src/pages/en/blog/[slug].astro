@@ -17,7 +17,7 @@ const { slug } = Astro.params;
 const post = await getBlogPostBySlug(slug!);
 
 if (!post) {
-  return Astro.redirect('/en/blog', 302);
+  return Astro.redirect('/blog', 302);
 }
 
 const imageUrl = getFeaturedImageUrl(post);
@@ -43,6 +43,10 @@ const blogSchema = createBlogPostingSchema({
     {imageUrl && <meta property="og:image" content={imageUrl} />}
     <meta property="og:type" content="article" />
     <meta property="article:published_time" content={post.publishedAt} />
+    <meta name="twitter:card" content={imageUrl ? 'summary_large_image' : 'summary'} />
+    <meta name="twitter:title" content={post.title} />
+    <meta name="twitter:description" content={post.excerpt || post.title} />
+    {imageUrl && <meta name="twitter:image" content={imageUrl} />}
     <JsonLd data={blogSchema} />
   </Fragment>
 
@@ -50,7 +54,7 @@ const blogSchema = createBlogPostingSchema({
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
       <header class="mb-12">
         {post.category && (
-          <a href={`/en/blog?category=${encodeURIComponent(post.category)}`}
+          <a href={`/blog?category=${encodeURIComponent(post.category)}`}
              class="text-xs font-bold uppercase tracking-wider text-primary mb-4 inline-block hover:underline">
             {post.category}
           </a>
@@ -92,7 +96,7 @@ const blogSchema = createBlogPostingSchema({
             {relatedPosts.map((related: BlogPost) => {
               const relatedImage = getFeaturedImageUrl(related);
               return (
-                <a href={`/en/blog/${encodeURIComponent(related.slug)}`}
+                <a href={`/blog/${encodeURIComponent(related.slug)}`}
                    class="group border border-border hover:border-primary transition-colors">
                   {relatedImage ? (
                     <img src={relatedImage} alt={related.title} class="w-full h-36 object-cover" loading="lazy" />

@@ -12,7 +12,7 @@
     },
     "capabilities": {
       "title": "Proceso de Manufactura | RubberQ",
-      "description": "Explore el proceso de mezcla y moldeo de dos etapas de RubberQ para precisión de grado automotriz."
+      "description": "Explore el proceso de mezcla y moldeo de dos etapas de RubberQ para fabricación precisa y repetible."
     },
     "caseStudies": {
       "title": "Casos de Estudio | RubberQ",
@@ -29,6 +29,34 @@
     "materials": {
       "title": "Materiales Industriales | RubberQ",
       "description": "Centro de recursos técnicos para elastómeros industriales — FKM, EPDM, NBR, Silicona."
+    },
+    "compounding": {
+      "title": "Formulación y R&D | RubberQ",
+      "description": "Soporte japonés de formulación, fabricación precisa en China y pruebas internas. RubberQ controla el compuesto desde la química del polímero hasta la producción validada."
+    },
+    "testing": {
+      "title": "Laboratorio de Pruebas y Validación | RubberQ",
+      "description": "RubberQ valida compuestos y lotes de producción en su laboratorio interno con métodos ASTM e ISO reconocidos antes de liberar la fabricación."
+    },
+    "industries": {
+      "title": "Industrias que Servimos | RubberQ",
+      "description": "Componentes de caucho de precisión para EV y almacenamiento de energía, equipo industrial, semiconductores y automotriz Tier 2, donde la química del compuesto debe ser estable."
+    },
+    "industriesEv": {
+      "title": "Sellado para EV y Almacenamiento de Energía | RubberQ",
+      "description": "Sellos de caucho para infraestructura de carga, BESS, periféricos EV y aplicaciones Tier 2 con compuestos HNBR, FKM, EPDM y silicona."
+    },
+    "industriesIndustrial": {
+      "title": "Sellos para Equipo Industrial | RubberQ",
+      "description": "Sellado hidráulico, neumático, de bombas, válvulas y maquinaria con control de proceso orientado por IATF 16949 desde 1995."
+    },
+    "industriesSemiconductor": {
+      "title": "Sellos de Proceso Semiconductor (FKM / FFKM) | RubberQ",
+      "description": "Sellos FKM y FFKM para equipos semiconductores, con línea A de mezcla controlada, secuenciación de lotes y limpieza validada."
+    },
+    "industriesAutomotive": {
+      "title": "Componentes Automotrices Tier 2 | RubberQ",
+      "description": "30 años de experiencia en programas automotrices japoneses, hoy aplicada a proyectos Tier 2 que requieren compuestos personalizados, tolerancias ajustadas y producción estable."
     },
     "privacy": {
       "title": "Política de Privacidad | RubberQ",
@@ -98,7 +126,7 @@
     ],
     "reliability": {
       "title": "FingenieríaBILIDAD",
-      "desc": "Durabilidad de grado automotriz para infraestructura 24/7."
+      "desc": "Durabilidad estable para programas industriales de suministro continuo."
     },
     "precision": {
       "title": "PRECISIÓN",
@@ -273,7 +301,7 @@
       },
       "qc": {
         "title": "Centro de Control de Calidad",
-        "desc": "Sistemas de inspección visual 100% automatizados para precisión de grado automotriz."
+        "desc": "Sistemas de inspección visual para control dimensional y consistencia de producción."
       },
       "logistics": {
         "title": "Centro Logístico Global",
@@ -304,7 +332,7 @@
     },
     "badge": "Certificado IATF 16949",
     "title": "PORTAFOLIO DE PRODUCTOS",
-    "subtitle": "Componentes de goma diseñados con precisión para aplicaciones exigentes. Desde sellos estándar hasta moldes personalizados complejos, fabricados con sistemas de calidad de grado automotriz.",
+    "subtitle": "Componentes de goma diseñados con precisión para aplicaciones exigentes. Desde sellos estándar hasta moldes personalizados complejos, fabricados con sistemas de calidad IATF 16949.",
     "capability": "Capacidad",
     "manufacturingFootprint": "Huella de Manufactura",
     "categoriesTitle": "CATEGORÍAS DE COMPONENTES",
@@ -354,7 +382,7 @@
       "name": "Fuelles y Guardapolvos",
       "desc": "Cubiertas protectoras flexibles para sistemas de movimiento lineal y rotativo, con vida útil extendida.",
       "applications": [
-        "Articulaciones de robots",
+        "Juntas de movimiento industrial",
         "Actuadores lineales",
         "Juntas homocinéticas",
         "Guías de maquinaria"
@@ -715,7 +743,7 @@
     "traceability": {
       "title": "Control Total del Proceso",
       "mainTitle": "Cadena de Trazabilidad Completa",
-      "subtitle": "Nuestra herencia de grado automotriz significa que cada componente sigue un ciclo de fabricación riguroso basado en evidencia.",
+      "subtitle": "Nuestra experiencia de producción exige que cada componente siga un ciclo de fabricación riguroso y trazable.",
       "steps": [
         {
           "title": "APQP",
@@ -843,7 +871,7 @@
     },
     "certified": {
       "title": "Certificado IATF 16949",
-      "description": "Sistema de gestión de calidad de grado automotriz."
+      "description": "Sistema de gestión de calidad orientado a producción estable y trazable."
     },
     "sqmFactory": {
       "title": "m² de Fábrica",
@@ -1037,7 +1065,7 @@
       "badge": "Excelencia Comprobada",
       "titleLine1": "CASOS DE",
       "titleLine2": "ESTUDIO",
-      "subtitle": "Aplicaciones del mundo real de ingeniería de caucho de grado automotriz. Vea cómo resolvemos desafíos críticos de sellado en equipo industrial, equipo de proceso semiconductor y movilidad de próxima generación."
+      "subtitle": "Aplicaciones reales de ingeniería de caucho. Vea cómo resolvemos desafíos críticos de sellado en equipo industrial, equipo de proceso semiconductor y movilidad de próxima generación."
     },
     "stats": {
       "projectsDelivered": "Proyectos Entregados",
@@ -1191,7 +1219,7 @@
     "qualityProcess": {
       "title": "PROCESO DE",
       "titleHighlight": "CALIDAD",
-      "subtitle": "Garantía de calidad de cuatro etapas asegurando que cada componente cumpla con los estándares de grado automotriz antes del envío.",
+      "subtitle": "Garantía de calidad de cuatro etapas para confirmar dimensiones, material y trazabilidad antes del envío.",
       "steps": {
         "incoming": {
           "title": "Inspección de Material Entrante",

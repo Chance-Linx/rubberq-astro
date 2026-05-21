@@ -46,17 +46,27 @@ export function getLocale(locale: string): Locale {
   return locales.includes(locale as Locale) ? (locale as Locale) : defaultLocale;
 }
 
-export function createLocaleAlternates(locale: string, pathname: string): LocaleAlternates {
-  const normalizedLocale = getLocale(locale);
+function localizedUrl(locale: Locale, pathname: string): string {
   const normalizedPath = normalizePath(pathname);
   const pathSuffix = normalizedPath === '/' ? '' : normalizedPath;
 
+  if (locale === defaultLocale) {
+    return normalizedPath === '/' ? `${SITE_URL}/` : `${SITE_URL}${pathSuffix}`;
+  }
+
+  return `${SITE_URL}/${locale}${pathSuffix}`;
+}
+
+export function createLocaleAlternates(locale: string, pathname: string): LocaleAlternates {
+  const normalizedLocale = getLocale(locale);
+  const normalizedPath = normalizePath(pathname);
+
   const languages = Object.fromEntries(
-    locales.map((lang) => [lang, `${SITE_URL}/${lang}${pathSuffix}`])
+    locales.map((lang) => [lang, localizedUrl(lang, normalizedPath)])
   );
 
   return {
-    canonical: `${SITE_URL}/${normalizedLocale}${pathSuffix}`,
+    canonical: localizedUrl(normalizedLocale, normalizedPath),
     languages,
   };
 }

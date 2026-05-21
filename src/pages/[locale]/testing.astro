@@ -1,14 +1,14 @@
 ---
 import LocaleLayout from '@/layouts/LocaleLayout.astro';
 import JsonLd from '@/components/JsonLd';
-import { getTranslations, t, tRaw } from '@/lib/i18n';
+import { getTranslations, localizedPath, t, tRaw } from '@/lib/i18n';
 import { createOrganizationSchema } from '@/lib/structuredData';
 
 export function getStaticPaths() {
   return ['en', 'de', 'ja', 'es', 'zh'].map((locale) => ({ params: { locale } }));
 }
 
-const { locale } = Astro.params;
+const { locale = 'en' } = Astro.params;
 const messages = await getTranslations(locale);
 const meta = messages?.metadata?.testing || {};
 const tx = (key: string, fallback = '') => t(messages, `testing.${key}`, fallback);
@@ -172,7 +172,7 @@ const orgSchema = createOrganizationSchema(locale!);
         </ul>
 
         <a
-          href={`/${locale}/contact?type=application`}
+          href={localizedPath(locale, `/contact?type=application`)}
           class="inline-block bg-accent-orange text-white px-6 py-3 font-bold text-sm tracking-widest uppercase hover:bg-industrial-900 transition-colors"
         >
           {tx('customProtocols.cta')} →
@@ -186,7 +186,7 @@ const orgSchema = createOrganizationSchema(locale!);
     <section class="py-12 bg-industrial-50 border-t border-industrial-100">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <a
-          href={`/${locale}/quality`}
+          href={localizedPath(locale, `/quality`)}
           class="inline-flex items-center gap-2 text-accent-orange font-bold uppercase text-sm tracking-widest hover:underline"
         >
           {tx('qualityLink')} →

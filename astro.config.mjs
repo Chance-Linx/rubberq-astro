@@ -10,13 +10,6 @@ export default defineConfig({
     imageService: 'cloudflare',
   }),
   integrations: [tailwind(), react()],
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'de', 'ja', 'es', 'zh'],
-    routing: {
-      prefixDefaultLocale: true,
-    },
-  },
   vite: {
     ssr: {
       noExternal: ['@sanity/client'],

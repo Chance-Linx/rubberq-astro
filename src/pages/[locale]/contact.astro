@@ -1,13 +1,13 @@
 ---
 import LocaleLayout from '@/layouts/LocaleLayout.astro';
-import { getTranslations, t, tRaw } from '@/lib/i18n';
+import { getTranslations, localizedPath, t, tRaw } from '@/lib/i18n';
 import ContactForm from '@/components/contact/ContactForm';
 
 export function getStaticPaths() {
   return ['en','de','ja','es','zh'].map(locale => ({ params: { locale } }));
 }
 
-const { locale } = Astro.params;
+const { locale = 'en' } = Astro.params;
 const messages = await getTranslations(locale);
 const meta = messages?.metadata || {};
 const f = (key: string, fallback = '') => t(messages, `contact.${key}`, fallback);
@@ -112,7 +112,7 @@ const complianceItems = fa('enhancement.complianceItems') as string[];
                 {f('fastTrackDesc')}
               </p>
               <a
-                href={`/${locale}/sample-request`}
+                href={localizedPath(locale, `/sample-request`)}
                 class="inline-flex mt-4 text-sm font-bold uppercase tracking-wider text-accent-orange hover:text-white transition-colors"
               >
                 Sample Request Form

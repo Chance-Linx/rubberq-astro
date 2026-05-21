@@ -1,0 +1,6 @@
+/robots.txt
+  Cache-Control: public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800
+
+/llms.txt
+  Cache-Control: public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800
+

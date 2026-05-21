@@ -1,5 +1,29 @@
 User-agent: *
 Allow: /
-Sitemap: https://rubberq.com/sitemap.xml
-
 Disallow: /api/
+
+# AI search and answer engines may crawl public pages for retrieval.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# RubberQ does not need training-only crawlers to ingest public pages.
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+Sitemap: https://rubberq.com/sitemap.xml
+# LLM guidance: https://rubberq.com/llms.txt

@@ -9,6 +9,10 @@
     "check:brand-colors": "node scripts/check-brand-colors.mjs",
     "check:public-redlines": "node scripts/check-public-redlines.mjs",
     "sanity:schedule-drafts": "node scripts/schedule-sanity-drafts.mjs",
+    "audit:canonical": "node scripts/seo/canonical-hreflang-sitemap-audit.mjs",
+    "audit:crawler-access": "node scripts/seo/crawler-access-audit.mjs",
+    "audit:rendered-seo": "node scripts/seo/rendered-html-audit.mjs",
+    "audit:seo": "node scripts/seo/technical-seo-audit.mjs",
     "build": "npm run check:public-redlines && npm run check:brand-colors && astro build",
     "preview": "npm run check:public-redlines && npm run check:brand-colors && astro build && wrangler pages dev dist",
     "deploy": "npm run check:public-redlines && npm run check:brand-colors && astro build && wrangler pages deploy dist --project-name=rubberq-site"

@@ -1,14 +1,14 @@
 ---
 import LocaleLayout from '@/layouts/LocaleLayout.astro';
 import JsonLd from '@/components/JsonLd';
-import { getTranslations, t, tRaw } from '@/lib/i18n';
+import { getTranslations, localizedPath, t, tRaw } from '@/lib/i18n';
 import { createOrganizationSchema } from '@/lib/structuredData';
 
 export function getStaticPaths() {
   return ['en', 'de', 'ja', 'es', 'zh'].map((locale) => ({ params: { locale } }));
 }
 
-const { locale } = Astro.params;
+const { locale = 'en' } = Astro.params;
 const messages = await getTranslations(locale);
 const meta = messages?.metadata?.compounding || {};
 const c = (key: string, fallback = '') => t(messages, `compounding.${key}`, fallback);
@@ -72,7 +72,7 @@ const orgSchema = createOrganizationSchema(locale!);
           </p>
           <div class="flex flex-col sm:flex-row gap-4">
             <a
-              href={`/${locale}/contact?type=application`}
+              href={localizedPath(locale, `/contact?type=application`)}
               class="bg-accent-orange text-white px-8 py-4 font-bold text-sm tracking-widest hover:bg-white hover:text-industrial-900 transition-all duration-300 text-center"
             >
               {c('hero.ctaPrimary', 'DISCUSS YOUR APPLICATION')}
@@ -304,7 +304,7 @@ const orgSchema = createOrganizationSchema(locale!);
 
         <div class="mt-10 text-center">
           <a
-            href={`/${locale}/testing`}
+            href={localizedPath(locale, `/testing`)}
             class="inline-flex items-center gap-2 text-accent-orange font-bold uppercase text-sm tracking-widest hover:underline"
           >
             {c('labEquipment.fullLink')} →
@@ -378,7 +378,7 @@ const orgSchema = createOrganizationSchema(locale!);
         <div class="mt-8 flex flex-wrap items-center justify-between gap-4">
           <p class="text-industrial-700 max-w-2xl">{c('library.outro')}</p>
           <a
-            href={`/${locale}/contact?type=application`}
+            href={localizedPath(locale, `/contact?type=application`)}
             class="bg-industrial-900 text-white px-6 py-3 font-bold text-sm tracking-widest uppercase hover:bg-accent-orange transition-colors"
           >
             {c('library.cta')} →
@@ -459,13 +459,13 @@ const orgSchema = createOrganizationSchema(locale!);
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href={`/${locale}/contact?type=application`}
+            href={localizedPath(locale, `/contact?type=application`)}
             class="bg-accent-orange text-white px-8 py-4 font-bold text-sm tracking-widest uppercase hover:bg-white hover:text-industrial-900 transition-all duration-300"
           >
             {c('finalCta.ctaPrimary')}
           </a>
           <a
-            href={`/${locale}/contact?type=datasheet`}
+            href={localizedPath(locale, `/contact?type=datasheet`)}
             class="border border-industrial-500 text-white px-8 py-4 font-bold text-sm tracking-widest uppercase hover:border-white transition-all duration-300"
           >
             {c('finalCta.ctaSecondary')}

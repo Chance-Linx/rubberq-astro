@@ -40,18 +40,18 @@ function mergeWithFallback(fallback: unknown, override: unknown): unknown {
 }
 
 // Load translation messages for a locale, using English as a deep fallback.
-export async function getTranslations(locale: string) {
+export async function getTranslations(locale: string): Promise<Messages> {
   const fallback = (await import('../messages/en.json')).default;
 
   if (locale === defaultLocale) {
-    return fallback;
+    return fallback as Messages;
   }
 
   try {
     const messages = await import(`../messages/${locale}.json`);
-    return mergeWithFallback(fallback, messages.default);
+    return mergeWithFallback(fallback, messages.default) as Messages;
   } catch {
-    return fallback;
+    return fallback as Messages;
   }
 }
 
@@ -81,4 +81,16 @@ export function tRaw(messages: any, key: string, fallback: any = null): any {
     }
   }
   return value ?? fallback;
+}
+
+export function localizedPath(locale: string | undefined, pathname = '/'): string {
+  const normalizedLocale = locales.includes(locale as Locale) ? (locale as Locale) : defaultLocale;
+  const normalizedPath = pathname.startsWith('/') ? pathname : `/${pathname}`;
+  const pathSuffix = normalizedPath === '/' ? '' : normalizedPath;
+
+  if (normalizedLocale === defaultLocale) {
+    return normalizedPath === '/' ? '/' : pathSuffix;
+  }
+
+  return `/${normalizedLocale}${pathSuffix}`;
 }

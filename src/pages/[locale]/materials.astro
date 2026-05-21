@@ -1,14 +1,14 @@
 ---
 import LocaleLayout from '@/layouts/LocaleLayout.astro';
 import JsonLd from '@/components/JsonLd';
-import { getTranslations, t } from '@/lib/i18n';
+import { getTranslations, localizedPath, t } from '@/lib/i18n';
 import { createOrganizationSchema } from '@/lib/structuredData';
 
 export function getStaticPaths() {
   return ['en', 'de', 'ja', 'es', 'zh'].map((locale) => ({ params: { locale } }));
 }
 
-const { locale } = Astro.params;
+const { locale = 'en' } = Astro.params;
 const messages = await getTranslations(locale);
 const mp = (key: string, fallback = '') => t(messages, `materialsPage.${key}`, fallback);
 
@@ -69,7 +69,7 @@ const materials = [
       <div class="max-w-7xl mx-auto">
         <p class="text-sm text-industrial-700">
           💡 {mp('crossLink.prompt')}
-          <a href={`/${locale}/compounding`} class="text-accent-orange font-bold hover:underline ml-1">
+          <a href={localizedPath(locale, `/compounding`)} class="text-accent-orange font-bold hover:underline ml-1">
             {mp('crossLink.guide')} →
           </a>
         </p>
@@ -85,7 +85,7 @@ const materials = [
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
         {materials.map((m) => (
-          <a href={`/${locale}/materials/${m.slug}`} class="block p-8 border border-industrial-100 hover:border-accent-orange transition-all group bg-white">
+          <a href={localizedPath(locale, `/materials/${m.slug}`)} class="block p-8 border border-industrial-100 hover:border-accent-orange transition-all group bg-white">
             <div class="text-xs uppercase tracking-widest text-industrial-500 mb-3">{m.priority}</div>
             <h3 class="text-xl font-bold mb-3 text-industrial-900 tracking-tight">{m.name}</h3>
             <p class="text-sm text-industrial-600 leading-relaxed mb-6 min-h-[5rem]">{m.desc}</p>
@@ -160,7 +160,7 @@ const materials = [
           That's exactly what we develop. From custom-formulated HNBR for EV thermal management to NDA-backed FFKM for next-gen plasma chambers — we own the compound chemistry, not just the molding.
         </p>
         <a
-          href={`/${locale}/compounding`}
+          href={localizedPath(locale, `/compounding`)}
           class="inline-block bg-accent-orange text-white px-10 py-5 font-bold tracking-widest uppercase text-sm hover:bg-white hover:text-industrial-900 transition-all duration-300"
         >
           Explore Compounding & R&D →

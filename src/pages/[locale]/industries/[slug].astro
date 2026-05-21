@@ -1,7 +1,7 @@
 ---
 import LocaleLayout from '@/layouts/LocaleLayout.astro';
 import JsonLd from '@/components/JsonLd';
-import { getTranslations, t, tRaw } from '@/lib/i18n';
+import { getTranslations, localizedPath, t, tRaw } from '@/lib/i18n';
 import { createOrganizationSchema } from '@/lib/structuredData';
 
 export function getStaticPaths() {
@@ -10,7 +10,7 @@ export function getStaticPaths() {
   return locales.flatMap((locale) => slugs.map((slug) => ({ params: { locale, slug } })));
 }
 
-const { locale, slug } = Astro.params;
+const { locale = 'en', slug } = Astro.params;
 const messages = await getTranslations(locale);
 
 // Map slug → i18n key under industriesPage
@@ -74,7 +74,7 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
       </div>
       <div class="absolute inset-0 bg-grid-pattern bg-grid-size opacity-10"></div>
       <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <a href={`/${locale}/industries`} class="text-industrial-400 text-xs uppercase tracking-widest hover:text-white mb-6 inline-block">
+        <a href={localizedPath(locale, `/industries`)} class="text-industrial-400 text-xs uppercase tracking-widest hover:text-white mb-6 inline-block">
           ← {pageLabels.industries}
         </a>
         <h1 class="text-4xl md:text-6xl font-bold tracking-tighter mb-6 leading-[1.05]">
@@ -304,7 +304,7 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
     <section class="py-20 bg-industrial-900 text-white">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <a
-          href={`/${locale}/contact`}
+          href={localizedPath(locale, `/contact`)}
           class="inline-block bg-accent-orange text-white px-10 py-5 font-bold tracking-widest uppercase hover:bg-white hover:text-industrial-900 transition-all duration-300"
         >
           {i18nKey === 'ev' && ip('ctaPrimary')}

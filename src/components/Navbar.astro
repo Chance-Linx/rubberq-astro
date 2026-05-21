@@ -1,5 +1,5 @@
 ---
-import { defaultLocale } from '@/lib/i18n';
+import { defaultLocale, localizedPath } from '@/lib/i18n';
 
 interface Props {
   locale: string;
@@ -18,13 +18,15 @@ try {
   messages = (await import('../messages/en.json')).default;
 }
 const nav = messages?.navigation || {};
+const homeHref = localizedPath(current, '/');
+const hrefFor = (path: string) => localizedPath(current, path);
 ---
 
 <nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-industrial-100">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between h-20 items-center">
       <div class="flex-shrink-0 flex items-center">
-        <a href={`/${current}`} class="text-2xl font-bold tracking-tighter text-industrial-900">
+        <a href={homeHref} class="text-2xl font-bold tracking-tighter text-industrial-900">
           RUBBER<span class="text-accent-orange">Q</span>
         </a>
       </div>
@@ -32,46 +34,46 @@ const nav = messages?.navigation || {};
       <!-- Desktop Menu -->
       <div class="hidden lg:flex items-center">
         <div class="ml-10 flex items-baseline space-x-6">
-          <a href={`/${current}/products`}
+          <a href={hrefFor('/products')}
              class="text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange transition-colors duration-200">
             {nav.products || 'Products'}
           </a>
-          <a href={`/${current}/compounding`}
+          <a href={hrefFor('/compounding')}
              class="text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange transition-colors duration-200">
             {nav.compounding || 'Compounding & R&D'}
           </a>
-          <a href={`/${current}/industries`}
+          <a href={hrefFor('/industries')}
              class="text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange transition-colors duration-200">
             {nav.industries || 'Industries'}
           </a>
-          <a href={`/${current}/materials`}
+          <a href={hrefFor('/materials')}
              class="text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange transition-colors duration-200">
             {nav.materials || 'Materials'}
           </a>
 
           <!-- Resources Dropdown -->
           <div class="relative group">
-            <a href={`/${current}/resources`}
+            <a href={hrefFor('/resources')}
                class="text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange transition-colors duration-200 inline-flex items-center gap-1">
               {nav.resources || 'Resources'}
               <svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
             </a>
             <div class="absolute left-0 top-full pt-3 hidden group-hover:block group-focus-within:block z-40">
               <div class="bg-white border border-industrial-100 shadow-lg min-w-[200px] py-2">
-                <a href={`/${current}/resources`} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
+                <a href={hrefFor('/resources')} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
                   {nav.resources || 'Resources'}
                 </a>
-                <a href={`/${current}/testing`} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
+                <a href={hrefFor('/testing')} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
                   {nav.testing || 'Testing & Validation'}
                 </a>
-                <a href={`/${current}/quality`} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
+                <a href={hrefFor('/quality')} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
                   {nav.quality || 'Quality'}
                 </a>
-                <a href={`/${current}/case-studies`} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
+                <a href={hrefFor('/case-studies')} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
                   {nav.caseStudies || 'Case Studies'}
                 </a>
-                <a href="/en/blog" class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
-                  {nav.blog || 'Blog'}
+                <a href="/blog" class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
+                  {current === 'en' ? (nav.blog || 'Blog') : `${nav.blog || 'Blog'} (EN)`}
                 </a>
               </div>
             </div>
@@ -79,20 +81,20 @@ const nav = messages?.navigation || {};
 
           <!-- About Dropdown -->
           <div class="relative group">
-            <a href={`/${current}/about`}
+            <a href={hrefFor('/about')}
                class="text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange transition-colors duration-200 inline-flex items-center gap-1">
               {nav.about || 'About Us'}
               <svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
             </a>
             <div class="absolute left-0 top-full pt-3 hidden group-hover:block group-focus-within:block z-40">
               <div class="bg-white border border-industrial-100 shadow-lg min-w-[200px] py-2">
-                <a href={`/${current}/about`} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
+                <a href={hrefFor('/about')} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
                   {nav.about || 'About Us'}
                 </a>
-                <a href={`/${current}/factory`} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
+                <a href={hrefFor('/factory')} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
                   {nav.factory || 'Factory'}
                 </a>
-                <a href={`/${current}/capabilities`} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
+                <a href={hrefFor('/capabilities')} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
                   {nav.capabilities || 'Capabilities'}
                 </a>
               </div>
@@ -100,7 +102,7 @@ const nav = messages?.navigation || {};
           </div>
 
           <!-- Search -->
-          <a href={`/${current}/search`}
+          <a href={hrefFor('/search')}
              aria-label="Search"
              title="Search"
              class="w-11 h-11 inline-flex items-center justify-center text-industrial-600 hover:text-accent-orange transition-colors duration-200">
@@ -123,7 +125,7 @@ const nav = messages?.navigation || {};
               <div id="lang-dropdown" class="absolute right-0 mt-2 w-48 bg-white rounded-sm shadow-xl border border-industrial-100 py-2 z-50 hidden">
                 <div class="px-4 py-2 text-xs font-bold text-industrial-400 uppercase tracking-widest border-b border-industrial-50 mb-2">{nav.language || 'Language'}</div>
                 {locales.map(l => (
-                  <a href={`/${l}`}
+                  <a href={localizedPath(l, '/')}
                      class={`flex items-center justify-between w-full px-4 py-2.5 text-sm transition-colors duration-200 ${l === current ? 'bg-industrial-50 text-accent-orange font-medium' : 'text-industrial-700 hover:bg-industrial-50 hover:text-industrial-900'}`}
                      data-locale={l}>
                     <span>{l.toUpperCase()}</span>
@@ -136,7 +138,7 @@ const nav = messages?.navigation || {};
           </div>
 
           <!-- GET QUOTE CTA -->
-          <a href={`/${current}/contact`}
+          <a href={hrefFor('/contact')}
              class="bg-industrial-900 text-white px-6 py-2.5 rounded-sm text-xs font-bold uppercase tracking-widest hover:bg-accent-orange transition-all duration-300 shadow-lg">
             {nav.getQuote || 'Get Quote'}
           </a>
@@ -145,7 +147,7 @@ const nav = messages?.navigation || {};
 
       <!-- Mobile Right: Search + Lang + Hamburger -->
       <div class="lg:hidden flex items-center gap-1">
-        <a href={`/${current}/search`}
+        <a href={hrefFor('/search')}
            aria-label="Search"
            title="Search"
            class="w-11 h-11 inline-flex items-center justify-center text-industrial-500 hover:text-accent-orange transition-colors duration-200">
@@ -170,22 +172,22 @@ const nav = messages?.navigation || {};
   <!-- Mobile Menu Panel -->
   <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-industrial-100">
     <div class="px-4 pt-2 pb-8 space-y-1">
-      <a href={`/${current}/products`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.products || 'Products'}</a>
-      <a href={`/${current}/compounding`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-accent-orange border-b border-industrial-50">{nav.compounding || 'Compounding & R&D'}</a>
-      <a href={`/${current}/industries`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-accent-orange border-b border-industrial-50">{nav.industries || 'Industries'}</a>
-      <a href={`/${current}/materials`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.materials || 'Materials'}</a>
+      <a href={hrefFor('/products')} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.products || 'Products'}</a>
+      <a href={hrefFor('/compounding')} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-accent-orange border-b border-industrial-50">{nav.compounding || 'Compounding & R&D'}</a>
+      <a href={hrefFor('/industries')} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-accent-orange border-b border-industrial-50">{nav.industries || 'Industries'}</a>
+      <a href={hrefFor('/materials')} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.materials || 'Materials'}</a>
       <div class="pt-4 pb-2 px-3 text-xs font-bold uppercase tracking-widest text-industrial-400 border-b border-industrial-100">{nav.resources || 'Resources'}</div>
-      <a href={`/${current}/resources`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.resources || 'Resources'}</a>
-      <a href={`/${current}/testing`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.testing || 'Testing & Validation'}</a>
-      <a href={`/${current}/quality`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.quality || 'Quality'}</a>
-      <a href={`/${current}/case-studies`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.caseStudies || 'Case Studies'}</a>
-      <a href="/en/blog" class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.blog || 'Blog'}</a>
+      <a href={hrefFor('/resources')} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.resources || 'Resources'}</a>
+      <a href={hrefFor('/testing')} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.testing || 'Testing & Validation'}</a>
+      <a href={hrefFor('/quality')} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.quality || 'Quality'}</a>
+      <a href={hrefFor('/case-studies')} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.caseStudies || 'Case Studies'}</a>
+      <a href="/blog" class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{current === 'en' ? (nav.blog || 'Blog') : `${nav.blog || 'Blog'} (EN)`}</a>
       <div class="pt-4 pb-2 px-3 text-xs font-bold uppercase tracking-widest text-industrial-400 border-b border-industrial-100">{nav.about || 'About Us'}</div>
-      <a href={`/${current}/about`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.about || 'About Us'}</a>
-      <a href={`/${current}/factory`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.factory || 'Factory'}</a>
-      <a href={`/${current}/capabilities`} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.capabilities || 'Capabilities'}</a>
+      <a href={hrefFor('/about')} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.about || 'About Us'}</a>
+      <a href={hrefFor('/factory')} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.factory || 'Factory'}</a>
+      <a href={hrefFor('/capabilities')} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.capabilities || 'Capabilities'}</a>
       <div class="pt-4 px-3">
-        <a href={`/${current}/contact`}
+        <a href={hrefFor('/contact')}
            class="block w-full text-center bg-industrial-900 text-white py-4 rounded-sm font-bold uppercase tracking-widest shadow-xl">
           {nav.getQuote || 'Get Quote'}
         </a>
@@ -226,6 +228,6 @@ const nav = messages?.navigation || {};
   let mobileLocaleIndex = locales.indexOf(current);
   document.getElementById('mobile-lang-btn')?.addEventListener('click', () => {
     mobileLocaleIndex = (mobileLocaleIndex + 1) % locales.length;
-    window.location.href = '/' + locales[mobileLocaleIndex];
+    window.location.href = locales[mobileLocaleIndex] === 'en' ? '/' : '/' + locales[mobileLocaleIndex];
   });
 </script>

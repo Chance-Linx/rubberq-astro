@@ -12,7 +12,7 @@
     },
     "capabilities": {
       "title": "製造プロセス | RubberQ",
-      "description": "自動車グレードの精度のためのRubberQの2段階混合および成形プロセスをご覧ください。"
+      "description": "RubberQの2段階混練と成形プロセスによる、安定した精密ゴム製造をご覧ください。"
     },
     "caseStudies": {
       "title": "導入事例 | RubberQ",
@@ -29,6 +29,34 @@
     "materials": {
       "title": "工業用材料 | RubberQ",
       "description": "工業用エラストマー（FKM、EPDM、NBR、シリコーン）の技術リソースハブ。"
+    },
+    "compounding": {
+      "title": "配合開発・R&D | RubberQ",
+      "description": "日本の配合支援、中国での精密製造、自社ラボでの試験を組み合わせ、ポリマー選定から量産までゴム配合を管理します。"
+    },
+    "testing": {
+      "title": "試験・検証ラボ | RubberQ",
+      "description": "RubberQはASTMおよびISOに基づく社内試験で、配合と生産ロットを確認してから成形生産へ進めます。"
+    },
+    "industries": {
+      "title": "対応産業 | RubberQ",
+      "description": "EV・蓄電、産業機器、半導体プロセス、自動車Tier 2向けに、配合安定性が重要な精密ゴム部品を提供します。"
+    },
+    "industriesEv": {
+      "title": "EV・蓄電向けシーリング | RubberQ",
+      "description": "充電インフラ、BESS、EV周辺部品、自動車Tier 2向けに、HNBR、FKM、EPDM、シリコーン配合のゴムシールを提供します。"
+    },
+    "industriesIndustrial": {
+      "title": "産業機器向けシール | RubberQ",
+      "description": "油圧、空圧、ポンプ、バルブ、機械装置向けのシールを、1995年からの安定した工程管理で支えます。"
+    },
+    "industriesSemiconductor": {
+      "title": "半導体プロセス用シール（FKM / FFKM） | RubberQ",
+      "description": "半導体装置向けのFKM・FFKMシールを、管理されたA混練ライン、順序管理、検証済み洗浄工程で供給します。"
+    },
+    "industriesAutomotive": {
+      "title": "自動車Tier 2部品 | RubberQ",
+      "description": "日本系自動車プログラムでの30年の経験を活かし、カスタム配合、厳しい公差、安定した量産が必要なTier 2用途を支えます。"
     },
     "privacy": {
       "title": "プライバシーポリシー | RubberQ",
@@ -70,7 +98,7 @@
     "getQuote": "見積もり依頼"
   },
   "hero": {
-    "badge": "自動車グレードの品質",
+    "badge": "日本配合 × 中国精密製造 × 1995年からの実績",
     "title": "すべての分子に精度を。",
     "titleLine1": "すべての",
     "titleLine2": "分子に",
@@ -98,7 +126,7 @@
     ],
     "reliability": {
       "title": "信頼性",
-      "desc": "24時間365日稼働するインフラ向けの自動車グレードの耐久性。"
+      "desc": "長期供給プログラム向けの安定した耐久性。"
     },
     "precision": {
       "title": "精度",
@@ -273,7 +301,7 @@
       },
       "qc": {
         "title": "品質管理センター",
-        "desc": "自動車グレードの精度を実現する100%自動化視覚検査システム。"
+        "desc": "寸法管理と生産安定性を支える視覚検査システム。"
       },
       "logistics": {
         "title": "グローバル物流ハブ",
@@ -299,12 +327,12 @@
   },
   "productsPage": {
     "metadata": {
-      "title": "製品 | RubberQ - 自動車グレードゴム部品",
+      "title": "製品 | RubberQ - 精密ゴム部品",
       "description": "カスタムゴムシール、ガスケット、ベローズ、成形部品。産業機器、自動車、産業用アプリケーション向けのIATF 16949認証製造。"
     },
     "badge": "IATF 16949 認証",
     "title": "製品ポートフォリオ",
-    "subtitle": "要求の厳しいアプリケーション向けの精密ゴム部品。標準シールから複雑なカスタム金型まで、自動車グレードの品質システムで製造。",
+    "subtitle": "要求の厳しいアプリケーション向けの精密ゴム部品。標準シールから複雑なカスタム成形品まで、IATF 16949品質システムで製造します。",
     "capability": "能力",
     "manufacturingFootprint": "製造拠点",
     "categoriesTitle": "部品カテゴリー",
@@ -558,7 +586,7 @@
       },
       "q4": {
         "question": "PPAP文書を提供していますか？",
-        "answer": "はい、すべてのサポートデータを含むレベル3提出を含む完全なPPAP文書を提供しています。品質管理システムはIATF 16949認証を取得しており、自動車グレードの文書基準を保証しています。"
+        "answer": "はい、必要に応じてサポートデータを含むレベル3提出などのPPAP文書に対応します。品質管理システムはIATF 16949認証を取得しています。"
       },
       "q5": {
         "question": "お客様提供の材料で作業できますか？",
@@ -703,7 +731,7 @@
     "traceability": {
       "title": "完全な工程管理",
       "mainTitle": "完全なトレーサビリティチェーン",
-      "subtitle": "当社の自動車グレードの伝統は、すべての部品が厳格な証拠に基づく製造サイクルに従うことを意味します。",
+      "subtitle": "すべての部品が、追跡可能で検証された製造サイクルに従います。",
       "steps": [
         {
           "title": "APQP",
@@ -843,7 +871,7 @@
     },
     "certified": {
       "title": "IATF 16949 認証",
-      "description": "自動車グレードの品質管理システム。"
+      "description": "安定した量産と追跡性を支える品質管理システム。"
     },
     "sqmFactory": {
       "title": "工場面積",
@@ -1037,7 +1065,7 @@
       "badge": "実証された卓越性",
       "titleLine1": "導入",
       "titleLine2": "事例",
-      "subtitle": "自動車グレードのゴム工学の実際のアプリケーション。産業機器、半導体プロセス装置、次世代モビリティにおける重要なシーリング課題を私たちがどのように解決するかをご覧ください。"
+      "subtitle": "ゴム工学の実際のアプリケーション。産業機器、半導体プロセス装置、次世代モビリティにおける重要なシーリング課題を私たちがどのように解決するかをご覧ください。"
     },
     "stats": {
       "projectsDelivered": "納品プロジェクト",
@@ -1191,7 +1219,7 @@
     "qualityProcess": {
       "title": "品質",
       "titleHighlight": "プロセス",
-      "subtitle": "出荷前にすべての部品が自動車グレードの基準を満たすことを保証する4段階の品質保証。",
+      "subtitle": "出荷前に寸法、材料、追跡性を確認する4段階の品質保証。",
       "steps": {
         "incoming": {
           "title": "受入材料検査",

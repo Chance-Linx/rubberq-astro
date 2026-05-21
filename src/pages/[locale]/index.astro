@@ -2,14 +2,14 @@
 import LocaleLayout from '@/layouts/LocaleLayout.astro';
 import JsonLd from '@/components/JsonLd';
 import TrustSignals from '@/components/TrustSignals.astro';
-import { getTranslations, t, tRaw } from '@/lib/i18n';
+import { getTranslations, localizedPath, t, tRaw } from '@/lib/i18n';
 import { createOrganizationSchema } from '@/lib/structuredData';
 
 export function getStaticPaths() {
   return ['en', 'de', 'ja', 'es', 'zh'].map((locale) => ({ params: { locale } }));
 }
 
-const { locale } = Astro.params;
+const { locale = 'en' } = Astro.params;
 const messages = await getTranslations(locale);
 const meta = messages?.metadata || {};
 const homeMeta = meta?.home || {};
@@ -72,13 +72,13 @@ const orgSchema = createOrganizationSchema(locale!);
           </p>
           <div class="flex flex-col sm:flex-row gap-4 mb-10">
             <a
-              href={`/${locale}/contact`}
+              href={localizedPath(locale, `/contact`)}
               class="bg-accent-orange text-white px-8 py-4 font-bold text-sm tracking-widest hover:bg-white hover:text-industrial-900 transition-all duration-300 text-center uppercase"
             >
               {h('hero.ctaPrimary', 'REQUEST QUOTE')}
             </a>
             <a
-              href={`/${locale}/compounding`}
+              href={localizedPath(locale, `/compounding`)}
               class="border border-industrial-500 text-white px-8 py-4 font-bold text-sm tracking-widest hover:border-white transition-all duration-300 text-center uppercase"
             >
               {h('hero.ctaSecondary', 'EXPLORE OUR R&D')}
@@ -171,7 +171,7 @@ const orgSchema = createOrganizationSchema(locale!);
             </h2>
             <p class="text-lg text-industrial-700 leading-relaxed">{h('goodFit.subtitle')}</p>
             <a
-              href={`/${locale}/contact`}
+              href={localizedPath(locale, `/contact`)}
               class="inline-flex mt-8 bg-industrial-900 text-white px-7 py-4 font-bold text-sm tracking-widest uppercase hover:bg-accent-orange transition-colors"
             >
               {h('goodFit.cta')} →
@@ -230,7 +230,7 @@ const orgSchema = createOrganizationSchema(locale!);
             {h('capacityReframing.body')}
           </p>
           <a
-            href={`/${locale}/compounding`}
+            href={localizedPath(locale, `/compounding`)}
             class="inline-flex items-center gap-2 text-accent-orange font-bold uppercase text-sm tracking-widest hover:underline"
           >
             {h('capacityReframing.learnMore')} →
@@ -260,7 +260,7 @@ const orgSchema = createOrganizationSchema(locale!);
 
         <div class="grid lg:grid-cols-3 gap-5">
           <!-- EV -->
-          <a href={`/${locale}/industries/ev-energy-storage`} class="group relative min-h-[540px] overflow-hidden border border-industrial-200 lg:col-span-2 bg-industrial-900">
+          <a href={localizedPath(locale, `/industries/ev-energy-storage`)} class="group relative min-h-[540px] overflow-hidden border border-industrial-200 lg:col-span-2 bg-industrial-900">
             <div
               class="absolute inset-0 bg-industrial-200 flex items-center justify-center"
               data-slot-id="home-industries-ev"
@@ -281,7 +281,7 @@ const orgSchema = createOrganizationSchema(locale!);
 
           <div class="grid gap-5">
             <!-- Industrial -->
-            <a href={`/${locale}/industries/industrial-equipment`} class="group relative min-h-[166px] overflow-hidden border border-industrial-200 bg-industrial-900">
+            <a href={localizedPath(locale, `/industries/industrial-equipment`)} class="group relative min-h-[166px] overflow-hidden border border-industrial-200 bg-industrial-900">
               <div
                 class="absolute inset-0 bg-industrial-200 flex items-center justify-center"
                 data-slot-id="home-industries-industrial"
@@ -299,7 +299,7 @@ const orgSchema = createOrganizationSchema(locale!);
             </a>
 
             <!-- Semicon -->
-            <a href={`/${locale}/industries/semiconductor`} class="group relative min-h-[166px] overflow-hidden border border-industrial-200 bg-industrial-900">
+            <a href={localizedPath(locale, `/industries/semiconductor`)} class="group relative min-h-[166px] overflow-hidden border border-industrial-200 bg-industrial-900">
               <div
                 class="absolute inset-0 bg-industrial-200 flex items-center justify-center"
                 data-slot-id="home-industries-semicon"
@@ -317,7 +317,7 @@ const orgSchema = createOrganizationSchema(locale!);
             </a>
 
             <!-- Auto Tier 2 -->
-            <a href={`/${locale}/industries/automotive-tier2`} class="group relative min-h-[166px] overflow-hidden border border-industrial-200 bg-industrial-900">
+            <a href={localizedPath(locale, `/industries/automotive-tier2`)} class="group relative min-h-[166px] overflow-hidden border border-industrial-200 bg-industrial-900">
               <div
                 class="absolute inset-0 bg-industrial-200 flex items-center justify-center"
                 data-slot-id="home-industries-auto"
@@ -338,7 +338,7 @@ const orgSchema = createOrganizationSchema(locale!);
 
         <p class="text-center text-industrial-600 mt-10 text-sm">
           {h('industries.notSeeing')}
-          <a href={`/${locale}/contact`} class="text-accent-orange font-bold hover:underline ml-2">
+          <a href={localizedPath(locale, `/contact`)} class="text-accent-orange font-bold hover:underline ml-2">
             {h('industries.talkCta')} →
           </a>
         </p>
@@ -369,13 +369,13 @@ const orgSchema = createOrganizationSchema(locale!);
           </p>
           <div class="flex flex-col sm:flex-row gap-4">
             <a
-              href={`/${locale}/compounding`}
+              href={localizedPath(locale, `/compounding`)}
               class="inline-flex justify-center bg-accent-orange text-white px-8 py-4 font-bold text-sm tracking-widest uppercase hover:bg-white hover:text-industrial-900 transition-all duration-300"
             >
               {h('compoundingRDEntry.cta')} →
             </a>
             <a
-              href={`/${locale}/testing`}
+              href={localizedPath(locale, `/testing`)}
               class="inline-flex justify-center border border-industrial-500 text-white px-8 py-4 font-bold text-sm tracking-widest uppercase hover:border-white transition-all duration-300"
             >
               {h('navigation.testing', 'Testing')}

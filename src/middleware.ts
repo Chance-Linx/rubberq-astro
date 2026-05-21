@@ -1,11 +1,36 @@
 import { defineMiddleware } from 'astro:middleware';
 
 const locales = new Set(['en', 'de', 'ja', 'es', 'zh']);
+const internalRewriteHeader = 'x-rubberq-internal-rewrite';
 
 const legacyLocalizedFiles = new Map([
   ['sitemap.xml', '/sitemap.xml'],
   ['robots.txt', '/robots.txt'],
 ]);
+
+const englishStaticRoutes = new Set([
+  '/',
+  '/about',
+  '/batch-rfq',
+  '/capabilities',
+  '/case-studies',
+  '/compounding',
+  '/contact',
+  '/factory',
+  '/industries',
+  '/materials',
+  '/privacy',
+  '/products',
+  '/quality',
+  '/resources',
+  '/sample-request',
+  '/search',
+  '/standards',
+  '/testing',
+  '/terms',
+]);
+
+const englishDynamicSections = new Set(['industries', 'materials', 'products']);
 
 const encodedLegacyBlogFallbackSlugs = [
   'My1hLXNhbml0YXJ5LXN0YW5kYXJkcy1kZXNpZ25pbmctcnViYmVyLXNlYWxzLWZvci10aGUtZGFpcnktaW5kdXN0cnkKODAw',
@@ -100,28 +125,6 @@ function decodeLegacyBlogFallbackSlugs() {
 
 const legacyWordPressBlogFallbackSlugs = new Set(decodeLegacyBlogFallbackSlugs());
 
-const defaultLocaleRoutes = new Set([
-  'about',
-  'batch-rfq',
-  'blog',
-  'capabilities',
-  'case-studies',
-  'compounding',
-  'contact',
-  'factory',
-  'industries',
-  'materials',
-  'privacy',
-  'products',
-  'quality',
-  'resources',
-  'sample-request',
-  'search',
-  'standards',
-  'terms',
-  'testing',
-]);
-
 function withSearch(targetPath: string, search: string) {
   return `${targetPath}${search}`;
 }
@@ -138,11 +141,53 @@ function isInternalAssetPath(pathname: string) {
     || pathname === '/llms.txt';
 }
 
-function getRedirectTarget(pathname: string): string | null {
-  if (pathname === '/') {
-    return '/en';
+function getRewriteTarget(pathname: string): string | null {
+  if (isInternalAssetPath(pathname) || hasFileExtension(pathname)) {
+    return null;
   }
 
+  const segments = pathname.split('/').filter(Boolean);
+  const [first] = segments;
+
+  if (!first) {
+    return null;
+  }
+
+  if (first === 'blog' || locales.has(first)) {
+    return null;
+  }
+
+  if (englishStaticRoutes.has(pathname)) {
+    return `/en${pathname === '/' ? '' : pathname}`;
+  }
+
+  if (segments.length === 2 && englishDynamicSections.has(first)) {
+    return `/en${pathname}`;
+  }
+
+  return null;
+}
+
+function isKnownPublicRoute(pathname: string): boolean {
+  if (isInternalAssetPath(pathname) || hasFileExtension(pathname)) {
+    return true;
+  }
+
+  const segments = pathname.split('/').filter(Boolean);
+  const [first] = segments;
+
+  if (!first || first === 'blog' || locales.has(first)) {
+    return true;
+  }
+
+  if (englishStaticRoutes.has(pathname)) {
+    return true;
+  }
+
+  return segments.length === 2 && englishDynamicSections.has(first);
+}
+
+function getRedirectTarget(pathname: string): string | null {
   if (!isInternalAssetPath(pathname) && !hasFileExtension(pathname) && pathname.length > 1 && pathname.endsWith('/')) {
     return pathname.slice(0, -1);
   }
@@ -152,26 +197,43 @@ function getRedirectTarget(pathname: string): string | null {
 
   if (first === 'blog') {
     if (!second) {
-      return '/en/blog';
+      return null;
     }
     return legacyWordPressBlogFallbackSlugs.has(second)
-      ? '/en/blog'
-      : `/en/blog/${segments.slice(1).join('/')}`;
+      ? '/blog'
+      : null;
   }
 
   if (locales.has(first)) {
+    if (first === 'en') {
+      if (!second) {
+        return '/';
+      }
+
+      if (second === 'blog') {
+        const blogSlug = rest[0];
+        const isLegacyFallback = rest.length === 1 && legacyWordPressBlogFallbackSlugs.has(blogSlug);
+
+        return isLegacyFallback ? '/blog' : `/blog${rest.length > 0 ? `/${rest.join('/')}` : ''}`;
+      }
+
+      const fileRedirect = legacyLocalizedFiles.get(second);
+      if (fileRedirect) {
+        return fileRedirect;
+      }
+
+      return `/${segments.slice(1).join('/')}`;
+    }
+
     if (second === 'blog') {
       const blogSlug = rest[0];
       const isLegacyFallback = rest.length === 1 && legacyWordPressBlogFallbackSlugs.has(blogSlug);
 
       if (isLegacyFallback) {
-        return '/en/blog';
+        return '/blog';
       }
 
-      if (first === 'en') {
-        return null;
-      }
-      return rest.length > 0 ? `/en/blog/${rest.join('/')}` : '/en/blog';
+      return rest.length > 0 ? `/blog/${rest.join('/')}` : '/blog';
     }
 
     const fileRedirect = legacyLocalizedFiles.get(second);
@@ -182,18 +244,34 @@ function getRedirectTarget(pathname: string): string | null {
     return null;
   }
 
-  if (defaultLocaleRoutes.has(first)) {
-    return `/en/${segments.join('/')}`;
-  }
-
   return null;
 }
 
 export const onRequest = defineMiddleware((context, next) => {
-  const target = getRedirectTarget(context.url.pathname);
+  const isInternalRewrite = context.request.headers.get(internalRewriteHeader) === '1';
+  const target = isInternalRewrite ? null : getRedirectTarget(context.url.pathname);
 
   if (target) {
     return context.redirect(withSearch(target, context.url.search), 301);
+  }
+
+  const rewriteTarget = getRewriteTarget(context.url.pathname);
+
+  if (rewriteTarget) {
+    const rewriteUrl = new URL(withSearch(rewriteTarget, context.url.search), context.url.origin);
+    const rewriteHeaders = new Headers(context.request.headers);
+    rewriteHeaders.set(internalRewriteHeader, '1');
+
+    return context.rewrite(new Request(rewriteUrl, {
+      headers: rewriteHeaders,
+      method: context.request.method,
+      body: context.request.body,
+      redirect: context.request.redirect,
+    }));
+  }
+
+  if (!isKnownPublicRoute(context.url.pathname)) {
+    return new Response('Not Found', { status: 404 });
   }
 
   return next();

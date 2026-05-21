@@ -7,7 +7,8 @@ function normalizeLocale(locale: string): Locale {
 }
 
 function localeBaseUrl(locale: string): string {
-  return `${SITE_URL}/${normalizeLocale(locale)}`;
+  const normalizedLocale = normalizeLocale(locale);
+  return normalizedLocale === defaultLocale ? SITE_URL : `${SITE_URL}/${normalizedLocale}`;
 }
 
 type Question = {
@@ -204,7 +205,7 @@ export function createCaseStudiesSchema(locale: string, studies: CaseStudySchema
 }
 
 export function createBlogPostingSchema(post: BlogPostSchemaItem) {
-  const url = `${SITE_URL}/en/blog/${encodeURIComponent(post.slug)}`;
+  const url = `${SITE_URL}/blog/${encodeURIComponent(post.slug)}`;
 
   return {
     '@context': 'https://schema.org',

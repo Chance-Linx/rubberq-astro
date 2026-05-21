@@ -1,12 +1,12 @@
 ---
 import LocaleLayout from '@/layouts/LocaleLayout.astro';
-import { getTranslations, t, tRaw } from '@/lib/i18n';
+import { getTranslations, localizedPath, t, tRaw } from '@/lib/i18n';
 
 export function getStaticPaths() {
   return ['en','de','ja','es','zh'].map(locale => ({ params: { locale } }));
 }
 
-const { locale } = Astro.params;
+const { locale = 'en' } = Astro.params;
 const messages = await getTranslations(locale);
 const meta = messages?.metadata || {};
 const f = (key: string, fallback = '') => t(messages, `factory.${key}`, fallback);
@@ -83,7 +83,7 @@ const certs = [
           </h1>
           <p class="text-xl text-industrial-300 leading-relaxed mb-8">{f('hero.subtitle')}</p>
           <div class="flex flex-wrap gap-4">
-            <a href={`/${locale}/contact`} class="inline-flex items-center gap-2 bg-accent-orange text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-industrial-900 transition-all duration-300">
+            <a href={localizedPath(locale, `/contact`)} class="inline-flex items-center gap-2 bg-accent-orange text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-industrial-900 transition-all duration-300">
               {f('hero.scheduleVisit')}
               <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
             </a>
@@ -269,11 +269,11 @@ const certs = [
         </h2>
         <p class="text-industrial-300 text-lg mb-10 max-w-2xl mx-auto">{f('cta.description')}</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href={`/${locale}/contact`} class="inline-flex items-center gap-2 bg-accent-orange text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-industrial-900 transition-all duration-300">
+          <a href={localizedPath(locale, `/contact`)} class="inline-flex items-center gap-2 bg-accent-orange text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-industrial-900 transition-all duration-300">
             {f('cta.scheduleTour')}
             <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
           </a>
-          <a href={`/${locale}/quality`} class="inline-flex items-center gap-2 border border-industrial-500 text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:border-white transition-all duration-300">
+          <a href={localizedPath(locale, `/quality`)} class="inline-flex items-center gap-2 border border-industrial-500 text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:border-white transition-all duration-300">
             {f('cta.viewQuality')}
           </a>
         </div>

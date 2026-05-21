@@ -1,5 +1,6 @@
 ---
 import LocaleLayout from '@/layouts/LocaleLayout.astro';
+import { localizedPath } from '@/lib/i18n';
 import { MATERIAL_SLUGS, getMaterialData } from '@/lib/materials';
 
 export function getStaticPaths() {
@@ -7,7 +8,7 @@ export function getStaticPaths() {
   return locales.flatMap((locale) => MATERIAL_SLUGS.map((slug) => ({ params: { locale, slug } })));
 }
 
-const { locale, slug } = Astro.params;
+const { locale = 'en', slug } = Astro.params;
 const data = getMaterialData(slug);
 
 if (!data) {
@@ -103,7 +104,7 @@ const jsonLd = JSON.stringify({
   <div class="bg-white min-h-screen">
     <section class="bg-industrial-900 text-white py-20 px-4">
       <div class="max-w-7xl mx-auto">
-        <a href={`/${locale}/materials`} class="inline-flex items-center gap-2 text-industrial-300 hover:text-white transition-colors mb-8">
+        <a href={localizedPath(locale, `/materials`)} class="inline-flex items-center gap-2 text-industrial-300 hover:text-white transition-colors mb-8">
           <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
           {labels.back}
         </a>
@@ -188,7 +189,7 @@ const jsonLd = JSON.stringify({
           <section class="bg-industrial-50 border border-industrial-200 p-6">
             <h2 class="text-xl font-bold text-industrial-900 mb-3">{labels.ctaTitle}</h2>
             <p class="text-sm text-industrial-700 leading-6 mb-6">{labels.ctaDesc}</p>
-            <a href={`/${locale}/contact`} class="inline-flex items-center justify-center w-full bg-industrial-900 text-white px-5 py-3 text-xs font-bold uppercase tracking-widest hover:bg-accent-orange transition-colors">
+            <a href={localizedPath(locale, `/contact`)} class="inline-flex items-center justify-center w-full bg-industrial-900 text-white px-5 py-3 text-xs font-bold uppercase tracking-widest hover:bg-accent-orange transition-colors">
               {labels.cta}
             </a>
           </section>

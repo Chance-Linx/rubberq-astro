@@ -1,14 +1,14 @@
 ---
 import LocaleLayout from '@/layouts/LocaleLayout.astro';
 import JsonLd from '@/components/JsonLd';
-import { getTranslations, t, tRaw } from '@/lib/i18n';
+import { getTranslations, localizedPath, t, tRaw } from '@/lib/i18n';
 import { createOrganizationSchema } from '@/lib/structuredData';
 
 export function getStaticPaths() {
   return ['en', 'de', 'ja', 'es', 'zh'].map((locale) => ({ params: { locale } }));
 }
 
-const { locale } = Astro.params;
+const { locale = 'en' } = Astro.params;
 const messages = await getTranslations(locale);
 const meta = messages?.metadata || {};
 const a = (key: string, fallback = '') => t(messages, `about.${key}`, fallback);
@@ -273,7 +273,7 @@ const factoryScenes = [
 
         <div class="text-center mt-10">
           <a
-            href={`/${locale}/contact`}
+            href={localizedPath(locale, `/contact`)}
             class="inline-block bg-industrial-900 text-white px-8 py-4 font-bold text-sm tracking-widest uppercase hover:bg-accent-orange transition-colors"
           >
             {av2('whatWeDontDo.cta')} →

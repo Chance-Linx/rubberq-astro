@@ -30,6 +30,34 @@
       "title": "Industriematerialien | RubberQ",
       "description": "Technisches Ressourcenzentrum für industrielle Elastomere — FKM, EPDM, NBR, Silikon."
     },
+    "compounding": {
+      "title": "Mischungsentwicklung & R&D | RubberQ",
+      "description": "Japanische Formulierungsunterstützung, Fertigung in China und Prüfung im eigenen Labor. RubberQ entwickelt und kontrolliert Gummimischungen vom Polymer bis zur Serienproduktion."
+    },
+    "testing": {
+      "title": "Prüfung & Validierungslabor | RubberQ",
+      "description": "RubberQ prüft Mischungen und Produktionschargen im eigenen Labor nach anerkannten ASTM- und ISO-Methoden, bevor sie für die Fertigung freigegeben werden."
+    },
+    "industries": {
+      "title": "Branchen, die wir beliefern | RubberQ",
+      "description": "Präzise Gummikomponenten für EV und Energiespeicher, Industrieanlagen, Halbleiterprozesse und Automotive Tier 2, wenn stabile Mischungschemie entscheidend ist."
+    },
+    "industriesEv": {
+      "title": "Dichtungen für EV & Energiespeicher | RubberQ",
+      "description": "Gummidichtungen für Ladeinfrastruktur, BESS, EV-Peripherie und Tier-2-Fahrzeugbaugruppen mit HNBR-, FKM-, EPDM- und Silikonmischungen."
+    },
+    "industriesIndustrial": {
+      "title": "Dichtungen für Industrieanlagen | RubberQ",
+      "description": "Dichtungen für Hydraulik, Pneumatik, Pumpen, Ventile und Maschinenbau mit IATF-16949-geprägter Prozesskontrolle seit 1995."
+    },
+    "industriesSemiconductor": {
+      "title": "Halbleiter-Prozessdichtungen (FKM / FFKM) | RubberQ",
+      "description": "FKM- und FFKM-Dichtungen für Halbleiteranlagen mit kontrollierter A-Mischlinie, geplanter Reihenfolge und validierter Reinigung."
+    },
+    "industriesAutomotive": {
+      "title": "Automotive-Tier-2-Komponenten | RubberQ",
+      "description": "30 Jahre Erfahrung in japanisch geprägten Automobilprogrammen, heute fokussiert auf Tier-2-Projekte mit kundenspezifischer Mischungschemie, engen Toleranzen und stabiler Serienfertigung."
+    },
     "privacy": {
       "title": "Datenschutzerklärung | RubberQ",
       "description": "Wie RubberQ Ihre Geschäftsdaten sammelt, verwendet und schützt."
@@ -102,7 +130,7 @@
     },
     "precision": {
       "title": "PRÄZISION",
-      "desc": "Mikrometergenaue Präzision für Robotergelenke und Sensoren."
+      "desc": "Präzise Maßkontrolle für anspruchsvolle Industrie- und Sensorgehäuse."
     },
     "traceability": {
       "title": "RÜCKVERFOLGBARKEIT",
@@ -354,7 +382,7 @@
       "name": "Faltenbälge & Manschetten",
       "desc": "Flexible Schutzabdeckungen für lineare und rotierende Bewegungssysteme mit verlängerter Ermüdungslebensdauer.",
       "applications": [
-        "Robotergelenke",
+        "Industriebewegungen",
         "Linearantriebe",
         "Gleichlaufgelenke",
         "Maschinenführungen"

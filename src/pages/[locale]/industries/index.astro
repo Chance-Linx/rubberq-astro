@@ -1,14 +1,14 @@
 ---
 import LocaleLayout from '@/layouts/LocaleLayout.astro';
 import JsonLd from '@/components/JsonLd';
-import { getTranslations, t } from '@/lib/i18n';
+import { getTranslations, localizedPath, t } from '@/lib/i18n';
 import { createOrganizationSchema } from '@/lib/structuredData';
 
 export function getStaticPaths() {
   return ['en', 'de', 'ja', 'es', 'zh'].map((locale) => ({ params: { locale } }));
 }
 
-const { locale } = Astro.params;
+const { locale = 'en' } = Astro.params;
 const messages = await getTranslations(locale);
 const meta = messages?.metadata?.industries || {};
 const ix = (key: string, fallback = '') => t(messages, key, fallback);
@@ -50,7 +50,7 @@ const sectors = [
         <div class="grid md:grid-cols-2 gap-8">
           {sectors.map((sector) => (
             <a
-              href={`/${locale}/industries/${sector.slug}`}
+              href={localizedPath(locale, `/industries/${sector.slug}`)}
               class="group bg-white border border-industrial-200 hover:border-accent-orange transition-colors overflow-hidden"
             >
               <div
@@ -82,7 +82,7 @@ const sectors = [
 
         <p class="text-center text-industrial-700 mt-12 max-w-3xl mx-auto">
           {ix('industriesPage.index.notSeeing')}
-          <a href={`/${locale}/contact`} class="text-accent-orange font-bold hover:underline ml-2">
+          <a href={localizedPath(locale, `/contact`)} class="text-accent-orange font-bold hover:underline ml-2">
             {ix('industriesPage.index.talkCta')} →
           </a>
         </p>

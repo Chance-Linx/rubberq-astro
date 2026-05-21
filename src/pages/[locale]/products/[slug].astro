@@ -1,6 +1,6 @@
 ---
 import LocaleLayout from '@/layouts/LocaleLayout.astro';
-import { getTranslations, t, tRaw } from '@/lib/i18n';
+import { getTranslations, localizedPath, t, tRaw } from '@/lib/i18n';
 
 export function getStaticPaths() {
   const locales = ['en','de','ja','es','zh'];
@@ -8,7 +8,7 @@ export function getStaticPaths() {
   return locales.flatMap(locale => slugs.map(slug => ({ params: { locale, slug } })));
 }
 
-const { locale, slug } = Astro.params;
+const { locale = 'en', slug } = Astro.params;
 const messages = await getTranslations(locale);
 const pp = (key: string, fallback = '') => t(messages, `productsPage.${key}`, fallback);
 
@@ -181,7 +181,7 @@ const L = labelsByLocale[locale] || labelsByLocale.en;
     <!-- Hero -->
     <section class="bg-industrial-900 text-white py-20 px-4">
       <div class="max-w-7xl mx-auto">
-        <a href={`/${locale}/products`} class="inline-flex items-center gap-2 text-industrial-300 hover:text-white transition-colors mb-8">
+        <a href={localizedPath(locale, `/products`)} class="inline-flex items-center gap-2 text-industrial-300 hover:text-white transition-colors mb-8">
           <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
           {L.back}
         </a>
@@ -287,7 +287,7 @@ const L = labelsByLocale[locale] || labelsByLocale.en;
           </div>
           <h4 class="text-base font-bold text-industrial-900 mb-2">{L.engTitle}</h4>
           <p class="text-sm text-industrial-600 mb-4">{L.engDesc}</p>
-          <a href={`/${locale}/contact`} class="inline-flex items-center justify-center gap-2 w-full bg-industrial-900 text-white px-5 py-3 font-bold text-sm uppercase tracking-wider hover:bg-accent-orange transition-colors">
+          <a href={localizedPath(locale, `/contact`)} class="inline-flex items-center justify-center gap-2 w-full bg-industrial-900 text-white px-5 py-3 font-bold text-sm uppercase tracking-wider hover:bg-accent-orange transition-colors">
             {L.engCta}
             <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
           </a>

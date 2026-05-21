@@ -30,6 +30,30 @@
       "title": "自有配方材料 | RubberQ",
       "description": "RubberQ 在 HNBR、FKM、FFKM、EPDM、NBR、ACM、AEM、HCR 硅胶和 LSR 等材料上提供配方与测试支持。"
     },
+    "compounding": {
+      "title": "配方研发与混炼 | RubberQ",
+      "description": "日本配方支持、中国精密制造、自有实验室验证。RubberQ 从聚合物选择到量产放行，全流程管理橡胶配方。"
+    },
+    "industries": {
+      "title": "服务行业 | RubberQ",
+      "description": "面向 EV 与储能、工业设备、半导体和汽车 Tier 2 的精密橡胶零部件，适合需要稳定配方、批次追溯和长期供货的项目。"
+    },
+    "industriesEv": {
+      "title": "EV 与储能密封 | RubberQ",
+      "description": "面向充电基础设施、BESS、EV 周边部件和汽车 Tier 2 项目的橡胶密封件，支持 HNBR、FKM、EPDM 和硅胶配方。"
+    },
+    "industriesIndustrial": {
+      "title": "工业设备密封件 | RubberQ",
+      "description": "面向液压、气动、泵阀和机械设备的密封件，自 1995 年以来以稳定工艺和质量体系支持长期供货。"
+    },
+    "industriesSemiconductor": {
+      "title": "半导体制程密封件（FKM / FFKM） | RubberQ",
+      "description": "面向半导体设备的 FKM 与 FFKM 密封件，依托受控 A 炼线、批次顺序管理和验证过的清洁流程。"
+    },
+    "industriesAutomotive": {
+      "title": "汽车 Tier 2 零部件 | RubberQ",
+      "description": "30 年日系汽车项目经验，服务需要定制配方、紧公差和稳定量产支持的 Tier 2 橡胶零部件项目。"
+    },
     "privacy": {
       "title": "隐私政策 | RubberQ",
       "description": "RubberQ如何收集、使用和保护您的商业数据。"

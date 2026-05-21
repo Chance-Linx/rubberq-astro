@@ -2,13 +2,24 @@
 import BaseLayout from './BaseLayout.astro';
 import Navbar from '@/components/Navbar.astro';
 import Footer from '@/components/Footer.astro';
+import JsonLd from '@/components/JsonLd';
+import { createOrganizationSchema } from '@/lib/structuredData';
+
 const locale = 'en';
+const normalizedPathname = Astro.url.pathname.replace(/^\/en\/blog(?=\/|$)/, '/blog');
+const canonicalUrl = `https://rubberq.com${normalizedPathname}`;
+const orgSchema = createOrganizationSchema(locale);
 ---
 
 <BaseLayout lang={locale}>
   <Fragment slot="head">
     <slot name="head" />
-    <link rel="canonical" href={`https://rubberq.com${Astro.url.pathname}`} />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="alternate" hreflang="en" href={canonicalUrl} />
+    <link rel="alternate" hreflang="x-default" href={canonicalUrl} />
+    <meta property="og:site_name" content="RubberQ" />
+    <meta property="og:url" content={canonicalUrl} />
+    <JsonLd data={orgSchema} />
   </Fragment>
   <Navbar locale={locale} />
   <main class="min-h-screen pt-20">

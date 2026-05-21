@@ -1,12 +1,12 @@
 ---
 import LocaleLayout from '@/layouts/LocaleLayout.astro';
-import { getTranslations, t } from '@/lib/i18n';
+import { getTranslations, localizedPath, t } from '@/lib/i18n';
 
 export function getStaticPaths() {
   return ['en', 'de', 'ja', 'es', 'zh'].map((locale) => ({ params: { locale } }));
 }
 
-const { locale } = Astro.params;
+const { locale = 'en' } = Astro.params;
 const messages = await getTranslations(locale);
 const meta = messages?.metadata || {};
 const cs = (key: string, fallback = '') => t(messages, `caseStudies.${key}`, fallback);
@@ -370,8 +370,8 @@ const cases = casesByLocale[locale] || casesByLocale.en;
                 </div>
               </div>
               <div class="flex flex-col sm:flex-row gap-3 mt-7">
-                <a href={`/${locale}/contact`} class="inline-flex items-center justify-center bg-industrial-900 text-white px-6 py-3 font-bold text-xs uppercase tracking-widest hover:bg-accent-orange transition-colors">{labels.cta}</a>
-                <a href={`/${locale}/batch-rfq`} class="inline-flex items-center justify-center border border-industrial-300 text-industrial-900 px-6 py-3 font-bold text-xs uppercase tracking-widest hover:border-accent-orange hover:text-accent-orange transition-colors">{labels.rfq}</a>
+                <a href={localizedPath(locale, `/contact`)} class="inline-flex items-center justify-center bg-industrial-900 text-white px-6 py-3 font-bold text-xs uppercase tracking-widest hover:bg-accent-orange transition-colors">{labels.cta}</a>
+                <a href={localizedPath(locale, `/batch-rfq`)} class="inline-flex items-center justify-center border border-industrial-300 text-industrial-900 px-6 py-3 font-bold text-xs uppercase tracking-widest hover:border-accent-orange hover:text-accent-orange transition-colors">{labels.rfq}</a>
               </div>
             </div>
           </article>
@@ -383,7 +383,7 @@ const cases = casesByLocale[locale] || casesByLocale.en;
       <div class="max-w-4xl mx-auto text-center">
         <h2 class="text-4xl font-bold tracking-tighter mb-5">{labels.bottomTitle}</h2>
         <p class="text-industrial-300 mb-8">{labels.bottomSubtitle}</p>
-        <a href={`/${locale}/contact`} class="inline-flex items-center justify-center bg-accent-orange text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-industrial-900 transition-colors">
+        <a href={localizedPath(locale, `/contact`)} class="inline-flex items-center justify-center bg-accent-orange text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-industrial-900 transition-colors">
           {cs('cta.discussProject', 'Discuss Project')}
         </a>
       </div>

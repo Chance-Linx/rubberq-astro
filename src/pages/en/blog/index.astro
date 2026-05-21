@@ -11,6 +11,12 @@ const categories = await getCategories();
   <Fragment slot="head">
     <title>Technical Knowledge Hub | RubberQ</title>
     <meta name="description" content="Expert analysis on rubber engineering, quality standards, and application-specific solutions." />
+    <meta property="og:title" content="Technical Knowledge Hub | RubberQ" />
+    <meta property="og:description" content="Expert analysis on rubber engineering, quality standards, and application-specific solutions." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Technical Knowledge Hub | RubberQ" />
+    <meta name="twitter:description" content="Expert analysis on rubber engineering, quality standards, and application-specific solutions." />
   </Fragment>
 
   <section class="py-16 border-b border-border">
@@ -25,9 +31,9 @@ const categories = await getCategories();
       {
         categories.length > 0 && (
           <div class="flex flex-wrap gap-2 mb-12">
-            <a href="/en/blog" class="px-4 py-2 text-xs font-bold uppercase tracking-wider bg-primary text-primary-foreground">All</a>
+            <a href="/blog" class="px-4 py-2 text-xs font-bold uppercase tracking-wider bg-primary text-primary-foreground">All</a>
             {categories.map(cat => (
-              <a href={`/en/blog?category=${encodeURIComponent(cat.name)}`}
+              <a href={`/blog?category=${encodeURIComponent(cat.name)}`}
                  class="px-4 py-2 text-xs font-bold uppercase tracking-wider border border-border hover:border-primary hover:text-primary transition-colors">
                 {cat.name} ({cat.count})
               </a>
@@ -42,7 +48,7 @@ const categories = await getCategories();
           const date = post.publishedAt ? new Date(post.publishedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) : '';
           return (
             <article class="group border border-border hover:border-primary transition-colors">
-              <a href={`/en/blog/${encodeURIComponent(post.slug)}`}>
+              <a href={`/blog/${encodeURIComponent(post.slug)}`}>
                 {imageUrl ? (
                   <img src={imageUrl} alt={post.title} class="w-full h-48 object-cover" loading="lazy" />
                 ) : (

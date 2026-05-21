@@ -1,12 +1,12 @@
 ---
 import LocaleLayout from '@/layouts/LocaleLayout.astro';
-import { getTranslations, t, tRaw } from '@/lib/i18n';
+import { getTranslations, localizedPath, t, tRaw } from '@/lib/i18n';
 
 export function getStaticPaths() {
   return ['en','de','ja','es','zh'].map(locale => ({ params: { locale } }));
 }
 
-const { locale } = Astro.params;
+const { locale = 'en' } = Astro.params;
 const messages = await getTranslations(locale);
 const meta = messages?.metadata || {};
 const _ = (key: string, fallback = '') => t(messages, `capabilities.${key}`, fallback);
@@ -177,7 +177,7 @@ const processes = [
                     <p class="text-industrial-200 leading-relaxed mb-4">
                       {_('singleLineCallout.body')}
                     </p>
-                    <a href={`/${locale}/compounding`} class="inline-flex items-center gap-2 text-accent-orange font-bold uppercase text-sm tracking-widest hover:underline">
+                    <a href={localizedPath(locale, `/compounding`)} class="inline-flex items-center gap-2 text-accent-orange font-bold uppercase text-sm tracking-widest hover:underline">
                       {_('singleLineCallout.cta', 'Learn more about our compounding strategy')} →
                     </a>
                   </div>
