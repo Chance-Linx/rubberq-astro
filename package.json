@@ -15,7 +15,7 @@
     "audit:seo": "node scripts/seo/technical-seo-audit.mjs",
     "build": "npm run check:public-redlines && npm run check:brand-colors && astro build",
     "preview": "npm run check:public-redlines && npm run check:brand-colors && astro build && wrangler pages dev dist",
-    "deploy": "npm run check:public-redlines && npm run check:brand-colors && astro build && wrangler pages deploy dist --project-name=rubberq-site"
+    "deploy": "npm run check:public-redlines && npm run check:brand-colors && astro build && wrangler pages deploy dist --project-name=rubberq-astro"
   },
   "dependencies": {
     "@astrojs/check": "^0.9",
