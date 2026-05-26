@@ -18,7 +18,6 @@ export const LOCALIZED_STATIC_PATHS = [
   '/contact',
   '/sample-request',
   '/batch-rfq',
-  '/search',
   '/standards',
   '/privacy',
   '/terms',

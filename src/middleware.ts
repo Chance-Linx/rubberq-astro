@@ -8,6 +8,21 @@ const legacyLocalizedFiles = new Map([
   ['robots.txt', '/robots.txt'],
 ]);
 
+const legacyPathRedirects = new Map([
+  ['/home', '/'],
+  ['/es/casos', '/es/case-studies'],
+  ['/es/calidad', '/es/quality'],
+  ['/es/terminos', '/es/terms'],
+  ['/es/productos', '/es/products'],
+  ['/de/agb', '/de/terms'],
+  ['/de/referenzen', '/de/case-studies'],
+  ['/de/produkte', '/de/products'],
+  ['/de/materialien/nbr', '/de/materials/nbr'],
+  ['/downloads/certificates/ISO-14001-2023.pdf', '/quality#certifications'],
+  ['/downloads/certificates/ISO-9001-2022.pdf', '/quality#certifications'],
+  ['/downloads/certificates/RoHS-REACH-2024.pdf', '/quality#certifications'],
+]);
+
 const englishStaticRoutes = new Set([
   '/',
   '/about',
@@ -141,6 +156,30 @@ function isInternalAssetPath(pathname: string) {
     || pathname === '/llms.txt';
 }
 
+function isLegacyMetadataImagePath(pathname: string) {
+  const segments = pathname.split('/').filter(Boolean);
+  const last = segments.at(-1);
+
+  return last === 'opengraph-image' || last === 'twitter-image';
+}
+
+function shouldStripLegacySearchParams(url: URL) {
+  const pathWithoutTrailingSlash = url.pathname.replace(/\/+$/, '') || '/';
+  const segments = pathWithoutTrailingSlash.split('/').filter(Boolean);
+  const maybeLocale = locales.has(segments[0]) ? segments[0] : null;
+  const route = maybeLocale ? `/${segments.slice(1).join('/')}` || '/' : pathWithoutTrailingSlash;
+
+  if (route === '/case-studies') {
+    return url.searchParams.has('case') || url.searchParams.has('industry') || url.searchParams.has('c');
+  }
+
+  if (route === '/search') {
+    return url.searchParams.has('c') && !url.searchParams.has('q');
+  }
+
+  return false;
+}
+
 function getRewriteTarget(pathname: string): string | null {
   if (isInternalAssetPath(pathname) || hasFileExtension(pathname)) {
     return null;
@@ -188,6 +227,12 @@ function isKnownPublicRoute(pathname: string): boolean {
 }
 
 function getRedirectTarget(pathname: string): string | null {
+  const pathnameWithoutTrailingSlash = pathname.length > 1 && pathname.endsWith('/') ? pathname.slice(0, -1) : pathname;
+  const mappedLegacyTarget = legacyPathRedirects.get(pathnameWithoutTrailingSlash);
+  if (mappedLegacyTarget) {
+    return mappedLegacyTarget;
+  }
+
   if (!isInternalAssetPath(pathname) && !hasFileExtension(pathname) && pathname.length > 1 && pathname.endsWith('/')) {
     return pathname.slice(0, -1);
   }
@@ -196,12 +241,7 @@ function getRedirectTarget(pathname: string): string | null {
   const [first, second, ...rest] = segments;
 
   if (first === 'blog') {
-    if (!second) {
-      return null;
-    }
-    return legacyWordPressBlogFallbackSlugs.has(second)
-      ? '/blog'
-      : null;
+    return null;
   }
 
   if (locales.has(first)) {
@@ -211,10 +251,7 @@ function getRedirectTarget(pathname: string): string | null {
       }
 
       if (second === 'blog') {
-        const blogSlug = rest[0];
-        const isLegacyFallback = rest.length === 1 && legacyWordPressBlogFallbackSlugs.has(blogSlug);
-
-        return isLegacyFallback ? '/blog' : `/blog${rest.length > 0 ? `/${rest.join('/')}` : ''}`;
+        return `/blog${rest.length > 0 ? `/${rest.join('/')}` : ''}`;
       }
 
       const fileRedirect = legacyLocalizedFiles.get(second);
@@ -226,13 +263,6 @@ function getRedirectTarget(pathname: string): string | null {
     }
 
     if (second === 'blog') {
-      const blogSlug = rest[0];
-      const isLegacyFallback = rest.length === 1 && legacyWordPressBlogFallbackSlugs.has(blogSlug);
-
-      if (isLegacyFallback) {
-        return '/blog';
-      }
-
       return rest.length > 0 ? `/blog/${rest.join('/')}` : '/blog';
     }
 
@@ -248,6 +278,19 @@ function getRedirectTarget(pathname: string): string | null {
 }
 
 export const onRequest = defineMiddleware((context, next) => {
+  if (isLegacyMetadataImagePath(context.url.pathname)) {
+    return new Response(null, {
+      status: 410,
+      headers: {
+        'Cache-Control': 'public, max-age=3600, s-maxage=86400',
+      },
+    });
+  }
+
+  if (shouldStripLegacySearchParams(context.url)) {
+    return context.redirect(context.url.pathname, 301);
+  }
+
   const isInternalRewrite = context.request.headers.get(internalRewriteHeader) === '1';
   const target = isInternalRewrite ? null : getRedirectTarget(context.url.pathname);
 

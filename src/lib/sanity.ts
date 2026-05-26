@@ -110,6 +110,49 @@ export async function getBlogPostBySlug(slug: string): Promise<BlogPost | null> 
   }
 }
 
+export async function getUnavailableBlogPostStatus(slug: string): Promise<'scheduled' | 'gone' | 'missing'> {
+  try {
+    const query = `*[_type == "article" && slug.current == $slug][0] {
+      _id, _createdAt, _updatedAt, title, "slug": slug.current,
+      excerpt, content, publishedAt, author, category, tags,
+      coverImage { asset { _ref, _type } },
+      status
+    }`;
+    const post = await sanityClient.fetch<BlogPost | null>(query, { slug });
+
+    if (!post) {
+      return 'missing';
+    }
+
+    if (post.status !== 'published' || !post.publishedAt || new Date(post.publishedAt) > new Date()) {
+      return 'scheduled';
+    }
+
+    return isPublicAllowedBlogPost(post) ? 'missing' : 'gone';
+  } catch (error) {
+    console.error('Error checking blog post availability:', error);
+    return 'missing';
+  }
+}
+
+function isNearSlugMatch(inputSlug: string, candidateSlug: string): boolean {
+  const input = decodeURIComponent(inputSlug).replace(/\/+$/, '');
+  const candidate = decodeURIComponent(candidateSlug).replace(/\/+$/, '');
+  const shorter = input.length <= candidate.length ? input : candidate;
+  const longer = input.length > candidate.length ? input : candidate;
+
+  return shorter.length >= 40 && longer.startsWith(shorter) && longer.length - shorter.length <= 16;
+}
+
+export async function findCanonicalBlogSlug(slug: string): Promise<string | null> {
+  const posts = await getAllBlogPosts();
+  const matches = posts
+    .map((post) => post.slug)
+    .filter((candidate) => candidate && candidate !== slug && isNearSlugMatch(slug, candidate));
+
+  return matches.length === 1 ? matches[0] : null;
+}
+
 // Get featured image URL
 export function getFeaturedImageUrl(post: BlogPost): string | null {
   if (!post.coverImage?.asset?._ref) return null;

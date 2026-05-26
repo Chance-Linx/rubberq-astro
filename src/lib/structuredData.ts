@@ -188,7 +188,7 @@ export function createCaseStudiesSchema(locale: string, studies: CaseStudySchema
     itemListElement: studies.map((study, index) => ({
       '@type': 'ListItem',
       position: index + 1,
-      url: `${localeBaseUrl(locale)}/case-studies?case=${study.id}`,
+      url: `${localeBaseUrl(locale)}/case-studies#case-${study.id}`,
       item: {
         '@type': 'Article',
         headline: study.title,

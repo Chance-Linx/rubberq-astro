@@ -34,6 +34,7 @@ ensure(duplicateLocs.length === 0, `Sitemap must not contain duplicate loc value
 ensure(sitemapLocs.every((loc) => loc.startsWith(`${SITE_ORIGIN}/`)), `Sitemap URLs must use ${SITE_ORIGIN}.`);
 ensure(!sitemapPaths.has('/en'), 'Sitemap must not include legacy /en homepage.');
 ensure(!sitemapPaths.has('/en/blog'), 'Sitemap must not include legacy /en/blog.');
+ensure(![...sitemapPaths].some((path) => path === '/search' || path.endsWith('/search')), 'Sitemap must not include search pages.');
 ensure(sitemapPaths.has('/'), 'Sitemap must include root English homepage.');
 ensure(sitemapPaths.has('/blog'), 'Sitemap must include canonical /blog.');
 

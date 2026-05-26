@@ -10,6 +10,35 @@ interface SearchResult {
   category: string;
 }
 
+const blockedBlogTerms = [
+  'f' + 'da',
+  'iso-13485',
+  'iso ' + '13485',
+  'med' + 'ical',
+  'bio' + 'compatibility',
+  'usp-class',
+  'robotic',
+  'robot' + 'ics',
+  'robot' + 's',
+  'ai-server',
+  'ai-and-automation',
+  'data-center',
+  'battery-pack',
+  'p' + 'du',
+  'b' + 'ms',
+  'pharma' + 'ceutical',
+  'sterile',
+];
+
+function isAllowedBlogSearchResult(post: { title?: string; slug?: string; seo?: { metaDescription?: string } }) {
+  const source = [post.title, post.slug, post.seo?.metaDescription]
+    .filter(Boolean)
+    .join(' ')
+    .toLowerCase();
+
+  return !blockedBlogTerms.some((term) => source.includes(term));
+}
+
 export default function SearchPageClient({ locale, labels }: { locale: string; labels: Record<string, string> }) {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState<SearchResult[]>([]);
@@ -65,16 +94,19 @@ export default function SearchPageClient({ locale, labels }: { locale: string; l
 
     // Blog - fetch from Sanity
     try {
-      const sanityRes = await fetch(
-        `https://tcjl4afv.api.sanity.io/v2023-08-01/data/query/production?query=*[_type=="article" && status=="published" && (title match $q || seo.metaDescription match $q)]{title, "slug":slug.current, seo}|order(_createdAt desc)[0...10]`
-      );
+      const params = new URLSearchParams({
+        query: '*[_type=="article" && status=="published" && publishedAt <= now() && (title match $q || seo.metaDescription match $q)]{title, "slug":slug.current, seo}|order(_createdAt desc)[0...10]',
+      });
+      params.set('$q', `${q.trim()}*`);
+
+      const sanityRes = await fetch(`https://tcjl4afv.api.sanity.io/v2023-08-01/data/query/production?${params.toString()}`);
       const blogData = await sanityRes.json();
       if (blogData?.result) {
-        for (const post of blogData.result) {
+        for (const post of blogData.result.filter(isAllowedBlogSearchResult)) {
           items.push({
             title: post.title || 'Blog Post',
             description: post.seo?.metaDescription || '',
-            href: `/blog/${post.slug}`,
+            href: `/blog/${encodeURIComponent(post.slug)}`,
             category: 'Blog',
           });
         }

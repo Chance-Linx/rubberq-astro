@@ -25,6 +25,7 @@ const labels = {
   <Fragment slot="head">
     <title>{meta.search?.title || 'Search'}</title>
     <meta name="description" content={meta.search?.description || ''} />
+    <meta name="robots" content="noindex,follow" />
   </Fragment>
   <SearchPageClient client:load locale={locale} labels={labels} />
 </LocaleLayout>

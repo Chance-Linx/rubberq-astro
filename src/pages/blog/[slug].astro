@@ -1,6 +1,6 @@
 ---
 import BlogLayout from '@/layouts/BlogLayout.astro';
-import { getBlogPostBySlug, getFeaturedImageUrl, getBlogUrl, getRelatedPosts, getAllBlogPosts } from '@/lib/sanity';
+import { findCanonicalBlogSlug, getBlogPostBySlug, getFeaturedImageUrl, getBlogUrl, getRelatedPosts, getAllBlogPosts, getUnavailableBlogPostStatus } from '@/lib/sanity';
 import JsonLd from '@/components/JsonLd';
 import { createBlogPostingSchema } from '@/lib/structuredData';
 import type { BlogPost } from '@/lib/sanity';
@@ -17,7 +17,24 @@ const { slug } = Astro.params;
 const post = await getBlogPostBySlug(slug!);
 
 if (!post) {
-  return Astro.redirect('/blog', 302);
+  const canonicalSlug = await findCanonicalBlogSlug(slug!);
+
+  if (canonicalSlug) {
+    return Astro.redirect(getBlogUrl(canonicalSlug), 301);
+  }
+
+  const unavailableStatus = await getUnavailableBlogPostStatus(slug!);
+
+  if (unavailableStatus === 'scheduled') {
+    return new Response(null, { status: 404 });
+  }
+
+  return new Response(null, {
+    status: 410,
+    headers: {
+      'Cache-Control': 'public, max-age=3600, s-maxage=86400',
+    },
+  });
 }
 
 const imageUrl = getFeaturedImageUrl(post);

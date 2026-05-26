@@ -22,7 +22,7 @@ export const GET: APIRoute = async () => {
     '', 'products', 'case-studies', 'factory', 'about', 'capabilities',
     'compounding', 'testing', 'industries',
     'materials', 'quality', 'resources', 'contact', 'sample-request',
-    'batch-rfq', 'search', 'standards', 'privacy', 'terms'
+    'batch-rfq', 'standards', 'privacy', 'terms'
   ];
   const industryPages = ['ev-energy-storage', 'industrial-equipment', 'semiconductor', 'automotive-tier2'];
 

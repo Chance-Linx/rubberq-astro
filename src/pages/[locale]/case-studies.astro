@@ -341,7 +341,7 @@ const cases = casesByLocale[locale] || casesByLocale.en;
     <section class="py-20 px-4">
       <div class="max-w-7xl mx-auto space-y-16">
         {cases.map((item, index) => (
-          <article class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center border-b border-industrial-100 pb-16 last:border-b-0 last:pb-0">
+          <article id={`case-${item.id}`} class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center border-b border-industrial-100 pb-16 last:border-b-0 last:pb-0">
             <div class={`aspect-[4/3] overflow-hidden bg-industrial-100 ${index % 2 === 1 ? 'lg:order-2' : ''}`}>
               <img src={item.image} alt={item.title} class="w-full h-full object-cover" />
             </div>
