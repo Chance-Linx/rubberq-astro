@@ -124,6 +124,10 @@ export async function getUnavailableBlogPostStatus(slug: string): Promise<'sched
       return 'missing';
     }
 
+    if (post.status === 'archived') {
+      return 'gone';
+    }
+
     if (post.status !== 'published' || !post.publishedAt || new Date(post.publishedAt) > new Date()) {
       return 'scheduled';
     }
