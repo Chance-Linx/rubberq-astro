@@ -11,6 +11,7 @@ type CookiePreferences = {
 
 type CategoryLabels = {
   preferencesTitle: string;
+  customize: string;
   savePreferences: string;
   necessaryLabel: string;
   analyticsLabel: string;
@@ -20,6 +21,7 @@ type CategoryLabels = {
 const categoryLabels: Record<string, CategoryLabels> = {
   en: {
     preferencesTitle: 'Cookie Categories',
+    customize: 'Cookie settings',
     savePreferences: 'Save Preferences',
     necessaryLabel: 'Necessary cookies',
     analyticsLabel: 'Analytics cookies',
@@ -27,6 +29,7 @@ const categoryLabels: Record<string, CategoryLabels> = {
   },
   zh: {
     preferencesTitle: 'Cookie 分类',
+    customize: 'Cookie 设置',
     savePreferences: '保存偏好',
     necessaryLabel: '必要 Cookie',
     analyticsLabel: '分析 Cookie',
@@ -34,6 +37,7 @@ const categoryLabels: Record<string, CategoryLabels> = {
   },
   de: {
     preferencesTitle: 'Cookie-Kategorien',
+    customize: 'Cookie-Einstellungen',
     savePreferences: 'Einstellungen speichern',
     necessaryLabel: 'Notwendige Cookies',
     analyticsLabel: 'Analyse-Cookies',
@@ -41,6 +45,7 @@ const categoryLabels: Record<string, CategoryLabels> = {
   },
   ja: {
     preferencesTitle: 'Cookieカテゴリ',
+    customize: 'Cookie設定',
     savePreferences: '設定を保存',
     necessaryLabel: '必須Cookie',
     analyticsLabel: '分析Cookie',
@@ -48,6 +53,7 @@ const categoryLabels: Record<string, CategoryLabels> = {
   },
   es: {
     preferencesTitle: 'Categorias de cookies',
+    customize: 'Configurar cookies',
     savePreferences: 'Guardar preferencias',
     necessaryLabel: 'Cookies necesarias',
     analyticsLabel: 'Cookies analiticas',
@@ -80,6 +86,7 @@ type CookieConsentProps = {
 
 const CookieConsent = ({ locale = 'en', messages }: CookieConsentProps) => {
   const [isVisible, setIsVisible] = useState(false);
+  const [showPreferences, setShowPreferences] = useState(false);
   const [analytics, setAnalytics] = useState(false);
 
   const normalizedLocale = categoryLabels[locale] ? locale : 'en';
@@ -121,7 +128,7 @@ const CookieConsent = ({ locale = 'en', messages }: CookieConsentProps) => {
     }
 
     if (!consent) {
-      const timer = setTimeout(() => setIsVisible(true), 2000);
+      const timer = setTimeout(() => setIsVisible(true), 6000);
       return () => clearTimeout(timer);
     }
   }, []);
@@ -160,16 +167,45 @@ const CookieConsent = ({ locale = 'en', messages }: CookieConsentProps) => {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-[100] p-4 md:p-6 animate-in fade-in slide-in slide-in-from-bottom-10 duration-700">
-      <div className="max-w-7xl mx-auto bg-industrial-900 border border-industrial-700 shadow-2xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
-        <div className="flex-grow">
-          <h3 className="text-white font-bold text-lg mb-2 uppercase tracking-tight">{messages.title}</h3>
-          <p className="text-white text-sm leading-relaxed max-w-3xl">
-            {messages.descriptionPrefix} <a href={privacyHref} className="text-accent-orange underline hover:text-white transition-colors">{messages.privacyLink}</a> {messages.descriptionSuffix}
-          </p>
+    <div className="fixed inset-x-0 bottom-0 z-[100] p-2 sm:p-3 md:p-4">
+      <div className="mx-auto max-w-4xl border border-industrial-700 bg-industrial-900 shadow-2xl">
+        <div className="flex flex-col gap-3 p-3 sm:p-4 md:flex-row md:items-center md:justify-between">
+          <div className="min-w-0 flex-1">
+            <h3 className="mb-1 text-xs font-bold uppercase text-white sm:text-sm">{messages.title}</h3>
+            <p className="max-w-3xl text-[11px] leading-5 text-industrial-200 sm:text-xs">
+              {messages.descriptionPrefix} <a href={privacyHref} className="text-accent-orange underline hover:text-white transition-colors">{messages.privacyLink}</a> {messages.descriptionSuffix}
+            </p>
+          </div>
 
-          <div className="mt-5 border border-industrial-700 bg-industrial-800/60 p-4">
-            <h4 className="text-xs font-bold uppercase tracking-widest text-industrial-300 mb-3">{labels.preferencesTitle}</h4>
+          <div className="grid grid-cols-3 gap-2 md:flex md:shrink-0">
+            <button
+              type="button"
+              onClick={() => setShowPreferences((value) => !value)}
+              aria-expanded={showPreferences}
+              className="min-h-9 border border-industrial-500 px-2 py-2 text-[10px] font-bold uppercase leading-tight text-white transition-all hover:bg-industrial-700 sm:text-xs"
+            >
+              {labels.customize}
+            </button>
+            <button
+              type="button"
+              onClick={handleDecline}
+              className="min-h-9 border border-industrial-500 px-2 py-2 text-[10px] font-bold uppercase leading-tight text-white transition-all hover:bg-white hover:text-industrial-900 sm:text-xs"
+            >
+              {messages.decline}
+            </button>
+            <button
+              type="button"
+              onClick={handleAccept}
+              className="min-h-9 bg-accent-orange px-2 py-2 text-[10px] font-bold uppercase leading-tight text-white shadow-lg transition-all hover:bg-white hover:text-industrial-900 sm:text-xs"
+            >
+              {messages.acceptAll}
+            </button>
+          </div>
+        </div>
+
+        {showPreferences && (
+          <div className="border-t border-industrial-700 bg-industrial-800/70 p-3 sm:p-4">
+            <h4 className="mb-3 text-xs font-bold uppercase text-industrial-300">{labels.preferencesTitle}</h4>
 
             <div className="space-y-2">
               <div className="flex items-center justify-between text-sm text-white">
@@ -177,38 +213,26 @@ const CookieConsent = ({ locale = 'en', messages }: CookieConsentProps) => {
                 <span className="text-xs uppercase text-industrial-300">{labels.alwaysOn}</span>
               </div>
 
-              <label className="flex items-center justify-between gap-6 text-sm text-white cursor-pointer">
+              <label className="flex cursor-pointer items-center justify-between gap-6 text-sm text-white">
                 <span>{labels.analyticsLabel}</span>
                 <input
                   type="checkbox"
                   checked={analytics}
                   onChange={(event) => setAnalytics(event.target.checked)}
-                  className="w-4 h-4"
+                  className="h-4 w-4"
                 />
               </label>
             </div>
+
+            <button
+              type="button"
+              onClick={handleSavePreferences}
+              className="mt-4 w-full border border-industrial-500 px-4 py-2 text-xs font-bold uppercase text-white transition-all hover:bg-industrial-700 sm:w-auto"
+            >
+              {labels.savePreferences}
+            </button>
           </div>
-        </div>
-        <div className="flex flex-col sm:flex-row gap-3 w-full md:w-auto shrink-0">
-          <button
-            onClick={handleSavePreferences}
-            className="px-6 py-3 text-sm font-bold uppercase tracking-widest text-white border border-industrial-500 hover:bg-industrial-700 transition-all"
-          >
-            {labels.savePreferences}
-          </button>
-          <button 
-            onClick={handleDecline}
-            className="px-6 py-3 text-sm font-bold uppercase tracking-widest text-white border border-white hover:bg-white hover:text-industrial-900 transition-all"
-          >
-            {messages.decline}
-          </button>
-          <button 
-            onClick={handleAccept}
-            className="px-8 py-3 text-sm font-bold uppercase tracking-widest bg-accent-orange text-white hover:bg-white hover:text-industrial-900 transition-all shadow-lg"
-          >
-            {messages.acceptAll}
-          </button>
-        </div>
+        )}
       </div>
     </div>
   );

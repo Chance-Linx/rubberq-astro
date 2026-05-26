@@ -26,7 +26,7 @@ const labelsByLocale: Record<Locale, SubscribeLabels> = {
     submitting: 'Submitting...',
     success: 'Subscribed',
     successMessage: 'You are on the list. We will send the next technical update to your inbox.',
-    error: 'Subscription failed. Please try again or email contact@rubberq.com.',
+    error: 'Subscription failed. Please try again or contact us directly.',
   },
   zh: {
     title: '订阅技术更新',
@@ -36,7 +36,7 @@ const labelsByLocale: Record<Locale, SubscribeLabels> = {
     submitting: '提交中...',
     success: '订阅成功',
     successMessage: '已加入订阅列表，后续技术更新将发送至您的邮箱。',
-    error: '订阅失败，请重试或发送邮件至 contact@rubberq.com。',
+    error: '订阅失败，请重试或直接联系我们。',
   },
   de: {
     title: 'Technische Updates abonnieren',
@@ -46,7 +46,7 @@ const labelsByLocale: Record<Locale, SubscribeLabels> = {
     submitting: 'Wird gesendet...',
     success: 'Abonniert',
     successMessage: 'Sie wurden eingetragen. Das nachste Update kommt per E-Mail.',
-    error: 'Abonnement fehlgeschlagen. Bitte erneut versuchen oder contact@rubberq.com schreiben.',
+    error: 'Abonnement fehlgeschlagen. Bitte erneut versuchen oder direkt Kontakt aufnehmen.',
   },
   ja: {
     title: '技術アップデートを購読',
@@ -56,7 +56,7 @@ const labelsByLocale: Record<Locale, SubscribeLabels> = {
     submitting: '送信中...',
     success: '登録完了',
     successMessage: '購読リストに追加されました。次回更新をメールでお届けします。',
-    error: '登録に失敗しました。再試行するか contact@rubberq.com へご連絡ください。',
+    error: '登録に失敗しました。再試行するか直接お問い合わせください。',
   },
   es: {
     title: 'Suscribirse a actualizaciones tecnicas',
@@ -66,7 +66,7 @@ const labelsByLocale: Record<Locale, SubscribeLabels> = {
     submitting: 'Enviando...',
     success: 'Suscripcion activa',
     successMessage: 'Ya esta en la lista. Recibira la proxima actualizacion tecnica por correo.',
-    error: 'No se pudo suscribir. Intente de nuevo o escriba a contact@rubberq.com.',
+    error: 'No se pudo suscribir. Intente de nuevo o contactenos directamente.',
   },
 };
 

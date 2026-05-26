@@ -81,6 +81,6 @@ const cookieConsentMessages = {
   </head>
   <body class="bg-background text-foreground antialiased min-h-screen">
     <slot />
-    <CookieConsent locale={normalizedLang} messages={cookieConsentMessages} client:load />
+    <CookieConsent locale={normalizedLang} messages={cookieConsentMessages} client:idle />
   </body>
 </html>

@@ -72,7 +72,6 @@ export function createOrganizationSchema(locale: string) {
     sameAs: [
       'https://www.linkedin.com/company/rubberq',
     ],
-    email: 'contact@rubberq.com',
     areaServed: ['Europe', 'North America', 'Japan', 'Southeast Asia'],
     knowsAbout: [
       'In-house rubber compounding',
@@ -123,7 +122,7 @@ export function createOrganizationSchema(locale: string) {
     contactPoint: {
       '@type': 'ContactPoint',
       contactType: 'sales',
-      email: 'contact@rubberq.com',
+      url: `${baseUrl}/contact`,
       availableLanguage: ['en', 'de', 'ja', 'es', 'zh'],
       areaServed: ['Global'],
     },
