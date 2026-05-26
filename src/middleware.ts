@@ -14,6 +14,8 @@ const legacyPathRedirects = new Map([
   ['/es/calidad', '/es/quality'],
   ['/es/terminos', '/es/terms'],
   ['/es/productos', '/es/products'],
+  ['/es/materiales', '/es/materials'],
+  ['/es/materiales/nbr', '/es/materials/nbr'],
   ['/de/agb', '/de/terms'],
   ['/de/referenzen', '/de/case-studies'],
   ['/de/produkte', '/de/products'],
