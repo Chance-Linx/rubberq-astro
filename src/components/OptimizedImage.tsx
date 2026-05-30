@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 interface OptimizedImageProps {
   src: string;
@@ -24,13 +24,20 @@ export default function OptimizedImage({
   sizes = '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw',
 }: OptimizedImageProps) {
   const [isLoading, setIsLoading] = useState(true);
+  const imgRef = useRef<HTMLImageElement>(null);
+
+  useEffect(() => {
+    if (imgRef.current?.complete) {
+      setIsLoading(false);
+    }
+  }, [src]);
 
   const imgStyle: React.CSSProperties = fill
     ? { position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }
     : {};
 
   return (
-    <div className={`relative overflow-hidden ${className}`}>
+    <div className="relative h-full w-full overflow-hidden">
       {isLoading && (
         <div
           className="absolute inset-0 animate-pulse bg-industrial-100"
@@ -40,6 +47,7 @@ export default function OptimizedImage({
         />
       )}
       <img
+        ref={imgRef}
         src={src}
         alt={alt}
         width={fill ? undefined : width}
@@ -47,8 +55,9 @@ export default function OptimizedImage({
         style={imgStyle}
         loading={priority ? 'eager' : 'lazy'}
         sizes={sizes}
-        className={`transition-opacity duration-300 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
+        className={`transition-opacity duration-300 ${className} ${isLoading ? 'opacity-0' : 'opacity-100'}`}
         onLoad={() => setIsLoading(false)}
+        onError={() => setIsLoading(false)}
       />
     </div>
   );

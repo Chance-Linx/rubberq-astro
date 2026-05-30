@@ -67,10 +67,22 @@ body {
     object-fit: cover;
     filter: grayscale(1) contrast(1.08) brightness(0.78);
     transform: scale(1.01);
+    transition-property: filter, transform, opacity;
+    transition-duration: 420ms;
+    transition-timing-function: var(--ease-out-rq);
   }
 
   .rq-media-soft > img {
     filter: grayscale(1) contrast(1.02) brightness(0.9);
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .rq-media:hover img,
+    .group:hover .rq-media img,
+    :where(section, article, a, div):has(> .rq-media):hover > .rq-media img {
+      filter: none;
+      transform: scale(1.035);
+    }
   }
 
   .rq-link {

@@ -86,7 +86,7 @@ const PRODUCT_BLUEPRINTS: Record<ProductSlug, ProductBlueprint> = {
   gaskets: {
     slug: 'gaskets',
     modelCode: 'RQ-GK',
-    heroImage: '/images/legacy_resource/2021/01/13/5ffee5e7e0129.jpg',
+    heroImage: '/images/legacy_resource/2021/01/14/5fffd94b86544.jpg',
     summary: [
       { term: 'Primary Function', description: 'Surface sealing and interface compensation for flanged assemblies.' },
       { term: 'Design Focus', description: 'Thickness and compression behavior for repeatable sealing performance.' },
@@ -131,7 +131,7 @@ const PRODUCT_BLUEPRINTS: Record<ProductSlug, ProductBlueprint> = {
   bellows: {
     slug: 'bellows',
     modelCode: 'RQ-BL',
-    heroImage: '/images/legacy_resource/2021/01/13/5ffee5f922736.jpg',
+    heroImage: '/images/legacy_resource/2021/01/14/5fffd989a7d6a.jpg',
     summary: [
       { term: 'Primary Function', description: 'Protective motion cover for linear and rotary mechanisms.' },
       { term: 'Fatigue Profile', description: 'Multi-convolution geometries for repeated extension cycles.' },
@@ -176,7 +176,7 @@ const PRODUCT_BLUEPRINTS: Record<ProductSlug, ProductBlueprint> = {
   custom: {
     slug: 'custom',
     modelCode: 'RQ-CM',
-    heroImage: '/images/legacy_resource/2021/01/13/5ffee5158656d.jpg',
+    heroImage: '/images/legacy_resource/2021/01/14/5fffd971e7d47.jpg',
     summary: [
       { term: 'Primary Function', description: 'Application-specific molded elastomer components from drawing to SOP.' },
       { term: 'Engineering Depth', description: 'Material formulation, tooling design, and process validation in one flow.' },

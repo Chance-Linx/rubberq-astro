@@ -394,7 +394,7 @@ const videoTestimonials = [
               {Array.isArray(labEquipment) && labEquipment.map((eq: {name: string, function: string, standards?: string, img: string}) => (
                 <div class="flex flex-col gap-3 group">
                   <div class="aspect-video overflow-hidden border border-industrial-100 shadow-sm">
-                    <img src={eq.img} alt={eq.name} class="w-full h-full object-cover grayscale contrast-110 brightness-90 group-hover:brightness-100 transition-[filter,transform] duration-500" />
+                    <img src={eq.img} alt={eq.name} class="w-full h-full object-cover grayscale contrast-110 brightness-90 group-hover:grayscale-0 group-hover:contrast-100 group-hover:brightness-100 transition-[filter,transform] duration-500" />
                   </div>
                   <div class="flex items-start gap-3">
                     <svg class="w-5 h-5 text-industrial-900 mt-1 shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
