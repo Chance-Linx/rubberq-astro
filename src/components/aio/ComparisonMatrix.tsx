@@ -18,7 +18,7 @@ const ComparisonMatrix: React.FC<ComparisonMatrixProps> = ({ title, headers, row
   return (
     <div className="my-10">
       {title && <h3 className="text-lg font-bold mb-4 text-industrial-900 uppercase tracking-wider">{title}</h3>}
-      <div className="overflow-x-auto border border-industrial-700 rounded-lg shadow-sm bg-white">
+      <div className="overflow-x-auto border border-industrial-700 bg-white">
         <table className="min-w-full divide-y divide-industrial-200">
           <thead className="bg-industrial-50">
             <tr>

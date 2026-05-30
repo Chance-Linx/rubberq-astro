@@ -30,6 +30,14 @@ const visualLabels = {
   processVideo: c('visualLabels.processVideo', 'Process Video'),
   processVideoMeta: c('visualLabels.processVideoMeta', 'Factory process overview'),
 };
+const visualImages = {
+  hero: '/images/legacy_resource/2021/03/17/60515a8c28356.jpg',
+  machine: '/images/legacy_resource/2021/03/17/60515a8bd1599.jpg',
+  control: '/images/legacy_resource/2021/02/04/601bdacb6a052.jpg',
+  process: '/images/legacy_resource/2021/01/15/6001a3d0882a9.jpg',
+  equipment: '/images/legacy_resource/2021/02/04/601bdacc39a96.jpg',
+  video: '/images/legacy_resource/2021/03/17/60515a8c28356.jpg',
+};
 
 const orgSchema = createOrganizationSchema(locale!);
 ---
@@ -47,15 +55,13 @@ const orgSchema = createOrganizationSchema(locale!);
     <!-- ============================================================ -->
     <section class="relative bg-industrial-900 text-white overflow-hidden">
       <div
-        class="absolute inset-0 opacity-30"
+        class="absolute inset-0 opacity-35 rq-media"
         data-slot-id="compounding-hero-video"
         data-purpose="A 炼车间工作循环视频（最好有密炼机搅拌镜头）"
         data-spec="MP4 / WebM, ≤3MB, 10-15s loop, 无声"
         data-priority="critical"
       >
-        <div class="w-full h-full bg-gradient-to-br from-industrial-800 to-industrial-900 flex items-center justify-center">
-          <span class="text-industrial-600 text-xs uppercase tracking-widest">{visualLabels.hero}</span>
-        </div>
+        <img src={visualImages.hero} alt={visualLabels.hero} loading="eager" />
       </div>
       <div class="absolute inset-0 bg-grid-pattern bg-grid-size opacity-10"></div>
 
@@ -73,13 +79,13 @@ const orgSchema = createOrganizationSchema(locale!);
           <div class="flex flex-col sm:flex-row gap-4">
             <a
               href={localizedPath(locale, `/contact?type=application`)}
-              class="bg-accent-orange text-white px-8 py-4 font-bold text-sm tracking-widest hover:bg-white hover:text-industrial-900 transition-all duration-300 text-center"
+              class="rq-pressable bg-accent-orange text-white px-8 py-4 font-bold text-sm tracking-[0.18em] hover:bg-white hover:text-industrial-900 text-center"
             >
               {c('hero.ctaPrimary', 'DISCUSS YOUR APPLICATION')}
             </a>
             <a
               href="/downloads/compound-capability-sheet.pdf"
-              class="border border-industrial-500 text-white px-8 py-4 font-bold text-sm tracking-widest hover:border-white transition-all duration-300 text-center"
+              class="rq-pressable border border-industrial-500 text-white px-8 py-4 font-bold text-sm tracking-[0.18em] hover:border-white text-center"
             >
               {c('hero.ctaSecondary', 'DOWNLOAD CAPABILITY SHEET')}
             </a>
@@ -99,7 +105,7 @@ const orgSchema = createOrganizationSchema(locale!);
 
         <div class="grid md:grid-cols-2 gap-10">
           <!-- Typical supplier (red) -->
-          <div class="border-l-4 border-accent-orange pl-6 py-2">
+          <div class="border border-industrial-200 bg-industrial-50 p-6">
             <p class="text-industrial-700 mb-4 font-medium">{c('whyCompounding.introTypical')}</p>
             <ul class="space-y-3">
               {typicalItems.map((item: string) => (
@@ -112,7 +118,7 @@ const orgSchema = createOrganizationSchema(locale!);
           </div>
 
           <!-- RubberQ (green) -->
-          <div class="border-l-4 border-accent-orange pl-6 py-2">
+          <div class="border border-industrial-200 bg-white p-6">
             <p class="text-industrial-900 mb-4 font-medium">{c('whyCompounding.introRubberQ')}</p>
             <ul class="space-y-3">
               {rubberQItems.map((item: string) => (
@@ -138,14 +144,13 @@ const orgSchema = createOrganizationSchema(locale!);
 
         <div class="grid lg:grid-cols-2 gap-12 mb-16">
           <div
-            class="aspect-video bg-industrial-100 border-2 border-dashed border-industrial-300 flex flex-col items-center justify-center text-center p-6"
+            class="aspect-video bg-industrial-100 border border-industrial-300 rq-media"
             data-slot-id="compounding-aline-machine"
             data-purpose="A-Mixing Line 板块：密炼机正面特写"
             data-spec="1600x900"
             data-priority="critical"
           >
-            <span class="text-xs uppercase tracking-widest text-industrial-500 mb-2">{visualLabels.machine}</span>
-            <span class="text-sm text-industrial-700">{c('aline.title')}</span>
+            <img src={visualImages.machine} alt={visualLabels.machine} loading="lazy" />
           </div>
 
           <!-- Capacity facts -->
@@ -187,22 +192,22 @@ const orgSchema = createOrganizationSchema(locale!);
         <!-- Secondary images: control + process -->
         <div class="grid md:grid-cols-2 gap-6 mt-12">
           <div
-            class="aspect-video bg-industrial-100 border-2 border-dashed border-industrial-300 flex flex-col items-center justify-center text-center p-6"
+            class="aspect-video bg-industrial-100 border border-industrial-300 rq-media rq-media-soft"
             data-slot-id="compounding-aline-control"
             data-purpose="A-Mixing Line：控制面板/称重系统特写"
             data-spec="1600x900"
             data-priority="important"
           >
-            <span class="text-xs uppercase tracking-widest text-industrial-500 mb-2">{visualLabels.control}</span>
+            <img src={visualImages.control} alt={visualLabels.control} loading="lazy" />
           </div>
           <div
-            class="aspect-video bg-industrial-100 border-2 border-dashed border-industrial-300 flex flex-col items-center justify-center text-center p-6"
+            class="aspect-video bg-industrial-100 border border-industrial-300 rq-media rq-media-soft"
             data-slot-id="compounding-aline-process"
             data-purpose="A-Mixing Line：原料投放或排料场景"
             data-spec="1600x900"
             data-priority="important"
           >
-            <span class="text-xs uppercase tracking-widest text-industrial-500 mb-2">{visualLabels.process}</span>
+            <img src={visualImages.process} alt={visualLabels.process} loading="lazy" />
           </div>
         </div>
       </div>
@@ -237,7 +242,7 @@ const orgSchema = createOrganizationSchema(locale!);
               <span class="text-lg font-bold text-industrial-900 mb-2">{c('abMixing.imageSlot.title')}</span>
               <span class="text-xs text-industrial-500 max-w-md leading-relaxed">{c('abMixing.imageSlot.meta')}</span>
             </div>
-            <div class="bg-industrial-900 text-white p-7 border-l-4 border-accent-orange">
+            <div class="bg-industrial-900 text-white p-7 border-t-4 border-accent-orange">
               <h3 class="font-bold uppercase tracking-tight mb-4">{c('abMixing.testsTitle')}</h3>
               <div class="flex flex-wrap gap-2">
                 {Array.isArray(abReleaseTests) && abReleaseTests.map((test: string) => (
@@ -284,14 +289,13 @@ const orgSchema = createOrganizationSchema(locale!);
             return (
               <div class="bg-industrial-50 border border-industrial-200 overflow-hidden group hover:border-accent-orange transition-colors">
                 <div
-                  class="aspect-square bg-industrial-100 border-b border-dashed border-industrial-300 flex flex-col items-center justify-center text-center p-4"
+                  class="aspect-square bg-industrial-100 border-b border-industrial-300 rq-media rq-media-soft"
                   data-slot-id={slotIds[idx] || `compounding-lab-${idx}`}
                   data-purpose={`Lab Equipment 网格：${item.name}`}
                   data-spec="800x600"
                   data-priority="important"
                 >
-                  <span class="text-[10px] uppercase tracking-widest text-industrial-400 mb-1">{visualLabels.equipment}</span>
-                  <span class="text-xs text-industrial-600">{item.name}</span>
+                  <img src={visualImages.equipment} alt={item.name} loading="lazy" />
                 </div>
                 <div class="p-5">
                   <h3 class="font-bold text-industrial-900 mb-1 uppercase text-sm tracking-tight">{item.name}</h3>
@@ -379,7 +383,7 @@ const orgSchema = createOrganizationSchema(locale!);
           <p class="text-industrial-700 max-w-2xl">{c('library.outro')}</p>
           <a
             href={localizedPath(locale, `/contact?type=application`)}
-            class="bg-industrial-900 text-white px-6 py-3 font-bold text-sm tracking-widest uppercase hover:bg-accent-orange transition-colors"
+            class="rq-pressable bg-industrial-900 text-white px-6 py-3 font-bold text-sm tracking-widest uppercase hover:bg-accent-orange"
           >
             {c('library.cta')} →
           </a>
@@ -398,21 +402,21 @@ const orgSchema = createOrganizationSchema(locale!);
         <p class="text-lg text-industrial-700 mb-10">{c('boundaries.intro')}</p>
 
         <div class="space-y-4">
-          <div class="bg-white border-l-4 border-accent-orange p-6">
+          <div class="bg-white border border-industrial-200 border-t-4 border-accent-orange p-6">
             <div class="flex items-baseline gap-3 mb-2">
               <span class="text-accent-orange text-xl">✅</span>
               <h3 class="text-lg font-bold text-industrial-900">{c('boundaries.fast.label')}</h3>
             </div>
             <p class="text-industrial-700 pl-9">{c('boundaries.fast.desc')}</p>
           </div>
-          <div class="bg-white border-l-4 border-accent-orange p-6">
+          <div class="bg-white border border-industrial-200 border-t-4 border-accent-orange p-6">
             <div class="flex items-baseline gap-3 mb-2">
               <span class="text-accent-orange text-xl">✅</span>
               <h3 class="text-lg font-bold text-industrial-900">{c('boundaries.standard.label')}</h3>
             </div>
             <p class="text-industrial-700 pl-9">{c('boundaries.standard.desc')}</p>
           </div>
-          <div class="bg-white border-l-4 border-accent-orange p-6">
+          <div class="bg-white border border-industrial-200 border-t-4 border-accent-orange p-6">
             <div class="flex items-baseline gap-3 mb-2">
               <span class="text-accent-orange text-xl">⚠</span>
               <h3 class="text-lg font-bold text-industrial-900">{c('boundaries.ndaDependent.label')}</h3>
@@ -421,7 +425,7 @@ const orgSchema = createOrganizationSchema(locale!);
           </div>
         </div>
 
-        <div class="mt-10 bg-industrial-900 text-white p-6 border-l-4 border-accent-orange">
+        <div class="mt-10 bg-industrial-900 text-white p-6 border-t-4 border-accent-orange">
           <p class="font-medium leading-relaxed">{c('boundaries.validationNote')}</p>
         </div>
       </div>
@@ -433,15 +437,13 @@ const orgSchema = createOrganizationSchema(locale!);
     <section class="py-24 bg-white">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div
-          class="aspect-video bg-industrial-100 border-2 border-dashed border-industrial-300 flex flex-col items-center justify-center text-center p-6"
+          class="aspect-video bg-industrial-100 border border-industrial-300 rq-media"
           data-slot-id="compounding-video-process"
           data-purpose="工艺宣传片嵌入式视频"
           data-spec="MP4，1-3 分钟，工艺流程展示"
           data-priority="critical"
         >
-          <span class="text-xs uppercase tracking-widest text-industrial-500 mb-2">{visualLabels.processVideo}</span>
-          <span class="text-lg text-industrial-700 mb-1">{c('workflow.title')}</span>
-          <span class="text-sm text-industrial-500">{visualLabels.processVideoMeta}</span>
+          <img src={visualImages.video} alt={visualLabels.processVideo} loading="lazy" />
         </div>
       </div>
     </section>
@@ -460,13 +462,13 @@ const orgSchema = createOrganizationSchema(locale!);
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href={localizedPath(locale, `/contact?type=application`)}
-            class="bg-accent-orange text-white px-8 py-4 font-bold text-sm tracking-widest uppercase hover:bg-white hover:text-industrial-900 transition-all duration-300"
+            class="rq-pressable bg-accent-orange text-white px-8 py-4 font-bold text-sm tracking-[0.18em] uppercase hover:bg-white hover:text-industrial-900"
           >
             {c('finalCta.ctaPrimary')}
           </a>
           <a
             href={localizedPath(locale, `/contact?type=datasheet`)}
-            class="border border-industrial-500 text-white px-8 py-4 font-bold text-sm tracking-widest uppercase hover:border-white transition-all duration-300"
+            class="rq-pressable border border-industrial-500 text-white px-8 py-4 font-bold text-sm tracking-[0.18em] uppercase hover:border-white"
           >
             {c('finalCta.ctaSecondary')}
           </a>

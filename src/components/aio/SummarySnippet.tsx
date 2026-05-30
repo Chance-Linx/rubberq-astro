@@ -18,7 +18,7 @@ const SummarySnippet: React.FC<SummarySnippetProps> = ({
   items 
 }) => {
   return (
-    <div className="bg-industrial-100 border-l-4 border-industrial-900 p-6 my-8 shadow-sm">
+    <div className="bg-industrial-100 border border-industrial-200 border-t-4 border-industrial-900 p-6 my-8">
       <h3 className="text-xl font-bold text-industrial-900 mb-4 uppercase tracking-tight">
         {title}
       </h3>

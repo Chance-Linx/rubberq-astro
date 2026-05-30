@@ -127,7 +127,7 @@ const downloads = [
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           {productCategories.map((product) => (
-            <div class="group border border-industrial-200 hover:border-accent-orange transition-all duration-300 bg-white hover:shadow-xl">
+            <div class="group border border-industrial-200 hover:border-accent-orange transition-colors bg-white rq-lift rq-pressable">
               <!-- Image -->
               <div class="aspect-[16/9] overflow-hidden bg-industrial-100 relative">
                 <OptimizedImage
@@ -136,7 +136,7 @@ const downloads = [
                   alt={product.name}
                   width={800}
                   height={450}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  className="w-full h-full object-cover grayscale contrast-110 brightness-90 group-hover:scale-105 transition-transform duration-700"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
                 />
                 <div class="absolute top-4 right-4 bg-white px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-industrial-900">
@@ -239,7 +239,7 @@ const downloads = [
 
             <a
               href={localizedPath(locale, `/sample-request`)}
-              class="inline-flex items-center gap-2 bg-accent-orange text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-industrial-900 transition-all duration-300"
+              class="rq-pressable inline-flex items-center gap-2 bg-accent-orange text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-industrial-900"
             >
               {pp('startProject')}
               <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>

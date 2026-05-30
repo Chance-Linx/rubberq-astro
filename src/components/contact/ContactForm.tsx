@@ -353,7 +353,7 @@ export default function ContactForm({
   };
 
   return (
-    <div className="lg:col-span-2 bg-industrial-50 p-8 md:p-12 rounded-lg">
+    <div className="lg:col-span-2 bg-white border border-industrial-200 p-6 md:p-10 lg:p-12">
       <form onSubmit={handleSubmit} className="space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
@@ -365,7 +365,7 @@ export default function ContactForm({
               required
               value={formData.name}
               onChange={(e) => updateField('name', e.target.value)}
-              className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-industrial-900 transition-colors"
+              className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-accent-orange focus:ring-2 focus:ring-accent-orange/15 transition-colors"
               placeholder={labels.namePlaceholder}
             />
           </div>
@@ -378,7 +378,7 @@ export default function ContactForm({
               required
               value={formData.email}
               onChange={(e) => updateField('email', e.target.value)}
-              className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-industrial-900 transition-colors"
+              className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-accent-orange focus:ring-2 focus:ring-accent-orange/15 transition-colors"
               placeholder={labels.emailPlaceholder}
             />
           </div>
@@ -393,7 +393,7 @@ export default function ContactForm({
               type="text"
               value={formData.company}
               onChange={(e) => updateField('company', e.target.value)}
-              className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-industrial-900 transition-colors"
+              className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-accent-orange focus:ring-2 focus:ring-accent-orange/15 transition-colors"
               placeholder={labels.companyPlaceholder}
             />
           </div>
@@ -404,7 +404,7 @@ export default function ContactForm({
             <select
               value={formData.industry}
               onChange={(e) => updateField('industry', e.target.value)}
-              className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-industrial-900 transition-colors"
+              className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-accent-orange focus:ring-2 focus:ring-accent-orange/15 transition-colors"
             >
               <option value="EV & Energy Storage">{labels.industryOptions.ev}</option>
               <option value="Industrial Equipment">{labels.industryOptions.industrial}</option>
@@ -423,7 +423,7 @@ export default function ContactForm({
             <select
               value={formData.projectType}
               onChange={(e) => updateField('projectType', e.target.value)}
-              className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-industrial-900 transition-colors"
+              className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-accent-orange focus:ring-2 focus:ring-accent-orange/15 transition-colors"
             >
               {Object.entries(labels.projectType.options)
                 .filter(([key]) => key !== 'label')
@@ -439,7 +439,7 @@ export default function ContactForm({
             <select
               value={formData.annualVolume}
               onChange={(e) => updateField('annualVolume', e.target.value)}
-              className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-industrial-900 transition-colors"
+              className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-accent-orange focus:ring-2 focus:ring-accent-orange/15 transition-colors"
             >
               {Object.entries(labels.annualVolume.options).map(([key, value]) => (
                 <option key={key} value={key}>{value}</option>
@@ -453,7 +453,7 @@ export default function ContactForm({
             <select
               value={formData.projectStage}
               onChange={(e) => updateField('projectStage', e.target.value)}
-              className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-industrial-900 transition-colors"
+              className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-accent-orange focus:ring-2 focus:ring-accent-orange/15 transition-colors"
             >
               {Object.entries(labels.projectStage.options)
                 .filter(([key]) => key !== 'label')
@@ -472,12 +472,12 @@ export default function ContactForm({
             {Object.entries(labels.quoteComponents.options)
               .filter(([key]) => key !== 'label')
               .map(([key, value]) => (
-                <label key={key} className="flex items-start gap-3 bg-white border border-industrial-200 px-4 py-3 cursor-pointer hover:border-accent-orange transition-colors">
+                <label key={key} className="flex items-start gap-3 bg-industrial-50 border border-industrial-200 px-4 py-3 cursor-pointer hover:border-accent-orange transition-colors">
                   <input
                     type="checkbox"
                     checked={quoteComponents.includes(key)}
                     onChange={() => toggleQuoteComponent(key)}
-                    className="mt-1 h-4 w-4"
+                    className="mt-1 h-4 w-4 accent-accent-orange"
                   />
                   <span className="text-sm text-industrial-700">{value}</span>
                 </label>
@@ -494,7 +494,7 @@ export default function ContactForm({
             required
             value={formData.message}
             onChange={(e) => updateField('message', e.target.value)}
-            className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-industrial-900 transition-colors"
+            className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-accent-orange focus:ring-2 focus:ring-accent-orange/15 transition-colors"
             placeholder={labels.messagePlaceholder}
           />
         </div>
@@ -503,7 +503,7 @@ export default function ContactForm({
           <label className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
             {uploadLabels.uploadTitle}
           </label>
-          <label className="w-full border border-dashed border-industrial-300 bg-white px-4 py-4 flex items-center justify-between cursor-pointer hover:border-accent-orange transition-colors">
+          <label className="w-full border border-dashed border-industrial-300 bg-industrial-50 px-4 py-4 flex items-center justify-between gap-4 cursor-pointer hover:border-accent-orange transition-colors">
             <span className="text-sm text-industrial-700 truncate">
               {attachment ? attachment.name : uploadLabels.uploadHelp}
             </span>
@@ -529,14 +529,14 @@ export default function ContactForm({
             type="url"
             value={formData.fileLink}
             onChange={(e) => updateField('fileLink', e.target.value)}
-            className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-industrial-900 transition-colors"
+            className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-accent-orange focus:ring-2 focus:ring-accent-orange/15 transition-colors"
             placeholder={labels.fileLinkPlaceholder}
           />
           <p className="text-xs text-industrial-500 mt-1">{labels.fileLinkHelp}</p>
         </div>
 
         {status === 'success' && (
-          <div className="form-status-success border p-4 rounded flex items-start gap-3">
+          <div className="form-status-success border p-4 flex items-start gap-3">
             <CheckCircle className="w-5 h-5 form-status-success-icon flex-shrink-0 mt-0.5" />
             <div>
               <p className="font-bold text-industrial-900">{labels.success}</p>
@@ -546,7 +546,7 @@ export default function ContactForm({
         )}
 
         {status === 'error' && (
-          <div className="bg-industrial-50 border border-accent-orange p-4 rounded flex items-start gap-3">
+          <div className="bg-industrial-50 border border-accent-orange p-4 flex items-start gap-3">
             <XCircle className="w-5 h-5 text-accent-orange flex-shrink-0 mt-0.5" />
             <div>
               <p className="font-bold text-industrial-900">{labels.error}</p>
@@ -558,7 +558,7 @@ export default function ContactForm({
         <button
           type="submit"
           disabled={status === 'submitting'}
-          className="w-full bg-industrial-900 text-white py-4 font-bold flex items-center justify-center gap-2 hover:bg-black transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+          className="rq-pressable w-full bg-industrial-900 text-white py-4 font-bold flex items-center justify-center gap-2 hover:bg-accent-orange disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {status === 'submitting' ? (
             <>

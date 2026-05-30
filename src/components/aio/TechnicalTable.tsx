@@ -15,7 +15,7 @@ interface TechnicalTableProps {
  */
 const TechnicalTable: React.FC<TechnicalTableProps> = ({ title, data }) => {
   return (
-    <div className="technical-data-island my-8 overflow-hidden border border-industrial-700 rounded-lg">
+    <div className="technical-data-island my-8 overflow-hidden border border-industrial-700">
       {title && (
         <div className="bg-industrial-900 text-white px-4 py-2 font-semibold text-sm uppercase tracking-wider">
           {title}

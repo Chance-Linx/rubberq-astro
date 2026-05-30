@@ -17,10 +17,10 @@ const visualLabel = ix('industriesPage.index.visualLabel', 'Application Visual')
 const orgSchema = createOrganizationSchema(locale!);
 
 const sectors = [
-  { slug: 'ev-energy-storage', i18nKey: 'ev', priority: 'critical', slotId: 'industries-index-ev' },
-  { slug: 'industrial-equipment', i18nKey: 'industrial', priority: 'critical', slotId: 'industries-index-industrial' },
-  { slug: 'semiconductor', i18nKey: 'semiconductor', priority: 'important', slotId: 'industries-index-semicon' },
-  { slug: 'automotive-tier2', i18nKey: 'automotive', priority: 'important', slotId: 'industries-index-auto' },
+  { slug: 'ev-energy-storage', i18nKey: 'ev', priority: 'critical', slotId: 'industries-index-ev', image: '/images/legacy_resource/2021/01/14/5fffd989a7d6a.jpg' },
+  { slug: 'industrial-equipment', i18nKey: 'industrial', priority: 'critical', slotId: 'industries-index-industrial', image: '/images/legacy_resource/2021/01/14/5fffd94b86544.jpg' },
+  { slug: 'semiconductor', i18nKey: 'semiconductor', priority: 'important', slotId: 'industries-index-semicon', image: '/images/legacy_resource/2021/02/04/601bdacc39a96.jpg' },
+  { slug: 'automotive-tier2', i18nKey: 'automotive', priority: 'important', slotId: 'industries-index-auto', image: '/images/legacy_resource/2021/01/14/5fffd971e7d47.jpg' },
 ];
 ---
 
@@ -51,16 +51,16 @@ const sectors = [
           {sectors.map((sector) => (
             <a
               href={localizedPath(locale, `/industries/${sector.slug}`)}
-              class="group bg-white border border-industrial-200 hover:border-accent-orange transition-colors overflow-hidden"
+              class="group bg-white border border-industrial-200 hover:border-accent-orange transition-colors overflow-hidden rq-lift rq-pressable"
             >
               <div
-                class="aspect-video bg-industrial-100 flex items-center justify-center"
+                class="aspect-video bg-industrial-100 rq-media rq-media-soft"
                 data-slot-id={sector.slotId}
                 data-purpose={`${sector.i18nKey} 行业代表性图`}
                 data-spec="1600x900"
                 data-priority={sector.priority}
               >
-                <span class="text-xs text-industrial-500">{visualLabel}</span>
+                <img src={sector.image} alt={visualLabel} loading="lazy" />
               </div>
               <div class="p-8">
                 <div class="flex items-baseline gap-3 mb-3">

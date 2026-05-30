@@ -33,12 +33,12 @@ function CertificateCard({
 }) {
   return (
     <div 
-      className="group bg-white border border-industrial-200 hover:border-accent-orange hover:shadow-xl transition-all cursor-pointer overflow-hidden"
+      className="group bg-white border border-industrial-200 hover:border-accent-orange transition-colors cursor-pointer overflow-hidden rq-lift rq-pressable"
       onClick={onClick}
     >
       {/* Certificate Preview */}
       <div className="aspect-[1.414/1] bg-industrial-50 p-6 flex items-center justify-center relative overflow-hidden">
-        <div className="bg-white shadow-lg border-4 border-industrial-100 p-6 w-full h-full flex flex-col items-center justify-center text-center transform group-hover:scale-105 transition-transform duration-500">
+        <div className="bg-white border-4 border-industrial-100 p-6 w-full h-full flex flex-col items-center justify-center text-center transform group-hover:scale-105 transition-transform duration-500">
           <Award className="w-12 h-12 text-industrial-300 mb-3" />
           <h3 className="text-lg font-bold text-industrial-900">{certificate.name}</h3>
           <p className="text-xs text-industrial-500 mt-1">{certificate.org}</p>

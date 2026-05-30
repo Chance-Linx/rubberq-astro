@@ -131,7 +131,7 @@ const testimonialsJson = JSON.stringify(content.testimonials);
           <div class="flex gap-2" id="testimonial-dots">
             {content.testimonials.map((_, dotIndex) => (
               <button type="button" data-index={dotIndex}
-                      class={`h-3 transition-all ${dotIndex === 0 ? 'w-8 bg-accent-orange' : 'w-5 bg-industrial-200'}`}
+                      class={`h-3 transition-[width,background-color] ${dotIndex === 0 ? 'w-8 bg-accent-orange' : 'w-5 bg-industrial-200'}`}
                       aria-label={`Testimonial ${dotIndex + 1}`} aria-current={dotIndex === 0 ? 'true' : 'false'}>
               </button>
             ))}
@@ -177,10 +177,10 @@ const testimonialsJson = JSON.stringify(content.testimonials);
     const dots = dotsContainer?.querySelectorAll('button');
     dots?.forEach((dot, i) => {
       if (i === index) {
-        dot.className = 'h-3 transition-all w-8 bg-accent-orange';
+        dot.className = 'h-3 transition-[width,background-color] w-8 bg-accent-orange';
         dot.setAttribute('aria-current', 'true');
       } else {
-        dot.className = 'h-3 transition-all w-5 bg-industrial-200';
+        dot.className = 'h-3 transition-[width,background-color] w-5 bg-industrial-200';
         dot.setAttribute('aria-current', 'false');
       }
     });

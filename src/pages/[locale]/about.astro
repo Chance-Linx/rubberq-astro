@@ -23,6 +23,14 @@ const mediaLabels = {
   video: av2('media.video', 'Factory Introduction Video'),
   scene: av2('media.scene', 'Factory Capability Visual'),
 };
+const mediaImages = {
+  hero: '/images/legacy_resource/2021/02/21/6031cf102a9a8.jpg',
+  formulation: '/images/legacy_resource/2021/03/17/60515a8c28356.jpg',
+  manufacturing: '/images/legacy_resource/2021/03/17/60515a8bd1599.jpg',
+  lab: '/images/legacy_resource/2021/02/04/601bdacc39a96.jpg',
+  video: '/images/legacy_resource/2021/03/17/60515a8c28356.jpg',
+  scene: '/images/legacy_resource/2021/01/15/6001a3d0882a9.jpg',
+};
 
 const orgSchema = createOrganizationSchema(locale!);
 
@@ -47,13 +55,13 @@ const factoryScenes = [
     <!-- ============================================================ -->
     <section class="relative bg-industrial-900 text-white py-32 overflow-hidden">
       <div
-        class="absolute inset-0 opacity-25"
+        class="absolute inset-0 opacity-35 rq-media"
         data-slot-id="about-hero-bg"
         data-purpose="工厂建筑外景 / 创始期老照片拼贴"
         data-spec="1920x1080"
         data-priority="important"
       >
-        <div class="w-full h-full bg-gradient-to-br from-industrial-800 to-industrial-900"></div>
+        <img src={mediaImages.hero} alt={mediaLabels.scene} loading="eager" />
       </div>
       <div class="absolute inset-0 bg-grid-pattern bg-grid-size opacity-10"></div>
 
@@ -87,55 +95,52 @@ const factoryScenes = [
 
         <div class="grid md:grid-cols-3 gap-8 mb-12">
           <!-- Japan -->
-          <div class="text-center p-8 border border-industrial-200 hover:border-accent-orange transition-colors">
+          <div class="p-6 border border-industrial-200 hover:border-accent-orange transition-colors">
             <div
-              class="w-32 h-32 mx-auto mb-6 bg-industrial-100 flex flex-col items-center justify-center border-2 border-dashed border-industrial-300 text-xs"
+              class="aspect-[4/3] mb-6 bg-industrial-100 border border-industrial-300 rq-media rq-media-soft"
               data-slot-id="about-dual-brain-japan"
               data-purpose="Dual-Brain 板块 日方研发图标/插画或会议照"
               data-spec="400x400"
               data-priority="important"
             >
-              <span class="text-4xl mb-1">{av2('dualBrain.japan.icon')}</span>
-              <span class="text-industrial-500">{mediaLabels.formulation}</span>
+              <img src={mediaImages.formulation} alt={mediaLabels.formulation} loading="lazy" />
             </div>
             <h3 class="text-lg font-bold tracking-widest text-accent-orange mb-3 uppercase">{av2('dualBrain.japan.label')}</h3>
             <p class="text-industrial-700 leading-relaxed">{av2('dualBrain.japan.body')}</p>
           </div>
 
           <!-- China -->
-          <div class="text-center p-8 border border-industrial-200 hover:border-accent-orange transition-colors">
+          <div class="p-6 border border-industrial-200 hover:border-accent-orange transition-colors">
             <div
-              class="w-32 h-32 mx-auto mb-6 bg-industrial-100 flex flex-col items-center justify-center border-2 border-dashed border-industrial-300 text-xs"
+              class="aspect-[4/3] mb-6 bg-industrial-100 border border-industrial-300 rq-media rq-media-soft"
               data-slot-id="about-dual-brain-china"
               data-purpose="Dual-Brain 板块 中方制造图标/车间俯瞰"
               data-spec="400x400"
               data-priority="important"
             >
-              <span class="text-4xl mb-1">{av2('dualBrain.china.icon')}</span>
-              <span class="text-industrial-500">{mediaLabels.manufacturing}</span>
+              <img src={mediaImages.manufacturing} alt={mediaLabels.manufacturing} loading="lazy" />
             </div>
             <h3 class="text-lg font-bold tracking-widest text-accent-orange mb-3 uppercase">{av2('dualBrain.china.label')}</h3>
             <p class="text-industrial-700 leading-relaxed">{av2('dualBrain.china.body')}</p>
           </div>
 
           <!-- Lab -->
-          <div class="text-center p-8 border border-industrial-200 hover:border-accent-orange transition-colors">
+          <div class="p-6 border border-industrial-200 hover:border-accent-orange transition-colors">
             <div
-              class="w-32 h-32 mx-auto mb-6 bg-industrial-100 flex flex-col items-center justify-center border-2 border-dashed border-industrial-300 text-xs"
+              class="aspect-[4/3] mb-6 bg-industrial-100 border border-industrial-300 rq-media rq-media-soft"
               data-slot-id="about-dual-brain-lab"
               data-purpose="Dual-Brain 板块 自有实验室图标/仪器照"
               data-spec="400x400"
               data-priority="important"
             >
-              <span class="text-4xl mb-1">{av2('dualBrain.lab.icon')}</span>
-              <span class="text-industrial-500">{mediaLabels.lab}</span>
+              <img src={mediaImages.lab} alt={mediaLabels.lab} loading="lazy" />
             </div>
             <h3 class="text-lg font-bold tracking-widest text-accent-orange mb-3 uppercase">{av2('dualBrain.lab.label')}</h3>
             <p class="text-industrial-700 leading-relaxed">{av2('dualBrain.lab.body')}</p>
           </div>
         </div>
 
-        <div class="bg-industrial-900 text-white p-8 border-l-4 border-accent-orange max-w-5xl mx-auto">
+        <div class="bg-industrial-900 text-white p-8 border-t-4 border-accent-orange max-w-5xl mx-auto">
           <p class="text-lg leading-relaxed italic">{av2('dualBrain.caption')}</p>
         </div>
       </div>
@@ -147,19 +152,21 @@ const factoryScenes = [
     <section class="py-20 bg-industrial-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div
-          class="relative aspect-video bg-industrial-200 border-2 border-dashed border-industrial-300 flex flex-col items-center justify-center cursor-pointer overflow-hidden"
+          class="relative aspect-video bg-industrial-200 border border-industrial-300 cursor-pointer overflow-hidden rq-media"
           data-slot-id="about-corporate-video"
           data-purpose="Watch Corporate Video 嵌入视频（用户已有素材）"
           data-spec="MP4，3-5 分钟工厂全流程介绍"
           data-priority="critical"
         >
-          <div class="w-20 h-20 bg-accent-orange rounded-full flex items-center justify-center mb-4 shadow-lg">
+          <img src={mediaImages.video} alt={mediaLabels.video} loading="lazy" />
+          <div class="absolute inset-0 bg-industrial-900/35"></div>
+          <div class="relative z-10 w-20 h-20 bg-accent-orange rounded-full flex items-center justify-center mb-4">
             <svg class="w-8 h-8 text-white fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
               <path d="M8 5v14l11-7z" />
             </svg>
           </div>
-          <h3 class="text-2xl font-bold text-industrial-900 uppercase tracking-widest">{a('watchVideo')}</h3>
-          <p class="text-industrial-600 mt-2 text-sm">{mediaLabels.video}</p>
+          <h3 class="relative z-10 text-2xl font-bold text-white uppercase tracking-widest">{a('watchVideo')}</h3>
+          <p class="relative z-10 text-industrial-200 mt-2 text-sm">{mediaLabels.video}</p>
         </div>
       </div>
     </section>
@@ -208,14 +215,13 @@ const factoryScenes = [
           {factoryScenes.map((scene) => (
             <div class="group border border-industrial-100 overflow-hidden bg-industrial-50">
               <div
-                class="aspect-[4/3] bg-industrial-100 border-b border-dashed border-industrial-300 flex flex-col items-center justify-center text-center p-3"
+              class="aspect-[4/3] bg-industrial-100 border-b border-industrial-300 rq-media rq-media-soft"
                 data-slot-id={scene.slotId}
                 data-purpose={a(scene.titleKey)}
                 data-spec="1200x800"
                 data-priority="important"
               >
-                <span class="text-[10px] uppercase tracking-widest text-industrial-400">{mediaLabels.scene}</span>
-                <span class="text-xs text-industrial-600 mt-1">{a(scene.titleKey)}</span>
+                <img src={mediaImages.scene} alt={a(scene.titleKey)} loading="lazy" />
               </div>
               <div class="p-6">
                 <h4 class="font-bold text-lg mb-2">{a(scene.titleKey)}</h4>
@@ -224,7 +230,7 @@ const factoryScenes = [
             </div>
           ))}
         </div>
-        <div class="mt-12 p-6 border-l-4 border-accent-orange bg-industrial-50 italic text-industrial-700">
+        <div class="mt-12 p-6 border border-industrial-200 border-t-4 border-accent-orange bg-industrial-50 italic text-industrial-700">
           {a('imageNote')}
         </div>
       </div>

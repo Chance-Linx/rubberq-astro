@@ -401,7 +401,7 @@ export default function ContactForm({ locale }: { locale: string }) {
   };
 
   return (
-    <div className="lg:col-span-2 bg-industrial-50 p-8 md:p-12 rounded-lg">
+    <div className="lg:col-span-2 bg-industrial-50 p-8 md:p-12 border border-industrial-200">
       <form onSubmit={handleSubmit} className="space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>

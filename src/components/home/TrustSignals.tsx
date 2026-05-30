@@ -228,7 +228,7 @@ export default function TrustSignals({ locale }: TrustSignalsProps) {
                     key={dotIndex}
                     type="button"
                     onClick={() => setIndex(dotIndex)}
-                    className={`h-3 transition-all ${index === dotIndex ? 'w-8 bg-accent-orange' : 'w-5 bg-industrial-200'}`}
+                    className={`h-3 transition-[width,background-color] ${index === dotIndex ? 'w-8 bg-accent-orange' : 'w-5 bg-industrial-200'}`}
                     aria-label={`Testimonial ${dotIndex + 1}`}
                     aria-current={index === dotIndex}
                   />

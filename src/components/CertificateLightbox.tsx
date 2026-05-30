@@ -72,7 +72,7 @@ export default function CertificateLightbox({ certificate, isOpen, onClose }: Ce
           {/* Certificate Image */}
           <div className="lg:w-2/3 bg-industrial-50 p-8 flex items-center justify-center min-h-[400px]">
             <div className="relative w-full max-w-2xl">
-              <div className="bg-white shadow-xl border-8 border-industrial-100 p-8 aspect-[1.414/1] flex flex-col items-center justify-center text-center">
+              <div className="bg-white border-8 border-industrial-100 p-8 aspect-[1.414/1] flex flex-col items-center justify-center text-center">
                 <div className="w-24 h-24 bg-industrial-100 rounded-full flex items-center justify-center mb-6">
                   <Award className="w-12 h-12 text-industrial-400" />
                 </div>

@@ -22,7 +22,7 @@ const homeHref = localizedPath(current, '/');
 const hrefFor = (path: string) => localizedPath(current, path);
 ---
 
-<nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-industrial-100">
+<nav class="fixed top-0 w-full z-50 bg-white/95 backdrop-blur-md border-b border-industrial-100">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between h-20 items-center">
       <div class="flex-shrink-0 flex items-center">
@@ -59,7 +59,7 @@ const hrefFor = (path: string) => localizedPath(current, path);
               <svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
             </a>
             <div class="absolute left-0 top-full pt-3 hidden group-hover:block group-focus-within:block z-40">
-              <div class="bg-white border border-industrial-100 shadow-lg min-w-[200px] py-2">
+              <div class="bg-white border border-industrial-100 min-w-[220px] py-2">
                 <a href={hrefFor('/resources')} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
                   {nav.resources || 'Resources'}
                 </a>
@@ -87,7 +87,7 @@ const hrefFor = (path: string) => localizedPath(current, path);
               <svg class="w-3.5 h-3.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
             </a>
             <div class="absolute left-0 top-full pt-3 hidden group-hover:block group-focus-within:block z-40">
-              <div class="bg-white border border-industrial-100 shadow-lg min-w-[200px] py-2">
+              <div class="bg-white border border-industrial-100 min-w-[220px] py-2">
                 <a href={hrefFor('/about')} class="block px-4 py-2 text-xs font-bold uppercase tracking-widest text-industrial-600 hover:text-accent-orange hover:bg-industrial-50 transition-colors">
                   {nav.about || 'About Us'}
                 </a>
@@ -122,7 +122,7 @@ const hrefFor = (path: string) => localizedPath(current, path);
                   <circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
                 </svg>
               </button>
-              <div id="lang-dropdown" class="absolute right-0 mt-2 w-48 bg-white rounded-sm shadow-xl border border-industrial-100 py-2 z-50 hidden">
+              <div id="lang-dropdown" class="absolute right-0 mt-2 w-48 bg-white rounded-sm border border-industrial-100 py-2 z-50 hidden">
                 <div class="px-4 py-2 text-xs font-bold text-industrial-400 uppercase tracking-widest border-b border-industrial-50 mb-2">{nav.language || 'Language'}</div>
                 {locales.map(l => (
                   <a href={localizedPath(l, '/')}
@@ -139,7 +139,7 @@ const hrefFor = (path: string) => localizedPath(current, path);
 
           <!-- GET QUOTE CTA -->
           <a href={hrefFor('/contact')}
-             class="bg-industrial-900 text-white px-6 py-2.5 rounded-sm text-xs font-bold uppercase tracking-widest hover:bg-accent-orange transition-all duration-300 shadow-lg">
+             class="rq-pressable bg-industrial-900 text-white px-6 py-2.5 rounded-sm text-xs font-bold uppercase tracking-widest hover:bg-accent-orange">
             {nav.getQuote || 'Get Quote'}
           </a>
         </div>
@@ -188,7 +188,7 @@ const hrefFor = (path: string) => localizedPath(current, path);
       <a href={hrefFor('/capabilities')} class="block px-3 py-4 text-base font-bold uppercase tracking-widest text-industrial-900 border-b border-industrial-50">{nav.capabilities || 'Capabilities'}</a>
       <div class="pt-4 px-3">
         <a href={hrefFor('/contact')}
-           class="block w-full text-center bg-industrial-900 text-white py-4 rounded-sm font-bold uppercase tracking-widest shadow-xl">
+           class="rq-pressable block w-full text-center bg-industrial-900 text-white py-4 rounded-sm font-bold uppercase tracking-widest">
           {nav.getQuote || 'Get Quote'}
         </a>
       </div>

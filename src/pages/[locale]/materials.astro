@@ -16,15 +16,15 @@ const orgSchema = createOrganizationSchema(locale!);
 
 // v2 — 9 polymer families ordered by industry priority (EV first)
 const materials = [
-  { slug: 'hnbr', priority: '⚡ EV / Auto', name: mp('materials.hnbr.name'), desc: mp('materials.hnbr.desc') },
-  { slug: 'fkm', priority: '🔬 Chem / Semicon', name: mp('materials.fkm.name'), desc: mp('materials.fkm.desc') },
-  { slug: 'ffkm', priority: '🔬 Semicon Flagship', name: mp('materials.ffkm.name'), desc: mp('materials.ffkm.desc') },
-  { slug: 'epdm', priority: '⚡ EV / Outdoor', name: mp('materials.epdm.name'), desc: mp('materials.epdm.desc') },
-  { slug: 'nbr', priority: '⚙ Industrial / Oil', name: mp('materials.nbr.name'), desc: mp('materials.nbr.desc') },
-  { slug: 'acm', priority: '🚗 Auto Transmission', name: mp('materials.acm.name'), desc: mp('materials.acm.desc') },
-  { slug: 'aem', priority: '🚗 Auto Heat Ducts', name: mp('materials.aem.name'), desc: mp('materials.aem.desc') },
-  { slug: 'silicone', priority: '⚙ Industrial / Wide Temp', name: mp('materials.silicone.name'), desc: mp('materials.silicone.desc') },
-  { slug: 'lsr', priority: '⚙ Precision Overmolding', name: mp('materials.lsr.name'), desc: mp('materials.lsr.desc') },
+  { slug: 'hnbr', priority: '⚡ EV / Auto', name: mp('materials.hnbr.name'), desc: mp('materials.hnbr.desc'), image: '/images/legacy_resource/2021/01/14/5fffd94b86544.jpg' },
+  { slug: 'fkm', priority: '🔬 Chem / Semicon', name: mp('materials.fkm.name'), desc: mp('materials.fkm.desc'), image: '/images/legacy_resource/2021/01/14/5fffd971e7d47.jpg' },
+  { slug: 'ffkm', priority: '🔬 Semicon Flagship', name: mp('materials.ffkm.name'), desc: mp('materials.ffkm.desc'), image: '/images/legacy_resource/2021/01/14/5fffd989a7d6a.jpg' },
+  { slug: 'epdm', priority: '⚡ EV / Outdoor', name: mp('materials.epdm.name'), desc: mp('materials.epdm.desc'), image: '/images/legacy_resource/2021/01/14/5fffd988a6a2a.jpg' },
+  { slug: 'nbr', priority: '⚙ Industrial / Oil', name: mp('materials.nbr.name'), desc: mp('materials.nbr.desc'), image: '/images/legacy_resource/2021/01/14/5fffd8fc3ea3a.jpg' },
+  { slug: 'acm', priority: '🚗 Auto Transmission', name: mp('materials.acm.name'), desc: mp('materials.acm.desc'), image: '/images/legacy_resource/2021/01/14/5fffd94c24719.jpg' },
+  { slug: 'aem', priority: '🚗 Auto Heat Ducts', name: mp('materials.aem.name'), desc: mp('materials.aem.desc'), image: '/images/legacy_resource/2021/01/14/5fffd91a0c315.jpg' },
+  { slug: 'silicone', priority: '⚙ Industrial / Wide Temp', name: mp('materials.silicone.name'), desc: mp('materials.silicone.desc'), image: '/images/legacy_resource/2021/01/14/5fffd98a1457d.jpg' },
+  { slug: 'lsr', priority: '⚙ Precision Overmolding', name: mp('materials.lsr.name'), desc: mp('materials.lsr.desc'), image: '/images/legacy_resource/2021/01/14/5fffd919da974.jpg' },
 ];
 ---
 
@@ -65,7 +65,7 @@ const materials = [
     <!-- ============================================================ -->
     <!-- CROSS-LINK TO COMPOUNDING                                     -->
     <!-- ============================================================ -->
-    <div class="bg-industrial-100 border-l-4 border-accent-orange py-4 px-4">
+    <div class="bg-industrial-100 border-y border-industrial-200 border-t-4 border-t-accent-orange py-4 px-4">
       <div class="max-w-7xl mx-auto">
         <p class="text-sm text-industrial-700">
           💡 {mp('crossLink.prompt')}
@@ -85,13 +85,18 @@ const materials = [
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-20">
         {materials.map((m) => (
-          <a href={localizedPath(locale, `/materials/${m.slug}`)} class="block p-8 border border-industrial-100 hover:border-accent-orange transition-all group bg-white">
-            <div class="text-xs uppercase tracking-widest text-industrial-500 mb-3">{m.priority}</div>
-            <h3 class="text-xl font-bold mb-3 text-industrial-900 tracking-tight">{m.name}</h3>
-            <p class="text-sm text-industrial-600 leading-relaxed mb-6 min-h-[5rem]">{m.desc}</p>
-            <span class="inline-flex items-center gap-2 text-accent-orange font-bold uppercase text-xs tracking-widest group-hover:gap-3 transition-all">
-              {mp('technicalSpecifications', 'Technical Specifications')} →
-            </span>
+          <a href={localizedPath(locale, `/materials/${m.slug}`)} class="block border border-industrial-100 hover:border-accent-orange transition-colors group bg-white overflow-hidden rq-lift rq-pressable">
+            <div class="aspect-[4/3] bg-industrial-100 rq-media rq-media-soft">
+              <img src={m.image} alt={m.name} loading="lazy" />
+            </div>
+            <div class="p-7">
+              <div class="text-xs uppercase tracking-widest text-industrial-500 mb-3">{m.priority}</div>
+              <h3 class="text-xl font-bold mb-3 text-industrial-900 tracking-tight">{m.name}</h3>
+              <p class="text-sm text-industrial-600 leading-relaxed mb-6 min-h-[5rem]">{m.desc}</p>
+              <span class="inline-flex items-center gap-2 text-accent-orange font-bold uppercase text-xs tracking-widest group-hover:gap-3 transition-[gap,color]">
+                {mp('technicalSpecifications', 'Technical Specifications')} →
+              </span>
+            </div>
           </a>
         ))}
       </div>
@@ -161,7 +166,7 @@ const materials = [
         </p>
         <a
           href={localizedPath(locale, `/compounding`)}
-          class="inline-block bg-accent-orange text-white px-10 py-5 font-bold tracking-widest uppercase text-sm hover:bg-white hover:text-industrial-900 transition-all duration-300"
+          class="rq-pressable inline-block bg-accent-orange text-white px-10 py-5 font-bold tracking-widest uppercase text-sm hover:bg-white hover:text-industrial-900"
         >
           Explore Compounding & R&D →
         </a>

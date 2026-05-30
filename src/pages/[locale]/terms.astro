@@ -31,7 +31,7 @@ const _ = (key: string, fallback = '') => t(messages, `termsPage.${key}`, fallba
     <section class="py-16 px-4">
       <div class="max-w-4xl mx-auto prose prose-industrial max-w-none">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
-          <div class="flex gap-4 p-6 border border-industrial-100 bg-industrial-50 rounded-lg">
+          <div class="flex gap-4 p-6 border border-industrial-100 bg-industrial-50">
             <svg class="w-10 h-10 text-accent-orange shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <polyline points="4 17 10 11 4 5"/>
               <line x1="12" y1="19" x2="20" y2="19"/>
@@ -41,7 +41,7 @@ const _ = (key: string, fallback = '') => t(messages, `termsPage.${key}`, fallba
               <p class="text-sm text-industrial-600">{_('cards.legalBinding.description')}</p>
             </div>
           </div>
-          <div class="flex gap-4 p-6 border border-industrial-100 bg-industrial-50 rounded-lg">
+          <div class="flex gap-4 p-6 border border-industrial-100 bg-industrial-50">
             <svg class="w-10 h-10 text-accent-orange shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
               <line x1="12" y1="9" x2="12" y2="13"/>
@@ -83,7 +83,7 @@ const _ = (key: string, fallback = '') => t(messages, `termsPage.${key}`, fallba
 
           <section>
             <h2 class="text-2xl font-bold border-b border-industrial-200 pb-2 mb-4 uppercase tracking-wide">{_('sections.engineeringDisclaimer.title')}</h2>
-            <p class="leading-relaxed bg-industrial-50 p-6 italic border-l-4 border-accent-orange">
+            <p class="leading-relaxed bg-industrial-50 p-6 italic border border-industrial-200 border-t-4 border-t-accent-orange">
               {_('sections.engineeringDisclaimer.content')}
             </p>
           </section>

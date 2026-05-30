@@ -9,6 +9,7 @@
   --rubber-carbon: #171717;
   --rubber-graphite: #262626;
   --accent-orange: #f97316;
+  --ease-out-rq: cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 body {
@@ -17,14 +18,74 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+@layer base {
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p,
+  li {
+    text-wrap: pretty;
+  }
+
+  a,
+  button,
+  input,
+  select,
+  textarea {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent-orange);
+    outline-offset: 3px;
+  }
+}
+
 @layer components {
+  .rq-pressable {
+    transition-property: background-color, border-color, color, opacity, transform;
+    transition-duration: 180ms;
+    transition-timing-function: var(--ease-out-rq);
+  }
+
+  .rq-pressable:active {
+    transform: scale(0.98);
+  }
+
+  .rq-media {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--rubber-black);
+  }
+
+  .rq-media > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(1) contrast(1.08) brightness(0.78);
+    transform: scale(1.01);
+  }
+
+  .rq-media-soft > img {
+    filter: grayscale(1) contrast(1.02) brightness(0.9);
+  }
+
+  .rq-link {
+    transition-property: color, border-color, background-color, transform;
+    transition-duration: 180ms;
+    transition-timing-function: var(--ease-out-rq);
+  }
+
   .form-status-success {
-    background-color: rgb(240 253 244);
-    border-color: rgb(34 197 94 / 0.45);
+    background-color: rgb(250 250 250);
+    border-color: rgb(249 115 22 / 0.55);
   }
 
   .form-status-success-icon {
-    color: rgb(22 101 52);
+    color: var(--accent-orange);
   }
 }
 
@@ -32,5 +93,22 @@ body {
   .content-auto {
     content-visibility: auto;
     contain-intrinsic-size: 1px 1000px;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .rq-lift:hover {
+      transform: translateY(-2px);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      scroll-behavior: auto !important;
+      transition-duration: 0.01ms !important;
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+    }
   }
 }

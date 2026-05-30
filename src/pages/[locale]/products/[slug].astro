@@ -210,7 +210,7 @@ const L = labelsByLocale[locale] || labelsByLocale.en;
           <h2 class="text-2xl font-bold text-industrial-900 mb-5">{L.apps}</h2>
           <div class="space-y-3">
             {summaryItems.map((item) => (
-              <div class="flex gap-3 border-l-4 border-accent-orange bg-industrial-50 p-4">
+              <div class="flex gap-3 border border-industrial-200 border-t-4 border-t-accent-orange bg-industrial-50 p-4">
                 <dt class="font-bold text-industrial-900 text-sm min-w-[140px]">{item.term}</dt>
                 <dd class="text-sm text-industrial-600">{item.description}</dd>
               </div>
@@ -254,7 +254,7 @@ const L = labelsByLocale[locale] || labelsByLocale.en;
           <h2 class="text-2xl font-bold text-industrial-900 mb-5">{L.apps}</h2>
           <div class="space-y-4">
             {blueprint.applicationCases.map((item) => (
-              <div class="border-l-4 border-accent-orange bg-industrial-50 p-5">
+              <div class="border border-industrial-200 border-t-4 border-t-accent-orange bg-industrial-50 p-5">
                 <h3 class="font-bold text-industrial-900 mb-2">{item.title}</h3>
                 <p class="text-sm text-industrial-600 mb-2">{item.scenario}</p>
                 <p class="text-sm text-industrial-800">{item.result}</p>

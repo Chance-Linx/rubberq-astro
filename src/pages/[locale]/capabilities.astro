@@ -86,7 +86,7 @@ const processes = [
             <p class="text-lg text-industrial-700 leading-relaxed mb-6">
               {_('controlFlow.subtitle')}
             </p>
-            <p class="text-sm text-industrial-500 border-l-4 border-accent-orange pl-4 leading-relaxed">
+            <p class="text-sm text-industrial-500 border border-industrial-200 border-t-4 border-t-accent-orange p-4 leading-relaxed">
               {_('controlFlow.sourceNote')}
             </p>
             <div
@@ -146,7 +146,7 @@ const processes = [
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
               {phase.steps.map((step) => (
-                <div class="flex gap-6 p-8 border border-industrial-50 bg-industrial-50/50 hover:bg-white hover:border-industrial-900 transition-all duration-300 group">
+                <div class="flex gap-6 p-8 border border-industrial-50 bg-industrial-50/50 hover:bg-white hover:border-industrial-900 transition-colors duration-200 group">
                   <div class="flex-shrink-0 w-12 h-12 bg-industrial-900 text-white flex items-center justify-center rounded-sm group-hover:bg-accent-orange transition-colors">
                     <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <circle cx="12" cy="12" r="3"/>
@@ -163,7 +163,7 @@ const processes = [
 
             {/* Insert Single-Line callout after Phase 2 (A-Mixing / Masterbatching) */}
             {phaseIdx === 1 && (
-              <div class="mt-12 bg-industrial-900 text-white p-8 md:p-10 border-l-4 border-accent-orange">
+              <div class="mt-12 bg-industrial-900 text-white p-8 md:p-10 border-t-4 border-accent-orange">
                 <div class="flex flex-col md:flex-row gap-6 items-start">
                   <div class="flex-shrink-0 w-16 h-16 bg-accent-orange flex items-center justify-center rounded-sm">
                     <svg class="w-8 h-8 text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

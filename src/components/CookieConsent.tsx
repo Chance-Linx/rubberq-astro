@@ -168,7 +168,7 @@ const CookieConsent = ({ locale = 'en', messages }: CookieConsentProps) => {
 
   return (
     <div className="fixed inset-x-0 bottom-0 z-[100] p-2 sm:p-3 md:p-4">
-      <div className="mx-auto max-w-4xl border border-industrial-700 bg-industrial-900 shadow-2xl">
+      <div className="mx-auto max-w-4xl border border-industrial-700 bg-industrial-900">
         <div className="flex flex-col gap-3 p-3 sm:p-4 md:flex-row md:items-center md:justify-between">
           <div className="min-w-0 flex-1">
             <h3 className="mb-1 text-xs font-bold uppercase text-white sm:text-sm">{messages.title}</h3>
@@ -182,21 +182,21 @@ const CookieConsent = ({ locale = 'en', messages }: CookieConsentProps) => {
               type="button"
               onClick={() => setShowPreferences((value) => !value)}
               aria-expanded={showPreferences}
-              className="min-h-9 border border-industrial-500 px-2 py-2 text-[10px] font-bold uppercase leading-tight text-white transition-all hover:bg-industrial-700 sm:text-xs"
+              className="rq-pressable min-h-9 border border-industrial-500 px-2 py-2 text-[10px] font-bold uppercase leading-tight text-white hover:bg-industrial-700 sm:text-xs"
             >
               {labels.customize}
             </button>
             <button
               type="button"
               onClick={handleDecline}
-              className="min-h-9 border border-industrial-500 px-2 py-2 text-[10px] font-bold uppercase leading-tight text-white transition-all hover:bg-white hover:text-industrial-900 sm:text-xs"
+              className="rq-pressable min-h-9 border border-industrial-500 px-2 py-2 text-[10px] font-bold uppercase leading-tight text-white hover:bg-white hover:text-industrial-900 sm:text-xs"
             >
               {messages.decline}
             </button>
             <button
               type="button"
               onClick={handleAccept}
-              className="min-h-9 bg-accent-orange px-2 py-2 text-[10px] font-bold uppercase leading-tight text-white shadow-lg transition-all hover:bg-white hover:text-industrial-900 sm:text-xs"
+              className="rq-pressable min-h-9 bg-accent-orange px-2 py-2 text-[10px] font-bold uppercase leading-tight text-white hover:bg-white hover:text-industrial-900 sm:text-xs"
             >
               {messages.acceptAll}
             </button>
@@ -219,7 +219,7 @@ const CookieConsent = ({ locale = 'en', messages }: CookieConsentProps) => {
                   type="checkbox"
                   checked={analytics}
                   onChange={(event) => setAnalytics(event.target.checked)}
-                  className="h-4 w-4"
+                  className="h-4 w-4 accent-accent-orange"
                 />
               </label>
             </div>
@@ -227,7 +227,7 @@ const CookieConsent = ({ locale = 'en', messages }: CookieConsentProps) => {
             <button
               type="button"
               onClick={handleSavePreferences}
-              className="mt-4 w-full border border-industrial-500 px-4 py-2 text-xs font-bold uppercase text-white transition-all hover:bg-industrial-700 sm:w-auto"
+              className="rq-pressable mt-4 w-full border border-industrial-500 px-4 py-2 text-xs font-bold uppercase text-white hover:bg-industrial-700 sm:w-auto"
             >
               {labels.savePreferences}
             </button>

@@ -26,6 +26,16 @@ const visualLabels = {
   semiconductor: h('visualLabels.semiconductor', 'Semiconductor Seal Applications'),
   automotive: h('visualLabels.automotive', 'Automotive Tier 2 Applications'),
 };
+const visualImages = {
+  hero: '/images/legacy_resource/2021/03/17/60515a8bd1599.jpg',
+  manufacturing: '/images/legacy_resource/2021/01/15/6001a3d39ab70.jpg',
+  capacity: '/images/legacy_resource/2021/03/17/60515a8bd1599.jpg',
+  ev: '/images/legacy_resource/2021/01/14/5fffd989a7d6a.jpg',
+  industrial: '/images/legacy_resource/2021/01/14/5fffd94b86544.jpg',
+  semiconductor: '/images/legacy_resource/2021/02/04/601bdacc39a96.jpg',
+  automotive: '/images/legacy_resource/2021/01/14/5fffd971e7d47.jpg',
+  compounding: '/images/legacy_resource/2021/01/15/6001a3d0882a9.jpg',
+};
 
 const orgSchema = createOrganizationSchema(locale!);
 ---
@@ -41,15 +51,15 @@ const orgSchema = createOrganizationSchema(locale!);
     <!-- ============================================================ -->
     <!-- HERO                                                          -->
     <!-- ============================================================ -->
-    <section class="relative min-h-[92vh] flex items-center bg-industrial-900 overflow-hidden">
+    <section class="relative min-h-[calc(100dvh-5rem)] md:min-h-[92vh] flex items-center bg-industrial-900 overflow-hidden">
       <div
-        class="absolute inset-0 opacity-45"
+        class="absolute inset-0 opacity-45 rq-media"
         data-slot-id="home-hero-bg"
         data-purpose="全屏工厂车间 / A 炼车间 / 生产线大场景，客户进入网站第一眼就看到真实制造环境"
         data-spec="2400x1400 横向大图，主体留在画面右侧或中景，左侧预留深色文字区"
         data-priority="critical"
       >
-        <div class="w-full h-full bg-gradient-to-br from-industrial-700 via-industrial-800 to-industrial-950"></div>
+        <img src={visualImages.hero} alt={visualLabels.manufacturing} loading="eager" />
       </div>
       <div class="absolute inset-0 bg-grid-pattern bg-grid-size opacity-10"></div>
       <div class="absolute inset-0 bg-gradient-to-r from-industrial-900 via-industrial-900/80 to-transparent z-10"></div>
@@ -73,13 +83,13 @@ const orgSchema = createOrganizationSchema(locale!);
           <div class="flex flex-col sm:flex-row gap-4 mb-10">
             <a
               href={localizedPath(locale, `/contact`)}
-              class="bg-accent-orange text-white px-8 py-4 font-bold text-sm tracking-widest hover:bg-white hover:text-industrial-900 transition-all duration-300 text-center uppercase"
+              class="rq-pressable bg-accent-orange text-white px-8 py-4 font-bold text-sm tracking-[0.18em] hover:bg-white hover:text-industrial-900 text-center uppercase"
             >
               {h('hero.ctaPrimary', 'REQUEST QUOTE')}
             </a>
             <a
               href={localizedPath(locale, `/compounding`)}
-              class="border border-industrial-500 text-white px-8 py-4 font-bold text-sm tracking-widest hover:border-white transition-all duration-300 text-center uppercase"
+              class="rq-pressable border border-industrial-500 text-white px-8 py-4 font-bold text-sm tracking-[0.18em] hover:border-white text-center uppercase"
             >
               {h('hero.ctaSecondary', 'EXPLORE OUR R&D')}
             </a>
@@ -99,13 +109,13 @@ const orgSchema = createOrganizationSchema(locale!);
     <section class="bg-white">
       <div class="grid lg:grid-cols-12 min-h-[720px]">
         <div
-          class="relative lg:col-span-7 min-h-[520px] bg-industrial-900 overflow-hidden"
+          class="relative lg:col-span-7 min-h-[520px] bg-industrial-900 overflow-hidden rq-media"
           data-slot-id="home-proof-manufacturing-scene"
           data-purpose="真实制造能力大场景：密炼/成型/检验其中一个强场景，替代原来四张小图卡片"
           data-spec="1800x1400 竖横皆可，画面要有设备纵深和人员/工件尺度"
           data-priority="critical"
         >
-          <div class="absolute inset-0 bg-gradient-to-br from-industrial-700 via-industrial-800 to-industrial-950"></div>
+          <img src={visualImages.manufacturing} alt={visualLabels.manufacturing} loading="lazy" />
           <div class="absolute inset-0 bg-industrial-900/30"></div>
           <div class="absolute left-6 bottom-6 right-6 border border-white/20 bg-industrial-900/70 p-5 text-white md:left-10 md:bottom-10 md:right-auto md:w-[360px]">
             <p class="text-sm leading-relaxed text-industrial-200">{visualLabels.manufacturing}</p>
@@ -133,23 +143,23 @@ const orgSchema = createOrganizationSchema(locale!);
             </div>
 
             <div class="grid sm:grid-cols-2 gap-x-8 gap-y-8">
-              <div>
-                <div class="text-accent-orange text-xs font-bold uppercase tracking-[0.2em] mb-3">01</div>
+              <div class="border-t border-industrial-200 pt-5">
+                <div class="text-accent-orange text-xs font-bold uppercase tracking-[0.16em] mb-3">01</div>
                 <h4 class="font-bold text-lg mb-2 tracking-tight text-industrial-900">{h('features.jpRd.title')}</h4>
                 <p class="text-sm text-industrial-600 leading-relaxed">{h('features.jpRd.desc')}</p>
               </div>
-              <div>
-                <div class="text-accent-orange text-xs font-bold uppercase tracking-[0.2em] mb-3">02</div>
+              <div class="border-t border-industrial-200 pt-5">
+                <div class="text-accent-orange text-xs font-bold uppercase tracking-[0.16em] mb-3">02</div>
                 <h4 class="font-bold text-lg mb-2 tracking-tight text-industrial-900">{h('features.compounding.title')}</h4>
                 <p class="text-sm text-industrial-600 leading-relaxed">{h('features.compounding.desc')}</p>
               </div>
-              <div>
-                <div class="text-accent-orange text-xs font-bold uppercase tracking-[0.2em] mb-3">03</div>
+              <div class="border-t border-industrial-200 pt-5">
+                <div class="text-accent-orange text-xs font-bold uppercase tracking-[0.16em] mb-3">03</div>
                 <h4 class="font-bold text-lg mb-2 tracking-tight text-industrial-900">{h('features.lab.title')}</h4>
                 <p class="text-sm text-industrial-600 leading-relaxed">{h('features.lab.desc')}</p>
               </div>
-              <div>
-                <div class="text-accent-orange text-xs font-bold uppercase tracking-[0.2em] mb-3">04</div>
+              <div class="border-t border-industrial-200 pt-5">
+                <div class="text-accent-orange text-xs font-bold uppercase tracking-[0.16em] mb-3">04</div>
                 <h4 class="font-bold text-lg mb-2 tracking-tight text-industrial-900">{h('features.heritage.title')}</h4>
                 <p class="text-sm text-industrial-600 leading-relaxed">{h('features.heritage.desc')}</p>
               </div>
@@ -172,14 +182,15 @@ const orgSchema = createOrganizationSchema(locale!);
             <p class="text-lg text-industrial-700 leading-relaxed">{h('goodFit.subtitle')}</p>
             <a
               href={localizedPath(locale, `/contact`)}
-              class="inline-flex mt-8 bg-industrial-900 text-white px-7 py-4 font-bold text-sm tracking-widest uppercase hover:bg-accent-orange transition-colors"
+              class="rq-pressable inline-flex mt-8 bg-industrial-900 text-white px-7 py-4 font-bold text-sm tracking-[0.16em] uppercase hover:bg-accent-orange"
             >
               {h('goodFit.cta')} →
             </a>
           </div>
 
           <div class="lg:col-span-8 grid md:grid-cols-2 gap-10">
-            <div class="border-l-4 border-accent-orange pl-6">
+            <div class="border border-industrial-200 bg-white p-6 md:p-8">
+              <div class="h-1 w-16 bg-accent-orange mb-6"></div>
               <h3 class="text-xl font-bold text-industrial-900 uppercase tracking-tight mb-6">{h('goodFit.fitTitle')}</h3>
               <ul class="space-y-5">
                 {fitItems.map((item: string) => (
@@ -191,7 +202,8 @@ const orgSchema = createOrganizationSchema(locale!);
               </ul>
             </div>
 
-            <div class="border-l border-industrial-300 pl-6">
+            <div class="border border-industrial-200 bg-industrial-50 p-6 md:p-8">
+              <div class="h-1 w-16 bg-industrial-300 mb-6"></div>
               <h3 class="text-xl font-bold text-industrial-900 uppercase tracking-tight mb-6">{h('goodFit.notFitTitle')}</h3>
               <ul class="space-y-5">
                 {notFitItems.map((item: string) => (
@@ -212,13 +224,13 @@ const orgSchema = createOrganizationSchema(locale!);
     <!-- ============================================================ -->
     <section class="relative min-h-[540px] bg-industrial-900 text-white overflow-hidden flex items-center">
       <div
-        class="absolute inset-0 opacity-55"
+        class="absolute inset-0 opacity-55 rq-media"
         data-slot-id="home-capacity-line-bg"
         data-purpose="A 炼线 / 密炼 / 连续生产线宽幅场景，用来说明 RubberQ 产能结构和稳定供货"
         data-spec="2200x1200 横向宽幅，最好有设备纵深和批量生产语境"
         data-priority="critical"
       >
-        <div class="w-full h-full bg-gradient-to-r from-industrial-950 via-industrial-800 to-industrial-700"></div>
+        <img src={visualImages.capacity} alt={visualLabels.manufacturing} loading="lazy" />
       </div>
       <div class="absolute inset-0 bg-gradient-to-r from-industrial-950 via-industrial-900/85 to-industrial-900/25"></div>
       <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-20">
@@ -260,36 +272,38 @@ const orgSchema = createOrganizationSchema(locale!);
 
         <div class="grid lg:grid-cols-3 gap-5">
           <!-- EV -->
-          <a href={localizedPath(locale, `/industries/ev-energy-storage`)} class="group relative min-h-[540px] overflow-hidden border border-industrial-200 lg:col-span-2 bg-industrial-900">
+          <a href={localizedPath(locale, `/industries/ev-energy-storage`)} class="group relative min-h-[540px] overflow-hidden border border-industrial-200 lg:col-span-2 bg-industrial-900 rq-media rq-lift rq-pressable">
             <div
-              class="absolute inset-0 bg-industrial-200 flex items-center justify-center"
+              class="absolute inset-0 rq-media-soft"
               data-slot-id="home-industries-ev"
               data-purpose="EV/储能相关密封件应用场景或成品大图，作为首页行业主入口"
               data-spec="1600x1200 或 2200x1200，主视觉级别"
               data-priority="critical"
             >
-                <span class="absolute top-6 right-6 text-[10px] uppercase tracking-widest text-industrial-500">{visualLabels.ev}</span>
+                <img src={visualImages.ev} alt={visualLabels.ev} loading="lazy" />
+                <span class="absolute top-6 right-6 bg-white/90 px-3 py-1 text-[10px] uppercase tracking-widest text-industrial-500">{visualLabels.ev}</span>
             </div>
             <div class="absolute inset-0 bg-industrial-900/45 group-hover:bg-industrial-900/60 transition-colors"></div>
             <div class="absolute bottom-8 left-8 right-8 text-white md:bottom-10 md:left-10 md:right-10">
               <div class="text-accent-orange text-xs font-bold uppercase tracking-[0.24em] mb-4">01</div>
               <h3 class="text-3xl md:text-5xl font-bold uppercase tracking-tighter mb-4 max-w-xl">{h('industries.ev.title')}</h3>
               <p class="text-base md:text-lg text-industrial-100 leading-relaxed max-w-xl">{h('industries.ev.shortDesc')}</p>
-              <div class="w-10 h-1 bg-accent-orange mt-4 transition-all duration-300 group-hover:w-full"></div>
+              <div class="w-10 h-1 bg-accent-orange mt-4 transition-[width] duration-300 group-hover:w-full"></div>
             </div>
           </a>
 
           <div class="grid gap-5">
             <!-- Industrial -->
-            <a href={localizedPath(locale, `/industries/industrial-equipment`)} class="group relative min-h-[166px] overflow-hidden border border-industrial-200 bg-industrial-900">
+            <a href={localizedPath(locale, `/industries/industrial-equipment`)} class="group relative min-h-[166px] overflow-hidden border border-industrial-200 bg-industrial-900 rq-media rq-lift rq-pressable">
               <div
-                class="absolute inset-0 bg-industrial-200 flex items-center justify-center"
+                class="absolute inset-0 rq-media-soft"
                 data-slot-id="home-industries-industrial"
                 data-purpose="液压/泵阀/工业设备密封件场景"
                 data-spec="900x520"
                 data-priority="important"
               >
-                <span class="absolute top-4 right-4 text-[10px] uppercase tracking-widest text-industrial-500">{visualLabels.industrial}</span>
+                <img src={visualImages.industrial} alt={visualLabels.industrial} loading="lazy" />
+                <span class="absolute top-4 right-4 bg-white/90 px-2 py-1 text-[10px] uppercase tracking-widest text-industrial-500">{visualLabels.industrial}</span>
               </div>
               <div class="absolute inset-0 bg-industrial-900/55 group-hover:bg-industrial-900/72 transition-colors"></div>
               <div class="absolute bottom-5 left-5 right-5 text-white">
@@ -299,15 +313,16 @@ const orgSchema = createOrganizationSchema(locale!);
             </a>
 
             <!-- Semicon -->
-            <a href={localizedPath(locale, `/industries/semiconductor`)} class="group relative min-h-[166px] overflow-hidden border border-industrial-200 bg-industrial-900">
+            <a href={localizedPath(locale, `/industries/semiconductor`)} class="group relative min-h-[166px] overflow-hidden border border-industrial-200 bg-industrial-900 rq-media rq-lift rq-pressable">
               <div
-                class="absolute inset-0 bg-industrial-200 flex items-center justify-center"
+                class="absolute inset-0 rq-media-soft"
                 data-slot-id="home-industries-semicon"
                 data-purpose="FFKM 制品特写或洁净工艺场景"
                 data-spec="900x520"
                 data-priority="important"
               >
-                <span class="absolute top-4 right-4 text-[10px] uppercase tracking-widest text-industrial-500">{visualLabels.semiconductor}</span>
+                <img src={visualImages.semiconductor} alt={visualLabels.semiconductor} loading="lazy" />
+                <span class="absolute top-4 right-4 bg-white/90 px-2 py-1 text-[10px] uppercase tracking-widest text-industrial-500">{visualLabels.semiconductor}</span>
               </div>
               <div class="absolute inset-0 bg-industrial-900/55 group-hover:bg-industrial-900/72 transition-colors"></div>
               <div class="absolute bottom-5 left-5 right-5 text-white">
@@ -317,15 +332,16 @@ const orgSchema = createOrganizationSchema(locale!);
             </a>
 
             <!-- Auto Tier 2 -->
-            <a href={localizedPath(locale, `/industries/automotive-tier2`)} class="group relative min-h-[166px] overflow-hidden border border-industrial-200 bg-industrial-900">
+            <a href={localizedPath(locale, `/industries/automotive-tier2`)} class="group relative min-h-[166px] overflow-hidden border border-industrial-200 bg-industrial-900 rq-media rq-lift rq-pressable">
               <div
-                class="absolute inset-0 bg-industrial-200 flex items-center justify-center"
+                class="absolute inset-0 rq-media-soft"
                 data-slot-id="home-industries-auto"
                 data-purpose="汽车 Tier 2 橡胶件成品或装配场景"
                 data-spec="900x520"
                 data-priority="important"
               >
-                <span class="absolute top-4 right-4 text-[10px] uppercase tracking-widest text-industrial-500">{visualLabels.automotive}</span>
+                <img src={visualImages.automotive} alt={visualLabels.automotive} loading="lazy" />
+                <span class="absolute top-4 right-4 bg-white/90 px-2 py-1 text-[10px] uppercase tracking-widest text-industrial-500">{visualLabels.automotive}</span>
               </div>
               <div class="absolute inset-0 bg-industrial-900/55 group-hover:bg-industrial-900/72 transition-colors"></div>
               <div class="absolute bottom-5 left-5 right-5 text-white">
@@ -350,13 +366,13 @@ const orgSchema = createOrganizationSchema(locale!);
     <!-- ============================================================ -->
     <section class="relative min-h-[640px] bg-industrial-950 text-white overflow-hidden flex items-end">
       <div
-        class="absolute inset-0 opacity-60"
+        class="absolute inset-0 opacity-60 rq-media"
         data-slot-id="home-compounding-entry"
         data-purpose="A 炼车间或配方实验室代表性大图，作为配方研发入口的沉浸式背景"
         data-spec="2200x1400 横向或宽幅，画面要能承载深色蒙版文字"
         data-priority="critical"
       >
-        <div class="w-full h-full bg-gradient-to-br from-industrial-700 via-industrial-900 to-industrial-950"></div>
+        <img src={visualImages.compounding} alt={h('compoundingRDEntry.title')} loading="lazy" />
       </div>
       <div class="absolute inset-0 bg-gradient-to-t from-industrial-950 via-industrial-950/75 to-industrial-900/15"></div>
       <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-20">
@@ -370,13 +386,13 @@ const orgSchema = createOrganizationSchema(locale!);
           <div class="flex flex-col sm:flex-row gap-4">
             <a
               href={localizedPath(locale, `/compounding`)}
-              class="inline-flex justify-center bg-accent-orange text-white px-8 py-4 font-bold text-sm tracking-widest uppercase hover:bg-white hover:text-industrial-900 transition-all duration-300"
+              class="rq-pressable inline-flex justify-center bg-accent-orange text-white px-8 py-4 font-bold text-sm tracking-[0.18em] uppercase hover:bg-white hover:text-industrial-900"
             >
               {h('compoundingRDEntry.cta')} →
             </a>
             <a
               href={localizedPath(locale, `/testing`)}
-              class="inline-flex justify-center border border-industrial-500 text-white px-8 py-4 font-bold text-sm tracking-widest uppercase hover:border-white transition-all duration-300"
+              class="rq-pressable inline-flex justify-center border border-industrial-500 text-white px-8 py-4 font-bold text-sm tracking-[0.18em] uppercase hover:border-white"
             >
               {h('navigation.testing', 'Testing')}
             </a>

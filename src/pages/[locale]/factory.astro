@@ -70,7 +70,7 @@ const certs = [
       <div class="absolute inset-0 bg-grid-pattern bg-grid-size opacity-5"></div>
       <div class="absolute inset-0 bg-gradient-to-r from-industrial-900 via-industrial-900/95 to-transparent z-10"></div>
       <div class="absolute right-0 top-0 w-1/2 h-full hidden lg:block">
-        <img src="https://images.unsplash.com/photo-1565043666747-69f6646db940?auto=format&fit=crop&q=80&w=1200" alt="Factory" class="w-full h-full object-cover opacity-40" />
+        <img src="/images/legacy_resource/2021/03/17/60515a8bd1599.jpg" alt="Factory" class="w-full h-full object-cover opacity-45 grayscale contrast-110 brightness-90" />
       </div>
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
         <div class="max-w-2xl">
@@ -83,11 +83,11 @@ const certs = [
           </h1>
           <p class="text-xl text-industrial-300 leading-relaxed mb-8">{f('hero.subtitle')}</p>
           <div class="flex flex-wrap gap-4">
-            <a href={localizedPath(locale, `/contact`)} class="inline-flex items-center gap-2 bg-accent-orange text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-industrial-900 transition-all duration-300">
+            <a href={localizedPath(locale, `/contact`)} class="rq-pressable inline-flex items-center gap-2 bg-accent-orange text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-industrial-900">
               {f('hero.scheduleVisit')}
               <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
             </a>
-            <a href="#production" class="inline-flex items-center gap-2 border border-industrial-500 text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:border-white transition-all duration-300">
+            <a href="#production" class="rq-pressable inline-flex items-center gap-2 border border-industrial-500 text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:border-white">
               {f('hero.exploreCapabilities')}
             </a>
           </div>
@@ -161,7 +161,7 @@ const certs = [
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           {productionLines.map((line) => (
-            <div class="group border border-industrial-200 hover:border-accent-orange transition-all duration-300 bg-white">
+            <div class="group border border-industrial-200 hover:border-accent-orange transition-colors duration-200 bg-white rq-lift">
               <div class="aspect-[16/9] overflow-hidden bg-industrial-100">
                 <img src={line.image} alt={line.title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
               </div>
@@ -231,7 +231,7 @@ const certs = [
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {qualityProcesses.map((process, i) => (
-            <div class="bg-industrial-50 p-8 h-full border-l-4 border-accent-orange">
+            <div class="bg-industrial-50 p-8 h-full border border-industrial-200 border-t-4 border-t-accent-orange">
               <div class="text-5xl font-bold text-industrial-200 mb-4">0{i + 1}</div>
               <h3 class="text-lg font-bold text-industrial-900 mb-3">{process.title}</h3>
               <p class="text-sm text-industrial-600 leading-relaxed">{process.description}</p>
@@ -269,11 +269,11 @@ const certs = [
         </h2>
         <p class="text-industrial-300 text-lg mb-10 max-w-2xl mx-auto">{f('cta.description')}</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href={localizedPath(locale, `/contact`)} class="inline-flex items-center gap-2 bg-accent-orange text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-industrial-900 transition-all duration-300">
+          <a href={localizedPath(locale, `/contact`)} class="rq-pressable inline-flex items-center gap-2 bg-accent-orange text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:bg-white hover:text-industrial-900">
             {f('cta.scheduleTour')}
             <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
           </a>
-          <a href={localizedPath(locale, `/quality`)} class="inline-flex items-center gap-2 border border-industrial-500 text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:border-white transition-all duration-300">
+          <a href={localizedPath(locale, `/quality`)} class="rq-pressable inline-flex items-center gap-2 border border-industrial-500 text-white px-8 py-4 font-bold text-sm uppercase tracking-widest hover:border-white">
             {f('cta.viewQuality')}
           </a>
         </div>

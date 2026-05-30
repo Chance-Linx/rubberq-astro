@@ -80,7 +80,7 @@ const glossary = getTechnicalGlossary(locale);
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {materials.map((mat) => (
-          <div class="bg-white border border-industrial-200 p-6 hover:border-accent-orange hover:shadow-lg transition-all group">
+          <div class="bg-white border border-industrial-200 p-6 hover:border-accent-orange transition-colors group rq-lift rq-pressable">
             <div class="flex items-center gap-3 mb-4">
               <div class="w-12 h-12 bg-industrial-100 flex items-center justify-center group-hover:bg-accent-orange/10 transition-colors">
                 <svg class="w-6 h-6 text-industrial-600 group-hover:text-accent-orange" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
@@ -118,7 +118,7 @@ const glossary = getTechnicalGlossary(locale);
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           {designGuides.map((guide) => (
-            <div class="bg-white border-l-4 border-accent-orange p-6 shadow-sm">
+            <div class="bg-white border border-industrial-200 border-t-4 border-t-accent-orange p-6">
               <div class="flex items-center gap-3 mb-4">
                 <svg class="w-6 h-6 text-accent-orange" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
                 <h3 class="text-lg font-bold text-industrial-900">{guide.title}</h3>

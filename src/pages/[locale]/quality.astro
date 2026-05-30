@@ -299,7 +299,7 @@ const videoTestimonials = [
       />
 
       <!-- Cross-link to Resources -->
-      <div class="mt-12 p-6 bg-industrial-50 border-l-4 border-accent-orange">
+      <div class="mt-12 p-6 bg-industrial-50 border border-industrial-200 border-t-4 border-t-accent-orange">
         <div class="flex items-start gap-4">
           <svg class="w-6 h-6 text-accent-orange flex-shrink-0 mt-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
           <div>
@@ -365,7 +365,7 @@ const videoTestimonials = [
               ))}
             </div>
 
-            <div class="border-l-4 border-accent-orange pl-6">
+            <div class="border border-industrial-200 border-t-4 border-t-accent-orange p-6">
               <h4 class="font-bold text-industrial-900 mb-4">{f('controlPlan.metricsTitle')}</h4>
               <div class="grid sm:grid-cols-2 gap-3">
                 {Array.isArray(controlPlanMetrics) && controlPlanMetrics.map((metric: string) => (
@@ -394,7 +394,7 @@ const videoTestimonials = [
               {Array.isArray(labEquipment) && labEquipment.map((eq: {name: string, function: string, standards?: string, img: string}) => (
                 <div class="flex flex-col gap-3 group">
                   <div class="aspect-video overflow-hidden border border-industrial-100 shadow-sm">
-                    <img src={eq.img} alt={eq.name} class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" />
+                    <img src={eq.img} alt={eq.name} class="w-full h-full object-cover grayscale contrast-110 brightness-90 group-hover:brightness-100 transition-[filter,transform] duration-500" />
                   </div>
                   <div class="flex items-start gap-3">
                     <svg class="w-5 h-5 text-industrial-900 mt-1 shrink-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
@@ -412,7 +412,7 @@ const videoTestimonials = [
             </a>
           </div>
 
-          <div class="bg-white p-8 shadow-xl border border-industrial-100">
+          <div class="bg-white p-8 border border-industrial-100">
             <SummarySnippet
               title={f('traceability.title')}
               items={
