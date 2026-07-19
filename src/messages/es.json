@@ -2168,6 +2168,43 @@
     ],
     "cta": "Discutir proyecto"
   },
+  "homeStats": {
+    "kicker": "LA FÁBRICA EN CIFRAS",
+    "items": [
+      { "value": "SINCE 1995", "label": "HERENCIA DE FABRICACIÓN SINO-JAPONESA" },
+      { "value": "20,000 m²", "label": "DOS PLANTAS DE FABRICACIÓN" },
+      { "value": "500g – 5,000kg", "label": "RANGO DE LOTES DE COMPUESTO" },
+      { "value": "±0.05 mm", "label": "CAPACIDAD DE TOLERANCIAS DE PRECISIÓN" }
+    ]
+  },
+  "homeProcess": {
+    "kicker": "FLUJO DE PROCESO",
+    "title": "DEL COMPUESTO AL COMPONENTE",
+    "steps": [
+      {
+        "title": "DESARROLLO DE COMPUESTOS",
+        "desc": "Formulaciones diseñadas junto con los socios japoneses de formulación con los que trabajamos desde 1995.",
+        "note": "Selección de polímeros, sistemas de carga y paquetes de curado adaptados a sus condiciones de servicio."
+      },
+      {
+        "title": "MEZCLADO INTERNO",
+        "desc": "Una línea de mezclado A dedicada con trazabilidad total por lote y control de contaminación cruzada.",
+        "note": "Lotes de compuesto de 500 g a 5.000 kg, trazables en los registros ERP."
+      },
+      {
+        "title": "MOLDEO Y CURADO",
+        "desc": "Moldeo por compresión, inyección y transferencia, incluidas piezas con unión caucho-metal.",
+        "note": "Parámetros de proceso registrados en cada lote para una producción repetible."
+      },
+      {
+        "title": "ENSAYOS Y VALIDACIÓN",
+        "desc": "Verificación en laboratorio propio según métodos ASTM e ISO reconocidos antes de la liberación.",
+        "note": "Tracción, deformación por compresión y dureza — p. ej. ASTM D412 / D395 / D2240."
+      }
+    ],
+    "linkCompounding": "Explorar Compounding e I+D",
+    "linkTesting": "Ver Ensayos y Validación"
+  },
   "footerTagline": "Formulación japonesa. Precisión china. Confiable desde 1995.",
   "qualityV2": {
     "heroSubtitleV2": "Desde el diseño de compuesto hasta la inspección final, nuestro sistema de calidad certificado IATF 16949 apoya a clientes de EV/almacenamiento, equipo industrial, semiconductor y automotriz Tier 2 con trazabilidad de compuesto durante años de producción.",

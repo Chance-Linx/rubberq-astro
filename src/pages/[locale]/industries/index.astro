@@ -1,6 +1,7 @@
 ---
 import LocaleLayout from '@/layouts/LocaleLayout.astro';
 import JsonLd from '@/components/JsonLd';
+import SectorIcon from '@/components/industries/SectorIcon.astro';
 import { getTranslations, localizedPath, t } from '@/lib/i18n';
 import { createOrganizationSchema } from '@/lib/structuredData';
 
@@ -63,8 +64,8 @@ const sectors = [
                 <img src={sector.image} alt={visualLabel} loading="lazy" />
               </div>
               <div class="p-8">
-                <div class="flex items-baseline gap-3 mb-3">
-                  <span class="text-3xl">{ix(`industries.${sector.i18nKey}.icon`)}</span>
+                <div class="flex items-center gap-3 mb-3">
+                  <SectorIcon name={sector.i18nKey} class="h-6 w-6 shrink-0 text-industrial-900 transition-colors group-hover:text-accent-orange" />
                   <h2 class="text-2xl font-bold tracking-tight text-industrial-900 uppercase">
                     {ix(`industries.${sector.i18nKey}.title`)}
                   </h2>

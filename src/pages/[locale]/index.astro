@@ -15,10 +15,19 @@ const meta = messages?.metadata || {};
 const homeMeta = meta?.home || {};
 const h = (key: string, fallback = '') => t(messages, key, fallback);
 
-const summaryItems = tRaw(messages, 'features.summaryItems', []);
 const fitItems = tRaw(messages, 'goodFit.fitItems', []);
 const notFitItems = tRaw(messages, 'goodFit.notFitItems', []);
 const trustBadges = tRaw(messages, 'hero.trustBadges', ['IATF 16949', 'ISO 9001', 'ISO 14001']);
+const statsItems = tRaw(messages, 'homeStats.items', []);
+const processSteps = tRaw(messages, 'homeProcess.steps', []);
+// Count-up driver config per stats item. `token` is the substring of the
+// rendered `value` that the animated number replaces (locale-independent).
+const statCountConfigs = [
+  { to: 1995, decimals: 0, grouping: false, token: '1995' },
+  { to: 20000, decimals: 0, grouping: true, token: '20,000' },
+  { to: 5000, decimals: 0, grouping: true, token: '5,000' },
+  { to: 0.05, decimals: 2, grouping: false, token: '0.05' },
+];
 const visualLabels = {
   manufacturing: h('visualLabels.manufacturing', 'Factory Manufacturing Scene'),
   ev: h('visualLabels.ev', 'EV & Energy Storage Applications'),
@@ -66,21 +75,21 @@ const orgSchema = createOrganizationSchema(locale!);
 
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 w-full">
         <div class="max-w-3xl">
-          <div class="inline-block bg-accent-orange/10 border border-accent-orange/30 text-accent-orange px-3 py-1 text-xs font-bold tracking-widest uppercase mb-6">
+          <div data-hero-stagger class="inline-block bg-accent-orange/10 border border-accent-orange/30 text-accent-orange px-3 py-1 text-xs font-bold tracking-widest uppercase mb-6">
             {h('hero.badge', 'JAPANESE FORMULATION × CHINESE PRECISION × SINCE 1995')}
           </div>
-          <h1 class="text-5xl md:text-7xl font-bold tracking-tighter text-white mb-6 leading-[0.95]">
+          <h1 data-hero-stagger class="text-5xl md:text-7xl font-bold tracking-tighter text-white mb-6 leading-[0.95]">
             {h('hero.titleLine1', 'PRECISION')}<br />
             <span class="text-industrial-500">{h('hero.titleLine2', 'IN EVERY')}</span><br />
             {h('hero.titleLine3', 'MOLECULE.')}
           </h1>
-          <p class="text-xl md:text-2xl text-accent-orange font-bold tracking-tight mb-4 italic">
+          <p data-hero-stagger class="text-xl md:text-2xl text-accent-orange font-bold tracking-tight mb-4 italic">
             "{h('hero.tagline', 'Japanese Formulation. Chinese Precision. Trusted Since 1995.')}"
           </p>
-          <p class="text-lg text-industrial-100 mb-8 max-w-2xl leading-relaxed">
+          <p data-hero-stagger class="text-lg text-industrial-100 mb-8 max-w-2xl leading-relaxed">
             {h('hero.subtitle')}
           </p>
-          <div class="flex flex-col sm:flex-row gap-4 mb-10">
+          <div data-hero-stagger class="flex flex-col sm:flex-row gap-4 mb-10">
             <a
               href={localizedPath(locale, `/contact`)}
               class="rq-pressable bg-accent-orange text-white px-8 py-4 font-bold text-sm tracking-[0.18em] hover:bg-white hover:text-industrial-900 text-center uppercase"
@@ -94,11 +103,40 @@ const orgSchema = createOrganizationSchema(locale!);
               {h('hero.ctaSecondary', 'EXPLORE OUR R&D')}
             </a>
           </div>
-          <div class="flex flex-wrap gap-3 items-center">
+          <div data-hero-stagger class="flex flex-wrap gap-3 items-center">
             {trustBadges.map((badge: string) => (
               <span class="text-industrial-400 text-xs font-mono tracking-widest border border-industrial-700 px-3 py-1.5">{badge}</span>
             ))}
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- FACTORY AT A GLANCE — stats band with count-up                 -->
+    <!-- ============================================================ -->
+    <section class="bg-industrial-950 border-y border-industrial-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-16" data-reveal>
+        <p class="text-industrial-500 text-xs font-mono uppercase tracking-[0.24em] mb-10">
+          {h('homeStats.kicker', 'FACTORY AT A GLANCE')}
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-10">
+          {statsItems.map((item: any, i: number) => {
+            const cfg = statCountConfigs[i];
+            return (
+              <div class="border-l border-industrial-800 pl-5">
+                <div
+                  class="font-mono text-2xl sm:text-3xl lg:text-4xl leading-none text-white tracking-tight"
+                  data-countup
+                  data-count-to={cfg?.to}
+                  data-count-decimals={cfg?.decimals}
+                  data-count-grouping={cfg?.grouping ? 'true' : 'false'}
+                  data-count-token={cfg?.token}
+                >{item.value}</div>
+                <div class="mt-3 text-[11px] font-mono uppercase tracking-[0.18em] text-industrial-400">{item.label}</div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
@@ -123,24 +161,10 @@ const orgSchema = createOrganizationSchema(locale!);
         </div>
 
         <div class="lg:col-span-5 px-4 sm:px-8 lg:px-12 py-16 lg:py-20 flex items-center">
-          <div class="max-w-xl">
-            <h2 class="text-4xl md:text-5xl font-bold tracking-tighter text-industrial-900 uppercase mb-8 leading-[0.98]">
+          <div class="max-w-xl" data-reveal>
+            <h2 class="text-4xl md:text-5xl font-bold tracking-tighter text-industrial-900 uppercase mb-10 leading-[0.98]">
               {h('features.title', 'WHY GLOBAL ENGINEERING TEAMS CHOOSE RUBBERQ')}
             </h2>
-
-            <div class="border-t-4 border-accent-orange bg-industrial-50 p-6 mb-10">
-              <h3 class="text-sm font-bold text-industrial-900 mb-5 uppercase tracking-[0.18em]">
-                {h('features.summaryTitle', 'QUICK TECHNICAL SUMMARY')}
-              </h3>
-              <ul class="space-y-4">
-                {summaryItems.map((item: any) => (
-                  <li class="border-b border-industrial-200 pb-4 last:border-b-0 last:pb-0">
-                    <strong class="text-industrial-900 block mb-1 text-sm uppercase tracking-tight">{item.term}</strong>
-                    <span class="text-sm text-industrial-700 leading-relaxed">{item.description}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
 
             <div class="grid sm:grid-cols-2 gap-x-8 gap-y-8">
               <div class="border-t border-industrial-200 pt-5">
@@ -170,11 +194,58 @@ const orgSchema = createOrganizationSchema(locale!);
     </section>
 
     <!-- ============================================================ -->
+    <!-- PROCESS — FROM COMPOUND TO COMPONENT                          -->
+    <!-- ============================================================ -->
+    <section class="py-24 bg-white border-t border-industrial-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mb-14" data-reveal>
+          <p class="text-accent-orange text-xs font-mono uppercase tracking-[0.24em] mb-4">
+            {h('homeProcess.kicker', 'PROCESS FLOW')}
+          </p>
+          <h2 class="text-3xl md:text-5xl font-bold tracking-tighter text-industrial-900 uppercase leading-tight mb-5">
+            {h('homeProcess.title', 'FROM COMPOUND TO COMPONENT')}
+          </h2>
+          <div class="h-1 w-14 bg-accent-orange"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12" data-reveal>
+          {processSteps.map((step: any, i: number) => (
+            <div class="border-t border-industrial-200 pt-5">
+              <div class="text-accent-orange text-xs font-bold font-mono uppercase tracking-[0.16em] mb-3">
+                {String(i + 1).padStart(2, '0')}
+              </div>
+              <h3 class="font-bold text-lg mb-2 tracking-tight text-industrial-900 uppercase">{step.title}</h3>
+              <p class="text-sm text-industrial-600 leading-relaxed mb-3">{step.desc}</p>
+              <p class="text-xs text-industrial-500 leading-relaxed">{step.note}</p>
+            </div>
+          ))}
+        </div>
+
+        <div class="mt-12 flex flex-col sm:flex-row gap-x-10 gap-y-4" data-reveal>
+          <a
+            href={localizedPath(locale, `/compounding`)}
+            class="group inline-flex items-center gap-2 text-accent-orange font-bold uppercase text-sm tracking-widest"
+          >
+            {h('homeProcess.linkCompounding', 'Explore Compounding & R&D')}
+            <span class="transition-transform group-hover:translate-x-1">→</span>
+          </a>
+          <a
+            href={localizedPath(locale, `/testing`)}
+            class="group inline-flex items-center gap-2 text-accent-orange font-bold uppercase text-sm tracking-widest"
+          >
+            {h('homeProcess.linkTesting', 'See Testing & Validation')}
+            <span class="transition-transform group-hover:translate-x-1">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
     <!-- IS MY PROJECT A GOOD FIT?                                     -->
     <!-- ============================================================ -->
     <section class="py-20 bg-white border-y border-industrial-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid lg:grid-cols-12 gap-12 items-start">
+        <div class="grid lg:grid-cols-12 gap-12 items-start" data-reveal>
           <div class="lg:col-span-4 lg:sticky lg:top-28">
             <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 uppercase mb-5 leading-tight">
               {h('goodFit.title')}
@@ -233,7 +304,7 @@ const orgSchema = createOrganizationSchema(locale!);
         <img src={visualImages.capacity} alt={visualLabels.manufacturing} loading="lazy" />
       </div>
       <div class="absolute inset-0 bg-gradient-to-r from-industrial-950 via-industrial-900/85 to-industrial-900/25"></div>
-      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-20">
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-20" data-reveal>
         <div class="max-w-2xl">
           <h2 class="text-3xl md:text-5xl font-bold tracking-tighter uppercase mb-6 leading-tight">
             {h('capacityReframing.title')}
@@ -261,7 +332,7 @@ const orgSchema = createOrganizationSchema(locale!);
     <!-- ============================================================ -->
     <section class="py-24 bg-industrial-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid lg:grid-cols-12 gap-8 items-end mb-12">
+        <div class="grid lg:grid-cols-12 gap-8 items-end mb-12" data-reveal>
           <h2 class="lg:col-span-5 text-3xl md:text-5xl font-bold tracking-tighter text-industrial-900 uppercase leading-tight">
             {h('industries.title', 'Specialized Industries We Serve')}
           </h2>
@@ -270,7 +341,7 @@ const orgSchema = createOrganizationSchema(locale!);
           </p>
         </div>
 
-        <div class="grid lg:grid-cols-3 gap-5">
+        <div class="grid lg:grid-cols-3 gap-5" data-reveal>
           <!-- EV -->
           <a href={localizedPath(locale, `/industries/ev-energy-storage`)} class="group relative min-h-[540px] overflow-hidden border border-industrial-200 lg:col-span-2 bg-industrial-900 rq-media rq-lift rq-pressable">
             <div
@@ -375,7 +446,7 @@ const orgSchema = createOrganizationSchema(locale!);
         <img src={visualImages.compounding} alt={h('compoundingRDEntry.title')} loading="lazy" />
       </div>
       <div class="absolute inset-0 bg-gradient-to-t from-industrial-950 via-industrial-950/75 to-industrial-900/15"></div>
-      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-20">
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-20" data-reveal>
         <div class="max-w-3xl">
           <h2 class="text-4xl md:text-6xl font-bold tracking-tighter mb-6 uppercase leading-[0.98]">
             {h('compoundingRDEntry.title')}
@@ -402,3 +473,68 @@ const orgSchema = createOrganizationSchema(locale!);
     </section>
   </div>
 </LocaleLayout>
+
+<script>
+  import { animate, inView, stagger } from 'motion';
+
+  // All motion on this page is progressive enhancement: SSR HTML carries the
+  // final state, and every animation is skipped under prefers-reduced-motion.
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (!reduceMotion) {
+    const RQ_EASE: [number, number, number, number] = [0.23, 1, 0.32, 1];
+
+    // Hero entrance: badge -> title -> tagline -> subtitle -> CTAs -> trust chips
+    if (document.querySelector('[data-hero-stagger]')) {
+      animate(
+        '[data-hero-stagger]',
+        { opacity: [0, 1], y: [12, 0] },
+        { duration: 0.5, delay: stagger(0.08), ease: RQ_EASE },
+      );
+    }
+
+    // Section reveals — one-shot, restrained
+    inView(
+      '[data-reveal]',
+      (el) => {
+        animate(el, { opacity: [0, 1], y: [12, 0] }, { duration: 0.5, ease: RQ_EASE });
+      },
+      { once: true },
+    );
+
+    // Stats band count-up
+    const formatValue = (v: number, decimals: number, grouping: boolean): string => {
+      const fixed = v.toFixed(decimals);
+      if (!grouping) return fixed;
+      const [int, dec] = fixed.split('.');
+      return int.replace(/\B(?=(\d{3})+(?!\d))/g, ',') + (dec ? `.${dec}` : '');
+    };
+
+    document.querySelectorAll('[data-countup]').forEach((el) => {
+      const to = Number(el.getAttribute('data-count-to'));
+      const decimals = Number(el.getAttribute('data-count-decimals') ?? '0');
+      const grouping = el.getAttribute('data-count-grouping') === 'true';
+      const token = el.getAttribute('data-count-token') ?? '';
+      const finalText = el.textContent ?? '';
+      if (!Number.isFinite(to) || !token || !finalText.includes(token)) return;
+      const template = finalText.replace(token, '{n}');
+
+      inView(
+        el,
+        () => {
+          animate(0, to, {
+            duration: 1.4,
+            ease: RQ_EASE,
+            onUpdate: (v) => {
+              el.textContent = template.replace('{n}', formatValue(v, decimals, grouping));
+            },
+            onComplete: () => {
+              el.textContent = finalText;
+            },
+          });
+        },
+        { once: true, amount: 0.4 },
+      );
+    });
+  }
+</script>

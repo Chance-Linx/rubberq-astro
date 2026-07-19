@@ -19,6 +19,8 @@ const allowedHex = new Set([
   '#0a0a0a',
   '#050505',
   '#f97316',
+  '#ea580c',
+  '#ffedd5',
 ]);
 
 const disallowedPalette =

@@ -1,0 +1,68 @@
+---
+/**
+ * SectorIcon — 1.5px stroke linear SVG icons for the four industry sectors.
+ * Replaces the old emoji glyphs (⚡⚙🔬🚗) per Design.md §7.
+ * Path data mirrors lucide-react: Zap / Cog / Microchip / Car.
+ */
+interface Props {
+  name: string; // 'ev' | 'industrial' | 'semiconductor' | 'automotive'
+  class?: string;
+}
+
+const { name, class: className = 'h-6 w-6' } = Astro.props;
+---
+
+{
+  name === 'ev' && (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class={className} aria-hidden="true">
+      <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z" />
+    </svg>
+  )
+}
+{
+  name === 'industrial' && (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class={className} aria-hidden="true">
+      <path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z" />
+      <path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" />
+      <path d="M12 2v2" />
+      <path d="M12 22v-2" />
+      <path d="m17 20.66-1-1.73" />
+      <path d="M11 10.27 7 3.34" />
+      <path d="m20.66 17-1.73-1" />
+      <path d="m3.34 7 1.73 1" />
+      <path d="M14 12h8" />
+      <path d="M2 12h2" />
+      <path d="m20.66 7-1.73 1" />
+      <path d="m3.34 17 1.73-1" />
+      <path d="m17 3.34-1 1.73" />
+      <path d="m11 13.73-4 6.93" />
+    </svg>
+  )
+}
+{
+  name === 'semiconductor' && (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class={className} aria-hidden="true">
+      <path d="M18 12h2" />
+      <path d="M18 16h2" />
+      <path d="M18 20h2" />
+      <path d="M18 4h2" />
+      <path d="M18 8h2" />
+      <path d="M4 12h2" />
+      <path d="M4 16h2" />
+      <path d="M4 20h2" />
+      <path d="M4 4h2" />
+      <path d="M4 8h2" />
+      <path d="M8 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-1.5c-.276 0-.494.227-.562.495a2 2 0 0 1-3.876 0C9.994 2.227 9.776 2 9.5 2z" />
+    </svg>
+  )
+}
+{
+  name === 'automotive' && (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class={className} aria-hidden="true">
+      <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
+      <circle cx="7" cy="17" r="2" />
+      <path d="M9 17h6" />
+      <circle cx="17" cy="17" r="2" />
+    </svg>
+  )
+}

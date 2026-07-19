@@ -179,6 +179,43 @@
     "subtext": "95% of rubber suppliers buy compounds. We engineer them. With Japanese-developed master formulations and our own A-mixing line + testing lab, we own the entire value chain from polymer chemistry to finished part.",
     "cta": "Tour Our R&D Capabilities"
   },
+  "homeStats": {
+    "kicker": "FACTORY AT A GLANCE",
+    "items": [
+      { "value": "SINCE 1995", "label": "SINO-JAPANESE MANUFACTURING HERITAGE" },
+      { "value": "20,000 m²", "label": "TWO MANUFACTURING SITES" },
+      { "value": "500g – 5,000kg", "label": "COMPOUND BATCH RANGE" },
+      { "value": "±0.05 mm", "label": "PRECISION TOLERANCE CAPABILITY" }
+    ]
+  },
+  "homeProcess": {
+    "kicker": "PROCESS FLOW",
+    "title": "FROM COMPOUND TO COMPONENT",
+    "steps": [
+      {
+        "title": "COMPOUND DEVELOPMENT",
+        "desc": "Formulations engineered together with the Japanese formulation partners we have worked with since 1995.",
+        "note": "Polymer selection, filler systems, and cure packages matched to your service conditions."
+      },
+      {
+        "title": "IN-HOUSE MIXING",
+        "desc": "A dedicated A-mixing line with full batch traceability and cross-contamination control.",
+        "note": "Compound batches from 500 g to 5,000 kg, traceable through ERP records."
+      },
+      {
+        "title": "MOLDING & CURING",
+        "desc": "Compression, injection, and transfer molding, including rubber-to-metal bonded parts.",
+        "note": "Process parameters recorded for every batch to keep production repeatable."
+      },
+      {
+        "title": "TESTING & VALIDATION",
+        "desc": "In-house laboratory verification to recognized ASTM and ISO methods before release.",
+        "note": "Tensile, compression set, and hardness — e.g. ASTM D412 / D395 / D2240."
+      }
+    ],
+    "linkCompounding": "Explore Compounding & R&D",
+    "linkTesting": "See Testing & Validation"
+  },
   "footerTagline": "Japanese Formulation. Chinese Precision. Trusted Since 1995.",
   "products": {
     "title": "Our Products",

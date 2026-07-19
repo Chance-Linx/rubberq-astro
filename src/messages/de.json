@@ -2168,6 +2168,43 @@
     ],
     "cta": "Projekt besprechen"
   },
+  "homeStats": {
+    "kicker": "DAS WERK AUF EINEN BLICK",
+    "items": [
+      { "value": "SINCE 1995", "label": "SINO-JAPANISCHE FERTIGUNGSTRADITION" },
+      { "value": "20,000 m²", "label": "ZWEI FERTIGUNGSSTANDORTE" },
+      { "value": "500g – 5,000kg", "label": "COMPOUND-CHARGENBEREICH" },
+      { "value": "±0.05 mm", "label": "PRÄZISIONSTOLERANZEN IN DER FERTIGUNG" }
+    ]
+  },
+  "homeProcess": {
+    "kicker": "PROZESSABLAUF",
+    "title": "VOM COMPOUND ZUM BAUTEIL",
+    "steps": [
+      {
+        "title": "COMPOUND-ENTWICKLUNG",
+        "desc": "Rezepturen, gemeinsam mit den japanischen Formulierungspartnern entwickelt, mit denen wir seit 1995 arbeiten.",
+        "note": "Polymerauswahl, Füllstoffsysteme und Vernetzungspakete – abgestimmt auf Ihre Einsatzbedingungen."
+      },
+      {
+        "title": "INTERNES MISCHEN",
+        "desc": "Eine dedizierte A-Mischlinie mit lückenloser Chargenrückverfolgung und Kontaminationsschutz.",
+        "note": "Compound-Chargen von 500 g bis 5.000 kg, rückverfolgbar über ERP-Datensätze."
+      },
+      {
+        "title": "FORMGEBUNG & VULKANISATION",
+        "desc": "Press-, Spritzgieß- und Transferverfahren, einschließlich Gummi-Metall-Verbundteile.",
+        "note": "Prozessparameter werden für jede Charge aufgezeichnet – für reproduzierbare Fertigung."
+      },
+      {
+        "title": "PRÜFUNG & VALIDIERUNG",
+        "desc": "Verifikation im eigenen Labor nach anerkannten ASTM- und ISO-Methoden vor der Freigabe.",
+        "note": "Zugfestigkeit, Druckverformungsrest und Härte – z. B. ASTM D412 / D395 / D2240."
+      }
+    ],
+    "linkCompounding": "Compounding & F&E entdecken",
+    "linkTesting": "Prüfung & Validierung ansehen"
+  },
   "footerTagline": "Japanische Formulierung. Chinesische Präzision. Seit 1995 vertrauenswürdig.",
   "qualityV2": {
     "heroSubtitleV2": "Vom Compound-Design bis zur Endprüfung unterstützt unser nach IATF 16949 zertifiziertes Qualitätssystem Kunden in EV/Energiespeicher, Industrieausrüstung, Halbleiter und Automotive Tier 2 mit rückverfolgbaren Chargen über Jahre der Serienproduktion.",

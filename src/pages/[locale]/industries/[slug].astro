@@ -1,6 +1,7 @@
 ---
 import LocaleLayout from '@/layouts/LocaleLayout.astro';
 import JsonLd from '@/components/JsonLd';
+import SectorIcon from '@/components/industries/SectorIcon.astro';
 import { getTranslations, localizedPath, t, tRaw } from '@/lib/i18n';
 import { createOrganizationSchema } from '@/lib/structuredData';
 
@@ -106,8 +107,8 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
             <div class="grid md:grid-cols-2 gap-8">
               {evSubSectors.map(({ key, data }) => (
                 <div class="border border-industrial-200 border-t-4 border-t-accent-orange p-6">
-                  <div class="flex items-baseline gap-3 mb-3">
-                    <span class="text-2xl">{data.icon || '⚡'}</span>
+                  <div class="flex items-center gap-3 mb-3">
+                    <SectorIcon name="ev" class="h-5 w-5 shrink-0 text-accent-orange" />
                     <h3 class="text-xl font-bold tracking-tight text-industrial-900">{data.name}</h3>
                   </div>
                   <ul class="space-y-2 mb-4">
