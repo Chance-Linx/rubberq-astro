@@ -63,23 +63,32 @@ const complianceItems = fa('enhancement.complianceItems') as string[];
 
 <LocaleLayout locale={locale}>
   <Fragment slot="head">
-    <title>{meta.contact?.title || 'Contact Us | RubberQ'}</title>
+    <title>{meta.contact?.title || 'Dedicated Engineering Inquiry & Contact | RubberQ'}</title>
     <meta name="description" content={meta.contact?.description || ''} />
   </Fragment>
 
   <div class="bg-white min-h-screen">
-    <section class="bg-industrial-900 text-white py-24 px-4">
+    <section data-section-name="contact-hero" class="bg-industrial-900 text-white py-24 px-4">
       <div class="max-w-7xl mx-auto">
+        <div class="inline-block bg-accent-orange/10 border border-accent-orange/30 text-accent-orange px-3 py-1 text-xs font-bold tracking-widest uppercase mb-4">
+          TECHNICAL APPLICATIONS ENGINEERING DESK
+        </div>
         <h1 class="text-4xl md:text-6xl font-bold mb-5 tracking-tighter uppercase max-w-4xl">{f('title')}</h1>
         <p class="text-industrial-300 max-w-2xl text-lg leading-relaxed">
           {f('subtitle')}
         </p>
+
+        <!-- Dynamic Context Bar (Yakeclimate Source Parameter Resolution) -->
+        <div id="source-context-bar" class="hidden mt-8 p-4 bg-industrial-800 border-l-4 border-accent-orange text-sm text-industrial-200">
+          <span class="font-bold text-white uppercase tracking-wider">Context Attached:</span>
+          Consulting from <span id="source-path-label" class="font-mono text-accent-orange"></span> (CTA: <span id="cta-label-text" class="text-white"></span>)
+        </div>
       </div>
     </section>
 
-    <section class="py-20 px-4 max-w-7xl mx-auto">
+    <section data-section-name="dynamic-rfq-form" class="py-20 px-4 max-w-7xl mx-auto">
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-16">
-        {/* Contact Info */}
+        {/* Contact Info & Trust Proofs */}
         <div class="lg:col-span-1 lg:sticky lg:top-28 self-start">
           <h2 class="text-2xl font-bold mb-8">{f('directContact')}</h2>
           <div class="space-y-8">
@@ -90,10 +99,11 @@ const complianceItems = fa('enhancement.complianceItems') as string[];
               <div>
                 <p class="font-bold">{f('engineeringSales')}</p>
                 <!--email_off-->
-                <a href="mailto:contact@rubberq.com" class="text-industrial-600 hover:text-industrial-900">
+                <a href="mailto:contact@rubberq.com" class="text-industrial-600 hover:text-industrial-900 font-mono font-bold">
                   contact@rubberq.com
                 </a>
                 <!--/email_off-->
+                <p class="text-xs text-industrial-500 mt-1">Direct Engineering Mail (4h Response Guarantee)</p>
               </div>
             </div>
             <div class="flex items-start gap-4">
@@ -102,10 +112,22 @@ const complianceItems = fa('enhancement.complianceItems') as string[];
               </div>
               <div>
                 <p class="font-bold">{f('manufacturingSite')}</p>
-                <p class="text-industrial-600">{f('manufacturingAddress')}</p>
+                <p class="text-industrial-600 text-sm leading-relaxed">{f('manufacturingAddress')}</p>
               </div>
             </div>
-            <div class="bg-industrial-900 text-white p-6 mt-12 border-t-4 border-accent-orange">
+
+            <!-- CAD / STEP Drawing Instructions -->
+            <div class="border border-industrial-200 p-6 bg-industrial-50">
+              <h4 class="font-bold text-industrial-900 mb-2 flex items-center gap-2">
+                <svg class="w-4 h-4 text-accent-orange" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/></svg>
+                3D CAD Drawing & Specs
+              </h4>
+              <p class="text-sm text-industrial-700 mb-2">We support 3D STEP, DWG & PDF drawings for mold tool estimation and ISO 3601 Class A tolerance review.</p>
+              <p class="text-xs font-mono text-industrial-500">Attach files or paste link in the form.</p>
+            </div>
+
+            <!-- NDA Confidentiality Guarantee -->
+            <div class="bg-industrial-900 text-white p-6 border-t-4 border-accent-orange">
               <h4 class="font-bold mb-2 flex items-center gap-2">
                 <svg class="w-4 h-4 text-accent-orange" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
                 {f('fastTrack')}
@@ -117,14 +139,8 @@ const complianceItems = fa('enhancement.complianceItems') as string[];
                 href={localizedPath(locale, `/sample-request`)}
                 class="inline-flex mt-4 text-sm font-bold uppercase tracking-wider text-accent-orange hover:text-white transition-colors"
               >
-                Sample Request Form
+                Sample Request Form →
               </a>
-            </div>
-
-            <div class="border border-industrial-200 p-6 bg-industrial-50">
-              <h4 class="font-bold text-industrial-900 mb-2">{f('enhancement.globalDeliveryTitle')}</h4>
-              <p class="text-sm text-industrial-700 mb-2">{f('enhancement.globalDeliveryDesc')}</p>
-              <p class="text-xs text-industrial-500">{f('enhancement.unitsPolicy')}</p>
             </div>
 
             <div class="border border-industrial-200 p-6 bg-white">
@@ -148,3 +164,22 @@ const complianceItems = fa('enhancement.complianceItems') as string[];
     </section>
   </div>
 </LocaleLayout>
+
+<script>
+  // Parse URL parameters for Yakeclimate-style source tracking
+  const urlParams = new URLSearchParams(window.location.search);
+  const sourcePath = urlParams.get('source_path');
+  const ctaLabel = urlParams.get('cta_label');
+
+  if (sourcePath) {
+    const bar = document.getElementById('source-context-bar');
+    const pathLabel = document.getElementById('source-path-label');
+    const labelText = document.getElementById('cta-label-text');
+    if (bar && pathLabel && labelText) {
+      pathLabel.textContent = sourcePath;
+      labelText.textContent = ctaLabel || 'Engineering Action';
+      bar.classList.remove('hidden');
+    }
+  }
+</script>
+

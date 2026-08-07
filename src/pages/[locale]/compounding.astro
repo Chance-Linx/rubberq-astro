@@ -53,7 +53,7 @@ const orgSchema = createOrganizationSchema(locale!);
     <!-- ============================================================ -->
     <!-- HERO                                                          -->
     <!-- ============================================================ -->
-    <section class="relative bg-industrial-900 text-white overflow-hidden">
+    <section data-section-name="compounding-hero" class="relative bg-industrial-900 text-white overflow-hidden">
       <div
         class="absolute inset-0 opacity-35 rq-media"
         data-slot-id="compounding-hero-video"
@@ -78,14 +78,14 @@ const orgSchema = createOrganizationSchema(locale!);
           </p>
           <div class="flex flex-col sm:flex-row gap-4">
             <a
-              href={localizedPath(locale, `/contact?type=application`)}
-              class="rq-pressable bg-accent-orange text-white px-8 py-4 font-bold text-sm tracking-[0.18em] hover:bg-white hover:text-industrial-900 text-center"
+              href={`${localizedPath(locale, '/contact')}?source_path=${encodeURIComponent(localizedPath(locale, '/compounding'))}&cta_id=compounding-hero-action&cta_label=${encodeURIComponent(c('hero.ctaPrimary', 'DISCUSS YOUR APPLICATION'))}`}
+              class="rq-pressable bg-accent-orange text-white px-8 py-4 font-bold text-sm tracking-[0.18em] hover:bg-white hover:text-industrial-900 text-center uppercase"
             >
               {c('hero.ctaPrimary', 'DISCUSS YOUR APPLICATION')}
             </a>
             <a
               href="/downloads/compound-capability-sheet.pdf"
-              class="rq-pressable border border-industrial-500 text-white px-8 py-4 font-bold text-sm tracking-[0.18em] hover:border-white text-center"
+              class="rq-pressable border border-industrial-500 text-white px-8 py-4 font-bold text-sm tracking-[0.18em] hover:border-white text-center uppercase"
             >
               {c('hero.ctaSecondary', 'DOWNLOAD CAPABILITY SHEET')}
             </a>
@@ -97,7 +97,7 @@ const orgSchema = createOrganizationSchema(locale!);
     <!-- ============================================================ -->
     <!-- WHY COMPOUNDING MATTERS                                       -->
     <!-- ============================================================ -->
-    <section class="py-24 bg-white">
+    <section data-section-name="compounding-advantages" class="py-24 bg-white">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-12 uppercase">
           {c('whyCompounding.title')}
@@ -136,7 +136,7 @@ const orgSchema = createOrganizationSchema(locale!);
     <!-- ============================================================ -->
     <!-- A-MIXING LINE                                                  -->
     <!-- ============================================================ -->
-    <section class="py-24 bg-industrial-50">
+    <section data-section-name="ab-mixing-system" class="py-24 bg-industrial-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-12 uppercase">
           {c('aline.title')}
@@ -339,16 +339,10 @@ const orgSchema = createOrganizationSchema(locale!);
           ))}
         </div>
 
-        <p class="text-industrial-400 text-sm mt-10 max-w-3xl">
-          <strong class="text-white">{c('workflow.totalNote')}</strong>
-        </p>
-      </div>
-    </section>
-
+          <!-- ============================================================ -->
+    <!-- COMPOUND LIBRARY                                              -->
     <!-- ============================================================ -->
-    <!-- COMPOUND LIBRARY TABLE                                        -->
-    <!-- ============================================================ -->
-    <section class="py-24 bg-white">
+    <section data-section-name="compound-library-table" class="py-24 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
           {c('library.title')}
@@ -382,7 +376,7 @@ const orgSchema = createOrganizationSchema(locale!);
         <div class="mt-8 flex flex-wrap items-center justify-between gap-4">
           <p class="text-industrial-700 max-w-2xl">{c('library.outro')}</p>
           <a
-            href={localizedPath(locale, `/contact?type=application`)}
+            href={`${localizedPath(locale, '/contact')}?source_path=${encodeURIComponent(localizedPath(locale, '/compounding'))}&cta_id=compounding-library-action&cta_label=${encodeURIComponent(c('library.cta', 'Discuss Application'))}`}
             class="rq-pressable bg-industrial-900 text-white px-6 py-3 font-bold text-sm tracking-widest uppercase hover:bg-accent-orange"
           >
             {c('library.cta')} →
@@ -394,7 +388,7 @@ const orgSchema = createOrganizationSchema(locale!);
     <!-- ============================================================ -->
     <!-- HONEST BOUNDARIES                                             -->
     <!-- ============================================================ -->
-    <section class="py-24 bg-industrial-50">
+    <section data-section-name="compounding-boundaries" class="py-24 bg-industrial-50">
       <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
           {c('boundaries.title')}
@@ -451,7 +445,7 @@ const orgSchema = createOrganizationSchema(locale!);
     <!-- ============================================================ -->
     <!-- FINAL CTA                                                     -->
     <!-- ============================================================ -->
-    <section class="py-24 bg-industrial-900 text-white">
+    <section data-section-name="compounding-cta" class="py-24 bg-industrial-900 text-white">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-3xl md:text-5xl font-bold tracking-tighter mb-6 uppercase">
           {c('finalCta.title')}
@@ -461,13 +455,13 @@ const orgSchema = createOrganizationSchema(locale!);
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href={localizedPath(locale, `/contact?type=application`)}
+            href={`${localizedPath(locale, '/contact')}?source_path=${encodeURIComponent(localizedPath(locale, '/compounding'))}&cta_id=compounding-final-cta-action&cta_label=${encodeURIComponent(c('finalCta.ctaPrimary', 'Request Custom Engineering Quote'))}`}
             class="rq-pressable bg-accent-orange text-white px-8 py-4 font-bold text-sm tracking-[0.18em] uppercase hover:bg-white hover:text-industrial-900"
           >
             {c('finalCta.ctaPrimary')}
           </a>
           <a
-            href={localizedPath(locale, `/contact?type=datasheet`)}
+            href={`${localizedPath(locale, '/contact')}?source_path=${encodeURIComponent(localizedPath(locale, '/compounding'))}&cta_id=compounding-datasheet-action&cta_label=${encodeURIComponent(c('finalCta.ctaSecondary', 'Request Compound Datasheet'))}`}
             class="rq-pressable border border-industrial-500 text-white px-8 py-4 font-bold text-sm tracking-[0.18em] uppercase hover:border-white"
           >
             {c('finalCta.ctaSecondary')}

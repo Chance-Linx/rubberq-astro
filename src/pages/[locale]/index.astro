@@ -60,7 +60,7 @@ const orgSchema = createOrganizationSchema(locale!);
     <!-- ============================================================ -->
     <!-- HERO                                                          -->
     <!-- ============================================================ -->
-    <section class="relative min-h-[calc(100dvh-5rem)] md:min-h-[92vh] flex items-center bg-industrial-900 overflow-hidden">
+    <section data-section-name="hero-banner" class="relative min-h-[calc(100dvh-5rem)] md:min-h-[92vh] flex items-center bg-industrial-900 overflow-hidden">
       <div
         class="absolute inset-0 opacity-45 rq-media"
         data-slot-id="home-hero-bg"
@@ -91,7 +91,7 @@ const orgSchema = createOrganizationSchema(locale!);
           </p>
           <div data-hero-stagger class="flex flex-col sm:flex-row gap-4 mb-10">
             <a
-              href={localizedPath(locale, `/contact`)}
+              href={`${localizedPath(locale, '/contact')}?source_path=${encodeURIComponent(localizedPath(locale, '/'))}&cta_id=home-hero-action&cta_label=${encodeURIComponent('Request Custom Engineering Quote')}`}
               class="rq-pressable bg-accent-orange text-white px-8 py-4 font-bold text-sm tracking-[0.18em] hover:bg-white hover:text-industrial-900 text-center uppercase"
             >
               {h('hero.ctaPrimary', 'REQUEST QUOTE')}
@@ -115,7 +115,7 @@ const orgSchema = createOrganizationSchema(locale!);
     <!-- ============================================================ -->
     <!-- FACTORY AT A GLANCE — stats band with count-up                 -->
     <!-- ============================================================ -->
-    <section class="bg-industrial-950 border-y border-industrial-800">
+    <section data-section-name="trust-proof-bar" class="bg-industrial-950 border-y border-industrial-800">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 md:py-16" data-reveal>
         <p class="text-industrial-500 text-xs font-mono uppercase tracking-[0.24em] mb-10">
           {h('homeStats.kicker', 'FACTORY AT A GLANCE')}
@@ -144,7 +144,7 @@ const orgSchema = createOrganizationSchema(locale!);
     <!-- ============================================================ -->
     <!-- FEATURES — large proof scene + compact technical summary         -->
     <!-- ============================================================ -->
-    <section class="bg-white">
+    <section data-section-name="capabilities-overview" class="bg-white">
       <div class="grid lg:grid-cols-12 min-h-[720px]">
         <div
           class="relative lg:col-span-7 min-h-[520px] bg-industrial-900 overflow-hidden rq-media"
@@ -196,7 +196,7 @@ const orgSchema = createOrganizationSchema(locale!);
     <!-- ============================================================ -->
     <!-- PROCESS — FROM COMPOUND TO COMPONENT                          -->
     <!-- ============================================================ -->
-    <section class="py-24 bg-white border-t border-industrial-200">
+    <section data-section-name="material-matrix-preview" class="py-24 bg-white border-t border-industrial-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-3xl mb-14" data-reveal>
           <p class="text-accent-orange text-xs font-mono uppercase tracking-[0.24em] mb-4">
@@ -330,7 +330,7 @@ const orgSchema = createOrganizationSchema(locale!);
     <!-- ============================================================ -->
     <!-- INDUSTRIES — v2: EV / Industrial / Semicon / Auto Tier 2       -->
     <!-- ============================================================ -->
-    <section class="py-24 bg-industrial-50">
+    <section data-section-name="industry-solutions" class="py-24 bg-industrial-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid lg:grid-cols-12 gap-8 items-end mb-12" data-reveal>
           <h2 class="lg:col-span-5 text-3xl md:text-5xl font-bold tracking-tighter text-industrial-900 uppercase leading-tight">
@@ -425,7 +425,7 @@ const orgSchema = createOrganizationSchema(locale!);
 
         <p class="text-center text-industrial-600 mt-10 text-sm">
           {h('industries.notSeeing')}
-          <a href={localizedPath(locale, `/contact`)} class="text-accent-orange font-bold hover:underline ml-2">
+          <a href={`${localizedPath(locale, '/contact')}?source_path=${encodeURIComponent(localizedPath(locale, '/'))}&cta_id=home-industries-footer-action&cta_label=${encodeURIComponent('Talk to Our Engineers')}`} class="text-accent-orange font-bold hover:underline ml-2">
             {h('industries.talkCta')} →
           </a>
         </p>
@@ -435,7 +435,7 @@ const orgSchema = createOrganizationSchema(locale!);
     <!-- ============================================================ -->
     <!-- COMPOUNDING & R&D ENTRY                                       -->
     <!-- ============================================================ -->
-    <section class="relative min-h-[640px] bg-industrial-950 text-white overflow-hidden flex items-end">
+    <section data-section-name="cta-banner" class="relative min-h-[640px] bg-industrial-950 text-white overflow-hidden flex items-end">
       <div
         class="absolute inset-0 opacity-60 rq-media"
         data-slot-id="home-compounding-entry"

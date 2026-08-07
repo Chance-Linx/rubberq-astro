@@ -271,7 +271,7 @@ const videoTestimonials = [
 
   <div class="bg-white min-h-screen">
     <!-- Hero -->
-    <section class="bg-industrial-900 text-white py-24 px-4">
+    <section data-section-name="quality-hero" class="bg-industrial-900 text-white py-24 px-4">
       <div class="max-w-7xl mx-auto">
         <h1 class="text-4xl md:text-6xl font-bold mb-6">{f('hero.title')}</h1>
         <p class="text-xl text-industrial-300 max-w-2xl">
@@ -281,7 +281,7 @@ const videoTestimonials = [
     </section>
 
     <!-- Certifications Section -->
-    <section id="certifications" class="py-20 px-4 max-w-7xl mx-auto">
+    <section id="certifications" data-section-name="quality-certifications" class="py-20 px-4 max-w-7xl mx-auto">
       <div class="flex items-center justify-between mb-12">
         <div class="flex items-center gap-3">
           <svg class="w-8 h-8 text-accent-orange" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
@@ -306,8 +306,8 @@ const videoTestimonials = [
             <h4 class="font-bold text-industrial-900 mb-1">{f('documentation.title')}</h4>
             <p class="text-sm text-industrial-600">
               {f('documentation.description')}
-              <a href={localizedPath(locale, `/resources`)} class="text-accent-orange font-medium hover:underline ml-1">
-                {f('documentation.link')}
+              <a href={`${localizedPath(locale, '/contact')}?source_path=${encodeURIComponent(localizedPath(locale, '/quality'))}&cta_id=quality-doc-link&cta_label=${encodeURIComponent('Request Document Package')}`} class="text-accent-orange font-medium hover:underline ml-1">
+                {f('documentation.link')} →
               </a>
             </p>
           </div>
@@ -483,7 +483,7 @@ const videoTestimonials = [
     </section>
 
     <!-- Traceability Flow -->
-    <section class="py-20 px-4 max-w-7xl mx-auto">
+    <section data-section-name="traceability-flow" class="py-20 px-4 max-w-7xl mx-auto">
       <div class="text-center mb-16">
         <h2 class="text-3xl font-bold mb-4">{f('traceability.mainTitle')}</h2>
         <p class="text-industrial-500 max-w-2xl mx-auto">{f('traceability.subtitle')}</p>
@@ -500,7 +500,7 @@ const videoTestimonials = [
     </section>
 
     <!-- Trust Evidence Center -->
-    <section class="py-20 px-4 bg-industrial-50 border-t border-industrial-200">
+    <section data-section-name="trust-evidence-center" class="py-20 px-4 bg-industrial-50 border-t border-industrial-200">
       <div class="max-w-7xl mx-auto">
         <div class="mb-12">
           <h2 class="text-3xl font-bold text-industrial-900 mb-3">{trust.sectionTitle}</h2>

@@ -1,37 +1,34 @@
-# RubberQ - Precision Rubber Compound and Molded Parts Manufacturer
+# RubberQ (Fuzhou RongQing Rubber Co., Ltd.)
 
-## Site Info
-- Domain: https://rubberq.com
-- Languages: English, Deutsch, 日本語, Español, 中文
-- Industry: Precision rubber compounding and molded elastomer components
-- Positioning: Japanese formulation. Chinese precision. Trusted since 1995.
-- Quality Systems: IATF 16949:2016, ISO 9001:2015, ISO 14001:2015
-- Key Materials: HNBR, FKM, FFKM, EPDM, NBR, ACM, AEM, Silicone, LSR
-- Best Fit: 10,000 to 5,000,000 parts annually per SKU; engineered compounds and precision molded parts
+> Japanese Formulation. Chinese Precision. Trusted Since 1995.  
+> Compounded by Japan. Built in China. Tested in-House.
 
-## Key Pages
-- / — Homepage (Precision Rubber Manufacturing)
-- /products — Full product catalog
-- /compounding — Compounding and formulation development
-- /testing — Testing and validation
-- /industries — Industry solution hub
-- /case-studies — Engineering case studies
-- /materials — Material science hub
-- /capabilities — Manufacturing capabilities
-- /quality — Quality assurance & certifications
-- /factory — Virtual factory tour
-- /blog — Technical Knowledge Hub (technical articles on rubber engineering, material science, industry applications)
-- /contact — Global support & RFQ
-- /resources — Technical resources & downloads
-- /search — Site search
+RubberQ is a specialized B2B manufacturer of custom elastomeric components, high-precision O-rings, vibration dampers, and sealing modules for semiconductor equipment, industrial automation motion systems, and high-reliability industrial applications.
 
-## Blog Topics
-- Material science: rubber compounds, polymer properties, material selection
-- Standards compliance: ISO, ASTM, REACH, RoHS, IATF 16949
-- Industry applications: EV and energy storage, industrial equipment, semiconductor process equipment, automotive Tier 2
-- Manufacturing: molding, mixing, extrusion, quality control, traceability
-- Troubleshooting: failure analysis, best practices, engineering solutions
+## Executive Summary & Core Capabilities
 
-## Contact
-- Engineering team available for custom rubber component and compound-review inquiries
-- Batch RFQ and sample request forms available
+- **Established**: 1995 (30+ years of Sino-Japanese joint venture heritage in rubber compounding).
+- **Manufacturing Facilities**: 2 manufacturing plants in Fuzhou, China, covering over 20,000 m².
+- **Mixing & Compounding**: Dedicated A-Mixing line (black rubber) and B-Mixing line (colored/high-purity rubber) to prevent cross-contamination.
+- **Certifications**: IATF 16949:2016, ISO 9001:2015, ISO 14001:2015.
+- **Quality Control**: Full ERP traceability from raw polymer to shipped batch; 100% automated AI optical inspection; in-house physical lab (rheometer, tensile tester, 70h@150°C compression set).
+
+## Target Industries & Material Focus
+
+1. **Semiconductor Equipment**: Low outgassing (ASTM E595 TML < 0.20%), plasma-resistant FFKM / FKM O-rings for CVD/ALD/etching chambers. Cleanroom processed per SEMI F57.
+2. **Industrial Automation & Motion Control**: Joint vibration dampers, high-fatigue life HNBR/EPDM seals, precision friction pads engineered for high-duty cycling.
+3. **Industrial Equipment & Fluid Power**: High-pressure hydraulic seals, NBR/FKM gaskets complying with ISO 3601 tolerances.
+4. **Automotive Tier 2**: Precision engine & drivetrain seals co-developed under IATF 16949 quality control.
+
+## Key Technical Pages & Articles
+
+- [Semiconductor Equipment Seals](https://rubberq.com/en/industries/semiconductor): Plasma resistant O-rings & SEMI F57 cleanroom processing.
+- [High-Fatigue Motion Dampers](https://rubberq.com/en/products/vibration-dampers): Precision joint dampers and dynamic fatigue control.
+- [FKM Elastomer Technical Data](https://rubberq.com/en/materials/fkm): High-temperature & chemical resistance spectrum.
+- [Article: Low Outgassing Vacuum Seals](https://rubberq.com/resources/articles/low-outgassing-vacuum-seals-semiconductor): ASTM E595 outgassing data and chamber seal failure prevention.
+
+## Contact & RFQ Engineering Desk
+
+- **Website**: https://rubberq.com
+- **Engineering Inquiry**: https://rubberq.com/en/contact
+- **Contact Email**: contact@rubberq.com

@@ -68,8 +68,8 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
   </Fragment>
 
   <div class="bg-white">
-    <!-- HERO -->
-    <section class="relative bg-industrial-900 text-white py-32 overflow-hidden">
+    <!-- 1. INDUSTRY HERO -->
+    <section data-section-name="industry-hero" class="relative bg-industrial-900 text-white py-32 overflow-hidden">
       <div
         class="absolute inset-0 opacity-35 rq-media rq-media-soft"
         data-slot-id={`industries-${i18nKey}-hero`}
@@ -93,13 +93,27 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
       </div>
     </section>
 
+    <!-- 2. ANSWER-FIRST SUMMARY (AI & Engineering Trust Box) -->
+    <section data-section-name="answer-first-summary" class="py-10 bg-industrial-50 border-b border-industrial-200 px-4">
+      <div class="max-w-7xl mx-auto">
+        <div class="bg-white border-l-4 border-accent-orange border border-industrial-200 p-6 md:p-8">
+          <h2 class="text-xs font-mono font-bold uppercase tracking-[0.2em] text-accent-orange mb-2">
+            ENGINEERING APPLICABILITY SUMMARY
+          </h2>
+          <p class="text-industrial-800 text-base md:text-lg leading-relaxed font-medium">
+            RubberQ supplies engineered elastomer seals and custom molded rubber components for {ip('hero.title')}. Backed by 30 years of Sino-Japanese compounding experience and ISO Class 5 clean packaging, every part is verified via ERP batch traceability.
+          </p>
+        </div>
+      </div>
+    </section>
+
     {/* ====================================================== */}
     {/* EV SECTOR-SPECIFIC CONTENT                              */}
     {/* ====================================================== */}
     {i18nKey === 'ev' && (
       <>
-        <!-- 4 Sub-Sectors -->
-        <section class="py-20 bg-white">
+        <!-- 3. Sub-Sectors Matrix -->
+        <section data-section-name="subsegment-solutions" class="py-20 bg-white">
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-12 uppercase">
               {ip('subSectors.title')}
@@ -125,8 +139,8 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
           </div>
         </section>
 
-        <!-- Why Chemistry Wins -->
-        <section class="py-20 bg-industrial-50">
+        <!-- 4. Media Resistance & Engineering Proof -->
+        <section data-section-name="media-resistance-specs" class="py-20 bg-industrial-50">
           <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
               {ip('whyChemistry.title')}
@@ -146,17 +160,29 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
           </div>
         </section>
 
-        <!-- Engagement -->
-        <section class="py-20 bg-white">
+        <!-- 5. Manufacturing & Cleanroom Proof -->
+        <section data-section-name="cleanroom-manufacturing-proof" class="py-20 bg-white border-t border-industrial-200">
+          <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
+              Automated Optical Sorting & Quality Control
+            </h2>
+            <p class="text-industrial-700 leading-relaxed mb-6">
+              Critical EV and BESS seals undergo 100% automated optical sorting to prevent dimensional defects, flash remnants, and surface micro-voids prior to vacuum packaging.
+            </p>
+          </div>
+        </section>
+
+        <!-- 6. Engagement & Failure Prevention -->
+        <section data-section-name="failure-prevention-comparison" class="py-20 bg-industrial-50">
           <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl font-bold tracking-tighter text-industrial-900 mb-8 uppercase">
               {ip('engagement.title')}
             </h2>
             <div class="space-y-6">
-              <div class="border border-industrial-200 border-t-4 border-t-accent-orange p-6">
+              <div class="border border-industrial-200 bg-white border-t-4 border-t-accent-orange p-6">
                 <p class="text-industrial-700 leading-relaxed">{ip('engagement.drawings')}</p>
               </div>
-              <div class="border border-industrial-200 border-t-4 border-t-accent-orange p-6">
+              <div class="border border-industrial-200 bg-white border-t-4 border-t-accent-orange p-6">
                 <p class="text-industrial-700 leading-relaxed">{ip('engagement.application')}</p>
               </div>
             </div>
@@ -170,7 +196,7 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
     {/* ====================================================== */}
     {i18nKey === 'industrial' && (
       <>
-        <section class="py-20 bg-white">
+        <section data-section-name="subsegment-solutions" class="py-20 bg-white">
           <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-12 uppercase">
               {ip('subSectors.title')}
@@ -190,7 +216,7 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
           </div>
         </section>
 
-        <section class="py-20 bg-industrial-50">
+        <section data-section-name="media-resistance-specs" class="py-20 bg-industrial-50">
           <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl font-bold tracking-tighter text-industrial-900 mb-8 uppercase">
               {ip('whyUs.title')}
@@ -205,6 +231,17 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
             </ul>
           </div>
         </section>
+
+        <section data-section-name="cleanroom-manufacturing-proof" class="py-20 bg-white border-t border-industrial-200">
+          <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
+              Hydraulic Oil & Chemical Resistance Validation
+            </h2>
+            <p class="text-industrial-700 leading-relaxed">
+              Industrial seals are tested for swelling and compression-set retention in ISO VG 46 hydraulic oil, synthetic lubricants, and aggressive aggressive chemical media prior to release.
+            </p>
+          </div>
+        </section>
       </>
     )}
 
@@ -213,7 +250,7 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
     {/* ====================================================== */}
     {i18nKey === 'semiconductor' && (
       <>
-        <section class="py-20 bg-white">
+        <section data-section-name="subsegment-solutions" class="py-20 bg-white">
           <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
               {ip('engagement.title')}
@@ -232,7 +269,7 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
           </div>
         </section>
 
-        <section class="py-20 bg-industrial-50">
+        <section data-section-name="cleanroom-manufacturing-proof" class="py-20 bg-industrial-50">
           <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
               {ip('whySingleLine.title')}
@@ -241,7 +278,7 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
           </div>
         </section>
 
-        <section class="py-20 bg-white">
+        <section data-section-name="media-resistance-specs" class="py-20 bg-white border-t border-industrial-200">
           <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
               {ip('processCompat.title')}
@@ -257,7 +294,7 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
     {/* ====================================================== */}
     {i18nKey === 'automotive' && (
       <>
-        <section class="py-20 bg-white">
+        <section data-section-name="subsegment-solutions" class="py-20 bg-white">
           <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-10 uppercase">
               {ip('whereWeFit.title')}
@@ -289,7 +326,7 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
           </div>
         </section>
 
-        <section class="py-20 bg-industrial-50">
+        <section data-section-name="media-resistance-specs" class="py-20 bg-industrial-50">
           <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="text-3xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
               {ip('customerProfile.title')}
@@ -307,17 +344,23 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
       </>
     )}
 
-    <!-- CTA (shared across all sectors) -->
-    <section class="py-20 bg-industrial-900 text-white">
+    <!-- 7. INDUSTRY CTA (Shared across all sectors with Yakeclimate parameter tracking) -->
+    <section data-section-name="industry-cta" class="py-24 bg-industrial-900 text-white">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl md:text-5xl font-bold tracking-tighter mb-6 uppercase">
+          DISCUSS YOUR {i18nKey.toUpperCase()} APPLICATION
+        </h2>
+        <p class="text-lg text-industrial-300 mb-10 max-w-2xl mx-auto leading-relaxed">
+          Share your STEP drawings, temperature window, and fluid media. Our engineers will review compound selection before tooling.
+        </p>
         <a
-          href={localizedPath(locale, `/contact`)}
+          href={`${localizedPath(locale, '/contact')}?source_path=${encodeURIComponent(localizedPath(locale, `/industries/${slug}`))}&cta_id=industry-${i18nKey}-final-action&cta_label=${encodeURIComponent('Request Application Review')}`}
           class="rq-pressable inline-block bg-accent-orange text-white px-10 py-5 font-bold tracking-widest uppercase hover:bg-white hover:text-industrial-900"
         >
           {i18nKey === 'ev' && ip('ctaPrimary')}
           {i18nKey === 'industrial' && ip('cta')}
           {i18nKey === 'semiconductor' && ip('cta')}
-          {i18nKey === 'automotive' && ip('cta')}
+          {i18nKey === 'automotive' && ip('cta')} →
         </a>
       </div>
     </section>

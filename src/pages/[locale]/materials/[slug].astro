@@ -102,7 +102,7 @@ const jsonLd = JSON.stringify({
   </Fragment>
 
   <div class="bg-white min-h-screen">
-    <section class="bg-industrial-900 text-white py-20 px-4">
+    <section data-section-name="material-hero" class="bg-industrial-900 text-white py-20 px-4">
       <div class="max-w-7xl mx-auto">
         <a href={localizedPath(locale, `/materials`)} class="inline-flex items-center gap-2 text-industrial-300 hover:text-white transition-colors mb-8">
           <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7"/><path d="M19 12H5"/></svg>
@@ -116,10 +116,10 @@ const jsonLd = JSON.stringify({
       </div>
     </section>
 
-    <section class="py-16 px-4">
+    <section data-section-name="material-body-grid" class="py-16 px-4">
       <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-10">
         <main class="lg:col-span-2 space-y-12">
-          <section class="bg-industrial-50 border border-industrial-200 p-6">
+          <section data-section-name="answer-first-summary" class="bg-industrial-50 border border-industrial-200 p-6">
             <h2 class="text-sm font-bold uppercase tracking-widest text-industrial-900 mb-4">{labels.summary}</h2>
             <ul class="space-y-3">
               {data.summaryItems.map((item) => (
@@ -130,12 +130,12 @@ const jsonLd = JSON.stringify({
             </ul>
           </section>
 
-          <section>
+          <section data-section-name="material-fit-conditions">
             <h2 class="text-2xl font-bold text-industrial-900 tracking-tight mb-4">{labels.fit}</h2>
             <p class="text-industrial-700 leading-7 text-lg">{data.fit}</p>
           </section>
 
-          <section>
+          <section data-section-name="application-windows">
             <h2 class="text-2xl font-bold text-industrial-900 tracking-tight mb-5">{labels.applications}</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
               {data.applications.map((application) => (
@@ -146,7 +146,7 @@ const jsonLd = JSON.stringify({
             </div>
           </section>
 
-          <section>
+          <section data-section-name="material-comparison-table">
             <h2 class="text-2xl font-bold text-industrial-900 tracking-tight mb-5">{labels.comparison}</h2>
             <div class="overflow-x-auto border border-industrial-200 bg-white">
               <table class="min-w-full divide-y divide-industrial-200">
@@ -174,7 +174,7 @@ const jsonLd = JSON.stringify({
         </main>
 
         <aside class="space-y-8">
-          <section class="border border-industrial-200">
+          <section data-section-name="technical-specs-sidebar" class="border border-industrial-200">
             <div class="bg-industrial-900 text-white px-5 py-3 text-sm font-bold uppercase tracking-widest">{labels.specs}</div>
             <dl class="divide-y divide-industrial-200">
               {data.techData.map((prop) => (
@@ -186,11 +186,11 @@ const jsonLd = JSON.stringify({
             </dl>
           </section>
 
-          <section class="bg-industrial-50 border border-industrial-200 p-6">
+          <section data-section-name="material-cta-box" class="bg-industrial-50 border border-industrial-200 p-6">
             <h2 class="text-xl font-bold text-industrial-900 mb-3">{labels.ctaTitle}</h2>
             <p class="text-sm text-industrial-700 leading-6 mb-6">{labels.ctaDesc}</p>
-            <a href={localizedPath(locale, `/contact`)} class="inline-flex items-center justify-center w-full bg-industrial-900 text-white px-5 py-3 text-xs font-bold uppercase tracking-widest hover:bg-accent-orange transition-colors">
-              {labels.cta}
+            <a href={`${localizedPath(locale, '/contact')}?source_path=${encodeURIComponent(localizedPath(locale, `/materials/${slug}`))}&cta_id=material-sidebar-action&cta_label=${encodeURIComponent(labels.cta)}`} class="inline-flex items-center justify-center w-full bg-industrial-900 text-white px-5 py-3 text-xs font-bold uppercase tracking-widest hover:bg-accent-orange transition-colors">
+              {labels.cta} →
             </a>
           </section>
         </aside>
