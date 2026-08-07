@@ -245,41 +245,27 @@
     }
   },
   "industries": {
-    "title": "我们服务的专业行业",
-    "subtitle": "RubberQ 支持 EV 与储能、工业设备、半导体和汽车 Tier 2 项目，尤其适合重视工程配方和稳定制造的应用。",
-    "ev": {
-      "title": "EV 与储能",
-      "shortDesc": "面向充电基础设施、BESS、EV 周边设备和 Tier 2 车辆部件的橡胶配方。",
-      "icon": "⚡"
+    "title": "我们深耕的 4 大高增长专注赛道",
+    "subtitle": "RubberQ 专为半导体设备、人形机器人与具身智能、AI 数据中心液冷与储能，以及电动汽车高压与热管理提供高公差精密橡塑零部件与高极性密封解法。",
+    "semiconductor": {
+      "title": "半导体设备",
+      "shortDesc": "用于 CVD、ALD 和等离子刻蚀腔体的高真空超低脱气全氟醚 (FFKM) 与氟橡胶 (FKM) 密封件。",
+      "icon": "🔬"
     },
     "robotics": {
-      "title": "工业设备",
-      "desc": "用于工业设备关节和工业自动化设备应用的高精度密封件和阻尼部件"
+      "title": "人形机器人与具身智能",
+      "shortDesc": "用于机器人旋转/直线关节减震的精密橡胶-金属热硫化件与高摩擦力触感垫。",
+      "icon": "🤖"
     },
-    "ai": {
-      "title": "半导体工艺设备",
-      "desc": "用于工业设备和半导体工艺设备冷却系统的热管理密封件"
+    "cooling": {
+      "title": "AI 数据中心液冷与储能",
+      "shortDesc": "用于服务器 CDU 快换接口与冷板密封的高耐介质 O 圈及 UL94 V-0 阻燃 EPDM 垫圈。",
+      "icon": "⚡"
     },
-    "machinery": {
-      "title": "精密机械",
-      "desc": "用于精密设备的工业密封件和定制部件"
-    },
-    "automotive": {
-      "title": "汽车 Tier 2",
-      "desc": "发动机密封件、垫圈、软管和减振器",
-      "shortDesc": "面向汽车 Tier 2 关键部件，重点解决配方、验证和长期一致性问题。",
-      "icon": "🚗"
-    },
-    "industrial": {
-      "title": "工业设备",
-      "desc": "泵、阀门、机械密封件和定制模压件",
-      "shortDesc": "液压、气动、泵阀与设备密封，这是 RubberQ 最成熟的应用领域。",
-      "icon": "⚙"
-    },
-    "semiconductor": {
-      "title": "半导体（含 FFKM）",
-      "shortDesc": "使用单线 A 炼控制配方纯净度的 FKM / FFKM 工艺密封件。",
-      "icon": "🔬"
+    "ev": {
+      "title": "电动汽车高压与热管理",
+      "shortDesc": "高压线束护套与 IP68/IP69K 防水连接器密封件，具备 IATF 16949 ERP 批次追溯。",
+      "icon": "🔋"
     },
     "medical": {
       "title": "精密设备",

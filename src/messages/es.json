@@ -153,30 +153,27 @@
     }
   },
   "industries": {
-    "title": "Industrias que servimos",
+    "title": "Sectores Especializados de Alto Crecimiento",
+    "subtitle": "RubberQ respalda programas de equipos de semiconductores, robótica humanoide, refrigeración líquida de centros de datos de IA y alto voltaje EV.",
+    "semiconductor": {
+      "title": "Equipos de Semiconductores",
+      "shortDesc": "Sellos de ultra bajo desgasificación de FFKM y FKM de alto vacío para cámaras de grabado por plasma y deposición.",
+      "icon": "🔬"
+    },
     "robotics": {
-      "title": "Equipo industrial",
-      "desc": "Sellos de alta precisión y componentes de amortiguación para articulaciones equipo industrials y aplicaciones de cobots"
+      "title": "Robótica Humanoide y IA Física",
+      "shortDesc": "Montajes vulcanizados de precisión caucho-metal y almohadillas táctiles de fricción para actuadores de articulaciones.",
+      "icon": "🤖"
     },
-    "ai": {
-      "title": "equipo de proceso semiconductor",
-      "desc": "Sellos de gestión térmica para centros de datos y sistemas de refrigeración de equipo de proceso semiconductor"
+    "cooling": {
+      "title": "Refrigeración Líquida para Centros de Datos IA y ESS",
+      "shortDesc": "Juntas tóricas de desconexión rápida CDU y juntas EPDM ignífugas UL94 V-0 para placas frías de servidores.",
+      "icon": "⚡"
     },
-    "machinery": {
-      "title": "Maquinaria de Precisión",
-      "desc": "Sellos industriales y componentes personalizados para equipos de precisión"
-    },
-    "automotive": {
-      "title": "Automotriz Tier 2",
-      "desc": "Sellos de motor, juntas, mangueras y aisladores de vibración",
-      "shortDesc": "Componentes donde la química del compuesto importa más que el número de moldes.",
-      "icon": "🚗"
-    },
-    "industrial": {
-      "title": "Equipo industrial",
-      "desc": "Bombas, válvulas, sellos de maquinaria y piezas moldeadas personalizadas",
-      "shortDesc": "Sellos hidráulicos, neumáticos, para bombas y válvulas.",
-      "icon": "⚙"
+    "ev": {
+      "title": "Alto Voltaje EV y Gestión Térmica",
+      "shortDesc": "Pasacables de alto voltaje y sellos de conectores IP68/IP69K con trazabilidad completa ERP IATF 16949.",
+      "icon": "🔋"
     },
     "medical": {
       "title": "Equipo de precision",

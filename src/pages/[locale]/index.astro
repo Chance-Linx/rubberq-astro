@@ -342,82 +342,85 @@ const orgSchema = createOrganizationSchema(locale!);
         </div>
 
         <div class="grid lg:grid-cols-3 gap-5" data-reveal>
-          <!-- EV -->
-          <a href={localizedPath(locale, `/industries/ev-energy-storage`)} class="group relative min-h-[540px] overflow-hidden border border-industrial-200 lg:col-span-2 bg-industrial-900 rq-media rq-lift rq-pressable">
+          <!-- Semiconductor -->
+          <a href={localizedPath(locale, `/industries/semiconductor`)} class="group relative min-h-[540px] overflow-hidden border border-industrial-200 lg:col-span-2 bg-industrial-900 rq-media rq-lift rq-pressable">
             <div
               class="absolute inset-0 rq-media-soft"
-              data-slot-id="home-industries-ev"
-              data-purpose="EV/储能相关密封件应用场景或成品大图，作为首页行业主入口"
-              data-spec="1600x1200 或 2200x1200，主视觉级别"
+              data-slot-id="home-industries-semiconductor"
+              data-purpose="半导体设备低出气密封件主入口"
+              data-spec="1600x1200"
               data-priority="critical"
             >
-                <img src={visualImages.ev} alt={visualLabels.ev} loading="lazy" />
-                <span class="absolute top-6 right-6 bg-white/90 px-3 py-1 text-[10px] uppercase tracking-widest text-industrial-500">{visualLabels.ev}</span>
+                <img src={visualImages.semicon} alt={visualLabels.semicon} loading="lazy" />
+                <span class="absolute top-6 right-6 bg-white/90 px-3 py-1 text-[10px] uppercase tracking-widest text-industrial-500">Semiconductor Equipment</span>
             </div>
             <div class="absolute inset-0 bg-industrial-900/45 group-hover:bg-industrial-900/60 transition-colors"></div>
             <div class="absolute bottom-8 left-8 right-8 text-white md:bottom-10 md:left-10 md:right-10">
               <div class="text-accent-orange text-xs font-bold uppercase tracking-[0.24em] mb-4">01</div>
-              <h3 class="text-3xl md:text-5xl font-bold uppercase tracking-tighter mb-4 max-w-xl">{h('industries.ev.title')}</h3>
-              <p class="text-base md:text-lg text-industrial-100 leading-relaxed max-w-xl">{h('industries.ev.shortDesc')}</p>
+              <h3 class="text-3xl md:text-5xl font-bold uppercase tracking-tighter mb-4 max-w-xl">Semiconductor Equipment</h3>
+              <p class="text-base md:text-lg text-industrial-100 leading-relaxed max-w-xl">High-vacuum ultra-low outgassing FFKM & FKM seals for CVD, ALD, and plasma etching chambers.</p>
               <div class="w-10 h-1 bg-accent-orange mt-4 transition-[width] duration-300 group-hover:w-full"></div>
             </div>
           </a>
 
           <div class="grid gap-5">
-            <!-- Industrial -->
-            <a href={localizedPath(locale, `/industries/industrial-equipment`)} class="group relative min-h-[166px] overflow-hidden border border-industrial-200 bg-industrial-900 rq-media rq-lift rq-pressable">
+            <!-- Humanoid Robotics -->
+            <a href={localizedPath(locale, `/industries/humanoid-robotics`)} class="group relative min-h-[166px] overflow-hidden border border-industrial-200 bg-industrial-900 rq-media rq-lift rq-pressable">
               <div
                 class="absolute inset-0 rq-media-soft"
-                data-slot-id="home-industries-industrial"
-                data-purpose="液压/泵阀/工业设备密封件场景"
+                data-slot-id="home-industries-robotics"
+                data-purpose="人形机器人关节减震与高疲劳密封场景"
                 data-spec="900x520"
                 data-priority="important"
               >
-                <img src={visualImages.industrial} alt={visualLabels.industrial} loading="lazy" />
-                <span class="absolute top-4 right-4 bg-white/90 px-2 py-1 text-[10px] uppercase tracking-widest text-industrial-500">{visualLabels.industrial}</span>
+                <img src={visualImages.industrial} alt="Humanoid Robotics" loading="lazy" />
+                <span class="absolute top-4 right-4 bg-white/90 px-2 py-1 text-[10px] uppercase tracking-widest text-industrial-500">Robotics</span>
               </div>
               <div class="absolute inset-0 bg-industrial-900/55 group-hover:bg-industrial-900/72 transition-colors"></div>
               <div class="absolute bottom-5 left-5 right-5 text-white">
-                <h3 class="text-xl font-bold uppercase tracking-tight mb-2">{h('industries.industrial.title')}</h3>
-                <p class="text-sm text-industrial-200 leading-snug">{h('industries.industrial.shortDesc')}</p>
+                <div class="text-accent-orange text-[10px] font-bold uppercase tracking-[0.2em] mb-1">02</div>
+                <h3 class="text-xl font-bold uppercase tracking-tight mb-1">Humanoid Robotics & AI</h3>
+                <p class="text-xs text-industrial-200 line-clamp-2">Rubber-to-metal vulcanized joint damping mounts & high-friction tactile pads.</p>
               </div>
             </a>
 
-            <!-- Semicon -->
-            <a href={localizedPath(locale, `/industries/semiconductor`)} class="group relative min-h-[166px] overflow-hidden border border-industrial-200 bg-industrial-900 rq-media rq-lift rq-pressable">
+            <!-- AI Data Center Cooling -->
+            <a href={localizedPath(locale, `/industries/ai-data-center-cooling`)} class="group relative min-h-[166px] overflow-hidden border border-industrial-200 bg-industrial-900 rq-media rq-lift rq-pressable">
               <div
                 class="absolute inset-0 rq-media-soft"
-                data-slot-id="home-industries-semicon"
-                data-purpose="FFKM 制品特写或洁净工艺场景"
+                data-slot-id="home-industries-cooling"
+                data-purpose="AI 数据中心液冷与储能阻燃密封场景"
                 data-spec="900x520"
                 data-priority="important"
               >
-                <img src={visualImages.semiconductor} alt={visualLabels.semiconductor} loading="lazy" />
-                <span class="absolute top-4 right-4 bg-white/90 px-2 py-1 text-[10px] uppercase tracking-widest text-industrial-500">{visualLabels.semiconductor}</span>
+                <img src={visualImages.ev} alt="AI Cooling" loading="lazy" />
+                <span class="absolute top-4 right-4 bg-white/90 px-2 py-1 text-[10px] uppercase tracking-widest text-industrial-500">AI Cooling</span>
               </div>
               <div class="absolute inset-0 bg-industrial-900/55 group-hover:bg-industrial-900/72 transition-colors"></div>
               <div class="absolute bottom-5 left-5 right-5 text-white">
-                <h3 class="text-xl font-bold uppercase tracking-tight mb-2">{h('industries.semiconductor.title')}</h3>
-                <p class="text-sm text-industrial-200 leading-snug">{h('industries.semiconductor.shortDesc')}</p>
+                <div class="text-accent-orange text-[10px] font-bold uppercase tracking-[0.2em] mb-1">03</div>
+                <h3 class="text-xl font-bold uppercase tracking-tight mb-1">AI Liquid Cooling & ESS</h3>
+                <p class="text-xs text-industrial-200 line-clamp-2">Quick disconnect O-rings & UL94 V-0 flame retardant EPDM gaskets.</p>
               </div>
             </a>
 
-            <!-- Auto Tier 2 -->
-            <a href={localizedPath(locale, `/industries/automotive-tier2`)} class="group relative min-h-[166px] overflow-hidden border border-industrial-200 bg-industrial-900 rq-media rq-lift rq-pressable">
+            <!-- EV High-Voltage -->
+            <a href={localizedPath(locale, `/industries/ev-high-voltage`)} class="group relative min-h-[166px] overflow-hidden border border-industrial-200 bg-industrial-900 rq-media rq-lift rq-pressable">
               <div
                 class="absolute inset-0 rq-media-soft"
-                data-slot-id="home-industries-auto"
-                data-purpose="汽车 Tier 2 橡胶件成品或装配场景"
+                data-slot-id="home-industries-ev-hv"
+                data-purpose="EV 高压线束护套与 IP68 防水密封场景"
                 data-spec="900x520"
                 data-priority="important"
               >
-                <img src={visualImages.automotive} alt={visualLabels.automotive} loading="lazy" />
-                <span class="absolute top-4 right-4 bg-white/90 px-2 py-1 text-[10px] uppercase tracking-widest text-industrial-500">{visualLabels.automotive}</span>
+                <img src={visualImages.automotive} alt="EV High Voltage" loading="lazy" />
+                <span class="absolute top-4 right-4 bg-white/90 px-2 py-1 text-[10px] uppercase tracking-widest text-industrial-500">EV High-Voltage</span>
               </div>
               <div class="absolute inset-0 bg-industrial-900/55 group-hover:bg-industrial-900/72 transition-colors"></div>
               <div class="absolute bottom-5 left-5 right-5 text-white">
-                <h3 class="text-xl font-bold uppercase tracking-tight mb-2">{h('industries.automotive.title')}</h3>
-                <p class="text-sm text-industrial-200 leading-snug">{h('industries.automotive.shortDesc')}</p>
+                <div class="text-accent-orange text-[10px] font-bold uppercase tracking-[0.2em] mb-1">04</div>
+                <h3 class="text-xl font-bold uppercase tracking-tight mb-1">EV High-Voltage Seals</h3>
+                <p class="text-xs text-industrial-200 line-clamp-2">High-voltage cable grommets & IP68/IP69K connector seals.</p>
               </div>
             </a>
           </div>

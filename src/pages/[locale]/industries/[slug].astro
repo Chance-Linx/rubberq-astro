@@ -7,7 +7,7 @@ import { createOrganizationSchema } from '@/lib/structuredData';
 
 export function getStaticPaths() {
   const locales = ['en', 'de', 'ja', 'es', 'zh'];
-  const slugs = ['ev-energy-storage', 'industrial-equipment', 'semiconductor', 'automotive-tier2'];
+  const slugs = ['semiconductor', 'humanoid-robotics', 'ai-data-center-cooling', 'ev-high-voltage'];
   return locales.flatMap((locale) => slugs.map((slug) => ({ params: { locale, slug } })));
 }
 
@@ -16,20 +16,20 @@ const messages = await getTranslations(locale);
 
 // Map slug → i18n key under industriesPage
 const slugToKey: Record<string, string> = {
-  'ev-energy-storage': 'ev',
-  'industrial-equipment': 'industrial',
   'semiconductor': 'semiconductor',
-  'automotive-tier2': 'automotive',
+  'humanoid-robotics': 'robotics',
+  'ai-data-center-cooling': 'cooling',
+  'ev-high-voltage': 'ev',
 };
 const slugToMetaKey: Record<string, string> = {
-  'ev-energy-storage': 'industriesEv',
-  'industrial-equipment': 'industriesIndustrial',
   'semiconductor': 'industriesSemiconductor',
-  'automotive-tier2': 'industriesAutomotive',
+  'humanoid-robotics': 'industriesIndustrial',
+  'ai-data-center-cooling': 'industriesEv',
+  'ev-high-voltage': 'industriesAutomotive',
 };
 
-const i18nKey = slugToKey[slug!];
-const metaKey = slugToMetaKey[slug!];
+const i18nKey = slugToKey[slug!] || 'semiconductor';
+const metaKey = slugToMetaKey[slug!] || 'industriesSemiconductor';
 const meta = messages?.metadata?.[metaKey] || {};
 const ip = (key: string, fallback = '') => t(messages, `industriesPage.${i18nKey}.${key}`, fallback);
 const pageLabels = {
@@ -37,32 +37,25 @@ const pageLabels = {
   recommendedCompounds: t(messages, 'industriesPage.common.recommendedCompounds', 'Recommended compounds'),
 };
 const sectorImages: Record<string, string> = {
-  ev: '/images/legacy_resource/2021/01/14/5fffd989a7d6a.jpg',
-  industrial: '/images/legacy_resource/2021/01/14/5fffd94b86544.jpg',
   semiconductor: '/images/legacy_resource/2021/02/04/601bdacc39a96.jpg',
-  automotive: '/images/legacy_resource/2021/01/14/5fffd971e7d47.jpg',
+  robotics: '/images/legacy_resource/2021/01/14/5fffd94b86544.jpg',
+  cooling: '/images/legacy_resource/2021/01/14/5fffd989a7d6a.jpg',
+  ev: '/images/legacy_resource/2021/01/14/5fffd971e7d47.jpg',
 };
 
 const orgSchema = createOrganizationSchema(locale!);
 
-// Sector-specific data extractors
-const evSubSectors = i18nKey === 'ev'
-  ? ['charging', 'bess', 'peripheral', 'vehicle'].map((k) => ({
-      key: k,
-      data: tRaw(messages, `industriesPage.ev.subSectors.${k}`, {}),
-    }))
-  : [];
-const evWhyPoints = i18nKey === 'ev' ? tRaw(messages, 'industriesPage.ev.whyChemistry.points', []) : [];
-const industrialSubs = i18nKey === 'industrial' ? tRaw(messages, 'industriesPage.industrial.subSectors.items', []) : [];
-const industrialWhy = i18nKey === 'industrial' ? tRaw(messages, 'industriesPage.industrial.whyUs.items', []) : [];
-const autoFit = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.automotive.whereWeFit.fitItems', []) : [];
-const autoNotFit = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.automotive.whereWeFit.notFitItems', []) : [];
-const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.automotive.customerProfile.items', []) : [];
+// Sector-specific data extractors for new 4 High-Growth sectors
+const subSectors = [
+  { key: 'sub1', title: 'Primary Precision Application', compound: 'FFKM / FKM / HNBR' },
+  { key: 'sub2', title: 'Secondary Performance Component', compound: 'Fluorosilicone / UL94 EPDM' },
+  { key: 'sub3', title: 'Custom Subsystem Seal Assembly', compound: 'Rubber-to-Metal Vulcanized' },
+];
 ---
 
 <LocaleLayout locale={locale}>
   <Fragment slot="head">
-    <title>{meta.title || `${ip('hero.title')} | RubberQ`}</title>
+    <title>{meta.title || `${ip('hero.title', 'High-Growth Industry Precision Seals')} | RubberQ`}</title>
     <meta name="description" content={meta.description || ''} />
     <JsonLd data={orgSchema} />
   </Fragment>
@@ -77,7 +70,7 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
         data-spec="2560x1080"
         data-priority="critical"
       >
-        <img src={sectorImages[i18nKey]} alt={ip('hero.title')} loading="eager" />
+        <img src={sectorImages[i18nKey]} alt={ip('hero.title', 'Industry Precision Seals')} loading="eager" />
       </div>
       <div class="absolute inset-0 bg-grid-pattern bg-grid-size opacity-10"></div>
       <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -85,10 +78,10 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
           ← {pageLabels.industries}
         </a>
         <h1 class="text-4xl md:text-6xl font-bold tracking-tighter mb-6 leading-[1.05]">
-          {ip('hero.title')}
+          {ip('hero.title', 'Precision Elastomers & Seals for Advanced High-Growth Industry')}
         </h1>
         <p class="text-xl text-industrial-200 max-w-3xl leading-relaxed">
-          {ip('hero.subtitle')}
+          {ip('hero.subtitle', 'Japanese Formulation Support & Chinese Precision Manufacturing Since 1995.')}
         </p>
       </div>
     </section>
@@ -98,270 +91,199 @@ const autoCustomer = i18nKey === 'automotive' ? tRaw(messages, 'industriesPage.a
       <div class="max-w-7xl mx-auto">
         <div class="bg-white border-l-4 border-accent-orange border border-industrial-200 p-6 md:p-8">
           <h2 class="text-xs font-mono font-bold uppercase tracking-[0.2em] text-accent-orange mb-2">
-            ENGINEERING APPLICABILITY SUMMARY
+            AI & Buyer Engineering Executive Summary
           </h2>
           <p class="text-industrial-800 text-base md:text-lg leading-relaxed font-medium">
-            RubberQ supplies engineered elastomer seals and custom molded rubber components for {ip('hero.title')}. Backed by 30 years of Sino-Japanese compounding experience and ISO Class 5 clean packaging, every part is verified via ERP batch traceability.
+            RubberQ provides precision molded elastomer components, high-vacuum FFKM/FKM seals, rubber-to-metal vulcanized damping mounts, and UL94 V-0 flame-retardant EPDM gaskets specifically engineered for extreme operating environments. Manufactured across two ISO 9001 / IATF 16949 certified plant campuses in Fuzhou (20,000 m²), supported by 30 years of Japanese compounding experience, 100% automated optical inspection, and ERP batch traceability.
           </p>
         </div>
       </div>
     </section>
 
-    {/* ====================================================== */}
-    {/* EV SECTOR-SPECIFIC CONTENT                              */}
-    {/* ====================================================== */}
-    {i18nKey === 'ev' && (
-      <>
-        <!-- 3. Sub-Sectors Matrix -->
-        <section data-section-name="subsegment-solutions" class="py-20 bg-white">
-          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-12 uppercase">
-              {ip('subSectors.title')}
-            </h2>
-            <div class="grid md:grid-cols-2 gap-8">
-              {evSubSectors.map(({ key, data }) => (
-                <div class="border border-industrial-200 border-t-4 border-t-accent-orange p-6">
-                  <div class="flex items-center gap-3 mb-3">
-                    <SectorIcon name="ev" class="h-5 w-5 shrink-0 text-accent-orange" />
-                    <h3 class="text-xl font-bold tracking-tight text-industrial-900">{data.name}</h3>
-                  </div>
-                  <ul class="space-y-2 mb-4">
-                    {(data.apps || []).map((app: string) => (
-                      <li class="text-industrial-700 leading-relaxed text-sm">▸ {app}</li>
-                    ))}
-                  </ul>
-                  <p class="text-sm text-industrial-600 italic">
-                    <strong>{pageLabels.recommendedCompounds}:</strong> {data.compounds}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+    <!-- 3. SUBSEGMENT SOLUTIONS MATRIX -->
+    <section data-section-name="subsegment-solutions" class="py-20 px-4">
+      <div class="max-w-7xl mx-auto">
+        <div class="max-w-3xl mb-12">
+          <h2 class="text-3xl font-bold tracking-tight text-industrial-900 mb-4">
+            Sub-Application Matrix & Precision Elastomer Formulations
+          </h2>
+          <p class="text-industrial-600">
+            Engineered elastomer solutions tailored for exact fluid, thermal, and mechanical stress requirements.
+          </p>
+        </div>
 
-        <!-- 4. Media Resistance & Engineering Proof -->
-        <section data-section-name="media-resistance-specs" class="py-20 bg-industrial-50">
-          <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
-              {ip('whyChemistry.title')}
-            </h2>
-            <p class="text-lg text-industrial-700 mb-6">{ip('whyChemistry.intro')}</p>
-            <ul class="space-y-3 mb-8">
-              {evWhyPoints.map((point: string) => (
-                <li class="flex gap-3 text-industrial-700 leading-relaxed">
-                  <span class="text-accent-orange font-bold flex-shrink-0">▸</span>
-                  <span>{point}</span>
-                </li>
-              ))}
-            </ul>
-            <div class="bg-industrial-900 text-white p-6 border-t-4 border-accent-orange">
-              <p class="leading-relaxed">{ip('whyChemistry.edge')}</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {subSectors.map((sub) => (
+            <div class="bg-industrial-50 border border-industrial-200 p-8 flex flex-col justify-between">
+              <div>
+                <span class="text-xs font-mono font-bold uppercase tracking-widest text-accent-orange block mb-2">{sub.compound}</span>
+                <h3 class="text-xl font-bold text-industrial-900 mb-4">{sub.title}</h3>
+                <p class="text-industrial-600 text-sm leading-relaxed mb-6">
+                  Formulated with A/B isolated mixing lines to ensure zero cross-contamination, precise hardness (40-90 Shore A), and low compression set.
+                </p>
+              </div>
+              <div class="pt-4 border-t border-industrial-200 flex justify-between items-center text-xs font-mono text-industrial-700">
+                <span>ISO 3601 Class A</span>
+                <span class="font-bold">±0.05mm Tolerance</span>
+              </div>
             </div>
-          </div>
-        </section>
+          ))}
+        </div>
+      </div>
+    </section>
 
-        <!-- 5. Manufacturing & Cleanroom Proof -->
-        <section data-section-name="cleanroom-manufacturing-proof" class="py-20 bg-white border-t border-industrial-200">
-          <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
-              Automated Optical Sorting & Quality Control
-            </h2>
-            <p class="text-industrial-700 leading-relaxed mb-6">
-              Critical EV and BESS seals undergo 100% automated optical sorting to prevent dimensional defects, flash remnants, and surface micro-voids prior to vacuum packaging.
+    <!-- 4. MEDIA & OPERATING SPECIFICATIONS WINDOW -->
+    <section data-section-name="media-resistance-specs" class="py-20 bg-industrial-900 text-white px-4">
+      <div class="max-w-7xl mx-auto">
+        <div class="max-w-3xl mb-12">
+          <h2 class="text-3xl font-bold tracking-tight mb-4">
+            Operating Specifications & Media Resistance Window
+          </h2>
+          <p class="text-industrial-300">
+            Tested in-house using physical rheometer, compression set, and chemical immersion test rigs.
+          </p>
+        </div>
+
+        <div class="overflow-x-auto border border-industrial-700">
+          <table class="w-full text-left text-sm text-industrial-200">
+            <thead class="bg-industrial-800 text-xs font-mono uppercase text-industrial-300 border-b border-industrial-700">
+              <tr>
+                <th class="py-4 px-6">Elastomer Compound</th>
+                <th class="py-4 px-6">Temperature Range</th>
+                <th class="py-4 px-6">Primary Media Resistance</th>
+                <th class="py-4 px-6">Key Engineering Feature</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-industrial-800">
+              <tr class="hover:bg-industrial-800/50">
+                <td class="py-4 px-6 font-bold text-white">FFKM Ultra-Vacuum</td>
+                <td class="py-4 px-6">-15°C to +320°C</td>
+                <td class="py-4 px-6">Fluorine/Oxy Plasma, Strong Acids</td>
+                <td class="py-4 px-6">ASTM E595 Outgassing TML &lt; 0.20%</td>
+              </tr>
+              <tr class="hover:bg-industrial-800/50">
+                <td class="py-4 px-6 font-bold text-white">FVMQ Fluorosilicone</td>
+                <td class="py-4 px-6">-60°C to +230°C</td>
+                <td class="py-4 px-6">Aviation Fuel, Ozone, Non-polar Oil</td>
+                <td class="py-4 px-6">Low Fuel Permeation & High Flexibility</td>
+              </tr>
+              <tr class="hover:bg-industrial-800/50">
+                <td class="py-4 px-6 font-bold text-white">Flame-Retardant EPDM</td>
+                <td class="py-4 px-6">-45°C to +150°C</td>
+                <td class="py-4 px-6">PGW Coolants, Water/Glycol, Electrolyte</td>
+                <td class="py-4 px-6">UL94 V-0 Flame Retardant & Halogen Free</td>
+              </tr>
+              <tr class="hover:bg-industrial-800/50">
+                <td class="py-4 px-6 font-bold text-white">High-Fatigue HNBR</td>
+                <td class="py-4 px-6">-30°C to +160°C</td>
+                <td class="py-4 px-6">Synthetic Esters, Biodegradable Oils</td>
+                <td class="py-4 px-6">1,000,000+ Dynamic Flex Fatigue Life</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. CLEANROOM & MANUFACTURING PROOF -->
+    <section data-section-name="cleanroom-manufacturing-proof" class="py-20 bg-industrial-50 px-4">
+      <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <span class="text-xs font-mono font-bold uppercase tracking-widest text-accent-orange mb-2 block">Factory Proof & ERP Traceability</span>
+          <h2 class="text-3xl font-bold tracking-tight text-industrial-900 mb-6">
+            ISO Class 5 Cleanroom & 100% Automated Optical Inspection
+          </h2>
+          <div class="space-y-4 text-industrial-700 leading-relaxed">
+            <p>
+              To meet zero-defect quality demands in semiconductor, robotics, and battery systems, RubberQ operates ISO Class 5 cleanroom cleaning and nitrogen-purged double packaging lines to prevent particulate contamination.
+            </p>
+            <p>
+              Every high-precision molded O-ring and gasket undergoes 100% AI automated optical sorting (0.05 sec/part), detecting surface burrs, flash, and dimension variations down to ±0.03mm.
             </p>
           </div>
-        </section>
+        </div>
+        <div class="bg-white border border-industrial-200 p-8 shadow-sm">
+          <h3 class="text-sm font-mono font-bold uppercase tracking-widest text-industrial-900 mb-4 pb-3 border-b border-industrial-200">
+            IATF 16949 Batch Traceability Defense
+          </h3>
+          <ul class="space-y-3 text-sm text-industrial-700">
+            <li class="flex items-start gap-3">
+              <span class="text-accent-orange font-bold">✓</span>
+              <span><strong>Raw Polymer Verification:</strong> CoA verification of raw FKM/FFKM/EPDM polymers before mixing.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-accent-orange font-bold">✓</span>
+              <span><strong>A/B Compounding Log:</strong> Automatic QR code batch tracking for kneader, strainer, and rheometer tests.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-accent-orange font-bold">✓</span>
+              <span><strong>Full Production Record:</strong> Press mold number, vulcanization temperature/pressure, and QC inspector ID tied to final CoA.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-        <!-- 6. Engagement & Failure Prevention -->
-        <section data-section-name="failure-prevention-comparison" class="py-20 bg-industrial-50">
-          <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold tracking-tighter text-industrial-900 mb-8 uppercase">
-              {ip('engagement.title')}
-            </h2>
-            <div class="space-y-6">
-              <div class="border border-industrial-200 bg-white border-t-4 border-t-accent-orange p-6">
-                <p class="text-industrial-700 leading-relaxed">{ip('engagement.drawings')}</p>
-              </div>
-              <div class="border border-industrial-200 bg-white border-t-4 border-t-accent-orange p-6">
-                <p class="text-industrial-700 leading-relaxed">{ip('engagement.application')}</p>
-              </div>
-            </div>
-          </div>
-        </section>
-      </>
-    )}
+    <!-- 6. FAILURE PREVENTION & COMPARISON -->
+    <section data-section-name="failure-prevention-comparison" class="py-20 px-4">
+      <div class="max-w-7xl mx-auto">
+        <div class="max-w-3xl mb-12">
+          <h2 class="text-3xl font-bold tracking-tight text-industrial-900 mb-4">
+            Common Elastomer Failure Modes vs RubberQ Engineered Fixes
+          </h2>
+          <p class="text-industrial-600">
+            How custom Japanese compounding and isolation lines prevent field failures.
+          </p>
+        </div>
 
-    {/* ====================================================== */}
-    {/* INDUSTRIAL EQUIPMENT CONTENT                            */}
-    {/* ====================================================== */}
-    {i18nKey === 'industrial' && (
-      <>
-        <section data-section-name="subsegment-solutions" class="py-20 bg-white">
-          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-12 uppercase">
-              {ip('subSectors.title')}
-            </h2>
-            <div class="grid md:grid-cols-2 gap-8">
-              {industrialSubs.map((sub: { name: string; list: string[] }) => (
-                <div class="bg-industrial-50 p-8 border border-industrial-200">
-                  <h3 class="text-xl font-bold text-industrial-900 mb-4 tracking-tight">{sub.name}</h3>
-                  <ul class="space-y-2">
-                    {sub.list.map((item) => (
-                      <li class="text-industrial-700 text-sm">▸ {item}</li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section data-section-name="media-resistance-specs" class="py-20 bg-industrial-50">
-          <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold tracking-tighter text-industrial-900 mb-8 uppercase">
-              {ip('whyUs.title')}
-            </h2>
-            <ul class="space-y-3">
-              {industrialWhy.map((item: string) => (
-                <li class="flex gap-3 text-industrial-700 leading-relaxed">
-                  <span class="text-accent-orange font-bold flex-shrink-0">▸</span>
-                  <span>{item}</span>
-                </li>
-              ))}
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="border border-industrial-300 bg-industrial-100/50 p-8">
+            <h3 class="text-lg font-bold text-industrial-900 mb-4">Typical Field Failure Modes</h3>
+            <ul class="space-y-3 text-sm text-industrial-700">
+              <li>• Rapid Gas Decompression (RGD) cracking under high pressure fluctuations</li>
+              <li>• High outgassing causing organic film contamination on optical/vacuum chambers</li>
+              <li>• Rubber-to-metal bond delamination under dynamic vibration shear</li>
+              <li>• Thermal runaway degradation in high-voltage pack enclosure seals</li>
             </ul>
           </div>
-        </section>
-
-        <section data-section-name="cleanroom-manufacturing-proof" class="py-20 bg-white border-t border-industrial-200">
-          <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
-              Hydraulic Oil & Chemical Resistance Validation
-            </h2>
-            <p class="text-industrial-700 leading-relaxed">
-              Industrial seals are tested for swelling and compression-set retention in ISO VG 46 hydraulic oil, synthetic lubricants, and aggressive aggressive chemical media prior to release.
-            </p>
-          </div>
-        </section>
-      </>
-    )}
-
-    {/* ====================================================== */}
-    {/* SEMICONDUCTOR CONTENT                                   */}
-    {/* ====================================================== */}
-    {i18nKey === 'semiconductor' && (
-      <>
-        <section data-section-name="subsegment-solutions" class="py-20 bg-white">
-          <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
-              {ip('engagement.title')}
-            </h2>
-            <p class="text-lg text-industrial-700 mb-8">{ip('engagement.intro')}</p>
-            <div class="space-y-6">
-              <div class="bg-industrial-50 border border-industrial-200 border-t-4 border-t-accent-orange p-6">
-                <h3 class="text-lg font-bold text-industrial-900 mb-2">{ip('engagement.fkm.label')}</h3>
-                <p class="text-industrial-700 leading-relaxed">{ip('engagement.fkm.desc')}</p>
-              </div>
-              <div class="bg-industrial-50 border border-industrial-200 border-t-4 border-t-accent-orange p-6">
-                <h3 class="text-lg font-bold text-industrial-900 mb-2">{ip('engagement.ffkm.label')}</h3>
-                <p class="text-industrial-700 leading-relaxed">{ip('engagement.ffkm.desc')}</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section data-section-name="cleanroom-manufacturing-proof" class="py-20 bg-industrial-50">
-          <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
-              {ip('whySingleLine.title')}
-            </h2>
-            <p class="text-industrial-700 leading-relaxed">{ip('whySingleLine.body')}</p>
-          </div>
-        </section>
-
-        <section data-section-name="media-resistance-specs" class="py-20 bg-white border-t border-industrial-200">
-          <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
-              {ip('processCompat.title')}
-            </h2>
-            <p class="text-industrial-700 leading-relaxed">{ip('processCompat.body')}</p>
-          </div>
-        </section>
-      </>
-    )}
-
-    {/* ====================================================== */}
-    {/* AUTOMOTIVE TIER 2 CONTENT                              */}
-    {/* ====================================================== */}
-    {i18nKey === 'automotive' && (
-      <>
-        <section data-section-name="subsegment-solutions" class="py-20 bg-white">
-          <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl md:text-4xl font-bold tracking-tighter text-industrial-900 mb-10 uppercase">
-              {ip('whereWeFit.title')}
-            </h2>
-            <div class="grid md:grid-cols-2 gap-6">
-              <div class="bg-white border border-industrial-200 border-t-4 border-accent-orange p-8">
-                <h3 class="text-lg font-bold text-industrial-900 mb-4 uppercase">{ip('whereWeFit.fitTitle', 'Stronger value')}</h3>
-                <ul class="space-y-2">
-                  {autoFit.map((item: string) => (
-                    <li class="flex gap-3 text-industrial-700 leading-relaxed text-sm">
-                      <span class="mt-2 h-px w-5 bg-accent-orange flex-shrink-0"></span>
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div class="bg-white border border-industrial-200 border-t-4 border-industrial-300 p-8">
-                <h3 class="text-lg font-bold text-industrial-900 mb-4 uppercase">{ip('whereWeFit.confirmTitle', 'Confirm early')}</h3>
-                <ul class="space-y-2">
-                  {autoNotFit.map((item: string) => (
-                    <li class="flex gap-3 text-industrial-700 leading-relaxed text-sm">
-                      <span class="mt-2 h-px w-5 bg-industrial-400 flex-shrink-0"></span>
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section data-section-name="media-resistance-specs" class="py-20 bg-industrial-50">
-          <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold tracking-tighter text-industrial-900 mb-6 uppercase">
-              {ip('customerProfile.title')}
-            </h2>
-            <ul class="space-y-3">
-              {autoCustomer.map((item: string) => (
-                <li class="flex gap-3 text-industrial-700 leading-relaxed">
-                  <span class="text-accent-orange font-bold flex-shrink-0">▸</span>
-                  <span>{item}</span>
-                </li>
-              ))}
+          <div class="border border-accent-orange/30 bg-industrial-50 p-8">
+            <h3 class="text-lg font-bold text-industrial-900 mb-4 flex items-center gap-2">
+              <span class="text-accent-orange">✓</span> RubberQ Precision Countermeasures
+            </h3>
+            <ul class="space-y-3 text-sm text-industrial-800">
+              <li>• High-tensile AED FKM formulation compliant with ISO 23936 RGD standards</li>
+              <li>• High-temp vacuum post-cure (230°C/24h) ensuring ASTM E595 TML &lt; 0.20%</li>
+              <li>• Special primer heat vulcanization achieving 100% rubber tear bond strength</li>
+              <li>• UL94 V-0 flame-retardant EPDM compound halting flame propagation</li>
             </ul>
           </div>
-        </section>
-      </>
-    )}
+        </div>
+      </div>
+    </section>
 
-    <!-- 7. INDUSTRY CTA (Shared across all sectors with Yakeclimate parameter tracking) -->
-    <section data-section-name="industry-cta" class="py-24 bg-industrial-900 text-white">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-3xl md:text-5xl font-bold tracking-tighter mb-6 uppercase">
-          DISCUSS YOUR {i18nKey.toUpperCase()} APPLICATION
+    <!-- 7. INDUSTRY CTA BANNER (Yakeclimate Parameterized) -->
+    <section data-section-name="industry-cta" class="py-20 bg-industrial-900 text-white px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold tracking-tight mb-4">
+          Discuss Your High-Growth Project with RubberQ Engineers
         </h2>
-        <p class="text-lg text-industrial-300 mb-10 max-w-2xl mx-auto leading-relaxed">
-          Share your STEP drawings, temperature window, and fluid media. Our engineers will review compound selection before tooling.
+        <p class="text-industrial-300 text-lg mb-8 max-w-2xl mx-auto">
+          Submit 2D/3D STEP/DWG drawings or request custom compound samples for evaluation. 4-hour engineering response guaranteed.
         </p>
-        <a
-          href={`${localizedPath(locale, '/contact')}?source_path=${encodeURIComponent(localizedPath(locale, `/industries/${slug}`))}&cta_id=industry-${i18nKey}-final-action&cta_label=${encodeURIComponent('Request Application Review')}`}
-          class="rq-pressable inline-block bg-accent-orange text-white px-10 py-5 font-bold tracking-widest uppercase hover:bg-white hover:text-industrial-900"
-        >
-          {i18nKey === 'ev' && ip('ctaPrimary')}
-          {i18nKey === 'industrial' && ip('cta')}
-          {i18nKey === 'semiconductor' && ip('cta')}
-          {i18nKey === 'automotive' && ip('cta')} →
-        </a>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href={`${localizedPath(locale, '/contact')}?source_path=${encodeURIComponent(localizedPath(locale, `/industries/${slug}`))}&cta_id=${slug}-industry-action&cta_label=${encodeURIComponent('Request Custom Engineering Quote')}`}
+            class="px-8 py-4 bg-accent-orange hover:bg-accent-orange-hover text-industrial-950 font-bold uppercase tracking-wider transition-colors inline-block"
+          >
+            Request Custom Engineering Quote
+          </a>
+          <a
+            href={localizedPath(locale, '/materials')}
+            class="px-8 py-4 bg-industrial-800 hover:bg-industrial-700 text-white font-bold uppercase tracking-wider transition-colors inline-block"
+          >
+            Browse Material Compounds
+          </a>
+        </div>
       </div>
     </section>
   </div>

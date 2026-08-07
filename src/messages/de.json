@@ -153,30 +153,27 @@
     }
   },
   "industries": {
-    "title": "Branchen, die wir bedienen",
-    "automotive": {
-      "title": "Automotive Tier 2",
-      "desc": "IATF 16949 zertifizierte Komponenten für Tier-1-Lieferanten",
-      "shortDesc": "Teile, bei denen Compound-Chemie wichtiger ist als reine Werkzeuganzahl.",
-      "icon": "🚗"
+    "title": "Spezialisierte Hochwachstumssektoren",
+    "subtitle": "RubberQ unterstützt Halbleiteranlagen, Humanoide Robotik, KI-Rechenzentrum-Flüssigkeitskühlung und EV-Hochvoltprogramme.",
+    "semiconductor": {
+      "title": "Halbleiteranlagen",
+      "shortDesc": "Hochvakuum-FFKM- und FKM-Dichtungen mit extrem geringer Ausgasung für Plasma-Ätz- und Depotionskammern.",
+      "icon": "🔬"
     },
     "robotics": {
-      "title": "Industrieanlagen",
-      "desc": "Motordichtungen, Dichtungsringe, Schläuche und Schwingungsdämpfer"
+      "title": "Humanoide Robotik & Embodied AI",
+      "shortDesc": "Präzise Gummi-Metall-Vulkanisationselemente und taktile Reibpolster für Roboter-Gelenkantriebe.",
+      "icon": "🤖"
     },
-    "ai": {
-      "title": "Halbleiter-Prozessausrüstung",
-      "desc": "Pumpen, Ventile, Maschinendichtungen und kundenspezifische Formteile"
+    "cooling": {
+      "title": "KI-Rechenzentrum Flüssigkeitskühlung & ESS",
+      "shortDesc": "CDU-Schnellkupplungs-O-Ringe und UL94 V-0 flammhemmende EPDM-Flachdichtungen für Server-Kühlplatten.",
+      "icon": "⚡"
     },
-    "machinery": {
-      "title": "Präzisionsmaschinen",
-      "desc": "Prazisionsdichtungen, Dichtungsringe und kundenspezifische Komponenten"
-    },
-    "industrial": {
-      "title": "Industrieanlagen",
-      "desc": "Langlebige Dichtungen und Komponenten für Hochleistungsmaschinen",
-      "shortDesc": "Hydraulik, Pneumatik, Pumpen- und Ventildichtungen.",
-      "icon": "⚙"
+    "ev": {
+      "title": "EV-Hochvolt & Thermomanagement",
+      "shortDesc": "Hochvoltkabel-Tüllen und IP68/IP69K-Steckverbinderdichtungen mit voller IATF 16949 ERP-Rückverfolgbarkeit.",
+      "icon": "🔋"
     },
     "medical": {
       "title": "Prazisionsausrustung",

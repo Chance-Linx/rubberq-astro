@@ -229,30 +229,30 @@
     }
   },
   "industries": {
-    "title": "Specialized Industries We Serve",
-    "subtitle": "RubberQ supports EV and energy storage, industrial equipment, semiconductor, and Tier 2 automotive programs where engineered compounds and stable manufacturing matter.",
-    "ev": {
-      "title": "EV & Energy Storage",
-      "shortDesc": "Compound chemistry for charging infrastructure, BESS, EV peripheral equipment, and EV vehicle Tier 2.",
-      "icon": "⚡"
-    },
-    "industrial": {
-      "title": "Industrial Equipment",
-      "shortDesc": "Hydraulic, pneumatic, pump and valve sealing. Our most established sector.",
-      "icon": "⚙"
-    },
+    "title": "Specialized High-Growth Sectors We Serve",
+    "subtitle": "RubberQ supports semiconductor equipment, humanoid robotics, AI data center liquid cooling, and EV high-voltage programs where precision compounding and zero-defect manufacturing matter.",
     "semiconductor": {
-      "title": "Semiconductor (FFKM)",
-      "shortDesc": "FKM/FFKM process seals with single-line A-mixing for compound purity.",
+      "title": "Semiconductor Equipment",
+      "shortDesc": "High-vacuum ultra-low outgassing FFKM & FKM seals for plasma etching and deposition chambers.",
       "icon": "🔬"
     },
-    "automotive": {
-      "title": "Automotive Tier 2",
-      "shortDesc": "Tier 2 key components where compound chemistry matters more than mold count.",
-      "icon": "🚗"
+    "robotics": {
+      "title": "Humanoid Robotics & Embodied AI",
+      "shortDesc": "Precision rubber-to-metal vulcanized joint mounts and tactile friction pads for robot joint actuators.",
+      "icon": "🤖"
     },
-    "notSeeing": "Not seeing your industry? Most precision rubber applications fit into one of these four.",
-    "talkCta": "Talk to an engineer"
+    "cooling": {
+      "title": "AI Data Center Liquid Cooling & ESS",
+      "shortDesc": "CDU quick disconnect O-rings and UL94 V-0 flame-retardant EPDM gaskets for server cold plates.",
+      "icon": "⚡"
+    },
+    "ev": {
+      "title": "EV High-Voltage & Thermal Management",
+      "shortDesc": "High-voltage cable grommets and IP68/IP69K connector seals with full IATF 16949 ERP traceability.",
+      "icon": "🔋"
+    },
+    "notSeeing": "Not seeing your sector? Most precision elastomer applications fit into one of these four high-growth categories.",
+    "talkCta": "Talk to an Engineer"
   },
   "cta": {
     "title": "Ready to Start Your Project?",

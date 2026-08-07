@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RubberQ Precision Elastomers: 4 High-Growth Industry Search Demand & Topic Wheel</title>
+  <style>
+    :root {
+      --bg-main: #0B0F19;
+      --bg-card: #111827;
+      --bg-card-hover: #1F2937;
+      --accent-blue: #2563EB;
+      --accent-green: #10B981;
+      --accent-amber: #F59E0B;
+      --accent-purple: #8B5CF6;
+      --accent-rose: #F43F5E;
+      --text-main: #F9FAFB;
+      --text-muted: #9CA3AF;
+      --border-color: #1E293B;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      padding: 32px 20px;
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 32px;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 24px;
+    }
+
+    .badge-container {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 12px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .badge-verified {
+      background: rgba(16, 185, 129, 0.15);
+      color: var(--accent-green);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+
+    .badge-focus {
+      background: rgba(139, 92, 246, 0.15);
+      color: var(--accent-purple);
+      border: 1px solid rgba(139, 92, 246, 0.3);
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    p.subtitle {
+      color: var(--text-muted);
+      font-size: 15px;
+    }
+
+    /* Summary Stats Grid */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+
+    .stat-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 20px;
+    }
+
+    .stat-card .label {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+
+    .stat-card .value {
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .stat-card .highlight {
+      color: var(--accent-green);
+    }
+
+    /* Industry Filter Tabs */
+    .tabs {
+      display: flex;
+      gap: 12px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 24px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .tab-btn {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s ease;
+    }
+
+    .tab-btn:hover {
+      background: var(--bg-card-hover);
+      color: var(--text-main);
+    }
+
+    .tab-btn.active {
+      background: var(--accent-blue);
+      color: #FFF;
+      border-color: var(--accent-blue);
+    }
+
+    /* Topic Cards Matrix */
+    .topics-matrix {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      gap: 20px;
+    }
+
+    .topic-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 24px;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .topic-card:hover {
+      transform: translateY(-2px);
+      border-color: #334155;
+    }
+
+    .topic-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 12px;
+    }
+
+    .topic-id {
+      font-size: 12px;
+      font-weight: 700;
+      background: rgba(37, 99, 235, 0.2);
+      color: #60A5FA;
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    .topic-priority {
+      font-size: 12px;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    .priority-high { background: rgba(245, 158, 11, 0.2); color: var(--accent-amber); }
+    .priority-medium { background: rgba(139, 92, 246, 0.2); color: var(--accent-purple); }
+
+    .topic-title {
+      font-size: 17px;
+      font-weight: 600;
+      line-height: 1.4;
+      margin-bottom: 16px;
+      color: var(--text-main);
+    }
+
+    .metrics-box {
+      background: #0F172A;
+      border: 1px solid #1E293B;
+      border-radius: 8px;
+      padding: 14px;
+      margin-bottom: 16px;
+    }
+
+    .metrics-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      margin-bottom: 6px;
+    }
+
+    .metrics-row:last-child { margin-bottom: 0; }
+
+    .metrics-row .m-label { color: var(--text-muted); }
+    .metrics-row .m-val { font-weight: 600; color: #E2E8F0; }
+    .metrics-row .val-cpc { color: var(--accent-green); font-weight: 700; }
+    .metrics-row .val-vol { color: #60A5FA; font-weight: 700; }
+
+    .keywords-tag-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 16px;
+    }
+
+    .kw-tag {
+      font-size: 12px;
+      background: #1E293B;
+      color: #94A3B8;
+      padding: 3px 10px;
+      border-radius: 4px;
+    }
+
+    .status-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 12px;
+      color: var(--text-muted);
+      border-top: 1px solid #1E293B;
+      padding-top: 12px;
+    }
+
+    .status-indicator {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--accent-amber);
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <div class="badge-container">
+      <div class="badge badge-verified">
+        ✓ DataForSEO Live API Verified (Location: US / Global 2840)
+      </div>
+      <div class="badge badge-focus">
+        🎯 Strategic Shift: 4 High-Growth Precision Sectors
+      </div>
+    </div>
+    <h1>RubberQ High-Growth Precision Elastomer Topic Wheel</h1>
+    <p class="subtitle">Focused on Precision Elastomer Components & Seals (Excludes Tires & Bulk Hoses). Real Google SERP Bidding & Volume Metrics.</p>
+  </header>
+
+  <!-- Key Summary Metrics -->
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="label">Highest B2B CPC (Robotics Damping)</div>
+      <div class="value highlight">$7.20 / click</div>
+      <div class="label" style="margin-top: 4px;">"rubber to metal bonding"</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Max Intent (Robotics NVH)</div>
+      <div class="value" style="color: var(--accent-purple);">Comp: 1.0 (Max)</div>
+      <div class="label" style="margin-top: 4px;">"vibration damping mounts" ($4.21 CPC)</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Semiconductor Vacuum Spec CPC</div>
+      <div class="value highlight">$6.71 / click</div>
+      <div class="label" style="margin-top: 4px;">"ffkm o rings" (720/mo)</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">AI Cooling & ESS Volume Pillar</div>
+      <div class="value" style="color: #60A5FA;">2,900 / month</div>
+      <div class="label" style="margin-top: 4px;">"epdm gasket" ($3.07 CPC)</div>
+    </div>
+  </div>
+
+  <!-- Tabs Navigation -->
+  <div class="tabs">
+    <button class="tab-btn active" onclick="filterSector('all', this)">All 4 High-Growth Sectors (16 Topics)</button>
+    <button class="tab-btn" onclick="filterSector('semiconductor', this)">1. Semiconductor ($6.71 CPC)</button>
+    <button class="tab-btn" onclick="filterSector('humanoid-robotics', this)">2. Humanoid Robotics 🚀 ($7.20 CPC)</button>
+    <button class="tab-btn" onclick="filterSector('ai-data-center-cooling', this)">3. AI Liquid Cooling & ESS ⚡ (2,900/mo)</button>
+    <button class="tab-btn" onclick="filterSector('ev-high-voltage', this)">4. EV High-Voltage ($4.37 CPC)</button>
+  </div>
+
+  <!-- Topics Matrix -->
+  <div class="topics-matrix" id="topicsContainer">
+    <!-- Topic Cards rendered by JS -->
+  </div>
+</div>
+
+<script>
+  const topicData = [
+    // Semiconductor
+    {
+      sector: "semiconductor",
+      id: "SEM-001",
+      title: "High-Vacuum FFKM Seals in Plasma Etching Environments",
+      priority: "High",
+      primaryKeyword: "ffkm o rings",
+      volume: "720 / mo",
+      cpc: "$6.71",
+      competition: "0.72 (High Intent)",
+      commercialRank: "Extreme High CPC ($6.71)",
+      keywords: ["ffkm o rings", "semiconductor seals", "plasma resistant o-rings"]
+    },
+    {
+      sector: "semiconductor",
+      id: "SEM-002",
+      title: "ISO Class 5 Cleanroom Degassing & Outgassing Control",
+      priority: "High",
+      primaryKeyword: "cleanroom o rings",
+      volume: "10 / mo",
+      cpc: "$0.00",
+      competition: "0.20",
+      commercialRank: "Niche Engineering Spec",
+      keywords: ["cleanroom o rings", "low outgassing rubber", "ISO Class 5 cleanroom elastomer"]
+    },
+    {
+      sector: "semiconductor",
+      id: "SEM-003",
+      title: "Ultra-Low Metal Ion Contamination in Semiconductor Seals",
+      priority: "Medium",
+      primaryKeyword: "semiconductor seals",
+      volume: "10 / mo",
+      cpc: "$0.00",
+      competition: "0.20",
+      commercialRank: "High Intent B2B Buyer",
+      keywords: ["semiconductor seals", "ultra pure FKM O-rings", "ppb metal ion extraction"]
+    },
+    {
+      sector: "semiconductor",
+      id: "SEM-004",
+      title: "Wafer Handling Rubber Suction Cups & ESD Anti-Static Compounds",
+      priority: "Medium",
+      primaryKeyword: "ESD rubber suction cups",
+      volume: "10 / mo",
+      cpc: "$0.00",
+      competition: "0.20",
+      commercialRank: "Custom Component OEM",
+      keywords: ["ESD rubber suction cups", "anti-static fluoroelastomer wafer cups"]
+    },
+
+    // Humanoid Robotics & Embodied AI
+    {
+      sector: "humanoid-robotics",
+      id: "ROB-001",
+      title: "Rubber-to-Metal Vulcanized Bonding in Robotic Joint Damping Mounts",
+      priority: "High",
+      primaryKeyword: "rubber to metal bonding",
+      volume: "70 / mo",
+      cpc: "$7.20",
+      competition: "0.68",
+      commercialRank: "Highest B2B CPC ($7.20)",
+      keywords: ["rubber to metal bonding", "precision rubber molded parts"]
+    },
+    {
+      sector: "humanoid-robotics",
+      id: "ROB-002",
+      title: "Vibration Damping Mounts & Dynamic Stiffness Control for Robot Actuators",
+      priority: "High",
+      primaryKeyword: "vibration damping mounts",
+      volume: "170 / mo",
+      cpc: "$4.21",
+      competition: "1.00 (Max Intent)",
+      commercialRank: "Max Commercial Intent (Comp 1.0)",
+      keywords: ["vibration damping mounts", "robot joint rubber seal"]
+    },
+    {
+      sector: "humanoid-robotics",
+      id: "ROB-003",
+      title: "Robotic Hand Tactile Rubber Pads & Anti-Static High-Friction Compounds",
+      priority: "Medium",
+      primaryKeyword: "robotic hand rubber pad",
+      volume: "10 / mo",
+      cpc: "$1.50",
+      competition: "0.30",
+      commercialRank: "Robotics Hardware OEM",
+      keywords: ["robotic hand rubber pad", "precision rubber molded parts"]
+    },
+    {
+      sector: "humanoid-robotics",
+      id: "ROB-004",
+      title: "Dust & Fluid Protection Boots for Robotic Harmonic Drive Joint Actuators",
+      priority: "Medium",
+      primaryKeyword: "robot joint rubber seal",
+      volume: "10 / mo",
+      cpc: "$1.20",
+      competition: "0.20",
+      commercialRank: "Robot Joint Protective OEM",
+      keywords: ["robot joint rubber seal", "precision rubber molded parts"]
+    },
+
+    // AI Data Center Liquid Cooling & ESS
+    {
+      sector: "ai-data-center-cooling",
+      id: "COOL-001",
+      title: "Flame-Retardant EPDM Formulation Standards (UL94 V-0 Compliance)",
+      priority: "High",
+      primaryKeyword: "epdm gasket",
+      volume: "2,900 / mo",
+      cpc: "$3.07",
+      competition: "0.89 (High)",
+      commercialRank: "Volume Demand Pillar (2,900/mo)",
+      keywords: ["epdm gasket", "ul94 v0 rubber"]
+    },
+    {
+      sector: "ai-data-center-cooling",
+      id: "COOL-002",
+      title: "Quick Disconnect (QD) O-Rings & Low-Outgassing Liquid Cooling Seals",
+      priority: "High",
+      primaryKeyword: "quick disconnect o ring",
+      volume: "20 / mo",
+      cpc: "$0.92",
+      competition: "0.84",
+      commercialRank: "CDU Fluid Coupling Spec",
+      keywords: ["quick disconnect o ring", "data center liquid cooling seal"]
+    },
+    {
+      sector: "ai-data-center-cooling",
+      id: "COOL-003",
+      title: "Coolant (PGW/Glycol) Resistant Elastomers for AI Server Cold Plates",
+      priority: "Medium",
+      primaryKeyword: "coolant resistant rubber",
+      volume: "10 / mo",
+      cpc: "$1.50",
+      competition: "0.40",
+      commercialRank: "AI Server Cold Plate OEM",
+      keywords: ["coolant resistant rubber", "epdm gasket"]
+    },
+    {
+      sector: "ai-data-center-cooling",
+      id: "COOL-004",
+      title: "Thermal Runaway Barrier Rubber Gaskets in Storage Cabinets",
+      priority: "Medium",
+      primaryKeyword: "ul94 v0 rubber",
+      volume: "10 / mo",
+      cpc: "$1.00",
+      competition: "0.30",
+      commercialRank: "ESS Battery Safety",
+      keywords: ["ul94 v0 rubber", "data center liquid cooling seal"]
+    },
+
+    // EV High-Voltage & Thermal Management
+    {
+      sector: "ev-high-voltage",
+      id: "EV-001",
+      title: "Fuel Permeation & High Temp Resistance in FVMQ Fluorosilicone O-Rings",
+      priority: "High",
+      primaryKeyword: "fvmq o ring",
+      volume: "20 / mo",
+      cpc: "$4.37",
+      competition: "0.54",
+      commercialRank: "High Value Automotive CPC ($4.37)",
+      keywords: ["fvmq o ring", "high temp duct seal"]
+    },
+    {
+      sector: "ev-high-voltage",
+      id: "EV-002",
+      title: "High-Voltage Cable Rubber Grommets & IP68 Waterproof Connector Seals",
+      priority: "High",
+      primaryKeyword: "ip68 rubber seal",
+      volume: "20 / mo",
+      cpc: "$2.10",
+      competition: "0.50",
+      commercialRank: "Ingress Protection Pillar",
+      keywords: ["high voltage cable grommet", "ip68 rubber seal"]
+    },
+    {
+      sector: "ev-high-voltage",
+      id: "EV-003",
+      title: "Coolant & Electrolyte Resistant Rubber Seals in EV Battery Packs",
+      priority: "Medium",
+      primaryKeyword: "battery pack seal",
+      volume: "20 / mo",
+      cpc: "$1.50",
+      competition: "0.40",
+      commercialRank: "EV Pack Enclosure OEM",
+      keywords: ["battery pack seal", "epdm gasket"]
+    },
+    {
+      sector: "ev-high-voltage",
+      id: "EV-004",
+      title: "IATF 16949 ERP Full-Traceability for Automotive Molded Rubber Parts",
+      priority: "Medium",
+      primaryKeyword: "iatf 16949 rubber",
+      volume: "10 / mo",
+      cpc: "$1.50",
+      competition: "0.30",
+      commercialRank: "Automotive Quality Audit",
+      keywords: ["iatf 16949 rubber", "precision rubber molded parts"]
+    }
+  ];
+
+  function renderTopics(items) {
+    const container = document.getElementById('topicsContainer');
+    container.innerHTML = items.map(item => `
+      <div class="topic-card">
+        <div>
+          <div class="topic-header">
+            <span class="topic-id">${item.id}</span>
+            <span class="topic-priority priority-${item.priority.toLowerCase()}">${item.priority} Priority</span>
+          </div>
+          <div class="topic-title">${item.title}</div>
+          
+          <div class="metrics-box">
+            <div class="metrics-row">
+              <span class="m-label">DataForSEO Target Keyword</span>
+              <span class="m-val">${item.primaryKeyword}</span>
+            </div>
+            <div class="metrics-row">
+              <span class="m-label">Monthly Volume (US/Global)</span>
+              <span class="m-val val-vol">${item.volume}</span>
+            </div>
+            <div class="metrics-row">
+              <span class="m-label">CPC Bid / Value Rank</span>
+              <span class="m-val val-cpc">${item.cpc} (${item.commercialRank})</span>
+            </div>
+            <div class="metrics-row">
+              <span class="m-label">SERP Competition Index</span>
+              <span class="m-val">${item.competition}</span>
+            </div>
+          </div>
+
+          <div class="keywords-tag-container">
+            ${item.keywords.map(kw => `<span class="kw-tag">${kw}</span>`).join('')}
+          </div>
+        </div>
+
+        <div class="status-bar">
+          <div class="status-indicator">
+            <div class="dot"></div>
+            <span>Status: <strong>Planned (5-Gate Ready)</strong></span>
+          </div>
+          <span>Sanity CMS Sync</span>
+        </div>
+      </div>
+    `).join('');
+  }
+
+  function filterSector(sector, btn) {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+
+    if (sector === 'all') {
+      renderTopics(topicData);
+    } else {
+      const filtered = topicData.filter(t => t.sector === sector);
+      renderTopics(filtered);
+    }
+  }
+
+  // Initial Render
+  renderTopics(topicData);
+</script>
+
+</body>
+</html>

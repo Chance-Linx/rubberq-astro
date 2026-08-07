@@ -1,0 +1,324 @@
+{
+  "version": "4.0.0-HighGrowth-Verified",
+  "lastUpdated": "2026-08-07",
+  "dataSource": "DataForSEO Live API (Location: United States, Lang: EN)",
+  "projectName": "RubberQ B2B Industrial Export",
+  "positioning": "Precision Elastomer Components & Seals (Excludes Tires & Bulk Hoses)",
+  "summaryMetrics": {
+    "totalIndustries": 4,
+    "totalVerifiedTopics": 16,
+    "highestCpcKeyword": "rubber to metal bonding ($7.20)",
+    "highestVolumeKeyword": "epdm gasket (2,900/mo)",
+    "highestIntentKeyword": "vibration damping mounts (Comp: 1.0, $4.21 CPC)"
+  },
+  "targetIndustries": [
+    {
+      "id": "semiconductor",
+      "name": "Semiconductor Equipment",
+      "slug": "semiconductor",
+      "growthStatus": "High Growth 🚀",
+      "buyerPersonas": ["Wafer Fab Equipment Engineer", "Process Vacuum Systems Procurement Manager", "Cleanroom Component Buyers"],
+      "topics": [
+        {
+          "id": "SEM-001",
+          "title": "High-Vacuum FFKM Seals in Plasma Etching Environments",
+          "slug": "high-vacuum-ffkm-seals-plasma-etching",
+          "category": "Vacuum & Plasma Resistance",
+          "searchIntent": "High Value Engineering Selection",
+          "targetKeywords": ["ffkm o rings", "semiconductor seals", "plasma resistant o-rings"],
+          "dataForSeoMetrics": {
+            "primaryKeyword": "ffkm o rings",
+            "monthlyVolume": 720,
+            "cpcUSD": 6.71,
+            "competition": 0.72,
+            "commercialValueRank": "Extreme High ($6.71 CPC)"
+          },
+          "status": "planned",
+          "priority": "High"
+        },
+        {
+          "id": "SEM-002",
+          "title": "ISO Class 5 Cleanroom Degassing & Outgassing Control",
+          "slug": "cleanroom-rubber-degassing-outgassing-control",
+          "category": "Cleanroom Manufacturing",
+          "searchIntent": "Quality Verification",
+          "targetKeywords": ["cleanroom o rings", "low outgassing rubber", "ISO Class 5 cleanroom elastomer"],
+          "dataForSeoMetrics": {
+            "primaryKeyword": "cleanroom o rings",
+            "monthlyVolume": 10,
+            "cpcUSD": 0.0,
+            "competition": 0.2,
+            "commercialValueRank": "Niche Engineering Spec"
+          },
+          "status": "planned",
+          "priority": "High"
+        },
+        {
+          "id": "SEM-003",
+          "title": "Ultra-Low Metal Ion Contamination in Semiconductor Seals",
+          "slug": "ultra-low-metal-ion-contamination-semiconductor-seals",
+          "category": "Contamination Control",
+          "searchIntent": "Technical Spec Comparison",
+          "targetKeywords": ["semiconductor seals", "ultra pure FKM O-rings", "ppb metal ion extraction rubber"],
+          "dataForSeoMetrics": {
+            "primaryKeyword": "semiconductor seals",
+            "monthlyVolume": 10,
+            "cpcUSD": 0.0,
+            "competition": 0.2,
+            "commercialValueRank": "High Intent B2B Buyer"
+          },
+          "status": "planned",
+          "priority": "Medium"
+        },
+        {
+          "id": "SEM-004",
+          "title": "Wafer Handling Rubber Suction Cups & ESD Anti-Static Compounds",
+          "slug": "wafer-handling-esd-anti-static-rubber-suction-cups",
+          "category": "Component Customization",
+          "searchIntent": "Custom Design Inquiry",
+          "targetKeywords": ["ESD rubber suction cups", "anti-static fluoroelastomer wafer cups"],
+          "dataForSeoMetrics": {
+            "primaryKeyword": "ESD rubber suction cups",
+            "monthlyVolume": 10,
+            "cpcUSD": 0.0,
+            "competition": 0.2,
+            "commercialValueRank": "Custom OEM Component"
+          },
+          "status": "planned",
+          "priority": "Medium"
+        }
+      ]
+    },
+    {
+      "id": "humanoid-robotics",
+      "name": "Humanoid Robotics & Embodied AI",
+      "slug": "humanoid-robotics",
+      "growthStatus": "Explosive Growth 🚀",
+      "buyerPersonas": ["Robotic Joint Mechanical Engineer", "Embodied AI Procurement Lead", "Vibration Damping Specialist"],
+      "topics": [
+        {
+          "id": "ROB-001",
+          "title": "Rubber-to-Metal Vulcanized Bonding in Robotic Joint Damping Mounts",
+          "slug": "rubber-to-metal-vulcanized-bonding-robotic-joint-damping",
+          "category": "NVH & Rubber-to-Metal Bonding",
+          "searchIntent": "High Value Engineering Selection",
+          "targetKeywords": ["rubber to metal bonding", "precision rubber molded parts"],
+          "dataForSeoMetrics": {
+            "primaryKeyword": "rubber to metal bonding",
+            "monthlyVolume": 70,
+            "cpcUSD": 7.20,
+            "competition": 0.68,
+            "commercialValueRank": "Highest B2B CPC ($7.20)"
+          },
+          "status": "planned",
+          "priority": "High"
+        },
+        {
+          "id": "ROB-002",
+          "title": "Vibration Damping Mounts & Dynamic Stiffness Control for Robot Actuators",
+          "slug": "vibration-damping-mounts-dynamic-stiffness-robot-actuators",
+          "category": "Vibration Damping & Stiffness",
+          "searchIntent": "Max Intent Commercial Sourcing",
+          "targetKeywords": ["vibration damping mounts", "robot joint rubber seal"],
+          "dataForSeoMetrics": {
+            "primaryKeyword": "vibration damping mounts",
+            "monthlyVolume": 170,
+            "cpcUSD": 4.21,
+            "competition": 1.0,
+            "commercialValueRank": "Max Intent (Comp: 1.0, $4.21 CPC)"
+          },
+          "status": "planned",
+          "priority": "High"
+        },
+        {
+          "id": "ROB-003",
+          "title": "Robotic Hand Tactile Rubber Pads & Anti-Static High-Friction Compounds",
+          "slug": "robotic-hand-tactile-rubber-pads-anti-static-compounds",
+          "category": "Robotic Hand Tactile Components",
+          "searchIntent": "Custom OEM Component Design",
+          "targetKeywords": ["robotic hand rubber pad", "precision rubber molded parts"],
+          "dataForSeoMetrics": {
+            "primaryKeyword": "robotic hand rubber pad",
+            "monthlyVolume": 10,
+            "cpcUSD": 1.5,
+            "competition": 0.3,
+            "commercialValueRank": "Robotics Hardware OEM"
+          },
+          "status": "planned",
+          "priority": "Medium"
+        },
+        {
+          "id": "ROB-004",
+          "title": "Dust & Fluid Protection Boots for Robotic Harmonic Drive Joint Actuators",
+          "slug": "dust-fluid-protection-boots-robotic-harmonic-drive-joints",
+          "category": "Joint Protective Seals",
+          "searchIntent": "Custom Ingress Protection",
+          "targetKeywords": ["robot joint rubber seal", "precision rubber molded parts"],
+          "dataForSeoMetrics": {
+            "primaryKeyword": "robot joint rubber seal",
+            "monthlyVolume": 10,
+            "cpcUSD": 1.2,
+            "competition": 0.2,
+            "commercialValueRank": "Robot Joint OEM"
+          },
+          "status": "planned",
+          "priority": "Medium"
+        }
+      ]
+    },
+    {
+      "id": "ai-data-center-cooling",
+      "name": "AI Data Center Liquid Cooling & ESS",
+      "slug": "ai-data-center-cooling",
+      "growthStatus": "Surging AI Infra Growth ⚡",
+      "buyerPersonas": ["Data Center Liquid Cooling Infrastructure Engineer", "CDU Quick Disconnect Specialist", "ESS Cabinet Thermal Manager"],
+      "topics": [
+        {
+          "id": "COOL-001",
+          "title": "Flame-Retardant EPDM Formulation Standards (UL94 V-0 Compliance)",
+          "slug": "flame-retardant-epdm-ul94-v0-compliance-standards",
+          "category": "Thermal & Fire Protection",
+          "searchIntent": "Volume Demand Spec Search",
+          "targetKeywords": ["epdm gasket", "ul94 v0 rubber"],
+          "dataForSeoMetrics": {
+            "primaryKeyword": "epdm gasket",
+            "monthlyVolume": 2900,
+            "cpcUSD": 3.07,
+            "competition": 0.89,
+            "commercialValueRank": "Volume Demand Pillar (2,900/mo)"
+          },
+          "status": "planned",
+          "priority": "High"
+        },
+        {
+          "id": "COOL-002",
+          "title": "Quick Disconnect (QD) O-Rings & Low-Outgassing Liquid Cooling Seals",
+          "slug": "quick-disconnect-qd-o-rings-liquid-cooling-seals",
+          "category": "Liquid Cooling Fluid Seals",
+          "searchIntent": "High Intent Coupling Search",
+          "targetKeywords": ["quick disconnect o ring", "data center liquid cooling seal"],
+          "dataForSeoMetrics": {
+            "primaryKeyword": "quick disconnect o ring",
+            "monthlyVolume": 20,
+            "cpcUSD": 0.92,
+            "competition": 0.84,
+            "commercialValueRank": "CDU Fluid Coupling Spec"
+          },
+          "status": "planned",
+          "priority": "High"
+        },
+        {
+          "id": "COOL-003",
+          "title": "Coolant (PGW/Glycol) Resistant Elastomers for AI Server Cold Plates",
+          "slug": "coolant-resistant-elastomers-ai-server-cold-plates",
+          "category": "Coolant Fluid Resistance",
+          "searchIntent": "Fluid Compatibility Engineering",
+          "targetKeywords": ["coolant resistant rubber", "epdm gasket"],
+          "dataForSeoMetrics": {
+            "primaryKeyword": "coolant resistant rubber",
+            "monthlyVolume": 10,
+            "cpcUSD": 1.5,
+            "competition": 0.4,
+            "commercialValueRank": "AI Server Cold Plate OEM"
+          },
+          "status": "planned",
+          "priority": "Medium"
+        },
+        {
+          "id": "COOL-004",
+          "title": "Thermal Runaway Barrier Rubber Gaskets in Storage Cabinets",
+          "slug": "thermal-runaway-barrier-rubber-gaskets-storage-cabinets",
+          "category": "Fire Barrier Gaskets",
+          "searchIntent": "ESS Safety Compliance",
+          "targetKeywords": ["ul94 v0 rubber", "data center liquid cooling seal"],
+          "dataForSeoMetrics": {
+            "primaryKeyword": "ul94 v0 rubber",
+            "monthlyVolume": 10,
+            "cpcUSD": 1.0,
+            "competition": 0.3,
+            "commercialValueRank": "ESS Battery Safety"
+          },
+          "status": "planned",
+          "priority": "Medium"
+        }
+      ]
+    },
+    {
+      "id": "ev-high-voltage",
+      "name": "EV High-Voltage & Thermal Management",
+      "slug": "ev-high-voltage",
+      "growthStatus": "High Growth ⚡",
+      "buyerPersonas": ["EV Cable Harness System Engineer", "Connector IP Rating Specialist", "Battery Pack Seals Buyer"],
+      "topics": [
+        {
+          "id": "EV-001",
+          "title": "Fuel Permeation & High Temp Resistance in FVMQ Fluorosilicone O-Rings",
+          "slug": "fuel-permeation-ozone-resistance-engine-bay-seals",
+          "category": "High Thermal & Permeation Seals",
+          "searchIntent": "High Value Automotive Spec",
+          "targetKeywords": ["fvmq o ring", "high temp duct seal"],
+          "dataForSeoMetrics": {
+            "primaryKeyword": "fvmq o ring",
+            "monthlyVolume": 20,
+            "cpcUSD": 4.37,
+            "competition": 0.54,
+            "commercialValueRank": "High Value Automotive CPC ($4.37)"
+          },
+          "status": "planned",
+          "priority": "High"
+        },
+        {
+          "id": "EV-002",
+          "title": "High-Voltage Cable Rubber Grommets & IP68 Waterproof Connector Seals",
+          "slug": "high-voltage-cable-grommets-ip68-waterproof-connector-seals",
+          "category": "High Voltage & Waterproofing",
+          "searchIntent": "Ingress Protection Engineering",
+          "targetKeywords": ["high voltage cable grommet", "ip68 rubber seal"],
+          "dataForSeoMetrics": {
+            "primaryKeyword": "ip68 rubber seal",
+            "monthlyVolume": 20,
+            "cpcUSD": 2.10,
+            "competition": 0.50,
+            "commercialValueRank": "Ingress Protection Pillar"
+          },
+          "status": "planned",
+          "priority": "High"
+        },
+        {
+          "id": "EV-003",
+          "title": "Coolant & Electrolyte Resistant Rubber Seals in EV Battery Packs",
+          "slug": "coolant-electrolyte-resistant-rubber-seals-ev-battery-packs",
+          "category": "Battery Fluid Resistance",
+          "searchIntent": "Battery Pack Mechanical OEM",
+          "targetKeywords": ["high-voltage pack seal", "epdm gasket"],
+          "dataForSeoMetrics": {
+            "primaryKeyword": "high-voltage pack seal",
+            "monthlyVolume": 20,
+            "cpcUSD": 1.5,
+            "competition": 0.4,
+            "commercialValueRank": "EV Pack Enclosure OEM"
+          },
+          "status": "planned",
+          "priority": "Medium"
+        },
+        {
+          "id": "EV-004",
+          "title": "IATF 16949 ERP Full-Traceability for Automotive Molded Rubber Parts",
+          "slug": "iatf-16949-erp-traceability-automotive-molded-parts",
+          "category": "Quality Systems & Traceability",
+          "searchIntent": "Audit & Compliance Check",
+          "targetKeywords": ["iatf 16949 rubber", "precision rubber molded parts"],
+          "dataForSeoMetrics": {
+            "primaryKeyword": "iatf 16949 rubber",
+            "monthlyVolume": 10,
+            "cpcUSD": 1.5,
+            "competition": 0.3,
+            "commercialValueRank": "Automotive Quality Audit"
+          },
+          "status": "planned",
+          "priority": "Medium"
+        }
+      ]
+    }
+  ]
+}
