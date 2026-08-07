@@ -36,14 +36,14 @@ const visualLabels = {
   automotive: h('visualLabels.automotive', 'Automotive Tier 2 Applications'),
 };
 const visualImages = {
-  hero: '/images/legacy_resource/2021/03/17/60515a8bd1599.jpg',
-  manufacturing: '/images/legacy_resource/2021/01/15/6001a3d39ab70.jpg',
-  capacity: '/images/legacy_resource/2021/03/17/60515a8bd1599.jpg',
-  ev: '/images/legacy_resource/2021/01/14/5fffd989a7d6a.jpg',
-  industrial: '/images/legacy_resource/2021/01/14/5fffd94b86544.jpg',
-  semiconductor: '/images/legacy_resource/2021/02/04/601bdacc39a96.jpg',
-  automotive: '/images/legacy_resource/2021/01/14/5fffd971e7d47.jpg',
-  compounding: '/images/legacy_resource/2021/01/15/6001a3d0882a9.jpg',
+  hero: '/images/visuals/factory-manufacturing.jpg',
+  manufacturing: '/images/visuals/factory-manufacturing.jpg',
+  capacity: '/images/visuals/factory-manufacturing.jpg',
+  semicon: '/images/visuals/semiconductor-cleanroom.jpg',
+  robotics: '/images/visuals/humanoid-robotics-joint.jpg',
+  cooling: '/images/visuals/ai-liquid-cooling.jpg',
+  ev: '/images/visuals/ev-high-voltage.jpg',
+  compounding: '/images/visuals/factory-manufacturing.jpg',
 };
 
 const orgSchema = createOrganizationSchema(locale!);
@@ -373,7 +373,7 @@ const orgSchema = createOrganizationSchema(locale!);
                 data-spec="900x520"
                 data-priority="important"
               >
-                <img src={visualImages.industrial} alt="Humanoid Robotics" loading="lazy" />
+                <img src={visualImages.robotics} alt="Humanoid Robotics" loading="lazy" />
                 <span class="absolute top-4 right-4 bg-white/90 px-2 py-1 text-[10px] uppercase tracking-widest text-industrial-500">Robotics</span>
               </div>
               <div class="absolute inset-0 bg-industrial-900/55 group-hover:bg-industrial-900/72 transition-colors"></div>
@@ -393,7 +393,7 @@ const orgSchema = createOrganizationSchema(locale!);
                 data-spec="900x520"
                 data-priority="important"
               >
-                <img src={visualImages.ev} alt="AI Cooling" loading="lazy" />
+                <img src={visualImages.cooling} alt="AI Cooling" loading="lazy" />
                 <span class="absolute top-4 right-4 bg-white/90 px-2 py-1 text-[10px] uppercase tracking-widest text-industrial-500">AI Cooling</span>
               </div>
               <div class="absolute inset-0 bg-industrial-900/55 group-hover:bg-industrial-900/72 transition-colors"></div>
@@ -413,7 +413,7 @@ const orgSchema = createOrganizationSchema(locale!);
                 data-spec="900x520"
                 data-priority="important"
               >
-                <img src={visualImages.automotive} alt="EV High Voltage" loading="lazy" />
+                <img src={visualImages.ev} alt="EV High Voltage" loading="lazy" />
                 <span class="absolute top-4 right-4 bg-white/90 px-2 py-1 text-[10px] uppercase tracking-widest text-industrial-500">EV High-Voltage</span>
               </div>
               <div class="absolute inset-0 bg-industrial-900/55 group-hover:bg-industrial-900/72 transition-colors"></div>
