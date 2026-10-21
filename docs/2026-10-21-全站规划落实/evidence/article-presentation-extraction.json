@@ -1,0 +1,9 @@
+{
+  "baseline_commit": "3f7f4514a4a558fb474fcbd2a5f5d1f00ab235c8",
+  "original_route_sha256": "ec3e82f1319c9ab3a24eb6306f4bb3e23b33561d416de9cf1bdf58d52afee079",
+  "original_template_sha256": "df6f3f64daf39bcb78d21cf114fe7fdc900b839a0866a2fb63a8b3ebf540a132",
+  "extraction_preserves_template_after_removing_new_head_slot_and_canonical_prop": true,
+  "data_fetch_and_status_logic_preserved": true,
+  "protected_sanity_module_changed": false,
+  "scope": "Mechanical presentation extraction proof; runtime regression and draft rendering still require separate checks."
+}

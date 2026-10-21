@@ -1,0 +1,5056 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator" content="Astro v5.18.1"><script>(function(){const gaMeasurementId = "G-NXD6LQQDHP";
+
+      (function () {
+        var preferencesKey = 'rubberq-cookie-preferences';
+        var legacyConsentKey = 'rubberq-cookie-consent';
+
+        function readPreferences() {
+          try {
+            var stored = window.localStorage.getItem(preferencesKey);
+            if (stored) {
+              return JSON.parse(stored);
+            }
+
+            if (window.localStorage.getItem(legacyConsentKey) === 'accepted') {
+              return { analytics: true };
+            }
+          } catch (_) {
+            return null;
+          }
+
+          return null;
+        }
+
+        function loadAnalytics(preferences) {
+          if (!preferences || preferences.analytics !== true || window.__rubberqAnalyticsLoaded) {
+            return;
+          }
+
+          window.__rubberqAnalyticsLoaded = true;
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function gtag() {
+            window.dataLayer.push(arguments);
+          };
+
+          var script = document.createElement('script');
+          script.async = true;
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(gaMeasurementId);
+          document.head.appendChild(script);
+
+          window.gtag('js', new Date());
+          window.gtag('config', gaMeasurementId, { send_page_view: true });
+        }
+
+        window.rubberqLoadAnalytics = loadAnalytics;
+        loadAnalytics(readPreferences());
+        window.addEventListener('rubberq-cookie-consent-updated', function (event) {
+          loadAnalytics(event.detail);
+        });
+      })();
+    })();</script>  <title>Custom Compound Development: How RubberQ Approaches Non-Standard Requests. | RubberQ</title> <meta name="description" content="Custom Compound Development: How RubberQ Approaches Non-Standard Requests."> <meta property="og:title" content="Custom Compound Development: How RubberQ Approaches Non-Standard Requests."> <meta property="og:description" content="Custom Compound Development: How RubberQ Approaches Non-Standard Requests."> <meta property="og:image" content="https://cdn.sanity.io/images/tcjl4afv/production/c105088f7de8fc00dfd50eadd8c0665fcf110033-1792x1024.webp?w=800&h=400&fit=crop"><meta property="og:type" content="article"> <meta property="article:published_time" content="2026-04-01T02:35:04.000Z"> <meta name="twitter:card" content="summary_large_image"> <meta name="twitter:title" content="Custom Compound Development: How RubberQ Approaches Non-Standard Requests."> <meta name="twitter:description" content="Custom Compound Development: How RubberQ Approaches Non-Standard Requests."> <meta name="twitter:image" content="https://cdn.sanity.io/images/tcjl4afv/production/c105088f7de8fc00dfd50eadd8c0665fcf110033-1792x1024.webp?w=800&h=400&fit=crop"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","@id":"https://rubberq.com/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests#blogposting","mainEntityOfPage":"https://rubberq.com/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests","headline":"Custom Compound Development: How RubberQ Approaches Non-Standard Requests.","description":"Custom Compound Development: How RubberQ Approaches Non-Standard Requests.","datePublished":"2026-04-01T02:35:04.000Z","dateModified":"2026-05-02T09:04:55.000Z","author":{"@type":"Organization","name":"RubberQ Engineering Team"},"publisher":{"@type":"Organization","@id":"https://rubberq.com/#organization","name":"RubberQ","logo":{"@type":"ImageObject","url":"https://rubberq.com/logo.png"}},"image":"https://cdn.sanity.io/images/tcjl4afv/production/c105088f7de8fc00dfd50eadd8c0665fcf110033-1792x1024.webp?w=800&h=400&fit=crop"}</script>  <link rel="canonical" href="https://rubberq.com/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests"> <link rel="alternate" hreflang="en" href="https://rubberq.com/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests"> <link rel="alternate" hreflang="x-default" href="https://rubberq.com/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests"> <meta property="og:site_name" content="RubberQ"> <meta property="og:url" content="https://rubberq.com/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests"> <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","@id":"https://rubberq.com/#organization","name":"RubberQ","legalName":"Fuzhou RongQing Rubber Co., Ltd.","foundingDate":"1995","foundingLocation":{"@type":"Place","name":"Fuzhou, Fujian, China"},"url":"https://rubberq.com","slogan":"Japanese Formulation. Chinese Precision. Trusted Since 1995.","description":"RubberQ is a Sino-Japanese joint venture founded in Fuzhou in 1995. Japanese formulation support connects with rubber compounding, precision molding, in-house testing and ERP production traceability in China.","areaServed":["North America","Europe","Japan","Southeast Asia"],"knowsAbout":["Rubber compounding","Precision rubber molding","Custom rubber components","Material selection","In-house testing","Production traceability"],"hasCredential":[{"@type":"EducationalOccupationalCredential","credentialCategory":"Quality Management","name":"IATF 16949:2016"},{"@type":"EducationalOccupationalCredential","credentialCategory":"Quality Management","name":"ISO 9001:2015"},{"@type":"EducationalOccupationalCredential","credentialCategory":"Environmental Management","name":"ISO 14001:2015"}],"contactPoint":{"@type":"ContactPoint","contactType":"sales","url":"https://rubberq.com/contact","availableLanguage":["en","de","ja","es","zh"],"areaServed":["Global"]},"mainEntityOfPage":"https://rubberq.com"}</script> <style data-vite-dev-id="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/node_modules/@astrojs/tailwind/base.css">*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}/*
+! tailwindcss v3.4.19 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: Inter, system-ui, sans-serif; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: JetBrains Mono, Roboto Mono, monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+.prose {
+  color: var(--tw-prose-body);
+  max-width: 65ch;
+}
+.prose :where(p):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
+.prose :where([class~="lead"]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-lead);
+  font-size: 1.25em;
+  line-height: 1.6;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+}
+.prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-links);
+  text-decoration: underline;
+  font-weight: 500;
+}
+.prose :where(strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-bold);
+  font-weight: 600;
+}
+.prose :where(a strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: inherit;
+}
+.prose :where(blockquote strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: inherit;
+}
+.prose :where(thead th strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: inherit;
+}
+.prose :where(ol):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  list-style-type: decimal;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  padding-inline-start: 1.625em;
+}
+.prose :where(ol[type="A"]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  list-style-type: upper-alpha;
+}
+.prose :where(ol[type="a"]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  list-style-type: lower-alpha;
+}
+.prose :where(ol[type="A" s]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  list-style-type: upper-alpha;
+}
+.prose :where(ol[type="a" s]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  list-style-type: lower-alpha;
+}
+.prose :where(ol[type="I"]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  list-style-type: upper-roman;
+}
+.prose :where(ol[type="i"]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  list-style-type: lower-roman;
+}
+.prose :where(ol[type="I" s]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  list-style-type: upper-roman;
+}
+.prose :where(ol[type="i" s]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  list-style-type: lower-roman;
+}
+.prose :where(ol[type="1"]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  list-style-type: decimal;
+}
+.prose :where(ul):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  list-style-type: disc;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  padding-inline-start: 1.625em;
+}
+.prose :where(ol > li):not(:where([class~="not-prose"],[class~="not-prose"] *))::marker {
+  font-weight: 400;
+  color: var(--tw-prose-counters);
+}
+.prose :where(ul > li):not(:where([class~="not-prose"],[class~="not-prose"] *))::marker {
+  color: var(--tw-prose-bullets);
+}
+.prose :where(dt):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-headings);
+  font-weight: 600;
+  margin-top: 1.25em;
+}
+.prose :where(hr):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  border-color: var(--tw-prose-hr);
+  border-top-width: 1px;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.prose :where(blockquote):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-weight: 500;
+  font-style: italic;
+  color: var(--tw-prose-quotes);
+  border-inline-start-width: 0.25rem;
+  border-inline-start-color: var(--tw-prose-quote-borders);
+  quotes: "\201C""\201D""\2018""\2019";
+  margin-top: 1.6em;
+  margin-bottom: 1.6em;
+  padding-inline-start: 1em;
+}
+.prose :where(blockquote p:first-of-type):not(:where([class~="not-prose"],[class~="not-prose"] *))::before {
+  content: open-quote;
+}
+.prose :where(blockquote p:last-of-type):not(:where([class~="not-prose"],[class~="not-prose"] *))::after {
+  content: close-quote;
+}
+.prose :where(h1):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-headings);
+  font-weight: 800;
+  font-size: 2.25em;
+  margin-top: 0;
+  margin-bottom: 0.8888889em;
+  line-height: 1.1111111;
+}
+.prose :where(h1 strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-weight: 900;
+  color: inherit;
+}
+.prose :where(h2):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-headings);
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  line-height: 1.3333333;
+}
+.prose :where(h2 strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-weight: 800;
+  color: inherit;
+}
+.prose :where(h3):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-headings);
+  font-weight: 600;
+  font-size: 1.25em;
+  margin-top: 1.6em;
+  margin-bottom: 0.6em;
+  line-height: 1.6;
+}
+.prose :where(h3 strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-weight: 700;
+  color: inherit;
+}
+.prose :where(h4):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-headings);
+  font-weight: 600;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+}
+.prose :where(h4 strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-weight: 700;
+  color: inherit;
+}
+.prose :where(img):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.prose :where(picture):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.prose :where(video):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.prose :where(kbd):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--tw-prose-kbd);
+  box-shadow: 0 0 0 1px var(--tw-prose-kbd-shadows), 0 3px 0 var(--tw-prose-kbd-shadows);
+  font-size: 0.875em;
+  border-radius: 0.3125rem;
+  padding-top: 0.1875em;
+  padding-inline-end: 0.375em;
+  padding-bottom: 0.1875em;
+  padding-inline-start: 0.375em;
+}
+.prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-code);
+  font-weight: 600;
+  font-size: 0.875em;
+}
+.prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::before {
+  content: "`";
+}
+.prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::after {
+  content: "`";
+}
+.prose :where(a code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: inherit;
+}
+.prose :where(h1 code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: inherit;
+}
+.prose :where(h2 code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: inherit;
+  font-size: 0.875em;
+}
+.prose :where(h3 code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: inherit;
+  font-size: 0.9em;
+}
+.prose :where(h4 code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: inherit;
+}
+.prose :where(blockquote code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: inherit;
+}
+.prose :where(thead th code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: inherit;
+}
+.prose :where(pre):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-pre-code);
+  background-color: var(--tw-prose-pre-bg);
+  overflow-x: auto;
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 1.7142857;
+  margin-top: 1.7142857em;
+  margin-bottom: 1.7142857em;
+  border-radius: 0.375rem;
+  padding-top: 0.8571429em;
+  padding-inline-end: 1.1428571em;
+  padding-bottom: 0.8571429em;
+  padding-inline-start: 1.1428571em;
+}
+.prose :where(pre code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  background-color: transparent;
+  border-width: 0;
+  border-radius: 0;
+  padding: 0;
+  font-weight: inherit;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+}
+.prose :where(pre code):not(:where([class~="not-prose"],[class~="not-prose"] *))::before {
+  content: none;
+}
+.prose :where(pre code):not(:where([class~="not-prose"],[class~="not-prose"] *))::after {
+  content: none;
+}
+.prose :where(table):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  width: 100%;
+  table-layout: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 0.875em;
+  line-height: 1.7142857;
+}
+.prose :where(thead):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  border-bottom-width: 1px;
+  border-bottom-color: var(--tw-prose-th-borders);
+}
+.prose :where(thead th):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-headings);
+  font-weight: 600;
+  vertical-align: bottom;
+  padding-inline-end: 0.5714286em;
+  padding-bottom: 0.5714286em;
+  padding-inline-start: 0.5714286em;
+}
+.prose :where(tbody tr):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  border-bottom-width: 1px;
+  border-bottom-color: var(--tw-prose-td-borders);
+}
+.prose :where(tbody tr:last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  border-bottom-width: 0;
+}
+.prose :where(tbody td):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  vertical-align: baseline;
+}
+.prose :where(tfoot):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  border-top-width: 1px;
+  border-top-color: var(--tw-prose-th-borders);
+}
+.prose :where(tfoot td):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  vertical-align: top;
+}
+.prose :where(th, td):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  text-align: start;
+}
+.prose :where(figure > *):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.prose :where(figcaption):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-captions);
+  font-size: 0.875em;
+  line-height: 1.4285714;
+  margin-top: 0.8571429em;
+}
+.prose {
+  --tw-prose-body: #374151;
+  --tw-prose-headings: #111827;
+  --tw-prose-lead: #4b5563;
+  --tw-prose-links: #111827;
+  --tw-prose-bold: #111827;
+  --tw-prose-counters: #6b7280;
+  --tw-prose-bullets: #d1d5db;
+  --tw-prose-hr: #e5e7eb;
+  --tw-prose-quotes: #111827;
+  --tw-prose-quote-borders: #e5e7eb;
+  --tw-prose-captions: #6b7280;
+  --tw-prose-kbd: #111827;
+  --tw-prose-kbd-shadows: rgb(17 24 39 / 10%);
+  --tw-prose-code: #111827;
+  --tw-prose-pre-code: #e5e7eb;
+  --tw-prose-pre-bg: #1f2937;
+  --tw-prose-th-borders: #d1d5db;
+  --tw-prose-td-borders: #e5e7eb;
+  --tw-prose-invert-body: #d1d5db;
+  --tw-prose-invert-headings: #fff;
+  --tw-prose-invert-lead: #9ca3af;
+  --tw-prose-invert-links: #fff;
+  --tw-prose-invert-bold: #fff;
+  --tw-prose-invert-counters: #9ca3af;
+  --tw-prose-invert-bullets: #4b5563;
+  --tw-prose-invert-hr: #374151;
+  --tw-prose-invert-quotes: #f3f4f6;
+  --tw-prose-invert-quote-borders: #374151;
+  --tw-prose-invert-captions: #9ca3af;
+  --tw-prose-invert-kbd: #fff;
+  --tw-prose-invert-kbd-shadows: rgb(255 255 255 / 10%);
+  --tw-prose-invert-code: #fff;
+  --tw-prose-invert-pre-code: #d1d5db;
+  --tw-prose-invert-pre-bg: rgb(0 0 0 / 50%);
+  --tw-prose-invert-th-borders: #4b5563;
+  --tw-prose-invert-td-borders: #374151;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+.prose :where(picture > img):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.prose :where(li):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.prose :where(ol > li):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-start: 0.375em;
+}
+.prose :where(ul > li):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-start: 0.375em;
+}
+.prose :where(.prose > ul > li p):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+.prose :where(.prose > ul > li > p:first-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.25em;
+}
+.prose :where(.prose > ul > li > p:last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-bottom: 1.25em;
+}
+.prose :where(.prose > ol > li > p:first-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.25em;
+}
+.prose :where(.prose > ol > li > p:last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-bottom: 1.25em;
+}
+.prose :where(ul ul, ul ol, ol ul, ol ol):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+.prose :where(dl):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
+.prose :where(dd):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0.5em;
+  padding-inline-start: 1.625em;
+}
+.prose :where(hr + *):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+}
+.prose :where(h2 + *):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+}
+.prose :where(h3 + *):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+}
+.prose :where(h4 + *):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+}
+.prose :where(thead th:first-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-start: 0;
+}
+.prose :where(thead th:last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-end: 0;
+}
+.prose :where(tbody td, tfoot td):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-top: 0.5714286em;
+  padding-inline-end: 0.5714286em;
+  padding-bottom: 0.5714286em;
+  padding-inline-start: 0.5714286em;
+}
+.prose :where(tbody td:first-child, tfoot td:first-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-start: 0;
+}
+.prose :where(tbody td:last-child, tfoot td:last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-end: 0;
+}
+.prose :where(figure):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.prose :where(.prose > :first-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+}
+.prose :where(.prose > :last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-bottom: 0;
+}
+.prose-lg {
+  font-size: 1.125rem;
+  line-height: 1.7777778;
+}
+.prose-lg :where(p):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.3333333em;
+  margin-bottom: 1.3333333em;
+}
+.prose-lg :where([class~="lead"]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 1.2222222em;
+  line-height: 1.4545455;
+  margin-top: 1.0909091em;
+  margin-bottom: 1.0909091em;
+}
+.prose-lg :where(blockquote):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.6666667em;
+  margin-bottom: 1.6666667em;
+  padding-inline-start: 1em;
+}
+.prose-lg :where(h1):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 2.6666667em;
+  margin-top: 0;
+  margin-bottom: 0.8333333em;
+  line-height: 1;
+}
+.prose-lg :where(h2):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 1.6666667em;
+  margin-top: 1.8666667em;
+  margin-bottom: 1.0666667em;
+  line-height: 1.3333333;
+}
+.prose-lg :where(h3):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 1.3333333em;
+  margin-top: 1.6666667em;
+  margin-bottom: 0.6666667em;
+  line-height: 1.5;
+}
+.prose-lg :where(h4):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.7777778em;
+  margin-bottom: 0.4444444em;
+  line-height: 1.5555556;
+}
+.prose-lg :where(img):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.7777778em;
+  margin-bottom: 1.7777778em;
+}
+.prose-lg :where(picture):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.7777778em;
+  margin-bottom: 1.7777778em;
+}
+.prose-lg :where(picture > img):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.prose-lg :where(video):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.7777778em;
+  margin-bottom: 1.7777778em;
+}
+.prose-lg :where(kbd):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 0.8888889em;
+  border-radius: 0.3125rem;
+  padding-top: 0.2222222em;
+  padding-inline-end: 0.4444444em;
+  padding-bottom: 0.2222222em;
+  padding-inline-start: 0.4444444em;
+}
+.prose-lg :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 0.8888889em;
+}
+.prose-lg :where(h2 code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 0.8666667em;
+}
+.prose-lg :where(h3 code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 0.875em;
+}
+.prose-lg :where(pre):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 0.8888889em;
+  line-height: 1.75;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 0.375rem;
+  padding-top: 1em;
+  padding-inline-end: 1.5em;
+  padding-bottom: 1em;
+  padding-inline-start: 1.5em;
+}
+.prose-lg :where(ol):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.3333333em;
+  margin-bottom: 1.3333333em;
+  padding-inline-start: 1.5555556em;
+}
+.prose-lg :where(ul):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.3333333em;
+  margin-bottom: 1.3333333em;
+  padding-inline-start: 1.5555556em;
+}
+.prose-lg :where(li):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0.6666667em;
+  margin-bottom: 0.6666667em;
+}
+.prose-lg :where(ol > li):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-start: 0.4444444em;
+}
+.prose-lg :where(ul > li):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-start: 0.4444444em;
+}
+.prose-lg :where(.prose-lg > ul > li p):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0.8888889em;
+  margin-bottom: 0.8888889em;
+}
+.prose-lg :where(.prose-lg > ul > li > p:first-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.3333333em;
+}
+.prose-lg :where(.prose-lg > ul > li > p:last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-bottom: 1.3333333em;
+}
+.prose-lg :where(.prose-lg > ol > li > p:first-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.3333333em;
+}
+.prose-lg :where(.prose-lg > ol > li > p:last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-bottom: 1.3333333em;
+}
+.prose-lg :where(ul ul, ul ol, ol ul, ol ol):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0.8888889em;
+  margin-bottom: 0.8888889em;
+}
+.prose-lg :where(dl):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.3333333em;
+  margin-bottom: 1.3333333em;
+}
+.prose-lg :where(dt):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.3333333em;
+}
+.prose-lg :where(dd):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0.6666667em;
+  padding-inline-start: 1.5555556em;
+}
+.prose-lg :where(hr):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 3.1111111em;
+  margin-bottom: 3.1111111em;
+}
+.prose-lg :where(hr + *):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+}
+.prose-lg :where(h2 + *):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+}
+.prose-lg :where(h3 + *):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+}
+.prose-lg :where(h4 + *):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+}
+.prose-lg :where(table):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 0.8888889em;
+  line-height: 1.5;
+}
+.prose-lg :where(thead th):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-end: 0.75em;
+  padding-bottom: 0.75em;
+  padding-inline-start: 0.75em;
+}
+.prose-lg :where(thead th:first-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-start: 0;
+}
+.prose-lg :where(thead th:last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-end: 0;
+}
+.prose-lg :where(tbody td, tfoot td):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-top: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-bottom: 0.75em;
+  padding-inline-start: 0.75em;
+}
+.prose-lg :where(tbody td:first-child, tfoot td:first-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-start: 0;
+}
+.prose-lg :where(tbody td:last-child, tfoot td:last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-end: 0;
+}
+.prose-lg :where(figure):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.7777778em;
+  margin-bottom: 1.7777778em;
+}
+.prose-lg :where(figure > *):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.prose-lg :where(figcaption):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 0.8888889em;
+  line-height: 1.5;
+  margin-top: 1em;
+}
+.prose-lg :where(.prose-lg > :first-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+}
+.prose-lg :where(.prose-lg > :last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-bottom: 0;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+.static {
+  position: static;
+}
+.fixed {
+  position: fixed;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.inset-0 {
+  inset: 0px;
+}
+.inset-x-0 {
+  left: 0px;
+  right: 0px;
+}
+.bottom-0 {
+  bottom: 0px;
+}
+.bottom-4 {
+  bottom: 1rem;
+}
+.left-0 {
+  left: 0px;
+}
+.right-0 {
+  right: 0px;
+}
+.right-4 {
+  right: 1rem;
+}
+.top-0 {
+  top: 0px;
+}
+.top-full {
+  top: 100%;
+}
+.z-10 {
+  z-index: 10;
+}
+.z-40 {
+  z-index: 40;
+}
+.z-50 {
+  z-index: 50;
+}
+.z-\[100\] {
+  z-index: 100;
+}
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+.m-4 {
+  margin: 1rem;
+}
+.-mx-4 {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+.mb-12 {
+  margin-bottom: 3rem;
+}
+.mb-16 {
+  margin-bottom: 4rem;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.mb-8 {
+  margin-bottom: 2rem;
+}
+.ml-10 {
+  margin-left: 2.5rem;
+}
+.mt-0\.5 {
+  margin-top: 0.125rem;
+}
+.mt-1 {
+  margin-top: 0.25rem;
+}
+.mt-12 {
+  margin-top: 3rem;
+}
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.mt-3 {
+  margin-top: 0.75rem;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+.mt-6 {
+  margin-top: 1.5rem;
+}
+.mt-8 {
+  margin-top: 2rem;
+}
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.block {
+  display: block;
+}
+.inline-block {
+  display: inline-block;
+}
+.flex {
+  display: flex;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.table {
+  display: table;
+}
+.grid {
+  display: grid;
+}
+.hidden {
+  display: none;
+}
+.aspect-\[1\.414\/1\] {
+  aspect-ratio: 1.414/1;
+}
+.h-1 {
+  height: 0.25rem;
+}
+.h-10 {
+  height: 2.5rem;
+}
+.h-11 {
+  height: 2.75rem;
+}
+.h-12 {
+  height: 3rem;
+}
+.h-20 {
+  height: 5rem;
+}
+.h-24 {
+  height: 6rem;
+}
+.h-3 {
+  height: 0.75rem;
+}
+.h-3\.5 {
+  height: 0.875rem;
+}
+.h-36 {
+  height: 9rem;
+}
+.h-4 {
+  height: 1rem;
+}
+.h-48 {
+  height: 12rem;
+}
+.h-5 {
+  height: 1.25rem;
+}
+.h-6 {
+  height: 1.5rem;
+}
+.h-8 {
+  height: 2rem;
+}
+.h-auto {
+  height: auto;
+}
+.h-full {
+  height: 100%;
+}
+.max-h-96 {
+  max-height: 24rem;
+}
+.max-h-\[90vh\] {
+  max-height: 90vh;
+}
+.min-h-16 {
+  min-height: 4rem;
+}
+.min-h-9 {
+  min-height: 2.25rem;
+}
+.min-h-\[110px\] {
+  min-height: 110px;
+}
+.min-h-\[400px\] {
+  min-height: 400px;
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.w-1\/3 {
+  width: 33.333333%;
+}
+.w-10 {
+  width: 2.5rem;
+}
+.w-11 {
+  width: 2.75rem;
+}
+.w-12 {
+  width: 3rem;
+}
+.w-24 {
+  width: 6rem;
+}
+.w-3 {
+  width: 0.75rem;
+}
+.w-3\.5 {
+  width: 0.875rem;
+}
+.w-32 {
+  width: 8rem;
+}
+.w-4 {
+  width: 1rem;
+}
+.w-48 {
+  width: 12rem;
+}
+.w-5 {
+  width: 1.25rem;
+}
+.w-6 {
+  width: 1.5rem;
+}
+.w-8 {
+  width: 2rem;
+}
+.w-full {
+  width: 100%;
+}
+.w-px {
+  width: 1px;
+}
+.min-w-0 {
+  min-width: 0px;
+}
+.min-w-\[220px\] {
+  min-width: 220px;
+}
+.min-w-full {
+  min-width: 100%;
+}
+.max-w-2xl {
+  max-width: 42rem;
+}
+.max-w-3xl {
+  max-width: 48rem;
+}
+.max-w-4xl {
+  max-width: 56rem;
+}
+.max-w-5xl {
+  max-width: 64rem;
+}
+.max-w-7xl {
+  max-width: 80rem;
+}
+.max-w-none {
+  max-width: none;
+}
+.max-w-xl {
+  max-width: 36rem;
+}
+.flex-1 {
+  flex: 1 1 0%;
+}
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+.shrink-0 {
+  flex-shrink: 0;
+}
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+@keyframes pulse {
+
+  50% {
+    opacity: .5;
+  }
+}
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+@keyframes spin {
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.touch-pan-y {
+  --tw-pan-y: pan-y;
+  touch-action: var(--tw-pan-x) var(--tw-pan-y) var(--tw-pinch-zoom);
+}
+.list-disc {
+  list-style-type: disc;
+}
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.items-start {
+  align-items: flex-start;
+}
+.items-center {
+  align-items: center;
+}
+.items-baseline {
+  align-items: baseline;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.gap-1 {
+  gap: 0.25rem;
+}
+.gap-12 {
+  gap: 3rem;
+}
+.gap-2 {
+  gap: 0.5rem;
+}
+.gap-3 {
+  gap: 0.75rem;
+}
+.gap-4 {
+  gap: 1rem;
+}
+.gap-5 {
+  gap: 1.25rem;
+}
+.gap-6 {
+  gap: 1.5rem;
+}
+.gap-8 {
+  gap: 2rem;
+}
+.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.space-y-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+.space-y-12 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3rem * var(--tw-space-y-reverse));
+}
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+.space-y-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+.space-y-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+}
+.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+}
+.divide-y > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-y-reverse: 0;
+  border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+  border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
+}
+.divide-industrial-100 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgb(245 245 245 / var(--tw-divide-opacity, 1));
+}
+.divide-industrial-200 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgb(229 229 229 / var(--tw-divide-opacity, 1));
+}
+.divide-industrial-700 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgb(64 64 64 / var(--tw-divide-opacity, 1));
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.overflow-x-auto {
+  overflow-x: auto;
+}
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+.border {
+  border-width: 1px;
+}
+.border-0 {
+  border-width: 0px;
+}
+.border-4 {
+  border-width: 4px;
+}
+.border-8 {
+  border-width: 8px;
+}
+.border-b {
+  border-bottom-width: 1px;
+}
+.border-l {
+  border-left-width: 1px;
+}
+.border-r {
+  border-right-width: 1px;
+}
+.border-t {
+  border-top-width: 1px;
+}
+.border-t-4 {
+  border-top-width: 4px;
+}
+.border-dashed {
+  border-style: dashed;
+}
+.border-accent-orange {
+  --tw-border-opacity: 1;
+  border-color: rgb(249 115 22 / var(--tw-border-opacity, 1));
+}
+.border-border {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 229 229 / var(--tw-border-opacity, 1));
+}
+.border-industrial-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(245 245 245 / var(--tw-border-opacity, 1));
+}
+.border-industrial-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 229 229 / var(--tw-border-opacity, 1));
+}
+.border-industrial-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(212 212 212 / var(--tw-border-opacity, 1));
+}
+.border-industrial-50 {
+  --tw-border-opacity: 1;
+  border-color: rgb(250 250 250 / var(--tw-border-opacity, 1));
+}
+.border-industrial-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(115 115 115 / var(--tw-border-opacity, 1));
+}
+.border-industrial-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(64 64 64 / var(--tw-border-opacity, 1));
+}
+.border-industrial-800 {
+  --tw-border-opacity: 1;
+  border-color: rgb(38 38 38 / var(--tw-border-opacity, 1));
+}
+.border-industrial-900 {
+  --tw-border-opacity: 1;
+  border-color: rgb(10 10 10 / var(--tw-border-opacity, 1));
+}
+.border-t-accent-orange {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(249 115 22 / var(--tw-border-opacity, 1));
+}
+.bg-accent-orange {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity, 1));
+}
+.bg-background {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+.bg-black\/70 {
+  background-color: rgb(0 0 0 / 0.7);
+}
+.bg-black\/80 {
+  background-color: rgb(0 0 0 / 0.8);
+}
+.bg-industrial-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity, 1));
+}
+.bg-industrial-100\/50 {
+  background-color: rgb(245 245 245 / 0.5);
+}
+.bg-industrial-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 229 229 / var(--tw-bg-opacity, 1));
+}
+.bg-industrial-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 250 250 / var(--tw-bg-opacity, 1));
+}
+.bg-industrial-800\/70 {
+  background-color: rgb(38 38 38 / 0.7);
+}
+.bg-industrial-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(10 10 10 / var(--tw-bg-opacity, 1));
+}
+.bg-industrial-900\/0 {
+  background-color: rgb(10 10 10 / 0);
+}
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity, 1));
+}
+.bg-secondary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity, 1));
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+.bg-white\/95 {
+  background-color: rgb(255 255 255 / 0.95);
+}
+.bg-grid-pattern {
+  background-image: radial-gradient(circle, #262626 1px, transparent 1px);
+}
+.bg-grid-size {
+  background-size: 20px 20px;
+}
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.p-3 {
+  padding: 0.75rem;
+}
+.p-4 {
+  padding: 1rem;
+}
+.p-5 {
+  padding: 1.25rem;
+}
+.p-6 {
+  padding: 1.5rem;
+}
+.p-8 {
+  padding: 2rem;
+}
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.py-1\.5 {
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+}
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.py-2\.5 {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+.pb-8 {
+  padding-bottom: 2rem;
+}
+.pl-4 {
+  padding-left: 1rem;
+}
+.pl-6 {
+  padding-left: 1.5rem;
+}
+.pr-4 {
+  padding-right: 1rem;
+}
+.pt-0 {
+  padding-top: 0px;
+}
+.pt-12 {
+  padding-top: 3rem;
+}
+.pt-16 {
+  padding-top: 4rem;
+}
+.pt-2 {
+  padding-top: 0.5rem;
+}
+.pt-20 {
+  padding-top: 5rem;
+}
+.pt-3 {
+  padding-top: 0.75rem;
+}
+.pt-4 {
+  padding-top: 1rem;
+}
+.pt-6 {
+  padding-top: 1.5rem;
+}
+.pt-8 {
+  padding-top: 2rem;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.font-mono {
+  font-family: JetBrains Mono, Roboto Mono, monospace;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+.text-\[10px\] {
+  font-size: 10px;
+}
+.text-\[11px\] {
+  font-size: 11px;
+}
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.italic {
+  font-style: italic;
+}
+.leading-5 {
+  line-height: 1.25rem;
+}
+.leading-\[0\.95\] {
+  line-height: 0.95;
+}
+.leading-relaxed {
+  line-height: 1.625;
+}
+.leading-tight {
+  line-height: 1.25;
+}
+.tracking-tight {
+  letter-spacing: -0.025em;
+}
+.tracking-tighter {
+  letter-spacing: -0.05em;
+}
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+.text-accent-orange {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity, 1));
+}
+.text-foreground {
+  --tw-text-opacity: 1;
+  color: rgb(10 10 10 / var(--tw-text-opacity, 1));
+}
+.text-industrial-100 {
+  --tw-text-opacity: 1;
+  color: rgb(245 245 245 / var(--tw-text-opacity, 1));
+}
+.text-industrial-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 229 229 / var(--tw-text-opacity, 1));
+}
+.text-industrial-300 {
+  --tw-text-opacity: 1;
+  color: rgb(212 212 212 / var(--tw-text-opacity, 1));
+}
+.text-industrial-400 {
+  --tw-text-opacity: 1;
+  color: rgb(163 163 163 / var(--tw-text-opacity, 1));
+}
+.text-industrial-500 {
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity, 1));
+}
+.text-industrial-600 {
+  --tw-text-opacity: 1;
+  color: rgb(82 82 82 / var(--tw-text-opacity, 1));
+}
+.text-industrial-700 {
+  --tw-text-opacity: 1;
+  color: rgb(64 64 64 / var(--tw-text-opacity, 1));
+}
+.text-industrial-800 {
+  --tw-text-opacity: 1;
+  color: rgb(38 38 38 / var(--tw-text-opacity, 1));
+}
+.text-industrial-900 {
+  --tw-text-opacity: 1;
+  color: rgb(10 10 10 / var(--tw-text-opacity, 1));
+}
+.text-muted {
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity, 1));
+}
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity, 1));
+}
+.text-primary-foreground {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+.underline {
+  text-decoration-line: underline;
+}
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.accent-accent-orange {
+  accent-color: #F97316;
+}
+.opacity-0 {
+  opacity: 0;
+}
+.opacity-100 {
+  opacity: 1;
+}
+.opacity-5 {
+  opacity: 0.05;
+}
+.shadow-2xl {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-sm {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.backdrop-blur-md {
+  --tw-backdrop-blur: blur(12px);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+.backdrop-blur-sm {
+  --tw-backdrop-blur: blur(4px);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+.transition-\[width\2c background-color\] {
+  transition-property: width,background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.transition-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.duration-200 {
+  transition-duration: 200ms;
+}
+.duration-300 {
+  transition-duration: 300ms;
+}
+.duration-500 {
+  transition-duration: 500ms;
+}
+.\[overflow-wrap\:anywhere\] {
+  overflow-wrap: anywhere;
+}
+.last\:border-0:last-child {
+  border-width: 0px;
+}
+.last\:border-r-0:last-child {
+  border-right-width: 0px;
+}
+.hover\:border-accent-orange:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(249 115 22 / var(--tw-border-opacity, 1));
+}
+.hover\:border-primary:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(249 115 22 / var(--tw-border-opacity, 1));
+}
+.hover\:bg-accent-orange:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-black:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-industrial-100:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-industrial-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 250 250 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-industrial-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(64 64 64 / var(--tw-bg-opacity, 1));
+}
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+.hover\:text-accent-orange:hover {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity, 1));
+}
+.hover\:text-industrial-700:hover {
+  --tw-text-opacity: 1;
+  color: rgb(64 64 64 / var(--tw-text-opacity, 1));
+}
+.hover\:text-industrial-900:hover {
+  --tw-text-opacity: 1;
+  color: rgb(10 10 10 / var(--tw-text-opacity, 1));
+}
+.hover\:text-primary:hover {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity, 1));
+}
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+.focus\:border-accent-orange:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(249 115 22 / var(--tw-border-opacity, 1));
+}
+.focus\:border-industrial-900:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(10 10 10 / var(--tw-border-opacity, 1));
+}
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.focus\:ring-2:focus {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+.focus\:ring-accent-orange:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(249 115 22 / var(--tw-ring-opacity, 1));
+}
+.focus\:ring-accent-orange\/15:focus {
+  --tw-ring-color: rgb(249 115 22 / 0.15);
+}
+.disabled\:cursor-not-allowed:disabled {
+  cursor: not-allowed;
+}
+.disabled\:opacity-50:disabled {
+  opacity: 0.5;
+}
+.disabled\:opacity-60:disabled {
+  opacity: 0.6;
+}
+.group:focus-within .group-focus-within\:block {
+  display: block;
+}
+.group:hover .group-hover\:block {
+  display: block;
+}
+.group:hover .group-hover\:scale-105 {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.group:hover .group-hover\:bg-industrial-900\/60 {
+  background-color: rgb(10 10 10 / 0.6);
+}
+.group:hover .group-hover\:text-accent-orange {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity, 1));
+}
+.group:hover .group-hover\:text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity, 1));
+}
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+@media (min-width: 640px) {
+
+  .sm\:w-auto {
+    width: auto;
+  }
+
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:p-3 {
+    padding: 0.75rem;
+  }
+
+  .sm\:p-4 {
+    padding: 1rem;
+  }
+
+  .sm\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .sm\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .sm\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+}
+@media (min-width: 768px) {
+
+  .md\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:shrink-0 {
+    flex-shrink: 0;
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:p-10 {
+    padding: 2.5rem;
+  }
+
+  .md\:p-12 {
+    padding: 3rem;
+  }
+
+  .md\:p-4 {
+    padding: 1rem;
+  }
+
+  .md\:p-5 {
+    padding: 1.25rem;
+  }
+
+  .md\:p-8 {
+    padding: 2rem;
+  }
+
+  .md\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 1024px) {
+
+  .lg\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:w-1\/3 {
+    width: 33.333333%;
+  }
+
+  .lg\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:p-12 {
+    padding: 3rem;
+  }
+
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+</style>
+<style data-vite-dev-id="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/styles/globals.css">*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}/*
+! tailwindcss v3.4.19 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+html,
+:host {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: Inter, system-ui, sans-serif; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+  -webkit-tap-highlight-color: transparent; /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: JetBrains Mono, Roboto Mono, monospace; /* 1 */
+  font-feature-settings: normal; /* 2 */
+  font-variation-settings: normal; /* 3 */
+  font-size: 1em; /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-feature-settings: inherit; /* 1 */
+  font-variation-settings: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  letter-spacing: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+dialog {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+[hidden]:where(:not([hidden="until-found"])) {
+  display: none;
+}
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p,
+  li {
+    text-wrap: pretty;
+  }
+
+  a,
+  button,
+  input,
+  select,
+  textarea {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--accent-orange);
+    outline-offset: 3px;
+  }
+.prose {
+  color: var(--tw-prose-body);
+  max-width: 65ch;
+}
+.prose :where(p):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
+.prose :where([class~="lead"]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-lead);
+  font-size: 1.25em;
+  line-height: 1.6;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+}
+.prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-links);
+  text-decoration: underline;
+  font-weight: 500;
+}
+.prose :where(strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-bold);
+  font-weight: 600;
+}
+.prose :where(a strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: inherit;
+}
+.prose :where(blockquote strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: inherit;
+}
+.prose :where(thead th strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: inherit;
+}
+.prose :where(ol):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  list-style-type: decimal;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  padding-inline-start: 1.625em;
+}
+.prose :where(ol[type="A"]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  list-style-type: upper-alpha;
+}
+.prose :where(ol[type="a"]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  list-style-type: lower-alpha;
+}
+.prose :where(ol[type="A" s]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  list-style-type: upper-alpha;
+}
+.prose :where(ol[type="a" s]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  list-style-type: lower-alpha;
+}
+.prose :where(ol[type="I"]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  list-style-type: upper-roman;
+}
+.prose :where(ol[type="i"]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  list-style-type: lower-roman;
+}
+.prose :where(ol[type="I" s]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  list-style-type: upper-roman;
+}
+.prose :where(ol[type="i" s]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  list-style-type: lower-roman;
+}
+.prose :where(ol[type="1"]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  list-style-type: decimal;
+}
+.prose :where(ul):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  list-style-type: disc;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  padding-inline-start: 1.625em;
+}
+.prose :where(ol > li):not(:where([class~="not-prose"],[class~="not-prose"] *))::marker {
+  font-weight: 400;
+  color: var(--tw-prose-counters);
+}
+.prose :where(ul > li):not(:where([class~="not-prose"],[class~="not-prose"] *))::marker {
+  color: var(--tw-prose-bullets);
+}
+.prose :where(dt):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-headings);
+  font-weight: 600;
+  margin-top: 1.25em;
+}
+.prose :where(hr):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  border-color: var(--tw-prose-hr);
+  border-top-width: 1px;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.prose :where(blockquote):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-weight: 500;
+  font-style: italic;
+  color: var(--tw-prose-quotes);
+  border-inline-start-width: 0.25rem;
+  border-inline-start-color: var(--tw-prose-quote-borders);
+  quotes: "\201C""\201D""\2018""\2019";
+  margin-top: 1.6em;
+  margin-bottom: 1.6em;
+  padding-inline-start: 1em;
+}
+.prose :where(blockquote p:first-of-type):not(:where([class~="not-prose"],[class~="not-prose"] *))::before {
+  content: open-quote;
+}
+.prose :where(blockquote p:last-of-type):not(:where([class~="not-prose"],[class~="not-prose"] *))::after {
+  content: close-quote;
+}
+.prose :where(h1):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-headings);
+  font-weight: 800;
+  font-size: 2.25em;
+  margin-top: 0;
+  margin-bottom: 0.8888889em;
+  line-height: 1.1111111;
+}
+.prose :where(h1 strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-weight: 900;
+  color: inherit;
+}
+.prose :where(h2):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-headings);
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  line-height: 1.3333333;
+}
+.prose :where(h2 strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-weight: 800;
+  color: inherit;
+}
+.prose :where(h3):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-headings);
+  font-weight: 600;
+  font-size: 1.25em;
+  margin-top: 1.6em;
+  margin-bottom: 0.6em;
+  line-height: 1.6;
+}
+.prose :where(h3 strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-weight: 700;
+  color: inherit;
+}
+.prose :where(h4):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-headings);
+  font-weight: 600;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+}
+.prose :where(h4 strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-weight: 700;
+  color: inherit;
+}
+.prose :where(img):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.prose :where(picture):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.prose :where(video):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.prose :where(kbd):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--tw-prose-kbd);
+  box-shadow: 0 0 0 1px var(--tw-prose-kbd-shadows), 0 3px 0 var(--tw-prose-kbd-shadows);
+  font-size: 0.875em;
+  border-radius: 0.3125rem;
+  padding-top: 0.1875em;
+  padding-inline-end: 0.375em;
+  padding-bottom: 0.1875em;
+  padding-inline-start: 0.375em;
+}
+.prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-code);
+  font-weight: 600;
+  font-size: 0.875em;
+}
+.prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::before {
+  content: "`";
+}
+.prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::after {
+  content: "`";
+}
+.prose :where(a code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: inherit;
+}
+.prose :where(h1 code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: inherit;
+}
+.prose :where(h2 code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: inherit;
+  font-size: 0.875em;
+}
+.prose :where(h3 code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: inherit;
+  font-size: 0.9em;
+}
+.prose :where(h4 code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: inherit;
+}
+.prose :where(blockquote code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: inherit;
+}
+.prose :where(thead th code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: inherit;
+}
+.prose :where(pre):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-pre-code);
+  background-color: var(--tw-prose-pre-bg);
+  overflow-x: auto;
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 1.7142857;
+  margin-top: 1.7142857em;
+  margin-bottom: 1.7142857em;
+  border-radius: 0.375rem;
+  padding-top: 0.8571429em;
+  padding-inline-end: 1.1428571em;
+  padding-bottom: 0.8571429em;
+  padding-inline-start: 1.1428571em;
+}
+.prose :where(pre code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  background-color: transparent;
+  border-width: 0;
+  border-radius: 0;
+  padding: 0;
+  font-weight: inherit;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+}
+.prose :where(pre code):not(:where([class~="not-prose"],[class~="not-prose"] *))::before {
+  content: none;
+}
+.prose :where(pre code):not(:where([class~="not-prose"],[class~="not-prose"] *))::after {
+  content: none;
+}
+.prose :where(table):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  width: 100%;
+  table-layout: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 0.875em;
+  line-height: 1.7142857;
+}
+.prose :where(thead):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  border-bottom-width: 1px;
+  border-bottom-color: var(--tw-prose-th-borders);
+}
+.prose :where(thead th):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-headings);
+  font-weight: 600;
+  vertical-align: bottom;
+  padding-inline-end: 0.5714286em;
+  padding-bottom: 0.5714286em;
+  padding-inline-start: 0.5714286em;
+}
+.prose :where(tbody tr):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  border-bottom-width: 1px;
+  border-bottom-color: var(--tw-prose-td-borders);
+}
+.prose :where(tbody tr:last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  border-bottom-width: 0;
+}
+.prose :where(tbody td):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  vertical-align: baseline;
+}
+.prose :where(tfoot):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  border-top-width: 1px;
+  border-top-color: var(--tw-prose-th-borders);
+}
+.prose :where(tfoot td):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  vertical-align: top;
+}
+.prose :where(th, td):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  text-align: start;
+}
+.prose :where(figure > *):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.prose :where(figcaption):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color: var(--tw-prose-captions);
+  font-size: 0.875em;
+  line-height: 1.4285714;
+  margin-top: 0.8571429em;
+}
+.prose {
+  --tw-prose-body: #374151;
+  --tw-prose-headings: #111827;
+  --tw-prose-lead: #4b5563;
+  --tw-prose-links: #111827;
+  --tw-prose-bold: #111827;
+  --tw-prose-counters: #6b7280;
+  --tw-prose-bullets: #d1d5db;
+  --tw-prose-hr: #e5e7eb;
+  --tw-prose-quotes: #111827;
+  --tw-prose-quote-borders: #e5e7eb;
+  --tw-prose-captions: #6b7280;
+  --tw-prose-kbd: #111827;
+  --tw-prose-kbd-shadows: rgb(17 24 39 / 10%);
+  --tw-prose-code: #111827;
+  --tw-prose-pre-code: #e5e7eb;
+  --tw-prose-pre-bg: #1f2937;
+  --tw-prose-th-borders: #d1d5db;
+  --tw-prose-td-borders: #e5e7eb;
+  --tw-prose-invert-body: #d1d5db;
+  --tw-prose-invert-headings: #fff;
+  --tw-prose-invert-lead: #9ca3af;
+  --tw-prose-invert-links: #fff;
+  --tw-prose-invert-bold: #fff;
+  --tw-prose-invert-counters: #9ca3af;
+  --tw-prose-invert-bullets: #4b5563;
+  --tw-prose-invert-hr: #374151;
+  --tw-prose-invert-quotes: #f3f4f6;
+  --tw-prose-invert-quote-borders: #374151;
+  --tw-prose-invert-captions: #9ca3af;
+  --tw-prose-invert-kbd: #fff;
+  --tw-prose-invert-kbd-shadows: rgb(255 255 255 / 10%);
+  --tw-prose-invert-code: #fff;
+  --tw-prose-invert-pre-code: #d1d5db;
+  --tw-prose-invert-pre-bg: rgb(0 0 0 / 50%);
+  --tw-prose-invert-th-borders: #4b5563;
+  --tw-prose-invert-td-borders: #374151;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+.prose :where(picture > img):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.prose :where(li):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.prose :where(ol > li):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-start: 0.375em;
+}
+.prose :where(ul > li):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-start: 0.375em;
+}
+.prose :where(.prose > ul > li p):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+.prose :where(.prose > ul > li > p:first-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.25em;
+}
+.prose :where(.prose > ul > li > p:last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-bottom: 1.25em;
+}
+.prose :where(.prose > ol > li > p:first-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.25em;
+}
+.prose :where(.prose > ol > li > p:last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-bottom: 1.25em;
+}
+.prose :where(ul ul, ul ol, ol ul, ol ol):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+.prose :where(dl):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
+.prose :where(dd):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0.5em;
+  padding-inline-start: 1.625em;
+}
+.prose :where(hr + *):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+}
+.prose :where(h2 + *):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+}
+.prose :where(h3 + *):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+}
+.prose :where(h4 + *):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+}
+.prose :where(thead th:first-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-start: 0;
+}
+.prose :where(thead th:last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-end: 0;
+}
+.prose :where(tbody td, tfoot td):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-top: 0.5714286em;
+  padding-inline-end: 0.5714286em;
+  padding-bottom: 0.5714286em;
+  padding-inline-start: 0.5714286em;
+}
+.prose :where(tbody td:first-child, tfoot td:first-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-start: 0;
+}
+.prose :where(tbody td:last-child, tfoot td:last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-end: 0;
+}
+.prose :where(figure):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.prose :where(.prose > :first-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+}
+.prose :where(.prose > :last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-bottom: 0;
+}
+.prose-lg {
+  font-size: 1.125rem;
+  line-height: 1.7777778;
+}
+.prose-lg :where(p):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.3333333em;
+  margin-bottom: 1.3333333em;
+}
+.prose-lg :where([class~="lead"]):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 1.2222222em;
+  line-height: 1.4545455;
+  margin-top: 1.0909091em;
+  margin-bottom: 1.0909091em;
+}
+.prose-lg :where(blockquote):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.6666667em;
+  margin-bottom: 1.6666667em;
+  padding-inline-start: 1em;
+}
+.prose-lg :where(h1):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 2.6666667em;
+  margin-top: 0;
+  margin-bottom: 0.8333333em;
+  line-height: 1;
+}
+.prose-lg :where(h2):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 1.6666667em;
+  margin-top: 1.8666667em;
+  margin-bottom: 1.0666667em;
+  line-height: 1.3333333;
+}
+.prose-lg :where(h3):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 1.3333333em;
+  margin-top: 1.6666667em;
+  margin-bottom: 0.6666667em;
+  line-height: 1.5;
+}
+.prose-lg :where(h4):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.7777778em;
+  margin-bottom: 0.4444444em;
+  line-height: 1.5555556;
+}
+.prose-lg :where(img):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.7777778em;
+  margin-bottom: 1.7777778em;
+}
+.prose-lg :where(picture):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.7777778em;
+  margin-bottom: 1.7777778em;
+}
+.prose-lg :where(picture > img):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.prose-lg :where(video):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.7777778em;
+  margin-bottom: 1.7777778em;
+}
+.prose-lg :where(kbd):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 0.8888889em;
+  border-radius: 0.3125rem;
+  padding-top: 0.2222222em;
+  padding-inline-end: 0.4444444em;
+  padding-bottom: 0.2222222em;
+  padding-inline-start: 0.4444444em;
+}
+.prose-lg :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 0.8888889em;
+}
+.prose-lg :where(h2 code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 0.8666667em;
+}
+.prose-lg :where(h3 code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 0.875em;
+}
+.prose-lg :where(pre):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 0.8888889em;
+  line-height: 1.75;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 0.375rem;
+  padding-top: 1em;
+  padding-inline-end: 1.5em;
+  padding-bottom: 1em;
+  padding-inline-start: 1.5em;
+}
+.prose-lg :where(ol):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.3333333em;
+  margin-bottom: 1.3333333em;
+  padding-inline-start: 1.5555556em;
+}
+.prose-lg :where(ul):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.3333333em;
+  margin-bottom: 1.3333333em;
+  padding-inline-start: 1.5555556em;
+}
+.prose-lg :where(li):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0.6666667em;
+  margin-bottom: 0.6666667em;
+}
+.prose-lg :where(ol > li):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-start: 0.4444444em;
+}
+.prose-lg :where(ul > li):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-start: 0.4444444em;
+}
+.prose-lg :where(.prose-lg > ul > li p):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0.8888889em;
+  margin-bottom: 0.8888889em;
+}
+.prose-lg :where(.prose-lg > ul > li > p:first-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.3333333em;
+}
+.prose-lg :where(.prose-lg > ul > li > p:last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-bottom: 1.3333333em;
+}
+.prose-lg :where(.prose-lg > ol > li > p:first-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.3333333em;
+}
+.prose-lg :where(.prose-lg > ol > li > p:last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-bottom: 1.3333333em;
+}
+.prose-lg :where(ul ul, ul ol, ol ul, ol ol):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0.8888889em;
+  margin-bottom: 0.8888889em;
+}
+.prose-lg :where(dl):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.3333333em;
+  margin-bottom: 1.3333333em;
+}
+.prose-lg :where(dt):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.3333333em;
+}
+.prose-lg :where(dd):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0.6666667em;
+  padding-inline-start: 1.5555556em;
+}
+.prose-lg :where(hr):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 3.1111111em;
+  margin-bottom: 3.1111111em;
+}
+.prose-lg :where(hr + *):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+}
+.prose-lg :where(h2 + *):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+}
+.prose-lg :where(h3 + *):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+}
+.prose-lg :where(h4 + *):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+}
+.prose-lg :where(table):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 0.8888889em;
+  line-height: 1.5;
+}
+.prose-lg :where(thead th):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-end: 0.75em;
+  padding-bottom: 0.75em;
+  padding-inline-start: 0.75em;
+}
+.prose-lg :where(thead th:first-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-start: 0;
+}
+.prose-lg :where(thead th:last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-end: 0;
+}
+.prose-lg :where(tbody td, tfoot td):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-top: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-bottom: 0.75em;
+  padding-inline-start: 0.75em;
+}
+.prose-lg :where(tbody td:first-child, tfoot td:first-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-start: 0;
+}
+.prose-lg :where(tbody td:last-child, tfoot td:last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  padding-inline-end: 0;
+}
+.prose-lg :where(figure):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 1.7777778em;
+  margin-bottom: 1.7777778em;
+}
+.prose-lg :where(figure > *):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.prose-lg :where(figcaption):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 0.8888889em;
+  line-height: 1.5;
+  margin-top: 1em;
+}
+.prose-lg :where(.prose-lg > :first-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-top: 0;
+}
+.prose-lg :where(.prose-lg > :last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-bottom: 0;
+}
+.rq-pressable {
+    transition-property: background-color, border-color, color, opacity, transform;
+    transition-duration: 180ms;
+    transition-timing-function: var(--ease-out-rq);
+  }
+.rq-pressable:active {
+    transform: scale(0.98);
+  }
+@media (hover: hover) and (pointer: fine) {
+    .rq-media:hover img,
+    .group:hover .rq-media img,
+    :where(section, article, a, div):has(> .rq-media):hover > .rq-media img {
+      filter: none;
+      transform: scale(1.035);
+    }
+  }
+.form-status-success {
+    background-color: rgb(250 250 250);
+    border-color: rgb(249 115 22 / 0.55);
+  }
+.form-status-success-icon {
+    color: var(--accent-orange);
+  }
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+.static {
+  position: static;
+}
+.fixed {
+  position: fixed;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.inset-0 {
+  inset: 0px;
+}
+.inset-x-0 {
+  left: 0px;
+  right: 0px;
+}
+.bottom-0 {
+  bottom: 0px;
+}
+.bottom-4 {
+  bottom: 1rem;
+}
+.left-0 {
+  left: 0px;
+}
+.right-0 {
+  right: 0px;
+}
+.right-4 {
+  right: 1rem;
+}
+.top-0 {
+  top: 0px;
+}
+.top-full {
+  top: 100%;
+}
+.z-10 {
+  z-index: 10;
+}
+.z-40 {
+  z-index: 40;
+}
+.z-50 {
+  z-index: 50;
+}
+.z-\[100\] {
+  z-index: 100;
+}
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+.m-4 {
+  margin: 1rem;
+}
+.-mx-4 {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+.mb-12 {
+  margin-bottom: 3rem;
+}
+.mb-16 {
+  margin-bottom: 4rem;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.mb-8 {
+  margin-bottom: 2rem;
+}
+.ml-10 {
+  margin-left: 2.5rem;
+}
+.mt-0\.5 {
+  margin-top: 0.125rem;
+}
+.mt-1 {
+  margin-top: 0.25rem;
+}
+.mt-12 {
+  margin-top: 3rem;
+}
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.mt-3 {
+  margin-top: 0.75rem;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+.mt-6 {
+  margin-top: 1.5rem;
+}
+.mt-8 {
+  margin-top: 2rem;
+}
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.block {
+  display: block;
+}
+.inline-block {
+  display: inline-block;
+}
+.flex {
+  display: flex;
+}
+.inline-flex {
+  display: inline-flex;
+}
+.table {
+  display: table;
+}
+.grid {
+  display: grid;
+}
+.hidden {
+  display: none;
+}
+.aspect-\[1\.414\/1\] {
+  aspect-ratio: 1.414/1;
+}
+.h-1 {
+  height: 0.25rem;
+}
+.h-10 {
+  height: 2.5rem;
+}
+.h-11 {
+  height: 2.75rem;
+}
+.h-12 {
+  height: 3rem;
+}
+.h-20 {
+  height: 5rem;
+}
+.h-24 {
+  height: 6rem;
+}
+.h-3 {
+  height: 0.75rem;
+}
+.h-3\.5 {
+  height: 0.875rem;
+}
+.h-36 {
+  height: 9rem;
+}
+.h-4 {
+  height: 1rem;
+}
+.h-48 {
+  height: 12rem;
+}
+.h-5 {
+  height: 1.25rem;
+}
+.h-6 {
+  height: 1.5rem;
+}
+.h-8 {
+  height: 2rem;
+}
+.h-auto {
+  height: auto;
+}
+.h-full {
+  height: 100%;
+}
+.max-h-96 {
+  max-height: 24rem;
+}
+.max-h-\[90vh\] {
+  max-height: 90vh;
+}
+.min-h-16 {
+  min-height: 4rem;
+}
+.min-h-9 {
+  min-height: 2.25rem;
+}
+.min-h-\[110px\] {
+  min-height: 110px;
+}
+.min-h-\[400px\] {
+  min-height: 400px;
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.w-1\/3 {
+  width: 33.333333%;
+}
+.w-10 {
+  width: 2.5rem;
+}
+.w-11 {
+  width: 2.75rem;
+}
+.w-12 {
+  width: 3rem;
+}
+.w-24 {
+  width: 6rem;
+}
+.w-3 {
+  width: 0.75rem;
+}
+.w-3\.5 {
+  width: 0.875rem;
+}
+.w-32 {
+  width: 8rem;
+}
+.w-4 {
+  width: 1rem;
+}
+.w-48 {
+  width: 12rem;
+}
+.w-5 {
+  width: 1.25rem;
+}
+.w-6 {
+  width: 1.5rem;
+}
+.w-8 {
+  width: 2rem;
+}
+.w-full {
+  width: 100%;
+}
+.w-px {
+  width: 1px;
+}
+.min-w-0 {
+  min-width: 0px;
+}
+.min-w-\[220px\] {
+  min-width: 220px;
+}
+.min-w-full {
+  min-width: 100%;
+}
+.max-w-2xl {
+  max-width: 42rem;
+}
+.max-w-3xl {
+  max-width: 48rem;
+}
+.max-w-4xl {
+  max-width: 56rem;
+}
+.max-w-5xl {
+  max-width: 64rem;
+}
+.max-w-7xl {
+  max-width: 80rem;
+}
+.max-w-none {
+  max-width: none;
+}
+.max-w-xl {
+  max-width: 36rem;
+}
+.flex-1 {
+  flex: 1 1 0%;
+}
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+.shrink-0 {
+  flex-shrink: 0;
+}
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+@keyframes pulse {
+
+  50% {
+    opacity: .5;
+  }
+}
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+@keyframes spin {
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.touch-pan-y {
+  --tw-pan-y: pan-y;
+  touch-action: var(--tw-pan-x) var(--tw-pan-y) var(--tw-pinch-zoom);
+}
+.list-disc {
+  list-style-type: disc;
+}
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.items-start {
+  align-items: flex-start;
+}
+.items-center {
+  align-items: center;
+}
+.items-baseline {
+  align-items: baseline;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.gap-1 {
+  gap: 0.25rem;
+}
+.gap-12 {
+  gap: 3rem;
+}
+.gap-2 {
+  gap: 0.5rem;
+}
+.gap-3 {
+  gap: 0.75rem;
+}
+.gap-4 {
+  gap: 1rem;
+}
+.gap-5 {
+  gap: 1.25rem;
+}
+.gap-6 {
+  gap: 1.5rem;
+}
+.gap-8 {
+  gap: 2rem;
+}
+.space-x-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.space-y-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+.space-y-12 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3rem * var(--tw-space-y-reverse));
+}
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+.space-y-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+.space-y-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+}
+.space-y-6 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+}
+.divide-y > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-y-reverse: 0;
+  border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+  border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
+}
+.divide-industrial-100 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgb(245 245 245 / var(--tw-divide-opacity, 1));
+}
+.divide-industrial-200 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgb(229 229 229 / var(--tw-divide-opacity, 1));
+}
+.divide-industrial-700 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgb(64 64 64 / var(--tw-divide-opacity, 1));
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.overflow-x-auto {
+  overflow-x: auto;
+}
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+.border {
+  border-width: 1px;
+}
+.border-0 {
+  border-width: 0px;
+}
+.border-4 {
+  border-width: 4px;
+}
+.border-8 {
+  border-width: 8px;
+}
+.border-b {
+  border-bottom-width: 1px;
+}
+.border-l {
+  border-left-width: 1px;
+}
+.border-r {
+  border-right-width: 1px;
+}
+.border-t {
+  border-top-width: 1px;
+}
+.border-t-4 {
+  border-top-width: 4px;
+}
+.border-dashed {
+  border-style: dashed;
+}
+.border-accent-orange {
+  --tw-border-opacity: 1;
+  border-color: rgb(249 115 22 / var(--tw-border-opacity, 1));
+}
+.border-border {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 229 229 / var(--tw-border-opacity, 1));
+}
+.border-industrial-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(245 245 245 / var(--tw-border-opacity, 1));
+}
+.border-industrial-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 229 229 / var(--tw-border-opacity, 1));
+}
+.border-industrial-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(212 212 212 / var(--tw-border-opacity, 1));
+}
+.border-industrial-50 {
+  --tw-border-opacity: 1;
+  border-color: rgb(250 250 250 / var(--tw-border-opacity, 1));
+}
+.border-industrial-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(115 115 115 / var(--tw-border-opacity, 1));
+}
+.border-industrial-700 {
+  --tw-border-opacity: 1;
+  border-color: rgb(64 64 64 / var(--tw-border-opacity, 1));
+}
+.border-industrial-800 {
+  --tw-border-opacity: 1;
+  border-color: rgb(38 38 38 / var(--tw-border-opacity, 1));
+}
+.border-industrial-900 {
+  --tw-border-opacity: 1;
+  border-color: rgb(10 10 10 / var(--tw-border-opacity, 1));
+}
+.border-t-accent-orange {
+  --tw-border-opacity: 1;
+  border-top-color: rgb(249 115 22 / var(--tw-border-opacity, 1));
+}
+.bg-accent-orange {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity, 1));
+}
+.bg-background {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+.bg-black\/70 {
+  background-color: rgb(0 0 0 / 0.7);
+}
+.bg-black\/80 {
+  background-color: rgb(0 0 0 / 0.8);
+}
+.bg-industrial-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity, 1));
+}
+.bg-industrial-100\/50 {
+  background-color: rgb(245 245 245 / 0.5);
+}
+.bg-industrial-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 229 229 / var(--tw-bg-opacity, 1));
+}
+.bg-industrial-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 250 250 / var(--tw-bg-opacity, 1));
+}
+.bg-industrial-800\/70 {
+  background-color: rgb(38 38 38 / 0.7);
+}
+.bg-industrial-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(10 10 10 / var(--tw-bg-opacity, 1));
+}
+.bg-industrial-900\/0 {
+  background-color: rgb(10 10 10 / 0);
+}
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity, 1));
+}
+.bg-secondary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity, 1));
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+.bg-white\/95 {
+  background-color: rgb(255 255 255 / 0.95);
+}
+.bg-grid-pattern {
+  background-image: radial-gradient(circle, #262626 1px, transparent 1px);
+}
+.bg-grid-size {
+  background-size: 20px 20px;
+}
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.p-2 {
+  padding: 0.5rem;
+}
+.p-3 {
+  padding: 0.75rem;
+}
+.p-4 {
+  padding: 1rem;
+}
+.p-5 {
+  padding: 1.25rem;
+}
+.p-6 {
+  padding: 1.5rem;
+}
+.p-8 {
+  padding: 2rem;
+}
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.py-1\.5 {
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+}
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.py-2\.5 {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+.pb-8 {
+  padding-bottom: 2rem;
+}
+.pl-4 {
+  padding-left: 1rem;
+}
+.pl-6 {
+  padding-left: 1.5rem;
+}
+.pr-4 {
+  padding-right: 1rem;
+}
+.pt-0 {
+  padding-top: 0px;
+}
+.pt-12 {
+  padding-top: 3rem;
+}
+.pt-16 {
+  padding-top: 4rem;
+}
+.pt-2 {
+  padding-top: 0.5rem;
+}
+.pt-20 {
+  padding-top: 5rem;
+}
+.pt-3 {
+  padding-top: 0.75rem;
+}
+.pt-4 {
+  padding-top: 1rem;
+}
+.pt-6 {
+  padding-top: 1.5rem;
+}
+.pt-8 {
+  padding-top: 2rem;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.font-mono {
+  font-family: JetBrains Mono, Roboto Mono, monospace;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+.text-\[10px\] {
+  font-size: 10px;
+}
+.text-\[11px\] {
+  font-size: 11px;
+}
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.italic {
+  font-style: italic;
+}
+.leading-5 {
+  line-height: 1.25rem;
+}
+.leading-\[0\.95\] {
+  line-height: 0.95;
+}
+.leading-relaxed {
+  line-height: 1.625;
+}
+.leading-tight {
+  line-height: 1.25;
+}
+.tracking-tight {
+  letter-spacing: -0.025em;
+}
+.tracking-tighter {
+  letter-spacing: -0.05em;
+}
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+.tracking-widest {
+  letter-spacing: 0.1em;
+}
+.text-accent-orange {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity, 1));
+}
+.text-foreground {
+  --tw-text-opacity: 1;
+  color: rgb(10 10 10 / var(--tw-text-opacity, 1));
+}
+.text-industrial-100 {
+  --tw-text-opacity: 1;
+  color: rgb(245 245 245 / var(--tw-text-opacity, 1));
+}
+.text-industrial-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 229 229 / var(--tw-text-opacity, 1));
+}
+.text-industrial-300 {
+  --tw-text-opacity: 1;
+  color: rgb(212 212 212 / var(--tw-text-opacity, 1));
+}
+.text-industrial-400 {
+  --tw-text-opacity: 1;
+  color: rgb(163 163 163 / var(--tw-text-opacity, 1));
+}
+.text-industrial-500 {
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity, 1));
+}
+.text-industrial-600 {
+  --tw-text-opacity: 1;
+  color: rgb(82 82 82 / var(--tw-text-opacity, 1));
+}
+.text-industrial-700 {
+  --tw-text-opacity: 1;
+  color: rgb(64 64 64 / var(--tw-text-opacity, 1));
+}
+.text-industrial-800 {
+  --tw-text-opacity: 1;
+  color: rgb(38 38 38 / var(--tw-text-opacity, 1));
+}
+.text-industrial-900 {
+  --tw-text-opacity: 1;
+  color: rgb(10 10 10 / var(--tw-text-opacity, 1));
+}
+.text-muted {
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity, 1));
+}
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity, 1));
+}
+.text-primary-foreground {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+.underline {
+  text-decoration-line: underline;
+}
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.accent-accent-orange {
+  accent-color: #F97316;
+}
+.opacity-0 {
+  opacity: 0;
+}
+.opacity-100 {
+  opacity: 1;
+}
+.opacity-5 {
+  opacity: 0.05;
+}
+.shadow-2xl {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-sm {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.backdrop-blur-md {
+  --tw-backdrop-blur: blur(12px);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+.backdrop-blur-sm {
+  --tw-backdrop-blur: blur(4px);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+.transition-\[width\2c background-color\] {
+  transition-property: width,background-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.transition-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.duration-200 {
+  transition-duration: 200ms;
+}
+.duration-300 {
+  transition-duration: 300ms;
+}
+.duration-500 {
+  transition-duration: 500ms;
+}
+@media (hover: hover) and (pointer: fine) {
+    .rq-lift:hover {
+      transform: translateY(-2px);
+    }
+  }
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      scroll-behavior: auto !important;
+      transition-duration: 0.01ms !important;
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+    }
+  }
+.\[overflow-wrap\:anywhere\] {
+  overflow-wrap: anywhere;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #0a0a0a;
+  --rubber-black: #0a0a0a;
+  --rubber-carbon: #171717;
+  --rubber-graphite: #262626;
+  --accent-orange: #f97316;
+  --ease-out-rq: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Inter', sans-serif;
+}
+
+.last\:border-0:last-child {
+  border-width: 0px;
+}
+
+.last\:border-r-0:last-child {
+  border-right-width: 0px;
+}
+
+.hover\:border-accent-orange:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(249 115 22 / var(--tw-border-opacity, 1));
+}
+
+.hover\:border-primary:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(249 115 22 / var(--tw-border-opacity, 1));
+}
+
+.hover\:bg-accent-orange:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-black:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-industrial-100:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 245 245 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-industrial-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 250 250 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-industrial-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(64 64 64 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:text-accent-orange:hover {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-industrial-700:hover {
+  --tw-text-opacity: 1;
+  color: rgb(64 64 64 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-industrial-900:hover {
+  --tw-text-opacity: 1;
+  color: rgb(10 10 10 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-primary:hover {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
+.focus\:border-accent-orange:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(249 115 22 / var(--tw-border-opacity, 1));
+}
+
+.focus\:border-industrial-900:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(10 10 10 / var(--tw-border-opacity, 1));
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.focus\:ring-2:focus {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.focus\:ring-accent-orange:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(249 115 22 / var(--tw-ring-opacity, 1));
+}
+
+.focus\:ring-accent-orange\/15:focus {
+  --tw-ring-color: rgb(249 115 22 / 0.15);
+}
+
+.disabled\:cursor-not-allowed:disabled {
+  cursor: not-allowed;
+}
+
+.disabled\:opacity-50:disabled {
+  opacity: 0.5;
+}
+
+.disabled\:opacity-60:disabled {
+  opacity: 0.6;
+}
+
+.group:focus-within .group-focus-within\:block {
+  display: block;
+}
+
+.group:hover .group-hover\:block {
+  display: block;
+}
+
+.group:hover .group-hover\:scale-105 {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:hover .group-hover\:bg-industrial-900\/60 {
+  background-color: rgb(10 10 10 / 0.6);
+}
+
+.group:hover .group-hover\:text-accent-orange {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity, 1));
+}
+
+.group:hover .group-hover\:text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity, 1));
+}
+
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
+@media (min-width: 640px) {
+
+  .sm\:w-auto {
+    width: auto;
+  }
+
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:p-3 {
+    padding: 0.75rem;
+  }
+
+  .sm\:p-4 {
+    padding: 1rem;
+  }
+
+  .sm\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .sm\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .sm\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .md\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:shrink-0 {
+    flex-shrink: 0;
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:p-10 {
+    padding: 2.5rem;
+  }
+
+  .md\:p-12 {
+    padding: 3rem;
+  }
+
+  .md\:p-4 {
+    padding: 1rem;
+  }
+
+  .md\:p-5 {
+    padding: 1.25rem;
+  }
+
+  .md\:p-8 {
+    padding: 2rem;
+  }
+
+  .md\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .lg\:col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:w-1\/3 {
+    width: 33.333333%;
+  }
+
+  .lg\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:p-12 {
+    padding: 3rem;
+  }
+
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+</style>
+<style data-vite-dev-id="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro?astro&#38;type=style&#38;index=0&#38;lang.css">.rq-nav-header[data-astro-cid-rk4eupxx]{position:fixed;inset:0 0 auto;z-index:50;background:#FFFFFF;border-bottom:1px solid #E5E5E5}.rq-nav[data-astro-cid-rk4eupxx]{max-width:1320px;margin:auto;padding:0 28px;min-height:80px;display:flex;align-items:center;gap:24px}.rq-nav-brand[data-astro-cid-rk4eupxx]{font-size:25px;font-weight:900;letter-spacing:-.06em;text-decoration:none;flex-shrink:0}.rq-nav-brand[data-astro-cid-rk4eupxx] span[data-astro-cid-rk4eupxx]{color:#EA580C}.rq-nav-panel[data-astro-cid-rk4eupxx]{display:flex;align-items:center;justify-content:flex-end;gap:18px;flex:1}.rq-nav-group[data-astro-cid-rk4eupxx]{position:relative}.rq-nav-group[data-astro-cid-rk4eupxx] summary[data-astro-cid-rk4eupxx]{cursor:pointer;list-style:none;font-size:12px;font-weight:700;padding:18px 0;display:flex;align-items:center;gap:6px;white-space:nowrap}.rq-nav-group[data-astro-cid-rk4eupxx] summary[data-astro-cid-rk4eupxx]::-webkit-details-marker{display:none}.rq-nav-group[data-astro-cid-rk4eupxx] summary[data-astro-cid-rk4eupxx]::after{content:"+";font-family:monospace;color:#525252}.rq-nav-group[data-astro-cid-rk4eupxx][open] summary[data-astro-cid-rk4eupxx]::after{content:"−"}.rq-nav-dropdown[data-astro-cid-rk4eupxx]{position:absolute;top:100%;left:-18px;min-width:240px;max-width:360px;max-height:70vh;overflow:auto;background:#FFFFFF;border:1px solid #E5E5E5;padding:8px}.rq-nav-dropdown[data-astro-cid-rk4eupxx] a[data-astro-cid-rk4eupxx]{display:block;min-height:44px;padding:11px 12px;font-size:13px;text-decoration:none;overflow-wrap:anywhere}.rq-nav-dropdown[data-astro-cid-rk4eupxx] a[data-astro-cid-rk4eupxx]:hover,.rq-nav-dropdown[data-astro-cid-rk4eupxx] a[data-astro-cid-rk4eupxx][aria-current]{background:#FAFAFA;text-decoration:underline;text-underline-offset:4px}.rq-nav-dropdown[data-astro-cid-rk4eupxx] .rq-nav-parent[data-astro-cid-rk4eupxx]{font-weight:800;border-bottom:1px solid #E5E5E5;margin-bottom:4px}.rq-nav-search[data-astro-cid-rk4eupxx]{display:flex;align-items:center;justify-content:center;min-width:44px;min-height:44px}.rq-nav-mobile-label[data-astro-cid-rk4eupxx]{display:none}.rq-nav-language[data-astro-cid-rk4eupxx] .rq-nav-dropdown[data-astro-cid-rk4eupxx]{left:auto;right:0;min-width:140px}.rq-nav-quote[data-astro-cid-rk4eupxx]{font-size:12px;font-weight:700;background:#0A0A0A;color:#FFFFFF;padding:14px 18px;min-height:46px;text-decoration:none;white-space:nowrap}.rq-nav-quote[data-astro-cid-rk4eupxx]:hover{background:#262626}.rq-nav-toggle[data-astro-cid-rk4eupxx]{display:none}summary[data-astro-cid-rk4eupxx]:focus-visible,a[data-astro-cid-rk4eupxx]:focus-visible,button[data-astro-cid-rk4eupxx]:focus-visible{outline:2px solid #F97316;outline-offset:4px}@media (max-width:1150px){.rq-nav[data-astro-cid-rk4eupxx]{justify-content:space-between;padding-inline:20px}.rq-nav-toggle[data-astro-cid-rk4eupxx]{display:flex;align-items:center;gap:12px;min-height:48px;padding:10px;border:1px solid #D4D4D4;background:#FFFFFF;font-size:13px}.rq-nav-panel[data-astro-cid-rk4eupxx]{display:none;position:absolute;top:80px;left:0;right:0;max-height:calc(100dvh - 80px);overflow:auto;background:#FFFFFF;padding:12px 20px 24px;border-bottom:1px solid #D4D4D4}.rq-nav-panel[data-astro-cid-rk4eupxx][data-open=true]{display:block}.rq-nav-group[data-astro-cid-rk4eupxx]{border-bottom:1px solid #E5E5E5}.rq-nav-group[data-astro-cid-rk4eupxx] summary[data-astro-cid-rk4eupxx]{padding:16px 0;justify-content:space-between;font-size:15px}.rq-nav-dropdown[data-astro-cid-rk4eupxx],.rq-nav-language[data-astro-cid-rk4eupxx] .rq-nav-dropdown[data-astro-cid-rk4eupxx]{position:static;border:0;max-width:none;max-height:none;padding:0 0 12px 12px}.rq-nav-quote[data-astro-cid-rk4eupxx]{display:block;text-align:center;margin-top:16px}.rq-nav-search[data-astro-cid-rk4eupxx]{justify-content:flex-start;gap:12px;border-bottom:1px solid #E5E5E5;padding-block:15px}.rq-nav-mobile-label[data-astro-cid-rk4eupxx]{display:inline}}</style>
+<style data-vite-dev-id="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro?astro&#38;type=style&#38;index=0&#38;lang.css">.rq-footer[data-astro-cid-cgmkihcd]{background:#0A0A0A;color:#D4D4D4}.rq-footer[data-astro-cid-cgmkihcd] a[data-astro-cid-cgmkihcd]{color:inherit;text-decoration:none}.rq-footer[data-astro-cid-cgmkihcd] a[data-astro-cid-cgmkihcd]:hover{text-decoration:underline;text-underline-offset:4px}.rq-footer-tagline[data-astro-cid-cgmkihcd]{border-bottom:1px solid #262626;padding:32px 20px;text-align:center}.rq-footer-tagline[data-astro-cid-cgmkihcd] p[data-astro-cid-cgmkihcd]{font-size:clamp(18px,2vw,26px);font-weight:800;color:#FFFFFF}.rq-footer-wrap[data-astro-cid-cgmkihcd]{max-width:1240px;margin:auto;padding:48px 32px 24px}.rq-footer-intro[data-astro-cid-cgmkihcd]{display:flex;flex-wrap:wrap;align-items:center;gap:20px 32px;border-bottom:1px solid #262626;padding-bottom:32px;font-size:13px}.rq-footer-brand[data-astro-cid-cgmkihcd]{font-size:25px;font-weight:900;letter-spacing:-.05em;color:#FFFFFF!important}.rq-footer-brand[data-astro-cid-cgmkihcd] span[data-astro-cid-cgmkihcd]{color:#F97316}.rq-footer-intro[data-astro-cid-cgmkihcd]>p[data-astro-cid-cgmkihcd]{max-width:40ch}.rq-footer-groups[data-astro-cid-cgmkihcd]{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px 48px;padding-block:40px}.rq-footer[data-astro-cid-cgmkihcd] h2[data-astro-cid-cgmkihcd]{font-size:14px;font-weight:800;color:#FFFFFF;margin-bottom:16px}.rq-footer[data-astro-cid-cgmkihcd] ul[data-astro-cid-cgmkihcd]{list-style:none;margin:0;padding:0}.rq-footer[data-astro-cid-cgmkihcd] li[data-astro-cid-cgmkihcd] a[data-astro-cid-cgmkihcd]{display:inline-block;padding-block:7px;font-size:12px;line-height:1.6;overflow-wrap:anywhere}.rq-footer-bottom[data-astro-cid-cgmkihcd]{border-top:1px solid #262626;padding-top:24px;display:flex;justify-content:space-between;gap:20px;font-size:11px}.rq-footer-bottom[data-astro-cid-cgmkihcd]>div[data-astro-cid-cgmkihcd]{display:flex;gap:20px}a[data-astro-cid-cgmkihcd]:focus-visible{outline:2px solid #F97316;outline-offset:4px}@media (max-width:700px){.rq-footer-wrap[data-astro-cid-cgmkihcd]{padding-inline:20px}.rq-footer-intro[data-astro-cid-cgmkihcd]{display:block}.rq-footer-intro[data-astro-cid-cgmkihcd]>[data-astro-cid-cgmkihcd]{display:block;margin-bottom:16px}.rq-footer-groups[data-astro-cid-cgmkihcd]{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 24px}.rq-footer-bottom[data-astro-cid-cgmkihcd]{display:block}.rq-footer-bottom[data-astro-cid-cgmkihcd]>div[data-astro-cid-cgmkihcd]{margin-top:16px;flex-wrap:wrap}}</style><script type="module" src="/@vite/client"></script>
+<script type="module" src="/@fs/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/node_modules/astro/dist/runtime/client/dev-toolbar/entrypoint.js?v=836145a6"></script>
+<script>window.__astro_dev_toolbar__ = {"root":"/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/","version":"5.18.1","debugInfo":"Astro                    v5.18.1\nNode                     v22.23.0\nSystem                   macOS (arm64)\nPackage Manager          npm\nOutput                   server\nAdapter                  @astrojs/cloudflare\nIntegrations             @astrojs/cloudflare\n                         @astrojs/tailwind\n                         @astrojs/react"}</script>
+<script type="module" src="/node_modules/@astrojs/tailwind/base.css"></script>
+<script type="module" src="/src/styles/globals.css"></script>
+<script type="module" src="/src/components/acquisition/Navigation.astro?astro&type=style&index=0&lang.css"></script>
+<script type="module" src="/src/components/acquisition/Footer.astro?astro&type=style&index=0&lang.css"></script></head> <body class="bg-background text-foreground antialiased min-h-screen" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/layouts/BaseLayout.astro" data-astro-source-loc="82:72">   <header class="rq-nav-header" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="14:32"><nav class="rq-nav" aria-label="Main navigation" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="14:78"> <a class="rq-nav-brand" href="/" aria-label="RubberQ" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="15:82">RUBBER<span data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="15:94">Q</span></a> <button class="rq-nav-toggle" id="rq-menu-toggle" aria-expanded="false" aria-controls="rq-navigation-panel" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="16:111">Menu <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="16:242"><path d="M3 6h18M3 12h18M3 18h18" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="16:242"></path></svg></button> <div class="rq-nav-panel" id="rq-navigation-panel" data-open="false" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="17:72"> <details class="rq-nav-group" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:61"><summary data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:69">Products</summary><div class="rq-nav-dropdown" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:127"><a class="rq-nav-parent" href="/products" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:174">Products <span aria-hidden="true" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:218">↗</span></a><a href="/products/seals" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">O-Rings &amp; Seals</a><a href="/products/gaskets" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Custom Gaskets</a><a href="/products/custom" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Custom Molded Parts</a><a href="/products/bellows" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Bellows &amp; Boots</a><a href="/products/diaphragms" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Diaphragms</a><a href="/products/rubber-to-metal-bonded-parts" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Rubber-to-Metal Parts</a><a href="/products/ffkm-replacement-seals" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">FFKM Replacement Seals</a></div></details><details class="rq-nav-group" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:61"><summary data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:69">Materials</summary><div class="rq-nav-dropdown" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:127"><a class="rq-nav-parent" href="/materials" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:174">Materials <span aria-hidden="true" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:218">↗</span></a><a href="/materials/ffkm" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">FFKM</a><a href="/materials/fkm" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">FKM</a><a href="/materials/epdm" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">EPDM</a><a href="/materials/hnbr" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">HNBR</a><a href="/materials/nbr" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">NBR</a><a href="/materials/silicone" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Silicone</a><a href="/materials/lsr" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">LSR</a><a href="/materials/acm" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">ACM</a><a href="/materials/aem" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">AEM</a></div></details><details class="rq-nav-group" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:61"><summary data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:69">Capabilities</summary><div class="rq-nav-dropdown" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:127"><a class="rq-nav-parent" href="/capabilities" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:174">Capabilities <span aria-hidden="true" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:218">↗</span></a><a href="/capabilities/rubber-molding" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Rubber Molding</a><a href="/compounding" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Compounding &amp; Formulation</a><a href="/compounds" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Compound Supply</a><a href="/capabilities/lsr-molding" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">LSR Molding</a><a href="/testing" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Testing</a><a href="/quality" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Quality &amp; Traceability</a><a href="/factory" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Factory</a></div></details><details class="rq-nav-group" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:61"><summary data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:69">Industries</summary><div class="rq-nav-dropdown" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:127"><a class="rq-nav-parent" href="/industries" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:174">Industries <span aria-hidden="true" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:218">↗</span></a><a href="/industries/semiconductor" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Semiconductor Equipment</a><a href="/industries/liquid-cooling-energy-storage" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Liquid Cooling &amp; Energy Storage</a><a href="/industries/ev-energy-storage" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">EV Thermal Management</a><a href="/industries/humanoid-robotics" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Humanoid Robotics</a><a href="/industries/industrial-equipment" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">General Industrial</a><a href="/industries/automotive-tier2" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Automotive Tier 2</a></div></details><details class="rq-nav-group" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:61"><summary data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:69">Engineering Resources</summary><div class="rq-nav-dropdown" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:127"><a class="rq-nav-parent" href="/resources" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:174">Engineering Resources <span aria-hidden="true" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:218">↗</span></a><a href="/resources/o-ring-size-guide" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">O-Ring Size Guide</a><a href="/resources/rubber-hardness-guide" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Rubber Hardness Guide</a><a href="/resources/material-compatibility" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Material Compatibility</a><a href="/resources/seal-failure-analysis" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Seal Failure Review</a><a href="/standards" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Standards</a><a href="/blog" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">English Blog</a></div></details><details class="rq-nav-group" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:61"><summary data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:69">About RubberQ</summary><div class="rq-nav-dropdown" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:127"><a class="rq-nav-parent" href="/about" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:174">About RubberQ <span aria-hidden="true" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:218">↗</span></a><a href="/factory" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Factory</a><a href="/quality" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Quality &amp; Traceability</a><a href="/case-studies" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Project Experience</a><a href="/contact" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="18:333">Engineering &amp; Quotations</a></div></details> <a class="rq-nav-search" href="/search" aria-label="Search RubberQ" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="19:94"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="19:214"><circle cx="10.5" cy="10.5" r="6.5" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="19:214"></circle><path d="m16 16 5 5" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="19:251"></path></svg><span class="rq-nav-mobile-label" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="19:312">Search RubberQ</span></a> <details class="rq-nav-group rq-nav-language" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="20:52"><summary aria-label="Language" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="20:85">EN</summary><div class="rq-nav-dropdown" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="20:146"><a href="/resources" lang="en" hreflang="en" aria-current="true" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="20:339">English</a><a href="/de/resources" lang="de" hreflang="de" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="20:339">Deutsch</a><a href="/ja/resources" lang="ja" hreflang="ja" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="20:339">日本語</a><a href="/es/resources" lang="es" hreflang="es" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="20:339">Español</a><a href="/zh/resources" lang="zh" hreflang="zh" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="20:339">中文</a></div></details> <a class="rq-nav-quote" href="/contact" data-astro-cid-rk4eupxx data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Navigation.astro" data-astro-source-loc="21:70">Submit Project Details</a> </div> </nav></header> <script type="module" src="/src/components/acquisition/Navigation.astro?astro&type=script&index=0&lang.ts"></script>  <main class="min-h-screen pt-20" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/layouts/BlogLayout.astro" data-astro-source-loc="25:36">   <article class="py-16" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="71:26"> <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="72:57"> <!-- Header --> <header class="mb-12" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="74:29">  <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-6" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="81:84"> Custom Compound Development: How RubberQ Approaches Non-Standard Requests. </h1> <div class="flex items-center gap-4 text-sm text-muted" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="84:65"> <time datetime="2026-04-01T02:35:04.000Z" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="85:45">April 1, 2026</time>  </div>  </header> <!-- Featured Image --> <div class="mb-12" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="99:28"> <img src="https://cdn.sanity.io/images/tcjl4afv/production/c105088f7de8fc00dfd50eadd8c0665fcf110033-1792x1024.webp?w=800&h=400&fit=crop" alt="Custom Compound Development: How RubberQ Approaches Non-Standard Requests." class="w-full h-auto max-h-96 object-cover" loading="eager" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="100:12"> </div> <!-- Content - rendered as HTML from Sanity portable text or markdown --> <div class="prose prose-lg max-w-none mb-16" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="105:52"> <html>
+<h2>Custom Compound Development: How RubberQ Approaches Non-Standard Requests</h2>
+
+<h3>Problem Statement</h3>
+<p>EPDM seals in EV battery cooling systems degrade after 500 hours at 150°C due to glycol-based coolant permeation. Standard EPDM compounds exhibit 40% compression set and 15% volume swell under these conditions.</p>
+
+<h3>Material Science Analysis</h3>
+<p>Glycol permeation causes polymer chain scission in EPDM's diene backbone. RubberQ's HNBR compound uses 36% acrylonitrile content and peroxide curing to:</p>
+<ul>
+  <li>Reduce glycol absorption by 62% versus standard EPDM</li>
+  <li>Maintain crosslink density above 4.5x10<sup>-4</sup> mol/cm<sup>3</sup> at 150°C</li>
+  <li>Prevent backbone degradation through saturated hydrocarbon structure</li>
+</ul>
+
+<h3>Technical Specifications</h3>
+<table border="1">
+  <tr>
+    <th>Parameter</th>
+    <th>HNBR-X7 (RubberQ)</th>
+    <th>Standard EPDM</th>
+    <th>FKM (GFLT)</th>
+  </tr>
+  <tr>
+    <td>Shore A Hardness</td>
+    <td>75 ±3</td>
+    <td>70 ±5</td>
+    <td>75 ±2</td>
+  </tr>
+  <tr>
+    <td>Tensile Strength (MPa)</td>
+    <td>22.4</td>
+    <td>16.8</td>
+    <td>18.5</td>
+  </tr>
+  <tr>
+    <td>Elongation at Break (%)</td>
+    <td>310</td>
+    <td>350</td>
+    <td>200</td>
+  </tr>
+  <tr>
+    <td>Continuous Service Temp (°C)</td>
+    <td>-40 to +175</td>
+    <td>-50 to +150</td>
+    <td>-20 to +200</td>
+  </tr>
+  <tr>
+    <td>Compression Set (70h/150°C, %)</td>
+    <td>18</td>
+    <td>40</td>
+    <td>12</td>
+  </tr>
+  <tr>
+    <td>Glycol Volume Swell (168h/150°C, %)</td>
+    <td>5.2</td>
+    <td>15.1</td>
+    <td>3.8</td>
+  </tr>
+</table>
+
+<h3>Standard Compliance</h3>
+<p>RubberQ's IATF 16949 system ensures:</p>
+<ul>
+  <li>Batch-to-batch viscosity variation <5% (ASTM D1646)</li>
+  <li>Metal bond strength >3.5 MPa (ASTM D429 Method B)</li>
+  <li>Cleanliness Class A per ISO 16232 for all molded parts</li>
+</ul>
+
+<p>For custom material compound development or IATF 16949 documentation, consult RubberQ's engineering department.</p>
+</html> </div> <!-- Related Posts --> <section class="border-t border-border pt-12 mt-12" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="115:61"> <h2 class="text-2xl font-bold mb-8" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="116:47">Related Articles</h2> <div class="grid grid-cols-1 md:grid-cols-3 gap-6" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="117:62"> <a href="/blog/sem-133-rubber-sheets-engineering-selection" class="group border border-border hover:border-primary transition-colors" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="122:94"> <div class="w-full h-36 bg-secondary" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="126:22"></div> <div class="p-4" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="128:36"> <h3 class="text-sm font-bold group-hover:text-primary transition-colors line-clamp-2" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="129:107">Engineering Selection &amp; Materials Guide: Rubber Sheets in High-Reliability Applications</h3> </div> </a><a href="/blog/sem-128-epdm-o-rings-engineering-selection" class="group border border-border hover:border-primary transition-colors" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="122:94"> <div class="w-full h-36 bg-secondary" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="126:22"></div> <div class="p-4" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="128:36"> <h3 class="text-sm font-bold group-hover:text-primary transition-colors line-clamp-2" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="129:107">Engineering Selection &amp; Materials Guide: Epdm O-Rings in High-Reliability Applications</h3> </div> </a><a href="/blog/sem-126-bulk-o-ring-material-engineering-selection" class="group border border-border hover:border-primary transition-colors" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="122:94"> <div class="w-full h-36 bg-secondary" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="126:22"></div> <div class="p-4" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="128:36"> <h3 class="text-sm font-bold group-hover:text-primary transition-colors line-clamp-2" data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/pages/blog/[slug].astro" data-astro-source-loc="129:107">Engineering Selection &amp; Materials Guide: Bulk O-Ring Material in High-Reliability Applications</h3> </div> </a> </div> </section> </div> </article>  </main> <footer class="rq-footer" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="12:27"> <div class="rq-footer-tagline" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="13:35"><p data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="13:37">Japanese Formulation. Chinese Precision. Trusted Since 1995.</p></div> <div class="rq-footer-wrap" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="14:31"> <div class="rq-footer-intro" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="15:35"><a href="/" class="rq-footer-brand" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="15:78">RUBBER<span data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="15:90">Q</span></a><p data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="15:105">Compounded by Japan. Built in China. Tested in-House.</p><a href="mailto:contact@rubberq.com" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="15:188">contact@rubberq.com</a><p data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="15:214">Fuzhou, Fujian, China</p></div> <div class="rq-footer-groups" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:35"><div data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:66"><h2 data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:70"><a href="/products" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:95">Products</a></h2><ul data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:126"><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/products/seals" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">O-Rings &amp; Seals</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/products/gaskets" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Custom Gaskets</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/products/custom" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Custom Molded Parts</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/products/bellows" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Bellows &amp; Boots</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/products/diaphragms" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Diaphragms</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/products/rubber-to-metal-bonded-parts" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Rubber-to-Metal Parts</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/products/ffkm-replacement-seals" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">FFKM Replacement Seals</a></li></ul></div><div data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:66"><h2 data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:70"><a href="/materials" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:95">Materials</a></h2><ul data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:126"><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/materials/ffkm" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">FFKM</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/materials/fkm" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">FKM</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/materials/epdm" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">EPDM</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/materials/hnbr" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">HNBR</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/materials/nbr" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">NBR</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/materials/silicone" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Silicone</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/materials/lsr" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">LSR</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/materials/acm" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">ACM</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/materials/aem" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">AEM</a></li></ul></div><div data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:66"><h2 data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:70"><a href="/capabilities" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:95">Capabilities</a></h2><ul data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:126"><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/capabilities/rubber-molding" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Rubber Molding</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/compounding" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Compounding &amp; Formulation</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/compounds" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Compound Supply</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/capabilities/lsr-molding" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">LSR Molding</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/testing" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Testing</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/quality" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Quality &amp; Traceability</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/factory" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Factory</a></li></ul></div><div data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:66"><h2 data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:70"><a href="/industries" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:95">Industries</a></h2><ul data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:126"><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/industries/semiconductor" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Semiconductor Equipment</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/industries/liquid-cooling-energy-storage" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Liquid Cooling &amp; Energy Storage</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/industries/ev-energy-storage" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">EV Thermal Management</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/industries/humanoid-robotics" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Humanoid Robotics</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/industries/industrial-equipment" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">General Industrial</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/industries/automotive-tier2" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Automotive Tier 2</a></li></ul></div><div data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:66"><h2 data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:70"><a href="/resources" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:95">Engineering Resources</a></h2><ul data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:126"><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/resources/o-ring-size-guide" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">O-Ring Size Guide</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/resources/rubber-hardness-guide" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Rubber Hardness Guide</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/resources/material-compatibility" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Material Compatibility</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/resources/seal-failure-analysis" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Seal Failure Review</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/standards" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Standards</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/blog" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">English Blog</a></li></ul></div><div data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:66"><h2 data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:70"><a href="/about" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:95">About RubberQ</a></h2><ul data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:126"><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/factory" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Factory</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/quality" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Quality &amp; Traceability</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/case-studies" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Project Experience</a></li><li data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:158"><a href="/contact" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="16:177">Engineering &amp; Quotations</a></li></ul></div></div> <div class="rq-footer-bottom" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="17:36"><p data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="17:38">© 2026 RubberQ. </p><div data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="17:124"><a href="/privacy" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="17:150">Privacy Policy</a><a href="/terms" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="17:198">Terms of Use</a><a href="/sitemap.xml" data-astro-cid-cgmkihcd data-astro-source-file="/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/src/components/acquisition/Footer.astro" data-astro-source-loc="17:242">Sitemap</a></div></div> </div> </footer>   <style>astro-island,astro-slot,astro-static-slot{display:contents}</style><script>(()=>{var l=(n,t)=>{let i=async()=>{await(await n())()},e=typeof t.value=="object"?t.value:void 0,s={timeout:e==null?void 0:e.timeout};"requestIdleCallback"in window?window.requestIdleCallback(i,s):setTimeout(i,s.timeout||200)};(self.Astro||(self.Astro={})).idle=l;window.dispatchEvent(new Event("astro:idle"));})();</script><script>(()=>{var A=Object.defineProperty;var g=(i,o,a)=>o in i?A(i,o,{enumerable:!0,configurable:!0,writable:!0,value:a}):i[o]=a;var l=(i,o,a)=>g(i,typeof o!="symbol"?o+"":o,a);{let i={0:t=>y(t),1:t=>a(t),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(a(t)),5:t=>new Set(a(t)),6:t=>BigInt(t),7:t=>new URL(t),8:t=>new Uint8Array(t),9:t=>new Uint16Array(t),10:t=>new Uint32Array(t),11:t=>1/0*t},o=t=>{let[h,e]=t;return h in i?i[h](e):void 0},a=t=>t.map(o),y=t=>typeof t!="object"||t===null?t:Object.fromEntries(Object.entries(t).map(([h,e])=>[h,o(e)]));class f extends HTMLElement{constructor(){super(...arguments);l(this,"Component");l(this,"hydrator");l(this,"hydrate",async()=>{var b;if(!this.hydrator||!this.isConnected)return;let e=(b=this.parentElement)==null?void 0:b.closest("astro-island[ssr]");if(e){e.addEventListener("astro:hydrate",this.hydrate,{once:!0});return}let c=this.querySelectorAll("astro-slot"),n={},p=this.querySelectorAll("template[data-astro-template]");for(let r of p){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("data-astro-template")||"default"]=r.innerHTML,r.remove())}for(let r of c){let s=r.closest(this.tagName);s!=null&&s.isSameNode(this)&&(n[r.getAttribute("name")||"default"]=r.innerHTML)}let u;try{u=this.hasAttribute("props")?y(JSON.parse(this.getAttribute("props"))):{}}catch(r){let s=this.getAttribute("component-url")||"<unknown>",v=this.getAttribute("component-export");throw v&&(s+=` (export ${v})`),console.error(`[hydrate] Error parsing props for component ${s}`,this.getAttribute("props"),r),r}let d,m=this.hydrator(this);d=performance.now(),await m(this.Component,u,n,{client:this.getAttribute("client")}),d&&this.setAttribute("client-render-time",(performance.now()-d).toString()),this.removeAttribute("ssr"),this.dispatchEvent(new CustomEvent("astro:hydrate"))});l(this,"unmount",()=>{this.isConnected||this.dispatchEvent(new CustomEvent("astro:unmount"))})}disconnectedCallback(){document.removeEventListener("astro:after-swap",this.unmount),document.addEventListener("astro:after-swap",this.unmount,{once:!0})}connectedCallback(){if(!this.hasAttribute("await-children")||document.readyState==="interactive"||document.readyState==="complete")this.childrenConnectedCallback();else{let e=()=>{document.removeEventListener("DOMContentLoaded",e),c.disconnect(),this.childrenConnectedCallback()},c=new MutationObserver(()=>{var n;((n=this.lastChild)==null?void 0:n.nodeType)===Node.COMMENT_NODE&&this.lastChild.nodeValue==="astro:end"&&(this.lastChild.remove(),e())});c.observe(this,{childList:!0}),document.addEventListener("DOMContentLoaded",e)}}async childrenConnectedCallback(){let e=this.getAttribute("before-hydration-url");e&&await import(e),this.start()}async start(){let e=JSON.parse(this.getAttribute("opts")),c=this.getAttribute("client");if(Astro[c]===void 0){window.addEventListener(`astro:${c}`,()=>this.start(),{once:!0});return}try{await Astro[c](async()=>{let n=this.getAttribute("renderer-url"),[p,{default:u}]=await Promise.all([import(this.getAttribute("component-url")),n?import(n):()=>()=>{}]),d=this.getAttribute("component-export")||"default";if(!d.includes("."))this.Component=p[d];else{this.Component=p;for(let m of d.split("."))this.Component=this.Component[m]}return this.hydrator=u,this.hydrate},e,this)}catch(n){console.error(`[astro-island] Error hydrating ${this.getAttribute("component-url")}`,n)}}attributeChangedCallback(){this.hydrate()}}l(f,"observedAttributes",["props"]),customElements.get("astro-island")||customElements.define("astro-island",f)}})();</script><astro-island uid="Zpqn5o" prefix="r5" component-url="/src/components/CookieConsent.tsx" component-export="default" renderer-url="/node_modules/.vite/deps/@astrojs_react_client__js.js?v=e4e48792" props="{&quot;locale&quot;:[0,&quot;en&quot;],&quot;messages&quot;:[0,{&quot;title&quot;:[0,&quot;Cookie Preferences&quot;],&quot;descriptionPrefix&quot;:[0,&quot;RubberQ uses necessary cookies to keep this website working. With your permission, we use analytics cookies to understand which technical pages are useful and improve the site. Read our&quot;],&quot;privacyLink&quot;:[0,&quot;Privacy Policy&quot;],&quot;descriptionSuffix&quot;:[0,&quot;for details.&quot;],&quot;decline&quot;:[0,&quot;Necessary Only&quot;],&quot;acceptAll&quot;:[0,&quot;Accept All&quot;]}]}" ssr client="idle" before-hydration-url="/@id/astro:scripts/before-hydration.js" opts="{&quot;name&quot;:&quot;CookieConsent&quot;,&quot;value&quot;:true}"></astro-island> </body></html>

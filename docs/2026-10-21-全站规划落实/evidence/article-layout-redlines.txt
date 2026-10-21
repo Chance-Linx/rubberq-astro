@@ -1,0 +1,5 @@
+
+> rubberq-astro@1.0.0 check:public-redlines
+> node scripts/check-public-redlines.mjs
+
+Public redline check passed.

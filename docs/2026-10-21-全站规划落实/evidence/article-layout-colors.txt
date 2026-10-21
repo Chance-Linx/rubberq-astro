@@ -1,0 +1,5 @@
+
+> rubberq-astro@1.0.0 check:brand-colors
+> node scripts/check-brand-colors.mjs
+
+Brand color check passed.

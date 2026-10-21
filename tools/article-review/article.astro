@@ -1,0 +1,12 @@
+---
+Astro.response.headers.set('X-Robots-Tag', 'noindex, nofollow, noarchive');
+Astro.response.headers.set('Cache-Control', 'no-store');
+Astro.response.headers.set('X-RubberQ-Local-Review', '1');
+import ArticlePage from '../../src/components/blog/ArticlePage.astro';
+import { recordsBySlug, relatedDrafts } from './records';
+const record = recordsBySlug.get(Astro.params.slug || '');
+if (!record) return new Response(null, { status: 404 });
+---
+<ArticlePage post={record.post} relatedPosts={relatedDrafts(record.post.content)}>
+  <meta slot="head" name="robots" content="noindex,nofollow,noarchive" />
+</ArticlePage>

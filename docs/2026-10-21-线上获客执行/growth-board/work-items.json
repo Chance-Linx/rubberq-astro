@@ -192,15 +192,18 @@
         "rubberq-astro/docs/2026-10-21-全站规划落实/content-revisions/manifest.json",
         "rubberq-astro/docs/2026-10-21-全站规划落实/ownership/draft-content-links.json",
         "rubberq-astro/docs/2026-10-21-全站规划落实/article-previews/index.html",
-        "rubberq-astro/docs/2026-10-21-全站规划落实/ownership/page-content-modules.json"
+        "rubberq-astro/docs/2026-10-21-全站规划落实/ownership/page-content-modules.json",
+        "rubberq-astro/tools/article-review/",
+        "rubberq-astro/docs/2026-10-21-全站规划落实/evidence/article-cover-decisions.json",
+        "rubberq-astro/docs/2026-10-21-全站规划落实/evidence/article-layout-checks.json"
       ],
       "reports": [
         "rubberq-astro/docs/2026-10-21-线上获客执行/00-交付入口.md"
       ],
-      "next_step": "35个重点页面模块本地实现、45个获客页元描述已核对；继续文章素材与实际BlogLayout布局、专用页及其元数据、关键词图谱、移动端与完整RFQ，全部完成后一次集中审核。",
+      "next_step": "27篇修订稿已通过真实文章布局及375px手机检查；继续博客列表/搜索/隐私/条款专用页、元数据、关键词图谱、全站移动端和完整RFQ，全部完成后一次集中审核。",
       "channel": "content",
       "source": "根任务清单RQAC系列的只读阶段投影",
-      "note": "35/35页面深化模块本地实现，175语种路由、205表格、1530处上下文链接；另修复18处英/西语元描述，45获客页×5语种225路由核对通过。27篇完整英文稿仍待正式布局与最终审核。未计覆盖或上线，CMS/新增付费/生产部署0。",
+      "note": "35/35页面模块本地实现，45页×5语种225路由通过；27篇英文稿真实布局、27表格及146正文链接核对通过，19旧封面逐图检查后在候选版隐藏，原CMS引用保留。仅本地实施，覆盖与生产未验收；CMS/新增付费/生产部署0。",
       "delivered_at": null
     }
   ]

@@ -1,0 +1,88 @@
+TAP version 13
+# Subtest: existing publisher HTML retains its exact established output
+ok 1 - existing publisher HTML retains its exact established output
+  ---
+  duration_ms: 12.630375
+  type: 'test'
+  ...
+# Subtest: prose-first mixed content parses formatting and lists after HTML
+ok 2 - prose-first mixed content parses formatting and lists after HTML
+  ---
+  duration_ms: 6.795166
+  type: 'test'
+  ...
+# Subtest: HTML-first mixed content parses subsequent Markdown blocks
+ok 3 - HTML-first mixed content parses subsequent Markdown blocks
+  ---
+  duration_ms: 1.779125
+  type: 'test'
+  ...
+# Subtest: plain prose before HTML still recognizes a following Markdown list
+ok 4 - plain prose before HTML still recognizes a following Markdown list
+  ---
+  duration_ms: 1.000291
+  type: 'test'
+  ...
+# Subtest: Markdown headings, tables, lists and links produce HTML and retain a single page H1
+ok 5 - Markdown headings, tables, lists and links produce HTML and retain a single page H1
+  ---
+  duration_ms: 2.841584
+  type: 'test'
+  ...
+# Subtest: mixed Markdown and HTML preserves body text and removes executable elements
+ok 6 - mixed Markdown and HTML preserves body text and removes executable elements
+  ---
+  duration_ms: 1.125667
+  type: 'test'
+  ...
+# Subtest: Markdown rejects script/data URLs, event handlers and unsafe images
+ok 7 - Markdown rejects script/data URLs, event handlers and unsafe images
+  ---
+  duration_ms: 2.639583
+  type: 'test'
+  ...
+# Subtest: Portable Text renders paragraphs, marks, line breaks and safe links
+ok 8 - Portable Text renders paragraphs, marks, line breaks and safe links
+  ---
+  duration_ms: 0.726458
+  type: 'test'
+  ...
+# Subtest: Portable Text keeps contiguous and nested lists structurally valid
+ok 9 - Portable Text keeps contiguous and nested lists structurally valid
+  ---
+  duration_ms: 0.558875
+  type: 'test'
+  ...
+# Subtest: Portable Text uses Sanity image references and refuses malicious links or image URLs
+ok 10 - Portable Text uses Sanity image references and refuses malicious links or image URLs
+  ---
+  duration_ms: 0.710833
+  type: 'test'
+  ...
+# Subtest: empty and unsupported content types do not stringify objects
+ok 11 - empty and unsupported content types do not stringify objects
+  ---
+  duration_ms: 0.276708
+  type: 'test'
+  ...
+# Subtest: an image decision requires the exact reviewed article and asset pair
+ok 12 - an image decision requires the exact reviewed article and asset pair
+  ---
+  duration_ms: 0.533875
+  type: 'test'
+  ...
+# Subtest: scroll regions preserve table markup, links, labels, units and surrounding content
+ok 13 - scroll regions preserve table markup, links, labels, units and surrounding content
+  ---
+  duration_ms: 0.281375
+  type: 'test'
+  ...
+1..13
+# tests 13
+# suites 0
+# pass 13
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 358.622708

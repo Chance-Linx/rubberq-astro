@@ -5,9 +5,12 @@ import Footer from '@/components/acquisition/Footer.astro';
 import JsonLd from '@/components/JsonLd';
 import { createOrganizationSchema } from '@/lib/structuredData';
 
+interface Props { canonicalPath?: string; locale?: string }
+const { canonicalPath } = Astro.props;
 const locale = 'en';
 const normalizedPathname = Astro.url.pathname.replace(/^\/en\/blog(?=\/|$)/, '/blog');
-const canonicalUrl = `https://rubberq.com${normalizedPathname}`;
+const canonicalPathname = canonicalPath && (canonicalPath === '/blog' || canonicalPath.startsWith('/blog/')) ? canonicalPath : normalizedPathname;
+const canonicalUrl = `https://rubberq.com${canonicalPathname}`;
 const orgSchema = createOrganizationSchema(locale);
 ---
 

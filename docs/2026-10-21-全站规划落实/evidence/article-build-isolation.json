@@ -1,0 +1,11 @@
+{
+  "scope": "Ordinary production build inspected locally; not a production deployment.",
+  "searched_markers": {
+    "rubberq-local-article-review": [],
+    "/__review/articles/": [],
+    "LOCAL ARTICLE REVIEW": [],
+    "article-metadata-current.json": [],
+    "expected_source_revision": []
+  },
+  "pass": true
+}

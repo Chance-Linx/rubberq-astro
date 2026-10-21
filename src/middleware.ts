@@ -283,6 +283,12 @@ function getRedirectTarget(pathname: string): string | null {
 }
 
 export const onRequest = defineMiddleware((context, next) => {
+  // The separate localhost review integration sets this server-side flag.
+  const localReview = (context.locals as { rubberqLocalArticleReview?: boolean }).rubberqLocalArticleReview === true;
+  if (import.meta.env.DEV && localReview && context.url.hostname === '127.0.0.1' &&
+      (context.url.pathname === '/__review' || context.url.pathname.startsWith('/__review/'))) {
+    return next();
+  }
   if (isLegacyMetadataImagePath(context.url.pathname)) {
     return new Response(null, {
       status: 410,

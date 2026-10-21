@@ -1,0 +1,13 @@
+{
+  "http_status": 200,
+  "records": 27,
+  "cover_image_refs": 19,
+  "cover_assets_with_url": 19,
+  "author_types": [
+    "NoneType",
+    "str"
+  ],
+  "revisions_changed_since_body_snapshot": [],
+  "saved_file_sha256": "28a6df5e496714c1c27121140ef0b43dcc9c0bb7ed18c337e33c578feeda712a",
+  "cms_writes": 0
+}

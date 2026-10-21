@@ -1,0 +1,5 @@
+{
+  "localhost_request_with_non_loopback_host": 403,
+  "pass": true,
+  "scope": "Private review configuration host guard; no public server configuration changed."
+}

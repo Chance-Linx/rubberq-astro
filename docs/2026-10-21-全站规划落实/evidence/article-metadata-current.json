@@ -1,0 +1,909 @@
+{
+  "fetched_at": "2026-10-21T11:47:18.818633+00:00",
+  "query": "*[_type == \"article\" && _id in $ids]{_id,_rev,_createdAt,_updatedAt,slug,publishedAt,status,author,category,tags,coverImage,\"coverAsset\":coverImage.asset->{_id,url,originalFilename,mimeType,size,metadata{dimensions,hasAlpha,isOpaque}}}",
+  "result": [
+    {
+      "_createdAt": "2026-04-15T08:27:44Z",
+      "_id": "Iht31guWKGVyy0fDUhwnFo",
+      "_rev": "eN7xRzolB5Lpd79D00725q",
+      "_updatedAt": "2026-05-02T09:05:01Z",
+      "author": null,
+      "category": null,
+      "coverAsset": {
+        "_id": "image-1cc62adc22999944f88c38aa831b47f06a91fe28-1792x1024-webp",
+        "metadata": {
+          "dimensions": {
+            "_type": "sanity.imageDimensions",
+            "aspectRatio": 1.75,
+            "height": 1024,
+            "width": 1792
+          },
+          "hasAlpha": false,
+          "isOpaque": true
+        },
+        "mimeType": "image/webp",
+        "originalFilename": "cover-fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing.webp",
+        "size": 82436,
+        "url": "https://cdn.sanity.io/images/tcjl4afv/production/1cc62adc22999944f88c38aa831b47f06a91fe28-1792x1024.webp"
+      },
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-1cc62adc22999944f88c38aa831b47f06a91fe28-1792x1024-webp",
+          "_type": "reference"
+        }
+      },
+      "publishedAt": "2026-03-02T03:08:18.000Z",
+      "slug": {
+        "_type": "slug",
+        "current": "fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing"
+      },
+      "status": "published",
+      "tags": null
+    },
+    {
+      "_createdAt": "2026-04-15T08:28:05Z",
+      "_id": "Iht31guWKGVyy0fDUhwnXu",
+      "_rev": "tOg8rPBjlu3UwNHWI5LxCN",
+      "_updatedAt": "2026-05-02T09:04:59Z",
+      "author": null,
+      "category": null,
+      "coverAsset": {
+        "_id": "image-1a030b748e70543f92a95089be33f5bb0b86f3f4-1792x1024-webp",
+        "metadata": {
+          "dimensions": {
+            "_type": "sanity.imageDimensions",
+            "aspectRatio": 1.75,
+            "height": 1024,
+            "width": 1792
+          },
+          "hasAlpha": false,
+          "isOpaque": true
+        },
+        "mimeType": "image/webp",
+        "originalFilename": "cover-rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction.webp",
+        "size": 82998,
+        "url": "https://cdn.sanity.io/images/tcjl4afv/production/1a030b748e70543f92a95089be33f5bb0b86f3f4-1792x1024.webp"
+      },
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-1a030b748e70543f92a95089be33f5bb0b86f3f4-1792x1024-webp",
+          "_type": "reference"
+        }
+      },
+      "publishedAt": "2026-03-10T05:48:04.000Z",
+      "slug": {
+        "_type": "slug",
+        "current": "rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction"
+      },
+      "status": "published",
+      "tags": null
+    },
+    {
+      "_createdAt": "2026-04-15T08:28:06Z",
+      "_id": "Iht31guWKGVyy0fDUhwnb6",
+      "_rev": "eN7xRzolB5Lpd79D0071Qf",
+      "_updatedAt": "2026-05-02T09:04:58Z",
+      "author": null,
+      "category": null,
+      "coverAsset": {
+        "_id": "image-fe84a1b3f1bfee06170c3c0730bc261f0a86bd42-1792x1024-webp",
+        "metadata": {
+          "dimensions": {
+            "_type": "sanity.imageDimensions",
+            "aspectRatio": 1.75,
+            "height": 1024,
+            "width": 1792
+          },
+          "hasAlpha": false,
+          "isOpaque": true
+        },
+        "mimeType": "image/webp",
+        "originalFilename": "cover-low-temperature-retraction-tr-10-predicting-seal-failure-in-arctic-conditions.webp",
+        "size": 93652,
+        "url": "https://cdn.sanity.io/images/tcjl4afv/production/fe84a1b3f1bfee06170c3c0730bc261f0a86bd42-1792x1024.webp"
+      },
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-fe84a1b3f1bfee06170c3c0730bc261f0a86bd42-1792x1024-webp",
+          "_type": "reference"
+        }
+      },
+      "publishedAt": "2026-03-21T02:44:06.000Z",
+      "slug": {
+        "_type": "slug",
+        "current": "low-temperature-retraction-tr-10-predicting-seal-failure-in-arctic-conditions"
+      },
+      "status": "published",
+      "tags": null
+    },
+    {
+      "_createdAt": "2026-04-15T08:28:08Z",
+      "_id": "Iht31guWKGVyy0fDUhwndE",
+      "_rev": "tOg8rPBjlu3UwNHWI5U4eM",
+      "_updatedAt": "2026-05-02T11:50:45Z",
+      "author": null,
+      "category": null,
+      "coverAsset": {
+        "_id": "image-9cfc2d7b843a0d1ebbb7ba4feb62a5801ac9c1d1-1792x1024-webp",
+        "metadata": {
+          "dimensions": {
+            "_type": "sanity.imageDimensions",
+            "aspectRatio": 1.75,
+            "height": 1024,
+            "width": 1792
+          },
+          "hasAlpha": false,
+          "isOpaque": true
+        },
+        "mimeType": "image/webp",
+        "originalFilename": "cover-tensile-stress-strain-curves-what-a-mechanical-engineer-needs-to-know-about-rubber.webp",
+        "size": 113052,
+        "url": "https://cdn.sanity.io/images/tcjl4afv/production/9cfc2d7b843a0d1ebbb7ba4feb62a5801ac9c1d1-1792x1024.webp"
+      },
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-9cfc2d7b843a0d1ebbb7ba4feb62a5801ac9c1d1-1792x1024-webp",
+          "_type": "reference"
+        }
+      },
+      "publishedAt": "2026-04-01T05:30:26.000Z",
+      "slug": {
+        "_type": "slug",
+        "current": "tensile-stress-strain-curves-what-a-mechanical-engineer-needs-to-know-about-rubb"
+      },
+      "status": "published",
+      "tags": null
+    },
+    {
+      "_createdAt": "2026-04-15T08:28:12Z",
+      "_id": "Iht31guWKGVyy0fDUhwngQ",
+      "_rev": "tOg8rPBjlu3UwNHWI5LxCN",
+      "_updatedAt": "2026-05-02T09:04:59Z",
+      "author": null,
+      "category": null,
+      "coverAsset": {
+        "_id": "image-19d7e78746b3492052f143a4fb470a2a37ba0faf-1792x1024-webp",
+        "metadata": {
+          "dimensions": {
+            "_type": "sanity.imageDimensions",
+            "aspectRatio": 1.75,
+            "height": 1024,
+            "width": 1792
+          },
+          "hasAlpha": false,
+          "isOpaque": true
+        },
+        "mimeType": "image/webp",
+        "originalFilename": "cover-oil-swell-percentages-correlating-laboratory-data-with-real-world-performance.webp",
+        "size": 45146,
+        "url": "https://cdn.sanity.io/images/tcjl4afv/production/19d7e78746b3492052f143a4fb470a2a37ba0faf-1792x1024.webp"
+      },
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-19d7e78746b3492052f143a4fb470a2a37ba0faf-1792x1024-webp",
+          "_type": "reference"
+        }
+      },
+      "publishedAt": "2026-03-11T05:43:46.000Z",
+      "slug": {
+        "_type": "slug",
+        "current": "oil-swell-percentages-correlating-laboratory-data-with-real-world-performance"
+      },
+      "status": "published",
+      "tags": null
+    },
+    {
+      "_createdAt": "2026-04-15T08:28:36Z",
+      "_id": "Iht31guWKGVyy0fDUhwo2m",
+      "_rev": "yy3AgfhEInbCSF63Vxvki5",
+      "_updatedAt": "2026-05-02T09:04:55Z",
+      "author": null,
+      "category": null,
+      "coverAsset": {
+        "_id": "image-c105088f7de8fc00dfd50eadd8c0665fcf110033-1792x1024-webp",
+        "metadata": {
+          "dimensions": {
+            "_type": "sanity.imageDimensions",
+            "aspectRatio": 1.75,
+            "height": 1024,
+            "width": 1792
+          },
+          "hasAlpha": false,
+          "isOpaque": true
+        },
+        "mimeType": "image/webp",
+        "originalFilename": "cover-custom-compound-development-how-rubberq-approaches-non-standard-requests.webp",
+        "size": 157578,
+        "url": "https://cdn.sanity.io/images/tcjl4afv/production/c105088f7de8fc00dfd50eadd8c0665fcf110033-1792x1024.webp"
+      },
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-c105088f7de8fc00dfd50eadd8c0665fcf110033-1792x1024-webp",
+          "_type": "reference"
+        }
+      },
+      "publishedAt": "2026-04-01T02:35:04.000Z",
+      "slug": {
+        "_type": "slug",
+        "current": "custom-compound-development-how-rubberq-approaches-non-standard-requests"
+      },
+      "status": "published",
+      "tags": null
+    },
+    {
+      "_createdAt": "2026-04-15T08:31:46Z",
+      "_id": "Iht31guWKGVyy0fDUhwqHh",
+      "_rev": "eN7xRzolB5Lpd79D0071Qf",
+      "_updatedAt": "2026-05-02T09:04:58Z",
+      "author": null,
+      "category": null,
+      "coverAsset": {
+        "_id": "image-22acef1c7f47b6fdd17bc3f77f67ed308bd812a7-1792x1024-webp",
+        "metadata": {
+          "dimensions": {
+            "_type": "sanity.imageDimensions",
+            "aspectRatio": 1.75,
+            "height": 1024,
+            "width": 1792
+          },
+          "hasAlpha": false,
+          "isOpaque": true
+        },
+        "mimeType": "image/webp",
+        "originalFilename": "cover-over-compression-when-tighter-is-not-better-for-gasket-performance.webp",
+        "size": 92842,
+        "url": "https://cdn.sanity.io/images/tcjl4afv/production/22acef1c7f47b6fdd17bc3f77f67ed308bd812a7-1792x1024.webp"
+      },
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-22acef1c7f47b6fdd17bc3f77f67ed308bd812a7-1792x1024-webp",
+          "_type": "reference"
+        }
+      },
+      "publishedAt": "2026-03-17T02:32:07.000Z",
+      "slug": {
+        "_type": "slug",
+        "current": "over-compression-when-tighter-is-not-better-for-gasket-performance"
+      },
+      "status": "published",
+      "tags": null
+    },
+    {
+      "_createdAt": "2026-04-15T08:29:51Z",
+      "_id": "JKXFHBvvO5hPVDVOF65qCN",
+      "_rev": "tOg8rPBjlu3UwNHWI5LxCN",
+      "_updatedAt": "2026-05-02T09:04:59Z",
+      "author": null,
+      "category": null,
+      "coverAsset": {
+        "_id": "image-8cf42bdd47e358baa9d312790f4d133a496cae0f-1792x1024-webp",
+        "metadata": {
+          "dimensions": {
+            "_type": "sanity.imageDimensions",
+            "aspectRatio": 1.75,
+            "height": 1024,
+            "width": 1792
+          },
+          "hasAlpha": false,
+          "isOpaque": true
+        },
+        "mimeType": "image/webp",
+        "originalFilename": "cover-optical-instruments-outgassing-prevention-in-high-precision-lens-housing.webp",
+        "size": 55970,
+        "url": "https://cdn.sanity.io/images/tcjl4afv/production/8cf42bdd47e358baa9d312790f4d133a496cae0f-1792x1024.webp"
+      },
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-8cf42bdd47e358baa9d312790f4d133a496cae0f-1792x1024-webp",
+          "_type": "reference"
+        }
+      },
+      "publishedAt": "2026-03-12T00:54:59.000Z",
+      "slug": {
+        "_type": "slug",
+        "current": "optical-instruments-outgassing-prevention-in-high-precision-lens-housing"
+      },
+      "status": "published",
+      "tags": null
+    },
+    {
+      "_createdAt": "2026-04-15T08:29:54Z",
+      "_id": "JKXFHBvvO5hPVDVOF65r3m",
+      "_rev": "yy3AgfhEInbCSF63VxvjSv",
+      "_updatedAt": "2026-05-02T09:04:53Z",
+      "author": null,
+      "category": null,
+      "coverAsset": {
+        "_id": "image-8142640585fa954e70edc9e9fc93bd3e54f5201f-1792x1024-webp",
+        "metadata": {
+          "dimensions": {
+            "_type": "sanity.imageDimensions",
+            "aspectRatio": 1.75,
+            "height": 1024,
+            "width": 1792
+          },
+          "hasAlpha": false,
+          "isOpaque": true
+        },
+        "mimeType": "image/webp",
+        "originalFilename": "cover-iso-3601-3-visual-inspection-standards-for-o-rings-what-is-acceptable.webp",
+        "size": 93194,
+        "url": "https://cdn.sanity.io/images/tcjl4afv/production/8142640585fa954e70edc9e9fc93bd3e54f5201f-1792x1024.webp"
+      },
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-8142640585fa954e70edc9e9fc93bd3e54f5201f-1792x1024-webp",
+          "_type": "reference"
+        }
+      },
+      "publishedAt": "2026-04-09T08:37:17.000Z",
+      "slug": {
+        "_type": "slug",
+        "current": "iso-3601-3-visual-inspection-standards-for-o-rings-what-is-acceptable"
+      },
+      "status": "published",
+      "tags": null
+    },
+    {
+      "_createdAt": "2026-04-15T08:30:19Z",
+      "_id": "JKXFHBvvO5hPVDVOF65tZ8",
+      "_rev": "tOg8rPBjlu3UwNHWI5LxCN",
+      "_updatedAt": "2026-05-02T09:04:59Z",
+      "author": null,
+      "category": null,
+      "coverAsset": {
+        "_id": "image-399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400-jpg",
+        "metadata": {
+          "dimensions": {
+            "_type": "sanity.imageDimensions",
+            "aspectRatio": 2,
+            "height": 400,
+            "width": 800
+          },
+          "hasAlpha": false,
+          "isOpaque": true
+        },
+        "mimeType": "image/jpeg",
+        "originalFilename": "default-blog-cover.jpg",
+        "size": 35714,
+        "url": "https://cdn.sanity.io/images/tcjl4afv/production/399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400.jpg"
+      },
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400-jpg",
+          "_type": "reference"
+        }
+      },
+      "publishedAt": "2026-03-10T01:19:56.000Z",
+      "slug": {
+        "_type": "slug",
+        "current": "root-cause-analysis-8d-rubberqs-process-for-resolving-quality-deviations"
+      },
+      "status": "published",
+      "tags": null
+    },
+    {
+      "_createdAt": "2026-04-15T08:30:20Z",
+      "_id": "JKXFHBvvO5hPVDVOF65tsY",
+      "_rev": "eN7xRzolB5Lpd79D0071Qf",
+      "_updatedAt": "2026-05-02T09:04:58Z",
+      "author": null,
+      "category": null,
+      "coverAsset": {
+        "_id": "image-399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400-jpg",
+        "metadata": {
+          "dimensions": {
+            "_type": "sanity.imageDimensions",
+            "aspectRatio": 2,
+            "height": 400,
+            "width": 800
+          },
+          "hasAlpha": false,
+          "isOpaque": true
+        },
+        "mimeType": "image/jpeg",
+        "originalFilename": "default-blog-cover.jpg",
+        "size": 35714,
+        "url": "https://cdn.sanity.io/images/tcjl4afv/production/399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400.jpg"
+      },
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400-jpg",
+          "_type": "reference"
+        }
+      },
+      "publishedAt": "2026-03-19T02:44:57.000Z",
+      "slug": {
+        "_type": "slug",
+        "current": "measurement-system-analysis-msa-ensuring-gage-rr-in-rubber-testing"
+      },
+      "status": "published",
+      "tags": null
+    },
+    {
+      "_createdAt": "2026-04-15T08:30:25Z",
+      "_id": "JKXFHBvvO5hPVDVOF65vMn",
+      "_rev": "eN7xRzolB5Lpd79D00725q",
+      "_updatedAt": "2026-05-02T09:05:01Z",
+      "author": null,
+      "category": null,
+      "coverAsset": {
+        "_id": "image-399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400-jpg",
+        "metadata": {
+          "dimensions": {
+            "_type": "sanity.imageDimensions",
+            "aspectRatio": 2,
+            "height": 400,
+            "width": 800
+          },
+          "hasAlpha": false,
+          "isOpaque": true
+        },
+        "mimeType": "image/jpeg",
+        "originalFilename": "default-blog-cover.jpg",
+        "size": 35714,
+        "url": "https://cdn.sanity.io/images/tcjl4afv/production/399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400.jpg"
+      },
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400-jpg",
+          "_type": "reference"
+        }
+      },
+      "publishedAt": "2026-03-04T06:00:43.000Z",
+      "slug": {
+        "_type": "slug",
+        "current": "rubber-to-metal-bonding-failure-analyzing-adhesive-vs-material-separation"
+      },
+      "status": "published",
+      "tags": null
+    },
+    {
+      "_createdAt": "2026-04-15T08:31:47Z",
+      "_id": "JKXFHBvvO5hPVDVOF66045",
+      "_rev": "eN7xRzolB5Lpd79D0070lU",
+      "_updatedAt": "2026-05-02T09:04:56Z",
+      "author": null,
+      "category": null,
+      "coverAsset": {
+        "_id": "image-399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400-jpg",
+        "metadata": {
+          "dimensions": {
+            "_type": "sanity.imageDimensions",
+            "aspectRatio": 2,
+            "height": 400,
+            "width": 800
+          },
+          "hasAlpha": false,
+          "isOpaque": true
+        },
+        "mimeType": "image/jpeg",
+        "originalFilename": "default-blog-cover.jpg",
+        "size": 35714,
+        "url": "https://cdn.sanity.io/images/tcjl4afv/production/399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400.jpg"
+      },
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400-jpg",
+          "_type": "reference"
+        }
+      },
+      "publishedAt": "2026-03-27T05:30:47.000Z",
+      "slug": {
+        "_type": "slug",
+        "current": "groove-design-calculating-percentage-fill-and-squeeze-for-o-rings"
+      },
+      "status": "published",
+      "tags": null
+    },
+    {
+      "_createdAt": "2026-04-15T08:31:53Z",
+      "_id": "JKXFHBvvO5hPVDVOF660gv",
+      "_rev": "yy3AgfhEInbCSF63Vxvki5",
+      "_updatedAt": "2026-05-02T09:04:55Z",
+      "author": null,
+      "category": null,
+      "coverAsset": {
+        "_id": "image-399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400-jpg",
+        "metadata": {
+          "dimensions": {
+            "_type": "sanity.imageDimensions",
+            "aspectRatio": 2,
+            "height": 400,
+            "width": 800
+          },
+          "hasAlpha": false,
+          "isOpaque": true
+        },
+        "mimeType": "image/jpeg",
+        "originalFilename": "default-blog-cover.jpg",
+        "size": 35714,
+        "url": "https://cdn.sanity.io/images/tcjl4afv/production/399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400.jpg"
+      },
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400-jpg",
+          "_type": "reference"
+        }
+      },
+      "publishedAt": "2026-03-29T02:31:07.000Z",
+      "slug": {
+        "_type": "slug",
+        "current": "stress-relaxation-how-it-differs-from-compression-set"
+      },
+      "status": "published",
+      "tags": null
+    },
+    {
+      "_createdAt": "2026-04-15T08:32:02Z",
+      "_id": "JKXFHBvvO5hPVDVOF661TT",
+      "_rev": "yy3AgfhEInbCSF63Vxvki5",
+      "_updatedAt": "2026-05-02T09:04:55Z",
+      "author": null,
+      "category": null,
+      "coverAsset": {
+        "_id": "image-399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400-jpg",
+        "metadata": {
+          "dimensions": {
+            "_type": "sanity.imageDimensions",
+            "aspectRatio": 2,
+            "height": 400,
+            "width": 800
+          },
+          "hasAlpha": false,
+          "isOpaque": true
+        },
+        "mimeType": "image/jpeg",
+        "originalFilename": "default-blog-cover.jpg",
+        "size": 35714,
+        "url": "https://cdn.sanity.io/images/tcjl4afv/production/399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400.jpg"
+      },
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400-jpg",
+          "_type": "reference"
+        }
+      },
+      "publishedAt": "2026-03-28T09:11:58.000Z",
+      "slug": {
+        "_type": "slug",
+        "current": "permeation-vs-leakage-understanding-the-difference-in-gas-systems"
+      },
+      "status": "published",
+      "tags": null
+    },
+    {
+      "_createdAt": "2026-04-15T09:41:40Z",
+      "_id": "JKXFHBvvO5hPVDVOF6CvU1",
+      "_rev": "oeeqzfnXc2Dw0PW0W4QPXW",
+      "_updatedAt": "2026-05-18T10:12:44Z",
+      "author": null,
+      "category": null,
+      "coverAsset": {
+        "_id": "image-399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400-jpg",
+        "metadata": {
+          "dimensions": {
+            "_type": "sanity.imageDimensions",
+            "aspectRatio": 2,
+            "height": 400,
+            "width": 800
+          },
+          "hasAlpha": false,
+          "isOpaque": true
+        },
+        "mimeType": "image/jpeg",
+        "originalFilename": "default-blog-cover.jpg",
+        "size": 35714,
+        "url": "https://cdn.sanity.io/images/tcjl4afv/production/399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400.jpg"
+      },
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400-jpg",
+          "_type": "reference"
+        }
+      },
+      "publishedAt": "2026-06-11T19:47:00.000Z",
+      "slug": {
+        "_type": "slug",
+        "current": "bonding-strength-testing-interpreting-90-degree-vs-180-degree-peel-tests"
+      },
+      "status": "published",
+      "tags": null
+    },
+    {
+      "_createdAt": "2026-04-15T08:31:24Z",
+      "_id": "QeuV1LXZQHOxh8iFCMnkLO",
+      "_rev": "eN7xRzolB5Lpd79D0070lU",
+      "_updatedAt": "2026-05-02T09:04:56Z",
+      "author": null,
+      "category": null,
+      "coverAsset": {
+        "_id": "image-399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400-jpg",
+        "metadata": {
+          "dimensions": {
+            "_type": "sanity.imageDimensions",
+            "aspectRatio": 2,
+            "height": 400,
+            "width": 800
+          },
+          "hasAlpha": false,
+          "isOpaque": true
+        },
+        "mimeType": "image/jpeg",
+        "originalFilename": "default-blog-cover.jpg",
+        "size": 35714,
+        "url": "https://cdn.sanity.io/images/tcjl4afv/production/399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400.jpg"
+      },
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400-jpg",
+          "_type": "reference"
+        }
+      },
+      "publishedAt": "2026-03-26T08:30:45.000Z",
+      "slug": {
+        "_type": "slug",
+        "current": "compression-set-failure-why-your-seal-lost-its-bounce"
+      },
+      "status": "published",
+      "tags": null
+    },
+    {
+      "_createdAt": "2026-04-15T08:31:31Z",
+      "_id": "QeuV1LXZQHOxh8iFCMnkjO",
+      "_rev": "eN7xRzolB5Lpd79D0071Qf",
+      "_updatedAt": "2026-05-02T09:04:58Z",
+      "author": null,
+      "category": null,
+      "coverAsset": {
+        "_id": "image-399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400-jpg",
+        "metadata": {
+          "dimensions": {
+            "_type": "sanity.imageDimensions",
+            "aspectRatio": 2,
+            "height": 400,
+            "width": 800
+          },
+          "hasAlpha": false,
+          "isOpaque": true
+        },
+        "mimeType": "image/jpeg",
+        "originalFilename": "default-blog-cover.jpg",
+        "size": 35714,
+        "url": "https://cdn.sanity.io/images/tcjl4afv/production/399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400.jpg"
+      },
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400-jpg",
+          "_type": "reference"
+        }
+      },
+      "publishedAt": "2026-03-18T04:16:24.000Z",
+      "slug": {
+        "_type": "slug",
+        "current": "flash-on-molded-parts-defining-flash-free-and-its-cost-implications"
+      },
+      "status": "published",
+      "tags": null
+    },
+    {
+      "_createdAt": "2026-04-15T09:40:47Z",
+      "_id": "QeuV1LXZQHOxh8iFCMqHnO",
+      "_rev": "11ceQugRC4GuR1GhSs9lZ2",
+      "_updatedAt": "2026-05-18T10:12:03Z",
+      "author": null,
+      "category": null,
+      "coverAsset": {
+        "_id": "image-399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400-jpg",
+        "metadata": {
+          "dimensions": {
+            "_type": "sanity.imageDimensions",
+            "aspectRatio": 2,
+            "height": 400,
+            "width": 800
+          },
+          "hasAlpha": false,
+          "isOpaque": true
+        },
+        "mimeType": "image/jpeg",
+        "originalFilename": "default-blog-cover.jpg",
+        "size": 35714,
+        "url": "https://cdn.sanity.io/images/tcjl4afv/production/399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400.jpg"
+      },
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-399b0b2cb51c632ea09f51a7ee7fc58bbbff6b2f-800x400-jpg",
+          "_type": "reference"
+        }
+      },
+      "publishedAt": "2026-05-31T08:54:00.000Z",
+      "slug": {
+        "_type": "slug",
+        "current": "astm-d2000-explained-the-universal-language-for-specifying-rubber-materials"
+      },
+      "status": "published",
+      "tags": null
+    },
+    {
+      "_createdAt": "2026-05-26T06:49:14Z",
+      "_id": "article-batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+      "_rev": "u4SPfG4EtNHvvP9LxnXQgh",
+      "_updatedAt": "2026-05-26T06:51:54Z",
+      "author": "RubberQ Engineering Team",
+      "category": "Quality",
+      "coverAsset": null,
+      "coverImage": null,
+      "publishedAt": "2026-05-26T06:20:00Z",
+      "slug": {
+        "_type": "slug",
+        "current": "batch-traceability-rubber-manufacturing-raw-polymer-shipment-records"
+      },
+      "status": "published",
+      "tags": [
+        "batch traceability",
+        "rubber manufacturing",
+        "ERP records",
+        "quality control"
+      ]
+    },
+    {
+      "_createdAt": "2026-05-26T06:49:18Z",
+      "_id": "article-cryogenic-deflashing-vs-manual-trimming-precision-rubber-parts",
+      "_rev": "u4SPfG4EtNHvvP9LxnXR8l",
+      "_updatedAt": "2026-05-26T06:51:59Z",
+      "author": "RubberQ Engineering Team",
+      "category": "Process Engineering",
+      "coverAsset": null,
+      "coverImage": null,
+      "publishedAt": "2026-05-26T06:30:00Z",
+      "slug": {
+        "_type": "slug",
+        "current": "cryogenic-deflashing-vs-manual-trimming-precision-rubber-parts"
+      },
+      "status": "published",
+      "tags": [
+        "cryogenic deflashing",
+        "manual trimming",
+        "precision molding",
+        "rubber finishing"
+      ]
+    },
+    {
+      "_createdAt": "2026-05-26T06:49:16Z",
+      "_id": "article-industrial-bellows-material-selection-flex-life-media-exposure",
+      "_rev": "ABrvN9p4HTT2BOyLeRplUa",
+      "_updatedAt": "2026-05-26T06:51:57Z",
+      "author": "RubberQ Engineering Team",
+      "category": "Industrial Equipment",
+      "coverAsset": null,
+      "coverImage": null,
+      "publishedAt": "2026-05-26T06:25:00Z",
+      "slug": {
+        "_type": "slug",
+        "current": "industrial-bellows-material-selection-flex-life-media-exposure"
+      },
+      "status": "published",
+      "tags": [
+        "industrial bellows",
+        "material selection",
+        "flex life",
+        "molded rubber"
+      ]
+    },
+    {
+      "_createdAt": "2026-05-26T06:49:06Z",
+      "_id": "article-post-curing-silicone-rubber-parts-volatile-control-compression-set",
+      "_rev": "u4SPfG4EtNHvvP9LxnXPKV",
+      "_updatedAt": "2026-05-26T06:51:45Z",
+      "author": "RubberQ Engineering Team",
+      "category": "Process Engineering",
+      "coverAsset": null,
+      "coverImage": null,
+      "publishedAt": "2026-05-26T06:00:00Z",
+      "slug": {
+        "_type": "slug",
+        "current": "post-curing-silicone-rubber-parts-volatile-control-compression-set"
+      },
+      "status": "published",
+      "tags": [
+        "silicone rubber",
+        "post-curing",
+        "compression set",
+        "batch validation"
+      ]
+    },
+    {
+      "_createdAt": "2026-05-26T06:49:20Z",
+      "_id": "article-ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+      "_rev": "u4SPfG4EtNHvvP9LxnXRMn",
+      "_updatedAt": "2026-05-26T06:52:01Z",
+      "author": "RubberQ Engineering Team",
+      "category": "Quality",
+      "coverAsset": null,
+      "coverImage": null,
+      "publishedAt": "2026-05-26T06:35:00Z",
+      "slug": {
+        "_type": "slug",
+        "current": "ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist"
+      },
+      "status": "published",
+      "tags": [
+        "PPAP",
+        "rubber parts",
+        "supplier qualification",
+        "IATF 16949"
+      ]
+    },
+    {
+      "_createdAt": "2026-08-07T10:38:29Z",
+      "_id": "article-rob-002",
+      "_rev": "kF0pH8zAeRz6etg9XH9FLr",
+      "_updatedAt": "2026-08-07T11:13:09Z",
+      "author": null,
+      "category": null,
+      "coverAsset": null,
+      "coverImage": null,
+      "publishedAt": "2026-08-10T11:54:28.000Z",
+      "slug": {
+        "_type": "slug",
+        "current": "vibration-damping-mounts-dynamic-stiffness-humanoid-robot-actuators"
+      },
+      "status": "published",
+      "tags": null
+    },
+    {
+      "_createdAt": "2026-08-07T06:58:32Z",
+      "_id": "article-sem-001",
+      "_rev": "ek4pKd5NOgHrvnAUS0zgr5",
+      "_updatedAt": "2026-08-07T11:13:03Z",
+      "author": null,
+      "category": null,
+      "coverAsset": null,
+      "coverImage": null,
+      "publishedAt": "2026-08-07T09:37:12.000Z",
+      "slug": {
+        "_type": "slug",
+        "current": "high-vacuum-ffkm-seals-plasma-etching-semiconductor"
+      },
+      "status": "published",
+      "tags": null
+    },
+    {
+      "_createdAt": "2026-05-02T09:36:41Z",
+      "_id": "article-spc-rubber-molding-cpk-zero-defect",
+      "_rev": "hfH9i9C1WObc0VBSExiiz0",
+      "_updatedAt": "2026-05-13T17:00:09Z",
+      "author": null,
+      "category": "technical",
+      "coverAsset": null,
+      "coverImage": null,
+      "publishedAt": "2025-01-02T22:00:00.000Z",
+      "slug": {
+        "_type": "slug",
+        "current": "spc-in-rubber-molding-how-cpk-167-delivers-zero-defect-batches"
+      },
+      "status": "published",
+      "tags": null
+    }
+  ],
+  "scope": "Read-only current metadata for the27 retained article IDs; no CMS mutations or body overwrite."
+}
