@@ -74,4 +74,3 @@ Result (90 files):
 - 0 errors
 - 0 warnings
 - 13 hints
-
