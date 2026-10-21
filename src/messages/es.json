@@ -3088,21 +3088,108 @@
       "RQ-PG-014": {
         "label": "EPDM",
         "title": "EPDM para juntas y sellos | RubberQ",
-        "description": "Consulte EPDM para intemperie, agua o fluidos formulados en su conjunto.",
+        "description": "Evalúe sellos y juntas EPDM según fluido completo, ciclo térmico y montaje. Defina pruebas de refrigerante, vapor, intemperie y muestras para su aplicación.",
         "h1": "EPDM para juntas y sellos",
         "intro": "Consulte EPDM para intemperie, agua o fluidos formulados en su conjunto. La selección considera el medio completo, los ciclos térmicos y los requisitos mecánicos.",
         "sections": [
           {
-            "heading": "Aportar la formulación del fluido",
-            "body": "Para refrigerantes, identifique mezcla y aditivos, no solo el fluido base. Incluya productos de limpieza y contaminantes."
+            "heading": "Definir el compuesto EPDM y la interfaz",
+            "body": "Empiece por el compuesto o las propiedades requeridas, el plano y el motivo de selección. Describa compresión instalada, contracaras y movimiento. Para decidir la compra, el nombre de la familia necesita una especificación de proyecto y muestras identificadas."
           },
           {
-            "heading": "Revisar el conjunto comprimido",
-            "body": "Describa compresión, movimiento de la unión, estado de bridas y ciclos térmicos. Explique cómo se instala y retiene el sello."
+            "heading": "Registrar la exposición completa al fluido",
+            "body": "Aporte producto, composición y concentración, incluidos aditivos y lubricante de montaje. Refrigerante, fertilizante, productos de tratamiento de agua, solución de urea y limpiadores requieren sus condiciones reales.",
+            "table": {
+              "caption": "Información para evaluar compatibilidad de EPDM con fluidos",
+              "columns": [
+                "Dato",
+                "Información necesaria"
+              ],
+              "rows": [
+                [
+                  "Material",
+                  "Identidad del compuesto, preparación e informes pertinentes"
+                ],
+                [
+                  "Fluido",
+                  "Producto o especificación completos, proporción de mezcla y aditivos"
+                ],
+                [
+                  "Lubricación",
+                  "Producto, cantidad y contacto durante montaje y uso"
+                ],
+                [
+                  "Secuencia",
+                  "Contacto, limpieza, secado y cambios de medio"
+                ],
+                [
+                  "Condiciones",
+                  "Temperatura, presión, duración, circulación e interrupciones"
+                ],
+                [
+                  "Resultado del material",
+                  "Cambios dimensionales o de propiedades exigidos y límites de aceptación"
+                ],
+                [
+                  "Resultado del conjunto",
+                  "Muestra montada, comprobación de fugas o función y responsable de aprobación"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Interpretar informes de hinchamiento (inglés)"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Preparar una consulta de compatibilidad"
+              }
+            ]
           },
           {
-            "heading": "Acordar un ensayo de compatibilidad",
-            "body": "Defina inmersión, cambios relevantes de propiedades y comprobaciones de montaje del compuesto. Las comparaciones generales solo sirven de orientación inicial."
+            "heading": "Tratar el vapor como exposición propia",
+            "body": "Indique vapor húmedo o seco, temperatura y presión, permanencia, arranque y parada, limpieza y tensión de montaje. Defina compuesto y evaluación de muestras para esa secuencia. El envejecimiento en aire seco por sí solo no determina la vida en vapor. Acuerde las pruebas para la decisión de mantenimiento prevista.",
+            "links": [
+              {
+                "url": "/blog/rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction",
+                "label": "Interpretar envejecimiento y estimaciones de vida (inglés)"
+              },
+              {
+                "url": "/testing",
+                "label": "Planificar ensayos de material y conjunto"
+              }
+            ]
+          },
+          {
+            "heading": "Definir intemperie y unión instalada",
+            "body": "Aporte exposición solar, ozono, humedad y temperatura con deformación o compresión instalada e interfaces unidas. La evaluación de ozono necesita concentración, temperatura, duración, deformación y condiciones de observación de grietas. Acuerde criterios de aspecto y función; la selección del material se distingue del rendimiento de la envolvente completa."
+          },
+          {
+            "heading": "Especificar olor y emisiones por separado",
+            "body": "Si importan olor o VOC, aporte para cada evaluación método del cliente, estado de muestra, acondicionamiento, historial de embalaje y criterios de aceptación. Identifique compuesto y pieza ensayados. Observación de olor, informe VOC y resultado de propiedades no se sustituyen entre sí."
+          },
+          {
+            "heading": "Confirmar pieza, formato y decisión de muestras",
+            "body": "Envíe plano, cantidad, embalaje y documentación. Para una lámina o junta, defina espesor, perfil y requisitos de pieza terminada para estudiar material y fabricación. En suministro de compuesto, defina aparte el proceso receptor. Acuerde inspección dimensional y aprobación del montaje antes de pedidos recurrentes.",
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "Juntas tóricas y sellos especiales"
+              },
+              {
+                "url": "/products/gaskets",
+                "label": "Geometría y suministro de juntas"
+              },
+              {
+                "url": "/compounds",
+                "label": "Requisitos de suministro de compuestos"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Consultar muestras de evaluación"
+              }
+            ]
           }
         ],
         "cta": "Consultar una aplicación EPDM",
@@ -3111,21 +3198,119 @@
       "RQ-PG-015": {
         "label": "HNBR",
         "title": "HNBR para piezas de sellado mecánico | RubberQ",
-        "description": "Evalúe HNBR frente al fluido, la temperatura y las cargas mecánicas repetidas del componente.",
+        "description": "Evalúe HNBR según fluido, historial térmico y carga mecánica. Prepare grado, plano, ensayos de muestras y criterios de aceptación del montaje.",
         "h1": "HNBR para piezas de sellado mecánico",
         "intro": "Evalúe HNBR frente al fluido, la temperatura y las cargas mecánicas repetidas del componente. Revise conjuntamente compuesto y geometría.",
         "sections": [
           {
-            "heading": "Describir el trabajo mecánico",
-            "body": "Indique dirección de carga, movimiento, ciclos y superficies de contacto. Incluya fricción, desgaste y compresión cuando afecten al conjunto."
+            "heading": "Identificar el candidato HNBR y su función",
+            "body": "Aporte compuesto o grado de polímero existente, información disponible de acrilonitrilo y propiedades requeridas. Explique si la decisión trata exposición, arranque en frío, carga repetida, fricción o un fallo. La hidrogenación o un valor aislado no cualifican una pieza para todo medio y servicio mecánico."
           },
           {
-            "heading": "Identificar la exposición de servicio",
-            "body": "Especifique fluidos, aditivos, limpieza y ciclos térmicos. Revise todo el entorno con la formulación candidata."
+            "heading": "Describir el fluido y la secuencia operativa",
+            "body": "Para aceite o refrigerante con glicol, identifique producto completo, concentración y aditivos. Incluya limpieza, mezcla, duración de contacto e historial real de temperatura y presión.",
+            "table": {
+              "caption": "Información para evaluar material y pieza HNBR",
+              "columns": [
+                "Dato",
+                "Detalles que definir"
+              ],
+              "rows": [
+                [
+                  "Candidato",
+                  "Código de compuesto, referencia de polímero, composición disponible y revisión"
+                ],
+                [
+                  "Fluido",
+                  "Aceite o refrigerante formulado completos, concentración, aditivos y limpieza"
+                ],
+                [
+                  "Temperatura",
+                  "Arranque en frío, servicio normal, picos, permanencia y recuperación"
+                ],
+                [
+                  "Presión",
+                  "Cambios operativos, despresurización, contacto con gas e interrupciones"
+                ],
+                [
+                  "Interfaz",
+                  "Plano, holgura, compresión, apoyo y montaje"
+                ],
+                [
+                  "Movimiento",
+                  "Carrera o rotación, velocidad, carga y contracara"
+                ],
+                [
+                  "Pruebas",
+                  "Probetas y piezas identificadas, método, condiciones y criterios de aceptación"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Interpretar informes de exposición a fluidos (inglés)"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Datos de compatibilidad con medios"
+              }
+            ]
           },
           {
-            "heading": "Realizar ensayos representativos",
-            "body": "Acuerde dureza, propiedades físicas y pruebas funcionales de muestra que reflejen el componente y su montaje real."
+            "heading": "Evaluar el requisito mecánico real",
+            "body": "Defina movimiento y carga antes de comparar. Para fricción o desgaste, incluya lubricación, acabado, contaminantes, temperatura y configuración de ensayo. Compare compuestos identificados y muestras representativas, sin clasificar juntas todas las formulaciones HNBR.",
+            "items": [
+              "Distinguir datos de tracción del caso de carga instalado.",
+              "Separar fuerza de arranque, fricción en marcha, desgaste y fugas.",
+              "Registrar geometría, acondicionamiento y punto final de comparación."
+            ],
+            "links": [
+              {
+                "url": "/blog/tensile-stress-strain-curves-what-a-mechanical-engineer-needs-to-know-about-rubb",
+                "label": "Leer curvas de tracción y condiciones de probeta (inglés)"
+              },
+              {
+                "url": "/products/seals",
+                "label": "Requisitos de sellos dinámicos e interfaces"
+              }
+            ]
+          },
+          {
+            "heading": "Relacionar presión y temperatura con el conjunto",
+            "body": "Defina ciclo de presión, secuencia de descarga, holgura de extrusión y apoyos junto con medios y temperatura. Acuerde pruebas de pieza y conjunto. La dureza o un resultado de envejecimiento en aire no establecen capacidad de presión ni vida del componente instalado.",
+            "links": [
+              {
+                "url": "/blog/rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction",
+                "label": "Interpretar envejecimiento y vida estimada (inglés)"
+              },
+              {
+                "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+                "label": "Separar deformación remanente y fuerza residual (inglés)"
+              }
+            ]
+          },
+          {
+            "heading": "Acordar muestras y especificación recurrente",
+            "body": "Envíe revisión del plano, cantidad, material de referencia y evaluación requerida. Relacione cada resultado con compuesto y lote, y acuerde dimensiones, criterios de material y aprobación de montaje. Al comparar con NBR, use el mismo servicio definido. Confirme embalaje, registros de liberación y revisión de cambios antes del suministro regular.",
+            "links": [
+              {
+                "url": "/materials/nbr",
+                "label": "Requisitos de materiales NBR"
+              },
+              {
+                "url": "/testing",
+                "label": "Evaluación de material, pieza y conjunto"
+              },
+              {
+                "url": "/quality",
+                "label": "Registros de lote y control de cambios"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Preparar una solicitud de muestras"
+              }
+            ]
           }
         ],
         "cta": "Consultar una aplicación HNBR",
@@ -3134,21 +3319,123 @@
       "RQ-PG-016": {
         "label": "NBR",
         "title": "NBR para piezas industriales de caucho | RubberQ",
-        "description": "Evalúe NBR para una aplicación industrial definida.",
+        "description": "Especifique piezas o compuestos NBR con aceite real, arranque en frío, plano y cantidad. Compare informes de material, desgaste y resultados del conjunto.",
         "h1": "NBR para piezas industriales de caucho",
         "intro": "Evalúe NBR para una aplicación industrial definida. Composición del fluido, temperatura y equilibrio entre flexibilidad y propiedades mecánicas orientan la mezcla.",
         "sections": [
           {
-            "heading": "Definir exposición a aceite o fluido",
-            "body": "Identifique el medio y las condiciones de limpieza o almacenamiento. Incluya temperatura, presión y movimiento del sello."
+            "heading": "Definir compuesto NBR y objeto de compra",
+            "body": "Indique si necesita un sello terminado, otra pieza moldeada o compuesto sin vulcanizar para su proceso. Aporte grado existente, código o propiedades exigidas, incluida la información disponible de acrilonitrilo. Relacione material, plano y cantidad sin tratar todos los compuestos de nitrilo como intercambiables."
           },
           {
-            "heading": "Especificar requisitos mecánicos",
-            "body": "Enumere dureza, límites de deformación, desgaste y dimensiones que controlan la función del conjunto."
+            "heading": "Comparar exposición al aceite y requisito de frío",
+            "body": "Identifique aceite, combustible, lubricante o líquido completos y la secuencia térmica real. Para aguas residuales o mezclas de limpieza, describa componentes, concentración, contaminantes y tiempo de contacto.",
+            "table": {
+              "caption": "Información para una consulta NBR",
+              "columns": [
+                "Dato",
+                "Qué definir"
+              ],
+              "rows": [
+                [
+                  "Material",
+                  "Grado o compuesto, revisión de especificación y propiedades requeridas"
+                ],
+                [
+                  "Fluido",
+                  "Producto o composición exactos, aditivos, limpieza y cambios en servicio"
+                ],
+                [
+                  "Frío",
+                  "Temperatura de arranque, movimiento, parada y recuperación"
+                ],
+                [
+                  "Otras exposiciones",
+                  "Temperatura normal, picos, duración, presión e interrupciones"
+                ],
+                [
+                  "Pieza",
+                  "Plano, dimensiones, alojamiento o contracaras y montaje"
+                ],
+                [
+                  "Suministro",
+                  "Pieza o compuesto, cantidades de muestra y serie, embalaje"
+                ],
+                [
+                  "Aceptación",
+                  "Condiciones de probeta, criterios dimensionales y función del conjunto"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Comparar resultados de hinchamiento (inglés)"
+              },
+              {
+                "url": "/blog/low-temperature-retraction-tr-10-predicting-seal-failure-in-arctic-conditions",
+                "label": "Leer datos de retracción a baja temperatura (inglés)"
+              }
+            ]
           },
           {
-            "heading": "Comparar antes de cambiar material",
-            "body": "Para sustituir un compuesto, comparta designación e historial de fallo. Acuerde muestras y plan de validación para la alternativa."
+            "heading": "Definir una comparación útil de desgaste o fricción",
+            "body": "Al comparar NBR, HNBR o una referencia XNBR, identifique los compuestos y use el mismo movimiento, contracara, lubricación, partículas, temperatura y carga. Defina el punto final: desgaste, fuerza de arranque, fricción en marcha o pérdida de sellado. Comparar familias no confirma una opción concreta de suministro.",
+            "items": [
+              "Usar probetas identificadas o piezas terminadas representativas.",
+              "Registrar preparación, exposición y condiciones de medición.",
+              "Evaluar la interfaz exigida con el criterio funcional acordado."
+            ],
+            "links": [
+              {
+                "url": "/materials/hnbr",
+                "label": "Requisitos de candidatos HNBR"
+              },
+              {
+                "url": "/products/seals",
+                "label": "Movimiento e interfaz de sellado"
+              }
+            ]
+          },
+          {
+            "heading": "Vincular informes de material y aceptación de pieza",
+            "body": "Solicite propiedades necesarias para la especificación y el método utilizado. Relacione resultados con compuesto y probeta. Acuerde dimensiones, superficie, acondicionamiento y comprobaciones de montaje del componente. Un valor de hinchamiento no demuestra todos los requisitos mecánicos o de sellado.",
+            "links": [
+              {
+                "url": "/blog/tensile-stress-strain-curves-what-a-mechanical-engineer-needs-to-know-about-rubb",
+                "label": "Interpretar datos de tracción (inglés)"
+              },
+              {
+                "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+                "label": "Leer una especificación ASTM D2000 (inglés)"
+              },
+              {
+                "url": "/testing",
+                "label": "Planificar ensayos de material y componente"
+              }
+            ]
+          },
+          {
+            "heading": "Preparar muestras y suministro recurrente",
+            "body": "Envíe revisión del plano, material, cantidad y la cuestión que deben resolver las muestras. Acuerde ensayos, responsables de aprobación, lotes y embalaje antes del suministro recurrente. En compuesto, confirme proceso receptor y manipulación específica; en piezas moldeadas, mantenga geometría e inspección aprobadas.",
+            "links": [
+              {
+                "url": "/products/custom",
+                "label": "Requisitos de piezas moldeadas a medida"
+              },
+              {
+                "url": "/compounds",
+                "label": "Suministro de compuestos"
+              },
+              {
+                "url": "/quality",
+                "label": "Registros de calidad y trazabilidad"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Solicitar una muestra de evaluación"
+              }
+            ]
           }
         ],
         "cta": "Consultar una aplicación NBR",
@@ -3157,21 +3444,128 @@
       "RQ-PG-017": {
         "label": "Silicona",
         "title": "Silicona para piezas moldeadas a medida | RubberQ",
-        "description": "Consulte silicona para la geometría y condiciones de uso de su componente.",
+        "description": "Defina piezas moldeadas de silicona por geometría, aspecto, exposición térmica y sellado. Revise estado de muestras, acabado y criterios de aprobación.",
         "h1": "Silicona para piezas moldeadas a medida",
         "intro": "Consulte silicona para la geometría y condiciones de uso de su componente. Flexibilidad, temperatura, medios de contacto y montaje orientan la revisión.",
         "sections": [
           {
-            "heading": "Elegir la ruta según la geometría",
-            "body": "Comparta espesores, detalles finos, insertos y prioridades dimensionales. Material y moldeo deben adaptarse a la misma pieza."
+            "heading": "Identificar silicona y pieza terminada",
+            "body": "Envíe grado o requisitos del material y plano. Indique designación de polímero, como VMQ cuando proceda, y si el proceso exige silicona líquida. Incluya formato y uso: sello moldeado, junta o lámina necesitan geometría y revisión de fabricación propias.",
+            "links": [
+              {
+                "url": "/materials/lsr",
+                "label": "Requisitos de material y proceso LSR"
+              },
+              {
+                "url": "/products/custom",
+                "label": "Preparar una pieza moldeada a medida"
+              }
+            ]
           },
           {
-            "heading": "Revisar todo el entorno",
-            "body": "Incluya fluidos, limpieza, ciclos térmicos, cargas y requisitos eléctricos con sus métodos de ensayo."
+            "heading": "Definir aspecto y dimensiones en la misma muestra",
+            "body": "Para piezas de color, translúcidas o transparentes, identifique material y geometría. Una consulta de pieza transparente debe identificar primero el material. La transparencia no define por sí sola polímero ni rendimiento óptico ensayado.",
+            "table": {
+              "caption": "Información para aceptar piezas de silicona",
+              "columns": [
+                "Requisito",
+                "Qué acordar"
+              ],
+              "rows": [
+                [
+                  "Geometría",
+                  "Revisión del plano, espesor, perfil, dimensiones funcionales y apoyo"
+                ],
+                [
+                  "Moldeo",
+                  "Partición, rebaba, bordes, acabado e interfaces de insertos"
+                ],
+                [
+                  "Material",
+                  "Grado o compuesto, sistema de curado y preparación"
+                ],
+                [
+                  "Color",
+                  "Referencia, muestra física, iluminación y método de comparación"
+                ],
+                [
+                  "Transparencia",
+                  "Espesor, observación y método de turbidez o transmisión si se exige"
+                ],
+                [
+                  "Estado de pieza",
+                  "Acabado, poscurado, acondicionamiento, limpieza y embalaje"
+                ],
+                [
+                  "Decisión",
+                  "Referencia de aspecto, informe dimensional y criterios funcionales"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/flash-on-molded-parts-defining-flash-free-and-its-cost-implications",
+                "label": "Especificar aceptación de rebabas (inglés)"
+              },
+              {
+                "url": "/blog/cryogenic-deflashing-vs-manual-trimming-precision-rubber-parts",
+                "label": "Comparar métodos de desbarbado (inglés)"
+              }
+            ]
           },
           {
-            "heading": "Acordar acabado e inspección",
-            "body": "Especifique color, aspecto, rebaba admisible y dimensiones críticas. Los requisitos normativos o de certificación de una aplicación se revisan por separado."
+            "heading": "Describir por separado calor seco, agua caliente y vapor",
+            "body": "Indique temperatura, presión pertinente, contacto, limpieza y arranque o parada del medio real. Incluya tensión de montaje y requisitos del cliente para el contacto previsto. Compare grado y pieza bajo esa exposición. Un informe de calor seco no demuestra todos los requisitos de agua caliente o vapor.",
+            "links": [
+              {
+                "url": "/blog/rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction",
+                "label": "Interpretar envejecimiento y vida estimada (inglés)"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Requisitos de medios y exposición"
+              }
+            ]
+          },
+          {
+            "heading": "Separar recuperación, fuerza residual y sellado",
+            "body": "Para una junta estática, defina compresión, geometría de unión, temperatura, tiempo y recuperación. La deformación remanente describe un resultado de recuperación. Fuerza residual y fugas del conjunto son evaluaciones distintas. Acuerde qué resultados necesita la aplicación e identifique probeta o pieza en cada caso.",
+            "links": [
+              {
+                "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+                "label": "Deformación remanente y relajación (inglés)"
+              },
+              {
+                "url": "/blog/compression-set-failure-why-your-seal-lost-its-bounce",
+                "label": "Interpretar datos de fallo por deformación remanente (inglés)"
+              }
+            ]
+          },
+          {
+            "heading": "Especificar el nivel de la evaluación eléctrica",
+            "body": "Si se exige silicona con función eléctrica, indique por separado medición del material y apantallamiento del conjunto. Incluya útil, frecuencias, compresión de contacto, interfaces y evaluación tras exposición cuando corresponda. Confirme material y ruta de suministro frente a la especificación antes de tratar un objetivo como producto disponible."
+          },
+          {
+            "heading": "Acordar proceso, muestras y suministro recurrente",
+            "body": "Defina poscurado o control de volátiles con compuesto, estado de pieza y método de aceptación identificados. Registre acabado y acondicionamiento de muestras aprobadas. Envíe cantidad e informes necesarios para acordar moldeo, embalaje, lotes y revisión de cambios del proyecto.",
+            "links": [
+              {
+                "url": "/blog/post-curing-silicone-rubber-parts-volatile-control-compression-set",
+                "label": "Evaluar poscurado y control de volátiles (inglés)"
+              },
+              {
+                "url": "/capabilities/lsr-molding",
+                "label": "Consultar un proceso de moldeo LSR"
+              },
+              {
+                "url": "/testing",
+                "label": "Evaluación de material y pieza"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Preparar muestras de silicona"
+              }
+            ]
           }
         ],
         "cta": "Consultar una aplicación de silicona",

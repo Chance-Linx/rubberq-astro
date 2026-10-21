@@ -1,0 +1,86 @@
+{
+  "baseline_commit": "cdb2b044026a2986a9a94be60ddcd927c5766523",
+  "checks": [
+    {
+      "locale": "en",
+      "pass": true,
+      "changed_ids": [
+        "RQ-PG-014",
+        "RQ-PG-015",
+        "RQ-PG-016",
+        "RQ-PG-017"
+      ],
+      "fields": [
+        "description",
+        "sections"
+      ]
+    },
+    {
+      "locale": "de",
+      "pass": true,
+      "changed_ids": [
+        "RQ-PG-014",
+        "RQ-PG-015",
+        "RQ-PG-016",
+        "RQ-PG-017"
+      ],
+      "fields": [
+        "description",
+        "sections"
+      ]
+    },
+    {
+      "locale": "ja",
+      "pass": true,
+      "changed_ids": [
+        "RQ-PG-014",
+        "RQ-PG-015",
+        "RQ-PG-016",
+        "RQ-PG-017"
+      ],
+      "fields": [
+        "description",
+        "sections"
+      ]
+    },
+    {
+      "locale": "es",
+      "pass": true,
+      "changed_ids": [
+        "RQ-PG-014",
+        "RQ-PG-015",
+        "RQ-PG-016",
+        "RQ-PG-017"
+      ],
+      "fields": [
+        "description",
+        "sections"
+      ]
+    },
+    {
+      "locale": "zh",
+      "pass": true,
+      "changed_ids": [
+        "RQ-PG-014",
+        "RQ-PG-015",
+        "RQ-PG-016",
+        "RQ-PG-017"
+      ],
+      "fields": [
+        "description",
+        "sections"
+      ]
+    }
+  ],
+  "preexisting_file_hashes_unchanged": true,
+  "package_checks": {
+    "passed": 27,
+    "total": 27
+  },
+  "implemented_modules": 12,
+  "remaining_modules": 23,
+  "accepted_coverage": 0,
+  "cms_writes": 0,
+  "production_deployments": 0,
+  "final_review": "not_started"
+}

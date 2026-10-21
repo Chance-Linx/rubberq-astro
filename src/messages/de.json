@@ -3050,21 +3050,108 @@
       "RQ-PG-014": {
         "label": "EPDM",
         "title": "EPDM für Dichtungen und Flachdichtungen | RubberQ",
-        "description": "EPDM für Ihre Baugruppe bewerten: Kühlmittelzusammensetzung, Witterung, Temperaturzyklen, Kompression und Mischungstests gemeinsam abstimmen.",
+        "description": "Bewerten Sie EPDM-Dichtungen anhand von Medium, Temperaturzyklus und Montage. Definieren Sie Prüfungen für Kühlmittel, Dampf, Witterung und Muster.",
         "h1": "EPDM für Dichtungen und Flachdichtungen",
         "intro": "Besprechen Sie EPDM für Witterung, Wasser oder formulierte Betriebsmedien in Ihrer Baugruppe. Berücksichtigen Sie das vollständige Medium, Temperaturzyklen und mechanische Anforderungen.",
         "sections": [
           {
-            "heading": "Vollständige Medienzusammensetzung angeben",
-            "body": "Nennen Sie bei Kühlmittelkontakt das Gemisch und seine Additive statt nur des Basismediums. Reinigungschemikalien und Verunreinigungen gehören ebenfalls zur Bewertung."
+            "heading": "EPDM-Mischung und Schnittstelle bestimmen",
+            "body": "Beginnen Sie mit Mischungsreferenz oder geforderten Eigenschaften, Teilezeichnung und Auswahlgrund. Beschreiben Sie Verpressung, Gegenflächen und Bewegung. Für die Beschaffungsentscheidung benötigt der Werkstofffamilienname eine Projektspezifikation und zugeordnete Muster."
           },
           {
-            "heading": "Die verpresste Baugruppe betrachten",
-            "body": "Beschreiben Sie Verpressung, Fugenbewegung, Flanschzustand und Temperaturwechsel sowie die Montage und Fixierung der Dichtung."
+            "heading": "Den vollständigen Medienkontakt erfassen",
+            "body": "Nennen Sie Produkt, Zusammensetzung und Konzentration einschließlich Additiven und Montageschmierstoff. Kühlmittel, Düngerlösung, Wasseraufbereitungschemikalien, Harnstofflösung und Reiniger benötigen die tatsächlichen Kontaktbedingungen.",
+            "table": {
+              "caption": "Angaben zur EPDM-Medienverträglichkeit",
+              "columns": [
+                "Angabe",
+                "Benötigte Informationen"
+              ],
+              "rows": [
+                [
+                  "Werkstoff",
+                  "Mischungsidentität, Vorbereitung und vorhandene relevante Berichte"
+                ],
+                [
+                  "Medium",
+                  "Vollständiges Produkt oder Spezifikation, Mischungsverhältnis und Additive"
+                ],
+                [
+                  "Schmierung",
+                  "Schmierstoff, Menge und Kontakt bei Montage und Betrieb"
+                ],
+                [
+                  "Ablauf",
+                  "Kontakt, Reinigung, Trocknung und Medienwechsel"
+                ],
+                [
+                  "Bedingungen",
+                  "Temperatur, Druck, Dauer, Umlauf und Unterbrechungen"
+                ],
+                [
+                  "Werkstoffergebnis",
+                  "Geforderte Maß- oder Eigenschaftsänderungen und Annahmegrenzen"
+                ],
+                [
+                  "Baugruppenergebnis",
+                  "Eingebautes Muster, Dichtheits- oder Funktionsprüfung und Freigabeverantwortung"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Quellberichte in Flüssigkeiten lesen (Englisch)"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Medienverträglichkeitsanfrage vorbereiten"
+              }
+            ]
           },
           {
-            "heading": "Verträglichkeitsprüfung vereinbaren",
-            "body": "Definieren Sie Eintauchbedingungen, relevante Eigenschaftsänderungen und Einbauprüfungen für die ausgewählte Mischung. Allgemeine Werkstoffvergleiche dienen nur der Vorauswahl."
+            "heading": "Dampf als eigene Belastung behandeln",
+            "body": "Nennen Sie nassen oder trockenen Zustand, Temperatur und Druck, Haltezeit, An- und Abfahren, Reinigung und Einbauspannung. Legen Sie Mischung und Musterbewertung für diesen Ablauf fest. Eine Heißluftalterung allein belegt keine Dampflebensdauer. Vereinbaren Sie die Nachweise für die beabsichtigte Wartungsentscheidung.",
+            "links": [
+              {
+                "url": "/blog/rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction",
+                "label": "Alterungs- und Lebensdauerabschätzungen lesen (Englisch)"
+              },
+              {
+                "url": "/testing",
+                "label": "Werkstoff- und Baugruppenprüfungen planen"
+              }
+            ]
+          },
+          {
+            "heading": "Außenbewitterung und Einbauschnittstelle festlegen",
+            "body": "Beschreiben Sie Sonne, Ozon, Feuchte und Temperatur gemeinsam mit Dehnung oder Verpressung und möglichen Klebeverbindungen. Eine Ozonbewertung benötigt Konzentration, Temperatur, Dauer, Dehnung und Bedingungen der Rissbeurteilung. Vereinbaren Sie Aussehens- und Funktionskriterien. Die Werkstoffauswahl ist von der Leistung des vollständigen Gehäuses zu unterscheiden."
+          },
+          {
+            "heading": "Geruch und Emissionen getrennt spezifizieren",
+            "body": "Wenn Geruch oder VOC relevant sind, nennen Sie für jede Bewertung Kundenmethode, Probenzustand, Konditionierung, Verpackungsverlauf und Annahmekriterien. Ordnen Sie die geprüfte Mischung und das Teil zu. Geruchsbeobachtung, VOC-Bericht und Werkstoffprüfung ersetzen einander nicht."
+          },
+          {
+            "heading": "Teil, Lieferform und Musterentscheidung bestätigen",
+            "body": "Senden Sie Zeichnung, Menge, Verpackungs- und Dokumentationsbedarf. Beschreiben Sie bei Platten- oder Flachdichtungsanfragen Dicke, Kontur und Anforderungen des Fertigteils, um Werkstoff und Fertigungsweg abzustimmen. Für Mischungslieferung ist der empfangende Prozess gesondert festzulegen. Vereinbaren Sie Maßprüfung und Montagefreigabe vor Folgebestellungen.",
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "O-Ringe und Sonderdichtungen"
+              },
+              {
+                "url": "/products/gaskets",
+                "label": "Geometrie und Lieferung von Flachdichtungen"
+              },
+              {
+                "url": "/compounds",
+                "label": "Anforderungen an Mischungslieferungen"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Bewertungsmuster besprechen"
+              }
+            ]
           }
         ],
         "cta": "EPDM-Anwendung besprechen",
@@ -3073,21 +3160,119 @@
       "RQ-PG-015": {
         "label": "HNBR",
         "title": "HNBR für mechanisch belastete Dichtungsbauteile | RubberQ",
-        "description": "HNBR für mechanisch belastete Gummibauteile. Bewerten Sie Mischung und Geometrie anhand von Medien, Temperatur, Bewegung und repräsentativen Prüfungen.",
+        "description": "Bewerten Sie HNBR für Medium, Temperaturverlauf und mechanische Last. Bereiten Sie Sorte, Zeichnung, Musterprüfung und Montageannahmekriterien vor.",
         "h1": "HNBR für mechanisch belastete Dichtungsbauteile",
         "intro": "Bewerten Sie HNBR anhand von Medium, Temperatur und wiederholter mechanischer Belastung. Mischung und Bauteilgeometrie sollten gemeinsam betrachtet werden.",
         "sections": [
           {
-            "heading": "Mechanische Belastung beschreiben",
-            "body": "Nennen Sie Lastrichtung, Bewegung, Lastzyklen und Kontaktflächen. Ergänzen Sie Reibung, Verschleiß und Verpressung, soweit sie die Funktion beeinflussen."
+            "heading": "HNBR-Kandidat und Aufgabe bestimmen",
+            "body": "Nennen Sie vorhandene Mischung oder Polymersorte, verfügbare Angaben zum Acrylnitrilgehalt und geforderte Eigenschaften. Beschreiben Sie die Entscheidung zu Medienkontakt, Kaltstart, Wechselbelastung, Reibung oder einem Schaden. Hydrierung oder ein Einzelwert qualifiziert ein Teil nicht für jedes Medium und jede mechanische Aufgabe."
           },
           {
-            "heading": "Betriebsumgebung erfassen",
-            "body": "Spezifizieren Sie Medien, Additive, Reinigung und Temperaturzyklen. Beziehen Sie die vollständige Umgebung in die Bewertung der Rezeptur ein."
+            "heading": "Medium und Betriebsfolge beschreiben",
+            "body": "Identifizieren Sie bei Öl oder glykolhaltigem Kühlmittel das vollständige Produkt, Konzentration und Additive. Nennen Sie Reinigung, Mischung, Kontaktdauer sowie realen Temperatur- und Druckverlauf.",
+            "table": {
+              "caption": "Angaben zur HNBR-Werkstoff- und Bauteilbewertung",
+              "columns": [
+                "Angabe",
+                "Zu definierende Einzelheiten"
+              ],
+              "rows": [
+                [
+                  "Kandidat",
+                  "Mischungscode, Polymerreferenz, verfügbare Zusammensetzungsdaten und Spezifikationsstand"
+                ],
+                [
+                  "Medium",
+                  "Vollständiges Öl oder formuliertes Kühlmittel, Konzentration, Additive und Reinigung"
+                ],
+                [
+                  "Temperatur",
+                  "Kaltstart, Normalbetrieb, Spitzen, Haltezeit und Erholung"
+                ],
+                [
+                  "Druck",
+                  "Betriebsänderungen, Druckabbau, Gaskontakt und Unterbrechungen"
+                ],
+                [
+                  "Schnittstelle",
+                  "Zeichnung, Einbauspalt, Verpressung, Abstützung und Montage"
+                ],
+                [
+                  "Bewegung",
+                  "Hub oder Rotation, Geschwindigkeit, Belastung und Gegenfläche"
+                ],
+                [
+                  "Nachweise",
+                  "Zugeordnete Proben und Teile, Methode, Bedingungen und Annahmekriterien"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Medienprüfberichte verstehen (Englisch)"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Angaben zur Medienverträglichkeit"
+              }
+            ]
           },
           {
-            "heading": "Repräsentativ prüfen",
-            "body": "Vereinbaren Sie Härte, relevante physikalische Prüfungen und Funktionstests am Muster, die Bauteil und Einbau tatsächlich abbilden."
+            "heading": "Die tatsächliche mechanische Anforderung bewerten",
+            "body": "Definieren Sie Bewegung und Last vor dem Kandidatenvergleich. Für Reibung oder Verschleiß gehören Schmierung, Oberfläche, Verunreinigung, Temperatur und Prüfaufbau dazu. Vergleichen Sie Berichte bestimmter Mischungen und repräsentativer Muster, statt alle HNBR-Rezepturen gemeinsam einzustufen.",
+            "items": [
+              "Zugprüfdaten vom eingebauten Lastfall unterscheiden.",
+              "Losbrechkraft, Laufreibung, Verschleiß und Leckage getrennt erfassen.",
+              "Probengeometrie, Konditionierung und Vergleichsendpunkt dokumentieren."
+            ],
+            "links": [
+              {
+                "url": "/blog/tensile-stress-strain-curves-what-a-mechanical-engineer-needs-to-know-about-rubb",
+                "label": "Zugkurven und Probenbedingungen lesen (Englisch)"
+              },
+              {
+                "url": "/products/seals",
+                "label": "Anforderungen an bewegte Dichtungen und Schnittstellen"
+              }
+            ]
+          },
+          {
+            "heading": "Druck und Temperatur mit der Baugruppe betrachten",
+            "body": "Definieren Sie bei druckbelasteten Dichtungen Druckzyklus, Entlastungsfolge, Extrusionsspalt und Abstützung gemeinsam mit Medien und Temperatur. Vereinbaren Sie Bauteil- und Baugruppenversuche. Härte oder Luftalterung einer Mischung belegt weder Druckeignung noch Lebensdauer des eingebauten Teils.",
+            "links": [
+              {
+                "url": "/blog/rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction",
+                "label": "Alterung und Lebensdauerabschätzungen verstehen (Englisch)"
+              },
+              {
+                "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+                "label": "Druckverformungsrest und Restkraft unterscheiden (Englisch)"
+              }
+            ]
+          },
+          {
+            "heading": "Muster- und Folgelieferspezifikation vereinbaren",
+            "body": "Senden Sie Zeichnungsstand, Menge, Referenzwerkstoff und Bewertungsbedarf. Ordnen Sie jedes Ergebnis Mischung und Mustercharge zu und vereinbaren Sie Maße, Werkstoffkriterien und Montagefreigabe. Verwenden Sie beim Vergleich mit NBR denselben definierten Einsatz. Bestätigen Sie Verpackung, Freigabenachweise und Änderungsprüfung vor der Regelbelieferung.",
+            "links": [
+              {
+                "url": "/materials/nbr",
+                "label": "Anforderungen an NBR-Werkstoffe"
+              },
+              {
+                "url": "/testing",
+                "label": "Werkstoff-, Bauteil- und Baugruppenbewertung"
+              },
+              {
+                "url": "/quality",
+                "label": "Chargennachweise und Änderungssteuerung"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Eine Bewertungsmusteranfrage vorbereiten"
+              }
+            ]
           }
         ],
         "cta": "HNBR-Anwendung besprechen",
@@ -3096,21 +3281,123 @@
       "RQ-PG-016": {
         "label": "NBR",
         "title": "NBR für industrielle Gummibauteile | RubberQ",
-        "description": "NBR-Mischungen für industrielle Bauteile: Medienkontakt, Temperatur, Härte, Verformung und Anforderungen an Einbau und Muster gemeinsam prüfen.",
+        "description": "Spezifizieren Sie NBR-Teile oder Mischungen mit Öl, Kaltstart, Zeichnung und Menge. Vergleichen Sie Prüfberichte, Verschleißprüfungen und Montageergebnisse.",
         "h1": "NBR für industrielle Gummibauteile",
         "intro": "Prüfen Sie NBR für eine klar definierte industrielle Anwendung. Medienzusammensetzung, Temperatur sowie das Verhältnis von Flexibilität und mechanischen Eigenschaften bestimmen die Mischungsauswahl.",
         "sections": [
           {
-            "heading": "Öl- und Medienkontakt festlegen",
-            "body": "Benennen Sie das Betriebsmedium sowie Reinigungs- und Lagerbedingungen. Ergänzen Sie Temperatur, Druck und Dichtungsbewegung."
+            "heading": "NBR-Mischung und Beschaffungsaufgabe bestimmen",
+            "body": "Geben Sie an, ob Sie fertige Dichtungen, andere Formteile oder unvulkanisierte Mischung für Ihren Prozess benötigen. Nennen Sie Sorte, Mischungscode oder geforderte Eigenschaften einschließlich verfügbarer Angaben zum Acrylnitrilgehalt. Verknüpfen Sie Werkstoffidentität, Zeichnung und Menge, statt alle Nitrilmischungen als austauschbar zu betrachten."
           },
           {
-            "heading": "Mechanische Anforderungen spezifizieren",
-            "body": "Nennen Sie Härte, Verformungsgrenzen, Verschleißaspekte und die für den Einbau entscheidenden Maße."
+            "heading": "Ölkontakt mit Kälteanforderungen vergleichen",
+            "body": "Identifizieren Sie vollständiges Öl, Kraftstoff, Schmierstoff oder Betriebsmedium und den realen Temperaturablauf. Bei Abwasser oder Reinigungsmischungen sind Bestandteile, Konzentration, Verunreinigungen und Kontaktdauer zu beschreiben.",
+            "table": {
+              "caption": "Angaben für eine NBR-Anfrage",
+              "columns": [
+                "Angabe",
+                "Zu definierende Informationen"
+              ],
+              "rows": [
+                [
+                  "Werkstoff",
+                  "Vorhandene Sorte oder Mischung, Spezifikationsstand und geforderte Eigenschaften"
+                ],
+                [
+                  "Medium",
+                  "Konkretes Produkt oder Zusammensetzung, Additive, Reinigung und Betriebsänderungen"
+                ],
+                [
+                  "Kälte",
+                  "Starttemperatur, Bewegung, Stillstandszeit und Erholung"
+                ],
+                [
+                  "Weitere Belastung",
+                  "Normaltemperatur, Spitzen, Dauer, Druck und Unterbrechungen"
+                ],
+                [
+                  "Bauteil",
+                  "Zeichnung, Maße, Nut oder Gegenflächen und Montage"
+                ],
+                [
+                  "Belieferung",
+                  "Bauteil oder Mischung, Muster- und Serienmenge, Verpackung"
+                ],
+                [
+                  "Annahme",
+                  "Probenbedingungen, Maßkriterien und Baugruppenfunktion"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Quellergebnisse vergleichen (Englisch)"
+              },
+              {
+                "url": "/blog/low-temperature-retraction-tr-10-predicting-seal-failure-in-arctic-conditions",
+                "label": "Tieftemperatur-Rückstellwerte lesen (Englisch)"
+              }
+            ]
           },
           {
-            "heading": "Vor dem Werkstoffwechsel vergleichen",
-            "body": "Senden Sie bei einem Ersatz die bisherige Werkstoffbezeichnung und Schadenshistorie. Vereinbaren Sie Muster und Validierung für die Alternative."
+            "heading": "Reibung und Verschleiß sinnvoll vergleichen",
+            "body": "Identifizieren Sie beim Vergleich von NBR, HNBR oder einer XNBR-Referenz die tatsächlichen Mischungen. Verwenden Sie gleiche Bewegung, Gegenfläche, Schmierung, Partikel, Temperatur und Last. Definieren Sie Verschleiß, Losbrechkraft, Laufreibung oder Funktionsverlust als Endpunkt. Der Familienvergleich ist von der Bestätigung einer Lieferoption zu trennen.",
+            "items": [
+              "Zugeordnete Proben oder repräsentative Fertigteile verwenden.",
+              "Vorbereitung, Belastung und Messbedingungen dokumentieren.",
+              "Die erforderliche Schnittstelle anhand eines vereinbarten Funktionskriteriums bewerten."
+            ],
+            "links": [
+              {
+                "url": "/materials/hnbr",
+                "label": "Anforderungen an HNBR-Kandidaten"
+              },
+              {
+                "url": "/products/seals",
+                "label": "Bewegung und Dichtungsschnittstelle"
+              }
+            ]
+          },
+          {
+            "heading": "Werkstoffberichte mit der Teileannahme verbinden",
+            "body": "Fordern Sie die für die Teilespezifikation benötigten Eigenschaften und die verwendete Methode an. Ordnen Sie Ergebnisse Mischung und Probe zu. Vereinbaren Sie am Fertigteil Maße, Oberfläche, Konditionierung und Montageprüfungen. Ein Quellwert allein belegt nicht jede mechanische oder dichtungstechnische Anforderung.",
+            "links": [
+              {
+                "url": "/blog/tensile-stress-strain-curves-what-a-mechanical-engineer-needs-to-know-about-rubb",
+                "label": "Zugprüfdaten verstehen (Englisch)"
+              },
+              {
+                "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+                "label": "ASTM-D2000-Werkstoffspezifikationen lesen (Englisch)"
+              },
+              {
+                "url": "/testing",
+                "label": "Werkstoff- und Bauteilprüfungen planen"
+              }
+            ]
+          },
+          {
+            "heading": "Muster und Folgelieferentscheidung vorbereiten",
+            "body": "Senden Sie Zeichnungsstand, Werkstoffreferenz, Menge und die mit Mustern zu klärende Frage. Vereinbaren Sie Prüfumfang, Freigabeverantwortung, Chargenunterlagen und Verpackung vor Folgelieferungen. Bestätigen Sie bei Mischungsbezug den empfangenden Prozess und Handhabungshinweise. Für Formteile bleiben freigegebene Geometrie und Prüfvorgaben maßgeblich.",
+            "links": [
+              {
+                "url": "/products/custom",
+                "label": "Anforderungen an Gummiformteile"
+              },
+              {
+                "url": "/compounds",
+                "label": "Mischungslieferung"
+              },
+              {
+                "url": "/quality",
+                "label": "Qualitätsnachweise und Rückverfolgung"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Bewertungsmuster anfragen"
+              }
+            ]
           }
         ],
         "cta": "NBR-Anwendung besprechen",
@@ -3119,21 +3406,128 @@
       "RQ-PG-017": {
         "label": "Silikon",
         "title": "Silikon für kundenspezifische Formteile | RubberQ",
-        "description": "Silikonformteile nach Zeichnung. Besprechen Sie Geometrie, Flexibilität, Betriebsumgebung, Oberflächenanforderungen und Bauteilprüfung mit RubberQ.",
+        "description": "Definieren Sie Silikonformteile nach Geometrie, Aussehen, Temperaturbelastung und Dichtfunktion. Klären Sie Musterzustand, Nacharbeit und Freigabe.",
         "h1": "Silikon für kundenspezifische Formteile",
         "intro": "Besprechen Sie Silikon anhand von Bauteilgeometrie und Betriebsbedingungen. Flexibilität, Temperatur, Kontaktmedien und Montageanforderungen bestimmen die technische Bewertung.",
         "sections": [
           {
-            "heading": "Fertigungsweg zur Geometrie wählen",
-            "body": "Zeigen Sie Wandstärken, dünne Merkmale, Einlegeteile und Maßprioritäten. Werkstoff und Formgebungsverfahren müssen zum selben Bauteil passen."
+            "heading": "Silikonwerkstoff und Fertigteil bestimmen",
+            "body": "Senden Sie vorhandene Sorte oder Werkstoffanforderung und Teilezeichnung. Nennen Sie gegebenenfalls die Polymerbezeichnung, etwa VMQ, sowie einen vorgegebenen Flüssigsilikonprozess. Beschreiben Sie Lieferform und Einsatz. Formdichtung, Flachdichtung oder Plattenanfrage benötigen eine eigene Geometrie- und Fertigungsbewertung.",
+            "links": [
+              {
+                "url": "/materials/lsr",
+                "label": "LSR-Werkstoff- und Prozessanforderungen"
+              },
+              {
+                "url": "/products/custom",
+                "label": "Gummiformteilprojekt vorbereiten"
+              }
+            ]
           },
           {
-            "heading": "Gesamte Umgebung betrachten",
-            "body": "Nennen Sie Medien, Reinigung, Temperaturwechsel, mechanische Lasten und elektrische Anforderungen einschließlich der zugehörigen Prüfmethoden."
+            "heading": "Aussehen und Maße am selben Muster festlegen",
+            "body": "Verwenden Sie bei farbigen, transluzenten oder klaren Teilen einen bestimmten Werkstoff und eine definierte Mustergeometrie. Bei klaren Teilen ist zuerst der Werkstoff zu identifizieren. Transparenz allein bestimmt weder Polymer noch geprüfte optische Eigenschaften.",
+            "table": {
+              "caption": "Angaben zur Silikonteilannahme",
+              "columns": [
+                "Anforderung",
+                "Zu vereinbarende Bedingungen"
+              ],
+              "rows": [
+                [
+                  "Geometrie",
+                  "Zeichnungsstand, Dicke, Kontur, Funktionsmaße und Messaufnahme"
+                ],
+                [
+                  "Formgebung",
+                  "Trennfuge, Grat, Kanten, Oberfläche und Einlegeteilschnittstellen"
+                ],
+                [
+                  "Werkstoff",
+                  "Sorte oder Mischung, Vernetzungssystem und relevante Vorbereitung"
+                ],
+                [
+                  "Farbe",
+                  "Farbreferenz, physisches Muster, Beleuchtung und Vergleichsverfahren"
+                ],
+                [
+                  "Klarheit",
+                  "Probendicke, Betrachtung und gegebenenfalls Trübungs- oder Transmissionsverfahren"
+                ],
+                [
+                  "Teilezustand",
+                  "Nacharbeit, Tempern, Konditionierung, Reinigung und Verpackung"
+                ],
+                [
+                  "Entscheidung",
+                  "Aussehensreferenz, Maßbericht und Funktionskriterien"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/flash-on-molded-parts-defining-flash-free-and-its-cost-implications",
+                "label": "Gratannahmekriterien spezifizieren (Englisch)"
+              },
+              {
+                "url": "/blog/cryogenic-deflashing-vs-manual-trimming-precision-rubber-parts",
+                "label": "Entgratungsverfahren vergleichen (Englisch)"
+              }
+            ]
           },
           {
-            "heading": "Oberfläche und Prüfung vereinbaren",
-            "body": "Legen Sie Farbe, Aussehen, Gratgrenzen und kritische Maße fest. Anwendungsbezogene Zulassungs- oder Zertifizierungsanforderungen werden gesondert geprüft."
+            "heading": "Trockene Hitze, Heißwasser und Dampf getrennt beschreiben",
+            "body": "Nennen Sie Temperatur, gegebenenfalls Druck, Kontaktdauer, Reinigung sowie An- und Abfahrbedingungen des realen Mediums. Beziehen Sie Einbauspannung und kundenspezifische Kontaktanforderungen ein. Vergleichen Sie Sorte und Teil unter dieser Belastung. Ein Heißluftbericht belegt nicht jede Heißwasser- oder Dampfanforderung.",
+            "links": [
+              {
+                "url": "/blog/rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction",
+                "label": "Alterung und Lebensdauerabschätzungen lesen (Englisch)"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Medien- und Belastungsanforderungen"
+              }
+            ]
+          },
+          {
+            "heading": "Rückstellung, Restkraft und Baugruppendichtheit trennen",
+            "body": "Definieren Sie für statische Dichtungen Verpressung, Verbindungsgeometrie, Temperatur, Dauer und Erholungsbedingungen. Druckverformungsrest beschreibt ein Rückstellergebnis. Restkraft und Baugruppenleckage sind getrennte Aufgaben. Vereinbaren Sie die benötigten Ergebnisse und ordnen Sie jeweils Probe oder Teil zu.",
+            "links": [
+              {
+                "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+                "label": "Druckverformungsrest und Spannungsrelaxation (Englisch)"
+              },
+              {
+                "url": "/blog/compression-set-failure-why-your-seal-lost-its-bounce",
+                "label": "Nachweise bei bleibender Verformung lesen (Englisch)"
+              }
+            ]
+          },
+          {
+            "heading": "Elektrische Anforderungen auf der richtigen Ebene festlegen",
+            "body": "Wenn ein elektrisch funktionaler Silikonwerkstoff gefordert ist, nennen Sie Werkstoffmessung und gegebenenfalls Abschirmaufgabe der Baugruppe getrennt. Beschreiben Sie Prüfvorrichtung, Frequenzbereich, Kontaktverpressung, Schnittstellen und gegebenenfalls Bewertung nach Belastung. Bestätigen Sie Kandidat und Lieferweg anhand der Spezifikation, bevor ein Zielwert als verfügbares Produkt behandelt wird."
+          },
+          {
+            "heading": "Verarbeitung, Muster und Folgelieferung abstimmen",
+            "body": "Definieren Sie Temper- oder Flüchtigkeitsanforderungen mit Mischung, Teilezustand und Annahmemethode. Dokumentieren Sie Nacharbeit und Konditionierung freigegebener Muster. Senden Sie Menge und Berichtsumfang, um Formgebung, Verpackung, Chargenkennung und Änderungsprüfung projektspezifisch abzustimmen.",
+            "links": [
+              {
+                "url": "/blog/post-curing-silicone-rubber-parts-volatile-control-compression-set",
+                "label": "Tempern und flüchtige Bestandteile bewerten (Englisch)"
+              },
+              {
+                "url": "/capabilities/lsr-molding",
+                "label": "Einen LSR-Formgebungsweg besprechen"
+              },
+              {
+                "url": "/testing",
+                "label": "Werkstoff- und Bauteilbewertung"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Eine Silikonmusteranfrage vorbereiten"
+              }
+            ]
           }
         ],
         "cta": "Silikonanwendung besprechen",

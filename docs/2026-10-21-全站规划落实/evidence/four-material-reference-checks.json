@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-21",
+  "scope": "Primary terminology and method-scope checks, not RubberQ compound test data. No paid standard access.",
+  "references": [
+    {
+      "id": "PARKER-HANDBOOK",
+      "url": "https://www.parker.com/content/dam/Parker-com/Literature/Praedifa/Catalogs/Catalog_O-Ring-Handbook_PTD5705-EN.pdf",
+      "sections_read": [
+        "6.3.1 NBR, acrylonitrile-content context",
+        "6.3.9 EPDM",
+        "6.3.12 HNBR"
+      ],
+      "use": "Check family terminology and why actual compound/media conditions matter; do not reproduce universal property tables, brand grades or supplier performance as RubberQ evidence."
+    },
+    {
+      "id": "ISO1431-1-SCOPE",
+      "url": "https://www.iso.org/standard/86601.html",
+      "scope_read": "Public abstract",
+      "use": "Check strain, exposure and crack-observation inputs for the EPDM paragraph."
+    }
+  ],
+  "previous_silicone_processing_reference": "WACKER-SILICONE-PROCESSING remains the existing processing reference; this round does not claim a new full re-read.",
+  "paid_calls": 0,
+  "new_factory_test_results": 0
+}

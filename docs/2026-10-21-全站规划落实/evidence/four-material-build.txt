@@ -1,0 +1,62 @@
+
+> rubberq-astro@1.0.0 build
+> npm run check:public-redlines && npm run check:brand-colors && astro build
+
+
+> rubberq-astro@1.0.0 check:public-redlines
+> node scripts/check-public-redlines.mjs
+
+Public redline check passed.
+
+> rubberq-astro@1.0.0 check:brand-colors
+> node scripts/check-brand-colors.mjs
+
+Brand color check passed.
+15:21:36 [@astrojs/cloudflare] Enabling sessions with Cloudflare KV with the "SESSION" KV binding.
+15:21:36 [@astrojs/cloudflare] If you see the error "Invalid binding `SESSION`" in your build output, you need to add the binding to your wrangler config file.
+15:21:37 [content] Syncing content
+15:21:37 [content] Synced content
+15:21:37 [types] Generated 27ms
+15:21:37 [build] output: "server"
+15:21:37 [build] mode: "server"
+15:21:37 [build] directory: /Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/dist/
+15:21:37 [build] adapter: @astrojs/cloudflare
+15:21:37 [build] Collecting build info...
+15:21:37 [build] ✓ Completed in 74ms.
+15:21:37 [build] Building server entrypoints...
+15:21:37 [WARN] [vite] [plugin vite:resolve] Automatically externalized node built-in module "node:fs/promises" imported from "node_modules/astro/dist/assets/utils/node/emitAsset.js". Consider adding it to environments.ssr.external if it is intended.
+15:21:37 [WARN] [vite] [plugin vite:resolve] Automatically externalized node built-in module "node:path" imported from "node_modules/astro/dist/assets/utils/node/emitAsset.js". Consider adding it to environments.ssr.external if it is intended.
+15:21:37 [WARN] [vite] [plugin vite:resolve] Automatically externalized node built-in module "node:url" imported from "node_modules/astro/dist/assets/utils/node/emitAsset.js". Consider adding it to environments.ssr.external if it is intended.
+15:21:37 [WARN] [vite] [plugin vite:resolve] Automatically externalized node built-in module "node:path" imported from "node_modules/astro/dist/assets/utils/transformToPath.js". Consider adding it to environments.ssr.external if it is intended.
+15:21:37 [WARN] [vite] [plugin vite:resolve] Automatically externalized node built-in module "node:crypto" imported from "node_modules/deterministic-object-hash/dist/index.js". Consider adding it to environments.ssr.external if it is intended.
+15:21:37 [WARN] [router] getStaticPaths() ignored in dynamic page /src/pages/blog/[slug].astro. Add `export const prerender = true;` to prerender the page as static HTML during the build process.
+15:21:37 [WARN] [router] getStaticPaths() ignored in dynamic page /src/pages/[locale]/privacy.astro. Add `export const prerender = true;` to prerender the page as static HTML during the build process.
+15:21:37 [WARN] [router] getStaticPaths() ignored in dynamic page /src/pages/[locale]/search.astro. Add `export const prerender = true;` to prerender the page as static HTML during the build process.
+15:21:37 [WARN] [router] getStaticPaths() ignored in dynamic page /src/pages/[locale]/terms.astro. Add `export const prerender = true;` to prerender the page as static HTML during the build process.
+15:21:37 [WARN] [router] getStaticPaths() ignored in dynamic page /src/pages/en/blog/[slug].astro. Add `export const prerender = true;` to prerender the page as static HTML during the build process.
+15:21:38 [WARN] [vite] [plugin vite:resolve] Automatically externalized node built-in module "node:crypto" imported from "node:crypto?commonjs-external". Consider adding it to environments.ssr.external if it is intended.
+15:21:40 [vite] ✓ built in 3.53s
+15:21:40 [build] ✓ Completed in 3.55s.
+
+ building client (vite)
+15:21:40 [vite] transforming...
+15:21:41 [vite] ✓ 1573 modules transformed.
+15:21:41 [vite] rendering chunks...
+15:21:41 [vite] computing gzip size...
+15:21:41 [vite] dist/_astro/jsx-runtime.ClP7wGfN.js          1.00 kB │ gzip:  0.62 kB
+15:21:41 [vite] dist/_astro/inquiryTracking.A018KijZ.js      4.42 kB │ gzip:  1.61 kB
+15:21:41 [vite] dist/_astro/CookieConsent.DRnq86gY.js        4.80 kB │ gzip:  1.68 kB
+15:21:41 [vite] dist/_astro/SearchPageClient.D1AY847R.js     6.22 kB │ gzip:  2.65 kB
+15:21:41 [vite] dist/_astro/SampleRequestForm.BPrSE-Fk.js    6.81 kB │ gzip:  1.80 kB
+15:21:41 [vite] dist/_astro/index.DK-fsZOb.js                6.81 kB │ gzip:  2.73 kB
+15:21:41 [vite] dist/_astro/BatchRfqForm.mWE_olw0.js         8.24 kB │ gzip:  2.17 kB
+15:21:41 [vite] dist/_astro/ContactForm.Db54-hGv.js         12.42 kB │ gzip:  3.10 kB
+15:21:41 [vite] dist/_astro/client.Bz692-Ao.js             136.51 kB │ gzip: 44.01 kB
+15:21:41 [vite] ✓ built in 1.16s
+
+ prerendering static routes
+15:21:41 ✓ Completed in 10ms.
+
+15:21:41 [build] Rearranging server assets...
+15:21:41 [build] Server built in 4.87s
+15:21:41 [build] Complete!

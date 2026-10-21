@@ -39,8 +39,9 @@
           "required_updates": "按现有URL改为需求与样品验证清单，不承诺井下认证、压力上限或全家族适用。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
@@ -200,8 +201,9 @@
           "required_updates": "和218及NBR/密封页统筹核心采购任务，撤掉高纯/325°C模板，不为材料+O圈同义词新增主URL。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/materials/epdm",
@@ -303,8 +305,9 @@
           "required_updates": "按工业图纸/薄片需求核对形态与供货条件，不默认零售也不凭胶料外供推硫化板材产线；和230/垫片页统筹。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/blog/rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction",
@@ -2102,8 +2105,9 @@
           "required_updates": "与200透明硅胶完整正文统筹，先定义材料和外观，不把clear自动等同VMQ或FFKM，更不承诺光学等级。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/capabilities/lsr-molding",

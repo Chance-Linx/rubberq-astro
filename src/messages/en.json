@@ -3022,21 +3022,108 @@
       "RQ-PG-014": {
         "label": "EPDM",
         "title": "EPDM Materials for Seals and Gaskets | RubberQ",
-        "description": "Discuss EPDM candidates for the weather, water or formulated-fluid exposure in your assembly. Selection should account for the complete medium, temperature.",
+        "description": "Review EPDM seals and gaskets with the complete fluid, temperature cycle and assembly requirements. Define coolant, steam, weathering and sample evaluations.",
         "h1": "EPDM Materials for Seals and Gaskets",
         "intro": "Discuss EPDM candidates for the weather, water or formulated-fluid exposure in your assembly. Selection should account for the complete medium, temperature cycle and mechanical requirements.",
         "sections": [
           {
-            "heading": "Provide the fluid formulation",
-            "body": "For coolant-contact projects, identify the full mixture and additives rather than only the base fluid. Cleaning chemicals and contaminants also belong in the review."
+            "heading": "Define the EPDM compound and the interface",
+            "body": "Start with the compound reference or required properties, the part drawing and the reason for selection. Describe the installed compression, mating surfaces and movement. A material-family name needs a project specification and identified samples before a purchasing decision."
           },
           {
-            "heading": "Review the compressed assembly",
-            "body": "Describe squeeze, joint movement, flange condition and temperature cycling. Discuss how the seal will be installed and retained."
+            "heading": "Record the complete fluid exposure",
+            "body": "Supply the fluid product, composition and concentration, including additives and assembly lubricant. Coolant, fertilizer solution, water treatment chemicals, urea solution and cleaning agents require their actual exposure conditions.",
+            "table": {
+              "caption": "Information for an EPDM fluid-compatibility review",
+              "columns": [
+                "Input",
+                "What to provide"
+              ],
+              "rows": [
+                [
+                  "Material",
+                  "Compound identity, preparation and relevant existing reports"
+                ],
+                [
+                  "Fluid",
+                  "Full product or specification, mixing ratio and additives"
+                ],
+                [
+                  "Lubrication",
+                  "Lubricant product, quantity and contact during assembly and use"
+                ],
+                [
+                  "Sequence",
+                  "Contact, cleaning, drying and changes between media"
+                ],
+                [
+                  "Conditions",
+                  "Temperature, pressure, duration, circulation and interruptions"
+                ],
+                [
+                  "Material result",
+                  "Required dimensional or property changes and acceptance limits"
+                ],
+                [
+                  "Assembly result",
+                  "Installed sample, leak or functional check and approval responsibility"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Reading fluid-swell reports"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Preparing a media-compatibility request"
+              }
+            ]
           },
           {
-            "heading": "Agree a compatibility test",
-            "body": "Define immersion conditions, relevant property changes and assembly checks for the selected compound. Published family comparisons are only a starting point."
+            "heading": "Treat steam as its own exposure",
+            "body": "For a steam duty, identify wet or dry conditions, temperature and pressure together, dwell, startup and shutdown, cleaning and installation stress. Define the compound and sample evaluation for that sequence. A dry-air aging result alone does not establish steam service life; agree the evidence for the intended maintenance decision.",
+            "links": [
+              {
+                "url": "/blog/rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction",
+                "label": "Reading aging and life estimates"
+              },
+              {
+                "url": "/testing",
+                "label": "Material and assembly test planning"
+              }
+            ]
+          },
+          {
+            "heading": "Define outdoor aging and the installed joint",
+            "body": "For an outdoor seal, provide sunlight, ozone, moisture and temperature exposure with the installed strain or compression and any bonded interface. An ozone evaluation needs the concentration, temperature, duration, strain and crack-assessment conditions. Agree both appearance and functional criteria; a material selection is separate from the complete enclosure’s performance."
+          },
+          {
+            "heading": "Specify odor or emissions requirements separately",
+            "body": "If odor or VOC results matter to the component, provide the customer method, sample state, conditioning, packaging history and acceptance criteria for each evaluation. Identify the actual compound and part tested. An odor observation, a VOC report and a material-property result do not replace one another."
+          },
+          {
+            "heading": "Confirm the part, supply form and sample decision",
+            "body": "Send the drawing, quantity, packaging and documentation needs. For a sheet or gasket enquiry, define thickness, profile and finished-part requirements so the material and manufacturing route can be discussed. For compound supply, define the receiving process separately. Agree dimensional inspection and assembly approval before repeat orders.",
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "O-rings and custom seals"
+              },
+              {
+                "url": "/products/gaskets",
+                "label": "Gasket geometry and supply requirements"
+              },
+              {
+                "url": "/compounds",
+                "label": "Compound supply requirements"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Discuss evaluation samples"
+              }
+            ]
           }
         ],
         "cta": "Review an EPDM Application",
@@ -3045,21 +3132,119 @@
       "RQ-PG-015": {
         "label": "HNBR",
         "title": "HNBR Materials for Mechanical Sealing Parts | RubberQ",
-        "description": "Evaluate HNBR candidates against the fluid, temperature and repeated mechanical loading of your component. Compound selection and part geometry should be.",
+        "description": "Evaluate HNBR compounds for a defined fluid, temperature history and mechanical duty. Prepare grade, drawing, sample-test and assembly acceptance requirements.",
         "h1": "HNBR Materials for Mechanical Sealing Parts",
         "intro": "Evaluate HNBR candidates against the fluid, temperature and repeated mechanical loading of your component. Compound selection and part geometry should be reviewed together.",
         "sections": [
           {
-            "heading": "Describe the mechanical duty",
-            "body": "Provide load direction, motion, cycle conditions and contact surfaces. Include friction, wear and compression requirements where they affect the assembly."
+            "heading": "Identify the HNBR candidate and its task",
+            "body": "Provide the existing compound or polymer grade, available acrylonitrile-content information and required properties. Explain whether the decision concerns fluid exposure, cold starting, repeated loading, friction or an existing failure. Hydrogenation or one property value alone does not qualify a part for every medium and mechanical duty."
           },
           {
-            "heading": "Identify service exposure",
-            "body": "Specify fluids, additives, cleaning conditions and temperature cycles. Review the complete environment with the candidate formulation."
+            "heading": "Describe the fluid and operating sequence",
+            "body": "For oil or a glycol-containing coolant, identify the full product, concentration and additives. Include cleaning, mixing, contact duration and the actual temperature and pressure history.",
+            "table": {
+              "caption": "Information for an HNBR material and part review",
+              "columns": [
+                "Input",
+                "Details to define"
+              ],
+              "rows": [
+                [
+                  "Candidate",
+                  "Compound code, polymer reference, available composition data and specification revision"
+                ],
+                [
+                  "Fluid",
+                  "Complete oil or formulated coolant, concentration, additives and cleaning"
+                ],
+                [
+                  "Temperature",
+                  "Cold start, normal duty, peaks, dwell and recovery"
+                ],
+                [
+                  "Pressure",
+                  "Operating changes, pressure release, gas contact and interruptions"
+                ],
+                [
+                  "Interface",
+                  "Drawing, mating gap, compression, support and installation"
+                ],
+                [
+                  "Movement",
+                  "Stroke or rotation, speed, loading and counterface"
+                ],
+                [
+                  "Evidence",
+                  "Identified specimens and parts, method, conditions and acceptance criteria"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Interpreting fluid-exposure reports"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Media-compatibility inputs"
+              }
+            ]
           },
           {
-            "heading": "Make the test representative",
-            "body": "Agree hardness, physical-property checks and functional sample testing that reflect the actual component and installation."
+            "heading": "Evaluate the actual mechanical requirement",
+            "body": "Define the motion and load before comparing candidates. For friction or wear, include lubrication, surface finish, contaminants, temperature and test configuration. Compare reports from identified compounds and representative samples rather than ranking all HNBR formulations together.",
+            "items": [
+              "Distinguish material tensile data from the installed load case.",
+              "Separate starting force, running friction, wear and leakage observations.",
+              "Record the sample geometry, conditioning and endpoint used for comparison."
+            ],
+            "links": [
+              {
+                "url": "/blog/tensile-stress-strain-curves-what-a-mechanical-engineer-needs-to-know-about-rubb",
+                "label": "Reading tensile curves and specimen conditions"
+              },
+              {
+                "url": "/products/seals",
+                "label": "Dynamic seal and interface requirements"
+              }
+            ]
+          },
+          {
+            "heading": "Keep pressure and thermal exposure with the assembly",
+            "body": "For a pressure-loaded seal, define the pressure cycle, release sequence, extrusion gap and support together with media and temperature. Agree the necessary part and assembly trials. A compound’s hardness or an air-aging result does not establish the pressure capability or life of an installed component.",
+            "links": [
+              {
+                "url": "/blog/rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction",
+                "label": "Interpreting aging and life estimates"
+              },
+              {
+                "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+                "label": "Separating compression set and retained force"
+              }
+            ]
+          },
+          {
+            "heading": "Agree the sample and repeat-order specification",
+            "body": "Send the drawing revision, quantity, reference material and required evaluation. Link each result to its compound and sample lot, then agree dimensions, material criteria and the assembly approval. If comparing HNBR with an NBR candidate, use the same defined duty. Confirm packaging, release records and change review before regular supply.",
+            "links": [
+              {
+                "url": "/materials/nbr",
+                "label": "NBR material requirements"
+              },
+              {
+                "url": "/testing",
+                "label": "Material, part and assembly evaluation"
+              },
+              {
+                "url": "/quality",
+                "label": "Lot records and change control"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Prepare an evaluation sample request"
+              }
+            ]
           }
         ],
         "cta": "Review an HNBR Application",
@@ -3068,21 +3253,123 @@
       "RQ-PG-016": {
         "label": "NBR",
         "title": "NBR Materials for Industrial Rubber Parts | RubberQ",
-        "description": "Review NBR candidates for a defined industrial application. Fluid composition, temperature and the required balance of flexibility and mechanical properties.",
+        "description": "Specify NBR parts or compounds using the actual oil, cold-start conditions, drawing and quantity. Compare material reports, wear tests and assembly results.",
         "h1": "NBR Materials for Industrial Rubber Parts",
         "intro": "Review NBR candidates for a defined industrial application. Fluid composition, temperature and the required balance of flexibility and mechanical properties guide compound selection.",
         "sections": [
           {
-            "heading": "Define the oil or fluid exposure",
-            "body": "Identify the contacting medium and any cleaning or storage exposure. Include temperature, pressure and seal motion."
+            "heading": "Begin with the NBR compound and purchasing task",
+            "body": "State whether you need a finished seal, another molded part or an uncured compound for your process. Provide the existing grade, compound code or required properties, including available acrylonitrile-content information. Keep the material identity with the drawing and quantity rather than treating all nitrile compounds as interchangeable."
           },
           {
-            "heading": "Specify mechanical requirements",
-            "body": "List hardness, deformation limits, wear concerns and dimensions that control assembly function."
+            "heading": "Compare oil exposure with the cold requirement",
+            "body": "Identify the complete oil, fuel, lubricant or working liquid and the real temperature sequence. If the part contacts wastewater or a cleaning mixture, describe constituents, concentration, contaminants and contact duration.",
+            "table": {
+              "caption": "Information for an NBR enquiry",
+              "columns": [
+                "Input",
+                "What to define"
+              ],
+              "rows": [
+                [
+                  "Material",
+                  "Existing grade or compound, specification revision and required properties"
+                ],
+                [
+                  "Fluid",
+                  "Exact product or composition, additives, cleaning and changes in service"
+                ],
+                [
+                  "Cold duty",
+                  "Startup temperature, movement, standing time and recovery"
+                ],
+                [
+                  "Other exposure",
+                  "Normal temperature, peaks, duration, pressure and interruptions"
+                ],
+                [
+                  "Part",
+                  "Drawing, dimensions, groove or mating surfaces and installation"
+                ],
+                [
+                  "Supply",
+                  "Part or compound form, sample and production quantity, packaging"
+                ],
+                [
+                  "Acceptance",
+                  "Specimen conditions, dimensional criteria and assembly function"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Comparing fluid-swell results"
+              },
+              {
+                "url": "/blog/low-temperature-retraction-tr-10-predicting-seal-failure-in-arctic-conditions",
+                "label": "Reading low-temperature retraction data"
+              }
+            ]
           },
           {
-            "heading": "Compare before changing materials",
-            "body": "When replacing an existing compound, share its designation and failure history. Agree a sample and validation plan for the alternative."
+            "heading": "Define a useful wear or friction comparison",
+            "body": "If comparing NBR, HNBR or an XNBR reference, identify the actual compounds and use the same motion, counterface, lubrication, particles, temperature and load. Define whether the endpoint is wear, starting force, running friction or loss of sealing function. A material-family comparison is separate from confirming a particular supply option.",
+            "items": [
+              "Use identified specimens or representative finished parts.",
+              "Record preparation, exposure and measurement conditions.",
+              "Evaluate the required interface with an agreed functional criterion."
+            ],
+            "links": [
+              {
+                "url": "/materials/hnbr",
+                "label": "HNBR candidate requirements"
+              },
+              {
+                "url": "/products/seals",
+                "label": "Motion and sealing-interface requirements"
+              }
+            ]
+          },
+          {
+            "heading": "Keep material reports and finished-part acceptance connected",
+            "body": "Ask for the properties needed by the part specification and the method used to obtain them. Link results to compound and specimen identification. For the finished component, agree dimensions, surface condition, conditioning and assembly checks. A fluid-swell value alone does not demonstrate every mechanical or sealing requirement.",
+            "links": [
+              {
+                "url": "/blog/tensile-stress-strain-curves-what-a-mechanical-engineer-needs-to-know-about-rubb",
+                "label": "Interpreting tensile-test data"
+              },
+              {
+                "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+                "label": "Reading an ASTM D2000 material specification"
+              },
+              {
+                "url": "/testing",
+                "label": "Material and component test planning"
+              }
+            ]
+          },
+          {
+            "heading": "Prepare samples and the repeat-supply decision",
+            "body": "Send drawing revision, material reference, quantity and the concern the samples must resolve. Agree the test scope, approval responsibility, lot records and packaging before recurring supply. For compound purchases, confirm the receiving process and material-specific handling instructions; for molded parts, retain the approved geometry and inspection requirements.",
+            "links": [
+              {
+                "url": "/products/custom",
+                "label": "Custom molded part requirements"
+              },
+              {
+                "url": "/compounds",
+                "label": "Compounded-rubber supply"
+              },
+              {
+                "url": "/quality",
+                "label": "Quality records and traceability"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Request an evaluation sample"
+              }
+            ]
           }
         ],
         "cta": "Review an NBR Application",
@@ -3091,21 +3378,128 @@
       "RQ-PG-017": {
         "label": "Silicone",
         "title": "Silicone Materials for Custom Molded Parts | RubberQ",
-        "description": "Discuss silicone candidates for your component geometry and operating conditions. Flexibility, temperature exposure, contact media and assembly requirements.",
+        "description": "Define silicone molded-part requirements for geometry, appearance, thermal exposure and sealing function. Review sample conditions, finishing and approval.",
         "h1": "Silicone Materials for Custom Molded Parts",
         "intro": "Discuss silicone candidates for your component geometry and operating conditions. Flexibility, temperature exposure, contact media and assembly requirements guide the review.",
         "sections": [
           {
-            "heading": "Choose a route for the geometry",
-            "body": "Share wall sections, thin features, inserts and dimensional priorities. The material and molding process need to suit the same part."
+            "heading": "Identify the silicone material and finished part",
+            "body": "Send the existing grade or material requirement and a drawing of the component. State the polymer designation, such as VMQ, where specified, and whether the requested process uses liquid silicone rubber. Include the supplied form and intended use: a molded seal, gasket or sheet enquiry needs its own geometry and manufacturing review.",
+            "links": [
+              {
+                "url": "/materials/lsr",
+                "label": "LSR material and process requirements"
+              },
+              {
+                "url": "/products/custom",
+                "label": "Custom molded part preparation"
+              }
+            ]
           },
           {
-            "heading": "Review the full environment",
-            "body": "Include fluids, cleaning conditions, temperature cycles, mechanical loads and any electrical requirements with their test methods."
+            "heading": "Define appearance and dimensions on the same sample",
+            "body": "For colored, translucent or clear parts, use an identified material and sample geometry. A request for a clear part should first identify the material; transparency alone does not define the polymer or a tested optical performance.",
+            "table": {
+              "caption": "Inputs for silicone part acceptance",
+              "columns": [
+                "Requirement",
+                "What to agree"
+              ],
+              "rows": [
+                [
+                  "Geometry",
+                  "Drawing revision, thickness, profile, functional dimensions and support"
+                ],
+                [
+                  "Molding details",
+                  "Parting line, flash, edges, surface finish and insert interfaces"
+                ],
+                [
+                  "Material",
+                  "Grade or compound, cure system and relevant preparation"
+                ],
+                [
+                  "Color",
+                  "Color reference, physical sample, viewing light and comparison method"
+                ],
+                [
+                  "Clarity",
+                  "Sample thickness, viewing conditions and haze or transmission method if required"
+                ],
+                [
+                  "Part state",
+                  "Finishing, post-curing, conditioning, cleaning and packaging"
+                ],
+                [
+                  "Decision",
+                  "Appearance reference, dimensional report and functional criteria"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/flash-on-molded-parts-defining-flash-free-and-its-cost-implications",
+                "label": "Specifying flash acceptance"
+              },
+              {
+                "url": "/blog/cryogenic-deflashing-vs-manual-trimming-precision-rubber-parts",
+                "label": "Comparing deflashing approaches"
+              }
+            ]
           },
           {
-            "heading": "Agree finish and inspection",
-            "body": "Specify colour, appearance, flash limits and the critical dimensions. Application-specific regulatory or certification requirements need separate review."
+            "heading": "Describe dry heat, hot water and steam separately",
+            "body": "State temperature, pressure where relevant, contact time, cleaning and startup or shutdown conditions for the actual medium. Include assembly stress and the customer’s contact-specific requirements. Compare the identified grade and part under that exposure; a dry-heat report does not establish every hot-water or steam requirement.",
+            "links": [
+              {
+                "url": "/blog/rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction",
+                "label": "Interpreting aging and life estimates"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Media and exposure requirements"
+              }
+            ]
+          },
+          {
+            "heading": "Separate recovery, retained force and assembly sealing",
+            "body": "For a static gasket, define compression, joint geometry, temperature, duration and recovery conditions. Compression set describes a recovery result; retained-force evaluation and assembly leakage are separate tasks. Agree which results the application needs and identify the specimen or part used in each.",
+            "links": [
+              {
+                "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+                "label": "Compression set and stress relaxation"
+              },
+              {
+                "url": "/blog/compression-set-failure-why-your-seal-lost-its-bounce",
+                "label": "Reading compression-set failure evidence"
+              }
+            ]
+          },
+          {
+            "heading": "Specify electrical requirements at the correct level",
+            "body": "If the specification calls for an electrically functional silicone material, provide the required material measurement and any assembly shielding task separately. Include fixture, frequency range, contact compression, interfaces and evaluation after exposure where relevant. Confirm the candidate material and supply route against the specification before treating a property target as an available product."
+          },
+          {
+            "heading": "Agree processing, samples and repeat supply",
+            "body": "Define any post-curing or volatile-control objective with the identified compound, part state and acceptance method. Record the finishing and conditioning used for approved samples. Send the quantity and required reports so molding, packaging, lot identification and change review can be agreed for the project.",
+            "links": [
+              {
+                "url": "/blog/post-curing-silicone-rubber-parts-volatile-control-compression-set",
+                "label": "Post-curing and volatile-control evaluation"
+              },
+              {
+                "url": "/capabilities/lsr-molding",
+                "label": "Discuss an LSR molding route"
+              },
+              {
+                "url": "/testing",
+                "label": "Material and part evaluation"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Prepare a silicone sample request"
+              }
+            ]
           }
         ],
         "cta": "Review a Silicone Application",

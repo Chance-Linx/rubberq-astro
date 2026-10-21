@@ -1,0 +1,27 @@
+{
+  "scope": "Representative desktop content and navigation only; not full mobile, actual submission or production publication",
+  "checks": [
+    {
+      "path": "/materials/epdm",
+      "observation": "Six sections, fluid table, separate steam, outdoor/ozone and odor/VOC tasks visible",
+      "screenshot": "evidence/epdm-material-module-en.png"
+    },
+    {
+      "path": "/ja/materials/silicone",
+      "observation": "Six Japanese sections and acceptance table, appearance/thermal/compression/electrical tasks, local LSR links and English article labels visible"
+    },
+    {
+      "path": "/de/materials/hnbr",
+      "observation": "Five German sections and material/mechanical/pressure table visible; NBR comparison link clicked"
+    },
+    {
+      "path": "/de/materials/nbr",
+      "observation": "Five German sections visible; NBR enquiry CTA clicked"
+    },
+    {
+      "url": "http://127.0.0.1:4397/de/contact?source=%2Fmaterials%2Fnbr&cta=project-review",
+      "observation": "German contact form present with NBR source preserved; no submission"
+    }
+  ],
+  "form_submissions": 0
+}

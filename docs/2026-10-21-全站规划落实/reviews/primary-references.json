@@ -384,6 +384,17 @@
       "checked_on": "2026-10-21",
       "material_role": "original_brand_definition",
       "public_use": "manufacturer reference link with English language label"
+    },
+    {
+      "id": "ISO1431-1-SCOPE",
+      "title": "ISO 1431-1:2024 — ozone cracking, static and dynamic strain testing",
+      "url": "https://www.iso.org/standard/86601.html",
+      "publisher": "ISO",
+      "read_scope": "Public abstract only: strain, ozone concentration, temperature, relevant humidity and crack observation; not the paid full method.",
+      "checked_on": "2026-10-21",
+      "use": "核对EPDM页臭氧评价的输入项及外观/功能分工；不复制限值，不表示RubberQ已执行该标准或全部测试自有。",
+      "paid_access": false,
+      "public_use": "Internal method-scope cross-check; no standard text reproduced or external link added on material pages."
     }
   ],
   "paid_access": false
