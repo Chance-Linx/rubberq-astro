@@ -1,0 +1,470 @@
+{
+  "scope": "Local normalization and rendered form options only; not a live submission, D1 insert or email delivery test",
+  "passed": 116,
+  "cases": [
+    {
+      "name": "/contact: feasibility",
+      "pass": true
+    },
+    {
+      "name": "/contact: prototype",
+      "pass": true
+    },
+    {
+      "name": "/contact: preProduction",
+      "pass": true
+    },
+    {
+      "name": "/contact: production",
+      "pass": true
+    },
+    {
+      "name": "/contact: industry Other",
+      "pass": true
+    },
+    {
+      "name": "/contact: industry Semiconductor Process Equipment",
+      "pass": true
+    },
+    {
+      "name": "/contact: industry Liquid Cooling & Energy Storage",
+      "pass": true
+    },
+    {
+      "name": "/contact: industry EV Thermal Management",
+      "pass": true
+    },
+    {
+      "name": "/contact: industry Humanoid Robotics",
+      "pass": true
+    },
+    {
+      "name": "/contact: industry Industrial Equipment",
+      "pass": true
+    },
+    {
+      "name": "/contact: industry Automotive Tier 2",
+      "pass": true
+    },
+    {
+      "name": "/contact: unknown volume stays unknown",
+      "pass": true
+    },
+    {
+      "name": "/sample-request: sample",
+      "pass": true
+    },
+    {
+      "name": "/sample-request: pilot",
+      "pass": true
+    },
+    {
+      "name": "/sample-request: validation",
+      "pass": true
+    },
+    {
+      "name": "/sample-request: production",
+      "pass": true
+    },
+    {
+      "name": "/sample-request: unknown volume stays unknown",
+      "pass": true
+    },
+    {
+      "name": "/batch-rfq: feasibility",
+      "pass": true
+    },
+    {
+      "name": "/batch-rfq: pilot",
+      "pass": true
+    },
+    {
+      "name": "/batch-rfq: validation",
+      "pass": true
+    },
+    {
+      "name": "/batch-rfq: production",
+      "pass": true
+    },
+    {
+      "name": "/batch-rfq: unknown volume stays unknown",
+      "pass": true
+    },
+    {
+      "name": "/de/contact: feasibility",
+      "pass": true
+    },
+    {
+      "name": "/de/contact: prototype",
+      "pass": true
+    },
+    {
+      "name": "/de/contact: preProduction",
+      "pass": true
+    },
+    {
+      "name": "/de/contact: production",
+      "pass": true
+    },
+    {
+      "name": "/de/contact: industry Other",
+      "pass": true
+    },
+    {
+      "name": "/de/contact: industry Semiconductor Process Equipment",
+      "pass": true
+    },
+    {
+      "name": "/de/contact: industry Liquid Cooling & Energy Storage",
+      "pass": true
+    },
+    {
+      "name": "/de/contact: industry EV Thermal Management",
+      "pass": true
+    },
+    {
+      "name": "/de/contact: industry Humanoid Robotics",
+      "pass": true
+    },
+    {
+      "name": "/de/contact: industry Industrial Equipment",
+      "pass": true
+    },
+    {
+      "name": "/de/contact: industry Automotive Tier 2",
+      "pass": true
+    },
+    {
+      "name": "/de/contact: unknown volume stays unknown",
+      "pass": true
+    },
+    {
+      "name": "/de/sample-request: sample",
+      "pass": true
+    },
+    {
+      "name": "/de/sample-request: pilot",
+      "pass": true
+    },
+    {
+      "name": "/de/sample-request: validation",
+      "pass": true
+    },
+    {
+      "name": "/de/sample-request: production",
+      "pass": true
+    },
+    {
+      "name": "/de/sample-request: unknown volume stays unknown",
+      "pass": true
+    },
+    {
+      "name": "/de/batch-rfq: feasibility",
+      "pass": true
+    },
+    {
+      "name": "/de/batch-rfq: pilot",
+      "pass": true
+    },
+    {
+      "name": "/de/batch-rfq: validation",
+      "pass": true
+    },
+    {
+      "name": "/de/batch-rfq: production",
+      "pass": true
+    },
+    {
+      "name": "/de/batch-rfq: unknown volume stays unknown",
+      "pass": true
+    },
+    {
+      "name": "/ja/contact: feasibility",
+      "pass": true
+    },
+    {
+      "name": "/ja/contact: prototype",
+      "pass": true
+    },
+    {
+      "name": "/ja/contact: preProduction",
+      "pass": true
+    },
+    {
+      "name": "/ja/contact: production",
+      "pass": true
+    },
+    {
+      "name": "/ja/contact: industry Other",
+      "pass": true
+    },
+    {
+      "name": "/ja/contact: industry Semiconductor Process Equipment",
+      "pass": true
+    },
+    {
+      "name": "/ja/contact: industry Liquid Cooling & Energy Storage",
+      "pass": true
+    },
+    {
+      "name": "/ja/contact: industry EV Thermal Management",
+      "pass": true
+    },
+    {
+      "name": "/ja/contact: industry Humanoid Robotics",
+      "pass": true
+    },
+    {
+      "name": "/ja/contact: industry Industrial Equipment",
+      "pass": true
+    },
+    {
+      "name": "/ja/contact: industry Automotive Tier 2",
+      "pass": true
+    },
+    {
+      "name": "/ja/contact: unknown volume stays unknown",
+      "pass": true
+    },
+    {
+      "name": "/ja/sample-request: sample",
+      "pass": true
+    },
+    {
+      "name": "/ja/sample-request: pilot",
+      "pass": true
+    },
+    {
+      "name": "/ja/sample-request: validation",
+      "pass": true
+    },
+    {
+      "name": "/ja/sample-request: production",
+      "pass": true
+    },
+    {
+      "name": "/ja/sample-request: unknown volume stays unknown",
+      "pass": true
+    },
+    {
+      "name": "/ja/batch-rfq: feasibility",
+      "pass": true
+    },
+    {
+      "name": "/ja/batch-rfq: pilot",
+      "pass": true
+    },
+    {
+      "name": "/ja/batch-rfq: validation",
+      "pass": true
+    },
+    {
+      "name": "/ja/batch-rfq: production",
+      "pass": true
+    },
+    {
+      "name": "/ja/batch-rfq: unknown volume stays unknown",
+      "pass": true
+    },
+    {
+      "name": "/es/contact: feasibility",
+      "pass": true
+    },
+    {
+      "name": "/es/contact: prototype",
+      "pass": true
+    },
+    {
+      "name": "/es/contact: preProduction",
+      "pass": true
+    },
+    {
+      "name": "/es/contact: production",
+      "pass": true
+    },
+    {
+      "name": "/es/contact: industry Other",
+      "pass": true
+    },
+    {
+      "name": "/es/contact: industry Semiconductor Process Equipment",
+      "pass": true
+    },
+    {
+      "name": "/es/contact: industry Liquid Cooling & Energy Storage",
+      "pass": true
+    },
+    {
+      "name": "/es/contact: industry EV Thermal Management",
+      "pass": true
+    },
+    {
+      "name": "/es/contact: industry Humanoid Robotics",
+      "pass": true
+    },
+    {
+      "name": "/es/contact: industry Industrial Equipment",
+      "pass": true
+    },
+    {
+      "name": "/es/contact: industry Automotive Tier 2",
+      "pass": true
+    },
+    {
+      "name": "/es/contact: unknown volume stays unknown",
+      "pass": true
+    },
+    {
+      "name": "/es/sample-request: sample",
+      "pass": true
+    },
+    {
+      "name": "/es/sample-request: pilot",
+      "pass": true
+    },
+    {
+      "name": "/es/sample-request: validation",
+      "pass": true
+    },
+    {
+      "name": "/es/sample-request: production",
+      "pass": true
+    },
+    {
+      "name": "/es/sample-request: unknown volume stays unknown",
+      "pass": true
+    },
+    {
+      "name": "/es/batch-rfq: feasibility",
+      "pass": true
+    },
+    {
+      "name": "/es/batch-rfq: pilot",
+      "pass": true
+    },
+    {
+      "name": "/es/batch-rfq: validation",
+      "pass": true
+    },
+    {
+      "name": "/es/batch-rfq: production",
+      "pass": true
+    },
+    {
+      "name": "/es/batch-rfq: unknown volume stays unknown",
+      "pass": true
+    },
+    {
+      "name": "/zh/contact: feasibility",
+      "pass": true
+    },
+    {
+      "name": "/zh/contact: prototype",
+      "pass": true
+    },
+    {
+      "name": "/zh/contact: preProduction",
+      "pass": true
+    },
+    {
+      "name": "/zh/contact: production",
+      "pass": true
+    },
+    {
+      "name": "/zh/contact: industry Other",
+      "pass": true
+    },
+    {
+      "name": "/zh/contact: industry Semiconductor Process Equipment",
+      "pass": true
+    },
+    {
+      "name": "/zh/contact: industry Liquid Cooling & Energy Storage",
+      "pass": true
+    },
+    {
+      "name": "/zh/contact: industry EV Thermal Management",
+      "pass": true
+    },
+    {
+      "name": "/zh/contact: industry Humanoid Robotics",
+      "pass": true
+    },
+    {
+      "name": "/zh/contact: industry Industrial Equipment",
+      "pass": true
+    },
+    {
+      "name": "/zh/contact: industry Automotive Tier 2",
+      "pass": true
+    },
+    {
+      "name": "/zh/contact: unknown volume stays unknown",
+      "pass": true
+    },
+    {
+      "name": "/zh/sample-request: sample",
+      "pass": true
+    },
+    {
+      "name": "/zh/sample-request: pilot",
+      "pass": true
+    },
+    {
+      "name": "/zh/sample-request: validation",
+      "pass": true
+    },
+    {
+      "name": "/zh/sample-request: production",
+      "pass": true
+    },
+    {
+      "name": "/zh/sample-request: unknown volume stays unknown",
+      "pass": true
+    },
+    {
+      "name": "/zh/batch-rfq: feasibility",
+      "pass": true
+    },
+    {
+      "name": "/zh/batch-rfq: pilot",
+      "pass": true
+    },
+    {
+      "name": "/zh/batch-rfq: validation",
+      "pass": true
+    },
+    {
+      "name": "/zh/batch-rfq: production",
+      "pass": true
+    },
+    {
+      "name": "/zh/batch-rfq: unknown volume stays unknown",
+      "pass": true
+    },
+    {
+      "name": "Historic stage concept",
+      "pass": true
+    },
+    {
+      "name": "Historic stage feasibility",
+      "pass": true
+    },
+    {
+      "name": "Historic stage sample",
+      "pass": true
+    },
+    {
+      "name": "Historic stage tooling",
+      "pass": true
+    },
+    {
+      "name": "Historic stage production",
+      "pass": true
+    },
+    {
+      "name": "Sample product choice is required",
+      "pass": true
+    }
+  ]
+}

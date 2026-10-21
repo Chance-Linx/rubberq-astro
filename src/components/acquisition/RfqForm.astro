@@ -1,0 +1,41 @@
+---
+import { getTranslations, t, tRaw } from '@/lib/i18n';
+import { acquisitionPages } from '@/lib/acquisition';
+import ContactForm from '@/components/contact/ContactForm';
+import SampleRequestForm from '@/components/contact/SampleRequestForm';
+import BatchRfqForm from '@/components/contact/BatchRfqForm';
+interface Props { locale: string; kind: 'contact' | 'sample' | 'batch' }
+const { locale, kind } = Astro.props;
+const messages = await getTranslations(locale);
+const f = (key: string) => t(messages, `contact.${key}`);
+const rfq = (key: string) => t(messages, `rfqV2.${key}`);
+const copies = tRaw(messages, 'acquisition.pages');
+const pageLabel = (id: string) => copies[id].label;
+const contactLabels = {
+  name: f('form.name'), namePlaceholder: f('form.namePlaceholder'), email: f('form.email'), emailPlaceholder: f('form.emailPlaceholder'),
+  company: f('form.company'), companyPlaceholder: f('form.companyPlaceholder'), industry: f('form.industry'),
+  industryOptions: { semiconductor: pageLabel('RQ-PG-030'), cooling: pageLabel('RQ-PG-031'), ev: pageLabel('RQ-PG-032'), robotics: pageLabel('RQ-PG-033'), industrial: pageLabel('RQ-PG-034'), automotiveTier2: pageLabel('RQ-PG-035'), other: rfq('industryOptionsV2.other') },
+  upload: tRaw(messages, 'acquisition.forms.upload'),
+  projectType: { label: rfq('projectType.label'), options: tRaw(messages, 'rfqV2.projectType', {}) },
+  annualVolume: { label: rfq('annualVolume.label'), options: { '': rfq('annualVolume.label'), ...tRaw(messages, 'rfqV2.annualVolume.options', {}) } },
+  quoteComponents: { label: rfq('quoteComponents.label'), options: tRaw(messages, 'rfqV2.quoteComponents', {}) },
+  projectStage: { label: rfq('projectStage.label'), options: tRaw(messages, 'rfqV2.projectStage', {}) },
+  message: f('form.message'), messagePlaceholder: f('form.messagePlaceholder'), fileLink: f('form.fileLink'), fileLinkPlaceholder: f('form.fileLinkPlaceholder'), fileLinkHelp: f('form.fileLinkHelp'),
+  submit: f('form.submit'), submitting: f('form.submitting'), success: f('form.success'), successMessage: f('form.successMessage'), error: f('form.error'), errorMessage: f('form.errorMessage'),
+};
+const formOptions = tRaw(messages, 'acquisition.forms.options');
+const stageOptions: Array<[string, string]> = [
+  ['pilot', rfq('projectStage.prototype')], ['validation', rfq('projectStage.preProduction')], ['production', rfq('projectStage.production')],
+];
+const labels = { ...tRaw(messages, `acquisition.forms.${kind}`, {}), options: {
+  annualVolume: [['', rfq('annualVolume.label')], ...Object.entries(tRaw(messages, 'rfqV2.annualVolume.options'))],
+  projectStage: [[kind === 'sample' ? 'sample' : 'feasibility', kind === 'sample' ? formOptions.sampleStage : rfq('projectStage.feasibility')], ...stageOptions],
+  projectType: ['drawing', 'application', 'sample'].map(value => [value, rfq(`projectType.${value}`)]),
+  quoteComponent: [['compoundReview', rfq('quoteComponents.compoundDev')], ['tooling', rfq('quoteComponents.tooling')], ['perPiece', rfq('quoteComponents.perPiece')], ['validation', formOptions.validation], ['sample', rfq('quoteComponents.sample')]],
+  productType: [['', tRaw(messages, 'acquisition.forms.sample').productType], ['Seals & O-Rings', pageLabel('RQ-PG-004')], ['Gaskets & Washers', pageLabel('RQ-PG-005')], ['Bellows & Boots', pageLabel('RQ-PG-006')], ['Custom Molded Parts', pageLabel('RQ-PG-007')], ['Diaphragms', pageLabel('RQ-PG-008')], ['Rubber-to-Metal Parts', pageLabel('RQ-PG-009')], ['FFKM Replacement Seals', pageLabel('RQ-PG-010')]],
+} };
+const productOptions = acquisitionPages.filter(p => p.url.startsWith('/products/')).map(p => ({ id: p.url.split('/').at(-1)!, label: copies[p.id].label }));
+---
+{kind === 'contact' && <ContactForm client:load labels={contactLabels} />}
+{kind === 'sample' && <SampleRequestForm client:load labels={labels} />}
+{kind === 'batch' && <BatchRfqForm client:load labels={labels} productOptions={productOptions} />}

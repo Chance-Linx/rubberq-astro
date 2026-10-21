@@ -1,4 +1,5 @@
 import { defineMiddleware } from 'astro:middleware';
+import acquisitionPages from './data/acquisition-pages.json';
 
 const locales = new Set(['en', 'de', 'ja', 'es', 'zh']);
 const internalRewriteHeader = 'x-rubberq-internal-rewrite';
@@ -48,6 +49,8 @@ const englishStaticRoutes = new Set([
 ]);
 
 const englishDynamicSections = new Set(['industries', 'materials', 'products']);
+// Keep exact planned routes synchronized with the implemented page registry.
+for (const page of acquisitionPages) englishStaticRoutes.add(page.url);
 
 const encodedLegacyBlogFallbackSlugs = [
   'My1hLXNhbml0YXJ5LXN0YW5kYXJkcy1kZXNpZ25pbmctcnViYmVyLXNlYWxzLWZvci10aGUtZGFpcnktaW5kdXN0cnkKODAw',

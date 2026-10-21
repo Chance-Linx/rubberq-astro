@@ -1,6 +1,6 @@
 """Check source fidelity and publishing-state separation for this delivery."""
 from pathlib import Path
-import csv, hashlib, json, re, urllib.request
+import csv, hashlib, json, re, urllib.request, subprocess
 
 base=Path(__file__).resolve().parents[1]
 root=base.parents[2]
@@ -36,7 +36,22 @@ check('无已外发工厂请求',all(x['status']=='未发出' for x in read('gro
 metrics=read('growth-board/kpi-snapshots/2026-10-21.json')['metrics']
 check('真实需求与合格询盘及CTR口径',metrics['inquiry_total']['value']==1 and metrics['inquiry_qualified']['value'] is None and abs(metrics['gsc_ctr']['value']-100*10/901)<1e-9)
 manifest=read('evidence/source-manifest.json')
-check('输入hash与当前源一致',all((root/p['path']).is_file() and hashlib.sha256((root/p['path']).read_bytes()).hexdigest()==p['sha256'] for p in manifest['sources']))
+# Planning inputs are frozen. An implemented source may evolve only with a
+# baseline Git blob and a current-hash receipt, without rewriting the old manifest.
+evolution_path=base.parent/'2026-10-21-全站规划落实/evidence/source-evolution.json'
+evolution=json.loads(evolution_path.read_text()) if evolution_path.exists() else {'changes':[]}
+allowed={x['path']:x for x in evolution['changes']}
+def source_verified(p):
+    source=root/p['path']
+    if not source.is_file():return False
+    current=hashlib.sha256(source.read_bytes()).hexdigest()
+    if current==p['sha256']:return True
+    record=allowed.get(p['path'])
+    if p['path']!='rubberq-astro/src/messages/en.json' or not record:return False
+    if record['baseline_sha256']!=p['sha256'] or record['current_sha256']!=current:return False
+    original=subprocess.check_output(['git','show',evolution['baseline_commit']+':src/messages/en.json'],cwd=root/'rubberq-astro')
+    return hashlib.sha256(original).hexdigest()==p['sha256']
+check('原始输入可追溯且实施变更有当前hash回执',all(source_verified(p) for p in manifest['sources']))
 text='\n'.join(p['copy'] for p in pages)
 forbidden=['new compound from scratch in 4 weeks','global leader','medical grade','zero-defect','100%','ISO Class 5','TML <','UL94 V-0','J&C','battery pack','IP68','IP69K']
 check('客户稿无禁用或无来源性能宣传',not any(t.lower() in text.lower() for t in forbidden))

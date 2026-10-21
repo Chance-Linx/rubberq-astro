@@ -12,6 +12,11 @@ import {
 } from '../../lib/inquiryTracking';
 
 export interface SampleRequestLabels {
+  options: {
+    annualVolume: Array<[string, string]>;
+    projectStage: Array<[string, string]>;
+    productType: Array<[string, string]>;
+  };
   name: string;
   email: string;
   company: string;
@@ -31,21 +36,6 @@ export interface SampleRequestLabels {
   errorMessage: string;
 }
 
-const annualVolumeOptions = [
-  ['under10k', 'Under 10,000 parts'],
-  ['10kTo100k', '10,000 - 100,000 parts'],
-  ['100kTo1m', '100,000 - 1,000,000 parts'],
-  ['1mTo5m', '1,000,000 - 5,000,000 parts'],
-  ['over5m', 'Over 5,000,000 parts'],
-];
-
-const projectStageOptions = [
-  ['sample', 'Sample evaluation'],
-  ['pilot', 'Prototype / pilot'],
-  ['validation', 'Pre-production validation'],
-  ['production', 'Production planning'],
-];
-
 export default function SampleRequestForm({ labels }: { labels: SampleRequestLabels }) {
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
   const [errorMsg, setErrorMsg] = useState('');
@@ -56,10 +46,10 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
     name: '',
     email: '',
     company: '',
-    productType: 'Seals & O-Rings',
-    material: 'FKM',
-    quantity: '50',
-    annualVolume: '10kTo100k',
+    productType: '',
+    material: '',
+    quantity: '',
+    annualVolume: '',
     projectStage: 'sample',
     country: '',
     notes: '',
@@ -176,10 +166,10 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
           name: '',
           email: '',
           company: '',
-          productType: 'Seals & O-Rings',
-          material: 'FKM',
-          quantity: '50',
-          annualVolume: '10kTo100k',
+          productType: '',
+          material: '',
+          quantity: '',
+          annualVolume: '',
           projectStage: 'sample',
           country: '',
           notes: '',
@@ -196,7 +186,7 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
           annualVolume: formData.annualVolume,
           projectStage: formData.projectStage,
         });
-        setErrorMsg(data.error || labels.errorMessage);
+        setErrorMsg(labels.errorMessage);
       }
     } catch {
       setStatus('error');
@@ -219,6 +209,7 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
           value={formData.name}
           onChange={(e) => updateField('name', e.target.value)}
           placeholder={labels.name}
+          aria-label={labels.name}
           className="w-full bg-white border border-industrial-200 px-4 py-3"
         />
         <input
@@ -227,6 +218,7 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
           value={formData.email}
           onChange={(e) => updateField('email', e.target.value)}
           placeholder={labels.email}
+          aria-label={labels.email}
           className="w-full bg-white border border-industrial-200 px-4 py-3"
         />
       </div>
@@ -236,6 +228,7 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
           value={formData.company}
           onChange={(e) => updateField('company', e.target.value)}
           placeholder={labels.company}
+          aria-label={labels.company}
           className="w-full bg-white border border-industrial-200 px-4 py-3"
         />
         <input
@@ -243,31 +236,33 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
           value={formData.country}
           onChange={(e) => updateField('country', e.target.value)}
           placeholder={labels.country}
+          aria-label={labels.country}
           className="w-full bg-white border border-industrial-200 px-4 py-3"
         />
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
         <select
+          required
           value={formData.productType}
+          aria-label={labels.productType}
           onChange={(e) => updateField('productType', e.target.value)}
           className="w-full bg-white border border-industrial-200 px-4 py-3"
         >
-          <option>Seals & O-Rings</option>
-          <option>Gaskets & Washers</option>
-          <option>Bellows & Boots</option>
-          <option>Custom Molded Parts</option>
+          {labels.options.productType.map(([value, label]) => <option key={value} value={value}>{label}</option>)}
         </select>
         <input
           value={formData.material}
           onChange={(e) => updateField('material', e.target.value)}
           placeholder={labels.material}
+          aria-label={labels.material}
           className="w-full bg-white border border-industrial-200 px-4 py-3"
         />
         <input
           value={formData.quantity}
           onChange={(e) => updateField('quantity', e.target.value)}
           placeholder={labels.quantity}
+          aria-label={labels.quantity}
           className="w-full bg-white border border-industrial-200 px-4 py-3"
         />
       </div>
@@ -279,7 +274,7 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
           className="w-full bg-white border border-industrial-200 px-4 py-3"
           aria-label={labels.annualVolume}
         >
-          {annualVolumeOptions.map(([value, label]) => (
+          {labels.options.annualVolume.map(([value, label]) => (
             <option key={value} value={value}>{label}</option>
           ))}
         </select>
@@ -289,7 +284,7 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
           className="w-full bg-white border border-industrial-200 px-4 py-3"
           aria-label={labels.projectStage}
         >
-          {projectStageOptions.map(([value, label]) => (
+          {labels.options.projectStage.map(([value, label]) => (
             <option key={value} value={value}>{label}</option>
           ))}
         </select>
@@ -300,6 +295,7 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
         value={formData.drawingLink}
         onChange={(e) => updateField('drawingLink', e.target.value)}
         placeholder={labels.drawingLink}
+        aria-label={labels.drawingLink}
         className="w-full bg-white border border-industrial-200 px-4 py-3"
       />
 
@@ -308,6 +304,7 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
         value={formData.notes}
         onChange={(e) => updateField('notes', e.target.value)}
         placeholder={labels.notes}
+        aria-label={labels.notes}
         className="w-full bg-white border border-industrial-200 px-4 py-3"
       />
 

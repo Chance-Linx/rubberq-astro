@@ -1,0 +1,8 @@
+{
+  "locale": "en",
+  "page_count": 49,
+  "source": "approved English page tasks",
+  "implementation_checked_sha256": "f6ce5c72cff9e81a5fa86a517043a1e490cfd31aa74a518926af29230c64b23e",
+  "implementation_checks": "evidence/five-locale-implementation-checks.json",
+  "final_review": false
+}

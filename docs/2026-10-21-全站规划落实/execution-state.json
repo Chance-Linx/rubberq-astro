@@ -1,0 +1,634 @@
+{
+  "objective": "完整落实已批准规划，全部完成后集中审核",
+  "authorization": "用户2026-10-21明确继续完整实施，非仅交付策划",
+  "paid_budget": "待定，零新增付费调用",
+  "final_review": "not_started",
+  "publication": "not_started",
+  "requirements": {
+    "pages": [
+      {
+        "id": "RQ-PG-001",
+        "url": "/",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-002",
+        "url": "/about",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-003",
+        "url": "/products",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-004",
+        "url": "/products/seals",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-005",
+        "url": "/products/gaskets",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-006",
+        "url": "/products/bellows",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-007",
+        "url": "/products/custom",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-008",
+        "url": "/products/diaphragms",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-009",
+        "url": "/products/rubber-to-metal-bonded-parts",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-010",
+        "url": "/products/ffkm-replacement-seals",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-011",
+        "url": "/materials",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-012",
+        "url": "/materials/ffkm",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-013",
+        "url": "/materials/fkm",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-014",
+        "url": "/materials/epdm",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-015",
+        "url": "/materials/hnbr",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-016",
+        "url": "/materials/nbr",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-017",
+        "url": "/materials/silicone",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-018",
+        "url": "/materials/lsr",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-019",
+        "url": "/materials/acm",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-020",
+        "url": "/materials/aem",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-021",
+        "url": "/capabilities",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-022",
+        "url": "/capabilities/rubber-molding",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-023",
+        "url": "/capabilities/lsr-molding",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-024",
+        "url": "/compounding",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-025",
+        "url": "/compounds",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-026",
+        "url": "/testing",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-027",
+        "url": "/quality",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-028",
+        "url": "/factory",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-029",
+        "url": "/industries",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-030",
+        "url": "/industries/semiconductor",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-031",
+        "url": "/industries/liquid-cooling-energy-storage",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-032",
+        "url": "/industries/ev-energy-storage",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-033",
+        "url": "/industries/humanoid-robotics",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-034",
+        "url": "/industries/industrial-equipment",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-035",
+        "url": "/industries/automotive-tier2",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-036",
+        "url": "/resources",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-037",
+        "url": "/standards",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-038",
+        "url": "/resources/o-ring-size-guide",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-039",
+        "url": "/resources/rubber-hardness-guide",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-040",
+        "url": "/resources/material-compatibility",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-041",
+        "url": "/resources/seal-failure-analysis",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-042",
+        "url": "/blog",
+        "implementation": "existing_specialized_route_retained_review_pending",
+        "locales": {
+          "en": "localized_labels_authored_specialized_body_review_pending",
+          "de": "localized_labels_authored_specialized_body_review_pending",
+          "ja": "localized_labels_authored_specialized_body_review_pending",
+          "es": "localized_labels_authored_specialized_body_review_pending",
+          "zh": "localized_labels_authored_specialized_body_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-043",
+        "url": "/case-studies",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-044",
+        "url": "/contact",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-045",
+        "url": "/sample-request",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-046",
+        "url": "/batch-rfq",
+        "implementation": "local_route_implemented",
+        "locales": {
+          "en": "implemented_route_checks_passed_final_review_pending",
+          "de": "implemented_route_checks_passed_final_review_pending",
+          "ja": "implemented_route_checks_passed_final_review_pending",
+          "es": "implemented_route_checks_passed_final_review_pending",
+          "zh": "implemented_route_checks_passed_final_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-047",
+        "url": "/search",
+        "implementation": "existing_specialized_route_retained_review_pending",
+        "locales": {
+          "en": "localized_labels_authored_specialized_body_review_pending",
+          "de": "localized_labels_authored_specialized_body_review_pending",
+          "ja": "localized_labels_authored_specialized_body_review_pending",
+          "es": "localized_labels_authored_specialized_body_review_pending",
+          "zh": "localized_labels_authored_specialized_body_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-048",
+        "url": "/privacy",
+        "implementation": "existing_specialized_route_retained_review_pending",
+        "locales": {
+          "en": "localized_labels_authored_specialized_body_review_pending",
+          "de": "localized_labels_authored_specialized_body_review_pending",
+          "ja": "localized_labels_authored_specialized_body_review_pending",
+          "es": "localized_labels_authored_specialized_body_review_pending",
+          "zh": "localized_labels_authored_specialized_body_review_pending"
+        }
+      },
+      {
+        "id": "RQ-PG-049",
+        "url": "/terms",
+        "implementation": "existing_specialized_route_retained_review_pending",
+        "locales": {
+          "en": "localized_labels_authored_specialized_body_review_pending",
+          "de": "localized_labels_authored_specialized_body_review_pending",
+          "ja": "localized_labels_authored_specialized_body_review_pending",
+          "es": "localized_labels_authored_specialized_body_review_pending",
+          "zh": "localized_labels_authored_specialized_body_review_pending"
+        }
+      }
+    ],
+    "inventory_semantic_ownership": {
+      "required": 271,
+      "completed": 0
+    },
+    "topic_ownership": {
+      "required": 63,
+      "completed": 0
+    },
+    "navigation": "implemented_local_desktop_path_verified_mobile_final_review_pending",
+    "rfq": "five_locale_ui_and_116_local_contract_checks_passed_live_contract_release_pending",
+    "seo_sitemap_schema": "225_routes_metadata_and_jsonld_passed_sitemap_and_specialized_routes_final_review_pending",
+    "dashboard_reconciliation": "local_implementation_progress_reconciled_inventory_still_pending",
+    "final_audit": "pending"
+  },
+  "next_action": "Review all 271 stored article bodies semantically; assign the 63 buyer jobs to unique existing or justified new owners, reconcile dashboard; finish specialized routes/mobile/forms; then one consolidated final review",
+  "status_evidence": {
+    "implemented_page_specs": 45,
+    "message_page_specs": 49,
+    "locales": [
+      "en",
+      "de",
+      "ja",
+      "es",
+      "zh"
+    ],
+    "five_locale_http_checks_passed": 225,
+    "unknown_route_checks_passed": 4,
+    "rfq_local_contract_checks_passed": 116,
+    "evidence_file": "evidence/five-locale-implementation-checks.json",
+    "rfq_evidence_file": "evidence/rfq-contract-checks.json",
+    "checks_scope": "local source parity, rendered text, metadata, JSON-LD, form accessibility names and local payload normalization; not production publication, live email delivery or final acceptance",
+    "specialized_routes": "blog/search/privacy/terms kept; their bodies require separate final review",
+    "paid_calls": 0,
+    "cms_writes": 0,
+    "production_deployments": 0
+  }
+}

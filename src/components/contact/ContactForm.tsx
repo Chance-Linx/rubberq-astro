@@ -3,7 +3,6 @@
 import { Send, CheckCircle, XCircle, Loader2, Upload } from 'lucide-react';
 import { useState, useEffect, useRef } from 'react';
 import type { FormEvent } from 'react';
-import { defaultLocale, locales, type Locale } from '../../lib/i18n';
 import {
   buildFieldPriorityPayload,
   collectSourceTracking,
@@ -20,8 +19,11 @@ interface ContactFormLabels {
   company: string;
   companyPlaceholder: string;
   industry: string;
+  upload: UploadLabels;
   industryOptions: {
     ev: string;
+    cooling: string;
+    robotics: string;
     industrial: string;
     semiconductor: string;
     automotiveTier2: string;
@@ -58,48 +60,11 @@ interface ContactFormLabels {
 
 type UploadLabels = {
   uploadTitle: string;
+  uploadButton: string;
   uploadHelp: string;
   uploadReplace: string;
   uploadUnsupported: string;
   uploadTooLarge: string;
-};
-
-const uploadTextByLocale: Record<Locale, UploadLabels> = {
-  en: {
-    uploadTitle: 'Upload Drawing / Specs (Optional)',
-    uploadHelp: 'Accepted: PDF, STEP, STP, DXF, DWG, PNG, JPG (max 5MB).',
-    uploadReplace: 'Replace file',
-    uploadUnsupported: 'Unsupported file type. Please upload PDF/STEP/STP/DXF/DWG/PNG/JPG.',
-    uploadTooLarge: 'File is too large. Maximum size is 5MB.',
-  },
-  zh: {
-    uploadTitle: '上传图纸/规格文件（可选）',
-    uploadHelp: '支持 PDF、STEP、STP、DXF、DWG、PNG、JPG，最大 5MB。',
-    uploadReplace: '重新选择文件',
-    uploadUnsupported: '文件格式不支持，请上传 PDF/STEP/STP/DXF/DWG/PNG/JPG。',
-    uploadTooLarge: '文件过大，最大支持 5MB。',
-  },
-  de: {
-    uploadTitle: 'Zeichnung/Spezifikation hochladen (optional)',
-    uploadHelp: 'Erlaubt: PDF, STEP, STP, DXF, DWG, PNG, JPG (max. 5MB).',
-    uploadReplace: 'Datei ersetzen',
-    uploadUnsupported: 'Nicht unterstutztes Dateiformat. Bitte PDF/STEP/STP/DXF/DWG/PNG/JPG hochladen.',
-    uploadTooLarge: 'Datei zu gross. Maximal 5MB.',
-  },
-  ja: {
-    uploadTitle: '図面/仕様ファイルをアップロード（任意）',
-    uploadHelp: '対応形式: PDF、STEP、STP、DXF、DWG、PNG、JPG（最大5MB）。',
-    uploadReplace: 'ファイルを変更',
-    uploadUnsupported: '未対応の形式です。PDF/STEP/STP/DXF/DWG/PNG/JPG をアップロードしてください。',
-    uploadTooLarge: 'ファイルサイズが大きすぎます。最大5MBです。',
-  },
-  es: {
-    uploadTitle: 'Subir plano/especificacion (opcional)',
-    uploadHelp: 'Aceptado: PDF, STEP, STP, DXF, DWG, PNG, JPG (max. 5MB).',
-    uploadReplace: 'Reemplazar archivo',
-    uploadUnsupported: 'Tipo de archivo no compatible. Cargue PDF/STEP/STP/DXF/DWG/PNG/JPG.',
-    uploadTooLarge: 'Archivo demasiado grande. Maximo 5MB.',
-  },
 };
 
 const acceptedUploadTypes = [
@@ -137,18 +102,16 @@ function fileToBase64(file: File) {
 
 export default function ContactForm({
   labels,
-  locale,
 }: {
   labels: ContactFormLabels;
-  locale: string;
 }) {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     company: '',
-    industry: 'EV & Energy Storage',
+    industry: 'Other',
     projectType: 'drawing',
-    annualVolume: '100kTo1m',
+    annualVolume: '',
     projectStage: 'feasibility',
     message: '',
     fileLink: '',
@@ -162,8 +125,7 @@ export default function ContactForm({
   const touchedFieldsRef = useRef(new Set<string>());
   const abandonTrackedRef = useRef(false);
 
-  const normalizedLocale = locales.includes(locale as Locale) ? (locale as Locale) : defaultLocale;
-  const uploadLabels = uploadTextByLocale[normalizedLocale];
+  const uploadLabels = labels.upload;
 
   const updateField = (field: keyof typeof formData, value: string) => {
     setFormData((prev) => ({ ...prev, [field]: value }));
@@ -319,9 +281,9 @@ export default function ContactForm({
           name: '',
           email: '',
           company: '',
-          industry: 'EV & Energy Storage',
+          industry: 'Other',
           projectType: 'drawing',
-          annualVolume: '100kTo1m',
+          annualVolume: '',
           projectStage: 'feasibility',
           message: '',
           fileLink: '',
@@ -338,7 +300,7 @@ export default function ContactForm({
           annualVolume: formData.annualVolume,
           projectStage: formData.projectStage,
         });
-        setErrorMsg(data.error || labels.errorMessage);
+        setErrorMsg(labels.errorMessage);
       }
     } catch {
       setStatus('error');
@@ -357,12 +319,13 @@ export default function ContactForm({
       <form onSubmit={handleSubmit} className="space-y-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
-            <label className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
+            <label htmlFor="rq-contact-name" className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
               {labels.name} *
             </label>
             <input
               type="text"
               required
+              id="rq-contact-name"
               value={formData.name}
               onChange={(e) => updateField('name', e.target.value)}
               className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-accent-orange focus:ring-2 focus:ring-accent-orange/15 transition-colors"
@@ -370,12 +333,13 @@ export default function ContactForm({
             />
           </div>
           <div>
-            <label className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
+            <label htmlFor="rq-contact-email" className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
               {labels.email} *
             </label>
             <input
               type="email"
               required
+              id="rq-contact-email"
               value={formData.email}
               onChange={(e) => updateField('email', e.target.value)}
               className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-accent-orange focus:ring-2 focus:ring-accent-orange/15 transition-colors"
@@ -386,11 +350,12 @@ export default function ContactForm({
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div>
-            <label className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
+            <label htmlFor="rq-contact-company" className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
               {labels.company}
             </label>
             <input
               type="text"
+              id="rq-contact-company"
               value={formData.company}
               onChange={(e) => updateField('company', e.target.value)}
               className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-accent-orange focus:ring-2 focus:ring-accent-orange/15 transition-colors"
@@ -398,29 +363,33 @@ export default function ContactForm({
             />
           </div>
           <div>
-            <label className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
+            <label htmlFor="rq-contact-industry" className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
               {labels.industry}
             </label>
             <select
+              id="rq-contact-industry"
               value={formData.industry}
               onChange={(e) => updateField('industry', e.target.value)}
               className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-accent-orange focus:ring-2 focus:ring-accent-orange/15 transition-colors"
             >
-              <option value="EV & Energy Storage">{labels.industryOptions.ev}</option>
-              <option value="Industrial Equipment">{labels.industryOptions.industrial}</option>
-              <option value="Semiconductor Process Equipment">{labels.industryOptions.semiconductor}</option>
-              <option value="Automotive Tier 2">{labels.industryOptions.automotiveTier2}</option>
               <option value="Other">{labels.industryOptions.other}</option>
+              <option value="Semiconductor Process Equipment">{labels.industryOptions.semiconductor}</option>
+              <option value="Liquid Cooling & Energy Storage">{labels.industryOptions.cooling}</option>
+              <option value="EV Thermal Management">{labels.industryOptions.ev}</option>
+              <option value="Humanoid Robotics">{labels.industryOptions.robotics}</option>
+              <option value="Industrial Equipment">{labels.industryOptions.industrial}</option>
+              <option value="Automotive Tier 2">{labels.industryOptions.automotiveTier2}</option>
             </select>
           </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div>
-            <label className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
+            <label htmlFor="rq-contact-projectType" className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
               {labels.projectType.label}
             </label>
             <select
+              id="rq-contact-projectType"
               value={formData.projectType}
               onChange={(e) => updateField('projectType', e.target.value)}
               className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-accent-orange focus:ring-2 focus:ring-accent-orange/15 transition-colors"
@@ -433,10 +402,11 @@ export default function ContactForm({
             </select>
           </div>
           <div>
-            <label className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
+            <label htmlFor="rq-contact-annualVolume" className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
               {labels.annualVolume.label}
             </label>
             <select
+              id="rq-contact-annualVolume"
               value={formData.annualVolume}
               onChange={(e) => updateField('annualVolume', e.target.value)}
               className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-accent-orange focus:ring-2 focus:ring-accent-orange/15 transition-colors"
@@ -447,10 +417,11 @@ export default function ContactForm({
             </select>
           </div>
           <div>
-            <label className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
+            <label htmlFor="rq-contact-projectStage" className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
               {labels.projectStage.label}
             </label>
             <select
+              id="rq-contact-projectStage"
               value={formData.projectStage}
               onChange={(e) => updateField('projectStage', e.target.value)}
               className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-accent-orange focus:ring-2 focus:ring-accent-orange/15 transition-colors"
@@ -486,12 +457,13 @@ export default function ContactForm({
         </div>
 
         <div>
-          <label className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
-            {labels.message} *
+          <label htmlFor="rq-contact-message" className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
+              {labels.message} *
           </label>
           <textarea
             rows={4}
             required
+            id="rq-contact-message"
             value={formData.message}
             onChange={(e) => updateField('message', e.target.value)}
             className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-accent-orange focus:ring-2 focus:ring-accent-orange/15 transition-colors"
@@ -500,7 +472,7 @@ export default function ContactForm({
         </div>
 
         <div>
-          <label className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
+          <label htmlFor="rq-contact-upload" className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
             {uploadLabels.uploadTitle}
           </label>
           <label className="w-full border border-dashed border-industrial-300 bg-industrial-50 px-4 py-4 flex items-center justify-between gap-4 cursor-pointer hover:border-accent-orange transition-colors">
@@ -509,11 +481,12 @@ export default function ContactForm({
             </span>
             <span className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-industrial-700">
               <Upload className="w-4 h-4" />
-              {attachment ? uploadLabels.uploadReplace : 'Upload'}
+              {attachment ? uploadLabels.uploadReplace : uploadLabels.uploadButton}
             </span>
             <input
               type="file"
-              className="hidden"
+              id="rq-contact-upload"
+              className="sr-only"
               accept=".pdf,.step,.stp,.dxf,.dwg,.png,.jpg,.jpeg"
               onChange={handleFileChange}
             />
@@ -522,11 +495,12 @@ export default function ContactForm({
         </div>
 
         <div>
-          <label className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
-            {labels.fileLink}
+          <label htmlFor="rq-contact-fileLink" className="block text-sm font-bold text-industrial-700 mb-2 uppercase tracking-tight">
+              {labels.fileLink}
           </label>
           <input
             type="url"
+            id="rq-contact-fileLink"
             value={formData.fileLink}
             onChange={(e) => updateField('fileLink', e.target.value)}
             className="w-full bg-white border border-industrial-200 px-4 py-3 focus:outline-none focus:border-accent-orange focus:ring-2 focus:ring-accent-orange/15 transition-colors"

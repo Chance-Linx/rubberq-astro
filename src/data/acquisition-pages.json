@@ -1,0 +1,559 @@
+[
+  {
+    "id": "RQ-PG-001",
+    "url": "/",
+    "links": [
+      "/products",
+      "/materials",
+      "/capabilities",
+      "/compounding",
+      "/quality",
+      "/factory",
+      "/industries",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-002",
+    "url": "/about",
+    "links": [
+      "/factory",
+      "/compounding",
+      "/testing",
+      "/quality",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-003",
+    "url": "/products",
+    "links": [
+      "/products/seals",
+      "/products/gaskets",
+      "/products/bellows",
+      "/products/custom",
+      "/products/diaphragms",
+      "/products/rubber-to-metal-bonded-parts"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-004",
+    "url": "/products/seals",
+    "links": [
+      "/materials/ffkm",
+      "/materials/fkm",
+      "/materials/epdm",
+      "/sample-request",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-005",
+    "url": "/products/gaskets",
+    "links": [
+      "/materials/epdm",
+      "/materials/fkm",
+      "/materials/silicone",
+      "/quality",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-006",
+    "url": "/products/bellows",
+    "links": [
+      "/materials",
+      "/products/custom",
+      "/industries/humanoid-robotics",
+      "/sample-request"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-007",
+    "url": "/products/custom",
+    "links": [
+      "/capabilities/rubber-molding",
+      "/compounding",
+      "/quality",
+      "/batch-rfq",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-008",
+    "url": "/products/diaphragms",
+    "links": [
+      "/products/custom",
+      "/materials",
+      "/testing",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-009",
+    "url": "/products/rubber-to-metal-bonded-parts",
+    "links": [
+      "/capabilities/rubber-molding",
+      "/testing",
+      "/industries/humanoid-robotics",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-010",
+    "url": "/products/ffkm-replacement-seals",
+    "links": [
+      "/materials/ffkm",
+      "/products/seals",
+      "/industries/semiconductor",
+      "/testing",
+      "/sample-request"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-011",
+    "url": "/materials",
+    "links": [
+      "/materials/ffkm",
+      "/materials/fkm",
+      "/materials/epdm",
+      "/materials/hnbr",
+      "/materials/nbr",
+      "/materials/silicone",
+      "/materials/lsr",
+      "/compounding"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-012",
+    "url": "/materials/ffkm",
+    "links": [
+      "/products/ffkm-replacement-seals",
+      "/compounding",
+      "/testing",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-013",
+    "url": "/materials/fkm",
+    "links": [
+      "/products/seals",
+      "/compounding",
+      "/testing",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-014",
+    "url": "/materials/epdm",
+    "links": [
+      "/products/gaskets",
+      "/compounding",
+      "/testing",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-015",
+    "url": "/materials/hnbr",
+    "links": [
+      "/products/seals",
+      "/compounding",
+      "/testing",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-016",
+    "url": "/materials/nbr",
+    "links": [
+      "/products/seals",
+      "/compounding",
+      "/testing",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-017",
+    "url": "/materials/silicone",
+    "links": [
+      "/products/custom",
+      "/compounding",
+      "/testing",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-018",
+    "url": "/materials/lsr",
+    "links": [
+      "/capabilities/lsr-molding",
+      "/compounding",
+      "/testing",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-019",
+    "url": "/materials/acm",
+    "links": [
+      "/products/custom",
+      "/compounding",
+      "/testing",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-020",
+    "url": "/materials/aem",
+    "links": [
+      "/products/custom",
+      "/compounding",
+      "/testing",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-021",
+    "url": "/capabilities",
+    "links": [
+      "/compounding",
+      "/capabilities/rubber-molding",
+      "/testing",
+      "/quality",
+      "/factory",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-022",
+    "url": "/capabilities/rubber-molding",
+    "links": [
+      "/products/custom",
+      "/products/rubber-to-metal-bonded-parts",
+      "/compounding",
+      "/quality",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-023",
+    "url": "/capabilities/lsr-molding",
+    "links": [
+      "/materials/lsr",
+      "/products/custom",
+      "/testing",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-024",
+    "url": "/compounding",
+    "links": [
+      "/compounds",
+      "/materials",
+      "/testing",
+      "/factory",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-025",
+    "url": "/compounds",
+    "links": [
+      "/compounding",
+      "/materials",
+      "/testing",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-026",
+    "url": "/testing",
+    "links": [
+      "/quality",
+      "/standards",
+      "/materials",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-027",
+    "url": "/quality",
+    "links": [
+      "/testing",
+      "/factory",
+      "/about",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-028",
+    "url": "/factory",
+    "links": [
+      "/compounding",
+      "/capabilities",
+      "/testing",
+      "/quality",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-029",
+    "url": "/industries",
+    "links": [
+      "/industries/semiconductor",
+      "/industries/liquid-cooling-energy-storage",
+      "/industries/ev-energy-storage",
+      "/industries/humanoid-robotics",
+      "/industries/industrial-equipment",
+      "/industries/automotive-tier2"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-030",
+    "url": "/industries/semiconductor",
+    "links": [
+      "/materials/ffkm",
+      "/materials/fkm",
+      "/products/ffkm-replacement-seals",
+      "/testing",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-031",
+    "url": "/industries/liquid-cooling-energy-storage",
+    "links": [
+      "/materials/epdm",
+      "/materials/hnbr",
+      "/products/seals",
+      "/products/gaskets",
+      "/testing",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-032",
+    "url": "/industries/ev-energy-storage",
+    "links": [
+      "/materials/epdm",
+      "/materials/hnbr",
+      "/materials/fkm",
+      "/quality",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-033",
+    "url": "/industries/humanoid-robotics",
+    "links": [
+      "/products/bellows",
+      "/products/rubber-to-metal-bonded-parts",
+      "/products/custom",
+      "/testing",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-034",
+    "url": "/industries/industrial-equipment",
+    "links": [
+      "/products",
+      "/materials",
+      "/capabilities",
+      "/batch-rfq",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-035",
+    "url": "/industries/automotive-tier2",
+    "links": [
+      "/quality",
+      "/testing",
+      "/products/custom",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-036",
+    "url": "/resources",
+    "links": [
+      "/standards",
+      "/resources/o-ring-size-guide",
+      "/resources/rubber-hardness-guide",
+      "/resources/material-compatibility",
+      "/resources/seal-failure-analysis",
+      "/blog",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-037",
+    "url": "/standards",
+    "links": [
+      "/testing",
+      "/materials",
+      "/resources",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-038",
+    "url": "/resources/o-ring-size-guide",
+    "links": [
+      "/products/seals",
+      "/standards",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-039",
+    "url": "/resources/rubber-hardness-guide",
+    "links": [
+      "/compounding",
+      "/standards",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-040",
+    "url": "/resources/material-compatibility",
+    "links": [
+      "/materials",
+      "/standards",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-041",
+    "url": "/resources/seal-failure-analysis",
+    "links": [
+      "/testing",
+      "/standards",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-042",
+    "url": "/blog",
+    "links": [
+      "/resources",
+      "/materials",
+      "/products",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-043",
+    "url": "/case-studies",
+    "links": [
+      "/products",
+      "/testing",
+      "/quality",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-044",
+    "url": "/contact",
+    "links": [
+      "/sample-request",
+      "/batch-rfq",
+      "/quality"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-045",
+    "url": "/sample-request",
+    "links": [
+      "/contact",
+      "/testing",
+      "/products"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-046",
+    "url": "/batch-rfq",
+    "links": [
+      "/contact",
+      "/quality",
+      "/capabilities"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-047",
+    "url": "/search",
+    "links": [
+      "/materials",
+      "/products",
+      "/resources",
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-048",
+    "url": "/privacy",
+    "links": [
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  },
+  {
+    "id": "RQ-PG-049",
+    "url": "/terms",
+    "links": [
+      "/contact"
+    ],
+    "cta_url": "/contact"
+  }
+]

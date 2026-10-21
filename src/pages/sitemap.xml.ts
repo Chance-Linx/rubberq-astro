@@ -1,7 +1,6 @@
 import type { APIRoute } from 'astro';
 import { getAllBlogPosts, getBlogUrl } from '../lib/sanity';
-import { PRODUCT_SLUGS } from '../lib/products';
-import { MATERIAL_SLUGS } from '../lib/materials';
+import acquisitionPages from '../data/acquisition-pages.json';
 
 export const GET: APIRoute = async () => {
   const base = 'https://rubberq.com';
@@ -18,13 +17,7 @@ export const GET: APIRoute = async () => {
     return new Date(Math.max(...dates.map((date) => date.getTime()))).toISOString();
   };
 
-  const staticPages = [
-    '', 'products', 'case-studies', 'factory', 'about', 'capabilities',
-    'compounding', 'testing', 'industries',
-    'materials', 'quality', 'resources', 'contact', 'sample-request',
-    'batch-rfq', 'standards', 'privacy', 'terms'
-  ];
-  const industryPages = ['ev-energy-storage', 'industrial-equipment', 'semiconductor', 'automotive-tier2'];
+  const plannedPages = acquisitionPages.filter(page => !['/search', '/blog'].includes(page.url));
 
   const xmlEscape = (value: string) => value
     .replace(/&/g, '&amp;')
@@ -54,35 +47,12 @@ export const GET: APIRoute = async () => {
 
   const urls: string[] = [];
 
-  for (const page of staticPages) {
+  for (const page of plannedPages) {
     for (const locale of locales) {
-      const path = pathForLocale(locale, page);
+      const path = pathForLocale(locale, page.url === '/' ? '' : page.url.slice(1));
       urls.push(sitemapUrl(`${base}${path}`, {
         changefreq: 'weekly',
-        priority: page ? '0.7' : '1.0',
-      }));
-    }
-  }
-
-  for (const locale of locales) {
-    for (const slug of PRODUCT_SLUGS) {
-      urls.push(sitemapUrl(`${base}${pathForLocale(locale, `products/${slug}`)}`, {
-        changefreq: 'monthly',
-        priority: '0.7',
-      }));
-    }
-
-    for (const slug of MATERIAL_SLUGS) {
-      urls.push(sitemapUrl(`${base}${pathForLocale(locale, `materials/${slug}`)}`, {
-        changefreq: 'monthly',
-        priority: '0.7',
-      }));
-    }
-
-    for (const slug of industryPages) {
-      urls.push(sitemapUrl(`${base}${pathForLocale(locale, `industries/${slug}`)}`, {
-        changefreq: 'monthly',
-        priority: '0.75',
+        priority: page.url === '/' ? '1.0' : '0.7',
       }));
     }
   }

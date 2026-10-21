@@ -1,0 +1,112 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "h1": [
+      "Japanese Formulation. Chinese Precision. Trusted Since 1995."
+    ],
+    "canonical": [
+      "https://rubberq.com/"
+    ],
+    "forms": 0
+  },
+  {
+    "path": "/products/seals",
+    "status": 200,
+    "h1": [
+      "O-Rings and Custom Rubber Seals"
+    ],
+    "canonical": [
+      "https://rubberq.com/products/seals"
+    ],
+    "forms": 0
+  },
+  {
+    "path": "/products/ffkm-replacement-seals",
+    "status": 200,
+    "h1": [
+      "FFKM Replacement Seals for Equipment Maintenance"
+    ],
+    "canonical": [
+      "https://rubberq.com/products/ffkm-replacement-seals"
+    ],
+    "forms": 0
+  },
+  {
+    "path": "/compounds",
+    "status": 200,
+    "h1": [
+      "Custom Rubber Compound Supply"
+    ],
+    "canonical": [
+      "https://rubberq.com/compounds"
+    ],
+    "forms": 0
+  },
+  {
+    "path": "/capabilities/lsr-molding",
+    "status": 200,
+    "h1": [
+      "LSR Molding Project Review"
+    ],
+    "canonical": [
+      "https://rubberq.com/capabilities/lsr-molding"
+    ],
+    "forms": 0
+  },
+  {
+    "path": "/resources/o-ring-size-guide",
+    "status": 200,
+    "h1": [
+      "O-Ring Size and Drawing Guide"
+    ],
+    "canonical": [
+      "https://rubberq.com/resources/o-ring-size-guide"
+    ],
+    "forms": 0
+  },
+  {
+    "path": "/industries",
+    "status": 200,
+    "h1": [
+      "Rubber Components for Demanding Industrial Applications"
+    ],
+    "canonical": [
+      "https://rubberq.com/industries"
+    ],
+    "forms": 0
+  },
+  {
+    "path": "/industries/liquid-cooling-energy-storage",
+    "status": 200,
+    "h1": [
+      "Rubber Components for Liquid Cooling and Energy Storage"
+    ],
+    "canonical": [
+      "https://rubberq.com/industries/liquid-cooling-energy-storage"
+    ],
+    "forms": 0
+  },
+  {
+    "path": "/contact",
+    "status": 200,
+    "h1": [
+      "Tell Us About Your Rubber Component"
+    ],
+    "canonical": [
+      "https://rubberq.com/contact"
+    ],
+    "forms": 1
+  },
+  {
+    "path": "/de/compounds",
+    "status": 200,
+    "h1": [
+      "Custom Rubber Compound Supply"
+    ],
+    "canonical": [
+      "https://rubberq.com/de/compounds"
+    ],
+    "forms": 0
+  }
+]

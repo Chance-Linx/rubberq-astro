@@ -17,6 +17,11 @@ type ProductOption = {
 };
 
 export interface BatchRfqLabels {
+  options: {
+    projectType: Array<[string, string]>;
+    projectStage: Array<[string, string]>;
+    quoteComponent: Array<[string, string]>;
+  };
   name: string;
   email: string;
   company: string;
@@ -37,27 +42,6 @@ export interface BatchRfqLabels {
   error: string;
   errorMessage: string;
 }
-
-const projectTypeOptions = [
-  ['drawing', 'Drawing-driven RFQ'],
-  ['application', 'Application-driven compound review'],
-  ['sample', 'Sample request only'],
-];
-
-const projectStageOptions = [
-  ['feasibility', 'Feasibility study'],
-  ['pilot', 'Prototype / pilot'],
-  ['validation', 'Pre-production validation'],
-  ['production', 'Production / supply agreement'],
-];
-
-const quoteComponentOptions = [
-  ['compoundReview', 'Compound feasibility'],
-  ['tooling', 'Tooling estimate'],
-  ['perPiece', 'Per-piece quote'],
-  ['validation', 'Testing / validation'],
-  ['sample', 'Sample quote'],
-];
 
 export default function BatchRfqForm({
   labels,
@@ -248,7 +232,7 @@ export default function BatchRfqForm({
           annualVolume: formData.annualVolume,
           projectStage: formData.projectStage,
         });
-        setErrorMsg(data.error || labels.errorMessage);
+        setErrorMsg(labels.errorMessage);
       }
     } catch {
       setStatus('error');
@@ -288,6 +272,7 @@ export default function BatchRfqForm({
           value={formData.name}
           onChange={(e) => updateField('name', e.target.value)}
           placeholder={labels.name}
+          aria-label={labels.name}
           className="w-full bg-white border border-industrial-200 px-4 py-3"
         />
         <input
@@ -296,6 +281,7 @@ export default function BatchRfqForm({
           value={formData.email}
           onChange={(e) => updateField('email', e.target.value)}
           placeholder={labels.email}
+          aria-label={labels.email}
           className="w-full bg-white border border-industrial-200 px-4 py-3"
         />
       </div>
@@ -307,7 +293,7 @@ export default function BatchRfqForm({
           className="w-full bg-white border border-industrial-200 px-4 py-3"
           aria-label={labels.projectType}
         >
-          {projectTypeOptions.map(([value, label]) => (
+          {labels.options.projectType.map(([value, label]) => (
             <option key={value} value={value}>{label}</option>
           ))}
         </select>
@@ -317,7 +303,7 @@ export default function BatchRfqForm({
           className="w-full bg-white border border-industrial-200 px-4 py-3"
           aria-label={labels.projectStage}
         >
-          {projectStageOptions.map(([value, label]) => (
+          {labels.options.projectStage.map(([value, label]) => (
             <option key={value} value={value}>{label}</option>
           ))}
         </select>
@@ -326,7 +312,7 @@ export default function BatchRfqForm({
       <div>
         <h3 className="text-sm font-bold uppercase tracking-widest text-industrial-500 mb-3">{labels.quoteComponents}</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          {quoteComponentOptions.map(([value, label]) => (
+          {labels.options.quoteComponent.map(([value, label]) => (
             <label key={value} className="flex items-center gap-3 border border-industrial-200 bg-white px-4 py-3 cursor-pointer">
               <input
                 type="checkbox"
@@ -345,6 +331,7 @@ export default function BatchRfqForm({
           value={formData.company}
           onChange={(e) => updateField('company', e.target.value)}
           placeholder={labels.company}
+          aria-label={labels.company}
           className="w-full bg-white border border-industrial-200 px-4 py-3"
         />
         <input
@@ -352,6 +339,7 @@ export default function BatchRfqForm({
           value={formData.country}
           onChange={(e) => updateField('country', e.target.value)}
           placeholder={labels.country}
+          aria-label={labels.country}
           className="w-full bg-white border border-industrial-200 px-4 py-3"
         />
       </div>
@@ -361,12 +349,14 @@ export default function BatchRfqForm({
           value={formData.annualVolume}
           onChange={(e) => updateField('annualVolume', e.target.value)}
           placeholder={labels.annualVolume}
+          aria-label={labels.annualVolume}
           className="w-full bg-white border border-industrial-200 px-4 py-3"
         />
         <input
           value={formData.targetMaterial}
           onChange={(e) => updateField('targetMaterial', e.target.value)}
           placeholder={labels.targetMaterial}
+          aria-label={labels.targetMaterial}
           className="w-full bg-white border border-industrial-200 px-4 py-3"
         />
       </div>
@@ -376,6 +366,7 @@ export default function BatchRfqForm({
         value={formData.drawingLink}
         onChange={(e) => updateField('drawingLink', e.target.value)}
         placeholder={labels.drawingLink}
+        aria-label={labels.drawingLink}
         className="w-full bg-white border border-industrial-200 px-4 py-3"
       />
 
@@ -384,6 +375,7 @@ export default function BatchRfqForm({
         value={formData.notes}
         onChange={(e) => updateField('notes', e.target.value)}
         placeholder={labels.notes}
+        aria-label={labels.notes}
         className="w-full bg-white border border-industrial-200 px-4 py-3"
       />
 

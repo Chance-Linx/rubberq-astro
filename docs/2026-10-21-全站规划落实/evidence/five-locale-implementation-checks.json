@@ -1,0 +1,3462 @@
+{
+  "base": "http://127.0.0.1:4397",
+  "scope": "Implementation verification only; not final whole-project acceptance, visual review, CMS ownership, form delivery, publication or ranking proof",
+  "source_errors": [],
+  "source_checks": [
+    {
+      "locale": "en",
+      "page_count": 49,
+      "pass": true,
+      "issues": [],
+      "file_sha256": "f6ce5c72cff9e81a5fa86a517043a1e490cfd31aa74a518926af29230c64b23e"
+    },
+    {
+      "locale": "de",
+      "page_count": 49,
+      "pass": true,
+      "issues": [],
+      "file_sha256": "f6f8628923b5ff7fed9c47e49d6abb1e2809682f940ac4a038aa669bf2e49e59"
+    },
+    {
+      "locale": "ja",
+      "page_count": 49,
+      "pass": true,
+      "issues": [],
+      "file_sha256": "8d51a8b52bf3565071e4dd66b7775f4b52217165681303873a1ea920d63537e8"
+    },
+    {
+      "locale": "es",
+      "page_count": 49,
+      "pass": true,
+      "issues": [],
+      "file_sha256": "6c8e4cc7c8fa1a62028aa6190c4370e38bc2d642eaa8935da5209b6f135081bb"
+    },
+    {
+      "locale": "zh",
+      "page_count": 49,
+      "pass": true,
+      "issues": [],
+      "file_sha256": "3a3fdbf4667e10041d63255e1cdafc1bfd05f4dd67a313fffc59e5eb83dd1cce"
+    }
+  ],
+  "page_results": [
+    {
+      "locale": "en",
+      "path": "/",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "0b1a7641244b24feb64708c434c346602bed0d5f0563bade3fdaf3cb1b44e42c"
+    },
+    {
+      "locale": "en",
+      "path": "/about",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "e7a80e2219cb919d7ce2b68e7715acc50838b7213f09c00343cb94d9951144c6"
+    },
+    {
+      "locale": "en",
+      "path": "/products",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "3fa96d01ad76fd52bc3b9dfb17332648fe1957cc245bec43b80d9ee6753e4299"
+    },
+    {
+      "locale": "en",
+      "path": "/products/seals",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "68f639315ae994017508bbdc1b169b7dacc64753645bcf27ebd20821b720dce7"
+    },
+    {
+      "locale": "en",
+      "path": "/products/gaskets",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "79f1796e7e09195adc10dbd96406573bac607cc75d9f53045606dbaede062dfa"
+    },
+    {
+      "locale": "en",
+      "path": "/products/bellows",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "b23688dc2369ae237229f5a239c527a163e0c9f07f5c892c1a02141276041363"
+    },
+    {
+      "locale": "en",
+      "path": "/products/custom",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "b017773a17caf7a719d901ec95d137432786be45329856f94f9948927b58c584"
+    },
+    {
+      "locale": "en",
+      "path": "/products/diaphragms",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "a022f108d63f698464de15c2e8ab0a55459dc55671f4e3b8b929fa190b9844fc"
+    },
+    {
+      "locale": "en",
+      "path": "/products/rubber-to-metal-bonded-parts",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "3b29e08736b2e9007a74ee76d86be7c0c90f4d13eeda1186c7364108158ede24"
+    },
+    {
+      "locale": "en",
+      "path": "/products/ffkm-replacement-seals",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "ab3911fb22c0f5261eafc8c33c47173ba1077bbbd7d14f8bd1b5151fa3777ec7"
+    },
+    {
+      "locale": "en",
+      "path": "/materials",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "78bbfb4364568d5ae6672e82ae173e5627061432acf6c529e3fdd4a0567f3da4"
+    },
+    {
+      "locale": "en",
+      "path": "/materials/ffkm",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "a7c5c23d59312134ca7602fb5d5f4d10da99bc7be41c7c1d41a38734b5305f5c"
+    },
+    {
+      "locale": "en",
+      "path": "/materials/fkm",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "0b4308b58f6d958c5b9cbb6a4d28e84fb48bacf64e322e825fbd47d21c27ba66"
+    },
+    {
+      "locale": "en",
+      "path": "/materials/epdm",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "aa70d686c2a5880d9478be0a5c4ee83bc0efad64ed91cd2d8262e403077255c6"
+    },
+    {
+      "locale": "en",
+      "path": "/materials/hnbr",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "004dc818be003050408bd3e2ca6152528e5d597d344d8aba2f27ea3a0fc1e48f"
+    },
+    {
+      "locale": "en",
+      "path": "/materials/nbr",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "860f45d4de1855c1417e4e09d89ca052af7dada08ed966934cbce3dfef390b79"
+    },
+    {
+      "locale": "en",
+      "path": "/materials/silicone",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "28ae03e57bb9d7fb28a7bb7d051f4bb94f551a17d425c6c1c0bf0fa890d1e19e"
+    },
+    {
+      "locale": "en",
+      "path": "/materials/lsr",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "4cb4a9298539ddf5eae9e2c9e47c28268868a994e165320faaa8963e14482d9e"
+    },
+    {
+      "locale": "en",
+      "path": "/materials/acm",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "851ea59da76c920b40aa7c08e62b1773f374d72324e2fb2314a41511108a31c5"
+    },
+    {
+      "locale": "en",
+      "path": "/materials/aem",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "8b4ccbdd0d4dcdc0133a0b50715d561e9c0b90a9b302f85dedaba18f105f8fc4"
+    },
+    {
+      "locale": "en",
+      "path": "/capabilities",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "8bb7c2c0eb445a161074e5f5c32994a2b4a5b7ea6178ec56e62716d6e03f8c62"
+    },
+    {
+      "locale": "en",
+      "path": "/capabilities/rubber-molding",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "ad85914a44eec4c20977ab63bfac918278bd7f4fe1aabb3be41fa3de1044ba56"
+    },
+    {
+      "locale": "en",
+      "path": "/capabilities/lsr-molding",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "decb794ae16db4143eb3462a9c7f53847a7bc8509f0a6e78ed5d930d06df779f"
+    },
+    {
+      "locale": "en",
+      "path": "/compounding",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "b1372f696cfa3d4398a9e8dbb078a9f13addfcda514abbd193828cb7e44e88a4"
+    },
+    {
+      "locale": "en",
+      "path": "/compounds",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "7f18e5ef841da9e04793837905952fff589555dd15e3689207622aa6e54ba1ed"
+    },
+    {
+      "locale": "en",
+      "path": "/testing",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "4f918336cfc6657358fc9a4be19fb4c1adaf0b2b2c8f206904cde0066f33fe15"
+    },
+    {
+      "locale": "en",
+      "path": "/quality",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "012e0cc03e4a1bc224cea6c4b22a24b5712420eeb0481a863be199a51627b773"
+    },
+    {
+      "locale": "en",
+      "path": "/factory",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "cf2a3bf85613541d342a42e45cfcb1f070f81cae7f1d649b190fdeb5e8a5dbb9"
+    },
+    {
+      "locale": "en",
+      "path": "/industries",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "d19b44b06353763b37901d216e0f12d3f614d97bf4f6ba272dcf68037a274d64"
+    },
+    {
+      "locale": "en",
+      "path": "/industries/semiconductor",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "90b6d139f7ff2baa7798a83a3abb87ad2efc88763895d6c778a1d5d423be8ea7"
+    },
+    {
+      "locale": "en",
+      "path": "/industries/liquid-cooling-energy-storage",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "46871fa93bd930509a7d671cb9cece66574ce29453f1c3e0ec7307ced7bb33e4"
+    },
+    {
+      "locale": "en",
+      "path": "/industries/ev-energy-storage",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "b5200e9c37e963b06487a6ec1f888a93700ca0143aba2e7c8fb6f6750d21db75"
+    },
+    {
+      "locale": "en",
+      "path": "/industries/humanoid-robotics",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "4221561dfaef49715a0bae8a9758f5a4946f861d8492b712c54c81a913cedc85"
+    },
+    {
+      "locale": "en",
+      "path": "/industries/industrial-equipment",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "f31ec49d85256c89b02a01721cebf917257e6136cada93d1c6e9a8b30e310c6f"
+    },
+    {
+      "locale": "en",
+      "path": "/industries/automotive-tier2",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "971eb5a711fb1fa91c1a79c5a893812c1c2af6b84e484f1690c805fdc9fa4ac3"
+    },
+    {
+      "locale": "en",
+      "path": "/resources",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "9a55f3d0d39c8b471d0a23af4e7b5fce8cef4f1d1ddfd56097bedd606fe54bcb"
+    },
+    {
+      "locale": "en",
+      "path": "/standards",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "cfc44f073519ad58517881363f3ad1c7c515dd98dc4a4a5d1f7b955e8b45c922"
+    },
+    {
+      "locale": "en",
+      "path": "/resources/o-ring-size-guide",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "f45350999d6e5574fdda313ec78a8fc1feb75de913628c659b09ad92c5e21d44"
+    },
+    {
+      "locale": "en",
+      "path": "/resources/rubber-hardness-guide",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "d042cb7da1122a83ce41b42261a5bb9a7b74f9e7885dc2280f0d62475004222a"
+    },
+    {
+      "locale": "en",
+      "path": "/resources/material-compatibility",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "711d1ed86feabf5b1176aea001b38622fdd3cecc1de4716d5c84435fa489d902"
+    },
+    {
+      "locale": "en",
+      "path": "/resources/seal-failure-analysis",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "e7e1132656e3ae034552f0123741bfe545607a96dee92222148db0760adf58e9"
+    },
+    {
+      "locale": "en",
+      "path": "/case-studies",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "b63e1ee7d925e0f6712836322c5da527924887e7b1e083ac0dbcdd4c08475b99"
+    },
+    {
+      "locale": "en",
+      "path": "/contact",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 1,
+      "form_options": [
+        {
+          "value": "Other",
+          "text": "Other (please describe)",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Semiconductor Process Equipment",
+          "text": "Semiconductor Equipment",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Liquid Cooling & Energy Storage",
+          "text": "Liquid Cooling & Energy Storage",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "EV Thermal Management",
+          "text": "EV Thermal Management",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Humanoid Robotics",
+          "text": "Humanoid Robotics",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Industrial Equipment",
+          "text": "General Industrial",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Automotive Tier 2",
+          "text": "Automotive Tier 2",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "drawing",
+          "text": "Drawing-driven RFQ — I have a specification and need a quote",
+          "select": "rq-contact-projectType"
+        },
+        {
+          "value": "application",
+          "text": "Application-driven — I have operating conditions and need material guidance",
+          "select": "rq-contact-projectType"
+        },
+        {
+          "value": "sample",
+          "text": "Sample request only",
+          "select": "rq-contact-projectType"
+        },
+        {
+          "value": "",
+          "text": "Estimated Annual Volume",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "under10k",
+          "text": "Under 10,000 parts",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "10kTo100k",
+          "text": "10,000 – 100,000 parts",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "100kTo1m",
+          "text": "100,000 – 1,000,000 parts",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "1mTo5m",
+          "text": "1,000,000 – 5,000,000 parts",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "over5m",
+          "text": "Over 5,000,000 parts",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "feasibility",
+          "text": "Feasibility study",
+          "select": "rq-contact-projectStage"
+        },
+        {
+          "value": "prototype",
+          "text": "Prototype / pilot",
+          "select": "rq-contact-projectStage"
+        },
+        {
+          "value": "preProduction",
+          "text": "Pre-production validation",
+          "select": "rq-contact-projectStage"
+        },
+        {
+          "value": "production",
+          "text": "Production / supply agreement",
+          "select": "rq-contact-projectStage"
+        }
+      ],
+      "html_sha256": "e9bce0382fc2c85c3b8d9455b454cb35529a320f5e50019b793756b010b47565"
+    },
+    {
+      "locale": "en",
+      "path": "/sample-request",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 1,
+      "form_options": [
+        {
+          "value": "",
+          "text": "Product Type",
+          "select": "Product Type"
+        },
+        {
+          "value": "Seals & O-Rings",
+          "text": "O-Rings & Seals",
+          "select": "Product Type"
+        },
+        {
+          "value": "Gaskets & Washers",
+          "text": "Custom Gaskets",
+          "select": "Product Type"
+        },
+        {
+          "value": "Bellows & Boots",
+          "text": "Bellows & Boots",
+          "select": "Product Type"
+        },
+        {
+          "value": "Custom Molded Parts",
+          "text": "Custom Molded Parts",
+          "select": "Product Type"
+        },
+        {
+          "value": "Diaphragms",
+          "text": "Diaphragms",
+          "select": "Product Type"
+        },
+        {
+          "value": "Rubber-to-Metal Parts",
+          "text": "Rubber-to-Metal Parts",
+          "select": "Product Type"
+        },
+        {
+          "value": "FFKM Replacement Seals",
+          "text": "FFKM Replacement Seals",
+          "select": "Product Type"
+        },
+        {
+          "value": "",
+          "text": "Estimated Annual Volume",
+          "select": "Estimated Annual Volume"
+        },
+        {
+          "value": "under10k",
+          "text": "Under 10,000 parts",
+          "select": "Estimated Annual Volume"
+        },
+        {
+          "value": "10kTo100k",
+          "text": "10,000 – 100,000 parts",
+          "select": "Estimated Annual Volume"
+        },
+        {
+          "value": "100kTo1m",
+          "text": "100,000 – 1,000,000 parts",
+          "select": "Estimated Annual Volume"
+        },
+        {
+          "value": "1mTo5m",
+          "text": "1,000,000 – 5,000,000 parts",
+          "select": "Estimated Annual Volume"
+        },
+        {
+          "value": "over5m",
+          "text": "Over 5,000,000 parts",
+          "select": "Estimated Annual Volume"
+        },
+        {
+          "value": "sample",
+          "text": "Sample evaluation",
+          "select": "Project Stage"
+        },
+        {
+          "value": "pilot",
+          "text": "Prototype / pilot",
+          "select": "Project Stage"
+        },
+        {
+          "value": "validation",
+          "text": "Pre-production validation",
+          "select": "Project Stage"
+        },
+        {
+          "value": "production",
+          "text": "Production / supply agreement",
+          "select": "Project Stage"
+        }
+      ],
+      "html_sha256": "a572ebab2c8d71c65961948b1c3f6e4c5feb21439a901ed8daae560ee042f509"
+    },
+    {
+      "locale": "en",
+      "path": "/batch-rfq",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 1,
+      "form_options": [
+        {
+          "value": "drawing",
+          "text": "Drawing-driven RFQ — I have a specification and need a quote",
+          "select": "Project Type"
+        },
+        {
+          "value": "application",
+          "text": "Application-driven — I have operating conditions and need material guidance",
+          "select": "Project Type"
+        },
+        {
+          "value": "sample",
+          "text": "Sample request only",
+          "select": "Project Type"
+        },
+        {
+          "value": "feasibility",
+          "text": "Feasibility study",
+          "select": "Project Stage"
+        },
+        {
+          "value": "pilot",
+          "text": "Prototype / pilot",
+          "select": "Project Stage"
+        },
+        {
+          "value": "validation",
+          "text": "Pre-production validation",
+          "select": "Project Stage"
+        },
+        {
+          "value": "production",
+          "text": "Production / supply agreement",
+          "select": "Project Stage"
+        }
+      ],
+      "html_sha256": "5f48d5fc971171aa9cc4132add7a195d6cef7128ac6a7defe129eef12e756418"
+    },
+    {
+      "locale": "de",
+      "path": "/de",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "28207be35cbc853f5e0350256a80ef2067c8b6e444d730ac490720c87561ce92"
+    },
+    {
+      "locale": "de",
+      "path": "/de/about",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "32b397f2b8d7ab5a50d276cf3a9c8f68ec12711de549b2fddfab39289e972b4c"
+    },
+    {
+      "locale": "de",
+      "path": "/de/products",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "ecd184b79f1efeca936c5cbe9facba1ddd57fde97f3a3c2716694780abbd4150"
+    },
+    {
+      "locale": "de",
+      "path": "/de/products/seals",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "7fd959e2e7473a47490de6411c4b0c71ad214ccea973f7307600a923abba0029"
+    },
+    {
+      "locale": "de",
+      "path": "/de/products/gaskets",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "d8e78f850682eef77a74da2b166ef3dc3eb991f35c9f0c99d9323092d04761e6"
+    },
+    {
+      "locale": "de",
+      "path": "/de/products/bellows",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "37ee6b08a11735f6f46c9e680ef101134af1aa2477e075fae0d5397f0a7ba6e9"
+    },
+    {
+      "locale": "de",
+      "path": "/de/products/custom",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "3986dbda52e0b90163881448afa9a56bc1529fedbf66a00d57e8ab63679ad24e"
+    },
+    {
+      "locale": "de",
+      "path": "/de/products/diaphragms",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "5da5e4d146b20d04d92b22e4036780cdb2da0b6f6ba44da40f6f00035a66a6f9"
+    },
+    {
+      "locale": "de",
+      "path": "/de/products/rubber-to-metal-bonded-parts",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "3c8d25b87eeee21c84452121ebb1a85684b018d924edf4eb34210be3cef95087"
+    },
+    {
+      "locale": "de",
+      "path": "/de/products/ffkm-replacement-seals",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "69cbe2f32e031fa96ee84e610b1c5457d7467a59e2292d200ff29afb40677846"
+    },
+    {
+      "locale": "de",
+      "path": "/de/materials",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "07af1bb41d1976978908b037c4c3e7abea29efcbfe1ab2856989f2634875650b"
+    },
+    {
+      "locale": "de",
+      "path": "/de/materials/ffkm",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "80e394cdbc5e4bb127dc54ade8e58e4aa521431eccaee85128bc2fa58d0df17c"
+    },
+    {
+      "locale": "de",
+      "path": "/de/materials/fkm",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "ea8ee9012de447851e44c3830b92df692c291a8836e1d54d75e6589a6f75262f"
+    },
+    {
+      "locale": "de",
+      "path": "/de/materials/epdm",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "e9a7e89842c43ff160498a77b40ad6244db16d24bd9d73a98348ae9ac64e5c39"
+    },
+    {
+      "locale": "de",
+      "path": "/de/materials/hnbr",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "2076ea59fccbd5c115acd836c284b307e0c618680583e25582f2dd480e41057f"
+    },
+    {
+      "locale": "de",
+      "path": "/de/materials/nbr",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "2315c994c97f8b810ba5d95f184412a166c17cf2a14835360db7adaa7678d3ff"
+    },
+    {
+      "locale": "de",
+      "path": "/de/materials/silicone",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "af6d80c06ddfcf6c5fcc706bc8732f230237de77f080766dc172be485c7b6469"
+    },
+    {
+      "locale": "de",
+      "path": "/de/materials/lsr",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "c4eda63e5f5d9990bacffe5df7c489122809e9c54c6f55f262499e0a9acc97d9"
+    },
+    {
+      "locale": "de",
+      "path": "/de/materials/acm",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "b99e7a3449850464c96ef9fcfb445006cd1fea6bf87f128e0831ec53c2303c48"
+    },
+    {
+      "locale": "de",
+      "path": "/de/materials/aem",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "145b6c0668cab4119e22424c87aadb73a73badc93eef86717e8c34c77468f30f"
+    },
+    {
+      "locale": "de",
+      "path": "/de/capabilities",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "6239caba9ef90ed4a594f18578d1b6f419e1a330b8f62332e9cfe241dd0a0198"
+    },
+    {
+      "locale": "de",
+      "path": "/de/capabilities/rubber-molding",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "bc466a88c5c5076fb55b983a47b9c3b0727ca5514cceea9a84791750f9fd8358"
+    },
+    {
+      "locale": "de",
+      "path": "/de/capabilities/lsr-molding",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "3af5e98e962871a44ba5efed76afd3b8143e5aa81cf2ee1c2460b58d34e698f0"
+    },
+    {
+      "locale": "de",
+      "path": "/de/compounding",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "ec7e6336fcaccc93eca605ee77948cc73d5f7afb9b5fc15f1e5b4599393080f8"
+    },
+    {
+      "locale": "de",
+      "path": "/de/compounds",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "b50ac7954db81966e25315b98a75b0b15f75477a3b95505a177da995e8915762"
+    },
+    {
+      "locale": "de",
+      "path": "/de/testing",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "3c99b2550ce63405928ffb2ae8e5eb50ee2909cab813126984fcda74d043f843"
+    },
+    {
+      "locale": "de",
+      "path": "/de/quality",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "aa65a4ddde9b05255438800650a5c4602c783d69bf68a0da17327c5343c4ec75"
+    },
+    {
+      "locale": "de",
+      "path": "/de/factory",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "2e92e0abeaf2ad01279562b09a49fa6a35a5d3bbae8d36df0f6f385ad1959a62"
+    },
+    {
+      "locale": "de",
+      "path": "/de/industries",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "c816fc1dfb96c6f089574874d0d30d38a05e1f80aabbb1dc929c6566ca947331"
+    },
+    {
+      "locale": "de",
+      "path": "/de/industries/semiconductor",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "786a08a345cc205386df83a0465510a9d1e0324eee6cd9521412e641ee7ffd14"
+    },
+    {
+      "locale": "de",
+      "path": "/de/industries/liquid-cooling-energy-storage",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "a1b87e58de90ea959cf890c7511106db29dc916638f6d4851cd4c2c12cdb033c"
+    },
+    {
+      "locale": "de",
+      "path": "/de/industries/ev-energy-storage",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "55789185bf2e129f796e618d9228466fd6356f3b0427763987d98d2fe1dddd8e"
+    },
+    {
+      "locale": "de",
+      "path": "/de/industries/humanoid-robotics",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "76cc1d14612c4cbbc6e6e3bbb43297539a9dfbc970d3d32c167af3445a5f4295"
+    },
+    {
+      "locale": "de",
+      "path": "/de/industries/industrial-equipment",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "cfd7b8fcf0ea7094cff31c7ad2b9553eb456b893735164866c597ece0485acf5"
+    },
+    {
+      "locale": "de",
+      "path": "/de/industries/automotive-tier2",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "29fe9e92baeb165fdfe2c1ced705883794e774bac8a81bbc599ffadb86a76db7"
+    },
+    {
+      "locale": "de",
+      "path": "/de/resources",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "fe6973cd710fc0dd48355cd9e8d051675fbf28d7f5366df6c58e3df30f22a499"
+    },
+    {
+      "locale": "de",
+      "path": "/de/standards",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "88855d50ca2d1d2dcfbd7e3af11b3a0d7385c13dd25d6b8d3cd92929b4d482b5"
+    },
+    {
+      "locale": "de",
+      "path": "/de/resources/o-ring-size-guide",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "ac7807f1192a1eedcd54666685083c84d3741a44c08d47635198a1d570d336e0"
+    },
+    {
+      "locale": "de",
+      "path": "/de/resources/rubber-hardness-guide",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "c159b9be81ea04938849f65790e3b3e9e23486ece6fbc181345f31cd9b0dabff"
+    },
+    {
+      "locale": "de",
+      "path": "/de/resources/material-compatibility",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "5136613f004367e1dfa6c45652074644f4dbb99839fdcd8aab24b06c94786284"
+    },
+    {
+      "locale": "de",
+      "path": "/de/resources/seal-failure-analysis",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "a47d8169805a7499e663fabd5800e7710c14320cf5885ae912ad65be210a4230"
+    },
+    {
+      "locale": "de",
+      "path": "/de/case-studies",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "f5e40f54faea7df10af92ec863c33e46da45e3e8b68a263d9b21d596d726433f"
+    },
+    {
+      "locale": "de",
+      "path": "/de/contact",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 1,
+      "form_options": [
+        {
+          "value": "Other",
+          "text": "Andere Anwendung (bitte beschreiben)",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Semiconductor Process Equipment",
+          "text": "Halbleiterausrüstung",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Liquid Cooling & Energy Storage",
+          "text": "Flüssigkeitskühlung und Energiespeicher",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "EV Thermal Management",
+          "text": "EV-Thermomanagement",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Humanoid Robotics",
+          "text": "Humanoide Robotik",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Industrial Equipment",
+          "text": "Industrielle Anwendungen",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Automotive Tier 2",
+          "text": "Automotive Tier 2",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "drawing",
+          "text": "Zeichnungsbasierte RFQ — Spezifikation vorhanden, Angebot benötigt",
+          "select": "rq-contact-projectType"
+        },
+        {
+          "value": "application",
+          "text": "Anwendungsbasiert — Betriebsbedingungen vorhanden, Materialberatung benötigt",
+          "select": "rq-contact-projectType"
+        },
+        {
+          "value": "sample",
+          "text": "Nur Musteranfrage",
+          "select": "rq-contact-projectType"
+        },
+        {
+          "value": "",
+          "text": "Geschätztes Jahresvolumen",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "under10k",
+          "text": "Unter 10.000 Teile",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "10kTo100k",
+          "text": "10.000 – 100.000 Teile",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "100kTo1m",
+          "text": "100.000 – 1.000.000 Teile",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "1mTo5m",
+          "text": "1.000.000 – 5.000.000 Teile",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "over5m",
+          "text": "Über 5.000.000 Teile",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "feasibility",
+          "text": "Machbarkeitsstudie",
+          "select": "rq-contact-projectStage"
+        },
+        {
+          "value": "prototype",
+          "text": "Prototyp / Pilot",
+          "select": "rq-contact-projectStage"
+        },
+        {
+          "value": "preProduction",
+          "text": "Vorserienvalidierung",
+          "select": "rq-contact-projectStage"
+        },
+        {
+          "value": "production",
+          "text": "Produktion / Liefervereinbarung",
+          "select": "rq-contact-projectStage"
+        }
+      ],
+      "html_sha256": "4029981cd87e7c139772e9b5f807978eec4ae1877e0ea4cc96a6306b624a0c64"
+    },
+    {
+      "locale": "de",
+      "path": "/de/sample-request",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 1,
+      "form_options": [
+        {
+          "value": "",
+          "text": "Produkttyp",
+          "select": "Produkttyp"
+        },
+        {
+          "value": "Seals & O-Rings",
+          "text": "O-Ringe und Dichtungen",
+          "select": "Produkttyp"
+        },
+        {
+          "value": "Gaskets & Washers",
+          "text": "Flachdichtungen nach Zeichnung",
+          "select": "Produkttyp"
+        },
+        {
+          "value": "Bellows & Boots",
+          "text": "Faltenbälge und Schutzmanschetten",
+          "select": "Produkttyp"
+        },
+        {
+          "value": "Custom Molded Parts",
+          "text": "Gummiformteile nach Zeichnung",
+          "select": "Produkttyp"
+        },
+        {
+          "value": "Diaphragms",
+          "text": "Membranen",
+          "select": "Produkttyp"
+        },
+        {
+          "value": "Rubber-to-Metal Parts",
+          "text": "Gummi-Metall-Bauteile",
+          "select": "Produkttyp"
+        },
+        {
+          "value": "FFKM Replacement Seals",
+          "text": "FFKM-Ersatzdichtungen",
+          "select": "Produkttyp"
+        },
+        {
+          "value": "",
+          "text": "Geschätztes Jahresvolumen",
+          "select": "Geschätzter Jahresbedarf"
+        },
+        {
+          "value": "under10k",
+          "text": "Unter 10.000 Teile",
+          "select": "Geschätzter Jahresbedarf"
+        },
+        {
+          "value": "10kTo100k",
+          "text": "10.000 – 100.000 Teile",
+          "select": "Geschätzter Jahresbedarf"
+        },
+        {
+          "value": "100kTo1m",
+          "text": "100.000 – 1.000.000 Teile",
+          "select": "Geschätzter Jahresbedarf"
+        },
+        {
+          "value": "1mTo5m",
+          "text": "1.000.000 – 5.000.000 Teile",
+          "select": "Geschätzter Jahresbedarf"
+        },
+        {
+          "value": "over5m",
+          "text": "Über 5.000.000 Teile",
+          "select": "Geschätzter Jahresbedarf"
+        },
+        {
+          "value": "sample",
+          "text": "Musterbewertung",
+          "select": "Projektphase"
+        },
+        {
+          "value": "pilot",
+          "text": "Prototyp / Pilot",
+          "select": "Projektphase"
+        },
+        {
+          "value": "validation",
+          "text": "Vorserienvalidierung",
+          "select": "Projektphase"
+        },
+        {
+          "value": "production",
+          "text": "Produktion / Liefervereinbarung",
+          "select": "Projektphase"
+        }
+      ],
+      "html_sha256": "a1615bbcf8b3b8114b3edbdb18e85ea610d762b33f31a275143bf21cbcedadd3"
+    },
+    {
+      "locale": "de",
+      "path": "/de/batch-rfq",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 1,
+      "form_options": [
+        {
+          "value": "drawing",
+          "text": "Zeichnungsbasierte RFQ — Spezifikation vorhanden, Angebot benötigt",
+          "select": "Projekttyp"
+        },
+        {
+          "value": "application",
+          "text": "Anwendungsbasiert — Betriebsbedingungen vorhanden, Materialberatung benötigt",
+          "select": "Projekttyp"
+        },
+        {
+          "value": "sample",
+          "text": "Nur Musteranfrage",
+          "select": "Projekttyp"
+        },
+        {
+          "value": "feasibility",
+          "text": "Machbarkeitsstudie",
+          "select": "Projektphase"
+        },
+        {
+          "value": "pilot",
+          "text": "Prototyp / Pilot",
+          "select": "Projektphase"
+        },
+        {
+          "value": "validation",
+          "text": "Vorserienvalidierung",
+          "select": "Projektphase"
+        },
+        {
+          "value": "production",
+          "text": "Produktion / Liefervereinbarung",
+          "select": "Projektphase"
+        }
+      ],
+      "html_sha256": "7614585f41bc50c768f75e202dbf640643ce53b47b423a720000f67b242486bb"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "45d3e03da2e28328348f315d490c9502d9da4456d3f88c7a4f9b591181e91898"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/about",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "03a75ed56d456fbdcd00ca1b06e8284c192c3623fa6a661c1d13aa3bfe4f006e"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/products",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "36b7992716dd3f97d50a9b3edfde47eca23d67e181fe233dd94cc7401e6c3a1b"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/products/seals",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "80bcba4c09f2e58869dafbb40aa0ecd7c472c1ba8cbd0b53e4f8cd0284e8ec3a"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/products/gaskets",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "54332b5370b8a56931f94b8aa26d1e697ccda082641bc4d32c65a9d262252879"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/products/bellows",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "adbad2605cdcfd5b59743669f71888e0bdb6e804d33326bbacc9b25131e54f0b"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/products/custom",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "1c39aa3845d0d5f229ae44e4bd4a1a363310b2a44c07fc1cddb6bfb8e996471a"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/products/diaphragms",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "746f30c0483154d642398d7b1807a5d352167b02a191536f35031ff50f65fbeb"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/products/rubber-to-metal-bonded-parts",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "9ee7e3c481c36dda5cc483a53b09e80ba98ba120e4425b2b7aad8af264cda3a5"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/products/ffkm-replacement-seals",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "e3d97a3499c9740ae6d5fa075009518860088c8d6448ee3a9be662f7062d6c3d"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/materials",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "afb819bfa60c68d03c9b21c7a56b2f8bae5e02bc28fd8f191a3cf7cf6f1cd203"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/materials/ffkm",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "0d69af0aec47642f9587d1d80202a88fa5d22ad6eecd5cba8f958d4c8037660e"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/materials/fkm",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "a63ec5e33e8b6976369882678756b0082f5418d0b9ff4524e22715ee17b85035"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/materials/epdm",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "5952cbd77f84e5b59defead8a971653e38f311ea53660c8c9db4d10adfd6e484"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/materials/hnbr",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "e7ee91c9ba4451d2b818faecfb40c9b7d17d0da620f92352bedd4dab6f518499"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/materials/nbr",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "1a871b617aa00b1b95d098db9b5d18cd0fad31aae3ad41acda9c890a69105382"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/materials/silicone",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "f8de577a085284d33b95fa5a58481ce26e68cd7f301fc106e34b7716a927f08d"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/materials/lsr",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "841cb061aceb1dead0c15029e42068bc6e552048186cf47306d0672e23fe868c"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/materials/acm",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "7533cb4a01fb08d12e644326ac88eb2acc7fbf4dbd392d4e436f256fdbd257d2"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/materials/aem",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "5606273cdaf464238ee43d3b863d7b9b67f6f3ee30521396361707d24c42ed6b"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/capabilities",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "42d0ee7aef46e08bd522a23f73b8819cfb806ec2064084dc8fb33eb36489e68c"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/capabilities/rubber-molding",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "1f87f515eec800a66df29ead06b2b482a409dd48832bdb476a6bb4830d078d70"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/capabilities/lsr-molding",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "6130088a2b561d5c634da985abee0054dee17f01e190d205be944c6e8f6e0f4d"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/compounding",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "ec942bba725e96d98c95d90a832f2dd732dd7100f8c16b12d93ff90649707be4"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/compounds",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "2c6edc60cd1e96b291a3a491c48b9d08bdb3459d534864080d9a53fb1b39667a"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/testing",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "35467d518b3415dda0591122dd01dcc5de8f00e9dd30780a2ce129d79baf69b9"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/quality",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "662dd9f3f2aaa062bd786559161ec21416d972743c9186d0bd80080efa6e2322"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/factory",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "6db2f67ea963483cecb79c3962f312af6bec71dd41fc87b5ca0672f38c7e1a02"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/industries",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "dcab8552333590ccfa85c33ed8cab5aa0bf2f46f237e1e19148a00f5eaf5db1f"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/industries/semiconductor",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "3ae2afc51a61f80e8c24ed2c79d3edc4a650bd995a5816819e9960e6f153dd0d"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/industries/liquid-cooling-energy-storage",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "f3794be62277681956816da1a937a80a447d46aa03cd2298b35530534ecd34c9"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/industries/ev-energy-storage",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "89b8b1d5eae7883644bdf63deae2acef8a1b4a1c732e1ec1b962adbc4d2a5cf6"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/industries/humanoid-robotics",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "c3b1389065a7c56a760ce92248de103856e9bce90514e400eb1533a792a8cb56"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/industries/industrial-equipment",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "943a40832338faed903dbd6019d3d88d125a0e936ffe29bdddcf3e6fc7071cf6"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/industries/automotive-tier2",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "2d64e227a7cdd5f17a45ddd788b3e22393441323b8619580939bbc8576c9f2d4"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/resources",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "79645a58f9ad016427a03c2bf6f75929c948cd1969765ad714cede88b1a97cc9"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/standards",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "bc1fc8623ef6142802f96117d778fcf2322c94a8fa4b05d499605b36a490d26a"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/resources/o-ring-size-guide",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "f7f496f39f42fe101dd72ea0ad83dda7046f01ddaee3951fa63f9c926085eccf"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/resources/rubber-hardness-guide",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "4661541753a2c0c9f09461543ca5f8e20f7cbf2b0f113b2a7f708e6855787316"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/resources/material-compatibility",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "f6e037821023bddf9c631b050f46ce2154568356aac1e9ee66a9e316b5ed984b"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/resources/seal-failure-analysis",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "c791a14a395250cefd3355aa35fc359889189d74d2e3de9207216b87e05a7cbc"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/case-studies",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "a6b8f2f1e255faf99c4f8897d48b4c1cb24d99135337a75b40112a7e986b7a2a"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/contact",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 1,
+      "form_options": [
+        {
+          "value": "Other",
+          "text": "その他（ご記入ください）",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Semiconductor Process Equipment",
+          "text": "半導体装置",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Liquid Cooling & Energy Storage",
+          "text": "液冷・蓄電設備",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "EV Thermal Management",
+          "text": "EV熱管理",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Humanoid Robotics",
+          "text": "ヒューマノイドロボット",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Industrial Equipment",
+          "text": "一般産業機器",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Automotive Tier 2",
+          "text": "自動車Tier 2",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "drawing",
+          "text": "図面ベースRFQ — 仕様があり見積が必要",
+          "select": "rq-contact-projectType"
+        },
+        {
+          "value": "application",
+          "text": "用途ベース — 使用条件があり材料提案が必要",
+          "select": "rq-contact-projectType"
+        },
+        {
+          "value": "sample",
+          "text": "サンプル依頼のみ",
+          "select": "rq-contact-projectType"
+        },
+        {
+          "value": "",
+          "text": "想定年間数量",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "under10k",
+          "text": "10,000個未満",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "10kTo100k",
+          "text": "10,000 – 100,000個",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "100kTo1m",
+          "text": "100,000 – 1,000,000個",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "1mTo5m",
+          "text": "1,000,000 – 5,000,000個",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "over5m",
+          "text": "5,000,000個超",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "feasibility",
+          "text": "実現性評価",
+          "select": "rq-contact-projectStage"
+        },
+        {
+          "value": "prototype",
+          "text": "試作 / パイロット",
+          "select": "rq-contact-projectStage"
+        },
+        {
+          "value": "preProduction",
+          "text": "量産前検証",
+          "select": "rq-contact-projectStage"
+        },
+        {
+          "value": "production",
+          "text": "量産 / 供給契約",
+          "select": "rq-contact-projectStage"
+        }
+      ],
+      "html_sha256": "13bed57365344a58bfdb4fe6339f6e85115a36a75cb5c3907eebd6eed5806689"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/sample-request",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 1,
+      "form_options": [
+        {
+          "value": "",
+          "text": "製品タイプ",
+          "select": "製品タイプ"
+        },
+        {
+          "value": "Seals & O-Rings",
+          "text": "Oリング・シール",
+          "select": "製品タイプ"
+        },
+        {
+          "value": "Gaskets & Washers",
+          "text": "特注ガスケット",
+          "select": "製品タイプ"
+        },
+        {
+          "value": "Bellows & Boots",
+          "text": "ベローズ・保護ブーツ",
+          "select": "製品タイプ"
+        },
+        {
+          "value": "Custom Molded Parts",
+          "text": "特注ゴム成形品",
+          "select": "製品タイプ"
+        },
+        {
+          "value": "Diaphragms",
+          "text": "ダイヤフラム",
+          "select": "製品タイプ"
+        },
+        {
+          "value": "Rubber-to-Metal Parts",
+          "text": "ゴム金属接着部品",
+          "select": "製品タイプ"
+        },
+        {
+          "value": "FFKM Replacement Seals",
+          "text": "FFKM交換用シール",
+          "select": "製品タイプ"
+        },
+        {
+          "value": "",
+          "text": "想定年間数量",
+          "select": "想定年間数量"
+        },
+        {
+          "value": "under10k",
+          "text": "10,000個\u0000未満",
+          "select": "想定年間数量"
+        },
+        {
+          "value": "10kTo100k",
+          "text": "10,000 – 100,000個",
+          "select": "想定年間数量"
+        },
+        {
+          "value": "100kTo1m",
+          "text": "100,000 – 1,000,000個",
+          "select": "想定年間数量"
+        },
+        {
+          "value": "1mTo5m",
+          "text": "1,000,000 – 5,000,000個",
+          "select": "想定年間数量"
+        },
+        {
+          "value": "over5m",
+          "text": "5,000,000個超",
+          "select": "想定年間数量"
+        },
+        {
+          "value": "sample",
+          "text": "サンプル評価",
+          "select": "案件の段階"
+        },
+        {
+          "value": "pilot",
+          "text": "試作 / パイロット",
+          "select": "案件の段階"
+        },
+        {
+          "value": "validation",
+          "text": "量産前検証",
+          "select": "案件の段階"
+        },
+        {
+          "value": "production",
+          "text": "量産 / 供給契約",
+          "select": "案件の段階"
+        }
+      ],
+      "html_sha256": "c1e6c529fb2211447aafdd94c042aa57b9054776d256c2c6231ce1c9f0ff040e"
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/batch-rfq",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 1,
+      "form_options": [
+        {
+          "value": "drawing",
+          "text": "図面ベースRFQ — 仕様があり見積が必要",
+          "select": "プロジェクト種別"
+        },
+        {
+          "value": "application",
+          "text": "用途ベース — 使用条件があり材料提案が必要",
+          "select": "プロジェクト種別"
+        },
+        {
+          "value": "sample",
+          "text": "サンプル依頼のみ",
+          "select": "プロジェクト種別"
+        },
+        {
+          "value": "feasibility",
+          "text": "実現性評価",
+          "select": "プロジェクト段階"
+        },
+        {
+          "value": "pilot",
+          "text": "試作 / パイロット",
+          "select": "プロジェクト段階"
+        },
+        {
+          "value": "validation",
+          "text": "量産前検証",
+          "select": "プロジェクト段階"
+        },
+        {
+          "value": "production",
+          "text": "量産 / 供給契約",
+          "select": "プロジェクト段階"
+        }
+      ],
+      "html_sha256": "3e7884bf97b3002ecdf2a6b9738e1415d47615cc2337c4b7a1094b730c998e1c"
+    },
+    {
+      "locale": "es",
+      "path": "/es",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "5bdb38dc975568eecbe40ddd9c34fa016d1b7b43919ed226c5be8f36dcc4e1c2"
+    },
+    {
+      "locale": "es",
+      "path": "/es/about",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "f26422c898e76f259db9ac7f0b8d777a5b84741f3964f14aa938a1c667d890e8"
+    },
+    {
+      "locale": "es",
+      "path": "/es/products",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "ac46dfad6b2c4c63db81eeedf704d4a206c30ccbf964c1405eaa0fd13b8c55d1"
+    },
+    {
+      "locale": "es",
+      "path": "/es/products/seals",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "102f4ebf606d59465b338550d2a230e97fa16674253b6cdce5fb320704ef664b"
+    },
+    {
+      "locale": "es",
+      "path": "/es/products/gaskets",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "8ef806adfdfcffd58de0e04e90a872c1b30b68f5a996e0699e23319709994ab9"
+    },
+    {
+      "locale": "es",
+      "path": "/es/products/bellows",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "34749e8d75a8f0b7c256d098e6e65ede689a4bd64be05bca575537b11848288a"
+    },
+    {
+      "locale": "es",
+      "path": "/es/products/custom",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "88008d06c30f399637c2f9ced6d9d203e9cb9edb3f96266c5a1c5de6fa233e9d"
+    },
+    {
+      "locale": "es",
+      "path": "/es/products/diaphragms",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "ca085ae75b8b61f7e33f904e9830aecd9d155e4a44de0f5fe328681a64f462e7"
+    },
+    {
+      "locale": "es",
+      "path": "/es/products/rubber-to-metal-bonded-parts",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "dd7dcf389e5c70657546c39fc0039b3328e7c4ee1ae307410fc479094b6ab420"
+    },
+    {
+      "locale": "es",
+      "path": "/es/products/ffkm-replacement-seals",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "d54a1fc8853f640671f0e70c3551568b3a2cd7164a3c0e8d020394246e61a3f0"
+    },
+    {
+      "locale": "es",
+      "path": "/es/materials",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "347003fd4435499a9b18df059b74541c10db168da9ba29a1c08035891f5254dd"
+    },
+    {
+      "locale": "es",
+      "path": "/es/materials/ffkm",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "6606e85854c4640aae7cce0c9edb2c982e8ed58e0ea3f7a1a936b9488e72bb36"
+    },
+    {
+      "locale": "es",
+      "path": "/es/materials/fkm",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "7aaba282e1e5ab28921a9e2f880c39892a60eac2eeaa10d0db5ce3270c99e9cb"
+    },
+    {
+      "locale": "es",
+      "path": "/es/materials/epdm",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "2ce2aca267aa2798a455288090e274a355b151445eba60aa59b2eaae2e7694e2"
+    },
+    {
+      "locale": "es",
+      "path": "/es/materials/hnbr",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "89802e9bf0a96cdd756ba786abf9d6b3855813d9884294b00d80cbbc1fbc41da"
+    },
+    {
+      "locale": "es",
+      "path": "/es/materials/nbr",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "08d86f1b4e705774a8bc166048d9a959f0aa5f48bb898bbc511da193dda68806"
+    },
+    {
+      "locale": "es",
+      "path": "/es/materials/silicone",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "a11a586583ca250594e6047df0e88c1d7ff365f4dbe7675ed9365596f8748a53"
+    },
+    {
+      "locale": "es",
+      "path": "/es/materials/lsr",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "688a6d845a8cfb0bc22b41821dd682986d1dbb153d9f4698bb05c1c86f6788e7"
+    },
+    {
+      "locale": "es",
+      "path": "/es/materials/acm",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "2bb1bd84bf2bdfb4c9d74b3af1414f322e0726c4890249b176b1507f7faa8caf"
+    },
+    {
+      "locale": "es",
+      "path": "/es/materials/aem",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "2a5cb399dd7491f42a5baf7ac90b8b94ed3e7c667457d563aed88655893a2f3b"
+    },
+    {
+      "locale": "es",
+      "path": "/es/capabilities",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "386b366d6facde6a31621d50cc92db636429fe55596dc2f446681fe23f974643"
+    },
+    {
+      "locale": "es",
+      "path": "/es/capabilities/rubber-molding",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "839e98a06e0dd3a9c36e406e0de4ae274d3ee5e276887599cd9e3478d4639c71"
+    },
+    {
+      "locale": "es",
+      "path": "/es/capabilities/lsr-molding",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "2550f68ce13861eb85e0bd86fb658a4d77e4400c772bb9825f1e6dd73e41a15a"
+    },
+    {
+      "locale": "es",
+      "path": "/es/compounding",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "0742acf998be7d1abbc939954116f59c25482192bcc196cb8e6bbee4b1d21fa4"
+    },
+    {
+      "locale": "es",
+      "path": "/es/compounds",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "cc813805f4ce155bb8ee1c9ec7e294863b7b5ba8bda5e12f5659f83431e10e17"
+    },
+    {
+      "locale": "es",
+      "path": "/es/testing",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "822952726332ae5a763d44298f734f8b653572784f49228b1aed9e0db5369e06"
+    },
+    {
+      "locale": "es",
+      "path": "/es/quality",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "341ffc62fc0ab81a001340f94a4e0328eea8222469b73e5a141d4a30c6743ed5"
+    },
+    {
+      "locale": "es",
+      "path": "/es/factory",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "8d6f66c21cf7024f430e6ebf10c2a32cd0252506fd91d1b93a7f5f5bde9b7a37"
+    },
+    {
+      "locale": "es",
+      "path": "/es/industries",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "5f7aa937cf32912bcbce5eebbb9c266aa7edceed0b5ce6fd3c69bdade73c5032"
+    },
+    {
+      "locale": "es",
+      "path": "/es/industries/semiconductor",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "501d9c5bdb252fa302f744313d1b03dbc241300eab2ef17b50531da166e03ba3"
+    },
+    {
+      "locale": "es",
+      "path": "/es/industries/liquid-cooling-energy-storage",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "09daa216b02f284230384d86d324c12112a8abd7af119918fba6c132aa6a0ad3"
+    },
+    {
+      "locale": "es",
+      "path": "/es/industries/ev-energy-storage",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "a9064aef2a31ccfb232293620b5166ae33dca2aa6c155c1df8e2e1cba921b48a"
+    },
+    {
+      "locale": "es",
+      "path": "/es/industries/humanoid-robotics",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "9882c5293f74f4950d11ffa8715f2c5d77437ba198b2c1cdac24d6aa252f13b2"
+    },
+    {
+      "locale": "es",
+      "path": "/es/industries/industrial-equipment",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "cd6b1186a79a15b2745dedf43f704ac7c89413a932d75dad1113d55156aed76b"
+    },
+    {
+      "locale": "es",
+      "path": "/es/industries/automotive-tier2",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "6ab31506b2961258fec14e4bf53341004e778fd7c8546c3f654ba87317cbc1e7"
+    },
+    {
+      "locale": "es",
+      "path": "/es/resources",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "48f5dc20c2acaaca4d6f9a503b312faadffe4d6d2be25ac07bf67a66fbe76e00"
+    },
+    {
+      "locale": "es",
+      "path": "/es/standards",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "562afbc91a4f42f17f45f9d5ff87d6fcd99e84dc5d6162fd90b63df57dd52880"
+    },
+    {
+      "locale": "es",
+      "path": "/es/resources/o-ring-size-guide",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "036b0739711188adf401cf87aa3a1f57684dbe109a5eabc2baa216f82a025f8a"
+    },
+    {
+      "locale": "es",
+      "path": "/es/resources/rubber-hardness-guide",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "5588ed8635a9ec0a59d592e5283f217769ac886cd4b4be70a9aa930ab6f9fcbc"
+    },
+    {
+      "locale": "es",
+      "path": "/es/resources/material-compatibility",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "962e6f40395818a92c16d4537f9237f41ccf786610b93b2c934bc92c4289b5e4"
+    },
+    {
+      "locale": "es",
+      "path": "/es/resources/seal-failure-analysis",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "8f6f70663a970f8b2497ee294f7316093681de92a60401959dde4031c2cb41da"
+    },
+    {
+      "locale": "es",
+      "path": "/es/case-studies",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "c3b83a4f31dddefbd9f3be92a722c3d1aa67b8240549eb37ea0ae66bac137b99"
+    },
+    {
+      "locale": "es",
+      "path": "/es/contact",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 1,
+      "form_options": [
+        {
+          "value": "Other",
+          "text": "Otro (describa)",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Semiconductor Process Equipment",
+          "text": "Equipos de semiconductores",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Liquid Cooling & Energy Storage",
+          "text": "Refrigeración líquida y energía",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "EV Thermal Management",
+          "text": "Gestión térmica de vehículos eléctricos",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Humanoid Robotics",
+          "text": "Robótica humanoide",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Industrial Equipment",
+          "text": "Industria general",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Automotive Tier 2",
+          "text": "Automoción Tier 2",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "drawing",
+          "text": "RFQ con plano — tengo especificación y necesito cotización",
+          "select": "rq-contact-projectType"
+        },
+        {
+          "value": "application",
+          "text": "Consulta por aplicación — tengo condiciones de uso y necesito guía de material",
+          "select": "rq-contact-projectType"
+        },
+        {
+          "value": "sample",
+          "text": "Solo solicitud de muestra",
+          "select": "rq-contact-projectType"
+        },
+        {
+          "value": "",
+          "text": "Volumen anual estimado",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "under10k",
+          "text": "Menos de 10.000 piezas",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "10kTo100k",
+          "text": "10.000 – 100.000 piezas",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "100kTo1m",
+          "text": "100.000 – 1.000.000 piezas",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "1mTo5m",
+          "text": "1.000.000 – 5.000.000 piezas",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "over5m",
+          "text": "Más de 5.000.000 piezas",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "feasibility",
+          "text": "Estudio de factibilidad",
+          "select": "rq-contact-projectStage"
+        },
+        {
+          "value": "prototype",
+          "text": "Prototipo / piloto",
+          "select": "rq-contact-projectStage"
+        },
+        {
+          "value": "preProduction",
+          "text": "Validación preproducción",
+          "select": "rq-contact-projectStage"
+        },
+        {
+          "value": "production",
+          "text": "Producción / acuerdo de suministro",
+          "select": "rq-contact-projectStage"
+        }
+      ],
+      "html_sha256": "89044c5936f9b6088f766e9fcddd8c4e2ac325eff5547b82a770d6149297b2b4"
+    },
+    {
+      "locale": "es",
+      "path": "/es/sample-request",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 1,
+      "form_options": [
+        {
+          "value": "",
+          "text": "Tipo de producto",
+          "select": "Tipo de producto"
+        },
+        {
+          "value": "Seals & O-Rings",
+          "text": "Juntas tóricas y sellos",
+          "select": "Tipo de producto"
+        },
+        {
+          "value": "Gaskets & Washers",
+          "text": "Juntas planas a medida",
+          "select": "Tipo de producto"
+        },
+        {
+          "value": "Bellows & Boots",
+          "text": "Fuelles y protectores",
+          "select": "Tipo de producto"
+        },
+        {
+          "value": "Custom Molded Parts",
+          "text": "Piezas moldeadas a medida",
+          "select": "Tipo de producto"
+        },
+        {
+          "value": "Diaphragms",
+          "text": "Membranas",
+          "select": "Tipo de producto"
+        },
+        {
+          "value": "Rubber-to-Metal Parts",
+          "text": "Piezas de caucho-metal",
+          "select": "Tipo de producto"
+        },
+        {
+          "value": "FFKM Replacement Seals",
+          "text": "Repuestos FFKM",
+          "select": "Tipo de producto"
+        },
+        {
+          "value": "",
+          "text": "Volumen anual estimado",
+          "select": "Volumen anual estimado"
+        },
+        {
+          "value": "under10k",
+          "text": "Menos de 10.000 piezas",
+          "select": "Volumen anual estimado"
+        },
+        {
+          "value": "10kTo100k",
+          "text": "10.000 – 100.000 piezas",
+          "select": "Volumen anual estimado"
+        },
+        {
+          "value": "100kTo1m",
+          "text": "100.000 – 1.000.000 piezas",
+          "select": "Volumen anual estimado"
+        },
+        {
+          "value": "1mTo5m",
+          "text": "1.000.000 – 5.000.000 piezas",
+          "select": "Volumen anual estimado"
+        },
+        {
+          "value": "over5m",
+          "text": "Más de 5.000.000 piezas",
+          "select": "Volumen anual estimado"
+        },
+        {
+          "value": "sample",
+          "text": "Evaluación de muestras",
+          "select": "Etapa del proyecto"
+        },
+        {
+          "value": "pilot",
+          "text": "Prototipo / piloto",
+          "select": "Etapa del proyecto"
+        },
+        {
+          "value": "validation",
+          "text": "Validación preproducción",
+          "select": "Etapa del proyecto"
+        },
+        {
+          "value": "production",
+          "text": "Producción / acuerdo de suministro",
+          "select": "Etapa del proyecto"
+        }
+      ],
+      "html_sha256": "64abf6be8a7365d02b834ee3566daa426ccf3f82f28bda47671c56ce7a59c6cf"
+    },
+    {
+      "locale": "es",
+      "path": "/es/batch-rfq",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 1,
+      "form_options": [
+        {
+          "value": "drawing",
+          "text": "RFQ con plano — tengo especificación y necesito cotización",
+          "select": "Tipo de proyecto"
+        },
+        {
+          "value": "application",
+          "text": "Consulta por aplicación — tengo condiciones de uso y necesito guía de material",
+          "select": "Tipo de proyecto"
+        },
+        {
+          "value": "sample",
+          "text": "Solo solicitud de muestra",
+          "select": "Tipo de proyecto"
+        },
+        {
+          "value": "feasibility",
+          "text": "Estudio de factibilidad",
+          "select": "Etapa del proyecto"
+        },
+        {
+          "value": "pilot",
+          "text": "Prototipo / piloto",
+          "select": "Etapa del proyecto"
+        },
+        {
+          "value": "validation",
+          "text": "Validación preproducción",
+          "select": "Etapa del proyecto"
+        },
+        {
+          "value": "production",
+          "text": "Producción / acuerdo de suministro",
+          "select": "Etapa del proyecto"
+        }
+      ],
+      "html_sha256": "1a1eeca4b083993c2e90ec6d312c60fa67d25d9297742e6390beb43fbf05a9c7"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "f8ab6dfda124fb7e18ff4e8e3859adb9d721bde25f6282709b87c6f09f0e1478"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/about",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "a2aeb4437001a8722bbaed238ed20dc8efc16da87f8a0ad640036127e2182b2a"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/products",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "614c82c9ada431f27a2794667695f3643311ce8c2a3146c53bc876ac5740a043"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/products/seals",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "007fadba34a93964d7cc57361868b0c40d3d3276566c95acae83aea3f1c37da0"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/products/gaskets",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "6d8787ca69f347cd1c7cadc32d4ea5b80f62384d8f19446381dc078c31e0c238"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/products/bellows",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "5cef0c13bc73dc36e9348045076f354b75a3fa76527a3775f4d13a8937821978"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/products/custom",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "ba4ff647b5558ccaa037c3ec1404ffa2eb2d9cb8600d1000ff840fb80fbe112a"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/products/diaphragms",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "3e2a0b29ff0a910a3b0601485e17f5ba3aff753c2da82adb9870fc566cb3fc96"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/products/rubber-to-metal-bonded-parts",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "d80ba30c09a2d7201c8afe061a4ba96bb4f399d0b5dbfcb2e9a270b714dd4ad0"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/products/ffkm-replacement-seals",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "5e3ca07db7892efe2b10e10e6fe3249d1d910971de2fcc99e3da6e5803261cd0"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/materials",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "97cf836cd8021d5c95a7c52cb0198e61e60f5c1d17b613bc5719e0c332dbcab6"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/materials/ffkm",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "23cac038f51ac48e6083c8e63bd7fd36cc7fa851b1f23b8ef623de4e1635ec36"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/materials/fkm",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "5d29c4d4227580c782bd327a192ea9c7a2be28553f4ea2f9b7173cc47d75ca2a"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/materials/epdm",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "a0549e5a5986b7484c5e132b116d933ba7671b7745414600edad30df8b7e8bd8"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/materials/hnbr",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "71030acfc77eae64b269620e1be4d650fcaaf5974cb43fa5ffc0347736b6faee"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/materials/nbr",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "a2b473f6c11d10143497dce1f10a36b04a4cdf8852148b3b140e983a7e494783"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/materials/silicone",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "5d52543265dcd06ccc860319c7be591071c0b55398d1cee3e821f9dac7acee48"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/materials/lsr",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "b2c7dd398cf710e081fa0f615ffb9e14b0e82418fece6ac2c19c0833212be60b"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/materials/acm",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "503797dc339645abdcfa0f7f133cf94cd6b4a89eee7a6457d79feddc2feb729f"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/materials/aem",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "987cfb2f7b471ff87a20671da2c6236631cca26e31808bc4acfcfb032c2a6448"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/capabilities",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "7b386a472f19f93ef72c906c5f1c9826d5d1de793fca62595f54a8c498c6be0e"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/capabilities/rubber-molding",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "da480062dda6277773cffa6d026e324875b5effd10c0c7386bcb4d4400872bc7"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/capabilities/lsr-molding",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "190f84ee0c693f4c02727bd485c1e7bf37f98fdeda3f9fa386aaaec58d304d1b"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/compounding",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "0a9ff5322af3070ddb3bf1759b9b5de3a5d008d9ffa65dd31958aee93bffe1a7"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/compounds",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "571482bf1eed6995da134dedaedf5520ca631d7b3f6406e7f200b06979102cf1"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/testing",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "e9f1b67dbd018e466605576d0d88a555ce9f1847996968b91b3a48ae6b97366d"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/quality",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "1fc12b2c2af4f02dd1bea6d25dd70302c68f8415ea60f1c21e3e758a7ef5274e"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/factory",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "2db5546326d486237f481798a5d2310f567d2552bb4244b2cace5db9a64d3686"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/industries",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "50ddb565ccdffcf0e2254bd1b1c29c8f4c456b4330bf6421ddac5ed7a0aa738a"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/industries/semiconductor",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "486bcd7cfaef9f3ba69511ae223b17184d1610588d3ca0df30dd55f387651751"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/industries/liquid-cooling-energy-storage",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "c6179ccc6d4b758156a3f590e0aac5567af08f43bb4a90ef70bdc3b07c747247"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/industries/ev-energy-storage",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "0fb3e45c15b336ef646ae483d6a39bb95c7236f7360aa1587583d244b20130bf"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/industries/humanoid-robotics",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "fca3e5d5bd26e5f41737819ce3370dbceecb02e3c47f9ddedcadec12b4c373ff"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/industries/industrial-equipment",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "0e4c2eec0b76bc8b31f0764a34c601b69b8863a9341766295e29655a7c5bfbd2"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/industries/automotive-tier2",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "395ccfc2911c75c569e57d7c5ef3baf2bdfb339506b512f98ae83a3ea16c30e6"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/resources",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "decc2b19a1dc8a1f3f95b0c1087ead0bde7dc0e30f6ae653249bed7a787a90af"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/standards",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "46fc5fc87d1198311c7d7cf8866e7f28216de15649bd8a2a5215148281c8e494"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/resources/o-ring-size-guide",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "3bb2bbc9667c2931bf6b2398c17ef176b43f965ad1ece594470a98bf29202d36"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/resources/rubber-hardness-guide",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "8e8f00606a6ac5280fd4e1503ef69986e9a6306bc44f01f37c48b226c594a37d"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/resources/material-compatibility",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "c659315f6e991be772b7af19e0768693bddcc2ecc5590d8549a014e557e4082b"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/resources/seal-failure-analysis",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "54b7b8dc3d74d024f0c7aacd60ef0b0a391fd2e93d1e3ee0db9b60cc7696b492"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/case-studies",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "51125fc69297071098c66f5858cb846e39041ee4b70f77146d9b4f83452457c5"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/contact",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 1,
+      "form_options": [
+        {
+          "value": "Other",
+          "text": "其他（请描述）",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Semiconductor Process Equipment",
+          "text": "半导体",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Liquid Cooling & Energy Storage",
+          "text": "液冷与储能",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "EV Thermal Management",
+          "text": "EV热管理",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Humanoid Robotics",
+          "text": "人形机器人",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Industrial Equipment",
+          "text": "通用工业",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "Automotive Tier 2",
+          "text": "汽车Tier2",
+          "select": "rq-contact-industry"
+        },
+        {
+          "value": "drawing",
+          "text": "图纸驱动询价 — 已有规格，需要报价",
+          "select": "rq-contact-projectType"
+        },
+        {
+          "value": "application",
+          "text": "应用驱动 — 已有工况，需要材料建议",
+          "select": "rq-contact-projectType"
+        },
+        {
+          "value": "sample",
+          "text": "仅申请样品",
+          "select": "rq-contact-projectType"
+        },
+        {
+          "value": "",
+          "text": "预计年用量",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "under10k",
+          "text": "10,000 件以下",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "10kTo100k",
+          "text": "10,000 – 100,000 件",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "100kTo1m",
+          "text": "100,000 – 1,000,000 件",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "1mTo5m",
+          "text": "1,000,000 – 5,000,000 件",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "over5m",
+          "text": "5,000,000 件以上",
+          "select": "rq-contact-annualVolume"
+        },
+        {
+          "value": "feasibility",
+          "text": "可行性评估",
+          "select": "rq-contact-projectStage"
+        },
+        {
+          "value": "prototype",
+          "text": "样件 / 试产",
+          "select": "rq-contact-projectStage"
+        },
+        {
+          "value": "preProduction",
+          "text": "量产前验证",
+          "select": "rq-contact-projectStage"
+        },
+        {
+          "value": "production",
+          "text": "量产 / 长期供货",
+          "select": "rq-contact-projectStage"
+        }
+      ],
+      "html_sha256": "2b29a9317dd524907ab6d9b1c96e42b1e6b84fcd676889edba3b4355ba2b417e"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/sample-request",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 1,
+      "form_options": [
+        {
+          "value": "",
+          "text": "产品类型",
+          "select": "产品类型"
+        },
+        {
+          "value": "Seals & O-Rings",
+          "text": "O圈与密封件",
+          "select": "产品类型"
+        },
+        {
+          "value": "Gaskets & Washers",
+          "text": "定制垫片",
+          "select": "产品类型"
+        },
+        {
+          "value": "Bellows & Boots",
+          "text": "波纹管与防护套",
+          "select": "产品类型"
+        },
+        {
+          "value": "Custom Molded Parts",
+          "text": "定制模压件",
+          "select": "产品类型"
+        },
+        {
+          "value": "Diaphragms",
+          "text": "隔膜",
+          "select": "产品类型"
+        },
+        {
+          "value": "Rubber-to-Metal Parts",
+          "text": "橡胶金属粘接件",
+          "select": "产品类型"
+        },
+        {
+          "value": "FFKM Replacement Seals",
+          "text": "FFKM售后替代件",
+          "select": "产品类型"
+        },
+        {
+          "value": "",
+          "text": "预计年用量",
+          "select": "预计年用量"
+        },
+        {
+          "value": "under10k",
+          "text": "10,000 件以下",
+          "select": "预计年用量"
+        },
+        {
+          "value": "10kTo100k",
+          "text": "10,000 – 100,000 件",
+          "select": "预计年用量"
+        },
+        {
+          "value": "100kTo1m",
+          "text": "100,000 – 1,000,000 件",
+          "select": "预计年用量"
+        },
+        {
+          "value": "1mTo5m",
+          "text": "1,000,000 – 5,000,000 件",
+          "select": "预计年用量"
+        },
+        {
+          "value": "over5m",
+          "text": "5,000,000 件以上",
+          "select": "预计年用量"
+        },
+        {
+          "value": "sample",
+          "text": "样品评估",
+          "select": "项目阶段"
+        },
+        {
+          "value": "pilot",
+          "text": "样件 / 试产",
+          "select": "项目阶段"
+        },
+        {
+          "value": "validation",
+          "text": "量产前验证",
+          "select": "项目阶段"
+        },
+        {
+          "value": "production",
+          "text": "量产 / 长期供货",
+          "select": "项目阶段"
+        }
+      ],
+      "html_sha256": "3216ef2ed69d5ff1ca94697d68d75208c4dd6656a4ccdd4834fab2349d0a87e6"
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/batch-rfq",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "forms": 1,
+      "form_options": [
+        {
+          "value": "drawing",
+          "text": "图纸驱动询价 — 已有规格，需要报价",
+          "select": "项目类型"
+        },
+        {
+          "value": "application",
+          "text": "应用驱动 — 已有工况，需要材料建议",
+          "select": "项目类型"
+        },
+        {
+          "value": "sample",
+          "text": "仅申请样品",
+          "select": "项目类型"
+        },
+        {
+          "value": "feasibility",
+          "text": "可行性评估",
+          "select": "项目阶段"
+        },
+        {
+          "value": "pilot",
+          "text": "样件 / 试产",
+          "select": "项目阶段"
+        },
+        {
+          "value": "validation",
+          "text": "量产前验证",
+          "select": "项目阶段"
+        },
+        {
+          "value": "production",
+          "text": "量产 / 长期供货",
+          "select": "项目阶段"
+        }
+      ],
+      "html_sha256": "c753b83513432f91b232de7b0d4534c53814c7c508079a391f0fc60dc727e98f"
+    }
+  ],
+  "unknown_routes": [
+    {
+      "path": "/fr/compounds",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "/de/products/does-not-exist",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "/ja/materials/does-not-exist",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "/industries/does-not-exist",
+      "status": 404,
+      "pass": true
+    }
+  ],
+  "summary": {
+    "routes": 225,
+    "passed": 225,
+    "guards_passed": 4,
+    "failed": []
+  }
+}

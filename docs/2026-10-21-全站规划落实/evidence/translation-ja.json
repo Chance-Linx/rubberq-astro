@@ -1,0 +1,10 @@
+{
+  "locale": "ja",
+  "page_count": 49,
+  "source": "Approved English buyer tasks; native Japanese rendering with unchanged slogans",
+  "source_sha256": "697710195503df064aad784e3c57c431cec9ce9bbe06d46c43fe36cee3f86166",
+  "output_sha256": "8d51a8b52bf3565071e4dd66b7775f4b52217165681303873a1ea920d63537e8",
+  "final_review": false,
+  "implementation_checked_sha256": "8d51a8b52bf3565071e4dd66b7775f4b52217165681303873a1ea920d63537e8",
+  "implementation_checks": "evidence/five-locale-implementation-checks.json"
+}

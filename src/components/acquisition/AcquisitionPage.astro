@@ -1,0 +1,116 @@
+---
+import LocaleLayout from '@/layouts/LocaleLayout.astro';
+import JsonLd from '@/components/JsonLd';
+import { acquisitionCopy, acquisitionPages, inquiryPath } from '@/lib/acquisition';
+import { localizedPath, tRaw } from '@/lib/i18n';
+import { createLocaleAlternates } from '@/lib/seoMetadata';
+import { createOrganizationSchema } from '@/lib/structuredData';
+
+interface Props { locale: string; path: string; form?: boolean }
+const { locale, path, form = false } = Astro.props;
+const result = await acquisitionCopy(locale, path);
+if (!result?.copy) return new Response('Not Found', { status: 404 });
+const { page, messages, copy } = result;
+const ui = tRaw(messages, 'acquisition.ui');
+const copies = tRaw(messages, 'acquisition.pages');
+const localized = (url: string) => url === '/blog' || url.startsWith('/blog/') ? url : localizedPath(locale, url);
+const related = page.links.map((url) => acquisitionPages.find((p) => p.url === url)).filter(Boolean);
+const canonical = createLocaleAlternates(locale, path).canonical;
+const inquiry = localizedPath(locale, page.cta_url) + inquiryPath('', path);
+const isHome = path === '/';
+const isHub = ['/', '/products', '/materials', '/capabilities', '/industries', '/resources'].includes(path);
+const hasFactoryImage = ['/', '/about', '/factory', '/compounding', '/capabilities'].includes(path);
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': isHub ? 'CollectionPage' : 'WebPage',
+  '@id': `${canonical}#page`, url: canonical,
+  name: copy.h1, description: copy.description, inLanguage: locale,
+  isPartOf: { '@type': 'WebSite', '@id': 'https://rubberq.com/#website', name: 'RubberQ', url: 'https://rubberq.com/' },
+  about: { '@type': 'Organization', '@id': 'https://rubberq.com/#organization', name: 'RubberQ', url: 'https://rubberq.com/' },
+};
+---
+
+<LocaleLayout locale={locale} title={copy.title} description={copy.description}>
+  <Fragment slot="head">
+    <meta property="og:title" content={copy.title} />
+    <meta property="og:description" content={copy.description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <JsonLd data={schema} />
+    {isHome && <JsonLd data={createOrganizationSchema(locale, copy.intro)} />}
+    <meta property="og:image" content="https://rubberq.com/images/legacy_resource/2021/03/17/60515a8bd1599.jpg" />
+    <meta property="og:image:alt" content={ui.factoryImage} />
+    <meta name="twitter:title" content={copy.title} />
+    <meta name="twitter:description" content={copy.description} />
+    {copy.faq.length > 0 && <JsonLd data={{ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: copy.faq.map((item) => ({ '@type': 'Question', name: item.question, acceptedAnswer: { '@type': 'Answer', text: item.answer } })) }} />}
+    {!isHome && <JsonLd data={{ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'RubberQ', item: createLocaleAlternates(locale, '/').canonical }, { '@type': 'ListItem', position: 2, name: copy.label, item: canonical }] }} />}
+  </Fragment>
+
+  <section class:list={['rq-acq-hero', { 'rq-acq-home': isHome }]} data-section-name="project-introduction">
+    <div class="rq-acq-wrap rq-acq-hero-grid">
+      <div>
+        <p class="rq-acq-kicker">{isHome ? ui.manufacturer : copy.label}</p>
+        <h1>{copy.h1}</h1>
+        <p class="rq-acq-intro">{copy.intro}</p>
+        <div class="rq-acq-actions">
+          <a class="rq-acq-button rq-acq-primary" href={form ? '#project-form' : inquiry} data-cta="project-review">{copy.cta}</a>
+          {!form && <a class="rq-acq-button rq-acq-outline" href={localizedPath(locale, '/sample-request')}>{ui.sample}</a>}
+        </div>
+      </div>
+      {hasFactoryImage ? <figure class="rq-acq-factory">
+        <img src="/images/legacy_resource/2021/03/17/60515a8bd1599.jpg" width="1200" height="800" alt={ui.factoryImage} loading={isHome ? 'eager' : 'lazy'} />
+        <figcaption>{ui.factoryCaption}</figcaption>
+      </figure> : <aside class="rq-acq-brief">
+        <span class="rq-acq-kicker">{ui.projectInputs}</span>
+        <ol>{ui.inputs.map((item: string) => <li>{item}</li>)}</ol>
+        <a href={localizedPath(locale, '/contact')}>{ui.engineering} <span aria-hidden="true">↗</span></a>
+      </aside>}
+    </div>
+  </section>
+
+  {isHome && <section class="rq-acq-trust" aria-label={ui.manufacturingFacts}>
+    <div class="rq-acq-wrap rq-acq-facts">
+      <div><strong>1995</strong><span>{ui.established}</span></div>
+      <div><strong>2</strong><span>{ui.facilities}</span></div>
+      <div><strong>20,000 m²</strong><span>{ui.factoryArea}</span></div>
+      <div><strong>ERP</strong><span>{ui.traceability}</span></div>
+    </div>
+  </section>}
+
+  <div class="rq-acq-wrap rq-acq-body">
+    <div class="rq-acq-main">
+      {copy.sections.map((section, index) => <section class="rq-acq-section" data-section-name={`application-step-${index + 1}`}>
+        <p class="rq-acq-number">{String(index + 1).padStart(2, '0')} / {copy.label}</p>
+        <h2>{section.heading}</h2>
+        <p>{section.body}</p>
+      </section>)}
+      {copy.faq.length > 0 && <section class="rq-acq-section" data-section-name="project-questions">
+        <h2>{ui.questions}</h2>
+        {copy.faq.map((item) => <details class="rq-acq-faq"><summary>{item.question}</summary><p>{item.answer}</p></details>)}
+      </section>}
+    </div>
+    <aside class="rq-acq-sidebar">
+      <div class="rq-acq-side-block"><h2>{ui.nextStep}</h2><p>{ui.nextStepDescription}</p><a href={form ? '#project-form' : inquiry}>{copy.cta} <span aria-hidden="true">→</span></a></div>
+      <div class="rq-acq-side-block"><h2>{ui.supplierInformation}</h2><a href={localizedPath(locale, '/quality')}>{ui.quality}</a><a href={localizedPath(locale, '/testing')}>{ui.testing}</a><a href={localizedPath(locale, '/factory')}>{ui.factory}</a><a href="mailto:contact@rubberq.com">contact@rubberq.com</a></div>
+    </aside>
+  </div>
+
+  {form && <section id="project-form" class="rq-acq-wrap rq-acq-form" data-section-name="project-form"><slot name="form" /></section>}
+
+  {related.length > 0 && <section class:list={['rq-acq-related', { 'rq-acq-related-hub': isHub }]} data-section-name="related-project-resources">
+    <div class="rq-acq-wrap">
+      <p class="rq-acq-number">{ui.continue}</p><h2>{isHub ? ui.explore : ui.related}</h2>
+      <div class="rq-acq-link-grid">{related.map((target: any) => {
+        const text = copies[target.id];
+        return <a href={localized(target.url)}><span class="rq-acq-link-label">{text.label}</span><strong>{text.h1}</strong><p>{text.intro}</p><span class="rq-acq-link-arrow" aria-hidden="true">↗</span></a>;
+      })}</div>
+    </div>
+  </section>}
+
+  {!form && <section class="rq-acq-closing" data-section-name="engineering-inquiry"><div class="rq-acq-wrap"><div><p class="rq-acq-kicker">{ui.projectStart}</p><h2>{copy.cta}</h2><p>{ui.closing}</p></div><a class="rq-acq-button rq-acq-primary" href={inquiry}>{ui.sendRequirements} <span aria-hidden="true">→</span></a></div></section>}
+</LocaleLayout>
+
+<style>
+  .rq-acq-wrap{max-width:1240px;margin-inline:auto;padding-inline:32px}.rq-acq-hero{background:#0A0A0A;color:#FFFFFF;padding:72px 0}.rq-acq-home{padding:92px 0}.rq-acq-hero-grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:64px;align-items:center}.rq-acq-kicker,.rq-acq-number{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#525252}.rq-acq-hero .rq-acq-kicker{color:#F97316}.rq-acq-hero h1{font-size:clamp(36px,4.8vw,68px);font-weight:900;line-height:1.06;letter-spacing:-.035em;overflow-wrap:anywhere;margin:20px 0 24px;max-width:19ch}.rq-acq-intro{font-size:17px;line-height:1.75;color:#D4D4D4;max-width:62ch}.rq-acq-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}.rq-acq-button{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:48px;padding:14px 22px;font-size:13px;font-weight:700;text-decoration:none;transition:background .18s}.rq-acq-primary{background:#F97316;color:#0A0A0A}.rq-acq-primary:hover{background:#EA580C}.rq-acq-outline{border:1px solid #525252;color:#FFFFFF}.rq-acq-outline:hover{border-color:#FFFFFF}.rq-acq-factory{margin:0}.rq-acq-factory img{width:100%;aspect-ratio:4/3;object-fit:cover;filter:grayscale(1) contrast(1.08)}.rq-acq-factory figcaption{font-size:12px;color:#A3A3A3;margin-top:12px}.rq-acq-brief{border-top:1px solid #525252;border-bottom:1px solid #525252;padding:28px 0}.rq-acq-brief ol{list-style:decimal;padding-left:20px;color:#D4D4D4;font-size:14px}.rq-acq-brief li{margin:15px 0}.rq-acq-brief a{display:inline-block;color:#FFFFFF;text-decoration:underline;text-underline-offset:5px;margin-top:16px}.rq-acq-trust{border-bottom:1px solid #E5E5E5}.rq-acq-facts{display:grid;grid-template-columns:repeat(4,1fr);padding-block:30px}.rq-acq-facts div{padding-left:24px;border-left:1px solid #E5E5E5}.rq-acq-facts div:first-child{padding-left:0;border:0}.rq-acq-facts strong{display:block;font:700 27px 'JetBrains Mono',monospace}.rq-acq-facts span{display:block;font-size:12px;color:#525252;margin-top:8px}.rq-acq-body{display:grid;grid-template-columns:minmax(0,8fr) minmax(0,4fr);gap:80px;padding-block:72px}.rq-acq-section{padding:0 0 40px;margin-bottom:40px;border-bottom:1px solid #E5E5E5}.rq-acq-section:last-child{margin-bottom:0}.rq-acq-section h2,.rq-acq-related h2,.rq-acq-closing h2{font-weight:800;line-height:1.2;letter-spacing:-.025em;font-size:clamp(26px,3vw,38px);margin:12px 0 20px;overflow-wrap:anywhere}.rq-acq-section>p:not(.rq-acq-number){color:#525252;line-height:1.85;font-size:17px}.rq-acq-sidebar{padding-top:32px}.rq-acq-side-block{padding:24px 0;border-top:1px solid #0A0A0A;margin-bottom:24px}.rq-acq-side-block h2{font-size:17px;font-weight:800;margin:0 0 16px}.rq-acq-side-block p{font-size:14px;color:#525252;line-height:1.8}.rq-acq-side-block a{display:block;font-size:13px;color:#0A0A0A;text-decoration:underline;text-underline-offset:4px;padding-block:9px;overflow-wrap:anywhere}.rq-acq-related{padding-block:64px;background:#FAFAFA;border-top:1px solid #E5E5E5}.rq-acq-link-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 32px}.rq-acq-link-grid>a{position:relative;display:flex;flex-direction:column;padding:28px 28px 30px 0;border-top:1px solid #D4D4D4;text-decoration:none;min-height:190px}.rq-acq-link-label{font-size:11px;color:#525252;margin-bottom:12px}.rq-acq-link-grid strong{font-size:22px;font-weight:800;line-height:1.3;max-width:30ch;overflow-wrap:anywhere}.rq-acq-link-grid p{font-size:14px;color:#525252;line-height:1.7;margin-top:14px;max-width:56ch}.rq-acq-link-arrow{position:absolute;right:0;top:26px;color:#EA580C}.rq-acq-link-grid>a:hover strong{text-decoration:underline;text-underline-offset:5px}.rq-acq-closing{background:#0A0A0A;color:#FFFFFF;padding-block:64px}.rq-acq-closing>.rq-acq-wrap{display:flex;justify-content:space-between;align-items:center;gap:40px}.rq-acq-closing p:not(.rq-acq-kicker){color:#D4D4D4;max-width:66ch;font-size:15px}.rq-acq-closing .rq-acq-button{flex-shrink:0}.rq-acq-form{padding-block:24px 72px;scroll-margin-top:100px}.rq-acq-faq{border-top:1px solid #D4D4D4;padding:18px 0}.rq-acq-faq summary{font-weight:700;cursor:pointer}.rq-acq-faq p{margin-top:14px;color:#525252;line-height:1.8}a:focus-visible,summary:focus-visible{outline:2px solid #F97316;outline-offset:4px}@media(max-width:800px){.rq-acq-wrap{padding-inline:20px}.rq-acq-hero,.rq-acq-home{padding-block:52px}.rq-acq-hero-grid{grid-template-columns:1fr;gap:32px}.rq-acq-hero h1{max-width:22ch}.rq-acq-brief{padding:20px 0}.rq-acq-factory{max-width:520px}.rq-acq-body{grid-template-columns:1fr;gap:20px;padding-block:52px}.rq-acq-sidebar{display:grid;grid-template-columns:1fr 1fr;gap:24px;padding-top:0}.rq-acq-facts{grid-template-columns:1fr 1fr;gap:24px}.rq-acq-facts div:nth-child(3){padding-left:0;border:0}.rq-acq-closing>.rq-acq-wrap{display:block}.rq-acq-closing .rq-acq-button{margin-top:24px}.rq-acq-link-grid{grid-template-columns:1fr}.rq-acq-related{padding-block:48px}}@media(max-width:480px){.rq-acq-sidebar{grid-template-columns:1fr;gap:0}.rq-acq-hero h1{font-size:38px}.rq-acq-facts strong{font-size:23px}.rq-acq-actions{display:grid}.rq-acq-section>p:not(.rq-acq-number){font-size:16px}}
+</style>

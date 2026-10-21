@@ -1,0 +1,10 @@
+{
+  "locale": "de",
+  "page_count": 49,
+  "source": "Approved English buyer tasks; native German rendering with unchanged slogans",
+  "source_sha256": "12332238771d1174e83527199736256a8f3e18f2f7b52a39e8b996e3a6c363d3",
+  "output_sha256": "2ec8bcbf3dd456e49c6f4d889dcde8a291bef380aae675138ee169673ff6fe83",
+  "final_review": false,
+  "implementation_checked_sha256": "f6f8628923b5ff7fed9c47e49d6abb1e2809682f940ac4a038aa669bf2e49e59",
+  "implementation_checks": "evidence/five-locale-implementation-checks.json"
+}

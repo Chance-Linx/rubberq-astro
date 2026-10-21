@@ -1,0 +1,8 @@
+[
+  {"url":"/products","children":["/products/seals","/products/gaskets","/products/custom","/products/bellows","/products/diaphragms","/products/rubber-to-metal-bonded-parts","/products/ffkm-replacement-seals"]},
+  {"url":"/materials","children":["/materials/ffkm","/materials/fkm","/materials/epdm","/materials/hnbr","/materials/nbr","/materials/silicone","/materials/lsr","/materials/acm","/materials/aem"]},
+  {"url":"/capabilities","children":["/capabilities/rubber-molding","/compounding","/compounds","/capabilities/lsr-molding","/testing","/quality","/factory"]},
+  {"url":"/industries","children":["/industries/semiconductor","/industries/liquid-cooling-energy-storage","/industries/ev-energy-storage","/industries/humanoid-robotics","/industries/industrial-equipment","/industries/automotive-tier2"]},
+  {"url":"/resources","children":["/resources/o-ring-size-guide","/resources/rubber-hardness-guide","/resources/material-compatibility","/resources/seal-failure-analysis","/standards","/blog"]},
+  {"url":"/about","children":["/factory","/quality","/case-studies","/contact"]}
+]

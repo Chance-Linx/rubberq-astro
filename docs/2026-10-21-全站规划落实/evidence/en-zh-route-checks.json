@@ -1,0 +1,1172 @@
+[
+  {
+    "locale": "en",
+    "path": "/",
+    "status": 200,
+    "h1": [
+      "Japanese Formulation. Chinese Precision. Trusted Since 1995."
+    ],
+    "canonical": [
+      "https://rubberq.com/"
+    ],
+    "pass": true,
+    "html_sha256": "a1ed822ece5cc279c772b73c4401a2fb7798394e1a93acfd9a2ec641077d1f10"
+  },
+  {
+    "locale": "en",
+    "path": "/about",
+    "status": 200,
+    "h1": [
+      "Precision Rubber Manufacturing Since 1995"
+    ],
+    "canonical": [
+      "https://rubberq.com/about"
+    ],
+    "pass": true,
+    "html_sha256": "fd0b62ee157a2c037c6df3edfc9343317fd47400ca9fa3910d81b7c4efd7957f"
+  },
+  {
+    "locale": "en",
+    "path": "/products",
+    "status": 200,
+    "h1": [
+      "Custom Rubber Parts for Industrial Assemblies"
+    ],
+    "canonical": [
+      "https://rubberq.com/products"
+    ],
+    "pass": true,
+    "html_sha256": "56749801c99042a85da7c8381fba0a1d4823ac41630c31548da26e0282a29310"
+  },
+  {
+    "locale": "en",
+    "path": "/products/seals",
+    "status": 200,
+    "h1": [
+      "O-Rings and Custom Rubber Seals"
+    ],
+    "canonical": [
+      "https://rubberq.com/products/seals"
+    ],
+    "pass": true,
+    "html_sha256": "6fc07418bb249de07900620584a562d061cf560f521a239cfdde96986c97833e"
+  },
+  {
+    "locale": "en",
+    "path": "/products/gaskets",
+    "status": 200,
+    "h1": [
+      "Custom Rubber Gaskets"
+    ],
+    "canonical": [
+      "https://rubberq.com/products/gaskets"
+    ],
+    "pass": true,
+    "html_sha256": "3412fe9a91d82e3d21e1dddedbfb2e5817581890380fe3792f78f58fe5b70812"
+  },
+  {
+    "locale": "en",
+    "path": "/products/bellows",
+    "status": 200,
+    "h1": [
+      "Custom Rubber Bellows and Protective Boots"
+    ],
+    "canonical": [
+      "https://rubberq.com/products/bellows"
+    ],
+    "pass": true,
+    "html_sha256": "a5a2cf5032b1a72f37939dce0853d47662b5cb899490c3a6f28c9aa13dfd4699"
+  },
+  {
+    "locale": "en",
+    "path": "/products/custom",
+    "status": 200,
+    "h1": [
+      "Custom Molded Rubber Parts"
+    ],
+    "canonical": [
+      "https://rubberq.com/products/custom"
+    ],
+    "pass": true,
+    "html_sha256": "09432268d31a29a5933c706eed437ec2bbfe4a674accf8387b482cf637a8b4ba"
+  },
+  {
+    "locale": "en",
+    "path": "/products/diaphragms",
+    "status": 200,
+    "h1": [
+      "Custom Rubber Diaphragms"
+    ],
+    "canonical": [
+      "https://rubberq.com/products/diaphragms"
+    ],
+    "pass": true,
+    "html_sha256": "52a8610f70262e97f7aae1e82132282c39bc47627f6b6c0a0776bd0d33044d9f"
+  },
+  {
+    "locale": "en",
+    "path": "/products/rubber-to-metal-bonded-parts",
+    "status": 200,
+    "h1": [
+      "Rubber-to-Metal Bonded Components"
+    ],
+    "canonical": [
+      "https://rubberq.com/products/rubber-to-metal-bonded-parts"
+    ],
+    "pass": true,
+    "html_sha256": "bb23e269d2860279e294618d4d897964093788e976e3106aeb04c16702acdd50"
+  },
+  {
+    "locale": "en",
+    "path": "/products/ffkm-replacement-seals",
+    "status": 200,
+    "h1": [
+      "FFKM Replacement Seals for Equipment Maintenance"
+    ],
+    "canonical": [
+      "https://rubberq.com/products/ffkm-replacement-seals"
+    ],
+    "pass": true,
+    "html_sha256": "3a6284b9f21020011d6aa7c69f6b4c4f964558f4b9bb14a31d7bb93dec170573"
+  },
+  {
+    "locale": "en",
+    "path": "/materials",
+    "status": 200,
+    "h1": [
+      "Rubber Materials for Precision Components"
+    ],
+    "canonical": [
+      "https://rubberq.com/materials"
+    ],
+    "pass": true,
+    "html_sha256": "77106a97b1a211cb5f9592d98bba18ff5d1d310ab5da69690d835a15c370bebd"
+  },
+  {
+    "locale": "en",
+    "path": "/materials/ffkm",
+    "status": 200,
+    "h1": [
+      "FFKM Materials for Demanding Sealing Conditions"
+    ],
+    "canonical": [
+      "https://rubberq.com/materials/ffkm"
+    ],
+    "pass": true,
+    "html_sha256": "e90ed191cc2e32b43d18024e495448929baecff1a41a5228d050c61b3de15dca"
+  },
+  {
+    "locale": "en",
+    "path": "/materials/fkm",
+    "status": 200,
+    "h1": [
+      "FKM Materials for Industrial Seals"
+    ],
+    "canonical": [
+      "https://rubberq.com/materials/fkm"
+    ],
+    "pass": true,
+    "html_sha256": "467d3fa159e87b38e073ae928f6c06e921f0a75eaa4bcc0362299382f863f8a8"
+  },
+  {
+    "locale": "en",
+    "path": "/materials/epdm",
+    "status": 200,
+    "h1": [
+      "EPDM Materials for Seals and Gaskets"
+    ],
+    "canonical": [
+      "https://rubberq.com/materials/epdm"
+    ],
+    "pass": true,
+    "html_sha256": "6d21a6e198bfc2c270b343b3553151d0d60cc6a6f4c5ffced1046aeac75f17f6"
+  },
+  {
+    "locale": "en",
+    "path": "/materials/hnbr",
+    "status": 200,
+    "h1": [
+      "HNBR Materials for Mechanical Sealing Parts"
+    ],
+    "canonical": [
+      "https://rubberq.com/materials/hnbr"
+    ],
+    "pass": true,
+    "html_sha256": "ae7f52e8a23465d4d496359eb8848e2f44fab5cb385f86789f74276be16407af"
+  },
+  {
+    "locale": "en",
+    "path": "/materials/nbr",
+    "status": 200,
+    "h1": [
+      "NBR Materials for Industrial Rubber Parts"
+    ],
+    "canonical": [
+      "https://rubberq.com/materials/nbr"
+    ],
+    "pass": true,
+    "html_sha256": "35cdb1834330998456fb3ff94af78b9787b8d76764788f7ef71c4b2bd78f43b3"
+  },
+  {
+    "locale": "en",
+    "path": "/materials/silicone",
+    "status": 200,
+    "h1": [
+      "Silicone Materials for Custom Molded Parts"
+    ],
+    "canonical": [
+      "https://rubberq.com/materials/silicone"
+    ],
+    "pass": true,
+    "html_sha256": "e794b5da5cb83662f7f409cf597572a5d293102296785462ab5133efa0089508"
+  },
+  {
+    "locale": "en",
+    "path": "/materials/lsr",
+    "status": 200,
+    "h1": [
+      "Liquid Silicone Rubber Materials and Part Review"
+    ],
+    "canonical": [
+      "https://rubberq.com/materials/lsr"
+    ],
+    "pass": true,
+    "html_sha256": "c294b225620955cad6a9c169dd032596eabea0d0725994cbeb65fdf336d18a54"
+  },
+  {
+    "locale": "en",
+    "path": "/materials/acm",
+    "status": 200,
+    "h1": [
+      "ACM Material Selection for Rubber Components"
+    ],
+    "canonical": [
+      "https://rubberq.com/materials/acm"
+    ],
+    "pass": true,
+    "html_sha256": "9d5aae88cfe475d4030171d75b7ef081ff03588039956294450317cb3014d8f0"
+  },
+  {
+    "locale": "en",
+    "path": "/materials/aem",
+    "status": 200,
+    "h1": [
+      "AEM Material Selection for Molded Parts"
+    ],
+    "canonical": [
+      "https://rubberq.com/materials/aem"
+    ],
+    "pass": true,
+    "html_sha256": "b2c2d09a4e1db5321af2834bec37036b6ba95a69392e4b8839338b1d80df587d"
+  },
+  {
+    "locale": "en",
+    "path": "/capabilities",
+    "status": 200,
+    "h1": [
+      "Rubber Compounding and Manufacturing Capabilities"
+    ],
+    "canonical": [
+      "https://rubberq.com/capabilities"
+    ],
+    "pass": true,
+    "html_sha256": "2a427da422b08d1a85aa6f1c3a0826058095350af228d4e633bd18eb6aba73fa"
+  },
+  {
+    "locale": "en",
+    "path": "/capabilities/rubber-molding",
+    "status": 200,
+    "h1": [
+      "Custom Rubber Molding"
+    ],
+    "canonical": [
+      "https://rubberq.com/capabilities/rubber-molding"
+    ],
+    "pass": true,
+    "html_sha256": "533619b049fba2129a68332e37dd23596a9dde9f7a54c8a6d4cc7fdf43b85110"
+  },
+  {
+    "locale": "en",
+    "path": "/capabilities/lsr-molding",
+    "status": 200,
+    "h1": [
+      "LSR Molding Project Review"
+    ],
+    "canonical": [
+      "https://rubberq.com/capabilities/lsr-molding"
+    ],
+    "pass": true,
+    "html_sha256": "ecfc220f5269a5af6470e5f59ba283dce821cfea98a6d7c83d37b6e47942b845"
+  },
+  {
+    "locale": "en",
+    "path": "/compounding",
+    "status": 200,
+    "h1": [
+      "Rubber Compounding and Formulation Support"
+    ],
+    "canonical": [
+      "https://rubberq.com/compounding"
+    ],
+    "pass": true,
+    "html_sha256": "2555373dea434ab967c6b2d05656da717d84aede82498567f2139bbf5ad7808f"
+  },
+  {
+    "locale": "en",
+    "path": "/compounds",
+    "status": 200,
+    "h1": [
+      "Custom Rubber Compound Supply"
+    ],
+    "canonical": [
+      "https://rubberq.com/compounds"
+    ],
+    "pass": true,
+    "html_sha256": "a250a19a929c356654acea74a9eb74bd81ac7312b306bd5304324ff303882b8c"
+  },
+  {
+    "locale": "en",
+    "path": "/testing",
+    "status": 200,
+    "h1": [
+      "In-House Rubber Testing and Inspection"
+    ],
+    "canonical": [
+      "https://rubberq.com/testing"
+    ],
+    "pass": true,
+    "html_sha256": "2b6282fae6b20d518ddef8365ba32c4cfbca19ffb95df9308c97d6e6ed53d7cb"
+  },
+  {
+    "locale": "en",
+    "path": "/quality",
+    "status": 200,
+    "h1": [
+      "Quality Control and Production Traceability"
+    ],
+    "canonical": [
+      "https://rubberq.com/quality"
+    ],
+    "pass": true,
+    "html_sha256": "a8f39ac279ffa57f4c3536351e28f2cc1a07c319d9ba34b421760b41493640da"
+  },
+  {
+    "locale": "en",
+    "path": "/factory",
+    "status": 200,
+    "h1": [
+      "Inside RubberQ Manufacturing"
+    ],
+    "canonical": [
+      "https://rubberq.com/factory"
+    ],
+    "pass": true,
+    "html_sha256": "9bec565bdda904a6726013505c73cc9daa3d3390302fb1d7aa4a658c36dc1e2c"
+  },
+  {
+    "locale": "en",
+    "path": "/industries",
+    "status": 200,
+    "h1": [
+      "Rubber Components for Demanding Industrial Applications"
+    ],
+    "canonical": [
+      "https://rubberq.com/industries"
+    ],
+    "pass": true,
+    "html_sha256": "3df25c907eb684dcecc71adc15d633729b31042dd160025a5cee537b6fd1f224"
+  },
+  {
+    "locale": "en",
+    "path": "/industries/semiconductor",
+    "status": 200,
+    "h1": [
+      "Rubber Seals for Semiconductor Equipment"
+    ],
+    "canonical": [
+      "https://rubberq.com/industries/semiconductor"
+    ],
+    "pass": true,
+    "html_sha256": "b353004270cfc4f90a7f14ba79cc62528f201a8c7592c5f363ec948129840364"
+  },
+  {
+    "locale": "en",
+    "path": "/industries/liquid-cooling-energy-storage",
+    "status": 200,
+    "h1": [
+      "Rubber Components for Liquid Cooling and Energy Storage"
+    ],
+    "canonical": [
+      "https://rubberq.com/industries/liquid-cooling-energy-storage"
+    ],
+    "pass": true,
+    "html_sha256": "8520b070311c42b604cb176d22f116db3b9df9228f951dee93f191149c069f21"
+  },
+  {
+    "locale": "en",
+    "path": "/industries/ev-energy-storage",
+    "status": 200,
+    "h1": [
+      "Rubber Components for EV Thermal Management"
+    ],
+    "canonical": [
+      "https://rubberq.com/industries/ev-energy-storage"
+    ],
+    "pass": true,
+    "html_sha256": "71242da3e99b70b0e53e672de5a9c02637b1871dccf34bfada9c767e72c4deaa"
+  },
+  {
+    "locale": "en",
+    "path": "/industries/humanoid-robotics",
+    "status": 200,
+    "h1": [
+      "Rubber Components for Humanoid Robotics"
+    ],
+    "canonical": [
+      "https://rubberq.com/industries/humanoid-robotics"
+    ],
+    "pass": true,
+    "html_sha256": "f8563a3f9b72856ecaa706d56dc509e5b25aea90f6737065419cf1157a147544"
+  },
+  {
+    "locale": "en",
+    "path": "/industries/industrial-equipment",
+    "status": 200,
+    "h1": [
+      "Custom Rubber Components for Industrial Equipment"
+    ],
+    "canonical": [
+      "https://rubberq.com/industries/industrial-equipment"
+    ],
+    "pass": true,
+    "html_sha256": "ae597f6f4d0a09d69abb0d0c44be9269fbbc99d26ef0444eec771bea3b3470e9"
+  },
+  {
+    "locale": "en",
+    "path": "/industries/automotive-tier2",
+    "status": 200,
+    "h1": [
+      "Rubber Components for Selected Tier 2 Programs"
+    ],
+    "canonical": [
+      "https://rubberq.com/industries/automotive-tier2"
+    ],
+    "pass": true,
+    "html_sha256": "0ef3d1f61007b8ded75691aacadc8e40c28223a878b25178f1955b616a0edd06"
+  },
+  {
+    "locale": "en",
+    "path": "/resources",
+    "status": 200,
+    "h1": [
+      "Rubber Engineering Resources"
+    ],
+    "canonical": [
+      "https://rubberq.com/resources"
+    ],
+    "pass": true,
+    "html_sha256": "c0a5353f64974aefd2ac91686f672b6850d5bfa7b8ccac104fa1cafe88ff484a"
+  },
+  {
+    "locale": "en",
+    "path": "/standards",
+    "status": 200,
+    "h1": [
+      "Rubber Standards and Specification Support"
+    ],
+    "canonical": [
+      "https://rubberq.com/standards"
+    ],
+    "pass": true,
+    "html_sha256": "462393bdd175a7ca0b7ad476b32345295cc9eda88bff724863d81017ba326836"
+  },
+  {
+    "locale": "en",
+    "path": "/resources/o-ring-size-guide",
+    "status": 200,
+    "h1": [
+      "O-Ring Size and Drawing Guide"
+    ],
+    "canonical": [
+      "https://rubberq.com/resources/o-ring-size-guide"
+    ],
+    "pass": true,
+    "html_sha256": "d6eda7567bd831f980161cf46aae6c7345ffa5d03b4b747b33018e378403fdae"
+  },
+  {
+    "locale": "en",
+    "path": "/resources/rubber-hardness-guide",
+    "status": 200,
+    "h1": [
+      "Rubber Hardness: Specifying a Useful Requirement"
+    ],
+    "canonical": [
+      "https://rubberq.com/resources/rubber-hardness-guide"
+    ],
+    "pass": true,
+    "html_sha256": "1eaafde9adada86c26dae5c3de069e36641896fb7f279455e2bd02c7bdfb8cc7"
+  },
+  {
+    "locale": "en",
+    "path": "/resources/material-compatibility",
+    "status": 200,
+    "h1": [
+      "Rubber Material Compatibility: What to Specify"
+    ],
+    "canonical": [
+      "https://rubberq.com/resources/material-compatibility"
+    ],
+    "pass": true,
+    "html_sha256": "59464a03745d309488ac2c7c4fd48145c171928dacf7ba9399baf3149cb792b0"
+  },
+  {
+    "locale": "en",
+    "path": "/resources/seal-failure-analysis",
+    "status": 200,
+    "h1": [
+      "Rubber Seal Failure: A Practical Review Checklist"
+    ],
+    "canonical": [
+      "https://rubberq.com/resources/seal-failure-analysis"
+    ],
+    "pass": true,
+    "html_sha256": "d0e51359b8df27f7a43aa24f411a6e10983168f8a4de217924a2e4d28aa710d7"
+  },
+  {
+    "locale": "en",
+    "path": "/case-studies",
+    "status": 200,
+    "h1": [
+      "Discuss a Rubber Component Development Project"
+    ],
+    "canonical": [
+      "https://rubberq.com/case-studies"
+    ],
+    "pass": true,
+    "html_sha256": "17d2a077a9325888671c48cb9c765e4b9818935ca00f3f73dab582d588537f2b"
+  },
+  {
+    "locale": "en",
+    "path": "/contact",
+    "status": 200,
+    "h1": [
+      "Tell Us About Your Rubber Component"
+    ],
+    "canonical": [
+      "https://rubberq.com/contact"
+    ],
+    "pass": true,
+    "html_sha256": "767397bf1275a78fd264afd04f03f125a113b348e85d752cc1dba61d2bb57b74"
+  },
+  {
+    "locale": "en",
+    "path": "/sample-request",
+    "status": 200,
+    "h1": [
+      "Request Rubber Component Samples"
+    ],
+    "canonical": [
+      "https://rubberq.com/sample-request"
+    ],
+    "pass": true,
+    "html_sha256": "90471d351726d4a2fdf5bde1f546f9bfa7dc75a1a9607b8b9f4dc05ebd2c39d8"
+  },
+  {
+    "locale": "en",
+    "path": "/batch-rfq",
+    "status": 200,
+    "h1": [
+      "Request a Quote for Multiple Rubber Parts"
+    ],
+    "canonical": [
+      "https://rubberq.com/batch-rfq"
+    ],
+    "pass": true,
+    "html_sha256": "bd3568cd9b880a3f67fa0458bbfda20e6cb7f53e02e2c348a53f84d98aea47d9"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh",
+    "status": 200,
+    "h1": [
+      "Japanese Formulation. Chinese Precision. Trusted Since 1995."
+    ],
+    "canonical": [
+      "https://rubberq.com/zh"
+    ],
+    "pass": true,
+    "html_sha256": "d31edafca7a99df43afcd3089db4a00f5777922029fe391f26ba67b1d1dbdb7e"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/about",
+    "status": 200,
+    "h1": [
+      "始于1995年的精密橡胶制造"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/about"
+    ],
+    "pass": true,
+    "html_sha256": "ed86f145ef2ee7293f589cdad28de23009db5c2786f9eecce3ec08edfd83c7b6"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/products",
+    "status": 200,
+    "h1": [
+      "工业装配用定制橡胶零部件"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/products"
+    ],
+    "pass": true,
+    "html_sha256": "9fcc8ef9221e9813ae0fc1161900491010697603ce06201def54d20f28893ba5"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/products/seals",
+    "status": 200,
+    "h1": [
+      "O 圈与定制橡胶密封件"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/products/seals"
+    ],
+    "pass": true,
+    "html_sha256": "e7865c1af7ae9f01bb030da8fb0ef828741695e6d75a08ae7ad53cab0871522b"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/products/gaskets",
+    "status": 200,
+    "h1": [
+      "定制橡胶垫片"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/products/gaskets"
+    ],
+    "pass": true,
+    "html_sha256": "d7f110bedd5ff9056a3f8fc50afa7aab770a169db2490e2c759654dec7bd74ba"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/products/bellows",
+    "status": 200,
+    "h1": [
+      "定制橡胶波纹管与防护套"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/products/bellows"
+    ],
+    "pass": true,
+    "html_sha256": "e7648fd5f4862cf8415454193e35190c95dcfd137c627714ec3a520c89df0205"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/products/custom",
+    "status": 200,
+    "h1": [
+      "按图定制橡胶模压件"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/products/custom"
+    ],
+    "pass": true,
+    "html_sha256": "7b4259cbd35572da2a9308bc2d0cd15518972644d8a310a6e160ea2a8325e12a"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/products/diaphragms",
+    "status": 200,
+    "h1": [
+      "定制橡胶隔膜"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/products/diaphragms"
+    ],
+    "pass": true,
+    "html_sha256": "cf635255160f079f649121fa8265c24554be28bd0c9ae092eaf96044de7813de"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/products/rubber-to-metal-bonded-parts",
+    "status": 200,
+    "h1": [
+      "橡胶金属硫化粘接件"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/products/rubber-to-metal-bonded-parts"
+    ],
+    "pass": true,
+    "html_sha256": "55efb3ac93ea15e696e271647efe5fcbbf5a4616f1f3902092a179232ef3b89e"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/products/ffkm-replacement-seals",
+    "status": 200,
+    "h1": [
+      "设备维护用 FFKM 替代密封件评估"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/products/ffkm-replacement-seals"
+    ],
+    "pass": true,
+    "html_sha256": "621d4a9601fa957b39552537462e1bbe5ae6898a9bb292f36dcf9daf11fd168b"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/materials",
+    "status": 200,
+    "h1": [
+      "精密零部件用橡胶材料"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/materials"
+    ],
+    "pass": true,
+    "html_sha256": "eff456473e00a9398fab29e491f93c26ab1bcfc4ff38aeab2107aa47e117e3a3"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/materials/ffkm",
+    "status": 200,
+    "h1": [
+      "面向复杂密封工况的 FFKM 材料"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/materials/ffkm"
+    ],
+    "pass": true,
+    "html_sha256": "a272cad1d74d39da7ed62660f3f1006d95039499d7b4b51b931464313aa90437"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/materials/fkm",
+    "status": 200,
+    "h1": [
+      "工业密封件用 FKM 材料"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/materials/fkm"
+    ],
+    "pass": true,
+    "html_sha256": "073837b8996445f6dac9ad3c5268711da7d6bf9982a6aec0d026cf86d9d166fd"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/materials/epdm",
+    "status": 200,
+    "h1": [
+      "密封件与垫片用 EPDM 材料"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/materials/epdm"
+    ],
+    "pass": true,
+    "html_sha256": "9242d7edf1ee9b5664a2a5b68355e63fdb3dfbed321df165f5b121a6c9237bef"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/materials/hnbr",
+    "status": 200,
+    "h1": [
+      "机械密封零件用 HNBR 材料"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/materials/hnbr"
+    ],
+    "pass": true,
+    "html_sha256": "5845dd277dc4a7484c87712b72b43cd52abb53a84d3d98274871583244d9a4f9"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/materials/nbr",
+    "status": 200,
+    "h1": [
+      "工业橡胶零件用 NBR 材料"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/materials/nbr"
+    ],
+    "pass": true,
+    "html_sha256": "406efd932b273ed00929533d44dc34eaa4ed35166cece55c37a1eccc0a654d9d"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/materials/silicone",
+    "status": 200,
+    "h1": [
+      "定制模压件用硅胶材料"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/materials/silicone"
+    ],
+    "pass": true,
+    "html_sha256": "d2183713d4152cee3e9cfaea040f05b8dfc685d34943b30b60678231fc4ed960"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/materials/lsr",
+    "status": 200,
+    "h1": [
+      "液态硅胶材料与零件评估"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/materials/lsr"
+    ],
+    "pass": true,
+    "html_sha256": "8e30616456c0f73c543b427a8a373d5bd8d6953551e8f979c5e247f1e238d514"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/materials/acm",
+    "status": 200,
+    "h1": [
+      "橡胶零件的 ACM 材料选择"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/materials/acm"
+    ],
+    "pass": true,
+    "html_sha256": "17eb3adac1802b7e93f1ca060c68f1ac4f19a7bb8652aa9330ce0b643c1f9526"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/materials/aem",
+    "status": 200,
+    "h1": [
+      "模压件的 AEM 材料选择"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/materials/aem"
+    ],
+    "pass": true,
+    "html_sha256": "2aea3f72c12c2cca07ef6b787a4ebdf4a8173917d7489619967cf3b166fb9c5e"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/capabilities",
+    "status": 200,
+    "h1": [
+      "橡胶配方与制造能力"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/capabilities"
+    ],
+    "pass": true,
+    "html_sha256": "9f81516111f97fce490c3fcfbd61fa301358d5f178c1162da34016a46659be0f"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/capabilities/rubber-molding",
+    "status": 200,
+    "h1": [
+      "定制橡胶成型"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/capabilities/rubber-molding"
+    ],
+    "pass": true,
+    "html_sha256": "8bdd0a2919739bc217fae728eab2e5d4e8077585df2d45111cf0accdd1d38458"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/capabilities/lsr-molding",
+    "status": 200,
+    "h1": [
+      "LSR 成型项目评估"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/capabilities/lsr-molding"
+    ],
+    "pass": true,
+    "html_sha256": "6b5246faa52c1fb60a02e3b3e3b85f14cbf8b5e28b9365e379e8879e9cf0fe23"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/compounding",
+    "status": 200,
+    "h1": [
+      "橡胶配方与混炼支持"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/compounding"
+    ],
+    "pass": true,
+    "html_sha256": "e3daad4fddf6c7edabf858c030b160b71d06ff248f689be69aef37d835e15cf5"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/compounds",
+    "status": 200,
+    "h1": [
+      "定制橡胶胶料供应"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/compounds"
+    ],
+    "pass": true,
+    "html_sha256": "2097260283bde637924b876b473993921a3b72e5984f7bba4e678882830bddfd"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/testing",
+    "status": 200,
+    "h1": [
+      "自有橡胶检测与检验"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/testing"
+    ],
+    "pass": true,
+    "html_sha256": "2d561898200dfe9000b0cdf3e1c6e3f6b110059dde1c52439a1ff24f9b30650c"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/quality",
+    "status": 200,
+    "h1": [
+      "质量控制与生产追溯"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/quality"
+    ],
+    "pass": true,
+    "html_sha256": "7c9dd492e97cd14c647e2c2e4c7d0b90e0b0f61441bbb9d109673273ab639cd3"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/factory",
+    "status": 200,
+    "h1": [
+      "走进 RubberQ 制造基地"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/factory"
+    ],
+    "pass": true,
+    "html_sha256": "e7c6bb4a4863fc85cc3b1a565f386c858ad60887cd1f0e431fe337a1ff4b5235"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/industries",
+    "status": 200,
+    "h1": [
+      "复杂工业应用中的橡胶零部件"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/industries"
+    ],
+    "pass": true,
+    "html_sha256": "1c309c3f191c21186d3827570a9a970160bcfa361591f77dc16eb0ed9eb2601b"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/industries/semiconductor",
+    "status": 200,
+    "h1": [
+      "半导体设备用橡胶密封件"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/industries/semiconductor"
+    ],
+    "pass": true,
+    "html_sha256": "0f6f1160065aaead21a4e0a22554ad5444cb9d92c9d857196c64272a6e5cf32b"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/industries/liquid-cooling-energy-storage",
+    "status": 200,
+    "h1": [
+      "液冷与储能用橡胶零部件"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/industries/liquid-cooling-energy-storage"
+    ],
+    "pass": true,
+    "html_sha256": "802f4b746755607f5f93e0e5eb7a6d56a7c9c440627f07b34599b37b945098e6"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/industries/ev-energy-storage",
+    "status": 200,
+    "h1": [
+      "EV 热管理用橡胶零部件"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/industries/ev-energy-storage"
+    ],
+    "pass": true,
+    "html_sha256": "f452f31a7d6f5bb8b8a34f0388a642641674bc318ca53840108745135bcb38af"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/industries/humanoid-robotics",
+    "status": 200,
+    "h1": [
+      "人形机器人用橡胶零部件"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/industries/humanoid-robotics"
+    ],
+    "pass": true,
+    "html_sha256": "dd2ffcd17f415f90a4c192ab9ab0645bb4b313233046b8f2f20e35e1a0397390"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/industries/industrial-equipment",
+    "status": 200,
+    "h1": [
+      "工业设备用定制橡胶零部件"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/industries/industrial-equipment"
+    ],
+    "pass": true,
+    "html_sha256": "c974dab81657122457f22cd7e86fc80aa1025b818048ed8885f3300fc43b66e6"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/industries/automotive-tier2",
+    "status": 200,
+    "h1": [
+      "选定汽车 Tier 2 项目的橡胶零件"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/industries/automotive-tier2"
+    ],
+    "pass": true,
+    "html_sha256": "9629e287ef59252cf66333b66a624020c340349c28041bd1bb1287e9d9dcf9ae"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/resources",
+    "status": 200,
+    "h1": [
+      "橡胶工程资源"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/resources"
+    ],
+    "pass": true,
+    "html_sha256": "d18c88a7ec19366fb62d771908033590f32668321b6fbd11667bbda7951baf41"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/standards",
+    "status": 200,
+    "h1": [
+      "橡胶标准与技术规格支持"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/standards"
+    ],
+    "pass": true,
+    "html_sha256": "143dc82c830913e438ab4e8c2a63f78c1006bb0d542718222bfa0aa21b383895"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/resources/o-ring-size-guide",
+    "status": 200,
+    "h1": [
+      "O 圈尺寸与图纸指南"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/resources/o-ring-size-guide"
+    ],
+    "pass": true,
+    "html_sha256": "46beb2a0429173b364fc3ee4f1b9a5e4070a06e9cf015ee7d0080dfa648f08eb"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/resources/rubber-hardness-guide",
+    "status": 200,
+    "h1": [
+      "橡胶硬度：如何明确有效要求"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/resources/rubber-hardness-guide"
+    ],
+    "pass": true,
+    "html_sha256": "094675b7604340407c0b97e4a363c78aa6d91df149eb2f4ef8d46bff058e09ff"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/resources/material-compatibility",
+    "status": 200,
+    "h1": [
+      "橡胶材料兼容性：需要明确哪些条件"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/resources/material-compatibility"
+    ],
+    "pass": true,
+    "html_sha256": "98abb9dcdd4df79f7cb8031a74e8060e0809374f897f4ed5474f9acf267e3a8f"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/resources/seal-failure-analysis",
+    "status": 200,
+    "h1": [
+      "橡胶密封失效分析清单"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/resources/seal-failure-analysis"
+    ],
+    "pass": true,
+    "html_sha256": "17f89250e391158531bd7cbb8ab97925de26efd47edb82ab2b55fbb57053081e"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/case-studies",
+    "status": 200,
+    "h1": [
+      "讨论橡胶零件开发项目"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/case-studies"
+    ],
+    "pass": true,
+    "html_sha256": "56465d9ff46d014236bfd3e53a450d65cc4ba86d07aef14a275a2e07fc68f1c5"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/contact",
+    "status": 200,
+    "h1": [
+      "告诉我们您的橡胶零件需求"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/contact"
+    ],
+    "pass": true,
+    "html_sha256": "89d2783cbfa2a89996e55f97ede46945cd21e3f3c8b0845c01814121370ba365"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/sample-request",
+    "status": 200,
+    "h1": [
+      "申请橡胶零件样品"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/sample-request"
+    ],
+    "pass": true,
+    "html_sha256": "03feba857f19cbe763ded93005f76f627af8fa673bc901209fbec20cf3e7667c"
+  },
+  {
+    "locale": "zh",
+    "path": "/zh/batch-rfq",
+    "status": 200,
+    "h1": [
+      "多个橡胶零件统一询价"
+    ],
+    "canonical": [
+      "https://rubberq.com/zh/batch-rfq"
+    ],
+    "pass": true,
+    "html_sha256": "b9d52b8c2c45e9e388800d71b0b8b720034bbb58b4b2d3eaf800f79a1d7acdf8"
+  }
+]

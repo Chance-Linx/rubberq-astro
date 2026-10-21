@@ -1,0 +1,22 @@
+---
+import { getTranslations, localizedPath, tRaw, t } from '@/lib/i18n';
+import { acquisitionPage } from '@/lib/acquisition';
+import navigation from '@/data/acquisition-navigation.json';
+interface Props { locale: string }
+const { locale } = Astro.props;
+const messages = await getTranslations(locale);
+const copies = tRaw(messages, 'acquisition.pages');
+const label = (url: string) => copies[acquisitionPage(url)!.id].label;
+const href = (url: string) => url === '/blog' ? '/blog' : localizedPath(locale, url);
+---
+<footer class="rq-footer">
+  <div class="rq-footer-tagline"><p>{t(messages, 'acquisition.brand.slogan')}</p></div>
+  <div class="rq-footer-wrap">
+    <div class="rq-footer-intro"><a href={href('/')} class="rq-footer-brand">RUBBER<span>Q</span></a><p>{t(messages, 'acquisition.brand.tagline')}</p><a href="mailto:contact@rubberq.com">contact@rubberq.com</a><p>{t(messages, 'footer.address')}</p></div>
+    <div class="rq-footer-groups">{navigation.map(group => <div><h2><a href={href(group.url)}>{label(group.url)}</a></h2><ul>{group.children.map(url => <li><a href={href(url)}>{label(url)}</a></li>)}</ul></div>)}</div>
+    <div class="rq-footer-bottom"><p>© {new Date().getFullYear()} RubberQ. {t(messages, 'footer.rightsReserved')}</p><div><a href={href('/privacy')}>{label('/privacy')}</a><a href={href('/terms')}>{label('/terms')}</a><a href="/sitemap.xml">{t(messages, 'acquisition.ui.sitemap')}</a></div></div>
+  </div>
+</footer>
+<style>
+  .rq-footer{background:#0A0A0A;color:#D4D4D4}.rq-footer a{color:inherit;text-decoration:none}.rq-footer a:hover{text-decoration:underline;text-underline-offset:4px}.rq-footer-tagline{border-bottom:1px solid #262626;padding:32px 20px;text-align:center}.rq-footer-tagline p{font-size:clamp(18px,2vw,26px);font-weight:800;color:#FFFFFF}.rq-footer-wrap{max-width:1240px;margin:auto;padding:48px 32px 24px}.rq-footer-intro{display:flex;flex-wrap:wrap;align-items:center;gap:20px 32px;border-bottom:1px solid #262626;padding-bottom:32px;font-size:13px}.rq-footer-brand{font-size:25px;font-weight:900;letter-spacing:-.05em;color:#FFFFFF!important}.rq-footer-brand span{color:#F97316}.rq-footer-intro>p{max-width:40ch}.rq-footer-groups{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px 48px;padding-block:40px}.rq-footer h2{font-size:14px;font-weight:800;color:#FFFFFF;margin-bottom:16px}.rq-footer ul{list-style:none;margin:0;padding:0}.rq-footer li a{display:inline-block;padding-block:7px;font-size:12px;line-height:1.6;overflow-wrap:anywhere}.rq-footer-bottom{border-top:1px solid #262626;padding-top:24px;display:flex;justify-content:space-between;gap:20px;font-size:11px}.rq-footer-bottom>div{display:flex;gap:20px}a:focus-visible{outline:2px solid #F97316;outline-offset:4px}@media(max-width:700px){.rq-footer-wrap{padding-inline:20px}.rq-footer-intro{display:block}.rq-footer-intro>*{display:block;margin-bottom:16px}.rq-footer-groups{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 24px}.rq-footer-bottom{display:block}.rq-footer-bottom>div{margin-top:16px;flex-wrap:wrap}}
+</style>

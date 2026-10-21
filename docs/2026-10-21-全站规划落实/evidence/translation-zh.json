@@ -1,0 +1,10 @@
+{
+  "locale": "zh",
+  "page_count": 49,
+  "source": "approved English buyer tasks; native Chinese rendering",
+  "source_sha256": "87847288ba4a94efeb3110f8e2e4291513fa9e061c5fd9a34b1445cef649f0e5",
+  "output_sha256": "322530519011ca5bf70ef45e8881e3ae06d3d755b80a061508c2ecdb36918dae",
+  "final_review": false,
+  "implementation_checked_sha256": "3a3fdbf4667e10041d63255e1cdafc1bfd05f4dd67a313fffc59e5eb83dd1cce",
+  "implementation_checks": "evidence/five-locale-implementation-checks.json"
+}

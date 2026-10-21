@@ -16,7 +16,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-21T02:33:02.647358+00:00",
+  "generated_at": "2026-10-21T03:46:42.902622+00:00",
   "sections": {
     "goals": {
       "state": "ready",
@@ -221,10 +221,10 @@
                 "href": "/growth-file/a0ebbee2425956e7fac2698a"
               }
             ],
-            "next_step": "查看本地交付与验收记录；不等同官网上线",
+            "next_step": "沿用四项批准方向；费用待定，先不花费",
             "channel": "content",
             "source": "根任务清单RQAC系列的只读阶段投影",
-            "note": "本轮交付，未实施外部发布",
+            "note": "四项方向已由用户确认；工作项沿用GGS固定枚举，统一随全项目验收，后续不再请求方向批准",
             "delivered_at": "2026-10-21"
           },
           {
@@ -250,7 +250,7 @@
                 "href": "/growth-file/a0ebbee2425956e7fac2698a"
               }
             ],
-            "next_step": "查看本地交付与验收记录；不等同官网上线",
+            "next_step": "继续完整实施，全部完成后一次性审核；不重复请求阶段验收",
             "channel": "content",
             "source": "根任务清单RQAC系列的只读阶段投影",
             "note": "本轮交付，未实施外部发布",
@@ -283,7 +283,7 @@
                 "href": "/growth-file/a0ebbee2425956e7fac2698a"
               }
             ],
-            "next_step": "查看本地交付与验收记录；不等同官网上线",
+            "next_step": "继续完整实施，全部完成后一次性审核；不重复请求阶段验收",
             "channel": "content",
             "source": "根任务清单RQAC系列的只读阶段投影",
             "note": "本轮交付，未实施外部发布",
@@ -316,7 +316,7 @@
                 "href": "/growth-file/a0ebbee2425956e7fac2698a"
               }
             ],
-            "next_step": "查看本地交付与验收记录；不等同官网上线",
+            "next_step": "继续完整实施，全部完成后一次性审核；不重复请求阶段验收",
             "channel": "content",
             "source": "根任务清单RQAC系列的只读阶段投影",
             "note": "本轮交付，未实施外部发布",
@@ -357,7 +357,7 @@
                 "href": "/growth-file/a0ebbee2425956e7fac2698a"
               }
             ],
-            "next_step": "查看本地交付与验收记录；不等同官网上线",
+            "next_step": "继续完整实施，全部完成后一次性审核；不重复请求阶段验收",
             "channel": "content",
             "source": "根任务清单RQAC系列的只读阶段投影",
             "note": "本轮交付，未实施外部发布",
@@ -390,7 +390,7 @@
                 "href": "/growth-file/a0ebbee2425956e7fac2698a"
               }
             ],
-            "next_step": "查看本地交付与验收记录；不等同官网上线",
+            "next_step": "继续完整实施，全部完成后一次性审核；不重复请求阶段验收",
             "channel": "content",
             "source": "根任务清单RQAC系列的只读阶段投影",
             "note": "本轮交付，未实施外部发布",
@@ -401,11 +401,11 @@
             "type": "任务",
             "title": "存量全文与URL归属核对",
             "owner": "Codex",
-            "status": "计划",
+            "status": "进行中",
             "dependencies": [
               "RQ-EXEC-01"
             ],
-            "start_date": null,
+            "start_date": "2026-10-21",
             "completion_date": null,
             "outputs": [],
             "reports": [
@@ -414,10 +414,10 @@
                 "href": "/growth-file/a0ebbee2425956e7fac2698a"
               }
             ],
-            "next_step": "按实际正文和发布范围接续",
+            "next_step": "逐篇语义审查271篇正文，确定63买家任务的URL归属",
             "channel": "content",
             "source": "根任务清单RQAC系列的只读阶段投影",
-            "note": "尚未执行",
+            "note": "已读取与结构检查；语义归属0/271，话题归属0/63，不把匹配候选记覆盖",
             "delivered_at": null
           },
           {
@@ -425,23 +425,28 @@
             "type": "任务",
             "title": "批准页面的代码/CMS实施与上线",
             "owner": "Codex",
-            "status": "计划",
+            "status": "进行中",
             "dependencies": [
               "RQ-EXEC-01"
             ],
-            "start_date": null,
+            "start_date": "2026-10-21",
             "completion_date": null,
-            "outputs": [],
+            "outputs": [
+              {
+                "label": "execution-state.json",
+                "href": null
+              }
+            ],
             "reports": [
               {
                 "label": "00-交付入口.md",
                 "href": "/growth-file/a0ebbee2425956e7fac2698a"
               }
             ],
-            "next_step": "按实际正文和发布范围接续",
+            "next_step": "Review all 271 stored article bodies semantically; assign the 63 buyer jobs to unique existing or justified new owners, reconcile dashboard; finish specialized routes/mobile/forms; then one consolidated final review",
             "channel": "content",
             "source": "根任务清单RQAC系列的只读阶段投影",
-            "note": "尚未执行",
+            "note": "45页面规格×5语种本地225项通过；116本地RFQ契约检查；未部署新版，未写CMS",
             "delivered_at": null
           }
         ]

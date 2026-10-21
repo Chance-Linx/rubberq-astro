@@ -1,0 +1,12 @@
+{
+  "baseline_commit": "75ae713d7617c2964b10cf7bce3b5480eea21f71",
+  "changes": [
+    {
+      "path": "rubberq-astro/src/messages/en.json",
+      "baseline_sha256": "1ddcaf6f8d37447025afbd364d362f778445d5801f36ee20d73719e88f1126d6",
+      "current_sha256": "f6ce5c72cff9e81a5fa86a517043a1e490cfd31aa74a518926af29230c64b23e",
+      "reason": "Approved acquisition implementation and five-locale form/UI copy; original planning input retained in the baseline commit",
+      "verification": "evidence/five-locale-implementation-checks.json"
+    }
+  ]
+}

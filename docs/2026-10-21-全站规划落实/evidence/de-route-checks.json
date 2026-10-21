@@ -1,0 +1,452 @@
+[
+  {
+    "locale": "de",
+    "path": "/de",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Japanese Formulation. Chinese Precision. Trusted Since 1995."
+    ],
+    "html_sha256": "5a180c81174c96aae76dae2992a6529c2069180b2d1395c6c78acce062f382cb"
+  },
+  {
+    "locale": "de",
+    "path": "/de/about",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Präzisionsfertigung aus Gummi seit 1995"
+    ],
+    "html_sha256": "f6f62032f37c452ecf965b74b6f9d1c140687078bb9bb0a7be86d0d1227f9364"
+  },
+  {
+    "locale": "de",
+    "path": "/de/products",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Gummibauteile nach Zeichnung für industrielle Baugruppen"
+    ],
+    "html_sha256": "a78eef781c0f7777bd0749e71cdeaa7e02bb016cad0da462f67ba525cd38e438"
+  },
+  {
+    "locale": "de",
+    "path": "/de/products/seals",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "O-Ringe und kundenspezifische Gummidichtungen"
+    ],
+    "html_sha256": "183492e7a4cf1b263a992a8466b8a9348b04bf6b7b07350de59f810302b48173"
+  },
+  {
+    "locale": "de",
+    "path": "/de/products/gaskets",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Kundenspezifische Gummidichtungen"
+    ],
+    "html_sha256": "12022b32ad7f1439f774bca7ba964a926fe3904f083aa0a9ac59e649b32a7a7a"
+  },
+  {
+    "locale": "de",
+    "path": "/de/products/bellows",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Gummifaltenbälge und Schutzmanschetten nach Zeichnung"
+    ],
+    "html_sha256": "3958c960bd48144f3cc3f73795683be93bcc9792d4ae816485192c54d70dc13a"
+  },
+  {
+    "locale": "de",
+    "path": "/de/products/custom",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Kundenspezifische Gummiformteile"
+    ],
+    "html_sha256": "2d2aad65adcaab8613c416079299395c6fd485c05a25c0cfa3f87edc908e7c46"
+  },
+  {
+    "locale": "de",
+    "path": "/de/products/diaphragms",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Gummimembranen nach Zeichnung"
+    ],
+    "html_sha256": "d9c91b98fce98b4cc957737912b668d105272725077acdf3c64614447c96ccdc"
+  },
+  {
+    "locale": "de",
+    "path": "/de/products/rubber-to-metal-bonded-parts",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Gummi-Metall-Verbundteile"
+    ],
+    "html_sha256": "80a23718da1eca6a1336e2b7b29c7db2e58fffe23c5378c28b1844b01969a5fe"
+  },
+  {
+    "locale": "de",
+    "path": "/de/products/ffkm-replacement-seals",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "FFKM-Ersatzdichtungen für die Anlagenwartung"
+    ],
+    "html_sha256": "a1155298532c4990de21b7e1f298ff3adbcad194472aed4910d3c2129b3bc87e"
+  },
+  {
+    "locale": "de",
+    "path": "/de/materials",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Gummiwerkstoffe für Präzisionsbauteile"
+    ],
+    "html_sha256": "b3147f801435ff2c06eb4cc2b05c5fd0c9c4e957b302ebe1af6d8675f8297f84"
+  },
+  {
+    "locale": "de",
+    "path": "/de/materials/ffkm",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "FFKM für anspruchsvolle Dichtungsbedingungen"
+    ],
+    "html_sha256": "369c60ef9cf1157c4f14963d9050436efd79bf63673a6ab2acd6917d45052811"
+  },
+  {
+    "locale": "de",
+    "path": "/de/materials/fkm",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "FKM für industrielle Dichtungen"
+    ],
+    "html_sha256": "aec0d2561be1583d2fe6c37e8c0672805bf7c56425e18f68f84cfccfd46b093d"
+  },
+  {
+    "locale": "de",
+    "path": "/de/materials/epdm",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "EPDM für Dichtungen und Flachdichtungen"
+    ],
+    "html_sha256": "d187a146088ce16315aed292be76834ecfb640ebeca98e2d98d36967a02f9260"
+  },
+  {
+    "locale": "de",
+    "path": "/de/materials/hnbr",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "HNBR für mechanisch belastete Dichtungsbauteile"
+    ],
+    "html_sha256": "7cb64647259b4478b70f65c76d39c97f69349c846f6e0f254df075208898a299"
+  },
+  {
+    "locale": "de",
+    "path": "/de/materials/nbr",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "NBR für industrielle Gummibauteile"
+    ],
+    "html_sha256": "5220da5d531fe85e27e84b039faa9f6076c0cd2191ddbdde5f155949b3f107e0"
+  },
+  {
+    "locale": "de",
+    "path": "/de/materials/silicone",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Silikon für kundenspezifische Formteile"
+    ],
+    "html_sha256": "6617b70e9b67fd6ad0d95d641c3e2d9c681b56be25cb773b422efbfbee3bfc91"
+  },
+  {
+    "locale": "de",
+    "path": "/de/materials/lsr",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Flüssigsilikon: Werkstoff- und Bauteilbewertung"
+    ],
+    "html_sha256": "13d8c5cd08c1ceeec40206f64cef99cd99d3efe6956a19b8c26608c503e2ec20"
+  },
+  {
+    "locale": "de",
+    "path": "/de/materials/acm",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "ACM-Werkstoffauswahl für Gummibauteile"
+    ],
+    "html_sha256": "0c91a9db77224b79c96414ddf10c6b5ff1c28519219a7389a214c81d3a75ab8c"
+  },
+  {
+    "locale": "de",
+    "path": "/de/materials/aem",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "AEM-Werkstoffauswahl für Formteile"
+    ],
+    "html_sha256": "230ee583e524564feaa2e9873c5e673d57408572e9efcc027d4fc971cde847de"
+  },
+  {
+    "locale": "de",
+    "path": "/de/capabilities",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Gummimischungen und Bauteilfertigung"
+    ],
+    "html_sha256": "161ef9961be51150d5d826886598620d224146b44825798d005543505904f6d6"
+  },
+  {
+    "locale": "de",
+    "path": "/de/capabilities/rubber-molding",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Gummiformteile nach Kundenspezifikation"
+    ],
+    "html_sha256": "df74a51a685af4ab002e6a8ddeea69572d31b61c059a13802aa9df11389a181a"
+  },
+  {
+    "locale": "de",
+    "path": "/de/capabilities/lsr-molding",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "LSR-Bauteile: Werkzeug und Fertigung abstimmen"
+    ],
+    "html_sha256": "a89a8782f90225576b700c566d475e7e19de55a243f8e5ba2876bb25e8047c55"
+  },
+  {
+    "locale": "de",
+    "path": "/de/compounding",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Gummimischungen und Rezepturunterstützung"
+    ],
+    "html_sha256": "e5e906d8031bb51bba6670934c35f5b9e0ebbcc829a2f1d17847bcb25b17df80"
+  },
+  {
+    "locale": "de",
+    "path": "/de/compounds",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Kundenspezifische Gummimischungen beziehen"
+    ],
+    "html_sha256": "64919f74e5db6468ad2bcf700252b2aef5a513d6bed99f76459e529de9c1fe6c"
+  },
+  {
+    "locale": "de",
+    "path": "/de/testing",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Werkseigene Gummiprüfungen und Bauteilkontrolle"
+    ],
+    "html_sha256": "a6e779fdf4c15f5d5c3e9a51bba47d03c219d9be1af3bac6b69e34d31c663f47"
+  },
+  {
+    "locale": "de",
+    "path": "/de/quality",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Qualitätskontrolle und Produktionsrückverfolgbarkeit"
+    ],
+    "html_sha256": "59ee15c386b747877c927cdab1615e07dd7742c4f1dc3d2ed5a780932c973230"
+  },
+  {
+    "locale": "de",
+    "path": "/de/factory",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Einblick in die Fertigung bei RubberQ"
+    ],
+    "html_sha256": "cdb4b0810fded2cdea05b5a36f4d5f6c6a9db379aff72e8cf0c8fc8a73cf63c9"
+  },
+  {
+    "locale": "de",
+    "path": "/de/industries",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Gummibauteile für anspruchsvolle Industrieanwendungen"
+    ],
+    "html_sha256": "5b7e0913b39b4f00546f4f9b81957fc268274243b234978003d1663b109cafbe"
+  },
+  {
+    "locale": "de",
+    "path": "/de/industries/semiconductor",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Gummidichtungen für Halbleiterausrüstung"
+    ],
+    "html_sha256": "cd22604f777f877ce97407026ce495e3b471ee46fc965a76d01ec5a45f4fd371"
+  },
+  {
+    "locale": "de",
+    "path": "/de/industries/liquid-cooling-energy-storage",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Gummibauteile für Flüssigkeitskühlung und Energiespeicher"
+    ],
+    "html_sha256": "dc3efccfb368e674d6916b9609e8cc7aa2abbb0524db2b00c9b28dc14c80732b"
+  },
+  {
+    "locale": "de",
+    "path": "/de/industries/ev-energy-storage",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Gummibauteile für EV-Thermomanagement"
+    ],
+    "html_sha256": "9626d1093e1675358126be2fc8a51f088c4c677eed2071fe56a530d6da1eda36"
+  },
+  {
+    "locale": "de",
+    "path": "/de/industries/humanoid-robotics",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Gummibauteile für humanoide Robotik"
+    ],
+    "html_sha256": "1319c5c61264ce9f8fbda4800abcc36addc43f9d6cf85c0de20a8e64613b87a4"
+  },
+  {
+    "locale": "de",
+    "path": "/de/industries/industrial-equipment",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Gummibauteile für Industrieausrüstung nach Zeichnung"
+    ],
+    "html_sha256": "88e6cdb7ee1fd26933f63af2f4576552cfe4c13c42b6e56b3a61979c2f63001b"
+  },
+  {
+    "locale": "de",
+    "path": "/de/industries/automotive-tier2",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Gummibauteile für ausgewählte Tier-2-Programme"
+    ],
+    "html_sha256": "3c3e418562c900401a277b7a71f0ab531e0c68643cf78cf2729d23ab17480979"
+  },
+  {
+    "locale": "de",
+    "path": "/de/resources",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Technische Ressourcen für Gummibauteile"
+    ],
+    "html_sha256": "13381943ccc2daf2dfd0fb7e69ae704957e4b62bd493b26ff69ad29271f0e651"
+  },
+  {
+    "locale": "de",
+    "path": "/de/standards",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Gumminormen und Spezifikationsunterstützung"
+    ],
+    "html_sha256": "fbcd5e35af93220bdbbb404be1a2b82da1e9059d7a9fc0698c550a0d79d2ec00"
+  },
+  {
+    "locale": "de",
+    "path": "/de/resources/o-ring-size-guide",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "O-Ring-Maße und Zeichnungsangaben"
+    ],
+    "html_sha256": "6e38da6256314206729ba6f9f60edf3e2efa4c37a49660acbf33a40ae1052f5f"
+  },
+  {
+    "locale": "de",
+    "path": "/de/resources/rubber-hardness-guide",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Gummihärte sinnvoll spezifizieren"
+    ],
+    "html_sha256": "dba15877cb6194a3e6cb0305145e9d9852e7dfda44e9d3bb16246ac8132ffa4c"
+  },
+  {
+    "locale": "de",
+    "path": "/de/resources/material-compatibility",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Medienverträglichkeit von Gummi spezifizieren"
+    ],
+    "html_sha256": "d33dd7ca8f83a6781d7bbd232ff60d764580b7da0ec690fad9a54f4bc2b2fbbf"
+  },
+  {
+    "locale": "de",
+    "path": "/de/resources/seal-failure-analysis",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Dichtungsschäden systematisch untersuchen"
+    ],
+    "html_sha256": "1c1399de519f6c26a6530da6ee00f2a3cf345d64663b16aaf5a8dde27361cb49"
+  },
+  {
+    "locale": "de",
+    "path": "/de/case-studies",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Ein Entwicklungsprojekt für Gummibauteile besprechen"
+    ],
+    "html_sha256": "b0b67655a636c36fc5fd1ebdca37ba88b6823d0af14fc13571a83553ebe30df7"
+  },
+  {
+    "locale": "de",
+    "path": "/de/contact",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Beschreiben Sie Ihr Gummibauteil"
+    ],
+    "html_sha256": "e9702795eb01e25f34e375c39ea068ef05edaa4254db05808795d6d6ab1a9e36"
+  },
+  {
+    "locale": "de",
+    "path": "/de/sample-request",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Muster für Gummibauteile anfragen"
+    ],
+    "html_sha256": "1adfb9eaf9e3bc2cfe8b5413e1ddbb2a2a989375086b6081a399c3314daa3eff"
+  },
+  {
+    "locale": "de",
+    "path": "/de/batch-rfq",
+    "status": 200,
+    "pass": true,
+    "h1": [
+      "Angebot für mehrere Gummibauteile anfragen"
+    ],
+    "html_sha256": "ec8dc825c8394ee2af0ca038945d52185860ec2ec5b8cf7fb6fbf2d69a352039"
+  }
+]

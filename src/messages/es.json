@@ -154,10 +154,10 @@
   },
   "industries": {
     "title": "Sectores Especializados de Alto Crecimiento",
-    "subtitle": "RubberQ respalda programas de equipos de semiconductores, robótica humanoide, refrigeración líquida de centros de datos de IA y alto voltaje EV.",
+    "subtitle": "RubberQ apoya EV y almacenamiento, equipo industrial, semiconductor y automotriz Tier 2 donde importan compuestos técnicos y manufactura estable.",
     "semiconductor": {
-      "title": "Equipos de Semiconductores",
-      "shortDesc": "Sellos de ultra bajo desgasificación de FFKM y FKM de alto vacío para cámaras de grabado por plasma y deposición.",
+      "title": "Semiconductor (FFKM)",
+      "shortDesc": "Sellos de proceso FKM/FFKM con mezcla A controlada.",
       "icon": "🔬"
     },
     "robotics": {
@@ -171,9 +171,9 @@
       "icon": "⚡"
     },
     "ev": {
-      "title": "Alto Voltaje EV y Gestión Térmica",
-      "shortDesc": "Pasacables de alto voltaje y sellos de conectores IP68/IP69K con trazabilidad completa ERP IATF 16949.",
-      "icon": "🔋"
+      "title": "EV y almacenamiento",
+      "shortDesc": "Química de compuestos para carga, BESS, periféricos EV y automotriz Tier 2.",
+      "icon": "⚡"
     },
     "medical": {
       "title": "Equipo de precision",
@@ -182,17 +182,6 @@
     "electronics": {
       "title": "Electrónica",
       "desc": "Blindaje EMI, teclados y sellos protectores"
-    },
-    "subtitle": "RubberQ apoya EV y almacenamiento, equipo industrial, semiconductor y automotriz Tier 2 donde importan compuestos técnicos y manufactura estable.",
-    "ev": {
-      "title": "EV y almacenamiento",
-      "shortDesc": "Química de compuestos para carga, BESS, periféricos EV y automotriz Tier 2.",
-      "icon": "⚡"
-    },
-    "semiconductor": {
-      "title": "Semiconductor (FFKM)",
-      "shortDesc": "Sellos de proceso FKM/FFKM con mezcla A controlada.",
-      "icon": "🔬"
     },
     "notSeeing": "¿No ve su industria? Muchas aplicaciones de goma de precisión encajan en estos cuatro grupos.",
     "talkCta": "Hablar con ingeniería"
@@ -2168,10 +2157,22 @@
   "homeStats": {
     "kicker": "LA FÁBRICA EN CIFRAS",
     "items": [
-      { "value": "SINCE 1995", "label": "HERENCIA DE FABRICACIÓN SINO-JAPONESA" },
-      { "value": "20,000 m²", "label": "DOS PLANTAS DE FABRICACIÓN" },
-      { "value": "500g – 5,000kg", "label": "RANGO DE LOTES DE COMPUESTO" },
-      { "value": "±0.05 mm", "label": "CAPACIDAD DE TOLERANCIAS DE PRECISIÓN" }
+      {
+        "value": "SINCE 1995",
+        "label": "HERENCIA DE FABRICACIÓN SINO-JAPONESA"
+      },
+      {
+        "value": "20,000 m²",
+        "label": "DOS PLANTAS DE FABRICACIÓN"
+      },
+      {
+        "value": "500g – 5,000kg",
+        "label": "RANGO DE LOTES DE COMPUESTO"
+      },
+      {
+        "value": "±0.05 mm",
+        "label": "CAPACIDAD DE TOLERANCIAS DE PRECISIÓN"
+      }
     ]
   },
   "homeProcess": {
@@ -2222,6 +2223,1247 @@
       "title": "Control en una sola línea A",
       "body": "RubberQ programa familias de compuesto según riesgo de contaminación, limpia entre familias de lote con SOP y mantiene registros de mezcla A ligados a cada lote. Esto apoya alta pureza y repetibilidad a largo plazo sin exponer recetas específicas del cliente.",
       "cta": "Ver estrategia de compounding"
+    }
+  },
+  "acquisition": {
+    "forms": {
+      "sample": {
+        "step1": "Defina la aplicación y la pieza",
+        "step2": "Comparta un plano o modelo de referencia",
+        "step3": "Confirme cantidad y país de destino",
+        "name": "Nombre *",
+        "email": "Correo *",
+        "company": "Empresa",
+        "productType": "Tipo de producto",
+        "material": "Material preferido (FKM/NBR/EPDM…)",
+        "quantity": "Cantidad de muestras",
+        "annualVolume": "Volumen anual estimado",
+        "projectStage": "Etapa del proyecto",
+        "country": "País de destino *",
+        "notes": "Detalles de la aplicación",
+        "drawingLink": "Enlace al plano o archivo",
+        "submit": "Enviar solicitud de muestras",
+        "submitting": "Enviando...",
+        "success": "Solicitud enviada",
+        "successMessage": "Hemos recibido su solicitud. Nuestro equipo se pondrá en contacto para concretar los siguientes pasos.",
+        "error": "Error al enviar",
+        "errorMessage": "Inténtelo de nuevo o contacte directamente con nosotros."
+      },
+      "batch": {
+        "point1": "Seleccione los grupos de productos necesarios.",
+        "point2": "Indique material y volumen anual.",
+        "point3": "Comparta un enlace al plano para la revisión técnica.",
+        "name": "Nombre *",
+        "email": "Correo *",
+        "company": "Empresa",
+        "country": "País *",
+        "annualVolume": "Volumen anual (pzs/ano)",
+        "targetMaterial": "Material objetivo",
+        "drawingLink": "Enlace al plano o archivo",
+        "notes": "Notas del proyecto",
+        "projectType": "Tipo de proyecto",
+        "projectStage": "Etapa del proyecto",
+        "quoteComponents": "Conceptos que necesita presupuestar",
+        "productsTitle": "Seleccione los productos",
+        "productHint": "Seleccione al menos un producto.",
+        "submit": "Enviar RFQ por lote",
+        "submitting": "Enviando...",
+        "success": "Solicitud enviada",
+        "successMessage": "Su consulta se ha enviado al equipo técnico comercial.",
+        "error": "Error de envio",
+        "errorMessage": "Inténtelo de nuevo o contacte directamente con nosotros."
+      },
+      "upload": {
+        "uploadTitle": "Subir plano o especificación (opcional)",
+        "uploadHelp": "Formatos: PDF, STEP, STP, DXF, DWG, PNG y JPG (máx. 5 MB).",
+        "uploadReplace": "Reemplazar archivo",
+        "uploadUnsupported": "Tipo de archivo no compatible. Cargue PDF/STEP/STP/DXF/DWG/PNG/JPG.",
+        "uploadTooLarge": "El archivo es demasiado grande. El tamaño máximo es de 5 MB.",
+        "uploadButton": "Seleccionar archivo"
+      },
+      "options": {
+        "sampleStage": "Evaluación de muestras",
+        "validation": "Ensayos y validación"
+      }
+    },
+    "brand": {
+      "slogan": "Japanese Formulation. Chinese Precision. Trusted Since 1995.",
+      "tagline": "Compounded by Japan. Built in China. Tested in-House."
+    },
+    "ui": {
+      "manufacturer": "Caucho de precisión · Desde 1995",
+      "factoryImage": "Instalaciones de RubberQ en Fuzhou",
+      "factoryCaption": "Fuzhou, China · Preparación de compuestos, moldeo e inspección",
+      "projectInputs": "Prepare la revisión de su proyecto",
+      "inputs": [
+        "Plano o pieza de referencia",
+        "Material y condiciones de uso",
+        "Cantidad y etapa del proyecto"
+      ],
+      "engineering": "Consultar un requisito técnico",
+      "sample": "Solicitar muestras",
+      "manufacturingFacts": "Datos de fabricación",
+      "established": "Fundada en Fuzhou",
+      "facilities": "Plantas de producción",
+      "factoryArea": "Superficie aproximada",
+      "traceability": "Trazabilidad de producción",
+      "questions": "Preguntas sobre su proyecto",
+      "nextStep": "Definir el siguiente paso",
+      "nextStepDescription": "Comparta plano, condiciones de servicio y cantidad. Podemos consultar juntos material, muestras y presupuesto.",
+      "supplierInformation": "Información del proveedor",
+      "quality": "Calidad y trazabilidad",
+      "testing": "Ensayos internos",
+      "factory": "Información de fábrica",
+      "continue": "Continúe su proyecto",
+      "explore": "Encuentre por dónde empezar",
+      "related": "Componentes y recursos relacionados",
+      "projectStart": "De sus requisitos a la revisión de la pieza",
+      "closing": "Envíe su plano o describa la aplicación. Incluya condiciones de servicio, material y cantidad.",
+      "sendRequirements": "Enviar requisitos del proyecto",
+      "home": "Inicio",
+      "navigation": "Navegación principal",
+      "language": "Idioma",
+      "menu": "Menú",
+      "closeMenu": "Cerrar menú",
+      "search": "Buscar en RubberQ",
+      "sitemap": "Mapa del sitio"
+    },
+    "pages": {
+      "RQ-PG-001": {
+        "label": "Componentes de caucho de precisión",
+        "title": "Fabricante de piezas de caucho de precisión | RubberQ",
+        "description": "Componentes de caucho de precisión desarrollados según su plano, material y condiciones de servicio.",
+        "h1": "Japanese Formulation. Chinese Precision. Trusted Since 1995.",
+        "intro": "Componentes de caucho de precisión desarrollados según su plano, material y condiciones de servicio. RubberQ combina apoyo japonés en formulación, fabricación en Fuzhou y ensayos internos en un proceso de producción trazable.",
+        "sections": [
+          {
+            "heading": "La precisión empieza en el compuesto",
+            "body": "La selección de material, el mezclado y el moldeo se evalúan juntos. Revisamos familia de polímero, medio, temperatura, movimiento y geometría antes de acordar la ruta de desarrollo."
+          },
+          {
+            "heading": "Componentes para su conjunto",
+            "body": "Explore juntas tóricas, juntas planas, fuelles y piezas moldeadas. Comparta un plano, una muestra de referencia o un problema de aplicación para concretar los requisitos de la pieza y su fabricación."
+          },
+          {
+            "heading": "De la formulación al suministro recurrente",
+            "body": "El control del compuesto, el moldeo, la inspección y los registros ERP conectan la muestra aprobada con pedidos posteriores. Acordamos el plan de inspección y la documentación de compras."
+          },
+          {
+            "heading": "Aplicaciones con condiciones exigentes",
+            "body": "Explore equipos de semiconductores, refrigeración líquida y almacenamiento de energía, gestión térmica de vehículos eléctricos y robótica humanoide. Cada proyecto parte de sus condiciones reales y requisitos de validación."
+          },
+          {
+            "heading": "Un socio de fabricación desde 1995",
+            "body": "RubberQ se fundó en 1995 como empresa conjunta sino-japonesa. Sus dos plantas en Fuzhou ocupan aproximadamente 20.000 m². Conozca la fabricación, los sistemas de calidad y el laboratorio."
+          }
+        ],
+        "cta": "Solicitar presupuesto",
+        "faq": []
+      },
+      "RQ-PG-002": {
+        "label": "Acerca de RubberQ",
+        "title": "Fabricación de caucho de precisión desde 1995 | RubberQ",
+        "description": "RubberQ se fundó en Fuzhou en 1995 como empresa conjunta sino-japonesa.",
+        "h1": "Fabricación de caucho de precisión desde 1995",
+        "intro": "RubberQ se fundó en Fuzhou en 1995 como empresa conjunta sino-japonesa. Combinamos apoyo japonés en formulación con preparación de compuestos, moldeo de precisión y ensayos internos en China.",
+        "sections": [
+          {
+            "heading": "Desarrollo de materiales orientado a la aplicación",
+            "body": "Un componente debe funcionar en su conjunto, entorno y proceso productivo. Partimos de esos requisitos para revisar el compuesto y la fabricación."
+          },
+          {
+            "heading": "Dos plantas, un proceso conectado",
+            "body": "Nuestras dos plantas en Fuzhou ocupan aproximadamente 20.000 m². Mezclado, moldeo, inspección y registros de producción apoyan el desarrollo y la fabricación recurrente."
+          },
+          {
+            "heading": "Trazabilidad durante la producción",
+            "body": "Los registros ERP conectan lotes de material, etapas de fabricación y resultados de inspección. Acordamos la trazabilidad y documentación necesarias para su evaluación de proveedores."
+          }
+        ],
+        "cta": "Consultar su proyecto",
+        "faq": []
+      },
+      "RQ-PG-003": {
+        "label": "Productos",
+        "title": "Piezas de caucho a medida para conjuntos industriales | RubberQ",
+        "description": "Encuentre una opción para su plano o aplicación: juntas tóricas, juntas planas, fuelles, membranas, piezas de caucho-metal y otros componentes moldeados de precisión.",
+        "h1": "Piezas de caucho a medida para conjuntos industriales",
+        "intro": "Encuentre una opción para su plano o aplicación: juntas tóricas, juntas planas, fuelles, membranas, piezas de caucho-metal y otros componentes moldeados de precisión. Indique material, cantidad y condiciones de uso para la revisión técnica.",
+        "sections": [
+          {
+            "heading": "Juntas tóricas y componentes de sellado",
+            "body": "Revise sección, alojamiento, compresión y medio de servicio junto con el material. Las medidas normalizadas y las geometrías especiales necesitan una base de inspección acordada."
+          },
+          {
+            "heading": "Juntas planas y piezas flexibles",
+            "body": "En juntas, fuelles y membranas, la sujeción, el movimiento y las superficies de montaje importan tanto como el contorno del plano."
+          },
+          {
+            "heading": "Piezas moldeadas y adheridas",
+            "body": "Las formas especiales y las piezas de caucho-metal requieren revisar molde, líneas de partición, insertos, preparación superficial y acceso para inspección."
+          }
+        ],
+        "cta": "Enviar su plano",
+        "faq": []
+      },
+      "RQ-PG-004": {
+        "label": "Juntas tóricas y sellos",
+        "title": "Juntas tóricas y sellos de caucho a medida | RubberQ",
+        "description": "Revise juntas tóricas y sellos según el alojamiento, el medio de servicio y las condiciones de montaje.",
+        "h1": "Juntas tóricas y sellos de caucho a medida",
+        "intro": "Revise juntas tóricas y sellos según el alojamiento, el medio de servicio y las condiciones de montaje. Comparta plano, material y cantidad para acordar geometría, compuesto e inspección.",
+        "sections": [
+          {
+            "heading": "Definir el sello y su alojamiento",
+            "body": "Indique diámetro interior y sección, o envíe el plano con las dimensiones del alojamiento y las piezas de contacto. Añada funcionamiento estático o dinámico, dirección de presión, montaje y rebaba admisible."
+          },
+          {
+            "heading": "Seleccionar material para la exposición real",
+            "body": "Compare FKM, FFKM, EPDM, HNBR, NBR y silicona con el fluido, los ciclos térmicos y las exigencias mecánicas. La familia de polímero por sí sola no define un compuesto cualificado."
+          },
+          {
+            "heading": "Acordar cómo inspeccionar la pieza",
+            "body": "Especifique referencias dimensionales, tolerancias, superficies y método de aceptación. Las muestras relacionan el plano con el sello montado antes del suministro recurrente."
+          }
+        ],
+        "cta": "Solicitar presupuesto de juntas tóricas",
+        "faq": [
+          {
+            "question": "¿Pueden revisar una junta tórica no normalizada?",
+            "answer": "Envíe dimensiones o plano, cantidad y condiciones de servicio. Revisaremos geometría, material y requisitos del molde."
+          },
+          {
+            "question": "¿Puede una junta de FFKM sustituir una junta existente?",
+            "answer": "Es necesario revisar especificación original, geometría y condiciones de trabajo, y acordar la validación. Consulte nuestra página de evaluación de repuestos FFKM."
+          }
+        ]
+      },
+      "RQ-PG-005": {
+        "label": "Juntas planas a medida",
+        "title": "Juntas planas de caucho a medida | RubberQ",
+        "description": "Desarrolle una junta según la unión que debe sellar.",
+        "h1": "Juntas planas de caucho a medida",
+        "intro": "Desarrolle una junta según la unión que debe sellar. Comparta plano de brida o carcasa, exposición a fluidos, límites de compresión y montaje para evaluar juntos material y geometría.",
+        "sections": [
+          {
+            "heading": "Empezar por la unión",
+            "body": "Identifique superficies de contacto, fijaciones, topes de compresión, holgura permitida y montaje. Estos datos definen la sección de la junta y el plan de validación."
+          },
+          {
+            "heading": "Adaptar el compuesto al entorno",
+            "body": "Revise fluidos, ciclos térmicos, intemperie y recuperación tras compresión. EPDM, FKM, NBR y silicona son familias candidatas que se seleccionan para la aplicación concreta."
+          },
+          {
+            "heading": "Pasar de la muestra al pedido recurrente",
+            "body": "Acuerde dimensiones, aspecto, puntos de inspección y embalaje. Para programas recurrentes, incluya demanda anual y documentación por lote."
+          }
+        ],
+        "cta": "Solicitar presupuesto de juntas planas",
+        "faq": []
+      },
+      "RQ-PG-006": {
+        "label": "Fuelles y protectores",
+        "title": "Fuelles y guardapolvos de caucho a medida | RubberQ",
+        "description": "Evalúe fuelles flexibles y guardapolvos para mecanismos industriales.",
+        "h1": "Fuelles y guardapolvos de caucho a medida",
+        "intro": "Evalúe fuelles flexibles y guardapolvos para mecanismos industriales. Longitud instalada, recorrido, medios de contacto y fijaciones definen geometría y material.",
+        "sections": [
+          {
+            "heading": "Describir todo el movimiento",
+            "body": "Indique dimensiones comprimida y extendida, desplazamiento lateral, ciclos y espacio disponible. Incluya las fijaciones de ambos extremos."
+          },
+          {
+            "heading": "Controlar exposición e interferencias",
+            "body": "Identifique polvo, salpicaduras, aceite, productos de limpieza y fuentes de calor. Revise dónde los pliegues pueden rozar piezas cercanas o quedar atrapados."
+          },
+          {
+            "heading": "Comprobar la pieza montada",
+            "body": "Acuerde una evaluación de muestra que incluya ajuste, movimiento, retención y aspecto. Los objetivos de vida útil necesitan método de ensayo y criterio de aceptación."
+          }
+        ],
+        "cta": "Consultar un diseño de fuelle",
+        "faq": []
+      },
+      "RQ-PG-007": {
+        "label": "Piezas moldeadas a medida",
+        "title": "Piezas de caucho moldeadas a medida | RubberQ",
+        "description": "Convierta un plano o requisito funcional en una consulta de desarrollo.",
+        "h1": "Piezas de caucho moldeadas a medida",
+        "intro": "Convierta un plano o requisito funcional en una consulta de desarrollo. RubberQ evalúa compuesto, geometría, molde e inspección como una tarea de fabricación conjunta.",
+        "sections": [
+          {
+            "heading": "Diseñar teniendo en cuenta el caucho",
+            "body": "Identifique dimensiones críticas y funciones de montaje. Revise particiones, límites de rebaba, desmoldeo, espesores y características afectadas por moldeo y contracción."
+          },
+          {
+            "heading": "Elegir el proceso según la pieza",
+            "body": "Geometría, compuesto, insertos y volumen orientan la ruta de moldeo. Los requisitos del molde y de las muestras se acuerdan después de la revisión técnica."
+          },
+          {
+            "heading": "Preparar la producción recurrente",
+            "body": "Incluya revisión del plano, previsión de demanda, inspección y embalaje. Acuerde cómo conservar muestras aprobadas, identificación del compuesto y registros de producción."
+          }
+        ],
+        "cta": "Solicitar presupuesto de una pieza a medida",
+        "faq": []
+      },
+      "RQ-PG-008": {
+        "label": "Membranas",
+        "title": "Membranas de caucho a medida | RubberQ",
+        "description": "Consulte una membrana moldeada según su movimiento, contacto con fluidos y montaje.",
+        "h1": "Membranas de caucho a medida",
+        "intro": "Consulte una membrana moldeada según su movimiento, contacto con fluidos y montaje. Comparta geometría de sujeción, carrera y presión para revisar material y fabricación.",
+        "sections": [
+          {
+            "heading": "Definir movimiento y carga",
+            "body": "Indique carrera útil, diferencia de presión, ciclos y fijación. Identifique superficies de contacto o roce y comportamiento requerido en los límites de carrera."
+          },
+          {
+            "heading": "Revisar material y sección",
+            "body": "Fluidos, temperatura y deformación repetida influyen en el compuesto. Un plano con transiciones de espesor y sujeciones permite evaluar la fabricación."
+          },
+          {
+            "heading": "Acordar una prueba funcional de muestra",
+            "body": "Defina comprobaciones dimensionales y un ensayo de montaje representativo. Indique al inicio los requisitos de refuerzo, permeabilidad o duración."
+          }
+        ],
+        "cta": "Consultar un proyecto de membrana",
+        "faq": []
+      },
+      "RQ-PG-009": {
+        "label": "Piezas de caucho-metal",
+        "title": "Componentes adheridos de caucho-metal | RubberQ",
+        "description": "Evalúe piezas adheridas considerando elastómero, inserto metálico y carga de servicio.",
+        "h1": "Componentes adheridos de caucho-metal",
+        "intro": "Evalúe piezas adheridas considerando elastómero, inserto metálico y carga de servicio. Comparta plano de conjunto y condiciones de carga para acordar desarrollo e inspección.",
+        "sections": [
+          {
+            "heading": "Entender la transmisión de cargas",
+            "body": "Describa compresión, cizalladura, tracción y movimientos repetidos. Marque superficies adheridas y dirección funcional de carga en el plano."
+          },
+          {
+            "heading": "Revisar el inserto y su preparación",
+            "body": "Identifique calidad del metal, acabado, recubrimiento y suministro de insertos. Preparación superficial, sistema de adhesión y moldeo deben evaluarse juntos."
+          },
+          {
+            "heading": "Acordar la verificación de adhesión",
+            "body": "Defina geometría de ensayo, dirección de carga, acondicionamiento y aceptación. Un valor genérico de adhesión no sustituye un ensayo representativo de la pieza."
+          }
+        ],
+        "cta": "Consultar una pieza de caucho-metal",
+        "faq": []
+      },
+      "RQ-PG-010": {
+        "label": "Repuestos FFKM",
+        "title": "Juntas de repuesto FFKM para mantenimiento | RubberQ",
+        "description": "Evalúe un repuesto FFKM según la especificación del sello y las condiciones del equipo.",
+        "h1": "Juntas de repuesto FFKM para mantenimiento",
+        "intro": "Evalúe un repuesto FFKM según la especificación del sello y las condiciones del equipo. Comparta referencia, dimensiones, química de servicio e historial de fallo para la revisión técnica.",
+        "sections": [
+          {
+            "heading": "Aportar los requisitos originales",
+            "body": "Incluya plano o dimensiones, designación del material, ubicación e historial del sello actual. Una referencia de marca identifica la pieza, pero no demuestra intercambiabilidad."
+          },
+          {
+            "heading": "Comparar lo que requiere la aplicación",
+            "body": "Revise ciclos térmicos, medios de proceso, vacío, montaje y propiedades físicas. Los ensayos de pureza, desgasificación u otros requisitos específicos se acuerdan para el proyecto."
+          },
+          {
+            "heading": "Validar antes de cambiar de suministro",
+            "body": "Acuerde pruebas de muestras y cualificación del equipo con ingeniería. La selección de material no acredita por sí sola igual duración, rendimiento frente a plasma ni aprobación del fabricante original."
+          }
+        ],
+        "cta": "Solicitar evaluación de un repuesto FFKM",
+        "faq": [
+          {
+            "question": "¿Garantizan un repuesto de sustitución directa?",
+            "answer": "Ajuste y rendimiento deben demostrarse para la aplicación. Revisamos la especificación y acordamos la validación antes de cambiar el suministro."
+          },
+          {
+            "question": "¿Puedo enviar una referencia de Kalrez?",
+            "answer": "Puede incluir marca y referencia existentes junto con su especificación. Se utilizan para identificar la pieza y no implican afiliación ni equivalencia aprobada."
+          }
+        ]
+      },
+      "RQ-PG-011": {
+        "label": "Materiales",
+        "title": "Materiales de caucho para componentes de precisión | RubberQ",
+        "description": "Compare familias de elastómeros con el medio, la temperatura, el movimiento y la duración exigida.",
+        "h1": "Materiales de caucho para componentes de precisión",
+        "intro": "Compare familias de elastómeros con el medio, la temperatura, el movimiento y la duración exigida. La selección parte de la aplicación y termina en un compuesto y un plan de validación acordados.",
+        "sections": [
+          {
+            "heading": "Empezar por las condiciones de trabajo",
+            "body": "Enumere fluidos, concentraciones, limpieza, temperaturas normales y máximas, presión y movimiento. Incluya almacenamiento e instalación."
+          },
+          {
+            "heading": "Comparar familias candidatas",
+            "body": "Explore FFKM, FKM, EPDM, HNBR, NBR, silicona y otras familias. Una dureza similar no implica igual resistencia química ni comportamiento de sellado."
+          },
+          {
+            "heading": "Definir compuesto y aceptación",
+            "body": "Use la familia de polímero para limitar opciones y especifique después dureza, propiedades físicas, acondicionamiento y métodos de ensayo del compuesto candidato."
+          }
+        ],
+        "cta": "Consultar la selección de material",
+        "faq": []
+      },
+      "RQ-PG-012": {
+        "label": "FFKM",
+        "title": "FFKM para condiciones de sellado exigentes | RubberQ",
+        "description": "FFKM es una familia candidata cuando la química y la temperatura de servicio exigen más que otros elastómeros.",
+        "h1": "FFKM para condiciones de sellado exigentes",
+        "intro": "FFKM es una familia candidata cuando la química y la temperatura de servicio exigen más que otros elastómeros. La formulación y las condiciones reales determinan los ensayos necesarios.",
+        "sections": [
+          {
+            "heading": "Especificar la exposición del proceso",
+            "body": "Enumere gases o líquidos, limpieza, ciclos térmicos, vacío y ubicación del sello. Incluya limpieza técnica y límites de contaminación."
+          },
+          {
+            "heading": "Evaluar el compuesto concreto",
+            "body": "Revise dureza, propiedades físicas y ensayos relevantes para su equipo. Pureza, desgasificación y comportamiento frente a plasma requieren pruebas de la formulación específica."
+          },
+          {
+            "heading": "Conectar el material con el sello",
+            "body": "Planifique muestras según plano, alojamiento y montaje. En mantenimiento, compare la especificación existente antes de considerar un cambio de suministro."
+          }
+        ],
+        "cta": "Consultar una aplicación FFKM",
+        "faq": []
+      },
+      "RQ-PG-013": {
+        "label": "FKM",
+        "title": "FKM para juntas industriales | RubberQ",
+        "description": "Evalúe compuestos FKM para un entorno de fluidos y temperaturas definido.",
+        "h1": "FKM para juntas industriales",
+        "intro": "Evalúe compuestos FKM para un entorno de fluidos y temperaturas definido. Compatibilidad química, comportamiento en frío y recuperación tras compresión dependen de formulación y aplicación.",
+        "sections": [
+          {
+            "heading": "Describir todos los fluidos",
+            "body": "Incluya combustibles, aceites, aditivos, soluciones de limpieza y mezclas. La familia del material no demuestra aptitud para toda la secuencia de exposición."
+          },
+          {
+            "heading": "Revisar temperatura y movimiento",
+            "body": "Indique temperatura continua y máxima, arranque en frío, presión y movimiento del sello. Añada compresión prevista y requisitos de montaje."
+          },
+          {
+            "heading": "Especificar y validar",
+            "body": "Acuerde especificación del compuesto y ensayo representativo antes del suministro recurrente. Si cita un material existente, indique el grado exacto."
+          }
+        ],
+        "cta": "Consultar una aplicación FKM",
+        "faq": []
+      },
+      "RQ-PG-014": {
+        "label": "EPDM",
+        "title": "EPDM para juntas y sellos | RubberQ",
+        "description": "Consulte EPDM para intemperie, agua o fluidos formulados en su conjunto.",
+        "h1": "EPDM para juntas y sellos",
+        "intro": "Consulte EPDM para intemperie, agua o fluidos formulados en su conjunto. La selección considera el medio completo, los ciclos térmicos y los requisitos mecánicos.",
+        "sections": [
+          {
+            "heading": "Aportar la formulación del fluido",
+            "body": "Para refrigerantes, identifique mezcla y aditivos, no solo el fluido base. Incluya productos de limpieza y contaminantes."
+          },
+          {
+            "heading": "Revisar el conjunto comprimido",
+            "body": "Describa compresión, movimiento de la unión, estado de bridas y ciclos térmicos. Explique cómo se instala y retiene el sello."
+          },
+          {
+            "heading": "Acordar un ensayo de compatibilidad",
+            "body": "Defina inmersión, cambios relevantes de propiedades y comprobaciones de montaje del compuesto. Las comparaciones generales solo sirven de orientación inicial."
+          }
+        ],
+        "cta": "Consultar una aplicación EPDM",
+        "faq": []
+      },
+      "RQ-PG-015": {
+        "label": "HNBR",
+        "title": "HNBR para piezas de sellado mecánico | RubberQ",
+        "description": "Evalúe HNBR frente al fluido, la temperatura y las cargas mecánicas repetidas del componente.",
+        "h1": "HNBR para piezas de sellado mecánico",
+        "intro": "Evalúe HNBR frente al fluido, la temperatura y las cargas mecánicas repetidas del componente. Revise conjuntamente compuesto y geometría.",
+        "sections": [
+          {
+            "heading": "Describir el trabajo mecánico",
+            "body": "Indique dirección de carga, movimiento, ciclos y superficies de contacto. Incluya fricción, desgaste y compresión cuando afecten al conjunto."
+          },
+          {
+            "heading": "Identificar la exposición de servicio",
+            "body": "Especifique fluidos, aditivos, limpieza y ciclos térmicos. Revise todo el entorno con la formulación candidata."
+          },
+          {
+            "heading": "Realizar ensayos representativos",
+            "body": "Acuerde dureza, propiedades físicas y pruebas funcionales de muestra que reflejen el componente y su montaje real."
+          }
+        ],
+        "cta": "Consultar una aplicación HNBR",
+        "faq": []
+      },
+      "RQ-PG-016": {
+        "label": "NBR",
+        "title": "NBR para piezas industriales de caucho | RubberQ",
+        "description": "Evalúe NBR para una aplicación industrial definida.",
+        "h1": "NBR para piezas industriales de caucho",
+        "intro": "Evalúe NBR para una aplicación industrial definida. Composición del fluido, temperatura y equilibrio entre flexibilidad y propiedades mecánicas orientan la mezcla.",
+        "sections": [
+          {
+            "heading": "Definir exposición a aceite o fluido",
+            "body": "Identifique el medio y las condiciones de limpieza o almacenamiento. Incluya temperatura, presión y movimiento del sello."
+          },
+          {
+            "heading": "Especificar requisitos mecánicos",
+            "body": "Enumere dureza, límites de deformación, desgaste y dimensiones que controlan la función del conjunto."
+          },
+          {
+            "heading": "Comparar antes de cambiar material",
+            "body": "Para sustituir un compuesto, comparta designación e historial de fallo. Acuerde muestras y plan de validación para la alternativa."
+          }
+        ],
+        "cta": "Consultar una aplicación NBR",
+        "faq": []
+      },
+      "RQ-PG-017": {
+        "label": "Silicona",
+        "title": "Silicona para piezas moldeadas a medida | RubberQ",
+        "description": "Consulte silicona para la geometría y condiciones de uso de su componente.",
+        "h1": "Silicona para piezas moldeadas a medida",
+        "intro": "Consulte silicona para la geometría y condiciones de uso de su componente. Flexibilidad, temperatura, medios de contacto y montaje orientan la revisión.",
+        "sections": [
+          {
+            "heading": "Elegir la ruta según la geometría",
+            "body": "Comparta espesores, detalles finos, insertos y prioridades dimensionales. Material y moldeo deben adaptarse a la misma pieza."
+          },
+          {
+            "heading": "Revisar todo el entorno",
+            "body": "Incluya fluidos, limpieza, ciclos térmicos, cargas y requisitos eléctricos con sus métodos de ensayo."
+          },
+          {
+            "heading": "Acordar acabado e inspección",
+            "body": "Especifique color, aspecto, rebaba admisible y dimensiones críticas. Los requisitos normativos o de certificación de una aplicación se revisan por separado."
+          }
+        ],
+        "cta": "Consultar una aplicación de silicona",
+        "faq": []
+      },
+      "RQ-PG-018": {
+        "label": "LSR",
+        "title": "Silicona líquida: materiales y revisión de piezas | RubberQ",
+        "description": "Evalúe silicona líquida como posible opción para su plano.",
+        "h1": "Silicona líquida: materiales y revisión de piezas",
+        "intro": "Evalúe silicona líquida como posible opción para su plano. Geometría, grado del material, molde e inspección determinan la consulta del proyecto.",
+        "sections": [
+          {
+            "heading": "Revisar juntos pieza y molde",
+            "body": "Envíe plano con detalles finos, aristas de sellado, restricciones de partición e insertos. Incluya volumen y dimensiones críticas de montaje."
+          },
+          {
+            "heading": "Especificar grado y exposición",
+            "body": "Describa dureza, color, temperatura y fluidos. Todo requisito de certificación debe identificar el grado real y la aplicación prevista."
+          },
+          {
+            "heading": "Definir la preparación de muestras",
+            "body": "Consulte molde, inspección y comprobaciones funcionales antes de acordar producción. La disponibilidad del proceso se confirma para cada proyecto."
+          }
+        ],
+        "cta": "Consultar una aplicación LSR",
+        "faq": []
+      },
+      "RQ-PG-019": {
+        "label": "ACM",
+        "title": "Selección de ACM para componentes de caucho | RubberQ",
+        "description": "Evalúe ACM según los fluidos, temperaturas y requisitos mecánicos de su pieza.",
+        "h1": "Selección de ACM para componentes de caucho",
+        "intro": "Evalúe ACM según los fluidos, temperaturas y requisitos mecánicos de su pieza. Comparta especificación existente o datos de aplicación.",
+        "sections": [
+          {
+            "heading": "Aportar la especificación del material",
+            "body": "Incluya designación actual, propiedades físicas requeridas y métodos de aceptación."
+          },
+          {
+            "heading": "Describir el ciclo de exposición",
+            "body": "Indique fluidos, ciclos térmicos, movimiento y almacenamiento. Revise cambios de flexibilidad y sellado relevantes para el componente."
+          },
+          {
+            "heading": "Relacionar material y muestra",
+            "body": "Acuerde compuesto e inspección para la geometría real, sin depender solo de descripciones generales de la familia."
+          }
+        ],
+        "cta": "Consultar una aplicación ACM",
+        "faq": []
+      },
+      "RQ-PG-020": {
+        "label": "AEM",
+        "title": "Selección de AEM para piezas moldeadas | RubberQ",
+        "description": "Consulte AEM para un componente y entorno de servicio definidos.",
+        "h1": "Selección de AEM para piezas moldeadas",
+        "intro": "Consulte AEM para un componente y entorno de servicio definidos. Propiedades, geometría y validación orientan la revisión de formulación y fabricación.",
+        "sections": [
+          {
+            "heading": "Compartir el perfil de funcionamiento",
+            "body": "Incluya temperaturas normales y máximas, fluidos, movimiento y deformación prevista."
+          },
+          {
+            "heading": "Hacer medible la aceptación",
+            "body": "Especifique dureza, propiedades físicas relevantes y acondicionamiento para evaluar el compuesto."
+          },
+          {
+            "heading": "Revisar fabricación y ajuste",
+            "body": "Envíe plano e interfaces críticas. Consulte inspección de muestras y pruebas funcionales antes de decidir la producción."
+          }
+        ],
+        "cta": "Consultar una aplicación AEM",
+        "faq": []
+      },
+      "RQ-PG-021": {
+        "label": "Capacidades",
+        "title": "Compuestos y fabricación de piezas de caucho | RubberQ",
+        "description": "Reúna material, geometría y calidad en una revisión de fabricación.",
+        "h1": "Compuestos y fabricación de piezas de caucho",
+        "intro": "Reúna material, geometría y calidad en una revisión de fabricación. RubberQ apoya preparación de compuestos, moldeo, inspección interna y registros trazables.",
+        "sections": [
+          {
+            "heading": "Mezclado y control de materiales",
+            "body": "Consulte selección de polímero, formulaciones candidatas y control de lotes considerando las condiciones de uso."
+          },
+          {
+            "heading": "Moldeo y desarrollo de componentes",
+            "body": "Revise plano, molde, comportamiento del material y características críticas. Acuerde ruta de producción y muestras antes de fijar compromisos."
+          },
+          {
+            "heading": "Inspección y registros de producción",
+            "body": "Especifique requisitos dimensionales, de material y documentación que acompañarán al componente desde muestras hasta pedidos recurrentes."
+          }
+        ],
+        "cta": "Consultar su proyecto",
+        "faq": []
+      },
+      "RQ-PG-022": {
+        "label": "Moldeo de caucho",
+        "title": "Moldeo de caucho a medida | RubberQ",
+        "description": "Evalúe una ruta de moldeo según pieza, compuesto y pedido.",
+        "h1": "Moldeo de caucho a medida",
+        "intro": "Evalúe una ruta de moldeo según pieza, compuesto y pedido. Molde, dimensiones prioritarias, particiones e inspección deben revisarse juntos.",
+        "sections": [
+          {
+            "heading": "Diseñar una pieza reproducible",
+            "body": "Marque dimensiones críticas y superficies funcionales. Consulte desmoldeo, cambios de espesor, posición de insertos, rebaba y partición prevista."
+          },
+          {
+            "heading": "Comparar opciones de proceso",
+            "body": "Compresión, transferencia e inyección presentan distintas exigencias de molde y material. Revisamos adecuación y posibilidades de producción para la pieza concreta."
+          },
+          {
+            "heading": "Aprobar la base de las muestras",
+            "body": "Acuerde revisión del plano, inspección y comprobaciones funcionales. Incluya demanda prevista y requisitos de cambios posteriores."
+          }
+        ],
+        "cta": "Consultar un proyecto de moldeo",
+        "faq": []
+      },
+      "RQ-PG-023": {
+        "label": "Moldeo LSR",
+        "title": "Revisión de moldeo para piezas LSR | RubberQ",
+        "description": "Comparta el plano de su pieza de silicona líquida para revisar material, molde y fabricación.",
+        "h1": "Revisión de moldeo para piezas LSR",
+        "intro": "Comparta el plano de su pieza de silicona líquida para revisar material, molde y fabricación. Características críticas, requisitos del grado y volumen orientan la consulta.",
+        "sections": [
+          {
+            "heading": "Definir prioridades de la pieza",
+            "body": "Identifique secciones finas, aristas de sellado, requisitos ópticos o de aspecto y particiones admitidas. Incluya planos de montaje si el ajuste es crítico."
+          },
+          {
+            "heading": "Revisar material y ruta productiva",
+            "body": "Especifique dureza, color, exposición y requisitos del grado. La organización de producción y el proceso se confirman para el proyecto."
+          },
+          {
+            "heading": "Planificar la cualificación",
+            "body": "Acuerde muestras, medidas, ensayos funcionales y documentación antes de producir. Los compromisos de molde y entrega siguen a la revisión técnica."
+          }
+        ],
+        "cta": "Enviar un plano de pieza LSR",
+        "faq": []
+      },
+      "RQ-PG-024": {
+        "label": "Mezclado y formulación",
+        "title": "Compuestos de caucho y apoyo en formulación | RubberQ",
+        "description": "Compuestos de caucho con apoyo japonés en formulación, preparación controlada, identificación de lotes y ensayos de liberación acordados con RubberQ.",
+        "h1": "Compuestos de caucho y apoyo en formulación",
+        "intro": "Compounded by Japan. Built in China. Tested in-House. Relacione sus condiciones de servicio con un compuesto candidato, una preparación controlada y un plan de ensayos de liberación acordado.",
+        "sections": [
+          {
+            "heading": "Traducir la aplicación en especificación",
+            "body": "Comparta medio, temperatura, movimiento, propiedades objetivo y procesamiento. Incluya la especificación de material existente si está disponible."
+          },
+          {
+            "heading": "Controlar la preparación",
+            "body": "Receta, pesaje, secuencia de mezclado e identificación de lote conectan desarrollo y fabricación recurrente. Consulte controles y documentación del proyecto."
+          },
+          {
+            "heading": "Acordar la liberación de lotes",
+            "body": "Revise curado, viscosidad, dureza y propiedades físicas relevantes. La selección de ensayos y límites se acuerda para el compuesto."
+          },
+          {
+            "heading": "Compuestos o piezas terminadas",
+            "body": "Consulte si necesita suministro de compuesto, un componente moldeado o ambos. Para compuesto externo, incluya proceso receptor y especificación técnica."
+          }
+        ],
+        "cta": "Consultar un requisito de compuesto",
+        "faq": []
+      },
+      "RQ-PG-025": {
+        "label": "Suministro de compuestos",
+        "title": "Suministro de compuestos de caucho a medida | RubberQ",
+        "description": "Consulte el suministro de compuestos para su proceso de moldeo.",
+        "h1": "Suministro de compuestos de caucho a medida",
+        "intro": "Consulte el suministro de compuestos para su proceso de moldeo. Comparta especificación, proceso receptor, formato y volumen para evaluar encaje técnico y suministro.",
+        "sections": [
+          {
+            "heading": "Especificar compuesto y proceso receptor",
+            "body": "Indique familia de polímero o designación, dureza, propiedades físicas, sistema de curado cuando corresponda y moldeo previsto."
+          },
+          {
+            "heading": "Acordar manipulación y liberación",
+            "body": "Consulte presentación, almacenamiento, documentación de vida útil, identificación de lote y ensayos de liberación. Cantidades y envío se confirman para el proyecto."
+          },
+          {
+            "heading": "Validar en su proceso",
+            "body": "Acuerde material de prueba y criterios con el equipo receptor. El compuesto debe evaluarse en el proceso real y según requisitos de la pieza terminada."
+          },
+          {
+            "heading": "Aclarar responsabilidades",
+            "body": "Defina responsable de la especificación y control de cambios. Condiciones comerciales, confidencialidad de formulación y desarrollo se acuerdan proyecto por proyecto."
+          }
+        ],
+        "cta": "Solicitar revisión de suministro de compuesto",
+        "faq": []
+      },
+      "RQ-PG-026": {
+        "label": "Ensayos",
+        "title": "Ensayos e inspección de caucho en fábrica | RubberQ",
+        "description": "Conecte requisitos del material y del componente con un plan de ensayos acordado.",
+        "h1": "Ensayos e inspección de caucho en fábrica",
+        "intro": "Conecte requisitos del material y del componente con un plan de ensayos acordado. RubberQ utiliza ensayos e inspección internos para evaluar compuestos, controlar producción y apoyar su evaluación.",
+        "sections": [
+          {
+            "heading": "Ensayar las propiedades relevantes",
+            "body": "Consulte dureza, tracción, alargamiento, envejecimiento, deformación remanente por compresión y exposición a fluidos, con sus condiciones y criterios de aceptación."
+          },
+          {
+            "heading": "Conservar las condiciones con el resultado",
+            "body": "Un registro útil identifica compuesto, muestra, método, temperatura, duración y resultado. Compare datos solo si la base de ensayo es relevante para la aplicación."
+          },
+          {
+            "heading": "Revisar la inspección del componente",
+            "body": "Separe dimensiones, superficies y montaje de los ensayos del material. Se pueden consultar ensayos especializados o externos cuando sean necesarios."
+          }
+        ],
+        "cta": "Consultar un requisito de ensayo",
+        "faq": []
+      },
+      "RQ-PG-027": {
+        "label": "Calidad y trazabilidad",
+        "title": "Control de calidad y trazabilidad de producción | RubberQ",
+        "description": "Defina calidad desde la preparación del material hasta la inspección final.",
+        "h1": "Control de calidad y trazabilidad de producción",
+        "intro": "Defina calidad desde la preparación del material hasta la inspección final. RubberQ combina ensayos internos con registros ERP para muestras, pedidos recurrentes y evaluación de proveedores.",
+        "sections": [
+          {
+            "heading": "Acordar la aceptación",
+            "body": "Empiece por revisión del plano, material y características críticas. Consulte frecuencia de inspección, informes y requisitos específicos del cliente."
+          },
+          {
+            "heading": "Conectar registros durante la producción",
+            "body": "Lotes de material, registros de proceso y resultados apoyan la trazabilidad. Indique qué documentos deben acompañar a su proyecto."
+          },
+          {
+            "heading": "Revisar los sistemas de gestión",
+            "body": "RubberQ cuenta con certificaciones IATF 16949:2016, ISO 9001:2015 e ISO 14001:2015. Solicite certificados actuales y alcance aplicable para evaluar al proveedor."
+          }
+        ],
+        "cta": "Solicitar información del proveedor",
+        "faq": []
+      },
+      "RQ-PG-028": {
+        "label": "Fábrica",
+        "title": "Conozca la fabricación de RubberQ | RubberQ",
+        "description": "Explore nuestra base industrial en Fuzhou, China.",
+        "h1": "Conozca la fabricación de RubberQ",
+        "intro": "Explore nuestra base industrial en Fuzhou, China. Dos plantas con aproximadamente 20.000 m² conectan preparación de compuestos, moldeo, inspección y registros productivos.",
+        "sections": [
+          {
+            "heading": "Preparación de compuestos",
+            "body": "Consulte cómo identificación de material, pesaje, mezclado y registros de lote apoyan una preparación repetible."
+          },
+          {
+            "heading": "Moldeo e inspección",
+            "body": "Geometría y requisitos de material orientan la revisión del molde y la fabricación. La inspección se acuerda según el componente y sus características críticas."
+          },
+          {
+            "heading": "El proceso de su proyecto",
+            "body": "Para evaluar al proveedor, solicite información de fábrica y documentación de proceso relevantes y consulte la ruta de producción de su pieza."
+          }
+        ],
+        "cta": "Consultar una evaluación de fábrica",
+        "faq": []
+      },
+      "RQ-PG-029": {
+        "label": "Sectores",
+        "title": "Caucho para aplicaciones industriales exigentes | RubberQ",
+        "description": "Explore componentes y materiales para semiconductores, refrigeración líquida y almacenamiento de energía, gestión térmica de vehículos eléctricos y robótica humanoide.",
+        "h1": "Caucho para aplicaciones industriales exigentes",
+        "intro": "Explore componentes y materiales para semiconductores, refrigeración líquida y almacenamiento de energía, gestión térmica de vehículos eléctricos y robótica humanoide. También atendemos industria general y programas Tier 2 seleccionados.",
+        "sections": [
+          {
+            "heading": "Equipos de semiconductores",
+            "body": "Revise sellos según química, temperatura, vacío y límites de contaminación del equipo real."
+          },
+          {
+            "heading": "Refrigeración líquida y almacenamiento de energía",
+            "body": "Consulte sellado en contacto con fluidos y requisitos de carcasas junto con montaje y validación."
+          },
+          {
+            "heading": "Gestión térmica de vehículos eléctricos",
+            "body": "Evalúe exposición, ciclos térmicos e interfaces del componente según plano y especificación."
+          },
+          {
+            "heading": "Robótica humanoide",
+            "body": "Consulte protección flexible, superficies de contacto y piezas adheridas según movimiento, carga y entorno."
+          }
+        ],
+        "cta": "Consultar su proyecto",
+        "faq": []
+      },
+      "RQ-PG-030": {
+        "label": "Equipos de semiconductores",
+        "title": "Juntas de caucho para equipos de semiconductores | RubberQ",
+        "description": "Evalúe un sello del equipo según sus condiciones reales de proceso.",
+        "h1": "Juntas de caucho para equipos de semiconductores",
+        "intro": "Evalúe un sello del equipo según sus condiciones reales de proceso. Los candidatos FFKM y FKM necesitan especificación definida, revisión de aplicación y plan de cualificación.",
+        "sections": [
+          {
+            "heading": "Identificar el entorno del sello",
+            "body": "Indique ubicación, química, ciclos térmicos y vacío. Incluya limpieza, mantenimiento y límites de contaminación."
+          },
+          {
+            "heading": "Separar material y cualificación del equipo",
+            "body": "Una designación no demuestra resistencia a plasma, limpieza ni duración. Consulte datos del compuesto y ensayos relevantes para su proceso."
+          },
+          {
+            "heading": "Apoyar mantenimiento y desarrollo",
+            "body": "Aporte plano o especificación existente para revisar muestras. Repuestos de mantenimiento y nuevos desarrollos requieren una ruta de aprobación acordada."
+          }
+        ],
+        "cta": "Consultar su aplicación",
+        "faq": []
+      },
+      "RQ-PG-031": {
+        "label": "Refrigeración líquida y energía",
+        "title": "Caucho para refrigeración líquida y almacenamiento de energía | RubberQ",
+        "description": "Consulte juntas según fluidos, uniones y condiciones ambientales de sus equipos de refrigeración o almacenamiento.",
+        "h1": "Caucho para refrigeración líquida y almacenamiento de energía",
+        "intro": "Consulte juntas según fluidos, uniones y condiciones ambientales de sus equipos de refrigeración o almacenamiento. Selección de material y validación del montaje se revisan juntas.",
+        "sections": [
+          {
+            "heading": "Identificar el contacto con fluidos",
+            "body": "Aporte composición completa, aditivos, ciclos térmicos y de presión. Incluya limpieza e interfaces de material que tocan la junta."
+          },
+          {
+            "heading": "Separar unión y carcasa",
+            "body": "Los sellos de fluido y las juntas de carcasa cumplen funciones distintas. Comparta alojamiento, abrazadera o brida, con compresión y movimiento exigidos."
+          },
+          {
+            "heading": "Definir la validación",
+            "body": "Consulte inmersión, cambios dimensionales, recuperación y pruebas de conjunto. Los requisitos eléctricos o de inflamabilidad deben identificar método y compuesto concreto."
+          }
+        ],
+        "cta": "Consultar su aplicación",
+        "faq": []
+      },
+      "RQ-PG-032": {
+        "label": "Gestión térmica de vehículos eléctricos",
+        "title": "Caucho para gestión térmica de vehículos eléctricos | RubberQ",
+        "description": "Evalúe un componente según fluido, ciclos térmicos y montaje de su proyecto.",
+        "h1": "Caucho para gestión térmica de vehículos eléctricos",
+        "intro": "Evalúe un componente según fluido, ciclos térmicos y montaje de su proyecto. Plano y especificación permiten concretar material y fabricación.",
+        "sections": [
+          {
+            "heading": "Especificar la exposición",
+            "body": "Identifique fluido y aditivos, rango térmico, ciclos y limpieza. Incluya requisitos eléctricos únicamente con sus criterios de ensayo."
+          },
+          {
+            "heading": "Revisar interfaces del componente",
+            "body": "Comparta geometría de contacto, tolerancias, compresión e instalación. Los requisitos de la pieza determinan la validación necesaria."
+          },
+          {
+            "heading": "Preparar documentación del proveedor",
+            "body": "Consulte trazabilidad, inspección y documentación del cliente. Aprobación de muestras y compromisos de producción siguen a la revisión técnica."
+          }
+        ],
+        "cta": "Consultar su aplicación",
+        "faq": []
+      },
+      "RQ-PG-033": {
+        "label": "Robótica humanoide",
+        "title": "Componentes de caucho para robótica humanoide | RubberQ",
+        "description": "Evalúe protección flexible, superficies de contacto y piezas adheridas según el movimiento y la carga del mecanismo.",
+        "h1": "Componentes de caucho para robótica humanoide",
+        "intro": "Evalúe protección flexible, superficies de contacto y piezas adheridas según el movimiento y la carga del mecanismo. Comparta plano y función requerida para una consulta técnica.",
+        "sections": [
+          {
+            "heading": "Describir movimiento y contacto",
+            "body": "Indique recorrido, rotación, cargas repetidas, superficies de contacto y espacio. Añada exposición a polvo, fluidos y limpieza."
+          },
+          {
+            "heading": "Ajustar geometría y material",
+            "body": "Fuelles, almohadillas y piezas adheridas requieren revisiones distintas. Consulte fricción, deformación, retención e interfaces que controlan la función."
+          },
+          {
+            "heading": "Validar el trabajo mecánico",
+            "body": "Defina pruebas representativas con carga, movimiento y condiciones ambientales. Duración y rendimiento dinámico necesitan su propia base de medición."
+          }
+        ],
+        "cta": "Consultar su aplicación",
+        "faq": []
+      },
+      "RQ-PG-034": {
+        "label": "Industria general",
+        "title": "Piezas de caucho para equipos industriales | RubberQ",
+        "description": "Comparta requisitos de una junta, cubierta flexible o componente moldeado.",
+        "h1": "Piezas de caucho para equipos industriales",
+        "intro": "Comparta requisitos de una junta, cubierta flexible o componente moldeado. Material, geometría, volumen e inspección orientan la fabricación.",
+        "sections": [
+          {
+            "heading": "Empezar por la función",
+            "body": "Describa qué debe sellar, proteger, soportar o tocar la pieza. Incluya plano, interfaces y entorno."
+          },
+          {
+            "heading": "Elegir una ruta práctica",
+            "body": "Consulte una muestra de referencia, un material existente o un plano nuevo. Identifique dimensiones y pruebas que permitan aceptar una muestra."
+          },
+          {
+            "heading": "Planificar el suministro recurrente",
+            "body": "Acuerde identificación de lote, inspección, embalaje y previsión de demanda para pedidos continuados."
+          }
+        ],
+        "cta": "Consultar su aplicación",
+        "faq": []
+      },
+      "RQ-PG-035": {
+        "label": "Automoción Tier 2",
+        "title": "Piezas de caucho para programas Tier 2 seleccionados | RubberQ",
+        "description": "Consulte piezas de precisión para programas Tier 2 seleccionados.",
+        "h1": "Piezas de caucho para programas Tier 2 seleccionados",
+        "intro": "Consulte piezas de precisión para programas Tier 2 seleccionados. Comparta plano, material y requisitos de documentación del cliente para revisar el proyecto.",
+        "sections": [
+          {
+            "heading": "Revisar la especificación",
+            "body": "Identifique revisión del plano, características críticas, material y proceso de aprobación del cliente."
+          },
+          {
+            "heading": "Acordar controles de producción",
+            "body": "Consulte inspección, trazabilidad, cambios y registros de muestras y pedidos recurrentes."
+          },
+          {
+            "heading": "Definir responsabilidades",
+            "body": "Aclare molde, desarrollo, ensayos y documentación antes de acordar compromisos de producción."
+          }
+        ],
+        "cta": "Consultar su aplicación",
+        "faq": []
+      },
+      "RQ-PG-036": {
+        "label": "Recursos técnicos",
+        "title": "Recursos técnicos sobre componentes de caucho | RubberQ",
+        "description": "Encuentre comparaciones de materiales, listas de datos del plano y preguntas de ensayo para su proyecto.",
+        "h1": "Recursos técnicos sobre componentes de caucho",
+        "intro": "Encuentre comparaciones de materiales, listas de datos del plano y preguntas de ensayo para su proyecto. Prepare la especificación e identifique qué requiere validación en su aplicación.",
+        "sections": [
+          {
+            "heading": "Seleccionar materiales",
+            "body": "Compare familias de polímeros, medios de servicio y preguntas necesarias para concretar un compuesto."
+          },
+          {
+            "heading": "Plano y diseño",
+            "body": "Revise medidas de juntas tóricas, uniones, moldeo y datos que facilitan evaluar la pieza."
+          },
+          {
+            "heading": "Ensayos y diagnóstico",
+            "body": "Relacione el daño con carga, exposición y ensayos. Una investigación útil conserva las evidencias del componente real."
+          }
+        ],
+        "cta": "Consultar su proyecto",
+        "faq": []
+      },
+      "RQ-PG-037": {
+        "label": "Normas",
+        "title": "Normas y especificaciones de caucho | RubberQ",
+        "description": "Utilice normas para definir requisitos medibles.",
+        "h1": "Normas y especificaciones de caucho",
+        "intro": "Utilice normas para definir requisitos medibles. Identifique edición, condiciones de ensayo y aceptación junto con la especificación del material o el plano.",
+        "sections": [
+          {
+            "heading": "Clasificación de materiales",
+            "body": "Consulte designación, requisitos adicionales y servicio previsto al usar clasificaciones como ASTM D2000."
+          },
+          {
+            "heading": "Dimensiones y tolerancias",
+            "body": "Especifique sistema de referencia, límites del plano y método de inspección. Las tablas de juntas tóricas y las tolerancias de piezas moldeadas tienen funciones distintas."
+          },
+          {
+            "heading": "Ensayos e informes",
+            "body": "Incluya método y acondicionamiento con cada resultado solicitado. Un número de norma no define todos los criterios de aceptación del proyecto."
+          }
+        ],
+        "cta": "Consultar la especificación",
+        "faq": []
+      },
+      "RQ-PG-038": {
+        "label": "Medidas de juntas tóricas",
+        "title": "Medidas y planos de juntas tóricas | RubberQ",
+        "description": "Prepare las dimensiones para evaluar una junta tórica.",
+        "h1": "Medidas y planos de juntas tóricas",
+        "intro": "Prepare las dimensiones para evaluar una junta tórica. Registre diámetro interior, sección, alojamiento y piezas de contacto junto con las condiciones de servicio.",
+        "sections": [
+          {
+            "heading": "Identificar la referencia dimensional",
+            "body": "Incluya sistema y código exacto si existen. Para una pieza especial, aporte plano acotado, no solo fotografía."
+          },
+          {
+            "heading": "Comprobar la geometría instalada",
+            "body": "Alojamiento, estiramiento, compresión y holgura afectan al sello. Revise dimensiones de la pieza con el conjunto montado."
+          },
+          {
+            "heading": "Enviar una consulta útil",
+            "body": "Adjunte revisión del plano, material, cantidad y condiciones de uso. Identificar la medida inicia la evaluación; no cualifica el rendimiento."
+          }
+        ],
+        "cta": "Consultar la especificación",
+        "faq": []
+      },
+      "RQ-PG-039": {
+        "label": "Dureza del caucho",
+        "title": "Cómo especificar la dureza del caucho | RubberQ",
+        "description": "La dureza es una parte de la especificación.",
+        "h1": "Cómo especificar la dureza del caucho",
+        "intro": "La dureza es una parte de la especificación. Incluya escala, método, tolerancia y condiciones de medición junto con la función del componente.",
+        "sections": [
+          {
+            "heading": "Indicar escala y método",
+            "body": "Un valor necesita escala y base de ensayo. Espesor, acondicionamiento y técnica de medida afectan a la comparabilidad."
+          },
+          {
+            "heading": "Relacionar dureza y función",
+            "body": "Sellado, flexibilidad y montaje también dependen de geometría y otras propiedades. La dureza no describe por sí sola recuperación ni resistencia química."
+          },
+          {
+            "heading": "Evaluar muestras montadas",
+            "body": "Añada pruebas funcionales y dimensionales. No use conversiones entre escalas como mediciones de aceptación."
+          }
+        ],
+        "cta": "Consultar la especificación",
+        "faq": []
+      },
+      "RQ-PG-040": {
+        "label": "Compatibilidad química",
+        "title": "Qué especificar para la compatibilidad del caucho | RubberQ",
+        "description": "Prepare una evaluación con fluido exacto, concentración, temperatura y ciclos de exposición.",
+        "h1": "Qué especificar para la compatibilidad del caucho",
+        "intro": "Prepare una evaluación con fluido exacto, concentración, temperatura y ciclos de exposición. Las comparaciones de familias orientan la consulta, pero no sustituyen ensayos del compuesto.",
+        "sections": [
+          {
+            "heading": "Describir toda la exposición",
+            "body": "Incluya aditivos, contaminación, limpieza y medios alternos. El nombre del fluido base puede omitir condiciones importantes."
+          },
+          {
+            "heading": "Definir los cambios relevantes",
+            "body": "Acuerde si se evalúan volumen, masa, dureza, resistencia, recuperación tras compresión o fugas del conjunto."
+          },
+          {
+            "heading": "Comparar con una base común",
+            "body": "Conserve identificación del compuesto, temperatura, duración y acondicionamiento con el resultado. Use muestras representativas para decidir la aplicación final."
+          }
+        ],
+        "cta": "Consultar la especificación",
+        "faq": []
+      },
+      "RQ-PG-041": {
+        "label": "Análisis de fallos",
+        "title": "Cómo revisar el fallo de una junta de caucho | RubberQ",
+        "description": "Conserve la pieza fallada y el historial de uso antes de elegir un repuesto.",
+        "h1": "Cómo revisar el fallo de una junta de caucho",
+        "intro": "Conserve la pieza fallada y el historial de uso antes de elegir un repuesto. Una evaluación útil relaciona daño con montaje, exposición, movimiento y tiempo de servicio.",
+        "sections": [
+          {
+            "heading": "Documentar antes de sustituir",
+            "body": "Fotografíe instalación y daño, conserve referencias sin usar y registre cambios de operación. Incluya revisión del plano y lote cuando existan."
+          },
+          {
+            "heading": "Distinguir posibles causas",
+            "body": "Revise daños de instalación, geometría, fricción, fluidos y temperatura sin asumir que todo fallo procede del material."
+          },
+          {
+            "heading": "Ensayar el cambio propuesto",
+            "body": "Defina qué debe demostrar la nueva muestra y cómo se medirá. Conserve las condiciones de validación con la decisión de cambiar material o geometría."
+          }
+        ],
+        "cta": "Consultar la especificación",
+        "faq": []
+      },
+      "RQ-PG-042": {
+        "label": "Blog en inglés",
+        "title": "Guías y notas de aplicación sobre caucho | RubberQ",
+        "description": "Explore selección de materiales, fabricación y ensayos de componentes industriales.",
+        "h1": "Guías y notas de aplicación sobre caucho",
+        "intro": "Explore selección de materiales, fabricación y ensayos de componentes industriales. Encuentre una guía en inglés y comparta requisitos para revisar su proyecto.",
+        "sections": [
+          {
+            "heading": "Buscar por pregunta técnica",
+            "body": "Encuentre comparaciones, requisitos de plano, explicaciones de proceso y diagnóstico."
+          },
+          {
+            "heading": "Aplicar la guía a su componente",
+            "body": "Use condiciones de servicio y especificación para identificar qué necesita evaluación adicional."
+          },
+          {
+            "heading": "Continuar la consulta técnica",
+            "body": "Comparta plano, especificación existente o la pregunta que necesita resolver su equipo."
+          }
+        ],
+        "cta": "Consultar su proyecto",
+        "faq": []
+      },
+      "RQ-PG-043": {
+        "label": "Experiencia en proyectos",
+        "title": "Desarrollo de componentes de caucho | RubberQ",
+        "description": "¿Busca experiencia relevante para su componente? Comparta aplicación, plano y requisitos para consultar fabricación e información disponible para evaluar al proveedor.",
+        "h1": "Desarrollo de componentes de caucho",
+        "intro": "¿Busca experiencia relevante para su componente? Comparta aplicación, plano y requisitos para consultar fabricación e información disponible para evaluar al proveedor.",
+        "sections": [
+          {
+            "heading": "Empezar por el problema técnico",
+            "body": "Explique función, entorno y restricciones de geometría o instalación."
+          },
+          {
+            "heading": "Revisar la información disponible",
+            "body": "Consulte datos de proceso, material y ensayo relevantes. Los detalles de clientes se comparten únicamente según la confidencialidad acordada."
+          },
+          {
+            "heading": "Definir un siguiente paso útil",
+            "body": "Una revisión del plano, consulta de material o evaluación de muestras puede aclarar la ruta técnica."
+          }
+        ],
+        "cta": "Consultar su proyecto",
+        "faq": []
+      },
+      "RQ-PG-044": {
+        "label": "Ingeniería y presupuestos",
+        "title": "Cuéntenos sobre su componente de caucho | RubberQ",
+        "description": "Envíe el plano o describa la aplicación.",
+        "h1": "Cuéntenos sobre su componente de caucho",
+        "intro": "Envíe el plano o describa la aplicación. Incluya material, condiciones de servicio y cantidad para revisar los próximos pasos técnicos y comerciales.",
+        "sections": [
+          {
+            "heading": "Plano o pieza de referencia",
+            "body": "Incluya revisión, dimensiones críticas e interfaces de montaje. Si no dispone de plano, describa función y referencias disponibles."
+          },
+          {
+            "heading": "Material y condiciones de servicio",
+            "body": "Indique medio, temperatura, presión o movimiento y especificación existente. Añada ensayos y documentación necesarios."
+          },
+          {
+            "heading": "Cantidad y etapa del proyecto",
+            "body": "Aporte cantidad de muestras, demanda recurrente y etapa. Molde, cualificación y entrega se concretan tras la revisión."
+          }
+        ],
+        "cta": "Enviar datos del proyecto",
+        "faq": []
+      },
+      "RQ-PG-045": {
+        "label": "Solicitud de muestras",
+        "title": "Solicitar muestras de componentes de caucho | RubberQ",
+        "description": "Comparta requisitos de pieza, material y evaluación para solicitar muestras.",
+        "h1": "Solicitar muestras de componentes de caucho",
+        "intro": "Comparta requisitos de pieza, material y evaluación para solicitar muestras. Revisaremos qué debe definirse antes de prepararlas.",
+        "sections": [
+          {
+            "heading": "Identificar la muestra",
+            "body": "Aporte plano, designación o referencia, cantidad y material."
+          },
+          {
+            "heading": "Describir la evaluación",
+            "body": "Explique comprobaciones, condiciones de montaje y criterios de aceptación."
+          },
+          {
+            "heading": "Acordar la preparación",
+            "body": "Disponibilidad, molde, costes y plazos dependen del proyecto y se consultan tras la revisión técnica."
+          }
+        ],
+        "cta": "Enviar requisitos de muestras",
+        "faq": []
+      },
+      "RQ-PG-046": {
+        "label": "Consulta de varias piezas",
+        "title": "Solicitar presupuesto para varias piezas de caucho | RubberQ",
+        "description": "Envíe un grupo de componentes para revisión.",
+        "h1": "Solicitar presupuesto para varias piezas de caucho",
+        "intro": "Envíe un grupo de componentes para revisión. Relacione cada referencia con su plano, revisión, material y cantidad prevista.",
+        "sections": [
+          {
+            "heading": "Organizar la lista",
+            "body": "Indique referencia, revisión del plano, material, unidad y cantidad por posición. Identifique materiales comunes o requisitos de montaje compartidos."
+          },
+          {
+            "heading": "Aclarar el alcance comercial",
+            "body": "Indique muestras, demanda recurrente, propiedad del molde y destino de entrega."
+          },
+          {
+            "heading": "Definir requisitos de aprobación",
+            "body": "Incluya inspección, trazabilidad, ensayos y documentación. Así se distinguen los requisitos de molde, desarrollo y producción."
+          }
+        ],
+        "cta": "Enviar consulta de varias piezas",
+        "faq": []
+      },
+      "RQ-PG-047": {
+        "label": "Buscar",
+        "title": "Buscar en RubberQ | RubberQ",
+        "description": "Busque materiales, componentes y recursos técnicos.",
+        "h1": "Buscar en RubberQ",
+        "intro": "Busque materiales, componentes y recursos técnicos. Empiece con un material, un tipo de pieza o una pregunta de aplicación.",
+        "sections": [
+          {
+            "heading": "Buscar por material o pieza",
+            "body": "Pruebe FFKM, EPDM, juntas tóricas, juntas planas o piezas moldeadas a medida."
+          },
+          {
+            "heading": "Ayuda con una especificación",
+            "body": "Envíe plano y condiciones de servicio para la revisión técnica."
+          }
+        ],
+        "cta": "Consultar su proyecto",
+        "faq": []
+      },
+      "RQ-PG-048": {
+        "label": "Privacidad",
+        "title": "Política de privacidad | RubberQ",
+        "description": "Lea la política de privacidad vigente de este sitio web.",
+        "h1": "Política de privacidad",
+        "intro": "Lea la política de privacidad vigente de este sitio web.",
+        "sections": [],
+        "cta": "Contactar",
+        "faq": []
+      },
+      "RQ-PG-049": {
+        "label": "Condiciones de uso",
+        "title": "Condiciones de uso | RubberQ",
+        "description": "Lea las condiciones de uso vigentes de este sitio web.",
+        "h1": "Condiciones de uso",
+        "intro": "Lea las condiciones de uso vigentes de este sitio web.",
+        "sections": [],
+        "cta": "Contactar",
+        "faq": []
+      }
     }
   }
 }

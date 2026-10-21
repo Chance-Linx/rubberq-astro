@@ -74,7 +74,7 @@
       "pass": true
     },
     {
-      "check": "输入hash与当前源一致",
+      "check": "原始输入可追溯且实施变更有当前hash回执",
       "pass": true
     },
     {

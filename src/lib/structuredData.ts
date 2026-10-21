@@ -50,7 +50,7 @@ function latestIsoDate(...values: Array<string | undefined>): string | undefined
   return new Date(Math.max(...dates.map((date) => date.getTime()))).toISOString();
 }
 
-export function createOrganizationSchema(locale: string) {
+export function createOrganizationSchema(locale: string, description?: string) {
   const baseUrl = localeBaseUrl(locale);
 
   return {
@@ -58,49 +58,19 @@ export function createOrganizationSchema(locale: string) {
     '@type': 'Organization',
     '@id': `${SITE_URL}/#organization`,
     name: 'RubberQ',
-    legalName: 'Fuzhou RubberQ Rubber Co., Ltd.',
-    foundingDate: '1995-06',
+    legalName: 'Fuzhou RongQing Rubber Co., Ltd.',
+    foundingDate: '1995',
     foundingLocation: {
       '@type': 'Place',
       name: 'Fuzhou, Fujian, China',
     },
     url: SITE_URL,
-    logo: `${SITE_URL}/logo.png`,
     slogan: 'Japanese Formulation. Chinese Precision. Trusted Since 1995.',
-    description:
-      'Sino-Japanese joint venture established in June 1995. RubberQ engineers custom rubber compounds in collaboration with Japanese formulation engineers since 1995, and precision-manufactures small-to-medium batch components for EV/energy storage, industrial equipment, semiconductor, and Tier 2 automotive applications. We operate a single dedicated A-mixing line for batch-to-batch compound consistency, with in-house testing laboratory validating every formulation to ASTM/ISO standards. IATF 16949 / ISO 9001 / ISO 14001 certified.',
-    sameAs: [
-      'https://www.linkedin.com/company/rubberq',
-    ],
-    areaServed: ['Europe', 'North America', 'Japan', 'Southeast Asia'],
+    description: description || 'RubberQ is a Sino-Japanese joint venture founded in Fuzhou in 1995. Japanese formulation support connects with rubber compounding, precision molding, in-house testing and ERP production traceability in China.',
+    areaServed: ['North America', 'Europe', 'Japan', 'Southeast Asia'],
     knowsAbout: [
-      'In-house rubber compounding',
-      'Custom elastomer formulation',
-      'Japanese-developed master compounds',
-      'Sino-Japanese rubber engineering',
-      'FKM',
-      'FFKM',
-      'HNBR',
-      'NBR',
-      'EPDM',
-      'ACM',
-      'AEM',
-      'Silicone (HCR)',
-      'LSR (Liquid Silicone Rubber)',
-      'Precision rubber seals',
-      'Custom rubber gaskets',
-      'EV battery thermal management seals',
-      'EV charging infrastructure seals',
-      'BESS (Battery Energy Storage System) sealing',
-      'Semiconductor process seals (FFKM)',
-      'Industrial hydraulic and pneumatic seals',
-      'Pump and valve seals',
-      'Automotive Tier 2 components',
-      'Compound traceability',
-      'Single-line mixing for compound consistency',
-      'Cross-contamination control',
-      'IATF 16949 quality management',
-      'Compound development partnership',
+      'Rubber compounding', 'Precision rubber molding', 'Custom rubber components',
+      'Material selection', 'In-house testing', 'Production traceability',
     ],
     hasCredential: [
       {

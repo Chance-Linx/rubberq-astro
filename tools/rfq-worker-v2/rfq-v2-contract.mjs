@@ -8,7 +8,11 @@ export const VALID_INQUIRY_TYPES = new Set([
 ]);
 
 const VALID_PROJECT_TYPES = new Set(['drawing', 'application', 'sample', 'batch', 'other']);
-const VALID_PROJECT_STAGES = new Set(['concept', 'feasibility', 'sample', 'tooling', 'production']);
+// Keep historic values and the stages actually submitted by all three site forms.
+const VALID_PROJECT_STAGES = new Set([
+  'concept', 'feasibility', 'sample', 'tooling', 'production',
+  'prototype', 'preProduction', 'pilot', 'validation',
+]);
 const HIGH_VALUE_INDUSTRY_PATTERN = /(ev|energy|storage|semiconductor|ffkm|industrial|hydraulic|pneumatic)/i;
 const HIGH_VALUE_MATERIAL_PATTERN = /(ffkm|fkm|hnbr|epdm|fluoro|perfluoro)/i;
 const VOLUME_SCORE = {

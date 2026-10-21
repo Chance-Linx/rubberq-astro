@@ -1,0 +1,21 @@
+{
+  "head": "75ae713d7617c2964b10cf7bce3b5480eea21f71",
+  "paths": [
+    {
+      "path": "scripts/govern-sanity-redline-articles.mjs",
+      "sha256": "7a5b5ac3045c95435cbbfcae82b9075bd1b40073aa0957287e210dbca11655a7"
+    },
+    {
+      "path": "src/lib/sanity.ts",
+      "sha256": "05a1b5594ffc8e94a3d3c444ba5b1b6dd29a5a024da7f99a7cf6eaaa75a460a6"
+    },
+    {
+      "path": "tools/rfq-worker-v2/worker.mjs",
+      "sha256": "0ad533b4ca7f3aef65de85f70f65f4ce66ddf945470b4fc2276c18a741179819"
+    },
+    {
+      "path": "tools/rfq-worker-v2/wrangler.toml",
+      "sha256": "93a1750d46f224d0e95040a6105889fc5e6c2d42029376fe4c0776ca362ececd"
+    }
+  ]
+}
