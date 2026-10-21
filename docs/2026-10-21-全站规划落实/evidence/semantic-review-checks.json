@@ -12,11 +12,20 @@
     "REFERENCE_REWRITE": 54,
     "RETAIN_OPTIMIZE": 8
   },
-  "local_existing_url_drafts": 7,
-  "final_ownership_decisions": 0,
+  "local_existing_url_drafts": 11,
+  "final_ownership_decisions": 271,
+  "article_disposition_counts": {
+    "CONSOLIDATE_INTO_PAGE": 182,
+    "PRIMARY_TOPIC_ARTICLE": 11,
+    "EXCLUDE_FROM_CURRENT_PLAN": 46,
+    "SUPPORTING_TECHNICAL_ARTICLE": 16,
+    "CONSOLIDATE_INTO_ARTICLE": 16
+  },
+  "content_target_count": 62,
+  "retained_article_owners": 27,
   "topic_ownership_decisions": 63,
   "cms_writes": 0,
   "paid_calls": 0,
   "final_project_audit": "not_started",
-  "scope": "Complete saved-body or exact full-body/template comparison provenance, metadata, draft and board consistency; per-article findings remain proposals until full inventory reconciliation"
+  "scope": "Complete saved-body or exact full-body/template comparison provenance, metadata, draft and board consistency; editorial dispositions are decided; content implementation, coverage and public URL actions remain pending"
 }

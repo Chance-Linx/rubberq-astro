@@ -44,10 +44,16 @@
     {
       "id": "ASTM-D429",
       "title": "D429 — Adhesion to Rigid Substrates",
-      "url": "https://store.astm.org/d0429-14.html",
+      "url": "https://store.astm.org/standards/d429",
       "publisher": "ASTM International",
       "use": "公开摘要用于核对接着试验的对象；试验方法名不证明零脱胶、动态寿命或具体批次符合性。",
-      "checked_on": "2026-10-21"
+      "checked_on": "2026-10-21",
+      "public_scope_checked_on": "2026-10-21",
+      "read_sections": [
+        "Scope",
+        "Significance and Use"
+      ],
+      "scope_limit": "仅公开范围；不复制付费程序或限值，不据方法名证明疲劳或项目合格。"
     },
     {
       "id": "ASTM-D2000",
@@ -195,6 +201,18 @@
         "Capability indices and distribution assumptions"
       ],
       "use": "一手公开方法用于核对稳定性、规格与能力估计的关系，不由Cpk阈值推出零缺陷或证明工厂已有特定指数/案例。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "PARKER-GLAND-DESIGN",
+      "title": "Parker O-Ring Handbook ORD 5700 — squeeze and gland fill",
+      "url": "https://www.parker.com/content/dam/Parker-com/Literature/O-Ring-Division-Literature/ORD-5700.pdf",
+      "publisher": "Parker Hannifin",
+      "read_sections": [
+        "3.6 Squeeze",
+        "3.7 Gland Fill"
+      ],
+      "use": "区分压缩与体积占用及其几何/工况输入；不将手册数值作为RubberQ通用设计限值，不延伸至所有垫片。",
       "checked_on": "2026-10-21"
     }
   ],

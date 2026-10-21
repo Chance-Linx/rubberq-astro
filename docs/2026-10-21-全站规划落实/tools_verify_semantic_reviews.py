@@ -56,7 +56,7 @@ for d in drafts['drafts']:
  assert not any(p in content.lower() for p in ['global leader','100%','new compound from scratch in 4 weeks','medical grade','zero-delamination','as per your specifications','hnbr-x7','rubberq-7700'])
  for href in re.findall(r'href="([^"]+)"',content):
   if href.startswith('/'):assert href in urls,(d['article_id'],href)
-state=json.loads((B/'execution-state.json').read_text());assert state['requirements']['content_revision_drafts']['prepared']==len(drafts['drafts']);assert state['requirements']['inventory_semantic_ownership']['full_body_reviews_completed']==len(rows);assert state['requirements']['inventory_semantic_ownership']['completed']==0;assert state['final_review']=='not_started'
+state=json.loads((B/'execution-state.json').read_text());assert state['requirements']['content_revision_drafts']['prepared']==len(drafts['drafts']);assert state['requirements']['inventory_semantic_ownership']['full_body_reviews_completed']==len(rows);assert state['final_review']=='not_started'
 ownership_file=B/'ownership/topic-owners.json';owners=[]
 if ownership_file.exists():
  ownership=json.loads(ownership_file.read_text());owners=ownership['decisions'];topics=json.loads((R/'docs/2026-10-21-线上获客执行/data/topics.json').read_text());topic_byid={t['id']:t for t in topics}
@@ -81,7 +81,49 @@ if ownership_file.exists():
  assert len(exported_owners)==len(owners)
  for csvrow,owner in zip(exported_owners,owners):assert all(owner[k]==v for k,v in csvrow.items())
 
-board=(R/'docs/2026-10-21-线上获客执行/map.html').read_text();embedded=json.loads(re.search(r'<script id="data" type="application/json">(.*?)</script>',board,re.S)[1]);assert embedded['article_reviews']==rows;assert embedded['implementation']==state;assert embedded['topic_ownership']==owners
+# Integrity checks for the authored cross-inventory decisions; not a semantic audit.
+disposition_data=json.loads((B/'ownership/article-dispositions.json').read_text());dispositions=disposition_data['decisions'];db={d['source_index']:d for d in dispositions}
+assert len(dispositions)==len(db)==len(source)==271
+assert set(db)==set(range(len(source)))
+assert state['requirements']['inventory_semantic_ownership']['completed']==len(dispositions)
+kept_kinds={'PRIMARY_TOPIC_ARTICLE','SUPPORTING_TECHNICAL_ARTICLE'}
+kept={d['source_index']:d for d in dispositions if d['editorial_decision'] in kept_kinds};kept_urls={d['primary_owner_url'] for d in kept.values()}
+assert {o['primary_owner_url'] for o in owners if o['owner_kind']=='existing_article'}<=kept_urls
+prepared_ids={d['article_id'] for d in drafts['drafts']}
+assert prepared_ids<={d['article_id'] for d in kept.values()}
+assert disposition_data['summary']['retained_article_local_drafts']==len(prepared_ids)
+assert disposition_data['summary']['retained_article_revisions_required']==len(kept)-len(prepared_ids)
+for d in kept.values():assert d['revision_state']==('local_draft_prepared' if d['article_id'] in prepared_ids else 'revision_required')
+baseline=json.loads(subprocess.check_output(['git','show',disposition_data['baseline_commit']+':src/messages/en.json'],cwd=R))['acquisition']['pages']
+for d in dispositions:
+ r=rows[d['source_index']]
+ for dk,rk in [('article_id','article_id'),('source_revision','source_revision'),('source_url','url'),('source_title','title'),('source_body_sha256','body_sha256'),('source_published_at','published_at'),('buyer_job','buyer_job'),('review_finding','finding'),('content_requirements','rewrite_requirements')]:assert d[dk]==r[rk]
+ assert d['decision_status']=='decided' and d['content_implemented'] is False and d['coverage_verified'] is False
+ assert d['cms_action']==d['production_action']=='none' and d['decision_reason'].strip()
+ assert d['editorial_decision'] in kept_kinds|{'CONSOLIDATE_INTO_PAGE','CONSOLIDATE_INTO_ARTICLE','EXCLUDE_FROM_CURRENT_PLAN'}
+ if d['editorial_decision']=='EXCLUDE_FROM_CURRENT_PLAN':assert d['primary_owner_url'] is None and d['owner_source'] is None
+ elif d['editorial_decision']=='CONSOLIDATE_INTO_PAGE':
+  p=next(x for x in registry if x['url']==d['primary_owner_url']);assert d['owner_source']['page_id']==p['id'];assert digest(baseline[p['id']])==d['owner_source']['page_message_sha256']
+ else:
+  o=d['owner_source'];target=db[o['source_index']];assert target['source_index'] in kept;assert d['primary_owner_url']==target['source_url'];assert o['article_id']==target['article_id'] and o['revision']==target['source_revision'] and o['body_sha256']==target['source_body_sha256']
+  if d['editorial_decision'] in kept_kinds:assert d['primary_owner_url']==d['source_url']
+ expected=[x['source_index'] for x in dispositions if x['primary_owner_url']==d['primary_owner_url']] if d['primary_owner_url'] else []
+ assert d['sources_sharing_owner']==expected
+ assert d['linked_topic_ids']==[o['topic_id'] for o in owners if o['primary_owner_url']==d['primary_owner_url']]
+with (B/'ownership/存量文章最终内容分工.csv').open(encoding='utf-8-sig',newline='') as f: csv_decisions=list(csv.DictReader(f))
+assert len(csv_decisions)==len(dispositions)
+for c,d in zip(csv_decisions,dispositions):assert all((str(d[k])==v if d[k] is not None else v=='') for k,v in c.items())
+queue=json.loads((B/'ownership/content-implementation-queue.json').read_text())['targets'];queued={q['target_url']:q for q in queue};assert len(queued)==len(queue)
+assert set(queued)=={d['primary_owner_url'] for d in dispositions if d['primary_owner_url']}|{o['primary_owner_url'] for o in owners}
+for url,q in queued.items():
+ assert q['coverage_verified'] is False
+ assert q['contributing_source_indices']==[d['source_index'] for d in dispositions if d['primary_owner_url']==url]
+ assert q['topic_ids']==[o['topic_id'] for o in owners if o['primary_owner_url']==url]
+ assert {x['source_index'] for x in q['buyer_jobs']}==set(q['contributing_source_indices'])
+ assert {x['topic_id'] for x in q['topic_requirements']}==set(q['topic_ids'])
+ for x in q['buyer_jobs']:assert x['required_updates']==rows[x['source_index']]['rewrite_requirements']
+
+board=(R/'docs/2026-10-21-线上获客执行/map.html').read_text();embedded=json.loads(re.search(r'<script id="data" type="application/json">(.*?)</script>',board,re.S)[1]);assert embedded['article_reviews']==rows;assert embedded['implementation']==state;assert embedded['topic_ownership']==owners;assert embedded['article_dispositions']==dispositions
 for js in re.findall(r'<script>(.*?)</script>',board,re.S):subprocess.run(['node','--check','--input-type=commonjs'],input=js,text=True,check=True,capture_output=True)
-summary={'saved_source_articles':len(source),'full_body_reviews':len(rows),'body_review_methods':dict(methods),'action_proposals':dict(collections.Counter(x['proposed_action'] for x in rows)),'local_existing_url_drafts':len(drafts['drafts']),'final_ownership_decisions':0,'topic_ownership_decisions':len(owners),'cms_writes':0,'paid_calls':0,'final_project_audit':'not_started','scope':'Complete saved-body or exact full-body/template comparison provenance, metadata, draft and board consistency; per-article findings remain proposals until full inventory reconciliation'}
+summary={'saved_source_articles':len(source),'full_body_reviews':len(rows),'body_review_methods':dict(methods),'action_proposals':dict(collections.Counter(x['proposed_action'] for x in rows)),'local_existing_url_drafts':len(drafts['drafts']),'final_ownership_decisions':len(dispositions),'article_disposition_counts':dict(collections.Counter(d['editorial_decision'] for d in dispositions)),'content_target_count':len(queue),'retained_article_owners':len(kept),'topic_ownership_decisions':len(owners),'cms_writes':0,'paid_calls':0,'final_project_audit':'not_started','scope':'Complete saved-body or exact full-body/template comparison provenance, metadata, draft and board consistency; editorial dispositions are decided; content implementation, coverage and public URL actions remain pending'}
 (B/'evidence/semantic-review-checks.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n');print(json.dumps(summary,ensure_ascii=False))

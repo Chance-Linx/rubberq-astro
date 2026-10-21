@@ -1,0 +1,17 @@
+{
+  "url": "http://127.0.0.1:8797/map",
+  "checks": [
+    {
+      "source_index": 46,
+      "observed": "CONSOLIDATE_INTO_ARTICLE; target source 182; shared sources 46/126/182; decision reason and no-public-action notice visible",
+      "result": "PASS"
+    },
+    {
+      "source_index": 173,
+      "observed": "EXCLUDE_FROM_CURRENT_PLAN; no acquisition owner; explicit precision-parts scope reason; old proposal labelled historical",
+      "result": "PASS"
+    }
+  ],
+  "screenshot": "article-disposition-detail.png",
+  "scope": "Local board interaction only, not content implementation or final consolidated audit"
+}

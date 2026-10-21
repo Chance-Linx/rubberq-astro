@@ -1,0 +1,2842 @@
+{
+  "scope": "Required task-specific page/article revisions; source consolidation decisions do not authorize deleting or redirecting source URLs.",
+  "targets": [
+    {
+      "target_url": "/materials/hnbr",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        0,
+        19
+      ],
+      "topic_ids": [
+        "RQ-T-035",
+        "RQ-T-036"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-035",
+          "job": "选择油接触材料",
+          "required_updates": "补油液、ACN/牌号、冷热与机械任务，不用氢化或单一物性自动推出所有介质优势。"
+        },
+        {
+          "topic_id": "RQ-T-036",
+          "job": "HNBR试样验收",
+          "required_updates": "补候选识别、加载/运动、摩擦/磨耗及代表性样件条件，不给通用摩擦/寿命数值。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 0,
+          "job": "为含乙二醇工况比较HNBR与现有材料，而不是只看耐温上限",
+          "scope": "HNBR乙二醇与温度要求补入材料页，以完整介质和具体胶料评价承接，不为汽车泛场景另留一文。",
+          "required_updates": "围绕完整冷却液、温压循环、压缩和试验条件重写；撤掉材料家族优劣总排名，链接HNBR和媒体兼容性页。"
+        },
+        {
+          "source_index": 19,
+          "job": "为高压压裂密封整理压力、温度与化学负荷",
+          "scope": "保留高压介质和减压历史作为HNBR选型问题，删除压裂密封成套适用承诺。",
+          "required_updates": "按现有URL改为需求与样品验证清单，不承诺井下认证、压力上限或全家族适用。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
+      "target_kind": "existing_article",
+      "primary_source_index": 1,
+      "contributing_source_indices": [
+        1,
+        169
+      ],
+      "topic_ids": [
+        "RQ-T-025"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-025",
+          "job": "比较候选材料",
+          "required_updates": "落实现有修订稿，必要时补具体候选比较的报告条件；不恢复固定3倍价格或家族性能排名。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 1,
+          "job": "判断化工密封从FKM升级FFKM是否值得",
+          "scope": "保留FKM与FFKM升级决策主文，合并材料成本与验证范围，区别于FFKM采购页。",
+          "required_updates": "以失效代价、工况、样品和生命周期比较重写；成本仅用实际项目报价，不设通用倍数。"
+        },
+        {
+          "source_index": 169,
+          "job": "比较FFKM报价中材料与零件成本的范围",
+          "scope": "FFKM报价范围归FKM/FFKM升级成本主文，材料采购入口另链接FFKM页。",
+          "required_updates": "与1成本比较稿分工，区分原胶、胶料和成品报价及数量/验证成本，使用真实项目报价，不给固定市场价格或全家族温区。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/materials/fkm",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        2,
+        217,
+        221,
+        224,
+        263,
+        264
+      ],
+      "topic_ids": [
+        "RQ-T-028",
+        "RQ-T-029"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-028",
+          "job": "选定具体FKM牌号",
+          "required_updates": "补完整牌号、介质、冷热历程、硫化/测试条件和尺寸接口，不由含氟量一项判断适用。"
+        },
+        {
+          "topic_id": "RQ-T-029",
+          "job": "厘清品牌与聚合物称谓",
+          "required_updates": "补Viton与FKM称谓及原厂来源，具体牌号/候选单独验证，不暗示原厂关系或承诺所有品牌料可供。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 2,
+          "job": "在指定燃料或化学介质中比较不同FKM牌号",
+          "scope": "含氟量是具体FKM牌号的选型因素，归材料页参数核对章节，不以66/70两个数另建排名页。",
+          "required_updates": "区分聚合物牌号、硫化体系、低温与媒体条件，取消匿名实测表；保留本URL作为牌号选择的细分参考。"
+        },
+        {
+          "source_index": 217,
+          "job": "核对低温FKM品牌牌号与O圈验证要求",
+          "scope": "低温品牌牌号仅作客户规格输入，归FKM页，不宣称RubberQ拥有相同配方或通用低温保证。",
+          "required_updates": "以具体原规格、候选配方、低温/介质试验组织，和FKM材料页统筹；不暗示原厂供货、授权或通用等效。"
+        },
+        {
+          "source_index": 221,
+          "job": "为FKM O圈确定具体配方和验收要求",
+          "scope": "FKM O圈具体配方和验收由FKM页承接，与263/264品牌同义词合并。",
+          "required_updates": "与FKM材料、O圈产品及既有品牌细分统一分工，不新增同义词主URL；按实际配方报告写。"
+        },
+        {
+          "source_index": 224,
+          "job": "核对特定FKM品牌系列与候选材料",
+          "scope": "品牌系列作为客户指定牌号资料收进FKM页，不借用Extreme性能给自有胶料背书。",
+          "required_updates": "以实际牌号资料和项目测试比较，避免混同品牌系列、自有胶料与FFKM；不承诺授权供货或等效。"
+        },
+        {
+          "source_index": 263,
+          "job": "为FKM品牌O圈确认具体材料和规格",
+          "scope": "Viton与FKM对应关系作为客户牌号核对归FKM页，不代表品牌授权或自有等效。",
+          "required_updates": "同一材料任务归一个主页面，品牌作为具体原规格线索，不暗示原厂关系或等效，不再开复数词URL。"
+        },
+        {
+          "source_index": 264,
+          "job": "为FKM O圈核对材料家族与品牌牌号",
+          "scope": "与221/263同任务同义材料词归FKM页，不保留单复数变体模板文。",
+          "required_updates": "与263/221/Viton资料整合归属，保留原URL记录，不把单复数和未来日期当新增独立需求。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/materials/nbr",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        5,
+        50,
+        52,
+        218,
+        249
+      ],
+      "topic_ids": [
+        "RQ-T-037"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-037",
+          "job": "NBR采购准备",
+          "required_updates": "补图纸、油液/温度/低温、材料识别和数量，避免将NBR模板写成FFKM指标。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 5,
+          "job": "为动态密封磨耗问题比较XNBR、NBR和HNBR",
+          "scope": "XNBR作为NBR候选的比较问题收进材料页，需核对具体胶料，不单列未确认外供产品。",
+          "required_updates": "作为NBR下的技术参考，不新增XNBR商业页；按运动、对偶面、颗粒和具体配方试验组织，不承诺XNBR供货。"
+        },
+        {
+          "source_index": 50,
+          "job": "在油胀与低温要求间选择NBR牌号",
+          "scope": "丙烯腈含量、油胀与低温权衡归NBR材料页，具体牌号结果用报告确认。",
+          "required_updates": "以油液、低温工况、具体牌号和试验条件组织权衡，不设统一最优或工厂成分公差；与第10篇油胀任务分工。"
+        },
+        {
+          "source_index": 52,
+          "job": "为污水阀密封整理介质和腐蚀暴露条件",
+          "scope": "污水成分、温度与清洗组合归NBR询价条件，不承诺腐蚀污泥通用适配。",
+          "required_updates": "保留阀密封材料参考任务，去掉抗菌及牌号性能承诺，收集真实污水成分、清洗、温度和接触时间。"
+        },
+        {
+          "source_index": 218,
+          "job": "为NBR胶料或精密件明确材料与工况",
+          "scope": "NBR泛材料词归已有材料页，与50/249构成同一选型模块，不留模板博客。",
+          "required_updates": "由NBR材料页承担基础任务，文章只在有独立采购问题时保留；删除不属于NBR的高纯/325°C参数。"
+        },
+        {
+          "source_index": 249,
+          "job": "为NBR O圈约定油液、低温和尺寸要求",
+          "scope": "NBR O圈的油液与低温需求归NBR页，尺寸和采购入口连接密封产品页。",
+          "required_updates": "和218及NBR/密封页统筹核心采购任务，撤掉高纯/325°C模板，不为材料+O圈同义词新增主URL。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/materials/epdm",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        6,
+        29,
+        73,
+        76,
+        81,
+        103,
+        106,
+        132,
+        230,
+        231
+      ],
+      "topic_ids": [
+        "RQ-T-032",
+        "RQ-T-033",
+        "RQ-T-034"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-032",
+          "job": "EPDM密封选型",
+          "required_updates": "补实际介质、配方、压缩接口和温度历程，具体样件验收，不写所有冷却液/蒸汽通用适用。"
+        },
+        {
+          "topic_id": "RQ-T-033",
+          "job": "确定冷却液测试",
+          "required_updates": "补完整冷却液/添加剂、混合比例、清洗、浸泡条件和验收；区分材料与总成试验。"
+        },
+        {
+          "topic_id": "RQ-T-034",
+          "job": "户外工况选型",
+          "required_updates": "补日照/臭氧/湿热、受力与接合界面、外观/功能判据，不给20年寿命保证。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 6,
+          "job": "确定户外EPDM密封的臭氧暴露与测试要求",
+          "scope": "臭氧和户外暴露属EPDM选型输入，与76的连接器案例共用材料页，避免寿命承诺。",
+          "required_updates": "按拉伸状态、臭氧浓度、温度、时长与可见裂纹评价组织；删除专有配方及无依据寿命优势。"
+        },
+        {
+          "source_index": 29,
+          "job": "为灌溉阀密封提出肥液与户外暴露条件",
+          "scope": "肥液与户外条件作为EPDM介质需求说明，不保留泛灌溉场景文章。",
+          "required_updates": "作为EPDM下的应用参考保留URL；改为肥液成分、浓度、日照和压缩要求，不制造寿命或认证。"
+        },
+        {
+          "source_index": 73,
+          "job": "为车内风道密封明确气味与VOC评价",
+          "scope": "车内气味/VOC要求归EPDM条件化选型，不把低气味作为胶种固有保证。",
+          "required_updates": "分别明确客户的气味/VOC方法、样件处理和验收；无数据不承诺降幅或OEM认可。"
+        },
+        {
+          "source_index": 76,
+          "job": "为户外连接器密封指定气候和接口要求",
+          "scope": "户外连接器气候与界面归EPDM材料页，和6共享暴露条件但不借用系统防护等级。",
+          "required_updates": "作为EPDM应用参考重写，收集户外温度、臭氧/日照、压缩和组装条件，不声称系统防水或电性能已验证。"
+        },
+        {
+          "source_index": 81,
+          "job": "为DEF尿素接触密封整理介质及验证条件",
+          "scope": "尿素溶液浓度及暴露归EPDM材料页，不把DEF名称等同普遍耐受。",
+          "required_updates": "保留EPDM材料参考任务，明确流体规格、浸泡/循环、接头与样件评价；不据此新增未经确认的DEF系统供货能力。"
+        },
+        {
+          "source_index": 103,
+          "job": "为EPDM密封选定具体润滑剂并评估相容性",
+          "scope": "具体润滑剂相容性归EPDM页，连接10的浸液报告阅读，不给通用兼容名单。",
+          "required_updates": "回到完整润滑剂产品、用量、介质、温度与具体EPDM配方，按项目约定试验判断；删除未经验证的配方比例及性能表。"
+        },
+        {
+          "source_index": 106,
+          "job": "为蒸汽密封确定暴露工况和寿命验证计划",
+          "scope": "蒸汽压力、温度和循环归EPDM选型条件，与132候选比较共享模块，不推统一寿命。",
+          "required_updates": "明确湿/干蒸汽、温压、停启、清洗与安装；具体配方需对应试验/现场记录，不从静态表或空气老化直接推出寿命。"
+        },
+        {
+          "source_index": 132,
+          "job": "为蒸汽应用比较EPDM与FKM候选的试验条件",
+          "scope": "蒸汽EPDM/FKM比较收进EPDM工况与候选验证，不另留对立排名文章。",
+          "required_updates": "在全量后与106分工或合并处置，仍保留原URL记录；补蒸汽状态、温压、介质和结构验证，不能用通用温区推适用。"
+        },
+        {
+          "source_index": 230,
+          "job": "为EPDM精密件或胶料询价明确环境条件",
+          "scope": "EPDM泛材料词直接归材料页，和235按材料/产品上下文区分，不留模板博客。",
+          "required_updates": "归入EPDM材料任务，与既有蒸汽、冷却和户外内容分工，不复制泛词文章或把325°C作为EPDM温区。"
+        },
+        {
+          "source_index": 231,
+          "job": "为EPDM工业薄片或垫片明确规格和供货形态",
+          "scope": "EPDM片材需求归材料页供货形态核对，不自动宣称卷材库存或通用厚度规格。",
+          "required_updates": "按工业图纸/薄片需求核对形态与供货条件，不默认零售也不凭胶料外供推硫化板材产线；和230/垫片页统筹。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction",
+      "target_kind": "existing_article",
+      "primary_source_index": 7,
+      "contributing_source_indices": [
+        7
+      ],
+      "topic_ids": [],
+      "topic_requirements": [],
+      "buyer_jobs": [
+        {
+          "source_index": 7,
+          "job": "了解如何用加速老化数据评估使用寿命的适用范围",
+          "scope": "加速老化外推有独立的试验端点和假设问题，保留报告阅读主文，区别于测试项目清单。",
+          "required_updates": "说明试验端点、多个温度、失效机制与外推限制；没有数据则不画自有预测图，不称已完成寿命预测。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/low-temperature-retraction-tr-10-predicting-seal-failure-in-arctic-conditions",
+      "target_kind": "existing_article",
+      "primary_source_index": 8,
+      "contributing_source_indices": [
+        8
+      ],
+      "topic_ids": [],
+      "topic_requirements": [],
+      "buyer_jobs": [
+        {
+          "source_index": 8,
+          "job": "用TR试验数据准备低温密封评价",
+          "scope": "低温回缩指标的解释需要独立报告上下文，保留技术文，不把TR值当最低使用温度。",
+          "required_updates": "围绕TR10/TR70与其他低温测试的组合、实际配方和静/动态工况重写，不把TR10等同保证最低工作温度。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/tensile-stress-strain-curves-what-a-mechanical-engineer-needs-to-know-about-rubb",
+      "target_kind": "existing_article",
+      "primary_source_index": 9,
+      "contributing_source_indices": [
+        9
+      ],
+      "topic_ids": [],
+      "topic_requirements": [],
+      "buyer_jobs": [
+        {
+          "source_index": 9,
+          "job": "让机械工程师明确橡胶拉伸数据与设计的关系",
+          "scope": "拉伸曲线阅读是独立工程任务，保留试样、坐标和加载条件说明，不伪造实测曲线。",
+          "required_updates": "以坐标、试样、应变速率、调节条件与加载卸载说明曲线；删除无依据固定阶段和工厂精度承诺。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+      "target_kind": "existing_article",
+      "primary_source_index": 10,
+      "contributing_source_indices": [
+        10
+      ],
+      "topic_ids": [],
+      "topic_requirements": [],
+      "buyer_jobs": [
+        {
+          "source_index": 10,
+          "job": "把浸油体积变化测试与实际密封工况对应",
+          "scope": "浸液试验报告有独立的样品、暴露和复原条件，保留主文；兼容性页负责初筛与询价。",
+          "required_updates": "改为样品、IRM油或实际油液、温度、时间及复原条件的报告阅读；不将匿名家族数值作为自有数据。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/standards",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        11,
+        32
+      ],
+      "topic_ids": [
+        "RQ-T-050"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-050",
+          "job": "理解材料代号",
+          "required_updates": "补完整callout/版次/后缀与客户特殊要求，区分材料分类、尺寸和产品批准，不从公开摘要杜撰限值。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 11,
+          "job": "为电子部件正确提出阻燃材料评价要求",
+          "scope": "与32同一UL94等级任务，统一由标准页承接试样与报告条件，不保留两篇阻燃等级文章。",
+          "required_updates": "区分项目要求与已测等级，写清实际配方、试样厚度和报告条件；与第32篇的等级解释分工，最终对账后决定合并。"
+        },
+        {
+          "source_index": 32,
+          "job": "理解UL94等级与材料报告中应检查的条件",
+          "scope": "UL94等级、试样与报告范围由标准页统一承接，合并11和188中的阻燃解释。",
+          "required_updates": "按官方试验分类、试样与报告条件重写；与第11篇区分等级教育与项目选材，不先新建第三篇。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/products/seals",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        12,
+        54,
+        60,
+        69,
+        147,
+        149,
+        172,
+        187,
+        211,
+        212,
+        213,
+        222,
+        234,
+        235,
+        239,
+        246,
+        250,
+        251
+      ],
+      "topic_ids": [
+        "RQ-T-001",
+        "RQ-T-002",
+        "RQ-T-005"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-001",
+          "job": "比较供应商并准备图纸",
+          "required_updates": "补图纸、关键尺寸、材料/批次资料与检验问题清单；不把所有检验项目写成每批承诺。"
+        },
+        {
+          "topic_id": "RQ-T-002",
+          "job": "提交非标O圈需求",
+          "required_updates": "补非标尺寸/截面、静动工况、装配与样件批准输入，连接原图纸和询价入口。"
+        },
+        {
+          "topic_id": "RQ-T-005",
+          "job": "评估微小件检测",
+          "required_updates": "补尺寸测量、取样、搬运/包装与装配确认问题；不填未验证最小尺寸、公差或100%视觉能力。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 12,
+          "job": "评估高压密封的材料硬度与挤出间隙",
+          "scope": "高压间隙、硬度与支承属密封件选型章节，移除井下适用和通用90A处方。",
+          "required_updates": "保留URL但降级专业参考；按装配间隙、支撑和验证条件写，不承诺井下合格或统一压力能力。"
+        },
+        {
+          "source_index": 54,
+          "job": "给工程机械防尘密封提出界面和磨耗要求",
+          "scope": "防尘接口、运动与磨耗需求归密封产品页，不宣称任意工程机械总成已验证。",
+          "required_updates": "围绕杆径、唇口、行程、灰尘、油液和样件验证重写，不用匿名混配或统一性能值回答防尘任务。"
+        },
+        {
+          "source_index": 60,
+          "job": "为气动密封记录启动力和粘滑工况",
+          "scope": "启动力和气动粘滑归动态密封选型，和69液压粘滑共用工况输入模块。",
+          "required_updates": "区分直线启动力和旋转扭矩，按停放、速度、载荷、润滑及对偶面定义测量，不发布通用配方处方。"
+        },
+        {
+          "source_index": 69,
+          "job": "排查液压密封的粘滑和摩擦测量条件",
+          "scope": "液压粘滑和摩擦评价归动态密封章节，与60合并工况清单。",
+          "required_updates": "最终统筹一个摩擦调查主文，区分启动与运动摩擦，写明对偶面、润滑、速度、负载和温度，撤掉牌号表。"
+        },
+        {
+          "source_index": 147,
+          "job": "为染整设备密封整理染液和清洗暴露",
+          "scope": "染液与清洗介质完整条件归密封件工况模块，不单建泛染整行业文章。",
+          "required_updates": "保留工业密封材料参考，收集完整染液/清洗剂及实际循环，不以pH或家族单项排名确认适用；不扩展染整整机供货。"
+        },
+        {
+          "source_index": 149,
+          "job": "为长期静压的水用阀密封定义验收与寿命证据",
+          "scope": "长期静压与阀接口密封需求归密封页，不宣称消防系统资格或寿命。",
+          "required_updates": "保留工业阀密封参考，区分水质/土壤、静压、保力、结构与试验；不承诺15年寿命、消防系统认可或未验证工厂数值。"
+        },
+        {
+          "source_index": 172,
+          "job": "为ATF接触动态密封整理运动与介质条件",
+          "scope": "ATF、运动与温度条件归密封页，不宣称自动变速器整机适用或材料普遍优选。",
+          "required_updates": "按具体ATF、界面、运动、温度、载荷和现有失效资料讨论，与123析出污染任务分开；不声称现有变速器项目合格。"
+        },
+        {
+          "source_index": 187,
+          "job": "为液冷快插O圈定义动作与装配验证",
+          "scope": "QD动作、装配和流体条件归密封件动态章节，液冷行业页作为上下文入口，不将释气等同析出。",
+          "required_updates": "全量后确定QD是否有独立任务与可用资料；若保留需从接口动作和样件验证写，不能只换标题沿用冷板稿，不自动301。"
+        },
+        {
+          "source_index": 211,
+          "job": "核对丁基胶O圈的材料与介质要求",
+          "scope": "丁基胶O圈作为指定材料需求的核对问题归密封页，不新增未确认丁基供货线。",
+          "required_updates": "仅在确有材料比较需求时重写丁基与应用条件，不新增未确认丁基量产产品线；不将FFKM表视为丁基性能或覆盖。"
+        },
+        {
+          "source_index": 212,
+          "job": "为耐高温O圈定义介质、温度历程和验证",
+          "scope": "耐高温词归密封页工况输入，与239/250共用模块，不留三个同义文章。",
+          "required_updates": "与239/250及现有材料页在全量后统筹耐温主任务，撤掉通用325°C/ppb/零失效，按实际条件和样件评价，不重复开泛词文章。"
+        },
+        {
+          "source_index": 213,
+          "job": "核对包覆O圈的结构与材料选项",
+          "scope": "包覆结构、截面和材料要求归密封页的图纸评审，不宣称既有包覆O圈工艺。",
+          "required_updates": "若保留采购比较需具体材料、结构和装配限制，不将其当现有包覆产品能力或自动等同FFKM；范围与事实先核对。"
+        },
+        {
+          "source_index": 222,
+          "job": "区分方截面密封圈与普通圆截面O圈要求",
+          "scope": "方截面与圆截面结构归密封图纸输入，不将Viton品牌名称证明现有SKU。",
+          "required_updates": "先核对客户所指截面与尺寸，不能自动等同X圈或给所有结构统一压缩率；品牌与候选零件分别验证。"
+        },
+        {
+          "source_index": 234,
+          "job": "区分批量O圈与胶料采购的交付对象",
+          "scope": "批量O圈与原胶料采购对象先由密封页分流，胶料需求连接外供页，不留Bulk模板文。",
+          "required_updates": "明确物料形态、图纸/胶料规格、数量和验证；分别连接密封件和胶料外供，不把bulk自动当原胶零售或承诺库存。"
+        },
+        {
+          "source_index": 235,
+          "job": "为EPDM O圈定义介质、尺寸和样件验收",
+          "scope": "EPDM O圈尺寸、流体和样件输入归密封页，材料性能解释连接EPDM页。",
+          "required_updates": "由EPDM材料与密封产品组织，只有独立选型问题才需要文章；不重复材料词和产品词主URL。"
+        },
+        {
+          "source_index": 239,
+          "job": "为高热工况O圈建立验证输入",
+          "scope": "与212/250同为耐热O圈任务，统一温度历程、介质和具体胶料评价输入。",
+          "required_updates": "全量后将同一耐温任务归一个主页面，保留日期和原URL处置，不把未来模板当新增覆盖。"
+        },
+        {
+          "source_index": 246,
+          "job": "为高压O圈明确压力历程和间隙支承",
+          "scope": "高压O圈的压力历程、间隙和支承归密封页，158在失效页讨论已发生挤出。",
+          "required_updates": "与158挤出/101压力脉冲及密封产品分工，不给家族统一耐压或只凭硬度选材，不重复未来泛词URL。"
+        },
+        {
+          "source_index": 250,
+          "job": "为耐热密封圈确认温度历程与配方测试",
+          "scope": "与212/239同一耐热任务，归密封页而不是按同义词保留三篇正文。",
+          "required_updates": "三类耐温叫法只对应一个清楚主任务或父页章节，保留旧URL处置；不以未来日期模板充当新覆盖。"
+        },
+        {
+          "source_index": 251,
+          "job": "明确Bonded O Ring所指的接合或复合结构",
+          "scope": "Bonded O Ring先核对拼接圈/组合垫/金属复合结构，密封页分流，避免默认宣传工艺。",
+          "required_updates": "先用图纸确定结构，区分接合圈、橡胶金属复合或客户其它定义；与橡胶金属页按实际任务连接，不凭词名推能力。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/products/rubber-to-metal-bonded-parts",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        13,
+        75,
+        80,
+        121,
+        144
+      ],
+      "topic_ids": [
+        "RQ-T-019",
+        "RQ-T-063"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-019",
+          "job": "评估硫化粘接件",
+          "required_updates": "补金属/表面、载荷方向、嵌件供料和样件接着评价，测试方法依代表性结构确认。"
+        },
+        {
+          "topic_id": "RQ-T-063",
+          "job": "评估机器人粘接件",
+          "required_updates": "补移动机构的载荷方向、预载/接口和样件要求；动态指标链接202，不用关节剥离图当整机疲劳资格。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 13,
+          "job": "为减振接着件明确回弹与耗能的评价方法",
+          "scope": "回弹、耗能和装配动态需求归粘接件产品页，机器人动态主文202进一步解释工况。",
+          "required_updates": "明确回弹试验与实际动态减振任务的差别，删零脱胶保证，链接接着件和测试页。"
+        },
+        {
+          "source_index": 75,
+          "job": "为云台减振件确定载荷与频率范围",
+          "scope": "云台载荷与频谱作为减振件评估输入，不保证无人机整机稳定效果。",
+          "required_updates": "保留小型减振件参考，要求质量、预压、频率、安装形状与环境验证；不宣称无人机项目认证或既有案例。"
+        },
+        {
+          "source_index": 80,
+          "job": "为船用减振支座区分盐雾、燃油与动态载荷",
+          "scope": "盐雾、柴油和动态载荷作为粘接件选型变量，去掉船用项目已验证暗示。",
+          "required_updates": "作为橡胶金属件应用参考保留，不承诺船级或既有船用供货；分别定义橡胶介质暴露、金属防腐、载荷频率与接着验证。"
+        },
+        {
+          "source_index": 121,
+          "job": "为橡胶金属件排查成型嵌件移位",
+          "scope": "嵌件定位与成型偏移归粘接件图纸评审，91负责界面失效，避免三篇泛接着文章重叠。",
+          "required_updates": "围绕嵌件定位、模具约束、流动、尺寸与过程对照排查，去掉通用工艺处方和全量检验；接着试验与位置验收分别定义。"
+        },
+        {
+          "source_index": 144,
+          "job": "为高速实验设备减振件整理材料与动态要求",
+          "scope": "高速设备的载荷、频率和装配评价归减振件产品页，不宣称实验室离心机整机能力。",
+          "required_updates": "纠正HNBR材料解释；实验设备小型减振可作参考，但不能由牌号家族证明整机平衡、安全或医疗资格，需动态及接口输入。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
+      "target_kind": "existing_article",
+      "primary_source_index": 14,
+      "contributing_source_indices": [
+        14,
+        166
+      ],
+      "topic_ids": [
+        "RQ-T-043"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-043",
+          "job": "外供试料验证",
+          "required_updates": "落实现有开发稿，并明确外供试料在客户接收/成型过程的评价输入，不能由实验室合格自动推客户工艺通过。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 14,
+          "job": "准备非标准胶料开发需求和验收条件",
+          "scope": "保留定制配方开发的采购输入与验证主文，与外供页交付规格分工。",
+          "required_updates": "按工况输入、已有指定材、试料、放行与责任组织开发流程，全部去掉无来源自有基准数字。"
+        },
+        {
+          "source_index": 166,
+          "job": "为定制胶料开发约定技术输入与验证计划",
+          "scope": "定制开发与14同一采购任务，14已有本地稿；移除14天固定开发保证。",
+          "required_updates": "与14统一开发主文并保留旧URL处置记录，撤掉固定研发时效和不明性能表；按需求、样件、方法及双方责任确认时间。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/resources/material-compatibility",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        17,
+        85,
+        108,
+        131,
+        138,
+        162,
+        178,
+        193,
+        223,
+        240,
+        243,
+        253,
+        265
+      ],
+      "topic_ids": [
+        "RQ-T-030",
+        "RQ-T-048"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-030",
+          "job": "比较介质适配",
+          "required_updates": "补EPDM/FKM比较的完整介质、配方、温度与试验条件；蒸汽细节可由132重写支持，不给家族总排名。"
+        },
+        {
+          "topic_id": "RQ-T-048",
+          "job": "准备介质兼容性数据",
+          "required_updates": "补混合物、浓度、添加剂/清洗、温压/时间、试样及物性/功能变化；不做所有化学品泛绿灯图表。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 17,
+          "job": "为CIP多介质清洗确定密封评价条件",
+          "scope": "CIP多介质与清洗循环归兼容性页的工况清单，不承诺食品接触资格。",
+          "required_updates": "按完整CIP循环、每段介质和实际配方试验重写；不宣传食品或乳品资质。"
+        },
+        {
+          "source_index": 85,
+          "job": "为含H2S工况区分金属标准与弹性体评价",
+          "scope": "含H2S介质与弹性体评价归兼容性页，区分金属标准范围，不宣传NACE认证胶料。",
+          "required_updates": "明确金属标准范围，不将其当橡胶合格证；弹性体需客户指定介质、压力、温度、时间和评价协议，与第72/93篇RGD任务分工。"
+        },
+        {
+          "source_index": 108,
+          "job": "按具体溶剂而非极性标签筛选密封胶料",
+          "scope": "溶剂完整组成与暴露条件归兼容性主入口，不使用极性作为通用材料选择定律。",
+          "required_updates": "以实际化学品、混合物、浓度、温度和配方资料筛选，保留极性作为解释线索，不当成选择规则；与材料兼容性父页分工。"
+        },
+        {
+          "source_index": 131,
+          "job": "为EV冷却密封比较具体FKM与NBR候选",
+          "scope": "EV的FKM/NBR比较归中性兼容性输入，不宣称FKM普遍替代NBR；行业页连接条件。",
+          "required_updates": "与0/70等冷却内容统筹主文，按实际冷却液及配方数据比较，不预设FKM替代NBR为趋势或通用答案。"
+        },
+        {
+          "source_index": 138,
+          "job": "为高温油接触场景比较AEM与ACM胶料",
+          "scope": "保留AEM/ACM的材料比较输入并链接已规划材料页，移除未确认涡轮胶管应用承诺。",
+          "required_updates": "不扩展大胶管获客或AEM/ACM商业页面；保留URL范围记录，若作材料参考须具体油液、牌号和测试依据。"
+        },
+        {
+          "source_index": 162,
+          "job": "为湿热环境下的聚氨酯损伤提出材料核对",
+          "scope": "聚氨酯湿热损伤作为材料验证参考归兼容性页，不将未确认聚氨酯制造列为服务。",
+          "required_updates": "保留条件明确的湿热材料参考，需实际聚合物牌号、配方、时间/温湿度与功能要求，不新增未确认PU商业入口。"
+        },
+        {
+          "source_index": 178,
+          "job": "为未知混合介质的密封整理成分与试验需求",
+          "scope": "未知混合介质的成分与试验需求归兼容性页，10负责试验报告，避免预测统一寿命。",
+          "required_updates": "与108及10统筹，先明确可提供的介质/混合物信息、温度、时间和对照测试，不以单次溶胀或家族排名保证寿命。"
+        },
+        {
+          "source_index": 193,
+          "job": "为EV热管理按完整介质和条件比较HNBR与FKM",
+          "scope": "HNBR/FKM的完整冷却介质比较归兼容性页，移除软管产品与普遍优选承诺。",
+          "required_updates": "保留材料比较与RFQ资料部分，改为具体流体、配方及试验条件；去掉大胶管供货暗示、固定研发时效、通用家族优先级和贬低同行的tier叙事。"
+        },
+        {
+          "source_index": 223,
+          "job": "比较聚氨酯与现有胶料的实际采购条件",
+          "scope": "聚氨酯与橡胶比较归材料兼容性条件讨论，不宣称现有聚氨酯制造或全家族优劣。",
+          "required_updates": "如保留只作条件明确材料比较，关联162湿热问题，不新增未经确认PU商业线或承诺FFKM表属于PU。"
+        },
+        {
+          "source_index": 240,
+          "job": "为耐化学介质O圈整理完整暴露条件",
+          "scope": "耐化学O圈的完整介质和暴露条件归兼容性页，连接密封采购，不提供通用耐化学保证。",
+          "required_updates": "与108/178兼容性主任务统筹，按介质和试验数据判断，不给所有O圈统一耐化学保证或通用温区。"
+        },
+        {
+          "source_index": 243,
+          "job": "明确所谓Teflon替代的原材料和功能要求",
+          "scope": "所谓Teflon替代先核对原料、几何与功能，归兼容性页，不宣称PTFE通用等效。",
+          "required_updates": "按原规格与实际功能比较，区别商品名称、材料与成品；不声称通用替代、授权或等效，未确认加工路线不作供货宣传。"
+        },
+        {
+          "source_index": 253,
+          "job": "为汽油接触橡胶明确完整燃料和暴露条件",
+          "scope": "汽油完整成分、温度和暴露归兼容性页，不用材料家族或品牌名保证燃料适配。",
+          "required_updates": "按燃料规格/混合物与实际试验评价，和10油胀及FKM/NBR任务分工；不作全家族耐汽油或寿命保证。"
+        },
+        {
+          "source_index": 265,
+          "job": "为特定FKM品牌牌号核对实际介质",
+          "scope": "特定品牌牌号的介质问题归中性兼容性页，连接FKM资料，不借品牌家族保证全介质。",
+          "required_updates": "按具体牌号/介质测试说明，结合FKM与兼容性父页；避免把品牌家族直接当全部耐介质结论。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/products/bellows",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        20
+      ],
+      "topic_ids": [
+        "RQ-T-016"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-016",
+          "job": "准备波纹管行程图",
+          "required_updates": "补压缩/伸长、侧移/扭转、两端夹持、安装包络、介质和样件验收字段。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 20,
+          "job": "评估泵用保护靴的材料、安装与运动条件",
+          "scope": "泵用保护靴是波纹管接口、介质、运动要求的例子，产品页承接，196解释联合评估。",
+          "required_updates": "以保护靴实际功能和全行程、固定界面、泵介质、验证来写；材料只作候选，不泛化NBR水解与FKM万能结论。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/materials/lsr",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        22
+      ],
+      "topic_ids": [
+        "RQ-T-040"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-040",
+          "job": "评估工艺适配",
+          "required_updates": "补两种供料/加工路线需评审的几何、材料与批量条件，具体项目可用性另确认。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 22,
+          "job": "为微流控密封件确定尺寸、流体与试样条件",
+          "scope": "微流体尺寸、介质与样件输入收进LSR材料页，避免把实验室用途推成医疗资质。",
+          "required_updates": "改成微型成形密封的需求清单，明确LSR是加工材料路线，逐一核对接触流体；不宣传医疗资质。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/quality",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        30,
+        33,
+        87,
+        117,
+        118,
+        125,
+        152,
+        154,
+        155,
+        156,
+        175,
+        184,
+        195
+      ],
+      "topic_ids": [
+        "RQ-T-052"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-052",
+          "job": "评估制造商可信度",
+          "required_updates": "补证书/范围、记录/批次、量测、变更及问题闭环的索取清单，不把体系当每个零件通过。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 30,
+          "job": "判断供应商如何把风险要求落实到检验与过程记录",
+          "scope": "风险、关键特性与控制记录归质量页；PPAP和追溯分别链接199与182。",
+          "required_updates": "以图纸关键特性、失效风险、检验控制和变更记录的示例结构重写；示例注明非实际客户案例，去掉性能保证。"
+        },
+        {
+          "source_index": 33,
+          "job": "准备汽车客户所需的材料申报信息与职责",
+          "scope": "材料申报与IMDS职责归质量页资料准备模块，不承诺所有项目均有现成申报。",
+          "required_updates": "改为客户要求、材料数据、责任和文件版本的准备清单；没有实际申报回执不声称已提交或获批。"
+        },
+        {
+          "source_index": 87,
+          "job": "把橡胶关键特性转为可执行的控制计划",
+          "scope": "控制计划的特性、方法、责任与反应安排归质量页，链接SPC269和8D88。",
+          "required_updates": "围绕精密件关键特性、工序、量测、频次、判据与异常处置，区分客户要求和已证实实践；不把大胶管当主产品。"
+        },
+        {
+          "source_index": 117,
+          "job": "为客户材料来源调查准备CMRT所需资料",
+          "scope": "客户材料来源调查与CMRT资料责任归质量页，不作无证据伦理结果保证。",
+          "required_updates": "保留供应商资料任务，按客户范围、材料清单和上游回应整理，核实具体版本和声明主体；删除未证实配方替代、法律符合性及审计承诺。"
+        },
+        {
+          "source_index": 118,
+          "job": "为橡胶库存约定储存、标识与复验要求",
+          "scope": "成品储存标识、期限依据和复验责任归质量页，与生胶外供储存分开，不留两篇货架期文。",
+          "required_updates": "以材料/制件、包装、储存条件、期限来源、批次及复验责任组织；删除未经验证的仓库控制和通用标准限值，具体期限按适用资料核对。 已核对ISO公开2026版范围，成品储存与生胶储存需区分；不自动改变合同版次。"
+        },
+        {
+          "source_index": 125,
+          "job": "为采购方提供环境体系与项目环境资料",
+          "scope": "环境体系证书与项目所需环境资料归质量页，不把ISO14001当产品环保结果。",
+          "required_updates": "保留环境管理主题，分开体系范围、客户材料要求和有记录的项目数据；删除未证实回收配方、减排/节能比率和绝对承诺。"
+        },
+        {
+          "source_index": 152,
+          "job": "为德国客户过程审核准备橡胶制造证据",
+          "scope": "客户过程审核目标和证据准备归质量页，不将VDA6.3配合写为已获认证。",
+          "required_updates": "保留客户审核资料任务，按适用要求、过程链和可提供记录组织，删除未经证实通过/符合暗示及无关材料表。"
+        },
+        {
+          "source_index": 154,
+          "job": "区分管理体系证书与橡胶项目的材料要求",
+          "scope": "ISO9001/IATF体系与项目验证的区分归质量页，与30/195统一成供应商评价模块。",
+          "required_updates": "以体系适用范围、客户项目要求、记录和批准区分，不由证书推出材料温区、通用测试值或每项目必需提交等级。"
+        },
+        {
+          "source_index": 155,
+          "job": "核对环境体系与制造环境数据的对应证据",
+          "scope": "与125相同环境体系任务归质量页，不为同一证书保留两个环保叙事文章。",
+          "required_updates": "与125统一环境主题主文，在已确认体系之外仅列有记录的项目数据；撤掉百分比、设备和全批清洁等未证实承诺。"
+        },
+        {
+          "source_index": 156,
+          "job": "为库存密封件整理储存条件与臭氧损伤排查",
+          "scope": "与118统一成品储存和复验资料，和生胶料储存分开，不建立统一货架期。",
+          "required_updates": "与118及44统筹储存主文，纠正材料解释，按成品条件、包装、标识和复验责任讨论，不承诺添加剂就满足任意寿命。"
+        },
+        {
+          "source_index": 175,
+          "job": "为出口零件准备材料法规声明和试验范围",
+          "scope": "法规对象、声明和测试范围归质量页，不作全产品通用REACH/RoHS保证。",
+          "required_updates": "回到具体零件/配方、适用范围、版本日期、供应链声明和客户所需证据，不给胶种统一合规等级；删除未经确认的EV电弧具体应用。"
+        },
+        {
+          "source_index": 184,
+          "job": "为多年供货约定配方识别、变更和记录要求",
+          "scope": "长期配方识别、变更通知和资料留存归质量页，与182批次链分工，不承诺固定年限。",
+          "required_updates": "与182区分批次追溯和变更/长期资料任务，不把建议保管年限或合同选项写成普遍义务、已执行承诺；按客户范围确认变更、记录及样品留存，删除设备历史和成本/寿命保证。"
+        },
+        {
+          "source_index": 195,
+          "job": "评估体系纪律如何支撑精密件重复供货",
+          "scope": "体系纪律与项目证据归质量页，合并30/154；去掉内部定位口吻和同行比较。",
+          "required_updates": "保留买方问题和已确认两厂区/混炼/检测事实，改内部定位句为客户需求，不把体系推成所有零件或项目已通过；与154区分体系比较任务。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/testing",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        31,
+        56,
+        180
+      ],
+      "topic_ids": [
+        "RQ-T-045",
+        "RQ-T-058",
+        "RQ-T-060"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-045",
+          "job": "评估批次报告",
+          "required_updates": "补胶料/样品/方法版次、调节/温度/时间、单位、结果与判据，区分实测、典型值和限值。"
+        },
+        {
+          "topic_id": "RQ-T-058",
+          "job": "选择验证方法",
+          "required_updates": "补材料试样/浸泡与装配泄漏/循环的独立目标、样件状态和客户判据，特殊测试可讨论但不宣称全部自有能力。"
+        },
+        {
+          "topic_id": "RQ-T-060",
+          "job": "制定热循环验证",
+          "required_updates": "补上下限/驻留/转换、介质/压力/加载、样件和失效判据，不列未验证设备范围或统一周期寿命。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 31,
+          "job": "为部件清洁度确定取样、颗粒要求与报告",
+          "scope": "清洁度取样和颗粒判据归测试页项目讨论，不宣称特定清洁等级或每批检测。",
+          "required_updates": "以买方清洁度要求及可用检测安排为中心，无具体试验不承诺工厂清洁等级；精确牌号引用需确认。"
+        },
+        {
+          "source_index": 56,
+          "job": "核对供应商的测量设备与校准证据",
+          "scope": "仪器编号、校准范围和有效期归测试页；89独立讨论重复性与再现性。",
+          "required_updates": "以仪器编号、校准范围、有效期、报告条件与客户要求的资料清单重写；去掉固定周期和精度承诺。"
+        },
+        {
+          "source_index": 180,
+          "job": "为材料与零件评价确认实验室项目和报告",
+          "scope": "实验室评价项目、方法和报告条件归测试页，不凭文章列表声明具体设备或资质。",
+          "required_updates": "保留已确认自有检测事实，具体项目/设备/方法以可提供资料为准；与56校准及89MSA分工，删除自有配方数据和实验室认证暗示。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/capabilities/rubber-molding",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        34,
+        37,
+        41,
+        43,
+        61,
+        86,
+        94,
+        99,
+        102,
+        163,
+        164,
+        167,
+        179,
+        181,
+        192,
+        237
+      ],
+      "topic_ids": [
+        "RQ-T-011",
+        "RQ-T-012"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-011",
+          "job": "采购比较",
+          "required_updates": "补工艺适配、过程记录、量测/检测和试模问题；以真实工厂证据支撑，不贬低外购胶料同行。"
+        },
+        {
+          "topic_id": "RQ-T-012",
+          "job": "选择成型路线",
+          "required_updates": "补几何、胶料、嵌件、型腔、量产和验收条件比较，项目工艺可用性另确认。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 34,
+          "job": "在模压件图纸上理解并约定M2级公差",
+          "scope": "M2与图纸尺寸公差归成型能力页，标准版次及具体要求按项目约定。",
+          "required_updates": "以尺寸区间、图纸指定和检验条件组织；不凭一个等级承诺所有零件同公差，不使用未经核对的标准表格数值。"
+        },
+        {
+          "source_index": 37,
+          "job": "为模压件接合线缺陷确定调查与试验方案",
+          "scope": "接合线缺陷归成型可制造性与试模章节，不另保留泛缺陷模板文。",
+          "required_updates": "改成流动路径、排气、配方硫化窗口、取样和缺陷位置调查；不给可直接照抄的未经验证工艺参数。"
+        },
+        {
+          "source_index": 41,
+          "job": "为模具表面和脱模确定外观与制造要求",
+          "scope": "模具表面与脱模要求归可制造性评审章节，不宣传固定最佳光洁度。",
+          "required_updates": "围绕外观区域、纹理样板、脱模方向、清洁/脱模剂限制和样件试验，不替所有胶种给统一粗糙度结论。"
+        },
+        {
+          "source_index": 43,
+          "job": "在图纸中约定顶针印与脱模外观要求",
+          "scope": "顶针印与外观约定归图纸/模具评审章节，不把无痕作为通用制造承诺。",
+          "required_updates": "删除开场内部语句和无依据配方数字，围绕功能面/外观面、标注位置、样板和检验方法重写。"
+        },
+        {
+          "source_index": 61,
+          "job": "排查模具结垢并减少清理对生产的影响",
+          "scope": "模具结垢与清理记录归成型过程异常模块，删除配方修改即可消除停机的暗示。",
+          "required_updates": "收集模次、残留位置、材料批次、硫化窗口、模具与清洁记录，基于对照试验判断，不默认换FKM。"
+        },
+        {
+          "source_index": 86,
+          "job": "在开模前整理橡胶零件失效风险与验证计划",
+          "scope": "开模前风险、关键特性与验证计划归成型评审章节，质量页承接控制记录。",
+          "required_updates": "依据风险分析的公开定义重写，提供不冒充客户案例的功能-失效-原因-预防/检测-验证思路，链接图纸评审及测试，去掉牌号保证。"
+        },
+        {
+          "source_index": 94,
+          "job": "排查厚壁模压橡胶内部空洞",
+          "scope": "内部空洞的样件位置与工艺记录归成型异常章节，不承诺无空洞通用窗口。",
+          "required_updates": "按空洞形态/位置、批次、工艺记录、模具排气和成型条件整理排查，不以EPDM家族替代过程验证；与第99篇欠注分工。"
+        },
+        {
+          "source_index": 99,
+          "job": "排查复杂橡胶件欠注并确定试模记录",
+          "scope": "欠注的几何、投料与试模记录归成型异常模块，与37/94不重复模板文章。",
+          "required_updates": "围绕缺料形态、流道/排气、投料量、胶料状态和成型记录，采用受控试模确认，不承诺消除变异；与第94篇内部空洞区分。"
+        },
+        {
+          "source_index": 102,
+          "job": "调查硫化后表面发粘的批次与工艺条件",
+          "scope": "硫化后发粘归成型/硫化调查模块，区分包装后粘连42，不预设过氧化物抑制原因。",
+          "required_updates": "删除通用配方/设备处方，先核对胶料、硫化环境、表面污染、过程曲线与对照样件；具体改动由实际工艺验证。"
+        },
+        {
+          "source_index": 163,
+          "job": "为注射焦烧问题检查胶料与成型窗口",
+          "scope": "焦烧与胶料/工艺窗口归成型异常模块，与51混炼硫化资料互链。",
+          "required_updates": "以胶料批次、储存、过程温度、停留和曲线记录确定窗口，和51/102硫化问题分工；撤掉家族排名与绝对防止承诺。"
+        },
+        {
+          "source_index": 164,
+          "job": "调查精密模压件重量与充填差异",
+          "scope": "重量与充填差异归成型批次调查，明确重量不能单独证明全部尺寸合格。",
+          "required_updates": "定义净重/飞边、胶料密度、投料与型腔/工艺对照，记录量测和取样；不能由重量单项推出体积分布或密封性能。"
+        },
+        {
+          "source_index": 167,
+          "job": "为精密模压件评审浇口与材料利用",
+          "scope": "浇口、充填、外观与材料利用归可制造性评审，不单独承诺最低废料率。",
+          "required_updates": "围绕几何、浇口/分型位置、充填/排气、胶料和试模记录组织；材料利用按可测量的浇道/飞边/净件比较，不给通用省料保证。"
+        },
+        {
+          "source_index": 179,
+          "job": "为分型线错位核对模具和过程证据",
+          "scope": "分型错位与模具/过程证据归成型异常模块，不自动判定模具磨损是唯一原因。",
+          "required_updates": "关联160/83飞边验收，按错位位置、模具定位、型腔和工艺记录调查，改钢材或配方须实际试验；撤掉设备精度与洁净等级保证。"
+        },
+        {
+          "source_index": 181,
+          "job": "核对预成型投料的尺寸重量与追溯要求",
+          "scope": "预成型投料、重量和识别要求归成型能力页，避免未确认设备型号和自动精度承诺。",
+          "required_updates": "与64计量及164重量任务分工，按胶料、投料形状/重量、成型和量测记录组织，具体设备/精度/加热方案须实际证据。"
+        },
+        {
+          "source_index": 192,
+          "job": "核对未来日期通用模压文章的实际内容归属",
+          "scope": "泛材料/成型模板归现有成型页，撤掉虚构图表与多应用通用优选，不保留新模板URL。",
+          "required_updates": "保留日期/URL/源版本，按实际正文核对范围与同文组；不把未来记录等同已上线，不静默改日期或沿用未确认高压内容。"
+        },
+        {
+          "source_index": 237,
+          "job": "为精密模压项目评审图纸、材料和工艺",
+          "scope": "Rubber Molding核心商业词归成型能力页，与192同类泛模板统一，不另留同义文章。",
+          "required_updates": "由成型能力父页承担商业任务，现有欠注/飞边/焦烧参考支撑工程问题；不再用泛工艺词复制FFKM文章。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/products/gaskets",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        35,
+        74,
+        101,
+        120,
+        143,
+        170,
+        227,
+        236,
+        252,
+        255,
+        257
+      ],
+      "topic_ids": [
+        "RQ-T-006",
+        "RQ-T-007",
+        "RQ-T-009"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-006",
+          "job": "形成可报价需求",
+          "required_updates": "补法兰/间隙/止挡、介质、装配、图纸与数量清单，表单来源保留。"
+        },
+        {
+          "topic_id": "RQ-T-007",
+          "job": "比较工艺路线",
+          "required_updates": "补两种路线需评审的结构/材料/批量/边缘要求，具体切片供货可用性按项目确认。"
+        },
+        {
+          "topic_id": "RQ-T-009",
+          "job": "准备箱体垫片工况",
+          "required_updates": "补气候/粉尘/清洗、箱体接口、压缩和总成验收，区分胶料性能与IP/整机测试。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 35,
+          "job": "为垫片与连接件做尺寸链和压缩条件评估",
+          "scope": "尺寸链和压缩条件归垫片产品页；40解释过压缩失效，两者不重复覆盖。",
+          "required_updates": "去掉通用公差承诺，分别列配合件、垫片厚度、公差和压缩止挡输入；用非量产承诺的示意算例。"
+        },
+        {
+          "source_index": 74,
+          "job": "为户外逆变器垫片定义气候与寿命要求",
+          "scope": "户外气候和箱体接口归垫片页，删除20年通用寿命；行业示例不单建文章。",
+          "required_updates": "保留箱体垫片任务，按密封结构与气候试验组织，撤掉20年保证及材料家族否定；与第6篇户外EPDM分工。"
+        },
+        {
+          "source_index": 101,
+          "job": "为压力脉冲工况定义密封结构与循环评价",
+          "scope": "压力脉冲、接口和装配载荷归垫片页的验证条件，不单列无数据压力设计处方。",
+          "required_updates": "以压力历程、间隙、支承、压缩、介质和循环条件组织，不给胶种通用耐压/寿命，也不以ISO16232证明洁净室。"
+        },
+        {
+          "source_index": 120,
+          "job": "调查EMI垫片温循后的导电和接触变化",
+          "scope": "EMI垫片温循、接触与电性评价归垫片页要求模块，不宣传已验证EMI产品族。",
+          "required_updates": "与源索引107统筹导电参考主文，区分体积电阻、接触电阻和总成屏蔽，待供货与试验资料确认，不自动扩展EMI能力。"
+        },
+        {
+          "source_index": 143,
+          "job": "为变压器油接触垫片明确介质和接口要求",
+          "scope": "油品、温度和接口要求归垫片页，不枚举已验证高压套管应用或电气等级。",
+          "required_updates": "保留工业垫片材料参考，收集具体绝缘油、温度、压缩、接口和客户试验；不转为EV高压应用案例或宣称电气/系统认证。"
+        },
+        {
+          "source_index": 170,
+          "job": "为海上设备接口密封明确盐水与气候要求",
+          "scope": "盐水、户外和界面要求归垫片页，不宣称海上风电特定部件已验证。",
+          "required_updates": "保留工业接口密封参考，需尺寸/结构、盐水、温度、安装和验证条件，不把一般EPDM能力外推到风机项目供货。"
+        },
+        {
+          "source_index": 227,
+          "job": "核对CR胶片在工业垫片中的材料要求",
+          "scope": "CR胶片的图纸、厚度与用途归垫片采购输入，不新增CR卷材标准库存承诺。",
+          "required_updates": "不默认胶片是零售噪声；如有工业任务可作材料参考，具体形态与供货待核实，不新增CR胶片生产承诺。"
+        },
+        {
+          "source_index": 236,
+          "job": "为工业胶片/垫片选择合适的供货形式",
+          "scope": "胶片与成品垫片的交付形态归垫片页，与252/257合并，不开胶板零售栏目。",
+          "required_updates": "先明确工业成品/胶料/片材形态与客户验收，不将所有胶片归噪声或当已确认批量胶板能力；与227/229/231统筹。"
+        },
+        {
+          "source_index": 252,
+          "job": "为工业薄胶片明确厚度、表面和验收",
+          "scope": "薄胶片厚度、表面和成品要求归垫片页，与236/257共享供货形态模块。",
+          "required_updates": "与231/236等片材任务统筹，核对工业用途及实际供货条件，不把胶料外供等同任意硫化胶片生产。"
+        },
+        {
+          "source_index": 255,
+          "job": "为工业垫片材料整理界面和介质输入",
+          "scope": "垫片材料、界面与介质输入归产品页，连接兼容性和过压缩主文40。",
+          "required_updates": "由垫片产品和材料兼容性组织，结合装配/温压与验收；不将材料泛词模板算新的采购覆盖。"
+        },
+        {
+          "source_index": 257,
+          "job": "为胶垫片板材明确材料、厚度与成品形式",
+          "scope": "胶垫片板材归垫片页交付形态，与236/252合并，避免库存与切割能力推断。",
+          "required_updates": "工业板材与切件需求可讨论，但实际形态/材料/供货需核实；统一片材任务，不复制造未来主URL。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/resources/seal-failure-analysis",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        36,
+        39,
+        42,
+        45,
+        58,
+        62,
+        67,
+        72,
+        90,
+        92,
+        93,
+        95,
+        123,
+        158,
+        159,
+        161
+      ],
+      "topic_ids": [
+        "RQ-T-049"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-049",
+          "job": "组织失效调查",
+          "required_updates": "补安装/介质/机械/温度记录和未用对照样件，链接具体裂纹、挤出、压缩和接着调查，不杜撰根因或案例。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 36,
+          "job": "从磨损形貌与使用记录排查动态密封失效",
+          "scope": "动态磨耗作为失效资源页的调查分支，记录工况与形貌，不以家族材料表替代根因。",
+          "required_updates": "保留排查任务，按对偶面、颗粒、速度、润滑和温度收集证据；无报告的牌号数字删除，不直接判定更换HNBR。"
+        },
+        {
+          "source_index": 39,
+          "job": "排查橡胶与塑料接触导致的迁移或染色",
+          "scope": "橡胶对邻接塑料的迁移染色归失效页，与123的流体析出按接触对象区分。",
+          "required_updates": "保留URL，加入材料对、清洁、温湿度、接触时间与对照件调查；删除零迁移保证。"
+        },
+        {
+          "source_index": 42,
+          "job": "排查袋装胶件粘连并确定包装和表面限制",
+          "scope": "包装粘连调查归失效页，和102硫化后发粘按发生阶段区分。",
+          "required_updates": "以样品、存放史、批次和允许表面处理调查，任何后处理先经材料/应用验证，不发布通用操作处方。"
+        },
+        {
+          "source_index": 45,
+          "job": "排查邻近金属腐蚀与胶料/环境的关系",
+          "scope": "邻接金属腐蚀归失效调查页的环境与接触证据，不预判胶料是唯一根因。",
+          "required_updates": "保留调查路径并补金属/涂层、残留、环境和空白对照，先调查再选材料，删除防腐保证。"
+        },
+        {
+          "source_index": 58,
+          "job": "降低密封件装配划伤并整理失效证据",
+          "scope": "装配切伤与证据采集归失效页，区别于材料本体老化和过压缩。",
+          "required_updates": "回到损伤位置、组装顺序、工具和界面检查；材料性能需具体配方数据，不默认改用FKM。"
+        },
+        {
+          "source_index": 62,
+          "job": "分析高变形部件断裂的起点与加载条件",
+          "scope": "高变形断裂起点与加载记录归失效页；9提供拉伸报告的测量背景。",
+          "required_updates": "和第9篇曲线解释分工；本页聚焦实际损伤、载荷路径、几何过渡和原样对比，不以拉断伸长代替允许工作应变。"
+        },
+        {
+          "source_index": 67,
+          "job": "排查增塑剂迁移与储存后脆化",
+          "scope": "增塑剂迁移与脆化归失效页，按接触、储存和试样调查，不预设单一原因。",
+          "required_updates": "与第39篇染色和第44篇硬度漂移分工，本页聚焦迁移/抽出线索与原样比较，去掉家族保证。"
+        },
+        {
+          "source_index": 72,
+          "job": "为高压气体密封准备减压历史与试验要求",
+          "scope": "高压气体减压损伤统一归失效页减压分支，93不另作相同主文。",
+          "required_updates": "聚焦客户数据与具体配方RGD评价，删除通用高含氟就抗RGD结论，不承诺海底合格供货。"
+        },
+        {
+          "source_index": 90,
+          "job": "用失效形貌区分O圈扭转与快速减压损伤",
+          "scope": "扭转与减压两种机制放入失效页分支，避免用一篇泛失败模板重复所有原因。",
+          "required_updates": "与第72/93篇统筹减压主文，本页仅在确有分工时做形貌鉴别入口；去掉家族免疫和通用等级，要求实际配方/样件评价。"
+        },
+        {
+          "source_index": 92,
+          "job": "识别橡胶表面白色析出物并评估对功能的影响",
+          "scope": "白色析出物鉴别与功能评价归失效页，区别于39染色及42粘连。",
+          "required_updates": "先区分表面残留、迁移与外来污染，通过使用/储存史、样品和检验判断，不给通用配方处方或保证不存在缺陷。"
+        },
+        {
+          "source_index": 93,
+          "job": "给高压气体密封定义快速减压评价输入",
+          "scope": "与72共用气体减压调查章节，不保留两篇同任务快速减压文。",
+          "required_updates": "全量对账后确定一个减压主文，保留原URL处置记录；按气体组分、压力历程、温度、样件与判据讨论，不承诺所有FKM耐ED。"
+        },
+        {
+          "source_index": 95,
+          "job": "区分橡胶摩擦异响的润滑与材料因素",
+          "scope": "异响、润滑剂和接触条件归失效页，与动态密封选型输入互链。",
+          "required_updates": "明确异响位置、运动、载荷、润滑、对偶面与可重复条件；在粘滑主文下明确噪声诊断分工，不默认换FKM。"
+        },
+        {
+          "source_index": 123,
+          "job": "调查胶料析出物与流体/传感器异常的关联",
+          "scope": "流体析出物、传感器影响与取样条件归失效页，与82真空释放按环境区分。",
+          "required_updates": "保留污染调查任务，按流体、对照样件、接触条件、提取物与功能测量建立证据链；不承诺所有FKM零析出，和39/67迁移任务分工。"
+        },
+        {
+          "source_index": 158,
+          "job": "排查O圈在间隙处被挤出的结构与工况",
+          "scope": "挤出位置、间隙和压力历史归失效页分支；96提供设计输入而非故障结论。",
+          "required_updates": "回到实际间隙、公差、硬度/配方、支承环与介质温压，材料和结构一起验证，不给胶种通用耐压或默认换FKM。"
+        },
+        {
+          "source_index": 159,
+          "job": "区分低温玻璃化与高温老化失效",
+          "scope": "低温脆化与温度历程归失效页，8解释试验指标，不把Tg当通用工作温度。",
+          "required_updates": "删除未证实客户案例，区分测量定义、低温动态功能与高温老化；按实际温度历程、应力和样品证据判断，不由单一Tg推出工作上下限。"
+        },
+        {
+          "source_index": 161,
+          "job": "区分臭氧表面裂纹与介质或机械损伤",
+          "scope": "臭氧裂纹与介质/机械损伤归失效页环境分支，不由照片单独确认根因。",
+          "required_updates": "以照片、应变状态、环境与接触史组织排查，材料参考与实际根因分开；与6及156统筹，不靠换胶种保证解决。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing",
+      "target_kind": "existing_article",
+      "primary_source_index": 82,
+      "contributing_source_indices": [
+        38,
+        82,
+        206
+      ],
+      "topic_ids": [
+        "RQ-T-026"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-026",
+          "job": "读懂出气数据条件",
+          "required_updates": "从牌号排名改为样品、预处理、真空/温度/时间、测量/沉积污染指标，删匿名释气表，不将一次测试代表全部真空系统。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 38,
+          "job": "为真空光学或半导体部件明确放气评价要求",
+          "scope": "真空与光学释气任务和82相同，82统一说明条件与污染判据；不保留两套无来源释气表。",
+          "required_updates": "按实际配方、清洗/后处理、真空温度、检测方法和污染限值写；与后续真空相关文章全量对账前不新建URL。"
+        },
+        {
+          "source_index": 82,
+          "job": "为光学腔体密封提出释气与污染评价要求",
+          "scope": "保留真空/光学污染与释气评价主文，统一38/206，与100气体透过和205等离子侵蚀分工。",
+          "required_updates": "保留精密密封任务，按压力、温度、时间、预处理、冷凝污染评价与客户判据重写；商品牌号不视为RubberQ已验证配方。"
+        },
+        {
+          "source_index": 206,
+          "job": "核对光刻真空密封的释气与洁净资料",
+          "scope": "光刻真空释气与82同任务，删除Class5设施和零释气承诺，不用侵蚀图充当释气结果。",
+          "required_updates": "区分材料释气、颗粒、包装与系统洁净级别；不把相同等离子稿当光刻覆盖，不承诺现有Class5设施或通用低释气。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/over-compression-when-tighter-is-not-better-for-gasket-performance",
+      "target_kind": "existing_article",
+      "primary_source_index": 40,
+      "contributing_source_indices": [
+        40
+      ],
+      "topic_ids": [
+        "RQ-T-008"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-008",
+          "job": "确认压缩和法兰条件",
+          "required_updates": "用闭合量、止挡、槽深、公差和使用条件重写，区分尺寸恢复、保力和泄漏，不给固定压缩率。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 40,
+          "job": "区分垫片过压缩与材料失效",
+          "scope": "保留垫片过压缩的工程解释主文，与垫片页采购输入及96的O圈沟槽计算分工。",
+          "required_updates": "用实际厚度、公差链、夹紧和压缩止挡判断，不把换材料当默认答案，链接失效指南。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/resources/rubber-hardness-guide",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        44,
+        109,
+        214
+      ],
+      "topic_ids": [
+        "RQ-T-046",
+        "RQ-T-047"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-046",
+          "job": "制定硬度验收",
+          "required_updates": "补标尺/方法、试样厚度/形状、调节与测量时点，不填所有件统一硬度公差或未验证设备精度。"
+        },
+        {
+          "topic_id": "RQ-T-047",
+          "job": "避免换算替代实测",
+          "required_updates": "补不同标尺不能代替规定方法实测的说明，具体换算数据需可靠来源，不生造通用A/D对应表。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 44,
+          "job": "核对储存后硬度漂移及重新评价要求",
+          "scope": "储存后硬度变化归硬度指南，连接成品储存与重测条件，不宣称自动延寿。",
+          "required_updates": "按存储批次、原样、调节与测量方法、功能复检组织；与后续储存寿命文章核对归属，不把漂移幅度写成材料保证。"
+        },
+        {
+          "source_index": 109,
+          "job": "在硬度规格中明确Shore标尺与测量条件",
+          "scope": "Shore标尺、试样与读数条件由硬度指南统一说明，接收214的品牌硬度疑问。",
+          "required_updates": "按图纸标尺、测量方法、试片/零件形状厚度与条件讨论，不能直接转换或以硬度测交联密度；删未验证设备/校准公差承诺。"
+        },
+        {
+          "source_index": 214,
+          "job": "为FKM品牌牌号O圈明确硬度标尺与试验",
+          "scope": "品牌牌号硬度问题归硬度指南，保留标尺与试样条件，不借品牌证明自有配方。",
+          "required_updates": "与109及硬度父页统筹，区分品牌、具体配方和测量条件，删除未经证实高纯/释气/325°C数据，不宣传未经核实品牌供货或等效性。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+      "target_kind": "existing_article",
+      "primary_source_index": 182,
+      "contributing_source_indices": [
+        46,
+        126,
+        182
+      ],
+      "topic_ids": [],
+      "topic_requirements": [],
+      "buyer_jobs": [
+        {
+          "source_index": 46,
+          "job": "向供应商确认材料批次到出货的追溯记录",
+          "scope": "与182同为批次到出货追溯，182已有更完整买方问题和本地稿，作为统一主文。",
+          "required_updates": "改成材料批次、混炼、工单、检验、包装、出货的关联字段和客户可请求资料；与182/184等追溯文章待全量对账。"
+        },
+        {
+          "source_index": 126,
+          "job": "核对橡胶批次在制造流程中的识别与追溯",
+          "scope": "条码识别和物料流转属于批次追溯链，合并入182，不另留同任务ERP文章。",
+          "required_updates": "以已确认ERP追溯讲批次、原料/工序/放行记录关联，具体载体和扫码点需实际资料；与其它追溯主题在全量后统筹。"
+        },
+        {
+          "source_index": 182,
+          "job": "核对来料到出货记录能否支撑重复订单调查",
+          "scope": "保留材料到出货的批次追溯主文，合并46/126；长期变更资料184归质量页另一个模块。",
+          "required_updates": "保留主体和原URL，收敛同行评价与结果暗示，明确所需记录按客户要求确认；与126/184分工后可作为批次追溯主文候选，不先计覆盖。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/about",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        47
+      ],
+      "topic_ids": [],
+      "topic_requirements": [],
+      "buyer_jobs": [
+        {
+          "source_index": 47,
+          "job": "了解RubberQ背景并准备供应商资格评估",
+          "scope": "公司历史与中日合作背景归About，保留两句Slogan与1995事实，避免博客重复品牌介绍。",
+          "required_updates": "保持历史slug不改；按事实库收敛绝对化与设备主张，行业改新顺序，链接about/factory/quality，不将此文当技术词覆盖。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/factory",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        48,
+        49,
+        57,
+        105,
+        128,
+        168
+      ],
+      "topic_ids": [],
+      "topic_requirements": [],
+      "buyer_jobs": [
+        {
+          "source_index": 48,
+          "job": "核对工厂现场管理与持续改善如何服务采购评估",
+          "scope": "现场管理与改善资料归工厂页，不以未核实5S/Kaizen操作细节作为既有案例。",
+          "required_updates": "无现场证据不写已实施细项或改进效果；改为工厂评估可查看的标识、分区、记录与沟通事项。"
+        },
+        {
+          "source_index": 49,
+          "job": "安排工厂审查并明确资料与观察范围",
+          "scope": "访问目标、观察范围、保密与后续安排归工厂页，服务审厂转化而非材料表文章。",
+          "required_updates": "删除具体设备及性能保证，按访问目标、产品范围、资料、保密安排与后续样品确认组织审厂内容。"
+        },
+        {
+          "source_index": 57,
+          "job": "了解持续改善如何落实到制造控制与采购评估",
+          "scope": "与48同属现场改善资料，统一由工厂页承接，不保留两篇泛Kaizen介绍。",
+          "required_updates": "和第48篇5S文章统筹分工，围绕可查看的改善记录、变更与验证写，不编造成效案例。"
+        },
+        {
+          "source_index": 105,
+          "job": "评估供应商厂区与扩量所需的制造资源",
+          "scope": "两厂约20000平方米的已确认事实归工厂页，扩量仍讨论实际工艺和排产，不换算产能保证。",
+          "required_updates": "保留已确认两厂区面积及制造链；扩量评估改为零件/模具、需求节奏、关键工序和供货讨论，不保证未验证的产能或公差。"
+        },
+        {
+          "source_index": 128,
+          "job": "为出口订单明确交付地点与物流信息",
+          "scope": "交付地点、包装和运输协商归工厂页，不将港口距离暗示固定交期或成本优势。",
+          "required_updates": "保留福州制造位置，物流改为需确认的目的地、交付条件、包装、数量和运输安排，不承诺固定时效或原料供应不中断。"
+        },
+        {
+          "source_index": 168,
+          "job": "为出口精密件订单明确包装与运输资料",
+          "scope": "与128同属交付资料和运输协调，统一工厂页，不新增地域性物流博客。",
+          "required_updates": "与128物流位置主题统筹，按订单目的地、包装/批次资料、数量和运输安排写，不承诺所有运输环境下性能不变。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/compounding",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        51,
+        64,
+        66,
+        122,
+        129,
+        136,
+        140,
+        165,
+        183,
+        268,
+        270
+      ],
+      "topic_ids": [
+        "RQ-T-042"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-042",
+          "job": "了解配方与批次控制",
+          "required_updates": "保留确认的配方/计量/混炼/检测与ERP事实，不填单线、固定排产、设备精度、每批全套或研发时效。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 51,
+          "job": "向供应商确认胶料硫化窗口与批次放行",
+          "scope": "硫化窗口和批次放行归混炼能力页，不将硫化速度等同全部一致性。",
+          "required_updates": "定义温度、试样、曲线指标、规格区间与偏差处理；去掉配方处方和固定设备/检测频率，连接testing与compounds。"
+        },
+        {
+          "source_index": 64,
+          "job": "核对胶料计量与配方记录如何控制批次",
+          "scope": "计量、配方版本与批次记录归混炼能力页，不承诺自动称量消除全部人工错误。",
+          "required_updates": "只写已确认的配方、计量、复核和批次标识原则；实际自动设备与精度须有资产/校验证据，不作绝对保证。"
+        },
+        {
+          "source_index": 66,
+          "job": "评估自有混炼的识别、清理与批次管理",
+          "scope": "A炼识别、清理与批次管理归混炼页，与129/268/270统一，去掉纯度绝对保证。",
+          "required_updates": "保留URL候选并在全量后确定主文；仅基于已确认自有混炼讲原料标识、过程记录和项目所需控制，不承诺洁净等级。"
+        },
+        {
+          "source_index": 122,
+          "job": "为OEM橡胶部件整理气味与VOC要求",
+          "scope": "气味/VOC目标与方法归配方讨论，不将降低气味等同消费品接触资格。",
+          "required_updates": "与源索引73统筹气味/VOC主文，明确项目方法、取样、状态与判据；不宣传食品接触或医疗用途，不以家族和配方处方保证结果。"
+        },
+        {
+          "source_index": 129,
+          "job": "评估自有A炼混炼如何支持指定胶料要求",
+          "scope": "A炼、混炼版本和污染控制归混炼页，与66/268/270统一，不保留重复自有能力稿。",
+          "required_updates": "全量后与66及待审268确定混炼主文，保留配方/记录/批次任务；删除具体处方、公差、竞品匿名表与所有批次测试承诺。"
+        },
+        {
+          "source_index": 136,
+          "job": "为胶料增强与导电要求整理填料评价",
+          "scope": "填料、增强与电性目标归配方需求讨论，不建立填料粒径到性能的通用推断。",
+          "required_updates": "围绕客户力学/电学目标、填料牌号/结构、用量、分散与试样测试整理，不给通用粒径-导电/强度数值表或配方处方。"
+        },
+        {
+          "source_index": 140,
+          "job": "比较EPDM硫化体系在指定热老化条件下的表现",
+          "scope": "EPDM硫化体系的项目评价归配方页，98解释指标，避免用胶种排名代替试验。",
+          "required_updates": "区分胶料、硫化体系和完整配方，按实际样品/方法/温度/时间比较，不把键能当寿命证明，不给通用配方或过程公差。"
+        },
+        {
+          "source_index": 165,
+          "job": "了解混炼/成型超温异常如何被记录和处理",
+          "scope": "超温记录与异常处理归混炼页，不承诺所有设备均具某警报功能或杜绝焦烧。",
+          "required_updates": "按已确认过程记录和批次管理讲异常识别/处理的资料要求，设备、阈值和响应措施以实际记录为准；与163焦烧调查统筹。"
+        },
+        {
+          "source_index": 183,
+          "job": "在EV与储能密封采购中同时评估配方和成型",
+          "scope": "配方与成型共同支持项目的比较归混炼页，不保留配方比成型更重要的对立叙事。",
+          "required_updates": "保留配方与工况评估任务，删除以虚设层级贬低同行、寿命与不变配方保证；配方、模具、成型、装配共同验证，已确认日本支持/混炼/实验室之外不补造设备、程序或客户经历。"
+        },
+        {
+          "source_index": 268,
+          "job": "评估半导体密封胶料的污染控制与批次证据",
+          "scope": "半导体污染路径、清理和批次资料归混炼页，不用单线数目证明无污染或承诺专线SOP。",
+          "required_updates": "与66/129/183/270统筹混炼主文；保留污染路径和客户所需记录问题，不用线数代替实际污染测量，不发布未确认清洁SOP、能力、固定时效或同行必失败结论。"
+        },
+        {
+          "source_index": 270,
+          "job": "为采购方核对自有混炼与配方支持范围",
+          "scope": "自有混炼范围与采购证据归能力页，合并66/129/183/268，去掉95%同行统计和费用分层。",
+          "required_updates": "保留已确认日本配方支持、自有混炼、成型和检测，按资料、配方识别、项目验证和变更责任组织，不用虚设tier/比例/资本门槛贬低同行或承诺生命周期。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/materials",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        65,
+        97,
+        137,
+        228,
+        238,
+        242,
+        247,
+        254,
+        260
+      ],
+      "topic_ids": [],
+      "topic_requirements": [],
+      "buyer_jobs": [
+        {
+          "source_index": 65,
+          "job": "为撕裂与反复载荷比较NR及合成胶候选",
+          "scope": "NR撕裂和合成胶比较收进材料比较输入，不增加矿业重载部件供货线或家族优劣排名。",
+          "required_updates": "作为材料参考保留URL，围绕撕裂方法、缺口、载荷与介质条件，不扩展矿用衬里或轮胎供货。"
+        },
+        {
+          "source_index": 97,
+          "job": "为持续低温下的橡胶回弹和结晶风险准备验证",
+          "scope": "持续低温与材料恢复评价归材料比较模块，不把CR参考变成已确认供货或通用失效温度。",
+          "required_updates": "材料参考中区分具体牌号、暴露时间与受力状态，按低温测量与实际动作确认；与源索引8的低温回缩文章及第50篇ACN权衡分工。"
+        },
+        {
+          "source_index": 137,
+          "job": "评估橡胶环境说法需要的材料与试验信息",
+          "scope": "材料环境说法的对象、方法和证据归材料页，不创建泛环保流量文或降解产品承诺。",
+          "required_updates": "保留采购判断参考，区分服役性能、再生含量与降解试验，需具体资料，不扩展未确认绿色胶料产品线或作环保保证。"
+        },
+        {
+          "source_index": 228,
+          "job": "为CR材料比较定义环境与验证条件",
+          "scope": "CR只作具体介质与环境下的材料参考，不新建未确认CR产品页或 marine能力。",
+          "required_updates": "与3海水及97低温CR参考统筹，按真实工况写，不因标题开新材料商业线或沿用FFKM数据。"
+        },
+        {
+          "source_index": 238,
+          "job": "核对丁基胶材料参考与实际外供范围",
+          "scope": "丁基材料作为具体需求的比较参考，不宣称原胶经销或已验证特定用途。",
+          "required_updates": "与211丁基O圈及原有材料参考统筹，具体形态、工况与供货先确认，不开未证实丁基商业入口。"
+        },
+        {
+          "source_index": 242,
+          "job": "为天然胶精密件参考明确力学与环境条件",
+          "scope": "天然胶的具体力学/环境需求作为材料比较参考，不推矿业或轮胎业务。",
+          "required_updates": "与65/141等NR参考统筹，仅有实际任务才保留独立内容，不扩展轮胎/输送带或把325°C当NR能力。"
+        },
+        {
+          "source_index": 247,
+          "job": "为橡胶材料选择建立用途与规格入口",
+          "scope": "Rubber Material泛词归材料总览分流，不留缺少具体任务的模板文章。",
+          "required_updates": "由材料总览承担共同任务，细分数据只在对应材料/工程问题出现，不将不同泛词各算独立主题。"
+        },
+        {
+          "source_index": 254,
+          "job": "为采购方区分合成胶材料与具体配方",
+          "scope": "合成胶与具体配方的区别归材料总览，不为泛材料定义单列获客文章。",
+          "required_updates": "在材料总览提供必要定义和选择入口，不为宽泛概念另开同义模板；具体材料要求在相应父页说明。"
+        },
+        {
+          "source_index": 260,
+          "job": "为O圈材料选择提供实际比较入口",
+          "scope": "O圈材料类型由材料总览比较入口承接，具体几何归密封页，不重复泛材料博客。",
+          "required_updates": "由材料总览/密封页承接比较，具体介质与测试另连接资源；不以类型泛词增加一篇无区别文章。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/industries/ev-energy-storage",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        70
+      ],
+      "topic_ids": [
+        "RQ-T-059"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-059",
+          "job": "准备热管理零件需求",
+          "required_updates": "补图纸/接口、完整流体/清洗、冷热/压力循环及文档要求，不枚举未确认高压应用。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 70,
+          "job": "为EV冷却歧管的密封提出材料与验证要求",
+          "scope": "EV冷却回路采购条件归热管理行业页，不宣称EPDM是所有冷却液的标准答案。",
+          "required_updates": "保留EV热管理任务，收集完整冷却液、接口、压缩和循环，不使用跨文章相反的家族排名或自动转移到液冷全场景。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/industries/industrial-equipment",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        78
+      ],
+      "topic_ids": [],
+      "topic_requirements": [],
+      "buyer_jobs": [
+        {
+          "source_index": 78,
+          "job": "为洗衣机OEM减振与密封部件整理评价条件",
+          "scope": "家电OEM的噪声、载荷和接口需求归通用工业行业页，不宣称既有降噪成绩。",
+          "required_updates": "区分密封和减振任务，围绕洗涤液、载荷频率、几何与噪声评价，不默认归为消费者流量，也不扩展主行业。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/iso-3601-3-visual-inspection-standards-for-o-rings-what-is-acceptable",
+      "target_kind": "existing_article",
+      "primary_source_index": 83,
+      "contributing_source_indices": [
+        83
+      ],
+      "topic_ids": [],
+      "topic_requirements": [],
+      "buyer_jobs": [
+        {
+          "source_index": 83,
+          "job": "向O圈供应商明确表面缺陷验收要求",
+          "scope": "保留O圈表面缺陷与验收报告主文，范围限定O圈，与160一般模压飞边分工。",
+          "required_updates": "依据ISO公开范围仅说明其涉及表面缺陷分类和验收；具体限值由适用版本/等级/图纸核对，不从摘要杜撰。按缺陷位置、照片、抽样和协商验收重写。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/root-cause-analysis-8d-rubberqs-process-for-resolving-quality-deviations",
+      "target_kind": "existing_article",
+      "primary_source_index": 88,
+      "contributing_source_indices": [
+        88
+      ],
+      "topic_ids": [],
+      "topic_requirements": [],
+      "buyer_jobs": [
+        {
+          "source_index": 88,
+          "job": "收到橡胶质量偏差后准备问题界定与纠正证据",
+          "scope": "保留质量偏差8D买方协作主文，与一般产品失效排查及控制计划分工。",
+          "required_updates": "改为客户可用的问题资料与闭环流程，不杜撰第一手案例、根因或改配方成效；明确临时措施、验证与效果确认所需记录。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/measurement-system-analysis-msa-ensuring-gage-rr-in-rubber-testing",
+      "target_kind": "existing_article",
+      "primary_source_index": 89,
+      "contributing_source_indices": [
+        89
+      ],
+      "topic_ids": [],
+      "topic_requirements": [],
+      "buyer_jobs": [
+        {
+          "source_index": 89,
+          "job": "评估橡胶硬度和尺寸量测的重复再现性",
+          "scope": "保留量测重复再现性任务主文，与测试页设备校准清单分工，不采用通用GageR&R阈值。",
+          "required_updates": "按量测任务、样件、操作者、重复测量和条件记录重写；不承诺统一阈值或设备；与第56篇设备校准分工。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/rubber-to-metal-bonding-failure-analyzing-adhesive-vs-material-separation",
+      "target_kind": "existing_article",
+      "primary_source_index": 91,
+      "contributing_source_indices": [
+        91,
+        197
+      ],
+      "topic_ids": [
+        "RQ-T-020"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-020",
+          "job": "识别粘接失效",
+          "required_updates": "按照片/残胶/露底、基材和试验条件组织，分类/方法核对一手资料，删未证实案例及通用接着数值。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 91,
+          "job": "区分橡胶金属接着界面与胶体内部破坏",
+          "scope": "保留胶体与界面破坏识别主文，接收197的接着失效内容；124单独解释测试方法与报告。",
+          "required_updates": "按破坏位置、露底/残胶、基材处理、批次和试验条件整理诊断，D429只作为具体接着试验方法线索，去掉案例与材料排名。"
+        },
+        {
+          "source_index": 197,
+          "job": "为橡胶金属接着记录破坏位置与评价方法",
+          "scope": "接着机理与失效位置并入91主文，制造采购输入归粘接件页，不重复两篇失效文。",
+          "required_updates": "保留按破坏位置组织的任务，分类与表面/胶粘剂参数按实际供应商方法核对，不发布通用工艺处方；与91/124确定主文，删除未证实项目/检测能力。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/groove-design-calculating-percentage-fill-and-squeeze-for-o-rings",
+      "target_kind": "existing_article",
+      "primary_source_index": 96,
+      "contributing_source_indices": [
+        96
+      ],
+      "topic_ids": [
+        "RQ-T-004"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-004",
+          "job": "检查装配设计",
+          "required_updates": "重写空泛材料表，解释压缩/填充计算输入及公差/热胀/介质条件，具体数值方法须一手依据，不给通用安全限值。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 96,
+          "job": "核对O圈沟槽的压缩率和体积填充计算输入",
+          "scope": "保留O圈沟槽压缩与填充输入主文；尺寸指南负责系列识别，避免通用比例处方。",
+          "required_updates": "围绕名义尺寸、公差、装配状态、热胀/溶胀与静动用途补齐计算思路；任何推荐限值须绑定手册适用条件，不能以算术示例保证密封设计。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+      "target_kind": "existing_article",
+      "primary_source_index": 98,
+      "contributing_source_indices": [
+        98
+      ],
+      "topic_ids": [],
+      "topic_requirements": [],
+      "buyer_jobs": [
+        {
+          "source_index": 98,
+          "job": "区分压缩永久变形与保力衰减的验收用途",
+          "scope": "保留压缩永久变形与应力松弛的指标区分主文，157负责失效调查，198负责后硫化过程。",
+          "required_updates": "保留两种指标的不同观测任务，补充载荷/变形、介质、温度、时间和恢复条件，不写自有性能、案例或每批检测；与压缩永久变形相关内容在全量后统筹。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/permeation-vs-leakage-understanding-the-difference-in-gas-systems",
+      "target_kind": "existing_article",
+      "primary_source_index": 100,
+      "contributing_source_indices": [
+        100,
+        134,
+        261
+      ],
+      "topic_ids": [],
+      "topic_requirements": [],
+      "buyer_jobs": [
+        {
+          "source_index": 100,
+          "job": "区分气体透过胶体与界面泄漏的评价",
+          "scope": "保留气体透过与界面泄漏区分主文；82讨论释放污染，不能用相同家族表替代两种测量。",
+          "required_updates": "保留原URL，明确气体组分、压差、温度、厚度/面积、稳态和检测方法，区分材料测试与总成泄漏，不用家族排名替代检测。"
+        },
+        {
+          "source_index": 134,
+          "job": "为高真空密封整理气体透过与测试条件",
+          "scope": "高真空气体屏障与100的透过/泄漏任务合并，真空释放另由82说明。",
+          "required_updates": "与100统筹主文及真空细分职责，明确气体、温度、压差、厚度与状态，并区分释气和装配泄漏，不给通用家族速率。"
+        },
+        {
+          "source_index": 261,
+          "job": "为气体接触O圈明确透过、泄漏与减压评价",
+          "scope": "气体耐受先区分透过、界面泄漏和减压，100承接测量差异，失效页处理损伤。",
+          "required_updates": "与72/90/93/100/134统筹气体任务，区分透过、装配泄漏和减压损伤，不给胶种统一保证。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/materials/silicone",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        107,
+        135,
+        171,
+        185,
+        200,
+        229,
+        244,
+        262
+      ],
+      "topic_ids": [
+        "RQ-T-039"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-039",
+          "job": "定义硅胶成型验收",
+          "required_updates": "补分型线、表面、颜色/透明、尺寸与后处理评价，不宣称全部光学/接触认证或任意薄壁能力。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 107,
+          "job": "为导电硅胶垫片明确屏蔽测量条件与接口",
+          "scope": "EMI与导电要求作为硅胶候选的接口与测试讨论，不承诺现有屏蔽牌号或衰减值。",
+          "required_updates": "导电/EMI供货能力待资料确认；如保留参考，区分材料电阻与总成屏蔽，明确夹具、频率、接触压缩及暴露后评价，不承诺自有性能。"
+        },
+        {
+          "source_index": 135,
+          "job": "区分硅胶干热与蒸汽暴露要求",
+          "scope": "干热、蒸汽与介质条件归硅胶材料页，删除250°C通用保证及普遍蒸汽失败判断。",
+          "required_updates": "保留材料工况参考，去掉内部口吻和统一寿命/温区界限，基于具体牌号、蒸汽状态、时间、应力及测试资料比较。"
+        },
+        {
+          "source_index": 171,
+          "job": "为设备OEM热水密封评估具体VMQ候选",
+          "scope": "热水、清洗与接触要求归硅胶材料页，不因咖啡机用途推食品认可。",
+          "required_updates": "区分OEM询价与零售维修，按热水/蒸汽、清洗、装配和客户接触要求评估，不宣传未确认食品认证或所有VMQ长期适用。"
+        },
+        {
+          "source_index": 185,
+          "job": "为VMQ静态垫片区分压缩永久变形与保力评价",
+          "scope": "VMQ硫化体系与静态密封需求归硅胶页，98解释指标，198说明后硫化条件。",
+          "required_updates": "保留具体试验条件和RFQ段落，修正指标定义、区分尺寸恢复/保力/实际密封，更新到silicone父页；与98及157分工，不由一项试验承诺寿命。"
+        },
+        {
+          "source_index": 200,
+          "job": "为透明硅胶件同时约定外观与力学验收",
+          "scope": "透明件外观、撕裂与稳定性要求归硅胶页的定制条件，保留有效问题而不单设透明产品线。",
+          "required_updates": "保留买方输入结构，用具体试样/厚度/观察条件和签样确认外观，区分可讨论材料与已验证光学性能，不扩展光学认证或产品线。"
+        },
+        {
+          "source_index": 229,
+          "job": "为硅胶薄片/垫片明确厚度与成品要求",
+          "scope": "硅胶薄片与成品垫片形态归硅胶材料页，产品页承接尺寸，不建立胶板零售线。",
+          "required_updates": "保留可讨论的工业薄片任务，成品/胶料与供货路线另核实，不泛承诺食品、医疗或光学适用。"
+        },
+        {
+          "source_index": 244,
+          "job": "为硅胶精密件建立材料和验证规格",
+          "scope": "硅胶核心材料词归现有材料页，与229/262具体形态及外观问题共享入口。",
+          "required_updates": "由silicone/LSR材料入口承接，和200透明、185压缩、198后硫化分工，不用泛词再生一篇重复模板。"
+        },
+        {
+          "source_index": 262,
+          "job": "为透明橡胶件明确材料与外观评价",
+          "scope": "透明件的材料、光学与外观评价归硅胶页，和200合并，不按Clear同义词留文章。",
+          "required_updates": "与200透明硅胶完整正文统筹，先定义材料和外观，不把clear自动等同VMQ或FFKM，更不承诺光学等级。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/capabilities/lsr-molding",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        110,
+        139
+      ],
+      "topic_ids": [
+        "RQ-T-038"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-038",
+          "job": "LSR项目采购",
+          "required_updates": "补牌号、几何、外观/嵌件、需求节奏、模具和试样验收，路线与交付按项目确认。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 110,
+          "job": "为LSR与热塑性基材包胶提出接着验证输入",
+          "scope": "基材、接着和样件评价归LSR可制造性讨论，不承诺已具备59所指2K生产线。",
+          "required_updates": "保留条件明确的工艺参考，需基材牌号、表面处理、几何、硫化条件及评价方法；与源索引59的2K范围问题区分，不新增未证实承诺。"
+        },
+        {
+          "source_index": 139,
+          "job": "为LSR精密件评估模具方案与投入",
+          "scope": "LSR工具、几何与样件评估归工艺页，不将模具投资必然换来精度或回报。",
+          "required_updates": "改为图纸、几何、材料、需求节奏、试模/验收与报价边界的工具评审，成本来自实际方案，不承诺普遍回本或家族耐液体。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+      "target_kind": "existing_article",
+      "primary_source_index": 205,
+      "contributing_source_indices": [
+        111,
+        205,
+        267
+      ],
+      "topic_ids": [
+        "RQ-T-027"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-027",
+          "job": "制定工况验证",
+          "required_updates": "补工艺气体/能量、位置、暴露/清洗循环、试样及侵蚀/颗粒方法，删除8100/自述实测图及固定后处理处方。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 111,
+          "job": "为半导体刻蚀密封定义等离子和洁净评价",
+          "scope": "与205/267同一刻蚀密封评估任务，205作为主文，不以不同FFKM名称重复建文。",
+          "required_updates": "保留核心赛道与原URL，按工艺气体/能量、密封位置、温度、清洗、颗粒及具体配方评价整理，不借用牌号、洁净室或静态标准证明等效性能。"
+        },
+        {
+          "source_index": 205,
+          "job": "为半导体等离子密封确定侵蚀与释气评价",
+          "scope": "保留等离子密封的工艺与评价主文，合并111/267；82和100分别处理释气与透过。",
+          "required_updates": "与111刻蚀材料及其它FFKM文章统筹，按工艺气体/位置/温度/评价方法讨论，删无报告图表、固定后硫化处方与洁净/等效保证。"
+        },
+        {
+          "source_index": 267,
+          "job": "为晶圆工艺FFKM密封明确位置、工艺和验证",
+          "scope": "与111/205同属晶圆工艺密封评估，205统一主文，不重复无依据高纯/寿命表。",
+          "required_updates": "与111/205等确定刻蚀主文，按具体配方、等离子/清洗条件、位置和客户评价讨论，不给通用沟槽设计处方、全家族寿命或clean-ready保证。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/industries/liquid-cooling-energy-storage",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        112,
+        146,
+        186,
+        188
+      ],
+      "topic_ids": [
+        "RQ-T-056",
+        "RQ-T-057"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-056",
+          "job": "确认冷却系统部件需求",
+          "required_updates": "补实际冷却液/添加剂、接口、温压循环及污染需求，避免把水乙二醇与介电液统一成EPDM保证。"
+        },
+        {
+          "topic_id": "RQ-T-057",
+          "job": "储能柜体垫片验收",
+          "required_updates": "补箱体界面、压缩/环境、材料阻燃试样与系统验收的区别，不用V0推热失控或整机资格。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 112,
+          "job": "为储能箱体垫片明确阻燃与密封的独立要求",
+          "scope": "储能箱体防火与密封要求归行业页，UL94解释链接标准页，不用胶料报告证明整机防火。",
+          "required_updates": "保留BESS箱体密封任务，分别明确阻燃、环境密封和客户系统验证，UL94需具体试样/方法，不推导热失控防护或整机安全。"
+        },
+        {
+          "source_index": 146,
+          "job": "为液流储能密封确定电解液与循环评价",
+          "scope": "液流电池电解液、温度与循环归液冷储能行业页，不以储能总称推通用兼容性。",
+          "required_updates": "保留储能采购问题，明确电解液组成/浓度、温度、压力、界面和循环，按具体配方/试样报告比较，不把ISO3601称为耐流体等级。"
+        },
+        {
+          "source_index": 186,
+          "job": "为液冷接触垫片定义冷却液相容与污染评价",
+          "scope": "冷板/CDU介质、污染与装配条件归液冷储能行业页，删除无报告性能图。",
+          "required_updates": "保留冷却液垫片任务，删除无报告图表和零排放保证，按实际冷却液/配方、温压与接口评价；187须独立买家任务或全量后并入，不能当两篇覆盖。"
+        },
+        {
+          "source_index": 188,
+          "job": "为储能箱体垫片确认阻燃试样与报告范围",
+          "scope": "与112同为储能阻燃和密封要求，行业页承接，标准页解释UL94；去掉自有耐压图。",
+          "required_updates": "与112BESS阻燃任务统筹，若保留需补具体材料/试样的阻燃方法和箱体密封要求，不用溶胀图替代阻燃或系统安全证明。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/products/custom",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        113,
+        119,
+        220
+      ],
+      "topic_ids": [
+        "RQ-T-010",
+        "RQ-T-013",
+        "RQ-T-014"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-010",
+          "job": "选择定制供应商",
+          "required_updates": "补图纸版本、材料/工况、关键特性、模具和样件验收的完整流程。"
+        },
+        {
+          "topic_id": "RQ-T-013",
+          "job": "制定尺寸验收",
+          "required_updates": "补功能尺寸/量测基准、脱模/后处理/调节状态和图纸评审，不宣称所有零件固定公差。"
+        },
+        {
+          "topic_id": "RQ-T-014",
+          "job": "准备开模评估",
+          "required_updates": "补分型线、嵌件、图纸修订、样件、模具责任和变更所需资料，不给固定开发期。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 113,
+          "job": "为工具减振套定义动态载荷和整机测量",
+          "scope": "工具减振套的载荷、几何与整机测试归定制件评审，不宣称人体暴露或安全达标。",
+          "required_updates": "作为工业小件参考，按套件几何、安装、载荷、温度和对比测量组织，不给健康改善或固定减振承诺。"
+        },
+        {
+          "source_index": 119,
+          "job": "为有色橡胶件约定色样与验收条件",
+          "scope": "色样、光源、表面和批次验收归定制件询价，不承诺所有RAL/Pantone绝对一致。",
+          "required_updates": "围绕客户色号、实物样、材料/表面、光源、色差方法和签样确认，材料物性与颜色分别验收；不保证所有RAL/Pantone可精确复现。"
+        },
+        {
+          "source_index": 220,
+          "job": "为工业胶塞明确几何、介质和使用方式",
+          "scope": "工业胶塞的几何、介质与使用方式归定制件页，不扩大为所有实验室或医疗塞。",
+          "required_updates": "先明确工业OEM任务与图纸，供货条件按项目确认，不默认等同零售瓶塞或食品/医用资质。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/products/diaphragms",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        115
+      ],
+      "topic_ids": [
+        "RQ-T-017"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-017",
+          "job": "选择隔膜供应商",
+          "required_updates": "补行程、夹持、厚度过渡、介质/温度和功能样件，增强层/渗透或寿命需项目确认。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 115,
+          "job": "为燃气表隔膜明确气体、低温与循环要求",
+          "scope": "气体、温度、行程和循环要求归隔膜页，不宣称燃气计量器整机寿命。",
+          "required_updates": "保留隔膜技术参考，需结构/增强层、挠曲、流体组分、压力和寿命评价输入；不承诺燃气表部件已获项目批准。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/bonding-strength-testing-interpreting-90-degree-vs-180-degree-peel-tests",
+      "target_kind": "existing_article",
+      "primary_source_index": 124,
+      "contributing_source_indices": [
+        124
+      ],
+      "topic_ids": [],
+      "topic_requirements": [],
+      "buyer_jobs": [
+        {
+          "source_index": 124,
+          "job": "比较不同剥离角度下橡胶金属接着结果",
+          "scope": "保留接着强度报告、样件几何与破坏位置的独立阅读任务，91不重复测试角度解释。",
+          "required_updates": "按客户指定方法和样件几何比较结果，不能直接互换数值；报告宽度归一、曲线和破坏位置，关联源索引91的失效形貌，撤掉自述案例。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/cryogenic-deflashing-vs-manual-trimming-precision-rubber-parts",
+      "target_kind": "existing_article",
+      "primary_source_index": 189,
+      "contributing_source_indices": [
+        127,
+        189
+      ],
+      "topic_ids": [],
+      "topic_requirements": [],
+      "buyer_jobs": [
+        {
+          "source_index": 127,
+          "job": "为精密件比较去飞边方法与成品验收",
+          "scope": "与189同一去边路线比较，189已有较完整条件化正文，统一主URL。",
+          "required_updates": "以几何、分型线、材料、嵌件和成品表面要求定义试验/验收，去掉通用参数及无损保证；与源索引83外观验收链接。"
+        },
+        {
+          "source_index": 189,
+          "job": "为精密模压件选择去边路线并约定验收",
+          "scope": "保留手工/冷冻去边的路线选择主文，合并127；与160验收规格和83O圈缺陷分工。",
+          "required_updates": "保留主体，收敛通用最佳选择与自有操作细节为项目讨论，链接83外观验收；与127/160统筹后确定主URL，不先计覆盖。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/sample-request",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        130,
+        210,
+        233,
+        241
+      ],
+      "topic_ids": [
+        "RQ-T-051"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-051",
+          "job": "形成样品验收表",
+          "required_updates": "补图纸版本、样件身份、数量、材料/功能检查、评价责任及后续批准；保留未知数量空值，不承诺免费/固定交付。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 130,
+          "job": "为橡胶样件确定验证目标与报价范围",
+          "scope": "样件目标、材料、数量与验证要求由样品申请页直接承接，删除fast-track时效承诺。",
+          "required_updates": "保留原URL，按图纸、工况、数量、样件用途、评价责任和报价/交付条件组织；不承诺固定研发周期或未证实样件性能。"
+        },
+        {
+          "source_index": 210,
+          "job": "区分橡胶类3D打印材料与实际模压样件",
+          "scope": "将打印模型与实际胶料样件的差别放入样品页，不宣称提供3D打印材料或服务。",
+          "required_updates": "不新增未确认打印材料供货或打印替代量产能力；保留URL，若保留样件参考必须明确工艺、材料和验证的区别。"
+        },
+        {
+          "source_index": 233,
+          "job": "核对柔性打印样件与橡胶成品的差异",
+          "scope": "柔性打印件与实际橡胶样件区别归样品页，与210/241同任务，不宣称打印服务。",
+          "required_updates": "与210核对同一打印范围，不当作现有原型服务或量产橡胶等效证明；保留URL记录。"
+        },
+        {
+          "source_index": 241,
+          "job": "核对橡胶类打印线材的实际服务范围",
+          "scope": "打印线材与成品样件差异纳入样品页说明，不创建线材销售或打印业务。",
+          "required_updates": "与210/233同一打印任务核对，不混同可打印聚合物、硫化胶料和模压样件，保留未来日期记录。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+      "target_kind": "existing_article",
+      "primary_source_index": 199,
+      "contributing_source_indices": [
+        151,
+        199
+      ],
+      "topic_ids": [],
+      "topic_requirements": [],
+      "buyer_jobs": [
+        {
+          "source_index": 151,
+          "job": "为橡胶零件约定PPAP提交范围和资料责任",
+          "scope": "同一PPAP资料与责任任务由199承接，199正文更完整且不默认所有订单Level3。",
+          "required_updates": "回到客户指定的提交等级、资料清单、版本、样件和批准责任，已确认体系与具体项目交付分开；不把体系/材料表当PPAP批准。"
+        },
+        {
+          "source_index": 199,
+          "job": "为橡胶项目约定PPAP资料与样件批准",
+          "scope": "保留PPAP范围、资料、样件与批准责任主文，合并151；质量页不重复完整提交指南。",
+          "required_updates": "保留主体，正式提交等级/内容以客户适用要求确认，区分备妥资料与客户批准；与151同任务优先保留更完整正文，不因两标题重复增加覆盖。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/compression-set-failure-why-your-seal-lost-its-bounce",
+      "target_kind": "existing_article",
+      "primary_source_index": 157,
+      "contributing_source_indices": [
+        157
+      ],
+      "topic_ids": [
+        "RQ-T-031"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-031",
+          "job": "制定材料验收",
+          "required_updates": "修正85%案例与虚构流体等级，说明尺寸恢复条件，区分保力/释气/总成泄漏并链接98相关概念。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 157,
+          "job": "为密封回弹不足区分压缩变形与使用历史",
+          "scope": "保留压缩变形失效调查主文，与98指标区分和40结构过压缩互链，避免解释互相替代。",
+          "required_updates": "保留压缩失效任务，与98保力衰减分工；记录装配变形、介质/温压/时间和恢复条件，不用通用胶种推荐替代实际调查。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/flash-on-molded-parts-defining-flash-free-and-its-cost-implications",
+      "target_kind": "existing_article",
+      "primary_source_index": 160,
+      "contributing_source_indices": [
+        160
+      ],
+      "topic_ids": [
+        "RQ-T-015"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-015",
+          "job": "定义外观验收",
+          "required_updates": "定义位置、功能边缘、图纸限值、检测和去边试样；ISO3601仅按适用O圈规范核对，删固定价格/周期。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 160,
+          "job": "为精密模压件定义飞边验收与报价条件",
+          "scope": "保留一般模压飞边验收与报价主文，83限O圈表面标准，189负责去边路线。",
+          "required_updates": "关联83外观验收与127去边，明确分型线、密封面、允许残留、样件及检验；成本按实际几何、模具、数量和后处理讨论。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+      "target_kind": "existing_article",
+      "primary_source_index": 174,
+      "contributing_source_indices": [
+        174
+      ],
+      "topic_ids": [],
+      "topic_requirements": [],
+      "buyer_jobs": [
+        {
+          "source_index": 174,
+          "job": "用ASTM D2000表达橡胶材料要求",
+          "scope": "保留ASTM D2000规格资料阅读主文；标准页索引范围，主文解释客户callout输入而不杜撰编码。",
+          "required_updates": "以标准范围、客户指定版、完整callout和补充要求组织，不从公开摘要杜撰编码例子或将材料分类当零件批准；与标准父页分工。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/spc-in-rubber-molding-how-cpk-167-delivers-zero-defect-batches",
+      "target_kind": "existing_article",
+      "primary_source_index": 269,
+      "contributing_source_indices": [
+        177,
+        269
+      ],
+      "topic_ids": [],
+      "topic_requirements": [],
+      "buyer_jobs": [
+        {
+          "source_index": 177,
+          "job": "在批量制造中定义SPC的特性与数据基础",
+          "scope": "SPC任务与269相同，269已有去掉固定Cpk和零缺陷承诺的本地稿，统一能力报告主文。",
+          "required_updates": "围绕关键特性、客户判据、量测/数据记录和异常处置，区分过程稳定、能力和单件合格，不用胶种或证书推出Cpk。"
+        },
+        {
+          "source_index": 269,
+          "job": "为橡胶关键特性评估SPC数据与过程能力",
+          "scope": "保留SPC能力数据阅读主文并合并177，采用已准备的本地稿，不保留零缺陷或固定Cpk目标。",
+          "required_updates": "与177SPC主任务统筹；按NIST公开定义区分能力估计、过程稳定和单件合格，去掉零缺陷、通用阈值、未证实案例，不将过程控制与检验二选一。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/industrial-bellows-material-selection-flex-life-media-exposure",
+      "target_kind": "existing_article",
+      "primary_source_index": 196,
+      "contributing_source_indices": [
+        196,
+        204
+      ],
+      "topic_ids": [
+        "RQ-T-018",
+        "RQ-T-061"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-018",
+          "job": "保护运动机构",
+          "required_updates": "沿用定向优化稿，补保护与密封任务区别，连接波纹管产品页；不声称任意周期寿命。"
+        },
+        {
+          "topic_id": "RQ-T-061",
+          "job": "核对防护套行程",
+          "required_updates": "在同一评估框架补安装包络、夹持/干涉和污染需求，不新建同义机器人护套模板或宣称现有谐波传动案例。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 196,
+          "job": "为工业波纹管同时定义运动、介质与几何要求",
+          "scope": "保留工业波纹管运动、介质、几何主文，承接机器人护套204，与产品页采购入口分工。",
+          "required_updates": "保留主体，材料家族仅作起点，收敛笼统根因/寿命暗示；原行业入口有效，优化稿增加产品波纹管入口，与150车辆气囊范围清楚分开。"
+        },
+        {
+          "source_index": 204,
+          "job": "为机器人传动关节护套明确运动与防护界面",
+          "scope": "机器人护套与196共享运动/介质/安装任务，作为明确上下文补入，不额外建同义护套文章。",
+          "required_updates": "与196工业波纹管及机器人行业父页统筹，只有独立的运动/接口资料才写细分篇，不沿用关节数据或声称谐波传动已认可。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/post-curing-silicone-rubber-parts-volatile-control-compression-set",
+      "target_kind": "existing_article",
+      "primary_source_index": 198,
+      "contributing_source_indices": [
+        198
+      ],
+      "topic_ids": [],
+      "topic_requirements": [],
+      "buyer_jobs": [
+        {
+          "source_index": 198,
+          "job": "为硅胶件约定后硫化条件和放行评价",
+          "scope": "保留硅胶后硫化的项目变量与放行评价主文，区别于材料页和98指标定义。",
+          "required_updates": "保留RFQ与过程变量结构，区分指标并让后硫化效果依具体配方/试验确认，工厂细节以真实记录为准；与185硫化及VMQ静态密封分工。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/blog/vibration-damping-mounts-dynamic-stiffness-humanoid-robot-actuators",
+      "target_kind": "existing_article",
+      "primary_source_index": 202,
+      "contributing_source_indices": [
+        201,
+        202
+      ],
+      "topic_ids": [
+        "RQ-T-021"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-021",
+          "job": "准备减振件工程要求",
+          "required_updates": "重写同文剥离模板，明确预载、频率、温度、振幅、几何和响应指标，不把材料表或剥离值当减振性能。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 201,
+          "job": "为机器人橡胶金属减振件确定动态与接着验证",
+          "scope": "与202同文且同属机器人动态减振任务，202承接频率、预载与验证，不将剥离图当疲劳证据。",
+          "required_updates": "保留机器人精密件方向，按频率/载荷/预压/几何、基材与接着方法讨论，不用剥离图冒充动态/疲劳验证，去掉通用密封流与无依据性能。"
+        },
+        {
+          "source_index": 202,
+          "job": "为执行器减振件核对频率相关的动态刚度",
+          "scope": "保留减振件动态刚度与验证输入主文，合并201，粘接产品页负责RFQ规格。",
+          "required_updates": "全量后与201确定机器人减振主文，不按两标题计两项覆盖；若独立保留需明确动态评价任务与资料，不直接继承剥离/疲劳保证。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/industries/humanoid-robotics",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        203
+      ],
+      "topic_ids": [
+        "RQ-T-062"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-062",
+          "job": "定义接触面性能测试",
+          "required_updates": "补接触面/法向载荷/摩擦/磨耗/污染及电性条件的请求模块，明确需项目评估，不宣称触觉、ESD或摩擦性能。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 203,
+          "job": "核对机器人手部接触垫的摩擦与防静电要求",
+          "scope": "仅将接触、摩擦和电性需求问题纳入机器人行业页，不保留已验证触觉/ESD胶垫产品叙事。",
+          "required_updates": "保留URL范围记录，不用关节稿证明手部触觉或ESD供货；先确认零件任务、接触/磨耗和电性要求，再决定是否独立内容。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/industries/semiconductor",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        207
+      ],
+      "topic_ids": [
+        "RQ-T-053",
+        "RQ-T-054"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-053",
+          "job": "准备设备密封评估",
+          "required_updates": "补位置、工艺化学、温度/真空、污染判据、原图纸及样件批准，不宣传未确认洁净等级或批次性能。"
+        },
+        {
+          "topic_id": "RQ-T-054",
+          "job": "确认真空腔密封工况",
+          "required_updates": "补压力/抽放、接口/沟槽、热历程、装配、透过/释气与清洗条件，不给通用真空/寿命资格。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 207,
+          "job": "为晶圆工艺密封明确可提取金属的评价",
+          "scope": "可提取金属的客户判据与报告问题归半导体页，不宣称超低离子牌号或300mm晶圆适用。",
+          "required_updates": "仅在真实采购需求和可提供资料支持下单独讨论金属提取评价；不由FFKM家族、尺寸标准或等离子图推出超低离子或晶圆适用。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/products/ffkm-replacement-seals",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        215
+      ],
+      "topic_ids": [
+        "RQ-T-023",
+        "RQ-T-024",
+        "RQ-T-055"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-023",
+          "job": "制定售后替代验证",
+          "required_updates": "补原件编号/规格/位置/失效史、材料和总成批准责任，不保证通用互换或寿命等效。"
+        },
+        {
+          "topic_id": "RQ-T-024",
+          "job": "原件参照与替代评估",
+          "required_updates": "说明原厂参考仅用于识别，候选与原规格逐项比较，补原厂定义出处但不暗示授权/关联或原厂性能转移。"
+        },
+        {
+          "topic_id": "RQ-T-055",
+          "job": "维护替代件评估",
+          "required_updates": "补原件识别、设备位置、图纸/牌号、服务记录与客户批准，不将维修参考号当OEM认可。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 215,
+          "job": "为现有FFKM品牌零件整理替代评估输入",
+          "scope": "品牌原件标识和替代评估归FFKM替代件页，不新增品牌经销或通用等效叙事。",
+          "required_updates": "保留品牌零件识别与替代评估任务，区分参考品牌与RubberQ候选，需原规格、图纸和实际验证，不暗示原厂供货/授权或通用等效；不借用品牌性能。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/products",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        219
+      ],
+      "topic_ids": [],
+      "topic_requirements": [],
+      "buyer_jobs": [
+        {
+          "source_index": 219,
+          "job": "按结构与图纸寻找橡胶零部件供应商",
+          "scope": "泛Rubber Products由产品总览按图纸和结构分流，不与总览竞争另设泛文章。",
+          "required_updates": "优先产品总览和精密件分类承担采购入口，不用泛词另开无区别文章；保留旧URL的全量处置记录。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/resources/o-ring-size-guide",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [
+        232,
+        245
+      ],
+      "topic_ids": [
+        "RQ-T-003"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-003",
+          "job": "识别尺寸与沟槽",
+          "required_updates": "补单位、尺寸系列/编号、ID/截面和图纸记录，明确未知系列需要客户参考。"
+        }
+      ],
+      "buyer_jobs": [
+        {
+          "source_index": 232,
+          "job": "为公制FKM O圈确认尺寸与材料两套要求",
+          "scope": "公制尺寸与材料两项分开核对，尺寸指南主承接，品牌问题连接FKM页。",
+          "required_updates": "由尺寸指南和密封产品承接公制任务，区分尺寸/配方/品牌，不为metric同义词增无差别页面。"
+        },
+        {
+          "source_index": 245,
+          "job": "核对客户所指SAE尺寸系列和验收版次",
+          "scope": "SAE所指尺寸系列和版次归尺寸指南，不杜撰标准数值或默认等同全部O圈标准。",
+          "required_updates": "与232公制任务及尺寸指南统筹，按图纸确认指定系列/版次，不自动把所有SAE词推为同一标准或级别。"
+        }
+      ],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/materials/ffkm",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [],
+      "topic_ids": [
+        "RQ-T-022"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-022",
+          "job": "选择FFKM材料与制品",
+          "required_updates": "补材料/零件规格、工艺暴露、图纸与样件计划；不填统一温区、纯度、释气或等离子值。"
+        }
+      ],
+      "buyer_jobs": [],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    },
+    {
+      "target_url": "/compounds",
+      "target_kind": "existing_page",
+      "primary_source_index": null,
+      "contributing_source_indices": [],
+      "topic_ids": [
+        "RQ-T-041",
+        "RQ-T-044"
+      ],
+      "topic_requirements": [
+        {
+          "topic_id": "RQ-T-041",
+          "job": "准备胶料外供采购",
+          "required_updates": "补聚合物/胶料识别、交付形式、接收工艺、数量、保密/责任和批次放行要求，不自动承诺库存或所有家族可供。"
+        },
+        {
+          "topic_id": "RQ-T-044",
+          "job": "确认储运和保质条件",
+          "required_updates": "补交付形态、批次/日期、开包与使用条件及供应商材料专用说明，不将ISO2230成品规则直接套给胶料。"
+        }
+      ],
+      "buyer_jobs": [],
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false
+    }
+  ]
+}

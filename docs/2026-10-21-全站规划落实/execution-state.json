@@ -597,7 +597,7 @@
     ],
     "inventory_semantic_ownership": {
       "required": 271,
-      "completed": 0,
+      "completed": 271,
       "full_body_reviews_completed": 271,
       "dispositions_proposed": 271,
       "review_artifacts": [
@@ -607,12 +607,15 @@
         "reviews/batch-004.json",
         "reviews/batch-005.json"
       ],
-      "completion_definition": "completed counts cross-inventory final ownership decisions, not body-read or rewrite proposals",
+      "completion_definition": "completed counts authored final editorial ownership decisions; not content implementation, coverage or public URL redirects/deletions",
       "body_review_methods": {
         "full_saved_text_including_svg": 215,
         "canonical_content_identity_reuse": 6,
         "exact_template_body_comparison": 50
-      }
+      },
+      "decision_artifact": "ownership/article-dispositions.json",
+      "implementation_queue": "ownership/content-implementation-queue.json",
+      "content_implemented": 0
     },
     "topic_ownership": {
       "required": 63,
@@ -624,15 +627,15 @@
     "navigation": "implemented_local_desktop_path_verified_mobile_final_review_pending",
     "rfq": "five_locale_ui_and_116_local_contract_checks_passed_live_contract_release_pending",
     "seo_sitemap_schema": "225_routes_metadata_and_jsonld_passed_sitemap_and_specialized_routes_final_review_pending",
-    "dashboard_reconciliation": "local_implementation_progress_reconciled_inventory_still_pending",
+    "dashboard_reconciliation": "topic and article editorial ownership decisions reconciled; content/links implementation and operational graph remain pending",
     "final_audit": "pending",
     "content_revision_drafts": {
-      "prepared": 7,
+      "prepared": 11,
       "cms_written": 0,
       "manifest": "content-revisions/manifest.json"
     }
   },
-  "next_action": "271 saved-body records assessed and 63 primary topic URLs assigned. Finalize each article disposition, implement required page sections/revisions and internal links, then verify specialized routes, mobile and RFQ paths before consolidated final review.",
+  "next_action": "Implement the authored content requirements at all topic and article owners, prepare remaining retained-article revisions, reconcile actual keyword and graph ownership, then verify specialized routes/mobile/RFQ before consolidated final review.",
   "status_evidence": {
     "implemented_page_specs": 45,
     "message_page_specs": 49,

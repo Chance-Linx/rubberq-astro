@@ -16,7 +16,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-21T05:19:45.054515+00:00",
+  "generated_at": "2026-10-21T05:38:16.893302+00:00",
   "sections": {
     "goals": {
       "state": "ready",
@@ -224,8 +224,9 @@
             "next_step": "沿用四项批准方向；费用待定，先不花费",
             "channel": "content",
             "source": "根任务清单RQAC系列的只读阶段投影",
-            "note": "四项方向已由用户确认；工作项沿用GGS固定枚举，统一随全项目验收，后续不再请求方向批准",
-            "delivered_at": "2026-10-21"
+            "note": "用户已明确同意四项方向，费用待定、先不花费。方向无需再次确认；任务状态仅表示此份验收记录等待全项目集中核对。看板固定状态枚举不含已验收，不使用已上线冒充方向批准。",
+            "delivered_at": "2026-10-21",
+            "direction_approved": true
           },
           {
             "id": "RQ-EXEC-02",
@@ -401,7 +402,7 @@
             "type": "任务",
             "title": "存量全文与URL归属核对",
             "owner": "Codex",
-            "status": "进行中",
+            "status": "待验收",
             "dependencies": [
               "RQ-EXEC-01"
             ],
@@ -435,18 +436,30 @@
               {
                 "label": "topic-owners.json",
                 "href": null
+              },
+              {
+                "label": "article-dispositions.json",
+                "href": null
+              },
+              {
+                "label": "content-implementation-queue.json",
+                "href": null
               }
             ],
             "reports": [
               {
                 "label": "00-交付入口.md",
                 "href": "/growth-file/a0ebbee2425956e7fac2698a"
+              },
+              {
+                "label": "07-存量内容最终分工与工程主文实施.md",
+                "href": null
               }
             ],
-            "next_step": "完成271篇最终处置，落实63话题的页面章节/文章与内链，随后补全网站验证并集中审核。",
+            "next_step": "内容分工已交付，等待全项目一次集中审核；正文、内链与生产URL处理接入RQ-EXEC-08继续。",
             "channel": "content",
             "source": "根任务清单RQAC系列的只读阶段投影",
-            "note": "271份保存正文已完整核对（215直接全文、6同文、50穷尽模板对照）；63话题已指定41个主URL，内容实施/覆盖均未验收，七份本地修订稿未写CMS。",
+            "note": "271条最终内容分工已定：182整合至页面、16整合至文章、27保留主文、46不纳入本轮。63话题归属完成；11份同URL本地稿未写CMS。原URL未删除或301，正文实施/覆盖仍待验收。",
             "delivered_at": null
           },
           {
@@ -472,10 +485,10 @@
                 "href": "/growth-file/a0ebbee2425956e7fac2698a"
               }
             ],
-            "next_step": "Review all 271 stored article bodies semantically; assign the 63 buyer jobs to unique existing or justified new owners, reconcile dashboard; finish specialized routes/mobile/forms; then one consolidated final review",
+            "next_step": "完成剩余16篇保留主文修订及35个页面的具体任务模块、内链和实际关键词/图谱映射；验证专用页面、移动端及RFQ后集中审核，再处理发布。",
             "channel": "content",
             "source": "根任务清单RQAC系列的只读阶段投影",
-            "note": "45页面规格×5语种本地225项通过；116本地RFQ契约检查；未部署新版，未写CMS",
+            "note": "45个页面规格已本地实现；271条内容分工与63话题归属完成。11篇本地正文稿，CMS写入/生产部署0。分工不计正文覆盖。",
             "delivered_at": null
           }
         ]
