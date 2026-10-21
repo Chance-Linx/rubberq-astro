@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-21",
+  "scope": "Public scope cross-checks and existing reference reuse; no paid standards or new factory results.",
+  "references": [
+    {
+      "id": "ASTM-D2240-SCOPE",
+      "url": "https://store.astm.org/standards/d2240",
+      "read_sections": [
+        "Public significance and use; public scope"
+      ],
+      "use": "仅核对压入硬度方法、不同硬度计结果无简单对应关系的公开范围；不复制付费程序、通用换算或公差，不将硬度当所有材料物性的证明。"
+    },
+    {
+      "id": "ISO-3601-1-SCOPE",
+      "url": "https://www.iso.org/standard/58043.html",
+      "read_sections": [
+        "Public abstract and amendment/edition listing"
+      ],
+      "use": "仅核对尺寸、公差和指定编码的范围；按客户指定版次及修订，不复制付费尺寸表或限值。"
+    },
+    {
+      "id": "SAE-AS568-PUBLIC-SCOPE",
+      "url": "https://saemobilus.sae.org/standards/as568e-aerospace-size-standard-o-rings",
+      "read_sections": [
+        "AS568E public scope",
+        "Revision listing linking AS568F dated 2026-01-29"
+      ],
+      "use": "核对ID、截面、公差和dash编号属于尺寸参照；尺寸编号与材料和总成批准分别指定。"
+    },
+    {
+      "id": "ASTM-D471",
+      "url": "https://store.astm.org/standards/d471",
+      "read_sections": [
+        "Public significance/use and scope"
+      ],
+      "use": "Liquid-exposure comparisons and test context; no direct service-life prediction or universal exposure protocol."
+    }
+  ],
+  "previous_public_scope_reused": [
+    "UL94-TESTING",
+    "ASTM-D2000",
+    "ISO-15156-1-SCOPE",
+    "ISO-3601-3-SCOPE",
+    "ASTM-D573",
+    "ASTM-D1329"
+  ],
+  "lookup_limit": "读取E页的公开范围与修订链接；F页正文后续返回超时，未据其正文作判断。不将E宣称最新，不读取付费尺寸表，采购仍以客户指定版次为准。",
+  "arithmetic_artifact": "evidence/o-ring-geometry-example-check.json",
+  "public_external_links_added": 0,
+  "standard_tables_or_limits_copied": false,
+  "new_paid_calls": 0
+}

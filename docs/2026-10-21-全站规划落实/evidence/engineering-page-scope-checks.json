@@ -1,0 +1,259 @@
+{
+  "date": "2026-10-21",
+  "scope": [
+    "/standards",
+    "/resources/rubber-hardness-guide",
+    "/resources/o-ring-size-guide",
+    "/resources/material-compatibility",
+    "/resources/seal-failure-analysis"
+  ],
+  "baseline_commit": "bf333c83ff276d77988eea3caa7e375a5120e117",
+  "message_checks": [
+    {
+      "locale": "en",
+      "only_changed_ids": [
+        "RQ-PG-037",
+        "RQ-PG-038",
+        "RQ-PG-039",
+        "RQ-PG-040",
+        "RQ-PG-041"
+      ],
+      "only_fields": [
+        "sections",
+        "description"
+      ],
+      "all_other_message_values_unchanged": true,
+      "description_lengths": {
+        "/standards": 154,
+        "/resources/rubber-hardness-guide": 151,
+        "/resources/o-ring-size-guide": 154,
+        "/resources/material-compatibility": 158,
+        "/resources/seal-failure-analysis": 157
+      },
+      "current_file_sha256": "4e5ce940d95d0d3884a103f3a739b9115af9293db0e81fe6a5d572ddcfd6c888"
+    },
+    {
+      "locale": "de",
+      "only_changed_ids": [
+        "RQ-PG-037",
+        "RQ-PG-038",
+        "RQ-PG-039",
+        "RQ-PG-040",
+        "RQ-PG-041"
+      ],
+      "only_fields": [
+        "sections",
+        "description"
+      ],
+      "all_other_message_values_unchanged": true,
+      "description_lengths": {
+        "/standards": 155,
+        "/resources/rubber-hardness-guide": 156,
+        "/resources/o-ring-size-guide": 153,
+        "/resources/material-compatibility": 154,
+        "/resources/seal-failure-analysis": 157
+      },
+      "current_file_sha256": "67582e8ce95aa906ddbf2a4d1c8bf4c8fb01fd5b1010bca1a8383c7957683c47"
+    },
+    {
+      "locale": "ja",
+      "only_changed_ids": [
+        "RQ-PG-037",
+        "RQ-PG-038",
+        "RQ-PG-039",
+        "RQ-PG-040",
+        "RQ-PG-041"
+      ],
+      "only_fields": [
+        "sections",
+        "description"
+      ],
+      "all_other_message_values_unchanged": true,
+      "description_lengths": {
+        "/standards": 56,
+        "/resources/rubber-hardness-guide": 60,
+        "/resources/o-ring-size-guide": 60,
+        "/resources/material-compatibility": 56,
+        "/resources/seal-failure-analysis": 55
+      },
+      "current_file_sha256": "81af87581068eea80db8a211f24a104ea9e1491f225bf757ae9241b463fa067d"
+    },
+    {
+      "locale": "es",
+      "only_changed_ids": [
+        "RQ-PG-037",
+        "RQ-PG-038",
+        "RQ-PG-039",
+        "RQ-PG-040",
+        "RQ-PG-041"
+      ],
+      "only_fields": [
+        "sections",
+        "description"
+      ],
+      "all_other_message_values_unchanged": true,
+      "description_lengths": {
+        "/standards": 157,
+        "/resources/rubber-hardness-guide": 157,
+        "/resources/o-ring-size-guide": 155,
+        "/resources/material-compatibility": 153,
+        "/resources/seal-failure-analysis": 156
+      },
+      "current_file_sha256": "a56b7122755f380284c1328331279a9e7dc16e2db6e6d66dfc6703154a585752"
+    },
+    {
+      "locale": "zh",
+      "only_changed_ids": [
+        "RQ-PG-037",
+        "RQ-PG-038",
+        "RQ-PG-039",
+        "RQ-PG-040",
+        "RQ-PG-041"
+      ],
+      "only_fields": [
+        "sections",
+        "description"
+      ],
+      "all_other_message_values_unchanged": true,
+      "description_lengths": {
+        "/standards": 55,
+        "/resources/rubber-hardness-guide": 56,
+        "/resources/o-ring-size-guide": 56,
+        "/resources/material-compatibility": 56,
+        "/resources/seal-failure-analysis": 54
+      },
+      "current_file_sha256": "5f768fecb54e84e4fd1ca06cb1bba2dc9fe8f88ca9ca6c7d4d2b7a4ba5089db5"
+    }
+  ],
+  "preexisting_changes": [
+    {
+      "path": "scripts/govern-sanity-redline-articles.mjs",
+      "sha256": "7a5b5ac3045c95435cbbfcae82b9075bd1b40073aa0957287e210dbca11655a7",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/sanity.ts",
+      "sha256": "05a1b5594ffc8e94a3d3c444ba5b1b6dd29a5a024da7f99a7cf6eaaa75a460a6",
+      "unchanged": true
+    },
+    {
+      "path": "tools/rfq-worker-v2/worker.mjs",
+      "sha256": "0ad533b4ca7f3aef65de85f70f65f4ce66ddf945470b4fc2276c18a741179819",
+      "unchanged": true
+    },
+    {
+      "path": "tools/rfq-worker-v2/wrangler.toml",
+      "sha256": "93a1750d46f224d0e95040a6105889fc5e6c2d42029376fe4c0776ca362ececd",
+      "unchanged": true
+    }
+  ],
+  "new_localized_routes": 25,
+  "new_sections": 120,
+  "new_tables": 30,
+  "new_context_links": 215,
+  "new_article_link_placements": 80,
+  "english_article_link_targets": [
+    {
+      "page": "/resources/material-compatibility",
+      "label": "Compare fluid-swell reports",
+      "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+      "draft_title": "Rubber Fluid-Swell Reports: Compare the Liquid and Test Conditions"
+    },
+    {
+      "page": "/resources/material-compatibility",
+      "label": "Compare FKM and FFKM evaluation requirements",
+      "url": "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
+      "draft_title": "FKM vs FFKM: Compare Cost and Validation Requirements"
+    },
+    {
+      "page": "/resources/o-ring-size-guide",
+      "label": "Review squeeze, gland fill and tolerances",
+      "url": "/blog/groove-design-calculating-percentage-fill-and-squeeze-for-o-rings",
+      "draft_title": "O-Ring Groove Design: Squeeze, Gland Fill and Tolerances"
+    },
+    {
+      "page": "/resources/rubber-hardness-guide",
+      "label": "Review the hardness measurement process",
+      "url": "/blog/measurement-system-analysis-msa-ensuring-gage-rr-in-rubber-testing",
+      "draft_title": "MSA for Rubber Parts: Review the Measurement Process"
+    },
+    {
+      "page": "/resources/rubber-hardness-guide",
+      "label": "Read aging and life-estimate evidence",
+      "url": "/blog/rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction",
+      "draft_title": "Rubber Aging and Life Estimates: Reading the Evidence"
+    },
+    {
+      "page": "/resources/rubber-hardness-guide",
+      "label": "Read rubber tensile curves",
+      "url": "/blog/tensile-stress-strain-curves-what-a-mechanical-engineer-needs-to-know-about-rubb",
+      "draft_title": "Rubber Tensile Curves: Read the Axes, Specimen and Test Conditions"
+    },
+    {
+      "page": "/resources/rubber-hardness-guide",
+      "label": "Separate compression set and stress relaxation",
+      "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+      "draft_title": "Compression Set vs Stress Relaxation: Two Different Seal Questions"
+    },
+    {
+      "page": "/resources/seal-failure-analysis",
+      "label": "Investigate gasket over-compression",
+      "url": "/blog/over-compression-when-tighter-is-not-better-for-gasket-performance",
+      "draft_title": "Gasket Over-Compression: What to Check Before Tightening More"
+    },
+    {
+      "page": "/resources/seal-failure-analysis",
+      "label": "Investigate loss of compression recovery",
+      "url": "/blog/compression-set-failure-why-your-seal-lost-its-bounce",
+      "draft_title": "Compression Set in Seals: Reading Results and Investigating Failure"
+    },
+    {
+      "page": "/resources/seal-failure-analysis",
+      "label": "Compare compression set and stress relaxation",
+      "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+      "draft_title": "Compression Set vs Stress Relaxation: Two Different Seal Questions"
+    },
+    {
+      "page": "/resources/seal-failure-analysis",
+      "label": "Investigate rubber-to-metal separation",
+      "url": "/blog/rubber-to-metal-bonding-failure-analyzing-adhesive-vs-material-separation",
+      "draft_title": "Rubber-to-Metal Bond Failure: Evidence for a Useful Investigation"
+    },
+    {
+      "page": "/resources/seal-failure-analysis",
+      "label": "Separate gas permeation from leakage",
+      "url": "/blog/permeation-vs-leakage-understanding-the-difference-in-gas-systems",
+      "draft_title": "Gas Permeation vs Leakage: Define the Seal Evaluation"
+    },
+    {
+      "page": "/resources/seal-failure-analysis",
+      "label": "Prepare an 8D quality review",
+      "url": "/blog/root-cause-analysis-8d-rubberqs-process-for-resolving-quality-deviations",
+      "draft_title": "Rubber Part Quality Issues: Prepare an 8D Review"
+    },
+    {
+      "page": "/standards",
+      "label": "Preparing a complete ASTM D2000 callout",
+      "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+      "draft_title": "ASTM D2000 for Rubber Parts: Use the Complete Material Callout"
+    },
+    {
+      "page": "/standards",
+      "label": "Specify O-ring visual acceptance",
+      "url": "/blog/iso-3601-3-visual-inspection-standards-for-o-rings-what-is-acceptable",
+      "draft_title": "O-Ring Visual Inspection: Specify Acceptance with ISO 3601-3"
+    },
+    {
+      "page": "/standards",
+      "label": "Prepare the customer submission",
+      "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+      "draft_title": "PPAP for Rubber Parts: Link the Drawing, Compound and Process"
+    }
+  ],
+  "implemented_modules": 30,
+  "remaining_modules": 5,
+  "accepted_coverage": 0,
+  "cms_writes": 0,
+  "production_deployments": 0,
+  "new_paid_calls": 0
+}

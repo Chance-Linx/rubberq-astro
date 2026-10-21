@@ -5492,21 +5492,110 @@
       "RQ-PG-037": {
         "label": "Normas",
         "title": "Normas y especificaciones de caucho | RubberQ",
-        "description": "Utilice normas para definir requisitos medibles.",
+        "description": "Especifique piezas de caucho con designaciones completas, ediciones y criterios de aceptación. Vincule cada ensayo solicitado con el informe correspondiente.",
         "h1": "Normas y especificaciones de caucho",
         "intro": "Utilice normas para definir requisitos medibles. Identifique edición, condiciones de ensayo y aceptación junto con la especificación del material o el plano.",
         "sections": [
           {
-            "heading": "Clasificación de materiales",
-            "body": "Consulte designación, requisitos adicionales y servicio previsto al usar clasificaciones como ASTM D2000."
+            "heading": "Utilizar la especificación completa",
+            "body": "Envíe la designación completa del material, incluidos sufijos, edición exigida y requisitos adicionales del cliente. Adjunte la revisión del plano. En ASTM D2000, la designación completa y los requisitos suplementarios son la base de la consulta; una etiqueta abreviada deja cuestiones por resolver.",
+            "links": [
+              {
+                "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+                "label": "Preparar una designación ASTM D2000 completa"
+              }
+            ]
           },
           {
-            "heading": "Dimensiones y tolerancias",
-            "body": "Especifique sistema de referencia, límites del plano y método de inspección. Las tablas de juntas tóricas y las tolerancias de piezas moldeadas tienen funciones distintas."
+            "heading": "Relacionar cada referencia con el requisito",
+            "body": "Registre por separado material, geometría, ensayos y aprobación para comparar cada resultado con su base correspondiente.",
+            "table": {
+              "caption": "Referencias de especificación e información necesaria",
+              "columns": [
+                "Requisito",
+                "Referencia o base",
+                "Información que debe acordarse"
+              ],
+              "rows": [
+                [
+                  "Clasificación del material",
+                  "Por ejemplo, ASTM D2000",
+                  "Designación completa, edición, sufijos y requisitos del cliente"
+                ],
+                [
+                  "Dimensiones de O-ring",
+                  "Referencia ISO 3601-1 o SAE AS568 especificada",
+                  "Edición, designación de tamaño, dimensiones y tolerancias aplicables"
+                ],
+                [
+                  "Dimensiones de otras piezas moldeadas",
+                  "Plano y especificación de tolerancias aplicable",
+                  "Alcance, clase de tolerancia, características críticas y método de inspección"
+                ],
+                [
+                  "Aspecto del O-ring",
+                  "Base de aceptación ISO 3601-3 especificada",
+                  "Edición, grado y condiciones de inspección exigidas"
+                ],
+                [
+                  "Ensayo de propiedades",
+                  "Método exigido por el cliente",
+                  "Compuesto, probeta, acondicionamiento, método y límites de resultados"
+                ],
+                [
+                  "Aprobación de la pieza",
+                  "Plano del cliente y plan de aprobación",
+                  "Identidad de muestra, evaluación montada, registros y responsabilidad de decisión"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/resources/o-ring-size-guide",
+                "label": "Identificar dimensiones de O-ring"
+              },
+              {
+                "url": "/blog/iso-3601-3-visual-inspection-standards-for-o-rings-what-is-acceptable",
+                "label": "Especificar la aceptación visual de O-rings"
+              }
+            ]
           },
           {
-            "heading": "Ensayos e informes",
-            "body": "Incluya método y acondicionamiento con cada resultado solicitado. Un número de norma no define todos los criterios de aceptación del proyecto."
+            "heading": "Definir evidencia de inflamabilidad para el material real",
+            "body": "Si se exige una clasificación UL 94, identifique método y clasificación, compuesto, forma y espesor de probeta, acondicionamiento e informe. Compruebe si el informe disponible corresponde al material propuesto y a las condiciones de ensayo. Los resultados del material y la aprobación del producto montado tienen requisitos de aceptación propios.",
+            "items": [
+              "Indicar la clasificación solicitada en la especificación del proyecto.",
+              "Conservar la identidad del material y las condiciones de probeta con el resultado.",
+              "Acordar con el cliente las evaluaciones adicionales de pieza o sistema."
+            ],
+            "links": [
+              {
+                "url": "/testing",
+                "label": "Consultar ensayos e informes"
+              }
+            ]
+          },
+          {
+            "heading": "Resolver la base de compra antes de las muestras",
+            "body": "Aporte los documentos aplicables e indique qué requisitos prevalecen si difieren plano, designación del material y documentos del cliente. Acuerde puntos abiertos, informes y aprobación de muestras antes de cotizar o ensayar contra un límite supuesto. Vincule especificación aprobada y cambios posteriores a la pieza suministrada.",
+            "links": [
+              {
+                "url": "/materials",
+                "label": "Materiales y requisitos del compuesto"
+              },
+              {
+                "url": "/quality",
+                "label": "Registros de calidad para aprobar piezas"
+              },
+              {
+                "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+                "label": "Preparar la documentación del cliente"
+              },
+              {
+                "url": "/contact",
+                "label": "Consultar una especificación de pieza"
+              }
+            ]
           }
         ],
         "cta": "Consultar la especificación",
@@ -5515,21 +5604,104 @@
       "RQ-PG-038": {
         "label": "Medidas de juntas tóricas",
         "title": "Medidas y planos de juntas tóricas | RubberQ",
-        "description": "Prepare las dimensiones para evaluar una junta tórica.",
+        "description": "Identifique tamaño de O-ring con diámetro interior, sección, unidades y revisión del plano. Revise serie, alojamiento y material antes de pedir una oferta.",
         "h1": "Medidas y planos de juntas tóricas",
         "intro": "Prepare las dimensiones para evaluar una junta tórica. Registre diámetro interior, sección, alojamiento y piezas de contacto junto con las condiciones de servicio.",
         "sections": [
           {
-            "heading": "Identificar la referencia dimensional",
-            "body": "Incluya sistema y código exacto si existen. Para una pieza especial, aporte plano acotado, no solo fotografía."
+            "heading": "Identificar dimensiones y referencia de tamaño",
+            "body": "Registre diámetro interior (ID) y diámetro de sección circular (CS), con unidades y tolerancias. Si el plano utiliza ISO 3601-1 o SAE AS568, incluya designación completa de tamaño y edición exigida. Si desconoce la serie, envíe plano o referencia original y datos de medida de la muestra."
           },
           {
-            "heading": "Comprobar la geometría instalada",
-            "body": "Alojamiento, estiramiento, compresión y holgura afectan al sello. Revise dimensiones de la pieza con el conjunto montado."
+            "heading": "Conservar juntas las dimensiones de pieza y montaje",
+            "body": "Una solicitud de sustitución necesita la referencia de tamaño y la geometría donde trabaja el sello.",
+            "table": {
+              "caption": "Dimensiones y registros para solicitar un O-ring",
+              "columns": [
+                "Dato",
+                "Información que debe aportar"
+              ],
+              "rows": [
+                [
+                  "Identidad",
+                  "Referencia de pieza, revisión del plano y designación conocida de tamaño"
+                ],
+                [
+                  "Unidades y dimensiones",
+                  "ID, CS, unidades, tolerancias y método de medida"
+                ],
+                [
+                  "Estado de muestra",
+                  "Nueva o usada, libre o montada, daños y muestra de referencia disponible"
+                ],
+                [
+                  "Alojamiento y piezas de contacto",
+                  "Dimensiones de ranura, diámetro de contacto, holgura y tolerancias"
+                ],
+                [
+                  "Instalación",
+                  "Estiramiento, dirección de compresión, montaje y servicio estático o móvil"
+                ],
+                [
+                  "Material",
+                  "Compuesto especificado, escala de dureza y requisitos del material"
+                ],
+                [
+                  "Servicio",
+                  "Medios reales, temperatura, historial de presión y cantidad"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "Revisar un proyecto de O-rings y sellos"
+              },
+              {
+                "url": "/resources/rubber-hardness-guide",
+                "label": "Especificar el requisito de dureza"
+              }
+            ]
           },
           {
-            "heading": "Enviar una consulta útil",
-            "body": "Adjunte revisión del plano, material, cantidad y condiciones de uso. Identificar la medida inicia la evaluación; no cualifica el rendimiento."
+            "heading": "Interpretar un ejemplo dimensional sencillo",
+            "body": "Para un O-ring circular sin deformar, el diámetro exterior nominal es ID + 2 × CS. Un ID ilustrativo de 20,0 mm y CS de 2,0 mm da 24,0 mm de diámetro exterior. Son dimensiones supuestas para explicar la notación; no identifican código de tamaño normalizado, tolerancia ni ranura aprobada."
+          },
+          {
+            "heading": "Revisar por separado alojamiento y material",
+            "body": "Confirme la geometría montada con los límites reales del plano, incluida compresión, estiramiento y holgura. Separe selección de material e identificación de tamaño: una dimensión métrica o un número dash no especifica compuesto ni marca. Una muestra usada puede necesitar comparación con el plano original antes de acordar dimensiones.",
+            "links": [
+              {
+                "url": "/blog/groove-design-calculating-percentage-fill-and-squeeze-for-o-rings",
+                "label": "Revisar compresión, llenado y tolerancias"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Preparar datos de fluido y exposición"
+              },
+              {
+                "url": "/materials/fkm",
+                "label": "Consultar requisitos del compuesto FKM"
+              }
+            ]
+          },
+          {
+            "heading": "Enviar la especificación para revisión",
+            "body": "Incluya plano, referencia de tamaño, material, cantidad y requisitos de aceptación. Acuerde inspección de muestras y evaluación montada antes de adoptar una sustitución. Marque como desconocidas las dimensiones o series que falten e identifique quién las confirmará.",
+            "links": [
+              {
+                "url": "/standards",
+                "label": "Normas y apoyo a la especificación"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Consultar muestras de O-ring"
+              },
+              {
+                "url": "/contact",
+                "label": "Enviar un requisito de O-ring"
+              }
+            ]
           }
         ],
         "cta": "Consultar la especificación",
@@ -5538,21 +5710,100 @@
       "RQ-PG-039": {
         "label": "Dureza del caucho",
         "title": "Cómo especificar la dureza del caucho | RubberQ",
-        "description": "La dureza es una parte de la especificación.",
+        "description": "Especifique dureza del caucho con escala, método, probeta y condiciones. Compare informes, revise cambios tras almacenamiento y acuerde aceptación de piezas.",
         "h1": "Cómo especificar la dureza del caucho",
         "intro": "La dureza es una parte de la especificación. Incluya escala, método, tolerancia y condiciones de medición junto con la función del componente.",
         "sections": [
           {
-            "heading": "Indicar escala y método",
-            "body": "Un valor necesita escala y base de ensayo. Espesor, acondicionamiento y técnica de medida afectan a la comparabilidad."
+            "heading": "Redactar un requisito de dureza medible",
+            "body": "Un valor como «70» necesita escala y método antes de usarse para aceptación. Identifique el requisito del plano, tolerancia y edición de la norma exigida. Los resultados Shore A, Shore D e IRHD corresponden a sus propios métodos; una tabla de conversión no sustituye la medida con el método requerido."
           },
           {
-            "heading": "Relacionar dureza y función",
-            "body": "Sellado, flexibilidad y montaje también dependen de geometría y otras propiedades. La dureza no describe por sí sola recuperación ni resistencia química."
+            "heading": "Conservar las condiciones de medida con el resultado",
+            "body": "Acuerde probeta y montaje de medida antes de comparar informes del proveedor y del cliente.",
+            "table": {
+              "caption": "Datos para especificar dureza del caucho",
+              "columns": [
+                "Dato",
+                "Información que debe registrarse"
+              ],
+              "rows": [
+                [
+                  "Requisito",
+                  "Valor, escala, tolerancia, método y edición exigida"
+                ],
+                [
+                  "Identidad del material",
+                  "Grado del compuesto, lote y estado de procesado o de muestra"
+                ],
+                [
+                  "Probeta",
+                  "Probeta o pieza terminada, espesor, curvatura y apoyo"
+                ],
+                [
+                  "Acondicionamiento",
+                  "Preparación, temperatura e historial de almacenamiento y acondicionamiento"
+                ],
+                [
+                  "Lectura",
+                  "Puntos de medida, tiempo de lectura y repeticiones acordadas"
+                ],
+                [
+                  "Proceso de medida",
+                  "Identificación del instrumento, registros de calibración y MSA pertinente"
+                ],
+                [
+                  "Aceptación",
+                  "Responsable, formato del informe y tratamiento de resultados distintos"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/measurement-system-analysis-msa-ensuring-gage-rr-in-rubber-testing",
+                "label": "Revisar el proceso de medida de dureza"
+              },
+              {
+                "url": "/testing",
+                "label": "Consultar condiciones del ensayo de dureza"
+              }
+            ]
           },
           {
-            "heading": "Evaluar muestras montadas",
-            "body": "Añada pruebas funcionales y dimensionales. No use conversiones entre escalas como mediciones de aceptación."
+            "heading": "Revisar cambios tras almacenamiento con una base comparable",
+            "body": "Conserve resultado original, identidad de lote e historial de almacenamiento junto con una muestra de referencia sin uso, cuando exista. Repita la medida con método y acondicionamiento acordados. Registre cambios junto con dimensiones, aspecto y función requerida. Una lectura distinta justifica investigar tanto la pieza como las condiciones de medida.",
+            "links": [
+              {
+                "url": "/blog/rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction",
+                "label": "Interpretar evidencia de envejecimiento y vida útil"
+              },
+              {
+                "url": "/quality",
+                "label": "Conservar registros de muestra y lote"
+              }
+            ]
+          },
+          {
+            "heading": "Relacionar la dureza con la función de la pieza",
+            "body": "Acuerde por separado la aceptación funcional de montaje, flexibilidad, sellado o respuesta dinámica. Una cifra de dureza por sí sola no determina compatibilidad química, recuperación a compresión ni deformación de trabajo admisible. Utilice el material identificado y una geometría representativa para las comprobaciones necesarias.",
+            "links": [
+              {
+                "url": "/blog/tensile-stress-strain-curves-what-a-mechanical-engineer-needs-to-know-about-rubb",
+                "label": "Interpretar curvas de tracción del caucho"
+              },
+              {
+                "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+                "label": "Distinguir deformación permanente y relajación"
+              },
+              {
+                "url": "/materials",
+                "label": "Revisar el material candidato"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Consultar una evaluación de muestras"
+              }
+            ]
           }
         ],
         "cta": "Consultar la especificación",
@@ -5561,21 +5812,108 @@
       "RQ-PG-040": {
         "label": "Compatibilidad química",
         "title": "Qué especificar para la compatibilidad del caucho | RubberQ",
-        "description": "Prepare una evaluación con fluido exacto, concentración, temperatura y ciclos de exposición.",
+        "description": "Prepare datos de compatibilidad del caucho con fluido, mezcla, secuencia y compuesto reales. Compare cambios del material y función montada por separado.",
         "h1": "Qué especificar para la compatibilidad del caucho",
         "intro": "Prepare una evaluación con fluido exacto, concentración, temperatura y ciclos de exposición. Las comparaciones de familias orientan la consulta, pero no sustituyen ensayos del compuesto.",
         "sections": [
           {
-            "heading": "Describir toda la exposición",
-            "body": "Incluya aditivos, contaminación, limpieza y medios alternos. El nombre del fluido base puede omitir condiciones importantes."
+            "heading": "Identificar el fluido y el compuesto",
+            "body": "La revisión parte del producto químico real y del grado candidato. Incluya mezclas, concentración, aditivos, contaminación y limpieza. Familia del polímero, polaridad del disolvente o nombre comercial ayudan a identificar un punto de partida; la comparación necesita registros completos de exposición y compuesto."
           },
           {
-            "heading": "Definir los cambios relevantes",
-            "body": "Acuerde si se evalúan volumen, masa, dureza, resistencia, recuperación tras compresión o fugas del conjunto."
+            "heading": "Preparar los datos de exposición",
+            "body": "Enumere cada medio y etapa de servicio para que la solicitud de ensayo represente el trabajo de la pieza.",
+            "table": {
+              "caption": "Datos para revisar compatibilidad del caucho",
+              "columns": [
+                "Dato",
+                "Información que debe aportar"
+              ],
+              "rows": [
+                [
+                  "Medio",
+                  "Nombre del producto, composición o especificación disponible, concentración y aditivos"
+                ],
+                [
+                  "Secuencia",
+                  "Cara expuesta, contacto continuo o intermitente, aclarado, limpieza y cambios de medio"
+                ],
+                [
+                  "Temperatura y tiempo",
+                  "Condiciones normales y máximas, duración, ciclos y recuperación"
+                ],
+                [
+                  "Presión",
+                  "Servicio con líquido o gas, historial de presión y descompresión pertinente"
+                ],
+                [
+                  "Material y probeta",
+                  "Compuesto exacto, lote de muestra, geometría, procesado y estado inicial"
+                ],
+                [
+                  "Cambios que medir",
+                  "Masa, volumen, dureza, resistencia, recuperación o medidas del fluido acordadas"
+                ],
+                [
+                  "Aceptación montada",
+                  "Dimensiones, fugas o función exigida, condiciones y criterios de decisión"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Comparar con una base común",
-            "body": "Conserve identificación del compuesto, temperatura, duración y acondicionamiento con el resultado. Use muestras representativas para decidir la aplicación final."
+            "heading": "Comparar candidatos sobre una base común",
+            "body": "Para comparar EPDM/FKM, HNBR/FKM, NBR/FKM o AEM/ACM, identifique los grados y contraste informes con los mismos fluidos, condiciones y métodos. Conserve juntos resultados iniciales y tras exposición. La inmersión en líquido orienta la comparación de materiales; el sello instalado necesita su propia evaluación funcional.",
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Comparar informes de hinchamiento en fluidos"
+              },
+              {
+                "url": "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
+                "label": "Comparar requisitos de evaluación de FKM y FFKM"
+              },
+              {
+                "url": "/materials",
+                "label": "Encontrar los requisitos del material"
+              }
+            ]
+          },
+          {
+            "heading": "Incluir el historial completo de limpieza y presión",
+            "body": "Un ciclo de limpieza puede incluir productos químicos, aclarados y etapas térmicas distintos. Describa cada etapa y cualquier vapor con temperatura, presión y duración reales. En servicio con gas, incluya composición, cambios de presión y evaluación de descompresión exigida. Si interviene H2S, separe la norma de metales del cliente del protocolo de ensayo del elastómero.",
+            "links": [
+              {
+                "url": "/resources/seal-failure-analysis",
+                "label": "Preparar una investigación de presión y exposición"
+              },
+              {
+                "url": "/industries/liquid-cooling-energy-storage",
+                "label": "Revisar componentes para refrigeración y almacenamiento"
+              },
+              {
+                "url": "/industries/ev-energy-storage",
+                "label": "Revisar componentes de gestión térmica EV"
+              }
+            ]
+          },
+          {
+            "heading": "Definir qué debe conservar una sustitución",
+            "body": "Para una pieza de referencia de poliuretano o PTFE, identifique grado, plano y motivo del cambio antes de comparar un candidato de caucho. Acuerde propiedades, dimensiones, proceso y función que deben evaluarse. Envíe la especificación disponible y marque los datos desconocidos; después se definen aprobación de muestras y alcance de suministro para el proyecto. En entornos húmedos o con agua caliente, indique humedad o estado de contacto líquido, temperatura y duración junto con el grado exacto del polímero. Para un combustible, aporte especificación completa y datos de la mezcla.",
+            "links": [
+              {
+                "url": "/resources/rubber-hardness-guide",
+                "label": "Especificar medidas de dureza"
+              },
+              {
+                "url": "/testing",
+                "label": "Acordar ensayos de material y conjunto"
+              },
+              {
+                "url": "/contact",
+                "label": "Enviar un requisito de compatibilidad"
+              }
+            ]
           }
         ],
         "cta": "Consultar la especificación",
@@ -5584,21 +5922,159 @@
       "RQ-PG-041": {
         "label": "Análisis de fallos",
         "title": "Cómo revisar el fallo de una junta de caucho | RubberQ",
-        "description": "Conserve la pieza fallada y el historial de uso antes de elegir un repuesto.",
+        "description": "Prepare la revisión de un fallo de sello con muestras dañadas y nuevas, registros de montaje e historial de servicio. Defina investigación y valide cambios.",
         "h1": "Cómo revisar el fallo de una junta de caucho",
         "intro": "Conserve la pieza fallada y el historial de uso antes de elegir un repuesto. Una evaluación útil relaciona daño con montaje, exposición, movimiento y tiempo de servicio.",
         "sections": [
           {
-            "heading": "Documentar antes de sustituir",
-            "body": "Fotografíe instalación y daño, conserve referencias sin usar y registre cambios de operación. Incluya revisión del plano y lote cuando existan."
+            "heading": "Conservar la pieza y su historial",
+            "body": "Fotografíe posición instalada y daño antes de cambiar el conjunto. Conserve pieza devuelta, embalaje y una pieza de comparación sin uso, cuando exista. Registre referencia, revisión del plano, compuesto y lote. Acuerde manejo y devolución de probetas para que siga identificable el estado investigado."
           },
           {
-            "heading": "Distinguir posibles causas",
-            "body": "Revise daños de instalación, geometría, fricción, fluidos y temperatura sin asumir que todo fallo procede del material."
+            "heading": "Registrar lo ocurrido",
+            "body": "Describa la secuencia desde almacenamiento e instalación hasta el primer cambio observado.",
+            "table": {
+              "caption": "Registros para investigar un fallo de sello",
+              "columns": [
+                "Registro",
+                "Información que debe recopilarse"
+              ],
+              "rows": [
+                [
+                  "Base inicial",
+                  "Plano original, especificación, inspección inicial y muestra sin uso"
+                ],
+                [
+                  "Cronología",
+                  "Almacenamiento, montaje, primer síntoma, duración de servicio y cambios recientes"
+                ],
+                [
+                  "Instalación",
+                  "Posición, orientación, herramientas, lubricante, orden de apriete y superficies de contacto"
+                ],
+                [
+                  "Exposición",
+                  "Fluidos o gases completos, limpieza, contaminación e historial térmico y de presión"
+                ],
+                [
+                  "Servicio mecánico",
+                  "Movimiento, carga, precarga, velocidad, ciclos y holgura o alineación"
+                ],
+                [
+                  "Observaciones",
+                  "Fotos con escala y posición, registros de fugas o respuesta y cantidad afectada"
+                ],
+                [
+                  "Comparación",
+                  "Posiciones o lotes sin afectación, materiales retenidos y registros de servicio comparables"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Ensayar el cambio propuesto",
-            "body": "Defina qué debe demostrar la nueva muestra y cómo se medirá. Conserve las condiciones de validación con la decisión de cambiar material o geometría."
+            "heading": "Usar observaciones para elegir la siguiente evidencia",
+            "body": "Registre lo visible antes de seleccionar una causa. Un mismo rasgo admite varias explicaciones; estas preguntas organizan la investigación.",
+            "table": {
+              "caption": "Cambios observados y evidencia que comparar",
+              "columns": [
+                "Observación",
+                "Evidencia que comparar"
+              ],
+              "rows": [
+                [
+                  "Cortes o superficies retorcidas",
+                  "Posición del daño, recorrido de montaje, herramientas, ranura y movimiento; presión de gas si procede"
+                ],
+                [
+                  "Bordes desplazados hacia una holgura",
+                  "Holgura y tolerancias reales, apoyo, compuesto e historial térmico y de presión"
+                ],
+                [
+                  "Desgaste o ruido por fricción",
+                  "Contracara, partículas, lubricación, velocidad, carga y condiciones reproducibles"
+                ],
+                [
+                  "Grietas o desgarros",
+                  "Origen, orientación, geometría deformada, trayectoria de carga e historial térmico, de ozono o gas"
+                ],
+                [
+                  "Pérdida de recuperación o aplanamiento",
+                  "Geometría original, compresión instalada, tiempo, temperatura y descarga"
+                ],
+                [
+                  "Pegajosidad o depósito blanco",
+                  "Muestras tal como se reciben, embalaje, almacenamiento, limpieza, residuos y comparación sin tratar"
+                ],
+                [
+                  "Manchas o corrosión adyacente",
+                  "Par caucho/plástico o metal/recubrimiento, tiempo de contacto, humedad, residuos y blancos"
+                ],
+                [
+                  "Cambio de fluido o sensor",
+                  "Identidades del fluido y componente, exposición, muestras comparativas y cambio funcional medido"
+                ],
+                [
+                  "Separación de unión",
+                  "Posición, preparación y lote del metal, superficies de rotura, carga y registros de montaje"
+                ]
+              ]
+            }
+          },
+          {
+            "heading": "Distinguir evaluaciones térmicas y de gas",
+            "body": "Para una cuestión de función en frío, conserve el informe del material, incluido método y probeta de cualquier valor de transición vítrea, junto con la evaluación montada. Para envejecimiento térmico, adjunte historial de exposición y cargas. Con gas presurizado, aporte composición, presión, permanencia, temperatura y secuencia de descompresión, y acuerde muestras y aceptación para el compuesto específico."
+          },
+          {
+            "heading": "Relacionar la investigación con la medida pertinente",
+            "body": "Elija medidas para la cuestión concreta: propiedad del material, estado de interfaz o función montada. Conserve identidad de probeta, método y condiciones con cada resultado. Separe deformación permanente y retención de fuerza, y distinga permeación del material y fuga del conjunto.",
+            "links": [
+              {
+                "url": "/blog/over-compression-when-tighter-is-not-better-for-gasket-performance",
+                "label": "Investigar la sobrecompresión de una junta"
+              },
+              {
+                "url": "/blog/compression-set-failure-why-your-seal-lost-its-bounce",
+                "label": "Investigar pérdida de recuperación a compresión"
+              },
+              {
+                "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+                "label": "Comparar deformación permanente y relajación"
+              },
+              {
+                "url": "/blog/rubber-to-metal-bonding-failure-analyzing-adhesive-vs-material-separation",
+                "label": "Investigar separación de caucho-metal"
+              },
+              {
+                "url": "/blog/permeation-vs-leakage-understanding-the-difference-in-gas-systems",
+                "label": "Separar permeación de gas y fugas"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Preparar datos de medios y exposición"
+              }
+            ]
+          },
+          {
+            "heading": "Validar la corrección propuesta",
+            "body": "Acuerde hipótesis, cambio propuesto, identidad de muestra y condiciones de ensayo antes de adoptar material o geometría nuevos. Defina criterios de aceptación, prueba montada y responsable de la decisión. Conserve registros anteriores y posteriores y siga los lotes pertinentes en el suministro repetido.",
+            "links": [
+              {
+                "url": "/blog/root-cause-analysis-8d-rubberqs-process-for-resolving-quality-deviations",
+                "label": "Preparar una revisión de calidad 8D"
+              },
+              {
+                "url": "/quality",
+                "label": "Trazar piezas y registros de producción"
+              },
+              {
+                "url": "/testing",
+                "label": "Consultar medidas de investigación"
+              },
+              {
+                "url": "/contact",
+                "label": "Enviar una solicitud de investigación"
+              }
+            ]
           }
         ],
         "cta": "Consultar la especificación",

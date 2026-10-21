@@ -5454,21 +5454,110 @@
       "RQ-PG-037": {
         "label": "Normen",
         "title": "Gumminormen und Spezifikationsunterstützung | RubberQ",
-        "description": "Normen für Gummiwerkstoffe und Bauteile richtig zuordnen: Klassifizierung, Zeichnungstoleranzen, Prüfbedingungen und Abnahmekriterien mit RubberQ abstimmen.",
+        "description": "Gummiteile mit vollständiger Werkstoffbezeichnung, Normausgabe und Abnahmekriterien spezifizieren. Geforderte Prüfungen mit passenden Nachweisen verbinden.",
         "h1": "Gumminormen und Spezifikationsunterstützung",
         "intro": "Nutzen Sie Normen, um Anforderungen messbar zu machen. Nennen Sie Ausgabe, Prüfbedingungen und Abnahmekriterien gemeinsam mit Ihrer Werkstoff- oder Bauteilzeichnung.",
         "sections": [
           {
-            "heading": "Werkstoffklassifizierung",
-            "body": "Besprechen Sie Bezeichnung, Zusatzanforderungen und Einsatzbedingungen bei einer Klassifizierung wie ASTM D2000."
+            "heading": "Die vollständige Spezifikation verwenden",
+            "body": "Senden Sie die komplette Werkstoffbezeichnung einschließlich Zusätzen, vorgeschriebener Ausgabe und kundenspezifischer Ergänzungen. Halten Sie den Zeichnungsstand bei der Anforderung. Bei ASTM D2000 bilden vollständige Bezeichnung und Zusatzanforderungen die Gesprächsgrundlage; eine verkürzte Werkstoffangabe lässt technische Fragen offen.",
+            "links": [
+              {
+                "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+                "label": "Vollständige ASTM-D2000-Bezeichnung vorbereiten"
+              }
+            ]
           },
           {
-            "heading": "Bauteilmaße und Toleranzen",
-            "body": "Definieren Sie Bezugssystem, Zeichnungsgrenzen und Prüfmethode. O-Ring-Größenreferenzen und Formteiltoleranzen erfüllen unterschiedliche Aufgaben."
+            "heading": "Jede Referenz der passenden Anforderung zuordnen",
+            "body": "Erfassen Sie Werkstoff, Geometrie, Prüfung und Freigabe getrennt, damit jedes Ergebnis mit seiner Grundlage verglichen werden kann.",
+            "table": {
+              "caption": "Spezifikationsreferenzen und benötigte Angaben",
+              "columns": [
+                "Anforderung",
+                "Referenz oder Grundlage",
+                "Zu vereinbarende Angaben"
+              ],
+              "rows": [
+                [
+                  "Werkstoffklassifizierung",
+                  "Zum Beispiel ASTM D2000",
+                  "Vollständige Bezeichnung, Ausgabe, Zusätze und Kundenanforderungen"
+                ],
+                [
+                  "O-Ring-Maße",
+                  "Vorgegebene ISO-3601-1- oder SAE-AS568-Referenz",
+                  "Ausgabe, Größenbezeichnung, Maße und geltende Toleranzen"
+                ],
+                [
+                  "Maße anderer Formteile",
+                  "Zeichnung und anwendbare Toleranzvorgabe",
+                  "Geltungsbereich, Toleranzklasse, kritische Merkmale und Prüfverfahren"
+                ],
+                [
+                  "O-Ring-Oberfläche",
+                  "Vorgegebene Abnahme nach ISO 3601-3",
+                  "Ausgabe, Gütestufe und verlangte Prüfbedingungen"
+                ],
+                [
+                  "Eigenschaftsprüfung",
+                  "Vom Kunden vorgeschriebenes Prüfverfahren",
+                  "Mischung, Prüfkörper, Konditionierung, Methode und Ergebnisgrenzen"
+                ],
+                [
+                  "Bauteilfreigabe",
+                  "Kundenzeichnung und Freigabeplan",
+                  "Musteridentität, Einbauprüfung, Unterlagen und Entscheidungsverantwortung"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/resources/o-ring-size-guide",
+                "label": "O-Ring-Abmessungen bestimmen"
+              },
+              {
+                "url": "/blog/iso-3601-3-visual-inspection-standards-for-o-rings-what-is-acceptable",
+                "label": "Sichtabnahme von O-Ringen spezifizieren"
+              }
+            ]
           },
           {
-            "heading": "Prüfung und Bericht",
-            "body": "Nennen Sie Methode und Konditionierung zu jedem geforderten Ergebnis. Eine Normnummer allein definiert nicht sämtliche Abnahmeanforderungen eines Projekts."
+            "heading": "Brandprüfnachweise für den konkreten Werkstoff festlegen",
+            "body": "Wenn eine UL-94-Brandklassifizierung gefordert ist, benennen Sie Verfahren und Klasse, Mischung, Probenform und -dicke, Konditionierung und Bericht. Prüfen Sie, ob vorhandene Berichte den vorgesehenen Werkstoff und die Prüfbedingungen beschreiben. Werkstoffbrandverhalten und Freigabe des montierten Produkts haben jeweils eigene Abnahmeanforderungen.",
+            "items": [
+              "Die verlangte Klasse in der Projektspezifikation festhalten.",
+              "Werkstoffidentität und Probenbedingungen mit dem Ergebnis aufbewahren.",
+              "Weitere Bauteil- oder Systembewertungen mit dem Kunden vereinbaren."
+            ],
+            "links": [
+              {
+                "url": "/testing",
+                "label": "Prüfungen und Berichte besprechen"
+              }
+            ]
+          },
+          {
+            "heading": "Die Beschaffungsgrundlage vor der Bemusterung klären",
+            "body": "Stellen Sie die geltenden Dokumente bereit und legen Sie deren Rangfolge bei Abweichungen zwischen Zeichnung, Werkstoffbezeichnung und Kundenvorgaben fest. Klären Sie offene Punkte, Berichte und Musterfreigabe, bevor Angebot oder Prüfung auf einem angenommenen Grenzwert beruhen. Verknüpfen Sie freigegebene Spezifikation und Änderungen mit dem gelieferten Teil.",
+            "links": [
+              {
+                "url": "/materials",
+                "label": "Werkstoffe und Mischungsanforderungen"
+              },
+              {
+                "url": "/quality",
+                "label": "Qualitätsunterlagen zur Bauteilfreigabe"
+              },
+              {
+                "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+                "label": "Kundenseitige Vorlage vorbereiten"
+              },
+              {
+                "url": "/contact",
+                "label": "Bauteilspezifikation besprechen"
+              }
+            ]
           }
         ],
         "cta": "Spezifikation besprechen",
@@ -5477,21 +5566,104 @@
       "RQ-PG-038": {
         "label": "O-Ring-Maße",
         "title": "O-Ring-Maße und Zeichnungsangaben | RubberQ",
-        "description": "O-Ring-Anfrage mit Innendurchmesser, Schnurstärke, Nut, Zeichnungsstand und Werkstoff vorbereiten. Einbaugeometrie und Betriebsbedingungen gemeinsam prüfen.",
+        "description": "O-Ring-Größen mit Innendurchmesser, Schnurstärke, Einheit und Zeichnungsstand bestimmen. Größenreihe, Nut und Werkstoff vor dem Angebot gemeinsam prüfen.",
         "h1": "O-Ring-Maße und Zeichnungsangaben",
         "intro": "Bereiten Sie die Maße für eine O-Ring-Bewertung vor. Erfassen Sie Innendurchmesser, Schnurstärke, Nut- und Gegenstückmaße gemeinsam mit den Betriebsbedingungen.",
         "sections": [
           {
-            "heading": "Größenreferenz identifizieren",
-            "body": "Nennen Sie Bezugssystem und genaue Größenkennung, falls vorhanden. Senden Sie für Sonderteile eine bemaßte Zeichnung statt nur eines Fotos."
+            "heading": "Maße und Größenreferenz identifizieren",
+            "body": "Erfassen Sie Innendurchmesser (ID) und kreisförmigen Schnurdurchmesser (CS) mit Einheiten und Toleranzen. Verwendet die Zeichnung ISO 3601-1 oder SAE AS568, ergänzen Sie vollständige Größenbezeichnung und vorgeschriebene Ausgabe. Bei unbekannter Reihe senden Sie Zeichnung oder Originalreferenz sowie Messangaben zum Muster."
           },
           {
-            "heading": "Eingebaute Geometrie prüfen",
-            "body": "Nutmaße, Dehnung, Verpressung und Spalt beeinflussen die Dichtung. Bauteilmaße müssen mit dem montierten Zustand betrachtet werden."
+            "heading": "Bauteil- und Einbaumaße zusammenhalten",
+            "body": "Eine Ersatzanfrage benötigt die Größenreferenz und die Geometrie des Dichtungseinbaus.",
+            "table": {
+              "caption": "Maße und Unterlagen für eine O-Ring-Anfrage",
+              "columns": [
+                "Eingabe",
+                "Benötigte Angaben"
+              ],
+              "rows": [
+                [
+                  "Identität",
+                  "Teilereferenz, Zeichnungsstand und bekannte Größenbezeichnung"
+                ],
+                [
+                  "Einheiten und Maße",
+                  "ID, CS, Einheiten, Toleranzen und Messverfahren"
+                ],
+                [
+                  "Musterzustand",
+                  "Neu oder gebraucht, frei oder eingebaut, Schäden und verfügbares Referenzmuster"
+                ],
+                [
+                  "Nut und Gegenbauteile",
+                  "Nutmaße, Gegenbauteildurchmesser, Spalt und Toleranzen"
+                ],
+                [
+                  "Einbau",
+                  "Dehnung, Kompressionsrichtung, Montage und statischer oder bewegter Einsatz"
+                ],
+                [
+                  "Werkstoff",
+                  "Vorgeschriebene Mischung, Härteskala und Werkstoffanforderungen"
+                ],
+                [
+                  "Betrieb",
+                  "Tatsächliche Medien, Temperatur, Druckverlauf und Menge"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "O-Ring- und Dichtungsprojekt besprechen"
+              },
+              {
+                "url": "/resources/rubber-hardness-guide",
+                "label": "Härteanforderung festlegen"
+              }
+            ]
           },
           {
-            "heading": "Eine aussagekräftige Anfrage senden",
-            "body": "Ergänzen Sie Zeichnungsstand, Werkstoffbezeichnung, Menge und Betriebsbedingungen. Die Größenbestimmung beginnt die Bewertung und ersetzt keine Leistungsqualifizierung."
+            "heading": "Ein einfaches Maßbeispiel lesen",
+            "body": "Bei einem unverformten kreisförmigen O-Ring beträgt der Nennaußendurchmesser ID + 2 × CS. Ein beispielhafter ID von 20,0 mm und CS von 2,0 mm ergibt 24,0 mm Außendurchmesser. Diese angenommenen Maße erklären die Bezeichnung; sie bestimmen weder Normgrößencode noch Toleranz oder freigegebene Nut."
+          },
+          {
+            "heading": "Nut und Werkstoff getrennt prüfen",
+            "body": "Prüfen Sie die Einbaugeometrie anhand der tatsächlichen Zeichnungsgrenzen einschließlich Verpressung, Dehnung und Spalt. Halten Sie die Werkstoffauswahl getrennt von der Größenbestimmung: Ein metrisches Maß oder eine Dash-Nummer legt weder Mischung noch Marke fest. Bei gebrauchten Mustern kann vor der Maßvereinbarung ein Vergleich mit der Originalzeichnung nötig sein.",
+            "links": [
+              {
+                "url": "/blog/groove-design-calculating-percentage-fill-and-squeeze-for-o-rings",
+                "label": "Verpressung, Nutfüllung und Toleranzen prüfen"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Medien- und Expositionsangaben vorbereiten"
+              },
+              {
+                "url": "/materials/fkm",
+                "label": "FKM-Mischungsanforderungen besprechen"
+              }
+            ]
+          },
+          {
+            "heading": "Die Spezifikation zur Prüfung senden",
+            "body": "Ergänzen Sie Zeichnung, Größenreferenz, Werkstoff, Menge und Abnahmeanforderungen. Vereinbaren Sie Musterprüfung und Einbaubewertung vor der Übernahme eines Ersatzteils. Kennzeichnen Sie fehlende Maße oder Referenzreihen als unbekannt und bestimmen Sie die Zuständigkeit für ihre Bestätigung.",
+            "links": [
+              {
+                "url": "/standards",
+                "label": "Normen und Spezifikationsunterstützung"
+              },
+              {
+                "url": "/sample-request",
+                "label": "O-Ring-Muster besprechen"
+              },
+              {
+                "url": "/contact",
+                "label": "Eine O-Ring-Anforderung senden"
+              }
+            ]
           }
         ],
         "cta": "Spezifikation besprechen",
@@ -5500,21 +5672,100 @@
       "RQ-PG-039": {
         "label": "Gummihärte",
         "title": "Gummihärte sinnvoll spezifizieren | RubberQ",
-        "description": "Gummihärte mit Skala, Prüfmethode, Toleranz und Konditionierung angeben. Verbinden Sie den Härtewert mit Geometrie und Funktionsprüfung Ihres Bauteils.",
+        "description": "Gummihärte mit Skala, Verfahren, Prüfkörper und Messbedingungen festlegen. Berichte vergleichen, Lageränderungen untersuchen und Bauteilabnahme vereinbaren.",
         "h1": "Gummihärte sinnvoll spezifizieren",
         "intro": "Härte ist ein Teil der Gummispezifikation. Nennen Sie Skala, Methode, Toleranz und Messbedingungen gemeinsam mit den Funktionsanforderungen des Bauteils.",
         "sections": [
           {
-            "heading": "Skala und Methode angeben",
-            "body": "Ein Härtewert benötigt Skala und Prüfgrundlage. Probendicke, Konditionierung und Messverfahren beeinflussen die Vergleichbarkeit."
+            "heading": "Eine messbare Härteanforderung formulieren",
+            "body": "Ein Wert wie „70“ benötigt Skala und Verfahren, bevor er zur Abnahme dient. Benennen Sie Zeichnungsanforderung, Toleranz und vorgeschriebene Normausgabe. Shore A, Shore D und IRHD gehören zu ihren jeweiligen Verfahren; eine Umrechnungstabelle ersetzt keine Messung nach der geforderten Methode."
           },
           {
-            "heading": "Härte mit Funktion verbinden",
-            "body": "Dichtung, Flexibilität und Montageverhalten hängen auch von Geometrie und weiteren Eigenschaften ab. Härte allein beschreibt weder Rückstellverhalten noch chemische Beständigkeit."
+            "heading": "Messbedingungen mit dem Ergebnis aufbewahren",
+            "body": "Vereinbaren Sie Prüfkörper und Messanordnung, bevor Lieferanten- und Kundenberichte verglichen werden.",
+            "table": {
+              "caption": "Angaben für eine Gummihärtespezifikation",
+              "columns": [
+                "Eingabe",
+                "Zu erfassende Angaben"
+              ],
+              "rows": [
+                [
+                  "Anforderung",
+                  "Wert, Skala, Toleranz, Verfahren und vorgeschriebene Ausgabe"
+                ],
+                [
+                  "Werkstoffidentität",
+                  "Mischungstyp, Charge sowie Verarbeitungs- oder Musterzustand"
+                ],
+                [
+                  "Prüfkörper",
+                  "Prüfplatte oder Fertigteil, Dicke, Krümmung und Auflage"
+                ],
+                [
+                  "Konditionierung",
+                  "Vorbereitung, Temperatur, Lagerung und Konditionierungsverlauf"
+                ],
+                [
+                  "Ablesung",
+                  "Messstellen, Ablesezeitpunkt und vereinbarte Wiederholmessungen"
+                ],
+                [
+                  "Messprozess",
+                  "Geräteidentifikation, Kalibriernachweise und relevante MSA"
+                ],
+                [
+                  "Abnahme",
+                  "Verantwortlichkeit, Berichtsformat und Umgang mit abweichenden Ergebnissen"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/measurement-system-analysis-msa-ensuring-gage-rr-in-rubber-testing",
+                "label": "Den Härtemessprozess bewerten"
+              },
+              {
+                "url": "/testing",
+                "label": "Bedingungen der Härteprüfung besprechen"
+              }
+            ]
           },
           {
-            "heading": "Muster in der Baugruppe prüfen",
-            "body": "Ergänzen Sie Härteanforderungen durch Funktions- und Maßprüfungen. Umrechnungen zwischen Skalen sollten nicht als Abnahmemessung verwendet werden."
+            "heading": "Änderungen nach Lagerung auf vergleichbarer Basis prüfen",
+            "body": "Bewahren Sie ursprüngliches Ergebnis, Chargenidentität und Lagerverlauf zusammen mit einem unbenutzten Referenzmuster auf, sofern verfügbar. Wiederholen Sie die Messung mit vereinbartem Verfahren und Konditionierung. Erfassen Sie Änderungen zusammen mit Maßen, Aussehen und geforderter Funktion. Ein veränderter Wert gibt Anlass, Bauteil und Messbedingungen zu untersuchen.",
+            "links": [
+              {
+                "url": "/blog/rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction",
+                "label": "Alterungs- und Lebensdauernachweise einordnen"
+              },
+              {
+                "url": "/quality",
+                "label": "Muster- und Chargenunterlagen führen"
+              }
+            ]
+          },
+          {
+            "heading": "Härte mit der Bauteilfunktion verbinden",
+            "body": "Vereinbaren Sie die funktionale Abnahme für Montage, Flexibilität, Dichtheit oder dynamisches Verhalten gesondert. Ein Härtewert allein belegt weder Medienverträglichkeit noch Rückstellung nach Kompression oder zulässige Betriebsdehnung. Verwenden Sie den identifizierten Werkstoff und eine repräsentative Geometrie für die nötigen Prüfungen.",
+            "links": [
+              {
+                "url": "/blog/tensile-stress-strain-curves-what-a-mechanical-engineer-needs-to-know-about-rubb",
+                "label": "Zugkurven von Gummi lesen"
+              },
+              {
+                "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+                "label": "Druckverformungsrest und Spannungsrelaxation unterscheiden"
+              },
+              {
+                "url": "/materials",
+                "label": "Den Werkstoffkandidaten besprechen"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Musterbewertung besprechen"
+              }
+            ]
           }
         ],
         "cta": "Spezifikation besprechen",
@@ -5523,21 +5774,108 @@
       "RQ-PG-040": {
         "label": "Medienverträglichkeit",
         "title": "Medienverträglichkeit von Gummi spezifizieren | RubberQ",
-        "description": "Medienverträglichkeit von Gummimischungen bewerten: Fluid, Konzentration, Temperatur, Dauer und relevante Eigenschaftsänderungen gemeinsam definieren.",
+        "description": "Verträglichkeit von Gummi mit realem Medium, Mischung, Expositionsfolge und Rezeptur prüfen. Werkstoffänderungen und Funktion im Einbau getrennt bewerten.",
         "h1": "Medienverträglichkeit von Gummi spezifizieren",
         "intro": "Bereiten Sie die Bewertung mit genauem Medium, Konzentration, Temperatur und Expositionszyklus vor. Allgemeine Werkstoffvergleiche grenzen die Auswahl ein, ersetzen aber keine Mischungsprüfung.",
         "sections": [
           {
-            "heading": "Gesamte Exposition beschreiben",
-            "body": "Erfassen Sie Additive, Verunreinigungen, Reinigung und wechselnde Medien. Die Bezeichnung des Basismediums kann wichtige Einflüsse auf die Mischung auslassen."
+            "heading": "Medium und Mischung identifizieren",
+            "body": "Eine Verträglichkeitsbewertung beginnt mit dem tatsächlichen chemischen Produkt und dem vorgesehenen Mischungstyp. Nennen Sie Gemische, Konzentration, Zusätze, Verunreinigungen und Reinigung. Polymerfamilie, Lösungsmittelpolarität oder Handelsname bieten einen Ausgangspunkt; für den Vergleich sind vollständige Expositions- und Mischungsangaben nötig."
           },
           {
-            "heading": "Relevante Veränderungen festlegen",
-            "body": "Vereinbaren Sie, ob Volumen, Masse, Härte, Festigkeit, Rückstellverhalten oder Leckage in der Baugruppe untersucht werden."
+            "heading": "Die Exposition beschreiben",
+            "body": "Führen Sie jedes Medium und jede Betriebsphase auf, damit die Prüfanfrage die Bauteilaufgabe abbildet.",
+            "table": {
+              "caption": "Angaben für eine Gummiverträglichkeitsbewertung",
+              "columns": [
+                "Eingabe",
+                "Benötigte Angaben"
+              ],
+              "rows": [
+                [
+                  "Medium",
+                  "Produktname, Zusammensetzung oder verfügbare Spezifikation, Konzentration und Zusätze"
+                ],
+                [
+                  "Abfolge",
+                  "Kontaktseite, ständige oder zeitweise Exposition, Spülen, Reinigen und Medienwechsel"
+                ],
+                [
+                  "Temperatur und Zeit",
+                  "Normal- und Spitzenbedingungen, Dauer, Zyklen und Erholung"
+                ],
+                [
+                  "Druck",
+                  "Flüssigkeits- oder Gaseinsatz, Druckverlauf und gegebenenfalls Entspannung"
+                ],
+                [
+                  "Werkstoff und Probe",
+                  "Genaue Mischung, Mustercharge, Geometrie, Verarbeitung und Ausgangszustand"
+                ],
+                [
+                  "Zu messende Änderungen",
+                  "Vereinbarte Masse, Volumen, Härte, Festigkeit, Erholung oder Fluidmessungen"
+                ],
+                [
+                  "Abnahme im Einbau",
+                  "Maße, Leckage oder geforderte Funktion, Bedingungen und Entscheidungskriterien"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Auf gemeinsamer Grundlage vergleichen",
-            "body": "Dokumentieren Sie Mischung, Temperatur, Dauer und Konditionierung mit dem Ergebnis. Verwenden Sie repräsentative Muster für die endgültige Anwendungsentscheidung."
+            "heading": "Kandidaten auf gemeinsamer Grundlage vergleichen",
+            "body": "Bei EPDM/FKM-, HNBR/FKM-, NBR/FKM- oder AEM/ACM-Vergleichen identifizieren Sie die Typen und vergleichen Berichte mit übereinstimmenden Medien, Bedingungen und Methoden. Halten Sie Ausgangs- und Expositionsergebnisse zusammen. Ein Flüssigkeitseinlagerungsversuch unterstützt den Werkstoffvergleich; die eingebaute Dichtung benötigt eine eigene Funktionsbewertung.",
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Quellungsberichte vergleichen"
+              },
+              {
+                "url": "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
+                "label": "Bewertungsanforderungen für FKM und FFKM vergleichen"
+              },
+              {
+                "url": "/materials",
+                "label": "Passende Werkstoffanforderungen finden"
+              }
+            ]
+          },
+          {
+            "heading": "Reinigungs- und Druckverlauf vollständig angeben",
+            "body": "Ein Reinigungszyklus kann mehrere Chemikalien, Spül- und Temperaturstufen enthalten. Beschreiben Sie jede Stufe und etwaigen Dampf mit tatsächlicher Temperatur, Druck und Dauer. Bei Gaseinsatz nennen Sie Zusammensetzung, Druckwechsel und erforderliche Entspannungsbewertung. Bei H2S bleiben kundenseitige Metallnorm und Elastomerprüfprotokoll getrennt.",
+            "links": [
+              {
+                "url": "/resources/seal-failure-analysis",
+                "label": "Druck- und Expositionsuntersuchung vorbereiten"
+              },
+              {
+                "url": "/industries/liquid-cooling-energy-storage",
+                "label": "Bauteile für Kühlung und Energiespeicher besprechen"
+              },
+              {
+                "url": "/industries/ev-energy-storage",
+                "label": "Bauteile für EV-Thermomanagement besprechen"
+              }
+            ]
+          },
+          {
+            "heading": "Festlegen, was ein Ersatz erhalten muss",
+            "body": "Bei einem Referenzteil aus Polyurethan oder PTFE benennen Sie Typ, Zeichnung und Änderungsgrund, bevor eine Gummialternative verglichen wird. Vereinbaren Sie zu bewertende Eigenschaften, Maße, Verfahren und Funktion. Senden Sie die verfügbare Spezifikation und kennzeichnen Sie unbekannte Angaben; Musterfreigabe und Lieferumfang lassen sich anschließend projektbezogen festlegen. Bei feuchter oder heißwasserbelasteter Umgebung ergänzen Sie Feuchte beziehungsweise Flüssigkeitskontakt, Temperatur und Dauer zum genauen Polymertyp. Bei Kraftstoff nennen Sie vollständige Spezifikation und Gemischangaben.",
+            "links": [
+              {
+                "url": "/resources/rubber-hardness-guide",
+                "label": "Härtemessungen spezifizieren"
+              },
+              {
+                "url": "/testing",
+                "label": "Werkstoff- und Einbauprüfungen vereinbaren"
+              },
+              {
+                "url": "/contact",
+                "label": "Verträglichkeitsanforderung senden"
+              }
+            ]
           }
         ],
         "cta": "Spezifikation besprechen",
@@ -5546,21 +5884,159 @@
       "RQ-PG-041": {
         "label": "Dichtungsschäden",
         "title": "Dichtungsschäden systematisch untersuchen | RubberQ",
-        "description": "Dichtungsschäden anhand von Montage, Geometrie, Reibung, Medien und Temperatur untersuchen. Befunde sichern und Prüfziele für Ersatzmuster festlegen.",
+        "description": "Dichtungsausfälle mit beschädigten und unbenutzten Mustern, Montage- und Betriebsdaten untersuchen. Untersuchung festlegen und Änderungen gezielt validieren.",
         "h1": "Dichtungsschäden systematisch untersuchen",
         "intro": "Bewahren Sie das ausgefallene Bauteil und seine Betriebshistorie auf, bevor Sie einen Ersatz wählen. Eine sinnvolle Untersuchung verbindet Schadensstelle, Montage, Medien, Bewegung und Einsatzdauer.",
         "sections": [
           {
-            "heading": "Vor dem Austausch dokumentieren",
-            "body": "Fotografieren Sie Einbauposition und Schaden, erhalten Sie unbenutzte Referenzteile und dokumentieren Sie Betriebsänderungen. Ergänzen Sie Zeichnungsstand und Chargendaten, soweit verfügbar."
+            "heading": "Bauteil und Verlauf erhalten",
+            "body": "Fotografieren Sie Einbauort und Schäden vor einer Änderung der Baugruppe. Bewahren Sie Rückläufer, Verpackung und nach Möglichkeit ein unbenutztes Vergleichsteil auf. Erfassen Sie Teilenummer, Zeichnungsstand, Mischung und Charge. Vereinbaren Sie Probenhandhabung und Rücksendebedingungen, damit der untersuchte Zustand zuordenbar bleibt."
           },
           {
-            "heading": "Mögliche Ursachen unterscheiden",
-            "body": "Betrachten Sie Montagebeschädigung, Geometrie, Reibung, Medien und Temperatur, statt jeden Ausfall einem Werkstoffproblem zuzuschreiben."
+            "heading": "Den Ablauf dokumentieren",
+            "body": "Beschreiben Sie die Abfolge von Lagerung und Einbau bis zur ersten beobachteten Veränderung.",
+            "table": {
+              "caption": "Unterlagen für eine Dichtungsausfalluntersuchung",
+              "columns": [
+                "Unterlage",
+                "Zu sammelnde Angaben"
+              ],
+              "rows": [
+                [
+                  "Ausgangsbasis",
+                  "Originalzeichnung, Spezifikation, Erstprüfung und unbenutztes Muster"
+                ],
+                [
+                  "Zeitverlauf",
+                  "Lagerung, Einbau, erstes Symptom, Einsatzdauer und jüngste Änderungen"
+                ],
+                [
+                  "Montage",
+                  "Ort, Orientierung, Werkzeuge, Schmierstoff, Anzugsfolge und Gegenflächen"
+                ],
+                [
+                  "Exposition",
+                  "Vollständige Flüssigkeiten oder Gase, Reinigung, Verschmutzung, Temperatur- und Druckverlauf"
+                ],
+                [
+                  "Mechanischer Einsatz",
+                  "Bewegung, Last, Vorspannung, Geschwindigkeit, Zyklen sowie Spalt oder Ausrichtung"
+                ],
+                [
+                  "Beobachtungen",
+                  "Fotos mit Maßstab und Ort, Leckage- oder Antwortdaten und betroffene Menge"
+                ],
+                [
+                  "Vergleich",
+                  "Unauffällige Positionen oder Chargen, Rückstellmaterial und passende Betriebsdaten"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Die vorgeschlagene Änderung prüfen",
-            "body": "Definieren Sie den Nachweis und die Messmethode für ein neues Muster. Halten Sie Validierungsbedingungen zusammen mit der Entscheidung zu Werkstoff- oder Geometrieänderungen fest."
+            "heading": "Mit Beobachtungen die nächsten Nachweise bestimmen",
+            "body": "Erfassen Sie sichtbare Merkmale, bevor eine Ursache gewählt wird. Dasselbe Merkmal kann mehrere Erklärungen haben; diese Fragen strukturieren die Untersuchung.",
+            "table": {
+              "caption": "Beobachtete Veränderungen und Vergleichsdaten",
+              "columns": [
+                "Beobachtung",
+                "Zu vergleichende Nachweise"
+              ],
+              "rows": [
+                [
+                  "Schnitte oder verdrehte Oberflächen",
+                  "Schadensort, Montageweg, Werkzeuge, Nut und Bewegung; gegebenenfalls Gasdruckverlauf"
+                ],
+                [
+                  "In einen Spalt verschobene Ränder",
+                  "Tatsächlicher Spalt und Toleranzen, Abstützung, Mischung und Temperatur-Druck-Verlauf"
+                ],
+                [
+                  "Verschleiß oder Reibgeräusch",
+                  "Gegenfläche, Partikel, Schmierung, Geschwindigkeit, Last und reproduzierbare Betriebsbedingungen"
+                ],
+                [
+                  "Risse oder Brüche",
+                  "Ursprung, Orientierung, gedehnte Geometrie, Lastpfad sowie Wärme-, Ozon- oder Gasexposition"
+                ],
+                [
+                  "Verlust der Rückstellung oder Abflachung",
+                  "Ausgangsgeometrie, Einbauverpressung, Zeit, Temperatur und Entlastungsbedingungen"
+                ],
+                [
+                  "Klebrigkeit oder weißer Belag",
+                  "Muster im Anlieferzustand, Verpackung, Lagerung, Reinigung, Rückstände und unbehandelter Vergleich"
+                ],
+                [
+                  "Verfärbung oder angrenzende Korrosion",
+                  "Gummi/Kunststoff- oder Metall/Beschichtungs-Paar, Kontaktdauer, Feuchte, Rückstände und Blindvergleiche"
+                ],
+                [
+                  "Fluid- oder Sensoränderung",
+                  "Fluid- und Bauteilidentität, Exposition, Vergleichsproben und gemessene Funktionsänderung"
+                ],
+                [
+                  "Verbundablösung",
+                  "Ort, Metallvorbereitung und Charge, Bruchflächen, Belastung und Montageunterlagen"
+                ]
+              ]
+            }
+          },
+          {
+            "heading": "Thermische und Gasbewertungen getrennt führen",
+            "body": "Bei Fragen zur Kaltfunktion halten Sie den Werkstoffbericht einschließlich Methode und Prüfkörper eines etwaigen Glasübergangswerts bei der Einbaubewertung. Bei Wärmealterung gehören Expositions- und Lastverlauf zum Muster. Bei Druckgas nennen Sie Zusammensetzung, Druck, Verweilzeit, Temperatur und Entspannungsfolge; vereinbaren Sie anschließend mischungsspezifische Muster und Abnahmeprotokolle."
+          },
+          {
+            "heading": "Die Untersuchung mit der passenden Messung verbinden",
+            "body": "Wählen Sie Messungen zur konkreten Frage: Werkstoffeigenschaft, Schnittstellenzustand oder Funktion im Einbau. Halten Sie Probenidentität, Methode und Bedingungen bei jedem Ergebnis. Trennen Sie Druckverformungsrest und Krafterhalt sowie Werkstoffpermeation und Baugruppenleckage.",
+            "links": [
+              {
+                "url": "/blog/over-compression-when-tighter-is-not-better-for-gasket-performance",
+                "label": "Überverpressung einer Flachdichtung untersuchen"
+              },
+              {
+                "url": "/blog/compression-set-failure-why-your-seal-lost-its-bounce",
+                "label": "Verminderte Rückstellung nach Kompression untersuchen"
+              },
+              {
+                "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+                "label": "Druckverformungsrest und Spannungsrelaxation vergleichen"
+              },
+              {
+                "url": "/blog/rubber-to-metal-bonding-failure-analyzing-adhesive-vs-material-separation",
+                "label": "Gummi-Metall-Ablösung untersuchen"
+              },
+              {
+                "url": "/blog/permeation-vs-leakage-understanding-the-difference-in-gas-systems",
+                "label": "Gaspermeation und Leckage unterscheiden"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Medien- und Expositionsdaten vorbereiten"
+              }
+            ]
+          },
+          {
+            "heading": "Die vorgeschlagene Korrektur validieren",
+            "body": "Vereinbaren Sie Hypothese, Änderung, Musteridentität und Prüfbedingungen vor der Übernahme eines neuen Werkstoffs oder einer neuen Geometrie. Legen Sie Abnahmekriterien, Einbauversuch und Entscheidungsverantwortung fest. Bewahren Sie Vorher-Nachher-Unterlagen auf und verfolgen Sie die betroffenen Chargen bei Folgeaufträgen.",
+            "links": [
+              {
+                "url": "/blog/root-cause-analysis-8d-rubberqs-process-for-resolving-quality-deviations",
+                "label": "Eine 8D-Qualitätsbearbeitung vorbereiten"
+              },
+              {
+                "url": "/quality",
+                "label": "Teile und Fertigungsunterlagen rückverfolgen"
+              },
+              {
+                "url": "/testing",
+                "label": "Untersuchungsmessungen besprechen"
+              },
+              {
+                "url": "/contact",
+                "label": "Eine Dichtungsuntersuchung anfragen"
+              }
+            ]
           }
         ],
         "cta": "Spezifikation besprechen",

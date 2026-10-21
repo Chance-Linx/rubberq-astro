@@ -5426,21 +5426,110 @@
       "RQ-PG-037": {
         "label": "Standards",
         "title": "Rubber Standards and Specification Support | RubberQ",
-        "description": "Use standards to make requirements measurable. Identify the applicable edition, test conditions and acceptance criteria alongside your material or part drawing.",
+        "description": "Prepare rubber part specifications with complete material callouts, standard editions and acceptance requirements. Link each requested test to its report.",
         "h1": "Rubber Standards and Specification Support",
         "intro": "Use standards to make requirements measurable. Identify the applicable edition, test conditions and acceptance criteria alongside your material or part drawing.",
         "sections": [
           {
-            "heading": "Material classification",
-            "body": "Discuss the callout, suffix requirements and intended service conditions when using a material classification such as ASTM D2000."
+            "heading": "Use the complete specification",
+            "body": "Send the full material callout, including suffixes, the specified edition and any customer additions. Keep the drawing revision with the requirement. For ASTM D2000, the complete designation and supplementary requirements form the discussion; a shortened material label leaves questions for the engineering review.",
+            "links": [
+              {
+                "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+                "label": "Preparing a complete ASTM D2000 callout"
+              }
+            ]
           },
           {
-            "heading": "Part dimensions and tolerances",
-            "body": "Specify the reference system, drawing limits and inspection method. O-ring size references and molded-part tolerances serve different purposes."
+            "heading": "Match each reference to the requirement",
+            "body": "Record material, geometry, test and approval requirements separately so each result can be checked against the right basis.",
+            "table": {
+              "caption": "Specification references and the information to identify",
+              "columns": [
+                "Requirement",
+                "Reference or basis",
+                "Information to agree"
+              ],
+              "rows": [
+                [
+                  "Material classification",
+                  "For example, ASTM D2000",
+                  "Complete callout, edition, suffixes and customer additions"
+                ],
+                [
+                  "O-ring dimensions",
+                  "Specified ISO 3601-1 or SAE AS568 reference",
+                  "Edition, size designation, dimensions and applicable tolerances"
+                ],
+                [
+                  "Other molded-part dimensions",
+                  "Drawing and applicable tolerance specification",
+                  "Relevant scope, tolerance class, critical features and inspection method"
+                ],
+                [
+                  "O-ring appearance",
+                  "Specified ISO 3601-3 acceptance basis",
+                  "Edition, grade and required inspection conditions"
+                ],
+                [
+                  "Property testing",
+                  "Customer-specified test method",
+                  "Compound, specimen, conditioning, method and result limits"
+                ],
+                [
+                  "Part approval",
+                  "Customer drawing and approval plan",
+                  "Sample identity, assembly evaluation, records and decision responsibility"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/resources/o-ring-size-guide",
+                "label": "Identify O-ring dimensions"
+              },
+              {
+                "url": "/blog/iso-3601-3-visual-inspection-standards-for-o-rings-what-is-acceptable",
+                "label": "Specify O-ring visual acceptance"
+              }
+            ]
           },
           {
-            "heading": "Testing and reporting",
-            "body": "Include the method and conditioning with each requested result. A standard number alone does not define every project acceptance requirement."
+            "heading": "Define flame-test evidence for the actual material",
+            "body": "For a UL 94 flame classification, identify the requested method and classification, compound, specimen form and thickness, conditioning and report. Check that an available report describes the proposed material and test conditions. Material flame results and the assembled product’s approval have their own acceptance requirements.",
+            "items": [
+              "Put the requested classification in the project specification.",
+              "Keep the tested material identity and specimen conditions with the result.",
+              "Agree any further part or system evaluation with the customer."
+            ],
+            "links": [
+              {
+                "url": "/testing",
+                "label": "Discuss testing and reporting"
+              }
+            ]
+          },
+          {
+            "heading": "Resolve the purchasing basis before samples",
+            "body": "Provide the applicable documents and identify which requirements govern when drawing, material callout and customer documents differ. Agree open points, required reports and the sample approval route before quoting or testing against an assumed limit. Keep the approved specification and subsequent changes linked to the supplied part.",
+            "links": [
+              {
+                "url": "/materials",
+                "label": "Materials and compound requirements"
+              },
+              {
+                "url": "/quality",
+                "label": "Quality records for part approval"
+              },
+              {
+                "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+                "label": "Prepare the customer submission"
+              },
+              {
+                "url": "/contact",
+                "label": "Discuss a part specification"
+              }
+            ]
           }
         ],
         "cta": "Discuss Your Project",
@@ -5449,21 +5538,104 @@
       "RQ-PG-038": {
         "label": "O-Ring Size Guide",
         "title": "O-Ring Size and Drawing Guide | RubberQ",
-        "description": "Prepare the dimensions needed for an O-ring review. Record the inside diameter, cross-section, groove and mating-part dimensions together with the service.",
+        "description": "Identify O-ring size with inside diameter, cross-section, units and drawing revision. Check the specified size series, groove and material before quoting.",
         "h1": "O-Ring Size and Drawing Guide",
         "intro": "Prepare the dimensions needed for an O-ring review. Record the inside diameter, cross-section, groove and mating-part dimensions together with the service conditions.",
         "sections": [
           {
-            "heading": "Identify the size reference",
-            "body": "Include the reference system and exact size code when available. For a custom part, provide a dimensioned drawing rather than a photograph alone."
+            "heading": "Identify dimensions and the size reference",
+            "body": "Record the inside diameter (ID) and circular cross-section diameter (CS), with units and tolerances. If the drawing uses ISO 3601-1 or SAE AS568, include the complete size designation and specified edition. If the series is unknown, send the drawing or original reference and the measured sample information for review."
           },
           {
-            "heading": "Check the installed geometry",
-            "body": "Groove dimensions, stretch, squeeze and clearance affect the seal. The component dimensions need to be reviewed with the assembled condition."
+            "heading": "Keep the part and installation dimensions together",
+            "body": "A replacement request needs the size reference and the geometry where the seal works.",
+            "table": {
+              "caption": "Dimensions and records for an O-ring request",
+              "columns": [
+                "Input",
+                "Information to provide"
+              ],
+              "rows": [
+                [
+                  "Identity",
+                  "Part reference, drawing revision and size designation if known"
+                ],
+                [
+                  "Units and dimensions",
+                  "ID, CS, units, tolerances and measurement method"
+                ],
+                [
+                  "Sample state",
+                  "New or used, free or installed, damage and available reference sample"
+                ],
+                [
+                  "Groove and mating parts",
+                  "Groove dimensions, mating diameter, gap and tolerances"
+                ],
+                [
+                  "Installation",
+                  "Stretch, compression direction, assembly and static or moving duty"
+                ],
+                [
+                  "Material",
+                  "Specified compound, hardness scale and material requirements"
+                ],
+                [
+                  "Service",
+                  "Actual media, temperature, pressure history and quantity"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "O-ring and seal project review"
+              },
+              {
+                "url": "/resources/rubber-hardness-guide",
+                "label": "Specify the hardness requirement"
+              }
+            ]
           },
           {
-            "heading": "Send a useful request",
-            "body": "Attach the drawing revision, material designation, quantity and operating conditions. Size identification is the starting point for review, not a performance qualification."
+            "heading": "Read a simple dimensional example",
+            "body": "For an undeformed circular O-ring, the nominal outside diameter is ID + 2 × CS. An illustrative ID of 20.0 mm and CS of 2.0 mm gives 24.0 mm outside diameter. These are assumed dimensions to explain the notation; they do not identify a standard size code, tolerance or approved groove."
+          },
+          {
+            "heading": "Review the groove and material separately",
+            "body": "Confirm the installed geometry using the actual drawing limits, including compression, stretch and clearance. Keep material selection separate from size identification: a metric dimension or dash number does not specify a compound or brand. A used sample may need comparison with the original drawing before dimensions are agreed.",
+            "links": [
+              {
+                "url": "/blog/groove-design-calculating-percentage-fill-and-squeeze-for-o-rings",
+                "label": "Review squeeze, gland fill and tolerances"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Prepare the fluid and exposure information"
+              },
+              {
+                "url": "/materials/fkm",
+                "label": "Discuss FKM compound requirements"
+              }
+            ]
+          },
+          {
+            "heading": "Send the specification for review",
+            "body": "Include the drawing, size reference, material, quantity and acceptance requirements. Agree sample inspection and assembly evaluation before adopting a replacement. Where dimensions or the reference series are missing, mark them as unknown and identify who will confirm them.",
+            "links": [
+              {
+                "url": "/standards",
+                "label": "Standards and specification support"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Discuss O-ring samples"
+              },
+              {
+                "url": "/contact",
+                "label": "Send an O-ring requirement"
+              }
+            ]
           }
         ],
         "cta": "Discuss the Specification",
@@ -5472,21 +5644,100 @@
       "RQ-PG-039": {
         "label": "Rubber Hardness Guide",
         "title": "Rubber Hardness: Specifying a Useful Requirement | RubberQ",
-        "description": "Hardness is one part of a rubber specification. Include the scale, method, tolerance and measurement conditions with the functional requirements of the.",
+        "description": "Specify rubber hardness with the scale, method, specimen and measurement conditions. Compare reports, review storage changes and agree part acceptance.",
         "h1": "Rubber Hardness: Specifying a Useful Requirement",
         "intro": "Hardness is one part of a rubber specification. Include the scale, method, tolerance and measurement conditions with the functional requirements of the component.",
         "sections": [
           {
-            "heading": "State the scale and method",
-            "body": "A hardness value needs its scale and test basis. Sample thickness, conditioning and measurement approach influence how results can be compared."
+            "heading": "Write a measurable hardness requirement",
+            "body": "A value such as “70” needs a scale and method before it can be used for acceptance. Identify the drawing requirement, tolerance and specified standard edition. Shore A, Shore D and IRHD results belong with their own methods; a conversion chart does not replace measurement by the required method."
           },
           {
-            "heading": "Connect hardness to function",
-            "body": "Sealing, flexibility and assembly behaviour also depend on geometry and other material properties. Hardness alone does not describe compression recovery or chemical resistance."
+            "heading": "Keep the measurement conditions with the result",
+            "body": "Agree the specimen and measurement arrangement before comparing supplier and customer reports.",
+            "table": {
+              "caption": "Inputs for a rubber hardness specification",
+              "columns": [
+                "Input",
+                "Information to record"
+              ],
+              "rows": [
+                [
+                  "Requirement",
+                  "Value, scale, tolerance, method and specified edition"
+                ],
+                [
+                  "Material identity",
+                  "Compound grade, batch and processing or sample state"
+                ],
+                [
+                  "Specimen",
+                  "Test piece or finished part, thickness, curvature and support"
+                ],
+                [
+                  "Conditioning",
+                  "Preparation, temperature, storage and conditioning history"
+                ],
+                [
+                  "Reading",
+                  "Measurement locations, reading time and agreed repeat measurements"
+                ],
+                [
+                  "Measurement process",
+                  "Instrument identification, calibration records and relevant MSA"
+                ],
+                [
+                  "Acceptance",
+                  "Responsible party, reporting format and treatment of differing results"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/measurement-system-analysis-msa-ensuring-gage-rr-in-rubber-testing",
+                "label": "Review the hardness measurement process"
+              },
+              {
+                "url": "/testing",
+                "label": "Discuss hardness test conditions"
+              }
+            ]
           },
           {
-            "heading": "Review samples in the assembly",
-            "body": "Use functional checks and dimensional inspection alongside the hardness requirement. Avoid treating cross-scale conversions as acceptance measurements."
+            "heading": "Review a change after storage on a comparable basis",
+            "body": "Keep the original result, lot identity and storage history with an unused reference sample where available. Repeat measurement with the agreed method and conditioning. Record any change alongside dimensions, appearance and the required function. A changed reading is a reason to investigate the part and measurement conditions.",
+            "links": [
+              {
+                "url": "/blog/rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction",
+                "label": "Read aging and life-estimate evidence"
+              },
+              {
+                "url": "/quality",
+                "label": "Keep sample and batch records"
+              }
+            ]
+          },
+          {
+            "heading": "Connect hardness with the part’s function",
+            "body": "Agree functional acceptance separately for assembly, flexibility, sealing or dynamic response. A hardness number alone does not establish chemical compatibility, compression recovery or an allowable working strain. Use the identified material and representative geometry for the required checks.",
+            "links": [
+              {
+                "url": "/blog/tensile-stress-strain-curves-what-a-mechanical-engineer-needs-to-know-about-rubb",
+                "label": "Read rubber tensile curves"
+              },
+              {
+                "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+                "label": "Separate compression set and stress relaxation"
+              },
+              {
+                "url": "/materials",
+                "label": "Review the candidate material"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Discuss a sample evaluation"
+              }
+            ]
           }
         ],
         "cta": "Discuss the Specification",
@@ -5495,21 +5746,108 @@
       "RQ-PG-040": {
         "label": "Material Compatibility",
         "title": "Rubber Material Compatibility: What to Specify | RubberQ",
-        "description": "Prepare a compatibility review using the exact fluid, concentration, temperature and exposure cycle. Generic family comparisons help narrow a discussion but.",
+        "description": "Prepare rubber compatibility data with the actual fluid, mixture, exposure sequence and compound. Compare material changes separately from installed function.",
         "h1": "Rubber Material Compatibility: What to Specify",
         "intro": "Prepare a compatibility review using the exact fluid, concentration, temperature and exposure cycle. Generic family comparisons help narrow a discussion but do not replace compound testing.",
         "sections": [
           {
-            "heading": "Describe the complete exposure",
-            "body": "Include additives, contamination, cleaning and alternating media. A base-fluid name may omit conditions that matter to the compound."
+            "heading": "Identify the fluid and the compound",
+            "body": "A compatibility review starts with the actual chemical product and candidate grade. Include mixtures, concentration, additives, contamination and cleaning. A polymer family, solvent polarity label or trade name can help identify a starting point; the comparison needs the complete exposure and compound records."
           },
           {
-            "heading": "Define the relevant changes",
-            "body": "Agree whether volume, mass, hardness, strength, compression recovery or assembled leakage is being assessed."
+            "heading": "Build an exposure brief",
+            "body": "List each medium and each stage of service so the test request represents the component’s duty.",
+            "table": {
+              "caption": "Inputs for a rubber compatibility review",
+              "columns": [
+                "Input",
+                "Information to provide"
+              ],
+              "rows": [
+                [
+                  "Medium",
+                  "Product name, composition or available specification, concentration and additives"
+                ],
+                [
+                  "Sequence",
+                  "Contact side, continuous or intermittent exposure, rinses, cleaning and alternating media"
+                ],
+                [
+                  "Temperature and time",
+                  "Normal and peak conditions, duration, cycles and recovery"
+                ],
+                [
+                  "Pressure",
+                  "Liquid or gas duty, pressure history and decompression where relevant"
+                ],
+                [
+                  "Material and specimen",
+                  "Exact compound, sample lot, geometry, processing and initial condition"
+                ],
+                [
+                  "Changes to measure",
+                  "Agreed mass, volume, hardness, strength, recovery or fluid measurements"
+                ],
+                [
+                  "Assembly acceptance",
+                  "Dimensions, leakage or required function, conditions and decision criteria"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Compare on a common basis",
-            "body": "Keep compound identification, temperature, duration and conditioning with the result. Use representative samples for the final application decision."
+            "heading": "Compare candidates on a common basis",
+            "body": "For EPDM/FKM, HNBR/FKM, NBR/FKM or AEM/ACM comparisons, identify the grades and compare reports with matched fluids, conditions and methods. Keep initial and exposed results together. A liquid-immersion result informs a material comparison; the installed seal still needs its own functional evaluation.",
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Compare fluid-swell reports"
+              },
+              {
+                "url": "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
+                "label": "Compare FKM and FFKM evaluation requirements"
+              },
+              {
+                "url": "/materials",
+                "label": "Find the relevant material requirements"
+              }
+            ]
+          },
+          {
+            "heading": "Include the complete cleaning and pressure history",
+            "body": "A cleaning cycle can involve several chemicals, rinses and temperature stages. Describe each stage and any steam by its actual temperature, pressure and duration. For gas service, include composition, pressure changes and the required decompression evaluation. Where H2S is involved, keep the customer’s metal-standard requirement separate from the elastomer test protocol.",
+            "links": [
+              {
+                "url": "/resources/seal-failure-analysis",
+                "label": "Prepare a pressure and exposure investigation"
+              },
+              {
+                "url": "/industries/liquid-cooling-energy-storage",
+                "label": "Cooling and energy-storage component review"
+              },
+              {
+                "url": "/industries/ev-energy-storage",
+                "label": "EV thermal-management component review"
+              }
+            ]
+          },
+          {
+            "heading": "Define what a replacement must preserve",
+            "body": "For a reference part in polyurethane or PTFE, identify its grade, drawing and reason for the proposed change before comparing a rubber candidate. Agree the properties, dimensions, process and function that require evaluation. Send the available specification and mark unknown inputs for review; sample approval and supply scope can then be defined for the project. For a humid or hot-water environment, include humidity or liquid-contact state, temperature and duration with the exact polymer grade. For a fuel, send the full fuel specification and blend information.",
+            "links": [
+              {
+                "url": "/resources/rubber-hardness-guide",
+                "label": "Specify hardness measurements"
+              },
+              {
+                "url": "/testing",
+                "label": "Agree material and assembly tests"
+              },
+              {
+                "url": "/contact",
+                "label": "Send a compatibility requirement"
+              }
+            ]
           }
         ],
         "cta": "Discuss the Specification",
@@ -5518,21 +5856,159 @@
       "RQ-PG-041": {
         "label": "Seal Failure Review",
         "title": "Rubber Seal Failure: A Practical Review Checklist | RubberQ",
-        "description": "Preserve the failed part and operating history before choosing a replacement. A useful review connects the damage location to assembly, exposure, motion and.",
+        "description": "Prepare a rubber seal failure review with damaged and unused samples, installation records and service history. Define an investigation and validate changes.",
         "h1": "Rubber Seal Failure: A Practical Review Checklist",
         "intro": "Preserve the failed part and operating history before choosing a replacement. A useful review connects the damage location to assembly, exposure, motion and time in service.",
         "sections": [
           {
-            "heading": "Record before replacing",
-            "body": "Photograph the installed location and damage, keep unused reference parts and record operating changes. Include drawing revision and batch information where available."
+            "heading": "Preserve the part and its history",
+            "body": "Photograph the installed location and damage before changing the assembly. Keep the returned part, its packaging and an unused comparison part where available. Record the part number, drawing revision, compound and lot. Agree specimen handling and return conditions so the condition being investigated remains identifiable."
           },
           {
-            "heading": "Separate possible causes",
-            "body": "Review installation damage, geometry, friction, fluid exposure and temperature rather than assuming every failure is a material problem."
+            "heading": "Build a record of what happened",
+            "body": "Describe the sequence from storage and installation to the first observed change.",
+            "table": {
+              "caption": "Records for a seal failure investigation",
+              "columns": [
+                "Record",
+                "Information to collect"
+              ],
+              "rows": [
+                [
+                  "Baseline",
+                  "Original drawing, specification, initial inspection and unused sample"
+                ],
+                [
+                  "Timeline",
+                  "Storage, installation, first symptom, service duration and recent changes"
+                ],
+                [
+                  "Installation",
+                  "Location, orientation, tools, lubricant, tightening sequence and mating surfaces"
+                ],
+                [
+                  "Exposure",
+                  "Complete fluids or gases, cleaning, contamination, temperature and pressure history"
+                ],
+                [
+                  "Mechanical duty",
+                  "Motion, load, preload, speed, cycles and gap or alignment conditions"
+                ],
+                [
+                  "Observations",
+                  "Photographs with scale and location, leakage or response records and affected quantity"
+                ],
+                [
+                  "Comparison",
+                  "Unaffected locations or lots, retained materials and matched operating records"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Test the proposed change",
-            "body": "Define what a new sample should demonstrate and how it will be measured. Keep the validation conditions with the decision to change material or geometry."
+            "heading": "Use observations to choose the next evidence",
+            "body": "Record what is visible before selecting a cause. The same feature can have several explanations; these questions organize the investigation.",
+            "table": {
+              "caption": "Observed changes and evidence to compare",
+              "columns": [
+                "Observation",
+                "Evidence to compare"
+              ],
+              "rows": [
+                [
+                  "Cuts or twisted surfaces",
+                  "Damage location, assembly path, tools, groove and movement; include gas-pressure history if relevant"
+                ],
+                [
+                  "Edges displaced into a gap",
+                  "Actual clearance and tolerances, support, compound and temperature-pressure history"
+                ],
+                [
+                  "Wear or friction noise",
+                  "Counterface, particles, lubrication, speed, load and repeatable operating conditions"
+                ],
+                [
+                  "Cracks or tears",
+                  "Origin, orientation, strained geometry, load path, thermal, ozone or gas exposure history"
+                ],
+                [
+                  "Lost recovery or flattening",
+                  "Original geometry, installed compression, time, temperature and unloading conditions"
+                ],
+                [
+                  "Tack or white surface deposit",
+                  "As-received samples, packaging, storage, cleaning, residue and untreated comparison"
+                ],
+                [
+                  "Staining or adjacent corrosion",
+                  "Rubber/plastic or metal/coating pair, contact time, moisture, residues and blank comparisons"
+                ],
+                [
+                  "Fluid or sensor change",
+                  "Fluid and component identities, exposure, comparison samples and measured functional change"
+                ],
+                [
+                  "Bond separation",
+                  "Location, metal preparation and lot, fracture surfaces, loading and assembly records"
+                ]
+              ]
+            }
+          },
+          {
+            "heading": "Keep thermal and gas evaluations distinct",
+            "body": "For a cold-function concern, retain the relevant material report, including the method and specimen for any glass-transition value, alongside the assembly evaluation. For heat aging, keep exposure and loading history with the sample. For pressurized gas, provide composition, pressure, dwell, temperature and decompression sequence, then agree the compound-specific sample and acceptance protocol."
+          },
+          {
+            "heading": "Connect the investigation with the relevant measurement",
+            "body": "Choose measurements for the question: a material property, an interface condition or the assembled function. Keep specimen identity, method and conditions with each result. Separate compression-set and force-retention questions, and distinguish material permeation from assembly leakage.",
+            "links": [
+              {
+                "url": "/blog/over-compression-when-tighter-is-not-better-for-gasket-performance",
+                "label": "Investigate gasket over-compression"
+              },
+              {
+                "url": "/blog/compression-set-failure-why-your-seal-lost-its-bounce",
+                "label": "Investigate loss of compression recovery"
+              },
+              {
+                "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+                "label": "Compare compression set and stress relaxation"
+              },
+              {
+                "url": "/blog/rubber-to-metal-bonding-failure-analyzing-adhesive-vs-material-separation",
+                "label": "Investigate rubber-to-metal separation"
+              },
+              {
+                "url": "/blog/permeation-vs-leakage-understanding-the-difference-in-gas-systems",
+                "label": "Separate gas permeation from leakage"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Prepare media and exposure data"
+              }
+            ]
+          },
+          {
+            "heading": "Validate the proposed correction",
+            "body": "Agree the hypothesis, proposed change, sample identity and test conditions before adopting a new material or geometry. Define the acceptance criteria, assembly trial and responsible decision. Preserve before-and-after records and follow the relevant lots in repeat supply.",
+            "links": [
+              {
+                "url": "/blog/root-cause-analysis-8d-rubberqs-process-for-resolving-quality-deviations",
+                "label": "Prepare an 8D quality review"
+              },
+              {
+                "url": "/quality",
+                "label": "Trace parts and production records"
+              },
+              {
+                "url": "/testing",
+                "label": "Discuss investigation measurements"
+              },
+              {
+                "url": "/contact",
+                "label": "Send a seal investigation request"
+              }
+            ]
           }
         ],
         "cta": "Discuss the Specification",

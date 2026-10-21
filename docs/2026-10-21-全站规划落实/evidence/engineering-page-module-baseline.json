@@ -1,0 +1,17 @@
+{
+  "baseline_commit": "bf333c83ff276d77988eea3caa7e375a5120e117",
+  "scope": [
+    "/standards",
+    "/resources/rubber-hardness-guide",
+    "/resources/o-ring-size-guide",
+    "/resources/material-compatibility",
+    "/resources/seal-failure-analysis"
+  ],
+  "files": {
+    "src/messages/en.json": "49fe1fa4431ceeff513a106641639451a79953047f69f4db70cb8621bf101b74",
+    "src/messages/de.json": "9abc10de7c1472cb22775cbc5cffbf41280e849796c93a9055ea2504e74e304b",
+    "src/messages/ja.json": "6ac9733d64eb85b4053e6a3bcc63fd5ca7479205443fa98db528217e1d7630e6",
+    "src/messages/es.json": "6d975283da33b291539a0dd2ab10ffc08ed3e1f0030889cf7babcc4bd9e136da",
+    "src/messages/zh.json": "6db11d087c8ca6ff8cf510d680858f7a81767ffa2265ea5bba389513fd8f0358"
+  }
+}

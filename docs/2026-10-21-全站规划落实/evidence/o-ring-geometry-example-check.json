@@ -1,0 +1,36 @@
+{
+  "method": "Independent Decimal arithmetic; nominal geometry for an undeformed circular O-ring",
+  "assumed_id_mm": "20.0",
+  "assumed_cs_mm": "2.0",
+  "formula": "nominal OD = ID + 2 * CS",
+  "calculated_od_mm": "24.0",
+  "standard_size_code_claimed": false,
+  "factory_tolerance_or_groove_approval_claimed": false,
+  "source_checks": [
+    {
+      "locale": "en",
+      "values_present": true,
+      "illustrative_label_present": true
+    },
+    {
+      "locale": "de",
+      "values_present": true,
+      "illustrative_label_present": true
+    },
+    {
+      "locale": "ja",
+      "values_present": true,
+      "illustrative_label_present": true
+    },
+    {
+      "locale": "es",
+      "values_present": true,
+      "illustrative_label_present": true
+    },
+    {
+      "locale": "zh",
+      "values_present": true,
+      "illustrative_label_present": true
+    }
+  ]
+}

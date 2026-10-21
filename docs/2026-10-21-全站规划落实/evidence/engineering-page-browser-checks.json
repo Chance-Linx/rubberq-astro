@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-21",
+  "scope": "Local rendered pages and one primary CTA navigation. No form submission, mobile-suite completion or production release.",
+  "pages": [
+    {
+      "url": "http://127.0.0.1:4397/resources/o-ring-size-guide",
+      "locale": "en",
+      "title_present": true,
+      "table_present": true,
+      "example_present": true
+    },
+    {
+      "url": "http://127.0.0.1:4397/de/resources/rubber-hardness-guide",
+      "locale": "de",
+      "title_present": true,
+      "table_present": true
+    },
+    {
+      "url": "http://127.0.0.1:4397/ja/standards",
+      "locale": "ja",
+      "title_present": true,
+      "table_present": true,
+      "ul94_input_present": true
+    },
+    {
+      "url": "http://127.0.0.1:4397/es/resources/material-compatibility",
+      "locale": "es",
+      "title_present": true,
+      "table_present": true,
+      "humid_fuel_inputs_present": true
+    },
+    {
+      "url": "http://127.0.0.1:4397/zh/resources/seal-failure-analysis",
+      "locale": "zh",
+      "title_present": true,
+      "records_table_present": true,
+      "observations_table_present": true,
+      "thermal_gas_section_present": true
+    }
+  ],
+  "cta": {
+    "from": "/zh/resources/seal-failure-analysis",
+    "observed_contact_url": "http://127.0.0.1:4397/zh/contact?source=%2Fresources%2Fseal-failure-analysis&cta=project-review",
+    "url_source_observed": true,
+    "form_fields_observed": true,
+    "submitted": false,
+    "full_attribution_contract_verified": false
+  },
+  "screenshot": "evidence/o-ring-size-example-en.png",
+  "dashboard": {
+    "url": "http://127.0.0.1:8797/map",
+    "page_module_progress_observed": true,
+    "final_release_pending_observed": true
+  }
+}

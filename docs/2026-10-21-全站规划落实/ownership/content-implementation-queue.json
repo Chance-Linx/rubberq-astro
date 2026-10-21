@@ -421,8 +421,9 @@
           "required_updates": "按官方试验分类、试样与报告条件重写；与第11篇区分等级教育与项目选材，不先新建第三篇。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/products/seals",
@@ -797,8 +798,9 @@
           "required_updates": "按具体牌号/介质测试说明，结合FKM与兼容性父页；避免把品牌家族直接当全部耐介质结论。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/products/bellows",
@@ -1407,8 +1409,9 @@
           "required_updates": "以照片、应变状态、环境与接触史组织排查，材料参考与实际根因分开；与6及156统筹，不靠换胶种保证解决。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing",
@@ -1525,8 +1528,9 @@
           "required_updates": "与109及硬度父页统筹，区分品牌、具体配方和测量条件，删除未经证实高纯/释气/325°C数据，不宣传未经核实品牌供货或等效性。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
@@ -2814,8 +2818,9 @@
           "required_updates": "与232公制任务及尺寸指南统筹，按图纸确认指定系列/版次，不自动把所有SAE词推为同一标准或级别。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/materials/ffkm",

@@ -442,6 +442,42 @@
         "Public F57 title in Liquid Chemical Standards index"
       ],
       "use": "仅核对F57标题所指超纯水和液体化学品分配系统，不把该范围套用为所有等离子或设备密封件资格；未购买标准全文或使用其中限值。"
+    },
+    {
+      "id": "ASTM-D2240-SCOPE",
+      "title": "ASTM D2240 — Rubber Property, Durometer Hardness",
+      "url": "https://store.astm.org/standards/d2240",
+      "publisher": "ASTM International",
+      "checked_on": "2026-10-21",
+      "read_sections": [
+        "Public significance and use; public scope"
+      ],
+      "use": "仅核对压入硬度方法、不同硬度计结果无简单对应关系的公开范围；不复制付费程序、通用换算或公差，不将硬度当所有材料物性的证明。"
+    },
+    {
+      "id": "ISO-3601-1-SCOPE",
+      "title": "ISO 3601-1:2012 — Inside diameters, cross-sections, tolerances and designation codes",
+      "url": "https://www.iso.org/standard/58043.html",
+      "publisher": "ISO",
+      "checked_on": "2026-10-21",
+      "read_sections": [
+        "Public abstract and amendment/edition listing"
+      ],
+      "use": "仅核对尺寸、公差和指定编码的范围；按客户指定版次及修订，不复制付费尺寸表或限值。"
+    },
+    {
+      "id": "SAE-AS568-PUBLIC-SCOPE",
+      "title": "SAE AS568 — public size-standard scope and revision listing",
+      "url": "https://saemobilus.sae.org/standards/as568e-aerospace-size-standard-o-rings",
+      "publisher": "SAE International",
+      "checked_on": "2026-10-21",
+      "read_sections": [
+        "AS568E public scope",
+        "Revision listing linking AS568F dated 2026-01-29"
+      ],
+      "current_revision_link_observed": "https://saemobilus.sae.org/standards/as568f-aerospace-size-standard-o-rings",
+      "scope_limit": "读取E页的公开范围与修订链接；F页正文后续返回超时，未据其正文作判断。不将E宣称最新，不读取付费尺寸表，采购仍以客户指定版次为准。",
+      "use": "核对ID、截面、公差和dash编号属于尺寸参照；尺寸编号与材料和总成批准分别指定。"
     }
   ],
   "paid_access": false
