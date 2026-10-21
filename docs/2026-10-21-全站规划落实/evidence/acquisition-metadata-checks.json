@@ -1,0 +1,1832 @@
+{
+  "date": "2026-10-21",
+  "ordinary_pages": 45,
+  "source_locale_routes": 225,
+  "latin_description_count": 135,
+  "character_range": [
+    120,
+    160
+  ],
+  "scope": "Editorial character and punctuation checks plus source-matched local HTTP metadata; not search-engine snippet, ranking or final semantic approval.",
+  "current_source_sha256": {
+    "en": "dc4e55c331f18501b1ee497e7545a4ccd8a244f522e25df58bc6a3d8a9f97621",
+    "de": "d5290fe3409e8613ae2cb7dd2408a97e260d8d8536da74bd6b593d13ded43c49",
+    "ja": "ac653d67495c4d7b95b23491cefd5d4844c041d6d119c364807335d623953b80",
+    "es": "97198ef3722e7c98227caf70be4e6da04c6e45f702810533229bcd262f00f14a",
+    "zh": "c0b6d1abdc2c211383532bdd89622e67b85ee78f8b910c2531d09daf2223dbdd"
+  },
+  "source_checks": [
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-001",
+      "url": "/",
+      "characters": 158,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-002",
+      "url": "/about",
+      "characters": 152,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-003",
+      "url": "/products",
+      "characters": 160,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-004",
+      "url": "/products/seals",
+      "characters": 151,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-005",
+      "url": "/products/gaskets",
+      "characters": 152,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-006",
+      "url": "/products/bellows",
+      "characters": 153,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-007",
+      "url": "/products/custom",
+      "characters": 157,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-008",
+      "url": "/products/diaphragms",
+      "characters": 154,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-009",
+      "url": "/products/rubber-to-metal-bonded-parts",
+      "characters": 154,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-010",
+      "url": "/products/ffkm-replacement-seals",
+      "characters": 152,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-011",
+      "url": "/materials",
+      "characters": 151,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-012",
+      "url": "/materials/ffkm",
+      "characters": 152,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-013",
+      "url": "/materials/fkm",
+      "characters": 152,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-014",
+      "url": "/materials/epdm",
+      "characters": 157,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-015",
+      "url": "/materials/hnbr",
+      "characters": 159,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-016",
+      "url": "/materials/nbr",
+      "characters": 156,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-017",
+      "url": "/materials/silicone",
+      "characters": 155,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-018",
+      "url": "/materials/lsr",
+      "characters": 153,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-019",
+      "url": "/materials/acm",
+      "characters": 159,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-020",
+      "url": "/materials/aem",
+      "characters": 149,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-021",
+      "url": "/capabilities",
+      "characters": 157,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-022",
+      "url": "/capabilities/rubber-molding",
+      "characters": 150,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-023",
+      "url": "/capabilities/lsr-molding",
+      "characters": 156,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-024",
+      "url": "/compounding",
+      "characters": 146,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-025",
+      "url": "/compounds",
+      "characters": 153,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-026",
+      "url": "/testing",
+      "characters": 154,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-027",
+      "url": "/quality",
+      "characters": 155,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-028",
+      "url": "/factory",
+      "characters": 160,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-029",
+      "url": "/industries",
+      "characters": 151,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-030",
+      "url": "/industries/semiconductor",
+      "characters": 160,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-031",
+      "url": "/industries/liquid-cooling-energy-storage",
+      "characters": 154,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-032",
+      "url": "/industries/ev-energy-storage",
+      "characters": 157,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-033",
+      "url": "/industries/humanoid-robotics",
+      "characters": 154,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-034",
+      "url": "/industries/industrial-equipment",
+      "characters": 156,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-035",
+      "url": "/industries/automotive-tier2",
+      "characters": 157,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-036",
+      "url": "/resources",
+      "characters": 160,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-037",
+      "url": "/standards",
+      "characters": 154,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-038",
+      "url": "/resources/o-ring-size-guide",
+      "characters": 154,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-039",
+      "url": "/resources/rubber-hardness-guide",
+      "characters": 151,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-040",
+      "url": "/resources/material-compatibility",
+      "characters": 158,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-041",
+      "url": "/resources/seal-failure-analysis",
+      "characters": 157,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-043",
+      "url": "/case-studies",
+      "characters": 155,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-044",
+      "url": "/contact",
+      "characters": 159,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-045",
+      "url": "/sample-request",
+      "characters": 154,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-046",
+      "url": "/batch-rfq",
+      "characters": 150,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-001",
+      "url": "/",
+      "characters": 156,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-002",
+      "url": "/about",
+      "characters": 147,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-003",
+      "url": "/products",
+      "characters": 152,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-004",
+      "url": "/products/seals",
+      "characters": 153,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-005",
+      "url": "/products/gaskets",
+      "characters": 147,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-006",
+      "url": "/products/bellows",
+      "characters": 151,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-007",
+      "url": "/products/custom",
+      "characters": 152,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-008",
+      "url": "/products/diaphragms",
+      "characters": 152,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-009",
+      "url": "/products/rubber-to-metal-bonded-parts",
+      "characters": 147,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-010",
+      "url": "/products/ffkm-replacement-seals",
+      "characters": 152,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-011",
+      "url": "/materials",
+      "characters": 157,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-012",
+      "url": "/materials/ffkm",
+      "characters": 147,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-013",
+      "url": "/materials/fkm",
+      "characters": 155,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-014",
+      "url": "/materials/epdm",
+      "characters": 147,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-015",
+      "url": "/materials/hnbr",
+      "characters": 147,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-016",
+      "url": "/materials/nbr",
+      "characters": 156,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-017",
+      "url": "/materials/silicone",
+      "characters": 147,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-018",
+      "url": "/materials/lsr",
+      "characters": 152,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-019",
+      "url": "/materials/acm",
+      "characters": 140,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-020",
+      "url": "/materials/aem",
+      "characters": 147,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-021",
+      "url": "/capabilities",
+      "characters": 144,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-022",
+      "url": "/capabilities/rubber-molding",
+      "characters": 145,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-023",
+      "url": "/capabilities/lsr-molding",
+      "characters": 154,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-024",
+      "url": "/compounding",
+      "characters": 153,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-025",
+      "url": "/compounds",
+      "characters": 152,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-026",
+      "url": "/testing",
+      "characters": 160,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-027",
+      "url": "/quality",
+      "characters": 142,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-028",
+      "url": "/factory",
+      "characters": 157,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-029",
+      "url": "/industries",
+      "characters": 155,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-030",
+      "url": "/industries/semiconductor",
+      "characters": 158,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-031",
+      "url": "/industries/liquid-cooling-energy-storage",
+      "characters": 156,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-032",
+      "url": "/industries/ev-energy-storage",
+      "characters": 152,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-033",
+      "url": "/industries/humanoid-robotics",
+      "characters": 143,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-034",
+      "url": "/industries/industrial-equipment",
+      "characters": 160,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-035",
+      "url": "/industries/automotive-tier2",
+      "characters": 147,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-036",
+      "url": "/resources",
+      "characters": 157,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-037",
+      "url": "/standards",
+      "characters": 155,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-038",
+      "url": "/resources/o-ring-size-guide",
+      "characters": 153,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-039",
+      "url": "/resources/rubber-hardness-guide",
+      "characters": 156,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-040",
+      "url": "/resources/material-compatibility",
+      "characters": 154,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-041",
+      "url": "/resources/seal-failure-analysis",
+      "characters": 157,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-043",
+      "url": "/case-studies",
+      "characters": 154,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-044",
+      "url": "/contact",
+      "characters": 160,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-045",
+      "url": "/sample-request",
+      "characters": 156,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "de",
+      "page_id": "RQ-PG-046",
+      "url": "/batch-rfq",
+      "characters": 159,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-001",
+      "url": "/",
+      "characters": 81,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-002",
+      "url": "/about",
+      "characters": 64,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-003",
+      "url": "/products",
+      "characters": 62,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-004",
+      "url": "/products/seals",
+      "characters": 62,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-005",
+      "url": "/products/gaskets",
+      "characters": 56,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-006",
+      "url": "/products/bellows",
+      "characters": 57,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-007",
+      "url": "/products/custom",
+      "characters": 56,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-008",
+      "url": "/products/diaphragms",
+      "characters": 61,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-009",
+      "url": "/products/rubber-to-metal-bonded-parts",
+      "characters": 64,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-010",
+      "url": "/products/ffkm-replacement-seals",
+      "characters": 65,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-011",
+      "url": "/materials",
+      "characters": 58,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-012",
+      "url": "/materials/ffkm",
+      "characters": 63,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-013",
+      "url": "/materials/fkm",
+      "characters": 61,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-014",
+      "url": "/materials/epdm",
+      "characters": 69,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-015",
+      "url": "/materials/hnbr",
+      "characters": 59,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-016",
+      "url": "/materials/nbr",
+      "characters": 60,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-017",
+      "url": "/materials/silicone",
+      "characters": 55,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-018",
+      "url": "/materials/lsr",
+      "characters": 58,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-019",
+      "url": "/materials/acm",
+      "characters": 49,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-020",
+      "url": "/materials/aem",
+      "characters": 54,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-021",
+      "url": "/capabilities",
+      "characters": 63,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-022",
+      "url": "/capabilities/rubber-molding",
+      "characters": 57,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-023",
+      "url": "/capabilities/lsr-molding",
+      "characters": 62,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-024",
+      "url": "/compounding",
+      "characters": 61,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-025",
+      "url": "/compounds",
+      "characters": 63,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-026",
+      "url": "/testing",
+      "characters": 60,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-027",
+      "url": "/quality",
+      "characters": 55,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-028",
+      "url": "/factory",
+      "characters": 62,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-029",
+      "url": "/industries",
+      "characters": 79,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-030",
+      "url": "/industries/semiconductor",
+      "characters": 58,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-031",
+      "url": "/industries/liquid-cooling-energy-storage",
+      "characters": 57,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-032",
+      "url": "/industries/ev-energy-storage",
+      "characters": 60,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-033",
+      "url": "/industries/humanoid-robotics",
+      "characters": 58,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-034",
+      "url": "/industries/industrial-equipment",
+      "characters": 60,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-035",
+      "url": "/industries/automotive-tier2",
+      "characters": 60,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-036",
+      "url": "/resources",
+      "characters": 57,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-037",
+      "url": "/standards",
+      "characters": 56,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-038",
+      "url": "/resources/o-ring-size-guide",
+      "characters": 60,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-039",
+      "url": "/resources/rubber-hardness-guide",
+      "characters": 60,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-040",
+      "url": "/resources/material-compatibility",
+      "characters": 56,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-041",
+      "url": "/resources/seal-failure-analysis",
+      "characters": 55,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-043",
+      "url": "/case-studies",
+      "characters": 67,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-044",
+      "url": "/contact",
+      "characters": 58,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-045",
+      "url": "/sample-request",
+      "characters": 59,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "ja",
+      "page_id": "RQ-PG-046",
+      "url": "/batch-rfq",
+      "characters": 48,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-001",
+      "url": "/",
+      "characters": 154,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-002",
+      "url": "/about",
+      "characters": 145,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-003",
+      "url": "/products",
+      "characters": 159,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-004",
+      "url": "/products/seals",
+      "characters": 157,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-005",
+      "url": "/products/gaskets",
+      "characters": 148,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-006",
+      "url": "/products/bellows",
+      "characters": 154,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-007",
+      "url": "/products/custom",
+      "characters": 149,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-008",
+      "url": "/products/diaphragms",
+      "characters": 156,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-009",
+      "url": "/products/rubber-to-metal-bonded-parts",
+      "characters": 154,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-010",
+      "url": "/products/ffkm-replacement-seals",
+      "characters": 154,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-011",
+      "url": "/materials",
+      "characters": 151,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-012",
+      "url": "/materials/ffkm",
+      "characters": 157,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-013",
+      "url": "/materials/fkm",
+      "characters": 156,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-014",
+      "url": "/materials/epdm",
+      "characters": 156,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-015",
+      "url": "/materials/hnbr",
+      "characters": 142,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-016",
+      "url": "/materials/nbr",
+      "characters": 154,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-017",
+      "url": "/materials/silicone",
+      "characters": 151,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-018",
+      "url": "/materials/lsr",
+      "characters": 150,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-019",
+      "url": "/materials/acm",
+      "characters": 151,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-020",
+      "url": "/materials/aem",
+      "characters": 151,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-021",
+      "url": "/capabilities",
+      "characters": 152,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-022",
+      "url": "/capabilities/rubber-molding",
+      "characters": 150,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-023",
+      "url": "/capabilities/lsr-molding",
+      "characters": 145,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-024",
+      "url": "/compounding",
+      "characters": 158,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-025",
+      "url": "/compounds",
+      "characters": 152,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-026",
+      "url": "/testing",
+      "characters": 156,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-027",
+      "url": "/quality",
+      "characters": 158,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-028",
+      "url": "/factory",
+      "characters": 154,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-029",
+      "url": "/industries",
+      "characters": 150,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-030",
+      "url": "/industries/semiconductor",
+      "characters": 150,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-031",
+      "url": "/industries/liquid-cooling-energy-storage",
+      "characters": 142,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-032",
+      "url": "/industries/ev-energy-storage",
+      "characters": 153,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-033",
+      "url": "/industries/humanoid-robotics",
+      "characters": 153,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-034",
+      "url": "/industries/industrial-equipment",
+      "characters": 158,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-035",
+      "url": "/industries/automotive-tier2",
+      "characters": 153,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-036",
+      "url": "/resources",
+      "characters": 149,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-037",
+      "url": "/standards",
+      "characters": 157,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-038",
+      "url": "/resources/o-ring-size-guide",
+      "characters": 155,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-039",
+      "url": "/resources/rubber-hardness-guide",
+      "characters": 157,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-040",
+      "url": "/resources/material-compatibility",
+      "characters": 153,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-041",
+      "url": "/resources/seal-failure-analysis",
+      "characters": 156,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-043",
+      "url": "/case-studies",
+      "characters": 147,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-044",
+      "url": "/contact",
+      "characters": 150,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-045",
+      "url": "/sample-request",
+      "characters": 157,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-046",
+      "url": "/batch-rfq",
+      "characters": 156,
+      "latin_range_pass": true,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-001",
+      "url": "/",
+      "characters": 70,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-002",
+      "url": "/about",
+      "characters": 63,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-003",
+      "url": "/products",
+      "characters": 56,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-004",
+      "url": "/products/seals",
+      "characters": 58,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-005",
+      "url": "/products/gaskets",
+      "characters": 55,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-006",
+      "url": "/products/bellows",
+      "characters": 55,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-007",
+      "url": "/products/custom",
+      "characters": 59,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-008",
+      "url": "/products/diaphragms",
+      "characters": 55,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-009",
+      "url": "/products/rubber-to-metal-bonded-parts",
+      "characters": 57,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-010",
+      "url": "/products/ffkm-replacement-seals",
+      "characters": 54,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-011",
+      "url": "/materials",
+      "characters": 56,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-012",
+      "url": "/materials/ffkm",
+      "characters": 59,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-013",
+      "url": "/materials/fkm",
+      "characters": 58,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-014",
+      "url": "/materials/epdm",
+      "characters": 59,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-015",
+      "url": "/materials/hnbr",
+      "characters": 59,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-016",
+      "url": "/materials/nbr",
+      "characters": 58,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-017",
+      "url": "/materials/silicone",
+      "characters": 58,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-018",
+      "url": "/materials/lsr",
+      "characters": 53,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-019",
+      "url": "/materials/acm",
+      "characters": 41,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-020",
+      "url": "/materials/aem",
+      "characters": 46,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-021",
+      "url": "/capabilities",
+      "characters": 57,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-022",
+      "url": "/capabilities/rubber-molding",
+      "characters": 54,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-023",
+      "url": "/capabilities/lsr-molding",
+      "characters": 53,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-024",
+      "url": "/compounding",
+      "characters": 59,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-025",
+      "url": "/compounds",
+      "characters": 61,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-026",
+      "url": "/testing",
+      "characters": 62,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-027",
+      "url": "/quality",
+      "characters": 59,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-028",
+      "url": "/factory",
+      "characters": 57,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-029",
+      "url": "/industries",
+      "characters": 65,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-030",
+      "url": "/industries/semiconductor",
+      "characters": 53,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-031",
+      "url": "/industries/liquid-cooling-energy-storage",
+      "characters": 57,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-032",
+      "url": "/industries/ev-energy-storage",
+      "characters": 55,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-033",
+      "url": "/industries/humanoid-robotics",
+      "characters": 52,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-034",
+      "url": "/industries/industrial-equipment",
+      "characters": 52,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-035",
+      "url": "/industries/automotive-tier2",
+      "characters": 42,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-036",
+      "url": "/resources",
+      "characters": 43,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-037",
+      "url": "/standards",
+      "characters": 55,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-038",
+      "url": "/resources/o-ring-size-guide",
+      "characters": 56,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-039",
+      "url": "/resources/rubber-hardness-guide",
+      "characters": 56,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-040",
+      "url": "/resources/material-compatibility",
+      "characters": 56,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-041",
+      "url": "/resources/seal-failure-analysis",
+      "characters": 54,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-043",
+      "url": "/case-studies",
+      "characters": 46,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-044",
+      "url": "/contact",
+      "characters": 38,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-045",
+      "url": "/sample-request",
+      "characters": 56,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    },
+    {
+      "locale": "zh",
+      "page_id": "RQ-PG-046",
+      "url": "/batch-rfq",
+      "characters": 33,
+      "latin_range_pass": null,
+      "ends_with_sentence_punctuation": true
+    }
+  ],
+  "local_http_results_passed": 225,
+  "guard_results_passed": 4,
+  "browser_pages_checked": 2,
+  "specialized_routes_pending": [
+    "/blog",
+    "/privacy",
+    "/search",
+    "/terms"
+  ],
+  "new_paid_calls": 0,
+  "cms_writes": 0,
+  "production_deployments": 0
+}

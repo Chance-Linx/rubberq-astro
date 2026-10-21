@@ -653,9 +653,24 @@
       "rendered_routes_checked": 175,
       "accepted_topic_coverage": 0,
       "artifact": "ownership/page-content-modules.json"
+    },
+    "acquisition_page_metadata": {
+      "ordinary_pages": 45,
+      "source_locale_routes_checked": 225,
+      "latin_descriptions_120_160_characters": 135,
+      "changed_description_values": 18,
+      "local_metadata_checks": "passed_final_review_pending",
+      "specialized_routes": [
+        "/blog",
+        "/search",
+        "/privacy",
+        "/terms"
+      ],
+      "specialized_metadata": "pending",
+      "artifact": "evidence/acquisition-metadata-checks.json"
     }
   },
-  "next_action": "Complete article assets/production layout, metadata repairs, keyword/graph reconciliation, specialized pages/mobile/RFQ, then one consolidated final review.",
+  "next_action": "Complete article assets and actual BlogLayout rendering, specialized-page metadata and review, keyword/graph reconciliation, mobile/RFQ, then one consolidated final review.",
   "status_evidence": {
     "implemented_page_specs": 45,
     "message_page_specs": 49,

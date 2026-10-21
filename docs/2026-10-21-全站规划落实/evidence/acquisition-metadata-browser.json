@@ -1,0 +1,19 @@
+{
+  "scope": "Local browser DOM metadata readback only; no ranking or production claim.",
+  "pages": [
+    {
+      "canonical": "https://rubberq.com/resources",
+      "description": "Use rubber engineering guides for O-ring dimensions, hardness, material compatibility and failure review. Prepare the drawing, test questions and specification.",
+      "og_description": "Use rubber engineering guides for O-ring dimensions, hardness, material compatibility and failure review. Prepare the drawing, test questions and specification.",
+      "path": "/resources",
+      "title": "Rubber Engineering Resources | RubberQ"
+    },
+    {
+      "canonical": "https://rubberq.com/es/industries",
+      "description": "Revise caucho para semiconductores, refrigeración líquida y almacenamiento de energía, gestión térmica EV y robótica, con requisitos de la aplicación.",
+      "og_description": "Revise caucho para semiconductores, refrigeración líquida y almacenamiento de energía, gestión térmica EV y robótica, con requisitos de la aplicación.",
+      "path": "/es/industries",
+      "title": "Caucho para aplicaciones industriales exigentes | RubberQ"
+    }
+  ]
+}

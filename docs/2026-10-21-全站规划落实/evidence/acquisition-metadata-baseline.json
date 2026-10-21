@@ -1,0 +1,35 @@
+{
+  "baseline_commit": "bb9dd4806b134ec47e7fa60049a46ea1f5c62e8d",
+  "files": {
+    "src/messages/en.json": "282cd413dca54fe18cc64dba7a1be54cac13ef24a015203054e2e76ad8c56670",
+    "src/messages/de.json": "d5290fe3409e8613ae2cb7dd2408a97e260d8d8536da74bd6b593d13ded43c49",
+    "src/messages/ja.json": "ac653d67495c4d7b95b23491cefd5d4844c041d6d119c364807335d623953b80",
+    "src/messages/es.json": "21d5e78cf27ca7d6def10da17882f018c1ae59d3382ae6eb26e0881031c6bdab",
+    "src/messages/zh.json": "c0b6d1abdc2c211383532bdd89622e67b85ee78f8b910c2531d09daf2223dbdd"
+  },
+  "scope": {
+    "en": [
+      "RQ-PG-001",
+      "RQ-PG-019",
+      "RQ-PG-020",
+      "RQ-PG-021",
+      "RQ-PG-036",
+      "RQ-PG-043",
+      "RQ-PG-044"
+    ],
+    "es": [
+      "RQ-PG-001",
+      "RQ-PG-019",
+      "RQ-PG-020",
+      "RQ-PG-021",
+      "RQ-PG-029",
+      "RQ-PG-035",
+      "RQ-PG-036",
+      "RQ-PG-043",
+      "RQ-PG-044",
+      "RQ-PG-046",
+      "RQ-PG-010"
+    ]
+  },
+  "scope_note": "A complete 45-page range check also found a retained FFKM Spanish description at167 characters; include it in this metadata-only repair using the same pre-edit Git baseline."
+}

@@ -1,0 +1,27 @@
+{
+  "scope": "Pre-implementation source reference for actual article rendering; not a completed layout or asset review.",
+  "files": [
+    {
+      "path": "src/pages/blog/[slug].astro",
+      "sha256": "ec3e82f1319c9ab3a24eb6306f4bb3e23b33561d416de9cf1bdf58d52afee079",
+      "lines": 139
+    },
+    {
+      "path": "src/layouts/BlogLayout.astro",
+      "sha256": "5e7c772db177b6fdd126d3fa83db087f3b4a91f2f83c98ea31f67ad7a59cb285",
+      "lines": 29
+    },
+    {
+      "path": "src/lib/articleContent.ts",
+      "sha256": "ba970fa661004f57954961f45a9dbc9b00c47aef771ffa7d6417e6820a458696",
+      "lines": 123
+    }
+  ],
+  "observed": [
+    "Production route fetches the public post and related posts before rendering BlogLayout.",
+    "Article body uses renderArticleContent.",
+    "Featured-image alt currently uses post.title.",
+    "BlogLayout currently derives the canonical from Astro.url.pathname."
+  ],
+  "cms_writes": 0
+}

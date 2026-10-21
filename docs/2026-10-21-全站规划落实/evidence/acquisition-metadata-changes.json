@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-21",
+  "baseline_commit": "bb9dd4806b134ec47e7fa60049a46ea1f5c62e8d",
+  "scope": "Description-only repair: seven English and eleven Spanish values; headings, copy bodies, CTAs and other locales unchanged.",
+  "changes": [
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-001",
+      "url": "/",
+      "before": "Precision rubber components, developed around your drawing, material requirements and service conditions. RubberQ brings Japanese formulation support.",
+      "after": "Precision rubber parts manufactured in Fuzhou since 1995. Bring your drawing, material and service requirements to review compounding, samples and production.",
+      "characters": 158
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-019",
+      "url": "/materials/acm",
+      "before": "Assess ACM as a candidate material against the specific fluid, temperature and mechanical requirements of your part. Share the existing specification or.",
+      "after": "Review ACM for a rubber component using the actual fluid, temperature and mechanical requirements. Define the candidate grade, test conditions and sample plan.",
+      "characters": 159
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-020",
+      "url": "/materials/aem",
+      "before": "Discuss AEM candidates for a defined component and service environment. The required properties, geometry and validation conditions guide the formulation.",
+      "after": "Review AEM for a defined molded part and service environment. Agree compound requirements, geometry, test conditions and samples for the application.",
+      "characters": 149
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-021",
+      "url": "/capabilities",
+      "before": "Connect material requirements, part geometry and quality expectations in one manufacturing review. RubberQ supports compound preparation, molding, in-house.",
+      "after": "Connect rubber compounding, molding, in-house testing and traceability. Review material, geometry, inspection and the manufacturing route for your component.",
+      "characters": 157
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-036",
+      "url": "/resources",
+      "before": "Find material comparisons, drawing checklists and testing questions for your rubber component project. Use the guidance to prepare a specification and.",
+      "after": "Use rubber engineering guides for O-ring dimensions, hardness, material compatibility and failure review. Prepare the drawing, test questions and specification.",
+      "characters": 160
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-043",
+      "url": "/case-studies",
+      "before": "Looking for experience relevant to your component? Share the application, drawing and requirements so we can discuss the manufacturing route and information.",
+      "after": "Discuss a rubber component project using its application, drawing and requirements. Review the manufacturing route and information for supplier evaluation.",
+      "characters": 155
+    },
+    {
+      "locale": "en",
+      "page_id": "RQ-PG-044",
+      "url": "/contact",
+      "before": "Send your drawing or describe the application. Include material requirements, service conditions and quantity so we can review the next technical and.",
+      "after": "Send RubberQ a drawing, material specification, service conditions and quantity. Discuss engineering requirements, sample evaluation and a component quotation.",
+      "characters": 159
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-001",
+      "url": "/",
+      "before": "Componentes de caucho de precisión desarrollados según su plano, material y condiciones de servicio.",
+      "after": "Piezas de caucho de precisión fabricadas en Fuzhou desde 1995. Comparta plano, material y servicio para revisar compuesto, muestras y ruta de fabricación.",
+      "characters": 154
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-010",
+      "url": "/products/ffkm-replacement-seals",
+      "before": "Evalúe sellos FFKM de sustitución con la referencia original, el plano, las condiciones de servicio y el plan de validación del equipo. Consulte muestras y suministro.",
+      "after": "Revise sellos FFKM de sustitución con referencia original, plano, condiciones de servicio y plan de validación del equipo. Consulte muestras y suministro.",
+      "characters": 154
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-019",
+      "url": "/materials/acm",
+      "before": "Evalúe ACM según los fluidos, temperaturas y requisitos mecánicos de su pieza.",
+      "after": "Evalúe ACM para su pieza con fluido, temperatura y requisitos mecánicos reales. Defina grado candidato, condiciones de ensayo y evaluación de muestras.",
+      "characters": 151
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-020",
+      "url": "/materials/aem",
+      "before": "Consulte AEM para un componente y entorno de servicio definidos.",
+      "after": "Revise AEM para una pieza moldeada y un entorno definidos. Acuerde requisitos del compuesto, geometría, condiciones de ensayo y evaluación de muestras.",
+      "characters": 151
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-021",
+      "url": "/capabilities",
+      "before": "Reúna material, geometría y calidad en una revisión de fabricación.",
+      "after": "Conecte formulación, mezclado, moldeo, ensayos internos y trazabilidad. Revise material, geometría, inspección y ruta de fabricación para su componente.",
+      "characters": 152
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-029",
+      "url": "/industries",
+      "before": "Explore componentes y materiales para semiconductores, refrigeración líquida y almacenamiento de energía, gestión térmica de vehículos eléctricos y robótica humanoide.",
+      "after": "Revise caucho para semiconductores, refrigeración líquida y almacenamiento de energía, gestión térmica EV y robótica, con requisitos de la aplicación.",
+      "characters": 150
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-035",
+      "url": "/industries/automotive-tier2",
+      "before": "Consulte piezas de precisión para programas Tier 2 seleccionados.",
+      "after": "Consulte piezas de caucho para programas Tier 2 seleccionados. Aporte plano, material, cantidades y documentación del cliente para definir la evaluación.",
+      "characters": 153
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-036",
+      "url": "/resources",
+      "before": "Encuentre comparaciones de materiales, listas de datos del plano y preguntas de ensayo para su proyecto.",
+      "after": "Consulte guías de dimensiones de O-rings, dureza, compatibilidad y fallos. Prepare el plano, las preguntas de ensayo y la especificación de su pieza.",
+      "characters": 149
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-043",
+      "url": "/case-studies",
+      "before": "¿Busca experiencia relevante para su componente? Comparta aplicación, plano y requisitos para consultar fabricación e información disponible para evaluar al proveedor.",
+      "after": "Consulte un proyecto de caucho con aplicación, plano y requisitos de material. Revise la ruta de fabricación y los datos para evaluar al proveedor.",
+      "characters": 147
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-044",
+      "url": "/contact",
+      "before": "Envíe el plano o describa la aplicación.",
+      "after": "Envíe a RubberQ plano, material, condiciones de servicio y cantidad. Consulte requisitos técnicos, evaluación de muestras y oferta para su componente.",
+      "characters": 150
+    },
+    {
+      "locale": "es",
+      "page_id": "RQ-PG-046",
+      "url": "/batch-rfq",
+      "before": "Envíe un grupo de componentes para revisión.",
+      "after": "Solicite oferta para varias piezas de caucho. Vincule cada referencia a su plano, revisión, material y cantidad, con los requisitos de inspección y entrega.",
+      "characters": 156
+    }
+  ]
+}
