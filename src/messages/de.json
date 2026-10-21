@@ -2518,21 +2518,85 @@
       "RQ-PG-010": {
         "label": "FFKM-Ersatzdichtungen",
         "title": "FFKM-Ersatzdichtungen für die Anlagenwartung | RubberQ",
-        "description": "FFKM-Ersatzdichtungen anhand von Originalzeichnung und Betriebsbedingungen bewerten. Spezifikation, Musterprüfung und Anlagenqualifizierung gemeinsam abstimmen.",
+        "description": "Bewerten Sie FFKM-Ersatzdichtungen anhand von Originalteil, Zeichnung, Einsatzbedingungen und Anlagenprüfung. Klären Sie Muster und Lieferanforderungen.",
         "h1": "FFKM-Ersatzdichtungen für die Anlagenwartung",
         "intro": "Bewerten Sie einen FFKM-Ersatz anhand der Dichtungsspezifikation und Anlagenbedingungen. Teilenummer, Maße, Prozessmedien und Schadenshistorie ermöglichen eine technische Abstimmung.",
         "sections": [
           {
-            "heading": "Ursprüngliche Anforderungen bereitstellen",
-            "body": "Senden Sie Zeichnung oder Maße, Werkstoffbezeichnung, Einbauposition und Betriebshistorie der bisherigen Dichtung. Eine Marken-Teilenummer dient der Zuordnung und belegt keine Austauschbarkeit."
+            "heading": "Originaldichtung und Einsatz beschreiben",
+            "body": "Die Ersatzteilprüfung beginnt mit der ursprünglichen Anforderung und dem Grund für den Lieferantenwechsel. Übermitteln Sie Zeichnung oder Referenzmuster, Einbauort und tatsächliche Einsatzbedingungen. Eine Markenreferenz identifiziert das Originalteil; der Ersatzkandidat benötigt eine eigene Spezifikation und Bewertung."
           },
           {
-            "heading": "Anwendungsanforderungen vergleichen",
-            "body": "Betrachten Sie Temperaturzyklen, Prozessmedien, Vakuum, Montage und relevante physikalische Eigenschaften. Reinheit, Ausgasung oder prozessspezifische Prüfungen werden für das Projekt abgestimmt."
+            "heading": "Vergleichsdaten vorbereiten",
+            "body": "Vergleichen Sie Kandidaten anhand derselben Anforderungen. Trennen Sie Maße und Montage von Werkstoffnachweisen und Anlagenfunktion.",
+            "table": {
+              "caption": "Angaben zur Bewertung einer FFKM-Ersatzdichtung",
+              "columns": [
+                "Angabe",
+                "Benötigte Informationen"
+              ],
+              "rows": [
+                [
+                  "Originalteil",
+                  "Zeichnungsstand, Teilenummer, verfügbare Maße und möglichst ein unbenutztes Muster"
+                ],
+                [
+                  "Werkstoff",
+                  "Bisherige Mischung oder Sorte, geltende Spezifikation und vorhandene Berichte"
+                ],
+                [
+                  "Montage",
+                  "Gegenflächen, Einbauspalt, Montageverfahren und zulässiges Schmiermittel"
+                ],
+                [
+                  "Prozesskontakt",
+                  "Gas- oder Flüssigkeitszusammensetzung, Reinigungsfolge und Dichtungsposition"
+                ],
+                [
+                  "Betriebsverlauf",
+                  "Temperatur, Druck oder Vakuum, Bewegung und Wartungshistorie"
+                ],
+                [
+                  "Beobachtung",
+                  "Fotos, Chargenkennung und Umstände von Verschleiß, Leckage oder Verunreinigung"
+                ],
+                [
+                  "Freigabe",
+                  "Musterprüfungen, Anlagenversuch, Annahmekriterien und Freigabeverantwortung"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Vor dem Lieferantenwechsel validieren",
-            "body": "Vereinbaren Sie Musterprüfungen und Anlagenqualifizierung mit Ihrem Engineering-Team. Die Werkstoffauswahl allein belegt weder gleiche Lebensdauer noch Plasmabeständigkeit oder OEM-Freigabe."
+            "heading": "Für jede Anforderung den passenden Nachweis wählen",
+            "body": "Erosion, Ausgasung, Partikel, extrahierbare Stoffe und Leckage der Baugruppe erfordern unterschiedliche Bewertungen. Legen Sie fest, welche für den Prozess relevant sind und unter welchen Bedingungen geprüft wird. Die Polymerfamilie oder ein Bericht zu einer anderen Mischung belegt nicht das Ergebnis des angebotenen Teils.",
+            "links": [
+              {
+                "url": "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+                "label": "Bewertung von Plasmadichtungen (Englisch)"
+              },
+              {
+                "url": "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing",
+                "label": "Ausgasungsnachweise lesen (Englisch)"
+              },
+              {
+                "url": "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
+                "label": "FKM und FFKM: Kosten und Validierung (Englisch)"
+              }
+            ]
+          },
+          {
+            "heading": "Muster- und Anlagenversuch abstimmen",
+            "body": "Legen Sie vor der Serienbelieferung fest, was der Kandidat nachweisen muss. Ordnen Sie Werkstoff- und Bauteilergebnisse der Zeichnung, Mischung und Mustercharge zu.",
+            "items": [
+              "Maße, Passung und Montage an gekennzeichneten Mustern bestätigen.",
+              "Prozessbelastung und Funktionsprüfung mit dem Anlagenteam abstimmen.",
+              "Freigabeentscheidung, offene Anforderungen und Änderungen der Spezifikation dokumentieren."
+            ]
+          },
+          {
+            "heading": "Wartung und Folgelieferungen nachvollziehbar halten",
+            "body": "Nennen Sie Bestellrhythmus, Wartungskontext und Dokumentationsbedarf. Vereinbaren Sie Mischungskennung, Verpackung, Chargenunterlagen und Änderungsprüfung. Passung, Prozessverhalten und Lebensdauer sind anwendungsbezogen freizugeben. Eine Markenreferenz bedeutet weder Markenautorisierung noch OEM-Freigabe."
           }
         ],
         "cta": "FFKM-Ersatzprüfung anfragen",
@@ -2876,25 +2940,87 @@
       "RQ-PG-025": {
         "label": "Mischungslieferung",
         "title": "Kundenspezifische Gummimischungen beziehen | RubberQ",
-        "description": "Gummimischungen für Ihren Fertigungsprozess beziehen. Spezifikation, Lieferform, Chargenfreigabe, Versuchsmaterial und technische Verantwortung abstimmen.",
+        "description": "Definieren Sie Kautschukmischungen für Ihren Prozess: Materialkennung, Versuchskriterien, Verpackung, Lagerhinweise und Unterlagen für Folgelieferungen.",
         "h1": "Kundenspezifische Gummimischungen beziehen",
         "intro": "Besprechen Sie die Lieferung von Gummimischungen für Ihren Formgebungsprozess. Werkstoffspezifikation, Weiterverarbeitung, Lieferform und Bedarf ermöglichen die technische und kaufmännische Abstimmung.",
         "sections": [
           {
-            "heading": "Mischung und Weiterverarbeitung spezifizieren",
-            "body": "Nennen Sie Polymerfamilie oder bestehende Bezeichnung, Härte, physikalische Anforderungen, gegebenenfalls Vernetzungssystem und vorgesehenes Formgebungsverfahren."
+            "heading": "Mischung und Verarbeitungsprozess definieren",
+            "body": "Stimmen Sie die Mischungslieferung auf die Werkstoffanforderung und den Prozess zum Fertigteil ab. Übermitteln Sie Spezifikation oder Leistungsziele, Fertigungsverfahren und Bedingungen am Verarbeitungsort. RubberQ verbindet Rezepturunterstützung, eigenes Mischen und Prüfen mit ERP-gestützter Rückverfolgbarkeit."
           },
           {
-            "heading": "Handhabung und Freigabe abstimmen",
-            "body": "Besprechen Sie Verpackungsform, Lagerung, Haltbarkeitsunterlagen, Chargenkennzeichnung und Freigabeprüfung. Mengen und Versandbedingungen werden projektbezogen vereinbart."
+            "heading": "Lieferspezifikation vorbereiten",
+            "body": "Härte und Polymerfamilie beschreiben nur einen Teil der Anforderung. Definieren Sie das Liefermaterial und dessen Bewertung vor einer wiederkehrenden Belieferung.",
+            "table": {
+              "caption": "Angaben für die Lieferung von Kautschukmischungen",
+              "columns": [
+                "Angabe",
+                "Details für das technische Gespräch"
+              ],
+              "rows": [
+                [
+                  "Materialkennung",
+                  "Bisheriger Mischungscode, Polymerfamilie, Spezifikation und zulässige Änderungen"
+                ],
+                [
+                  "Verarbeitung",
+                  "Vorgesehenes Formgebungs- oder anderes Verfahren, Anlagenbedingungen und Versuchsumfang"
+                ],
+                [
+                  "Eigenschaften",
+                  "Geforderte Eigenschaften, Methoden, Probenvorbereitung und Annahmegrenzen"
+                ],
+                [
+                  "Lieferform",
+                  "Benötigte Form, Verpackungseinheit, Menge und Handhabung"
+                ],
+                [
+                  "Freigabeunterlagen",
+                  "Chargenkennung sowie auftragsbezogene Material- oder Prozessberichte"
+                ],
+                [
+                  "Lagerung und Verwendung",
+                  "Mischungsspezifische Hinweise, Etikettangaben und Bedingungen beim Verarbeiter"
+                ],
+                [
+                  "Folgeaufträge",
+                  "Bestellrhythmus, freigegebener Stand und Zuständigkeiten für Änderungen"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Im eigenen Prozess validieren",
-            "body": "Vereinbaren Sie Versuchsmaterial und Bewertungskriterien mit Ihrem Produktionsteam. Die Mischung muss im tatsächlichen Prozess und am fertigen Bauteil bewertet werden."
+            "heading": "Versuchsmaterial im eigenen Prozess bewerten",
+            "body": "Vereinbaren Sie Ziel, Menge und Bewertung des Versuchs. Halten Sie Liefercharge und Verarbeitungsbedingungen nachvollziehbar. Materialprüfungen und die Funktion des Fertigteils beantworten unterschiedliche Fragen; definieren Sie bei Bedarf beide.",
+            "items": [
+              "Materialkennung und Grundlage der Wareneingangsprüfung bestätigen.",
+              "Verarbeitungsbedingungen und Beobachtungen zum vereinbarten Versuchsziel dokumentieren.",
+              "Die für Folgelieferungen geltenden Material- und Fertigteilanforderungen freigeben."
+            ],
+            "links": [
+              {
+                "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
+                "label": "Anfrage zur Mischungsentwicklung vorbereiten (Englisch)"
+              },
+              {
+                "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+                "label": "Vollständige ASTM-D2000-Bezeichnung verwenden (Englisch)"
+              }
+            ]
           },
           {
-            "heading": "Entwicklungs- und Lieferverantwortung klären",
-            "body": "Legen Sie Spezifikationsverantwortung und Änderungssteuerung fest. Kaufmännische Bedingungen, Rezepturvertraulichkeit und Entwicklung werden für jedes Projekt vereinbart."
+            "heading": "Mischungsspezifische Lagerhinweise nutzen",
+            "body": "Vereinbaren Sie Verpackungs-, Transport- und Lagerinformationen für die konkrete Mischung. Bewahren Sie Chargenkennung und geltendes Verwendungs- oder Prüfdatum auf. Bei überschrittenen Bedingungen oder Fristen ist die weitere Bewertung vor der Verwendung abzustimmen; eine Sichtprüfung verlängert die Frist nicht automatisch. Lagerhinweise für vulkanisierte Produkte sind keine allgemeine Regel für unvulkanisierte Mischungen."
+          },
+          {
+            "heading": "Freigegebenen Stand mit Folgelieferungen verknüpfen",
+            "body": "Klären Sie Spezifikationsverantwortung, Vertraulichkeit, Materialkennung und Änderungsprüfung. Vereinbaren Sie benötigte Freigabeunterlagen, Kennzeichnung der Lieferchargen und Aufzeichnungen aus Verarbeitungsversuchen. Termine, Versuchskosten und Lieferbedingungen werden anhand des festgelegten Umfangs abgestimmt.",
+            "links": [
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Chargenunterlagen vom Material bis zum Versand (Englisch)"
+              }
+            ]
           }
         ],
         "cta": "Mischungslieferung anfragen",
@@ -2903,21 +3029,154 @@
       "RQ-PG-026": {
         "label": "Prüfungen",
         "title": "Werkseigene Gummiprüfungen und Bauteilkontrolle | RubberQ",
-        "description": "Werkseigene Werkstoffprüfungen und Bauteilkontrolle bei RubberQ. Stimmen Sie Methode, Konditionierung, Abnahme und anwendungsbezogene Dokumentation ab.",
+        "description": "Planen Sie Werkstoff- und Bauteilprüfungen mit identifizierten Proben, Methoden und Annahmekriterien. Klären Sie Messbedingungen, Berichte und Temperaturzyklen.",
         "h1": "Werkseigene Gummiprüfungen und Bauteilkontrolle",
         "intro": "Verbinden Sie Werkstoff- und Bauteilanforderungen mit einem vereinbarten Prüfplan. RubberQ nutzt werkseigene Prüfungen und Inspektionen zur Mischungsbewertung, Produktionskontrolle und Kundenbewertung.",
         "sections": [
           {
-            "heading": "Funktionsrelevante Eigenschaften prüfen",
-            "body": "Besprechen Sie Härte, Zugverhalten, Bruchdehnung, Alterung, Druckverformungsrest und Medienkontakt mit den erforderlichen Konditionierungs- und Abnahmebedingungen."
+            "heading": "Prüfobjekt und Entscheidung festlegen",
+            "body": "RubberQ verfügt über ein eigenes Prüflabor zur Unterstützung von Fertigungsprojekten. Beginnen Sie mit dem Merkmal und der Entscheidung, die das Ergebnis unterstützen soll. Mischungsprobe, Fertigteil und eingebaute Baugruppe sind unterschiedliche Prüfobjekte. Stimmen Sie Methode, verantwortliches Prüfteam und Berichtsumfang ab."
           },
           {
-            "heading": "Bedingungen mit dem Ergebnis dokumentieren",
-            "body": "Ein aussagekräftiger Prüfbericht nennt Mischung, Probe, Methode, Temperatur, Dauer und Ergebnis. Vergleichen Sie Daten nur auf einer für die Anwendung relevanten Grundlage."
+            "heading": "Messung und Anforderung zuordnen",
+            "body": "Wählen Sie die Nachweise für den tatsächlichen Einsatz. Eine Liste möglicher Anforderungen ersetzt nicht die Bestätigung der verfügbaren Prüfung und des vereinbarten Umfangs.",
+            "table": {
+              "caption": "Werkstoff, Bauteil und Baugruppe getrennt bewerten",
+              "columns": [
+                "Bewertung",
+                "Festzulegende Informationen"
+              ],
+              "rows": [
+                [
+                  "Physikalische Eigenschaften",
+                  "Mischung, Probenzustand, Härteskala oder Zugprüfmethode und Annahmegrenzen"
+                ],
+                [
+                  "Medien und Alterung",
+                  "Tatsächliches Medium, Belastung, Temperatur, Dauer und gemessene Änderungen"
+                ],
+                [
+                  "Druckverhalten",
+                  "Druckverformungsrest oder Kraftrelaxation, Belastung, Erholung und Messbedingungen"
+                ],
+                [
+                  "Verbundteile",
+                  "Substrat, Probengeometrie, Belastungsverfahren und Trennbild"
+                ],
+                [
+                  "Maße und Kanten",
+                  "Zeichnungsstand, Bezug oder Auflage, kritische Merkmale und Oberflächenanforderungen"
+                ],
+                [
+                  "Vakuum oder Gas",
+                  "Geforderte Ausgasungs-, Permeations- oder Leckagemessgröße und Methode"
+                ],
+                [
+                  "Baugruppenfunktion",
+                  "Einbausituation, Betriebsfolge und kundenseitiges Funktionskriterium"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/tensile-stress-strain-curves-what-a-mechanical-engineer-needs-to-know-about-rubb",
+                "label": "Zugkurven von Gummi lesen (Englisch)"
+              },
+              {
+                "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+                "label": "Druckverformungsrest und Spannungsrelaxation (Englisch)"
+              },
+              {
+                "url": "/blog/bonding-strength-testing-interpreting-90-degree-vs-180-degree-peel-tests",
+                "label": "Haftprüfberichte vergleichen (Englisch)"
+              }
+            ]
           },
           {
-            "heading": "Bauteilprüfung gesondert betrachten",
-            "body": "Trennen Sie Maß-, Oberflächen- und Montageprüfungen von Werkstoffprüfungen. Bei Bedarf können spezielle oder externe Prüfungen besprochen werden."
+            "heading": "Ergebnisse mit ihren Prüfbedingungen lesen",
+            "body": "Vergleichen Sie Berichte auf gemeinsamer Grundlage, bevor Sie Werkstoffe bewerten. Kennzeichnung und Bedingungen müssen beim Wert bleiben, damit ein anderes Team die Messung nachvollziehen kann.",
+            "items": [
+              "Mischung, Teil oder Probe, Charge, Zeichnungsstand und Vorbereitung identifizieren.",
+              "Methode und Ausgabe, Belastung, Messbedingungen und Einheiten angeben.",
+              "Messwerte, Annahmegrenzen und Freigabeentscheidung getrennt halten."
+            ],
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Quellungsberichte lesen (Englisch)"
+              },
+              {
+                "url": "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing",
+                "label": "Ausgasungsnachweise vergleichen (Englisch)"
+              }
+            ]
+          },
+          {
+            "heading": "Temperaturwechselprüfung definieren",
+            "body": "Eine Temperaturwechselanfrage benötigt neben Grenztemperaturen den Bauteilzustand und die Bewertungsaufgabe. Stimmen Sie die Folge mit dem Nutzer der Ergebnisse ab, statt einen Zyklus auf alle Materialien oder Baugruppen zu übertragen.",
+            "table": {
+              "caption": "Angaben für einen projektspezifischen Temperaturwechselplan",
+              "columns": [
+                "Angabe",
+                "Abzustimmender Inhalt"
+              ],
+              "rows": [
+                [
+                  "Probenzustand",
+                  "Werkstoff, Geometrie, Vorbereitung und Kennzeichnung"
+                ],
+                [
+                  "Einbau",
+                  "Freie Probe oder eingebautes Teil, Einspannung und Belastung"
+                ],
+                [
+                  "Exposition",
+                  "Temperaturbereich, Übergänge, Haltebedingungen und Kontaktmedien"
+                ],
+                [
+                  "Ablauf",
+                  "Geforderte Zyklen, Unterbrechungen und Beobachtungszeitpunkte"
+                ],
+                [
+                  "Messungen",
+                  "Einsatzrelevante Maße, Werkstoffeigenschaften oder Funktionsprüfungen"
+                ],
+                [
+                  "Entscheidung",
+                  "Annahmegrenzen, verantwortlicher Prüfer und Umgang mit offenen Befunden"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction",
+                "label": "Alterung und Lebensdauerabschätzungen (Englisch)"
+              },
+              {
+                "url": "/blog/low-temperature-retraction-tr-10-predicting-seal-failure-in-arctic-conditions",
+                "label": "Tieftemperatur-Rückstelldaten verwenden (Englisch)"
+              }
+            ]
+          },
+          {
+            "heading": "Messprozess beurteilen",
+            "body": "Besprechen Sie Gerätekennung, Kalibrierumfang und Gültigkeit zusammen mit Auflage und Messung der tatsächlichen Probe. Wiederholungen, Bedienereinfluss und Einrichtbedingungen benötigen ein zur Entscheidung passendes Studiendesign. Die Anzeigeauflösung beschreibt nicht den gesamten Messprozess.",
+            "links": [
+              {
+                "url": "/blog/measurement-system-analysis-msa-ensuring-gage-rr-in-rubber-testing",
+                "label": "MSA und Gage R&R für Gummiteile (Englisch)"
+              }
+            ]
+          },
+          {
+            "heading": "Berichte mit Muster- und Fertigungsunterlagen verknüpfen",
+            "body": "Vereinbaren Sie vor der Prüfung Menge, Material- und Zeichnungskennung, Berichtsformat und Freigabeverantwortung. Unterscheiden Sie Entwicklung, Musterfreigabe und wiederkehrenden Auftrag. Eine Baugruppenqualifikation bleibt separat; ein Werkstoffbericht ersetzt ihr Ergebnis nicht.",
+            "links": [
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Material-, Prozess- und Versandunterlagen verknüpfen (Englisch)"
+              }
+            ]
           }
         ],
         "cta": "Prüfanforderung besprechen",
@@ -2926,21 +3185,102 @@
       "RQ-PG-027": {
         "label": "Qualität und Rückverfolgbarkeit",
         "title": "Qualitätskontrolle und Produktionsrückverfolgbarkeit | RubberQ",
-        "description": "Qualitätskontrolle und ERP-Rückverfolgbarkeit für Gummibauteile. Prüfplan, Chargennachweise und aktuelle Managementsystem-Zertifikate mit RubberQ besprechen.",
+        "description": "Klären Sie Qualitätsanforderungen an Gummiteile, Zeichnungsstände, Chargenrückverfolgung, Musterunterlagen und Änderungsnachweise mit RubberQ.",
         "h1": "Qualitätskontrolle und Produktionsrückverfolgbarkeit",
         "intro": "Definieren Sie Qualitätsanforderungen von der Materialvorbereitung bis zur Fertigteilprüfung. RubberQ verbindet werkseigene Prüfungen mit ERP-Aufzeichnungen für Muster, Folgeaufträge und Lieferantenbewertung.",
         "sections": [
           {
-            "heading": "Abnahmeplan vereinbaren",
-            "body": "Beginnen Sie mit Zeichnungsstand, Werkstoffspezifikation und kritischen Merkmalen. Besprechen Sie Prüfhäufigkeit, Berichte und kundenspezifische Anforderungen."
+            "heading": "Qualitätsanforderungen am Bauteil ausrichten",
+            "body": "RubberQ verfügt über Managementsystem-Zertifizierungen nach IATF 16949:2016, ISO 9001:2015 und ISO 14001:2015. Übermitteln Sie die Anforderungen für Bauteil, Empfangsstandort und Beschaffungsprogramm. Prüfen Sie bei der Lieferantenbewertung den anwendbaren Zertifikatsumfang und die aktuellen Unterlagen. Die Projektfreigabe richtet sich nach den vereinbarten Bauteilanforderungen."
           },
           {
-            "heading": "Aufzeichnungen durch die Produktion verbinden",
-            "body": "Materialchargen, Prozessaufzeichnungen und Prüfergebnisse unterstützen die Rückverfolgbarkeit. Legen Sie fest, welche Nachweise Ihr Projekt begleiten sollen."
+            "heading": "Benötigte Nachweise festlegen",
+            "body": "Vereinbaren Sie den Dokumentenumfang vor der Musterfertigung oder Produktion. Legen Sie fest, welche Unterlagen einer Lieferung beiliegen und welche für eine vereinbarte Einsicht aufbewahrt werden. Ordnen Sie kritischen Merkmalen das Fehlerrisiko, den Fertigungsschritt, das Prüfverfahren, die Stichprobenhäufigkeit und die Reaktion auf ein abweichendes Ergebnis zu. Benennen Sie für angeforderte Erklärungen oder Kundensysteme Bauteil und Mischung, anwendbare Anforderung samt Versionsdatum, erklärende Stelle, Materialliste und notwendige Antworten der Vorlieferanten. Vereinbaren Sie die Verantwortung für Datenbereitstellung und Einreichung. Trennen Sie Umweltmanagementunterlagen von Materialanforderungen und gemessenen Projektdaten. Eine vorbereitete Datei belegt noch keine erfolgte oder angenommene Einreichung.",
+            "table": {
+              "caption": "Qualitätsinformationen für ein Gummibauteil",
+              "columns": [
+                "Nachweis",
+                "Projektspezifischer Umfang"
+              ],
+              "rows": [
+                [
+                  "Zeichnung und Spezifikation",
+                  "Gültiger Stand, mitgeltende Anforderungen und Freigabeverantwortung"
+                ],
+                [
+                  "Mischungsidentifikation",
+                  "Freigegebene Werkstoffreferenz und geforderte Eigenschaften oder Berichte"
+                ],
+                [
+                  "Prozess und Prüfung",
+                  "Relevante Prozesskontrollen, Prüfmerkmale und Annahmekriterien"
+                ],
+                [
+                  "Messung",
+                  "Verfahren, Geräte und Messbedingungen für jedes überwachte Merkmal"
+                ],
+                [
+                  "Chargenrückverfolgung",
+                  "Verknüpfung von Material-, Produktions-, Prüf- und Lieferkennzeichnung"
+                ],
+                [
+                  "Angeforderte Erklärungen",
+                  "Anwendbare Material-, Umwelt- oder Herkunftserklärungen samt Nachweisumfang"
+                ],
+                [
+                  "Änderung und Aufbewahrung",
+                  "Änderungsmitteilung, Dokumentenstand, Aufbewahrungs- und Lageranforderungen"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Managementsysteme kennenlernen",
-            "body": "RubberQ verfügt über Zertifizierungen nach IATF 16949:2016, ISO 9001:2015 und ISO 14001:2015. Fordern Sie für die Lieferantenbewertung aktuelle Zertifikate und deren Geltungsbereich an."
+            "heading": "Bemusterungsunterlagen abstimmen",
+            "body": "Wenn Ihr Programm PPAP oder eine andere kundenspezifische Vorlage verlangt, nennen Sie Stufe, Formulare, Mustermenge und erforderliche Nachweise. Die Unterlagen sollen Zeichnung, Mischung, Produktionsbedingungen und gemessene Muster eindeutig zuordnen. Die Übergabe der Unterlagen und die Kundenfreigabe sind getrennte Schritte. Vereinbaren Sie Annahmeentscheidung und offene Maßnahmen.",
+            "links": [
+              {
+                "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+                "label": "PPAP-Vorlage planen (Englisch)"
+              },
+              {
+                "url": "/blog/spc-in-rubber-molding-how-cpk-167-delivers-zero-defect-batches",
+                "label": "Angaben für eine Gummibauteil-Anfrage (Englisch)"
+              },
+              {
+                "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+                "label": "ASTM-D2000-Werkstoffangaben lesen (Englisch)"
+              }
+            ]
+          },
+          {
+            "heading": "Abweichungen anhand zugeordneter Nachweise untersuchen",
+            "body": "Bewahren Sie bei unerwarteten Ergebnissen Teile- und Verpackungskennzeichnung, Fotos, betroffene Menge und Beobachtungsbedingungen auf. Stimmen Sie Sofortmaßnahmen ab, vergleichen Sie die Beobachtung mit dem festgelegten Prüfverfahren und untersuchen Sie relevante Material-, Prozess- oder Montagefaktoren. Prüfen Sie die Wirksamkeit der Abstellmaßnahme am ursprünglichen Fehlerbild vor dem Abschluss.",
+            "links": [
+              {
+                "url": "/blog/root-cause-analysis-8d-rubberqs-process-for-resolving-quality-deviations",
+                "label": "Eine aussagekräftige 8D-Untersuchung vorbereiten (Englisch)"
+              }
+            ]
+          },
+          {
+            "heading": "Änderungen und gelagerte Teile abgestimmt behandeln",
+            "body": "Legen Sie fest, wie Zeichnungs-, Mischungs- und Prozessänderungen mitgeteilt werden und wann eine erneute Bewertung erforderlich ist. Vereinbaren Sie mit dem Auftrag die Aufbewahrung von Nachweisen sowie Verpackung und Lagerung fertiger Teile. Das Alter eines gelagerten Teils allein belegt keine Eignung. Berücksichtigen Sie Kennzeichnung, Lagerverlauf, Zustand und Einsatz. Für unvulkanisierte Mischungen sind Handhabung und Verwendungsfrist werkstoffbezogen gesondert festzulegen. Vereinbaren Sie anhand der geltenden Spezifikation und ihrer abgestimmten Ausgabe, wer Lagerware bewertet und eine mögliche erneute Prüfung verantwortet.",
+            "links": [
+              {
+                "url": "/compounds",
+                "label": "Anforderungen an Mischungslieferung und Lagerung"
+              }
+            ]
+          },
+          {
+            "heading": "Lieferantenbewertung gezielt vorbereiten",
+            "body": "Beschreiben Sie die Fertigungsschritte, Prüftätigkeiten und Nachweise, die Ihr Team bewerten muss. RubberQ kann Rezepturunterstützung, Mischen, Formen, interne Prüfungen und ERP-Rückverfolgung auf das Projekt beziehen. Stimmen Sie Besuchs- oder Dokumentenprüfumfang, zulässigen Zugang und Folgefragen ab, damit die Bewertung eine Beschaffungsentscheidung unterstützt.",
+            "links": [
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Rückverfolgung vom Material bis zur Lieferung (Englisch)"
+              }
+            ]
           }
         ],
         "cta": "Lieferanteninformationen anfragen",

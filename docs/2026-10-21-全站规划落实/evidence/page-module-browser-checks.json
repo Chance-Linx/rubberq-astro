@@ -1,0 +1,24 @@
+{
+  "scope": "Representative desktop paths, not complete mobile or submission coverage",
+  "checks": [
+    {
+      "url": "http://127.0.0.1:4397/de/products/ffkm-replacement-seals",
+      "observed": "German comparison table, seven data rows and English article labels visible; screenshot saved",
+      "screenshot": "evidence/ffkm-replacement-module-de.png"
+    },
+    {
+      "path": "German FFKM primary CTA to contact",
+      "observed_url": "http://127.0.0.1:4397/de/contact?source=%2Fproducts%2Fffkm-replacement-seals&cta=project-review",
+      "observed": "German contact form present; source retained; no form submission"
+    },
+    {
+      "url": "http://127.0.0.1:4397/ja/quality",
+      "observed": "Japanese table and six sections, English blog labels and /ja/compounds link present"
+    },
+    {
+      "url": "http://127.0.0.1:4397/testing",
+      "observed": "Both tables, six sections and contextual links present"
+    }
+  ],
+  "real_form_submissions": 0
+}

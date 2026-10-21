@@ -627,7 +627,7 @@
     "navigation": "implemented_local_desktop_path_verified_mobile_final_review_pending",
     "rfq": "five_locale_ui_and_116_local_contract_checks_passed_live_contract_release_pending",
     "seo_sitemap_schema": "225_routes_metadata_and_jsonld_passed_sitemap_and_specialized_routes_final_review_pending",
-    "dashboard_reconciliation": "topic and article editorial ownership decisions reconciled; content/links implementation and operational graph remain pending",
+    "dashboard_reconciliation": "editorial ownership reconciled; 4/35 page modules and their source links implemented, operational keyword/graph reconciliation remains pending",
     "final_audit": "pending",
     "content_revision_drafts": {
       "prepared": 27,
@@ -636,11 +636,26 @@
       "article_to_article_links": 30,
       "article_to_page_links": 83,
       "private_body_previews": 27,
-      "page_backlinks": "pending",
+      "page_backlinks": "partially_implemented_4_of_35_pages_local_only",
       "cover_and_production_layout_review": "pending"
+    },
+    "page_content_modules": {
+      "required": 35,
+      "implemented_local": 4,
+      "remaining": 31,
+      "locales": [
+        "en",
+        "de",
+        "ja",
+        "es",
+        "zh"
+      ],
+      "rendered_routes_checked": 20,
+      "accepted_topic_coverage": 0,
+      "artifact": "ownership/page-content-modules.json"
     }
   },
-  "next_action": "All 27 retained articles have local body drafts and contextual links. Implement the 35 page-owner modules and article backlinks in five locales, repair sentence-truncated metadata, review article covers and production layout, reconcile keyword/graph ownership and RFQ source paths, then verify specialized routes/mobile/RFQ before consolidated final review.",
+  "next_action": "Continue the remaining 31 page-owner modules and five-locale article backlinks, beginning with product/material pages; repair truncated metadata across the site, finish article assets/production layout, reconcile keyword/graph ownership and RFQ source paths, then specialized routes/mobile/RFQ verification before consolidated final review.",
   "status_evidence": {
     "implemented_page_specs": 45,
     "message_page_specs": 49,
@@ -660,6 +675,7 @@
     "specialized_routes": "blog/search/privacy/terms kept; their bodies require separate final review",
     "paid_calls": 0,
     "cms_writes": 0,
-    "production_deployments": 0
+    "production_deployments": 0,
+    "page_content_module_artifact": "ownership/page-content-modules.json"
   }
 }

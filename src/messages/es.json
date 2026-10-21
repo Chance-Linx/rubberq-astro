@@ -2556,21 +2556,85 @@
       "RQ-PG-010": {
         "label": "Repuestos FFKM",
         "title": "Juntas de repuesto FFKM para mantenimiento | RubberQ",
-        "description": "Evalúe un repuesto FFKM según la especificación del sello y las condiciones del equipo.",
+        "description": "Evalúe sellos FFKM de sustitución con la referencia original, el plano, las condiciones de servicio y el plan de validación del equipo. Consulte muestras y suministro.",
         "h1": "Juntas de repuesto FFKM para mantenimiento",
         "intro": "Evalúe un repuesto FFKM según la especificación del sello y las condiciones del equipo. Comparta referencia, dimensiones, química de servicio e historial de fallo para la revisión técnica.",
         "sections": [
           {
-            "heading": "Aportar los requisitos originales",
-            "body": "Incluya plano o dimensiones, designación del material, ubicación e historial del sello actual. Una referencia de marca identifica la pieza, pero no demuestra intercambiabilidad."
+            "heading": "Defina el sello original y su servicio",
+            "body": "La evaluación comienza con los requisitos originales y el motivo del cambio de suministro. Comparta el plano o una muestra, la posición en el equipo y las condiciones reales. Una referencia de marca identifica la pieza original; el candidato de sustitución necesita su propia especificación y evaluación."
           },
           {
-            "heading": "Comparar lo que requiere la aplicación",
-            "body": "Revise ciclos térmicos, medios de proceso, vacío, montaje y propiedades físicas. Los ensayos de pureza, desgasificación u otros requisitos específicos se acuerdan para el proyecto."
+            "heading": "Prepare los datos de comparación",
+            "body": "Compare candidatos con los mismos requisitos. Separe dimensiones y montaje, evidencia del material y funcionamiento del equipo.",
+            "table": {
+              "caption": "Datos para evaluar un sello FFKM de sustitución",
+              "columns": [
+                "Dato",
+                "Información necesaria"
+              ],
+              "rows": [
+                [
+                  "Pieza original",
+                  "Revisión del plano, referencia, dimensiones disponibles y, si es posible, una muestra sin usar"
+                ],
+                [
+                  "Material",
+                  "Compuesto o grado actual, especificación aplicable e informes disponibles"
+                ],
+                [
+                  "Montaje",
+                  "Geometría de las piezas acopladas, holgura cerrada, método y lubricante permitido"
+                ],
+                [
+                  "Exposición del proceso",
+                  "Composición del gas o líquido, secuencia de limpieza y posición del sello"
+                ],
+                [
+                  "Historial de servicio",
+                  "Temperatura, presión o vacío, movimiento y mantenimiento"
+                ],
+                [
+                  "Observación",
+                  "Fotografías, lote y circunstancias del desgaste, fuga o contaminación"
+                ],
+                [
+                  "Aprobación",
+                  "Ensayos de muestras, prueba en equipo, criterios de aceptación y responsable"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Validar antes de cambiar de suministro",
-            "body": "Acuerde pruebas de muestras y cualificación del equipo con ingeniería. La selección de material no acredita por sí sola igual duración, rendimiento frente a plasma ni aprobación del fabricante original."
+            "heading": "Use la evidencia adecuada para cada requisito",
+            "body": "La erosión, la desgasificación, las partículas, los extractables y las fugas del conjunto requieren evaluaciones diferentes. Defina cuáles importan al proceso y bajo qué condiciones se miden. El nombre del polímero o un informe de otro compuesto no establece el resultado del sello propuesto.",
+            "links": [
+              {
+                "url": "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+                "label": "Condiciones para evaluar sellos de plasma (inglés)"
+              },
+              {
+                "url": "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing",
+                "label": "Lectura de evidencia de desgasificación (inglés)"
+              },
+              {
+                "url": "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
+                "label": "FKM y FFKM: costes y validación (inglés)"
+              }
+            ]
+          },
+          {
+            "heading": "Acuerde las muestras y la prueba en equipo",
+            "body": "Defina lo que debe demostrar el candidato antes del suministro habitual. Vincule los resultados del material y la pieza con el plano, el compuesto y el lote de muestras.",
+            "items": [
+              "Confirme dimensiones, ajuste y montaje con muestras identificadas.",
+              "Acuerde la exposición y la evaluación funcional con el equipo técnico del cliente.",
+              "Registre la decisión de aprobación, los requisitos abiertos y los cambios de especificación."
+            ]
+          },
+          {
+            "heading": "Mantenga la trazabilidad en mantenimiento y reposición",
+            "body": "Indique el patrón de pedidos, el contexto de mantenimiento y la documentación requerida. Acuerde identificación del compuesto, embalaje, registros de lote y revisión de cambios. El ajuste, el rendimiento y la vida útil necesitan aprobación para la aplicación. Una referencia de marca no implica autorización de marca ni aprobación OEM."
           }
         ],
         "cta": "Solicitar evaluación de un repuesto FFKM",
@@ -2914,25 +2978,87 @@
       "RQ-PG-025": {
         "label": "Suministro de compuestos",
         "title": "Suministro de compuestos de caucho a medida | RubberQ",
-        "description": "Consulte el suministro de compuestos para su proceso de moldeo.",
+        "description": "Defina el compuesto de caucho para su proceso: identificación, criterios de prueba, embalaje, instrucciones de almacenamiento y registros de suministro.",
         "h1": "Suministro de compuestos de caucho a medida",
         "intro": "Consulte el suministro de compuestos para su proceso de moldeo. Comparta especificación, proceso receptor, formato y volumen para evaluar encaje técnico y suministro.",
         "sections": [
           {
-            "heading": "Especificar compuesto y proceso receptor",
-            "body": "Indique familia de polímero o designación, dureza, propiedades físicas, sistema de curado cuando corresponda y moldeo previsto."
+            "heading": "Defina el compuesto y el proceso receptor",
+            "body": "Estudie el suministro del compuesto junto con los requisitos del material y el proceso que producirá la pieza final. Comparta la especificación o los objetivos, el método de fabricación y las condiciones de recepción. RubberQ combina apoyo de formulación, mezclado y ensayos internos con trazabilidad de producción mediante ERP."
           },
           {
-            "heading": "Acordar manipulación y liberación",
-            "body": "Consulte presentación, almacenamiento, documentación de vida útil, identificación de lote y ensayos de liberación. Cantidades y envío se confirman para el proyecto."
+            "heading": "Prepare una especificación de suministro",
+            "body": "Una dureza o un nombre de polímero solo describen parte del requisito. Defina el material entregado y cómo se evaluará antes de acordar pedidos recurrentes.",
+            "table": {
+              "caption": "Datos para el suministro de compuestos de caucho",
+              "columns": [
+                "Dato",
+                "Detalle para la evaluación técnica"
+              ],
+              "rows": [
+                [
+                  "Identificación",
+                  "Código actual, familia de polímero, especificación y cambios permitidos"
+                ],
+                [
+                  "Proceso receptor",
+                  "Moldeo u otro proceso previsto, restricciones de equipo y condiciones de prueba"
+                ],
+                [
+                  "Prestaciones",
+                  "Propiedades, métodos, preparación de muestras y límites de aceptación"
+                ],
+                [
+                  "Formato de suministro",
+                  "Forma necesaria, unidad de embalaje, cantidad y manipulación"
+                ],
+                [
+                  "Información de entrega",
+                  "Identificación de lote e informes de material o proceso requeridos"
+                ],
+                [
+                  "Almacenamiento y uso",
+                  "Instrucciones del compuesto, etiqueta y condiciones del centro receptor"
+                ],
+                [
+                  "Pedidos recurrentes",
+                  "Patrón de pedidos, versión aprobada y responsabilidades ante cambios"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Validar en su proceso",
-            "body": "Acuerde material de prueba y criterios con el equipo receptor. El compuesto debe evaluarse en el proceso real y según requisitos de la pieza terminada."
+            "heading": "Evalúe el material en su proceso",
+            "body": "Acuerde objetivo, cantidad y evaluación de la prueba antes de comparar candidatos. Identifique el lote suministrado y los parámetros del proceso receptor. Los ensayos de material y la función de la pieza final responden a preguntas distintas; defina ambos cuando la aplicación lo requiera.",
+            "items": [
+              "Confirme la identificación del material y la base de inspección de recepción.",
+              "Registre condiciones de proceso y observaciones frente al objetivo acordado.",
+              "Apruebe los requisitos de material y pieza final que regirán el suministro recurrente."
+            ],
+            "links": [
+              {
+                "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
+                "label": "Preparar una solicitud de desarrollo de compuesto (inglés)"
+              },
+              {
+                "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+                "label": "Usar la designación completa ASTM D2000 (inglés)"
+              }
+            ]
           },
           {
-            "heading": "Aclarar responsabilidades",
-            "body": "Defina responsable de la especificación y control de cambios. Condiciones comerciales, confidencialidad de formulación y desarrollo se acuerdan proyecto por proyecto."
+            "heading": "Aplique instrucciones específicas de almacenamiento",
+            "body": "Acuerde embalaje, transporte y almacenamiento para el compuesto concreto. Mantenga la identificación del lote y la fecha de uso o revisión aplicable. Si se exceden las condiciones o el periodo de la etiqueta, consulte la revisión necesaria antes del uso; una inspección visual no amplía automáticamente el plazo. Las pautas para productos vulcanizados no son una regla universal para compuestos sin vulcanizar."
+          },
+          {
+            "heading": "Vincule la versión aprobada con cada pedido",
+            "body": "Aclare responsabilidad de la especificación, confidencialidad, identificación aprobada y revisión de cambios. Acuerde los registros de entrega, la identificación de lotes y la información que se conservará de las pruebas de proceso. Los plazos, los cargos de prueba y las condiciones recurrentes se confirman según el alcance definido.",
+            "links": [
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Registros de lote desde el material al envío (inglés)"
+              }
+            ]
           }
         ],
         "cta": "Solicitar revisión de suministro de compuesto",
@@ -2941,21 +3067,154 @@
       "RQ-PG-026": {
         "label": "Ensayos",
         "title": "Ensayos e inspección de caucho en fábrica | RubberQ",
-        "description": "Conecte requisitos del material y del componente con un plan de ensayos acordado.",
+        "description": "Planifique ensayos de caucho y piezas con muestras, métodos y criterios definidos. Revise informes, condiciones de medición y requisitos de ciclos térmicos.",
         "h1": "Ensayos e inspección de caucho en fábrica",
         "intro": "Conecte requisitos del material y del componente con un plan de ensayos acordado. RubberQ utiliza ensayos e inspección internos para evaluar compuestos, controlar producción y apoyar su evaluación.",
         "sections": [
           {
-            "heading": "Ensayar las propiedades relevantes",
-            "body": "Consulte dureza, tracción, alargamiento, envejecimiento, deformación remanente por compresión y exposición a fluidos, con sus condiciones y criterios de aceptación."
+            "heading": "Defina el objeto y la decisión",
+            "body": "RubberQ dispone de un laboratorio interno de verificación para proyectos de fabricación. Empiece por la característica y la decisión que debe apoyar el resultado. Una probeta de compuesto, una pieza terminada y un conjunto montado son objetos distintos. Acuerde método, equipo responsable y alcance del informe."
           },
           {
-            "heading": "Conservar las condiciones con el resultado",
-            "body": "Un registro útil identifica compuesto, muestra, método, temperatura, duración y resultado. Compare datos solo si la base de ensayo es relevante para la aplicación."
+            "heading": "Relacione la medición con el requisito",
+            "body": "Seleccione la evidencia pertinente para el servicio real. Distinga la disponibilidad y el alcance acordado de una lista de posibles requisitos de aplicación.",
+            "table": {
+              "caption": "Diferencie material, pieza y conjunto",
+              "columns": [
+                "Evaluación",
+                "Información que debe definirse"
+              ],
+              "rows": [
+                [
+                  "Propiedades físicas",
+                  "Compuesto, estado de la probeta, escala de dureza o método de tracción y límites"
+                ],
+                [
+                  "Medios y envejecimiento",
+                  "Fluido o gas real, exposición, temperatura, duración y cambios medidos"
+                ],
+                [
+                  "Comportamiento a compresión",
+                  "Deformación remanente o retención de fuerza, carga, recuperación y medición"
+                ],
+                [
+                  "Piezas adheridas",
+                  "Sustrato, geometría, método de carga y observación de la separación"
+                ],
+                [
+                  "Dimensiones y bordes",
+                  "Revisión del plano, referencia o apoyo, características críticas y aceptación superficial"
+                ],
+                [
+                  "Vacío o gas",
+                  "Magnitud de desgasificación, permeación o fuga requerida y método aplicable"
+                ],
+                [
+                  "Función del conjunto",
+                  "Configuración instalada, secuencia de servicio y criterio funcional del cliente"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/tensile-stress-strain-curves-what-a-mechanical-engineer-needs-to-know-about-rubb",
+                "label": "Lectura de curvas de tracción del caucho (inglés)"
+              },
+              {
+                "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+                "label": "Deformación remanente y relajación (inglés)"
+              },
+              {
+                "url": "/blog/bonding-strength-testing-interpreting-90-degree-vs-180-degree-peel-tests",
+                "label": "Comparación de informes de adhesión (inglés)"
+              }
+            ]
           },
           {
-            "heading": "Revisar la inspección del componente",
-            "body": "Separe dimensiones, superficies y montaje de los ensayos del material. Se pueden consultar ensayos especializados o externos cuando sean necesarios."
+            "heading": "Lea el resultado con su contexto",
+            "body": "Compare informes con una base común antes de clasificar materiales. Mantenga identificación y condiciones junto al valor para que otro equipo pueda interpretar lo medido.",
+            "items": [
+              "Identifique compuesto, pieza o probeta, lote, revisión del plano y preparación.",
+              "Indique método y edición, exposición, condiciones de medición y unidades.",
+              "Separe resultados reales, límites de aceptación y decisión de aprobación."
+            ],
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Lectura de informes de hinchamiento (inglés)"
+              },
+              {
+                "url": "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing",
+                "label": "Comparación de evidencia de desgasificación (inglés)"
+              }
+            ]
+          },
+          {
+            "heading": "Defina la evaluación de ciclos térmicos",
+            "body": "Además de los límites de temperatura, indique el estado de la pieza y el objetivo de aceptación. Acuerde la secuencia con quien utilizará el resultado, sin aplicar un único ciclo a todos los materiales o conjuntos.",
+            "table": {
+              "caption": "Datos para un plan de ciclos térmicos del proyecto",
+              "columns": [
+                "Dato",
+                "Qué debe acordarse"
+              ],
+              "rows": [
+                [
+                  "Estado de la muestra",
+                  "Material, geometría, preparación e identificación"
+                ],
+                [
+                  "Instalación",
+                  "Probeta libre o pieza montada, restricción y carga aplicada"
+                ],
+                [
+                  "Exposición",
+                  "Rango térmico, transiciones, condiciones de mantenimiento y medios de contacto"
+                ],
+                [
+                  "Secuencia",
+                  "Ciclos, interrupciones y puntos de observación"
+                ],
+                [
+                  "Mediciones",
+                  "Dimensiones, propiedades o funciones relevantes para el servicio"
+                ],
+                [
+                  "Decisión",
+                  "Límites, responsable de revisión y tratamiento de observaciones pendientes"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction",
+                "label": "Interpretación del envejecimiento y la vida estimada (inglés)"
+              },
+              {
+                "url": "/blog/low-temperature-retraction-tr-10-predicting-seal-failure-in-arctic-conditions",
+                "label": "Uso de datos de retracción a baja temperatura (inglés)"
+              }
+            ]
+          },
+          {
+            "heading": "Revise el proceso de medición",
+            "body": "Considere identificación del instrumento, alcance y validez de calibración junto con el apoyo y la medición de la muestra real. Repeticiones, operadores y montaje requieren un estudio adecuado a la decisión. La resolución de pantalla no describe todo el proceso.",
+            "links": [
+              {
+                "url": "/blog/measurement-system-analysis-msa-ensuring-gage-rr-in-rubber-testing",
+                "label": "MSA y Gage R&R para piezas de caucho (inglés)"
+              }
+            ]
+          },
+          {
+            "heading": "Vincule los informes con las muestras y la producción",
+            "body": "Acuerde cantidad, identificación de material y plano, formato y responsabilidad de aprobación antes del ensayo. Distinga desarrollo, aprobación de muestras y pedidos recurrentes. Mantenga separada la cualificación del conjunto; un informe de material no reemplaza ese resultado.",
+            "links": [
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Vincular registros de material, proceso y envío (inglés)"
+              }
+            ]
           }
         ],
         "cta": "Consultar un requisito de ensayo",
@@ -2964,21 +3223,102 @@
       "RQ-PG-027": {
         "label": "Calidad y trazabilidad",
         "title": "Control de calidad y trazabilidad de producción | RubberQ",
-        "description": "Defina calidad desde la preparación del material hasta la inspección final.",
+        "description": "Revise con RubberQ los requisitos de calidad de sus piezas de caucho, el control de planos, la trazabilidad por lote y la documentación de muestras y cambios.",
         "h1": "Control de calidad y trazabilidad de producción",
         "intro": "Defina calidad desde la preparación del material hasta la inspección final. RubberQ combina ensayos internos con registros ERP para muestras, pedidos recurrentes y evaluación de proveedores.",
         "sections": [
           {
-            "heading": "Acordar la aceptación",
-            "body": "Empiece por revisión del plano, material y características críticas. Consulte frecuencia de inspección, informes y requisitos específicos del cliente."
+            "heading": "Vincular la calidad a los requisitos de la pieza",
+            "body": "RubberQ cuenta con certificaciones de sistemas de gestión IATF 16949:2016, ISO 9001:2015 e ISO 14001:2015. Comparta los requisitos de la pieza, el centro receptor y el programa de compras. Confirme el alcance aplicable del certificado y la documentación vigente al evaluar al proveedor. La aprobación del proyecto se basa en los requisitos acordados para la pieza."
           },
           {
-            "heading": "Conectar registros durante la producción",
-            "body": "Lotes de material, registros de proceso y resultados apoyan la trazabilidad. Indique qué documentos deben acompañar a su proyecto."
+            "heading": "Definir los registros del proyecto",
+            "body": "Acuerde la documentación antes de preparar muestras o iniciar la producción. Identifique los registros que acompañan a la entrega y los que se conservan para una revisión acordada. Relacione las características críticas con el riesgo de fallo, la etapa de fabricación, el método de inspección, la frecuencia de muestreo y la respuesta ante una anomalía. Para declaraciones o sistemas de información del cliente, identifique la pieza y el compuesto, el requisito y su versión fechada, el declarante, la lista de materiales y las respuestas necesarias de proveedores anteriores. Acuerde quién aporta datos y quién realiza la presentación. Distinga la documentación de gestión ambiental de los requisitos de material y de los datos medidos del proyecto. Preparar un archivo no demuestra que se haya presentado o aceptado.",
+            "table": {
+              "caption": "Información de calidad para una pieza de caucho",
+              "columns": [
+                "Registro",
+                "Alcance específico del proyecto"
+              ],
+              "rows": [
+                [
+                  "Plano y especificación",
+                  "Revisión vigente, requisitos de referencia y responsables de aprobación"
+                ],
+                [
+                  "Identificación del compuesto",
+                  "Referencia del material aprobado y propiedades o informes exigidos"
+                ],
+                [
+                  "Proceso e inspección",
+                  "Controles pertinentes, características de inspección y criterios de aceptación"
+                ],
+                [
+                  "Medición",
+                  "Método, equipos y condiciones para cada característica controlada"
+                ],
+                [
+                  "Trazabilidad por lote",
+                  "Relación entre identificaciones de material, producción, inspección y entrega"
+                ],
+                [
+                  "Declaraciones solicitadas",
+                  "Declaraciones aplicables de materiales, medioambiente u origen y su alcance documental"
+                ],
+                [
+                  "Cambios y conservación",
+                  "Notificación de cambios, versión documental, conservación de registros y almacenamiento"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Revisar los sistemas de gestión",
-            "body": "RubberQ cuenta con certificaciones IATF 16949:2016, ISO 9001:2015 e ISO 14001:2015. Solicite certificados actuales y alcance aplicable para evaluar al proveedor."
+            "heading": "Acordar la documentación de muestras",
+            "body": "Si su programa exige PPAP u otra presentación al cliente, especifique el nivel, los formularios, la cantidad de muestras y los documentos justificativos. Relacione la presentación con el plano, el compuesto, las condiciones de producción y las muestras medidas. Entregar documentos y obtener la aprobación del cliente son pasos distintos. Acuerde la decisión de aceptación y las acciones pendientes.",
+            "links": [
+              {
+                "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+                "label": "Preparar una presentación PPAP (inglés)"
+              },
+              {
+                "url": "/blog/spc-in-rubber-molding-how-cpk-167-delivers-zero-defect-batches",
+                "label": "Información para una RFQ de piezas de caucho (inglés)"
+              },
+              {
+                "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+                "label": "Interpretar una designación ASTM D2000 (inglés)"
+              }
+            ]
+          },
+          {
+            "heading": "Investigar desviaciones con información identificable",
+            "body": "Ante un resultado inesperado, conserve la identificación de la pieza y del embalaje, fotografías, cantidad afectada y condiciones en que apareció el problema. Acuerde la contención, contraste lo observado con el método especificado e investigue los factores pertinentes de material, proceso o montaje. Verifique la acción correctiva frente al problema original antes de cerrar la incidencia.",
+            "links": [
+              {
+                "url": "/blog/root-cause-analysis-8d-rubberqs-process-for-resolving-quality-deviations",
+                "label": "Preparar una investigación 8D útil (inglés)"
+              }
+            ]
+          },
+          {
+            "heading": "Acordar el control de cambios y piezas almacenadas",
+            "body": "Defina cómo se comunican los cambios de plano, compuesto o proceso y cuáles requieren una nueva evaluación. Acuerde con el pedido la conservación de registros, el embalaje de las piezas terminadas y las instrucciones de almacenamiento. La antigüedad por sí sola no determina la aptitud de una pieza: revise identificación, historial de almacenamiento, estado y aplicación prevista. Para compuesto sin vulcanizar, acuerde por separado la manipulación y el periodo de uso específico del material. Acuerde quién evalúa las existencias y una posible reinspección según la especificación aplicable y la edición acordada.",
+            "links": [
+              {
+                "url": "/compounds",
+                "label": "Suministro y almacenamiento de compuestos"
+              }
+            ]
+          },
+          {
+            "heading": "Preparar una evaluación enfocada del proveedor",
+            "body": "Describa los procesos de fabricación, actividades de inspección y registros que su equipo necesita evaluar. RubberQ puede explicar el apoyo de formulación, mezclado, moldeo, ensayos internos y trazabilidad ERP en relación con el proyecto. Acuerde el alcance de la visita o revisión documental, el acceso permitido y las preguntas posteriores para apoyar la decisión de compra.",
+            "links": [
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Trazabilidad desde el material hasta la entrega (inglés)"
+              }
+            ]
           }
         ],
         "cta": "Solicitar información del proveedor",

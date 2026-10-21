@@ -959,8 +959,9 @@
           "required_updates": "保留买方问题和已确认两厂区/混炼/检测事实，改内部定位句为客户需求，不把体系推成所有零件或项目已通过；与154区分体系比较任务。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/testing",
@@ -1013,8 +1014,9 @@
           "required_updates": "保留已确认自有检测事实，具体项目/设备/方法以可提供资料为准；与56校准及89MSA分工，删除自有配方数据和实验室认证暗示。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/capabilities/rubber-molding",
@@ -2736,8 +2738,9 @@
           "required_updates": "保留品牌零件识别与替代评估任务，区分参考品牌与RubberQ候选，需原规格、图纸和实际验证，不暗示原厂供货/授权或通用等效；不借用品牌性能。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/products",
@@ -2835,8 +2838,9 @@
         }
       ],
       "buyer_jobs": [],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     }
   ]
 }

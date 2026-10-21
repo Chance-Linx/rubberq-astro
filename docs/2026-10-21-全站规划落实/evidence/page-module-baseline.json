@@ -1,0 +1,34 @@
+{
+  "commit": "e1dd6af9086cffe4c8c7a5320c42df8023b4229f",
+  "sources": [
+    {
+      "path": "src/lib/acquisition.ts",
+      "sha256": "8ba828100f5c3f1956f6ebb0bcfa1b9050eec7c90abb8868fa9028871dba4b2e"
+    },
+    {
+      "path": "src/components/acquisition/AcquisitionPage.astro",
+      "sha256": "d7e876aa9414e30fd9468bc84a30cf3bf90ad968787018f4f96619756114538f"
+    },
+    {
+      "path": "src/messages/en.json",
+      "sha256": "f6ce5c72cff9e81a5fa86a517043a1e490cfd31aa74a518926af29230c64b23e"
+    },
+    {
+      "path": "src/messages/de.json",
+      "sha256": "f6f8628923b5ff7fed9c47e49d6abb1e2809682f940ac4a038aa669bf2e49e59"
+    },
+    {
+      "path": "src/messages/ja.json",
+      "sha256": "8d51a8b52bf3565071e4dd66b7775f4b52217165681303873a1ea920d63537e8"
+    },
+    {
+      "path": "src/messages/es.json",
+      "sha256": "6c8e4cc7c8fa1a62028aa6190c4370e38bc2d642eaa8935da5209b6f135081bb"
+    },
+    {
+      "path": "src/messages/zh.json",
+      "sha256": "3a3fdbf4667e10041d63255e1cdafc1bfd05f4dd67a313fffc59e5eb83dd1cce"
+    }
+  ],
+  "scope": "Git baseline before rich page modules; preexisting unrelated source changes remain isolated"
+}

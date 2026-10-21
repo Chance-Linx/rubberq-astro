@@ -1,7 +1,13 @@
 import registry from '@/data/acquisition-pages.json';
 import { getTranslations, tRaw, locales, type Locale } from './i18n';
 
-export interface AcquisitionSection { heading: string; body: string }
+export interface AcquisitionSection {
+  heading: string;
+  body: string;
+  items?: string[];
+  table?: { caption: string; columns: string[]; rows: string[][] };
+  links?: Array<{ url: string; label: string }>;
+}
 export interface AcquisitionCopy {
   label: string;
   title: string;

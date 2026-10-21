@@ -2490,21 +2490,85 @@
       "RQ-PG-010": {
         "label": "FFKM Replacement Seals",
         "title": "FFKM Replacement Seals for Equipment Maintenance | RubberQ",
-        "description": "Assess an FFKM replacement around the seal specification and equipment conditions. Share the existing part reference, dimensions, service chemistry and.",
+        "description": "Review FFKM replacement seals with the original part reference, drawing, service conditions and validation plan. Discuss sample and supply requirements.",
         "h1": "FFKM Replacement Seals for Equipment Maintenance",
         "intro": "Assess an FFKM replacement around the seal specification and equipment conditions. Share the existing part reference, dimensions, service chemistry and failure history for a technical review.",
         "sections": [
           {
-            "heading": "Bring the original requirements",
-            "body": "Include the current seal drawing or dimensions, material designation, equipment position and service history. A branded part reference is a starting point for discussion, not proof of interchangeability."
+            "heading": "Start with the existing seal and its duty",
+            "body": "A replacement review begins with the original requirement and the reason for changing supply. Share the part drawing or reference sample, the equipment position and the conditions the seal actually encounters. A branded reference helps identify the original part; the replacement candidate needs its own specification and evaluation."
           },
           {
-            "heading": "Compare what the application needs",
-            "body": "Review temperature cycles, process media, vacuum conditions, installation and the relevant physical-property requirements. Additional purity, outgassing or process-specific tests are discussed for the project."
+            "heading": "Prepare the comparison inputs",
+            "body": "Use the same requirement set when comparing candidates. Separate dimensions and installation from material evidence and equipment performance.",
+            "table": {
+              "caption": "Information for an FFKM replacement review",
+              "columns": [
+                "Information",
+                "What to include"
+              ],
+              "rows": [
+                [
+                  "Original part",
+                  "Drawing revision, part reference, available dimensions and an unused sample where possible"
+                ],
+                [
+                  "Material",
+                  "Existing compound or grade, applicable specification and available reports"
+                ],
+                [
+                  "Installation",
+                  "Mating geometry, closed gap, assembly method and permitted lubricant"
+                ],
+                [
+                  "Process exposure",
+                  "Gas or fluid composition, cleaning sequence and the seal position"
+                ],
+                [
+                  "Operating history",
+                  "Temperature, pressure or vacuum conditions, movement and maintenance history"
+                ],
+                [
+                  "Observed concern",
+                  "Photographs, lot identification and the circumstances of wear, leakage or contamination"
+                ],
+                [
+                  "Approval",
+                  "Required sample tests, equipment trial, acceptance criteria and approval responsibility"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Validate before changing supply",
-            "body": "Agree sample checks and equipment qualification with your engineering team. Material selection does not by itself establish equivalent life, plasma performance or OEM approval."
+            "heading": "Evaluate each requirement with the right evidence",
+            "body": "Erosion, outgassing, particles, extractable substances and assembly leakage describe different evaluations. Identify which matter to the process and the conditions required for each report. A material-family name or a report from an unrelated compound does not establish the proposed seal’s result.",
+            "links": [
+              {
+                "url": "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+                "label": "Plasma-seal evaluation conditions"
+              },
+              {
+                "url": "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing",
+                "label": "Reading vacuum-outgassing evidence"
+              },
+              {
+                "url": "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
+                "label": "Comparing FKM, FFKM, cost and validation"
+              }
+            ]
+          },
+          {
+            "heading": "Agree the sample and equipment trial",
+            "body": "Define what the candidate must demonstrate before regular supply. Keep material and component results linked to the drawing, compound and sample lot.",
+            "items": [
+              "Confirm dimensions, fit and installation on identified samples.",
+              "Agree the process exposure and functional evaluation required by the equipment team.",
+              "Record the acceptance decision, open requirements and any changes to the approved specification."
+            ]
+          },
+          {
+            "heading": "Keep maintenance and repeat supply traceable",
+            "body": "Include the planned order pattern, maintenance context and documentation requirements in the enquiry. Agree compound identification, packaging, lot records and change review for repeat orders. Fit, process performance and service life remain application-specific approval questions. An existing brand reference does not imply brand authorization or OEM approval."
           }
         ],
         "cta": "Request an FFKM Replacement Review",
@@ -2848,25 +2912,87 @@
       "RQ-PG-025": {
         "label": "Compound Supply",
         "title": "Custom Rubber Compound Supply | RubberQ",
-        "description": "Discuss compound supply for your molding requirements. Share the material specification, receiving process, required form and volume so we can review.",
+        "description": "Specify compounded rubber for your process, including material identification, trial criteria, packaging, storage instructions and repeat-supply records.",
         "h1": "Custom Rubber Compound Supply",
         "intro": "Discuss compound supply for your molding requirements. Share the material specification, receiving process, required form and volume so we can review technical fit and a supply arrangement.",
         "sections": [
           {
-            "heading": "Specify the compound and receiving process",
-            "body": "Provide the polymer family or existing designation, hardness, physical-property requirements, cure system where specified and the intended molding process."
+            "heading": "Define the compound and receiving process",
+            "body": "Discuss compound supply around the material requirement and the process that will turn it into a finished part. Share the existing specification or performance targets, intended manufacturing route and receiving-site conditions. RubberQ combines formulation support, in-house mixing and testing with ERP production traceability."
           },
           {
-            "heading": "Agree handling and release requirements",
-            "body": "Discuss packaging form, storage, shelf-life documentation, batch identification and release testing. Required quantities and shipment conditions are confirmed for the project."
+            "heading": "Prepare a supply specification",
+            "body": "A hardness target or polymer name is only part of the requirement. Define the delivered material and how your team will evaluate it before agreeing recurring supply.",
+            "table": {
+              "caption": "Inputs for compounded-rubber supply",
+              "columns": [
+                "Input",
+                "Details for the technical discussion"
+              ],
+              "rows": [
+                [
+                  "Material identity",
+                  "Existing compound code, polymer family, specification and permitted changes"
+                ],
+                [
+                  "Receiving process",
+                  "Molding or other intended process, equipment constraints and relevant trial conditions"
+                ],
+                [
+                  "Performance",
+                  "Required properties, methods, sample preparation and acceptance limits"
+                ],
+                [
+                  "Supply form",
+                  "Required form, pack size, quantity and handling needs"
+                ],
+                [
+                  "Release information",
+                  "Lot identification and the material or process reports required for the order"
+                ],
+                [
+                  "Storage and use",
+                  "Material-specific instructions, label information and the receiving-site conditions"
+                ],
+                [
+                  "Repeat orders",
+                  "Order pattern, approved version and responsibilities for reviewing changes"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Validate in your process",
-            "body": "Agree trial material and evaluation criteria with the receiving production team. A compound must be assessed against the actual process and finished-part requirements."
+            "heading": "Evaluate trial material in your process",
+            "body": "Agree the trial objective, quantity and evaluation before comparing candidates. Keep the supplied lot and the receiving-process settings identifiable. Material-test results and finished-part function answer different questions, so define both where the application requires them.",
+            "items": [
+              "Confirm the material identification and receiving inspection basis.",
+              "Record trial processing conditions and observations against the agreed objective.",
+              "Approve the material and finished-part requirements that will govern repeat supply."
+            ],
+            "links": [
+              {
+                "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
+                "label": "Preparing a custom compound-development request"
+              },
+              {
+                "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+                "label": "Using a complete ASTM D2000 material callout"
+              }
+            ]
           },
           {
-            "heading": "Clarify development and supply responsibilities",
-            "body": "Identify who owns the specification and how changes will be controlled. Commercial, formulation confidentiality and development arrangements are agreed project by project."
+            "heading": "Use material-specific storage instructions",
+            "body": "Agree packaging, transport and storage information for the particular compound. Keep batch identification and the applicable use or review date with the material. If storage conditions or the labelled period are exceeded, discuss the required review before use; do not infer an automatic extension from a visual check. Finished-rubber storage guidance should not be treated as a universal rule for uncured compound."
+          },
+          {
+            "heading": "Connect the approved version to repeat supply",
+            "body": "Discuss specification ownership, confidentiality, approved material identification and how changes will be reviewed. Agree which release records are needed, how delivery lots will be identified and what to retain from a receiving-process trial. Timing, trial charges and recurring supply terms are confirmed against the defined scope.",
+            "links": [
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Batch records from material to shipment"
+              }
+            ]
           }
         ],
         "cta": "Request a Compound Supply Review",
@@ -2875,21 +3001,154 @@
       "RQ-PG-026": {
         "label": "Testing",
         "title": "In-House Rubber Testing and Inspection | RubberQ",
-        "description": "Connect material and component requirements to an agreed test plan. RubberQ uses in-house testing and inspection to support compound review, production.",
+        "description": "Plan rubber material and part evaluation with identified samples, methods and acceptance criteria. Review test reports and temperature-cycle requirements.",
         "h1": "In-House Rubber Testing and Inspection",
         "intro": "Connect material and component requirements to an agreed test plan. RubberQ uses in-house testing and inspection to support compound review, production control and customer evaluation.",
         "sections": [
           {
-            "heading": "Test the properties that matter",
-            "body": "Discuss hardness, tensile behaviour, elongation, aging, compression set and fluid exposure with the conditioning and acceptance requirements of the project."
+            "heading": "Define the object and the decision",
+            "body": "RubberQ has an in-house verification laboratory supporting manufacturing projects. Begin with the characteristic to evaluate and the decision the result must support. A compound specimen, a finished component and an installed assembly are different evaluation objects. Agree the method, responsible test team and reporting scope for the project."
           },
           {
-            "heading": "Keep conditions with the result",
-            "body": "A useful test record identifies the compound, sample, method, temperature, duration and result. Compare data only when the test basis is relevant to the application."
+            "heading": "Match the measurement to the requirement",
+            "body": "Choose the evidence relevant to the actual duty. Keep test availability and the agreed scope distinct from a list of possible application requirements.",
+            "table": {
+              "caption": "Separate material, component and assembly questions",
+              "columns": [
+                "Evaluation",
+                "Information to define"
+              ],
+              "rows": [
+                [
+                  "Physical properties",
+                  "Compound, specimen state, hardness scale or tensile method and acceptance limits"
+                ],
+                [
+                  "Media and aging",
+                  "Actual fluid or gas, exposure, temperature, duration and measured changes"
+                ],
+                [
+                  "Compression behaviour",
+                  "Compression-set or force-retention task, loading, recovery and measurement conditions"
+                ],
+                [
+                  "Bonded parts",
+                  "Substrate, specimen geometry, loading method and separation observations"
+                ],
+                [
+                  "Dimensions and edges",
+                  "Drawing revision, datum or support, critical features and surface-acceptance requirements"
+                ],
+                [
+                  "Vacuum or gas service",
+                  "Required outgassing, permeation or leakage output and the applicable method"
+                ],
+                [
+                  "Assembly function",
+                  "Installed configuration, operating sequence and the customer’s functional criterion"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/tensile-stress-strain-curves-what-a-mechanical-engineer-needs-to-know-about-rubb",
+                "label": "Reading rubber tensile curves"
+              },
+              {
+                "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+                "label": "Compression set and stress relaxation"
+              },
+              {
+                "url": "/blog/bonding-strength-testing-interpreting-90-degree-vs-180-degree-peel-tests",
+                "label": "Comparing adhesion-test reports"
+              }
+            ]
           },
           {
-            "heading": "Review component inspection",
-            "body": "Identify dimensions, surface features and assembly checks separately from material testing. Specialised or third-party tests can be discussed where required."
+            "heading": "Read a result with its test context",
+            "body": "Compare reports on a common basis before ranking materials. Keep the identity and conditions with the value so another team can understand what was measured.",
+            "items": [
+              "Identify compound, part or specimen, lot, drawing revision and preparation.",
+              "State method and edition, exposure, measurement conditions and units.",
+              "Separate actual results, acceptance limits and the approval decision."
+            ],
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Reading fluid-swell reports"
+              },
+              {
+                "url": "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing",
+                "label": "Comparing vacuum-outgassing evidence"
+              }
+            ]
+          },
+          {
+            "heading": "Define the temperature-cycle evaluation",
+            "body": "A temperature-cycle request needs the component state and acceptance task as well as temperature limits. Agree the sequence with the team using the result rather than applying one cycle to every material or assembly.",
+            "table": {
+              "caption": "Inputs for a project-specific temperature-cycle plan",
+              "columns": [
+                "Input",
+                "What to agree"
+              ],
+              "rows": [
+                [
+                  "Sample state",
+                  "Material, geometry, preparation and identification"
+                ],
+                [
+                  "Installation",
+                  "Free specimen or assembled part, restraint and any applied load"
+                ],
+                [
+                  "Exposure",
+                  "Temperature range, transitions, hold conditions and contacting media"
+                ],
+                [
+                  "Sequence",
+                  "Required cycles, interruptions and observation points"
+                ],
+                [
+                  "Measurements",
+                  "Dimensions, material properties or functional checks relevant to the duty"
+                ],
+                [
+                  "Decision",
+                  "Acceptance limits, responsible reviewer and treatment of open findings"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction",
+                "label": "Interpreting aging and life estimates"
+              },
+              {
+                "url": "/blog/low-temperature-retraction-tr-10-predicting-seal-failure-in-arctic-conditions",
+                "label": "Using low-temperature retraction data"
+              }
+            ]
+          },
+          {
+            "heading": "Review the measurement process",
+            "body": "Discuss instrument identification, calibration scope and validity alongside how the actual sample is supported and measured. Repeated measurements, operator differences and setup conditions need the study design that addresses the intended decision. A display resolution is not a complete measure of the process.",
+            "links": [
+              {
+                "url": "/blog/measurement-system-analysis-msa-ensuring-gage-rr-in-rubber-testing",
+                "label": "MSA and Gage R&R for rubber parts"
+              }
+            ]
+          },
+          {
+            "heading": "Connect reports to sample and production records",
+            "body": "Agree the sample quantity, material and drawing identification, report format and approval responsibility before testing. Define which checks are for development, sample approval or a recurring order. Keep any assembly qualification separately identified; a material report is not a substitute for that result.",
+            "links": [
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Linking material, process and shipment records"
+              }
+            ]
           }
         ],
         "cta": "Discuss a Test Requirement",
@@ -2898,21 +3157,102 @@
       "RQ-PG-027": {
         "label": "Quality & Traceability",
         "title": "Quality Control and Production Traceability | RubberQ",
-        "description": "Define quality requirements from material preparation to finished-part inspection. RubberQ combines in-house testing with ERP production records to support.",
+        "description": "Review rubber component quality requirements, drawing control, lot traceability, sample submissions and change records with the RubberQ manufacturing team.",
         "h1": "Quality Control and Production Traceability",
         "intro": "Define quality requirements from material preparation to finished-part inspection. RubberQ combines in-house testing with ERP production records to support samples, repeat orders and supplier evaluation.",
         "sections": [
           {
-            "heading": "Agree the acceptance plan",
-            "body": "Start with the drawing revision, material specification and critical characteristics. Discuss inspection frequency, reporting and customer-specific requirements."
+            "heading": "Connect quality requirements to the part",
+            "body": "RubberQ operates with IATF 16949:2016, ISO 9001:2015 and ISO 14001:2015 management system certifications. Share the quality requirements for your part, receiving site and purchasing programme. Confirm the applicable certificate scope and current documentation during supplier evaluation; project approval follows the agreed part requirements."
           },
           {
-            "heading": "Connect records through production",
-            "body": "Material batch identification, process records and inspection results support traceability. Discuss which records and documents need to accompany your project."
+            "heading": "Define the records your project needs",
+            "body": "Agree the document set before sample preparation or production. Identify which records accompany a delivery and which are retained for an agreed review. For critical characteristics, relate the failure concern to the manufacturing step, inspection method, sampling frequency and response to an abnormal result. For a requested declaration or customer reporting system, identify the component and compound, applicable requirement and version date, declaring party, material list and necessary upstream responses. Agree who supplies data and who makes the submission. Treat environmental system documentation separately from material requirements and any measured project data; a prepared file does not establish a completed or accepted submission.",
+            "table": {
+              "caption": "Quality information to agree for a rubber component",
+              "columns": [
+                "Record",
+                "Project-specific scope"
+              ],
+              "rows": [
+                [
+                  "Drawing and specification",
+                  "Current revision, referenced requirements and approval responsibilities"
+                ],
+                [
+                  "Compound identification",
+                  "Approved material reference and the properties or reports required"
+                ],
+                [
+                  "Process and inspection",
+                  "Relevant process controls, inspection characteristics and acceptance criteria"
+                ],
+                [
+                  "Measurement",
+                  "Method, equipment and measurement conditions for each controlled characteristic"
+                ],
+                [
+                  "Lot traceability",
+                  "Links between material, production, inspection and delivery identification"
+                ],
+                [
+                  "Requested declarations",
+                  "Applicable material, environmental or source declarations and their supporting scope"
+                ],
+                [
+                  "Change and retention",
+                  "Change notification, document version, record retention and storage requirements"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Review our management systems",
-            "body": "RubberQ holds IATF 16949:2016, ISO 9001:2015 and ISO 14001:2015 certifications. Request the current certificates and applicable scope for your supplier evaluation."
+            "heading": "Agree the sample submission package",
+            "body": "If your programme requires PPAP or another customer submission, specify the required level, forms, sample quantity and supporting evidence. The submission should identify the drawing, compound, production conditions and measured samples. Delivery of documents and customer approval are separate steps; agree the acceptance decision and any open actions.",
+            "links": [
+              {
+                "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+                "label": "Planning a PPAP submission"
+              },
+              {
+                "url": "/blog/spc-in-rubber-molding-how-cpk-167-delivers-zero-defect-batches",
+                "label": "What to include in a rubber component RFQ"
+              },
+              {
+                "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+                "label": "Reading an ASTM D2000 material callout"
+              }
+            ]
+          },
+          {
+            "heading": "Investigate a deviation with identified evidence",
+            "body": "For an unexpected result, retain the part and packaging identification, photographs, affected quantity and the conditions under which the issue appeared. Agree containment, compare the observation with the specified method and investigate the relevant material, process or installation factors. Verify corrective action against the original concern before closing the issue.",
+            "links": [
+              {
+                "url": "/blog/root-cause-analysis-8d-rubberqs-process-for-resolving-quality-deviations",
+                "label": "Preparing a useful 8D investigation"
+              }
+            ]
+          },
+          {
+            "heading": "Keep changes and stored parts under agreed control",
+            "body": "Define how drawing, compound or process changes are communicated and which changes require renewed evaluation. Agree record retention, finished-part packaging and storage instructions with the order. The age of a stored part alone does not establish its suitability; a review should consider identification, storage history, condition and the intended application. For uncured compound supply, agree the material-specific handling and use period separately. Agree who assesses stored material and any re-examination, using the applicable specification and its agreed edition.",
+            "links": [
+              {
+                "url": "/compounds",
+                "label": "Compound supply and storage requirements"
+              }
+            ]
+          },
+          {
+            "heading": "Prepare a focused supplier evaluation",
+            "body": "Describe the manufacturing steps, inspection activity and records your team needs to assess. RubberQ can discuss its formulation support, mixing, molding, in-house testing and ERP traceability in relation to the project. Agree the visit or document-review scope, permitted access and follow-up questions so that the evaluation supports a purchasing decision.",
+            "links": [
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Following traceability from material to delivery"
+              }
+            ]
           }
         ],
         "cta": "Request Supplier Information",
