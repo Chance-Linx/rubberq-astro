@@ -69,7 +69,7 @@ for k in keywords:
 report={'scope':'Operational task/URL decisions; raw labels and metrics remain unchanged in original snapshot. No rank/coverage/revenue claim.','rows':rows,'counts':dict(Counter(x['status'] for x in rows)),'owner_changes':sum(x['owner_changed'] for x in rows),'source_sha256':hashlib.sha256((PLAN/'data/keywords.json').read_bytes()).hexdigest(),'paid_calls':0}
 write(BASE/'ownership/keyword-owners.json',report)
 with (BASE/'ownership/关键词当前归属.csv').open('w',encoding='utf-8-sig',newline='') as f:
-    w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+    w=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator="\n");w.writeheader();w.writerows(rows)
 
 class MainLinks(HTMLParser):
     def __init__(self):super().__init__();self.main=False;self.href=None;self.text=[];self.links=[];self.all_hrefs=[]
