@@ -16,7 +16,7 @@
       }
     ]
   },
-  "generated_at": "2026-10-21T13:12:35.927089+00:00",
+  "generated_at": "2026-10-21T14:17:15.397767+00:00",
   "sections": {
     "goals": {
       "state": "ready",
@@ -350,6 +350,14 @@
               {
                 "label": "竞品参考清单.csv",
                 "href": "/growth-file/0bb9b8b03524b43824476460"
+              },
+              {
+                "label": "keyword-owners.json",
+                "href": null
+              },
+              {
+                "label": "operational-graph.json",
+                "href": null
               }
             ],
             "reports": [
@@ -361,7 +369,7 @@
             "next_step": "继续完整实施，全部完成后一次性审核；不重复请求阶段验收",
             "channel": "content",
             "source": "根任务清单RQAC系列的只读阶段投影",
-            "note": "本轮交付，未实施外部发布",
+            "note": "292行运行归属已复核；651条实际正文关系独立回读，原始快照保留。最终验收与上线另计。",
             "delivered_at": "2026-10-21"
           },
           {
@@ -527,9 +535,17 @@
               {
                 "label": "00-交付入口.md",
                 "href": "/growth-file/a0ebbee2425956e7fac2698a"
+              },
+              {
+                "label": "21-询盘附件保存通知与失败重试.md",
+                "href": null
+              },
+              {
+                "label": "22-关键词运行归属与全站移动端.md",
+                "href": null
               }
             ],
-            "next_step": "七项法律页事实已本地修订，Cookie重开/停用与询盘来源已落实；继续完整RFQ附件/存储/通知路径、实际关键词图谱、全站手机路径及干净候选，全部完成后集中审核。",
+            "next_step": "干净候选与一次集中终审；未上线",
             "channel": "content",
             "source": "根任务清单RQAC系列的只读阶段投影",
             "note": "35模块、27文章与博客/搜索保持；本轮115个五语种法律字段定向修订，9项隐私/来源用例和五语种设置UI通过，20法律页视口+5手机面板无溢出。已定位Worker通知只含附件名的问题，尚未证明文件送达。CMS/付费/部署0，集中审核未开始。",
@@ -902,8 +918,26 @@
       "state": "ready",
       "data": {
         "schema_version": 1,
-        "generated_at": "2026-10-20T16:25:47.756801+00:00",
+        "generated_at": "2026-10-21T14:08:14.807781+00:00",
         "entries": [
+          {
+            "date": "2026-10-21T20:54:09+08:00",
+            "commit": "b99f8008527fd4fc293197478feb35bc33d8c245",
+            "files": [
+              "skills/ggs-blog/references/maintenance.md",
+              "skills/ggs-content-production-dashboard/references/integration.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/references/RUN_GUIDE.md",
+              "skills/ggs-industrial-authority-building/SKILL.md",
+              "skills/ggs-industrial-seo-content/references/content-production-rules.md",
+              "skills/ggs-manufacturing-search-demand-mapper/SKILL.md",
+              "skills/ggs-search-growth-orchestrator/SKILL.md",
+              "skills/ggs-search-growth-orchestrator/references/evidence.md",
+              "skills/ggs-search-growth-orchestrator/references/learning.md",
+              "skills/ggs-search-growth-orchestrator/references/page-responsibility.md"
+            ],
+            "summary": "将亚克专属规则迁回项目并补充跨项目回归测试",
+            "source_project": null
+          },
           {
             "date": "2026-10-21T00:25:47+08:00",
             "commit": "86c3a0ca2006055455f64d33ffb8871b04cea22f",

@@ -1,34 +1,42 @@
-# RubberQ (Fuzhou RongQing Rubber Co., Ltd.)
+# RubberQ
 
-> Japanese Formulation. Chinese Precision. Trusted Since 1995.  
+> Japanese Formulation. Chinese Precision. Trusted Since 1995.
 > Compounded by Japan. Built in China. Tested in-House.
 
-RubberQ is a specialized B2B manufacturer of custom elastomeric components, high-precision O-rings, vibration dampers, and sealing modules for semiconductor equipment, industrial automation motion systems, and high-reliability industrial applications.
+RubberQ manufactures precision rubber components in Fuzhou, China. Established in 1995 as a Sino-Japanese joint venture, the company connects Japanese formulation support with compounding, molding, in-house testing and ERP production records. Its two facilities cover approximately 20,000 square metres. Certifications include IATF 16949:2016, ISO 9001:2015 and ISO 14001:2015; request current certificates and the scope relevant to the project.
 
-## Executive Summary & Core Capabilities
+## Components and materials
 
-- **Established**: 1995 (30+ years of Sino-Japanese joint venture heritage in rubber compounding).
-- **Manufacturing Facilities**: 2 manufacturing plants in Fuzhou, China, covering over 20,000 m².
-- **Mixing & Compounding**: Dedicated A-Mixing line (black rubber) and B-Mixing line (colored/high-purity rubber) to prevent cross-contamination.
-- **Certifications**: IATF 16949:2016, ISO 9001:2015, ISO 14001:2015.
-- **Quality Control**: Full ERP traceability from raw polymer to shipped batch; 100% automated AI optical inspection; in-house physical lab (rheometer, tensile tester, 70h@150°C compression set).
+- [Products](https://rubberq.com/products): O-rings, seals, gaskets, bellows, diaphragms, bonded parts and custom molded components.
+- [Custom rubber parts](https://rubberq.com/products/custom): Drawing, material, tooling and sample requirements for industrial components.
+- [Rubber materials](https://rubberq.com/materials): FFKM, FKM, EPDM, HNBR, NBR, silicone and LSR material discussions.
+- [Compounding support](https://rubberq.com/compounding): Define service conditions and measurable compound requirements.
+- [Compound supply](https://rubberq.com/compounds): Discuss the receiving process, material specification, supply form and trial requirements.
+- [FFKM replacement seals](https://rubberq.com/products/ffkm-replacement-seals): Review the original specification, geometry and operating conditions before agreed validation. A replacement enquiry does not establish equivalence or third-party brand authorization.
 
-## Target Industries & Material Focus
+## Application review
 
-1. **Semiconductor Equipment**: Low outgassing (ASTM E595 TML < 0.20%), plasma-resistant FFKM / FKM O-rings for CVD/ALD/etching chambers. Cleanroom processed per SEMI F57.
-2. **Industrial Automation & Motion Control**: Joint vibration dampers, high-fatigue life HNBR/EPDM seals, precision friction pads engineered for high-duty cycling.
-3. **Industrial Equipment & Fluid Power**: High-pressure hydraulic seals, NBR/FKM gaskets complying with ISO 3601 tolerances.
-4. **Automotive Tier 2**: Precision engine & drivetrain seals co-developed under IATF 16949 quality control.
+- [Semiconductor equipment](https://rubberq.com/industries/semiconductor)
+- [Liquid cooling and energy storage](https://rubberq.com/industries/liquid-cooling-energy-storage)
+- [EV thermal management](https://rubberq.com/industries/ev-energy-storage)
+- [Humanoid robotics](https://rubberq.com/industries/humanoid-robotics)
+- [General industrial equipment](https://rubberq.com/industries/industrial-equipment)
 
-## Key Technical Pages & Articles
+Material names and industry applications do not establish a universal temperature, lifetime, cleanliness level or finished-assembly rating. Provide the actual media, temperature cycle, load, movement and acceptance criteria for review.
 
-- [Semiconductor Equipment Seals](https://rubberq.com/en/industries/semiconductor): Plasma resistant O-rings & SEMI F57 cleanroom processing.
-- [High-Fatigue Motion Dampers](https://rubberq.com/en/products/vibration-dampers): Precision joint dampers and dynamic fatigue control.
-- [FKM Elastomer Technical Data](https://rubberq.com/en/materials/fkm): High-temperature & chemical resistance spectrum.
-- [Article: Low Outgassing Vacuum Seals](https://rubberq.com/resources/articles/low-outgassing-vacuum-seals-semiconductor): ASTM E595 outgassing data and chamber seal failure prevention.
+## Engineering and supplier evaluation
 
-## Contact & RFQ Engineering Desk
+- [Engineering resources](https://rubberq.com/resources): Dimensions, material selection and failure-review inputs.
+- [In-house testing](https://rubberq.com/testing): Discuss methods, conditions and reports for the project.
+- [Quality and traceability](https://rubberq.com/quality): Production records and agreed inspection requirements.
+- [Factory information](https://rubberq.com/factory)
+- [English technical articles](https://rubberq.com/blog)
 
-- **Website**: https://rubberq.com
-- **Engineering Inquiry**: https://rubberq.com/en/contact
-- **Contact Email**: contact@rubberq.com
+## Project enquiries
+
+- [Engineering enquiry](https://rubberq.com/contact): Share a drawing or reference part, service conditions and quantity.
+- [Sample request](https://rubberq.com/sample-request)
+- [Multi-part RFQ](https://rubberq.com/batch-rfq)
+- Email: contact@rubberq.com
+
+The English site uses the root domain. German, Japanese, Spanish and Chinese page variants use /de, /ja, /es and /zh. Technical articles are in English. Use [the sitemap](https://rubberq.com/sitemap.xml) for current public URLs.

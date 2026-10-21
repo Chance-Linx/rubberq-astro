@@ -1,0 +1,17 @@
+{
+  "prepared_mutations": 27,
+  "fields_per_patch": [
+    "title",
+    "excerpt",
+    "content"
+  ],
+  "same_ids": true,
+  "revision_guarded": true,
+  "slug_date_status_cover_image_unchanged": true,
+  "cms_writes": 0,
+  "new_articles": 0,
+  "deletes": 0,
+  "redirects": 0,
+  "mutation_file_sha256": "55c9720bac2ebae2d04d6fd37ccb1a34da14c68a8acaaa9d6849849791a8d71f",
+  "release_requires_new_revision_preflight": true
+}

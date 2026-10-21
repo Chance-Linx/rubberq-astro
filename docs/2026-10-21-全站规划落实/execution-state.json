@@ -2,7 +2,7 @@
   "objective": "完整落实已批准规划，全部完成后集中审核",
   "authorization": "用户2026-10-21明确继续完整实施，非仅交付策划",
   "paid_budget": "待定，零新增付费调用",
-  "final_review": "not_started",
+  "final_review": "in_progress",
   "publication": "not_started",
   "requirements": {
     "pages": [
@@ -786,9 +786,19 @@
       "shared_grid_overflow_fixed": true,
       "evidence": "evidence/whole-site-mobile-layout.json",
       "production_verified": false
+    },
+    "clean_candidate": {
+      "source_commit": "040aeb1976cd52c570deecf73307b3f15af16f7b",
+      "build_passed": true,
+      "type_errors": 0,
+      "regression_tests": 31,
+      "worker_dry_run": true,
+      "page_routes": 225,
+      "llms_correction": "prepared_for_final_candidate_readback",
+      "evidence": "evidence/clean-candidate-initial.json"
     }
   },
-  "next_action": "Export and verify a clean candidate; perform one consolidated final review of the complete planning and local implementation package.",
+  "next_action": "Finish consolidated review, including final llms asset readback and release-source consistency; prepare one user acceptance package.",
   "status_evidence": {
     "implemented_page_specs": 45,
     "message_page_specs": 49,

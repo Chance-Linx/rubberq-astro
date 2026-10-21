@@ -1,0 +1,76 @@
+22:10:20 [@astrojs/cloudflare] Enabling sessions with Cloudflare KV with the "SESSION" KV binding.
+22:10:20 [@astrojs/cloudflare] If you see the error "Invalid binding `SESSION`" in your build output, you need to add the binding to your wrangler config file.
+22:10:20 [content] Syncing content
+22:10:20 [content] Synced content
+22:10:20 [types] Generated 33ms
+22:10:20 [check] Getting diagnostics for Astro files in /private/var/folders/2q/yvsvrt0d1c166b8lrffpf5940000gp/T/rubberq-acquisition-candidate-iuoy22qe...
+[96msrc/middleware.ts[0m:[93m146[0m:[93m7[0m - [93mwarning[0m[90m ts(6133): [0m'legacyWordPressBlogFallbackSlugs' is declared but its value is never read.
+
+[7m146[0m const legacyWordPressBlogFallbackSlugs = new Set(decodeLegacyBlogFallbackSlugs());
+[7m   [0m [93m      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/components/BatchRfqForm.tsx[0m:[93m186[0m:[93m27[0m - [93mwarning[0m[90m ts(6133): [0m'source' is declared but its value is never read.
+
+[7m186[0m     const trackAbandon = (source: string) => {
+[7m   [0m [93m                          ~~~~~~[0m
+
+[96msrc/components/ContactForm.tsx[0m:[93m275[0m:[93m27[0m - [93mwarning[0m[90m ts(6133): [0m'source' is declared but its value is never read.
+
+[7m275[0m     const trackAbandon = (source: string) => {
+[7m   [0m [93m                          ~~~~~~[0m
+
+[96msrc/components/Navbar.astro[0m:[93m9[0m:[93m17[0m - [93mwarning[0m[90m ts(6133): [0m'currentPath' is declared but its value is never read.
+
+[7m9[0m const { locale, currentPath = '/' } = Astro.props;
+[7m [0m [93m                ~~~~~~~~~~~[0m
+[96msrc/components/Navbar.astro[0m:[93m199[0m:[93m9[0m - [93mwarning[0m[90m astro(4000): [0mThis script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+[7m199[0m <script define:vars={{ locales: [...locales], current }}>
+[7m   [0m [93m        ~~~~~~~~~~~[0m
+
+[96msrc/components/SampleRequestForm.tsx[0m:[93m150[0m:[93m27[0m - [93mwarning[0m[90m ts(6133): [0m'source' is declared but its value is never read.
+
+[7m150[0m     const trackAbandon = (source: string) => {
+[7m   [0m [93m                          ~~~~~~[0m
+
+[96msrc/components/TrustSignals.astro[0m:[93m168[0m:[93m27[0m - [93mwarning[0m[90m ts(7044): [0mParameter 'index' implicitly has an 'any' type, but a better type may be inferred from usage.
+
+[7m168[0m   function updateCarousel(index) {
+[7m   [0m [93m                          ~~~~~[0m
+
+[96msrc/lib/case-studies.ts[0m:[93m132[0m:[93m22[0m - [93mwarning[0m[90m ts(80007): [0m'await' has no effect on the type of this expression.
+
+[7m132[0m       const image = (await getFeaturedImageUrl(post)) || DEFAULT_IMAGE;
+[7m   [0m [93m                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/lib/case-studies.ts[0m:[93m57[0m:[93m10[0m - [93mwarning[0m[90m ts(6133): [0m'extractResults' is declared but its value is never read.
+
+[7m57[0m function extractResults(content: string) {
+[7m  [0m [93m         ~~~~~~~~~~~~~~[0m
+[96msrc/lib/case-studies.ts[0m:[93m47[0m:[93m10[0m - [93mwarning[0m[90m ts(6133): [0m'extractFirstSentence' is declared but its value is never read.
+
+[7m47[0m function extractFirstSentence(value: string) {
+[7m  [0m [93m         ~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/lib/submitInquiry.ts[0m:[93m15[0m:[93m9[0m - [93mwarning[0m[90m ts(7043): [0mVariable 'data' implicitly has an 'any' type, but a better type may be inferred from usage.
+
+[7m15[0m     let data;
+[7m  [0m [93m        ~~~~[0m
+
+[96msrc/pages/blog/[slug].astro[0m:[93m3[0m:[93m52[0m - [93mwarning[0m[90m ts(6133): [0m'getBlogUrl' is declared but its value is never read.
+
+[7m3[0m import { findCanonicalBlogSlug, getBlogPostBySlug, getBlogUrl, getRelatedPosts, getAllBlogPosts, getUnavailableBlogPostStatus } from '@/lib/sanity';
+[7m [0m [93m                                                   ~~~~~~~~~~[0m
+
+[96msrc/pages/en/blog/[slug].astro[0m:[93m4[0m:[93m73[0m - [93mwarning[0m[90m ts(6133): [0m'getBlogUrl' is declared but its value is never read.
+
+[7m4[0m import { findCanonicalBlogSlug, getBlogPostBySlug, getFeaturedImageUrl, getBlogUrl, getRelatedPosts, getAllBlogPosts, getUnavailableBlogPostStatus } from '@/lib/sanity';
+[7m [0m [93m                                                                        ~~~~~~~~~~[0m
+
+Result (90 files):
+- 0 errors
+- 0 warnings
+- 13 hints

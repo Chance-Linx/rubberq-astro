@@ -1,0 +1,442 @@
+{
+  "scope": "Fresh public read-only Sanity source check; no CMS mutation. Proposed fields remain local until approved release.",
+  "checks": [
+    {
+      "id": "Iht31guWKGVyy0fDUhwo2m",
+      "exists": true,
+      "expected_revision": "yy3AgfhEInbCSF63Vxvki5",
+      "current_revision": "yy3AgfhEInbCSF63Vxvki5",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "Iht31guWKGVyy0fDUhwnFo",
+      "exists": true,
+      "expected_revision": "eN7xRzolB5Lpd79D00725q",
+      "current_revision": "eN7xRzolB5Lpd79D00725q",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "JKXFHBvvO5hPVDVOF65r3m",
+      "exists": true,
+      "expected_revision": "yy3AgfhEInbCSF63VxvjSv",
+      "current_revision": "yy3AgfhEInbCSF63VxvjSv",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "JKXFHBvvO5hPVDVOF65tZ8",
+      "exists": true,
+      "expected_revision": "tOg8rPBjlu3UwNHWI5LxCN",
+      "current_revision": "tOg8rPBjlu3UwNHWI5LxCN",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "article-batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+      "exists": true,
+      "expected_revision": "u4SPfG4EtNHvvP9LxnXQgh",
+      "current_revision": "u4SPfG4EtNHvvP9LxnXQgh",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "article-industrial-bellows-material-selection-flex-life-media-exposure",
+      "exists": true,
+      "expected_revision": "ABrvN9p4HTT2BOyLeRplUa",
+      "current_revision": "ABrvN9p4HTT2BOyLeRplUa",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "article-spc-rubber-molding-cpk-zero-defect",
+      "exists": true,
+      "expected_revision": "hfH9i9C1WObc0VBSExiiz0",
+      "current_revision": "hfH9i9C1WObc0VBSExiiz0",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "JKXFHBvvO5hPVDVOF66045",
+      "exists": true,
+      "expected_revision": "eN7xRzolB5Lpd79D0070lU",
+      "current_revision": "eN7xRzolB5Lpd79D0070lU",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "Iht31guWKGVyy0fDUhwqHh",
+      "exists": true,
+      "expected_revision": "eN7xRzolB5Lpd79D0071Qf",
+      "current_revision": "eN7xRzolB5Lpd79D0071Qf",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "JKXFHBvvO5hPVDVOF65vMn",
+      "exists": true,
+      "expected_revision": "eN7xRzolB5Lpd79D00725q",
+      "current_revision": "eN7xRzolB5Lpd79D00725q",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "QeuV1LXZQHOxh8iFCMnkLO",
+      "exists": true,
+      "expected_revision": "eN7xRzolB5Lpd79D0070lU",
+      "current_revision": "eN7xRzolB5Lpd79D0070lU",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "JKXFHBvvO5hPVDVOF65qCN",
+      "exists": true,
+      "expected_revision": "tOg8rPBjlu3UwNHWI5LxCN",
+      "current_revision": "tOg8rPBjlu3UwNHWI5LxCN",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "QeuV1LXZQHOxh8iFCMnkjO",
+      "exists": true,
+      "expected_revision": "eN7xRzolB5Lpd79D0071Qf",
+      "current_revision": "eN7xRzolB5Lpd79D0071Qf",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "article-rob-002",
+      "exists": true,
+      "expected_revision": "kF0pH8zAeRz6etg9XH9FLr",
+      "current_revision": "kF0pH8zAeRz6etg9XH9FLr",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "article-sem-001",
+      "exists": true,
+      "expected_revision": "ek4pKd5NOgHrvnAUS0zgr5",
+      "current_revision": "ek4pKd5NOgHrvnAUS0zgr5",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "JKXFHBvvO5hPVDVOF660gv",
+      "exists": true,
+      "expected_revision": "yy3AgfhEInbCSF63Vxvki5",
+      "current_revision": "yy3AgfhEInbCSF63Vxvki5",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "JKXFHBvvO5hPVDVOF6CvU1",
+      "exists": true,
+      "expected_revision": "oeeqzfnXc2Dw0PW0W4QPXW",
+      "current_revision": "oeeqzfnXc2Dw0PW0W4QPXW",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "QeuV1LXZQHOxh8iFCMqHnO",
+      "exists": true,
+      "expected_revision": "11ceQugRC4GuR1GhSs9lZ2",
+      "current_revision": "11ceQugRC4GuR1GhSs9lZ2",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "article-cryogenic-deflashing-vs-manual-trimming-precision-rubber-parts",
+      "exists": true,
+      "expected_revision": "u4SPfG4EtNHvvP9LxnXR8l",
+      "current_revision": "u4SPfG4EtNHvvP9LxnXR8l",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "article-post-curing-silicone-rubber-parts-volatile-control-compression-set",
+      "exists": true,
+      "expected_revision": "u4SPfG4EtNHvvP9LxnXPKV",
+      "current_revision": "u4SPfG4EtNHvvP9LxnXPKV",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "article-ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+      "exists": true,
+      "expected_revision": "u4SPfG4EtNHvvP9LxnXRMn",
+      "current_revision": "u4SPfG4EtNHvvP9LxnXRMn",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "Iht31guWKGVyy0fDUhwnXu",
+      "exists": true,
+      "expected_revision": "tOg8rPBjlu3UwNHWI5LxCN",
+      "current_revision": "tOg8rPBjlu3UwNHWI5LxCN",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "Iht31guWKGVyy0fDUhwnb6",
+      "exists": true,
+      "expected_revision": "eN7xRzolB5Lpd79D0071Qf",
+      "current_revision": "eN7xRzolB5Lpd79D0071Qf",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "Iht31guWKGVyy0fDUhwndE",
+      "exists": true,
+      "expected_revision": "tOg8rPBjlu3UwNHWI5U4eM",
+      "current_revision": "tOg8rPBjlu3UwNHWI5U4eM",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "Iht31guWKGVyy0fDUhwngQ",
+      "exists": true,
+      "expected_revision": "tOg8rPBjlu3UwNHWI5LxCN",
+      "current_revision": "tOg8rPBjlu3UwNHWI5LxCN",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "JKXFHBvvO5hPVDVOF65tsY",
+      "exists": true,
+      "expected_revision": "eN7xRzolB5Lpd79D0071Qf",
+      "current_revision": "eN7xRzolB5Lpd79D0071Qf",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    },
+    {
+      "id": "JKXFHBvvO5hPVDVOF661TT",
+      "exists": true,
+      "expected_revision": "yy3AgfhEInbCSF63Vxvki5",
+      "current_revision": "yy3AgfhEInbCSF63Vxvki5",
+      "revision_matches": true,
+      "slug_matches": true,
+      "currently_published": true,
+      "future_dated": false,
+      "proposed_fields": [
+        "title",
+        "excerpt",
+        "content"
+      ],
+      "dates_status_slug_unchanged": true
+    }
+  ],
+  "all_revisions_match": true,
+  "all_slugs_match": true,
+  "checked": 27,
+  "cms_writes": 0,
+  "paid_calls": 0
+}

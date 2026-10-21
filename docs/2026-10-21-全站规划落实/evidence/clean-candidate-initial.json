@@ -1,0 +1,48 @@
+{
+  "path": "/var/folders/2q/yvsvrt0d1c166b8lrffpf5940000gp/T/rubberq-acquisition-candidate-iuoy22qe",
+  "commit": "040aeb1976cd52c570deecf73307b3f15af16f7b",
+  "method": "git archive committed tree; existing node_modules symlink; no untracked environment/secrets copied",
+  "dirty_protected_script_excluded": true,
+  "scope": "Initial clean candidate; llms static correction is validated in the final candidate receipt.",
+  "production_build_passed": true,
+  "type_errors": 0,
+  "type_warnings": 0,
+  "type_hints": 13,
+  "regression_tests_passed": 31,
+  "worker_dry_run_passed": true,
+  "page_routes_passed": 225,
+  "unknown_route_guards_passed": 4,
+  "runtime_routes": [
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "content_type": "application/xml; charset=utf-8",
+      "count": 476,
+      "unique": 476,
+      "expected_static": 236,
+      "missing_static": [],
+      "search_included": false,
+      "preview_included": false
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "path": "/llms.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8"
+    },
+    {
+      "path": "/__review",
+      "status": 404
+    },
+    {
+      "path": "/__local/sql",
+      "status": 404
+    }
+  ],
+  "paid_calls": 0,
+  "production_deployments": 0
+}
