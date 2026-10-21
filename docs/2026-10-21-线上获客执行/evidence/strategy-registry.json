@@ -1,0 +1,103 @@
+{
+  "project_name": "RubberQ",
+  "version": "1.2",
+  "last_updated": "2026-10-21",
+  "stage": "S1-Strategic-Positioning-Frozen",
+  "facts": {
+    "brand_name": {
+      "current": [
+        "RubberQ"
+      ],
+      "retired": [
+        "RongQing Tech",
+        "RubberQ-Site"
+      ]
+    },
+    "legal_entity": {
+      "current": [
+        "Fuzhou RongQing Rubber Co., Ltd.",
+        "福州荣清橡胶有限公司"
+      ],
+      "retired": []
+    },
+    "establishment_year": {
+      "current": [
+        "1995"
+      ],
+      "historical": [
+        "1995年 (中日合资背景)"
+      ]
+    },
+    "official_slogan": {
+      "current": [
+        "Japanese Formulation. Chinese Precision. Trusted Since 1995.",
+        "Compounded by Japan. Built in China. Tested in-House."
+      ],
+      "retired": []
+    },
+    "priority_industries": {
+      "current": [
+        "Semiconductor Equipment",
+        "AI Data Center Liquid Cooling & Energy Storage",
+        "EV Thermal Management",
+        "Humanoid Robotics"
+      ],
+      "retired": [
+        "Medical Devices"
+      ],
+      "historical": [
+        {
+          "as_of": "2026-08-06",
+          "values": [
+            "Semiconductor Equipment (Etching / CVD / Vacuum Chamber Seals)",
+            "AI Robotics & Humanoid Robotics (Joint Dampers / High-Traction Pads)",
+            "EV & Energy Storage (Thermal Management Seals)",
+            "Automotive Tier 2 & Heavy Machinery"
+          ]
+        }
+      ]
+    },
+    "positioning_statement": {
+      "current": [
+        "Precision rubber compounding & manufacturing partner with system-level understanding"
+      ],
+      "prohibited": [
+        "turnkey solution provider",
+        "one-stop shop",
+        "global leader"
+      ]
+    },
+    "redlines_prohibited_terms": {
+      "prohibited": [
+        "turnkey solution",
+        "one-stop solution",
+        "global leader",
+        "medical grade",
+        "new compound from scratch in 4 weeks"
+      ]
+    }
+  },
+  "strategy_decisions_2026_10_21": {
+    "source": "rubberq-astro/docs/2026-10-21-线上获客执行/01-验收决策与执行口径.md",
+    "acquisition_primary": "General industrial precision custom rubber components",
+    "P1": [
+      "North America",
+      "DACH",
+      "United Kingdom"
+    ],
+    "P2": [
+      "Japan",
+      "Southeast Asia"
+    ],
+    "not_primary": [
+      "India"
+    ],
+    "ia": "Search acquisition by materials/products/processes/engineering questions; trust and conversion by applications/factory/quality",
+    "approved_for_planning": [
+      "Custom rubber compound supply",
+      "FFKM aftermarket replacement evaluation"
+    ],
+    "capability_evidence_status": "Planning approval is not compound equivalence, performance proof or supply-term approval",
+    "paid_collection": "Pending; no new spend"
+  }
+}

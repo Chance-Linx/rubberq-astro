@@ -1,0 +1,1233 @@
+{
+  "clusters": [
+    {
+      "id": "o-rings",
+      "title": "O圈与密封件",
+      "pillar": "products"
+    },
+    {
+      "id": "gaskets",
+      "title": "定制垫片",
+      "pillar": "products"
+    },
+    {
+      "id": "molding",
+      "title": "定制橡胶模压",
+      "pillar": "products"
+    },
+    {
+      "id": "flexible",
+      "title": "隔膜与波纹管",
+      "pillar": "products"
+    },
+    {
+      "id": "bonding",
+      "title": "橡胶金属粘接",
+      "pillar": "products"
+    },
+    {
+      "id": "ffkm",
+      "title": "FFKM与售后替代",
+      "pillar": "materials"
+    },
+    {
+      "id": "fkm",
+      "title": "FKM与氟橡胶",
+      "pillar": "materials"
+    },
+    {
+      "id": "epdm",
+      "title": "EPDM与流体兼容",
+      "pillar": "materials"
+    },
+    {
+      "id": "hnbr-nbr",
+      "title": "HNBR与NBR",
+      "pillar": "materials"
+    },
+    {
+      "id": "silicone",
+      "title": "Silicone与LSR",
+      "pillar": "materials"
+    },
+    {
+      "id": "compounds",
+      "title": "配方与胶料外供",
+      "pillar": "manufacturing"
+    },
+    {
+      "id": "engineering",
+      "title": "工程工具与失效",
+      "pillar": "engineering"
+    },
+    {
+      "id": "semiconductor",
+      "title": "半导体设备",
+      "pillar": "solutions"
+    },
+    {
+      "id": "cooling",
+      "title": "液冷与储能",
+      "pillar": "solutions"
+    },
+    {
+      "id": "ev",
+      "title": "EV热管理",
+      "pillar": "solutions"
+    },
+    {
+      "id": "robotics",
+      "title": "人形机器人",
+      "pillar": "solutions"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "RQ-T-001",
+      "ids": [
+        "RQ-T-001"
+      ],
+      "cluster": "o-rings",
+      "pillar": "products",
+      "title": "O-Ring Manufacturer Selection: Drawing and Inspection Checklist",
+      "query": "o-ring manufacturer",
+      "priority": "P0",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/products/seals"
+    },
+    {
+      "id": "RQ-T-002",
+      "ids": [
+        "RQ-T-002"
+      ],
+      "cluster": "o-rings",
+      "pillar": "products",
+      "title": "Custom O-Rings: Information Needed for an Engineering Review",
+      "query": "custom o-rings",
+      "priority": "P0",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/products/seals"
+    },
+    {
+      "id": "RQ-T-003",
+      "ids": [
+        "RQ-T-003"
+      ],
+      "cluster": "o-rings",
+      "pillar": "products",
+      "title": "O-Ring Size References and Custom Dimension Requests",
+      "query": "o-ring size chart",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/resources/o-ring-size-guide"
+    },
+    {
+      "id": "RQ-T-004",
+      "ids": [
+        "RQ-T-004"
+      ],
+      "cluster": "o-rings",
+      "pillar": "products",
+      "title": "O-Ring Groove Review: Information to Include with a Drawing",
+      "query": "o-ring groove design",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/resources/o-ring-size-guide"
+    },
+    {
+      "id": "RQ-T-005",
+      "ids": [
+        "RQ-T-005"
+      ],
+      "cluster": "o-rings",
+      "pillar": "products",
+      "title": "Micro O-Rings: Handling and Inspection Questions",
+      "query": "micro o-rings",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/products/seals"
+    },
+    {
+      "id": "RQ-T-006",
+      "ids": [
+        "RQ-T-006"
+      ],
+      "cluster": "gaskets",
+      "pillar": "products",
+      "title": "Custom Gasket RFQ: Flange, Material and Quantity Checklist",
+      "query": "custom gaskets",
+      "priority": "P0",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/products/gaskets"
+    },
+    {
+      "id": "RQ-T-007",
+      "ids": [
+        "RQ-T-007"
+      ],
+      "cluster": "gaskets",
+      "pillar": "products",
+      "title": "Molded Gaskets and Cut Gaskets: Which Route Fits the Joint?",
+      "query": "rubber gaskets",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/products/gaskets"
+    },
+    {
+      "id": "RQ-T-008",
+      "ids": [
+        "RQ-T-008"
+      ],
+      "cluster": "gaskets",
+      "pillar": "products",
+      "title": "Gasket Compression: Define the Joint Before Choosing Hardness",
+      "query": "gasket compression",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/products/gaskets"
+    },
+    {
+      "id": "RQ-T-009",
+      "ids": [
+        "RQ-T-009"
+      ],
+      "cluster": "gaskets",
+      "pillar": "products",
+      "title": "Enclosure Gaskets: Drawing and Environmental Requirements",
+      "query": "enclosure gasket",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/products/gaskets"
+    },
+    {
+      "id": "RQ-T-010",
+      "ids": [
+        "RQ-T-010"
+      ],
+      "cluster": "molding",
+      "pillar": "products",
+      "title": "Custom Molded Rubber Parts: From Drawing to Sample Approval",
+      "query": "custom molded rubber parts",
+      "priority": "P0",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/products/custom"
+    },
+    {
+      "id": "RQ-T-011",
+      "ids": [
+        "RQ-T-011"
+      ],
+      "cluster": "molding",
+      "pillar": "products",
+      "title": "Rubber Molding Supplier Checklist for OEM Buyers",
+      "query": "rubber molding companies",
+      "priority": "P0",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/capabilities/rubber-molding"
+    },
+    {
+      "id": "RQ-T-012",
+      "ids": [
+        "RQ-T-012"
+      ],
+      "cluster": "molding",
+      "pillar": "products",
+      "title": "Compression, Transfer and Injection Molding: Review Criteria",
+      "query": "rubber compression molding",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/capabilities/rubber-molding"
+    },
+    {
+      "id": "RQ-T-013",
+      "ids": [
+        "RQ-T-013"
+      ],
+      "cluster": "molding",
+      "pillar": "products",
+      "title": "Rubber Part Tolerances: Identify Functional Dimensions",
+      "query": "rubber molding tolerances",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/products/custom"
+    },
+    {
+      "id": "RQ-T-014",
+      "ids": [
+        "RQ-T-014"
+      ],
+      "cluster": "molding",
+      "pillar": "products",
+      "title": "Rubber Tooling RFQ: Parting Lines, Inserts and Revisions",
+      "query": "rubber tooling",
+      "priority": "P0",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/products/custom"
+    },
+    {
+      "id": "RQ-T-015",
+      "ids": [
+        "RQ-T-015"
+      ],
+      "cluster": "molding",
+      "pillar": "products",
+      "title": "Rubber Part Flash: Drawing Limits and Inspection Methods",
+      "query": "rubber molding flash",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/products/custom"
+    },
+    {
+      "id": "RQ-T-016",
+      "ids": [
+        "RQ-T-016"
+      ],
+      "cluster": "flexible",
+      "pillar": "products",
+      "title": "Rubber Bellows: Travel and Attachment Design Checklist",
+      "query": "rubber bellows",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/products/bellows"
+    },
+    {
+      "id": "RQ-T-017",
+      "ids": [
+        "RQ-T-017"
+      ],
+      "cluster": "flexible",
+      "pillar": "products",
+      "title": "Rubber Diaphragms: Stroke, Pressure and Clamping Details",
+      "query": "rubber diaphragm manufacturer",
+      "priority": "P0",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/products/diaphragms"
+    },
+    {
+      "id": "RQ-T-018",
+      "ids": [
+        "RQ-T-018"
+      ],
+      "cluster": "flexible",
+      "pillar": "products",
+      "title": "Protective Boots: Specifying Motion and Fluid Exposure",
+      "query": "rubber boots",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/products/bellows"
+    },
+    {
+      "id": "RQ-T-019",
+      "ids": [
+        "RQ-T-019"
+      ],
+      "cluster": "bonding",
+      "pillar": "products",
+      "title": "Rubber-to-Metal Bonding: Insert and Load Review Checklist",
+      "query": "rubber to metal bonding",
+      "priority": "P0",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/products/rubber-to-metal-bonded-parts"
+    },
+    {
+      "id": "RQ-T-020",
+      "ids": [
+        "RQ-T-020"
+      ],
+      "cluster": "bonding",
+      "pillar": "products",
+      "title": "Bonded Rubber Failure: Adhesion, Cohesion and Test Direction",
+      "query": "rubber metal bond failure",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/products/rubber-to-metal-bonded-parts"
+    },
+    {
+      "id": "RQ-T-021",
+      "ids": [
+        "RQ-T-021"
+      ],
+      "cluster": "bonding",
+      "pillar": "products",
+      "title": "Vibration Mount Specifications: What a Static Load Omits",
+      "query": "vibration isolation mounts",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/products/rubber-to-metal-bonded-parts"
+    },
+    {
+      "id": "RQ-T-022",
+      "ids": [
+        "RQ-T-022"
+      ],
+      "cluster": "ffkm",
+      "pillar": "materials",
+      "title": "FFKM O-Rings: Compound and Application Review Guide",
+      "query": "ffkm o-rings",
+      "priority": "P0",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/materials/ffkm"
+    },
+    {
+      "id": "RQ-T-023",
+      "ids": [
+        "RQ-T-023"
+      ],
+      "cluster": "ffkm",
+      "pillar": "materials",
+      "title": "FFKM Replacement Seals: A Qualification Checklist",
+      "query": "ffkm replacement seals",
+      "priority": "P0",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/products/ffkm-replacement-seals"
+    },
+    {
+      "id": "RQ-T-024",
+      "ids": [
+        "RQ-T-024"
+      ],
+      "cluster": "ffkm",
+      "pillar": "materials",
+      "title": "Kalrez Alternatives: Compare the Specification, Not the Name",
+      "query": "kalrez alternative",
+      "priority": "P0",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/products/ffkm-replacement-seals"
+    },
+    {
+      "id": "RQ-T-025",
+      "ids": [
+        "RQ-T-025"
+      ],
+      "cluster": "ffkm",
+      "pillar": "materials",
+      "title": "FKM vs FFKM: Questions to Resolve Before Material Selection",
+      "query": "fkm vs ffkm",
+      "priority": "P0",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/materials/ffkm"
+    },
+    {
+      "id": "RQ-T-026",
+      "ids": [
+        "RQ-T-026"
+      ],
+      "cluster": "ffkm",
+      "pillar": "materials",
+      "title": "Outgassing Data for Vacuum Seals: Conditions to Keep with Results",
+      "query": "low outgassing seals",
+      "priority": "P0",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/materials/ffkm"
+    },
+    {
+      "id": "RQ-T-027",
+      "ids": [
+        "RQ-T-027"
+      ],
+      "cluster": "ffkm",
+      "pillar": "materials",
+      "title": "Plasma Seal Evaluation: Why Compound-Specific Data Matters",
+      "query": "plasma resistant seals",
+      "priority": "P0",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/materials/ffkm"
+    },
+    {
+      "id": "RQ-T-028",
+      "ids": [
+        "RQ-T-028"
+      ],
+      "cluster": "fkm",
+      "pillar": "materials",
+      "title": "FKM O-Rings: Grade, Fluid and Temperature Review",
+      "query": "fkm o-rings",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/materials/fkm"
+    },
+    {
+      "id": "RQ-T-029",
+      "ids": [
+        "RQ-T-029"
+      ],
+      "cluster": "fkm",
+      "pillar": "materials",
+      "title": "Viton and FKM: Material Designations in a Seal RFQ",
+      "query": "viton o-rings",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/materials/fkm"
+    },
+    {
+      "id": "RQ-T-030",
+      "ids": [
+        "RQ-T-030"
+      ],
+      "cluster": "fkm",
+      "pillar": "materials",
+      "title": "EPDM vs FKM: Compare the Complete Service Fluid",
+      "query": "epdm vs fkm",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/materials/fkm"
+    },
+    {
+      "id": "RQ-T-031",
+      "ids": [
+        "RQ-T-031"
+      ],
+      "cluster": "fkm",
+      "pillar": "materials",
+      "title": "Compression Set Results: Compare the Test Basis",
+      "query": "compression set",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/materials/fkm"
+    },
+    {
+      "id": "RQ-T-032",
+      "ids": [
+        "RQ-T-032"
+      ],
+      "cluster": "epdm",
+      "pillar": "materials",
+      "title": "EPDM Seals: Define the Fluid and Compressed Joint",
+      "query": "epdm seals",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/materials/epdm"
+    },
+    {
+      "id": "RQ-T-033",
+      "ids": [
+        "RQ-T-033"
+      ],
+      "cluster": "epdm",
+      "pillar": "materials",
+      "title": "Coolant Compatibility: Fluid Formulation and Immersion Test Plan",
+      "query": "coolant compatible epdm",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/materials/epdm"
+    },
+    {
+      "id": "RQ-T-034",
+      "ids": [
+        "RQ-T-034"
+      ],
+      "cluster": "epdm",
+      "pillar": "materials",
+      "title": "EPDM Gasket Weathering: Specify Exposure and Acceptance",
+      "query": "epdm gaskets",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/materials/epdm"
+    },
+    {
+      "id": "RQ-T-035",
+      "ids": [
+        "RQ-T-035"
+      ],
+      "cluster": "hnbr-nbr",
+      "pillar": "materials",
+      "title": "NBR vs HNBR: Fluid, Temperature and Mechanical Duty",
+      "query": "nbr vs hnbr",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/materials/hnbr"
+    },
+    {
+      "id": "RQ-T-036",
+      "ids": [
+        "RQ-T-036"
+      ],
+      "cluster": "hnbr-nbr",
+      "pillar": "materials",
+      "title": "HNBR Seals: A Functional Test Checklist",
+      "query": "hnbr seals",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/materials/hnbr"
+    },
+    {
+      "id": "RQ-T-037",
+      "ids": [
+        "RQ-T-037"
+      ],
+      "cluster": "hnbr-nbr",
+      "pillar": "materials",
+      "title": "NBR O-Rings: Drawing and Material Information for a Quote",
+      "query": "nbr o-rings",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/materials/nbr"
+    },
+    {
+      "id": "RQ-T-038",
+      "ids": [
+        "RQ-T-038"
+      ],
+      "cluster": "silicone",
+      "pillar": "materials",
+      "title": "LSR Molding RFQ: Grade, Geometry and Volume",
+      "query": "liquid silicone rubber molding",
+      "priority": "P0",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/capabilities/lsr-molding"
+    },
+    {
+      "id": "RQ-T-039",
+      "ids": [
+        "RQ-T-039"
+      ],
+      "cluster": "silicone",
+      "pillar": "materials",
+      "title": "Silicone Rubber Parts: Parting Lines and Appearance Requirements",
+      "query": "silicone rubber molding",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/materials/silicone"
+    },
+    {
+      "id": "RQ-T-040",
+      "ids": [
+        "RQ-T-040"
+      ],
+      "cluster": "silicone",
+      "pillar": "materials",
+      "title": "LSR and Solid Silicone: Questions for a Process Review",
+      "query": "lsr vs silicone",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/materials/lsr"
+    },
+    {
+      "id": "RQ-T-041",
+      "ids": [
+        "RQ-T-041"
+      ],
+      "cluster": "compounds",
+      "pillar": "manufacturing",
+      "title": "Rubber Compound Supply: A Buyer Specification Checklist",
+      "query": "rubber compounder",
+      "priority": "P0",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/compounds"
+    },
+    {
+      "id": "RQ-T-042",
+      "ids": [
+        "RQ-T-042"
+      ],
+      "cluster": "compounds",
+      "pillar": "manufacturing",
+      "title": "Rubber Compounding: From Application Conditions to Batch Release",
+      "query": "rubber compounding",
+      "priority": "P0",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/compounding"
+    },
+    {
+      "id": "RQ-T-043",
+      "ids": [
+        "RQ-T-043"
+      ],
+      "cluster": "compounds",
+      "pillar": "manufacturing",
+      "title": "Compound Trial Plan: Validate Material in the Receiving Process",
+      "query": "custom rubber compounds",
+      "priority": "P0",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/compounds"
+    },
+    {
+      "id": "RQ-T-044",
+      "ids": [
+        "RQ-T-044"
+      ],
+      "cluster": "compounds",
+      "pillar": "manufacturing",
+      "title": "Rubber Compound Storage and Handling: Questions for the Supplier",
+      "query": "rubber compound storage",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/compounds"
+    },
+    {
+      "id": "RQ-T-045",
+      "ids": [
+        "RQ-T-045"
+      ],
+      "cluster": "compounds",
+      "pillar": "manufacturing",
+      "title": "Reading a Rubber Compound Test Report",
+      "query": "rubber compound testing",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/compounds"
+    },
+    {
+      "id": "RQ-T-046",
+      "ids": [
+        "RQ-T-046"
+      ],
+      "cluster": "engineering",
+      "pillar": "engineering",
+      "title": "Shore A Hardness: How to Write a Useful Specification",
+      "query": "shore a hardness",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/resources/rubber-hardness-guide"
+    },
+    {
+      "id": "RQ-T-047",
+      "ids": [
+        "RQ-T-047"
+      ],
+      "cluster": "engineering",
+      "pillar": "engineering",
+      "title": "Durometer Charts: What They Do and Do Not Compare",
+      "query": "durometer chart",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/resources/rubber-hardness-guide"
+    },
+    {
+      "id": "RQ-T-048",
+      "ids": [
+        "RQ-T-048"
+      ],
+      "cluster": "engineering",
+      "pillar": "engineering",
+      "title": "Rubber Chemical Compatibility: Define the Exposure First",
+      "query": "chemical compatibility chart",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/resources/material-compatibility"
+    },
+    {
+      "id": "RQ-T-049",
+      "ids": [
+        "RQ-T-049"
+      ],
+      "cluster": "engineering",
+      "pillar": "engineering",
+      "title": "Seal Failure Review: Preserve the Part and Operating History",
+      "query": "rubber seal failure",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/resources/seal-failure-analysis"
+    },
+    {
+      "id": "RQ-T-050",
+      "ids": [
+        "RQ-T-050"
+      ],
+      "cluster": "engineering",
+      "pillar": "engineering",
+      "title": "ASTM D2000 Callouts: Prepare a Material Review Request",
+      "query": "astm d2000",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/standards"
+    },
+    {
+      "id": "RQ-T-051",
+      "ids": [
+        "RQ-T-051"
+      ],
+      "cluster": "engineering",
+      "pillar": "engineering",
+      "title": "Rubber Sample Approval: A Buyer Checklist",
+      "query": "rubber sample approval",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/sample-request"
+    },
+    {
+      "id": "RQ-T-052",
+      "ids": [
+        "RQ-T-052"
+      ],
+      "cluster": "engineering",
+      "pillar": "engineering",
+      "title": "Rubber Supplier Evaluation: Factory, Testing and Traceability",
+      "query": "rubber supplier audit",
+      "priority": "P0",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/quality"
+    },
+    {
+      "id": "RQ-T-053",
+      "ids": [
+        "RQ-T-053"
+      ],
+      "cluster": "semiconductor",
+      "pillar": "solutions",
+      "title": "Semiconductor Seal RFQ: Process and Cleanliness Inputs",
+      "query": "semiconductor seals",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/industries/semiconductor"
+    },
+    {
+      "id": "RQ-T-054",
+      "ids": [
+        "RQ-T-054"
+      ],
+      "cluster": "semiconductor",
+      "pillar": "solutions",
+      "title": "Vacuum Chamber Seals: Geometry, Temperature and Media",
+      "query": "vacuum chamber seals",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/industries/semiconductor"
+    },
+    {
+      "id": "RQ-T-055",
+      "ids": [
+        "RQ-T-055"
+      ],
+      "cluster": "semiconductor",
+      "pillar": "solutions",
+      "title": "Maintenance Seal Replacement: Document the Original Specification",
+      "query": "semiconductor replacement seals",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/industries/semiconductor"
+    },
+    {
+      "id": "RQ-T-056",
+      "ids": [
+        "RQ-T-056"
+      ],
+      "cluster": "cooling",
+      "pillar": "solutions",
+      "title": "Liquid Cooling Seal Review: Fluid Formulation and Joint Geometry",
+      "query": "liquid cooling seals",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/industries/liquid-cooling-energy-storage"
+    },
+    {
+      "id": "RQ-T-057",
+      "ids": [
+        "RQ-T-057"
+      ],
+      "cluster": "cooling",
+      "pillar": "solutions",
+      "title": "Energy Storage Enclosure Gaskets: Define the Assembly Test",
+      "query": "energy storage gaskets",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/industries/liquid-cooling-energy-storage"
+    },
+    {
+      "id": "RQ-T-058",
+      "ids": [
+        "RQ-T-058"
+      ],
+      "cluster": "cooling",
+      "pillar": "solutions",
+      "title": "Coolant Seal Validation: Material Tests and Assembly Checks",
+      "query": "coolant seal validation",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/industries/liquid-cooling-energy-storage"
+    },
+    {
+      "id": "RQ-T-059",
+      "ids": [
+        "RQ-T-059"
+      ],
+      "cluster": "ev",
+      "pillar": "solutions",
+      "title": "Thermal Management Rubber Parts: Drawing and Fluid Review",
+      "query": "ev thermal management seals",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/industries/ev-energy-storage"
+    },
+    {
+      "id": "RQ-T-060",
+      "ids": [
+        "RQ-T-060"
+      ],
+      "cluster": "ev",
+      "pillar": "solutions",
+      "title": "Temperature Cycling: Information Needed for a Seal Review",
+      "query": "thermal cycling seals",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/industries/ev-energy-storage"
+    },
+    {
+      "id": "RQ-T-061",
+      "ids": [
+        "RQ-T-061"
+      ],
+      "cluster": "robotics",
+      "pillar": "solutions",
+      "title": "Robotic Protective Bellows: Movement and Retention Review",
+      "query": "robot bellows",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/industries/humanoid-robotics"
+    },
+    {
+      "id": "RQ-T-062",
+      "ids": [
+        "RQ-T-062"
+      ],
+      "cluster": "robotics",
+      "pillar": "solutions",
+      "title": "Robot Contact Pads: Friction, Wear and Test Conditions",
+      "query": "robot gripper pads",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/industries/humanoid-robotics"
+    },
+    {
+      "id": "RQ-T-063",
+      "ids": [
+        "RQ-T-063"
+      ],
+      "cluster": "robotics",
+      "pillar": "solutions",
+      "title": "Bonded Components for Moving Mechanisms: Load and Interface Inputs",
+      "query": "robot rubber components",
+      "priority": "P1",
+      "action": "全文归属核对后确定章节、更新或新页",
+      "suggested_url": "/industries/humanoid-robotics"
+    }
+  ],
+  "articles": [],
+  "packages": [],
+  "done": {},
+  "partial": {},
+  "covered": {},
+  "holds": {
+    "RQ-T-001": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-002": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-003": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-004": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-005": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-006": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-007": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-008": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-009": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-010": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-011": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-012": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-013": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-014": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-015": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-016": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-017": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-018": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-019": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-020": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-021": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-022": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-023": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-024": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-025": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-026": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-027": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-028": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-029": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-030": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-031": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-032": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-033": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-034": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-035": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-036": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-037": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-038": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-039": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-040": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-041": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-042": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-043": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-044": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-045": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-046": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-047": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-048": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-049": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-050": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-051": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-052": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-053": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-054": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-055": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-056": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-057": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-058": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-059": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-060": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-061": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-062": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    },
+    "RQ-T-063": {
+      "reason": "本轮为话题规划；尚未完成与实际CMS正文的唯一URL归属核对",
+      "evidence": "../03-全站IA与URL归属.md",
+      "release_condition": "读取实际正文及相关查询，冻结买家任务、现有覆盖与URL归属后进入制作"
+    }
+  },
+  "receipts": [],
+  "counters": {
+    "completed_items": 0,
+    "new_urls": 0,
+    "updated_urls": 0
+  }
+}

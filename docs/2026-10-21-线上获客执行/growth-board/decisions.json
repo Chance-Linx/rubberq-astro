@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "id": "RQ-DEC-01",
+      "question": "赛道重排",
+      "options": [
+        "同意",
+        "不同意",
+        "待定"
+      ],
+      "recommendation": "执行用户已确认决定",
+      "due_date": null,
+      "status": "已决",
+      "result": "同意：半导体→液冷与储能→EV热管理→人形机器人；通用工业定制件为获客主力",
+      "decided_at": "2026-10-21",
+      "source": "rubberq-astro/docs/2026-10-21-线上获客执行/01-验收决策与执行口径.md"
+    },
+    {
+      "id": "RQ-DEC-02",
+      "question": "市场排序",
+      "options": [
+        "同意",
+        "不同意",
+        "待定"
+      ],
+      "recommendation": "执行用户已确认决定",
+      "due_date": null,
+      "status": "已决",
+      "result": "同意：P1北美与欧洲DACH/英国；P2日本/东南亚；印度不主攻",
+      "decided_at": "2026-10-21",
+      "source": "rubberq-astro/docs/2026-10-21-线上获客执行/01-验收决策与执行口径.md"
+    },
+    {
+      "id": "RQ-DEC-03",
+      "question": "获客层与转化层分离",
+      "options": [
+        "同意",
+        "不同意",
+        "待定"
+      ],
+      "recommendation": "执行用户已确认决定",
+      "due_date": null,
+      "status": "已决",
+      "result": "同意",
+      "decided_at": "2026-10-21",
+      "source": "rubberq-astro/docs/2026-10-21-线上获客执行/01-验收决策与执行口径.md"
+    },
+    {
+      "id": "RQ-DEC-04",
+      "question": "胶料外供与FFKM售后替代",
+      "options": [
+        "同意",
+        "不同意",
+        "待定"
+      ],
+      "recommendation": "执行用户已确认决定",
+      "due_date": null,
+      "status": "已决",
+      "result": "同意，纳入网站与内容规划",
+      "decided_at": "2026-10-21",
+      "source": "rubberq-astro/docs/2026-10-21-线上获客执行/01-验收决策与执行口径.md"
+    },
+    {
+      "id": "RQ-DEC-05",
+      "question": "付费数据与监测预算",
+      "options": [
+        "同意",
+        "不同意",
+        "待定"
+      ],
+      "recommendation": "保持待定，先不花费",
+      "due_date": null,
+      "status": "未决",
+      "result": "待定，先不花费",
+      "decided_at": null,
+      "source": "rubberq-astro/docs/2026-10-21-线上获客执行/01-验收决策与执行口径.md"
+    }
+  ]
+}

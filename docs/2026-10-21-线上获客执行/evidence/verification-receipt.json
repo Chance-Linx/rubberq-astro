@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-21",
+  "timezone": "Asia/Shanghai",
+  "package_checks": {
+    "passed": 27,
+    "total": 27,
+    "source": "evidence/package-validation.json"
+  },
+  "ggs_original_tests": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "passed": 51,
+    "failed": 0,
+    "scope": "GGS reusable dashboard package"
+  },
+  "browser_checks": {
+    "page_search": "PASS: 配方胶料外供 filters to 1/49",
+    "page_drawer": "PASS: RQ-PG-025 English copy and metadata visible",
+    "copy": "PASS: button visibly changed to 已复制",
+    "csv_export": "PASS: UI reports 已导出当前筛选结果",
+    "star_node": "PASS: FFKM与售后替代 selected; six topics shown",
+    "growth": "PASS: RubberQ baseline, four decided items, spend pending displayed",
+    "viewport": "Observed desktop/narrow panel; 390px emulation not performed"
+  },
+  "screenshots": [
+    "evidence/board-overview.png",
+    "evidence/board-star.png",
+    "evidence/page-copy.png"
+  ],
+  "self_review_fixes": [
+    "Excluded original noise/retail terms from topic demand metrics",
+    "Made SVG child nodes keyboard and accessibility targets",
+    "Separated legal-page maintenance from new public marketing copy",
+    "Added clipboard timeout and manual-selection fallback",
+    "Preserved original metrics and null qualified inquiries",
+    "Fixed growth decision schema to show approved items correctly"
+  ],
+  "external_effects": {
+    "paid_calls": 0,
+    "cms_writes": 0,
+    "production_deployments": 0,
+    "sent_messages": 0,
+    "created_automations": 0
+  }
+}

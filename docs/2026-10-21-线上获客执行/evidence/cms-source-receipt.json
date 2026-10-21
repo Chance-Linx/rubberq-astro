@@ -1,0 +1,10 @@
+{
+  "captured_on": "2026-10-21",
+  "method": "read-only public Sanity GROQ HTTP GET",
+  "project": "tcjl4afv",
+  "dataset": "production",
+  "query": "*[_type == \"article\" && status == \"published\"]{_id,_rev,title,slug,status,publishedAt,content,body,markdownBody,excerpt}",
+  "raw_sha256": "80d8ec208be15990b7d5ab94f20ba3d2c85c3e66eb361a5ed6f2f5a79ad1bf5a",
+  "records": 271,
+  "paid_calls": 0
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "id": "RQ-EXT-01",
+      "title": "现行证书与厂区影像",
+      "owner": "工厂",
+      "status": "未发出",
+      "unlocks": [
+        "/quality",
+        "/factory",
+        "/about"
+      ],
+      "details": "证书有效期和范围；两厂区实拍；不包含私人信息",
+      "source": "rubberq-astro/docs/2026-10-21-线上获客执行/06-获客执行与询盘运营.md"
+    },
+    {
+      "id": "RQ-EXT-02",
+      "title": "外供胶料项目资料",
+      "owner": "工厂",
+      "status": "未发出",
+      "unlocks": [
+        "/compounds"
+      ],
+      "details": "供货形式、配方/规格职责、包装储存、批次报告、试料流程",
+      "source": "rubberq-astro/docs/2026-10-21-线上获客执行/06-获客执行与询盘运营.md"
+    },
+    {
+      "id": "RQ-EXT-03",
+      "title": "FFKM原件与候选材料资料",
+      "owner": "工厂",
+      "status": "未发出",
+      "unlocks": [
+        "/products/ffkm-replacement-seals",
+        "/materials/ffkm"
+      ],
+      "details": "原件尺寸和工况、具体候选牌号、TDS、需要验证的项目",
+      "source": "rubberq-astro/docs/2026-10-21-线上获客执行/06-获客执行与询盘运营.md"
+    },
+    {
+      "id": "RQ-EXT-04",
+      "title": "LSR与粘接件制造资料",
+      "owner": "工厂",
+      "status": "未发出",
+      "unlocks": [
+        "/capabilities/lsr-molding",
+        "/products/rubber-to-metal-bonded-parts"
+      ],
+      "details": "工艺适配、真实设备、样件及检验；不默认认证/产能",
+      "source": "rubberq-astro/docs/2026-10-21-线上获客执行/06-获客执行与询盘运营.md"
+    },
+    {
+      "id": "RQ-EXT-05",
+      "title": "可公开项目样例",
+      "owner": "工厂",
+      "status": "未发出",
+      "unlocks": [
+        "/case-studies"
+      ],
+      "details": "客户许可、问题/规格/测试/结果；无许可则匿名且不可反推客户",
+      "source": "rubberq-astro/docs/2026-10-21-线上获客执行/06-获客执行与询盘运营.md"
+    }
+  ]
+}

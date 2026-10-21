@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "adapter": "native_json",
+  "allowed_roots": [
+    "."
+  ],
+  "data": "data/content.json",
+  "project": {
+    "id": "rubberq-acquisition-20261021",
+    "name": "RubberQ 内容与获客工作台",
+    "domain": "https://rubberq.com",
+    "active_pillar": "products",
+    "pillar_policy": "先按现有正文完成URL归属核对；本轮规划不自动派稿，不跳过现有文章保护。",
+    "views": [
+      {
+        "label": "主题星图与页面稿",
+        "url": "/map"
+      },
+      {
+        "label": "增长总控",
+        "url": "/growth"
+      }
+    ]
+  },
+  "cluster_order": [
+    "o-rings",
+    "gaskets",
+    "molding",
+    "flexible",
+    "bonding",
+    "ffkm",
+    "fkm",
+    "epdm",
+    "hnbr-nbr",
+    "silicone",
+    "compounds",
+    "engineering",
+    "semiconductor",
+    "cooling",
+    "ev",
+    "robotics"
+  ],
+  "policy": {
+    "boundaries": [
+      "用户已批准四项方向；不重复询问方向",
+      "Slogan保持原文",
+      "付费预算待定，先不花费",
+      "不以规划URL或标题匹配认定覆盖",
+      "生产实施与上线须记录真实回执",
+      "无外发、无周期采集、无自动派稿"
+    ]
+  },
+  "local_views": {
+    "/map": "map.html"
+  },
+  "growth_board": {
+    "root": "growth-board",
+    "project_root": "../../..",
+    "evidence_roots": [
+      "."
+    ],
+    "sources": {
+      "topics": {
+        "path": "data/话题库.csv",
+        "columns": {
+          "business_line": "business_line",
+          "coverage": "coverage"
+        },
+        "covered_states": [
+          "已覆盖"
+        ],
+        "counts": {
+          "executable": {
+            "column": "executable",
+            "values": [
+              "是"
+            ]
+          },
+          "pending_fit": {
+            "column": "product_fit",
+            "values": [
+              "待具体项目适配"
+            ]
+          },
+          "cannibalization": {
+            "column": "cannibalization",
+            "values": [
+              "是"
+            ]
+          },
+          "merge_suggestions": {
+            "column": "suggested_action",
+            "values": [
+              "合并"
+            ]
+          }
+        }
+      },
+      "backlinks": [
+        {
+          "path": "data/目录与资源候选.csv",
+          "label": "目录与资源候选"
+        }
+      ],
+      "changelog": "/Users/LINLAN/1 赚钱事业/外贸跨境项目/全球增长系统复用/CHANGELOG-rules.json"
+    }
+  }
+}

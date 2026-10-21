@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-21",
+  "kind": "baseline",
+  "metrics": {
+    "gsc_clicks": {
+      "value": 10,
+      "period_start": "2026-09-20",
+      "period_end": "2026-10-17",
+      "scope": "gsc_global",
+      "period_kind": "rolling_28d",
+      "unit": "次"
+    },
+    "gsc_impressions": {
+      "value": 901,
+      "period_start": "2026-09-20",
+      "period_end": "2026-10-17",
+      "scope": "gsc_global",
+      "period_kind": "rolling_28d",
+      "unit": "次"
+    },
+    "gsc_ctr": {
+      "value": 1.1098779134295227,
+      "period_start": "2026-09-20",
+      "period_end": "2026-10-17",
+      "scope": "gsc_global",
+      "period_kind": "rolling_28d",
+      "unit": "%"
+    },
+    "ga4_organic_sessions": {
+      "value": 15,
+      "period_start": "2026-09-20",
+      "period_end": "2026-10-17",
+      "scope": "ga4_global",
+      "period_kind": "rolling_28d",
+      "unit": "次"
+    },
+    "inquiry_total": {
+      "value": 1,
+      "period_start": null,
+      "period_end": "2026-10-21",
+      "scope": "manual_d1_non_test_technical",
+      "period_kind": "all_time",
+      "unit": "条"
+    },
+    "inquiry_qualified": {
+      "value": null,
+      "period_start": null,
+      "period_end": "2026-10-21",
+      "scope": "sales_qualified",
+      "period_kind": "all_time",
+      "unit": "条"
+    }
+  },
+  "core_keyword_rankings": [
+    {
+      "keyword": "custom molded rubber parts",
+      "position": null
+    },
+    {
+      "keyword": "custom gaskets",
+      "position": null
+    },
+    {
+      "keyword": "o-ring manufacturer",
+      "position": null
+    },
+    {
+      "keyword": "rubber compounder",
+      "position": null
+    },
+    {
+      "keyword": "ffkm o-rings",
+      "position": null
+    }
+  ],
+  "notes": [
+    "来自10月21日既有审查快照，非本轮新增采集。",
+    "GSC窗口2026-09-20至2026-10-17；GA4来源时区与GSC不同。"
+  ]
+}

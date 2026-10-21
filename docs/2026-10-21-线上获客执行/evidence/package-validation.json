@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-21",
+  "checks": [
+    {
+      "check": "唯一页面URL及编号",
+      "pass": true
+    },
+    {
+      "check": "12个规划新页与37个现有入口",
+      "pass": true
+    },
+    {
+      "check": "47份客户文案及2份法律页保留",
+      "pass": true
+    },
+    {
+      "check": "全部非法律页SEO长度",
+      "pass": true
+    },
+    {
+      "check": "页面稿文件与规划内链存在",
+      "pass": true
+    },
+    {
+      "check": "主页原Slogan完整保留",
+      "pass": true
+    },
+    {
+      "check": "第二句Slogan完整保留",
+      "pass": true
+    },
+    {
+      "check": "英文URL无en前缀",
+      "pass": true
+    },
+    {
+      "check": "292行原值逐字段保真",
+      "pass": true
+    },
+    {
+      "check": "B2B唯一规划URL与噪声隔离",
+      "pass": true
+    },
+    {
+      "check": "话题63项且无虚构已覆盖",
+      "pass": true
+    },
+    {
+      "check": "话题volume只从exact词表复用",
+      "pass": true
+    },
+    {
+      "check": "话题需求排除noise和retail_mro数值",
+      "pass": true
+    },
+    {
+      "check": "组织关系全部指向本轮实体",
+      "pass": true
+    },
+    {
+      "check": "策划未伪装发布或覆盖",
+      "pass": true
+    },
+    {
+      "check": "四项已决与费用待定",
+      "pass": true
+    },
+    {
+      "check": "无已外发工厂请求",
+      "pass": true
+    },
+    {
+      "check": "真实需求与合格询盘及CTR口径",
+      "pass": true
+    },
+    {
+      "check": "输入hash与当前源一致",
+      "pass": true
+    },
+    {
+      "check": "客户稿无禁用或无来源性能宣传",
+      "pass": true
+    },
+    {
+      "check": "HTML和业务数据同步",
+      "pass": true
+    },
+    {
+      "check": "存量正文271项完整且未来日期30项",
+      "pass": true
+    },
+    {
+      "check": "正文检查不是语义验收或覆盖",
+      "pass": true
+    },
+    {
+      "check": "交互视图无外部脚本依赖",
+      "pass": true
+    },
+    {
+      "check": "增长API全部已配置部分有效",
+      "pass": true
+    },
+    {
+      "check": "增长目标和决策已接入",
+      "pass": true
+    },
+    {
+      "check": "内容API待核对语义一致",
+      "pass": true
+    }
+  ],
+  "passed": 27,
+  "total": 27,
+  "paid_calls": 0,
+  "cms_writes": 0,
+  "deployments": 0
+}

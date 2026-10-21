@@ -1,0 +1,293 @@
+keyword,us_vol,kd,cpc,intent,cluster,tier,tag,value,uk,ca,au,india,sg,my,trend
+vacuum seals,74000,21,1.29,transactional,S1 半导体/真空,大词,noise,95460,6600,12100,12100,2900,,,208500/294000
+o-ring,33100,3,1.59,transactional,P1 O圈,大词,b2b,52629,6600,4400,3600,9900,880,2900,99300/99300
+o-rings,33100,6,1.59,transactional,P1 O圈,大词,b2b,52629,6600,4400,3600,9900,880,2900,99300/99300
+rubber boots,18100,0,1.02,transactional,C0 定制模压/通用,大词,noise,18462,1000,5400,1000,1600,170,590,45000/62500
+epdm,12100,25,2.86,informational,M4 EPDM,工程参考/信息,b2b,34606,6600,1900,1000,8100,,880,41700/39000
+rubber gaskets,12100,0,1.48,transactional,P2 垫片,大词,retail_mro,17908,1300,1900,1000,9900,880,1300,29700/41700
+rubber grommets,12100,0,0.82,transactional,C0 定制模压/通用,大词,retail_mro,9922,2900,1600,2900,2400,170,480,36300/36300
+rubber seals,8100,0,0.89,transactional,C0 定制模压/通用,大词,retail_mro,7209,3600,1000,1600,2400,260,590,21300/23100
+cv boots,6600,0,0.41,transactional,C0 定制模压/通用,大词,noise,2706,4400,1000,1600,110,,,18600/20100
+rubber washers,6600,0,0.62,transactional,C0 定制模压/通用,大词,retail_mro,4092,3600,1000,1300,2900,170,390,22800/17400
+rubber stoppers,5400,0,0.88,transactional,C0 定制模压/通用,大词,retail_mro,4752,720,1000,880,1900,320,880,26400/13400
+thermal pad,4400,6,1.48,transactional,C0 定制模压/通用,大词,noise,6512,720,720,720,3600,260,720,11600/11600
+viton o-rings,4400,0,1.29,transactional,M2 FKM/Viton,大词,b2b,5676,720,590,590,880,140,,14200/9400
+engine mounts rubber,3600,0,1.21,transactional,C0 定制模压/通用,大词,noise,4356,140,,260,,,,5900/13400
+o-ring size chart,3600,0,0.81,informational,P1 O圈,工程参考/信息,b2b,2916,320,480,390,880,70,140,10100/11600
+data center liquid cooling,2900,21,11.3,transactional,S3 液冷/数据中心,大词,b2b,32770,210,170,140,880,210,140,6200/7700
+rubber plugs,2900,0,0.63,transactional,C0 定制模压/通用,大词,retail_mro,1827,390,390,390,320,50,110,10100/7700
+shore a hardness,2900,28,14.71,informational,R 工程参考,工程参考/信息,b2b,42659,590,390,390,1600,170,260,7700/10200
+valve seals,2900,0,0.83,transactional,C0 定制模压/通用,大词,retail_mro,2407,260,390,140,480,,1300,8200/10100
+x-ring,2900,0,1.49,transactional,P1 O圈,大词,retail_mro,4321,,,,,,,8200/12400
+diaphragm valve,2400,26,1.9,transactional,P3 隔膜/波纹管,大词,retail_mro,4560,480,590,480,4400,260,480,7200/6700
+oil seals,2400,0,2.17,transactional,C0 定制模压/通用,大词,retail_mro,5208,880,480,320,9900,320,2900,6700/7700
+rubber bumpers,2400,0,2.34,transactional,C0 定制模压/通用,大词,retail_mro,5616,320,390,320,590,90,,7700/7200
+rubber feet,2400,0,1.0,transactional,C0 定制模压/通用,大词,retail_mro,2400,1600,390,720,720,70,140,8200/7700
+valve diaphragm,2400,26,1.9,transactional,P3 隔膜/波纹管,大词,retail_mro,4560,,590,480,4400,,480,7200/6700
+fkm,1600,17,9.63,informational,M2 FKM/Viton,工程参考/信息,b2b,15408,320,260,140,,110,210,4500/4800
+flange gasket,1600,0,1.89,transactional,P2 垫片,大词,retail_mro,3024,210,390,260,720,90,260,5400/4800
+fluoroelastomer,1600,29,0.36,informational,M2 FKM/Viton,工程参考/信息,b2b,576,390,210,170,320,70,70,3900/4500
+rubber compounder,1600,4,8.71,transactional,C1 配方/混炼,大词,b2b,13936,140,,,,,,1040/1120
+rubber compounding,1600,4,10.0,informational,C1 配方/混炼,工程参考/信息,b2b,16000,110,50,30,720,,,970/2100
+epdm seals,1300,0,1.02,transactional,M4 EPDM,大词,b2b,1326,390,170,320,,,,2600/3600
+hydraulic seals,1300,2,3.04,transactional,C0 定制模压/通用,大词,retail_mro,3952,260,260,390,880,50,110,3300/3600
+nbr rubber,1300,19,5.97,informational,M3 NBR/HNBR,工程参考/信息,b2b,7761,260,210,210,1000,70,210,3900/4200
+rubber bushings,1300,6,1.17,transactional,C2 粘接/减振,大词,b2b,1521,70,110,70,210,10,30,3600/3600
+foam gasket,1000,0,2.35,transactional,P2 垫片,大词,retail_mro,2350,260,320,90,260,30,70,3000/2760
+robot seals,1000,15,1.35,transactional,S2 机器人,大词,noise,1350,,,,,,,1480/6880
+robotic seals,1000,15,1.35,transactional,S2 机器人,大词,noise,1350,,,,,,,1480/6880
+silicone foam,1000,0,1.83,transactional,M5 Silicone/LSR,大词,retail_mro,1830,170,170,140,480,40,110,3600/2760
+fkm rubber,880,0,1.12,transactional,M2 FKM/Viton,核心产品词,b2b,986,210,140,110,260,70,50,3000/2480
+high temperature o-rings,880,0,1.89,transactional,P1 O圈,核心产品词,b2b,1663,110,210,90,,,,2160/2480
+kalrez,880,0,9.02,informational,M1 FFKM,工程参考/信息,b2b,7938,110,90,40,170,50,30,2320/2320
+liquid silicone rubber molding,880,7,14.69,transactional,M5 Silicone/LSR,商业词,b2b,12927,110,20,20,110,10,20,680/730
+nbr o-rings,880,0,3.76,transactional,M3 NBR/HNBR,核心产品词,b2b,3309,70,,,,,,960/3890
+rotary shaft seals,880,0,3.47,transactional,C0 定制模压/通用,核心产品词,retail_mro,3054,260,170,110,320,30,70,1590/2600
+rubber product manufacturer,880,28,6.61,commercial,C0 定制模压/通用,采购词,b2b,5817,170,70,,880,,,3040/2320
+cable seals,720,0,16.0,transactional,C0 定制模压/通用,核心产品词,b2b,11520,140,140,70,210,,70,1790/2030
+ffkm,720,2,7.37,informational,M1 FFKM,工程参考/信息,b2b,5306,140,90,40,170,40,30,1900/2760
+ffkm o-rings,720,0,10.79,transactional,M1 FFKM,核心产品词,b2b,7769,110,50,50,170,30,30,1900/2030
+pump seals,720,0,2.97,transactional,C0 定制模压/通用,核心产品词,retail_mro,2138,140,110,90,590,,,2320/2030
+rubber sleeves,720,0,2.17,transactional,C0 定制模压/通用,核心产品词,retail_mro,1562,260,,140,590,,,2160/1900
+rubber vs silicone,720,0,0.0,informational,M5 Silicone/LSR,工程参考/信息,b2b,0,50,70,40,110,20,40,2030/2030
+vibration isolation mounts,720,3,2.96,transactional,C2 粘接/减振,核心产品词,b2b,2131,70,140,90,90,10,10,1770/2060
+automotive o-rings,590,0,0.45,transactional,P1 O圈,核心产品词,retail_mro,266,70,50,70,,,,1260/1350
+durometer chart,590,50,79.38,informational,R 工程参考,工程参考/信息,b2b,46834,50,70,20,90,10,10,1790/1900
+fkm o-rings,590,0,1.66,transactional,M2 FKM/Viton,核心产品词,b2b,979,140,70,70,,30,50,1790/1660
+piston seals,590,0,5.07,transactional,C0 定制模压/通用,核心产品词,retail_mro,2991,260,110,70,590,30,,1660/1950
+custom gaskets,480,1,20.74,transactional,P2 垫片,商业词,b2b,9955,70,320,70,30,,,1280/1390
+dust boots,480,0,1.64,transactional,C0 定制模压/通用,核心产品词,retail_mro,787,50,70,110,,,,1550/1350
+emi gasket,480,0,6.61,transactional,P2 垫片,核心产品词,b2b,3173,40,40,30,140,30,,1550/1590
+hnbr,480,0,0.09,informational,M3 NBR/HNBR,工程参考/信息,b2b,43,110,70,50,170,20,30,1660/1550
+hydraulic o-rings,480,0,1.61,transactional,P1 O圈,核心产品词,retail_mro,773,40,50,50,70,10,10,1440/1390
+kalrez o-rings,480,0,10.74,transactional,M1 FFKM,核心产品词,b2b,5155,50,40,20,320,40,40,1440/1260
+o-ring manufacturer,480,6,9.11,commercial,P1 O圈,采购词,b2b,4373,,50,110,,20,,1300/1260
+o-ring manufacturers,480,6,9.11,commercial,P1 O圈,采购词,b2b,4373,140,50,10,320,20,70,1300/1260
+o-ring supplier,480,20,9.11,commercial,P1 O圈,采购词,b2b,4373,140,50,,320,20,70,1300/1260
+o-ring suppliers,480,20,9.11,commercial,P1 O圈,采购词,b2b,4373,140,50,110,,,,1300/1260
+o-rings manufacturer,480,6,9.11,commercial,P1 O圈,采购词,b2b,4373,140,,,320,,,1300/1260
+o-rings manufacturers,480,6,9.11,commercial,P1 O圈,采购词,b2b,4373,140,50,10,320,,,1300/1260
+o-rings supplier,480,20,9.11,commercial,P1 O圈,采购词,b2b,4373,,,,,20,,1300/1260
+o-rings suppliers,480,20,9.11,commercial,P1 O圈,采购词,b2b,4373,140,50,110,,20,,1300/1260
+rubber mounts,480,0,1.06,transactional,C0 定制模压/通用,核心产品词,retail_mro,509,320,110,480,480,,210,1900/1460
+rubber springs,480,0,1.14,transactional,C0 定制模压/通用,核心产品词,retail_mro,547,90,70,90,390,,110,1550/1170
+rubber vibration isolators,480,0,1.31,transactional,C2 粘接/减振,核心产品词,b2b,629,10,50,30,,,,1460/1100
+wiper seals,480,0,2.55,transactional,C0 定制模压/通用,核心产品词,retail_mro,1224,140,70,70,720,,,1440/1190
+automotive seals,390,4,0.93,transactional,C0 定制模压/通用,核心产品词,retail_mro,363,110,30,50,140,10,,960/1300
+conductive rubber,390,0,2.41,informational,C0 定制模压/通用,工程参考/信息,b2b,940,50,50,40,140,,,1570/1130
+coolant distribution unit,390,0,12.81,transactional,S3 液冷/数据中心,核心产品词,b2b,4996,50,30,30,,,,1170/1030
+neoprene vs epdm,390,0,6.09,informational,M4 EPDM,工程参考/信息,b2b,2375,40,70,40,70,,,1170/970
+quad ring,390,0,6.93,transactional,P1 O圈,核心产品词,b2b,2703,90,70,50,110,10,,900/1170
+rubber bellows,390,0,3.73,transactional,P3 隔膜/波纹管,核心产品词,b2b,1455,210,70,170,1600,70,260,1030/1100
+rubber covers,390,0,0.37,informational,C0 定制模压/通用,工程参考/信息,retail_mro,144,170,,50,320,,,1170/1100
+wire seals,390,0,6.7,transactional,C0 定制模压/通用,核心产品词,b2b,2613,70,90,30,,,,1350/1100
+anti vibration mounts,320,3,1.75,transactional,C2 粘接/减振,核心产品词,b2b,560,880,90,390,480,20,20,840/960
+epdm vs viton,320,0,0.74,informational,M2 FKM/Viton,工程参考/信息,b2b,237,20,40,20,40,10,10,960/840
+fkm vs viton,320,11,2.95,informational,M2 FKM/Viton,工程参考/信息,b2b,944,40,50,20,70,10,20,970/970
+o-ring groove design,320,0,1.21,commercial,P1 O圈,工程参考/信息,b2b,387,40,50,40,90,10,,790/850
+robot skin,320,6,0.0,transactional,S2 机器人,核心产品词,noise,0,50,40,10,70,,,900/1030
+rubber diaphragm,320,0,3.97,transactional,P3 隔膜/波纹管,核心产品词,retail_mro,1270,90,40,40,880,,50,840/840
+rubber injection molding,320,7,13.9,informational,C0 定制模压/通用,工程参考/信息,b2b,4448,70,40,20,140,10,20,560/1190
+custom o-ring,260,0,10.51,transactional,P1 O圈,商业词,b2b,2733,,30,,,,10,730/790
+custom o-rings,260,0,10.51,transactional,P1 O圈,商业词,b2b,2733,50,30,20,20,,10,730/790
+emi shielding gasket,260,0,5.93,transactional,P2 垫片,核心产品词,b2b,1542,30,10,10,90,10,20,490/560
+rod seals,260,0,1.85,transactional,C0 定制模压/通用,核心产品词,retail_mro,481,90,90,40,390,,,680/640
+rubber dampers,260,0,1.3,transactional,C2 粘接/减振,核心产品词,b2b,338,110,70,90,590,,,840/780
+rubber keypads,260,5,4.34,transactional,C0 定制模压/通用,核心产品词,b2b,1128,40,,,210,30,,590/740
+rubber seal rings,260,0,1.0,transactional,C0 定制模压/通用,核心产品词,b2b,260,170,70,70,,,,1040/740
+thermally conductive silicone,260,0,3.08,informational,M5 Silicone/LSR,工程参考/信息,b2b,801,50,30,20,50,,,730/840
+waterproof gasket,260,0,1.29,transactional,P2 垫片,核心产品词,b2b,335,40,40,,50,,,690/1060
+as568 o-ring size chart,210,0,0.67,informational,P1 O圈,工程参考/信息,b2b,141,10,20,30,40,20,10,590/700
+conductive silicone,210,0,1.65,informational,M5 Silicone/LSR,工程参考/信息,b2b,346,40,30,20,30,,,740/590
+epdm coolant hose,210,0,1.03,transactional,M4 EPDM,核心产品词,noise,216,10,10,,10,,,250/960
+epdm vs fkm,210,0,0.0,informational,M2 FKM/Viton,工程参考/信息,b2b,0,20,20,20,20,,,590/520
+ffkm material,210,0,7.93,informational,M1 FFKM,工程参考/信息,b2b,1665,50,20,10,110,20,20,600/480
+fluorosilicone o-rings,210,0,6.16,transactional,M2 FKM/Viton,核心产品词,b2b,1294,,,10,,,,590/510
+lsr injection molding,210,3,9.17,informational,M5 Silicone/LSR,工程参考/信息,b2b,1926,40,10,10,70,,20,520/590
+perfluoroelastomer,210,0,4.8,informational,M1 FFKM,工程参考/信息,b2b,1008,40,20,10,,10,,680/640
+pneumatic seals,210,0,2.38,transactional,C0 定制模压/通用,核心产品词,retail_mro,500,90,90,30,170,10,,480/790
+rubber parts,210,3,7.16,transactional,C0 定制模压/通用,商业词,b2b,1504,20,20,10,260,,20,680/630
+fkm vs ffkm,170,0,0.0,informational,M1 FFKM,工程参考/信息,b2b,0,30,20,10,40,10,10,630/420
+industrial rubber products,170,8,4.51,commercial,C0 定制模压/通用,核心产品词,b2b,767,10,70,10,1300,10,,360/730
+rubber buffer,170,0,1.86,transactional,C0 定制模压/通用,核心产品词,retail_mro,316,320,,170,720,,70,510/420
+rubber compression molding,170,0,14.55,transactional,C0 定制模压/通用,商业词,b2b,2474,30,20,10,90,,10,350/450
+rubber mixing,170,0,1.7,informational,C1 配方/混炼,工程参考/信息,b2b,289,10,10,20,210,,,760/520
+rubber molding companies,170,3,12.98,commercial,C0 定制模压/通用,采购词,b2b,2207,10,10,10,50,10,,510/450
+rubber molding company,170,10,12.98,commercial,C0 定制模压/通用,采购词,b2b,2207,,,,,,,510/450
+viton vs nitrile,170,5,0.0,informational,M2 FKM/Viton,工程参考/信息,b2b,0,50,30,30,10,10,,590/510
+custom rubber molding,140,10,10.07,transactional,C0 定制模压/通用,商业词,b2b,1410,20,10,20,20,,,450/410
+die cut gaskets,140,0,7.85,transactional,P2 垫片,核心产品词,b2b,1099,10,10,10,20,10,10,330/870
+gasket die cutting,140,0,7.85,transactional,P2 垫片,核心产品词,b2b,1099,,,,,,,330/870
+hnbr rubber,140,0,0.0,navigational,M3 NBR/HNBR,核心产品词,b2b,0,50,20,10,110,10,10,450/340
+industrial gaskets,140,0,0.02,transactional,P2 垫片,核心产品词,b2b,3,10,90,480,110,,,330/500
+silicone sponge gasket,140,0,5.57,transactional,M5 Silicone/LSR,核心产品词,b2b,780,20,20,10,70,10,,250/540
+aflas o-rings,110,0,2.77,transactional,M2 FKM/Viton,核心产品词,b2b,305,10,10,,,,,360/360
+automotive rubber parts,110,0,0.0,transactional,C0 定制模压/通用,商业词,noise,0,10,10,10,40,,,80/610
+chemical resistant o-rings,110,0,1.83,commercial,P2 垫片,核心产品词,b2b,201,10,10,,,,,210/350
+chemraz,110,0,10.98,informational,M1 FFKM,工程参考/信息,b2b,1208,20,10,10,20,10,,310/360
+connector seals,110,0,0.36,transactional,C0 定制模压/通用,核心产品词,b2b,40,10,,,50,10,,330/270
+custom rubber gaskets,110,0,17.31,transactional,P2 垫片,商业词,b2b,1904,40,10,30,20,10,10,330/350
+micro o-rings,110,9,1.38,transactional,P1 O圈,核心产品词,b2b,152,20,10,10,30,10,,360/270
+silicone molding services,110,9,11.66,commercial,M5 Silicone/LSR,核心产品词,b2b,1283,10,10,10,10,,,1220/40
+silicone vs epdm,110,12,0.0,informational,M4 EPDM,工程参考/信息,b2b,0,10,20,10,20,,,330/340
+automotive rubber components,90,1,1.0,commercial,C0 定制模压/通用,核心产品词,b2b,90,10,10,10,110,,,390/240
+custom rubber components,90,10,13.42,commercial,C0 定制模压/通用,商业词,b2b,1208,,,,,,,230/270
+custom rubber parts,90,10,23.49,transactional,C0 定制模压/通用,商业词,b2b,2114,10,10,10,20,10,,210/230
+hnbr vs nbr,90,0,4.78,informational,M3 NBR/HNBR,工程参考/信息,b2b,430,20,20,10,30,10,10,290/210
+oil resistant rubber,90,5,0.28,informational,R 工程参考,工程参考/信息,b2b,25,10,10,10,30,,,150/320
+rubber components manufacturers,90,8,20.39,commercial,C0 定制模压/通用,采购词,b2b,1835,70,,,210,,,170/200
+rubber parts manufacturer,90,5,20.39,commercial,C0 定制模压/通用,采购词,b2b,1835,70,10,10,210,,10,170/200
+rubber parts manufacturers,90,5,20.39,commercial,C0 定制模压/通用,采购词,b2b,1835,70,10,10,210,,,170/200
+rubber parts suppliers,90,28,20.39,commercial,C0 定制模压/通用,采购词,b2b,1835,,,10,,,,170/200
+rubber seals manufacturer,90,25,13.44,commercial,C0 定制模压/通用,采购词,b2b,1210,110,10,50,70,,,300/130
+rubber seals manufacturers,90,25,13.44,commercial,C0 定制模压/通用,采购词,b2b,1210,,,,70,,,300/130
+elastomer compounding,70,0,0.31,informational,C1 配方/混炼,工程参考/信息,b2b,22,10,,,,,,170/310
+hnbr seals,70,3,3.48,transactional,M3 NBR/HNBR,核心产品词,b2b,244,10,10,10,20,,,210/150
+kalrez vs viton,70,0,0.0,informational,M1 FFKM,工程参考/信息,b2b,0,10,10,10,10,10,10,230/210
+miniature o-rings,70,0,1.36,transactional,P1 O圈,核心产品词,b2b,95,20,10,10,,,,210/210
+molded rubber parts,70,0,12.57,transactional,C0 定制模压/通用,商业词,b2b,880,10,10,10,70,,,170/240
+o-ring gland design,70,0,2.15,informational,P1 O圈,工程参考/信息,b2b,150,10,10,10,10,,,210/210
+overmolding rubber,70,0,6.17,informational,C2 粘接/减振,工程参考/信息,b2b,432,10,10,10,10,10,,170/170
+rubber components,70,1,0.0,transactional,C0 定制模压/通用,商业词,b2b,0,10,10,10,110,,10,130/360
+rubber formulation,70,0,0.0,informational,C1 配方/混炼,工程参考/信息,b2b,0,10,,,,,,140/270
+rubber manufacturing company,70,9,15.6,informational,C0 定制模压/通用,采购词,b2b,1092,,,,,,,200/120
+rubber overmolding,70,0,6.17,informational,C2 粘接/减振,工程参考/信息,b2b,432,10,10,10,10,10,10,170/170
+rubber to metal bonding,70,19,2.14,informational,C2 粘接/减振,工程参考/信息,b2b,150,20,10,10,40,10,,160/170
+tier 2 automotive supplier,70,0,0.0,commercial,C0 定制模压/通用,采购词,noise,0,,,10,,,,190/170
+custom molded rubber parts,50,0,28.32,transactional,C0 定制模压/通用,商业词,b2b,1416,10,10,10,20,10,10,190/120
+custom rubber manufacturer,50,2,19.73,commercial,C0 定制模压/通用,采购词,b2b,986,,,10,,,,120/230
+custom rubber molded parts,50,10,28.32,transactional,C0 定制模压/通用,商业词,b2b,1416,,,10,,,,190/120
+custom rubber products,50,0,11.96,transactional,C0 定制模压/通用,商业词,b2b,598,10,10,10,10,10,,120/170
+custom rubber seals,50,0,16.88,transactional,C0 定制模压/通用,商业词,b2b,844,20,10,10,10,,,130/170
+ffkm seals,50,0,12.16,transactional,M1 FFKM,核心产品词,b2b,608,20,,10,,,,170/120
+fuel cell gasket,50,0,0.39,transactional,S4 EV/储能,核心产品词,b2b,20,10,10,10,10,0,,140/120
+humanoid robot parts,50,0,0.78,transactional,S2 机器人,商业词,noise,39,10,10,10,90,10,10,150/110
+nbr vs fkm,50,0,0.0,informational,M2 FKM/Viton,工程参考/信息,b2b,0,20,10,10,20,,,210/140
+o-ring company,50,10,11.67,navigational,P1 O圈,采购词,b2b,584,,,,,,,150/140
+rubber chemical resistance chart,50,0,0.0,informational,P2 垫片,工程参考/信息,b2b,0,10,10,10,30,,,250/130
+connector gaskets,40,0,1.22,transactional,P2 垫片,核心产品词,b2b,49,,,,,,,120/130
+custom rubber grommets,40,0,9.01,transactional,C0 定制模压/通用,商业词,b2b,360,10,10,10,,,,90/140
+custom rubber washers,40,0,18.72,transactional,C0 定制模压/通用,商业词,b2b,749,10,10,10,,,,70/160
+fda silicone,40,6,0.06,informational,M5 Silicone/LSR,工程参考/信息,b2b,2,,10,10,,,,110/140
+o-ring failure modes,40,0,16.29,informational,P1 O圈,工程参考/信息,b2b,652,,,10,,,,110/100
+rubber sample,40,0,7.26,informational,C0 定制模压/通用,工程参考/信息,b2b,290,,,,,,,220/30
+vacuum o-rings,40,0,3.07,transactional,S1 半导体/真空,核心产品词,b2b,123,,10,,,,,110/90
+chemical compatibility chart rubber,30,12,0.0,informational,P2 垫片,工程参考/信息,b2b,0,,10,10,,,,100/110
+compression set rubber,30,18,0.0,transactional,R 工程参考,工程参考/信息,b2b,0,10,10,10,,,,80/120
+custom rubber compounding,30,6,0.0,commercial,C1 配方/混炼,商业词,b2b,0,10,10,10,,,,180/50
+custom rubber compounds,30,1,0.0,commercial,C1 配方/混炼,商业词,b2b,0,,,,,,,180/50
+electrical enclosure gasket,30,0,0.84,transactional,P2 垫片,核心产品词,b2b,25,10,10,10,,,,60/90
+enclosure gasket,30,0,0.6,transactional,P2 垫片,核心产品词,b2b,18,,,10,10,,,120/70
+ffkm rubber,30,0,5.27,transactional,M1 FFKM,核心产品词,b2b,158,10,10,,,,,50/170
+fuel resistant rubber,30,0,0.79,informational,R 工程参考,工程参考/信息,b2b,24,,10,20,,,,120/90
+gate valve seal,30,0,0.0,transactional,C0 定制模压/通用,核心产品词,b2b,0,10,,10,10,,,80/110
+o-ring compression set,30,0,0.0,transactional,P1 O圈,工程参考/信息,b2b,0,10,10,10,10,,,100/110
+perlast,30,0,5.39,informational,M1 FFKM,工程参考/信息,b2b,162,20,,,,,,110/80
+pneumatic diaphragm,30,0,0.54,transactional,P3 隔膜/波纹管,核心产品词,b2b,16,,,,40,,,90/120
+robot arm cover,30,0,4.35,transactional,S2 机器人,核心产品词,noise,130,,,,,,,100/80
+robot bumper,30,0,0.02,transactional,S2 机器人,核心产品词,noise,1,10,,,,,,60/80
+rubber bellows manufacturer,30,0,4.29,commercial,P3 隔膜/波纹管,采购词,b2b,129,,,,390,10,,180/70
+rubber bellows manufacturers,30,0,4.29,navigational,P3 隔膜/波纹管,采购词,b2b,129,30,10,10,390,10,10,180/70
+rubber bellows suppliers,30,0,4.29,commercial,P3 隔膜/波纹管,采购词,b2b,129,20,10,10,390,10,10,180/70
+rubber grommets suppliers,30,12,10.08,commercial,C0 定制模压/通用,采购词,b2b,302,,,,,,,70/110
+semiconductor equipment parts,30,0,88.28,commercial,S1 半导体/真空,核心产品词,b2b,2648,10,,,10,,10,350/30
+silicone rubber parts,30,0,0.0,transactional,M5 Silicone/LSR,商业词,b2b,0,10,10,10,30,,,40/70
+custom rubber bellows,20,8,11.21,transactional,P3 隔膜/波纹管,商业词,b2b,224,20,10,10,30,10,,120/50
+custom rubber boots,20,0,1.6,transactional,C0 定制模压/通用,商业词,b2b,32,10,,,10,,,70/70
+custom rubber bushings,20,0,8.64,transactional,C2 粘接/减振,商业词,b2b,173,10,10,10,,,,60/80
+fabric reinforced diaphragm,20,,0.83,transactional,P3 隔膜/波纹管,核心产品词,b2b,17,,,,10,,,40/50
+high vacuum seals,20,7,0.0,transactional,S1 半导体/真空,核心产品词,b2b,0,10,10,10,10,,,30/40
+humanoid robot components,20,,3.67,transactional,S2 机器人,商业词,b2b,73,10,10,10,20,,,80/30
+hydrogen seals,20,0,0.0,transactional,S4 EV/储能,核心产品词,b2b,0,,,,,,,50/40
+liquid cooling quick disconnect,20,19,3.13,informational,S3 液冷/数据中心,工程参考/信息,b2b,63,10,10,,10,10,,70/30
+quick disconnect o-ring,20,0,0.81,transactional,S3 液冷/数据中心,核心产品词,b2b,16,,,,,,,60/60
+rubber compound manufacturer,20,0,3.12,commercial,C1 配方/混炼,采购词,b2b,62,10,10,10,50,,10,130/60
+rubber molding services,20,,0.0,commercial,C0 定制模压/通用,核心产品词,b2b,0,10,10,10,,,,30/110
+rubber tensile test,20,11,0.0,informational,R 工程参考,工程参考/信息,b2b,0,10,,,20,,,40/70
+rubber transfer molding,20,0,0.44,transactional,C0 定制模压/通用,商业词,b2b,9,10,10,10,10,0,,60/70
+rubber washers manufacturer,20,0,6.81,commercial,C0 定制模压/通用,采购词,b2b,136,,,,,,,50/30
+rubber washers manufacturers,20,0,8.57,commercial,C0 定制模压/通用,采购词,b2b,171,,,,,,,60/40
+rubber washers suppliers,20,0,8.57,commercial,C0 定制模压/通用,采购词,b2b,171,10,10,10,,,,60/40
+vacuum chamber seals,20,4,2.21,transactional,S1 半导体/真空,核心产品词,b2b,44,,,10,,,,30/30
+convoluted bellows,10,38,0.01,informational,P3 隔膜/波纹管,工程参考/信息,b2b,0,,,10,10,,,30/30
+custom rubber covers,10,,4.84,transactional,C0 定制模压/通用,商业词,b2b,48,,,,,,,30/30
+custom rubber feet,10,,0.0,transactional,C0 定制模压/通用,商业词,b2b,0,10,,10,,,,30/30
+custom rubber keypads,10,27,4.43,transactional,C0 定制模压/通用,商业词,b2b,44,,,,10,,,30/30
+custom rubber plugs,10,,4.77,transactional,C0 定制模压/通用,商业词,b2b,48,,10,10,,,,40/30
+custom rubber stoppers,10,,0.0,transactional,C0 定制模压/通用,商业词,b2b,0,,,10,,,,30/20
+custom silicone rubber parts,10,,0.0,transactional,M5 Silicone/LSR,商业词,b2b,0,,10,,,,,30/30
+elastomer selection guide,10,,0.0,informational,R 工程参考,工程参考/信息,b2b,0,10,,10,10,,,10/30
+epdm seals suppliers,10,,0.0,navigational,M4 EPDM,采购词,b2b,0,10,10,10,,,,10/10
+ev battery gasket,10,,0.0,transactional,S4 EV/储能,核心产品词,b2b,0,,,,10,,,20/10
+fda rubber,10,,3.37,informational,C0 定制模压/通用,工程参考/信息,b2b,34,20,10,,,,,30/30
+ffkm o-ring price,10,39,4.65,commercial,M1 FFKM,采购词,b2b,46,10,,10,,,,50/30
+ffkm price,10,,0.0,informational,M1 FFKM,采购词,b2b,0,0,10,,,,,30/30
+ffkm vs ptfe,10,39,0.0,informational,M1 FFKM,工程参考/信息,b2b,0,10,10,10,10,10,10,30/30
+flame retardant silicone rubber,10,,0.0,transactional,M5 Silicone/LSR,核心产品词,b2b,0,,,,,,,30/30
+humanoid robot suppliers,10,,0.0,navigational,S2 机器人,采购词,b2b,0,,,,10,,,40/0
+humanoid robot supply chain,10,,5.79,navigational,S2 机器人,核心产品词,b2b,58,10,,,,,,40/30
+ip67 gasket,10,0,0.0,transactional,P2 垫片,核心产品词,b2b,0,10,10,10,10,,,30/30
+ip68 seal,10,0,0.0,transactional,C0 定制模压/通用,核心产品词,b2b,0,10,,,,,,30/30
+kalrez alternative,10,,8.4,informational,M1 FFKM,工程参考/信息,b2b,84,,,,10,,,30/20
+low temperature o-rings,10,0,2.4,transactional,P1 O圈,核心产品词,b2b,24,10,,,,,,30/50
+lsr parts,10,19,0.0,navigational,M5 Silicone/LSR,核心产品词,b2b,0,,,,,,,40/30
+molded bellows,10,,7.0,transactional,P3 隔膜/波纹管,商业词,b2b,70,,10,,,,,30/20
+molded rubber parts manufacturers,10,,0.0,commercial,C0 定制模压/通用,采购词,b2b,0,,,,,,,10/30
+nsf 61 epdm,10,5,0.0,informational,M4 EPDM,工程参考/信息,b2b,0,,,,,,,40/30
+o-ring chemical compatibility,10,0,0.54,informational,P2 垫片,工程参考/信息,b2b,5,,,,,,,30/40
+o-ring factory,10,,0.0,navigational,P1 O圈,采购词,b2b,0,,,,,,,30/30
+o-ring failure analysis,10,,0.0,informational,P1 O圈,工程参考/信息,b2b,0,,,,,,,30/30
+o-ring material guide,10,38,0.0,informational,P1 O圈,工程参考/信息,b2b,0,10,10,10,10,10,,30/30
+oem rubber parts,10,28,0.0,transactional,C0 定制模压/通用,采购词,b2b,0,,,,,,,30/30
+ozone resistant rubber,10,48,0.0,transactional,R 工程参考,核心产品词,b2b,0,,10,10,10,,,30/30
+precision o-rings,10,4,0.0,transactional,P1 O圈,核心产品词,b2b,0,10,,10,,,,30/50
+quad ring manufacturers,10,,0.0,commercial,P1 O圈,采购词,b2b,0,0,0,10,10,,,0/20
+robot gripper pads,10,,0.0,transactional,S2 机器人,核心产品词,b2b,0,10,10,10,10,10,10,50/30
+rubber aging test,10,,0.0,informational,R 工程参考,工程参考/信息,b2b,0,10,,10,20,,,20/30
+rubber boots factory,10,,0.0,navigational,C0 定制模压/通用,采购词,b2b,0,,,,,,,30/20
+rubber boots manufacturer,10,55,2.12,navigational,C0 定制模压/通用,采购词,b2b,21,10,,,,,,50/50
+rubber boots manufacturers,10,55,8.36,commercial,C0 定制模压/通用,采购词,b2b,84,,,,,,,30/30
+rubber boots supplier,10,1,2.12,commercial,C0 定制模压/通用,采购词,b2b,21,,,,,,,50/50
+rubber boots suppliers,10,1,2.12,commercial,C0 定制模压/通用,采购词,b2b,21,,,,,,,50/50
+rubber diaphragm manufacturer,10,,5.91,commercial,P3 隔膜/波纹管,采购词,b2b,59,,,10,50,,10,30/30
+rubber diaphragm manufacturers,10,,6.81,commercial,P3 隔膜/波纹管,采购词,b2b,68,10,10,10,50,10,10,30/30
+rubber diaphragm supplier,10,,3.95,commercial,P3 隔膜/波纹管,采购词,b2b,40,,,,,,,20/0
+rubber diaphragm suppliers,10,,5.91,commercial,P3 隔膜/波纹管,采购词,b2b,59,10,,10,,,,30/30
+rubber factory china,10,,4.06,informational,X 产地采购,采购词,b2b,41,,,,,,,20/20
+rubber feet manufacturer,10,,0.0,navigational,C0 定制模压/通用,采购词,b2b,0,10,0,10,10,,,30/40
+rubber gaskets manufacturers,10,13,47.28,commercial,P2 垫片,采购词,b2b,473,10,10,,10,,,20/10
+rubber grommets manufacturer,10,0,14.36,commercial,C0 定制模压/通用,采购词,b2b,144,,,10,,,,50/50
+rubber grommets manufacturers,10,0,14.36,commercial,C0 定制模压/通用,采购词,b2b,144,,,10,,,,50/50
+rubber hardness shore a,10,20,0.0,informational,R 工程参考,工程参考/信息,b2b,0,10,,,10,,,30/0
+rubber manufacturer india,10,16,0.0,informational,X 产地采购,采购词,b2b,0,,,,170,,,20/20
+rubber manufacturer vietnam,10,,6.69,navigational,X 产地采购,采购词,b2b,67,,,,10,,0,30/20
+rubber parts company,10,,0.0,navigational,C0 定制模压/通用,采购词,b2b,0,,,,,,,30/20
+rubber parts factory,10,,0.0,commercial,C0 定制模压/通用,采购词,b2b,0,,,,,,,20/20
+rubber parts supplier,10,28,0.0,commercial,C0 定制模压/通用,采购词,b2b,0,30,,10,10,,,10/30
+rubber prototype,10,0,88.06,informational,C0 定制模压/通用,工程参考/信息,b2b,881,,,,,,,40/30
+rubber prototyping,10,0,88.06,informational,C0 定制模压/通用,工程参考/信息,b2b,881,10,,,,,,40/30
+rubber seals suppliers,10,8,0.0,commercial,C0 定制模压/通用,采购词,b2b,0,10,,,,,,20/30
+rubber sleeves suppliers,10,,0.0,commercial,C0 定制模压/通用,采购词,b2b,0,10,10,10,20,,,10/30
+rubber stoppers manufacturers,10,,4.78,commercial,C0 定制模压/通用,采购词,b2b,48,,,,,,,30/30
+rubber to metal bonded parts,10,,0.0,transactional,C2 粘接/减振,商业词,b2b,0,10,,,40,,,30/30
+rubber to metal bonded parts manufacturer,10,0,0.0,commercial,C2 粘接/减振,采购词,b2b,0,,,,,,,30/40
+rubber to metal bonded parts manufacturers,10,0,0.0,commercial,C2 粘接/减振,采购词,b2b,0,10,,,10,,0,30/40
+seal failure analysis,10,0,0.0,informational,R 工程参考,工程参考/信息,b2b,0,,10,10,10,,,30/50
+semiconductor seals,10,,0.42,transactional,S1 半导体/真空,核心产品词,b2b,4,10,,0,,,,30/30
+silicone rubber parts manufacturer,10,,0.0,commercial,M5 Silicone/LSR,采购词,b2b,0,,,,10,,,20/30
+silicone rubber parts manufacturers,10,,0.0,commercial,M5 Silicone/LSR,采购词,b2b,0,,,,,,,20/30
+soft robotics silicone,10,,0.0,transactional,S2 机器人,核心产品词,b2b,0,,,,,,,20/20
+custom rubber diaphragm,0,,0.0,transactional,P3 隔膜/波纹管,商业词,b2b,0,,,,,,,0/0
+custom rubber sleeves,0,,0.0,transactional,C0 定制模压/通用,商业词,b2b,0,,,,,,,0/0
+ffkm o-ring manufacturer,0,,0.0,navigational,M1 FFKM,采购词,b2b,0,,,,,,,0/0
+food grade o-rings,0,,0.0,transactional,P1 O圈,核心产品词,b2b,0,,,,,,,0/0
+food grade rubber,0,,0.0,transactional,C0 定制模压/通用,核心产品词,b2b,0,,,,,,,0/0
+gasket manufacturer china,0,44,0.0,commercial,P2 垫片,采购词,b2b,0,,,,,,,0/0
+insert molding rubber,0,,0.0,transactional,C2 粘接/减振,商业词,b2b,0,,,,,,,0/0
+low outgassing elastomer,0,,0.0,transactional,S1 半导体/真空,核心产品词,b2b,0,,,,,,,0/0
+low outgassing o-rings,0,,0.0,transactional,S1 半导体/真空,核心产品词,b2b,0,,,,,,,0/0
+o-rings company,0,0,0.0,navigational,P1 O圈,采购词,b2b,0,,,,,,,0/0
+rubber bellows covers,0,,0.0,transactional,P3 隔膜/波纹管,核心产品词,b2b,0,,,,,,,0/0
+rubber dampers supplier,0,,0.0,commercial,C2 粘接/减振,采购词,b2b,0,0,0,0,10,,,0/0
+rubber feet company,0,,0.0,navigational,C0 定制模压/通用,采购词,b2b,0,,,,,,,0/0
+silicone foam battery,0,,0.0,transactional,S4 EV/储能,核心产品词,b2b,0,,,,,,,0/0

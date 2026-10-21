@@ -1,0 +1,293 @@
+﻿id,keyword,cluster,source_cluster,tag,tier,intent,us_volume,kd,cpc_usd,uk,ca,au,india,sg,my,trend,planned_owner,decision,date,language,coverage,source
+RQ-KW-0001,vacuum seals,semiconductor,S1 半导体/真空,noise,大词,transactional,74000,21,1.29,6600,12100,12100,2900,,,208500/294000,,排除：原表noise,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0002,o-ring,o-rings,P1 O圈,b2b,大词,transactional,33100,3,1.59,6600,4400,3600,9900,880,2900,99300/99300,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0003,o-rings,o-rings,P1 O圈,b2b,大词,transactional,33100,6,1.59,6600,4400,3600,9900,880,2900,99300/99300,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0004,rubber boots,molding,C0 定制模压/通用,noise,大词,transactional,18100,0,1.02,1000,5400,1000,1600,170,590,45000/62500,,排除：原表noise,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0005,epdm,epdm,M4 EPDM,b2b,工程参考/信息,informational,12100,25,2.86,6600,1900,1000,8100,,880,41700/39000,/materials/epdm,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0006,rubber gaskets,gaskets,P2 垫片,retail_mro,大词,transactional,12100,0,1.48,1300,1900,1000,9900,880,1300,29700/41700,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0007,rubber grommets,molding,C0 定制模压/通用,retail_mro,大词,transactional,12100,0,0.82,2900,1600,2900,2400,170,480,36300/36300,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0008,rubber seals,molding,C0 定制模压/通用,retail_mro,大词,transactional,8100,0,0.89,3600,1000,1600,2400,260,590,21300/23100,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0009,cv boots,molding,C0 定制模压/通用,noise,大词,transactional,6600,0,0.41,4400,1000,1600,110,,,18600/20100,,排除：原表noise,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0010,rubber washers,molding,C0 定制模压/通用,retail_mro,大词,transactional,6600,0,0.62,3600,1000,1300,2900,170,390,22800/17400,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0011,rubber stoppers,molding,C0 定制模压/通用,retail_mro,大词,transactional,5400,0,0.88,720,1000,880,1900,320,880,26400/13400,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0012,thermal pad,molding,C0 定制模压/通用,noise,大词,transactional,4400,6,1.48,720,720,720,3600,260,720,11600/11600,,排除：原表noise,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0013,viton o-rings,fkm,M2 FKM/Viton,b2b,大词,transactional,4400,0,1.29,720,590,590,880,140,,14200/9400,/materials/fkm,材料选择；Viton仅第三方材料名称引用,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0014,engine mounts rubber,molding,C0 定制模压/通用,noise,大词,transactional,3600,0,1.21,140,,260,,,,5900/13400,,排除：原表noise,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0015,o-ring size chart,o-rings,P1 O圈,b2b,工程参考/信息,informational,3600,0,0.81,320,480,390,880,70,140,10100/11600,/products/seals,指南归入父页/支持内容；正文归属复核后确定单篇URL,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0016,data center liquid cooling,cooling,S3 液冷/数据中心,b2b,大词,transactional,2900,21,11.3,210,170,140,880,210,140,6200/7700,/industries/liquid-cooling-energy-storage,系统级词：仅行业承接，不宣称供应完整液冷系统,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0017,rubber plugs,molding,C0 定制模压/通用,retail_mro,大词,transactional,2900,0,0.63,390,390,390,320,50,110,10100/7700,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0018,shore a hardness,engineering,R 工程参考,b2b,工程参考/信息,informational,2900,28,14.71,590,390,390,1600,170,260,7700/10200,/resources/rubber-hardness-guide,工程指南,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0019,valve seals,molding,C0 定制模压/通用,retail_mro,大词,transactional,2900,0,0.83,260,390,140,480,,1300,8200/10100,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0020,x-ring,o-rings,P1 O圈,retail_mro,大词,transactional,2900,0,1.49,,,,,,,8200/12400,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0021,diaphragm valve,flexible,P3 隔膜/波纹管,retail_mro,大词,transactional,2400,26,1.9,480,590,480,4400,260,480,7200/6700,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0022,oil seals,molding,C0 定制模压/通用,retail_mro,大词,transactional,2400,0,2.17,880,480,320,9900,320,2900,6700/7700,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0023,rubber bumpers,molding,C0 定制模压/通用,retail_mro,大词,transactional,2400,0,2.34,320,390,320,590,90,,7700/7200,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0024,rubber feet,molding,C0 定制模压/通用,retail_mro,大词,transactional,2400,0,1.0,1600,390,720,720,70,140,8200/7700,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0025,valve diaphragm,flexible,P3 隔膜/波纹管,retail_mro,大词,transactional,2400,26,1.9,,590,480,4400,,480,7200/6700,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0026,fkm,fkm,M2 FKM/Viton,b2b,工程参考/信息,informational,1600,17,9.63,320,260,140,,110,210,4500/4800,/materials/fkm,材料选择；Viton仅第三方材料名称引用,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0027,flange gasket,gaskets,P2 垫片,retail_mro,大词,transactional,1600,0,1.89,210,390,260,720,90,260,5400/4800,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0028,fluoroelastomer,fkm,M2 FKM/Viton,b2b,工程参考/信息,informational,1600,29,0.36,390,210,170,320,70,70,3900/4500,/materials/fkm,材料选择；Viton仅第三方材料名称引用,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0029,rubber compounder,compounds,C1 配方/混炼,b2b,大词,transactional,1600,4,8.71,140,,,,,,1040/1120,/compounds,工艺与外供按任务分工,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0030,rubber compounding,compounds,C1 配方/混炼,b2b,工程参考/信息,informational,1600,4,10.0,110,50,30,720,,,970/2100,/compounding,工艺与外供按任务分工,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0031,epdm seals,epdm,M4 EPDM,b2b,大词,transactional,1300,0,1.02,390,170,320,,,,2600/3600,/materials/epdm,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0032,hydraulic seals,molding,C0 定制模压/通用,retail_mro,大词,transactional,1300,2,3.04,260,260,390,880,50,110,3300/3600,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0033,nbr rubber,hnbr-nbr,M3 NBR/HNBR,b2b,工程参考/信息,informational,1300,19,5.97,260,210,210,1000,70,210,3900/4200,/materials/nbr,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0034,rubber bushings,bonding,C2 粘接/减振,b2b,大词,transactional,1300,6,1.17,70,110,70,210,10,30,3600/3600,/products/rubber-to-metal-bonded-parts,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0035,foam gasket,gaskets,P2 垫片,retail_mro,大词,transactional,1000,0,2.35,260,320,90,260,30,70,3000/2760,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0036,robot seals,robotics,S2 机器人,noise,大词,transactional,1000,15,1.35,,,,,,,1480/6880,,排除：原表noise,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0037,robotic seals,robotics,S2 机器人,noise,大词,transactional,1000,15,1.35,,,,,,,1480/6880,,排除：原表noise,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0038,silicone foam,silicone,M5 Silicone/LSR,retail_mro,大词,transactional,1000,0,1.83,170,170,140,480,40,110,3600/2760,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0039,fkm rubber,fkm,M2 FKM/Viton,b2b,核心产品词,transactional,880,0,1.12,210,140,110,260,70,50,3000/2480,/materials/fkm,材料选择；Viton仅第三方材料名称引用,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0040,high temperature o-rings,o-rings,P1 O圈,b2b,核心产品词,transactional,880,0,1.89,110,210,90,,,,2160/2480,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0041,kalrez,ffkm,M1 FFKM,b2b,工程参考/信息,informational,880,0,9.02,110,90,40,170,50,30,2320/2320,/products/ffkm-replacement-seals,原件对照/替代评估，不承诺等效,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0042,liquid silicone rubber molding,silicone,M5 Silicone/LSR,b2b,商业词,transactional,880,7,14.69,110,20,20,110,10,20,680/730,/capabilities/lsr-molding,工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0043,nbr o-rings,hnbr-nbr,M3 NBR/HNBR,b2b,核心产品词,transactional,880,0,3.76,70,,,,,,960/3890,/materials/nbr,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0044,rotary shaft seals,molding,C0 定制模压/通用,retail_mro,核心产品词,transactional,880,0,3.47,260,170,110,320,30,70,1590/2600,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0045,rubber product manufacturer,molding,C0 定制模压/通用,b2b,采购词,commercial,880,28,6.61,170,70,,880,,,3040/2320,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0046,cable seals,molding,C0 定制模压/通用,b2b,核心产品词,transactional,720,0,16.0,140,140,70,210,,70,1790/2030,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0047,ffkm,ffkm,M1 FFKM,b2b,工程参考/信息,informational,720,2,7.37,140,90,40,170,40,30,1900/2760,/materials/ffkm,材料页（不再为近义词单独建页）,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0048,ffkm o-rings,ffkm,M1 FFKM,b2b,核心产品词,transactional,720,0,10.79,110,50,50,170,30,30,1900/2030,/materials/ffkm,材料页（不再为近义词单独建页）,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0049,pump seals,molding,C0 定制模压/通用,retail_mro,核心产品词,transactional,720,0,2.97,140,110,90,590,,,2320/2030,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0050,rubber sleeves,molding,C0 定制模压/通用,retail_mro,核心产品词,transactional,720,0,2.17,260,,140,590,,,2160/1900,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0051,rubber vs silicone,silicone,M5 Silicone/LSR,b2b,工程参考/信息,informational,720,0,0.0,50,70,40,110,20,40,2030/2030,/materials/silicone,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0052,vibration isolation mounts,bonding,C2 粘接/减振,b2b,核心产品词,transactional,720,3,2.96,70,140,90,90,10,10,1770/2060,/products/rubber-to-metal-bonded-parts,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0053,automotive o-rings,o-rings,P1 O圈,retail_mro,核心产品词,transactional,590,0,0.45,70,50,70,,,,1260/1350,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0054,durometer chart,engineering,R 工程参考,b2b,工程参考/信息,informational,590,50,79.38,50,70,20,90,10,10,1790/1900,/resources/rubber-hardness-guide,工程指南,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0055,fkm o-rings,fkm,M2 FKM/Viton,b2b,核心产品词,transactional,590,0,1.66,140,70,70,,30,50,1790/1660,/materials/fkm,材料选择；Viton仅第三方材料名称引用,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0056,piston seals,molding,C0 定制模压/通用,retail_mro,核心产品词,transactional,590,0,5.07,260,110,70,590,30,,1660/1950,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0057,custom gaskets,gaskets,P2 垫片,b2b,商业词,transactional,480,1,20.74,70,320,70,30,,,1280/1390,/products/gaskets,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0058,dust boots,molding,C0 定制模压/通用,retail_mro,核心产品词,transactional,480,0,1.64,50,70,110,,,,1550/1350,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0059,emi gasket,gaskets,P2 垫片,b2b,核心产品词,transactional,480,0,6.61,40,40,30,140,30,,1550/1590,/products/gaskets,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0060,hnbr,hnbr-nbr,M3 NBR/HNBR,b2b,工程参考/信息,informational,480,0,0.09,110,70,50,170,20,30,1660/1550,/materials/hnbr,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0061,hydraulic o-rings,o-rings,P1 O圈,retail_mro,核心产品词,transactional,480,0,1.61,40,50,50,70,10,10,1440/1390,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0062,kalrez o-rings,ffkm,M1 FFKM,b2b,核心产品词,transactional,480,0,10.74,50,40,20,320,40,40,1440/1260,/products/ffkm-replacement-seals,原件对照/替代评估，不承诺等效,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0063,o-ring manufacturer,o-rings,P1 O圈,b2b,采购词,commercial,480,6,9.11,,50,110,,20,,1300/1260,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0064,o-ring manufacturers,o-rings,P1 O圈,b2b,采购词,commercial,480,6,9.11,140,50,10,320,20,70,1300/1260,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0065,o-ring supplier,o-rings,P1 O圈,b2b,采购词,commercial,480,20,9.11,140,50,,320,20,70,1300/1260,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0066,o-ring suppliers,o-rings,P1 O圈,b2b,采购词,commercial,480,20,9.11,140,50,110,,,,1300/1260,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0067,o-rings manufacturer,o-rings,P1 O圈,b2b,采购词,commercial,480,6,9.11,140,,,320,,,1300/1260,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0068,o-rings manufacturers,o-rings,P1 O圈,b2b,采购词,commercial,480,6,9.11,140,50,10,320,,,1300/1260,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0069,o-rings supplier,o-rings,P1 O圈,b2b,采购词,commercial,480,20,9.11,,,,,20,,1300/1260,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0070,o-rings suppliers,o-rings,P1 O圈,b2b,采购词,commercial,480,20,9.11,140,50,110,,20,,1300/1260,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0071,rubber mounts,molding,C0 定制模压/通用,retail_mro,核心产品词,transactional,480,0,1.06,320,110,480,480,,210,1900/1460,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0072,rubber springs,molding,C0 定制模压/通用,retail_mro,核心产品词,transactional,480,0,1.14,90,70,90,390,,110,1550/1170,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0073,rubber vibration isolators,bonding,C2 粘接/减振,b2b,核心产品词,transactional,480,0,1.31,10,50,30,,,,1460/1100,/products/rubber-to-metal-bonded-parts,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0074,wiper seals,molding,C0 定制模压/通用,retail_mro,核心产品词,transactional,480,0,2.55,140,70,70,720,,,1440/1190,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0075,automotive seals,molding,C0 定制模压/通用,retail_mro,核心产品词,transactional,390,4,0.93,110,30,50,140,10,,960/1300,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0076,conductive rubber,molding,C0 定制模压/通用,b2b,工程参考/信息,informational,390,0,2.41,50,50,40,140,,,1570/1130,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0077,coolant distribution unit,cooling,S3 液冷/数据中心,b2b,核心产品词,transactional,390,0,12.81,50,30,30,,,,1170/1030,/industries/liquid-cooling-energy-storage,系统级词：仅行业承接，不宣称供应完整液冷系统,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0078,neoprene vs epdm,epdm,M4 EPDM,b2b,工程参考/信息,informational,390,0,6.09,40,70,40,70,,,1170/970,/materials/epdm,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0079,quad ring,o-rings,P1 O圈,b2b,核心产品词,transactional,390,0,6.93,90,70,50,110,10,,900/1170,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0080,rubber bellows,flexible,P3 隔膜/波纹管,b2b,核心产品词,transactional,390,0,3.73,210,70,170,1600,70,260,1030/1100,/products/bellows,产品采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0081,rubber covers,molding,C0 定制模压/通用,retail_mro,工程参考/信息,informational,390,0,0.37,170,,50,320,,,1170/1100,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0082,wire seals,molding,C0 定制模压/通用,b2b,核心产品词,transactional,390,0,6.7,70,90,30,,,,1350/1100,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0083,anti vibration mounts,bonding,C2 粘接/减振,b2b,核心产品词,transactional,320,3,1.75,880,90,390,480,20,20,840/960,/products/rubber-to-metal-bonded-parts,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0084,epdm vs viton,fkm,M2 FKM/Viton,b2b,工程参考/信息,informational,320,0,0.74,20,40,20,40,10,10,960/840,/materials/fkm,材料选择；Viton仅第三方材料名称引用,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0085,fkm vs viton,fkm,M2 FKM/Viton,b2b,工程参考/信息,informational,320,11,2.95,40,50,20,70,10,20,970/970,/materials/fkm,材料选择；Viton仅第三方材料名称引用,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0086,o-ring groove design,o-rings,P1 O圈,b2b,工程参考/信息,commercial,320,0,1.21,40,50,40,90,10,,790/850,/products/seals,指南归入父页/支持内容；正文归属复核后确定单篇URL,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0087,robot skin,robotics,S2 机器人,noise,核心产品词,transactional,320,6,0.0,50,40,10,70,,,900/1030,,排除：原表noise,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0088,rubber diaphragm,flexible,P3 隔膜/波纹管,retail_mro,核心产品词,transactional,320,0,3.97,90,40,40,880,,50,840/840,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0089,rubber injection molding,molding,C0 定制模压/通用,b2b,工程参考/信息,informational,320,7,13.9,70,40,20,140,10,20,560/1190,/capabilities/rubber-molding,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0090,custom o-ring,o-rings,P1 O圈,b2b,商业词,transactional,260,0,10.51,,30,,,,10,730/790,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0091,custom o-rings,o-rings,P1 O圈,b2b,商业词,transactional,260,0,10.51,50,30,20,20,,10,730/790,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0092,emi shielding gasket,gaskets,P2 垫片,b2b,核心产品词,transactional,260,0,5.93,30,10,10,90,10,20,490/560,/products/gaskets,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0093,rod seals,molding,C0 定制模压/通用,retail_mro,核心产品词,transactional,260,0,1.85,90,90,40,390,,,680/640,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0094,rubber dampers,bonding,C2 粘接/减振,b2b,核心产品词,transactional,260,0,1.3,110,70,90,590,,,840/780,/products/rubber-to-metal-bonded-parts,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0095,rubber keypads,molding,C0 定制模压/通用,b2b,核心产品词,transactional,260,5,4.34,40,,,210,30,,590/740,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0096,rubber seal rings,molding,C0 定制模压/通用,b2b,核心产品词,transactional,260,0,1.0,170,70,70,,,,1040/740,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0097,thermally conductive silicone,silicone,M5 Silicone/LSR,b2b,工程参考/信息,informational,260,0,3.08,50,30,20,50,,,730/840,/materials/silicone,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0098,waterproof gasket,gaskets,P2 垫片,b2b,核心产品词,transactional,260,0,1.29,40,40,,50,,,690/1060,/products/gaskets,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0099,as568 o-ring size chart,o-rings,P1 O圈,b2b,工程参考/信息,informational,210,0,0.67,10,20,30,40,20,10,590/700,/products/seals,指南归入父页/支持内容；正文归属复核后确定单篇URL,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0100,conductive silicone,silicone,M5 Silicone/LSR,b2b,工程参考/信息,informational,210,0,1.65,40,30,20,30,,,740/590,/materials/silicone,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0101,epdm coolant hose,epdm,M4 EPDM,noise,核心产品词,transactional,210,0,1.03,10,10,,10,,,250/960,,排除：原表noise,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0102,epdm vs fkm,fkm,M2 FKM/Viton,b2b,工程参考/信息,informational,210,0,0.0,20,20,20,20,,,590/520,/materials/fkm,材料选择；Viton仅第三方材料名称引用,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0103,ffkm material,ffkm,M1 FFKM,b2b,工程参考/信息,informational,210,0,7.93,50,20,10,110,20,20,600/480,/materials/ffkm,材料页（不再为近义词单独建页）,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0104,fluorosilicone o-rings,fkm,M2 FKM/Viton,b2b,核心产品词,transactional,210,0,6.16,,,10,,,,590/510,/materials/fkm,材料选择；Viton仅第三方材料名称引用,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0105,lsr injection molding,silicone,M5 Silicone/LSR,b2b,工程参考/信息,informational,210,3,9.17,40,10,10,70,,20,520/590,/capabilities/lsr-molding,工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0106,perfluoroelastomer,ffkm,M1 FFKM,b2b,工程参考/信息,informational,210,0,4.8,40,20,10,,10,,680/640,/materials/ffkm,材料页（不再为近义词单独建页）,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0107,pneumatic seals,molding,C0 定制模压/通用,retail_mro,核心产品词,transactional,210,0,2.38,90,90,30,170,10,,480/790,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0108,rubber parts,molding,C0 定制模压/通用,b2b,商业词,transactional,210,3,7.16,20,20,10,260,,20,680/630,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0109,fkm vs ffkm,ffkm,M1 FFKM,b2b,工程参考/信息,informational,170,0,0.0,30,20,10,40,10,10,630/420,/materials/ffkm,材料页（不再为近义词单独建页）,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0110,industrial rubber products,molding,C0 定制模压/通用,b2b,核心产品词,commercial,170,8,4.51,10,70,10,1300,10,,360/730,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0111,rubber buffer,molding,C0 定制模压/通用,retail_mro,核心产品词,transactional,170,0,1.86,320,,170,720,,70,510/420,,保留研究：零售/MRO意图，不作为首批采购入口,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0112,rubber compression molding,molding,C0 定制模压/通用,b2b,商业词,transactional,170,0,14.55,30,20,10,90,,10,350/450,/capabilities/rubber-molding,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0113,rubber mixing,compounds,C1 配方/混炼,b2b,工程参考/信息,informational,170,0,1.7,10,10,20,210,,,760/520,/compounding,工艺与外供按任务分工,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0114,rubber molding companies,molding,C0 定制模压/通用,b2b,采购词,commercial,170,3,12.98,10,10,10,50,10,,510/450,/capabilities/rubber-molding,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0115,rubber molding company,molding,C0 定制模压/通用,b2b,采购词,commercial,170,10,12.98,,,,,,,510/450,/capabilities/rubber-molding,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0116,viton vs nitrile,fkm,M2 FKM/Viton,b2b,工程参考/信息,informational,170,5,0.0,50,30,30,10,10,,590/510,/materials/fkm,材料选择；Viton仅第三方材料名称引用,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0117,custom rubber molding,molding,C0 定制模压/通用,b2b,商业词,transactional,140,10,10.07,20,10,20,20,,,450/410,/capabilities/rubber-molding,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0118,die cut gaskets,gaskets,P2 垫片,b2b,核心产品词,transactional,140,0,7.85,10,10,10,20,10,10,330/870,/products/gaskets,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0119,gasket die cutting,gaskets,P2 垫片,b2b,核心产品词,transactional,140,0,7.85,,,,,,,330/870,/products/gaskets,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0120,hnbr rubber,hnbr-nbr,M3 NBR/HNBR,b2b,核心产品词,navigational,140,0,0.0,50,20,10,110,10,10,450/340,/materials/hnbr,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0121,industrial gaskets,gaskets,P2 垫片,b2b,核心产品词,transactional,140,0,0.02,10,90,480,110,,,330/500,/products/gaskets,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0122,silicone sponge gasket,silicone,M5 Silicone/LSR,b2b,核心产品词,transactional,140,0,5.57,20,20,10,70,10,,250/540,/materials/silicone,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0123,aflas o-rings,fkm,M2 FKM/Viton,b2b,核心产品词,transactional,110,0,2.77,10,10,,,,,360/360,/materials/fkm,材料选择；Viton仅第三方材料名称引用,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0124,automotive rubber parts,molding,C0 定制模压/通用,noise,商业词,transactional,110,0,0.0,10,10,10,40,,,80/610,,排除：原表noise,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0125,chemical resistant o-rings,gaskets,P2 垫片,b2b,核心产品词,commercial,110,0,1.83,10,10,,,,,210/350,/products/gaskets,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0126,chemraz,ffkm,M1 FFKM,b2b,工程参考/信息,informational,110,0,10.98,20,10,10,20,10,,310/360,/materials/ffkm,材料页（不再为近义词单独建页）,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0127,connector seals,molding,C0 定制模压/通用,b2b,核心产品词,transactional,110,0,0.36,10,,,50,10,,330/270,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0128,custom rubber gaskets,gaskets,P2 垫片,b2b,商业词,transactional,110,0,17.31,40,10,30,20,10,10,330/350,/products/gaskets,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0129,micro o-rings,o-rings,P1 O圈,b2b,核心产品词,transactional,110,9,1.38,20,10,10,30,10,,360/270,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0130,silicone molding services,silicone,M5 Silicone/LSR,b2b,核心产品词,commercial,110,9,11.66,10,10,10,10,,,1220/40,/capabilities/lsr-molding,工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0131,silicone vs epdm,epdm,M4 EPDM,b2b,工程参考/信息,informational,110,12,0.0,10,20,10,20,,,330/340,/materials/epdm,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0132,automotive rubber components,molding,C0 定制模压/通用,b2b,核心产品词,commercial,90,1,1.0,10,10,10,110,,,390/240,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0133,custom rubber components,molding,C0 定制模压/通用,b2b,商业词,commercial,90,10,13.42,,,,,,,230/270,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0134,custom rubber parts,molding,C0 定制模压/通用,b2b,商业词,transactional,90,10,23.49,10,10,10,20,10,,210/230,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0135,hnbr vs nbr,hnbr-nbr,M3 NBR/HNBR,b2b,工程参考/信息,informational,90,0,4.78,20,20,10,30,10,10,290/210,/materials/hnbr,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0136,oil resistant rubber,engineering,R 工程参考,b2b,工程参考/信息,informational,90,5,0.28,10,10,10,30,,,150/320,/resources,工程枢纽；具体文章先核对正文归属,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0137,rubber components manufacturers,molding,C0 定制模压/通用,b2b,采购词,commercial,90,8,20.39,70,,,210,,,170/200,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0138,rubber parts manufacturer,molding,C0 定制模压/通用,b2b,采购词,commercial,90,5,20.39,70,10,10,210,,10,170/200,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0139,rubber parts manufacturers,molding,C0 定制模压/通用,b2b,采购词,commercial,90,5,20.39,70,10,10,210,,,170/200,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0140,rubber parts suppliers,molding,C0 定制模压/通用,b2b,采购词,commercial,90,28,20.39,,,10,,,,170/200,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0141,rubber seals manufacturer,molding,C0 定制模压/通用,b2b,采购词,commercial,90,25,13.44,110,10,50,70,,,300/130,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0142,rubber seals manufacturers,molding,C0 定制模压/通用,b2b,采购词,commercial,90,25,13.44,,,,70,,,300/130,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0143,elastomer compounding,compounds,C1 配方/混炼,b2b,工程参考/信息,informational,70,0,0.31,10,,,,,,170/310,/compounding,工艺与外供按任务分工,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0144,hnbr seals,hnbr-nbr,M3 NBR/HNBR,b2b,核心产品词,transactional,70,3,3.48,10,10,10,20,,,210/150,/materials/hnbr,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0145,kalrez vs viton,ffkm,M1 FFKM,b2b,工程参考/信息,informational,70,0,0.0,10,10,10,10,10,10,230/210,/products/ffkm-replacement-seals,原件对照/替代评估，不承诺等效,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0146,miniature o-rings,o-rings,P1 O圈,b2b,核心产品词,transactional,70,0,1.36,20,10,10,,,,210/210,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0147,molded rubber parts,molding,C0 定制模压/通用,b2b,商业词,transactional,70,0,12.57,10,10,10,70,,,170/240,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0148,o-ring gland design,o-rings,P1 O圈,b2b,工程参考/信息,informational,70,0,2.15,10,10,10,10,,,210/210,/products/seals,指南归入父页/支持内容；正文归属复核后确定单篇URL,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0149,overmolding rubber,bonding,C2 粘接/减振,b2b,工程参考/信息,informational,70,0,6.17,10,10,10,10,10,,170/170,/products/rubber-to-metal-bonded-parts,指南归入父页/支持内容；正文归属复核后确定单篇URL,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0150,rubber components,molding,C0 定制模压/通用,b2b,商业词,transactional,70,1,0.0,10,10,10,110,,10,130/360,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0151,rubber formulation,compounds,C1 配方/混炼,b2b,工程参考/信息,informational,70,0,0.0,10,,,,,,140/270,/compounding,工艺与外供按任务分工,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0152,rubber manufacturing company,molding,C0 定制模压/通用,b2b,采购词,informational,70,9,15.6,,,,,,,200/120,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0153,rubber overmolding,bonding,C2 粘接/减振,b2b,工程参考/信息,informational,70,0,6.17,10,10,10,10,10,10,170/170,/products/rubber-to-metal-bonded-parts,指南归入父页/支持内容；正文归属复核后确定单篇URL,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0154,rubber to metal bonding,bonding,C2 粘接/减振,b2b,工程参考/信息,informational,70,19,2.14,20,10,10,40,10,,160/170,/products/rubber-to-metal-bonded-parts,指南归入父页/支持内容；正文归属复核后确定单篇URL,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0155,tier 2 automotive supplier,molding,C0 定制模压/通用,noise,采购词,commercial,70,0,0.0,,,10,,,,190/170,,排除：原表noise,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0156,custom molded rubber parts,molding,C0 定制模压/通用,b2b,商业词,transactional,50,0,28.32,10,10,10,20,10,10,190/120,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0157,custom rubber manufacturer,molding,C0 定制模压/通用,b2b,采购词,commercial,50,2,19.73,,,10,,,,120/230,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0158,custom rubber molded parts,molding,C0 定制模压/通用,b2b,商业词,transactional,50,10,28.32,,,10,,,,190/120,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0159,custom rubber products,molding,C0 定制模压/通用,b2b,商业词,transactional,50,0,11.96,10,10,10,10,10,,120/170,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0160,custom rubber seals,molding,C0 定制模压/通用,b2b,商业词,transactional,50,0,16.88,20,10,10,10,,,130/170,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0161,ffkm seals,ffkm,M1 FFKM,b2b,核心产品词,transactional,50,0,12.16,20,,10,,,,170/120,/materials/ffkm,材料页（不再为近义词单独建页）,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0162,fuel cell gasket,ev,S4 EV/储能,b2b,核心产品词,transactional,50,0,0.39,10,10,10,10,0,,140/120,/industries/ev-energy-storage,按实际工况承接；非部件确认,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0163,humanoid robot parts,robotics,S2 机器人,noise,商业词,transactional,50,0,0.78,10,10,10,90,10,10,150/110,,排除：原表noise,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0164,nbr vs fkm,fkm,M2 FKM/Viton,b2b,工程参考/信息,informational,50,0,0.0,20,10,10,20,,,210/140,/materials/fkm,材料选择；Viton仅第三方材料名称引用,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0165,o-ring company,o-rings,P1 O圈,b2b,采购词,navigational,50,10,11.67,,,,,,,150/140,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0166,rubber chemical resistance chart,gaskets,P2 垫片,b2b,工程参考/信息,informational,50,0,0.0,10,10,10,30,,,250/130,/products/gaskets,指南归入父页/支持内容；正文归属复核后确定单篇URL,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0167,connector gaskets,gaskets,P2 垫片,b2b,核心产品词,transactional,40,0,1.22,,,,,,,120/130,/products/gaskets,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0168,custom rubber grommets,molding,C0 定制模压/通用,b2b,商业词,transactional,40,0,9.01,10,10,10,,,,90/140,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0169,custom rubber washers,molding,C0 定制模压/通用,b2b,商业词,transactional,40,0,18.72,10,10,10,,,,70/160,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0170,fda silicone,silicone,M5 Silicone/LSR,b2b,工程参考/信息,informational,40,6,0.06,,10,10,,,,110/140,/materials/silicone,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0171,o-ring failure modes,o-rings,P1 O圈,b2b,工程参考/信息,informational,40,0,16.29,,,10,,,,110/100,/products/seals,指南归入父页/支持内容；正文归属复核后确定单篇URL,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0172,rubber sample,molding,C0 定制模压/通用,b2b,工程参考/信息,informational,40,0,7.26,,,,,,,220/30,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0173,vacuum o-rings,semiconductor,S1 半导体/真空,b2b,核心产品词,transactional,40,0,3.07,,10,,,,,110/90,/industries/semiconductor,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0174,chemical compatibility chart rubber,gaskets,P2 垫片,b2b,工程参考/信息,informational,30,12,0.0,,10,10,,,,100/110,/products/gaskets,指南归入父页/支持内容；正文归属复核后确定单篇URL,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0175,compression set rubber,engineering,R 工程参考,b2b,工程参考/信息,transactional,30,18,0.0,10,10,10,,,,80/120,/resources,工程枢纽；具体文章先核对正文归属,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0176,custom rubber compounding,compounds,C1 配方/混炼,b2b,商业词,commercial,30,6,0.0,10,10,10,,,,180/50,/compounding,工艺与外供按任务分工,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0177,custom rubber compounds,compounds,C1 配方/混炼,b2b,商业词,commercial,30,1,0.0,,,,,,,180/50,/compounding,工艺与外供按任务分工,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0178,electrical enclosure gasket,gaskets,P2 垫片,b2b,核心产品词,transactional,30,0,0.84,10,10,10,,,,60/90,/products/gaskets,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0179,enclosure gasket,gaskets,P2 垫片,b2b,核心产品词,transactional,30,0,0.6,,,10,10,,,120/70,/products/gaskets,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0180,ffkm rubber,ffkm,M1 FFKM,b2b,核心产品词,transactional,30,0,5.27,10,10,,,,,50/170,/materials/ffkm,材料页（不再为近义词单独建页）,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0181,fuel resistant rubber,engineering,R 工程参考,b2b,工程参考/信息,informational,30,0,0.79,,10,20,,,,120/90,/resources,工程枢纽；具体文章先核对正文归属,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0182,gate valve seal,molding,C0 定制模压/通用,b2b,核心产品词,transactional,30,0,0.0,10,,10,10,,,80/110,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0183,o-ring compression set,o-rings,P1 O圈,b2b,工程参考/信息,transactional,30,0,0.0,10,10,10,10,,,100/110,/products/seals,指南归入父页/支持内容；正文归属复核后确定单篇URL,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0184,perlast,ffkm,M1 FFKM,b2b,工程参考/信息,informational,30,0,5.39,20,,,,,,110/80,/materials/ffkm,材料页（不再为近义词单独建页）,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0185,pneumatic diaphragm,flexible,P3 隔膜/波纹管,b2b,核心产品词,transactional,30,0,0.54,,,,40,,,90/120,/products/diaphragms,产品采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0186,robot arm cover,robotics,S2 机器人,noise,核心产品词,transactional,30,0,4.35,,,,,,,100/80,,排除：原表noise,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0187,robot bumper,robotics,S2 机器人,noise,核心产品词,transactional,30,0,0.02,10,,,,,,60/80,,排除：原表noise,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0188,rubber bellows manufacturer,flexible,P3 隔膜/波纹管,b2b,采购词,commercial,30,0,4.29,,,,390,10,,180/70,/products/bellows,产品采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0189,rubber bellows manufacturers,flexible,P3 隔膜/波纹管,b2b,采购词,navigational,30,0,4.29,30,10,10,390,10,10,180/70,/products/bellows,产品采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0190,rubber bellows suppliers,flexible,P3 隔膜/波纹管,b2b,采购词,commercial,30,0,4.29,20,10,10,390,10,10,180/70,/products/bellows,产品采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0191,rubber grommets suppliers,molding,C0 定制模压/通用,b2b,采购词,commercial,30,12,10.08,,,,,,,70/110,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0192,semiconductor equipment parts,semiconductor,S1 半导体/真空,b2b,核心产品词,commercial,30,0,88.28,10,,,10,,10,350/30,/industries/semiconductor,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0193,silicone rubber parts,silicone,M5 Silicone/LSR,b2b,商业词,transactional,30,0,0.0,10,10,10,30,,,40/70,/materials/silicone,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0194,custom rubber bellows,flexible,P3 隔膜/波纹管,b2b,商业词,transactional,20,8,11.21,20,10,10,30,10,,120/50,/products/bellows,产品采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0195,custom rubber boots,molding,C0 定制模压/通用,b2b,商业词,transactional,20,0,1.6,10,,,10,,,70/70,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0196,custom rubber bushings,bonding,C2 粘接/减振,b2b,商业词,transactional,20,0,8.64,10,10,10,,,,60/80,/products/rubber-to-metal-bonded-parts,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0197,fabric reinforced diaphragm,flexible,P3 隔膜/波纹管,b2b,核心产品词,transactional,20,,0.83,,,,10,,,40/50,/products/diaphragms,产品采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0198,high vacuum seals,semiconductor,S1 半导体/真空,b2b,核心产品词,transactional,20,7,0.0,10,10,10,10,,,30/40,/industries/semiconductor,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0199,humanoid robot components,robotics,S2 机器人,b2b,商业词,transactional,20,,3.67,10,10,10,20,,,80/30,/industries/humanoid-robotics,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0200,hydrogen seals,ev,S4 EV/储能,b2b,核心产品词,transactional,20,0,0.0,,,,,,,50/40,/industries/ev-energy-storage,按实际工况承接；非部件确认,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0201,liquid cooling quick disconnect,cooling,S3 液冷/数据中心,b2b,工程参考/信息,informational,20,19,3.13,10,10,,10,10,,70/30,/industries/liquid-cooling-energy-storage,系统级词：仅行业承接，不宣称供应完整液冷系统,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0202,quick disconnect o-ring,cooling,S3 液冷/数据中心,b2b,核心产品词,transactional,20,0,0.81,,,,,,,60/60,/industries/liquid-cooling-energy-storage,系统级词：仅行业承接，不宣称供应完整液冷系统,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0203,rubber compound manufacturer,compounds,C1 配方/混炼,b2b,采购词,commercial,20,0,3.12,10,10,10,50,,10,130/60,/compounds,工艺与外供按任务分工,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0204,rubber molding services,molding,C0 定制模压/通用,b2b,核心产品词,commercial,20,,0.0,10,10,10,,,,30/110,/capabilities/rubber-molding,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0205,rubber tensile test,engineering,R 工程参考,b2b,工程参考/信息,informational,20,11,0.0,10,,,20,,,40/70,/resources,工程枢纽；具体文章先核对正文归属,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0206,rubber transfer molding,molding,C0 定制模压/通用,b2b,商业词,transactional,20,0,0.44,10,10,10,10,0,,60/70,/capabilities/rubber-molding,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0207,rubber washers manufacturer,molding,C0 定制模压/通用,b2b,采购词,commercial,20,0,6.81,,,,,,,50/30,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0208,rubber washers manufacturers,molding,C0 定制模压/通用,b2b,采购词,commercial,20,0,8.57,,,,,,,60/40,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0209,rubber washers suppliers,molding,C0 定制模压/通用,b2b,采购词,commercial,20,0,8.57,10,10,10,,,,60/40,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0210,vacuum chamber seals,semiconductor,S1 半导体/真空,b2b,核心产品词,transactional,20,4,2.21,,,10,,,,30/30,/industries/semiconductor,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0211,convoluted bellows,flexible,P3 隔膜/波纹管,b2b,工程参考/信息,informational,10,38,0.01,,,10,10,,,30/30,/products/bellows,产品采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0212,custom rubber covers,molding,C0 定制模压/通用,b2b,商业词,transactional,10,,4.84,,,,,,,30/30,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0213,custom rubber feet,molding,C0 定制模压/通用,b2b,商业词,transactional,10,,0.0,10,,10,,,,30/30,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0214,custom rubber keypads,molding,C0 定制模压/通用,b2b,商业词,transactional,10,27,4.43,,,,10,,,30/30,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0215,custom rubber plugs,molding,C0 定制模压/通用,b2b,商业词,transactional,10,,4.77,,10,10,,,,40/30,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0216,custom rubber stoppers,molding,C0 定制模压/通用,b2b,商业词,transactional,10,,0.0,,,10,,,,30/20,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0217,custom silicone rubber parts,silicone,M5 Silicone/LSR,b2b,商业词,transactional,10,,0.0,,10,,,,,30/30,/materials/silicone,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0218,elastomer selection guide,engineering,R 工程参考,b2b,工程参考/信息,informational,10,,0.0,10,,10,10,,,10/30,/resources,工程枢纽；具体文章先核对正文归属,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0219,epdm seals suppliers,epdm,M4 EPDM,b2b,采购词,navigational,10,,0.0,10,10,10,,,,10/10,/materials/epdm,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0220,ev battery gasket,ev,S4 EV/储能,b2b,核心产品词,transactional,10,,0.0,,,,10,,,20/10,/industries/ev-energy-storage,按实际工况承接；非部件确认,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0221,fda rubber,molding,C0 定制模压/通用,b2b,工程参考/信息,informational,10,,3.37,20,10,,,,,30/30,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0222,ffkm o-ring price,ffkm,M1 FFKM,b2b,采购词,commercial,10,39,4.65,10,,10,,,,50/30,/materials/ffkm,材料页（不再为近义词单独建页）,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0223,ffkm price,ffkm,M1 FFKM,b2b,采购词,informational,10,,0.0,0,10,,,,,30/30,/materials/ffkm,材料页（不再为近义词单独建页）,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0224,ffkm vs ptfe,ffkm,M1 FFKM,b2b,工程参考/信息,informational,10,39,0.0,10,10,10,10,10,10,30/30,/materials/ffkm,材料页（不再为近义词单独建页）,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0225,flame retardant silicone rubber,silicone,M5 Silicone/LSR,b2b,核心产品词,transactional,10,,0.0,,,,,,,30/30,/materials/silicone,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0226,humanoid robot suppliers,robotics,S2 机器人,b2b,采购词,navigational,10,,0.0,,,,10,,,40/0,/industries/humanoid-robotics,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0227,humanoid robot supply chain,robotics,S2 机器人,b2b,核心产品词,navigational,10,,5.79,10,,,,,,40/30,/industries/humanoid-robotics,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0228,ip67 gasket,gaskets,P2 垫片,b2b,核心产品词,transactional,10,0,0.0,10,10,10,10,,,30/30,/products/gaskets,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0229,ip68 seal,molding,C0 定制模压/通用,b2b,核心产品词,transactional,10,0,0.0,10,,,,,,30/30,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0230,kalrez alternative,ffkm,M1 FFKM,b2b,工程参考/信息,informational,10,,8.4,,,,10,,,30/20,/products/ffkm-replacement-seals,原件对照/替代评估，不承诺等效,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0231,low temperature o-rings,o-rings,P1 O圈,b2b,核心产品词,transactional,10,0,2.4,10,,,,,,30/50,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0232,lsr parts,silicone,M5 Silicone/LSR,b2b,核心产品词,navigational,10,19,0.0,,,,,,,40/30,/materials/lsr,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0233,molded bellows,flexible,P3 隔膜/波纹管,b2b,商业词,transactional,10,,7.0,,10,,,,,30/20,/products/bellows,产品采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0234,molded rubber parts manufacturers,molding,C0 定制模压/通用,b2b,采购词,commercial,10,,0.0,,,,,,,10/30,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0235,nsf 61 epdm,epdm,M4 EPDM,b2b,工程参考/信息,informational,10,5,0.0,,,,,,,40/30,/materials/epdm,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0236,o-ring chemical compatibility,gaskets,P2 垫片,b2b,工程参考/信息,informational,10,0,0.54,,,,,,,30/40,/products/gaskets,指南归入父页/支持内容；正文归属复核后确定单篇URL,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0237,o-ring factory,o-rings,P1 O圈,b2b,采购词,navigational,10,,0.0,,,,,,,30/30,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0238,o-ring failure analysis,o-rings,P1 O圈,b2b,工程参考/信息,informational,10,,0.0,,,,,,,30/30,/products/seals,指南归入父页/支持内容；正文归属复核后确定单篇URL,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0239,o-ring material guide,o-rings,P1 O圈,b2b,工程参考/信息,informational,10,38,0.0,10,10,10,10,10,,30/30,/products/seals,指南归入父页/支持内容；正文归属复核后确定单篇URL,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0240,oem rubber parts,molding,C0 定制模压/通用,b2b,采购词,transactional,10,28,0.0,,,,,,,30/30,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0241,ozone resistant rubber,engineering,R 工程参考,b2b,核心产品词,transactional,10,48,0.0,,10,10,10,,,30/30,/resources,工程枢纽；具体文章先核对正文归属,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0242,precision o-rings,o-rings,P1 O圈,b2b,核心产品词,transactional,10,4,0.0,10,,10,,,,30/50,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0243,quad ring manufacturers,o-rings,P1 O圈,b2b,采购词,commercial,10,,0.0,0,0,10,10,,,0/20,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0244,robot gripper pads,robotics,S2 机器人,b2b,核心产品词,transactional,10,,0.0,10,10,10,10,10,10,50/30,/industries/humanoid-robotics,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0245,rubber aging test,engineering,R 工程参考,b2b,工程参考/信息,informational,10,,0.0,10,,10,20,,,20/30,/resources,工程枢纽；具体文章先核对正文归属,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0246,rubber boots factory,molding,C0 定制模压/通用,b2b,采购词,navigational,10,,0.0,,,,,,,30/20,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0247,rubber boots manufacturer,molding,C0 定制模压/通用,b2b,采购词,navigational,10,55,2.12,10,,,,,,50/50,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0248,rubber boots manufacturers,molding,C0 定制模压/通用,b2b,采购词,commercial,10,55,8.36,,,,,,,30/30,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0249,rubber boots supplier,molding,C0 定制模压/通用,b2b,采购词,commercial,10,1,2.12,,,,,,,50/50,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0250,rubber boots suppliers,molding,C0 定制模压/通用,b2b,采购词,commercial,10,1,2.12,,,,,,,50/50,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0251,rubber diaphragm manufacturer,flexible,P3 隔膜/波纹管,b2b,采购词,commercial,10,,5.91,,,10,50,,10,30/30,/products/diaphragms,产品采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0252,rubber diaphragm manufacturers,flexible,P3 隔膜/波纹管,b2b,采购词,commercial,10,,6.81,10,10,10,50,10,10,30/30,/products/diaphragms,产品采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0253,rubber diaphragm supplier,flexible,P3 隔膜/波纹管,b2b,采购词,commercial,10,,3.95,,,,,,,20/0,/products/diaphragms,产品采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0254,rubber diaphragm suppliers,flexible,P3 隔膜/波纹管,b2b,采购词,commercial,10,,5.91,10,,10,,,,30/30,/products/diaphragms,产品采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0255,rubber factory china,molding,X 产地采购,b2b,采购词,informational,10,,4.06,,,,,,,20/20,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0256,rubber feet manufacturer,molding,C0 定制模压/通用,b2b,采购词,navigational,10,,0.0,10,0,10,10,,,30/40,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0257,rubber gaskets manufacturers,gaskets,P2 垫片,b2b,采购词,commercial,10,13,47.28,10,10,,10,,,20/10,/products/gaskets,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0258,rubber grommets manufacturer,molding,C0 定制模压/通用,b2b,采购词,commercial,10,0,14.36,,,10,,,,50/50,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0259,rubber grommets manufacturers,molding,C0 定制模压/通用,b2b,采购词,commercial,10,0,14.36,,,10,,,,50/50,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0260,rubber hardness shore a,engineering,R 工程参考,b2b,工程参考/信息,informational,10,20,0.0,10,,,10,,,30/0,/resources/rubber-hardness-guide,工程指南,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0261,rubber manufacturer india,molding,X 产地采购,b2b,采购词,informational,10,16,0.0,,,,170,,,20/20,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0262,rubber manufacturer vietnam,molding,X 产地采购,b2b,采购词,navigational,10,,6.69,,,,10,,0,30/20,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0263,rubber parts company,molding,C0 定制模压/通用,b2b,采购词,navigational,10,,0.0,,,,,,,30/20,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0264,rubber parts factory,molding,C0 定制模压/通用,b2b,采购词,commercial,10,,0.0,,,,,,,20/20,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0265,rubber parts supplier,molding,C0 定制模压/通用,b2b,采购词,commercial,10,28,0.0,30,,10,10,,,10/30,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0266,rubber prototype,molding,C0 定制模压/通用,b2b,工程参考/信息,informational,10,0,88.06,,,,,,,40/30,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0267,rubber prototyping,molding,C0 定制模压/通用,b2b,工程参考/信息,informational,10,0,88.06,10,,,,,,40/30,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0268,rubber seals suppliers,molding,C0 定制模压/通用,b2b,采购词,commercial,10,8,0.0,10,,,,,,20/30,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0269,rubber sleeves suppliers,molding,C0 定制模压/通用,b2b,采购词,commercial,10,,0.0,10,10,10,20,,,10/30,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0270,rubber stoppers manufacturers,molding,C0 定制模压/通用,b2b,采购词,commercial,10,,4.78,,,,,,,30/30,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0271,rubber to metal bonded parts,bonding,C2 粘接/减振,b2b,商业词,transactional,10,,0.0,10,,,40,,,30/30,/products/rubber-to-metal-bonded-parts,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0272,rubber to metal bonded parts manufacturer,bonding,C2 粘接/减振,b2b,采购词,commercial,10,0,0.0,,,,,,,30/40,/products/rubber-to-metal-bonded-parts,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0273,rubber to metal bonded parts manufacturers,bonding,C2 粘接/减振,b2b,采购词,commercial,10,0,0.0,10,,,10,,0,30/40,/products/rubber-to-metal-bonded-parts,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0274,seal failure analysis,engineering,R 工程参考,b2b,工程参考/信息,informational,10,0,0.0,,10,10,10,,,30/50,/resources,工程枢纽；具体文章先核对正文归属,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0275,semiconductor seals,semiconductor,S1 半导体/真空,b2b,核心产品词,transactional,10,,0.42,10,,0,,,,30/30,/industries/semiconductor,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0276,silicone rubber parts manufacturer,silicone,M5 Silicone/LSR,b2b,采购词,commercial,10,,0.0,,,,10,,,20/30,/materials/silicone,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0277,silicone rubber parts manufacturers,silicone,M5 Silicone/LSR,b2b,采购词,commercial,10,,0.0,,,,,,,20/30,/materials/silicone,材料选择,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0278,soft robotics silicone,robotics,S2 机器人,b2b,核心产品词,transactional,10,,0.0,,,,,,,20/20,/industries/humanoid-robotics,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0279,custom rubber diaphragm,flexible,P3 隔膜/波纹管,b2b,商业词,transactional,0,,0.0,,,,,,,0/0,/products/diaphragms,产品采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0280,custom rubber sleeves,molding,C0 定制模压/通用,b2b,商业词,transactional,0,,0.0,,,,,,,0/0,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0281,ffkm o-ring manufacturer,ffkm,M1 FFKM,b2b,采购词,navigational,0,,0.0,,,,,,,0/0,/materials/ffkm,材料页（不再为近义词单独建页）,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0282,food grade o-rings,o-rings,P1 O圈,b2b,核心产品词,transactional,0,,0.0,,,,,,,0/0,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0283,food grade rubber,molding,C0 定制模压/通用,b2b,核心产品词,transactional,0,,0.0,,,,,,,0/0,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0284,gasket manufacturer china,gaskets,P2 垫片,b2b,采购词,commercial,0,44,0.0,,,,,,,0/0,/products/gaskets,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0285,insert molding rubber,bonding,C2 粘接/减振,b2b,商业词,transactional,0,,0.0,,,,,,,0/0,/products/rubber-to-metal-bonded-parts,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0286,low outgassing elastomer,semiconductor,S1 半导体/真空,b2b,核心产品词,transactional,0,,0.0,,,,,,,0/0,/industries/semiconductor,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0287,low outgassing o-rings,semiconductor,S1 半导体/真空,b2b,核心产品词,transactional,0,,0.0,,,,,,,0/0,/industries/semiconductor,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0288,o-rings company,o-rings,P1 O圈,b2b,采购词,navigational,0,0,0.0,,,,,,,0/0,/products/seals,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0289,rubber bellows covers,flexible,P3 隔膜/波纹管,b2b,核心产品词,transactional,0,,0.0,,,,,,,0/0,/products/bellows,产品采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0290,rubber dampers supplier,bonding,C2 粘接/减振,b2b,采购词,commercial,0,,0.0,0,0,0,10,,,0/0,/products/rubber-to-metal-bonded-parts,唯一规划承接页,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0291,rubber feet company,molding,C0 定制模压/通用,b2b,采购词,navigational,0,,0.0,,,,,,,0/0,/products/custom,定制件或工艺采购,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv
+RQ-KW-0292,silicone foam battery,ev,S4 EV/储能,b2b,核心产品词,transactional,0,,0.0,,,,,,,0/0,/industries/ev-energy-storage,按实际工况承接；非部件确认,2026-10-21,en,待存量全文归属核对,kw_us_classified_2026-10-21.csv

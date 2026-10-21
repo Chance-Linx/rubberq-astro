@@ -1,0 +1,82 @@
+{
+  "schema_version": "rubberq-ggs-baseline-v1",
+  "captured_on": "2026-10-21",
+  "timezone": "Asia/Shanghai",
+  "ggs_project_id": "project-b1ab0698-feca-4778-8050-bf39025d4082",
+  "technical_commit": "fa489730223500c031023995b585c00c15620ac4",
+  "production_deployment": "e1a42643-706c-439e-b68c-51a9198ae3e9",
+  "data_window": {
+    "start": "2026-09-20",
+    "end": "2026-10-17",
+    "gsc_timezone": "America/Los_Angeles",
+    "ga4_timezone": "Asia/Shanghai"
+  },
+  "kpis": {
+    "gsc_clicks": 10,
+    "gsc_impressions": 901,
+    "gsc_ctr": 0.011098779134295227,
+    "ga4_organic_sessions": 15,
+    "qualified_opportunities": null,
+    "quotes": null,
+    "orders": null
+  },
+  "d1": {
+    "before": 16,
+    "after": 19,
+    "internal_test_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19
+    ],
+    "promotion_ids": [
+      11
+    ],
+    "technical_inquiry_ids": [
+      16
+    ],
+    "classification_method": "Manual actual-message review; never exclude by test substring only"
+  },
+  "rfq_acceptance": {
+    "ui": true,
+    "api_accepted": true,
+    "d1": true,
+    "actual_inbox_receipt": true,
+    "correct_resend_account_events": false
+  },
+  "content": {
+    "action": "UPDATE_EXISTING",
+    "id": "article-sem-001",
+    "slug": "high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+    "candidate_sha256": "0aa7f9cf4acba76211636768399ebbf34fa92ce2964926f6dd5cc8c1102f0bc9",
+    "independent_review": "PASS",
+    "human_publication_approval": false,
+    "cms_write": false,
+    "actual_live_at": null,
+    "market_hypothesis": "North America English, low-to-medium confidence; topic market demand not proven"
+  },
+  "cadence": {
+    "existing_gsc_review_due": "2026-10-29",
+    "new_content_health_due": null,
+    "new_content_first_review_due": null,
+    "derive_after_publication": {
+      "health_day": 10,
+      "first_review_day": 30
+    },
+    "automation_enabled": false
+  },
+  "overall": "TECHNICAL_RUN_VERIFIED_CONTENT_APPROVAL_AND_ACCOUNT_EVENT_ACCESS_PENDING"
+}

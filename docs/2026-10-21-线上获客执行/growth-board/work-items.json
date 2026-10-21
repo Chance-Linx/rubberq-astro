@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "id": "RQ-EXEC-01",
+      "type": "任务",
+      "title": "第1步方向验收记录",
+      "owner": "Codex",
+      "status": "待验收",
+      "dependencies": [],
+      "start_date": "2026-10-21",
+      "completion_date": null,
+      "outputs": [
+        "rubberq-astro/docs/2026-10-21-线上获客执行/01-验收决策与执行口径.md"
+      ],
+      "reports": [
+        "rubberq-astro/docs/2026-10-21-线上获客执行/00-交付入口.md"
+      ],
+      "next_step": "查看本地交付与验收记录；不等同官网上线",
+      "channel": "content",
+      "source": "根任务清单RQAC系列的只读阶段投影",
+      "note": "本轮交付，未实施外部发布",
+      "delivered_at": "2026-10-21"
+    },
+    {
+      "id": "RQ-EXEC-02",
+      "type": "任务",
+      "title": "第2步企业形象文案",
+      "owner": "Codex",
+      "status": "待验收",
+      "dependencies": [
+        "RQ-EXEC-01"
+      ],
+      "start_date": "2026-10-21",
+      "completion_date": null,
+      "outputs": [
+        "rubberq-astro/docs/2026-10-21-线上获客执行/02-企业形象与英文文案.md"
+      ],
+      "reports": [
+        "rubberq-astro/docs/2026-10-21-线上获客执行/00-交付入口.md"
+      ],
+      "next_step": "查看本地交付与验收记录；不等同官网上线",
+      "channel": "content",
+      "source": "根任务清单RQAC系列的只读阶段投影",
+      "note": "本轮交付，未实施外部发布",
+      "delivered_at": "2026-10-21"
+    },
+    {
+      "id": "RQ-EXEC-03",
+      "type": "任务",
+      "title": "第3步全站IA",
+      "owner": "Codex",
+      "status": "待验收",
+      "dependencies": [
+        "RQ-EXEC-01"
+      ],
+      "start_date": "2026-10-21",
+      "completion_date": null,
+      "outputs": [
+        "rubberq-astro/docs/2026-10-21-线上获客执行/03-全站IA与URL归属.md",
+        "rubberq-astro/docs/2026-10-21-线上获客执行/data/页面职责与URL归属.csv"
+      ],
+      "reports": [
+        "rubberq-astro/docs/2026-10-21-线上获客执行/00-交付入口.md"
+      ],
+      "next_step": "查看本地交付与验收记录；不等同官网上线",
+      "channel": "content",
+      "source": "根任务清单RQAC系列的只读阶段投影",
+      "note": "本轮交付，未实施外部发布",
+      "delivered_at": "2026-10-21"
+    },
+    {
+      "id": "RQ-EXEC-04",
+      "type": "任务",
+      "title": "第4步逐页结构与英文稿",
+      "owner": "Codex",
+      "status": "待验收",
+      "dependencies": [
+        "RQ-EXEC-01"
+      ],
+      "start_date": "2026-10-21",
+      "completion_date": null,
+      "outputs": [
+        "rubberq-astro/docs/2026-10-21-线上获客执行/04-页面文案索引.md",
+        "rubberq-astro/docs/2026-10-21-线上获客执行/data/pages.json"
+      ],
+      "reports": [
+        "rubberq-astro/docs/2026-10-21-线上获客执行/00-交付入口.md"
+      ],
+      "next_step": "查看本地交付与验收记录；不等同官网上线",
+      "channel": "content",
+      "source": "根任务清单RQAC系列的只读阶段投影",
+      "note": "本轮交付，未实施外部发布",
+      "delivered_at": "2026-10-21"
+    },
+    {
+      "id": "RQ-EXEC-05",
+      "type": "任务",
+      "title": "第5步关键词、话题与竞品资产",
+      "owner": "Codex",
+      "status": "待验收",
+      "dependencies": [
+        "RQ-EXEC-01"
+      ],
+      "start_date": "2026-10-21",
+      "completion_date": null,
+      "outputs": [
+        "rubberq-astro/docs/2026-10-21-线上获客执行/05-关键词话题与竞品资产说明.md",
+        "rubberq-astro/docs/2026-10-21-线上获客执行/data/话题库.csv",
+        "rubberq-astro/docs/2026-10-21-线上获客执行/data/关键词-URL地图.csv",
+        "rubberq-astro/docs/2026-10-21-线上获客执行/data/竞品参考清单.csv"
+      ],
+      "reports": [
+        "rubberq-astro/docs/2026-10-21-线上获客执行/00-交付入口.md"
+      ],
+      "next_step": "查看本地交付与验收记录；不等同官网上线",
+      "channel": "content",
+      "source": "根任务清单RQAC系列的只读阶段投影",
+      "note": "本轮交付，未实施外部发布",
+      "delivered_at": "2026-10-21"
+    },
+    {
+      "id": "RQ-EXEC-06",
+      "type": "任务",
+      "title": "本地只读看板接入",
+      "owner": "Codex",
+      "status": "待验收",
+      "dependencies": [
+        "RQ-EXEC-01"
+      ],
+      "start_date": "2026-10-21",
+      "completion_date": null,
+      "outputs": [
+        "rubberq-astro/docs/2026-10-21-线上获客执行/07-看板运行与维护.md",
+        "rubberq-astro/docs/2026-10-21-线上获客执行/project-config.json"
+      ],
+      "reports": [
+        "rubberq-astro/docs/2026-10-21-线上获客执行/00-交付入口.md"
+      ],
+      "next_step": "查看本地交付与验收记录；不等同官网上线",
+      "channel": "content",
+      "source": "根任务清单RQAC系列的只读阶段投影",
+      "note": "本轮交付，未实施外部发布",
+      "delivered_at": "2026-10-21"
+    },
+    {
+      "id": "RQ-EXEC-07",
+      "type": "任务",
+      "title": "存量全文与URL归属核对",
+      "owner": "Codex",
+      "status": "计划",
+      "dependencies": [
+        "RQ-EXEC-01"
+      ],
+      "start_date": null,
+      "completion_date": null,
+      "outputs": [],
+      "reports": [
+        "rubberq-astro/docs/2026-10-21-线上获客执行/00-交付入口.md"
+      ],
+      "next_step": "按实际正文和发布范围接续",
+      "channel": "content",
+      "source": "根任务清单RQAC系列的只读阶段投影",
+      "note": "尚未执行",
+      "delivered_at": null
+    },
+    {
+      "id": "RQ-EXEC-08",
+      "type": "任务",
+      "title": "批准页面的代码/CMS实施与上线",
+      "owner": "Codex",
+      "status": "计划",
+      "dependencies": [
+        "RQ-EXEC-01"
+      ],
+      "start_date": null,
+      "completion_date": null,
+      "outputs": [],
+      "reports": [
+        "rubberq-astro/docs/2026-10-21-线上获客执行/00-交付入口.md"
+      ],
+      "next_step": "按实际正文和发布范围接续",
+      "channel": "content",
+      "source": "根任务清单RQAC系列的只读阶段投影",
+      "note": "尚未执行",
+      "delivered_at": null
+    }
+  ]
+}

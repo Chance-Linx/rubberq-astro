@@ -1,0 +1,50 @@
+﻿id,url,name,role,keyword,priority,new,status,cta,cta_url,evidence
+RQ-PG-001,/,首页,信任总入口/商业分流,precision rubber parts manufacturer,P0,False,文案已交付；未实施,Request a Quote,/contact,根AGENTS公司事实；厂区图片；有效证书；ERP脱敏记录
+RQ-PG-002,/about,关于RubberQ,企业信任,RubberQ manufacturer,P1,False,文案已交付；未实施,Discuss Your Project,/contact,成立档案、厂区及体系证书
+RQ-PG-003,/products,产品总览,产品获客枢纽,custom rubber parts,P0,False,文案已交付；未实施,Send Your Drawing,/contact,产品实物和图纸；新类别项目可行性确认
+RQ-PG-004,/products/seals,O圈与密封件,产品商业页,custom o-rings,P0,False,文案已交付；未实施,Request an O-Ring Quote,/contact,尺寸检测样本、产品图、特定材料试样记录
+RQ-PG-005,/products/gaskets,定制垫片,产品商业页,custom gaskets,P0,False,文案已交付；未实施,Request a Gasket Quote,/contact,垫片图纸与试样、装配工况、材料报告
+RQ-PG-006,/products/bellows,波纹管与防护套,产品商业页,rubber bellows,P1,False,文案已交付；未实施,Discuss a Bellows Design,/contact,行程图、装配样品及客户试验条件
+RQ-PG-007,/products/custom,定制模压件,产品商业页,custom molded rubber parts,P0,False,文案已交付；未实施,Send a Custom Part RFQ,/contact,定制件图纸与工艺评审、样件记录
+RQ-PG-008,/products/diaphragms,隔膜,产品商业页,rubber diaphragm manufacturer,P1,True,文案已交付；未实施,Discuss a Diaphragm Project,/contact,隔膜制造适配、结构图、功能测试要求
+RQ-PG-009,/products/rubber-to-metal-bonded-parts,橡胶金属粘接件,产品商业页,rubber to metal bonding,P1,True,文案已交付；未实施,Review a Bonded Part,/contact,插芯材质与表面处理、粘接样件和试验条件
+RQ-PG-010,/products/ffkm-replacement-seals,FFKM售后替代件,售后采购商业页,ffkm replacement seals,P0,True,文案已交付；未实施,Request an FFKM Replacement Review,/contact,原件规格及客户合法提供图纸、具体配方和工况验证
+RQ-PG-011,/materials,材料总览,材料获客枢纽,rubber materials,P0,False,文案已交付；未实施,Discuss Material Selection,/contact,材料牌号、TDS与适用工况
+RQ-PG-012,/materials/ffkm,FFKM材料,材料页,ffkm o-rings,P0,False,文案已交付；未实施,Review a FFKM Application,/contact,FFKM具体牌号/TDS、应用试验；不移植历史通用参数
+RQ-PG-013,/materials/fkm,FKM材料,材料页,fkm o-rings,P0,False,文案已交付；未实施,Review a FKM Application,/contact,FKM具体牌号/TDS、应用试验；不移植历史通用参数
+RQ-PG-014,/materials/epdm,EPDM材料,材料页,epdm seals,P0,False,文案已交付；未实施,Review a EPDM Application,/contact,EPDM具体牌号/TDS、应用试验；不移植历史通用参数
+RQ-PG-015,/materials/hnbr,HNBR材料,材料页,hnbr seals,P1,False,文案已交付；未实施,Review a HNBR Application,/contact,HNBR具体牌号/TDS、应用试验；不移植历史通用参数
+RQ-PG-016,/materials/nbr,NBR材料,材料页,nbr o-rings,P1,False,文案已交付；未实施,Review a NBR Application,/contact,NBR具体牌号/TDS、应用试验；不移植历史通用参数
+RQ-PG-017,/materials/silicone,Silicone材料,材料页,silicone rubber molding,P1,False,文案已交付；未实施,Review a Silicone Application,/contact,Silicone具体牌号/TDS、应用试验；不移植历史通用参数
+RQ-PG-018,/materials/lsr,LSR材料,材料页,liquid silicone rubber molding,P1,False,文案已交付；未实施,Review a LSR Application,/contact,LSR具体牌号/TDS、应用试验；不移植历史通用参数
+RQ-PG-019,/materials/acm,ACM材料,材料页,acm rubber,P1,False,文案已交付；未实施,Review a ACM Application,/contact,ACM具体牌号/TDS、应用试验；不移植历史通用参数
+RQ-PG-020,/materials/aem,AEM材料,材料页,aem rubber,P1,False,文案已交付；未实施,Review a AEM Application,/contact,AEM具体牌号/TDS、应用试验；不移植历史通用参数
+RQ-PG-021,/capabilities,制造能力,能力枢纽,rubber parts manufacturer,P0,False,文案已交付；未实施,Discuss Your Project,/contact,设备、工艺与检验记录
+RQ-PG-022,/capabilities/rubber-molding,橡胶成型工艺,工艺商业页,custom rubber molding,P0,True,文案已交付；未实施,Review a Molding Project,/contact,具体工艺与设备适配表；模具及首件报告
+RQ-PG-023,/capabilities/lsr-molding,LSR成型项目,工艺商业页,liquid silicone rubber molding,P1,True,文案已交付；未实施,Send an LSR Part Drawing,/contact,LSR工艺/产线适配确认；不沿用未经证实的设备数量
+RQ-PG-024,/compounding,配方与混炼能力,能力商业页,rubber compounding,P0,False,文案已交付；未实施,Discuss a Compound Requirement,/contact,配方控制、混炼与批次报告；单A线事实，不写双线
+RQ-PG-025,/compounds,配方胶料外供,外供商业页,rubber compounder,P0,True,文案已交付；未实施,Request a Compound Supply Review,/contact,供货形式、包装/储存/TDS/批次条件；不默认许可或配方知识产权
+RQ-PG-026,/testing,检测实验室,验证信任页,rubber testing laboratory,P0,False,文案已交付；未实施,Discuss a Test Requirement,/contact,设备清单、校准与匿名报告；不宣传独立认可实验室
+RQ-PG-027,/quality,质量与认证,供应商评估信任页,rubber manufacturing quality,P0,False,文案已交付；未实施,Request Supplier Information,/contact,有效证书范围/有效期、控制计划和脱敏批次追溯
+RQ-PG-028,/factory,工厂,制造信任页,rubber factory,P1,False,文案已交付；未实施,Discuss a Factory Evaluation,/contact,本厂实拍，真实设备表；删除占位设备数量
+RQ-PG-029,/industries,应用行业总览,行业转化枢纽,industrial rubber components,P0,False,文案已交付；未实施,Discuss Your Project,/contact,工况与实例适配；展示顺序按用户10-21决定
+RQ-PG-030,/industries/semiconductor,半导体,行业转化页,semiconductor seals,P1,False,文案已交付；未实施,Discuss Your Application,/contact,具体应用要求与样件；不添加未经证实的OEM、寿命或认证承诺
+RQ-PG-031,/industries/liquid-cooling-energy-storage,液冷与储能,行业转化页,liquid cooling seals,P1,True,文案已交付；未实施,Discuss Your Application,/contact,具体应用要求与样件；不添加未经证实的OEM、寿命或认证承诺
+RQ-PG-032,/industries/ev-energy-storage,EV热管理（保留旧URL）,行业转化页,ev thermal management seals,P1,False,文案已交付；未实施,Discuss Your Application,/contact,具体应用要求与样件；不添加未经证实的OEM、寿命或认证承诺
+RQ-PG-033,/industries/humanoid-robotics,人形机器人,行业转化页,robot rubber components,P1,True,文案已交付；未实施,Discuss Your Application,/contact,具体应用要求与样件；不添加未经证实的OEM、寿命或认证承诺
+RQ-PG-034,/industries/industrial-equipment,通用工业,行业转化页,custom industrial rubber parts,P1,False,文案已交付；未实施,Discuss Your Application,/contact,具体应用要求与样件；不添加未经证实的OEM、寿命或认证承诺
+RQ-PG-035,/industries/automotive-tier2,汽车Tier2,行业转化页,automotive rubber components,P1,False,文案已交付；未实施,Discuss Your Application,/contact,具体应用要求与样件；不添加未经证实的OEM、寿命或认证承诺
+RQ-PG-036,/resources,工程资源,工程参考枢纽,rubber engineering resources,P1,False,文案已交付；未实施,Discuss Your Project,/contact,标准来源；技术内容不能冒充工厂实测
+RQ-PG-037,/standards,标准索引,标准参考页,rubber standards,P1,False,文案已交付；未实施,Discuss Your Project,/contact,标准版权与版本核对；不复制受限标准全文
+RQ-PG-038,/resources/o-ring-size-guide,O圈尺寸与沟槽指南,工程参考页,o-ring size chart,P1,True,文案已交付；未实施,Discuss the Specification,/contact,正式标准/可靠一手资料待具体引用；本稿为清单指南，不包含未经校验数值表
+RQ-PG-039,/resources/rubber-hardness-guide,橡胶硬度指南,工程参考页,shore a hardness,P1,True,文案已交付；未实施,Discuss the Specification,/contact,正式标准/可靠一手资料待具体引用；本稿为清单指南，不包含未经校验数值表
+RQ-PG-040,/resources/material-compatibility,材料兼容性指南,工程参考页,chemical compatibility chart,P1,True,文案已交付；未实施,Discuss the Specification,/contact,正式标准/可靠一手资料待具体引用；本稿为清单指南，不包含未经校验数值表
+RQ-PG-041,/resources/seal-failure-analysis,密封失效分析,工程参考页,rubber seal failure,P1,True,文案已交付；未实施,Discuss the Specification,/contact,正式标准/可靠一手资料待具体引用；本稿为清单指南，不包含未经校验数值表
+RQ-PG-042,/blog,英文博客,内容聚合,rubber component guides,P1,False,文案已交付；未实施,Discuss Your Project,/contact,存量正文逐篇归属与质量核对；博客仅英文
+RQ-PG-043,/case-studies,项目经验,证据页,rubber component project review,P1,False,文案已交付；未实施,Discuss Your Project,/contact,无获准案例前采用评估入口，不虚构客户、业绩或成功案例
+RQ-PG-044,/contact,工程咨询与报价,转化入口,rubber parts quote,P0,False,文案已交付；未实施,Submit Project Details,/contact,现有ContactForm字段映射；不改API契约
+RQ-PG-045,/sample-request,样品申请,转化入口,custom rubber samples,P1,False,文案已交付；未实施,Submit Sample Requirements,/contact,现有SampleRequestForm字段；不承诺免费或固定交期
+RQ-PG-046,/batch-rfq,多件号RFQ,转化入口,rubber parts rfq,P1,False,文案已交付；未实施,Submit a Multi-Part RFQ,/contact,现有BatchRfqForm字段；报价/工具费无虚构
+RQ-PG-047,/search,站内搜索,导航工具,site search,P1,False,文案已交付；未实施,Discuss Your Project,/contact,保留现有搜索实现；结果页noindex
+RQ-PG-048,/privacy,隐私政策,法律/功能页,,P2,False,结构维护；沿用现行法律正文,Discuss Your Project,/contact,既有法律文本保留，不用营销稿替换条款
+RQ-PG-049,/terms,使用条款,法律/功能页,,P2,False,结构维护；沿用现行法律正文,Discuss Your Project,/contact,既有法律文本保留，不用营销稿替换条款

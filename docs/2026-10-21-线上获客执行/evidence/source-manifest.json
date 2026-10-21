@@ -1,0 +1,72 @@
+{
+  "captured_on": "2026-10-21",
+  "network_calls": 0,
+  "paid_calls": 0,
+  "sources": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "e4d2289c32afa2630d20a862471e2e575290beedd4526882fa0b217199e4707b",
+      "bytes": 11093
+    },
+    {
+      "path": "rubberq-astro/AGENTS.md",
+      "sha256": "2275f11c4160bfa190c01cec927f0370abc63a74cb47730283fba1e157cfbcf8",
+      "bytes": 3082
+    },
+    {
+      "path": "Design.md",
+      "sha256": "36d1ca3b0391903ef0ded5b0d82890b1acd4f3b30fadd230c8debfd762115949",
+      "bytes": 17987
+    },
+    {
+      "path": "rubberq-astro/src/messages/en.json",
+      "sha256": "1ddcaf6f8d37447025afbd364d362f778445d5801f36ee20d73719e88f1126d6",
+      "bytes": 102078
+    },
+    {
+      "path": "rubberq-astro/src/lib/materials.ts",
+      "sha256": "5fb07cfa84f7bacaaca516c2e50c55da049687926f5a0814613cefe78bcb52d8",
+      "bytes": 13782
+    },
+    {
+      "path": "rubberq-astro/src/lib/products.ts",
+      "sha256": "03aac4bb49342f0aa8fd9ac485d17a8e0580da4a53a19a40a3b891fe60752645",
+      "bytes": 11125
+    },
+    {
+      "path": "全球增长系统/市场情报/2026-10-21-从零获客调研/00-第1步-市场调研与获客方向报告.md",
+      "sha256": "ff2e0912d7b59212beddff501fd956357ab4d964464d755b3b345ce33a61f6d9",
+      "bytes": 26409
+    },
+    {
+      "path": "全球增长系统/市场情报/2026-10-21-从零获客调研/data/kw_us_classified_2026-10-21.csv",
+      "sha256": "e5d30d8e70742879ef41f4bc4405706406b55228c5987a6b48c7189e2f61d490",
+      "bytes": 30550
+    },
+    {
+      "path": "全球增长系统/市场情报/2026-10-21-从零获客调研/data/kw_expansion_raw_4087.csv",
+      "sha256": "36bd541f22ea06418a0cd02072d7d7f3a82ead0b5d501222d26ffb678921a6ef",
+      "bytes": 290738
+    },
+    {
+      "path": "全球增长系统/市场情报/2026-10-21-从零获客调研/codex/competitors.json",
+      "sha256": "8ded4f447eccf21327169c2c90bb4054dd137b209b8da0bff7e63d063417ff5f",
+      "bytes": 161008
+    },
+    {
+      "path": "全球增长系统/基础信息库/public-fact-registry.json",
+      "sha256": "4e8e76a2161a2c9bb822d7cf765e52ab9b24a3011cc606dba6c5e0ce6a4a4a65",
+      "bytes": 2828
+    },
+    {
+      "path": "rubberq-astro/docs/2026-10-21-GGS重新审查/运行基线.json",
+      "sha256": "6ce45270006811dbd82fec9a46138f41eabc0e8f775fd784a7567a7f654c6274",
+      "bytes": 2103
+    },
+    {
+      "path": "rubberq-astro/docs/2026-10-21-线上获客执行/evidence/cms-published-source.json",
+      "sha256": "80d8ec208be15990b7d5ab94f20ba3d2c85c3e66eb361a5ed6f2f5a79ad1bf5a",
+      "bytes": 978909
+    }
+  ]
+}

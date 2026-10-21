@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "id": "RQ-REV-1029",
+      "title": "既有GSC复盘节点",
+      "frequency": "单次",
+      "next_at": "2026-10-29",
+      "last_result": null,
+      "owner": "Codex",
+      "status": "待执行；未创建自动化",
+      "timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "RQ-POST-LIVE",
+      "title": "发布后14/28/90天复盘",
+      "frequency": "按实际上线日期",
+      "next_at": null,
+      "last_result": null,
+      "owner": "Codex",
+      "status": "待真实上线日期",
+      "timezone": "Asia/Shanghai"
+    }
+  ]
+}

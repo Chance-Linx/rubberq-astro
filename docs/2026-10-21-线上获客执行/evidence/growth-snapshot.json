@@ -1,0 +1,2809 @@
+{
+  "project": {
+    "id": "rubberq-acquisition-20261021",
+    "name": "RubberQ 内容与获客工作台",
+    "domain": "https://rubberq.com",
+    "active_pillar": "products",
+    "pillar_policy": "先按现有正文完成URL归属核对；本轮规划不自动派稿，不跳过现有文章保护。",
+    "views": [
+      {
+        "label": "主题星图与页面稿",
+        "url": "/map"
+      },
+      {
+        "label": "增长总控",
+        "url": "/growth"
+      }
+    ]
+  },
+  "generated_at": "2026-10-21T02:31:13.515693+00:00",
+  "sections": {
+    "goals": {
+      "state": "ready",
+      "data": {
+        "schema_version": 1,
+        "baseline_date": "2026-10-21",
+        "baseline": {
+          "gsc_clicks": {
+            "value": 10,
+            "period_start": "2026-09-20",
+            "period_end": "2026-10-17",
+            "scope": "gsc_global",
+            "period_kind": "rolling_28d",
+            "unit": "次"
+          },
+          "gsc_impressions": {
+            "value": 901,
+            "period_start": "2026-09-20",
+            "period_end": "2026-10-17",
+            "scope": "gsc_global",
+            "period_kind": "rolling_28d",
+            "unit": "次"
+          },
+          "gsc_ctr": {
+            "value": 1.1098779134295227,
+            "period_start": "2026-09-20",
+            "period_end": "2026-10-17",
+            "scope": "gsc_global",
+            "period_kind": "rolling_28d",
+            "unit": "%"
+          },
+          "ga4_organic_sessions": {
+            "value": 15,
+            "period_start": "2026-09-20",
+            "period_end": "2026-10-17",
+            "scope": "ga4_global",
+            "period_kind": "rolling_28d",
+            "unit": "次"
+          },
+          "inquiry_total": {
+            "value": 1,
+            "period_start": null,
+            "period_end": "2026-10-21",
+            "scope": "manual_d1_non_test_technical",
+            "period_kind": "all_time",
+            "unit": "条"
+          },
+          "inquiry_qualified": {
+            "value": null,
+            "period_start": null,
+            "period_end": "2026-10-21",
+            "scope": "sales_qualified",
+            "period_kind": "all_time",
+            "unit": "条"
+          }
+        },
+        "milestones": [],
+        "core_keywords": [
+          {
+            "keyword": "custom molded rubber parts",
+            "category": "采购"
+          },
+          {
+            "keyword": "custom gaskets",
+            "category": "采购"
+          },
+          {
+            "keyword": "o-ring manufacturer",
+            "category": "采购"
+          },
+          {
+            "keyword": "rubber compounder",
+            "category": "采购"
+          },
+          {
+            "keyword": "ffkm o-rings",
+            "category": "采购"
+          }
+        ],
+        "backlink_target": null,
+        "notes": [
+          "报告12个月20–50条/月为情景模型，未制造中间月KPI。",
+          "D1 19记录中仅1条具体技术需求；不是销售已确认合格商机。",
+          "不新增付费或周期采集。"
+        ],
+        "sources": [
+          "rubberq-astro/docs/2026-10-21-线上获客执行/01-验收决策与执行口径.md"
+        ]
+      },
+      "message": ""
+    },
+    "snapshots": {
+      "state": "ready",
+      "data": [
+        {
+          "schema_version": 1,
+          "date": "2026-10-21",
+          "kind": "baseline",
+          "metrics": {
+            "gsc_clicks": {
+              "value": 10,
+              "period_start": "2026-09-20",
+              "period_end": "2026-10-17",
+              "scope": "gsc_global",
+              "period_kind": "rolling_28d",
+              "unit": "次"
+            },
+            "gsc_impressions": {
+              "value": 901,
+              "period_start": "2026-09-20",
+              "period_end": "2026-10-17",
+              "scope": "gsc_global",
+              "period_kind": "rolling_28d",
+              "unit": "次"
+            },
+            "gsc_ctr": {
+              "value": 1.1098779134295227,
+              "period_start": "2026-09-20",
+              "period_end": "2026-10-17",
+              "scope": "gsc_global",
+              "period_kind": "rolling_28d",
+              "unit": "%"
+            },
+            "ga4_organic_sessions": {
+              "value": 15,
+              "period_start": "2026-09-20",
+              "period_end": "2026-10-17",
+              "scope": "ga4_global",
+              "period_kind": "rolling_28d",
+              "unit": "次"
+            },
+            "inquiry_total": {
+              "value": 1,
+              "period_start": null,
+              "period_end": "2026-10-21",
+              "scope": "manual_d1_non_test_technical",
+              "period_kind": "all_time",
+              "unit": "条"
+            },
+            "inquiry_qualified": {
+              "value": null,
+              "period_start": null,
+              "period_end": "2026-10-21",
+              "scope": "sales_qualified",
+              "period_kind": "all_time",
+              "unit": "条"
+            }
+          },
+          "core_keyword_rankings": [
+            {
+              "keyword": "custom molded rubber parts",
+              "position": null
+            },
+            {
+              "keyword": "custom gaskets",
+              "position": null
+            },
+            {
+              "keyword": "o-ring manufacturer",
+              "position": null
+            },
+            {
+              "keyword": "rubber compounder",
+              "position": null
+            },
+            {
+              "keyword": "ffkm o-rings",
+              "position": null
+            }
+          ],
+          "notes": [
+            "来自10月21日既有审查快照，非本轮新增采集。",
+            "GSC窗口2026-09-20至2026-10-17；GA4来源时区与GSC不同。"
+          ]
+        }
+      ],
+      "message": ""
+    },
+    "work_items": {
+      "state": "ready",
+      "data": {
+        "schema_version": 1,
+        "items": [
+          {
+            "id": "RQ-EXEC-01",
+            "type": "任务",
+            "title": "第1步方向验收记录",
+            "owner": "Codex",
+            "status": "待验收",
+            "dependencies": [],
+            "start_date": "2026-10-21",
+            "completion_date": null,
+            "outputs": [
+              {
+                "label": "01-验收决策与执行口径.md",
+                "href": "/growth-file/5ffa40c2eee28e6ba5b005eb"
+              }
+            ],
+            "reports": [
+              {
+                "label": "00-交付入口.md",
+                "href": "/growth-file/a0ebbee2425956e7fac2698a"
+              }
+            ],
+            "next_step": "查看本地交付与验收记录；不等同官网上线",
+            "channel": "content",
+            "source": "根任务清单RQAC系列的只读阶段投影",
+            "note": "本轮交付，未实施外部发布",
+            "delivered_at": "2026-10-21"
+          },
+          {
+            "id": "RQ-EXEC-02",
+            "type": "任务",
+            "title": "第2步企业形象文案",
+            "owner": "Codex",
+            "status": "待验收",
+            "dependencies": [
+              "RQ-EXEC-01"
+            ],
+            "start_date": "2026-10-21",
+            "completion_date": null,
+            "outputs": [
+              {
+                "label": "02-企业形象与英文文案.md",
+                "href": "/growth-file/76ea35370756df39810daf28"
+              }
+            ],
+            "reports": [
+              {
+                "label": "00-交付入口.md",
+                "href": "/growth-file/a0ebbee2425956e7fac2698a"
+              }
+            ],
+            "next_step": "查看本地交付与验收记录；不等同官网上线",
+            "channel": "content",
+            "source": "根任务清单RQAC系列的只读阶段投影",
+            "note": "本轮交付，未实施外部发布",
+            "delivered_at": "2026-10-21"
+          },
+          {
+            "id": "RQ-EXEC-03",
+            "type": "任务",
+            "title": "第3步全站IA",
+            "owner": "Codex",
+            "status": "待验收",
+            "dependencies": [
+              "RQ-EXEC-01"
+            ],
+            "start_date": "2026-10-21",
+            "completion_date": null,
+            "outputs": [
+              {
+                "label": "03-全站IA与URL归属.md",
+                "href": "/growth-file/c41cb8a4d59c8850bece56a4"
+              },
+              {
+                "label": "页面职责与URL归属.csv",
+                "href": "/growth-file/441e4840d4633709c139f031"
+              }
+            ],
+            "reports": [
+              {
+                "label": "00-交付入口.md",
+                "href": "/growth-file/a0ebbee2425956e7fac2698a"
+              }
+            ],
+            "next_step": "查看本地交付与验收记录；不等同官网上线",
+            "channel": "content",
+            "source": "根任务清单RQAC系列的只读阶段投影",
+            "note": "本轮交付，未实施外部发布",
+            "delivered_at": "2026-10-21"
+          },
+          {
+            "id": "RQ-EXEC-04",
+            "type": "任务",
+            "title": "第4步逐页结构与英文稿",
+            "owner": "Codex",
+            "status": "待验收",
+            "dependencies": [
+              "RQ-EXEC-01"
+            ],
+            "start_date": "2026-10-21",
+            "completion_date": null,
+            "outputs": [
+              {
+                "label": "04-页面文案索引.md",
+                "href": "/growth-file/e2a2f79ff47e2d19887e40f3"
+              },
+              {
+                "label": "pages.json",
+                "href": "/growth-file/2b83bae17fb77780a1c24aeb"
+              }
+            ],
+            "reports": [
+              {
+                "label": "00-交付入口.md",
+                "href": "/growth-file/a0ebbee2425956e7fac2698a"
+              }
+            ],
+            "next_step": "查看本地交付与验收记录；不等同官网上线",
+            "channel": "content",
+            "source": "根任务清单RQAC系列的只读阶段投影",
+            "note": "本轮交付，未实施外部发布",
+            "delivered_at": "2026-10-21"
+          },
+          {
+            "id": "RQ-EXEC-05",
+            "type": "任务",
+            "title": "第5步关键词、话题与竞品资产",
+            "owner": "Codex",
+            "status": "待验收",
+            "dependencies": [
+              "RQ-EXEC-01"
+            ],
+            "start_date": "2026-10-21",
+            "completion_date": null,
+            "outputs": [
+              {
+                "label": "05-关键词话题与竞品资产说明.md",
+                "href": "/growth-file/6a9fd4f99362ad93f85c6857"
+              },
+              {
+                "label": "话题库.csv",
+                "href": "/growth-file/2c85bdee40359849d02ec9db"
+              },
+              {
+                "label": "关键词-URL地图.csv",
+                "href": "/growth-file/38ff9d9c1280a74a1e6ea403"
+              },
+              {
+                "label": "竞品参考清单.csv",
+                "href": "/growth-file/0bb9b8b03524b43824476460"
+              }
+            ],
+            "reports": [
+              {
+                "label": "00-交付入口.md",
+                "href": "/growth-file/a0ebbee2425956e7fac2698a"
+              }
+            ],
+            "next_step": "查看本地交付与验收记录；不等同官网上线",
+            "channel": "content",
+            "source": "根任务清单RQAC系列的只读阶段投影",
+            "note": "本轮交付，未实施外部发布",
+            "delivered_at": "2026-10-21"
+          },
+          {
+            "id": "RQ-EXEC-06",
+            "type": "任务",
+            "title": "本地只读看板接入",
+            "owner": "Codex",
+            "status": "待验收",
+            "dependencies": [
+              "RQ-EXEC-01"
+            ],
+            "start_date": "2026-10-21",
+            "completion_date": null,
+            "outputs": [
+              {
+                "label": "07-看板运行与维护.md",
+                "href": "/growth-file/a236e0f7c6c2f63106f513d3"
+              },
+              {
+                "label": "project-config.json",
+                "href": "/growth-file/54e95bd676a495c523015f1a"
+              }
+            ],
+            "reports": [
+              {
+                "label": "00-交付入口.md",
+                "href": "/growth-file/a0ebbee2425956e7fac2698a"
+              }
+            ],
+            "next_step": "查看本地交付与验收记录；不等同官网上线",
+            "channel": "content",
+            "source": "根任务清单RQAC系列的只读阶段投影",
+            "note": "本轮交付，未实施外部发布",
+            "delivered_at": "2026-10-21"
+          },
+          {
+            "id": "RQ-EXEC-07",
+            "type": "任务",
+            "title": "存量全文与URL归属核对",
+            "owner": "Codex",
+            "status": "计划",
+            "dependencies": [
+              "RQ-EXEC-01"
+            ],
+            "start_date": null,
+            "completion_date": null,
+            "outputs": [],
+            "reports": [
+              {
+                "label": "00-交付入口.md",
+                "href": "/growth-file/a0ebbee2425956e7fac2698a"
+              }
+            ],
+            "next_step": "按实际正文和发布范围接续",
+            "channel": "content",
+            "source": "根任务清单RQAC系列的只读阶段投影",
+            "note": "尚未执行",
+            "delivered_at": null
+          },
+          {
+            "id": "RQ-EXEC-08",
+            "type": "任务",
+            "title": "批准页面的代码/CMS实施与上线",
+            "owner": "Codex",
+            "status": "计划",
+            "dependencies": [
+              "RQ-EXEC-01"
+            ],
+            "start_date": null,
+            "completion_date": null,
+            "outputs": [],
+            "reports": [
+              {
+                "label": "00-交付入口.md",
+                "href": "/growth-file/a0ebbee2425956e7fac2698a"
+              }
+            ],
+            "next_step": "按实际正文和发布范围接续",
+            "channel": "content",
+            "source": "根任务清单RQAC系列的只读阶段投影",
+            "note": "尚未执行",
+            "delivered_at": null
+          }
+        ]
+      },
+      "message": ""
+    },
+    "decisions": {
+      "state": "ready",
+      "data": {
+        "schema_version": 1,
+        "items": [
+          {
+            "id": "RQ-DEC-01",
+            "question": "赛道重排",
+            "options": [
+              "同意",
+              "不同意",
+              "待定"
+            ],
+            "recommendation": "执行用户已确认决定",
+            "due_date": null,
+            "status": "已决",
+            "result": "同意：半导体→液冷与储能→EV热管理→人形机器人；通用工业定制件为获客主力",
+            "decided_at": "2026-10-21",
+            "source": "rubberq-astro/docs/2026-10-21-线上获客执行/01-验收决策与执行口径.md"
+          },
+          {
+            "id": "RQ-DEC-02",
+            "question": "市场排序",
+            "options": [
+              "同意",
+              "不同意",
+              "待定"
+            ],
+            "recommendation": "执行用户已确认决定",
+            "due_date": null,
+            "status": "已决",
+            "result": "同意：P1北美与欧洲DACH/英国；P2日本/东南亚；印度不主攻",
+            "decided_at": "2026-10-21",
+            "source": "rubberq-astro/docs/2026-10-21-线上获客执行/01-验收决策与执行口径.md"
+          },
+          {
+            "id": "RQ-DEC-03",
+            "question": "获客层与转化层分离",
+            "options": [
+              "同意",
+              "不同意",
+              "待定"
+            ],
+            "recommendation": "执行用户已确认决定",
+            "due_date": null,
+            "status": "已决",
+            "result": "同意",
+            "decided_at": "2026-10-21",
+            "source": "rubberq-astro/docs/2026-10-21-线上获客执行/01-验收决策与执行口径.md"
+          },
+          {
+            "id": "RQ-DEC-04",
+            "question": "胶料外供与FFKM售后替代",
+            "options": [
+              "同意",
+              "不同意",
+              "待定"
+            ],
+            "recommendation": "执行用户已确认决定",
+            "due_date": null,
+            "status": "已决",
+            "result": "同意，纳入网站与内容规划",
+            "decided_at": "2026-10-21",
+            "source": "rubberq-astro/docs/2026-10-21-线上获客执行/01-验收决策与执行口径.md"
+          },
+          {
+            "id": "RQ-DEC-05",
+            "question": "付费数据与监测预算",
+            "options": [
+              "同意",
+              "不同意",
+              "待定"
+            ],
+            "recommendation": "保持待定，先不花费",
+            "due_date": null,
+            "status": "未决",
+            "result": "待定，先不花费",
+            "decided_at": null,
+            "source": "rubberq-astro/docs/2026-10-21-线上获客执行/01-验收决策与执行口径.md"
+          }
+        ]
+      },
+      "message": ""
+    },
+    "external_requests": {
+      "state": "ready",
+      "data": {
+        "schema_version": 1,
+        "items": [
+          {
+            "id": "RQ-EXT-01",
+            "title": "现行证书与厂区影像",
+            "owner": "工厂",
+            "status": "未发出",
+            "unlocks": [
+              "/quality",
+              "/factory",
+              "/about"
+            ],
+            "details": "证书有效期和范围；两厂区实拍；不包含私人信息",
+            "source": "rubberq-astro/docs/2026-10-21-线上获客执行/06-获客执行与询盘运营.md"
+          },
+          {
+            "id": "RQ-EXT-02",
+            "title": "外供胶料项目资料",
+            "owner": "工厂",
+            "status": "未发出",
+            "unlocks": [
+              "/compounds"
+            ],
+            "details": "供货形式、配方/规格职责、包装储存、批次报告、试料流程",
+            "source": "rubberq-astro/docs/2026-10-21-线上获客执行/06-获客执行与询盘运营.md"
+          },
+          {
+            "id": "RQ-EXT-03",
+            "title": "FFKM原件与候选材料资料",
+            "owner": "工厂",
+            "status": "未发出",
+            "unlocks": [
+              "/products/ffkm-replacement-seals",
+              "/materials/ffkm"
+            ],
+            "details": "原件尺寸和工况、具体候选牌号、TDS、需要验证的项目",
+            "source": "rubberq-astro/docs/2026-10-21-线上获客执行/06-获客执行与询盘运营.md"
+          },
+          {
+            "id": "RQ-EXT-04",
+            "title": "LSR与粘接件制造资料",
+            "owner": "工厂",
+            "status": "未发出",
+            "unlocks": [
+              "/capabilities/lsr-molding",
+              "/products/rubber-to-metal-bonded-parts"
+            ],
+            "details": "工艺适配、真实设备、样件及检验；不默认认证/产能",
+            "source": "rubberq-astro/docs/2026-10-21-线上获客执行/06-获客执行与询盘运营.md"
+          },
+          {
+            "id": "RQ-EXT-05",
+            "title": "可公开项目样例",
+            "owner": "工厂",
+            "status": "未发出",
+            "unlocks": [
+              "/case-studies"
+            ],
+            "details": "客户许可、问题/规格/测试/结果；无许可则匿名且不可反推客户",
+            "source": "rubberq-astro/docs/2026-10-21-线上获客执行/06-获客执行与询盘运营.md"
+          }
+        ]
+      },
+      "message": ""
+    },
+    "cadence": {
+      "state": "ready",
+      "data": {
+        "schema_version": 1,
+        "items": [
+          {
+            "id": "RQ-REV-1029",
+            "title": "既有GSC复盘节点",
+            "frequency": "单次",
+            "next_at": "2026-10-29",
+            "last_result": null,
+            "owner": "Codex",
+            "status": "待执行；未创建自动化",
+            "timezone": "Asia/Shanghai"
+          },
+          {
+            "id": "RQ-POST-LIVE",
+            "title": "发布后14/28/90天复盘",
+            "frequency": "按实际上线日期",
+            "next_at": null,
+            "last_result": null,
+            "owner": "Codex",
+            "status": "待真实上线日期",
+            "timezone": "Asia/Shanghai"
+          }
+        ]
+      },
+      "message": ""
+    },
+    "topics": {
+      "state": "ready",
+      "data": {
+        "total": 63,
+        "columns": [
+          "待全文归属核对"
+        ],
+        "matrix": [
+          {
+            "business_line": "EPDM与流体兼容",
+            "counts": {
+              "待全文归属核对": 3
+            },
+            "total": 3,
+            "covered": 0,
+            "coverage_rate": 0.0
+          },
+          {
+            "business_line": "EV热管理",
+            "counts": {
+              "待全文归属核对": 2
+            },
+            "total": 2,
+            "covered": 0,
+            "coverage_rate": 0.0
+          },
+          {
+            "business_line": "FFKM与售后替代",
+            "counts": {
+              "待全文归属核对": 6
+            },
+            "total": 6,
+            "covered": 0,
+            "coverage_rate": 0.0
+          },
+          {
+            "business_line": "FKM与氟橡胶",
+            "counts": {
+              "待全文归属核对": 4
+            },
+            "total": 4,
+            "covered": 0,
+            "coverage_rate": 0.0
+          },
+          {
+            "business_line": "HNBR与NBR",
+            "counts": {
+              "待全文归属核对": 3
+            },
+            "total": 3,
+            "covered": 0,
+            "coverage_rate": 0.0
+          },
+          {
+            "business_line": "O圈与密封件",
+            "counts": {
+              "待全文归属核对": 5
+            },
+            "total": 5,
+            "covered": 0,
+            "coverage_rate": 0.0
+          },
+          {
+            "business_line": "Silicone与LSR",
+            "counts": {
+              "待全文归属核对": 3
+            },
+            "total": 3,
+            "covered": 0,
+            "coverage_rate": 0.0
+          },
+          {
+            "business_line": "人形机器人",
+            "counts": {
+              "待全文归属核对": 3
+            },
+            "total": 3,
+            "covered": 0,
+            "coverage_rate": 0.0
+          },
+          {
+            "business_line": "半导体设备",
+            "counts": {
+              "待全文归属核对": 3
+            },
+            "total": 3,
+            "covered": 0,
+            "coverage_rate": 0.0
+          },
+          {
+            "business_line": "定制垫片",
+            "counts": {
+              "待全文归属核对": 4
+            },
+            "total": 4,
+            "covered": 0,
+            "coverage_rate": 0.0
+          },
+          {
+            "business_line": "定制橡胶模压",
+            "counts": {
+              "待全文归属核对": 6
+            },
+            "total": 6,
+            "covered": 0,
+            "coverage_rate": 0.0
+          },
+          {
+            "business_line": "工程工具与失效",
+            "counts": {
+              "待全文归属核对": 7
+            },
+            "total": 7,
+            "covered": 0,
+            "coverage_rate": 0.0
+          },
+          {
+            "business_line": "橡胶金属粘接",
+            "counts": {
+              "待全文归属核对": 3
+            },
+            "total": 3,
+            "covered": 0,
+            "coverage_rate": 0.0
+          },
+          {
+            "business_line": "液冷与储能",
+            "counts": {
+              "待全文归属核对": 3
+            },
+            "total": 3,
+            "covered": 0,
+            "coverage_rate": 0.0
+          },
+          {
+            "business_line": "配方与胶料外供",
+            "counts": {
+              "待全文归属核对": 5
+            },
+            "total": 5,
+            "covered": 0,
+            "coverage_rate": 0.0
+          },
+          {
+            "business_line": "隔膜与波纹管",
+            "counts": {
+              "待全文归属核对": 3
+            },
+            "total": 3,
+            "covered": 0,
+            "coverage_rate": 0.0
+          }
+        ],
+        "executable": 0,
+        "pending_fit": 63,
+        "cannibalization": 0,
+        "merge_suggestions": 0
+      },
+      "message": ""
+    },
+    "backlinks": {
+      "state": "ready",
+      "data": {
+        "total": 8,
+        "stages": {
+          "候选": 8
+        },
+        "sources": [
+          {
+            "label": "目录与资源候选",
+            "count": 8,
+            "href": "/growth-file/771792d3bf4f915371ad2dec"
+          }
+        ],
+        "complete": true
+      },
+      "message": ""
+    },
+    "changelog": {
+      "state": "ready",
+      "data": {
+        "schema_version": 1,
+        "generated_at": "2026-10-20T16:25:47.756801+00:00",
+        "entries": [
+          {
+            "date": "2026-10-21T00:25:47+08:00",
+            "commit": "86c3a0ca2006055455f64d33ffb8871b04cea22f",
+            "files": [
+              "skills/ggs-content-production-dashboard/references/growth-board-contract.md"
+            ],
+            "summary": "增长总控：字段校验、中文路径修复与补充测试",
+            "source_project": "Yakeclimate"
+          },
+          {
+            "date": "2026-10-20T23:35:50+08:00",
+            "commit": "b50a36016fe0101fa309661f1ad24517971de8d1",
+            "files": [
+              "skills/ggs-global-growth-system/references/增长负责人运行方式.md",
+              "skills/ggs-industrial-seo-content/references/content-production-rules.md"
+            ],
+            "summary": "通用规则与项目规则分层：项目专属的客户、边界、排除流量移出 GGS",
+            "source_project": null
+          },
+          {
+            "date": "2026-10-20T23:32:59+08:00",
+            "commit": "bffd7ba25c2dbf865b7364c1485b0786c50cfefd",
+            "files": [
+              "skills/ggs-industrial-seo-content/references/content-production-rules.md"
+            ],
+            "summary": "主题图谱增加买家角色维度：终端、设计集成、承包商、租赁、经销、OEM",
+            "source_project": null
+          },
+          {
+            "date": "2026-10-20T23:32:12+08:00",
+            "commit": "4d43451f6d08874ca93f61235b3ef71a4cb10e2f",
+            "files": [
+              "skills/ggs-industrial-seo-content/references/content-production-rules.md"
+            ],
+            "summary": "排除家用流量的例外：家用品类面向渠道买家时可做",
+            "source_project": null
+          },
+          {
+            "date": "2026-10-20T23:16:40+08:00",
+            "commit": "12200e36add2c4c997d7d35797f476ef255436de",
+            "files": [
+              "skills/ggs-global-growth-system/references/增长负责人运行方式.md",
+              "skills/ggs-industrial-seo-content/references/content-production-rules.md"
+            ],
+            "summary": "将周报计划与批次收尾接入增长总控",
+            "source_project": "Yakeclimate"
+          },
+          {
+            "date": "2026-10-20T23:12:39+08:00",
+            "commit": "f66fd901692cec11db4d6398ea1dfe89a441b46a",
+            "files": [
+              "skills/ggs-content-production-dashboard/SKILL.md",
+              "skills/ggs-content-production-dashboard/references/growth-board-contract.md",
+              "skills/ggs-content-production-dashboard/references/integration.md"
+            ],
+            "summary": "新增只读增长总控视图与项目数据契约",
+            "source_project": "Yakeclimate"
+          },
+          {
+            "date": "2026-10-20T22:55:42+08:00",
+            "commit": "eaba9524b2e9aff047eeab666e2bf84e7fd2a135",
+            "files": [
+              "skills/ggs-global-growth-system/SKILL.md",
+              "skills/ggs-global-growth-system/references/增长负责人运行方式.md"
+            ],
+            "summary": "增长负责人运行方式：主动性要求、决策边界、固定节奏、与用户共同完善 GGS",
+            "source_project": null
+          },
+          {
+            "date": "2026-10-20T22:50:04+08:00",
+            "commit": "ce7be020ebda1d1a38bcb32f453add0979edf192",
+            "files": [
+              "skills/ggs-industrial-seo-content/references/content-production-rules.md"
+            ],
+            "summary": "主题图谱滚动更新：五个选题来源、产品适配门、对标网站监测",
+            "source_project": null
+          },
+          {
+            "date": "2026-10-20T20:30:55+08:00",
+            "commit": "5fea454feafdb702cf758574e92331a097a06034",
+            "files": [
+              "skills/ggs-industrial-seo-content/references/content-production-rules.md"
+            ],
+            "summary": "内容更新与排名防守机制：触发条件、反超处理顺序、周报更新队列",
+            "source_project": null
+          },
+          {
+            "date": "2026-10-20T20:14:21+08:00",
+            "commit": "c81c07e5f4b7ce741517cd95ae0453e2199fd667",
+            "files": [
+              "skills/ggs-industrial-seo-content/references/content-production-rules.md"
+            ],
+            "summary": "批次执行规则：依赖检查、规划期补词、新发现进待办、固定收尾、排除家用流量",
+            "source_project": null
+          },
+          {
+            "date": "2026-10-20T19:34:34+08:00",
+            "commit": "7616e9485d977f1706f5f143aa57850dab5c42bf",
+            "files": [
+              "skills/ggs-industrial-seo-content/references/content-production-rules.md"
+            ],
+            "summary": "视觉验收：新组件类名不得借用其他页面区块类",
+            "source_project": null
+          },
+          {
+            "date": "2026-10-20T12:48:27+08:00",
+            "commit": "1a401ce11dd6794824f74e50c37f5204a2c3dcc1",
+            "files": [
+              "skills/ggs-industrial-seo-content/SKILL.md",
+              "skills/ggs-industrial-seo-content/references/content-production-rules.md"
+            ],
+            "summary": "GGS：页面视觉与改版原则（保留原设计感、复用视觉组件、截图验收）",
+            "source_project": null
+          },
+          {
+            "date": "2026-10-20T11:40:28+08:00",
+            "commit": "2ebbe331a9cf44b00de510f9042aa219679d2326",
+            "files": [
+              "skills/ggs-content-production-dashboard/SKILL.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/SKILL.md",
+              "skills/ggs-global-growth-system/SKILL.md",
+              "skills/ggs-industrial-seo-content/SKILL.md",
+              "skills/ggs-industrial-seo-content/references/content-production-rules.md",
+              "skills/ggs-industrial-seo-content/references/topic-card-template.md",
+              "skills/ggs-industrial-seo-content/references/标准话题图谱消费接口.md",
+              "skills/ggs-industrial-seo-content/references/资产类型与简报规则.md",
+              "skills/ggs-knowledge-search-content-orchestrator/SKILL.md",
+              "skills/ggs-knowledge-search-content-orchestrator/references/HANDOFF_CONTRACT.md",
+              "skills/ggs-search-growth-orchestrator/SKILL.md",
+              "skills/ggs-search-growth-orchestrator/references/decisions.md",
+              "skills/ggs-search-growth-orchestrator/references/page-responsibility.md"
+            ],
+            "summary": "GGS 承接决策树、四层意图与话题卡模板（替换选题/承接规则）",
+            "source_project": null
+          },
+          {
+            "date": "2026-10-20T08:55:50+08:00",
+            "commit": "c05ae8934c6d243e8546197ef18bed459ebce3c7",
+            "files": [
+              "skills/ggs-industrial-seo-content/references/content-production-rules.md"
+            ],
+            "summary": "产品门改为下一步门：允许联合研发/定制需求入口",
+            "source_project": null
+          },
+          {
+            "date": "2026-10-20T08:46:03+08:00",
+            "commit": "2230c9ed2769577510948383dde93aaf9406cf84",
+            "files": [
+              "skills/ggs-industrial-seo-content/references/content-production-rules.md"
+            ],
+            "summary": "收紧合并保护条件：前10查询需有实际曝光",
+            "source_project": null
+          },
+          {
+            "date": "2026-10-20T08:45:47+08:00",
+            "commit": "a9fa510f53c1407958427a9c4a7bf7b3fd077527",
+            "files": [
+              "skills/ggs-abm-sales-team/references/migration-backup/GGS-SKILL-PACK.md",
+              "skills/ggs-blog/SKILL.md",
+              "skills/ggs-content-autopilot/SKILL.md",
+              "skills/ggs-content-autopilot/references/搜索需求图谱与文章自动化生产治理.md",
+              "skills/ggs-content-production-dashboard/SKILL.md",
+              "skills/ggs-enterprise-growth-production-orchestrator/SKILL.md",
+              "skills/ggs-enterprise-growth-production-orchestrator/references/source-map.md",
+              "skills/ggs-enterprise-growth-production-orchestrator/references/workers.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/SKILL.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/references/V1.1_MIGRATION.md",
+              "skills/ggs-global-growth-system/SKILL.md",
+              "skills/ggs-global-growth-system/references/全量Skill与工具链编排大图.md",
+              "skills/ggs-global-growth-system/references/搜索需求图谱与文章自动化生产治理.md",
+              "skills/ggs-industrial-seo-content/SKILL.md",
+              "skills/ggs-industrial-seo-content/references/content-production-rules.md",
+              "skills/ggs-knowledge-search-content-orchestrator/SKILL.md",
+              "skills/ggs-knowledge-search-content-orchestrator/references/HANDOFF_CONTRACT.md",
+              "skills/ggs-manufacturing-search-demand-mapper/SKILL.md",
+              "skills/ggs-manufacturing-search-demand-mapper/references/knowledge-and-view-integration.md",
+              "skills/ggs-search-growth-orchestrator/SKILL.md",
+              "skills/ggs-search-growth-orchestrator/references/decisions.md",
+              "skills/ggs-search-growth-orchestrator/references/evidence.md",
+              "skills/ggs-search-growth-orchestrator/references/learning.md",
+              "skills/ggs-search-growth-orchestrator/references/objective.md",
+              "skills/ggs-search-growth-orchestrator/references/page-responsibility.md",
+              "skills/ggs-search-growth-orchestrator/references/source-manifest.json",
+              "skills/ggs-search-growth-orchestrator/references/source-map.md",
+              "skills/ggs-search-growth-orchestrator/references/source/00-拆分说明与版本对照.md",
+              "skills/ggs-search-growth-orchestrator/references/source/00-目录.md",
+              "skills/ggs-search-growth-orchestrator/references/source/01-GGS 方法论与学习层｜系统设计与 SEO Pilot.md",
+              "skills/ggs-search-growth-orchestrator/references/source/02-Task 002｜Methodology Knowledge Object & Evidence Model.md",
+              "skills/ggs-search-growth-orchestrator/references/source/03-Task 003｜Domain Pack Minimum Standard.md",
+              "skills/ggs-search-growth-orchestrator/references/source/04-Task 004｜Search Growth Domain 完整知识地图.md",
+              "skills/ggs-search-growth-orchestrator/references/source/05-Task 005｜Search Growth Authority Source Map.md",
+              "skills/ggs-search-growth-orchestrator/references/source/06-Task 006｜Search Growth P0 Decision System 建设规划.md",
+              "skills/ggs-search-growth-orchestrator/references/source/07-Task 007｜Search Demand Qualification Decision System V1.md",
+              "skills/ggs-search-growth-orchestrator/references/source/08-Task 008｜Search Opportunity Priority Decision System V1.md",
+              "skills/ggs-search-growth-orchestrator/references/source/09-Task 009｜Search Intent & SERP Interpretation Decision System.md",
+              "skills/ggs-search-growth-orchestrator/references/source/10-Task 010｜Independent URL _ Asset Decision System V1.md",
+              "skills/ggs-search-growth-orchestrator/references/source/11-Task 010 编号重复确认.md",
+              "skills/ggs-search-growth-orchestrator/references/source/12-Task 011｜Content Sufficiency & Evidence Requirement Decision.md",
+              "skills/ggs-search-growth-orchestrator/references/source/13-Task 012｜Search Eligibility & Indexation Diagnosis Decision.md",
+              "skills/ggs-search-growth-orchestrator/references/source/14-Task 013｜Search Growth Constraint Diagnosis Decision V1.md",
+              "skills/ggs-search-growth-orchestrator/references/source/15-Task 014｜补齐 P0 形成完整 Knowledge Cluster.md",
+              "skills/ggs-search-growth-orchestrator/references/source/16-P0 Integration Test｜用 Yakeclimate 真实项目验证.md",
+              "skills/ggs-search-growth-orchestrator/references/source/17-Task 015｜Search Growth P0 × SEO Growth OS V0.1 对齐升级规格.md",
+              "skills/ggs-search-growth-orchestrator/references/source/18-《SEO Growth OS V0.2 工程实现指令》.md",
+              "skills/ggs-search-growth-orchestrator/references/source/19-系统完成度与剩余任务讨论.md",
+              "skills/ggs-search-growth-orchestrator/references/source/20-Task 016 与 Codex 工程实现的关系.md",
+              "skills/ggs-search-growth-orchestrator/references/source/21-Task 016｜Search Growth P0 Operational Validation Protocol V1.md",
+              "skills/ggs-search-growth-orchestrator/references/source/22-Task 017｜Search Growth Gold Case Pack V1.md",
+              "skills/ggs-search-growth-orchestrator/references/source/23-Task 018 设计与冻结不依赖 Codex 完成.md",
+              "skills/ggs-search-growth-orchestrator/references/source/24-Task 018｜冻结 Search Growth P0 V1-RC.md",
+              "skills/ggs-search-growth-orchestrator/references/source/25-对话概括｜SEO Pilot 开发总结与文档使用总图.md",
+              "skills/ggs-search-growth-orchestrator/references/source/SEO Pilot 阶段总结、文档使用与工程落地总说明.md",
+              "skills/ggs-search-growth-orchestrator/references/source/SEO_Growth_OS_V0.1_Specification.extracted.txt"
+            ],
+            "summary": "GGS 内容生产规则替换与旧规则清理",
+            "source_project": null
+          },
+          {
+            "date": "2026-10-13T17:07:55+08:00",
+            "commit": "d7dc56a069566e71dd4e23d9f88f31bcba6c8172",
+            "files": [
+              "skills/ggs-article-visuals/SKILL.md",
+              "skills/ggs-article-visuals/references/assets.md",
+              "skills/ggs-article-visuals/references/generation.md",
+              "skills/ggs-article-visuals/references/seo-schema.md"
+            ],
+            "summary": "取消文章配图图注并更新全局视觉技能",
+            "source_project": null
+          },
+          {
+            "date": "2026-10-12T20:58:24+08:00",
+            "commit": "75d124c497e03f923832fbb7364ef7ac24a37f82",
+            "files": [
+              "skills/ggs-article-visuals/SKILL.md",
+              "skills/ggs-article-visuals/references/assets.md"
+            ],
+            "summary": "移除文章配图公开AI生成标注并保留内部溯源",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-30T20:58:25+08:00",
+            "commit": "f2ef4af751794956eb065ffdbb64c23c4ed70f51",
+            "files": [
+              "skills/ggs-content-production-dashboard/references/integration.md"
+            ],
+            "summary": "修正已发布文章的仪表盘候选与回执状态读取",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-29T00:10:46+08:00",
+            "commit": "babe6b5ef926f86769f3719a42e22590318a2463",
+            "files": [
+              "skills/ggs-content-autopilot/SKILL.md",
+              "skills/ggs-content-autopilot/references/公开表达审核治理.md",
+              "skills/ggs-content-autopilot/references/搜索需求图谱与文章自动化生产治理.md",
+              "skills/ggs-enterprise-growth-production-orchestrator/SKILL.md",
+              "skills/ggs-enterprise-growth-production-orchestrator/references/contracts.md",
+              "skills/ggs-enterprise-growth-production-orchestrator/references/source-map.md",
+              "skills/ggs-enterprise-growth-production-orchestrator/references/workers.md",
+              "skills/ggs-search-growth-orchestrator/references/page-responsibility.md",
+              "skills/ggs-search-growth-orchestrator/references/source-map.md"
+            ],
+            "summary": "修复 GGS 内容生产链版本约束与恢复并精简入口",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-28T21:51:43+08:00",
+            "commit": "b6a3818d34f6e0c74b2a0b0e0244f7571444f4aa",
+            "files": [
+              "skills/ggs-content-production-dashboard/references/integration.md"
+            ],
+            "summary": "同步内容复盘发布回执与仪表盘库存口径",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-28T12:26:36+08:00",
+            "commit": "826636dfb0b4e52caffbc83d96272b4112819df0",
+            "files": [
+              "skills/ggs-search-growth-orchestrator/references/page-responsibility.md"
+            ],
+            "summary": "补足页面职责审核的实际渲染检查",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-28T12:06:39+08:00",
+            "commit": "316976c91db7835210131c9af7b219f3174b2d45",
+            "files": [
+              "skills/ggs-content-production-dashboard/references/integration.md"
+            ],
+            "summary": "区分页面审查与修订候选验收状态",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-27T06:05:57+08:00",
+            "commit": "a444874aeabb415f45e8fba06e5b7c76e8bf3bc8",
+            "files": [
+              "skills/ggs-search-growth-orchestrator/references/page-responsibility.md"
+            ],
+            "summary": "明确历史旧文无机会编号时的审查修订边界",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-27T05:43:18+08:00",
+            "commit": "19c9f996c9e861fe290f3eb53a2da22009d6da17",
+            "files": [
+              "skills/ggs-search-growth-orchestrator/references/page-responsibility.md"
+            ],
+            "summary": "补充内容库存的渲染与链接验收门槛",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-27T02:14:27+08:00",
+            "commit": "3385285a9c3d14e49439f5b5bc3736f38195056b",
+            "files": [
+              "skills/ggs-content-production-dashboard/references/integration.md"
+            ],
+            "summary": "区分全站复盘局部更新与完整修订库存",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-27T01:44:22+08:00",
+            "commit": "9aabe732c21b4a122269cc056d67f508bdfabab3",
+            "files": [
+              "skills/ggs-blog/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-brief/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog/references/ggs-article-quality.md",
+              "skills/ggs-content-autopilot/SKILL.md",
+              "skills/ggs-content-production-dashboard/SKILL.md",
+              "skills/ggs-content-production-dashboard/references/integration.md",
+              "skills/ggs-enterprise-growth-production-orchestrator/SKILL.md",
+              "skills/ggs-enterprise-growth-production-orchestrator/references/topic-to-asset.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/SKILL.md",
+              "skills/ggs-industrial-seo-content/SKILL.md",
+              "skills/ggs-knowledge-search-content-orchestrator/SKILL.md",
+              "skills/ggs-manufacturing-search-demand-mapper/SKILL.md",
+              "skills/ggs-search-growth-orchestrator/SKILL.md",
+              "skills/ggs-search-growth-orchestrator/references/page-responsibility.md"
+            ],
+            "summary": "修正内容生产页面职责决策与全站复盘仪表盘",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-22T10:51:00+08:00",
+            "commit": "3817c79b3dbf8974a46f3d4eaf6e52ebc5b18f88",
+            "files": [
+              "skills/ggs-abm-sales-team/SKILL.md",
+              "skills/ggs-abm-sales-team/references/CONTRACT.md",
+              "skills/ggs-abm-sales-team/references/HOSTS.md",
+              "skills/ggs-abm-sales-team/references/PREVIOUS-ACCEPTANCE.md",
+              "skills/ggs-abm-sales-team/references/migration-backup/GGS-SKILL-PACK.md",
+              "skills/ggs-abm-sales-team/references/migration-backup/ggs-skill-pack.json",
+              "skills/ggs-abm-sales-team/skills/ggs-abm-sales-competitors/SKILL.md",
+              "skills/ggs-abm-sales-team/skills/ggs-abm-sales-contacts/SKILL.md",
+              "skills/ggs-abm-sales-team/skills/ggs-abm-sales-followup/SKILL.md",
+              "skills/ggs-abm-sales-team/skills/ggs-abm-sales-icp/SKILL.md",
+              "skills/ggs-abm-sales-team/skills/ggs-abm-sales-objections/SKILL.md",
+              "skills/ggs-abm-sales-team/skills/ggs-abm-sales-outreach/SKILL.md",
+              "skills/ggs-abm-sales-team/skills/ggs-abm-sales-prep/SKILL.md",
+              "skills/ggs-abm-sales-team/skills/ggs-abm-sales-proposal/SKILL.md",
+              "skills/ggs-abm-sales-team/skills/ggs-abm-sales-prospect/SKILL.md",
+              "skills/ggs-abm-sales-team/skills/ggs-abm-sales-qualify/SKILL.md",
+              "skills/ggs-abm-sales-team/skills/ggs-abm-sales-report-pdf/SKILL.md",
+              "skills/ggs-abm-sales-team/skills/ggs-abm-sales-report/SKILL.md",
+              "skills/ggs-abm-sales-team/skills/ggs-abm-sales-research/SKILL.md",
+              "skills/ggs-blog/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-brief/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-discourse/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-rewrite/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-write/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog/references/ggs-article-quality.md",
+              "skills/ggs-blog/engine/skills/blog/references/platform-integration.md",
+              "skills/ggs-content-autopilot/SKILL.md",
+              "skills/ggs-content-autopilot/references/知识调用与研究回流.md",
+              "skills/ggs-enterprise-growth-production-orchestrator/SKILL.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/SKILL.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/references/INDUSTRY_BASELINE.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/references/V1.1_MIGRATION.md",
+              "skills/ggs-industrial-seo-content/SKILL.md",
+              "skills/ggs-industrial-seo-content/references/SEO公开情报研究流程.md",
+              "skills/ggs-knowledge-search-content-orchestrator/SKILL.md",
+              "skills/ggs-knowledge-search-content-orchestrator/references/KNOWLEDGE_RETURN.md",
+              "skills/ggs-knowledge-search-content-orchestrator/references/PLATFORM_RESEARCH.md",
+              "skills/ggs-knowledge-search-content-orchestrator/references/RESEARCH_EXECUTION.md",
+              "skills/ggs-manufacturing-search-demand-mapper/SKILL.md",
+              "skills/ggs-manufacturing-search-demand-mapper/references/output-contract.md"
+            ],
+            "summary": "同步GGS最新能力包、平台研究闭环与验收资料",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-22T10:24:12+08:00",
+            "commit": "af31e1c3e0b1ff359a5cb61e5449b838b5aa9eca",
+            "files": [
+              "skills/ggs-content-production-dashboard/SKILL.md"
+            ],
+            "summary": "澄清仪表盘复制提示并分离任务正文",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-21T18:59:47+08:00",
+            "commit": "9c1cd31f8a6318a455abcd9588152593639425e0",
+            "files": [
+              "skills/ggs-content-production-dashboard/SKILL.md",
+              "skills/ggs-content-production-dashboard/references/integration.md"
+            ],
+            "summary": "提取通用内容生产仪表盘并加入支柱指令校验",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-21T13:19:01+08:00",
+            "commit": "ef5db50fd1326af59412ea9425dcc45647c90516",
+            "files": [
+              "skills/ggs-blog/engine/skills/blog/references/ggs-article-quality.md"
+            ],
+            "summary": "补充匿名实验室证据和企业验证归属边界",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-21T11:56:28+08:00",
+            "commit": "4d90a85cf4da9c9d1f1fe1dc94e8b606d6ae2e4c",
+            "files": [
+              "skills/ggs-blog/engine/skills/blog-brief/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog/references/ggs-article-quality.md",
+              "skills/ggs-content-autopilot/references/公开表达审核治理.md"
+            ],
+            "summary": "补齐文章研究证据与竞品公开使用边界",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-18T16:26:12+08:00",
+            "commit": "8fde80f99923788ad9615baa2e79d154895c5a37",
+            "files": [
+              "skills/ggs-global-growth-system/SKILL.md",
+              "skills/ggs-global-growth-system/references/全量Skill与工具链编排大图.md",
+              "skills/ggs-global-growth-system/references/母Agent与Skill编排架构.md",
+              "skills/ggs-industrial-authority-building/SKILL.md"
+            ],
+            "summary": "feat(ggs): add ggs-industrial-authority-building with trial-validated mechanisms",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-10T12:24:46+08:00",
+            "commit": "42299be00096507d1b9cca536d9333a8cd0cde11",
+            "files": [
+              "skills/ggs-blog/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-cluster/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-cluster/references/execution-workflow.md",
+              "skills/ggs-blog/engine/skills/blog-rewrite/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-seo-check/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-write/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-write/references/delivery.md",
+              "skills/ggs-blog/engine/skills/blog/references/article-link-integration.md",
+              "skills/ggs-blog/engine/skills/blog/references/ggs-article-quality.md",
+              "skills/ggs-blog/engine/skills/blog/references/internal-linking.md",
+              "skills/ggs-enterprise-growth-production-orchestrator/references/stages.md"
+            ],
+            "summary": "feat(blog): integrate articles with verified contextual backlinks",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-10T11:51:23+08:00",
+            "commit": "4b3a31c521ccfcaa4cf5839790c8151cea810a3e",
+            "files": [
+              "skills/ggs-enterprise-growth-production-orchestrator/SKILL.md",
+              "skills/ggs-enterprise-growth-production-orchestrator/references/contracts.md",
+              "skills/ggs-enterprise-growth-production-orchestrator/references/stages.md",
+              "skills/ggs-enterprise-growth-production-orchestrator/references/topic-to-asset.md",
+              "skills/ggs-enterprise-growth-production-orchestrator/references/workers.md"
+            ],
+            "summary": "feat(ggs): route topics into executable page and content tasks",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-10T11:14:48+08:00",
+            "commit": "c1925afd3a7902de35cf997da4ab07b2d1e2f5b6",
+            "files": [
+              "skills/ggs-content-autopilot/SKILL.md",
+              "skills/ggs-content-autopilot/references/知识调用与研究回流.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/SKILL.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/references/HTML_HANDOFF.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/references/KNOWLEDGE_UPDATES.md",
+              "skills/ggs-industrial-seo-content/SKILL.md",
+              "skills/ggs-industrial-seo-content/references/SEO公开情报研究流程.md",
+              "skills/ggs-industrial-seo-content/references/内容生产看板.md",
+              "skills/ggs-knowledge-search-content-orchestrator/SKILL.md",
+              "skills/ggs-knowledge-search-content-orchestrator/references/HANDOFF_CONTRACT.md",
+              "skills/ggs-knowledge-search-content-orchestrator/references/KNOWLEDGE_RETURN.md",
+              "skills/ggs-knowledge-search-content-orchestrator/references/PROBLEM_LINKAGE.md",
+              "skills/ggs-knowledge-search-content-orchestrator/references/RESEARCH_EXECUTION.md",
+              "skills/ggs-knowledge-search-content-orchestrator/references/SEARCH_VIEWS.md",
+              "skills/ggs-manufacturing-search-demand-mapper/SKILL.md",
+              "skills/ggs-manufacturing-search-demand-mapper/references/knowledge-and-view-integration.md"
+            ],
+            "summary": "feat(ggs): link search demand, knowledge and content research workflow",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-09T23:44:50+08:00",
+            "commit": "93d96134f8bebb161c71e71affd98990e441ecff",
+            "files": [
+              "skills/ggs-article-visuals/SKILL.md",
+              "skills/ggs-article-visuals/references/assets.md",
+              "skills/ggs-content-autopilot/SKILL.md",
+              "skills/ggs-content-autopilot/references/VISUAL_BACKFILL.md"
+            ],
+            "summary": "feat(skills): add daily visual backfill queue and automatic card selection",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-09T23:13:13+08:00",
+            "commit": "2a062d6c3a09e787532d5e3530472d09813d214c",
+            "files": [
+              "skills/ggs-article-visuals/SKILL.md",
+              "skills/ggs-article-visuals/references/assets.md",
+              "skills/ggs-article-visuals/references/brand.md",
+              "skills/ggs-article-visuals/references/export.md",
+              "skills/ggs-article-visuals/references/generation.md",
+              "skills/ggs-article-visuals/references/seo-schema.md",
+              "skills/ggs-blog/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-analyze/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-audio/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-audio/references/voices.md",
+              "skills/ggs-blog/engine/skills/blog-audit/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-brand/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-brief/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-calendar/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-cannibalization/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-chart/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-cluster/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-cluster/references/cluster-architecture.md",
+              "skills/ggs-blog/engine/skills/blog-cluster/references/execution-workflow.md",
+              "skills/ggs-blog/engine/skills/blog-cluster/references/semantic-clustering.md",
+              "skills/ggs-blog/engine/skills/blog-decay/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-discourse/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-factcheck/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-flow/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/bibliography.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/flow-framework.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/flow-prompts.lock",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/README.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/find/content-planning-for-topical-relevance-prompt.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/find/content-prioritization-prompt.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/find/keyword-research-prompt.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/find/keyword-variations-for-topical-relevance-prompt.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/find/prompt-audience-avatar.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/leverage/backlink-competition-prompt.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/optimize/ai-detector-test-follow-up-prompt.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/optimize/ai-supporting-pages-rewrite-prompt.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/optimize/basic-prompt.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/optimize/blog-post-outline-prompt.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/optimize/blog-post-writing-prompt.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/optimize/claude-prompt-1.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/optimize/claude-prompt-2.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/optimize/ctr-audit-prompt.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/optimize/follow-up-prompt-1.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/optimize/follow-up-prompt-2.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/optimize/follow-up-prompt.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/optimize/paa-question-rewording-prompt.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/optimize/prompt-core-30-content-audit.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/optimize/property-content-with-authority-audit-prompt.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/optimize/reddit-claude-prompt.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/optimize/schema-prompt-1.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/optimize/step-1-the-chatgpt-discovery-prompt.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/optimize/step-2-the-follow-up-qualifying-prompt.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/optimize/technical-audit-prompt.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/optimize/visibility-follow-up-prompt.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/optimize/visibility-prompt.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/win/bofu-page-brief-generator.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/win/conversion-audit-prompt.md",
+              "skills/ggs-blog/engine/skills/blog-flow/references/prompts/win/dual-surface-content-scorecard.md",
+              "skills/ggs-blog/engine/skills/blog-geo/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-google/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-google/references/api-reference.md",
+              "skills/ggs-blog/engine/skills/blog-google/references/auth-setup.md",
+              "skills/ggs-blog/engine/skills/blog-google/references/rate-limits-quotas.md",
+              "skills/ggs-blog/engine/skills/blog-google/references/search-currentness.md",
+              "skills/ggs-blog/engine/skills/blog-image/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-image/references/gemini-models.md",
+              "skills/ggs-blog/engine/skills/blog-image/references/mcp-tools.md",
+              "skills/ggs-blog/engine/skills/blog-image/references/prompt-engineering-blog.md",
+              "skills/ggs-blog/engine/skills/blog-locale-audit/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-localize/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-multilingual/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-notebooklm/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-notebooklm/references/commands.md",
+              "skills/ggs-blog/engine/skills/blog-notebooklm/references/troubleshooting.md",
+              "skills/ggs-blog/engine/skills/blog-outline/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-persona/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-persona/references/personas/.gitkeep",
+              "skills/ggs-blog/engine/skills/blog-repurpose/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-rewrite/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-schema/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-seo-check/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-strategy/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-style/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-taxonomy/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-translate/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-translate/references/cultural-adaptation.md",
+              "skills/ggs-blog/engine/skills/blog-translate/references/translation-rules.md",
+              "skills/ggs-blog/engine/skills/blog-write/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog-write/references/delivery.md",
+              "skills/ggs-blog/engine/skills/blog/SKILL.md",
+              "skills/ggs-blog/engine/skills/blog/references/ai-crawler-guide.md",
+              "skills/ggs-blog/engine/skills/blog/references/ai-slop-detection.md",
+              "skills/ggs-blog/engine/skills/blog/references/blog-delivery-contract.md",
+              "skills/ggs-blog/engine/skills/blog/references/cognitive-load.md",
+              "skills/ggs-blog/engine/skills/blog/references/content-rules.md",
+              "skills/ggs-blog/engine/skills/blog/references/content-templates.md",
+              "skills/ggs-blog/engine/skills/blog/references/cta-placement.md",
+              "skills/ggs-blog/engine/skills/blog/references/distribution-playbook.md",
+              "skills/ggs-blog/engine/skills/blog/references/editorial-heuristics.md",
+              "skills/ggs-blog/engine/skills/blog/references/eeat-signals.md",
+              "skills/ggs-blog/engine/skills/blog/references/flow-alignment.md",
+              "skills/ggs-blog/engine/skills/blog/references/geo-optimization.md",
+              "skills/ggs-blog/engine/skills/blog/references/ggs-article-quality.md",
+              "skills/ggs-blog/engine/skills/blog/references/google-landscape-2026.md",
+              "skills/ggs-blog/engine/skills/blog/references/internal-linking.md",
+              "skills/ggs-blog/engine/skills/blog/references/orchestration-details.md",
+              "skills/ggs-blog/engine/skills/blog/references/platform-guides.md",
+              "skills/ggs-blog/engine/skills/blog/references/quality-scoring.md",
+              "skills/ggs-blog/engine/skills/blog/references/research-quality.md",
+              "skills/ggs-blog/engine/skills/blog/references/schema-stack.md",
+              "skills/ggs-blog/engine/skills/blog/references/search-handoff.md",
+              "skills/ggs-blog/engine/skills/blog/references/synthesis-contract.md",
+              "skills/ggs-blog/engine/skills/blog/references/video-embeds.md",
+              "skills/ggs-blog/engine/skills/blog/references/visual-media.md",
+              "skills/ggs-blog/references/maintenance.md",
+              "skills/ggs-blog/references/search-handoff.md",
+              "skills/ggs-blog/references/upstream-check-2026-09-09.json",
+              "skills/ggs-blog/upstream/skills/blog-analyze/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-audio/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-audio/references/voices.md",
+              "skills/ggs-blog/upstream/skills/blog-audit/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-brand/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-brief/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-calendar/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-cannibalization/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-chart/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-cluster/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-cluster/references/cluster-architecture.md",
+              "skills/ggs-blog/upstream/skills/blog-cluster/references/execution-workflow.md",
+              "skills/ggs-blog/upstream/skills/blog-cluster/references/semantic-clustering.md",
+              "skills/ggs-blog/upstream/skills/blog-decay/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-discourse/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-factcheck/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/bibliography.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/flow-framework.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/flow-prompts.lock",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/README.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/find/content-planning-for-topical-relevance-prompt.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/find/content-prioritization-prompt.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/find/keyword-research-prompt.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/find/keyword-variations-for-topical-relevance-prompt.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/find/prompt-audience-avatar.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/leverage/backlink-competition-prompt.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/optimize/ai-detector-test-follow-up-prompt.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/optimize/ai-supporting-pages-rewrite-prompt.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/optimize/basic-prompt.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/optimize/blog-post-outline-prompt.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/optimize/blog-post-writing-prompt.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/optimize/claude-prompt-1.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/optimize/claude-prompt-2.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/optimize/ctr-audit-prompt.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/optimize/follow-up-prompt-1.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/optimize/follow-up-prompt-2.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/optimize/follow-up-prompt.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/optimize/paa-question-rewording-prompt.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/optimize/prompt-core-30-content-audit.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/optimize/property-content-with-authority-audit-prompt.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/optimize/reddit-claude-prompt.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/optimize/schema-prompt-1.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/optimize/step-1-the-chatgpt-discovery-prompt.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/optimize/step-2-the-follow-up-qualifying-prompt.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/optimize/technical-audit-prompt.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/optimize/visibility-follow-up-prompt.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/optimize/visibility-prompt.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/win/bofu-page-brief-generator.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/win/conversion-audit-prompt.md",
+              "skills/ggs-blog/upstream/skills/blog-flow/references/prompts/win/dual-surface-content-scorecard.md",
+              "skills/ggs-blog/upstream/skills/blog-geo/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-google/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-google/references/api-reference.md",
+              "skills/ggs-blog/upstream/skills/blog-google/references/auth-setup.md",
+              "skills/ggs-blog/upstream/skills/blog-google/references/rate-limits-quotas.md",
+              "skills/ggs-blog/upstream/skills/blog-google/references/search-currentness.md",
+              "skills/ggs-blog/upstream/skills/blog-image/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-image/references/gemini-models.md",
+              "skills/ggs-blog/upstream/skills/blog-image/references/mcp-tools.md",
+              "skills/ggs-blog/upstream/skills/blog-image/references/prompt-engineering-blog.md",
+              "skills/ggs-blog/upstream/skills/blog-locale-audit/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-localize/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-multilingual/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-notebooklm/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-notebooklm/references/commands.md",
+              "skills/ggs-blog/upstream/skills/blog-notebooklm/references/troubleshooting.md",
+              "skills/ggs-blog/upstream/skills/blog-outline/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-persona/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-persona/references/personas/.gitkeep",
+              "skills/ggs-blog/upstream/skills/blog-repurpose/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-rewrite/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-schema/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-seo-check/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-strategy/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-style/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-taxonomy/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-translate/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-translate/references/cultural-adaptation.md",
+              "skills/ggs-blog/upstream/skills/blog-translate/references/translation-rules.md",
+              "skills/ggs-blog/upstream/skills/blog-write/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog-write/references/delivery.md",
+              "skills/ggs-blog/upstream/skills/blog/SKILL.md",
+              "skills/ggs-blog/upstream/skills/blog/references/ai-crawler-guide.md",
+              "skills/ggs-blog/upstream/skills/blog/references/ai-slop-detection.md",
+              "skills/ggs-blog/upstream/skills/blog/references/blog-delivery-contract.md",
+              "skills/ggs-blog/upstream/skills/blog/references/cognitive-load.md",
+              "skills/ggs-blog/upstream/skills/blog/references/content-rules.md",
+              "skills/ggs-blog/upstream/skills/blog/references/content-templates.md",
+              "skills/ggs-blog/upstream/skills/blog/references/cta-placement.md",
+              "skills/ggs-blog/upstream/skills/blog/references/distribution-playbook.md",
+              "skills/ggs-blog/upstream/skills/blog/references/editorial-heuristics.md",
+              "skills/ggs-blog/upstream/skills/blog/references/eeat-signals.md",
+              "skills/ggs-blog/upstream/skills/blog/references/flow-alignment.md",
+              "skills/ggs-blog/upstream/skills/blog/references/geo-optimization.md",
+              "skills/ggs-blog/upstream/skills/blog/references/google-landscape-2026.md",
+              "skills/ggs-blog/upstream/skills/blog/references/internal-linking.md",
+              "skills/ggs-blog/upstream/skills/blog/references/orchestration-details.md",
+              "skills/ggs-blog/upstream/skills/blog/references/platform-guides.md",
+              "skills/ggs-blog/upstream/skills/blog/references/quality-scoring.md",
+              "skills/ggs-blog/upstream/skills/blog/references/research-quality.md",
+              "skills/ggs-blog/upstream/skills/blog/references/schema-stack.md",
+              "skills/ggs-blog/upstream/skills/blog/references/synthesis-contract.md",
+              "skills/ggs-blog/upstream/skills/blog/references/video-embeds.md",
+              "skills/ggs-blog/upstream/skills/blog/references/visual-media.md",
+              "skills/ggs-content-autopilot/SKILL.md",
+              "skills/ggs-industrial-seo-content/SKILL.md",
+              "skills/ggs-search-growth-orchestrator/references/handoff.md"
+            ],
+            "summary": "feat(skills): add article visuals and integrate blog production",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-09T23:08:39+08:00",
+            "commit": "553f27813e54d8015f0595ad5566729348966902",
+            "files": [
+              "skills/ggs-content-autopilot/SKILL.md",
+              "skills/ggs-content-autopilot/references/公开表达审核治理.md"
+            ],
+            "summary": "feat(content): gate CMS writes on public copy review",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-09T22:57:02+08:00",
+            "commit": "324429e546c8024f5ebc3e93b1ce076928419520",
+            "files": [
+              "skills/ggs-content-autopilot/SKILL.md",
+              "skills/ggs-knowledge-search-content-orchestrator/SKILL.md",
+              "skills/ggs-knowledge-search-content-orchestrator/references/CONTENT_CLUSTER_EXECUTION.md",
+              "skills/ggs-knowledge-search-content-orchestrator/references/HANDOFF_CONTRACT.md"
+            ],
+            "summary": "feat(skills): enforce content cluster execution",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-09T20:38:45+08:00",
+            "commit": "4f69104ab5ac629ec565442c1e395e1d7a5845f1",
+            "files": [
+              "skills/ggs-ai-growth-ops-system/SKILL.md",
+              "skills/ggs-ai-growth-ops-system/references/产品范围与用户任务.md",
+              "skills/ggs-ai-growth-ops-system/references/审计智能体组合.md",
+              "skills/ggs-ai-growth-ops-system/references/对象模型与状态流.md",
+              "skills/ggs-ai-growth-ops-system/references/指标与学习闭环.md",
+              "skills/ggs-ai-growth-ops-system/references/智能体信息流与优先级.md",
+              "skills/ggs-ai-growth-ops-system/references/网站接入与企业知识.md",
+              "skills/ggs-ai-growth-ops-system/references/草稿评审与审批.md",
+              "skills/ggs-ai-growth-ops-system/references/集成与安全写回.md",
+              "skills/ggs-b2b-lead-ops/SKILL.md",
+              "skills/ggs-b2b-lead-ops/references/CRM字段模型.md",
+              "skills/ggs-b2b-lead-ops/references/商业匹配初筛.md",
+              "skills/ggs-b2b-lead-ops/references/线索分级.md",
+              "skills/ggs-b2b-lead-ops/references/线索接入与分流.md",
+              "skills/ggs-b2b-lead-ops/references/跟进与复盘.md",
+              "skills/ggs-content-autopilot/SKILL.md",
+              "skills/ggs-content-autopilot/references/搜索需求图谱与文章自动化生产治理.md",
+              "skills/ggs-content-autopilot/references/知识调用与研究回流.md",
+              "skills/ggs-crm-pipeline-sync/SKILL.md",
+              "skills/ggs-crm-pipeline-sync/references/丢单原因与再激活逻辑.md",
+              "skills/ggs-crm-pipeline-sync/references/同步边界与写入规则.md",
+              "skills/ggs-crm-pipeline-sync/references/必填字段与出口规则.md",
+              "skills/ggs-crm-pipeline-sync/references/报表与漏斗可视化.md",
+              "skills/ggs-crm-pipeline-sync/references/管道阶段模型.md",
+              "skills/ggs-crm-pipeline-sync/references/记录身份与去重.md",
+              "skills/ggs-crm-pipeline-sync/references/负责人交接与升级.md",
+              "skills/ggs-enterprise-growth-production-orchestrator/SKILL.md",
+              "skills/ggs-expo-outbound-linkage/SKILL.md",
+              "skills/ggs-expo-outbound-linkage/references/CRM导入与负责人分配.md",
+              "skills/ggs-expo-outbound-linkage/references/LinkedIn与邮件主动开发节奏.md",
+              "skills/ggs-expo-outbound-linkage/references/会面反馈到内容与证据.md",
+              "skills/ggs-expo-outbound-linkage/references/复盘与投入产出闭环.md",
+              "skills/ggs-expo-outbound-linkage/references/展会策略与目标客户.md",
+              "skills/ggs-expo-outbound-linkage/references/展位会面记录与标签.md",
+              "skills/ggs-expo-outbound-linkage/references/展后跟进节奏.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/SKILL.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/references/INDUSTRY_BASELINE.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/references/KNOWLEDGE_MODEL.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/references/KNOWLEDGE_UPDATES.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/references/V1.1_MIGRATION.md",
+              "skills/ggs-global-growth-system/SKILL.md",
+              "skills/ggs-global-growth-system/references/七子系统与十阶段关系大纲和思维导图.md",
+              "skills/ggs-global-growth-system/references/全量Skill与工具链编排大图.md",
+              "skills/ggs-global-growth-system/references/搜索阶段触发与复盘规则.md",
+              "skills/ggs-global-growth-system/references/母Agent与Skill编排架构.md",
+              "skills/ggs-global-growth-system/references/邻接技能地图.md",
+              "skills/ggs-growth-automation-ops/SKILL.md",
+              "skills/ggs-growth-automation-ops/references/事实源与同步.md",
+              "skills/ggs-growth-automation-ops/references/周期节奏与看板.md",
+              "skills/ggs-growth-automation-ops/references/审批与负责人规则.md",
+              "skills/ggs-growth-automation-ops/references/异常处理与回滚.md",
+              "skills/ggs-growth-automation-ops/references/日志与差异报告.md",
+              "skills/ggs-growth-automation-ops/references/结构化同步与发布.md",
+              "skills/ggs-growth-service-packaging/SKILL.md",
+              "skills/ggs-growth-service-packaging/references/产品梯度与入门产品.md",
+              "skills/ggs-growth-service-packaging/references/产能与百客户模型.md",
+              "skills/ggs-growth-service-packaging/references/叙事与定位边界.md",
+              "skills/ggs-growth-service-packaging/references/套餐范围与交付物.md",
+              "skills/ggs-growth-service-packaging/references/定价人员与单元经济模型.md",
+              "skills/ggs-growth-service-packaging/references/客户分层与升级路径.md",
+              "skills/ggs-growth-service-packaging/references/销售资料与官网映射.md",
+              "skills/ggs-industrial-seo-content/SKILL.md",
+              "skills/ggs-industrial-seo-content/references/AI代理SEO30天执行系统.md",
+              "skills/ggs-industrial-seo-content/references/SEO公开情报研究流程.md",
+              "skills/ggs-industrial-seo-content/references/SEO质量边界.md",
+              "skills/ggs-industrial-seo-content/references/企业SEO-GEO规划SOP.md",
+              "skills/ggs-industrial-seo-content/references/内容集群策略.md",
+              "skills/ggs-industrial-seo-content/references/发布与反馈闭环.md",
+              "skills/ggs-industrial-seo-content/references/旧内容治理.md",
+              "skills/ggs-industrial-seo-content/references/标准话题图谱消费接口.md",
+              "skills/ggs-industrial-seo-content/references/竞品与差距分析.md",
+              "skills/ggs-industrial-seo-content/references/话题库与优先级.md",
+              "skills/ggs-industrial-seo-content/references/资产类型与简报规则.md",
+              "skills/ggs-knowledge-search-content-orchestrator/SKILL.md",
+              "skills/ggs-knowledge-search-content-orchestrator/references/HANDOFF_CONTRACT.md",
+              "skills/ggs-knowledge-search-content-orchestrator/references/KNOWLEDGE_RETURN.md",
+              "skills/ggs-knowledge-search-content-orchestrator/references/SEARCH_VIEWS.md",
+              "skills/ggs-manufacturing-proof-assets/SKILL.md",
+              "skills/ggs-manufacturing-proof-assets/references/公开层级与合规.md",
+              "skills/ggs-manufacturing-proof-assets/references/案例与验证包装.md",
+              "skills/ggs-manufacturing-proof-assets/references/资产分类与用途.md",
+              "skills/ggs-manufacturing-proof-assets/references/资产台账与元数据.md",
+              "skills/ggs-manufacturing-proof-assets/references/资产生产流程.md",
+              "skills/ggs-manufacturing-proof-assets/references/销售与展会证据包.md",
+              "skills/ggs-manufacturing-search-demand-mapper/SKILL.md",
+              "skills/ggs-manufacturing-search-demand-mapper/references/b2b-filter-and-scoring.md",
+              "skills/ggs-manufacturing-search-demand-mapper/references/connectors.md",
+              "skills/ggs-manufacturing-search-demand-mapper/references/data-model.md",
+              "skills/ggs-manufacturing-search-demand-mapper/references/knowledge-and-view-integration.md",
+              "skills/ggs-manufacturing-search-demand-mapper/references/output-contract.md",
+              "skills/ggs-manufacturing-search-demand-mapper/references/project-input-contract.md",
+              "skills/ggs-market-competitor-intel/SKILL.md",
+              "skills/ggs-market-competitor-intel/references/产品报价与路径基准.md",
+              "skills/ggs-market-competitor-intel/references/市场选择与评分.md",
+              "skills/ggs-market-competitor-intel/references/渠道格局与进入路径.md",
+              "skills/ggs-market-competitor-intel/references/监控与复盘闭环.md",
+              "skills/ggs-market-competitor-intel/references/竞品地图与分组.md",
+              "skills/ggs-market-competitor-intel/references/话术证据差距分析.md",
+              "skills/ggs-quote-profit-ops/SKILL.md",
+              "skills/ggs-quote-profit-ops/references/合作模式分流.md",
+              "skills/ggs-quote-profit-ops/references/商业输入清单.md",
+              "skills/ggs-quote-profit-ops/references/复盘与升级.md",
+              "skills/ggs-quote-profit-ops/references/报价资格与护栏.md",
+              "skills/ggs-quote-profit-ops/references/样品与验证投入规则.md",
+              "skills/ggs-quote-profit-ops/references/毛利与资源边界.md",
+              "skills/ggs-search-growth-orchestrator/SKILL.md",
+              "skills/ggs-search-growth-orchestrator/references/handoff.md",
+              "skills/industrial-seo-content/references/内容集群策略.md",
+              "skills/industrial-seo-content/references/发布与反馈闭环.md",
+              "skills/industrial-seo-content/references/资产类型与简报规则.md"
+            ],
+            "summary": "完善GGS技能命名、知识搜索内容闭环与阶段触发规则",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-09T14:42:54+08:00",
+            "commit": "6c0c5a0beb9e231593cfd0a903865f3a85666af7",
+            "files": [
+              "skills/ggs-external-knowledge-architecture-orchestrator/SKILL.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/references/HTML_HANDOFF.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/references/INDUSTRY_BASELINE.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/references/RUN_GUIDE.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/references/V1.1_MIGRATION.md"
+            ],
+            "summary": "增加 EKA 离线单文件知识图谱收尾流程",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-09T14:35:55+08:00",
+            "commit": "66c90c44372b4593239f873a1ca79cbfcc20b23a",
+            "files": [
+              "skills/ggs-external-knowledge-architecture-orchestrator/SKILL.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/references/INDUSTRY_BASELINE.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/references/RUN_GUIDE.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/references/V1.1_MIGRATION.md"
+            ],
+            "summary": "修正 EKA V1.1 行业知识基线与配套执行文档",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-09T12:30:34+08:00",
+            "commit": "bd6a4b25a5b4f1750a7b13f7c55c069b0df0aeb9",
+            "files": [
+              "skills/ggs-search-growth-orchestrator/SKILL.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/README.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/attribution.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/catalog.json",
+              "skills/ggs-search-growth-orchestrator/references/flow/integration.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/routing.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/source-lock.json",
+              "skills/ggs-search-growth-orchestrator/references/flow/source-manifest.json",
+              "skills/ggs-search-growth-orchestrator/references/flow/update.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/.github/ISSUE_TEMPLATE/bug_report.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/.github/ISSUE_TEMPLATE/feature_request.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/.github/ISSUE_TEMPLATE/source-correction.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/.github/PULL_REQUEST_TEMPLATE.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/.github/markdown-link-check-config.json",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/.github/workflows/docs.yml",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/.github/workflows/link-check.yml",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/.github/workflows/markdown-lint.yml",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/.gitignore",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/.obsidian/app.json",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/.obsidian/appearance.json",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/.obsidian/core-plugins.json",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/.obsidian/graph.json",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/CHANGELOG.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/CLAUDE.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/CODE_OF_CONDUCT.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/CONTRIBUTING.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/LICENSE.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/README.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/SECURITY.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/README.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-graph-view-detail.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-graph-view.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-hero-light.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-hero.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v4-distributed-presence-light.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v4-distributed-presence.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v4-extraction-layout-light.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v4-extraction-layout.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v4-flow-loop-light.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v4-flow-loop.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v4-local-seo-system-light.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v4-local-seo-system.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v4-query-fanout-light.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v4-query-fanout.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v4-surface-map-light.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v4-surface-map.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v4-technical-stack-light.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v4-technical-stack.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v4-win-stage-light.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v4-win-stage.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v5-affiliate-stage-flow.gif",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v5-affiliate-stage-flow.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v5-aio-click-reduction.gif",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v5-aio-click-reduction.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v5-b2b-stage-flow.gif",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v5-b2b-stage-flow.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v5-dual-surface-scorecard.gif",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v5-dual-surface-scorecard.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v5-ecommerce-stage-flow.gif",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v5-ecommerce-stage-flow.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v5-gbp-completeness.gif",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v5-gbp-completeness.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v5-local-ai-source-mix.gif",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v5-local-ai-source-mix.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v5-saas-stage-flow.gif",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v5-saas-stage-flow.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v5-service-business-stage-flow.gif",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/diagrams/flow-v5-service-business-stage-flow.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/assets/social-preview.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/00-START-HERE.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/01-framework/ai-search-surface-map.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/01-framework/flow-framework.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/01-framework/independence-and-attribution.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/02-foundations/search-intent-and-eeat.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/02-foundations/technical-and-schema-foundations.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/03-find/audience-avatar-and-local-intent.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/03-find/keyword-research.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/03-find/query-fan-out-and-topical-relevance.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/04-leverage/distributed-presence.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/04-leverage/local-citations-and-links.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/04-leverage/reddit-linkedin-and-community.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/05-optimize/content-and-ctr-optimization.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/05-optimize/entity-consistency-and-llm-tracking.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/05-optimize/geo-formatting-and-extraction.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/06-win/bofu-and-conversion-content.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/06-win/dual-surface-scorecard.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/06-win/ppc-and-first-party-intelligence.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/07-local-seo/google-business-profile.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/07-local-seo/local-audits.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/07-local-seo/local-content-and-service-pages.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/07-local-seo/local-seo-overview.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/08-playbooks/affiliate-content.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/08-playbooks/b2b-lead-generation.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/08-playbooks/ecommerce.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/08-playbooks/saas.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/08-playbooks/service-business.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/README.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/find/content-planning-for-topical-relevance-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/find/content-prioritization-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/find/keyword-research-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/find/keyword-variations-for-topical-relevance-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/find/prompt-audience-avatar.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/leverage/backlink-competition-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/local/ai-homepage-rewrite-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/local/claude-deep-research-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/local/gbp-categories-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/local/gbp-description-claude-prompt-1.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/local/gbp-description-claude-prompt-2.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/local/gbp-description-claude-prompt-3.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/local/gbp-services-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/local/prompt-generating-a-meta-description.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/local/prompt-generating-a-title-tag.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/local/prompt-rewriting-existing-homepage.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/local/prompt-rewriting-existing-service-page.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/optimize/ai-detector-test-follow-up-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/optimize/ai-supporting-pages-rewrite-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/optimize/basic-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/optimize/blog-post-outline-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/optimize/blog-post-writing-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/optimize/claude-prompt-1.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/optimize/claude-prompt-2.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/optimize/ctr-audit-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/optimize/follow-up-prompt-1.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/optimize/follow-up-prompt-2.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/optimize/follow-up-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/optimize/paa-question-rewording-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/optimize/prompt-core-30-content-audit.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/optimize/property-content-with-authority-audit-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/optimize/reddit-claude-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/optimize/schema-prompt-1.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/optimize/step-1-the-chatgpt-discovery-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/optimize/step-2-the-follow-up-qualifying-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/optimize/technical-audit-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/optimize/visibility-follow-up-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/optimize/visiblity-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/win/bofu-page-brief-generator.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/win/conversion-audit-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/09-prompts/win/dual-surface-content-scorecard.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/10-references/attribution.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/10-references/bibliography.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/10-references/independence-ledger.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/docs/10-references/stats-provenance.json",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/examples/service-business-flow-audit.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/llms-full.txt",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/llms.txt",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-graph-view-detail.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-graph-view.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-hero-light.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-hero.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v4-distributed-presence-light.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v4-distributed-presence.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v4-extraction-layout-light.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v4-extraction-layout.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v4-flow-loop-light.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v4-flow-loop.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v4-local-seo-system-light.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v4-local-seo-system.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v4-query-fanout-light.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v4-query-fanout.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v4-surface-map-light.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v4-surface-map.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v4-technical-stack-light.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v4-technical-stack.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v4-win-stage-light.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v4-win-stage.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v5-affiliate-stage-flow.gif",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v5-affiliate-stage-flow.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v5-aio-click-reduction.gif",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v5-aio-click-reduction.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v5-b2b-stage-flow.gif",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v5-b2b-stage-flow.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v5-dual-surface-scorecard.gif",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v5-dual-surface-scorecard.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v5-ecommerce-stage-flow.gif",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v5-ecommerce-stage-flow.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v5-gbp-completeness.gif",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v5-gbp-completeness.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v5-local-ai-source-mix.gif",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v5-local-ai-source-mix.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v5-saas-stage-flow.gif",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v5-saas-stage-flow.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v5-service-business-stage-flow.gif",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/12-Attachments/images/flow-v5-service-business-stage-flow.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/CODEX.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/assets/diagrams/README.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/assets/diagrams/flow-v4-distributed-presence.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/assets/diagrams/flow-v4-extraction-layout.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/assets/diagrams/flow-v4-flow-loop.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/assets/diagrams/flow-v4-local-seo-system.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/assets/diagrams/flow-v4-query-fanout.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/assets/diagrams/flow-v4-surface-map.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/assets/diagrams/flow-v4-technical-stack.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/assets/diagrams/flow-v4-win-stage.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/assets/social-preview.png",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/00-START-HERE.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/01-framework/ai-search-surface-map.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/01-framework/flow-framework.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/01-framework/independence-and-attribution.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/02-foundations/search-intent-and-eeat.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/02-foundations/technical-and-schema-foundations.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/03-find/audience-avatar-and-local-intent.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/03-find/keyword-research.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/03-find/query-fan-out-and-topical-relevance.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/04-leverage/distributed-presence.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/04-leverage/local-citations-and-links.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/04-leverage/reddit-linkedin-and-community.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/05-optimize/content-and-ctr-optimization.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/05-optimize/entity-consistency-and-llm-tracking.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/05-optimize/geo-formatting-and-extraction.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/06-win/bofu-and-conversion-content.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/06-win/dual-surface-scorecard.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/06-win/ppc-and-first-party-intelligence.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/07-local-seo/google-business-profile.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/07-local-seo/local-audits.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/07-local-seo/local-content-and-service-pages.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/07-local-seo/local-seo-overview.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/08-playbooks/affiliate-content.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/08-playbooks/b2b-lead-generation.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/08-playbooks/ecommerce.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/08-playbooks/saas.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/08-playbooks/service-business.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/README.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/find/content-planning-for-topical-relevance-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/find/content-prioritization-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/find/keyword-research-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/find/keyword-variations-for-topical-relevance-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/find/prompt-audience-avatar.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/leverage/backlink-competition-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/local/ai-homepage-rewrite-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/local/claude-deep-research-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/local/gbp-categories-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/local/gbp-description-claude-prompt-1.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/local/gbp-description-claude-prompt-2.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/local/gbp-description-claude-prompt-3.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/local/gbp-services-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/local/prompt-generating-a-meta-description.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/local/prompt-generating-a-title-tag.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/local/prompt-rewriting-existing-homepage.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/local/prompt-rewriting-existing-service-page.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/optimize/ai-detector-test-follow-up-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/optimize/ai-supporting-pages-rewrite-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/optimize/basic-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/optimize/blog-post-outline-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/optimize/blog-post-writing-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/optimize/claude-prompt-1.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/optimize/claude-prompt-2.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/optimize/ctr-audit-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/optimize/follow-up-prompt-1.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/optimize/follow-up-prompt-2.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/optimize/follow-up-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/optimize/paa-question-rewording-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/optimize/prompt-core-30-content-audit.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/optimize/property-content-with-authority-audit-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/optimize/reddit-claude-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/optimize/schema-prompt-1.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/optimize/step-1-the-chatgpt-discovery-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/optimize/step-2-the-follow-up-qualifying-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/optimize/technical-audit-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/optimize/visibility-follow-up-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/optimize/visiblity-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/win/bofu-page-brief-generator.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/win/conversion-audit-prompt.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/09-prompts/win/dual-surface-content-scorecard.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/10-references/attribution.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/10-references/bibliography.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/10-references/independence-ledger.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/docs/10-references/stats-provenance.json",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/wiki/hot.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/wiki/index.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/wiki/log.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/obsidian-vault/wiki/overview.md",
+              "skills/ggs-search-growth-orchestrator/references/flow/upstream/scripts/check_docs.py"
+            ],
+            "summary": "feat(seo-pilot): 内置 FLOW 完整能力与更新链路",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-09T11:02:13+08:00",
+            "commit": "cb1c464be6016f2aee9612e8f11b4364f904bac5",
+            "files": [
+              "skills/codex-worker-routing/SKILL.md",
+              "skills/codex-worker-routing/references/routing-workflow.md",
+              "skills/ggs-enterprise-growth-production-orchestrator/SKILL.md",
+              "skills/ggs-enterprise-growth-production-orchestrator/references/contracts.md",
+              "skills/ggs-enterprise-growth-production-orchestrator/references/harnesses.md",
+              "skills/ggs-enterprise-growth-production-orchestrator/references/source-map.md",
+              "skills/ggs-enterprise-growth-production-orchestrator/references/stages.md",
+              "skills/ggs-enterprise-growth-production-orchestrator/references/workers.md",
+              "skills/ggs-external-knowledge-architecture-orchestrator/SKILL.md"
+            ],
+            "summary": "备份 GGS 总文档、方法论与 Skills 当前状态",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-09T10:51:24+08:00",
+            "commit": "47053b4cdf9b4b1227e587b593f0ef4d642a687e",
+            "files": [
+              "skills/ggs-external-knowledge-architecture-orchestrator/SKILL.md",
+              "skills/ggs-global-growth-system/SKILL.md",
+              "skills/ggs-global-growth-system/references/B2B增长战略原则.md",
+              "skills/ggs-global-growth-system/references/七子系统与十阶段关系大纲和思维导图.md",
+              "skills/ggs-global-growth-system/references/任务清单与工作日志分层治理.md",
+              "skills/ggs-global-growth-system/references/全量Skill与工具链编排大图.md",
+              "skills/ggs-global-growth-system/references/品牌法律主体产品归属与公开事实治理.md",
+              "skills/ggs-global-growth-system/references/完整性检查清单.md",
+              "skills/ggs-global-growth-system/references/搜索需求图谱与文章自动化生产治理.md",
+              "skills/ggs-global-growth-system/references/文档栈.md",
+              "skills/ggs-global-growth-system/references/方法论.md",
+              "skills/ggs-global-growth-system/references/母Agent与Skill编排架构.md",
+              "skills/ggs-global-growth-system/references/自进化与自动启动机制.md",
+              "skills/ggs-global-growth-system/references/迁移适配规则.md",
+              "skills/ggs-global-growth-system/references/邻接技能地图.md",
+              "skills/ggs-global-growth-system/references/项目经验升级地图.md",
+              "skills/ggs-search-growth-orchestrator/SKILL.md",
+              "skills/ggs-search-growth-orchestrator/references/contracts.md",
+              "skills/ggs-search-growth-orchestrator/references/data.md",
+              "skills/ggs-search-growth-orchestrator/references/decisions.md",
+              "skills/ggs-search-growth-orchestrator/references/evidence.md",
+              "skills/ggs-search-growth-orchestrator/references/handoff.md",
+              "skills/ggs-search-growth-orchestrator/references/harnesses.md",
+              "skills/ggs-search-growth-orchestrator/references/learning.md",
+              "skills/ggs-search-growth-orchestrator/references/objective.md",
+              "skills/ggs-search-growth-orchestrator/references/source-manifest.json",
+              "skills/ggs-search-growth-orchestrator/references/source-map.md",
+              "skills/ggs-search-growth-orchestrator/references/source/00-拆分说明与版本对照.md",
+              "skills/ggs-search-growth-orchestrator/references/source/00-目录.md",
+              "skills/ggs-search-growth-orchestrator/references/source/01-GGS 方法论与学习层｜系统设计与 SEO Pilot.md",
+              "skills/ggs-search-growth-orchestrator/references/source/02-Task 002｜Methodology Knowledge Object & Evidence Model.md",
+              "skills/ggs-search-growth-orchestrator/references/source/03-Task 003｜Domain Pack Minimum Standard.md",
+              "skills/ggs-search-growth-orchestrator/references/source/04-Task 004｜Search Growth Domain 完整知识地图.md",
+              "skills/ggs-search-growth-orchestrator/references/source/05-Task 005｜Search Growth Authority Source Map.md",
+              "skills/ggs-search-growth-orchestrator/references/source/06-Task 006｜Search Growth P0 Decision System 建设规划.md",
+              "skills/ggs-search-growth-orchestrator/references/source/07-Task 007｜Search Demand Qualification Decision System V1.md",
+              "skills/ggs-search-growth-orchestrator/references/source/08-Task 008｜Search Opportunity Priority Decision System V1.md",
+              "skills/ggs-search-growth-orchestrator/references/source/09-Task 009｜Search Intent & SERP Interpretation Decision System.md",
+              "skills/ggs-search-growth-orchestrator/references/source/10-Task 010｜Independent URL _ Asset Decision System V1.md",
+              "skills/ggs-search-growth-orchestrator/references/source/11-Task 010 编号重复确认.md",
+              "skills/ggs-search-growth-orchestrator/references/source/12-Task 011｜Content Sufficiency & Evidence Requirement Decision.md",
+              "skills/ggs-search-growth-orchestrator/references/source/13-Task 012｜Search Eligibility & Indexation Diagnosis Decision.md",
+              "skills/ggs-search-growth-orchestrator/references/source/14-Task 013｜Search Growth Constraint Diagnosis Decision V1.md",
+              "skills/ggs-search-growth-orchestrator/references/source/15-Task 014｜补齐 P0 形成完整 Knowledge Cluster.md",
+              "skills/ggs-search-growth-orchestrator/references/source/16-P0 Integration Test｜用 Yakeclimate 真实项目验证.md",
+              "skills/ggs-search-growth-orchestrator/references/source/17-Task 015｜Search Growth P0 × SEO Growth OS V0.1 对齐升级规格.md",
+              "skills/ggs-search-growth-orchestrator/references/source/18-《SEO Growth OS V0.2 工程实现指令》.md",
+              "skills/ggs-search-growth-orchestrator/references/source/19-系统完成度与剩余任务讨论.md",
+              "skills/ggs-search-growth-orchestrator/references/source/20-Task 016 与 Codex 工程实现的关系.md",
+              "skills/ggs-search-growth-orchestrator/references/source/21-Task 016｜Search Growth P0 Operational Validation Protocol V1.md",
+              "skills/ggs-search-growth-orchestrator/references/source/22-Task 017｜Search Growth Gold Case Pack V1.md",
+              "skills/ggs-search-growth-orchestrator/references/source/23-Task 018 设计与冻结不依赖 Codex 完成.md",
+              "skills/ggs-search-growth-orchestrator/references/source/24-Task 018｜冻结 Search Growth P0 V1-RC.md",
+              "skills/ggs-search-growth-orchestrator/references/source/25-对话概括｜SEO Pilot 开发总结与文档使用总图.md",
+              "skills/ggs-search-growth-orchestrator/references/source/SEO Pilot 阶段总结、文档使用与工程落地总说明.md",
+              "skills/ggs-search-growth-orchestrator/references/source/SEO_Growth_OS_V0.1_Specification.extracted.txt"
+            ],
+            "summary": "统一 GGS 专属 Skill 命名",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-09T10:04:35+08:00",
+            "commit": "f869442e08d71cffba8d6baba0824ddba1b840d2",
+            "files": [
+              "skills/search-growth-orchestrator/SKILL.md",
+              "skills/search-growth-orchestrator/references/contracts.md",
+              "skills/search-growth-orchestrator/references/data.md",
+              "skills/search-growth-orchestrator/references/decisions.md",
+              "skills/search-growth-orchestrator/references/evidence.md",
+              "skills/search-growth-orchestrator/references/handoff.md",
+              "skills/search-growth-orchestrator/references/harnesses.md",
+              "skills/search-growth-orchestrator/references/learning.md",
+              "skills/search-growth-orchestrator/references/objective.md",
+              "skills/search-growth-orchestrator/references/source-manifest.json",
+              "skills/search-growth-orchestrator/references/source-map.md",
+              "skills/search-growth-orchestrator/references/source/00-拆分说明与版本对照.md",
+              "skills/search-growth-orchestrator/references/source/00-目录.md",
+              "skills/search-growth-orchestrator/references/source/01-GGS 方法论与学习层｜系统设计与 SEO Pilot.md",
+              "skills/search-growth-orchestrator/references/source/02-Task 002｜Methodology Knowledge Object & Evidence Model.md",
+              "skills/search-growth-orchestrator/references/source/03-Task 003｜Domain Pack Minimum Standard.md",
+              "skills/search-growth-orchestrator/references/source/04-Task 004｜Search Growth Domain 完整知识地图.md",
+              "skills/search-growth-orchestrator/references/source/05-Task 005｜Search Growth Authority Source Map.md",
+              "skills/search-growth-orchestrator/references/source/06-Task 006｜Search Growth P0 Decision System 建设规划.md",
+              "skills/search-growth-orchestrator/references/source/07-Task 007｜Search Demand Qualification Decision System V1.md",
+              "skills/search-growth-orchestrator/references/source/08-Task 008｜Search Opportunity Priority Decision System V1.md",
+              "skills/search-growth-orchestrator/references/source/09-Task 009｜Search Intent & SERP Interpretation Decision System.md",
+              "skills/search-growth-orchestrator/references/source/10-Task 010｜Independent URL _ Asset Decision System V1.md",
+              "skills/search-growth-orchestrator/references/source/11-Task 010 编号重复确认.md",
+              "skills/search-growth-orchestrator/references/source/12-Task 011｜Content Sufficiency & Evidence Requirement Decision.md",
+              "skills/search-growth-orchestrator/references/source/13-Task 012｜Search Eligibility & Indexation Diagnosis Decision.md",
+              "skills/search-growth-orchestrator/references/source/14-Task 013｜Search Growth Constraint Diagnosis Decision V1.md",
+              "skills/search-growth-orchestrator/references/source/15-Task 014｜补齐 P0 形成完整 Knowledge Cluster.md",
+              "skills/search-growth-orchestrator/references/source/16-P0 Integration Test｜用 Yakeclimate 真实项目验证.md",
+              "skills/search-growth-orchestrator/references/source/17-Task 015｜Search Growth P0 × SEO Growth OS V0.1 对齐升级规格.md",
+              "skills/search-growth-orchestrator/references/source/18-《SEO Growth OS V0.2 工程实现指令》.md",
+              "skills/search-growth-orchestrator/references/source/19-系统完成度与剩余任务讨论.md",
+              "skills/search-growth-orchestrator/references/source/20-Task 016 与 Codex 工程实现的关系.md",
+              "skills/search-growth-orchestrator/references/source/21-Task 016｜Search Growth P0 Operational Validation Protocol V1.md",
+              "skills/search-growth-orchestrator/references/source/22-Task 017｜Search Growth Gold Case Pack V1.md",
+              "skills/search-growth-orchestrator/references/source/23-Task 018 设计与冻结不依赖 Codex 完成.md",
+              "skills/search-growth-orchestrator/references/source/24-Task 018｜冻结 Search Growth P0 V1-RC.md",
+              "skills/search-growth-orchestrator/references/source/25-对话概括｜SEO Pilot 开发总结与文档使用总图.md",
+              "skills/search-growth-orchestrator/references/source/SEO Pilot 阶段总结、文档使用与工程落地总说明.md",
+              "skills/search-growth-orchestrator/references/source/SEO_Growth_OS_V0.1_Specification.extracted.txt"
+            ],
+            "summary": "新增独立 Search Growth 决策与学习编排器",
+            "source_project": null
+          },
+          {
+            "date": "2026-09-05T10:18:50+08:00",
+            "commit": "3872a53d1e029bcdfadd6aa3c23939b46425f194",
+            "files": [
+              "skills/external-knowledge-architecture-orchestrator/SKILL.md"
+            ],
+            "summary": "Add SKILL",
+            "source_project": null
+          },
+          {
+            "date": "2026-08-25T13:39:03+08:00",
+            "commit": "dda49905e3429327f9387c7fdbfaa825e398013a",
+            "files": [
+              "skills/.system/imagegen/SKILL.md",
+              "skills/.system/imagegen/references/cli.md",
+              "skills/.system/imagegen/references/codex-network.md",
+              "skills/.system/imagegen/references/image-api.md",
+              "skills/.system/imagegen/references/prompting.md",
+              "skills/.system/imagegen/references/sample-prompts.md",
+              "skills/.system/openai-docs/SKILL.md",
+              "skills/.system/openai-docs/references/latest-model.md",
+              "skills/.system/openai-docs/references/prompting-guide.md",
+              "skills/.system/openai-docs/references/upgrade-guide.md",
+              "skills/.system/plugin-creator/SKILL.md",
+              "skills/.system/plugin-creator/references/installing-and-updating.md",
+              "skills/.system/plugin-creator/references/plugin-json-spec.md",
+              "skills/.system/skill-creator/SKILL.md",
+              "skills/.system/skill-creator/references/openai_yaml.md",
+              "skills/.system/skill-installer/SKILL.md",
+              "skills/ai-growth-ops-system/SKILL.md",
+              "skills/ai-growth-ops-system/references/产品范围与用户任务.md",
+              "skills/ai-growth-ops-system/references/审计智能体组合.md",
+              "skills/ai-growth-ops-system/references/对象模型与状态流.md",
+              "skills/ai-growth-ops-system/references/指标与学习闭环.md",
+              "skills/ai-growth-ops-system/references/智能体信息流与优先级.md",
+              "skills/ai-growth-ops-system/references/网站接入与企业知识.md",
+              "skills/ai-growth-ops-system/references/草稿评审与审批.md",
+              "skills/ai-growth-ops-system/references/集成与安全写回.md",
+              "skills/b2b-lead-ops/SKILL.md",
+              "skills/b2b-lead-ops/references/CRM字段模型.md",
+              "skills/b2b-lead-ops/references/商业匹配初筛.md",
+              "skills/b2b-lead-ops/references/线索分级.md",
+              "skills/b2b-lead-ops/references/线索接入与分流.md",
+              "skills/b2b-lead-ops/references/跟进与复盘.md",
+              "skills/cloudflare-deploy/SKILL.md",
+              "skills/cloudflare-deploy/references/agents-sdk/README.md",
+              "skills/cloudflare-deploy/references/agents-sdk/api.md",
+              "skills/cloudflare-deploy/references/agents-sdk/configuration.md",
+              "skills/cloudflare-deploy/references/agents-sdk/gotchas.md",
+              "skills/cloudflare-deploy/references/agents-sdk/patterns.md",
+              "skills/cloudflare-deploy/references/ai-gateway/README.md",
+              "skills/cloudflare-deploy/references/ai-gateway/configuration.md",
+              "skills/cloudflare-deploy/references/ai-gateway/dynamic-routing.md",
+              "skills/cloudflare-deploy/references/ai-gateway/features.md",
+              "skills/cloudflare-deploy/references/ai-gateway/sdk-integration.md",
+              "skills/cloudflare-deploy/references/ai-gateway/troubleshooting.md",
+              "skills/cloudflare-deploy/references/ai-search/README.md",
+              "skills/cloudflare-deploy/references/ai-search/api.md",
+              "skills/cloudflare-deploy/references/ai-search/configuration.md",
+              "skills/cloudflare-deploy/references/ai-search/gotchas.md",
+              "skills/cloudflare-deploy/references/ai-search/patterns.md",
+              "skills/cloudflare-deploy/references/analytics-engine/README.md",
+              "skills/cloudflare-deploy/references/analytics-engine/api.md",
+              "skills/cloudflare-deploy/references/analytics-engine/configuration.md",
+              "skills/cloudflare-deploy/references/analytics-engine/gotchas.md",
+              "skills/cloudflare-deploy/references/analytics-engine/patterns.md",
+              "skills/cloudflare-deploy/references/api-shield/README.md",
+              "skills/cloudflare-deploy/references/api-shield/api.md",
+              "skills/cloudflare-deploy/references/api-shield/configuration.md",
+              "skills/cloudflare-deploy/references/api-shield/gotchas.md",
+              "skills/cloudflare-deploy/references/api-shield/patterns.md",
+              "skills/cloudflare-deploy/references/api/README.md",
+              "skills/cloudflare-deploy/references/api/api.md",
+              "skills/cloudflare-deploy/references/api/configuration.md",
+              "skills/cloudflare-deploy/references/api/gotchas.md",
+              "skills/cloudflare-deploy/references/api/patterns.md",
+              "skills/cloudflare-deploy/references/argo-smart-routing/README.md",
+              "skills/cloudflare-deploy/references/argo-smart-routing/api.md",
+              "skills/cloudflare-deploy/references/argo-smart-routing/configuration.md",
+              "skills/cloudflare-deploy/references/argo-smart-routing/gotchas.md",
+              "skills/cloudflare-deploy/references/argo-smart-routing/patterns.md",
+              "skills/cloudflare-deploy/references/bindings/README.md",
+              "skills/cloudflare-deploy/references/bindings/api.md",
+              "skills/cloudflare-deploy/references/bindings/configuration.md",
+              "skills/cloudflare-deploy/references/bindings/gotchas.md",
+              "skills/cloudflare-deploy/references/bindings/patterns.md",
+              "skills/cloudflare-deploy/references/bot-management/README.md",
+              "skills/cloudflare-deploy/references/bot-management/api.md",
+              "skills/cloudflare-deploy/references/bot-management/configuration.md",
+              "skills/cloudflare-deploy/references/bot-management/gotchas.md",
+              "skills/cloudflare-deploy/references/bot-management/patterns.md",
+              "skills/cloudflare-deploy/references/browser-rendering/README.md",
+              "skills/cloudflare-deploy/references/browser-rendering/api.md",
+              "skills/cloudflare-deploy/references/browser-rendering/configuration.md",
+              "skills/cloudflare-deploy/references/browser-rendering/gotchas.md",
+              "skills/cloudflare-deploy/references/browser-rendering/patterns.md",
+              "skills/cloudflare-deploy/references/c3/README.md",
+              "skills/cloudflare-deploy/references/c3/api.md",
+              "skills/cloudflare-deploy/references/c3/configuration.md",
+              "skills/cloudflare-deploy/references/c3/gotchas.md",
+              "skills/cloudflare-deploy/references/c3/patterns.md",
+              "skills/cloudflare-deploy/references/cache-reserve/README.md",
+              "skills/cloudflare-deploy/references/cache-reserve/api.md",
+              "skills/cloudflare-deploy/references/cache-reserve/configuration.md",
+              "skills/cloudflare-deploy/references/cache-reserve/gotchas.md",
+              "skills/cloudflare-deploy/references/cache-reserve/patterns.md",
+              "skills/cloudflare-deploy/references/containers/README.md",
+              "skills/cloudflare-deploy/references/containers/api.md",
+              "skills/cloudflare-deploy/references/containers/configuration.md",
+              "skills/cloudflare-deploy/references/containers/gotchas.md",
+              "skills/cloudflare-deploy/references/containers/patterns.md",
+              "skills/cloudflare-deploy/references/cron-triggers/README.md",
+              "skills/cloudflare-deploy/references/cron-triggers/api.md",
+              "skills/cloudflare-deploy/references/cron-triggers/configuration.md",
+              "skills/cloudflare-deploy/references/cron-triggers/gotchas.md",
+              "skills/cloudflare-deploy/references/cron-triggers/patterns.md",
+              "skills/cloudflare-deploy/references/d1/README.md",
+              "skills/cloudflare-deploy/references/d1/api.md",
+              "skills/cloudflare-deploy/references/d1/configuration.md",
+              "skills/cloudflare-deploy/references/d1/gotchas.md",
+              "skills/cloudflare-deploy/references/d1/patterns.md",
+              "skills/cloudflare-deploy/references/ddos/README.md",
+              "skills/cloudflare-deploy/references/ddos/api.md",
+              "skills/cloudflare-deploy/references/ddos/configuration.md",
+              "skills/cloudflare-deploy/references/ddos/gotchas.md",
+              "skills/cloudflare-deploy/references/ddos/patterns.md",
+              "skills/cloudflare-deploy/references/do-storage/README.md",
+              "skills/cloudflare-deploy/references/do-storage/api.md",
+              "skills/cloudflare-deploy/references/do-storage/configuration.md",
+              "skills/cloudflare-deploy/references/do-storage/gotchas.md",
+              "skills/cloudflare-deploy/references/do-storage/patterns.md",
+              "skills/cloudflare-deploy/references/do-storage/testing.md",
+              "skills/cloudflare-deploy/references/durable-objects/README.md",
+              "skills/cloudflare-deploy/references/durable-objects/api.md",
+              "skills/cloudflare-deploy/references/durable-objects/configuration.md",
+              "skills/cloudflare-deploy/references/durable-objects/gotchas.md",
+              "skills/cloudflare-deploy/references/durable-objects/patterns.md",
+              "skills/cloudflare-deploy/references/email-routing/README.md",
+              "skills/cloudflare-deploy/references/email-routing/api.md",
+              "skills/cloudflare-deploy/references/email-routing/configuration.md",
+              "skills/cloudflare-deploy/references/email-routing/gotchas.md",
+              "skills/cloudflare-deploy/references/email-routing/patterns.md",
+              "skills/cloudflare-deploy/references/email-workers/README.md",
+              "skills/cloudflare-deploy/references/email-workers/api.md",
+              "skills/cloudflare-deploy/references/email-workers/configuration.md",
+              "skills/cloudflare-deploy/references/email-workers/gotchas.md",
+              "skills/cloudflare-deploy/references/email-workers/patterns.md",
+              "skills/cloudflare-deploy/references/hyperdrive/README.md",
+              "skills/cloudflare-deploy/references/hyperdrive/api.md",
+              "skills/cloudflare-deploy/references/hyperdrive/configuration.md",
+              "skills/cloudflare-deploy/references/hyperdrive/gotchas.md",
+              "skills/cloudflare-deploy/references/hyperdrive/patterns.md",
+              "skills/cloudflare-deploy/references/images/README.md",
+              "skills/cloudflare-deploy/references/images/api.md",
+              "skills/cloudflare-deploy/references/images/configuration.md",
+              "skills/cloudflare-deploy/references/images/gotchas.md",
+              "skills/cloudflare-deploy/references/images/patterns.md",
+              "skills/cloudflare-deploy/references/kv/README.md",
+              "skills/cloudflare-deploy/references/kv/api.md",
+              "skills/cloudflare-deploy/references/kv/configuration.md",
+              "skills/cloudflare-deploy/references/kv/gotchas.md",
+              "skills/cloudflare-deploy/references/kv/patterns.md",
+              "skills/cloudflare-deploy/references/miniflare/README.md",
+              "skills/cloudflare-deploy/references/miniflare/api.md",
+              "skills/cloudflare-deploy/references/miniflare/configuration.md",
+              "skills/cloudflare-deploy/references/miniflare/gotchas.md",
+              "skills/cloudflare-deploy/references/miniflare/patterns.md",
+              "skills/cloudflare-deploy/references/network-interconnect/README.md",
+              "skills/cloudflare-deploy/references/network-interconnect/api.md",
+              "skills/cloudflare-deploy/references/network-interconnect/configuration.md",
+              "skills/cloudflare-deploy/references/network-interconnect/gotchas.md",
+              "skills/cloudflare-deploy/references/network-interconnect/patterns.md",
+              "skills/cloudflare-deploy/references/observability/README.md",
+              "skills/cloudflare-deploy/references/observability/api.md",
+              "skills/cloudflare-deploy/references/observability/configuration.md",
+              "skills/cloudflare-deploy/references/observability/gotchas.md",
+              "skills/cloudflare-deploy/references/observability/patterns.md",
+              "skills/cloudflare-deploy/references/pages-functions/README.md",
+              "skills/cloudflare-deploy/references/pages-functions/api.md",
+              "skills/cloudflare-deploy/references/pages-functions/configuration.md",
+              "skills/cloudflare-deploy/references/pages-functions/gotchas.md",
+              "skills/cloudflare-deploy/references/pages-functions/patterns.md",
+              "skills/cloudflare-deploy/references/pages/README.md",
+              "skills/cloudflare-deploy/references/pages/api.md",
+              "skills/cloudflare-deploy/references/pages/configuration.md",
+              "skills/cloudflare-deploy/references/pages/gotchas.md",
+              "skills/cloudflare-deploy/references/pages/patterns.md",
+              "skills/cloudflare-deploy/references/pipelines/README.md",
+              "skills/cloudflare-deploy/references/pipelines/api.md",
+              "skills/cloudflare-deploy/references/pipelines/configuration.md",
+              "skills/cloudflare-deploy/references/pipelines/gotchas.md",
+              "skills/cloudflare-deploy/references/pipelines/patterns.md",
+              "skills/cloudflare-deploy/references/pulumi/README.md",
+              "skills/cloudflare-deploy/references/pulumi/api.md",
+              "skills/cloudflare-deploy/references/pulumi/configuration.md",
+              "skills/cloudflare-deploy/references/pulumi/gotchas.md",
+              "skills/cloudflare-deploy/references/pulumi/patterns.md",
+              "skills/cloudflare-deploy/references/queues/README.md",
+              "skills/cloudflare-deploy/references/queues/api.md",
+              "skills/cloudflare-deploy/references/queues/configuration.md",
+              "skills/cloudflare-deploy/references/queues/gotchas.md",
+              "skills/cloudflare-deploy/references/queues/patterns.md",
+              "skills/cloudflare-deploy/references/r2-data-catalog/README.md",
+              "skills/cloudflare-deploy/references/r2-data-catalog/api.md",
+              "skills/cloudflare-deploy/references/r2-data-catalog/configuration.md",
+              "skills/cloudflare-deploy/references/r2-data-catalog/gotchas.md",
+              "skills/cloudflare-deploy/references/r2-data-catalog/patterns.md",
+              "skills/cloudflare-deploy/references/r2-sql/README.md",
+              "skills/cloudflare-deploy/references/r2-sql/api.md",
+              "skills/cloudflare-deploy/references/r2-sql/configuration.md",
+              "skills/cloudflare-deploy/references/r2-sql/gotchas.md",
+              "skills/cloudflare-deploy/references/r2-sql/patterns.md",
+              "skills/cloudflare-deploy/references/r2/README.md",
+              "skills/cloudflare-deploy/references/r2/api.md",
+              "skills/cloudflare-deploy/references/r2/configuration.md",
+              "skills/cloudflare-deploy/references/r2/gotchas.md",
+              "skills/cloudflare-deploy/references/r2/patterns.md",
+              "skills/cloudflare-deploy/references/realtime-sfu/README.md",
+              "skills/cloudflare-deploy/references/realtime-sfu/api.md",
+              "skills/cloudflare-deploy/references/realtime-sfu/configuration.md",
+              "skills/cloudflare-deploy/references/realtime-sfu/gotchas.md",
+              "skills/cloudflare-deploy/references/realtime-sfu/patterns.md",
+              "skills/cloudflare-deploy/references/realtimekit/README.md",
+              "skills/cloudflare-deploy/references/realtimekit/api.md",
+              "skills/cloudflare-deploy/references/realtimekit/configuration.md",
+              "skills/cloudflare-deploy/references/realtimekit/gotchas.md",
+              "skills/cloudflare-deploy/references/realtimekit/patterns.md",
+              "skills/cloudflare-deploy/references/sandbox/README.md",
+              "skills/cloudflare-deploy/references/sandbox/api.md",
+              "skills/cloudflare-deploy/references/sandbox/configuration.md",
+              "skills/cloudflare-deploy/references/sandbox/gotchas.md",
+              "skills/cloudflare-deploy/references/sandbox/patterns.md",
+              "skills/cloudflare-deploy/references/secrets-store/README.md",
+              "skills/cloudflare-deploy/references/secrets-store/api.md",
+              "skills/cloudflare-deploy/references/secrets-store/configuration.md",
+              "skills/cloudflare-deploy/references/secrets-store/gotchas.md",
+              "skills/cloudflare-deploy/references/secrets-store/patterns.md",
+              "skills/cloudflare-deploy/references/smart-placement/README.md",
+              "skills/cloudflare-deploy/references/smart-placement/api.md",
+              "skills/cloudflare-deploy/references/smart-placement/configuration.md",
+              "skills/cloudflare-deploy/references/smart-placement/gotchas.md",
+              "skills/cloudflare-deploy/references/smart-placement/patterns.md",
+              "skills/cloudflare-deploy/references/snippets/README.md",
+              "skills/cloudflare-deploy/references/snippets/api.md",
+              "skills/cloudflare-deploy/references/snippets/configuration.md",
+              "skills/cloudflare-deploy/references/snippets/gotchas.md",
+              "skills/cloudflare-deploy/references/snippets/patterns.md",
+              "skills/cloudflare-deploy/references/spectrum/README.md",
+              "skills/cloudflare-deploy/references/spectrum/api.md",
+              "skills/cloudflare-deploy/references/spectrum/configuration.md",
+              "skills/cloudflare-deploy/references/spectrum/gotchas.md",
+              "skills/cloudflare-deploy/references/spectrum/patterns.md",
+              "skills/cloudflare-deploy/references/static-assets/README.md",
+              "skills/cloudflare-deploy/references/static-assets/api.md",
+              "skills/cloudflare-deploy/references/static-assets/configuration.md",
+              "skills/cloudflare-deploy/references/static-assets/gotchas.md",
+              "skills/cloudflare-deploy/references/static-assets/patterns.md",
+              "skills/cloudflare-deploy/references/stream/README.md",
+              "skills/cloudflare-deploy/references/stream/api-live.md",
+              "skills/cloudflare-deploy/references/stream/api.md",
+              "skills/cloudflare-deploy/references/stream/configuration.md",
+              "skills/cloudflare-deploy/references/stream/gotchas.md",
+              "skills/cloudflare-deploy/references/stream/patterns.md",
+              "skills/cloudflare-deploy/references/tail-workers/README.md",
+              "skills/cloudflare-deploy/references/tail-workers/api.md",
+              "skills/cloudflare-deploy/references/tail-workers/configuration.md",
+              "skills/cloudflare-deploy/references/tail-workers/gotchas.md",
+              "skills/cloudflare-deploy/references/tail-workers/patterns.md",
+              "skills/cloudflare-deploy/references/terraform/README.md",
+              "skills/cloudflare-deploy/references/terraform/api.md",
+              "skills/cloudflare-deploy/references/terraform/configuration.md",
+              "skills/cloudflare-deploy/references/terraform/gotchas.md",
+              "skills/cloudflare-deploy/references/terraform/patterns.md",
+              "skills/cloudflare-deploy/references/tunnel/README.md",
+              "skills/cloudflare-deploy/references/tunnel/api.md",
+              "skills/cloudflare-deploy/references/tunnel/configuration.md",
+              "skills/cloudflare-deploy/references/tunnel/gotchas.md",
+              "skills/cloudflare-deploy/references/tunnel/networking.md",
+              "skills/cloudflare-deploy/references/tunnel/patterns.md",
+              "skills/cloudflare-deploy/references/turn/README.md",
+              "skills/cloudflare-deploy/references/turn/api.md",
+              "skills/cloudflare-deploy/references/turn/configuration.md",
+              "skills/cloudflare-deploy/references/turn/gotchas.md",
+              "skills/cloudflare-deploy/references/turn/patterns.md",
+              "skills/cloudflare-deploy/references/turnstile/README.md",
+              "skills/cloudflare-deploy/references/turnstile/api.md",
+              "skills/cloudflare-deploy/references/turnstile/configuration.md",
+              "skills/cloudflare-deploy/references/turnstile/gotchas.md",
+              "skills/cloudflare-deploy/references/turnstile/patterns.md",
+              "skills/cloudflare-deploy/references/vectorize/README.md",
+              "skills/cloudflare-deploy/references/vectorize/api.md",
+              "skills/cloudflare-deploy/references/vectorize/configuration.md",
+              "skills/cloudflare-deploy/references/vectorize/gotchas.md",
+              "skills/cloudflare-deploy/references/vectorize/patterns.md",
+              "skills/cloudflare-deploy/references/waf/README.md",
+              "skills/cloudflare-deploy/references/waf/api.md",
+              "skills/cloudflare-deploy/references/waf/configuration.md",
+              "skills/cloudflare-deploy/references/waf/gotchas.md",
+              "skills/cloudflare-deploy/references/waf/patterns.md",
+              "skills/cloudflare-deploy/references/web-analytics/README.md",
+              "skills/cloudflare-deploy/references/web-analytics/configuration.md",
+              "skills/cloudflare-deploy/references/web-analytics/gotchas.md",
+              "skills/cloudflare-deploy/references/web-analytics/integration.md",
+              "skills/cloudflare-deploy/references/web-analytics/patterns.md",
+              "skills/cloudflare-deploy/references/workerd/README.md",
+              "skills/cloudflare-deploy/references/workerd/api.md",
+              "skills/cloudflare-deploy/references/workerd/configuration.md",
+              "skills/cloudflare-deploy/references/workerd/gotchas.md",
+              "skills/cloudflare-deploy/references/workerd/patterns.md",
+              "skills/cloudflare-deploy/references/workers-ai/README.md",
+              "skills/cloudflare-deploy/references/workers-ai/api.md",
+              "skills/cloudflare-deploy/references/workers-ai/configuration.md",
+              "skills/cloudflare-deploy/references/workers-ai/gotchas.md",
+              "skills/cloudflare-deploy/references/workers-ai/patterns.md",
+              "skills/cloudflare-deploy/references/workers-for-platforms/README.md",
+              "skills/cloudflare-deploy/references/workers-for-platforms/api.md",
+              "skills/cloudflare-deploy/references/workers-for-platforms/configuration.md",
+              "skills/cloudflare-deploy/references/workers-for-platforms/gotchas.md",
+              "skills/cloudflare-deploy/references/workers-for-platforms/patterns.md",
+              "skills/cloudflare-deploy/references/workers-playground/README.md",
+              "skills/cloudflare-deploy/references/workers-playground/api.md",
+              "skills/cloudflare-deploy/references/workers-playground/configuration.md",
+              "skills/cloudflare-deploy/references/workers-playground/gotchas.md",
+              "skills/cloudflare-deploy/references/workers-playground/patterns.md",
+              "skills/cloudflare-deploy/references/workers-vpc/README.md",
+              "skills/cloudflare-deploy/references/workers-vpc/api.md",
+              "skills/cloudflare-deploy/references/workers-vpc/configuration.md",
+              "skills/cloudflare-deploy/references/workers-vpc/gotchas.md",
+              "skills/cloudflare-deploy/references/workers-vpc/patterns.md",
+              "skills/cloudflare-deploy/references/workers/README.md",
+              "skills/cloudflare-deploy/references/workers/api.md",
+              "skills/cloudflare-deploy/references/workers/configuration.md",
+              "skills/cloudflare-deploy/references/workers/frameworks.md",
+              "skills/cloudflare-deploy/references/workers/gotchas.md",
+              "skills/cloudflare-deploy/references/workers/patterns.md",
+              "skills/cloudflare-deploy/references/workflows/README.md",
+              "skills/cloudflare-deploy/references/workflows/api.md",
+              "skills/cloudflare-deploy/references/workflows/configuration.md",
+              "skills/cloudflare-deploy/references/workflows/gotchas.md",
+              "skills/cloudflare-deploy/references/workflows/patterns.md",
+              "skills/cloudflare-deploy/references/wrangler/README.md",
+              "skills/cloudflare-deploy/references/wrangler/api.md",
+              "skills/cloudflare-deploy/references/wrangler/auth.md",
+              "skills/cloudflare-deploy/references/wrangler/configuration.md",
+              "skills/cloudflare-deploy/references/wrangler/gotchas.md",
+              "skills/cloudflare-deploy/references/wrangler/patterns.md",
+              "skills/cloudflare-deploy/references/zaraz/IMPLEMENTATION_SUMMARY.md",
+              "skills/cloudflare-deploy/references/zaraz/README.md",
+              "skills/cloudflare-deploy/references/zaraz/api.md",
+              "skills/cloudflare-deploy/references/zaraz/configuration.md",
+              "skills/cloudflare-deploy/references/zaraz/gotchas.md",
+              "skills/cloudflare-deploy/references/zaraz/patterns.md",
+              "skills/content-autopilot/SKILL.md",
+              "skills/content-autopilot/references/搜索需求图谱与文章自动化生产治理.md",
+              "skills/crm-pipeline-sync/SKILL.md",
+              "skills/crm-pipeline-sync/references/丢单原因与再激活逻辑.md",
+              "skills/crm-pipeline-sync/references/同步边界与写入规则.md",
+              "skills/crm-pipeline-sync/references/必填字段与出口规则.md",
+              "skills/crm-pipeline-sync/references/报表与漏斗可视化.md",
+              "skills/crm-pipeline-sync/references/管道阶段模型.md",
+              "skills/crm-pipeline-sync/references/记录身份与去重.md",
+              "skills/crm-pipeline-sync/references/负责人交接与升级.md",
+              "skills/expo-outbound-linkage/SKILL.md",
+              "skills/expo-outbound-linkage/references/CRM导入与负责人分配.md",
+              "skills/expo-outbound-linkage/references/LinkedIn与邮件主动开发节奏.md",
+              "skills/expo-outbound-linkage/references/会面反馈到内容与证据.md",
+              "skills/expo-outbound-linkage/references/复盘与投入产出闭环.md",
+              "skills/expo-outbound-linkage/references/展会策略与目标客户.md",
+              "skills/expo-outbound-linkage/references/展位会面记录与标签.md",
+              "skills/expo-outbound-linkage/references/展后跟进节奏.md",
+              "skills/figma-implement-design/SKILL.md",
+              "skills/figma/SKILL.md",
+              "skills/figma/references/figma-mcp-config.md",
+              "skills/figma/references/figma-tools-and-prompts.md",
+              "skills/global-growth-system/SKILL.md",
+              "skills/global-growth-system/references/B2B增长战略原则.md",
+              "skills/global-growth-system/references/七子系统与十阶段关系大纲和思维导图.md",
+              "skills/global-growth-system/references/任务清单与工作日志分层治理.md",
+              "skills/global-growth-system/references/全量Skill与工具链编排大图.md",
+              "skills/global-growth-system/references/品牌法律主体产品归属与公开事实治理.md",
+              "skills/global-growth-system/references/完整性检查清单.md",
+              "skills/global-growth-system/references/搜索需求图谱与文章自动化生产治理.md",
+              "skills/global-growth-system/references/文档栈.md",
+              "skills/global-growth-system/references/方法论.md",
+              "skills/global-growth-system/references/母Agent与Skill编排架构.md",
+              "skills/global-growth-system/references/自进化与自动启动机制.md",
+              "skills/global-growth-system/references/迁移适配规则.md",
+              "skills/global-growth-system/references/邻接技能地图.md",
+              "skills/global-growth-system/references/项目经验升级地图.md",
+              "skills/growth-automation-ops/SKILL.md",
+              "skills/growth-automation-ops/references/事实源与同步.md",
+              "skills/growth-automation-ops/references/周期节奏与看板.md",
+              "skills/growth-automation-ops/references/审批与负责人规则.md",
+              "skills/growth-automation-ops/references/异常处理与回滚.md",
+              "skills/growth-automation-ops/references/日志与差异报告.md",
+              "skills/growth-automation-ops/references/结构化同步与发布.md",
+              "skills/growth-service-packaging/SKILL.md",
+              "skills/growth-service-packaging/references/产品梯度与入门产品.md",
+              "skills/growth-service-packaging/references/产能与百客户模型.md",
+              "skills/growth-service-packaging/references/叙事与定位边界.md",
+              "skills/growth-service-packaging/references/套餐范围与交付物.md",
+              "skills/growth-service-packaging/references/定价人员与单元经济模型.md",
+              "skills/growth-service-packaging/references/客户分层与升级路径.md",
+              "skills/growth-service-packaging/references/销售资料与官网映射.md",
+              "skills/imagegen/SKILL.md",
+              "skills/imagegen/references/cli.md",
+              "skills/imagegen/references/codex-network.md",
+              "skills/imagegen/references/image-api.md",
+              "skills/imagegen/references/prompting.md",
+              "skills/imagegen/references/sample-prompts.md",
+              "skills/industrial-seo-content/SKILL.md",
+              "skills/industrial-seo-content/references/AI代理SEO30天执行系统.md",
+              "skills/industrial-seo-content/references/SEO公开情报研究流程.md",
+              "skills/industrial-seo-content/references/SEO质量边界.md",
+              "skills/industrial-seo-content/references/企业SEO-GEO规划SOP.md",
+              "skills/industrial-seo-content/references/内容集群策略.md",
+              "skills/industrial-seo-content/references/发布与反馈闭环.md",
+              "skills/industrial-seo-content/references/旧内容治理.md",
+              "skills/industrial-seo-content/references/竞品与差距分析.md",
+              "skills/industrial-seo-content/references/话题库与优先级.md",
+              "skills/industrial-seo-content/references/资产类型与简报规则.md",
+              "skills/manufacturing-proof-assets/SKILL.md",
+              "skills/manufacturing-proof-assets/references/公开层级与合规.md",
+              "skills/manufacturing-proof-assets/references/案例与验证包装.md",
+              "skills/manufacturing-proof-assets/references/资产分类与用途.md",
+              "skills/manufacturing-proof-assets/references/资产台账与元数据.md",
+              "skills/manufacturing-proof-assets/references/资产生产流程.md",
+              "skills/manufacturing-proof-assets/references/销售与展会证据包.md",
+              "skills/manufacturing-search-demand-mapper/SKILL.md",
+              "skills/manufacturing-search-demand-mapper/references/b2b-filter-and-scoring.md",
+              "skills/manufacturing-search-demand-mapper/references/connectors.md",
+              "skills/manufacturing-search-demand-mapper/references/data-model.md",
+              "skills/manufacturing-search-demand-mapper/references/output-contract.md",
+              "skills/manufacturing-search-demand-mapper/references/project-input-contract.md",
+              "skills/market-competitor-intel/SKILL.md",
+              "skills/market-competitor-intel/references/产品报价与路径基准.md",
+              "skills/market-competitor-intel/references/市场选择与评分.md",
+              "skills/market-competitor-intel/references/渠道格局与进入路径.md",
+              "skills/market-competitor-intel/references/监控与复盘闭环.md",
+              "skills/market-competitor-intel/references/竞品地图与分组.md",
+              "skills/market-competitor-intel/references/话术证据差距分析.md",
+              "skills/openai-docs/SKILL.md",
+              "skills/openai-docs/references/gpt-5p4-prompting-guide.md",
+              "skills/openai-docs/references/latest-model.md",
+              "skills/openai-docs/references/upgrading-to-gpt-5p4.md",
+              "skills/pdf/SKILL.md",
+              "skills/playwright-interactive/SKILL.md",
+              "skills/playwright/SKILL.md",
+              "skills/playwright/references/cli.md",
+              "skills/playwright/references/workflows.md",
+              "skills/quote-profit-ops/SKILL.md",
+              "skills/quote-profit-ops/references/合作模式分流.md",
+              "skills/quote-profit-ops/references/商业输入清单.md",
+              "skills/quote-profit-ops/references/复盘与升级.md",
+              "skills/quote-profit-ops/references/报价资格与护栏.md",
+              "skills/quote-profit-ops/references/样品与验证投入规则.md",
+              "skills/quote-profit-ops/references/毛利与资源边界.md",
+              "skills/screenshot/SKILL.md",
+              "skills/sora/SKILL.md",
+              "skills/sora/references/cinematic-shots.md",
+              "skills/sora/references/cli.md",
+              "skills/sora/references/codex-network.md",
+              "skills/sora/references/prompting.md",
+              "skills/sora/references/sample-prompts.md",
+              "skills/sora/references/social-ads.md",
+              "skills/sora/references/troubleshooting.md",
+              "skills/sora/references/video-api.md",
+              "skills/speech/SKILL.md",
+              "skills/speech/references/accessibility.md",
+              "skills/speech/references/audio-api.md",
+              "skills/speech/references/cli.md",
+              "skills/speech/references/codex-network.md",
+              "skills/speech/references/ivr.md",
+              "skills/speech/references/narration.md",
+              "skills/speech/references/prompting.md",
+              "skills/speech/references/sample-prompts.md",
+              "skills/speech/references/voice-directions.md",
+              "skills/speech/references/voiceover.md",
+              "skills/spreadsheet/SKILL.md",
+              "skills/spreadsheet/references/examples/openpyxl/create_basic_spreadsheet.py",
+              "skills/spreadsheet/references/examples/openpyxl/create_spreadsheet_with_styling.py",
+              "skills/spreadsheet/references/examples/openpyxl/read_existing_spreadsheet.py",
+              "skills/spreadsheet/references/examples/openpyxl/styling_spreadsheet.py"
+            ],
+            "summary": "Initial vault setup",
+            "source_project": null
+          }
+        ]
+      },
+      "message": ""
+    }
+  },
+  "metrics": [
+    {
+      "key": "gsc_clicks",
+      "label": "GSC 点击",
+      "unit": "次",
+      "value": 10,
+      "baseline": 10,
+      "delta": 0,
+      "scope": "gsc_global",
+      "period_start": "2026-09-20",
+      "period_end": "2026-10-17",
+      "forecast": null,
+      "assessment": "未设预估"
+    },
+    {
+      "key": "gsc_impressions",
+      "label": "GSC 曝光",
+      "unit": "次",
+      "value": 901,
+      "baseline": 901,
+      "delta": 0,
+      "scope": "gsc_global",
+      "period_start": "2026-09-20",
+      "period_end": "2026-10-17",
+      "forecast": null,
+      "assessment": "未设预估"
+    },
+    {
+      "key": "gsc_ctr",
+      "label": "GSC 点击率",
+      "unit": "%",
+      "value": 1.1098779134295227,
+      "baseline": 1.1098779134295227,
+      "delta": 0.0,
+      "scope": "gsc_global",
+      "period_start": "2026-09-20",
+      "period_end": "2026-10-17",
+      "forecast": null,
+      "assessment": "未设预估"
+    },
+    {
+      "key": "gsc_position",
+      "label": "GSC 平均排名",
+      "unit": "位",
+      "value": null,
+      "baseline": null,
+      "delta": null,
+      "scope": "待接入",
+      "period_start": null,
+      "period_end": null,
+      "forecast": null,
+      "assessment": "待接入"
+    },
+    {
+      "key": "target_traffic_share",
+      "label": "目标流量占比",
+      "unit": "%",
+      "value": null,
+      "baseline": null,
+      "delta": null,
+      "scope": "待接入",
+      "period_start": null,
+      "period_end": null,
+      "forecast": null,
+      "assessment": "待接入"
+    },
+    {
+      "key": "core_top10",
+      "label": "基线前 10 查询",
+      "unit": "个",
+      "value": null,
+      "baseline": null,
+      "delta": null,
+      "scope": "待接入",
+      "period_start": null,
+      "period_end": null,
+      "forecast": null,
+      "assessment": "待接入"
+    },
+    {
+      "key": "buyer_top10",
+      "label": "采购核心词前 10",
+      "unit": "个",
+      "value": null,
+      "baseline": null,
+      "delta": null,
+      "scope": "待接入",
+      "period_start": null,
+      "period_end": null,
+      "forecast": null,
+      "assessment": "待接入"
+    },
+    {
+      "key": "tool_top10",
+      "label": "工具核心词前 10",
+      "unit": "个",
+      "value": null,
+      "baseline": null,
+      "delta": null,
+      "scope": "待接入",
+      "period_start": null,
+      "period_end": null,
+      "forecast": null,
+      "assessment": "待接入"
+    },
+    {
+      "key": "ga4_organic_sessions",
+      "label": "GA4 自然会话",
+      "unit": "次",
+      "value": 15,
+      "baseline": 15,
+      "delta": 0,
+      "scope": "ga4_global",
+      "period_start": "2026-09-20",
+      "period_end": "2026-10-17",
+      "forecast": null,
+      "assessment": "未设预估"
+    },
+    {
+      "key": "ga4_leads_all",
+      "label": "GA4 全渠道询盘事件",
+      "unit": "次",
+      "value": null,
+      "baseline": null,
+      "delta": null,
+      "scope": "待接入",
+      "period_start": null,
+      "period_end": null,
+      "forecast": null,
+      "assessment": "待接入"
+    },
+    {
+      "key": "ga4_leads_organic",
+      "label": "GA4 自然询盘事件",
+      "unit": "次",
+      "value": null,
+      "baseline": null,
+      "delta": null,
+      "scope": "待接入",
+      "period_start": null,
+      "period_end": null,
+      "forecast": null,
+      "assessment": "待接入"
+    },
+    {
+      "key": "inquiry_total",
+      "label": "询盘台账条数",
+      "unit": "条",
+      "value": 1,
+      "baseline": 1,
+      "delta": 0,
+      "scope": "manual_d1_non_test_technical",
+      "period_start": null,
+      "period_end": "2026-10-21",
+      "forecast": null,
+      "assessment": "未设预估"
+    },
+    {
+      "key": "inquiry_qualified",
+      "label": "精准询盘",
+      "unit": "条",
+      "value": null,
+      "baseline": null,
+      "delta": null,
+      "scope": "sales_qualified",
+      "period_start": null,
+      "period_end": "2026-10-21",
+      "forecast": null,
+      "assessment": "待接入"
+    },
+    {
+      "key": "referring_domains_added",
+      "label": "新增相关引用域名",
+      "unit": "个",
+      "value": null,
+      "baseline": null,
+      "delta": null,
+      "scope": "待接入",
+      "period_start": null,
+      "period_end": null,
+      "forecast": null,
+      "assessment": "待接入"
+    }
+  ],
+  "latest_snapshot_date": "2026-10-21"
+}

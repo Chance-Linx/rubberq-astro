@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "baseline_date": "2026-10-21",
+  "baseline": {
+    "gsc_clicks": {
+      "value": 10,
+      "period_start": "2026-09-20",
+      "period_end": "2026-10-17",
+      "scope": "gsc_global",
+      "period_kind": "rolling_28d",
+      "unit": "次"
+    },
+    "gsc_impressions": {
+      "value": 901,
+      "period_start": "2026-09-20",
+      "period_end": "2026-10-17",
+      "scope": "gsc_global",
+      "period_kind": "rolling_28d",
+      "unit": "次"
+    },
+    "gsc_ctr": {
+      "value": 1.1098779134295227,
+      "period_start": "2026-09-20",
+      "period_end": "2026-10-17",
+      "scope": "gsc_global",
+      "period_kind": "rolling_28d",
+      "unit": "%"
+    },
+    "ga4_organic_sessions": {
+      "value": 15,
+      "period_start": "2026-09-20",
+      "period_end": "2026-10-17",
+      "scope": "ga4_global",
+      "period_kind": "rolling_28d",
+      "unit": "次"
+    },
+    "inquiry_total": {
+      "value": 1,
+      "period_start": null,
+      "period_end": "2026-10-21",
+      "scope": "manual_d1_non_test_technical",
+      "period_kind": "all_time",
+      "unit": "条"
+    },
+    "inquiry_qualified": {
+      "value": null,
+      "period_start": null,
+      "period_end": "2026-10-21",
+      "scope": "sales_qualified",
+      "period_kind": "all_time",
+      "unit": "条"
+    }
+  },
+  "milestones": [],
+  "core_keywords": [
+    {
+      "keyword": "custom molded rubber parts",
+      "category": "采购"
+    },
+    {
+      "keyword": "custom gaskets",
+      "category": "采购"
+    },
+    {
+      "keyword": "o-ring manufacturer",
+      "category": "采购"
+    },
+    {
+      "keyword": "rubber compounder",
+      "category": "采购"
+    },
+    {
+      "keyword": "ffkm o-rings",
+      "category": "采购"
+    }
+  ],
+  "backlink_target": null,
+  "notes": [
+    "报告12个月20–50条/月为情景模型，未制造中间月KPI。",
+    "D1 19记录中仅1条具体技术需求；不是销售已确认合格商机。",
+    "不新增付费或周期采集。"
+  ],
+  "sources": [
+    "rubberq-astro/docs/2026-10-21-线上获客执行/01-验收决策与执行口径.md"
+  ]
+}
