@@ -61,7 +61,10 @@
       "url": "https://store.astm.org/d2000-18.html",
       "publisher": "ASTM International",
       "use": "公开摘要用于核对材料分类与详细产品规格的关系；不声称网页摘要替代客户指定版完整标准。",
-      "checked_on": "2026-10-21"
+      "checked_on": "2026-10-21",
+      "current_public_url_checked": "https://store.astm.org/standards/d2000",
+      "public_scope_checked_on": "2026-10-21",
+      "scope_read": "Classification type/class and precedence of detailed product specification; use contract edition, not automatic update"
     },
     {
       "id": "ISO-3601-3-SCOPE",
@@ -213,6 +216,162 @@
         "3.7 Gland Fill"
       ],
       "use": "区分压缩与体积占用及其几何/工况输入；不将手册数值作为RubberQ通用设计限值，不延伸至所有垫片。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "NASA-OUTGASSING",
+      "title": "NASA GSFC outgassing database description",
+      "url": "https://outgassing.nasa.gov/Description",
+      "publisher": "NASA Goddard Space Flight Center",
+      "read_scope": "Public description",
+      "use": "TML/CVCM/WVR及试样与暴露条件；原用途为航天材料，不证明RubberQ或半导体设备适用。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "ASTM-E595",
+      "title": "ASTM E595 public scope",
+      "url": "https://store.astm.org/standards/e595",
+      "publisher": "ASTM International",
+      "read_scope": "Public title/scope only",
+      "use": "仅说明真空环境下总失重和可收集挥发凝结物的测量对象；不复刻程序或通用阈值。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "ISO-14644-1",
+      "title": "ISO 14644-1:2015 air-cleanliness classification",
+      "url": "https://www.iso.org/standard/53394.html",
+      "publisher": "ISO",
+      "read_scope": "Public abstract",
+      "use": "空气颗粒浓度分级不能代替制件释气报告；不声称工厂有特定洁净室。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "ISO-3302-1",
+      "title": "ISO 3302-1:2014 dimensional tolerances",
+      "url": "https://www.iso.org/standard/62492.html",
+      "publisher": "ISO",
+      "read_scope": "Public abstract",
+      "use": "材料制品尺寸公差范围及精密环形密封排除范围；不杜撰飞边数值。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "PARKER-FLASH-GLOSSARY",
+      "title": "Parker O-Ring Handbook technical glossary",
+      "url": "https://www.parker.com/content/dam/Parker-com/Literature/O-Ring-Division-Literature/Technical-Glossary_15Nov12.pdf",
+      "publisher": "Parker Hannifin",
+      "read_scope": "Flash definition only",
+      "use": "技术术语定义，不展示或推荐竞品产品；不把其产品限值泛化为RubberQ通用能力。",
+      "checked_on": "2026-10-21",
+      "material_role": "technical_method_reference",
+      "claim_scope": "Only the stated public definition or process-selection principle; no product performance, equipment ownership or generalization of grade-specific data.",
+      "public_use": "named technical citation",
+      "public_use_basis": "Helps the reader interpret the method; no competing product example, image or recommendation is presented."
+    },
+    {
+      "id": "ISO-10846-1",
+      "title": "ISO 10846-1:2008 resilient-element transfer measurement",
+      "url": "https://www.iso.org/standard/38936.html",
+      "publisher": "ISO",
+      "read_scope": "Public abstract",
+      "use": "仅支持实验室弹性元件传递特性的方法选取背景，不宣称机器人认证或工厂具备所有方法。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "NASA-DYNAMIC-STIFFNESS",
+      "title": "Elastomer stiffness and damping procedures, Part 2",
+      "url": "https://ntrs.nasa.gov/citations/19740026255",
+      "publisher": "NASA Technical Reports Server",
+      "read_scope": "Public research abstract",
+      "use": "特定试样/预载下复刚度随频率报告的例子；不借用商业胶料数值证明机器人部件。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "UIUC-PLASMA-2024",
+      "title": "Connolly et al., elastomer degradation in O2/Ar plasma",
+      "url": "https://experts.illinois.edu/en/publications/characterization-of-elastomer-degradation-in-osub2subar-plasma-vi-2/",
+      "publisher": "University of Illinois; JVST A 42(2), 023004, 2024",
+      "read_scope": "University-hosted public abstract and publication metadata; DOI 10.1116/6.0003240",
+      "use": "研究范围限所测试材料和O2/Ar；不推广其他气体、牌号、供应商或寿命。文献页面注明DuPont支持，不作为独立自有测试。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "MN-DEFLASHING",
+      "title": "Deflashing design guidance",
+      "url": "https://www.mnrubber.com/tools-resources/design-guide/designing-rubber-components/deflashing/",
+      "publisher": "Minnesota Rubber and Plastics",
+      "read_scope": "公开制造工艺说明，仅用于方法按材料/尺寸/公差/数量选取的技术背景；不展示竞品产品，不借用设备或工艺能力。",
+      "checked_on": "2026-10-21",
+      "material_role": "technical_method_reference",
+      "claim_scope": "Only the stated public definition or process-selection principle; no product performance, equipment ownership or generalization of grade-specific data.",
+      "public_use": "named technical citation",
+      "public_use_basis": "Helps the reader interpret the method; no competing product example, image or recommendation is presented."
+    },
+    {
+      "id": "WACKER-SILICONE-PROCESSING",
+      "title": "Solid and Liquid Silicone Rubber — processing guidance",
+      "url": "https://www.wacker.com/h/medias/6709-EN.pdf",
+      "publisher": "Wacker Chemie AG",
+      "read_scope": "公开第6.1节后硫化原理与胶料体系差异；不复制数值配方/操作周期、不推广特定型号数据为RubberQ能力。",
+      "checked_on": "2026-10-21",
+      "material_role": "technical_method_reference",
+      "claim_scope": "Only the stated public definition or process-selection principle; no product performance, equipment ownership or generalization of grade-specific data.",
+      "public_use": "named technical citation",
+      "public_use_basis": "Helps the reader interpret the method; no competing product example, image or recommendation is presented."
+    },
+    {
+      "id": "AIAG-PPAP-DEFINITION",
+      "title": "Quality Processes: PPAP definition",
+      "url": "https://blog.aiag.org/key-term-tuesday-quality-processes",
+      "publisher": "AIAG",
+      "read_scope": "公开术语定义；不据此承诺所有客户统一提交等级、记录期限或已获批准。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "ISO-11346",
+      "title": "ISO 11346:2023 thermal-endurance estimation",
+      "url": "https://www.iso.org/standard/80469.html",
+      "publisher": "ISO",
+      "read_scope": "公开范围/导言，Arrhenius与WLF适用对象和端点；不复制付费程序、不推断本工厂寿命。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "ASTM-D412",
+      "title": "ASTM D412 tension public scope",
+      "url": "https://store.astm.org/standards/d412",
+      "publisher": "ASTM International",
+      "read_scope": "公开范围与Significance and Use；不提供工厂保证值或疲劳寿命。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "ASTM-D471",
+      "title": "ASTM D471 effects of liquids public scope",
+      "url": "https://store.astm.org/standards/d471",
+      "publisher": "ASTM International",
+      "read_scope": "公开范围与输出项目；不引用旧版固定暴露程序为通用要求。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "NIST-GAUGE-RR",
+      "title": "Gauge R&R studies",
+      "url": "https://www.itl.nist.gov/div898/handbook/mpc/section4/mpc4.htm",
+      "publisher": "NIST/SEMATECH",
+      "read_scope": "公开量测研究范围与变异来源；不编造RubberQ现有MSA结果或统一阈值。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "ISO-2782-1",
+      "title": "ISO 2782-1:2022 differential-pressure gas permeability",
+      "url": "https://www.iso.org/standard/84136.html",
+      "publisher": "ISO",
+      "read_scope": "公开范围，区分方法输出；不复制程序、系数或材料排名。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "LEYBOLD-LEAK-DEFINITION",
+      "title": "Definition and measurement of vacuum leaks",
+      "url": "https://www.leybold.com/en-us/knowledge/vacuum-fundamentals/leak-detection/definition-and-measurement-of-vacuum-leaks",
+      "publisher": "Leybold",
+      "read_scope": "公开技术定义，区分缺陷泄漏/材料透过和量测任务；不推荐设备、不借用厂家检测下限。",
       "checked_on": "2026-10-21"
     }
   ],

@@ -1,0 +1,26 @@
+<p>Specify a robot rubber mount's dynamic stiffness as a response under defined conditions, not as one material-hardness number. Identify the loading direction, installed preload, oscillation amplitude, frequency range, temperature and measurement arrangement. The resulting evidence must describe the component and the task it will perform.</p>
+<p>For an actuator or joint assembly, distinguish supporting the static load, controlling relative motion, dissipating vibration and surviving repeated duty. These requirements can share a component, but they are not the same acceptance test.</p>
+<h2>Separate the curves you are reviewing</h2>
+<p>A slowly measured force-displacement curve describes the response over its stated loading path. A dynamic-stiffness plot describes a response to oscillating excitation under a stated test arrangement. Do not treat the two curves as interchangeable because they use the same specimen or compound name.</p>
+<p>Read the axes and the reported definition. If stiffness is derived from force and displacement signals, identify the measurement locations, loading direction and how the signals were processed. Where a complex response is reported, retain the magnitude and phase or the reported component terms with their definitions.</p>
+<p><a href="https://ntrs.nasa.gov/citations/19740026255">NASA's research on elastomer stiffness and damping</a> illustrates reporting complex stiffness against frequency for specified specimens and preloads. Its material results are not values for a different mount. The useful principle is to keep the response and the conditions together.</p>
+<h2>Make the operating point part of the specification</h2>
+<table><thead><tr><th>Condition</th><th>Information needed for an interpretable comparison</th></tr></thead><tbody>
+<tr><td>Static operating point</td><td>Preload or installed deflection, orientation and available travel</td></tr>
+<tr><td>Excitation</td><td>Frequency range, displacement or force amplitude, and whether amplitude is peak or peak-to-peak</td></tr>
+<tr><td>Direction</td><td>Compression, shear, torsion or the defined combination, with axes marked</td></tr>
+<tr><td>Temperature and history</td><td>Test temperature, conditioning, prior loading and any service exposure</td></tr>
+<tr><td>Measurement arrangement</td><td>Fixture, attachment, sensor locations and the stiffness definition used</td></tr>
+<tr><td>Result</td><td>Units, frequency-dependent response, repeat measurements and acceptance limits</td></tr>
+</tbody></table>
+<p>Keep compound, insert, geometry and lot identification with the data. If two candidate mounts differ in shape or attachment, the comparison is between those component configurations, not a measurement of polymer chemistry alone.</p>
+<h2>Choose a method for the actual measurement task</h2>
+<p><a href="https://www.iso.org/standard/38936.html">ISO 10846-1</a> provides principles for laboratory measurement of transfer properties of resilient elements and guidance for selecting the relevant part of that series. Use its guidance to define the relevant component measurement and discuss the required test scope with the laboratory. Robot-system acceptance remains part of the assembly-validation plan.</p>
+<p>Agree the method and boundaries with the team using the data. Distinguish a measurement at the driven interface from a transfer-property measurement between interfaces. Report the arrangement clearly enough that a second team can understand what was constrained, excited and measured.</p>
+<h2>Keep stiffness, damping and durability as separate questions</h2>
+<p>Stiffness describes a force-displacement response under the stated definition. Damping concerns energy dissipation in the motion. A single stiffness value does not provide the complete damping response, and neither supplies a fatigue-life result.</p>
+<p>A <a href="/blog/bonding-strength-testing-interpreting-90-degree-vs-180-degree-peel-tests">rubber-to-metal adhesion test</a> addresses its own specimen and loading method. It cannot replace the mount's dynamic response or repeated-duty evaluation. If bond durability is critical, specify how the component will be loaded and inspected during the relevant duty sequence.</p>
+<p>Define any post-test dimensional, bond, leakage or functional checks that the application needs. Retain the loading history and acceptance criteria with the result instead of reducing the qualification to an unqualified cycle count.</p>
+<h2>Connect the component result to the robot assembly</h2>
+<p>State what the assembly team wants to control: displacement at an interface, transmitted vibration, positioning behaviour or another measurable response. Component data should be evaluated in that system context, including the attachment and available motion. A mount report alone does not establish the robot's overall vibration or positioning performance.</p>
+<p><a href="/contact">Send RubberQ the component drawing and target response</a>, insert specification, operating conditions and proposed validation plan. Review the requirements for <a href="/products/rubber-to-metal-bonded-parts">rubber-to-metal components</a> alongside the <a href="/industries/humanoid-robotics">robotics application</a>; agree the material, sample and reporting scope before comparing supply options.</p>

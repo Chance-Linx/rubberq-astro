@@ -2,11 +2,12 @@
   "url": "http://127.0.0.1:8797/map",
   "http_status": 200,
   "content_type": "text/html; charset=utf-8",
-  "artifact_sha256": "a0d0d8d60ef69e4bf3420faf347f515cd655ad9e802dc7762914cc0b08ca51dd",
+  "artifact_sha256": "dc73b3cd9249ec7d290b7112a0193819afefe2a8918f01bd952a0bc0b16f9260",
   "served_review_rows": 271,
-  "served_local_revision_count": 11,
+  "served_local_revision_count": 27,
   "served_topic_owner_count": 63,
   "served_article_disposition_count": 271,
   "matches_local_generated_artifact": true,
-  "scope": "HTTP response and embedded data; separate scoped UI checks in article-disposition-ui-checks.json"
+  "scope": "HTTP response and embedded data; separate scoped UI checks in article-disposition-ui-checks.json",
+  "body_preview_count": 27
 }

@@ -15,8 +15,8 @@
     "primary_topic_article_owners": 11,
     "other_supporting_article_owners": 16,
     "consolidation_page_owners": 33,
-    "retained_article_local_drafts": 11,
-    "retained_article_revisions_required": 16,
+    "retained_article_local_drafts": 27,
+    "retained_article_revisions_required": 0,
     "content_coverage_verified": 0,
     "cms_writes": 0,
     "redirects": 0,
@@ -330,7 +330,7 @@
       "production_action": "none",
       "decision_by": "Codex",
       "decision_on": "2026-10-21",
-      "revision_state": "revision_required",
+      "revision_state": "local_draft_prepared",
       "sources_sharing_owner": [
         7
       ]
@@ -368,7 +368,7 @@
       "production_action": "none",
       "decision_by": "Codex",
       "decision_on": "2026-10-21",
-      "revision_state": "revision_required",
+      "revision_state": "local_draft_prepared",
       "sources_sharing_owner": [
         8
       ]
@@ -404,7 +404,7 @@
       "production_action": "none",
       "decision_by": "Codex",
       "decision_on": "2026-10-21",
-      "revision_state": "revision_required",
+      "revision_state": "local_draft_prepared",
       "sources_sharing_owner": [
         9
       ]
@@ -440,7 +440,7 @@
       "production_action": "none",
       "decision_by": "Codex",
       "decision_on": "2026-10-21",
-      "revision_state": "revision_required",
+      "revision_state": "local_draft_prepared",
       "sources_sharing_owner": [
         10
       ]
@@ -3416,7 +3416,7 @@
       "production_action": "none",
       "decision_by": "Codex",
       "decision_on": "2026-10-21",
-      "revision_state": "revision_required",
+      "revision_state": "local_draft_prepared",
       "sources_sharing_owner": [
         38,
         82,
@@ -3714,7 +3714,7 @@
       "production_action": "none",
       "decision_by": "Codex",
       "decision_on": "2026-10-21",
-      "revision_state": "revision_required",
+      "revision_state": "local_draft_prepared",
       "sources_sharing_owner": [
         89
       ]
@@ -4137,7 +4137,7 @@
       "production_action": "none",
       "decision_by": "Codex",
       "decision_on": "2026-10-21",
-      "revision_state": "revision_required",
+      "revision_state": "local_draft_prepared",
       "sources_sharing_owner": [
         98
       ]
@@ -4226,7 +4226,7 @@
       "production_action": "none",
       "decision_by": "Codex",
       "decision_on": "2026-10-21",
-      "revision_state": "revision_required",
+      "revision_state": "local_draft_prepared",
       "sources_sharing_owner": [
         100,
         134,
@@ -5260,7 +5260,7 @@
       "production_action": "none",
       "decision_by": "Codex",
       "decision_on": "2026-10-21",
-      "revision_state": "revision_required",
+      "revision_state": "local_draft_prepared",
       "sources_sharing_owner": [
         124
       ]
@@ -6787,7 +6787,7 @@
       "production_action": "none",
       "decision_by": "Codex",
       "decision_on": "2026-10-21",
-      "revision_state": "revision_required",
+      "revision_state": "local_draft_prepared",
       "sources_sharing_owner": [
         160
       ]
@@ -7430,7 +7430,7 @@
       "production_action": "none",
       "decision_by": "Codex",
       "decision_on": "2026-10-21",
-      "revision_state": "revision_required",
+      "revision_state": "local_draft_prepared",
       "sources_sharing_owner": [
         174
       ]
@@ -8104,7 +8104,7 @@
       "production_action": "none",
       "decision_by": "Codex",
       "decision_on": "2026-10-21",
-      "revision_state": "revision_required",
+      "revision_state": "local_draft_prepared",
       "sources_sharing_owner": [
         127,
         189
@@ -8462,7 +8462,7 @@
       "production_action": "none",
       "decision_by": "Codex",
       "decision_on": "2026-10-21",
-      "revision_state": "revision_required",
+      "revision_state": "local_draft_prepared",
       "sources_sharing_owner": [
         198
       ]
@@ -8500,7 +8500,7 @@
       "production_action": "none",
       "decision_by": "Codex",
       "decision_on": "2026-10-21",
-      "revision_state": "revision_required",
+      "revision_state": "local_draft_prepared",
       "sources_sharing_owner": [
         151,
         199
@@ -8621,7 +8621,7 @@
       "production_action": "none",
       "decision_by": "Codex",
       "decision_on": "2026-10-21",
-      "revision_state": "revision_required",
+      "revision_state": "local_draft_prepared",
       "sources_sharing_owner": [
         201,
         202
@@ -8736,7 +8736,7 @@
       "production_action": "none",
       "decision_by": "Codex",
       "decision_on": "2026-10-21",
-      "revision_state": "revision_required",
+      "revision_state": "local_draft_prepared",
       "sources_sharing_owner": [
         111,
         205,

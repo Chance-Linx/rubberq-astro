@@ -1,0 +1,103 @@
+{
+  "rules": [
+    {
+      "source_index": 14,
+      "target_source_index": 182,
+      "anchor": "ERP production records",
+      "applied": true
+    },
+    {
+      "source_index": 1,
+      "target_source_index": 82,
+      "anchor": "outgassing",
+      "applied": true
+    },
+    {
+      "source_index": 1,
+      "target_source_index": 205,
+      "anchor": "plasma exposure",
+      "applied": true
+    },
+    {
+      "source_index": 83,
+      "target_source_index": 96,
+      "anchor": "groove drawing",
+      "applied": true
+    },
+    {
+      "source_index": 182,
+      "target_source_index": 199,
+      "anchor": "PPAP",
+      "applied": true
+    },
+    {
+      "source_index": 196,
+      "target_source_index": 9,
+      "anchor": "tensile strength",
+      "applied": true
+    },
+    {
+      "source_index": 269,
+      "target_source_index": 89,
+      "anchor": "Measurement method and conditions",
+      "applied": true
+    },
+    {
+      "source_index": 269,
+      "target_source_index": 88,
+      "anchor": "measured nonconformance",
+      "applied": true
+    },
+    {
+      "source_index": 82,
+      "target_source_index": 100,
+      "anchor": "gas-permeation requirement",
+      "applied": true
+    },
+    {
+      "source_index": 160,
+      "target_source_index": 189,
+      "anchor": "manual, mechanical or cryogenic finishing",
+      "applied": true
+    },
+    {
+      "source_index": 202,
+      "target_source_index": 124,
+      "anchor": "rubber-to-metal adhesion test",
+      "applied": true
+    },
+    {
+      "source_index": 205,
+      "target_source_index": 82,
+      "anchor": "Outgassing is another evaluation.",
+      "applied": true
+    },
+    {
+      "source_index": 198,
+      "target_source_index": 82,
+      "anchor": "a vacuum outgassing result",
+      "applied": true
+    },
+    {
+      "source_index": 199,
+      "target_source_index": 89,
+      "anchor": "measurement system",
+      "applied": true
+    },
+    {
+      "source_index": 9,
+      "target_source_index": 10,
+      "anchor": "aging or fluid-exposure comparisons",
+      "applied": true
+    }
+  ],
+  "summary": {
+    "scope": "Actual links present in local article HTML, not live or covered content. Page-to-article incoming links remain pending.",
+    "article_count": 27,
+    "article_links": 30,
+    "page_links": 83,
+    "page_backlinks_implemented": false
+  },
+  "scope": "Authored contextual link insertion; no automatic production URL rewriting",
+  "additional_context_update": "Source 196 includes the approved robotics application context and a local-page link."
+}

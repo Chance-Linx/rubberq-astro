@@ -1,0 +1,275 @@
+{
+  "scope": "Private standalone body preview, not production BlogPostLayout or image acceptance",
+  "articles": [
+    {
+      "source_index": 1,
+      "article_id": "Iht31guWKGVyy0fDUhwnFo",
+      "original_url": "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
+      "title": "FKM vs FFKM: Compare Cost and Validation Requirements",
+      "file": "p-001.html",
+      "source_content_sha256": "a835111b2b24237547e8d1f92a918293e08825a88542e379438048569d7cb234",
+      "preview_sha256": "618d381de00a871eb284129d3b2fab17ce4eac8f75426bda6607dc7beaaab9d6",
+      "cms_written": false
+    },
+    {
+      "source_index": 7,
+      "article_id": "Iht31guWKGVyy0fDUhwnXu",
+      "original_url": "/blog/rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction",
+      "title": "Rubber Aging and Life Estimates: Reading the Evidence",
+      "file": "p-007.html",
+      "source_content_sha256": "767a50a00e1a7e3341893cfe839286b1fdf6f38609ffd6cf0a23c59230ec14ec",
+      "preview_sha256": "1195c90182d548f9c8eb0d5663dea631227986cfe0ae3426b2c1b727af1f7fe1",
+      "cms_written": false
+    },
+    {
+      "source_index": 8,
+      "article_id": "Iht31guWKGVyy0fDUhwnb6",
+      "original_url": "/blog/low-temperature-retraction-tr-10-predicting-seal-failure-in-arctic-conditions",
+      "title": "Low-Temperature Retraction: Use TR Data with Seal Requirements",
+      "file": "p-008.html",
+      "source_content_sha256": "498e94f02ef7774cc962cabf43dffaa37f0ea1132cfebdc4bc221a7779661bc8",
+      "preview_sha256": "399857804f0508bb6f6f2ee5cfc7b200ca982ef52e135f69682df16634db0167",
+      "cms_written": false
+    },
+    {
+      "source_index": 9,
+      "article_id": "Iht31guWKGVyy0fDUhwndE",
+      "original_url": "/blog/tensile-stress-strain-curves-what-a-mechanical-engineer-needs-to-know-about-rubb",
+      "title": "Rubber Tensile Curves: Read the Axes, Specimen and Test Conditions",
+      "file": "p-009.html",
+      "source_content_sha256": "8c2c0bc41bc6d740ef9a40cfcfadc688263d7e1ba186a865366b4b6c874d50bc",
+      "preview_sha256": "75d82d61c297adce093d20a0daef4563d802448dbf43ab0df4239faa83aa90b9",
+      "cms_written": false
+    },
+    {
+      "source_index": 10,
+      "article_id": "Iht31guWKGVyy0fDUhwngQ",
+      "original_url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+      "title": "Rubber Fluid-Swell Reports: Compare the Liquid and Test Conditions",
+      "file": "p-010.html",
+      "source_content_sha256": "c935df9493abfd9b45c0a0b2a778083e7ec46fc305a3fe8d4981573cc6a576a8",
+      "preview_sha256": "070d04f3ed8a5ed0bbbbe972f1579c6a00772036d8a73a7e7842127f875e5073",
+      "cms_written": false
+    },
+    {
+      "source_index": 14,
+      "article_id": "Iht31guWKGVyy0fDUhwo2m",
+      "original_url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
+      "title": "Custom Rubber Compound Development: What to Specify",
+      "file": "p-014.html",
+      "source_content_sha256": "84947f047d75f959e832c79a6413edd0300e6a48c20177580fc3b98ce61a2255",
+      "preview_sha256": "0955ed3dab6612361fc2af42534352867189e2414d04468b9032caf75d441840",
+      "cms_written": false
+    },
+    {
+      "source_index": 40,
+      "article_id": "Iht31guWKGVyy0fDUhwqHh",
+      "original_url": "/blog/over-compression-when-tighter-is-not-better-for-gasket-performance",
+      "title": "Gasket Over-Compression: What to Check Before Tightening More",
+      "file": "p-040.html",
+      "source_content_sha256": "3d75597a49d66bb978fd50177edc876bdc742c8e18e531c4943c3e4406bf5b79",
+      "preview_sha256": "2bdaaea1c0096388aba5ff2423a6ff9dc2c75e7cb7b8156ce82d687b36e7ab21",
+      "cms_written": false
+    },
+    {
+      "source_index": 82,
+      "article_id": "JKXFHBvvO5hPVDVOF65qCN",
+      "original_url": "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing",
+      "title": "Vacuum Seal Outgassing: Comparing Reports for Sensitive Equipment",
+      "file": "p-082.html",
+      "source_content_sha256": "3ba5892c256e95b4b0a2f034c6bd5c63ed1868b828b364bd518a64e9e5bca36e",
+      "preview_sha256": "6f610b3066bafb6825a5d52e267164e2902916f988220cb4d327d886c2961c63",
+      "cms_written": false
+    },
+    {
+      "source_index": 83,
+      "article_id": "JKXFHBvvO5hPVDVOF65r3m",
+      "original_url": "/blog/iso-3601-3-visual-inspection-standards-for-o-rings-what-is-acceptable",
+      "title": "O-Ring Visual Inspection: Specify Acceptance with ISO 3601-3",
+      "file": "p-083.html",
+      "source_content_sha256": "e08aab1dc022688badc93492522598708c473807b8d893eafdb54f0b96e5536b",
+      "preview_sha256": "67b77afabe6949225cb54374a2922d935b5dd7f742e2f1dffd0ddac68646a284",
+      "cms_written": false
+    },
+    {
+      "source_index": 88,
+      "article_id": "JKXFHBvvO5hPVDVOF65tZ8",
+      "original_url": "/blog/root-cause-analysis-8d-rubberqs-process-for-resolving-quality-deviations",
+      "title": "Rubber Part Quality Issues: Prepare an 8D Review",
+      "file": "p-088.html",
+      "source_content_sha256": "9ea63f99d0a92c8794d6f10b3eac09384c3653e24b528a649071e99e8b5e37f0",
+      "preview_sha256": "39e1e566931937c1d03c56217718cccea6b7f323b34937a9b043bd5e1c40ff93",
+      "cms_written": false
+    },
+    {
+      "source_index": 89,
+      "article_id": "JKXFHBvvO5hPVDVOF65tsY",
+      "original_url": "/blog/measurement-system-analysis-msa-ensuring-gage-rr-in-rubber-testing",
+      "title": "MSA for Rubber Parts: Review the Measurement Process",
+      "file": "p-089.html",
+      "source_content_sha256": "345aa05fe8cff44ccfeca272174b176f95cfda0ff8b4338b8d9168b722aef7f4",
+      "preview_sha256": "afa3cf4d58fd195aa75af106d699a4a6ad5add1c9c0e08fa3479582e175f96f9",
+      "cms_written": false
+    },
+    {
+      "source_index": 91,
+      "article_id": "JKXFHBvvO5hPVDVOF65vMn",
+      "original_url": "/blog/rubber-to-metal-bonding-failure-analyzing-adhesive-vs-material-separation",
+      "title": "Rubber-to-Metal Bond Failure: Evidence for a Useful Investigation",
+      "file": "p-091.html",
+      "source_content_sha256": "9b0397149df8e0c19bb0c3ab58e5dc90a53d78c5c1a9748cd9401d414a7164fa",
+      "preview_sha256": "f15d083eff87dd31c66bccc2f3eccdf255995a73e55f4dbd8215623e647fa49d",
+      "cms_written": false
+    },
+    {
+      "source_index": 96,
+      "article_id": "JKXFHBvvO5hPVDVOF66045",
+      "original_url": "/blog/groove-design-calculating-percentage-fill-and-squeeze-for-o-rings",
+      "title": "O-Ring Groove Design: Squeeze, Gland Fill and Tolerances",
+      "file": "p-096.html",
+      "source_content_sha256": "a6594877044c91f7fd2f541a740c34386f309e293211355d41098a44d71a6714",
+      "preview_sha256": "96ab39ace1f371aaf9609dcd87e2b2e96f0c99738c11267ede55ee8b0ac4a3c5",
+      "cms_written": false
+    },
+    {
+      "source_index": 98,
+      "article_id": "JKXFHBvvO5hPVDVOF660gv",
+      "original_url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+      "title": "Compression Set vs Stress Relaxation: Two Different Seal Questions",
+      "file": "p-098.html",
+      "source_content_sha256": "31ec6ba8cdd50c7c12b2aaf76bcc3ecd9e308026a731e69a15731f2c74abddbd",
+      "preview_sha256": "0ace3d9738b679d35a107d402eff87d225b3b18be3c8d637fbdbe705825f6bc4",
+      "cms_written": false
+    },
+    {
+      "source_index": 100,
+      "article_id": "JKXFHBvvO5hPVDVOF661TT",
+      "original_url": "/blog/permeation-vs-leakage-understanding-the-difference-in-gas-systems",
+      "title": "Gas Permeation vs Leakage: Define the Seal Evaluation",
+      "file": "p-100.html",
+      "source_content_sha256": "45cdc9a0a60cfb4c017dfa22891f541d3c88a9736150d4e47511b84897e87619",
+      "preview_sha256": "1feb2eb7bbbaa4a04da8115735a7ddcfb16bcda068c8bdfbebb364dafc0dbe65",
+      "cms_written": false
+    },
+    {
+      "source_index": 124,
+      "article_id": "JKXFHBvvO5hPVDVOF6CvU1",
+      "original_url": "/blog/bonding-strength-testing-interpreting-90-degree-vs-180-degree-peel-tests",
+      "title": "Peel Test Reports for Bonded Rubber: Comparing Methods",
+      "file": "p-124.html",
+      "source_content_sha256": "77c9fc7da8454136c6ef5b24e6bac5d9aa91dcde19f89cf42e5fbf4d0df14f5e",
+      "preview_sha256": "5cd32262b1bd089bd71fee673a004ae77c890ce94d47cb54a3d149bca2fd1ebe",
+      "cms_written": false
+    },
+    {
+      "source_index": 157,
+      "article_id": "QeuV1LXZQHOxh8iFCMnkLO",
+      "original_url": "/blog/compression-set-failure-why-your-seal-lost-its-bounce",
+      "title": "Compression Set in Seals: Reading Results and Investigating Failure",
+      "file": "p-157.html",
+      "source_content_sha256": "0b7d3e8468f90be380c130f8bbeb83be82c666ea88cb1ba42b0a45aea6f8bfd1",
+      "preview_sha256": "1a1cd1fad7621bbca8d567ffe7745c0cb634e486d70d94f6788870138c805c5d",
+      "cms_written": false
+    },
+    {
+      "source_index": 160,
+      "article_id": "QeuV1LXZQHOxh8iFCMnkjO",
+      "original_url": "/blog/flash-on-molded-parts-defining-flash-free-and-its-cost-implications",
+      "title": "Flash on Molded Rubber Parts: Specify the Acceptance Requirement",
+      "file": "p-160.html",
+      "source_content_sha256": "a4e841789a7c03460cffa064c63423db57ab95760de37cf9daad0f8d1ac89bc1",
+      "preview_sha256": "c849230ea87bd33ce369711760c72de3202219fa69f52888338c061e0221d63f",
+      "cms_written": false
+    },
+    {
+      "source_index": 174,
+      "article_id": "QeuV1LXZQHOxh8iFCMqHnO",
+      "original_url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+      "title": "ASTM D2000 for Rubber Parts: Use the Complete Material Callout",
+      "file": "p-174.html",
+      "source_content_sha256": "72f2cc20fbcf1c9df157e71d194bf3fae08864d7549af181477ed0d711f07988",
+      "preview_sha256": "dd28c28519a52f3fbffc3379abef0926ad92450d6094a32328886bad6b90b0c0",
+      "cms_written": false
+    },
+    {
+      "source_index": 182,
+      "article_id": "article-batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+      "original_url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+      "title": "Rubber Batch Traceability: Records for Repeat Orders",
+      "file": "p-182.html",
+      "source_content_sha256": "df33485c2fdb1d873bc36dc3fd78af82298f518ceda0d950ea98512a7002b9e4",
+      "preview_sha256": "78a02feada3f1b6357b65002a565b000ff1fa157e9e72e75cdf7929cbc4b78f6",
+      "cms_written": false
+    },
+    {
+      "source_index": 189,
+      "article_id": "article-cryogenic-deflashing-vs-manual-trimming-precision-rubber-parts",
+      "original_url": "/blog/cryogenic-deflashing-vs-manual-trimming-precision-rubber-parts",
+      "title": "Cryogenic Deflashing vs Manual Trimming: Compare Finished Parts",
+      "file": "p-189.html",
+      "source_content_sha256": "a6378e16175d37c05c2c568fc111e673366d9a8d2eb3c9e265d8af454914b222",
+      "preview_sha256": "9aa7641fc9498bd59f62a8dcb88492a0135c82114cf0785fac587b63bc89d586",
+      "cms_written": false
+    },
+    {
+      "source_index": 196,
+      "article_id": "article-industrial-bellows-material-selection-flex-life-media-exposure",
+      "original_url": "/blog/industrial-bellows-material-selection-flex-life-media-exposure",
+      "title": "Industrial Rubber Bellows: Material and Motion Review",
+      "file": "p-196.html",
+      "source_content_sha256": "1d91deea56fc095a04e7e1d997e9cbe96161827a8859abeb89ce6d1c9aeabcad",
+      "preview_sha256": "628f60af256d3e77183c71baae08c01fd97db18dbab5f49f7297918eb63e8142",
+      "cms_written": false
+    },
+    {
+      "source_index": 198,
+      "article_id": "article-post-curing-silicone-rubber-parts-volatile-control-compression-set",
+      "original_url": "/blog/post-curing-silicone-rubber-parts-volatile-control-compression-set",
+      "title": "Post-Curing Silicone Parts: Specify the Material and Evaluation",
+      "file": "p-198.html",
+      "source_content_sha256": "9653634f94bae9e9bb29aaf87f81cb7087e6ab32133cad72c180ed05109e72c2",
+      "preview_sha256": "f8f8848c1ee7d37f51b8c45a17e6c6feb11b08d4d5d516f66b77fce048069663",
+      "cms_written": false
+    },
+    {
+      "source_index": 199,
+      "article_id": "article-ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+      "original_url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+      "title": "PPAP for Rubber Parts: Link the Drawing, Compound and Process",
+      "file": "p-199.html",
+      "source_content_sha256": "8bc5ce73153269db2cc6eb4e70a9647153d62224cbacd02a0634408956dc4d32",
+      "preview_sha256": "cb2f8fb5fbeba04868cecf9c8c11f75e22a6be9901b47f5c5b6c2c4fe1fbb96b",
+      "cms_written": false
+    },
+    {
+      "source_index": 202,
+      "article_id": "article-rob-002",
+      "original_url": "/blog/vibration-damping-mounts-dynamic-stiffness-humanoid-robot-actuators",
+      "title": "Dynamic Stiffness of Robot Rubber Mounts: Reading the Test Evidence",
+      "file": "p-202.html",
+      "source_content_sha256": "cfb59308b71f26a8380bff63eb4d1bfea4270bbcfe027fed5f8f42c399d37c65",
+      "preview_sha256": "54d9bdcde05828690b09e8a855f36527ecf542957623ce85fb0e683772bb5e32",
+      "cms_written": false
+    },
+    {
+      "source_index": 205,
+      "article_id": "article-sem-001",
+      "original_url": "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+      "title": "FFKM Seals for Plasma Equipment: Define the Evaluation Conditions",
+      "file": "p-205.html",
+      "source_content_sha256": "43ebb4d215adaad0dfc42dbb8d16d84dd3ba95f95347f55ecaa802637859bc9f",
+      "preview_sha256": "7d02ded0eb3052451f9975db498839a7236b8da606a81978ce47ffcb583ac47f",
+      "cms_written": false
+    },
+    {
+      "source_index": 269,
+      "article_id": "article-spc-rubber-molding-cpk-zero-defect",
+      "original_url": "/blog/spc-in-rubber-molding-how-cpk-167-delivers-zero-defect-batches",
+      "title": "SPC for Rubber Parts: Reviewing Process Capability Data",
+      "file": "p-269.html",
+      "source_content_sha256": "1e4a5e9f43a7b3e16ff422bcbe213aa0100e3be174dfbe62a106484432e96223",
+      "preview_sha256": "c5b358fb1e8c14397d6a298cf82ce15b5a06377de4058e49e9b06c49fa46900f",
+      "cms_written": false
+    }
+  ]
+}

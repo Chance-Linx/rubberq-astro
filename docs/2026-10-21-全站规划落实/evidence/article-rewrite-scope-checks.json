@@ -1,0 +1,250 @@
+{
+  "scope": "Initial author checks for 16 new same-URL body revisions and one bellows-context addition; not independent engineering approval, measured information gain or final project audit.",
+  "articles": [
+    {
+      "source_index": 82,
+      "file": "content-revisions/vacuum-seal-outgassing-evidence.html",
+      "content_sha256": "3ba5892c256e95b4b0a2f034c6bd5c63ed1868b828b364bd518a64e9e5bca36e",
+      "primary_reference_ids": [
+        "NASA-OUTGASSING",
+        "ASTM-E595",
+        "ISO-14644-1"
+      ],
+      "author_scope_check": "NASA资料限航天筛选，TML/CVCM/释气率分开；洁净室空气颗粒分级不替代制件释气。",
+      "reviewer": "Codex author self-check",
+      "engineering_validation": false,
+      "final_project_audit": false,
+      "subsequent_changes_checked": "Contextual draft links inserted; claim scope unchanged."
+    },
+    {
+      "source_index": 160,
+      "file": "content-revisions/molded-rubber-flash-acceptance.html",
+      "content_sha256": "a4e841789a7c03460cffa064c63423db57ab95760de37cf9daad0f8d1ac89bc1",
+      "primary_reference_ids": [
+        "ISO-3302-1",
+        "ISO-3601-3-SCOPE",
+        "PARKER-FLASH-GLOSSARY"
+      ],
+      "author_scope_check": "明确ISO3302产品范围和ISO3601-3的O圈范围，不杜撰飞边限值或价格/周期。",
+      "reviewer": "Codex author self-check",
+      "engineering_validation": false,
+      "final_project_audit": false,
+      "subsequent_changes_checked": "Contextual draft links inserted; claim scope unchanged."
+    },
+    {
+      "source_index": 202,
+      "file": "content-revisions/robot-mount-dynamic-stiffness.html",
+      "content_sha256": "cfb59308b71f26a8380bff63eb4d1bfea4270bbcfe027fed5f8f42c399d37c65",
+      "primary_reference_ids": [
+        "ISO-10846-1",
+        "NASA-DYNAMIC-STIFFNESS"
+      ],
+      "author_scope_check": "动态响应、粘接、疲劳和机器人总成分开，引用只到ISO公开范围/NASA特定研究；无伪剥离图。",
+      "reviewer": "Codex author self-check",
+      "engineering_validation": false,
+      "final_project_audit": false,
+      "subsequent_changes_checked": "Contextual draft links inserted; claim scope unchanged."
+    },
+    {
+      "source_index": 205,
+      "file": "content-revisions/semiconductor-plasma-seal-evaluation.html",
+      "content_sha256": "43ebb4d215adaad0dfc42dbb8d16d84dd3ba95f95347f55ecaa802637859bc9f",
+      "primary_reference_ids": [
+        "UIUC-PLASMA-2024",
+        "NASA-OUTGASSING"
+      ],
+      "author_scope_check": "O2/Ar研究仅到大学公开摘要，明确具体试样/工况，未泛化其他气体或RubberQ性能，未用失重替代释气。",
+      "reviewer": "Codex author self-check",
+      "engineering_validation": false,
+      "final_project_audit": false,
+      "subsequent_changes_checked": "Contextual draft links inserted; claim scope unchanged."
+    },
+    {
+      "source_index": 98,
+      "file": "content-revisions/compression-set-stress-relaxation.html",
+      "content_sha256": "31ec6ba8cdd50c7c12b2aaf76bcc3ecd9e308026a731e69a15731f2c74abddbd",
+      "primary_reference_ids": [
+        "ASTM-D395",
+        "ASTM-D6147"
+      ],
+      "author_scope_check": "变形恢复和受载反力衰减不是同一指标；归一化反力要带参考时点和工况。",
+      "reviewer": "Codex author self-check",
+      "engineering_validation": false,
+      "final_project_audit": false,
+      "subsequent_changes_checked": "Contextual draft links inserted; claim scope unchanged."
+    },
+    {
+      "source_index": 124,
+      "file": "content-revisions/rubber-bond-peel-test-report.html",
+      "content_sha256": "77c9fc7da8454136c6ef5b24e6bac5d9aa91dcde19f89cf42e5fbf4d0df14f5e",
+      "primary_reference_ids": [
+        "ASTM-D429"
+      ],
+      "author_scope_check": "D429公开范围未被扩张为所有90/180度方法；无角度换算、胶料排名或自有剥离数据。",
+      "reviewer": "Codex author self-check",
+      "engineering_validation": false,
+      "final_project_audit": false,
+      "subsequent_changes_checked": "Contextual draft links inserted; claim scope unchanged."
+    },
+    {
+      "source_index": 174,
+      "file": "content-revisions/astm-d2000-material-callout.html",
+      "content_sha256": "72f2cc20fbcf1c9df157e71d194bf3fae08864d7549af181477ed0d711f07988",
+      "primary_reference_ids": [
+        "ASTM-D2000"
+      ],
+      "author_scope_check": "标准分类、完整callout和产品详细规格分工；未从公开摘要编造具体编码或标准限值。",
+      "reviewer": "Codex author self-check",
+      "engineering_validation": false,
+      "final_project_audit": false,
+      "subsequent_changes_checked": "Contextual draft links inserted; claim scope unchanged."
+    },
+    {
+      "source_index": 189,
+      "file": "content-revisions/cryogenic-manual-deflashing-selection.html",
+      "content_sha256": "a6378e16175d37c05c2c568fc111e673366d9a8d2eb3c9e265d8af454914b222",
+      "primary_reference_ids": [
+        "PARKER-FLASH-GLOSSARY",
+        "ISO-3601-3-SCOPE",
+        "MN-DEFLASHING"
+      ],
+      "author_scope_check": "保留原稿的路线比较任务，收敛工厂操作细节和通用优选，按样件结果讨论方法。",
+      "reviewer": "Codex author self-check",
+      "engineering_validation": false,
+      "final_project_audit": false,
+      "subsequent_changes_checked": "Contextual draft links inserted; claim scope unchanged."
+    },
+    {
+      "source_index": 198,
+      "file": "content-revisions/silicone-post-cure-evaluation.html",
+      "content_sha256": "9653634f94bae9e9bb29aaf87f81cb7087e6ab32133cad72c180ed05109e72c2",
+      "primary_reference_ids": [
+        "WACKER-SILICONE-PROCESSING",
+        "ASTM-D395",
+        "ASTM-D6147"
+      ],
+      "author_scope_check": "后硫化与胶料体系、工况和输出绑定，删去必然保力/批内更一致的保证；无统一周期。",
+      "reviewer": "Codex author self-check",
+      "engineering_validation": false,
+      "final_project_audit": false,
+      "subsequent_changes_checked": "Contextual draft links inserted; claim scope unchanged."
+    },
+    {
+      "source_index": 199,
+      "file": "content-revisions/rubber-ppap-drawing-compound-process.html",
+      "content_sha256": "8bc5ce73153269db2cc6eb4e70a9647153d62224cbacd02a0634408956dc4d32",
+      "primary_reference_ids": [
+        "AIAG-PPAP-SCOPE",
+        "AIAG-PPAP-DEFINITION"
+      ],
+      "author_scope_check": "PPAP资料、客户提交范围与客户批准分开，保留具体胶料/工艺/样件链；无通用Level3。",
+      "reviewer": "Codex author self-check",
+      "engineering_validation": false,
+      "final_project_audit": false,
+      "subsequent_changes_checked": "Contextual draft links inserted; claim scope unchanged."
+    },
+    {
+      "source_index": 7,
+      "file": "content-revisions/rubber-aging-life-estimation.html",
+      "content_sha256": "767a50a00e1a7e3341893cfe839286b1fdf6f38609ffd6cf0a23c59230ec14ec",
+      "primary_reference_ids": [
+        "ISO-11346",
+        "ASTM-D573"
+      ],
+      "author_scope_check": "区分老化观测和寿命模型；端点、物理/化学变化与外推范围分开；未造预测曲线。",
+      "reviewer": "Codex author self-check",
+      "engineering_validation": false,
+      "final_project_audit": false,
+      "subsequent_changes_checked": "Contextual draft links inserted; claim scope unchanged."
+    },
+    {
+      "source_index": 8,
+      "file": "content-revisions/low-temperature-retraction-report.html",
+      "content_sha256": "498e94f02ef7774cc962cabf43dffaa37f0ea1132cfebdc4bc221a7779661bc8",
+      "primary_reference_ids": [
+        "ASTM-D1329"
+      ],
+      "author_scope_check": "TR结果与其他低温/总成任务分开，不从一个温度点推全部密封最低工作温度。",
+      "reviewer": "Codex author self-check",
+      "engineering_validation": false,
+      "final_project_audit": false,
+      "subsequent_changes_checked": "Contextual draft links inserted; claim scope unchanged."
+    },
+    {
+      "source_index": 9,
+      "file": "content-revisions/rubber-tensile-curve-reading.html",
+      "content_sha256": "8c2c0bc41bc6d740ef9a40cfcfadc688263d7e1ba186a865366b4b6c874d50bc",
+      "primary_reference_ids": [
+        "ASTM-D412"
+      ],
+      "author_scope_check": "工程应力/应变仅作几何定义；100 percent明确为定义而非试验结果或设计许用应变。",
+      "reviewer": "Codex author self-check",
+      "engineering_validation": false,
+      "final_project_audit": false,
+      "subsequent_changes_checked": "Contextual draft links inserted; claim scope unchanged."
+    },
+    {
+      "source_index": 10,
+      "file": "content-revisions/rubber-fluid-swell-report.html",
+      "content_sha256": "c935df9493abfd9b45c0a0b2a778083e7ec46fc305a3fe8d4981573cc6a576a8",
+      "primary_reference_ids": [
+        "ASTM-D471"
+      ],
+      "author_scope_check": "体积变化率与质量/硬度/拉伸结果分开；不把标准液当实际流体，也不给家族通用膨胀率。",
+      "reviewer": "Codex author self-check",
+      "engineering_validation": false,
+      "final_project_audit": false,
+      "subsequent_changes_checked": "Contextual draft links inserted; claim scope unchanged."
+    },
+    {
+      "source_index": 89,
+      "file": "content-revisions/rubber-measurement-system-review.html",
+      "content_sha256": "345aa05fe8cff44ccfeca272174b176f95cfda0ff8b4338b8d9168b722aef7f4",
+      "primary_reference_ids": [
+        "NIST-GAUGE-RR"
+      ],
+      "author_scope_check": "量测研究按特性和设计解释，不发布统一GRR阈值、精度或校准频次。",
+      "reviewer": "Codex author self-check",
+      "engineering_validation": false,
+      "final_project_audit": false,
+      "subsequent_changes_checked": "Contextual draft links inserted; claim scope unchanged."
+    },
+    {
+      "source_index": 100,
+      "file": "content-revisions/gas-permeation-leakage-evidence.html",
+      "content_sha256": "45cdc9a0a60cfb4c017dfa22891f541d3c88a9736150d4e47511b84897e87619",
+      "primary_reference_ids": [
+        "ISO-2782-1",
+        "LEYBOLD-LEAK-DEFINITION"
+      ],
+      "author_scope_check": "界面/缺陷泄漏与胶体透过区分；气体、方法、单位和几何不被材料家族排名替代。",
+      "reviewer": "Codex author self-check",
+      "engineering_validation": false,
+      "final_project_audit": false,
+      "subsequent_changes_checked": "Contextual draft links inserted; claim scope unchanged."
+    },
+    {
+      "source_index": 196,
+      "file": "content-revisions/industrial-bellows-material-motion.html",
+      "content_sha256": "1d91deea56fc095a04e7e1d997e9cbe96161827a8859abeb89ce6d1c9aeabcad",
+      "primary_reference_ids": [],
+      "author_scope_check": "既有本地稿补机器人关节/执行器保护的运动、接口与环境需求，服务RQ-T-018/RQ-T-061；未宣称具体驱动适用、IP等级或寿命。",
+      "basis": "Approved robotics direction and authored topic-owner requirements; no measured performance added.",
+      "reviewer": "Codex author self-check",
+      "engineering_validation": false,
+      "final_project_audit": false
+    }
+  ],
+  "information_gain": "Not measured against a declared same-intent full-text SERP sample; no originality or ranking score claimed.",
+  "community_research": {
+    "performed": false,
+    "basis": "Approved buyer-job and inventory evidence already defines these tasks; technical definitions and methods use primary sources. No community anecdote is used as a technical conclusion."
+  },
+  "visuals": {
+    "new_image_assets": 0,
+    "existing_cover_metadata": "preserved; formal cover/alt/layout assessment pending",
+    "unsupported_original_inline_charts": "not carried into replacement bodies",
+    "scope": "No image generation, paid asset purchase or stock-photo fallback"
+  },
+  "source_levels": "Public scopes, abstracts and identified technical-guide sections only; no paid full-text access inferred."
+}

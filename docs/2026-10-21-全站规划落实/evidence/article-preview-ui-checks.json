@@ -1,0 +1,27 @@
+{
+  "url": "http://127.0.0.1:8798/",
+  "checks": [
+    {
+      "action": "Open index",
+      "observed": "27 article titles with original URLs",
+      "result": "PASS"
+    },
+    {
+      "action": "Open source 202",
+      "observed": "Dynamic stiffness H1, body, source links and technical table",
+      "result": "PASS"
+    },
+    {
+      "action": "Follow contextual article links",
+      "observed": "202 -> 124 peel methods -> 91 bond-failure investigation",
+      "result": "PASS"
+    },
+    {
+      "action": "Follow page link from 91",
+      "observed": "http://127.0.0.1:4397/testing; H1 In-House Rubber Testing and Inspection",
+      "result": "PASS"
+    }
+  ],
+  "screenshot": "article-body-preview.png",
+  "scope": "Scoped local body-preview interaction; not 27-page visual acceptance, mobile coverage, cover-image acceptance, production BlogPostLayout or live inquiries"
+}

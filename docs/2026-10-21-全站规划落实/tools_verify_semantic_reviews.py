@@ -47,6 +47,7 @@ for x in rows:
  assert all(x[k].strip() for k in ['buyer_job','finding','rewrite_requirements','review_scope','owner_status'])
 drafts=json.loads((B/'content-revisions/manifest.json').read_text())
 assert drafts['cms_writes']==drafts['publications']==0
+valid_draft_link_urls=urls|{d['url'] for d in drafts['drafts']}
 for d in drafts['drafts']:
  a=byid[d['article_id']];assert d['article_id'] in {x['article_id'] for x in rows};assert d['expected_source_revision']==a['_rev'];assert d['source_body_sha256']==digest(a['content'])
  assert set(d.get('primary_reference_ids',[]))<=refs
@@ -55,7 +56,7 @@ for d in drafts['drafts']:
  assert not re.search(r'<(?:script|style|h1)\b',content,re.I)
  assert not any(p in content.lower() for p in ['global leader','100%','new compound from scratch in 4 weeks','medical grade','zero-delamination','as per your specifications','hnbr-x7','rubberq-7700'])
  for href in re.findall(r'href="([^"]+)"',content):
-  if href.startswith('/'):assert href in urls,(d['article_id'],href)
+  if href.startswith('/'):assert href in valid_draft_link_urls,(d['article_id'],href)
 state=json.loads((B/'execution-state.json').read_text());assert state['requirements']['content_revision_drafts']['prepared']==len(drafts['drafts']);assert state['requirements']['inventory_semantic_ownership']['full_body_reviews_completed']==len(rows);assert state['final_review']=='not_started'
 ownership_file=B/'ownership/topic-owners.json';owners=[]
 if ownership_file.exists():
@@ -123,7 +124,41 @@ for url,q in queued.items():
  assert {x['topic_id'] for x in q['topic_requirements']}==set(q['topic_ids'])
  for x in q['buyer_jobs']:assert x['required_updates']==rows[x['source_index']]['rewrite_requirements']
 
+# Independently parse links and private rendered bodies, preserving original copy.
+from html.parser import HTMLParser
+class DraftLinks(HTMLParser):
+ def __init__(self):super().__init__();self.links=[];self.open_anchor=None
+ def handle_starttag(self,tag,attrs):
+  if tag=='a':
+   assert self.open_anchor is None,'nested link';self.open_anchor={'href':dict(attrs).get('href'),'parts':[]}
+ def handle_data(self,data):
+  if self.open_anchor is not None:self.open_anchor['parts'].append(data)
+ def handle_endtag(self,tag):
+  if tag=='a':
+   assert self.open_anchor is not None;self.links.append({'href':self.open_anchor['href'],'anchor':' '.join(self.open_anchor['parts'])});self.open_anchor=None
+network=json.loads((B/'ownership/draft-content-links.json').read_text());draft_byurl={d['url']:d for d in drafts['drafts']};page_byurl={p['url']:p for p in registry};actual_edges=[]
+for d in drafts['drafts']:
+ parser=DraftLinks();parser.feed(d['fields']['content']);assert parser.open_anchor is None
+ for link in parser.links:
+  if not link['href'].startswith('/'):continue
+  target=draft_byurl.get(link['href']) or page_byurl[link['href']]
+  actual_edges.append({'source_article_id':d['article_id'],'source_url':d['url'],'source_content_sha256':d['content_sha256'],'target_url':link['href'],'target_kind':'local_article_draft' if link['href'] in draft_byurl else 'local_page','target_id':target['article_id'] if link['href'] in draft_byurl else target['id'],'anchor':link['anchor'],'implemented_in':'local_body_draft','production_verified':False})
+assert network['edges']==actual_edges;assert network['article_count']==len(drafts['drafts']) and network['page_backlinks_implemented'] is False
+assert network['article_links']==sum(e['target_kind']=='local_article_draft' for e in actual_edges);assert network['page_links']==sum(e['target_kind']=='local_page' for e in actual_edges)
+class VisibleBody(HTMLParser):
+ def __init__(self):super().__init__();self.parts=[]
+ def handle_data(self,data):self.parts.append(data)
+def visible_body(value):
+ parser=VisibleBody();parser.feed(value);return norm(' '.join(parser.parts))
+previews=json.loads((B/'article-previews/manifest.json').read_text())['articles'];assert len(previews)==len(drafts['drafts']);preview_byurl={p['original_url']:p for p in previews}
+for p in previews:
+ d=draft_byurl[p['original_url']];assert p['source_content_sha256']==d['content_sha256'];body=(B/'article-previews'/p['file']).read_text();assert hashlib.sha256(body.encode()).hexdigest()==p['preview_sha256']
+ article=re.search(r'<article lang="en">(.*?)</article>',body,re.S)[1];assert visible_body(article)==visible_body(d['fields']['content'])
+ original=DraftLinks();original.feed(d['fields']['content']);rendered=DraftLinks();rendered.feed(article);assert len(original.links)==len(rendered.links)
+ for a,z in zip(original.links,rendered.links):
+  expected=preview_byurl[a['href']]['file'] if a['href'] in preview_byurl else 'http://127.0.0.1:4397'+a['href'] if a['href'].startswith('/') else a['href'];assert z['href']==expected and z['anchor']==a['anchor']
+
 board=(R/'docs/2026-10-21-线上获客执行/map.html').read_text();embedded=json.loads(re.search(r'<script id="data" type="application/json">(.*?)</script>',board,re.S)[1]);assert embedded['article_reviews']==rows;assert embedded['implementation']==state;assert embedded['topic_ownership']==owners;assert embedded['article_dispositions']==dispositions
 for js in re.findall(r'<script>(.*?)</script>',board,re.S):subprocess.run(['node','--check','--input-type=commonjs'],input=js,text=True,check=True,capture_output=True)
-summary={'saved_source_articles':len(source),'full_body_reviews':len(rows),'body_review_methods':dict(methods),'action_proposals':dict(collections.Counter(x['proposed_action'] for x in rows)),'local_existing_url_drafts':len(drafts['drafts']),'final_ownership_decisions':len(dispositions),'article_disposition_counts':dict(collections.Counter(d['editorial_decision'] for d in dispositions)),'content_target_count':len(queue),'retained_article_owners':len(kept),'topic_ownership_decisions':len(owners),'cms_writes':0,'paid_calls':0,'final_project_audit':'not_started','scope':'Complete saved-body or exact full-body/template comparison provenance, metadata, draft and board consistency; editorial dispositions are decided; content implementation, coverage and public URL actions remain pending'}
+summary={'saved_source_articles':len(source),'full_body_reviews':len(rows),'body_review_methods':dict(methods),'action_proposals':dict(collections.Counter(x['proposed_action'] for x in rows)),'local_existing_url_drafts':len(drafts['drafts']),'final_ownership_decisions':len(dispositions),'article_disposition_counts':dict(collections.Counter(d['editorial_decision'] for d in dispositions)),'content_target_count':len(queue),'retained_article_owners':len(kept),'private_body_previews':len(previews),'draft_article_links':network['article_links'],'draft_page_links':network['page_links'],'topic_ownership_decisions':len(owners),'cms_writes':0,'paid_calls':0,'final_project_audit':'not_started','scope':'Complete saved-body or exact full-body/template comparison provenance, metadata, draft and board consistency; editorial dispositions are decided; content implementation, coverage and public URL actions remain pending'}
 (B/'evidence/semantic-review-checks.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n');print(json.dumps(summary,ensure_ascii=False))

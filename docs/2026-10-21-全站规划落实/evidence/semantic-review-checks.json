@@ -12,7 +12,7 @@
     "REFERENCE_REWRITE": 54,
     "RETAIN_OPTIMIZE": 8
   },
-  "local_existing_url_drafts": 11,
+  "local_existing_url_drafts": 27,
   "final_ownership_decisions": 271,
   "article_disposition_counts": {
     "CONSOLIDATE_INTO_PAGE": 182,
@@ -23,6 +23,9 @@
   },
   "content_target_count": 62,
   "retained_article_owners": 27,
+  "private_body_previews": 27,
+  "draft_article_links": 30,
+  "draft_page_links": 83,
   "topic_ownership_decisions": 63,
   "cms_writes": 0,
   "paid_calls": 0,

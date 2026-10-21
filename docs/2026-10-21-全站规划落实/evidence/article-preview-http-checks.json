@@ -1,0 +1,225 @@
+{
+  "base": "http://127.0.0.1:8798/",
+  "article_count": 27,
+  "passed": 27,
+  "index_matches_saved_file": true,
+  "checks": [
+    {
+      "source_index": 1,
+      "url": "http://127.0.0.1:8798/p-001.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "618d381de00a871eb284129d3b2fab17ce4eac8f75426bda6607dc7beaaab9d6"
+    },
+    {
+      "source_index": 7,
+      "url": "http://127.0.0.1:8798/p-007.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "1195c90182d548f9c8eb0d5663dea631227986cfe0ae3426b2c1b727af1f7fe1"
+    },
+    {
+      "source_index": 8,
+      "url": "http://127.0.0.1:8798/p-008.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "399857804f0508bb6f6f2ee5cfc7b200ca982ef52e135f69682df16634db0167"
+    },
+    {
+      "source_index": 9,
+      "url": "http://127.0.0.1:8798/p-009.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "75d82d61c297adce093d20a0daef4563d802448dbf43ab0df4239faa83aa90b9"
+    },
+    {
+      "source_index": 10,
+      "url": "http://127.0.0.1:8798/p-010.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "070d04f3ed8a5ed0bbbbe972f1579c6a00772036d8a73a7e7842127f875e5073"
+    },
+    {
+      "source_index": 14,
+      "url": "http://127.0.0.1:8798/p-014.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "0955ed3dab6612361fc2af42534352867189e2414d04468b9032caf75d441840"
+    },
+    {
+      "source_index": 40,
+      "url": "http://127.0.0.1:8798/p-040.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "2bdaaea1c0096388aba5ff2423a6ff9dc2c75e7cb7b8156ce82d687b36e7ab21"
+    },
+    {
+      "source_index": 82,
+      "url": "http://127.0.0.1:8798/p-082.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "6f610b3066bafb6825a5d52e267164e2902916f988220cb4d327d886c2961c63"
+    },
+    {
+      "source_index": 83,
+      "url": "http://127.0.0.1:8798/p-083.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "67b77afabe6949225cb54374a2922d935b5dd7f742e2f1dffd0ddac68646a284"
+    },
+    {
+      "source_index": 88,
+      "url": "http://127.0.0.1:8798/p-088.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "39e1e566931937c1d03c56217718cccea6b7f323b34937a9b043bd5e1c40ff93"
+    },
+    {
+      "source_index": 89,
+      "url": "http://127.0.0.1:8798/p-089.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "afa3cf4d58fd195aa75af106d699a4a6ad5add1c9c0e08fa3479582e175f96f9"
+    },
+    {
+      "source_index": 91,
+      "url": "http://127.0.0.1:8798/p-091.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "f15d083eff87dd31c66bccc2f3eccdf255995a73e55f4dbd8215623e647fa49d"
+    },
+    {
+      "source_index": 96,
+      "url": "http://127.0.0.1:8798/p-096.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "96ab39ace1f371aaf9609dcd87e2b2e96f0c99738c11267ede55ee8b0ac4a3c5"
+    },
+    {
+      "source_index": 98,
+      "url": "http://127.0.0.1:8798/p-098.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "0ace3d9738b679d35a107d402eff87d225b3b18be3c8d637fbdbe705825f6bc4"
+    },
+    {
+      "source_index": 100,
+      "url": "http://127.0.0.1:8798/p-100.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "1feb2eb7bbbaa4a04da8115735a7ddcfb16bcda068c8bdfbebb364dafc0dbe65"
+    },
+    {
+      "source_index": 124,
+      "url": "http://127.0.0.1:8798/p-124.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "5cd32262b1bd089bd71fee673a004ae77c890ce94d47cb54a3d149bca2fd1ebe"
+    },
+    {
+      "source_index": 157,
+      "url": "http://127.0.0.1:8798/p-157.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "1a1cd1fad7621bbca8d567ffe7745c0cb634e486d70d94f6788870138c805c5d"
+    },
+    {
+      "source_index": 160,
+      "url": "http://127.0.0.1:8798/p-160.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "c849230ea87bd33ce369711760c72de3202219fa69f52888338c061e0221d63f"
+    },
+    {
+      "source_index": 174,
+      "url": "http://127.0.0.1:8798/p-174.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "dd28c28519a52f3fbffc3379abef0926ad92450d6094a32328886bad6b90b0c0"
+    },
+    {
+      "source_index": 182,
+      "url": "http://127.0.0.1:8798/p-182.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "78a02feada3f1b6357b65002a565b000ff1fa157e9e72e75cdf7929cbc4b78f6"
+    },
+    {
+      "source_index": 189,
+      "url": "http://127.0.0.1:8798/p-189.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "9aa7641fc9498bd59f62a8dcb88492a0135c82114cf0785fac587b63bc89d586"
+    },
+    {
+      "source_index": 196,
+      "url": "http://127.0.0.1:8798/p-196.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "628f60af256d3e77183c71baae08c01fd97db18dbab5f49f7297918eb63e8142"
+    },
+    {
+      "source_index": 198,
+      "url": "http://127.0.0.1:8798/p-198.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "f8f8848c1ee7d37f51b8c45a17e6c6feb11b08d4d5d516f66b77fce048069663"
+    },
+    {
+      "source_index": 199,
+      "url": "http://127.0.0.1:8798/p-199.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "cb2f8fb5fbeba04868cecf9c8c11f75e22a6be9901b47f5c5b6c2c4fe1fbb96b"
+    },
+    {
+      "source_index": 202,
+      "url": "http://127.0.0.1:8798/p-202.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "54d9bdcde05828690b09e8a855f36527ecf542957623ce85fb0e683772bb5e32"
+    },
+    {
+      "source_index": 205,
+      "url": "http://127.0.0.1:8798/p-205.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "7d02ded0eb3052451f9975db498839a7236b8da606a81978ce47ffcb583ac47f"
+    },
+    {
+      "source_index": 269,
+      "url": "http://127.0.0.1:8798/p-269.html",
+      "http_status": 200,
+      "content_type": "text/html",
+      "matches_saved_preview": true,
+      "sha256": "c5b358fb1e8c14397d6a298cf82ce15b5a06377de4058e49e9b06c49fa46900f"
+    }
+  ],
+  "scope": "HTTP and saved-body integrity only; not production BlogPostLayout, images, CMS or final audit"
+}
