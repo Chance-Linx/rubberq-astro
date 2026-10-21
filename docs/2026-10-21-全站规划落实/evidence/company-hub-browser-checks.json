@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-21",
+  "scope": "Local page rendering, sample form-anchor navigation and empty quantity observation; no submission, certificate validation, full mobile suite or production release.",
+  "pages": [
+    {
+      "url": "http://127.0.0.1:4397/sample-request",
+      "locale": "en",
+      "title_present": true,
+      "brief_table_present": true,
+      "acceptance_table_present": true
+    },
+    {
+      "url": "http://127.0.0.1:4397/de/about",
+      "locale": "de",
+      "title_present": true,
+      "table_present": true
+    },
+    {
+      "url": "http://127.0.0.1:4397/ja/factory",
+      "locale": "ja",
+      "title_present": true,
+      "table_present": true
+    },
+    {
+      "url": "http://127.0.0.1:4397/es/products",
+      "locale": "es",
+      "title_present": true,
+      "table_present": true
+    },
+    {
+      "url": "http://127.0.0.1:4397/zh/materials",
+      "locale": "zh",
+      "title_present": true,
+      "table_present": true
+    }
+  ],
+  "sample_cta": {
+    "observed_url": "http://127.0.0.1:4397/sample-request#project-form",
+    "anchor_url_observed": true,
+    "quantity_field_visible": true,
+    "quantity_blank_observed_in_screenshot": true,
+    "submitted": false,
+    "backend_quantity_or_mail_verified": false
+  },
+  "screenshots": [
+    "evidence/sample-acceptance-record-en.png",
+    "evidence/sample-form-empty-en.png"
+  ],
+  "dashboard": {
+    "url": "http://127.0.0.1:8797/map",
+    "page_module_progress_observed": true,
+    "final_release_pending_observed": true,
+    "service_restored_after_confirmed_missing_listener": true
+  }
+}

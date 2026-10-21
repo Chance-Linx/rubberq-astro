@@ -1583,8 +1583,9 @@
           "required_updates": "保持历史slug不改；按事实库收敛绝对化与设备主张，行业改新顺序，链接about/factory/quality，不将此文当技术词覆盖。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/factory",
@@ -1638,8 +1639,9 @@
           "required_updates": "与128物流位置主题统筹，按订单目的地、包装/批次资料、数量和运输安排写，不承诺所有运输环境下性能不变。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/compounding",
@@ -1813,8 +1815,9 @@
           "required_updates": "由材料总览/密封页承接比较，具体介质与测试另连接资源；不以类型泛词增加一篇无区别文章。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/industries/ev-energy-storage",
@@ -2432,8 +2435,9 @@
           "required_updates": "与210/233同一打印任务核对，不混同可打印聚合物、硫化胶料和模压样件，保留未来日期记录。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
@@ -2783,8 +2787,9 @@
           "required_updates": "优先产品总览和精密件分类承担采购入口，不用泛词另开无区别文章；保留旧URL的全量处置记录。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/resources/o-ring-size-guide",

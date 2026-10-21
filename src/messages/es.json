@@ -2363,21 +2363,112 @@
       "RQ-PG-002": {
         "label": "Acerca de RubberQ",
         "title": "Fabricación de caucho de precisión desde 1995 | RubberQ",
-        "description": "RubberQ se fundó en Fuzhou en 1995 como empresa conjunta sino-japonesa.",
+        "description": "Conozca RubberQ, fabricante sino-japonés de caucho fundado en Fuzhou en 1995. Revise formulación, fabricación y documentación para su componente.",
         "h1": "Fabricación de caucho de precisión desde 1995",
         "intro": "RubberQ se fundó en Fuzhou en 1995 como empresa conjunta sino-japonesa. Combinamos apoyo japonés en formulación con preparación de compuestos, moldeo de precisión y ensayos internos en China.",
         "sections": [
           {
-            "heading": "Desarrollo de materiales orientado a la aplicación",
-            "body": "Un componente debe funcionar en su conjunto, entorno y proceso productivo. Partimos de esos requisitos para revisar el compuesto y la fabricación."
+            "heading": "Conectar decisiones de material y fabricación",
+            "body": "El apoyo japonés en formulación se conecta con nuestra preparación de compuestos, moldeo y ensayos internos en China. Revisamos material, geometría y ruta de fabricación conjuntamente, partiendo de las condiciones que debe cumplir el componente."
           },
           {
-            "heading": "Dos plantas, un proceso conectado",
-            "body": "Nuestras dos plantas en Fuzhou ocupan aproximadamente 20.000 m². Mezclado, moldeo, inspección y registros de producción apoyan el desarrollo y la fabricación recurrente."
+            "heading": "RubberQ de un vistazo",
+            "body": "Estos datos de empresa son un punto de partida para evaluar al proveedor.",
+            "table": {
+              "caption": "Información de empresa y fabricación de RubberQ",
+              "columns": [
+                "Dato",
+                "Información de empresa"
+              ],
+              "rows": [
+                [
+                  "Fundación",
+                  "1995, como empresa conjunta sino-japonesa"
+                ],
+                [
+                  "Ubicación",
+                  "Fuzhou, China"
+                ],
+                [
+                  "Instalaciones",
+                  "Dos instalaciones con aproximadamente 20.000 metros cuadrados en total"
+                ],
+                [
+                  "Fabricación",
+                  "Desarrollo de compuestos, mezclado, moldeo y vulcanización"
+                ],
+                [
+                  "Evaluación y registros",
+                  "Ensayos internos y trazabilidad de producción mediante ERP"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Trazabilidad durante la producción",
-            "body": "Los registros ERP conectan lotes de material, etapas de fabricación y resultados de inspección. Acordamos la trazabilidad y documentación necesarias para su evaluación de proveedores."
+            "heading": "Pasar de la aplicación a una pieza acordada",
+            "body": "Aporte plano, pieza de referencia o especificación de material con medios, temperatura, movimiento y cantidad. Defina compuesto candidato y evaluación de muestras antes del suministro repetido. Componentes terminados, suministro de compuesto y sustituciones FFKM necesitan su propio alcance acordado.",
+            "links": [
+              {
+                "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
+                "label": "Preparar una solicitud de desarrollo de compuesto"
+              },
+              {
+                "url": "/products/custom",
+                "label": "Proyectos de componentes a medida"
+              },
+              {
+                "url": "/compounds",
+                "label": "Revisar suministro de compuesto"
+              },
+              {
+                "url": "/products/ffkm-replacement-seals",
+                "label": "Evaluar una sustitución FFKM"
+              }
+            ]
+          },
+          {
+            "heading": "Explorar los requisitos de su equipo",
+            "body": "Los componentes industriales a medida conectan el plano con la revisión de fabricación. Para los siguientes sectores de equipos, revise servicio real de la pieza y necesidades de aprobación con el equipo técnico.",
+            "links": [
+              {
+                "url": "/industries/semiconductor",
+                "label": "Equipos de semiconductores"
+              },
+              {
+                "url": "/industries/liquid-cooling-energy-storage",
+                "label": "Refrigeración líquida y almacenamiento de energía"
+              },
+              {
+                "url": "/industries/ev-energy-storage",
+                "label": "Gestión térmica EV"
+              },
+              {
+                "url": "/industries/humanoid-robotics",
+                "label": "Robótica humanoide"
+              },
+              {
+                "url": "/industries/industrial-equipment",
+                "label": "Componentes industriales a medida"
+              }
+            ]
+          },
+          {
+            "heading": "Preparar una evaluación del proveedor",
+            "body": "RubberQ dispone de certificaciones IATF 16949:2016, ISO 9001:2015 e ISO 14001:2015. Solicite certificados vigentes y alcance aplicable para su revisión. Acuerde información de fábrica, registros de inspección y documentación de trazabilidad necesarios para su pieza junto con el plan de muestras y aprobación.",
+            "links": [
+              {
+                "url": "/factory",
+                "label": "Revisar la ruta de fabricación"
+              },
+              {
+                "url": "/quality",
+                "label": "Documentación de calidad y trazabilidad"
+              },
+              {
+                "url": "/contact",
+                "label": "Consultar requisitos del proveedor"
+              }
+            ]
           }
         ],
         "cta": "Consultar su proyecto",
@@ -2386,21 +2477,128 @@
       "RQ-PG-003": {
         "label": "Productos",
         "title": "Piezas de caucho a medida para conjuntos industriales | RubberQ",
-        "description": "Encuentre una opción para su plano o aplicación: juntas tóricas, juntas planas, fuelles, membranas, piezas de caucho-metal y otros componentes moldeados de precisión.",
+        "description": "Encuentre piezas por plano y función: sellos, juntas, fuelles, diafragmas, caucho-metal y formas a medida. Prepare una solicitud de oferta con datos concretos.",
         "h1": "Piezas de caucho a medida para conjuntos industriales",
         "intro": "Encuentre una opción para su plano o aplicación: juntas tóricas, juntas planas, fuelles, membranas, piezas de caucho-metal y otros componentes moldeados de precisión. Indique material, cantidad y condiciones de uso para la revisión técnica.",
         "sections": [
           {
-            "heading": "Juntas tóricas y componentes de sellado",
-            "body": "Revise sección, alojamiento, compresión y medio de servicio junto con el material. Las medidas normalizadas y las geometrías especiales necesitan una base de inspección acordada."
+            "heading": "Elegir la ruta del componente",
+            "body": "Parta de la función y del plano. Estas rutas organizan geometría, material e inspección para una oferta técnica. Incluya la revisión actual e identifique piezas de contacto o conjunto donde trabaja el componente."
           },
           {
-            "heading": "Juntas planas y piezas flexibles",
-            "body": "En juntas, fuelles y membranas, la sujeción, el movimiento y las superficies de montaje importan tanto como el contorno del plano."
+            "heading": "Relacionar la estructura con la revisión",
+            "body": "Seleccione la página de componente pertinente para los datos detallados del proyecto.",
+            "table": {
+              "caption": "Rutas de componentes e información necesaria",
+              "columns": [
+                "Componente o solicitud",
+                "Geometría y servicio",
+                "Información que debe preparar"
+              ],
+              "rows": [
+                [
+                  "O-rings y sellos",
+                  "Ranura e interfaz de contacto",
+                  "Referencia de tamaño, medio, temperatura y presión"
+                ],
+                [
+                  "Juntas",
+                  "Unión sujeta o comprimida",
+                  "Perfil, separación, topes y aceptación montada"
+                ],
+                [
+                  "Fuelles",
+                  "Protección flexible con movimiento",
+                  "Carrera completa, fijaciones, envolvente y exposición"
+                ],
+                [
+                  "Diafragmas",
+                  "Membrana flexible de trabajo",
+                  "Sujeción, carrera, diferencia de presión y función"
+                ],
+                [
+                  "Piezas de caucho-metal",
+                  "Caucho e inserto rígido",
+                  "Metal, interfaz de unión, carga e inspección"
+                ],
+                [
+                  "Piezas moldeadas a medida",
+                  "Forma según plano",
+                  "Características críticas, molde, material y cantidad"
+                ],
+                [
+                  "Revisión de sustitución FFKM",
+                  "Referencia del sello existente",
+                  "Especificación original, historial de servicio y plan de aprobación"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "O-rings y sellos"
+              },
+              {
+                "url": "/products/gaskets",
+                "label": "Juntas"
+              },
+              {
+                "url": "/products/bellows",
+                "label": "Fuelles"
+              },
+              {
+                "url": "/products/diaphragms",
+                "label": "Diafragmas"
+              },
+              {
+                "url": "/products/rubber-to-metal-bonded-parts",
+                "label": "Piezas de caucho-metal"
+              },
+              {
+                "url": "/products/custom",
+                "label": "Piezas moldeadas a medida"
+              },
+              {
+                "url": "/products/ffkm-replacement-seals",
+                "label": "Revisión de sustitución FFKM"
+              }
+            ]
           },
           {
-            "heading": "Piezas moldeadas y adheridas",
-            "body": "Las formas especiales y las piezas de caucho-metal requieren revisar molde, líneas de partición, insertos, preparación superficial y acceso para inspección."
+            "heading": "Definir el objeto del suministro",
+            "body": "Las piezas terminadas necesitan plano, material y base de aceptación. El suministro de compuesto necesita forma del material y condiciones de procesado. Para una pieza existente, indique si necesita oferta de fabricación, cambio de material o evaluación de sustitución para seguir la ruta adecuada.",
+            "links": [
+              {
+                "url": "/materials",
+                "label": "Revisar requisitos de material"
+              },
+              {
+                "url": "/compounds",
+                "label": "Consultar suministro de compuesto"
+              }
+            ]
+          },
+          {
+            "heading": "Preparar un registro claro para cada pieza",
+            "body": "Incluya referencia, revisión, material, cantidades de muestras y pedidos, servicio y requisitos de inspección. Para varias piezas, indique los datos por separado. Acuerde muestras y aprobación antes del suministro repetido, vinculando especificación y registros de lote.",
+            "links": [
+              {
+                "url": "/batch-rfq",
+                "label": "Solicitar oferta para varias piezas"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Preparar requisitos de muestras"
+              },
+              {
+                "url": "/quality",
+                "label": "Registros de calidad para pedidos repetidos"
+              },
+              {
+                "url": "/blog/iso-3601-3-visual-inspection-standards-for-o-rings-what-is-acceptable",
+                "label": "Especificar aceptación visual de O-rings"
+              }
+            ]
           }
         ],
         "cta": "Enviar su plano",
@@ -3190,21 +3388,128 @@
       "RQ-PG-011": {
         "label": "Materiales",
         "title": "Materiales de caucho para componentes de precisión | RubberQ",
-        "description": "Compare familias de elastómeros con el medio, la temperatura, el movimiento y la duración exigida.",
+        "description": "Elija la revisión de material por compuesto, exposición y función de la pieza. Compare familias candidatas, ensayos y la forma de suministro necesaria.",
         "h1": "Materiales de caucho para componentes de precisión",
         "intro": "Compare familias de elastómeros con el medio, la temperatura, el movimiento y la duración exigida. La selección parte de la aplicación y termina en un compuesto y un plan de validación acordados.",
         "sections": [
           {
-            "heading": "Empezar por las condiciones de trabajo",
-            "body": "Enumere fluidos, concentraciones, limpieza, temperaturas normales y máximas, presión y movimiento. Incluya almacenamiento e instalación."
+            "heading": "Especificar el compuesto y el servicio",
+            "body": "La familia del polímero inicia la consulta de material. La especificación de compra también necesita grado del compuesto, requisitos físicos y condiciones de evaluación. Identifique si necesita piezas terminadas o material compuesto y describa función y secuencia completa de uso."
           },
           {
-            "heading": "Comparar familias candidatas",
-            "body": "Explore FFKM, FKM, EPDM, HNBR, NBR, silicona y otras familias. Una dureza similar no implica igual resistencia química ni comportamiento de sellado."
+            "heading": "Encontrar la consulta de material pertinente",
+            "body": "Utilice estas rutas para preparar preguntas sobre grados y condiciones concretos.",
+            "table": {
+              "caption": "Rutas de material y datos de comparación",
+              "columns": [
+                "Familia o forma candidata",
+                "Información que debe preparar"
+              ],
+              "rows": [
+                [
+                  "FKM y FFKM",
+                  "Medios completos, temperatura, geometría de sello y requisitos de vacío o contaminación pertinentes"
+                ],
+                [
+                  "EPDM",
+                  "Condiciones reales del fluido o vapor, limpieza, entorno y montaje"
+                ],
+                [
+                  "HNBR y NBR",
+                  "Aceite o mezcla real, servicio mecánico y requisitos en frío"
+                ],
+                [
+                  "Silicona y LSR",
+                  "Forma del material, ruta de moldeo, flexibilidad, contacto y aceptación superficial"
+                ],
+                [
+                  "ACM y AEM",
+                  "Aceite especificado, historial térmico, requisitos mecánicos y datos del grado disponibles"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/materials/ffkm",
+                "label": "Requisitos de FFKM"
+              },
+              {
+                "url": "/materials/fkm",
+                "label": "Requisitos de FKM"
+              },
+              {
+                "url": "/materials/epdm",
+                "label": "Requisitos de EPDM"
+              },
+              {
+                "url": "/materials/hnbr",
+                "label": "Requisitos de HNBR"
+              },
+              {
+                "url": "/materials/nbr",
+                "label": "Requisitos de NBR"
+              },
+              {
+                "url": "/materials/silicone",
+                "label": "Requisitos de silicona"
+              },
+              {
+                "url": "/materials/lsr",
+                "label": "Forma del material LSR"
+              },
+              {
+                "url": "/materials/acm",
+                "label": "Revisión de material ACM"
+              },
+              {
+                "url": "/materials/aem",
+                "label": "Revisión de material AEM"
+              }
+            ]
           },
           {
-            "heading": "Definir compuesto y aceptación",
-            "body": "Use la familia de polímero para limitar opciones y especifique después dureza, propiedades físicas, acondicionamiento y métodos de ensayo del compuesto candidato."
+            "heading": "Comparar la propiedad que necesita la pieza",
+            "body": "Para desgarro o cargas repetidas, identifique geometría, estado de entalla, trayectoria de carga y método de ensayo. Para exposición prolongada al frío, incluya permanencia, estado de deformación y movimiento que evaluar. Conserve resultados de baja temperatura, tracción y función montada con métodos y probetas.",
+            "links": [
+              {
+                "url": "/blog/low-temperature-retraction-tr-10-predicting-seal-failure-in-arctic-conditions",
+                "label": "Interpretar evidencia de retracción a baja temperatura"
+              },
+              {
+                "url": "/blog/tensile-stress-strain-curves-what-a-mechanical-engineer-needs-to-know-about-rubb",
+                "label": "Leer informes de tracción con condiciones de probeta"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Preparar la comparación de medios"
+              }
+            ]
+          },
+          {
+            "heading": "Aclarar otras referencias de material y ambientales",
+            "body": "Si el plano indica NR, CR, butilo u otro polímero, envíe grado exacto, servicio y forma de suministro solicitada. Para contenido reciclado o degradación, identifique material, base de cálculo o método de ensayo y condiciones. Evalúe junto a esa información los requisitos de servicio de la pieza."
+          },
+          {
+            "heading": "Definir aceptación y base de suministro",
+            "body": "Acuerde grado, plano, escala de dureza, propiedades pertinentes y condiciones de inspección del compuesto propuesto. Conserve requisitos del cliente con la aprobación. Para compuesto, identifique forma de entrega y procesado; para piezas terminadas, incluya geometría, cantidad y evaluación montada.",
+            "links": [
+              {
+                "url": "/resources/rubber-hardness-guide",
+                "label": "Especificar medidas de dureza"
+              },
+              {
+                "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+                "label": "Preparar una designación completa del material"
+              },
+              {
+                "url": "/compounds",
+                "label": "Consultar suministro de compuesto"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Consultar muestras de material y piezas"
+              }
+            ]
           }
         ],
         "cta": "Consultar la selección de material",
@@ -4863,21 +5168,106 @@
       "RQ-PG-028": {
         "label": "Fábrica",
         "title": "Conozca la fabricación de RubberQ | RubberQ",
-        "description": "Explore nuestra base industrial en Fuzhou, China.",
+        "description": "Revise fabricación de RubberQ en Fuzhou con procesos, inspección y registros de su pieza. Prepare evaluación de fábrica, demanda y condiciones de entrega.",
         "h1": "Conozca la fabricación de RubberQ",
         "intro": "Explore nuestra base industrial en Fuzhou, China. Dos plantas con aproximadamente 20.000 m² conectan preparación de compuestos, moldeo, inspección y registros productivos.",
         "sections": [
           {
-            "heading": "Preparación de compuestos",
-            "body": "Consulte cómo identificación de material, pesaje, mezclado y registros de lote apoyan una preparación repetible."
+            "heading": "Seguir la ruta de su componente",
+            "body": "Nuestra base de fabricación en Fuzhou conecta preparación de compuestos, moldeo, vulcanización y ensayos internos. Para evaluar al proveedor, identifique la pieza y las etapas relevantes para su plano, material y aprobación."
           },
           {
-            "heading": "Moldeo e inspección",
-            "body": "Geometría y requisitos de material orientan la revisión del molde y la fabricación. La inspección se acuerda según el componente y sus características críticas."
+            "heading": "Acordar la información de proceso que revisar",
+            "body": "Utilice los requisitos de su pieza para definir operaciones y registros que deben tratarse.",
+            "table": {
+              "caption": "Revisión de fabricación por etapa",
+              "columns": [
+                "Etapa",
+                "Preguntas y registros para la revisión"
+              ],
+              "rows": [
+                [
+                  "Preparación de material",
+                  "Especificación del compuesto, identificación y requisitos de lote"
+                ],
+                [
+                  "Mezclado",
+                  "Ruta de mezclado y registros pertinentes de preparación y lote"
+                ],
+                [
+                  "Moldeo y vulcanización",
+                  "Utillaje, revisión del plano, ruta de proceso y registros de producción"
+                ],
+                [
+                  "Acabado",
+                  "Líneas de partición, recorte y aceptación superficial acordada"
+                ],
+                [
+                  "Inspección",
+                  "Características críticas, métodos, identidad de muestra y registros de resultados"
+                ],
+                [
+                  "Liberación y embalaje",
+                  "Base de aprobación, identificación de lote, embalaje y registros de expedición"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/compounding",
+                "label": "Preparación y desarrollo de compuestos"
+              },
+              {
+                "url": "/capabilities/rubber-molding",
+                "label": "Revisar el moldeo de caucho"
+              },
+              {
+                "url": "/testing",
+                "label": "Requisitos de inspección y ensayo"
+              }
+            ]
           },
           {
-            "heading": "El proceso de su proyecto",
-            "body": "Para evaluar al proveedor, solicite información de fábrica y documentación de proceso relevantes y consulte la ruta de producción de su pieza."
+            "heading": "Planificar una evaluación de fábrica concreta",
+            "body": "Acuerde objetivo de visita o revisión documental, alcance de producto, participantes y confidencialidad. Defina los puntos de identificación, segregación, manejo e inspección que desea observar. Para revisar mejoras, solicite registros de cambios, validación y seguimiento pertinentes junto con la descripción general de la planta.",
+            "links": [
+              {
+                "url": "/quality",
+                "label": "Registros de calidad y cambios"
+              },
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Interpretar registros de trazabilidad por lote"
+              }
+            ]
+          },
+          {
+            "heading": "Contrastar demanda y ruta de fabricación",
+            "body": "Nuestras dos instalaciones suman aproximadamente 20.000 metros cuadrados. Para revisar demanda o aumento de volumen, indique referencias, estado del molde, cantidades de muestras y pedidos, cadencia e inspección necesaria. Revise operaciones críticas y calendario comercial para ese proyecto.",
+            "links": [
+              {
+                "url": "/batch-rfq",
+                "label": "Enviar requisitos de varias piezas"
+              }
+            ]
+          },
+          {
+            "heading": "Definir embalaje y entrega con el pedido",
+            "body": "Identifique destino, condiciones de entrega, cantidades, embalaje, etiquetas de lote y documentos necesarios. Acuerde transporte y requisitos de manejo o ambiente de la expedición. Conserve los detalles confirmados del pedido junto con la especificación aprobada de la pieza.",
+            "links": [
+              {
+                "url": "/products",
+                "label": "Encontrar la ruta del componente"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Consultar requisitos de muestras"
+              },
+              {
+                "url": "/contact",
+                "label": "Consultar evaluación de fábrica o entrega"
+              }
+            ]
           }
         ],
         "cta": "Consultar una evaluación de fábrica",
@@ -6152,21 +6542,135 @@
       "RQ-PG-045": {
         "label": "Solicitud de muestras",
         "title": "Solicitar muestras de componentes de caucho | RubberQ",
-        "description": "Comparta requisitos de pieza, material y evaluación para solicitar muestras.",
+        "description": "Solicite muestras de caucho con revisión del plano, material, objetivo y criterios de evaluación. Defina cantidades, aprobación y condiciones de preparación.",
         "h1": "Solicitar muestras de componentes de caucho",
         "intro": "Comparta requisitos de pieza, material y evaluación para solicitar muestras. Revisaremos qué debe definirse antes de prepararlas.",
         "sections": [
           {
-            "heading": "Identificar la muestra",
-            "body": "Aporte plano, designación o referencia, cantidad y material."
+            "heading": "Empezar por el objetivo de la muestra",
+            "body": "Identifique si necesita una probeta de material o un componente completo y qué debe demostrar. Aporte plano o pieza de referencia y describa la cuestión dimensional, de material o de montaje. Esta es la base para revisar la preparación de muestras."
           },
           {
-            "heading": "Describir la evaluación",
-            "body": "Explique comprobaciones, condiciones de montaje y criterios de aceptación."
+            "heading": "Preparar la solicitud de muestras",
+            "body": "Incluya lo conocido e identifique datos por acordar. Si desconoce la cantidad, deje el campo vacío y describa el objetivo de evaluación.",
+            "table": {
+              "caption": "Información para solicitar muestras",
+              "columns": [
+                "Dato",
+                "Información que debe aportar"
+              ],
+              "rows": [
+                [
+                  "Identidad de pieza",
+                  "Referencia, revisión del plano, referencia existente y geometría"
+                ],
+                [
+                  "Material",
+                  "Grado especificado o propiedades exigidas y registros disponibles"
+                ],
+                [
+                  "Cantidad",
+                  "Cantidad solicitada si se conoce, prueba prevista y demanda posterior"
+                ],
+                [
+                  "Evaluación",
+                  "Comprobaciones dimensionales, de material o función, métodos y condiciones"
+                ],
+                [
+                  "Montaje",
+                  "Piezas de contacto, instalación, medios y secuencia de servicio"
+                ],
+                [
+                  "Responsabilidad",
+                  "Quién evalúa, quién aprueba y registros necesarios"
+                ],
+                [
+                  "Preparación y entrega",
+                  "Estado del molde, destino, embalaje y requisitos comerciales"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Acordar la preparación",
-            "body": "Disponibilidad, molde, costes y plazos dependen del proyecto y se consultan tras la revisión técnica."
+            "heading": "Acordar qué representa la muestra",
+            "body": "Revise material, geometría, preparación y diferencias respecto a producción prevista. Si ya dispone de un modelo impreso en 3D, identifique polímero, proceso y objetivo de revisión. Separe resultados de modelo o ajuste de los ensayos del compuesto previsto y del componente moldeado.",
+            "links": [
+              {
+                "url": "/capabilities/rubber-molding",
+                "label": "Revisar la ruta de moldeo"
+              },
+              {
+                "url": "/materials",
+                "label": "Preparar requisitos de material"
+              }
+            ]
+          },
+          {
+            "heading": "Crear el registro de aceptación de muestras",
+            "body": "Utilice un registro como este para acordar la prueba antes de ensayar y conservar la decisión posterior.",
+            "table": {
+              "caption": "Registro de evaluación y aceptación de muestras",
+              "columns": [
+                "Comprobación",
+                "Registrar antes de la prueba",
+                "Registrar después de la prueba"
+              ],
+              "rows": [
+                [
+                  "Identidad",
+                  "Plano, material y base de preparación exigidos",
+                  "ID real de muestra, revisión, grado, lote y proceso"
+                ],
+                [
+                  "Dimensiones",
+                  "Características críticas, límites y método de inspección",
+                  "Resultados, número de muestras y observaciones"
+                ],
+                [
+                  "Material",
+                  "Propiedades, métodos y acondicionamiento exigidos",
+                  "Referencia del informe y resultados medidos"
+                ],
+                [
+                  "Función",
+                  "Montaje, servicio y criterios de aceptación",
+                  "Condiciones de prueba y observaciones funcionales"
+                ],
+                [
+                  "Decisión",
+                  "Evaluador, aprobador y alcance de aprobación",
+                  "Alcance aceptado, acciones abiertas y fecha"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/testing",
+                "label": "Acordar ensayos de muestras"
+              },
+              {
+                "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+                "label": "Preparar documentos de aprobación del cliente"
+              }
+            ]
+          },
+          {
+            "heading": "Confirmar el siguiente paso de suministro",
+            "body": "Disponibilidad, molde, costes y plazos se acuerdan para el proyecto tras la revisión. Conserve evaluación y diferencias respecto a producción con la aprobación. Para pedidos repetidos, confirme especificación aprobada, cantidad, registros de lote y requisitos de cambios.",
+            "links": [
+              {
+                "url": "/quality",
+                "label": "Registros de calidad para suministro repetido"
+              },
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Revisar trazabilidad por lote"
+              },
+              {
+                "url": "/contact",
+                "label": "Consultar alcance de muestras y oferta"
+              }
+            ]
           }
         ],
         "cta": "Enviar requisitos de muestras",

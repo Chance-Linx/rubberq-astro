@@ -627,7 +627,7 @@
     "navigation": "implemented_local_desktop_path_verified_mobile_final_review_pending",
     "rfq": "five_locale_ui_and_116_local_contract_checks_passed_live_contract_release_pending",
     "seo_sitemap_schema": "225_routes_metadata_and_jsonld_passed_sitemap_and_specialized_routes_final_review_pending",
-    "dashboard_reconciliation": "Editorial ownership reconciled; 30/35 page modules and source links implemented, operational keyword/graph reconciliation remains pending.",
+    "dashboard_reconciliation": "Editorial ownership reconciled; 35/35 page modules and source links implemented, operational keyword/graph reconciliation remains pending.",
     "final_audit": "pending",
     "content_revision_drafts": {
       "prepared": 27,
@@ -636,13 +636,13 @@
       "article_to_article_links": 30,
       "article_to_page_links": 83,
       "private_body_previews": 27,
-      "page_backlinks": "partially_implemented_30_of_35_pages_local_only",
+      "page_backlinks": "page_modules_implemented_35_of_35_pages_local_only_final_review_pending",
       "cover_and_production_layout_review": "pending"
     },
     "page_content_modules": {
       "required": 35,
-      "implemented_local": 30,
-      "remaining": 5,
+      "implemented_local": 35,
+      "remaining": 0,
       "locales": [
         "en",
         "de",
@@ -650,12 +650,12 @@
         "es",
         "zh"
       ],
-      "rendered_routes_checked": 150,
+      "rendered_routes_checked": 175,
       "accepted_topic_coverage": 0,
       "artifact": "ownership/page-content-modules.json"
     }
   },
-  "next_action": "Continue the remaining 5 page-owner modules in five locales, article assets/production layout, metadata repairs, keyword/graph reconciliation, specialized pages/mobile/RFQ, then one consolidated final review.",
+  "next_action": "Complete article assets/production layout, metadata repairs, keyword/graph reconciliation, specialized pages/mobile/RFQ, then one consolidated final review.",
   "status_evidence": {
     "implemented_page_specs": 45,
     "message_page_specs": 49,

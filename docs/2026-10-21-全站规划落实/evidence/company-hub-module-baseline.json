@@ -1,0 +1,17 @@
+{
+  "baseline_commit": "18ff0de46a0015854a8e93a7941ffd95046bfec9",
+  "scope": [
+    "/about",
+    "/factory",
+    "/materials",
+    "/products",
+    "/sample-request"
+  ],
+  "files": {
+    "src/messages/en.json": "4e5ce940d95d0d3884a103f3a739b9115af9293db0e81fe6a5d572ddcfd6c888",
+    "src/messages/de.json": "67582e8ce95aa906ddbf2a4d1c8bf4c8fb01fd5b1010bca1a8383c7957683c47",
+    "src/messages/ja.json": "81af87581068eea80db8a211f24a104ea9e1491f225bf757ae9241b463fa067d",
+    "src/messages/es.json": "a56b7122755f380284c1328331279a9e7dc16e2db6e6d66dfc6703154a585752",
+    "src/messages/zh.json": "5f768fecb54e84e4fd1ca06cb1bba2dc9fe8f88ca9ca6c7d4d2b7a4ba5089db5"
+  }
+}

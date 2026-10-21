@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-21",
+  "scope": "Current project fact and authorized narrative reuse; not an independent factory inspection or certificate-validity audit.",
+  "sources": [
+    {
+      "path": "AGENTS.md and ../AGENTS.md",
+      "use": "Current project facts, public redlines and October21 user-approved sector priority"
+    },
+    {
+      "path": "docs/rubberq-info.md",
+      "file_sha256": "39dcb8c0f0cf8f5eb4641b8a1ad5d2d3ca5dc444087fa16314e0052e5da34d79",
+      "sections_used": [
+        "Founding-year correction at lines412–418",
+        "Known facilities and manufacturing facts"
+      ],
+      "limits": "Do not use historical 1990/35-year wording, partner identity, pending team/tonnage/capacity values or unverified equipment/performance numbers."
+    },
+    {
+      "path": "docs/2026-10-21-线上获客执行/02-企业形象与英文文案.md",
+      "file_sha256": "4642e022a74a221ad0741ca98c7f1c8f7273bed92f265476a7091f1a911e0c54",
+      "use": "Approved narrative and company details"
+    }
+  ],
+  "facts_used": {
+    "founded": "1995",
+    "background": "Sino-Japanese joint venture with Japanese formulation support",
+    "location": "Fuzhou, China",
+    "facilities": "Two, approximately 20,000 square metres combined",
+    "processes": [
+      "compound development",
+      "mixing",
+      "molding and vulcanization",
+      "in-house testing",
+      "ERP production traceability"
+    ],
+    "management_systems_from_project_facts": [
+      "IATF 16949:2016",
+      "ISO 9001:2015",
+      "ISO 14001:2015"
+    ]
+  },
+  "certificates": "Current certificate files, validity and exact scope have not been independently inspected in this round. Copy requests current documents for supplier evaluation; no product/OEM qualification is added.",
+  "sample_quantity_source_review": {
+    "path": "src/components/contact/SampleRequestForm.tsx",
+    "file_sha256": "22ad758103047a2383fe710bcbba0dca133c6b0e7219e00f73edba7a72e47a8c",
+    "initial_quantity_empty": true,
+    "quantity_input_optional": true,
+    "payload_uses_entered_quantity": true,
+    "backend_persistence_or_delivery_verified": false,
+    "form_changes": 0
+  },
+  "new_paid_calls": 0,
+  "new_external_research_or_factory_requests": 0
+}

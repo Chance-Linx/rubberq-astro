@@ -1,0 +1,222 @@
+{
+  "date": "2026-10-21",
+  "scope": [
+    "/about",
+    "/factory",
+    "/materials",
+    "/products",
+    "/sample-request"
+  ],
+  "baseline_commit": "18ff0de46a0015854a8e93a7941ffd95046bfec9",
+  "message_checks": [
+    {
+      "locale": "en",
+      "only_changed_ids": [
+        "RQ-PG-002",
+        "RQ-PG-003",
+        "RQ-PG-011",
+        "RQ-PG-028",
+        "RQ-PG-045"
+      ],
+      "only_fields": [
+        "sections",
+        "description"
+      ],
+      "all_other_message_values_unchanged": true,
+      "approved_four_sector_order_preserved": true,
+      "sample_acceptance_record_rows": 5,
+      "description_lengths": {
+        "/about": 152,
+        "/factory": 160,
+        "/materials": 151,
+        "/products": 160,
+        "/sample-request": 154
+      },
+      "current_file_sha256": "282cd413dca54fe18cc64dba7a1be54cac13ef24a015203054e2e76ad8c56670"
+    },
+    {
+      "locale": "de",
+      "only_changed_ids": [
+        "RQ-PG-002",
+        "RQ-PG-003",
+        "RQ-PG-011",
+        "RQ-PG-028",
+        "RQ-PG-045"
+      ],
+      "only_fields": [
+        "sections",
+        "description"
+      ],
+      "all_other_message_values_unchanged": true,
+      "approved_four_sector_order_preserved": true,
+      "sample_acceptance_record_rows": 5,
+      "description_lengths": {
+        "/about": 147,
+        "/factory": 157,
+        "/materials": 157,
+        "/products": 152,
+        "/sample-request": 156
+      },
+      "current_file_sha256": "d5290fe3409e8613ae2cb7dd2408a97e260d8d8536da74bd6b593d13ded43c49"
+    },
+    {
+      "locale": "ja",
+      "only_changed_ids": [
+        "RQ-PG-002",
+        "RQ-PG-003",
+        "RQ-PG-011",
+        "RQ-PG-028",
+        "RQ-PG-045"
+      ],
+      "only_fields": [
+        "sections",
+        "description"
+      ],
+      "all_other_message_values_unchanged": true,
+      "approved_four_sector_order_preserved": true,
+      "sample_acceptance_record_rows": 5,
+      "description_lengths": {
+        "/about": 64,
+        "/factory": 62,
+        "/materials": 58,
+        "/products": 62,
+        "/sample-request": 59
+      },
+      "current_file_sha256": "ac653d67495c4d7b95b23491cefd5d4844c041d6d119c364807335d623953b80"
+    },
+    {
+      "locale": "es",
+      "only_changed_ids": [
+        "RQ-PG-002",
+        "RQ-PG-003",
+        "RQ-PG-011",
+        "RQ-PG-028",
+        "RQ-PG-045"
+      ],
+      "only_fields": [
+        "sections",
+        "description"
+      ],
+      "all_other_message_values_unchanged": true,
+      "approved_four_sector_order_preserved": true,
+      "sample_acceptance_record_rows": 5,
+      "description_lengths": {
+        "/about": 145,
+        "/factory": 154,
+        "/materials": 151,
+        "/products": 159,
+        "/sample-request": 157
+      },
+      "current_file_sha256": "21d5e78cf27ca7d6def10da17882f018c1ae59d3382ae6eb26e0881031c6bdab"
+    },
+    {
+      "locale": "zh",
+      "only_changed_ids": [
+        "RQ-PG-002",
+        "RQ-PG-003",
+        "RQ-PG-011",
+        "RQ-PG-028",
+        "RQ-PG-045"
+      ],
+      "only_fields": [
+        "sections",
+        "description"
+      ],
+      "all_other_message_values_unchanged": true,
+      "approved_four_sector_order_preserved": true,
+      "sample_acceptance_record_rows": 5,
+      "description_lengths": {
+        "/about": 63,
+        "/factory": 57,
+        "/materials": 56,
+        "/products": 56,
+        "/sample-request": 56
+      },
+      "current_file_sha256": "c0b6d1abdc2c211383532bdd89622e67b85ee78f8b910c2531d09daf2223dbdd"
+    }
+  ],
+  "preexisting_changes": [
+    {
+      "path": "scripts/govern-sanity-redline-articles.mjs",
+      "sha256": "7a5b5ac3045c95435cbbfcae82b9075bd1b40073aa0957287e210dbca11655a7",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/sanity.ts",
+      "sha256": "05a1b5594ffc8e94a3d3c444ba5b1b6dd29a5a024da7f99a7cf6eaaa75a460a6",
+      "unchanged": true
+    },
+    {
+      "path": "tools/rfq-worker-v2/worker.mjs",
+      "sha256": "0ad533b4ca7f3aef65de85f70f65f4ce66ddf945470b4fc2276c18a741179819",
+      "unchanged": true
+    },
+    {
+      "path": "tools/rfq-worker-v2/wrangler.toml",
+      "sha256": "93a1750d46f224d0e95040a6105889fc5e6c2d42029376fe4c0776ca362ececd",
+      "unchanged": true
+    }
+  ],
+  "new_localized_routes": 25,
+  "new_sections": 120,
+  "new_tables": 30,
+  "new_context_links": 285,
+  "new_article_link_placements": 40,
+  "english_article_link_targets": [
+    {
+      "page": "/about",
+      "label": "Prepare a compound-development request",
+      "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
+      "draft_title": "Custom Rubber Compound Development: What to Specify"
+    },
+    {
+      "page": "/factory",
+      "label": "Read batch traceability records",
+      "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+      "draft_title": "Rubber Batch Traceability: Records for Repeat Orders"
+    },
+    {
+      "page": "/materials",
+      "label": "Read low-temperature retraction evidence",
+      "url": "/blog/low-temperature-retraction-tr-10-predicting-seal-failure-in-arctic-conditions",
+      "draft_title": "Low-Temperature Retraction: Use TR Data with Seal Requirements"
+    },
+    {
+      "page": "/materials",
+      "label": "Read tensile reports with the specimen conditions",
+      "url": "/blog/tensile-stress-strain-curves-what-a-mechanical-engineer-needs-to-know-about-rubb",
+      "draft_title": "Rubber Tensile Curves: Read the Axes, Specimen and Test Conditions"
+    },
+    {
+      "page": "/materials",
+      "label": "Prepare a complete material callout",
+      "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+      "draft_title": "ASTM D2000 for Rubber Parts: Use the Complete Material Callout"
+    },
+    {
+      "page": "/products",
+      "label": "Specify O-ring visual acceptance",
+      "url": "/blog/iso-3601-3-visual-inspection-standards-for-o-rings-what-is-acceptable",
+      "draft_title": "O-Ring Visual Inspection: Specify Acceptance with ISO 3601-3"
+    },
+    {
+      "page": "/sample-request",
+      "label": "Prepare customer approval documents",
+      "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+      "draft_title": "PPAP for Rubber Parts: Link the Drawing, Compound and Process"
+    },
+    {
+      "page": "/sample-request",
+      "label": "Review batch traceability records",
+      "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+      "draft_title": "Rubber Batch Traceability: Records for Repeat Orders"
+    }
+  ],
+  "implemented_modules": 35,
+  "remaining_modules": 0,
+  "accepted_coverage": 0,
+  "cms_writes": 0,
+  "production_deployments": 0,
+  "new_paid_calls": 0,
+  "sync_tool_change": "When all page modules exist, retain final-review-pending local stage and move next_action to article/assets and whole-site work, without a remaining-0 instruction."
+}

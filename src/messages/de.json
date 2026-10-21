@@ -2325,21 +2325,112 @@
       "RQ-PG-002": {
         "label": "Über RubberQ",
         "title": "Präzisionsfertigung aus Gummi seit 1995 | RubberQ",
-        "description": "Lernen Sie RubberQ kennen: chinesisch-japanisches Gemeinschaftsunternehmen seit 1995, zwei Werke in Fuzhou, Mischungsherstellung und werkseigene Prüfungen.",
+        "description": "RubberQ: chinesisch-japanischer Gummihersteller, 1995 in Fuzhou gegründet. Rezeptur, Fertigung und Unterlagen für Ihr Bauteil gemeinsam besprechen.",
         "h1": "Präzisionsfertigung aus Gummi seit 1995",
         "intro": "RubberQ wurde 1995 in Fuzhou als chinesisch-japanisches Gemeinschaftsunternehmen gegründet. Wir verbinden japanische Rezepturunterstützung mit Mischungsherstellung, Präzisionsformgebung und werkseigenen Prüfungen in China.",
         "sections": [
           {
-            "heading": "Werkstoffentwicklung mit Blick auf die Anwendung",
-            "body": "Ein Gummibauteil muss zu seiner Baugruppe, Umgebung und Fertigung passen. Wir klären diese Anforderungen und leiten daraus die Abstimmung zu Mischung und Herstellung ab."
+            "heading": "Werkstoffentscheidungen mit der Fertigung verbinden",
+            "body": "Japanische Rezepturunterstützung verbindet sich mit unserer Mischungsvorbereitung, Formgebung und eigenen Prüfung in China. Wir betrachten Werkstoff, Bauteilgeometrie und Fertigungsweg gemeinsam, ausgehend von den Bedingungen, die das Bauteil erfüllen soll."
           },
           {
-            "heading": "Zwei Werke, ein verbundener Ablauf",
-            "body": "Die beiden Werke in Fuzhou umfassen rund 20.000 m². Mischen, Formgebung, Prüfung und Produktionsaufzeichnungen unterstützen die Entwicklung und die wiederholte Fertigung."
+            "heading": "RubberQ auf einen Blick",
+            "body": "Diese Unternehmensangaben bilden einen Ausgangspunkt für die Lieferantenbewertung.",
+            "table": {
+              "caption": "Unternehmens- und Fertigungsangaben zu RubberQ",
+              "columns": [
+                "Punkt",
+                "Unternehmensangabe"
+              ],
+              "rows": [
+                [
+                  "Gründung",
+                  "1995 als chinesisch-japanisches Gemeinschaftsunternehmen"
+                ],
+                [
+                  "Standort",
+                  "Fuzhou, China"
+                ],
+                [
+                  "Betriebsstätten",
+                  "Zwei Betriebsstätten mit insgesamt etwa 20.000 Quadratmetern"
+                ],
+                [
+                  "Fertigung",
+                  "Mischungsentwicklung, Mischen, Formen und Vulkanisieren"
+                ],
+                [
+                  "Bewertung und Unterlagen",
+                  "Eigene Prüfung und ERP-gestützte Produktionsrückverfolgung"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Nachvollziehbarkeit in der Produktion",
-            "body": "ERP-Aufzeichnungen verbinden Materialchargen, Fertigungsschritte und Prüfergebnisse. Wir besprechen die Rückverfolgbarkeit und Dokumentation für Ihr Projekt und Ihre Lieferantenbewertung."
+            "heading": "Von der Anwendungsfrage zum vereinbarten Bauteil",
+            "body": "Bringen Sie Zeichnung, Referenzteil oder Werkstoffspezifikation sowie Medien, Temperatur, Bewegung und Menge mit. Legen Sie Mischungskandidat und Musterbewertung vor Folgeaufträgen fest. Fertigteile, Mischungslieferung und FFKM-Ersatzanfragen benötigen jeweils einen vereinbarten Umfang.",
+            "links": [
+              {
+                "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
+                "label": "Eine Mischungsentwicklungsanfrage vorbereiten"
+              },
+              {
+                "url": "/products/custom",
+                "label": "Kundenspezifische Bauteilprojekte"
+              },
+              {
+                "url": "/compounds",
+                "label": "Mischungslieferung besprechen"
+              },
+              {
+                "url": "/products/ffkm-replacement-seals",
+                "label": "FFKM-Ersatzbewertung"
+              }
+            ]
+          },
+          {
+            "heading": "Anforderungen Ihrer Ausrüstung erkunden",
+            "body": "Kundenspezifische Industriebauteile verbinden die Teilezeichnung mit der Fertigungsbesprechung. Für die folgenden Ausrüstungsbereiche prüfen Sie den tatsächlichen Bauteileinsatz und Freigabebedarf mit dem Entwicklungsteam.",
+            "links": [
+              {
+                "url": "/industries/semiconductor",
+                "label": "Halbleiterausrüstung"
+              },
+              {
+                "url": "/industries/liquid-cooling-energy-storage",
+                "label": "Flüssigkeitskühlung und Energiespeicher"
+              },
+              {
+                "url": "/industries/ev-energy-storage",
+                "label": "EV-Thermomanagement"
+              },
+              {
+                "url": "/industries/humanoid-robotics",
+                "label": "Humanoide Robotik"
+              },
+              {
+                "url": "/industries/industrial-equipment",
+                "label": "Kundenspezifische Industriebauteile"
+              }
+            ]
+          },
+          {
+            "heading": "Eine Lieferantenbewertung vorbereiten",
+            "body": "RubberQ verfügt über Zertifizierungen nach IATF 16949:2016, ISO 9001:2015 und ISO 14001:2015. Fordern Sie aktuelle Zertifikate und deren Geltungsbereich an. Vereinbaren Sie benötigte Werksinformationen, Prüfunterlagen und Rückverfolgungsdokumente für Ihr Bauteil zusammen mit Muster- und Freigabeplan.",
+            "links": [
+              {
+                "url": "/factory",
+                "label": "Den Fertigungsweg prüfen"
+              },
+              {
+                "url": "/quality",
+                "label": "Qualitätsunterlagen und Rückverfolgbarkeit"
+              },
+              {
+                "url": "/contact",
+                "label": "Lieferantenanforderungen besprechen"
+              }
+            ]
           }
         ],
         "cta": "Projekt besprechen",
@@ -2348,21 +2439,128 @@
       "RQ-PG-003": {
         "label": "Produkte",
         "title": "Gummibauteile nach Zeichnung für industrielle Baugruppen | RubberQ",
-        "description": "O-Ringe, Dichtungen, Faltenbälge, Membranen und Gummi-Metall-Teile nach Zeichnung. Besprechen Sie Werkstoff, Fertigung und Prüfung mit RubberQ.",
+        "description": "Gummibauteile nach Zeichnung und Funktion finden: Dichtungen, Faltenbälge, Membranen, Verbund- und Formteile. Eine konkrete Angebotsanfrage vorbereiten.",
         "h1": "Gummibauteile nach Zeichnung für industrielle Baugruppen",
         "intro": "Finden Sie den passenden Ansatz für Ihre Zeichnung oder Anwendung: O-Ringe, Dichtungen, Faltenbälge, Membranen, Gummi-Metall-Verbundteile und weitere Präzisionsformteile. Nennen Sie Werkstoff, Menge und Einsatzbedingungen für die technische Abstimmung.",
         "sections": [
           {
-            "heading": "O-Ringe und Dichtungen",
-            "body": "Querschnitt, Nut, Verpressung und Kontaktmedium werden gemeinsam mit dem Werkstoff betrachtet. Normgrößen und Sondergeometrien benötigen eine vereinbarte Prüfgrundlage."
+            "heading": "Den Bauteilweg auswählen",
+            "body": "Beginnen Sie mit Funktion und Zeichnung. Die folgenden Wege ordnen Fragen zu Geometrie, Werkstoff und Prüfung für ein technisches Angebot. Nennen Sie den aktuellen Zeichnungsstand und die Gegenbauteile oder Baugruppe des Einsatzes."
           },
           {
-            "heading": "Flachdichtungen und flexible Bauteile",
-            "body": "Bei Dichtungen, Faltenbälgen und Membranen sind Einspannung, Bewegung und Einbauschnittstellen ebenso wichtig wie die Konturzeichnung."
+            "heading": "Die Struktur der passenden Bewertung zuordnen",
+            "body": "Wählen Sie die relevante Bauteilseite für detaillierte Projektangaben.",
+            "table": {
+              "caption": "Bauteilwege und vorzubereitende Informationen",
+              "columns": [
+                "Bauteil oder Anfrage",
+                "Geometrie und Einsatz",
+                "Vorzubereitende Angaben"
+              ],
+              "rows": [
+                [
+                  "O-Ringe und Dichtungen",
+                  "Nut und Gegenfläche",
+                  "Größenreferenz, Medium, Temperatur und Druck"
+                ],
+                [
+                  "Flachdichtungen",
+                  "Geklemmte oder verpresste Verbindung",
+                  "Profil, Fügespalt, Anschläge und Abnahme im Einbau"
+                ],
+                [
+                  "Faltenbälge",
+                  "Flexibler Schutz bei Bewegung",
+                  "Gesamthub, Befestigungen, Bauraum und Exposition"
+                ],
+                [
+                  "Membranen",
+                  "Flexible Arbeitsmembran",
+                  "Einspannung, Hub, Druckdifferenz und Funktion"
+                ],
+                [
+                  "Gummi-Metall-Teile",
+                  "Gummi und starrer Einleger",
+                  "Metall, Verbundfläche, Last und Prüfung"
+                ],
+                [
+                  "Kundenspezifische Formteile",
+                  "Zeichnungsspezifische Form",
+                  "Kritische Merkmale, Werkzeuge, Werkstoff und Menge"
+                ],
+                [
+                  "FFKM-Ersatzbewertung",
+                  "Vorhandene Dichtungsreferenz",
+                  "Originalspezifikation, Betriebsverlauf und Freigabeplan"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "O-Ringe und Dichtungen"
+              },
+              {
+                "url": "/products/gaskets",
+                "label": "Flachdichtungen"
+              },
+              {
+                "url": "/products/bellows",
+                "label": "Faltenbälge"
+              },
+              {
+                "url": "/products/diaphragms",
+                "label": "Membranen"
+              },
+              {
+                "url": "/products/rubber-to-metal-bonded-parts",
+                "label": "Gummi-Metall-Teile"
+              },
+              {
+                "url": "/products/custom",
+                "label": "Kundenspezifische Formteile"
+              },
+              {
+                "url": "/products/ffkm-replacement-seals",
+                "label": "FFKM-Ersatzbewertung"
+              }
+            ]
           },
           {
-            "heading": "Formteile und Verbundbauteile",
-            "body": "Sonderformen und Gummi-Metall-Bauteile erfordern eine Abstimmung zu Werkzeug, Trennebene, Einlegeteilen, Oberflächenvorbereitung und Prüfbarkeit."
+            "heading": "Den Liefergegenstand festlegen",
+            "body": "Fertigteile benötigen Zeichnung, Werkstoff und Abnahmegrundlage. Eine Mischungslieferung benötigt Materialform und Verarbeitungsbedingungen. Geben Sie bei einem bestehenden Teil an, ob Fertigungsangebot, Werkstoffänderung oder Ersatzbewertung gewünscht ist, damit die Besprechung dem richtigen Weg folgt.",
+            "links": [
+              {
+                "url": "/materials",
+                "label": "Werkstoffanforderungen prüfen"
+              },
+              {
+                "url": "/compounds",
+                "label": "Mischungslieferung besprechen"
+              }
+            ]
+          },
+          {
+            "heading": "Jedes Teil eindeutig dokumentieren",
+            "body": "Nennen Sie Teilenummer, Revision, Werkstoff, Muster- und Bestellmengen, Betriebsbedingungen und Prüfvorgaben. Führen Sie mehrere Teile getrennt auf. Vereinbaren Sie Muster und Freigabe vor Folgeaufträgen und verknüpfen Sie Spezifikation und Chargenunterlagen.",
+            "links": [
+              {
+                "url": "/batch-rfq",
+                "label": "Angebot für mehrere Teile anfragen"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Musteranforderungen vorbereiten"
+              },
+              {
+                "url": "/quality",
+                "label": "Qualitätsunterlagen für Folgeaufträge"
+              },
+              {
+                "url": "/blog/iso-3601-3-visual-inspection-standards-for-o-rings-what-is-acceptable",
+                "label": "Sichtabnahme von O-Ringen spezifizieren"
+              }
+            ]
           }
         ],
         "cta": "Zeichnung senden",
@@ -3152,21 +3350,128 @@
       "RQ-PG-011": {
         "label": "Werkstoffe",
         "title": "Gummiwerkstoffe für Präzisionsbauteile | RubberQ",
-        "description": "FFKM, FKM, EPDM, HNBR, NBR und Silikon für Präzisionsbauteile vergleichen. Werkstoffauswahl nach Medien, Temperatur, Geometrie und Prüfanforderungen.",
+        "description": "Gummiwerkstoffe nach Mischung, Exposition und Bauteilfunktion prüfen. Kandidaten, Prüfunterlagen und gewünschte Lieferform auf gemeinsamer Basis vergleichen.",
         "h1": "Gummiwerkstoffe für Präzisionsbauteile",
         "intro": "Vergleichen Sie Elastomerfamilien anhand von Medium, Temperatur, Bewegung und Haltbarkeitsanforderungen. Die Auswahl beginnt bei der Anwendung und führt zu einer vereinbarten Mischung mit Validierungsplan.",
         "sections": [
           {
-            "heading": "Mit den Betriebsbedingungen beginnen",
-            "body": "Erfassen Sie alle Kontaktmedien, Konzentrationen, Reinigungsmittel, Normal- und Spitzentemperaturen, Druck und Bewegung. Nennen Sie auch Lager- und Montagebedingungen."
+            "heading": "Mischung und Einsatz spezifizieren",
+            "body": "Die Polymerfamilie ist der Ausgangspunkt der Werkstoffbesprechung. Eine Beschaffungsspezifikation benötigt zusätzlich Mischungstyp, physikalische Anforderungen und Bewertungsbedingungen. Geben Sie an, ob Fertigteile oder verarbeitungsfertige Mischung benötigt werden, und beschreiben Sie Funktion und vollständigen Betriebsablauf."
           },
           {
-            "heading": "Geeignete Werkstofffamilien vergleichen",
-            "body": "Betrachten Sie FFKM, FKM, EPDM, HNBR, NBR, Silikon und weitere Werkstofffamilien. Ähnliche Härte bedeutet keine vergleichbare Medienbeständigkeit oder Dichtwirkung."
+            "heading": "Den passenden Werkstoffweg finden",
+            "body": "Diese Einstiege helfen bei Fragen zu konkreten Typen und Bedingungen.",
+            "table": {
+              "caption": "Werkstoffwege und Vergleichsangaben",
+              "columns": [
+                "Kandidatenfamilie oder Form",
+                "Vorzubereitende Angaben"
+              ],
+              "rows": [
+                [
+                  "FKM und FFKM",
+                  "Vollständige Medien, Temperatur, Dichtungsgeometrie und etwaige Vakuum- oder Kontaminationsanforderungen"
+                ],
+                [
+                  "EPDM",
+                  "Tatsächliche Fluid- oder Dampfbedingungen, Reinigungsfolge, Umgebung und Einbau"
+                ],
+                [
+                  "HNBR und NBR",
+                  "Tatsächliches Öl oder Gemisch, mechanischer Einsatz und Kälteanforderungen"
+                ],
+                [
+                  "Silikon und LSR",
+                  "Werkstoffform, Formgebungsweg, Flexibilität, Kontaktbedingungen und Oberflächenabnahme"
+                ],
+                [
+                  "ACM und AEM",
+                  "Vorgeschriebenes Öl, Temperaturverlauf, mechanische Anforderungen und verfügbare Typdaten"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/materials/ffkm",
+                "label": "FFKM-Anforderungen"
+              },
+              {
+                "url": "/materials/fkm",
+                "label": "FKM-Anforderungen"
+              },
+              {
+                "url": "/materials/epdm",
+                "label": "EPDM-Anforderungen"
+              },
+              {
+                "url": "/materials/hnbr",
+                "label": "HNBR-Anforderungen"
+              },
+              {
+                "url": "/materials/nbr",
+                "label": "NBR-Anforderungen"
+              },
+              {
+                "url": "/materials/silicone",
+                "label": "Silikonanforderungen"
+              },
+              {
+                "url": "/materials/lsr",
+                "label": "LSR-Werkstoffform"
+              },
+              {
+                "url": "/materials/acm",
+                "label": "ACM-Werkstoffbewertung"
+              },
+              {
+                "url": "/materials/aem",
+                "label": "AEM-Werkstoffbewertung"
+              }
+            ]
           },
           {
-            "heading": "Mischung und Abnahme festlegen",
-            "body": "Grenzen Sie die Auswahl über die Polymerfamilie ein. Legen Sie dann Härte, physikalische Eigenschaften, Konditionierung und Prüfmethoden für die konkrete Mischung fest."
+            "heading": "Die benötigte Bauteileigenschaft vergleichen",
+            "body": "Bei Reiß- oder Wechsellastfragen benennen Sie Geometrie, Kerbzustand, Lastpfad und Prüfverfahren. Bei längerer Kälteexposition gehören Haltezeit, Dehnungszustand und zu bewertende Bewegung dazu. Halten Sie Kälte-, Zug- und Einbaufunktionsergebnisse mit Verfahren und Prüfkörpern zusammen.",
+            "links": [
+              {
+                "url": "/blog/low-temperature-retraction-tr-10-predicting-seal-failure-in-arctic-conditions",
+                "label": "Tieftemperaturrückstellwerte einordnen"
+              },
+              {
+                "url": "/blog/tensile-stress-strain-curves-what-a-mechanical-engineer-needs-to-know-about-rubb",
+                "label": "Zugberichte mit Prüfkörperbedingungen lesen"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Den Medienvergleich vorbereiten"
+              }
+            ]
+          },
+          {
+            "heading": "Weitere Werkstoff- und Umweltangaben klären",
+            "body": "Nennt die Zeichnung NR, CR, Butyl oder ein anderes Polymer, senden Sie Typ, Einsatz und gewünschte Lieferform. Bei Angaben zu Rezyklatanteil oder Abbau benennen Sie Werkstoff, Berechnungsgrundlage beziehungsweise Prüfverfahren und Bedingungen. Bewerten Sie daneben die Einsatzanforderungen des Bauteils."
+          },
+          {
+            "heading": "Abnahme- und Liefergrundlage festlegen",
+            "body": "Vereinbaren Sie Typ, Zeichnung, Härteskala, relevante Eigenschaften und Prüfbedingungen der vorgesehenen Mischung. Halten Sie Kundenanforderungen bei der Freigabe. Bei Mischungslieferung nennen Sie Lieferform und Verarbeitungsbedingungen; bei Fertigteilen ergänzen Sie Geometrie, Menge und Einbaubewertung.",
+            "links": [
+              {
+                "url": "/resources/rubber-hardness-guide",
+                "label": "Härtemessungen spezifizieren"
+              },
+              {
+                "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+                "label": "Vollständige Werkstoffbezeichnung vorbereiten"
+              },
+              {
+                "url": "/compounds",
+                "label": "Mischungslieferung besprechen"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Werkstoff- und Bauteilmuster besprechen"
+              }
+            ]
           }
         ],
         "cta": "Werkstoffauswahl besprechen",
@@ -4825,21 +5130,106 @@
       "RQ-PG-028": {
         "label": "Werke",
         "title": "Einblick in die Fertigung bei RubberQ | RubberQ",
-        "description": "Zwei RubberQ-Werke in Fuzhou mit rund 20.000 m². Erfahren Sie mehr über Mischungsherstellung, Formgebung, Prüfung und projektbezogene Fertigungsunterlagen.",
+        "description": "RubberQ-Fertigung in Fuzhou anhand von Prozess, Prüfung und Bauteilunterlagen bewerten. Werksbewertung, Bedarfsprüfung und Lieferdetails gezielt vorbereiten.",
         "h1": "Einblick in die Fertigung bei RubberQ",
         "intro": "Lernen Sie unseren Fertigungsstandort in Fuzhou, China, kennen. Zwei Werke mit rund 20.000 m² verbinden Mischungsherstellung, Formgebung, Prüfung und Produktionsaufzeichnungen.",
         "sections": [
           {
-            "heading": "Mischungsherstellung",
-            "body": "Besprechen Sie, wie Materialkennzeichnung, Einwaage, Mischen und Chargenaufzeichnungen einen wiederholbaren Herstellungsablauf unterstützen."
+            "heading": "Dem Fertigungsweg Ihres Bauteils folgen",
+            "body": "Unsere Fertigung in Fuzhou verbindet Mischungsvorbereitung, Formgebung, Vulkanisation und eigene Prüfung. Identifizieren Sie für die Lieferantenbewertung das Teil und die Prozessstufen, die für Zeichnung, Werkstoff und Freigabe relevant sind."
           },
           {
-            "heading": "Formgebung und Prüfung",
-            "body": "Geometrie und Werkstoffanforderungen bestimmen die Werkzeug- und Fertigungsbewertung. Prüfungen werden anhand des Bauteils und seiner kritischen Merkmale vereinbart."
+            "heading": "Die zu prüfenden Prozessinformationen vereinbaren",
+            "body": "Definieren Sie anhand Ihrer Bauteilanforderungen die zu besprechenden Arbeitsgänge und Unterlagen.",
+            "table": {
+              "caption": "Fertigungsbewertung nach Prozessstufe",
+              "columns": [
+                "Stufe",
+                "Fragen und Unterlagen für die Bewertung"
+              ],
+              "rows": [
+                [
+                  "Werkstoffvorbereitung",
+                  "Mischungsspezifikation, Identifikation und Chargenanforderungen"
+                ],
+                [
+                  "Mischen",
+                  "Mischroute und relevante Vorbereitungs- und Chargenunterlagen"
+                ],
+                [
+                  "Formen und Vulkanisieren",
+                  "Werkzeuge, Zeichnungsstand, Prozessweg und Fertigungsunterlagen"
+                ],
+                [
+                  "Nachbearbeitung",
+                  "Trennlinien, Beschnitt und vereinbarte Oberflächenabnahme"
+                ],
+                [
+                  "Prüfung",
+                  "Kritische Merkmale, Methoden, Musteridentität und Ergebnisunterlagen"
+                ],
+                [
+                  "Freigabe und Verpackung",
+                  "Freigabegrundlage, Chargenidentifikation, Verpackung und Versandunterlagen"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/compounding",
+                "label": "Mischungsvorbereitung und Entwicklung"
+              },
+              {
+                "url": "/capabilities/rubber-molding",
+                "label": "Gummiformgebung besprechen"
+              },
+              {
+                "url": "/testing",
+                "label": "Prüf- und Testanforderungen"
+              }
+            ]
           },
           {
-            "heading": "Den Prozess für Ihr Projekt kennenlernen",
-            "body": "Fordern Sie für Ihre Lieferantenbewertung passende Werksinformationen und Prozessunterlagen an. Besprechen Sie den Fertigungsweg für Ihr konkretes Bauteil."
+            "heading": "Eine gezielte Werksbewertung planen",
+            "body": "Vereinbaren Sie Ziel des Besuchs oder der Dokumentenprüfung, Produktumfang, Beteiligte und Vertraulichkeit. Legen Sie die gewünschten Beobachtungspunkte für Identifikation, Trennung, Handhabung und Prüfung fest. Fordern Sie bei Verbesserungsaktivitäten relevante Änderungsunterlagen, Validierung und Nachverfolgung an, statt sich auf eine allgemeine Standortbeschreibung zu stützen.",
+            "links": [
+              {
+                "url": "/quality",
+                "label": "Qualitäts- und Änderungsunterlagen"
+              },
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Chargenrückverfolgung nachvollziehen"
+              }
+            ]
+          },
+          {
+            "heading": "Bedarf mit dem Fertigungsweg abgleichen",
+            "body": "Unsere zwei Betriebsstätten umfassen insgesamt etwa 20.000 Quadratmeter. Für Bedarfs- oder Hochlaufgespräche nennen Sie Teilenummern, Werkzeugstatus, Muster- und Bestellmengen, Bedarfsrhythmus und geforderte Prüfungen. Betrachten Sie kritische Arbeitsgänge und den kaufmännischen Zeitplan projektbezogen.",
+            "links": [
+              {
+                "url": "/batch-rfq",
+                "label": "Eine Anforderung für mehrere Teile senden"
+              }
+            ]
+          },
+          {
+            "heading": "Verpackung und Lieferung mit dem Auftrag festlegen",
+            "body": "Benennen Sie Zielort, Lieferbedingungen, Mengen, Verpackung, Chargenetiketten und Dokumente. Vereinbaren Sie Transport sowie Handhabungs- oder Umgebungsanforderungen der Sendung. Halten Sie bestätigte Auftragsdetails bei der freigegebenen Teilespezifikation.",
+            "links": [
+              {
+                "url": "/products",
+                "label": "Den Bauteilweg finden"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Musteranforderungen besprechen"
+              },
+              {
+                "url": "/contact",
+                "label": "Werks- oder Liefergespräch vereinbaren"
+              }
+            ]
           }
         ],
         "cta": "Werksbewertung besprechen",
@@ -6114,21 +6504,135 @@
       "RQ-PG-045": {
         "label": "Musteranfrage",
         "title": "Muster für Gummibauteile anfragen | RubberQ",
-        "description": "Muster für Gummibauteile anfragen: Zeichnung, Werkstoff, Menge, Einbau und Bewertungskriterien senden und die Vorbereitung mit RubberQ abstimmen.",
+        "description": "Gummimuster mit Zeichnungsstand, Werkstoff, Zweck und Prüfkriterien anfragen. Mengen, Freigabeunterlagen und Vorbereitungsbedingungen projektbezogen klären.",
         "h1": "Muster für Gummibauteile anfragen",
         "intro": "Teilen Sie Bauteil-, Werkstoff- und Bewertungsanforderungen für Ihre Musteranfrage. Wir klären, welche Angaben vor der Musterherstellung festgelegt werden müssen.",
         "sections": [
           {
-            "heading": "Muster identifizieren",
-            "body": "Senden Sie Zeichnung, bestehende Bezeichnung oder Referenzteilangaben sowie Menge und Werkstoffanforderungen."
+            "heading": "Mit dem Musterzweck beginnen",
+            "body": "Geben Sie an, ob eine Werkstoffprobe oder ein vollständiges Bauteil benötigt wird und was das Muster zeigen soll. Stellen Sie Zeichnung oder Referenzteil bereit und beschreiben Sie die Maß-, Werkstoff- oder Einbaufrage. Daraus ergibt sich die Grundlage für die Mustervorbereitung."
           },
           {
-            "heading": "Bewertung beschreiben",
-            "body": "Erklären Sie, wie das Muster geprüft wird, unter welchen Einbaubedingungen und mit welchen Abnahmekriterien."
+            "heading": "Die Musteranfrage vorbereiten",
+            "body": "Geben Sie Bekanntes an und kennzeichnen Sie noch abzustimmende Informationen. Ist die Menge unbekannt, lassen Sie sie leer und beschreiben Sie das Bewertungsziel.",
+            "table": {
+              "caption": "Informationen für eine Musteranfrage",
+              "columns": [
+                "Eingabe",
+                "Benötigte Angaben"
+              ],
+              "rows": [
+                [
+                  "Teilidentität",
+                  "Teilenummer, Zeichnungsstand, Referenz und Geometrie"
+                ],
+                [
+                  "Werkstoff",
+                  "Vorgeschriebener Typ oder geforderte Eigenschaften und vorhandene Unterlagen"
+                ],
+                [
+                  "Menge",
+                  "Bekannte Wunschmenge, vorgesehener Versuch und erwarteter Folgebedarf"
+                ],
+                [
+                  "Bewertung",
+                  "Maß-, Werkstoff- oder Funktionsprüfungen, Methoden und Bedingungen"
+                ],
+                [
+                  "Einbau",
+                  "Gegenbauteile, Montage, Medien und Betriebsablauf"
+                ],
+                [
+                  "Verantwortung",
+                  "Bewertende und freigebende Stelle sowie benötigte Unterlagen"
+                ],
+                [
+                  "Vorbereitung und Lieferung",
+                  "Werkzeugstatus, Zielort, Verpackung und kaufmännische Anforderungen"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Vorbereitung vereinbaren",
-            "body": "Verfügbarkeit, Werkzeug, Kosten und Termin hängen vom Projekt ab und werden nach der technischen Bewertung besprochen."
+            "heading": "Vereinbaren, was das Muster abbildet",
+            "body": "Besprechen Sie Werkstoff, Geometrie, Vorbereitungsweg und Abweichungen von der vorgesehenen Serie. Bei einem vorhandenen 3D-Druckmodell benennen Sie Polymer, Verfahren und Bewertungszweck. Halten Sie Modell- oder Passungsbefunde getrennt von Prüfungen an der vorgesehenen Mischung und am geformten Bauteil.",
+            "links": [
+              {
+                "url": "/capabilities/rubber-molding",
+                "label": "Den Formgebungsweg prüfen"
+              },
+              {
+                "url": "/materials",
+                "label": "Werkstoffanforderungen vorbereiten"
+              }
+            ]
+          },
+          {
+            "heading": "Die Musterabnahme dokumentieren",
+            "body": "Vereinbaren Sie den Versuch vorab mit einer Unterlage wie dieser und halten Sie danach die Entscheidung fest.",
+            "table": {
+              "caption": "Musterbewertungs- und Abnahmeprotokoll",
+              "columns": [
+                "Prüfpunkt",
+                "Vor dem Versuch festhalten",
+                "Nach dem Versuch festhalten"
+              ],
+              "rows": [
+                [
+                  "Identität",
+                  "Geforderte Zeichnung, Werkstoff- und Vorbereitungsgrundlage",
+                  "Tatsächliche Muster-ID, Revision, Typ, Charge und Verfahren"
+                ],
+                [
+                  "Maße",
+                  "Kritische Merkmale, Grenzen und Prüfverfahren",
+                  "Ergebnisse, Musterzahl und Beobachtungen"
+                ],
+                [
+                  "Werkstoff",
+                  "Geforderte Eigenschaften, Methoden und Konditionierung",
+                  "Berichtsreferenz und Messergebnisse"
+                ],
+                [
+                  "Funktion",
+                  "Einbau, Einsatz und Abnahmekriterien",
+                  "Versuchsbedingungen und Funktionsbeobachtungen"
+                ],
+                [
+                  "Entscheidung",
+                  "Prüfende, freigebende Stelle und Freigabeumfang",
+                  "Akzeptierter Umfang, offene Maßnahmen und Entscheidungsdatum"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/testing",
+                "label": "Musterprüfungen vereinbaren"
+              },
+              {
+                "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+                "label": "Kundenseitige Freigabeunterlagen vorbereiten"
+              }
+            ]
+          },
+          {
+            "heading": "Den nächsten Lieferschritt bestätigen",
+            "body": "Musterverfügbarkeit, Werkzeuge, Kosten und Termin werden nach der Prüfung projektbezogen vereinbart. Halten Sie Bewertung und Serienabweichungen bei der Freigabe. Bestätigen Sie für Folgeaufträge Spezifikation, Menge, Chargenunterlagen und Änderungsanforderungen.",
+            "links": [
+              {
+                "url": "/quality",
+                "label": "Qualitätsunterlagen für Folgeaufträge"
+              },
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Chargenrückverfolgung prüfen"
+              },
+              {
+                "url": "/contact",
+                "label": "Muster- und Angebotsumfang besprechen"
+              }
+            ]
           }
         ],
         "cta": "Musteranforderungen senden",

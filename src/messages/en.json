@@ -2297,21 +2297,112 @@
       "RQ-PG-002": {
         "label": "About RubberQ",
         "title": "Precision Rubber Manufacturing Since 1995 | RubberQ",
-        "description": "RubberQ was established in Fuzhou in 1995 as a Sino-Japanese joint venture. Our work connects Japanese formulation support with compound preparation.",
+        "description": "Meet RubberQ, a Sino-Japanese rubber manufacturer established in Fuzhou in 1995. Review formulation, manufacturing and documentation for your component.",
         "h1": "Precision Rubber Manufacturing Since 1995",
         "intro": "RubberQ was established in Fuzhou in 1995 as a Sino-Japanese joint venture. Our work connects Japanese formulation support with compound preparation, precision molding and in-house testing in China.",
         "sections": [
           {
-            "heading": "A practical approach to material development",
-            "body": "A rubber component has to work in its assembly, its environment and its production process. We start by understanding those requirements and translate them into a compound and manufacturing review."
+            "heading": "Material decisions connected to manufacturing",
+            "body": "Japanese formulation support works with our compound preparation, molding and in-house testing in China. We review the material, part geometry and manufacturing route together, starting with the conditions the component needs to meet."
           },
           {
-            "heading": "Two facilities, a connected process",
-            "body": "Our two Fuzhou facilities cover approximately 20,000 square metres. Mixing, molding, inspection and production records support project development and repeat manufacturing."
+            "heading": "RubberQ at a glance",
+            "body": "These company details provide a starting point for supplier evaluation.",
+            "table": {
+              "caption": "RubberQ company and manufacturing information",
+              "columns": [
+                "Item",
+                "Company information"
+              ],
+              "rows": [
+                [
+                  "Established",
+                  "1995, as a Sino-Japanese joint venture"
+                ],
+                [
+                  "Location",
+                  "Fuzhou, China"
+                ],
+                [
+                  "Facilities",
+                  "Two facilities covering approximately 20,000 square metres"
+                ],
+                [
+                  "Manufacturing",
+                  "Compound development, mixing, molding and vulcanization"
+                ],
+                [
+                  "Evaluation and records",
+                  "In-house testing and ERP production traceability"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Accountability through production",
-            "body": "ERP records help connect material batches, production steps and inspection results. For your project, we can discuss the traceability and documentation required for supplier evaluation."
+            "heading": "From an application question to an agreed part",
+            "body": "Bring the drawing, reference part or material specification, together with the media, temperature, movement and quantity. Define the candidate compound and sample evaluation before repeat supply. Finished components, compound supply and FFKM replacement requests each need their own agreed scope.",
+            "links": [
+              {
+                "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
+                "label": "Prepare a compound-development request"
+              },
+              {
+                "url": "/products/custom",
+                "label": "Custom component projects"
+              },
+              {
+                "url": "/compounds",
+                "label": "Compound supply review"
+              },
+              {
+                "url": "/products/ffkm-replacement-seals",
+                "label": "FFKM replacement assessment"
+              }
+            ]
+          },
+          {
+            "heading": "Explore the requirements for your equipment",
+            "body": "General industrial custom components connect the part drawing to a manufacturing discussion. For the following equipment sectors, review the actual component duty and approval needs with the engineering team.",
+            "links": [
+              {
+                "url": "/industries/semiconductor",
+                "label": "Semiconductor equipment"
+              },
+              {
+                "url": "/industries/liquid-cooling-energy-storage",
+                "label": "Liquid cooling and energy storage"
+              },
+              {
+                "url": "/industries/ev-energy-storage",
+                "label": "EV thermal management"
+              },
+              {
+                "url": "/industries/humanoid-robotics",
+                "label": "Humanoid robotics"
+              },
+              {
+                "url": "/industries/industrial-equipment",
+                "label": "General industrial custom components"
+              }
+            ]
+          },
+          {
+            "heading": "Prepare a supplier evaluation",
+            "body": "RubberQ holds IATF 16949:2016, ISO 9001:2015 and ISO 14001:2015 certifications. Request current certificates and the applicable scope for your review. Agree the factory information, inspection records and traceability documents needed for your component, alongside the sample and approval plan.",
+            "links": [
+              {
+                "url": "/factory",
+                "label": "Review the manufacturing route"
+              },
+              {
+                "url": "/quality",
+                "label": "Quality documents and traceability"
+              },
+              {
+                "url": "/contact",
+                "label": "Discuss your supplier requirements"
+              }
+            ]
           }
         ],
         "cta": "Discuss Your Project",
@@ -2320,21 +2411,128 @@
       "RQ-PG-003": {
         "label": "Products",
         "title": "Custom Rubber Parts for Industrial Assemblies | RubberQ",
-        "description": "Find a component route for your drawing or application: O-rings and seals, gaskets, bellows, diaphragms, bonded parts and other precision molded components.",
+        "description": "Find a rubber component route by drawing and function: seals, gaskets, bellows, diaphragms, bonded parts and custom shapes. Prepare a focused quotation request.",
         "h1": "Custom Rubber Parts for Industrial Assemblies",
         "intro": "Find a component route for your drawing or application: O-rings and seals, gaskets, bellows, diaphragms, bonded parts and other precision molded components. Share material, quantity and operating requirements for an engineering review.",
         "sections": [
           {
-            "heading": "O-rings and sealing components",
-            "body": "Review cross-section, groove, squeeze and service medium alongside the material. Standard-size references and custom geometries need an agreed inspection basis."
+            "heading": "Choose the component route",
+            "body": "Start with the part’s function and drawing. The routes below organize the geometry, material and inspection questions for an engineering quotation. Include the current revision and identify the mating parts or assembly where the component works."
           },
           {
-            "heading": "Gaskets and flexible parts",
-            "body": "For gaskets, bellows and diaphragms, the clamping arrangement, movement and assembly interfaces matter as much as the outline drawing."
+            "heading": "Match the structure to the review",
+            "body": "Select the relevant component page for its detailed project inputs.",
+            "table": {
+              "caption": "Component routes and the information to prepare",
+              "columns": [
+                "Component or request",
+                "Geometry and duty",
+                "Information to prepare"
+              ],
+              "rows": [
+                [
+                  "O-rings and seals",
+                  "Groove and mating interface",
+                  "Size reference, medium, temperature and pressure"
+                ],
+                [
+                  "Gaskets",
+                  "Clamped or compressed joint",
+                  "Profile, joint gap, stops and assembled acceptance"
+                ],
+                [
+                  "Bellows",
+                  "Flexible protection with movement",
+                  "Full travel, fixing points, envelope and exposure"
+                ],
+                [
+                  "Diaphragms",
+                  "Flexible working membrane",
+                  "Clamping, travel, pressure difference and function"
+                ],
+                [
+                  "Rubber-to-metal parts",
+                  "Rubber and rigid insert",
+                  "Metal, bond interface, load and inspection"
+                ],
+                [
+                  "Custom molded parts",
+                  "Drawing-specific shape",
+                  "Critical features, tooling, material and quantity"
+                ],
+                [
+                  "FFKM replacement review",
+                  "Existing seal reference",
+                  "Original specification, service history and approval plan"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "O-rings and seals"
+              },
+              {
+                "url": "/products/gaskets",
+                "label": "Gaskets"
+              },
+              {
+                "url": "/products/bellows",
+                "label": "Bellows"
+              },
+              {
+                "url": "/products/diaphragms",
+                "label": "Diaphragms"
+              },
+              {
+                "url": "/products/rubber-to-metal-bonded-parts",
+                "label": "Rubber-to-metal parts"
+              },
+              {
+                "url": "/products/custom",
+                "label": "Custom molded parts"
+              },
+              {
+                "url": "/products/ffkm-replacement-seals",
+                "label": "FFKM replacement review"
+              }
+            ]
           },
           {
-            "heading": "Molded and bonded components",
-            "body": "Custom shapes and rubber-to-metal parts require attention to tooling, parting lines, inserts, surface preparation and inspection access."
+            "heading": "Define the object of supply",
+            "body": "Finished components need a drawing, material and acceptance basis. Compound supply needs the requested material form and processing conditions. For an existing part, identify whether you need a manufacturing quotation, a material change or a replacement assessment so the review follows the right route.",
+            "links": [
+              {
+                "url": "/materials",
+                "label": "Review material requirements"
+              },
+              {
+                "url": "/compounds",
+                "label": "Discuss compound supply"
+              }
+            ]
+          },
+          {
+            "heading": "Prepare one clear record for each part",
+            "body": "Include part number, revision, material, sample and order quantities, service conditions and the inspection requirements. For several parts, list these details separately. Agree samples and approval before repeat supply, keeping the specification and lot records linked.",
+            "links": [
+              {
+                "url": "/batch-rfq",
+                "label": "Send a multiple-part quotation request"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Prepare sample requirements"
+              },
+              {
+                "url": "/quality",
+                "label": "Quality records for repeat orders"
+              },
+              {
+                "url": "/blog/iso-3601-3-visual-inspection-standards-for-o-rings-what-is-acceptable",
+                "label": "Specify O-ring visual acceptance"
+              }
+            ]
           }
         ],
         "cta": "Send Your Drawing",
@@ -3124,21 +3322,128 @@
       "RQ-PG-011": {
         "label": "Materials",
         "title": "Rubber Materials for Precision Components | RubberQ",
-        "description": "Compare elastomer families against the medium, temperature, movement and durability requirements of your part. Material selection starts with the.",
+        "description": "Choose a rubber material review by compound, exposure and component function. Compare candidate families, test records and the required form of supply.",
         "h1": "Rubber Materials for Precision Components",
         "intro": "Compare elastomer families against the medium, temperature, movement and durability requirements of your part. Material selection starts with the application and ends with an agreed compound and validation plan.",
         "sections": [
           {
-            "heading": "Begin with the operating conditions",
-            "body": "List every contacting fluid, its concentration, cleaning exposure, normal and peak temperatures, pressure and motion. Include storage and installation requirements."
+            "heading": "Specify the compound and the service",
+            "body": "A polymer family is the starting point for a material discussion. A purchasing specification also needs the compound grade, physical requirements and evaluation conditions. Identify whether you need finished components or compounded material, then describe the part function and the full operating sequence."
           },
           {
-            "heading": "Compare candidate families",
-            "body": "Explore FFKM, FKM, EPDM, HNBR, NBR, silicone and other available families. Similar hardness does not mean similar chemical resistance or sealing behaviour."
+            "heading": "Find the relevant material discussion",
+            "body": "Use these routes to prepare questions about specific grades and conditions.",
+            "table": {
+              "caption": "Material routes and information for comparison",
+              "columns": [
+                "Candidate family or form",
+                "Information to prepare"
+              ],
+              "rows": [
+                [
+                  "FKM and FFKM",
+                  "Complete media, temperature, seal geometry and any vacuum or contamination requirements"
+                ],
+                [
+                  "EPDM",
+                  "Actual fluid or steam conditions, cleaning sequence, environment and assembly"
+                ],
+                [
+                  "HNBR and NBR",
+                  "Actual oil or mixture, mechanical duty and cold-condition requirements"
+                ],
+                [
+                  "Silicone and LSR",
+                  "Material form, molding route, flexibility, contact conditions and surface acceptance"
+                ],
+                [
+                  "ACM and AEM",
+                  "Specified oil, thermal history, mechanical requirements and available grade data"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/materials/ffkm",
+                "label": "FFKM requirements"
+              },
+              {
+                "url": "/materials/fkm",
+                "label": "FKM requirements"
+              },
+              {
+                "url": "/materials/epdm",
+                "label": "EPDM requirements"
+              },
+              {
+                "url": "/materials/hnbr",
+                "label": "HNBR requirements"
+              },
+              {
+                "url": "/materials/nbr",
+                "label": "NBR requirements"
+              },
+              {
+                "url": "/materials/silicone",
+                "label": "Silicone requirements"
+              },
+              {
+                "url": "/materials/lsr",
+                "label": "LSR material form"
+              },
+              {
+                "url": "/materials/acm",
+                "label": "ACM material review"
+              },
+              {
+                "url": "/materials/aem",
+                "label": "AEM material review"
+              }
+            ]
           },
           {
-            "heading": "Define the compound and acceptance criteria",
-            "body": "Use the polymer family to narrow the options, then specify hardness, physical properties, conditioning and test methods for the candidate compound."
+            "heading": "Compare the property the component needs",
+            "body": "For tear or repeated-load concerns, identify the geometry, notch condition, load path and required test method. For prolonged cold exposure, include hold time, strain state and the motion to evaluate. Keep low-temperature, tensile and assembled-function results with their methods and specimens.",
+            "links": [
+              {
+                "url": "/blog/low-temperature-retraction-tr-10-predicting-seal-failure-in-arctic-conditions",
+                "label": "Read low-temperature retraction evidence"
+              },
+              {
+                "url": "/blog/tensile-stress-strain-curves-what-a-mechanical-engineer-needs-to-know-about-rubb",
+                "label": "Read tensile reports with the specimen conditions"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Prepare the media comparison"
+              }
+            ]
+          },
+          {
+            "heading": "Clarify other material and environmental references",
+            "body": "If the drawing names NR, CR, butyl or another polymer, send the exact grade, duty and requested supply form for review. For recycled-content or degradation information, identify the material, calculation basis or test method and conditions. Evaluate the component’s service requirements alongside that information."
+          },
+          {
+            "heading": "Define the acceptance and supply basis",
+            "body": "Agree the grade, drawing, hardness scale, relevant properties and inspection conditions for the proposed compound. Keep customer-specific requirements with the approval record. For compound supply, identify delivery form and processing conditions; for finished parts, include geometry, quantity and assembly evaluation.",
+            "links": [
+              {
+                "url": "/resources/rubber-hardness-guide",
+                "label": "Specify hardness measurements"
+              },
+              {
+                "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+                "label": "Prepare a complete material callout"
+              },
+              {
+                "url": "/compounds",
+                "label": "Discuss compounded-material supply"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Discuss material and part samples"
+              }
+            ]
           }
         ],
         "cta": "Discuss Material Selection",
@@ -4797,21 +5102,106 @@
       "RQ-PG-028": {
         "label": "Factory",
         "title": "Inside RubberQ Manufacturing | RubberQ",
-        "description": "Explore our manufacturing base in Fuzhou, China. Two facilities covering approximately 20,000 square metres connect compound preparation, molding.",
+        "description": "Review RubberQ manufacturing in Fuzhou through the process, inspection and records for your part. Plan a factory evaluation, demand review and delivery details.",
         "h1": "Inside RubberQ Manufacturing",
         "intro": "Explore our manufacturing base in Fuzhou, China. Two facilities covering approximately 20,000 square metres connect compound preparation, molding, inspection and production records.",
         "sections": [
           {
-            "heading": "Compound preparation",
-            "body": "Discuss how material identification, weighing, mixing and batch records support a repeatable preparation route."
+            "heading": "Follow the route for your component",
+            "body": "Our Fuzhou manufacturing base connects compound preparation, molding, vulcanization and in-house testing. For a supplier review, identify the part and the stages that matter to its drawing, material and approval requirements."
           },
           {
-            "heading": "Molding and inspection",
-            "body": "Part geometry and material requirements guide the tooling and manufacturing review. Inspection requirements are agreed around the component and its critical features."
+            "heading": "Agree the process information to review",
+            "body": "Use your part requirements to define which operations and records should be discussed.",
+            "table": {
+              "caption": "Manufacturing review by process stage",
+              "columns": [
+                "Stage",
+                "Questions and records for the review"
+              ],
+              "rows": [
+                [
+                  "Material preparation",
+                  "Compound specification, identification and batch requirements"
+                ],
+                [
+                  "Mixing",
+                  "Mixing route and the relevant preparation and batch records"
+                ],
+                [
+                  "Molding and vulcanization",
+                  "Tooling, drawing revision, process route and production records"
+                ],
+                [
+                  "Finishing",
+                  "Parting lines, trimming and agreed surface acceptance"
+                ],
+                [
+                  "Inspection",
+                  "Critical features, methods, sample identity and result records"
+                ],
+                [
+                  "Release and packing",
+                  "Approval basis, lot identification, packaging and shipment records"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/compounding",
+                "label": "Compound preparation and development"
+              },
+              {
+                "url": "/capabilities/rubber-molding",
+                "label": "Rubber molding review"
+              },
+              {
+                "url": "/testing",
+                "label": "Inspection and test requirements"
+              }
+            ]
           },
           {
-            "heading": "See the process for your project",
-            "body": "For supplier evaluation, request relevant factory information, process documentation and a discussion of the production route for your part."
+            "heading": "Plan a focused factory evaluation",
+            "body": "Agree the visit or document-review objective, product scope, participants and confidentiality arrangements. Define the identification, segregation, handling and inspection points you want to observe. If reviewing improvement activity, request the relevant change records, validation and follow-up rather than relying on a general site description.",
+            "links": [
+              {
+                "url": "/quality",
+                "label": "Quality and change records"
+              },
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Read batch traceability records"
+              }
+            ]
+          },
+          {
+            "heading": "Review demand against the manufacturing route",
+            "body": "Our two facilities cover approximately 20,000 square metres. For a demand or scale-up discussion, provide part numbers, tooling status, sample and order quantities, demand cadence and required inspection. Review the critical operations and commercial schedule for that project.",
+            "links": [
+              {
+                "url": "/batch-rfq",
+                "label": "Send a multiple-part requirement"
+              }
+            ]
+          },
+          {
+            "heading": "Define packing and delivery with the order",
+            "body": "Identify the destination, delivery terms, quantities, packaging, lot labels and required documents. Agree transport arrangements and any handling or environmental requirements for the shipment. Keep the confirmed order details with the approved part specification.",
+            "links": [
+              {
+                "url": "/products",
+                "label": "Find the component route"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Discuss sample requirements"
+              },
+              {
+                "url": "/contact",
+                "label": "Arrange a factory or delivery discussion"
+              }
+            ]
           }
         ],
         "cta": "Discuss a Factory Evaluation",
@@ -6086,21 +6476,135 @@
       "RQ-PG-045": {
         "label": "Sample Request",
         "title": "Request Rubber Component Samples | RubberQ",
-        "description": "Share the part, material and evaluation requirements for your sample request. We will review what needs to be defined before samples can be prepared.",
+        "description": "Request rubber samples with drawing revision, material and evaluation criteria. Agree quantities, approval records and preparation terms for your project.",
         "h1": "Request Rubber Component Samples",
         "intro": "Share the part, material and evaluation requirements for your sample request. We will review what needs to be defined before samples can be prepared.",
         "sections": [
           {
-            "heading": "Identify the sample",
-            "body": "Provide the drawing, existing designation or reference part details, required quantity and material requirements."
+            "heading": "Start with the purpose of the sample",
+            "body": "Identify whether you need a material specimen or a complete component, and what the sample should demonstrate. Provide the drawing or reference part and describe the dimensional, material or assembly question. This sets the basis for reviewing sample preparation."
           },
           {
-            "heading": "Describe the evaluation",
-            "body": "Tell us how the sample will be checked, the assembly conditions and the acceptance criteria."
+            "heading": "Prepare the sample brief",
+            "body": "Include what is known and identify the information still to be agreed. If the quantity is unknown, leave it blank and describe the evaluation objective.",
+            "table": {
+              "caption": "Sample request information",
+              "columns": [
+                "Input",
+                "Information to provide"
+              ],
+              "rows": [
+                [
+                  "Part identity",
+                  "Part number, drawing revision, reference and geometry"
+                ],
+                [
+                  "Material",
+                  "Specified grade or required properties and available material records"
+                ],
+                [
+                  "Quantity",
+                  "Requested quantity if known, intended trial and expected later demand"
+                ],
+                [
+                  "Evaluation",
+                  "Dimensional, material or functional checks, methods and conditions"
+                ],
+                [
+                  "Assembly",
+                  "Mating parts, installation, media and operating sequence"
+                ],
+                [
+                  "Responsibility",
+                  "Who evaluates, who approves and the required records"
+                ],
+                [
+                  "Preparation and delivery",
+                  "Tooling status, destination, packaging and commercial requirements"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Agree the preparation route",
-            "body": "Sample availability, tooling, charges and timing depend on the project and are discussed after the technical review."
+            "heading": "Agree what the sample represents",
+            "body": "Discuss the material, geometry, preparation route and any differences from intended production. If you already have a 3D-printed model, identify its polymer and process and the purpose of its review. Keep model or fit-review findings separate from tests on the intended compound and molded component.",
+            "links": [
+              {
+                "url": "/capabilities/rubber-molding",
+                "label": "Review the molding route"
+              },
+              {
+                "url": "/materials",
+                "label": "Prepare material requirements"
+              }
+            ]
+          },
+          {
+            "heading": "Build the sample acceptance record",
+            "body": "Use a record like the one below to agree the trial before testing and retain the decision afterward.",
+            "table": {
+              "caption": "Sample evaluation and acceptance record",
+              "columns": [
+                "Check",
+                "Record before the trial",
+                "Record after the trial"
+              ],
+              "rows": [
+                [
+                  "Identity",
+                  "Required drawing, material and preparation basis",
+                  "Actual sample ID, revision, grade, lot and process"
+                ],
+                [
+                  "Dimensions",
+                  "Critical features, limits and inspection method",
+                  "Results, sample count and observations"
+                ],
+                [
+                  "Material",
+                  "Required properties, methods and conditioning",
+                  "Report reference and measured results"
+                ],
+                [
+                  "Function",
+                  "Assembly, duty and acceptance criteria",
+                  "Trial conditions and functional observations"
+                ],
+                [
+                  "Decision",
+                  "Reviewer, approver and approval scope",
+                  "Accepted scope, open actions and decision date"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/testing",
+                "label": "Agree sample test requirements"
+              },
+              {
+                "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+                "label": "Prepare customer approval documents"
+              }
+            ]
+          },
+          {
+            "heading": "Confirm the next supply step",
+            "body": "Sample availability, tooling, charges and timing are agreed for the project after review. Keep the evaluation record and any differences from production with the approval. For repeat orders, confirm the approved specification, quantity, lot records and change requirements.",
+            "links": [
+              {
+                "url": "/quality",
+                "label": "Quality records for repeat supply"
+              },
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Review batch traceability records"
+              },
+              {
+                "url": "/contact",
+                "label": "Discuss the sample and quotation scope"
+              }
+            ]
           }
         ],
         "cta": "Submit Sample Requirements",
