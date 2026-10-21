@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Read-only local checks for blog discovery, five-locale search and legal-page presentation."""
-import argparse, concurrent.futures, hashlib, importlib.util, json
+import argparse, concurrent.futures, hashlib, importlib.util, json, copy
 from pathlib import Path
 from urllib.parse import quote, urlencode
 from urllib.request import urlopen
@@ -51,13 +51,22 @@ def metadata_check(item):
   'schema':any(x.get('@type')==('SearchResultsPage' if name=='search' else 'WebPage') and x.get('url')==canonical and x.get('inLanguage')==loc for x in doc.scripts)}
  if name=='search':checks['noindex']=any(x.get('content')=='noindex,follow' for x in attrs(doc,'meta','name','robots'));checks['form_label']=any(a.get('id')=='rq-site-query' and a.get('name')=='q' and a.get('maxlength')=='160' for t,a in doc.tags) and 'rq-site-query' in doc.label_ids
  else:
-  checks['legal_source_body_retained']=m[name+'Page']==legal_baseline[loc][name+'Page']
+  checks['legal_source_matches_targeted_revision']=m[name+'Page']==legal_expected[loc][name+'Page']
   checks['legal_body_strings_rendered']=all(norm(value) in norm(' '.join(doc.text)) for value in strings(m[name+'Page']))
   checks['localized_title']=loc=='en' or title!='Terms of Service | RubberQ'
  return {'path':local(loc,path),'checks':checks,'pass':all(checks.values()),'html_sha256':hashlib.sha256(html.encode()).hexdigest()}
 
 parser=argparse.ArgumentParser();parser.add_argument('--normal',default='http://127.0.0.1:4397');parser.add_argument('--candidate',default='http://127.0.0.1:4398');args=parser.parse_args();assert all(x.startswith('http://127.0.0.1:') for x in [args.normal,args.candidate])
 messages={loc:read(ROOT/f'src/messages/{loc}.json') for loc in ['en','de','ja','es','zh']};registry={p['url']:p for p in read(ROOT/'src/data/acquisition-pages.json')};legal_baseline=read(BASE/'evidence/legal-body-baseline.json')
+legal_expected=copy.deepcopy(legal_baseline)
+revisions=read(BASE/'evidence/legal-factual-revisions.json')['revisions'] if (BASE/'evidence/legal-factual-revisions.json').exists() else []
+for revision in revisions:
+ current=legal_expected[revision['locale']];parts=revision['field'].split('.')
+ for key in parts[:-1]:current=current[int(key)] if isinstance(current,list) else current[key]
+ key=int(parts[-1]) if isinstance(current,list) else parts[-1]
+ before=current[key] if isinstance(current,list) or key in current else None
+ assert before==revision['before'],revision['field']
+ current[key]=revision['after']
 with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:metadata=list(pool.map(metadata_check,[(l,p) for l in messages for p in ['/search','/privacy','/terms']]))
 # Traverse candidate list, whose content is an explicit local revision set, not the live CMS corpus.
 manifest=read(BASE/'content-revisions/manifest.json');expected_ids={d['article_id'] for d in manifest['drafts']};source={r['_id']:r for r in read(BASE/'evidence/article-metadata-current.json')['result']};blog=[];all_ids=[]
@@ -81,7 +90,7 @@ for page in [1,2]:
  path='/search?'+urlencode({'q':'rubber','page':page});_,_,html=get(args.candidate,path);doc=DiscoveryDocument(html);links=[h for a in doc.articles for h in a['links']];checks={'full_page':len(links)==12,'query_retained_in_pagination':all('q=rubber' in a.get('href','') for t,a in doc.tags if t=='a' and a.get('rel') in ['prev','next'])};search.append({'path':path,'links':links,'checks':checks,'pass':all(checks.values())})
 assert not set(search[-1]['links'])&set(search[-2]['links'])
 paths=['src/lib/contentDiscovery.ts','src/components/blog/BlogIndex.astro','src/layouts/BlogLayout.astro','src/pages/blog/index.astro','src/pages/en/blog/index.astro','src/pages/[locale]/search.astro','src/pages/[locale]/privacy.astro','src/pages/[locale]/terms.astro']+[f'src/messages/{loc}.json' for loc in messages]
-rows=metadata+blog+search+[normal_blog];report={'scope':'Local SSR body/function/metadata checks only. Legal source bodies retained; operational/legal assertions are separately pending, not legal approval. Candidate articles are local revisions, ordinary blog/search still read CMS.','metadata':metadata,'candidate_blog':blog,'ordinary_blog':normal_blog,'candidate_search':search,'source_sha256':{p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in paths},'summary':{'checks':len(rows),'passed':sum(r['pass'] for r in rows),'metadata_routes':len(metadata),'candidate_articles_traversed':len(all_ids),'legal_body_fields_preserved':10,'cms_writes':0,'paid_calls':0,'production_deployments':0}}
+rows=metadata+blog+search+[normal_blog];report={'scope':'Local SSR body/function/metadata checks only. Legal source compared with preserved baseline plus explicit factual revisions; not legal approval. Candidate articles are local revisions, ordinary blog/search still read CMS.','metadata':metadata,'candidate_blog':blog,'ordinary_blog':normal_blog,'candidate_search':search,'source_sha256':{p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest() for p in paths},'summary':{'checks':len(rows),'passed':sum(r['pass'] for r in rows),'metadata_routes':len(metadata),'candidate_articles_traversed':len(all_ids),'legal_body_objects_checked':10,'targeted_legal_revision_fields':len(revisions),'cms_writes':0,'paid_calls':0,'production_deployments':0}}
 (BASE/'evidence/discovery-implementation-checks.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report['summary']))
 for row in rows:
  if not row['pass']:print(row['path'],[key for key,value in row['checks'].items() if not value])

@@ -1,0 +1,11 @@
+{
+  "baseline_commit": "3aeef237adaf80d19918933d0c02db3f3088f2db",
+  "files": {
+    "src/components/CookieConsent.tsx": "2d92852508622b7300ea96c74519b2b0cc4816af2f9fcdf376b47c99ed112fa2",
+    "src/layouts/BaseLayout.astro": "d1b44f11723096d23846bb4eda3ca792786e37d58f2e026622cd544d5f397c85",
+    "src/components/acquisition/Footer.astro": "e40658bbff37d00986c06f319701ffee91f7e32ef2f6af1a8760e12b1eb286c4",
+    "src/lib/inquiryTracking.ts": "8e7276d20d863669a7b8e435d536a7ef44cf304cc5a440be481d8885048aaeeb",
+    "tools/rfq-worker-v2/rfq-v2-contract.mjs": "011edff05f79a30bf76c135c39090863ae8d2d48490234752fee1aef19f0910e"
+  },
+  "scope": "Before cookie/source and legal factual alignment; no production submission."
+}

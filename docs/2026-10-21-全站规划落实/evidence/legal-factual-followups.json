@@ -6,48 +6,60 @@
       "source_field": "src/messages/en.json:privacyPage.sections.informationCollect.content",
       "existing_english": "Fuzhou RubberQ Rubber Co., Ltd. (\"RubberQ\", \"we\", \"us\", or \"our\") collects information that you provide directly to us when you:",
       "reason_zh": "企业事实库及Organization采用Fuzhou RongQing Rubber Co., Ltd.，既有法律正文使用Fuzhou RubberQ Rubber Co., Ltd.；需按实际法定主体统一。",
-      "status": "pending_targeted_factual_review",
-      "body_changed_this_step": false
+      "status": "addressed_in_local_factual_copy_and_controls_final_review_pending",
+      "body_changed_this_step": true,
+      "resolution": "Removed the unverified English entity variant from legal copy; use the established RubberQ brand. No registration verification claim.",
+      "revision_receipt": "legal-factual-revisions.json"
     },
     {
       "id": "privacy_security_measures",
       "source_field": "src/messages/en.json:privacyPage.cards.dataSecurity.description",
       "existing_english": "Your technical drawings and proprietary designs are protected under our industrial-grade security protocols.",
       "reason_zh": "工业级安全协议的范围未由当前访问控制、附件存储与实际流程证明；需要结合RFQ链路核对。",
-      "status": "pending_targeted_factual_review",
-      "body_changed_this_step": false
+      "status": "addressed_in_local_factual_copy_and_controls_final_review_pending",
+      "body_changed_this_step": true,
+      "resolution": "Replaced unverified industrial-grade protocols with project information and pre-agreed handling wording.",
+      "revision_receipt": "legal-factual-revisions.json"
     },
     {
       "id": "privacy_customer_and_access",
       "source_field": "src/messages/en.json:privacyPage.sections.intellectualProperty.content",
       "existing_english": "As an OEM supplier for leading automotive brands, we understand the critical importance of Intellectual Property (IP). Any drawings or proprietary data uploaded to our platform are treated with strict confidentiality. Access is restricted to necessary engineering and production personnel. We are prepared to sign formal Non-Disclosure Agreements (NDAs) for your projects.",
       "reason_zh": "领先汽车品牌OEM、仅必要工程/生产人员访问等叙述超出当前事实依据；需作事实修订。",
-      "status": "pending_targeted_factual_review",
-      "body_changed_this_step": false
+      "status": "addressed_in_local_factual_copy_and_controls_final_review_pending",
+      "body_changed_this_step": true,
+      "resolution": "Removed leading-brand/OEM and universal access-control assertions; confidential files require agreed handling before submission.",
+      "revision_receipt": "legal-factual-revisions.json"
     },
     {
       "id": "privacy_contact_role",
       "source_field": "src/messages/en.json:privacyPage.contact.department",
       "existing_english": "Data Protection Office",
       "reason_zh": "当前事实来源未证明设有Data Protection Office或专职数据合规官；应核对实际联系岗位。",
-      "status": "pending_targeted_factual_review",
-      "body_changed_this_step": false
+      "status": "addressed_in_local_factual_copy_and_controls_final_review_pending",
+      "body_changed_this_step": true,
+      "resolution": "Replaced unverified specialist departments in both policies with the website/project contact.",
+      "revision_receipt": "legal-factual-revisions.json"
     },
     {
       "id": "privacy_cookie_choices",
       "source_field": "src/messages/en.json:privacyPage.sections.cookies.content",
       "existing_english": "Our website uses essential cookies to ensure site functionality and performance. We may also use analytics tools (such as Google Analytics) to understand how visitors interact with our content, which helps us improve our technical documentation and user experience.",
       "reason_zh": "正文需要与BaseLayout和CookieConsent中必要Cookie/可选分析选择及服务商实际数据流程核对。",
-      "status": "pending_targeted_factual_review",
-      "body_changed_this_step": false
+      "status": "addressed_in_local_factual_copy_and_controls_final_review_pending",
+      "body_changed_this_step": true,
+      "resolution": "Matched opt-in, footer reopening, disabling, optional session attribution and named service-provider use to implemented controls.",
+      "revision_receipt": "legal-factual-revisions.json"
     },
     {
       "id": "terms_registered_mark",
       "source_field": "src/messages/en.json:termsPage.sections.intellectualProperty.content",
       "existing_english": "All trademarks, logos, and service marks displayed on the Site are the property of RubberQ or third parties. \"RubberQ\" and the RubberQ logo are registered trademarks. The design, layout, and \"look and feel\" of the Site are protected under copyright laws.",
       "reason_zh": "当前公司事实文件未提供RubberQ注册商标证明；需要核对或移除未证实的注册断言。",
-      "status": "pending_targeted_factual_review",
-      "body_changed_this_step": false
+      "status": "addressed_in_local_factual_copy_and_controls_final_review_pending",
+      "body_changed_this_step": true,
+      "resolution": "Removed unverified registered-mark assertion; retain brand/third-party ownership wording without registration claim.",
+      "revision_receipt": "legal-factual-revisions.json"
     },
     {
       "id": "terms_crawler_language",
@@ -58,8 +70,11 @@
         "Misuse of our RFQ system or automated scraping of technical data is strictly forbidden."
       ],
       "reason_zh": "禁止自动抓取技术资料的既有表述需与正常搜索索引、AI搜索可读的目标保持一致，不能把技术可爬取视为政策已一致。",
-      "status": "pending_targeted_factual_review",
-      "body_changed_this_step": false
+      "status": "addressed_in_local_factual_copy_and_controls_final_review_pending",
+      "body_changed_this_step": true,
+      "resolution": "Permit normal indexing/linking of public pages; retain restrictions on service disruption, access bypass and RFQ misuse.",
+      "revision_receipt": "legal-factual-revisions.json"
     }
-  ]
+  ],
+  "current_scope": "Seven targeted issues addressed locally; baseline and before/after revisions preserved. Not legal compliance acceptance or production publication."
 }

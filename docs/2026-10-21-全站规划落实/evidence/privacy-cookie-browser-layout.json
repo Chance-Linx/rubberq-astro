@@ -1,0 +1,177 @@
+{
+  "scope": "Actual local browser layout: 10 legal routes at two widths and five localized cookie panels. Not whole-site mobile or legal compliance acceptance.",
+  "legalPages": [
+    {
+      "footerButton": "Cookie settings",
+      "path": "/privacy",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "footerButton": "Cookie settings",
+      "path": "/terms",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "footerButton": "Cookie-Einstellungen",
+      "path": "/de/privacy",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "footerButton": "Cookie-Einstellungen",
+      "path": "/de/terms",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "footerButton": "Cookie設定",
+      "path": "/ja/privacy",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "footerButton": "Cookie設定",
+      "path": "/ja/terms",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "footerButton": "Configurar cookies",
+      "path": "/es/privacy",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "footerButton": "Configurar cookies",
+      "path": "/es/terms",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "footerButton": "Cookie 设置",
+      "path": "/zh/privacy",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "footerButton": "Cookie 设置",
+      "path": "/zh/terms",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "footerButton": "Cookie settings",
+      "path": "/privacy",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "footerButton": "Cookie settings",
+      "path": "/terms",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "footerButton": "Cookie-Einstellungen",
+      "path": "/de/privacy",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "footerButton": "Cookie-Einstellungen",
+      "path": "/de/terms",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "footerButton": "Cookie設定",
+      "path": "/ja/privacy",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "footerButton": "Cookie設定",
+      "path": "/ja/terms",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "footerButton": "Configurar cookies",
+      "path": "/es/privacy",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "footerButton": "Configurar cookies",
+      "path": "/es/terms",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "footerButton": "Cookie 设置",
+      "path": "/zh/privacy",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "footerButton": "Cookie 设置",
+      "path": "/zh/terms",
+      "scrollWidth": 768,
+      "width": 768
+    }
+  ],
+  "cookiePanels": [
+    {
+      "checked": false,
+      "pageWidth": 375,
+      "panelClientWidth": 375,
+      "panelHeight": 328,
+      "panelScrollWidth": 375,
+      "panelWidth": 375,
+      "path": "/privacy",
+      "width": 375
+    },
+    {
+      "checked": false,
+      "pageWidth": 375,
+      "panelClientWidth": 375,
+      "panelHeight": 340.5,
+      "panelScrollWidth": 375,
+      "panelWidth": 375,
+      "path": "/de/privacy",
+      "width": 375
+    },
+    {
+      "checked": false,
+      "pageWidth": 375,
+      "panelClientWidth": 375,
+      "panelHeight": 321,
+      "panelScrollWidth": 375,
+      "panelWidth": 375,
+      "path": "/ja/privacy",
+      "width": 375
+    },
+    {
+      "checked": false,
+      "pageWidth": 375,
+      "panelClientWidth": 375,
+      "panelHeight": 328,
+      "panelScrollWidth": 375,
+      "panelWidth": 375,
+      "path": "/es/privacy",
+      "width": 375
+    },
+    {
+      "checked": false,
+      "pageWidth": 375,
+      "panelClientWidth": 375,
+      "panelHeight": 301,
+      "panelScrollWidth": 375,
+      "panelWidth": 375,
+      "path": "/zh/privacy",
+      "width": 375
+    }
+  ]
+}

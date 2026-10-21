@@ -29,6 +29,9 @@ export type SourceTrackingPayload = {
   utmContent: string;
   firstTouchUrl: string;
   firstTouchReferrer: string;
+  sourcePage: string;
+  cta: string;
+  attributionMode: 'consented_session' | 'submission_context';
   submittedAt: string;
 };
 
@@ -55,7 +58,8 @@ function getStoredFirstTouch(key: string): string {
     return '';
   }
 
-  return window.sessionStorage.getItem(key) ?? '';
+  try { return window.sessionStorage.getItem(key) ?? ''; }
+  catch { return ''; }
 }
 
 function setStoredFirstTouch(key: string, value: string): void {
@@ -63,9 +67,24 @@ function setStoredFirstTouch(key: string, value: string): void {
     return;
   }
 
-  if (!window.sessionStorage.getItem(key) && value) {
-    window.sessionStorage.setItem(key, value);
-  }
+  try {
+    if (!window.sessionStorage.getItem(key) && value) window.sessionStorage.setItem(key, value);
+  } catch { /* A storage restriction must not prevent an inquiry. */ }
+}
+
+function analyticsAllowed(): boolean {
+  if (typeof window === 'undefined') return false;
+  try {
+    const stored = window.localStorage.getItem('rubberq-cookie-preferences');
+    if (stored) return JSON.parse(stored)?.analytics === true;
+    return window.localStorage.getItem('rubberq-cookie-consent') === 'accepted';
+  } catch { return false; }
+}
+
+function localSourcePath(raw: string | null, origin: string): string {
+  if (!raw || !raw.startsWith('/') || raw.startsWith('//') || /[\\\u0000-\u001f]/.test(raw)) return '';
+  try { const url = new URL(raw, origin); return url.origin === origin ? url.pathname : ''; }
+  catch { return ''; }
 }
 
 export function buildFieldPriorityPayload(required: FieldMap, optional: FieldMap): FieldPriorityPayload {
@@ -84,11 +103,16 @@ export function collectSourceTracking(pageUrl: string): SourceTrackingPayload {
   const url = new URL(pageUrl);
   const referrer = typeof document !== 'undefined' ? document.referrer : '';
 
-  setStoredFirstTouch(FIRST_TOUCH_URL_KEY, pageUrl);
-  setStoredFirstTouch(FIRST_TOUCH_REFERRER_KEY, referrer);
-
-  const firstTouchUrl = getStoredFirstTouch(FIRST_TOUCH_URL_KEY) || pageUrl;
-  const firstTouchReferrer = getStoredFirstTouch(FIRST_TOUCH_REFERRER_KEY) || referrer;
+  const consented = analyticsAllowed();
+  if (consented) {
+    setStoredFirstTouch(FIRST_TOUCH_URL_KEY, pageUrl);
+    setStoredFirstTouch(FIRST_TOUCH_REFERRER_KEY, referrer);
+  }
+  const firstTouchUrl = consented ? getStoredFirstTouch(FIRST_TOUCH_URL_KEY) : '';
+  const firstTouchReferrer = consented ? getStoredFirstTouch(FIRST_TOUCH_REFERRER_KEY) : '';
+  let referralPage = '';
+  try { const from = new URL(referrer); if (from.origin === url.origin) referralPage = from.pathname; }
+  catch { /* Direct visits have no referring page. */ }
 
   return {
     pageUrl,
@@ -101,6 +125,9 @@ export function collectSourceTracking(pageUrl: string): SourceTrackingPayload {
     utmContent: url.searchParams.get('utm_content') ?? '',
     firstTouchUrl,
     firstTouchReferrer,
+    sourcePage: localSourcePath(url.searchParams.get('source'), url.origin) || referralPage,
+    cta: (url.searchParams.get('cta') || '').replace(/[^a-zA-Z0-9_-]/g, '').slice(0, 80),
+    attributionMode: consented && firstTouchUrl ? 'consented_session' : 'submission_context',
     submittedAt: new Date().toISOString(),
   };
 }

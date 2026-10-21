@@ -958,11 +958,11 @@
   },
   "termsPage": {
     "title": "服务条款",
-    "lastUpdated": "最后更新：2026年1月26日",
+    "lastUpdated": "最后更新：2026年10月21日",
     "cards": {
       "legalBinding": {
         "title": "法律约束",
-        "description": "访问本网站即表示您同意遵守我们的使用条款和工业标准。"
+        "description": "本条款说明网站的使用条件。报价与订单通过相关商业文件处理。"
       },
       "technicalDisclaimer": {
         "title": "技术免责声明",
@@ -972,7 +972,7 @@
     "sections": {
       "acceptance": {
         "title": "1. 条款接受",
-        "content": "访问和使用福州瑞博橡胶有限公司（以下简称「本网站」）的网站，即表示您已阅读、理解并同意受这些服务条款的约束。如果您不同意，请停止使用本网站。"
+        "content": "访问和使用RubberQ网站（“本网站”），表示您确认已阅读、理解并同意遵守本服务条款。如不同意，请停止使用本网站。"
       },
       "siteContent": {
         "title": "2. 网站内容使用",
@@ -980,12 +980,12 @@
         "items": [
           "您可以下载材料用于贵公司对我们服务的评估。",
           "未经授权的商业分发或复制是被禁止的。",
-          "滥用我们的询价系统或自动抓取技术数据是严格禁止的。"
+          "公开页面可供搜索服务建立索引和链接。请勿干扰网站运行、绕过访问控制或滥用RFQ系统。"
         ]
       },
       "intellectualProperty": {
         "title": "3. 知识产权",
-        "content": "本网站上显示的所有商标、标志和服务标记均为RubberQ或第三方的财产。「RubberQ」和RubberQ标志是注册商标。本网站的设计、布局和「外观和感觉」受版权法保护。"
+        "content": "RubberQ品牌标识和网站资料用于识别我们的业务与服务。第三方名称和商标归各自权利人所有。允许为评估目的下载资料，不代表转让所有权或复制权。"
       },
       "engineeringDisclaimer": {
         "title": "4. 工程免责声明",
@@ -1007,22 +1007,22 @@
     "contact": {
       "title": "有疑问？",
       "description": "如有关于我们条款的法律咨询，请联系：",
-      "department": "法务部",
-      "company": "福州瑞博橡胶有限公司",
+      "department": "网站与项目咨询",
+      "company": "RubberQ",
       "email": "邮箱：contact@rubberq.com"
     }
   },
   "privacyPage": {
     "title": "隐私政策",
-    "lastUpdated": "最后更新：2026年1月26日",
+    "lastUpdated": "最后更新：2026年10月21日",
     "cards": {
       "dataSecurity": {
-        "title": "数据安全",
-        "description": "您的技术图纸和专有设计受到我们工业级安全协议的保护。"
+        "title": "项目信息",
+        "description": "请提供图纸、材料或制造评估所需的信息；特殊的数据处理要求可事先与我们商定。"
       },
       "zeroSharing": {
-        "title": "零共享",
-        "description": "我们绝不会将您的商业联系信息或项目详情出售给第三方营销公司。"
+        "title": "项目沟通",
+        "description": "联系信息和技术资料用于评估询盘、准备报价和开展项目沟通。"
       },
       "transparency": {
         "title": "透明度",
@@ -1032,14 +1032,14 @@
     "sections": {
       "informationCollect": {
         "title": "1. 我们收集的信息",
-        "content": "福州瑞博橡胶有限公司（以下简称「RubberQ」、「我们」）在您进行以下操作时收集您直接提供给我们的信息：",
+        "content": "RubberQ（“我们”）会接收您在以下情况下主动提供的信息：",
         "items": [
           "提交询价（RFQ）或联系表单。",
           "上传技术图纸、规格或3D模型。",
           "请求材料样品或技术咨询。",
           "与我们的工程和销售团队沟通。"
         ],
-        "additionalInfo": "这些信息可能包括您的姓名、公司名称、电子邮件地址、电话号码、国家和具体项目需求。"
+        "additionalInfo": "提交内容可能包括姓名、业务联系信息、公司、国家、项目要求、技术文件或链接，以及与询盘相关的页面和来源信息。"
       },
       "howWeUse": {
         "title": "2. 信息使用方式",
@@ -1065,26 +1065,35 @@
       },
       "intellectualProperty": {
         "title": "3. 知识产权保护",
-        "content": "作为领先汽车品牌的OEM供应商，我们深知知识产权（IP）的重要性。上传到我们平台的任何图纸或专有数据都将被严格保密处理。访问权限仅限于必要的工程和生产人员。我们随时准备为您的项目签署正式的保密协议（NDA）。"
+        "content": "请仅发送您有权分享的图纸和信息。涉及NDA、访问限制或特定传输方式的文件，请在提交前联系我们，以便针对项目商定处理方式。"
       },
       "cookies": {
         "title": "4. Cookie与追踪",
-        "content": "我们的网站使用必要的Cookie来确保网站功能和性能。我们还可能使用分析工具（如Google Analytics）来了解访问者如何与我们的内容互动，这有助于我们改进技术文档和用户体验。"
+        "content": "本网站使用浏览器存储记住您的Cookie选择。可选的Google Analytics在您允许访问分析后才加载。您可以从页脚重新打开“Cookie 设置”并关闭分析。启用分析时，会话存储可保留与相关询盘关联的入口页面和来源；关闭分析后会清除这项可选记录。您提交的询盘仍可包含当前页面、引荐页面、活动参数和点击的询盘入口。您也可以通过浏览器清除已保存的选择。"
       },
       "dataRetention": {
-        "title": "5. 数据保留",
-        "content": "根据IATF 16949汽车标准的要求，我们可能会在规定期限内保留生产和质量记录以确保可追溯性。商业联系信息将在维持我们专业关系所需的期限内保留。"
+        "title": "6. 数据保留",
+        "content": "询盘记录用于评估、回复及相关报价、订单或质量事务。保留需求取决于项目以及适用的合同或法律要求。如需了解与您的询盘相关的信息，请联系我们。"
       },
       "yourRights": {
-        "title": "6. 您的权利",
-        "content": "您有权请求访问、更正或删除您的个人商业数据。如需提出此类请求，请通过以下提供的电子邮件联系我们的数据合规官。"
+        "title": "7. 您的请求",
+        "content": "如对已提交的信息有疑问，或希望申请查阅、更正或删除，请发送邮件至contact@rubberq.com，并提供足以识别询盘的信息。我们会结合适用要求处理；相关交易或质量记录可能仍需保留。"
+      },
+      "serviceProviders": {
+        "title": "5. 网站与询盘服务商",
+        "content": "我们使用服务商运营网站和处理询盘。服务商可能在您所在国家以外处理数据。如有地域或合同方面的数据处理要求，请在发送敏感项目文件前与我们沟通。",
+        "items": [
+          "Cloudflare提供网站托管、询盘处理和数据库服务。",
+          "Resend向我们的业务邮箱发送询盘通知。",
+          "Sanity提供公开文章和网站媒体内容；可选的Google Analytics由“Cookie 设置”控制。"
+        ]
       }
     },
     "contact": {
       "title": "联系我们",
       "description": "如果您对本隐私政策有任何疑问，请联系：",
-      "company": "福州瑞博橡胶有限公司",
-      "department": "数据保护办公室",
+      "company": "RubberQ",
+      "department": "网站与项目咨询",
       "email": "邮箱：contact@rubberq.com",
       "address": "地址：中国福建省福州市"
     }
@@ -1095,11 +1104,17 @@
   },
   "cookieConsent": {
     "title": "Cookie 偏好",
-    "descriptionPrefix": "RubberQ 使用必要 Cookie 保持网站正常运行。经您同意，我们会使用分析 Cookie 了解哪些技术页面更有帮助，并持续改进网站。请阅读我们的",
+    "descriptionPrefix": "您的选择保存在浏览器中。可选访问分析帮助我们了解网站使用情况。请阅读",
     "privacyLink": "隐私政策",
     "descriptionSuffix": "了解详情。",
     "decline": "仅必要 Cookie",
-    "acceptAll": "全部接受"
+    "acceptAll": "全部接受",
+    "preferencesTitle": "Cookie 与存储设置",
+    "customize": "Cookie 设置",
+    "savePreferences": "保存偏好",
+    "necessaryLabel": "必要的网站存储",
+    "analyticsLabel": "可选访问分析",
+    "alwaysOn": "始终开启"
   },
   "capabilities": {
     "hero": {

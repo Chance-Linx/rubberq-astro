@@ -342,6 +342,9 @@ export function renderRfqEmail(normalized) {
     ['File link', normalized.fileLink],
     ['Attachment', normalized.attachment?.name || ''],
     ['Page URL', normalized.pageUrl],
+    ['Source page', normalized.sourceTracking?.sourcePage],
+    ['CTA', normalized.sourceTracking?.cta],
+    ['Attribution mode', normalized.sourceTracking?.attributionMode],
   ];
 
   const html = `

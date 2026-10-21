@@ -1,7 +1,7 @@
 ---
 import '@/styles/globals.css';
 import CookieConsent from '@/components/CookieConsent';
-import { defaultLocale, getTranslations, locales, t, type Locale } from '@/lib/i18n';
+import { defaultLocale, getTranslations, locales, type Locale } from '@/lib/i18n';
 
 interface Props {
   lang?: string;
@@ -11,14 +11,7 @@ const { lang = 'en' } = Astro.props;
 const gaMeasurementId = import.meta.env.PUBLIC_GA_MEASUREMENT_ID || 'G-NXD6LQQDHP';
 const normalizedLang = locales.includes(lang as Locale) ? (lang as Locale) : defaultLocale;
 const messages = await getTranslations(normalizedLang);
-const cookieConsentMessages = {
-  title: t(messages, 'cookieConsent.title'),
-  descriptionPrefix: t(messages, 'cookieConsent.descriptionPrefix'),
-  privacyLink: t(messages, 'cookieConsent.privacyLink'),
-  descriptionSuffix: t(messages, 'cookieConsent.descriptionSuffix'),
-  decline: t(messages, 'cookieConsent.decline'),
-  acceptAll: t(messages, 'cookieConsent.acceptAll'),
-};
+const cookieConsentMessages = messages.cookieConsent;
 ---
 
 <!doctype html>
@@ -32,48 +25,75 @@ const cookieConsentMessages = {
       (function () {
         var preferencesKey = 'rubberq-cookie-preferences';
         var legacyConsentKey = 'rubberq-cookie-consent';
+        var disableKey = 'ga-disable-' + gaMeasurementId;
+        var denied = { analytics_storage: 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' };
+        window[disableKey] = true;
+        window.dataLayer = window.dataLayer || [];
+        function sendTag() { window.dataLayer.push(arguments); }
+        sendTag('consent', 'default', denied);
 
         function readPreferences() {
           try {
             var stored = window.localStorage.getItem(preferencesKey);
-            if (stored) {
-              return JSON.parse(stored);
-            }
-
-            if (window.localStorage.getItem(legacyConsentKey) === 'accepted') {
-              return { analytics: true };
-            }
-          } catch (_) {
-            return null;
-          }
-
+            if (stored) return JSON.parse(stored);
+            if (window.localStorage.getItem(legacyConsentKey) === 'accepted') return { analytics: true };
+          } catch (_) { return null; }
           return null;
         }
 
-        function loadAnalytics(preferences) {
-          if (!preferences || preferences.analytics !== true || window.__rubberqAnalyticsLoaded) {
+        function clearOptionalStorage() {
+          try {
+            window.sessionStorage.removeItem('rubberq-first-touch-url');
+            window.sessionStorage.removeItem('rubberq-first-touch-referrer');
+          } catch (_) {}
+          var host = window.location.hostname;
+          var domains = [''];
+          if (host && !/^[0-9.]+$/.test(host)) {
+            var parts = host.split('.');
+            for (var i = 0; i < parts.length - 1; i++) domains.push(parts.slice(i).join('.'));
+          }
+          document.cookie.split(';').forEach(function (cookie) {
+            var name = cookie.split('=')[0].trim();
+            if (!/^(_ga(?:_|$)|_gid$|_gat(?:_|$))/.test(name)) return;
+            domains.forEach(function (domain) {
+              document.cookie = name + '=; Max-Age=0; path=/' + (domain ? '; domain=' + domain : '') + '; SameSite=Lax';
+            });
+          });
+        }
+
+        function applyAnalyticsChoice(preferences) {
+          var enabled = !!preferences && preferences.analytics === true;
+          window[disableKey] = !enabled;
+          if (!enabled) {
+            if (window.__rubberqAnalyticsLoaded) sendTag('consent', 'update', denied);
+            clearOptionalStorage();
             return;
           }
-
+          try {
+            if (!window.sessionStorage.getItem('rubberq-first-touch-url')) {
+              window.sessionStorage.setItem('rubberq-first-touch-url', window.location.href);
+              window.sessionStorage.setItem('rubberq-first-touch-referrer', document.referrer || '');
+            }
+          } catch (_) {}
+          sendTag('consent', 'update', { analytics_storage: 'granted', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' });
+          if (window.__rubberqAnalyticsLoaded) return;
           window.__rubberqAnalyticsLoaded = true;
-          window.dataLayer = window.dataLayer || [];
-          window.gtag = function gtag() {
-            window.dataLayer.push(arguments);
-          };
-
+          window.gtag = function () { if (!window[disableKey]) sendTag.apply(null, arguments); };
+          sendTag('js', new Date());
+          var cleanReferrer = '';
+          try { var referringUrl = new URL(document.referrer); cleanReferrer = referringUrl.origin + referringUrl.pathname; } catch (_) {}
+          sendTag('config', gaMeasurementId, { page_referrer: cleanReferrer, send_page_view: true, allow_google_signals: false, allow_ad_personalization_signals: false, page_location: window.location.origin + window.location.pathname });
           var script = document.createElement('script');
           script.async = true;
           script.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(gaMeasurementId);
           document.head.appendChild(script);
-
-          window.gtag('js', new Date());
-          window.gtag('config', gaMeasurementId, { send_page_view: true });
         }
 
-        window.rubberqLoadAnalytics = loadAnalytics;
-        loadAnalytics(readPreferences());
-        window.addEventListener('rubberq-cookie-consent-updated', function (event) {
-          loadAnalytics(event.detail);
+        window.rubberqLoadAnalytics = applyAnalyticsChoice;
+        applyAnalyticsChoice(readPreferences());
+        window.addEventListener('rubberq-cookie-consent-updated', function (event) { applyAnalyticsChoice(event.detail); });
+        window.addEventListener('storage', function (event) {
+          if (event.key === preferencesKey || event.key === legacyConsentKey || event.key === null) applyAnalyticsChoice(readPreferences());
         });
       })();
     </script>
@@ -81,6 +101,6 @@ const cookieConsentMessages = {
   </head>
   <body class="bg-background text-foreground antialiased min-h-screen">
     <slot />
-    <CookieConsent locale={normalizedLang} messages={cookieConsentMessages} client:idle />
+    <CookieConsent locale={normalizedLang} messages={cookieConsentMessages} client:load />
   </body>
 </html>

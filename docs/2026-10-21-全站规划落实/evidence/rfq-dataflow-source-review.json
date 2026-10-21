@@ -1,0 +1,40 @@
+{
+  "scope": "Current local source review, not a production request or mail-provider readback.",
+  "frontend": {
+    "endpoint": "https://rubberq.com/api/",
+    "contact_upload": "File is encoded in browser and included as attachment name/mimeType/size/dataBase64 in submitted JSON",
+    "sample_batch": "Drawing link and inquiry details"
+  },
+  "worker": {
+    "local_entrypoint": "tools/rfq-worker-v2/worker.mjs",
+    "database": "D1 rfqs receives inquiry fields and source_tracking_json; attachment metadata is stored, not dataBase64",
+    "notification": "Current notifySales sends rendered text/html including attachment name, but no attachment content field",
+    "attachment_followup": "Preserve or forward the submitted file through the tested RFQ path before claiming file delivery",
+    "email_response_followup": "API send acceptance is not mailbox delivery; verify separately"
+  },
+  "browser": {
+    "choice_storage": "localStorage cookie preferences",
+    "optional_entry_storage": "sessionStorage first-touch URL/referrer only with analytics enabled; cleared on withdrawal",
+    "submission_context": "current URL/referrer/campaign/source/CTA may accompany the submitted inquiry without optional session storage"
+  },
+  "providers_from_source": [
+    "Cloudflare Worker/D1 route",
+    "Resend email notification API",
+    "Sanity public CMS/media",
+    "Google Analytics after opt-in"
+  ],
+  "paid_calls": 0,
+  "cms_writes": 0,
+  "production_submissions": 0,
+  "production_deployments": 0,
+  "source_sha256": {
+    "tools/rfq-worker-v2/worker.mjs": "0ad533b4ca7f3aef65de85f70f65f4ce66ddf945470b4fc2276c18a741179819",
+    "tools/rfq-worker-v2/rfq-v2-contract.mjs": "40f624fa8c22e0ce467ea053039dbaa8acbcb438cc5733077be214a4a5d135b2",
+    "src/components/contact/ContactForm.tsx": "4476873f1bc6137b3bd44f00b07987562eea776effeb967cfc5f154b4590624a",
+    "src/components/contact/SampleRequestForm.tsx": "22ad758103047a2383fe710bcbba0dca133c6b0e7219e00f73edba7a72e47a8c",
+    "src/components/contact/BatchRfqForm.tsx": "b92dc538b185ff5b6d6746e7eb0bee954c24de97dadb71d2dc657d552195196f",
+    "src/lib/inquiryTracking.ts": "8a390779d711538eb277cc0879d70c9c65ffd159293248124989634f524f849d",
+    "src/layouts/BaseLayout.astro": "ffffca1bd3997eb51550eb1f81d0d065ccf9070802504f38af4512cc8bd3752c",
+    "src/components/CookieConsent.tsx": "25795f5c29825dac5666442c1d2b6a6ba70f359cebcaa98e17f6a08f94cd4a7b"
+  }
+}

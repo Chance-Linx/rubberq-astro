@@ -1,64 +1,12 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 type CookiePreferences = {
   necessary: true;
   analytics: boolean;
   marketing: boolean;
   updatedAt: string;
-};
-
-type CategoryLabels = {
-  preferencesTitle: string;
-  customize: string;
-  savePreferences: string;
-  necessaryLabel: string;
-  analyticsLabel: string;
-  alwaysOn: string;
-};
-
-const categoryLabels: Record<string, CategoryLabels> = {
-  en: {
-    preferencesTitle: 'Cookie Categories',
-    customize: 'Cookie settings',
-    savePreferences: 'Save Preferences',
-    necessaryLabel: 'Necessary cookies',
-    analyticsLabel: 'Analytics cookies',
-    alwaysOn: 'Always active',
-  },
-  zh: {
-    preferencesTitle: 'Cookie 分类',
-    customize: 'Cookie 设置',
-    savePreferences: '保存偏好',
-    necessaryLabel: '必要 Cookie',
-    analyticsLabel: '分析 Cookie',
-    alwaysOn: '始终开启',
-  },
-  de: {
-    preferencesTitle: 'Cookie-Kategorien',
-    customize: 'Cookie-Einstellungen',
-    savePreferences: 'Einstellungen speichern',
-    necessaryLabel: 'Notwendige Cookies',
-    analyticsLabel: 'Analyse-Cookies',
-    alwaysOn: 'Immer aktiv',
-  },
-  ja: {
-    preferencesTitle: 'Cookieカテゴリ',
-    customize: 'Cookie設定',
-    savePreferences: '設定を保存',
-    necessaryLabel: '必須Cookie',
-    analyticsLabel: '分析Cookie',
-    alwaysOn: '常に有効',
-  },
-  es: {
-    preferencesTitle: 'Categorias de cookies',
-    customize: 'Configurar cookies',
-    savePreferences: 'Guardar preferencias',
-    necessaryLabel: 'Cookies necesarias',
-    analyticsLabel: 'Cookies analiticas',
-    alwaysOn: 'Siempre activas',
-  },
 };
 
 const legacyConsentKey = 'rubberq-cookie-consent';
@@ -71,11 +19,19 @@ type CookieConsentCopy = {
   descriptionSuffix: string;
   decline: string;
   acceptAll: string;
+  preferencesTitle: string;
+  customize: string;
+  savePreferences: string;
+  necessaryLabel: string;
+  analyticsLabel: string;
+  alwaysOn: string;
 };
 
 function persistPreferences(status: 'accepted' | 'declined' | 'custom', preferences: CookiePreferences) {
-  localStorage.setItem(legacyConsentKey, status);
-  localStorage.setItem(consentPrefsKey, JSON.stringify(preferences));
+  try {
+    localStorage.setItem(consentPrefsKey, JSON.stringify(preferences));
+    localStorage.setItem(legacyConsentKey, status);
+  } catch { /* The current-page choice still applies if storage is unavailable. */ }
   window.dispatchEvent(new CustomEvent('rubberq-cookie-consent-updated', { detail: preferences }));
 }
 
@@ -89,51 +45,45 @@ const CookieConsent = ({ locale = 'en', messages }: CookieConsentProps) => {
   const [showPreferences, setShowPreferences] = useState(false);
   const [analytics, setAnalytics] = useState(false);
 
-  const normalizedLocale = categoryLabels[locale] ? locale : 'en';
-  const labels = categoryLabels[normalizedLocale];
+  const normalizedLocale = ['en', 'de', 'ja', 'es', 'zh'].includes(locale) ? locale : 'en';
+  const labels = messages;
+  const panel = useRef<HTMLDivElement>(null);
   const privacyHref = normalizedLocale === 'en' ? '/privacy' : `/${normalizedLocale}/privacy`;
 
   useEffect(() => {
-    const prefs = localStorage.getItem(consentPrefsKey);
-    const consent = localStorage.getItem(legacyConsentKey);
-
-    if (prefs) {
-      try {
-        const parsed = JSON.parse(prefs) as CookiePreferences;
-        setAnalytics(!!parsed.analytics);
-      } catch {
-        setAnalytics(false);
+    let choice: boolean | null = null;
+    try {
+      const prefs = localStorage.getItem(consentPrefsKey);
+      if (prefs) {
+        const parsed = JSON.parse(prefs);
+        if (typeof parsed?.analytics === 'boolean') choice = parsed.analytics;
+      } else {
+        const legacy = localStorage.getItem(legacyConsentKey);
+        if (legacy === 'accepted' || legacy === 'declined') {
+          choice = legacy === 'accepted';
+          persistPreferences(legacy, { necessary: true, analytics: choice, marketing: false, updatedAt: new Date().toISOString() });
+        }
       }
-      return;
-    }
-
-    if (consent === 'accepted') {
-      persistPreferences('accepted', {
-        necessary: true,
-        analytics: true,
-        marketing: false,
-        updatedAt: new Date().toISOString(),
-      });
-      return;
-    }
-
-    if (consent === 'declined') {
-      persistPreferences('declined', {
-        necessary: true,
-        analytics: false,
-        marketing: false,
-        updatedAt: new Date().toISOString(),
-      });
-      return;
-    }
-
-    if (!consent) {
-      const timer = setTimeout(() => setIsVisible(true), 6000);
-      return () => clearTimeout(timer);
-    }
+    } catch { /* Show the choice UI for unreadable storage. */ }
+    setAnalytics(choice === true);
+    if (choice === null) setIsVisible(true);
+    const reopen = (event: MouseEvent) => {
+      if (!(event.target instanceof Element) || !event.target.closest('[data-rq-cookie-settings]')) return;
+      try {
+        const stored = JSON.parse(localStorage.getItem(consentPrefsKey) || 'null');
+        if (typeof stored?.analytics === 'boolean') setAnalytics(stored.analytics);
+      } catch { /* Retain this page's current selection. */ }
+      setShowPreferences(true);
+      setIsVisible(true);
+    };
+    document.addEventListener('click', reopen);
+    return () => document.removeEventListener('click', reopen);
   }, []);
 
+  useEffect(() => { if (isVisible && showPreferences) panel.current?.focus(); }, [isVisible, showPreferences]);
+
   const handleAccept = () => {
+    setAnalytics(true);
     persistPreferences('accepted', {
       necessary: true,
       analytics: true,
@@ -167,7 +117,7 @@ const CookieConsent = ({ locale = 'en', messages }: CookieConsentProps) => {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed inset-x-0 bottom-0 z-[100] p-2 sm:p-3 md:p-4">
+    <div ref={panel} role="region" aria-label={messages.title} tabIndex={-1} data-rq-cookie-panel className="fixed inset-x-0 bottom-0 z-[100] p-2 sm:p-3 md:p-4 max-h-[90vh] overflow-y-auto">
       <div className="mx-auto max-w-4xl border border-industrial-700 bg-industrial-900">
         <div className="flex flex-col gap-3 p-3 sm:p-4 md:flex-row md:items-center md:justify-between">
           <div className="min-w-0 flex-1">

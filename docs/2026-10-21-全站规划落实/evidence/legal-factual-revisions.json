@@ -1,0 +1,851 @@
+{
+  "baseline": "legal-body-baseline.json",
+  "scope": "Targeted local legal-page factual copy; no legal compliance acceptance, CMS mutation or production publication. Commercial-order/governing-law/liability provisions retained.",
+  "revisions": [
+    {
+      "locale": "en",
+      "field": "privacyPage.lastUpdated",
+      "before": "Last Updated: January 26, 2026",
+      "after": "Last Updated: October 21, 2026",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "en",
+      "field": "privacyPage.cards.dataSecurity.title",
+      "before": "Data Security",
+      "after": "Project information",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "en",
+      "field": "privacyPage.cards.dataSecurity.description",
+      "before": "Your technical drawings and proprietary designs are protected under our industrial-grade security protocols.",
+      "after": "Share the details needed for a drawing, material or manufacturing review. Contact us to agree any special handling requirements.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "en",
+      "field": "privacyPage.cards.zeroSharing.title",
+      "before": "Zero Sharing",
+      "after": "Project communication",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "en",
+      "field": "privacyPage.cards.zeroSharing.description",
+      "before": "We never sell your business contact information or project details to third-party marketing firms.",
+      "after": "Your contact details and technical information support inquiry assessment, quotations and project communication.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "en",
+      "field": "privacyPage.sections.informationCollect.content",
+      "before": "Fuzhou RubberQ Rubber Co., Ltd. (\"RubberQ\", \"we\", \"us\", or \"our\") collects information that you provide directly to us when you:",
+      "after": "RubberQ (\"we\", \"us\" or \"our\") receives information that you choose to provide when you:",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "en",
+      "field": "privacyPage.sections.informationCollect.additionalInfo",
+      "before": "This information may include your name, company name, email address, phone number, country, and specific project requirements.",
+      "after": "Submitted details can include your name, business contact details, company, country, project requirements, technical files or links, and the page or referral information associated with your inquiry.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "en",
+      "field": "privacyPage.sections.intellectualProperty.content",
+      "before": "As an OEM supplier for leading automotive brands, we understand the critical importance of Intellectual Property (IP). Any drawings or proprietary data uploaded to our platform are treated with strict confidentiality. Access is restricted to necessary engineering and production personnel. We are prepared to sign formal Non-Disclosure Agreements (NDAs) for your projects.",
+      "after": "Only send drawings and information you are authorised to share. Contact us before submitting files that require an NDA, restricted access or a specific transfer method so that handling arrangements can be agreed for your project.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "en",
+      "field": "privacyPage.sections.cookies.content",
+      "before": "Our website uses essential cookies to ensure site functionality and performance. We may also use analytics tools (such as Google Analytics) to understand how visitors interact with our content, which helps us improve our technical documentation and user experience.",
+      "after": "This site uses browser storage to remember your cookie choice. Optional Google Analytics loads after you allow analytics. You can reopen Cookie settings in the footer and turn it off. When analytics is enabled, session storage can retain the entry page and referral information for an associated inquiry; this optional record is cleared when you turn analytics off. A submitted inquiry can still include its current page, referring page, campaign parameters and clicked inquiry entry. You can also clear stored choices through your browser.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "en",
+      "field": "privacyPage.sections.dataRetention.content",
+      "before": "In compliance with IATF 16949 automotive standards, we may retain production and quality records for specified periods to ensure traceability. Business contact information is retained as long as necessary to maintain our professional relationship.",
+      "after": "Inquiry records support assessment, replies and related quotations, orders or quality matters. Retention needs vary with the project and applicable contractual or legal requirements. Contact us to ask about information associated with your inquiry.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "en",
+      "field": "privacyPage.sections.yourRights.content",
+      "before": "You have the right to request access to, correction of, or deletion of your personal business data. For such requests, please contact our data compliance officer at the email provided below.",
+      "after": "For questions about submitted information, or to request access, correction or deletion, email contact@rubberq.com. Include enough detail to identify your inquiry. Requests are considered with applicable requirements; related transaction or quality records may need to be retained.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "en",
+      "field": "privacyPage.contact.company",
+      "before": "Fuzhou RubberQ Rubber Co., Ltd.",
+      "after": "RubberQ",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "en",
+      "field": "privacyPage.contact.department",
+      "before": "Data Protection Office",
+      "after": "Website and project inquiries",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "en",
+      "field": "privacyPage.sections.serviceProviders",
+      "before": null,
+      "after": {
+        "title": "5. Website and inquiry service providers",
+        "content": "We use service providers to operate the website and process inquiries. These providers may process data outside your country. Discuss any regional or contractual data-handling requirements with us before sending sensitive project files.",
+        "items": [
+          "Cloudflare provides website hosting and the inquiry-processing and database services.",
+          "Resend sends inquiry notification emails to our business inbox.",
+          "Sanity delivers public articles and website media. Optional Google Analytics is controlled through Cookie settings."
+        ]
+      },
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "en",
+      "field": "privacyPage.sections.dataRetention.title",
+      "before": "5. Data Retention",
+      "after": "6. Data Retention",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "en",
+      "field": "privacyPage.sections.yourRights.title",
+      "before": "6. Your Rights",
+      "after": "7. Your Requests",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "en",
+      "field": "termsPage.lastUpdated",
+      "before": "Last Updated: January 26, 2026",
+      "after": "Last Updated: October 21, 2026",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "en",
+      "field": "termsPage.contact.company",
+      "before": "Fuzhou RubberQ Rubber Co., Ltd.",
+      "after": "RubberQ",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "en",
+      "field": "termsPage.sections.acceptance.content",
+      "before": "By accessing and using the website of Fuzhou RubberQ Rubber Co., Ltd. (the \"Site\"), you acknowledge that you have read, understood, and agree to be bound by these Terms of Service. If you do not agree, please refrain from using the Site.",
+      "after": "By accessing and using the RubberQ website (the \"Site\"), you acknowledge that you have read, understood, and agree to be bound by these Terms of Service. If you do not agree, please refrain from using the Site.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "en",
+      "field": "termsPage.sections.intellectualProperty.content",
+      "before": "All trademarks, logos, and service marks displayed on the Site are the property of RubberQ or third parties. \"RubberQ\" and the RubberQ logo are registered trademarks. The design, layout, and \"look and feel\" of the Site are protected under copyright laws.",
+      "after": "RubberQ branding and website materials identify our business and services. Third-party names and marks belong to their respective owners. Permission to download materials for evaluation does not transfer ownership or reproduction rights.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "en",
+      "field": "termsPage.sections.siteContent.items.2",
+      "before": "Misuse of our RFQ system or automated scraping of technical data is strictly forbidden.",
+      "after": "Public pages may be indexed and linked by search services. Do not disrupt the website, bypass access controls or misuse the RFQ system.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "de",
+      "field": "privacyPage.lastUpdated",
+      "before": "Zuletzt aktualisiert: 26. Januar 2026",
+      "after": "Zuletzt aktualisiert: 21. Oktober 2026",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "de",
+      "field": "privacyPage.cards.dataSecurity.title",
+      "before": "Datensicherheit",
+      "after": "Projektinformationen",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "de",
+      "field": "privacyPage.cards.dataSecurity.description",
+      "before": "Ihre technischen Zeichnungen und proprietären Designs sind durch unsere Sicherheitsprotokolle in Industriestandard geschützt.",
+      "after": "Teilen Sie die Angaben für die Prüfung von Zeichnung, Werkstoff oder Fertigung mit. Besondere Anforderungen an den Umgang mit Daten stimmen wir vorab ab.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "de",
+      "field": "privacyPage.cards.zeroSharing.title",
+      "before": "Keine Weitergabe",
+      "after": "Projektkommunikation",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "de",
+      "field": "privacyPage.cards.zeroSharing.description",
+      "before": "Wir verkaufen Ihre geschäftlichen Kontaktinformationen oder Projektdetails niemals an Marketingfirmen Dritter.",
+      "after": "Kontakt- und technische Angaben dienen der Prüfung Ihrer Anfrage, der Angebotserstellung und der Projektkommunikation.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "de",
+      "field": "privacyPage.sections.informationCollect.content",
+      "before": "Fuzhou RubberQ Rubber Co., Ltd. (\"RubberQ\", \"wir\", \"uns\" oder \"unser\") sammelt Informationen, die Sie uns direkt zur Verfügung stellen, wenn Sie:",
+      "after": "RubberQ („wir“ oder „uns“) erhält Informationen, die Sie uns freiwillig bereitstellen, wenn Sie:",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "de",
+      "field": "privacyPage.sections.informationCollect.additionalInfo",
+      "before": "Diese Informationen können Ihren Namen, Firmennamen, E-Mail-Adresse, Telefonnummer, Land und spezifische Projektanforderungen umfassen.",
+      "after": "Dazu können Name, geschäftliche Kontaktdaten, Unternehmen, Land, Projektanforderungen, technische Dateien oder Links sowie Seiten- und Herkunftsangaben zur Anfrage gehören.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "de",
+      "field": "privacyPage.sections.intellectualProperty.content",
+      "before": "Als OEM-Lieferant für führende Automobilmarken verstehen wir die entscheidende Bedeutung von geistigem Eigentum (IP). Alle auf unsere Plattform hochgeladenen Zeichnungen oder proprietären Daten werden streng vertraulich behandelt. Der Zugang ist auf notwendiges Ingenieur- und Produktionspersonal beschränkt. Wir sind bereit, formelle Geheimhaltungsvereinbarungen (NDAs) für Ihre Projekte zu unterzeichnen.",
+      "after": "Übermitteln Sie nur Zeichnungen und Informationen, zu deren Weitergabe Sie berechtigt sind. Kontaktieren Sie uns vor dem Versand von Dateien, die eine NDA, eingeschränkten Zugriff oder einen bestimmten Übertragungsweg erfordern, damit wir den Umgang damit für Ihr Projekt vereinbaren können.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "de",
+      "field": "privacyPage.sections.cookies.content",
+      "before": "Unsere Website verwendet essentielle Cookies, um die Funktionalität und Leistung der Website zu gewährleisten. Wir können auch Analysetools (wie Google Analytics) verwenden, um zu verstehen, wie Besucher mit unseren Inhalten interagieren, was uns hilft, unsere technische Dokumentation und Benutzererfahrung zu verbessern.",
+      "after": "Diese Website speichert Ihre Cookie-Auswahl im Browser. Optionales Google Analytics wird erst nach Ihrer Zustimmung geladen. Über Cookie-Einstellungen im Footer können Sie die Analyse wieder ausschalten. Bei aktivierter Analyse kann der Sitzungsspeicher Einstiegsseite und Herkunft für eine zugehörige Anfrage festhalten; beim Ausschalten wird dieser optionale Eintrag gelöscht. Eine übermittelte Anfrage kann weiterhin die aktuelle Seite, die verweisende Seite, Kampagnenparameter und den gewählten Anfrage-Einstieg enthalten. Gespeicherte Einstellungen können Sie auch im Browser löschen.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "de",
+      "field": "privacyPage.sections.dataRetention.content",
+      "before": "In Übereinstimmung mit IATF 16949 Automobilstandards können wir Produktions- und Qualitätsaufzeichnungen für bestimmte Zeiträume aufbewahren, um die Rückverfolgbarkeit zu gewährleisten. Geschäftliche Kontaktinformationen werden so lange aufbewahrt, wie es zur Aufrechterhaltung unserer professionellen Beziehung erforderlich ist.",
+      "after": "Anfragedaten unterstützen die Prüfung, Beantwortung und zugehörige Angebote, Aufträge oder Qualitätsfragen. Die Aufbewahrung hängt vom Projekt sowie vertraglichen oder gesetzlichen Anforderungen ab. Kontaktieren Sie uns bei Fragen zu den Daten Ihrer Anfrage.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "de",
+      "field": "privacyPage.sections.yourRights.content",
+      "before": "Sie haben das Recht, Zugang zu, Korrektur von oder Löschung Ihrer persönlichen Geschäftsdaten zu verlangen. Für solche Anfragen wenden Sie sich bitte an unseren Datenschutzbeauftragten unter der unten angegebenen E-Mail-Adresse.",
+      "after": "Bei Fragen zu übermittelten Informationen oder für Auskunfts-, Berichtigungs- oder Löschungsanfragen schreiben Sie an contact@rubberq.com. Machen Sie ausreichende Angaben zur Zuordnung Ihrer Anfrage. Wir berücksichtigen die geltenden Anforderungen; zugehörige Geschäfts- oder Qualitätsunterlagen müssen gegebenenfalls aufbewahrt werden.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "de",
+      "field": "privacyPage.contact.company",
+      "before": "Fuzhou RubberQ Rubber Co., Ltd.",
+      "after": "RubberQ",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "de",
+      "field": "privacyPage.contact.department",
+      "before": "Datenschutzbüro",
+      "after": "Website- und Projektanfragen",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "de",
+      "field": "privacyPage.sections.serviceProviders",
+      "before": null,
+      "after": {
+        "title": "5. Dienstleister für Website und Anfragen",
+        "content": "Für den Betrieb der Website und die Bearbeitung von Anfragen nutzen wir Dienstleister. Diese können Daten außerhalb Ihres Landes verarbeiten. Besprechen Sie regionale oder vertragliche Anforderungen vor dem Versand sensibler Projektdateien mit uns.",
+        "items": [
+          "Cloudflare stellt Website-Hosting sowie Dienste zur Anfrageverarbeitung und Datenspeicherung bereit.",
+          "Resend versendet Anfragebenachrichtigungen an unser geschäftliches Postfach.",
+          "Sanity liefert öffentliche Artikel und Website-Medien. Optionales Google Analytics steuern Sie über die Cookie-Einstellungen."
+        ]
+      },
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "de",
+      "field": "privacyPage.sections.dataRetention.title",
+      "before": "5. Vorratsdatenspeicherung",
+      "after": "6. Aufbewahrung von Daten",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "de",
+      "field": "privacyPage.sections.yourRights.title",
+      "before": "6. Ihre Rechte",
+      "after": "7. Ihre Anfragen",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "de",
+      "field": "termsPage.lastUpdated",
+      "before": "Zuletzt aktualisiert: 26. Januar 2026",
+      "after": "Zuletzt aktualisiert: 21. Oktober 2026",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "de",
+      "field": "termsPage.contact.company",
+      "before": "Fuzhou RubberQ Rubber Co., Ltd.",
+      "after": "RubberQ",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "de",
+      "field": "termsPage.sections.acceptance.content",
+      "before": "Durch den Zugriff auf und die Nutzung der Website von Fuzhou RubberQ Rubber Co., Ltd. (die \"Website\") bestätigen Sie, dass Sie diese Nutzungsbedingungen gelesen und verstanden haben und damit einverstanden sind. Wenn Sie nicht einverstanden sind, nutzen Sie die Website bitte nicht.",
+      "after": "Mit dem Zugriff auf die RubberQ-Website (die „Website“) und ihrer Nutzung bestätigen Sie, dass Sie diese Nutzungsbedingungen gelesen und verstanden haben und ihnen zustimmen. Wenn Sie nicht zustimmen, nutzen Sie die Website bitte nicht.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "de",
+      "field": "termsPage.sections.intellectualProperty.content",
+      "before": "Alle auf der Website angezeigten Marken, Logos und Dienstleistungsmarken sind Eigentum von RubberQ oder Dritten. \"RubberQ\" und das RubberQ-Logo sind eingetragene Marken. Das Design, Layout und \"Erscheinungsbild\" der Website sind urheberrechtlich geschützt.",
+      "after": "Die RubberQ-Markenauftritte und Website-Materialien kennzeichnen unser Unternehmen und unsere Leistungen. Namen und Marken Dritter gehören den jeweiligen Inhabern. Die Erlaubnis zum Herunterladen für Bewertungszwecke überträgt keine Eigentums- oder Vervielfältigungsrechte.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "de",
+      "field": "termsPage.sections.siteContent.items.2",
+      "before": "Der Missbrauch unseres Angebotssystems oder das automatisierte Auslesen (Scraping) technischer Daten ist streng verboten.",
+      "after": "Öffentliche Seiten dürfen von Suchdiensten indexiert und verlinkt werden. Stören Sie den Website-Betrieb nicht, umgehen Sie keine Zugriffskontrollen und missbrauchen Sie das RFQ-System nicht.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "ja",
+      "field": "privacyPage.lastUpdated",
+      "before": "最終更新日: 2026年1月26日",
+      "after": "最終更新日：2026年10月21日",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "ja",
+      "field": "privacyPage.cards.dataSecurity.title",
+      "before": "データセキュリティ",
+      "after": "プロジェクト情報",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "ja",
+      "field": "privacyPage.cards.dataSecurity.description",
+      "before": "お客様の技術図面と独自の設計は、当社の産業グレードのセキュリティプロトコル下で保護されています。",
+      "after": "図面、材料、製造方法の検討に必要な情報をお送りください。特別な取り扱いが必要な場合は事前にご相談ください。",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "ja",
+      "field": "privacyPage.cards.zeroSharing.title",
+      "before": "共有ゼロ",
+      "after": "プロジェクトの連絡",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "ja",
+      "field": "privacyPage.cards.zeroSharing.description",
+      "before": "お客様のビジネス連絡先情報やプロジェクトの詳細を第三者のマーケティング会社に販売することはありません。",
+      "after": "連絡先と技術情報は、お問い合わせの検討、見積もり、プロジェクトの連絡に使用します。",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "ja",
+      "field": "privacyPage.sections.informationCollect.content",
+      "before": "福州RubberQゴム有限公司（以下「RubberQ」、「当社」）は、お客様が以下を行う際に直接提供する情報を収集します：",
+      "after": "RubberQ（以下「当社」）は、次の場合にお客様が任意で提供する情報を受け取ります。",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "ja",
+      "field": "privacyPage.sections.informationCollect.additionalInfo",
+      "before": "この情報には、お名前、会社名、メールアドレス、電話番号、国、および特定のプロジェクト要件が含まれる場合があります。",
+      "after": "送信内容には、氏名、業務上の連絡先、会社、国、プロジェクト要件、技術ファイルやリンク、お問い合わせに関連するページや参照元の情報が含まれる場合があります。",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "ja",
+      "field": "privacyPage.sections.intellectualProperty.content",
+      "before": "主要な自動車ブランドのOEMサプライヤーとして、当社は知的財産（IP）の重要性を理解しています。当社のプラットフォームにアップロードされた図面や独自データは、厳格な機密保持の下で扱われます。アクセスは必要なエンジニアリングおよび生産担当者に制限されます。プロジェクトのために正式な秘密保持契約（NDA）を締結する用意があります。",
+      "after": "共有権限のある図面や情報のみお送りください。NDA、アクセス制限、特定の送信方法が必要なファイルは、送信前にご連絡ください。プロジェクトに応じた取り扱いを事前に確認します。",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "ja",
+      "field": "privacyPage.sections.cookies.content",
+      "before": "当社のウェブサイトは、サイトの機能とパフォーマンスを確保するために必須のCookieを使用しています。また、訪問者がコンテンツとどのように対話するかを理解するために分析ツール（Google Analyticsなど）を使用する場合があり、これは技術文書とユーザーエクスペリエンスの改善に役立ちます。",
+      "after": "本サイトはブラウザーのストレージにCookieの選択を保存します。任意のGoogle Analyticsは、アクセス解析を許可した後に読み込まれます。フッターのCookie設定から再び開き、解析を停止できます。解析を許可した場合、関連するお問い合わせのために入口ページと参照元をセッションストレージに保存することがあります。この任意の記録は解析を停止すると削除されます。お問い合わせには現在のページ、参照元、キャンペーンのパラメーター、選択した問い合わせ入口が含まれる場合があります。保存した選択はブラウザーからも削除できます。",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "ja",
+      "field": "privacyPage.sections.dataRetention.content",
+      "before": "IATF 16949自動車規格に準拠して、トレーサビリティを確保するために生産および品質記録を指定された期間保持する場合があります。ビジネス連絡先情報は、専門的な関係を維持するために必要な期間保持されます。",
+      "after": "お問い合わせの記録は、内容の検討、返信、関連する見積もり、注文、品質対応に使用します。保管の必要性は、プロジェクトと適用される契約上・法的な要件によって異なります。ご自身のお問い合わせ情報については当社にご連絡ください。",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "ja",
+      "field": "privacyPage.sections.yourRights.content",
+      "before": "お客様は、自身の個人的なビジネスデータへのアクセス、訂正、または削除を要求する権利を有します。そのような要求については、下記のメールアドレスのデータコンプライアンス責任者にご連絡ください。",
+      "after": "送信情報に関するご質問、開示・訂正・削除のご依頼はcontact@rubberq.comへお送りください。お問い合わせを特定できる情報を添えてください。適用される要件に沿って検討します。関連する取引や品質の記録は保管が必要な場合があります。",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "ja",
+      "field": "privacyPage.contact.company",
+      "before": "福州RubberQゴム有限公司",
+      "after": "RubberQ",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "ja",
+      "field": "privacyPage.contact.department",
+      "before": "データ保護室",
+      "after": "ウェブサイト・プロジェクトのお問い合わせ",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "ja",
+      "field": "privacyPage.sections.serviceProviders",
+      "before": null,
+      "after": {
+        "title": "5. ウェブサイトとお問い合わせのサービス提供者",
+        "content": "サイトの運営とお問い合わせの処理に外部サービスを利用します。これらの提供者はお客様の国以外でデータを処理する場合があります。地域や契約に関するデータ取り扱いの要件は、機密性の高いプロジェクトファイルを送信する前にご相談ください。",
+        "items": [
+          "Cloudflareはウェブサイトのホスティング、お問い合わせの処理、データベースのサービスを提供します。",
+          "Resendは業務用メールボックスへの問い合わせ通知を送信します。",
+          "Sanityは公開記事とサイトのメディアを配信します。任意のGoogle AnalyticsはCookie設定で管理できます。"
+        ]
+      },
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "ja",
+      "field": "privacyPage.sections.dataRetention.title",
+      "before": "5. データ保持",
+      "after": "6. データの保管",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "ja",
+      "field": "privacyPage.sections.yourRights.title",
+      "before": "6. お客様の権利",
+      "after": "7. お客様からのご依頼",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "ja",
+      "field": "termsPage.lastUpdated",
+      "before": "最終更新日: 2026年1月26日",
+      "after": "最終更新日：2026年10月21日",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "ja",
+      "field": "termsPage.contact.company",
+      "before": "福州RubberQゴム有限公司",
+      "after": "RubberQ",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "ja",
+      "field": "termsPage.sections.acceptance.content",
+      "before": "福州RubberQゴム有限公司（以下「サイト」）のウェブサイトにアクセスして使用することにより、お客様はこれらの利用規約を読み、理解し、拘束されることに同意したことになります。同意しない場合は、サイトの使用をお控えください。",
+      "after": "RubberQのウェブサイト（以下「本サイト」）にアクセスして利用することにより、本利用規約を読み、理解し、その内容に同意したものとします。同意されない場合は本サイトの利用をお控えください。",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "ja",
+      "field": "termsPage.sections.intellectualProperty.content",
+      "before": "サイトに表示されるすべての商標、ロゴ、サービスマークは、RubberQまたは第三者の財産です。「RubberQ」およびRubberQロゴは登録商標です。サイトのデザイン、レイアウト、「ルック＆フィール」は著作権法により保護されています。",
+      "after": "RubberQのブランド表示とサイト資料は、当社の事業とサービスを示すために使用します。第三者の名称・商標はそれぞれの権利者に帰属します。検討目的の資料ダウンロードの許可は、所有権や複製権の移転を意味しません。",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "ja",
+      "field": "termsPage.sections.siteContent.items.2",
+      "before": "当社のRFQシステムの悪用または技術データの自動スクレイピングは固く禁じられています。",
+      "after": "公開ページは検索サービスによるインデックス登録とリンクが可能です。サイトの運営を妨害する行為、アクセス制御の回避、RFQシステムの不正利用は行わないでください。",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "es",
+      "field": "privacyPage.lastUpdated",
+      "before": "Última Actualización: 26 de Enero, 2026",
+      "after": "Última actualización: 21 de octubre de 2026",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "es",
+      "field": "privacyPage.cards.dataSecurity.title",
+      "before": "Seguridad de Datos",
+      "after": "Información del proyecto",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "es",
+      "field": "privacyPage.cards.dataSecurity.description",
+      "before": "Sus dibujos técnicos y diseños propietarios están protegidos bajo nuestros protocolos de seguridad de grado industrial.",
+      "after": "Comparta los datos necesarios para revisar planos, materiales o fabricación. Consulte antes cualquier requisito especial de tratamiento.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "es",
+      "field": "privacyPage.cards.zeroSharing.title",
+      "before": "Cero Compartición",
+      "after": "Comunicación del proyecto",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "es",
+      "field": "privacyPage.cards.zeroSharing.description",
+      "before": "Nunca vendemos su información de contacto comercial o detalles del proyecto a firmas de marketing de terceros.",
+      "after": "Los datos de contacto y la información técnica se utilizan para evaluar consultas, preparar cotizaciones y comunicarnos sobre el proyecto.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "es",
+      "field": "privacyPage.sections.informationCollect.content",
+      "before": "Fuzhou RubberQ Rubber Co., Ltd. (\"RubberQ\", \"nosotros\", \"nos\" o \"nuestro\") recopila información que usted nos proporciona directamente cuando:",
+      "after": "RubberQ («nosotros») recibe la información que usted decide proporcionar cuando:",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "es",
+      "field": "privacyPage.sections.informationCollect.additionalInfo",
+      "before": "Esta información puede incluir su nombre, nombre de la empresa, dirección de correo electrónico, número de teléfono, país y requisitos específicos del proyecto.",
+      "after": "Los datos enviados pueden incluir nombre, contacto profesional, empresa, país, requisitos del proyecto, archivos técnicos o enlaces, y la página o referencia asociada a la consulta.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "es",
+      "field": "privacyPage.sections.intellectualProperty.content",
+      "before": "Como proveedor OEM para marcas automotrices líderes, entendemos la importancia crítica de la Propiedad Intelectual (IP). Cualquier dibujo o dato propietario subido a nuestra plataforma se trata con estricta confidencialidad. El acceso está restringido al personal de ingeniería y producción necesario. Estamos preparados para firmar Acuerdos de Confidencialidad (NDA) formales para sus proyectos.",
+      "after": "Envíe únicamente planos e información que esté autorizado a compartir. Contacte con nosotros antes de enviar archivos que requieran un NDA, acceso restringido o un método de transferencia específico, para acordar su tratamiento en el proyecto.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "es",
+      "field": "privacyPage.sections.cookies.content",
+      "before": "Nuestro sitio web utiliza cookies esenciales para garantizar la funcionalidad y el rendimiento del sitio. También podemos utilizar herramientas de análisis (como Google Analytics) para entender cómo los visitantes interactúan con nuestro contenido, lo que nos ayuda a mejorar nuestra documentación técnica y experiencia de usuario.",
+      "after": "Este sitio guarda su elección de cookies en el almacenamiento del navegador. Google Analytics opcional se carga después de que usted autorice la analítica. Puede reabrir Configurar cookies en el pie de página y desactivarla. Si permite la analítica, el almacenamiento de sesión puede conservar la página de entrada y la referencia para una consulta relacionada; este registro opcional se elimina al desactivarla. Una consulta enviada puede seguir incluyendo la página actual, la página de referencia, los parámetros de campaña y el acceso de consulta utilizado. También puede eliminar las preferencias desde su navegador.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "es",
+      "field": "privacyPage.sections.dataRetention.content",
+      "before": "En cumplimiento con los estándares automotrices IATF 16949, podemos retener registros de producción y calidad por períodos especificados para asegurar la trazabilidad. La información de contacto comercial se retiene tanto tiempo como sea necesario para mantener nuestra relación profesional.",
+      "after": "Los registros de consultas permiten evaluarlas, responder y atender cotizaciones, pedidos o asuntos de calidad relacionados. La conservación depende del proyecto y de los requisitos contractuales o legales aplicables. Contáctenos para consultar la información asociada a su solicitud.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "es",
+      "field": "privacyPage.sections.yourRights.content",
+      "before": "Usted tiene el derecho de solicitar acceso a, corrección de o eliminación de sus datos comerciales personales. Para tales solicitudes, por favor contacte a nuestro oficial de cumplimiento de datos en el correo electrónico proporcionado a continuación.",
+      "after": "Para preguntas sobre información enviada o solicitudes de acceso, corrección o eliminación, escriba a contact@rubberq.com e incluya datos suficientes para identificar su consulta. Consideraremos los requisitos aplicables; puede ser necesario conservar registros de transacciones o de calidad relacionados.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "es",
+      "field": "privacyPage.contact.company",
+      "before": "Fuzhou RubberQ Rubber Co., Ltd.",
+      "after": "RubberQ",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "es",
+      "field": "privacyPage.contact.department",
+      "before": "Oficina de Protección de Datos",
+      "after": "Consultas del sitio web y de proyectos",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "es",
+      "field": "privacyPage.sections.serviceProviders",
+      "before": null,
+      "after": {
+        "title": "5. Proveedores del sitio y de consultas",
+        "content": "Utilizamos proveedores para operar el sitio y procesar consultas. Pueden tratar datos fuera de su país. Consulte los requisitos regionales o contractuales antes de enviar archivos sensibles del proyecto.",
+        "items": [
+          "Cloudflare proporciona alojamiento del sitio y servicios de procesamiento de consultas y bases de datos.",
+          "Resend envía notificaciones de consultas a nuestro buzón de empresa.",
+          "Sanity entrega artículos públicos y archivos multimedia del sitio. Google Analytics opcional se controla desde Configurar cookies."
+        ]
+      },
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "es",
+      "field": "privacyPage.sections.dataRetention.title",
+      "before": "5. Retención de Datos",
+      "after": "6. Conservación de datos",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "es",
+      "field": "privacyPage.sections.yourRights.title",
+      "before": "6. Sus Derechos",
+      "after": "7. Sus solicitudes",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "es",
+      "field": "termsPage.lastUpdated",
+      "before": "Última Actualización: 26 de Enero, 2026",
+      "after": "Última actualización: 21 de octubre de 2026",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "es",
+      "field": "termsPage.contact.company",
+      "before": "Fuzhou RubberQ Rubber Co., Ltd.",
+      "after": "RubberQ",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "es",
+      "field": "termsPage.sections.acceptance.content",
+      "before": "Al acceder y utilizar el sitio web de Fuzhou RubberQ Rubber Co., Ltd. (el \"Sitio\"), usted reconoce que ha leído, entendido y acepta estar sujeto a estos Términos de Servicio. Si no está de acuerdo, por favor absténgase de usar el Sitio.",
+      "after": "Al acceder y utilizar el sitio web de RubberQ (el «Sitio»), usted reconoce que ha leído y comprendido estos Términos de Servicio y acepta quedar sujeto a ellos. Si no está de acuerdo, absténgase de utilizar el Sitio.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "es",
+      "field": "termsPage.sections.intellectualProperty.content",
+      "before": "Todas las marcas comerciales, logotipos y marcas de servicio mostradas en el Sitio son propiedad de RubberQ o de terceros. \"RubberQ\" y el logotipo de RubberQ son marcas registradas. El diseño, disposición y \"apariencia\" del Sitio están protegidos bajo leyes de derechos de autor.",
+      "after": "La identidad de RubberQ y los materiales del sitio identifican nuestra empresa y servicios. Los nombres y marcas de terceros pertenecen a sus respectivos titulares. El permiso para descargar materiales de evaluación no transfiere derechos de propiedad ni de reproducción.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "es",
+      "field": "termsPage.sections.siteContent.items.2",
+      "before": "El mal uso de nuestro sistema RFQ o el raspado automatizado de datos técnicos está estrictamente prohibido.",
+      "after": "Los servicios de búsqueda pueden indexar y enlazar las páginas públicas. No interrumpa el sitio, eluda los controles de acceso ni utilice indebidamente el sistema RFQ.",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "zh",
+      "field": "privacyPage.lastUpdated",
+      "before": "最后更新：2026年1月26日",
+      "after": "最后更新：2026年10月21日",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "zh",
+      "field": "privacyPage.cards.dataSecurity.title",
+      "before": "数据安全",
+      "after": "项目信息",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "zh",
+      "field": "privacyPage.cards.dataSecurity.description",
+      "before": "您的技术图纸和专有设计受到我们工业级安全协议的保护。",
+      "after": "请提供图纸、材料或制造评估所需的信息；特殊的数据处理要求可事先与我们商定。",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "zh",
+      "field": "privacyPage.cards.zeroSharing.title",
+      "before": "零共享",
+      "after": "项目沟通",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "zh",
+      "field": "privacyPage.cards.zeroSharing.description",
+      "before": "我们绝不会将您的商业联系信息或项目详情出售给第三方营销公司。",
+      "after": "联系信息和技术资料用于评估询盘、准备报价和开展项目沟通。",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "zh",
+      "field": "privacyPage.sections.informationCollect.content",
+      "before": "福州瑞博橡胶有限公司（以下简称「RubberQ」、「我们」）在您进行以下操作时收集您直接提供给我们的信息：",
+      "after": "RubberQ（“我们”）会接收您在以下情况下主动提供的信息：",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "zh",
+      "field": "privacyPage.sections.informationCollect.additionalInfo",
+      "before": "这些信息可能包括您的姓名、公司名称、电子邮件地址、电话号码、国家和具体项目需求。",
+      "after": "提交内容可能包括姓名、业务联系信息、公司、国家、项目要求、技术文件或链接，以及与询盘相关的页面和来源信息。",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "zh",
+      "field": "privacyPage.sections.intellectualProperty.content",
+      "before": "作为领先汽车品牌的OEM供应商，我们深知知识产权（IP）的重要性。上传到我们平台的任何图纸或专有数据都将被严格保密处理。访问权限仅限于必要的工程和生产人员。我们随时准备为您的项目签署正式的保密协议（NDA）。",
+      "after": "请仅发送您有权分享的图纸和信息。涉及NDA、访问限制或特定传输方式的文件，请在提交前联系我们，以便针对项目商定处理方式。",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "zh",
+      "field": "privacyPage.sections.cookies.content",
+      "before": "我们的网站使用必要的Cookie来确保网站功能和性能。我们还可能使用分析工具（如Google Analytics）来了解访问者如何与我们的内容互动，这有助于我们改进技术文档和用户体验。",
+      "after": "本网站使用浏览器存储记住您的Cookie选择。可选的Google Analytics在您允许访问分析后才加载。您可以从页脚重新打开“Cookie 设置”并关闭分析。启用分析时，会话存储可保留与相关询盘关联的入口页面和来源；关闭分析后会清除这项可选记录。您提交的询盘仍可包含当前页面、引荐页面、活动参数和点击的询盘入口。您也可以通过浏览器清除已保存的选择。",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "zh",
+      "field": "privacyPage.sections.dataRetention.content",
+      "before": "根据IATF 16949汽车标准的要求，我们可能会在规定期限内保留生产和质量记录以确保可追溯性。商业联系信息将在维持我们专业关系所需的期限内保留。",
+      "after": "询盘记录用于评估、回复及相关报价、订单或质量事务。保留需求取决于项目以及适用的合同或法律要求。如需了解与您的询盘相关的信息，请联系我们。",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "zh",
+      "field": "privacyPage.sections.yourRights.content",
+      "before": "您有权请求访问、更正或删除您的个人商业数据。如需提出此类请求，请通过以下提供的电子邮件联系我们的数据合规官。",
+      "after": "如对已提交的信息有疑问，或希望申请查阅、更正或删除，请发送邮件至contact@rubberq.com，并提供足以识别询盘的信息。我们会结合适用要求处理；相关交易或质量记录可能仍需保留。",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "zh",
+      "field": "privacyPage.contact.company",
+      "before": "福州瑞博橡胶有限公司",
+      "after": "RubberQ",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "zh",
+      "field": "privacyPage.contact.department",
+      "before": "数据保护办公室",
+      "after": "网站与项目咨询",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "zh",
+      "field": "privacyPage.sections.serviceProviders",
+      "before": null,
+      "after": {
+        "title": "5. 网站与询盘服务商",
+        "content": "我们使用服务商运营网站和处理询盘。服务商可能在您所在国家以外处理数据。如有地域或合同方面的数据处理要求，请在发送敏感项目文件前与我们沟通。",
+        "items": [
+          "Cloudflare提供网站托管、询盘处理和数据库服务。",
+          "Resend向我们的业务邮箱发送询盘通知。",
+          "Sanity提供公开文章和网站媒体内容；可选的Google Analytics由“Cookie 设置”控制。"
+        ]
+      },
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "zh",
+      "field": "privacyPage.sections.dataRetention.title",
+      "before": "5. 数据保留",
+      "after": "6. 数据保留",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "zh",
+      "field": "privacyPage.sections.yourRights.title",
+      "before": "6. 您的权利",
+      "after": "7. 您的请求",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "zh",
+      "field": "termsPage.lastUpdated",
+      "before": "最后更新：2026年1月26日",
+      "after": "最后更新：2026年10月21日",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "zh",
+      "field": "termsPage.contact.company",
+      "before": "福州瑞博橡胶有限公司",
+      "after": "RubberQ",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "zh",
+      "field": "termsPage.sections.acceptance.content",
+      "before": "访问和使用福州瑞博橡胶有限公司（以下简称「本网站」）的网站，即表示您已阅读、理解并同意受这些服务条款的约束。如果您不同意，请停止使用本网站。",
+      "after": "访问和使用RubberQ网站（“本网站”），表示您确认已阅读、理解并同意遵守本服务条款。如不同意，请停止使用本网站。",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "zh",
+      "field": "termsPage.sections.intellectualProperty.content",
+      "before": "本网站上显示的所有商标、标志和服务标记均为RubberQ或第三方的财产。「RubberQ」和RubberQ标志是注册商标。本网站的设计、布局和「外观和感觉」受版权法保护。",
+      "after": "RubberQ品牌标识和网站资料用于识别我们的业务与服务。第三方名称和商标归各自权利人所有。允许为评估目的下载资料，不代表转让所有权或复制权。",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "zh",
+      "field": "termsPage.sections.siteContent.items.2",
+      "before": "滥用我们的询价系统或自动抓取技术数据是严格禁止的。",
+      "after": "公开页面可供搜索服务建立索引和链接。请勿干扰网站运行、绕过访问控制或滥用RFQ系统。",
+      "reason": "Project and browser/inquiry workflow factual alignment; no new certification, security or registered-mark claim."
+    },
+    {
+      "locale": "en",
+      "field": "termsPage.contact.department",
+      "before": "Legal Department",
+      "after": "Website and project inquiries",
+      "reason": "Use the established inquiry contact and separate website use from unconfirmed industrial-standard obligations."
+    },
+    {
+      "locale": "en",
+      "field": "termsPage.cards.legalBinding.description",
+      "before": "By accessing this site, you agree to comply with our terms of use and industrial standards.",
+      "after": "These terms cover use of the website. Quotations and orders are handled through the relevant commercial documents.",
+      "reason": "Use the established inquiry contact and separate website use from unconfirmed industrial-standard obligations."
+    },
+    {
+      "locale": "de",
+      "field": "termsPage.contact.department",
+      "before": "Rechtsabteilung",
+      "after": "Website- und Projektanfragen",
+      "reason": "Use the established inquiry contact and separate website use from unconfirmed industrial-standard obligations."
+    },
+    {
+      "locale": "de",
+      "field": "termsPage.cards.legalBinding.description",
+      "before": "Durch den Zugriff auf diese Website erklären Sie sich mit unseren Nutzungsbedingungen und Industriestandards einverstanden.",
+      "after": "Diese Bedingungen betreffen die Nutzung der Website. Angebote und Aufträge werden in den jeweiligen Geschäftsunterlagen geregelt.",
+      "reason": "Use the established inquiry contact and separate website use from unconfirmed industrial-standard obligations."
+    },
+    {
+      "locale": "ja",
+      "field": "termsPage.contact.department",
+      "before": "法務部",
+      "after": "ウェブサイト・プロジェクトのお問い合わせ",
+      "reason": "Use the established inquiry contact and separate website use from unconfirmed industrial-standard obligations."
+    },
+    {
+      "locale": "ja",
+      "field": "termsPage.cards.legalBinding.description",
+      "before": "このサイトにアクセスすることにより、当社の利用規約および産業基準に従うことに同意したことになります。",
+      "after": "本規約はウェブサイトの利用に関するものです。見積もりと注文は、それぞれの取引書類で取り扱います。",
+      "reason": "Use the established inquiry contact and separate website use from unconfirmed industrial-standard obligations."
+    },
+    {
+      "locale": "es",
+      "field": "termsPage.contact.department",
+      "before": "Departamento Legal",
+      "after": "Consultas del sitio web y de proyectos",
+      "reason": "Use the established inquiry contact and separate website use from unconfirmed industrial-standard obligations."
+    },
+    {
+      "locale": "es",
+      "field": "termsPage.cards.legalBinding.description",
+      "before": "Al acceder a este sitio, usted acepta cumplir con nuestros términos de uso y estándares industriales.",
+      "after": "Estas condiciones regulan el uso del sitio. Las cotizaciones y los pedidos se tratan en los documentos comerciales correspondientes.",
+      "reason": "Use the established inquiry contact and separate website use from unconfirmed industrial-standard obligations."
+    },
+    {
+      "locale": "zh",
+      "field": "termsPage.contact.department",
+      "before": "法务部",
+      "after": "网站与项目咨询",
+      "reason": "Use the established inquiry contact and separate website use from unconfirmed industrial-standard obligations."
+    },
+    {
+      "locale": "zh",
+      "field": "termsPage.cards.legalBinding.description",
+      "before": "访问本网站即表示您同意遵守我们的使用条款和工业标准。",
+      "after": "本条款说明网站的使用条件。报价与订单通过相关商业文件处理。",
+      "reason": "Use the established inquiry contact and separate website use from unconfirmed industrial-standard obligations."
+    }
+  ]
+}

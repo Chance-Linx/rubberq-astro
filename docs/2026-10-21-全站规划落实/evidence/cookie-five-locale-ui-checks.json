@@ -1,0 +1,45 @@
+{
+  "scope": "Live local UI: reopen and save denied analytics in five languages. No real opt-in or GA4 receipt test.",
+  "results": [
+    {
+      "checkboxChecked": false,
+      "checkboxPresent": true,
+      "googleScriptElements": 0,
+      "path": "/privacy",
+      "region": "Cookie Preferences",
+      "settingsButton": "Cookie settings"
+    },
+    {
+      "checkboxChecked": false,
+      "checkboxPresent": true,
+      "googleScriptElements": 0,
+      "path": "/de/privacy",
+      "region": "Cookie-Einstellungen",
+      "settingsButton": "Cookie-Einstellungen"
+    },
+    {
+      "checkboxChecked": false,
+      "checkboxPresent": true,
+      "googleScriptElements": 0,
+      "path": "/ja/privacy",
+      "region": "Cookie設定",
+      "settingsButton": "Cookie設定"
+    },
+    {
+      "checkboxChecked": false,
+      "checkboxPresent": true,
+      "googleScriptElements": 0,
+      "path": "/es/privacy",
+      "region": "Preferencias de cookies",
+      "settingsButton": "Configurar cookies"
+    },
+    {
+      "checkboxChecked": false,
+      "checkboxPresent": true,
+      "googleScriptElements": 0,
+      "path": "/zh/privacy",
+      "region": "Cookie 偏好",
+      "settingsButton": "Cookie 设置"
+    }
+  ]
+}

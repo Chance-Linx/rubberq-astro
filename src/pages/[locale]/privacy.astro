@@ -2,7 +2,7 @@
 import LocaleLayout from '@/layouts/LocaleLayout.astro';
 import JsonLd from '@/components/JsonLd';
 import { createLocaleAlternates } from '@/lib/seoMetadata';
-import { getTranslations, t } from '@/lib/i18n';
+import { getTranslations, t, tRaw } from '@/lib/i18n';
 
 export function getStaticPaths() {
   return ['en','de','ja','es','zh'].map(locale => ({ params: { locale } }));
@@ -102,6 +102,12 @@ const _ = (key: string, fallback = '') => t(messages, `privacyPage.${key}`, fall
             <p class="leading-relaxed">
               {_('sections.cookies.content')}
             </p>
+          </section>
+
+          <section>
+            <h2 class="text-2xl font-bold border-b border-industrial-200 pb-2 mb-4 uppercase tracking-wide">{_('sections.serviceProviders.title')}</h2>
+            <p class="leading-relaxed mb-4">{_('sections.serviceProviders.content')}</p>
+            <ul class="list-disc pl-6 space-y-2">{(tRaw(messages, 'privacyPage.sections.serviceProviders.items') as string[]).map(item => <li>{item}</li>)}</ul>
           </section>
 
           <section>

@@ -197,15 +197,17 @@
         "rubberq-astro/docs/2026-10-21-全站规划落实/evidence/article-cover-decisions.json",
         "rubberq-astro/docs/2026-10-21-全站规划落实/evidence/article-layout-checks.json",
         "rubberq-astro/docs/2026-10-21-全站规划落实/evidence/discovery-implementation-checks.json",
-        "rubberq-astro/docs/2026-10-21-全站规划落实/evidence/legal-factual-followups.json"
+        "rubberq-astro/docs/2026-10-21-全站规划落实/evidence/legal-factual-followups.json",
+        "rubberq-astro/docs/2026-10-21-全站规划落实/evidence/legal-factual-revisions.json",
+        "rubberq-astro/docs/2026-10-21-全站规划落实/evidence/rfq-dataflow-source-review.json"
       ],
       "reports": [
         "rubberq-astro/docs/2026-10-21-线上获客执行/00-交付入口.md"
       ],
-      "next_step": "博客列表与五语种搜索已本地落实，16个专用元数据入口核对；继续法律正文事实与RFQ/cookie流程对齐、实际关键词图谱、全站移动端/完整RFQ及干净候选，最后一次集中审核。",
+      "next_step": "七项法律页事实已本地修订，Cookie重开/停用与询盘来源已落实；继续完整RFQ附件/存储/通知路径、实际关键词图谱、全站手机路径及干净候选，全部完成后集中审核。",
       "channel": "content",
       "source": "根任务清单RQAC系列的只读阶段投影",
-      "note": "35/35模块、27篇真实文章布局、博客分类/分页及五语种搜索已本地实现；本轮36项HTTP检查、32次手机/平板布局及17测试通过。隐私/条款正文保持，7项既有事实待核对。CMS/付费/部署0，覆盖与全项目审核尚未验收。",
+      "note": "35模块、27文章与博客/搜索保持；本轮115个五语种法律字段定向修订，9项隐私/来源用例和五语种设置UI通过，20法律页视口+5手机面板无溢出。已定位Worker通知只含附件名的问题，尚未证明文件送达。CMS/付费/部署0，集中审核未开始。",
       "delivered_at": null
     }
   ]

@@ -719,19 +719,35 @@
           "es",
           "zh"
         ],
-        "legal_body_objects_preserved": 10,
-        "legal_factual_followups": 7,
-        "factual_review": "pending",
+        "legal_factual_followups": 0,
+        "factual_review": "seven_targeted_issues_addressed_in_local_copy_and_controls_final_review_pending",
         "followup_artifact": "evidence/legal-factual-followups.json",
-        "legal_acceptance": false
+        "legal_acceptance": false,
+        "baseline_body_objects_preserved_in_evidence": 10,
+        "local_revision_fields": 115,
+        "revision_artifact": "evidence/legal-factual-revisions.json"
       },
       "actual_metadata_routes_checked": 16,
       "mobile_tablet_browser_checks_passed": 32,
       "verification_artifact": "evidence/discovery-implementation-checks.json",
       "mobile_artifact": "evidence/discovery-mobile-layout-checks.json"
+    },
+    "privacy_cookie_source": {
+      "targeted_copy_issues_addressed_local": 7,
+      "legal_revision_fields": 115,
+      "cookie_footer_reopen_locales": 5,
+      "optional_analytics": "denied_until_opt_in;ga_disable_and_consent_update_on_withdrawal;no_real_opt_in_browser_collection_test",
+      "source_context": "explicit_source_or_same_origin_referral;cta;submission_or_consented_session_mode",
+      "storage_failures": "local_source_harness_passed;inquiry_source_collection_does_not_throw",
+      "unit_source_cases_passed": 9,
+      "browser_layout_measurements": 25,
+      "rfq_existing_contract_cases_passed": 116,
+      "source_d1_json_notification_contract": "checked_local_no_D1_insert_or_email_send",
+      "attachment_delivery": "pending_worker_payload_implementation_and_end_to_end_check",
+      "evidence": "evidence/rfq-dataflow-source-review.json"
     }
   },
-  "next_action": "Resolve existing legal factual statements against company/RFQ/cookie evidence; reconcile operational keyword/graph relationships; complete five-locale whole-site mobile and full RFQ checks; prepare a clean candidate and perform one consolidated final review.",
+  "next_action": "Implement and verify the complete RFQ attachment/persistence/notification path locally; reconcile operational keyword and graph relationships; complete whole-site mobile paths and a clean candidate, then perform one consolidated final review.",
   "status_evidence": {
     "implemented_page_specs": 45,
     "message_page_specs": 49,

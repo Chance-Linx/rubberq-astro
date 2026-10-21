@@ -611,11 +611,17 @@
   },
   "cookieConsent": {
     "title": "Preferencias de cookies",
-    "descriptionPrefix": "RubberQ utiliza cookies necesarias para que este sitio funcione correctamente. Con su permiso, usamos cookies analíticas para entender qué páginas técnicas son útiles y mejorar el sitio. Lea nuestra",
+    "descriptionPrefix": "Guardamos su elección en el navegador. La analítica opcional nos ayuda a entender el uso del sitio. Lea nuestra",
     "privacyLink": "Política de Privacidad",
     "descriptionSuffix": "para más detalles.",
     "decline": "Solo necesarias",
-    "acceptAll": "Aceptar todo"
+    "acceptAll": "Aceptar todo",
+    "preferencesTitle": "Preferencias de cookies y almacenamiento",
+    "customize": "Configurar cookies",
+    "savePreferences": "Guardar preferencias",
+    "necessaryLabel": "Almacenamiento necesario",
+    "analyticsLabel": "Analítica opcional",
+    "alwaysOn": "Siempre activo"
   },
   "quality": {
     "title": "Garantía de Calidad",
@@ -1288,15 +1294,15 @@
   },
   "privacyPage": {
     "title": "Política de Privacidad",
-    "lastUpdated": "Última Actualización: 26 de Enero, 2026",
+    "lastUpdated": "Última actualización: 21 de octubre de 2026",
     "cards": {
       "dataSecurity": {
-        "title": "Seguridad de Datos",
-        "description": "Sus dibujos técnicos y diseños propietarios están protegidos bajo nuestros protocolos de seguridad de grado industrial."
+        "title": "Información del proyecto",
+        "description": "Comparta los datos necesarios para revisar planos, materiales o fabricación. Consulte antes cualquier requisito especial de tratamiento."
       },
       "zeroSharing": {
-        "title": "Cero Compartición",
-        "description": "Nunca vendemos su información de contacto comercial o detalles del proyecto a firmas de marketing de terceros."
+        "title": "Comunicación del proyecto",
+        "description": "Los datos de contacto y la información técnica se utilizan para evaluar consultas, preparar cotizaciones y comunicarnos sobre el proyecto."
       },
       "transparency": {
         "title": "Transparencia",
@@ -1306,14 +1312,14 @@
     "sections": {
       "informationCollect": {
         "title": "1. Información Que Recopilamos",
-        "content": "Fuzhou RubberQ Rubber Co., Ltd. (\"RubberQ\", \"nosotros\", \"nos\" o \"nuestro\") recopila información que usted nos proporciona directamente cuando:",
+        "content": "RubberQ («nosotros») recibe la información que usted decide proporcionar cuando:",
         "items": [
           "Envía una Solicitud de Cotización (RFQ) o formulario de contacto.",
           "Sube dibujos técnicos, especificaciones o modelos 3D.",
           "Solicita muestras de materiales o consultas técnicas.",
           "Se comunica con nuestros equipos de ingeniería y ventas."
         ],
-        "additionalInfo": "Esta información puede incluir su nombre, nombre de la empresa, dirección de correo electrónico, número de teléfono, país y requisitos específicos del proyecto."
+        "additionalInfo": "Los datos enviados pueden incluir nombre, contacto profesional, empresa, país, requisitos del proyecto, archivos técnicos o enlaces, y la página o referencia asociada a la consulta."
       },
       "howWeUse": {
         "title": "2. Cómo Utilizamos Su Información",
@@ -1339,26 +1345,35 @@
       },
       "intellectualProperty": {
         "title": "3. Protección de la Propiedad Intelectual",
-        "content": "Como proveedor OEM para marcas automotrices líderes, entendemos la importancia crítica de la Propiedad Intelectual (IP). Cualquier dibujo o dato propietario subido a nuestra plataforma se trata con estricta confidencialidad. El acceso está restringido al personal de ingeniería y producción necesario. Estamos preparados para firmar Acuerdos de Confidencialidad (NDA) formales para sus proyectos."
+        "content": "Envíe únicamente planos e información que esté autorizado a compartir. Contacte con nosotros antes de enviar archivos que requieran un NDA, acceso restringido o un método de transferencia específico, para acordar su tratamiento en el proyecto."
       },
       "cookies": {
         "title": "4. Cookies y Rastreo",
-        "content": "Nuestro sitio web utiliza cookies esenciales para garantizar la funcionalidad y el rendimiento del sitio. También podemos utilizar herramientas de análisis (como Google Analytics) para entender cómo los visitantes interactúan con nuestro contenido, lo que nos ayuda a mejorar nuestra documentación técnica y experiencia de usuario."
+        "content": "Este sitio guarda su elección de cookies en el almacenamiento del navegador. Google Analytics opcional se carga después de que usted autorice la analítica. Puede reabrir Configurar cookies en el pie de página y desactivarla. Si permite la analítica, el almacenamiento de sesión puede conservar la página de entrada y la referencia para una consulta relacionada; este registro opcional se elimina al desactivarla. Una consulta enviada puede seguir incluyendo la página actual, la página de referencia, los parámetros de campaña y el acceso de consulta utilizado. También puede eliminar las preferencias desde su navegador."
       },
       "dataRetention": {
-        "title": "5. Retención de Datos",
-        "content": "En cumplimiento con los estándares automotrices IATF 16949, podemos retener registros de producción y calidad por períodos especificados para asegurar la trazabilidad. La información de contacto comercial se retiene tanto tiempo como sea necesario para mantener nuestra relación profesional."
+        "title": "6. Conservación de datos",
+        "content": "Los registros de consultas permiten evaluarlas, responder y atender cotizaciones, pedidos o asuntos de calidad relacionados. La conservación depende del proyecto y de los requisitos contractuales o legales aplicables. Contáctenos para consultar la información asociada a su solicitud."
       },
       "yourRights": {
-        "title": "6. Sus Derechos",
-        "content": "Usted tiene el derecho de solicitar acceso a, corrección de o eliminación de sus datos comerciales personales. Para tales solicitudes, por favor contacte a nuestro oficial de cumplimiento de datos en el correo electrónico proporcionado a continuación."
+        "title": "7. Sus solicitudes",
+        "content": "Para preguntas sobre información enviada o solicitudes de acceso, corrección o eliminación, escriba a contact@rubberq.com e incluya datos suficientes para identificar su consulta. Consideraremos los requisitos aplicables; puede ser necesario conservar registros de transacciones o de calidad relacionados."
+      },
+      "serviceProviders": {
+        "title": "5. Proveedores del sitio y de consultas",
+        "content": "Utilizamos proveedores para operar el sitio y procesar consultas. Pueden tratar datos fuera de su país. Consulte los requisitos regionales o contractuales antes de enviar archivos sensibles del proyecto.",
+        "items": [
+          "Cloudflare proporciona alojamiento del sitio y servicios de procesamiento de consultas y bases de datos.",
+          "Resend envía notificaciones de consultas a nuestro buzón de empresa.",
+          "Sanity entrega artículos públicos y archivos multimedia del sitio. Google Analytics opcional se controla desde Configurar cookies."
+        ]
       }
     },
     "contact": {
       "title": "Contáctenos",
       "description": "Si tiene preguntas sobre esta Política de Privacidad, por favor contacte:",
-      "company": "Fuzhou RubberQ Rubber Co., Ltd.",
-      "department": "Oficina de Protección de Datos",
+      "company": "RubberQ",
+      "department": "Consultas del sitio web y de proyectos",
       "email": "Correo: contact@rubberq.com",
       "address": "Dirección: Fuzhou, Provincia de Fujian, China"
     }
@@ -1433,11 +1448,11 @@
   },
   "termsPage": {
     "title": "Términos de Servicio",
-    "lastUpdated": "Última Actualización: 26 de Enero, 2026",
+    "lastUpdated": "Última actualización: 21 de octubre de 2026",
     "cards": {
       "legalBinding": {
         "title": "Vinculación Legal",
-        "description": "Al acceder a este sitio, usted acepta cumplir con nuestros términos de uso y estándares industriales."
+        "description": "Estas condiciones regulan el uso del sitio. Las cotizaciones y los pedidos se tratan en los documentos comerciales correspondientes."
       },
       "technicalDisclaimer": {
         "title": "Descargo de Responsabilidad Técnico",
@@ -1447,7 +1462,7 @@
     "sections": {
       "acceptance": {
         "title": "1. Aceptación de los Términos",
-        "content": "Al acceder y utilizar el sitio web de Fuzhou RubberQ Rubber Co., Ltd. (el \"Sitio\"), usted reconoce que ha leído, entendido y acepta estar sujeto a estos Términos de Servicio. Si no está de acuerdo, por favor absténgase de usar el Sitio."
+        "content": "Al acceder y utilizar el sitio web de RubberQ (el «Sitio»), usted reconoce que ha leído y comprendido estos Términos de Servicio y acepta quedar sujeto a ellos. Si no está de acuerdo, absténgase de utilizar el Sitio."
       },
       "siteContent": {
         "title": "2. Uso del Contenido del Sitio",
@@ -1455,12 +1470,12 @@
         "items": [
           "Puede descargar material para la evaluación de nuestros servicios por parte de su empresa.",
           "La distribución no autorizada o reproducción para ganancia comercial está prohibida.",
-          "El mal uso de nuestro sistema RFQ o el raspado automatizado de datos técnicos está estrictamente prohibido."
+          "Los servicios de búsqueda pueden indexar y enlazar las páginas públicas. No interrumpa el sitio, eluda los controles de acceso ni utilice indebidamente el sistema RFQ."
         ]
       },
       "intellectualProperty": {
         "title": "3. Propiedad Intelectual",
-        "content": "Todas las marcas comerciales, logotipos y marcas de servicio mostradas en el Sitio son propiedad de RubberQ o de terceros. \"RubberQ\" y el logotipo de RubberQ son marcas registradas. El diseño, disposición y \"apariencia\" del Sitio están protegidos bajo leyes de derechos de autor."
+        "content": "La identidad de RubberQ y los materiales del sitio identifican nuestra empresa y servicios. Los nombres y marcas de terceros pertenecen a sus respectivos titulares. El permiso para descargar materiales de evaluación no transfiere derechos de propiedad ni de reproducción."
       },
       "engineeringDisclaimer": {
         "title": "4. Descargo de Responsabilidad de Ingeniería",
@@ -1482,8 +1497,8 @@
     "contact": {
       "title": "¿Preguntas?",
       "description": "Para consultas legales con respecto a nuestros términos, por favor contacte:",
-      "department": "Departamento Legal",
-      "company": "Fuzhou RubberQ Rubber Co., Ltd.",
+      "department": "Consultas del sitio web y de proyectos",
+      "company": "RubberQ",
       "email": "Correo: contact@rubberq.com"
     }
   },
