@@ -102,6 +102,30 @@
       ],
       "use": "公开方法定义与步骤用于组织客户问题资料和验证讨论，不当作RubberQ客户案例、时效或具体体系执行证明。",
       "checked_on": "2026-10-21"
+    },
+    {
+      "id": "RMI-CMRT-SCOPE",
+      "title": "MRT Introduction — CMRT scope",
+      "url": "https://www.responsiblemineralsinitiative.org/reporting-templates/mrt-introduction/",
+      "publisher": "Responsible Minerals Initiative",
+      "read_sections": [
+        "MRT Introduction",
+        "Conflict Minerals Reporting Template"
+      ],
+      "use": "公开说明CMRT为传递3TG来源及冶炼/精炼信息的模板，不证明RubberQ已有完整声明或上游审计；未代填、未外发或取得付费数据库。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "ISO-2230-SCOPE",
+      "title": "ISO 2230:2026 — Rubber products, Guidelines for storage",
+      "url": "https://www.iso.org/standard/89162.html",
+      "publisher": "ISO",
+      "read_sections": [
+        "Abstract",
+        "Edition/publication information"
+      ],
+      "use": "公开摘要核对制品/组件检验、记录、包装与储存范围；2026年版元数据已查，不复制付费限值表，不把它直接当作生胶仓储规定或自动延寿证明。客户合同的适用版仍需逐项确认。",
+      "checked_on": "2026-10-21"
     }
   ],
   "paid_access": false
