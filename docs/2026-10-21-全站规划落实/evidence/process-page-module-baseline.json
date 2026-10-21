@@ -1,0 +1,16 @@
+{
+  "baseline_commit": "35aa704814433bbdaca516ed079cd0dae1ffb692",
+  "scope": [
+    "/materials/lsr",
+    "/capabilities/lsr-molding",
+    "/capabilities/rubber-molding",
+    "/compounding"
+  ],
+  "files": {
+    "src/messages/en.json": "b897bbd71ca82904b5d9adf7c3a0b01129ed582bae87743ecfe0809dedbd88ee",
+    "src/messages/de.json": "790651a83503cd1c883fc4f8a021618bc39222d6345ac37abb8e29d74d80a553",
+    "src/messages/ja.json": "fbf8e29b3bddfa62b3669daf4e14321b4d98124374b3cbfc5c9ad866b40f36a3",
+    "src/messages/es.json": "ad49f875b7be923b02f95cf8efdde9629a553e3d112812b11d72690ab54bba00",
+    "src/messages/zh.json": "c7ad8585c8f152e960efac5ca60adb986f083a3c90781aec5544e494cdad1952"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-21",
+  "scope": "Public primary processing terminology and scope; not RubberQ equipment, sample data or approved manufacturing instructions",
+  "references": [
+    {
+      "id": "WACKER-MOLDING-PROCESS-SCOPE",
+      "url": "https://www.wacker.com/h/medias/6709-EN.pdf",
+      "scope_read": "Section5.1 process-selection discussion; compression/transfer portions of5.3; public2K/insert-process options excerpt in5.4. This is not a full re-read of all processing instructions.",
+      "use": "Cross-check material/process distinctions and why grade, geometry, tooling and substrate require a project review. Do not reproduce supplier process settings or transfer vendor product performance, equipment or2K capability to RubberQ.",
+      "public_link_added": false
+    }
+  ],
+  "project_facts": "Japanese formulation support, in-house mixing/molding/testing and ERP traceability use the user-provided project fact source. No named Japanese partner, equipment count, dosing precision or fixed development time added.",
+  "paid_calls": 0,
+  "new_factory_test_results": 0
+}

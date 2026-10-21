@@ -3574,21 +3574,99 @@
       "RQ-PG-018": {
         "label": "LSR",
         "title": "Silicona líquida: materiales y revisión de piezas | RubberQ",
-        "description": "Evalúe silicona líquida como posible opción para su plano.",
+        "description": "Compare silicona líquida y sólida según grado, geometría, fluidos y pedidos. Defina pruebas de material y pieza terminada para la aplicación prevista.",
         "h1": "Silicona líquida: materiales y revisión de piezas",
         "intro": "Evalúe silicona líquida como posible opción para su plano. Geometría, grado del material, molde e inspección determinan la consulta del proyecto.",
         "sections": [
           {
-            "heading": "Revisar juntos pieza y molde",
-            "body": "Envíe plano con detalles finos, aristas de sellado, restricciones de partición e insertos. Incluya volumen y dimensiones críticas de montaje."
+            "heading": "Elegir una ruta para el componente real",
+            "body": "Aporte plano, grado existente o propiedades requeridas, muestras y patrón de pedido. Compare silicona líquida con una ruta de silicona sólida usando los mismos requisitos funcionales. Formato, molde y proceso deben evaluarse conjuntamente; la disponibilidad se confirma para el proyecto definido."
           },
           {
-            "heading": "Especificar grado y exposición",
-            "body": "Describa dureza, color, temperatura y fluidos. Todo requisito de certificación debe identificar el grado real y la aplicación prevista."
+            "heading": "Comparar la información detrás de cada propuesta",
+            "body": "Pregunte qué material se suministra o procesa y cómo la ruta propuesta responde al plano y a la inspección.",
+            "table": {
+              "caption": "Información para comparar rutas de silicona",
+              "columns": [
+                "Propuesta",
+                "Datos que confirmar"
+              ],
+              "rows": [
+                [
+                  "Silicona sólida",
+                  "Grado o compuesto identificado, formato, método de moldeo, molde y condiciones de muestra"
+                ],
+                [
+                  "Silicona líquida",
+                  "Componentes o grado identificados, manipulación, mezcla y condiciones propuestas de molde y moldeo"
+                ],
+                [
+                  "Ambas rutas",
+                  "Geometría crítica, fluidos, acabado, inspección, demanda y criterios de aprobación"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/materials/silicone",
+                "label": "Requisitos de material y piezas de silicona"
+              },
+              {
+                "url": "/capabilities/lsr-molding",
+                "label": "Revisar molde y fabricación LSR"
+              }
+            ]
           },
           {
-            "heading": "Definir la preparación de muestras",
-            "body": "Consulte molde, inspección y comprobaciones funcionales antes de acordar producción. La disponibilidad del proceso se confirma para cada proyecto."
+            "heading": "Definir con precisión las funciones de fluido pequeñas",
+            "body": "Para un sello pequeño o una pieza alrededor de canales, marque zona de sellado, geometría de canal, alineación y dimensiones funcionales. Identifique cada fluido, concentración, temperatura y limpieza. Acuerde apoyo de medición, manipulación y criterio de fugas o caudal del conjunto para muestras representativas.",
+            "items": [
+              "Separar dimensiones del plano de holgura y compresión instaladas.",
+              "Identificar superficies y bordes que afectan sellado o flujo.",
+              "Acordar medición, embalaje y montaje de muestras."
+            ],
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "Geometría del sello e inspección de muestras"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Información de fluidos y exposición"
+              }
+            ]
+          },
+          {
+            "heading": "Comparar por separado material y pieza",
+            "body": "Especifique propiedades y preparación del ensayo. Defina dimensiones, aspecto, rebaba y poscurado exigido de la pieza. Relacione resultados con grado, estado y lote. Color o transparencia, informe de material y función instalada necesitan bases de aceptación propias.",
+            "links": [
+              {
+                "url": "/blog/post-curing-silicone-rubber-parts-volatile-control-compression-set",
+                "label": "Evaluar poscurado y control de volátiles (inglés)"
+              },
+              {
+                "url": "/testing",
+                "label": "Planificar pruebas de material, pieza y conjunto"
+              }
+            ]
+          },
+          {
+            "heading": "Preparar la decisión de candidato y muestras",
+            "body": "Envíe especificación original, revisión del plano, cantidad y cuestión que deben resolver las muestras. Acuerde material, fabricación, evaluación y responsable de aprobación antes del suministro recurrente. Incluya registros, embalaje y revisión de cambios en la consulta.",
+            "links": [
+              {
+                "url": "/products/custom",
+                "label": "Información para un componente a medida"
+              },
+              {
+                "url": "/quality",
+                "label": "Registros de aprobación y trazabilidad"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Consultar muestras de silicona"
+              }
+            ]
           }
         ],
         "cta": "Consultar una aplicación LSR",
@@ -3666,21 +3744,150 @@
       "RQ-PG-022": {
         "label": "Moldeo de caucho",
         "title": "Moldeo de caucho a medida | RubberQ",
-        "description": "Evalúe una ruta de moldeo según pieza, compuesto y pedido.",
+        "description": "Revise procesos de moldeo de caucho, moldes, tolerancias y datos de pruebas. Defina compuesto, inspección y aprobación de muestras para su componente.",
         "h1": "Moldeo de caucho a medida",
         "intro": "Evalúe una ruta de moldeo según pieza, compuesto y pedido. Molde, dimensiones prioritarias, particiones e inspección deben revisarse juntos.",
         "sections": [
           {
-            "heading": "Diseñar una pieza reproducible",
-            "body": "Marque dimensiones críticas y superficies funcionales. Consulte desmoldeo, cambios de espesor, posición de insertos, rebaba y partición prevista."
+            "heading": "Comparar propuestas con una misma especificación",
+            "body": "Empiece por revisión del plano, compuesto, insertos, características críticas y pedidos. Compare compresión, transferencia e inyección con los mismos criterios. Confirme proceso real, molde y producción con la oferta.",
+            "table": {
+              "caption": "Preguntas para comparar procesos de moldeo de caucho",
+              "columns": [
+                "Proceso",
+                "Detalles del proyecto"
+              ],
+              "rows": [
+                [
+                  "Compresión",
+                  "Carga o preforma, colocación, partición y venteo, curado y desmoldeo"
+                ],
+                [
+                  "Transferencia",
+                  "Recorrido del material, entradas y canales, llenado, insertos y curado"
+                ],
+                [
+                  "Inyección",
+                  "Alimentación, historial de permanencia y flujo, ventana de proceso, cavidades y venteo"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/products/custom",
+                "label": "Plano y datos de pieza a medida"
+              },
+              {
+                "url": "/compounding",
+                "label": "Revisar compuesto y preparación"
+              }
+            ]
           },
           {
-            "heading": "Comparar opciones de proceso",
-            "body": "Compresión, transferencia e inyección presentan distintas exigencias de molde y material. Revisamos adecuación y posibilidades de producción para la pieza concreta."
+            "heading": "Especificar dimensiones funcionales y superficie final",
+            "body": "Marque zonas funcionales y visibles, límites de partición, texturas y dirección de desmoldeo. Acuerde restricciones de desmoldeantes o limpieza y marcas de expulsión aceptables. Una referencia M2 necesita norma y edición aplicables, características, intervalo dimensional y condiciones de medición. Incluya acabado y acondicionamiento.",
+            "links": [
+              {
+                "url": "/blog/flash-on-molded-parts-defining-flash-free-and-its-cost-implications",
+                "label": "Definir aceptación de rebabas (inglés)"
+              },
+              {
+                "url": "/blog/cryogenic-deflashing-vs-manual-trimming-precision-rubber-parts",
+                "label": "Comparar acabados (inglés)"
+              },
+              {
+                "url": "/blog/measurement-system-analysis-msa-ensuring-gage-rr-in-rubber-testing",
+                "label": "Revisar el proceso de medición (inglés)"
+              }
+            ]
           },
           {
-            "heading": "Aprobar la base de las muestras",
-            "body": "Acuerde revisión del plano, inspección y comprobaciones funcionales. Incluya demanda prevista y requisitos de cambios posteriores."
+            "heading": "Investigar cada problema de prueba por separado",
+            "body": "Identifique muestra, cavidad, lote y proceso antes de cambiar condiciones. Localice la observación, compare muestras equivalentes y acuerde prueba controlada y datos para evaluarla.",
+            "table": {
+              "caption": "Observaciones y registros útiles de investigación",
+              "columns": [
+                "Observación",
+                "Datos que recoger"
+              ],
+              "rows": [
+                [
+                  "Llenado incompleto",
+                  "Zona ausente, flujo, entradas y venteos, carga, estado de material y proceso"
+                ],
+                [
+                  "Huecos internos",
+                  "Lugar y forma, sección o método de examen, identificación, venteo e historial de curado"
+                ],
+                [
+                  "Línea de flujo o unión",
+                  "Lugar, frentes de flujo, venteo, estado de material y curado, aspecto y función"
+                ],
+                [
+                  "Pegajosidad o prevulcanización",
+                  "Almacenamiento, permanencia y temperatura, entorno, contaminación y muestras comparativas"
+                ],
+                [
+                  "Depósitos en molde",
+                  "Historial de ciclos, residuos, lote, estado del molde y limpieza"
+                ],
+                [
+                  "Desajuste de partición",
+                  "Lugar, cavidad y alineación, cierre, dimensiones y rebaba"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/root-cause-analysis-8d-rubberqs-process-for-resolving-quality-deviations",
+                "label": "Preparar la investigación de una desviación (inglés)"
+              }
+            ]
+          },
+          {
+            "heading": "Identificar carga, peso y uso de material",
+            "body": "Defina compuesto y datos de carga o preforma. Registre pieza neta, canales y rebaba por separado al comparar consumo. Relacione diferencias de peso con densidad, cavidad y proceso: el peso no demuestra distribución de llenado ni sellado. Temperatura, permanencia y cambios de curado requieren registros del material y proceso, sin una receta genérica de corrección."
+          },
+          {
+            "heading": "Planificar verificación según el riesgo funcional",
+            "body": "Para cada característica crítica, relacione función, fallo posible, causas, prevención o detección y prueba que verificará el requisito. Defina aceptación antes de probar; un buen aspecto no constituye el resultado funcional completo.",
+            "items": [
+              "Identificar función, interfaz y consecuencia del incumplimiento.",
+              "Acordar controles de material, molde o proceso y medición del resultado.",
+              "Registrar condiciones de muestra, decisión de aceptación y acciones pendientes."
+            ],
+            "links": [
+              {
+                "url": "/testing",
+                "label": "Verificación de pieza y conjunto"
+              },
+              {
+                "url": "/blog/spc-in-rubber-molding-how-cpk-167-delivers-zero-defect-batches",
+                "label": "Interpretar SPC y capacidad de proceso (inglés)"
+              }
+            ]
+          },
+          {
+            "heading": "Aprobar muestras y base de fabricación recurrente",
+            "body": "Acuerde plano, compuesto, revisión de molde, muestras, inspección, registros y embalaje. Formulación, mezclado, moldeo, ensayos y trazabilidad ERP de RubberQ pueden revisarse como un proyecto. Confirme alcance de control y presentación, cambios y términos de producción antes de pedidos recurrentes.",
+            "links": [
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Vincular registros de material, proceso y entrega (inglés)"
+              },
+              {
+                "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+                "label": "PPAP y presentación al cliente (inglés)"
+              },
+              {
+                "url": "/quality",
+                "label": "Requisitos de calidad y cambios"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Preparar muestras de moldeo"
+              }
+            ]
           }
         ],
         "cta": "Consultar un proyecto de moldeo",
@@ -3689,21 +3896,107 @@
       "RQ-PG-023": {
         "label": "Moldeo LSR",
         "title": "Revisión de moldeo para piezas LSR | RubberQ",
-        "description": "Comparta el plano de su pieza de silicona líquida para revisar material, molde y fabricación.",
+        "description": "Prepare una consulta de moldeo LSR con grado, plano, molde, insertos y demanda. Acuerde inspección de muestras, evaluación de unión y suministro.",
         "h1": "Revisión de moldeo para piezas LSR",
         "intro": "Comparta el plano de su pieza de silicona líquida para revisar material, molde y fabricación. Características críticas, requisitos del grado y volumen orientan la consulta.",
         "sections": [
           {
-            "heading": "Definir prioridades de la pieza",
-            "body": "Identifique secciones finas, aristas de sellado, requisitos ópticos o de aspecto y particiones admitidas. Incluya planos de montaje si el ajuste es crítico."
+            "heading": "Preparar la solicitud de fabricación LSR",
+            "body": "Aporte plano vigente, material de referencia y demanda. Defina función de la pieza y características que controlan el montaje. Proceso, alcance de molde, disponibilidad de material y secuencia de entrega se confirman según el proyecto.",
+            "table": {
+              "caption": "Información para revisar moldeo LSR",
+              "columns": [
+                "Dato",
+                "Qué incluir"
+              ],
+              "rows": [
+                [
+                  "Material",
+                  "Grado o propiedades exigidas, color y condiciones de contacto"
+                ],
+                [
+                  "Geometría",
+                  "Datos 3D, revisión del plano, espesores, características críticas y referencias"
+                ],
+                [
+                  "Aspecto",
+                  "Zonas superficiales, partición, rebaba y referencia visual aprobada"
+                ],
+                [
+                  "Insertos",
+                  "Sustrato y grado completo, estado de suministro y requisitos dimensionales"
+                ],
+                [
+                  "Demanda",
+                  "Cantidad de prueba, pedidos y producción prevista"
+                ],
+                [
+                  "Aceptación",
+                  "Dimensiones, aspecto, ensayos funcionales y documentación del cliente"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/materials/lsr",
+                "label": "Evaluar la ruta de material LSR"
+              },
+              {
+                "url": "/products/custom",
+                "label": "Requisitos del proyecto de componente"
+              }
+            ]
           },
           {
-            "heading": "Revisar material y ruta productiva",
-            "body": "Especifique dureza, color, exposición y requisitos del grado. La organización de producción y el proceso se confirman para el proyecto."
+            "heading": "Revisar el molde antes de comparar costes",
+            "body": "Identifique cavidades, llenado y venteo, entradas, partición, posición de insertos y desmoldeo. Acuerde suministro o propiedad del molde, mantenimiento y efecto de cambios del plano sobre pruebas. Compare ofertas con el mismo material, alcance, muestras y supuestos de pedido. La economía del molde depende de la propuesta real."
           },
           {
-            "heading": "Planificar la cualificación",
-            "body": "Acuerde muestras, medidas, ensayos funcionales y documentación antes de producir. Los compromisos de molde y entrega siguen a la revisión técnica."
+            "heading": "Definir sobremoldeo y adhesión",
+            "body": "Para un sustrato termoplástico, aporte grado completo, estado superficial, límites de preparación y geometría. Indique inserto suministrado, sobremoldeo separado o propuesta multicomponente. Revise pareja de materiales, curado y exposición del sustrato conjuntamente. Especifique evaluación de unión o separación y acondicionamiento. Disponibilidad del proceso y adhesión se confirman para esa combinación.",
+            "links": [
+              {
+                "url": "/testing",
+                "label": "Consultar evaluación de adhesión y componente"
+              }
+            ]
+          },
+          {
+            "heading": "Acordar qué deben demostrar las muestras",
+            "body": "Relacione material de prueba, revisión de molde y muestras con la inspección. Defina aceptación visual y dimensional antes de probar. Para insertos o interfaces unidas, especifique alineación, adhesión y comprobaciones funcionales del conjunto.",
+            "items": [
+              "Medir muestras identificadas en el estado final y acondicionado acordado.",
+              "Revisar rebaba, superficies e insertos frente al plano o referencia aprobada.",
+              "Evaluar función y registrar cambios antes de aprobar muestras."
+            ],
+            "links": [
+              {
+                "url": "/blog/flash-on-molded-parts-defining-flash-free-and-its-cost-implications",
+                "label": "Definir aceptación de rebabas (inglés)"
+              },
+              {
+                "url": "/blog/post-curing-silicone-rubber-parts-volatile-control-compression-set",
+                "label": "Requisitos y evaluación de poscurado (inglés)"
+              }
+            ]
+          },
+          {
+            "heading": "Trasladar el resultado aprobado al pedido",
+            "body": "Acuerde plano y grado aprobados, embalaje, lotes, registros y revisión de cambios. Defina la presentación al cliente por separado del resultado de muestra. Confirme coste del molde, producción y entrega según el alcance.",
+            "links": [
+              {
+                "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+                "label": "PPAP y alcance documental del cliente (inglés)"
+              },
+              {
+                "url": "/quality",
+                "label": "Registros de calidad y trazabilidad"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Consultar muestras de prueba"
+              }
+            ]
           }
         ],
         "cta": "Enviar un plano de pieza LSR",
@@ -3712,25 +4005,153 @@
       "RQ-PG-024": {
         "label": "Mezclado y formulación",
         "title": "Compuestos de caucho y apoyo en formulación | RubberQ",
-        "description": "Compuestos de caucho con apoyo japonés en formulación, preparación controlada, identificación de lotes y ensayos de liberación acordados con RubberQ.",
+        "description": "Vincule formulación, mezclado y evaluación de piezas con una especificación. Acuerde identidad del compuesto, registros de lote, datos de curado y liberación.",
         "h1": "Compuestos de caucho y apoyo en formulación",
         "intro": "Compounded by Japan. Built in China. Tested in-House. Relacione sus condiciones de servicio con un compuesto candidato, una preparación controlada y un plan de ensayos de liberación acordado.",
         "sections": [
           {
-            "heading": "Traducir la aplicación en especificación",
-            "body": "Comparta medio, temperatura, movimiento, propiedades objetivo y procesamiento. Incluya la especificación de material existente si está disponible."
+            "heading": "Conectar formulación y pieza fabricada",
+            "body": "RubberQ combina apoyo de formulación japonés con mezclado, moldeo, ensayos internos y trazabilidad ERP en Fuzhou. Empiece por servicio y decisión que debe respaldar el candidato. Compuesto, molde, proceso y montaje se evalúan juntos para el proyecto."
           },
           {
-            "heading": "Controlar la preparación",
-            "body": "Receta, pesaje, secuencia de mezclado e identificación de lote conectan desarrollo y fabricación recurrente. Consulte controles y documentación del proyecto."
+            "heading": "Preparar la solicitud de formulación y validación",
+            "body": "Aporte especificación o compuesto de referencia, uso y propiedades importantes. Identifique requisitos fijos y cambios que pueden discutirse.",
+            "table": {
+              "caption": "Información para apoyo de formulación de caucho",
+              "columns": [
+                "Dato",
+                "Qué incluir"
+              ],
+              "rows": [
+                [
+                  "Referencia",
+                  "Polímero o compuesto, sistema de curado, especificación y revisión"
+                ],
+                [
+                  "Servicio",
+                  "Medios completos, historial térmico, cargas y limpieza"
+                ],
+                [
+                  "Propiedades",
+                  "Resultados exigidos, preparación y límites de aceptación"
+                ],
+                [
+                  "Objetivos especiales",
+                  "Requisitos mecánicos, eléctricos, olor, emisiones o limpieza y su método"
+                ],
+                [
+                  "Datos del problema",
+                  "Muestras identificadas, lote, observaciones e informes"
+                ],
+                [
+                  "Alcance",
+                  "Piezas o compuesto, proceso receptor, cantidad y objetivo de prueba"
+                ],
+                [
+                  "Responsabilidades",
+                  "Titularidad de especificación, confidencialidad, aprobación y cambios"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
+                "label": "Preparar una solicitud de desarrollo de compuesto (inglés)"
+              },
+              {
+                "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+                "label": "Leer una designación ASTM D2000 (inglés)"
+              }
+            ]
           },
           {
-            "heading": "Acordar la liberación de lotes",
-            "body": "Revise curado, viscosidad, dureza y propiedades físicas relevantes. La selección de ensayos y límites se acuerda para el compuesto."
+            "heading": "Vincular receta e información de lote",
+            "body": "Acuerde identificación y registros del proyecto. Revise versión aprobada, materias primas, control de pesaje y referencias de mezcla. Relacione preparación y proceso con material ensayado y pieza producida. La trazabilidad ERP apoya esta revisión; alcance y conservación se acuerdan con el pedido.",
+            "items": [
+              "Identificar formulación y lotes de materias primas.",
+              "Definir registros de pesaje, preparación y mezclado del proyecto.",
+              "Mantener muestras y lotes de producción vinculados a sus resultados."
+            ],
+            "links": [
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Seguir registros de material, producción y entrega (inglés)"
+              }
+            ]
           },
           {
-            "heading": "Compuestos o piezas terminadas",
-            "body": "Consulte si necesita suministro de compuesto, un componente moldeado o ambos. Para compuesto externo, incluya proceso receptor y especificación técnica."
+            "heading": "Definir evaluación de curado y liberación",
+            "body": "Comparar curado requiere material y condiciones identificados. Acuerde resultados de curva, aceptación y tratamiento de desviaciones antes de liberar material de prueba o producción.",
+            "table": {
+              "caption": "Información para revisar curado y liberación",
+              "columns": [
+                "Registro",
+                "Qué acordar"
+              ],
+              "rows": [
+                [
+                  "Muestra",
+                  "Versión de compuesto, lote, almacenamiento, preparación e identidad"
+                ],
+                [
+                  "Método",
+                  "Método y edición, temperatura, probeta y condiciones del informe"
+                ],
+                [
+                  "Resultado",
+                  "Datos de curva exigidos y distinción entre mediciones y límites"
+                ],
+                [
+                  "Liberación",
+                  "Comprobaciones, muestreo o frecuencia, responsable y documentación"
+                ],
+                [
+                  "Excepción",
+                  "Historial térmico o de permanencia, contaminación, lote afectado y evaluación previa"
+                ]
+              ]
+            }
+          },
+          {
+            "heading": "Vincular objetivos especiales con pruebas específicas",
+            "body": "Acuerde observaciones y mediciones que decidirán el proyecto. Carga, sistema de curado o familia de material no sustituyen los datos del compuesto propuesto.",
+            "items": [
+              "Para refuerzo o electricidad, identifique carga o material disponible, contexto de formulación, dispersión y método de probeta.",
+              "Para envejecimiento térmico, compare compuestos y curados identificados con la misma exposición y carga.",
+              "Para olor, VOC o contaminación, defina métodos separados, historia de muestras y embalaje, vías de contaminación y criterios."
+            ],
+            "links": [
+              {
+                "url": "/blog/rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction",
+                "label": "Interpretar datos de envejecimiento (inglés)"
+              },
+              {
+                "url": "/testing",
+                "label": "Consultar requisitos de ensayo e informe"
+              }
+            ]
+          },
+          {
+            "heading": "Pasar del material de prueba a una base aprobada",
+            "body": "Acuerde prueba, evaluación de pieza o proceso receptor y decisión antes del suministro recurrente. Confirme compuesto, cambios permitidos, embalaje y registros. Para piezas, vincule compuesto, molde y montaje; para suministro de compuesto, defina aparte proceso receptor y manipulación.",
+            "links": [
+              {
+                "url": "/products/custom",
+                "label": "Evaluación de piezas a medida"
+              },
+              {
+                "url": "/compounds",
+                "label": "Especificación de suministro de compuesto"
+              },
+              {
+                "url": "/quality",
+                "label": "Requisitos de cambios y registros"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Consultar material o piezas de prueba"
+              }
+            ]
           }
         ],
         "cta": "Consultar un requisito de compuesto",

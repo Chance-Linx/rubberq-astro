@@ -3508,21 +3508,99 @@
       "RQ-PG-018": {
         "label": "LSR",
         "title": "Liquid Silicone Rubber Materials and Part Review | RubberQ",
-        "description": "Review liquid silicone rubber as a candidate route for your drawing. Part geometry, material grade, tooling and inspection requirements determine the.",
+        "description": "Review liquid silicone rubber against solid-silicone options using grade, geometry, fluids and order needs. Define material and finished-part evaluation.",
         "h1": "Liquid Silicone Rubber Materials and Part Review",
         "intro": "Review liquid silicone rubber as a candidate route for your drawing. Part geometry, material grade, tooling and inspection requirements determine the project discussion.",
         "sections": [
           {
-            "heading": "Review the part and tool together",
-            "body": "Provide a drawing showing thin features, sealing edges, parting-line restrictions and inserts. Include expected order volume and the critical assembly dimensions."
+            "heading": "Choose a material route for the actual component",
+            "body": "Provide the drawing, existing silicone grade or required properties, sample quantity and expected order pattern. Review liquid silicone rubber alongside a solid-silicone route using the same functional requirements. The material form, tooling and process proposal need to be considered together; availability is confirmed for the defined project."
           },
           {
-            "heading": "Specify the grade and exposure",
-            "body": "Describe hardness, colour, temperature and fluid exposure. Any certification requirement must identify the actual grade and intended application."
+            "heading": "Compare the inputs behind each proposal",
+            "body": "Ask what material will be delivered or processed and how the proposed route supports the drawing and inspection requirements.",
+            "table": {
+              "caption": "Information for comparing silicone material routes",
+              "columns": [
+                "Proposal",
+                "Inputs to confirm"
+              ],
+              "rows": [
+                [
+                  "Solid silicone rubber",
+                  "Identified grade or compound, supplied form, proposed molding method, tooling and sample conditions"
+                ],
+                [
+                  "Liquid silicone rubber",
+                  "Identified components or grade, handling and mixing requirements, proposed tooling and molding conditions"
+                ],
+                [
+                  "Both routes",
+                  "Critical geometry, fluid exposure, finish, inspection, demand pattern and sample-approval criteria"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/materials/silicone",
+                "label": "Silicone part and material requirements"
+              },
+              {
+                "url": "/capabilities/lsr-molding",
+                "label": "LSR tooling and molding project review"
+              }
+            ]
           },
           {
-            "heading": "Define the sampling route",
-            "body": "Discuss tooling, sample inspection and functional checks before agreeing production. Project-specific process availability is confirmed during the manufacturing review."
+            "heading": "Define small fluid-handling features precisely",
+            "body": "For a small seal or a component around fluid channels, mark the sealing land, channel geometry, alignment features and functional dimensions. Identify each contacting fluid, concentration, temperature and cleaning sequence. Agree measurement support, handling and the assembly leak or flow criterion for the representative sample.",
+            "items": [
+              "Separate drawing dimensions from the assembled clearance and compression.",
+              "Identify the surfaces and edges that affect sealing or flow.",
+              "Agree how samples are measured, packaged and installed for evaluation."
+            ],
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "Seal geometry and sample inspection"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Fluid and exposure information"
+              }
+            ]
+          },
+          {
+            "heading": "Compare material evidence and part results separately",
+            "body": "Specify the required material properties and test preparation. For the finished component, define dimensions, appearance, flash and any post-curing requirement. Keep results linked to the grade, part state and sample lot. Color or transparency, a material report and the installed function each require their own acceptance basis.",
+            "links": [
+              {
+                "url": "/blog/post-curing-silicone-rubber-parts-volatile-control-compression-set",
+                "label": "Post-curing and volatile-control evaluation"
+              },
+              {
+                "url": "/testing",
+                "label": "Material, part and assembly test planning"
+              }
+            ]
+          },
+          {
+            "heading": "Prepare the candidate and sample decision",
+            "body": "Send the original specification, drawing revision, quantity and the question the samples must resolve. Agree the material reference, proposed manufacturing route, evaluation and approval responsibility before recurring supply. Include any required records, packaging and change review with the enquiry.",
+            "links": [
+              {
+                "url": "/products/custom",
+                "label": "Custom component project inputs"
+              },
+              {
+                "url": "/quality",
+                "label": "Approval records and traceability"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Discuss silicone evaluation samples"
+              }
+            ]
           }
         ],
         "cta": "Review an LSR Application",
@@ -3600,21 +3678,150 @@
       "RQ-PG-022": {
         "label": "Rubber Molding",
         "title": "Custom Rubber Molding | RubberQ",
-        "description": "Review a molding route for your part, compound and order requirements. Tooling, dimensional priorities, parting lines and inspection need to be considered.",
+        "description": "Review rubber molding routes, tooling, tolerances and trial evidence for your component. Define compound, inspection and sample-approval requirements.",
         "h1": "Custom Rubber Molding",
         "intro": "Review a molding route for your part, compound and order requirements. Tooling, dimensional priorities, parting lines and inspection need to be considered together.",
         "sections": [
           {
-            "heading": "Design for a repeatable part",
-            "body": "Mark critical dimensions and functional surfaces. Discuss draft, wall transitions, insert position, flash and the likely parting line."
+            "heading": "Compare molding proposals against one specification",
+            "body": "Start with the drawing revision, compound, inserts, critical features and order pattern. Compare compression, transfer and injection proposals on the same basis. Confirm the project’s actual route, tooling and production scope with the quotation.",
+            "table": {
+              "caption": "Questions for comparing rubber molding routes",
+              "columns": [
+                "Route",
+                "Project details to review"
+              ],
+              "rows": [
+                [
+                  "Compression molding",
+                  "Charge or preform, placement, parting and venting, cure and demolding requirements"
+                ],
+                [
+                  "Transfer molding",
+                  "Material path, gates and runners, cavity filling, inserts and cure requirements"
+                ],
+                [
+                  "Injection molding",
+                  "Feeding, residence and flow history, process window, cavities and venting requirements"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/products/custom",
+                "label": "Drawing and custom-part project inputs"
+              },
+              {
+                "url": "/compounding",
+                "label": "Compound and preparation review"
+              }
+            ]
           },
           {
-            "heading": "Compare process options",
-            "body": "Compression, transfer and injection routes have different tooling and material considerations. We review project fit and available production arrangements for the actual part."
+            "heading": "Specify functional dimensions and the finished surface",
+            "body": "Mark functional and appearance zones, parting-line limits, texture references and demolding direction. Agree release-agent or cleaning restrictions and acceptable ejection marks. An M2 reference still needs the applicable standard and edition, controlled features, dimension range and measurement conditions. Include finishing and conditioning in the inspection basis.",
+            "links": [
+              {
+                "url": "/blog/flash-on-molded-parts-defining-flash-free-and-its-cost-implications",
+                "label": "Defining flash acceptance"
+              },
+              {
+                "url": "/blog/cryogenic-deflashing-vs-manual-trimming-precision-rubber-parts",
+                "label": "Comparing finishing routes"
+              },
+              {
+                "url": "/blog/measurement-system-analysis-msa-ensuring-gage-rr-in-rubber-testing",
+                "label": "Reviewing the measurement process"
+              }
+            ]
           },
           {
-            "heading": "Approve the sample basis",
-            "body": "Agree the drawing revision, inspection plan and functional checks. Include forecast demand and requirements for later changes."
+            "heading": "Investigate different trial concerns separately",
+            "body": "Identify the sample, cavity, material lot and process record before changing conditions. Locate the observation and compare like samples. Agree the controlled trial and the evidence needed to judge it.",
+            "table": {
+              "caption": "Trial observations and useful investigation records",
+              "columns": [
+                "Observation",
+                "Evidence to collect"
+              ],
+              "rows": [
+                [
+                  "Incomplete fill",
+                  "Missing region, flow path, gates and vents, charge, material state and process record"
+                ],
+                [
+                  "Internal voids",
+                  "Location and shape, section or examination method, sample identity, venting and cure history"
+                ],
+                [
+                  "Flow or weld line",
+                  "Position, flow fronts, venting, material and cure state, appearance and functional result"
+                ],
+                [
+                  "Tack or scorch",
+                  "Material storage, residence and temperature history, environment, contamination and comparison samples"
+                ],
+                [
+                  "Mold deposits",
+                  "Cycle history, residue position, material lot, mold condition and cleaning records"
+                ],
+                [
+                  "Parting mismatch",
+                  "Location, cavity and alignment, closing conditions, dimensional and flash observations"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/root-cause-analysis-8d-rubberqs-process-for-resolving-quality-deviations",
+                "label": "Preparing a quality-issue investigation"
+              }
+            ]
+          },
+          {
+            "heading": "Keep charge, part weight and material use identifiable",
+            "body": "State the compound and required charge or preform information for the trial. Record net part, runner and flash separately when comparing material use. Relate weight differences to density, cavity and process observations; weight alone does not establish fill distribution or sealing function. Temperature excursions, residence and cure changes need the corresponding material and process records, not a generic correction recipe."
+          },
+          {
+            "heading": "Plan verification around the functional risk",
+            "body": "For each critical feature, connect its function to the possible failure, relevant causes, prevention or detection and the trial that will verify the requirement. Define acceptance before the trial rather than treating a clean-looking part as a complete functional result.",
+            "items": [
+              "Identify the function, interface and consequence of a missed requirement.",
+              "Agree the material, tooling or process controls and how the result is measured.",
+              "Record the sample conditions, acceptance decision and remaining actions."
+            ],
+            "links": [
+              {
+                "url": "/testing",
+                "label": "Part and assembly verification"
+              },
+              {
+                "url": "/blog/spc-in-rubber-molding-how-cpk-167-delivers-zero-defect-batches",
+                "label": "Reading SPC and process-capability evidence"
+              }
+            ]
+          },
+          {
+            "heading": "Approve the sample and the repeat-production basis",
+            "body": "Agree drawing and compound references, tooling revision, samples, inspection plan, records and packaging. RubberQ’s formulation support, mixing, molding, testing and ERP traceability can be discussed as one project. Confirm the requested control and submission scope, change responsibility and production terms before recurring orders.",
+            "links": [
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Linking material, process and delivery records"
+              },
+              {
+                "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+                "label": "PPAP and customer submissions"
+              },
+              {
+                "url": "/quality",
+                "label": "Quality and change-control requirements"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Prepare a molding sample request"
+              }
+            ]
           }
         ],
         "cta": "Review a Molding Project",
@@ -3623,21 +3830,107 @@
       "RQ-PG-023": {
         "label": "LSR Molding",
         "title": "LSR Molding Project Review | RubberQ",
-        "description": "Bring a liquid silicone rubber part drawing for a material, tooling and manufacturing review. Critical features, grade requirements and order volume guide.",
+        "description": "Prepare an LSR molding enquiry with grade, drawing, tooling, inserts and order pattern. Agree sample inspection, bonding evaluation and supply requirements.",
         "h1": "LSR Molding Project Review",
         "intro": "Bring a liquid silicone rubber part drawing for a material, tooling and manufacturing review. Critical features, grade requirements and order volume guide the discussion.",
         "sections": [
           {
-            "heading": "Define the part priorities",
-            "body": "Identify thin sections, sealing edges, optical or appearance requirements and permitted parting lines. Share assembly drawings where fit is critical."
+            "heading": "Prepare the LSR manufacturing brief",
+            "body": "Bring the current drawing, material reference and demand pattern. Define what the finished part must do and the characteristics that control assembly. The proposed process, tooling scope, material availability and delivery sequence are confirmed against the project.",
+            "table": {
+              "caption": "Information for an LSR molding review",
+              "columns": [
+                "Input",
+                "What to include"
+              ],
+              "rows": [
+                [
+                  "Material",
+                  "Required grade or property specification, color and relevant contact conditions"
+                ],
+                [
+                  "Geometry",
+                  "3D data and drawing revision, wall sections, critical features and datums"
+                ],
+                [
+                  "Appearance",
+                  "Surface zones, parting line, flash and approved visual reference"
+                ],
+                [
+                  "Inserts",
+                  "Substrate material and full grade, supplied state and dimensional requirements"
+                ],
+                [
+                  "Demand",
+                  "Trial quantity, order pattern and expected production requirement"
+                ],
+                [
+                  "Acceptance",
+                  "Dimensions, appearance, functional tests and customer submission requirements"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/materials/lsr",
+                "label": "LSR material-route review"
+              },
+              {
+                "url": "/products/custom",
+                "label": "Custom component project requirements"
+              }
+            ]
           },
           {
-            "heading": "Review the material and production route",
-            "body": "Specify hardness, colour, service exposure and any grade-specific requirements. Production arrangements and the process route are confirmed for the project."
+            "heading": "Review the tooling proposal before comparing cost",
+            "body": "Identify the cavity plan, filling and venting approach, gates, parting line, insert location and demolding requirements. Agree who supplies or owns the tool, maintenance responsibility and how drawing changes affect trials. Compare quotations using the same material, scope, sample plan and order assumptions; tooling economics depend on that actual proposal."
           },
           {
-            "heading": "Plan qualification",
-            "body": "Agree samples, dimensional checks, functional tests and the documentation needed before production. Tooling and delivery commitments follow the technical review."
+            "heading": "Define overmolding and adhesion requirements",
+            "body": "For a thermoplastic substrate, supply its full grade, surface state, preparation limits and geometry. State whether the request involves a supplied insert, a separate overmolding step or a multicomponent proposal. Review the material pair, curing conditions and substrate exposure together. Specify the bond or separation evaluation and its conditioning; process availability and adhesion are confirmed for that combination.",
+            "links": [
+              {
+                "url": "/testing",
+                "label": "Discuss adhesion and component evaluation"
+              }
+            ]
+          },
+          {
+            "heading": "Agree what the trial samples must demonstrate",
+            "body": "Link trial material, tooling revision and samples to the inspection result. Appearance and dimensional acceptance should be stated before the trial. For an insert or bonded interface, define alignment, adhesion and the functional checks that matter to the assembly.",
+            "items": [
+              "Measure identified samples in the agreed finished and conditioned state.",
+              "Review flash, surface and insert interfaces against the drawing or signed reference.",
+              "Evaluate the required function and record any change before sample approval."
+            ],
+            "links": [
+              {
+                "url": "/blog/flash-on-molded-parts-defining-flash-free-and-its-cost-implications",
+                "label": "Defining flash acceptance"
+              },
+              {
+                "url": "/blog/post-curing-silicone-rubber-parts-volatile-control-compression-set",
+                "label": "Post-curing requirements and evaluation"
+              }
+            ]
+          },
+          {
+            "heading": "Carry the approved result into the order",
+            "body": "Agree approved drawing and grade, packaging, lot identification, inspection records and change review. Define any customer submission separately from the sample result. Confirm tooling charges, production terms and delivery with the agreed scope.",
+            "links": [
+              {
+                "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+                "label": "PPAP and customer submission scope"
+              },
+              {
+                "url": "/quality",
+                "label": "Quality records and traceability"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Discuss trial samples"
+              }
+            ]
           }
         ],
         "cta": "Send an LSR Part Drawing",
@@ -3646,25 +3939,153 @@
       "RQ-PG-024": {
         "label": "Compounding & Formulation",
         "title": "Rubber Compounding and Formulation Support | RubberQ",
-        "description": "Compounded by Japan. Built in China. Tested in-House. Connect your service conditions to a candidate compound, controlled preparation and an agreed.",
+        "description": "Connect formulation support, mixing and part evaluation with a specification. Agree compound identity, batch records, cure data and release tests.",
         "h1": "Rubber Compounding and Formulation Support",
         "intro": "Compounded by Japan. Built in China. Tested in-House. Connect your service conditions to a candidate compound, controlled preparation and an agreed release-test plan.",
         "sections": [
           {
-            "heading": "Translate the application into a specification",
-            "body": "Share the service medium, temperature, motion, target properties and processing requirements. Include an existing material specification where available."
+            "heading": "Connect formulation support to the manufactured part",
+            "body": "RubberQ combines Japanese formulation support with in-house mixing, molding, testing and ERP traceability in Fuzhou. Begin with the service requirement and the decision the candidate must support. Compound, tooling, processing and assembly need to be evaluated together for the particular project."
           },
           {
-            "heading": "Control the preparation route",
-            "body": "Recipe, weighing, mixing sequence and batch identification help connect development work to repeat preparation. Discuss the controls and documentation your project needs."
+            "heading": "Prepare a formulation and validation brief",
+            "body": "Provide the existing specification or reference compound, the conditions of use and the properties that matter to the part. Identify fixed requirements and the changes that may be discussed.",
+            "table": {
+              "caption": "Inputs for rubber formulation support",
+              "columns": [
+                "Input",
+                "What to include"
+              ],
+              "rows": [
+                [
+                  "Reference",
+                  "Polymer or compound grade, cure-system information, specification and revision"
+                ],
+                [
+                  "Service",
+                  "Complete media, temperature history, mechanical loading and cleaning"
+                ],
+                [
+                  "Properties",
+                  "Required test outputs, preparation and acceptance limits"
+                ],
+                [
+                  "Special objectives",
+                  "Mechanical, electrical, odor, emissions or cleanliness requirements with the relevant method"
+                ],
+                [
+                  "Problem evidence",
+                  "Identified samples, lot information, observations and existing reports"
+                ],
+                [
+                  "Project scope",
+                  "Finished parts or compound supply, receiving process, quantity and trial objective"
+                ],
+                [
+                  "Responsibilities",
+                  "Specification ownership, confidentiality, approval and change responsibilities"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
+                "label": "Preparing a compound-development request"
+              },
+              {
+                "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+                "label": "Reading an ASTM D2000 material callout"
+              }
+            ]
           },
           {
-            "heading": "Agree batch release",
-            "body": "Review the tests relevant to the material, such as cure behaviour, viscosity, hardness and physical properties. Test selection and limits are agreed for the compound."
+            "heading": "Keep recipe and batch information connected",
+            "body": "Agree the identification and records needed for the project. Discuss the approved formulation version, raw-material identity, weighed-charge review and mixing-lot references. Link preparation and process information to the material tested and the part produced. ERP traceability supports this discussion; the requested record scope and retention are agreed with the order.",
+            "items": [
+              "Identify the formulation and the source material lots.",
+              "Define the weighing, preparation and mixing records required for the project.",
+              "Keep sample and production-lot identification with the relevant results."
+            ],
+            "links": [
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Following material, production and delivery records"
+              }
+            ]
           },
           {
-            "heading": "Compound supply or finished parts",
-            "body": "Discuss whether the project needs a compound supply review, a molded component or both. For external compound supply, include the receiving process and technical specification."
+            "heading": "Define cure evaluation and release decisions",
+            "body": "A cure comparison needs an identified material and test conditions. Agree the curve outputs, acceptance basis and treatment of deviations before using a result to release trial material or a production order.",
+            "table": {
+              "caption": "Information for cure and batch-release review",
+              "columns": [
+                "Record",
+                "What to agree"
+              ],
+              "rows": [
+                [
+                  "Sample",
+                  "Compound version, lot, storage state, preparation and identification"
+                ],
+                [
+                  "Method",
+                  "Method and edition, test temperature, specimen and reporting conditions"
+                ],
+                [
+                  "Result",
+                  "Required curve outputs and distinction between measured values and specification limits"
+                ],
+                [
+                  "Release",
+                  "Required checks, sampling or frequency, approval responsibility and documents"
+                ],
+                [
+                  "Exception",
+                  "Temperature or residence history, contamination concern, affected lot and evaluation before disposition"
+                ]
+              ]
+            }
+          },
+          {
+            "heading": "Match special-property goals to specific evidence",
+            "body": "Agree which observations and measurements will decide the project. A filler name, cure-system label or material family does not replace the proposed compound’s test evidence.",
+            "items": [
+              "For reinforcement or electrical targets, identify the available filler or material reference, formulation context, dispersion question and specimen method.",
+              "For heat aging, compare identified compounds and cure systems at the same exposure and loading conditions.",
+              "For odor, VOC or contamination concerns, define separate methods, sample and packaging history, relevant contamination paths and acceptance criteria."
+            ],
+            "links": [
+              {
+                "url": "/blog/rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction",
+                "label": "Interpreting aging evidence"
+              },
+              {
+                "url": "/testing",
+                "label": "Discuss test and reporting requirements"
+              }
+            ]
+          },
+          {
+            "heading": "Move from trial material to an approved supply basis",
+            "body": "Agree the trial, required part or receiving-process evaluation and approval decision before repeat supply. Confirm the approved compound identification, permitted changes, packaging and release records. For a molded part, keep the compound linked to tooling and assembly requirements; for compound-only supply, define the receiving process and handling separately.",
+            "links": [
+              {
+                "url": "/products/custom",
+                "label": "Custom part evaluation"
+              },
+              {
+                "url": "/compounds",
+                "label": "Compound supply specification"
+              },
+              {
+                "url": "/quality",
+                "label": "Change and quality-record requirements"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Discuss trial material or part samples"
+              }
+            ]
           }
         ],
         "cta": "Discuss a Compound Requirement",

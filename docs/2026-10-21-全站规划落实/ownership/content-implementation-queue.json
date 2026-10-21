@@ -852,8 +852,9 @@
           "required_updates": "改成微型成形密封的需求清单，明确LSR是加工材料路线，逐一核对接触流体；不宣传医疗资质。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/quality",
@@ -1159,8 +1160,9 @@
           "required_updates": "由成型能力父页承担商业任务，现有欠注/飞边/焦烧参考支撑工程问题；不再用泛工艺词复制FFKM文章。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/products/gaskets",
@@ -1727,8 +1729,9 @@
           "required_updates": "保留已确认日本配方支持、自有混炼、成型和检测，按资料、配方识别、项目验证和变更责任组织，不用虚设tier/比例/资本门槛贬低同行或承诺生命周期。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/materials",
@@ -2141,8 +2144,9 @@
           "required_updates": "改为图纸、几何、材料、需求节奏、试模/验收与报价边界的工具评审，成本来自实际方案，不承诺普遍回本或家族耐液体。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",

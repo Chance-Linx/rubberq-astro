@@ -3536,21 +3536,99 @@
       "RQ-PG-018": {
         "label": "LSR",
         "title": "Flüssigsilikon: Werkstoff- und Bauteilbewertung | RubberQ",
-        "description": "Flüssigsilikon für Ihr Bauteil bewerten. Stimmen Sie Werkstoffsorte, Zeichnung, Werkzeug, Produktionsroute und Musterprüfung mit RubberQ ab.",
+        "description": "Vergleichen Sie Flüssigsilikon und Festsilikon anhand von Sorte, Geometrie, Medien und Bestellbedarf. Definieren Sie Werkstoff- und Fertigteilbewertung.",
         "h1": "Flüssigsilikon: Werkstoff- und Bauteilbewertung",
         "intro": "Bewerten Sie Flüssigsilikon als möglichen Fertigungsweg für Ihre Zeichnung. Bauteilgeometrie, Werkstoffsorte, Werkzeug und Prüfanforderungen bestimmen die Projektabstimmung.",
         "sections": [
           {
-            "heading": "Bauteil und Werkzeug gemeinsam prüfen",
-            "body": "Senden Sie eine Zeichnung mit dünnen Merkmalen, Dichtkanten, Einschränkungen der Trennebene und Einlegeteilen. Nennen Sie Menge und kritische Einbaumaße."
+            "heading": "Werkstoffweg am realen Bauteil auswählen",
+            "body": "Nennen Sie Zeichnung, vorhandene Silikonsorte oder geforderte Eigenschaften, Mustermenge und Bestellrhythmus. Vergleichen Sie Flüssig- und Festsilikon anhand derselben Funktion. Materialform, Werkzeug und Prozessvorschlag sind gemeinsam zu betrachten. Die Verfügbarkeit wird für das definierte Projekt bestätigt."
           },
           {
-            "heading": "Sorte und Belastung spezifizieren",
-            "body": "Beschreiben Sie Härte, Farbe, Temperatur und Medienkontakt. Zertifizierungsanforderungen müssen die tatsächliche Werkstoffsorte und Anwendung benennen."
+            "heading": "Die Angaben hinter jedem Vorschlag vergleichen",
+            "body": "Fragen Sie, welches Material geliefert oder verarbeitet wird und wie der vorgeschlagene Weg Zeichnung und Prüfanforderungen unterstützt.",
+            "table": {
+              "caption": "Angaben zum Vergleich von Silikonwerkstoffwegen",
+              "columns": [
+                "Vorschlag",
+                "Zu bestätigende Angaben"
+              ],
+              "rows": [
+                [
+                  "Festsilikon",
+                  "Bestimmte Sorte oder Mischung, Lieferform, Formgebungsverfahren, Werkzeug und Musterbedingungen"
+                ],
+                [
+                  "Flüssigsilikon",
+                  "Bestimmte Komponenten oder Sorte, Handhabungs- und Mischanforderungen, Werkzeug- und Formgebungsbedingungen"
+                ],
+                [
+                  "Beide Wege",
+                  "Kritische Geometrie, Medienkontakt, Oberfläche, Prüfung, Bedarf und Musterfreigabekriterien"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/materials/silicone",
+                "label": "Anforderungen an Silikonteile und Werkstoffe"
+              },
+              {
+                "url": "/capabilities/lsr-molding",
+                "label": "LSR-Werkzeug- und Fertigungsbewertung"
+              }
+            ]
           },
           {
-            "heading": "Bemusterung festlegen",
-            "body": "Besprechen Sie Werkzeug, Musterprüfung und Funktionsnachweise vor der Produktionsvereinbarung. Die verfügbare Prozessroute wird für das konkrete Projekt bestätigt."
+            "heading": "Kleine fluidführende Merkmale präzise definieren",
+            "body": "Markieren Sie Dichtfläche, Kanalgeometrie, Ausrichtungsmerkmale und Funktionsmaße kleiner Dichtungen oder kanalnaher Teile. Nennen Sie jedes Kontaktmedium, Konzentration, Temperatur und Reinigung. Vereinbaren Sie Messaufnahme, Handhabung und Dichtheits- oder Durchflusskriterium der Baugruppe für repräsentative Muster.",
+            "items": [
+              "Zeichnungsmaße von eingebautem Spalt und Verpressung unterscheiden.",
+              "Dichtungs- oder strömungsrelevante Flächen und Kanten identifizieren.",
+              "Messung, Verpackung und Einbau der Bewertungsmuster vereinbaren."
+            ],
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "Dichtungsgeometrie und Musterprüfung"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Medien- und Belastungsangaben"
+              }
+            ]
+          },
+          {
+            "heading": "Werkstoffnachweise und Teileergebnisse getrennt vergleichen",
+            "body": "Spezifizieren Sie Werkstoffeigenschaften und Probenvorbereitung. Definieren Sie am Fertigteil Maße, Aussehen, Grat und gegebenenfalls Tempern. Ordnen Sie Ergebnisse Sorte, Teilezustand und Mustercharge zu. Farbe oder Transparenz, Werkstoffbericht und eingebaute Funktion benötigen jeweils eine eigene Annahmebasis.",
+            "links": [
+              {
+                "url": "/blog/post-curing-silicone-rubber-parts-volatile-control-compression-set",
+                "label": "Tempern und flüchtige Bestandteile bewerten (Englisch)"
+              },
+              {
+                "url": "/testing",
+                "label": "Werkstoff-, Bauteil- und Baugruppenprüfungen planen"
+              }
+            ]
+          },
+          {
+            "heading": "Kandidaten- und Musterentscheidung vorbereiten",
+            "body": "Senden Sie Originalspezifikation, Zeichnungsstand, Menge und die mit Mustern zu klärende Frage. Vereinbaren Sie Materialreferenz, Fertigungsweg, Bewertung und Freigabeverantwortung vor Folgelieferungen. Nennen Sie benötigte Nachweise, Verpackung und Änderungsprüfung in der Anfrage.",
+            "links": [
+              {
+                "url": "/products/custom",
+                "label": "Angaben für ein Sonderbauteilprojekt"
+              },
+              {
+                "url": "/quality",
+                "label": "Freigabenachweise und Rückverfolgung"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Silikon-Bewertungsmuster besprechen"
+              }
+            ]
           }
         ],
         "cta": "LSR-Anwendung besprechen",
@@ -3628,21 +3706,150 @@
       "RQ-PG-022": {
         "label": "Gummiformgebung",
         "title": "Gummiformteile nach Kundenspezifikation | RubberQ",
-        "description": "Gummiformgebung für Bauteile nach Zeichnung. Stimmen Sie Werkzeug, Mischung, Trennebenen, Maßprioritäten und Bemusterung mit RubberQ ab.",
+        "description": "Prüfen Sie Gummiformgebungswege, Werkzeug, Toleranzen und Versuchsnachweise. Definieren Sie Mischung, Prüfung und Musterfreigabe für Ihr Bauteil.",
         "h1": "Gummiformteile nach Kundenspezifikation",
         "intro": "Besprechen Sie den Formgebungsweg für Bauteil, Mischung und Bestellbedarf. Werkzeug, Maßprioritäten, Trennebenen und Prüfung werden gemeinsam betrachtet.",
         "sections": [
           {
-            "heading": "Für eine wiederholbare Fertigung konstruieren",
-            "body": "Kennzeichnen Sie kritische Maße und Funktionsflächen. Besprechen Sie Entformungsschrägen, Wandstärkenübergänge, Einlegerposition, Grat und voraussichtliche Trennebene."
+            "heading": "Formgebungsvorschläge anhand einer Spezifikation vergleichen",
+            "body": "Beginnen Sie mit Zeichnungsstand, Mischung, Einlegeteilen, kritischen Merkmalen und Bestellrhythmus. Vergleichen Sie Pressen, Transferformen und Spritzgießen auf derselben Basis. Bestätigen Sie tatsächlichen Fertigungsweg, Werkzeug und Produktionsumfang mit dem Angebot.",
+            "table": {
+              "caption": "Fragen zum Vergleich von Gummiformgebungswegen",
+              "columns": [
+                "Verfahren",
+                "Projektdetails zur Bewertung"
+              ],
+              "rows": [
+                [
+                  "Formpressen",
+                  "Charge oder Vorformling, Platzierung, Trennfuge und Entlüftung, Vulkanisation und Entformung"
+                ],
+                [
+                  "Transferformen",
+                  "Materialweg, Anschnitte und Angüsse, Kavitätenfüllung, Einlegeteile und Vulkanisation"
+                ],
+                [
+                  "Spritzgießen",
+                  "Zuführung, Verweil- und Fließverlauf, Prozessfenster, Kavitäten und Entlüftung"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/products/custom",
+                "label": "Zeichnung und Sonderteilprojekt"
+              },
+              {
+                "url": "/compounding",
+                "label": "Mischung und Vorbereitung bewerten"
+              }
+            ]
           },
           {
-            "heading": "Verfahrensmöglichkeiten vergleichen",
-            "body": "Pressen, Transferformen und Spritzgießen unterscheiden sich bei Werkzeug- und Werkstoffanforderungen. Wir prüfen Eignung und verfügbare Fertigungswege für das konkrete Bauteil."
+            "heading": "Funktionsmaße und fertige Oberfläche spezifizieren",
+            "body": "Markieren Sie Funktions- und Sichtzonen, Trennfugengrenzen, Texturreferenzen und Entformungsrichtung. Vereinbaren Sie Trennmittel- oder Reinigungsbeschränkungen sowie zulässige Auswerfermarken. Eine M2-Angabe benötigt weiterhin geltende Norm und Ausgabe, Merkmale, Maßbereich und Messbedingungen. Beziehen Sie Nacharbeit und Konditionierung in die Prüfbasis ein.",
+            "links": [
+              {
+                "url": "/blog/flash-on-molded-parts-defining-flash-free-and-its-cost-implications",
+                "label": "Gratannahme definieren (Englisch)"
+              },
+              {
+                "url": "/blog/cryogenic-deflashing-vs-manual-trimming-precision-rubber-parts",
+                "label": "Nachbearbeitungswege vergleichen (Englisch)"
+              },
+              {
+                "url": "/blog/measurement-system-analysis-msa-ensuring-gage-rr-in-rubber-testing",
+                "label": "Messprozess bewerten (Englisch)"
+              }
+            ]
           },
           {
-            "heading": "Bemusterungsgrundlage freigeben",
-            "body": "Vereinbaren Sie Zeichnungsstand, Prüfplan und Funktionsprüfungen. Nennen Sie Bedarfsprognose und Anforderungen an spätere Änderungen."
+            "heading": "Unterschiedliche Versuchsauffälligkeiten getrennt untersuchen",
+            "body": "Identifizieren Sie Muster, Kavität, Materialcharge und Prozessaufzeichnung vor Änderungen. Lokalisieren Sie die Beobachtung und vergleichen Sie gleichartige Muster. Vereinbaren Sie den kontrollierten Versuch und seine Entscheidungsnachweise.",
+            "table": {
+              "caption": "Versuchsbeobachtungen und nützliche Untersuchungsnachweise",
+              "columns": [
+                "Beobachtung",
+                "Zu sammelnde Nachweise"
+              ],
+              "rows": [
+                [
+                  "Unvollständige Füllung",
+                  "Fehlbereich, Fließweg, Anschnitte und Entlüftung, Charge, Materialzustand und Prozess"
+                ],
+                [
+                  "Innere Hohlräume",
+                  "Lage und Form, Schnitt- oder Untersuchungsmethode, Musterkennung, Entlüftung und Vulkanisationsverlauf"
+                ],
+                [
+                  "Fließ- oder Bindenaht",
+                  "Position, Fließfronten, Entlüftung, Material- und Vulkanisationszustand, Aussehen und Funktion"
+                ],
+                [
+                  "Klebrigkeit oder Anvulkanisation",
+                  "Materiallagerung, Verweil- und Temperaturverlauf, Umgebung, Verunreinigung und Vergleichsmuster"
+                ],
+                [
+                  "Werkzeugbeläge",
+                  "Zyklushistorie, Rückstandsposition, Materialcharge, Werkzeugzustand und Reinigung"
+                ],
+                [
+                  "Trennfugenversatz",
+                  "Lage, Kavität und Ausrichtung, Schließbedingungen, Maß- und Gratbeobachtungen"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/root-cause-analysis-8d-rubberqs-process-for-resolving-quality-deviations",
+                "label": "Eine Qualitätsabweichung untersuchen (Englisch)"
+              }
+            ]
+          },
+          {
+            "heading": "Charge, Teilegewicht und Materialeinsatz zuordnen",
+            "body": "Nennen Sie Mischung und erforderliche Angaben zur Charge oder zum Vorformling. Erfassen Sie Nettoteil, Anguss und Grat getrennt für den Materialvergleich. Beziehen Sie Gewichtsunterschiede auf Dichte, Kavität und Prozessbeobachtungen. Gewicht allein belegt weder Füllverteilung noch Dichtfunktion. Temperaturabweichungen, Verweil- und Vulkanisationsänderungen benötigen Material- und Prozessnachweise statt einer allgemeinen Korrekturrezeptur."
+          },
+          {
+            "heading": "Verifikation am Funktionsrisiko ausrichten",
+            "body": "Verbinden Sie je kritischem Merkmal Funktion, möglichen Fehler, Ursachen, Vorbeugung oder Erkennung und den erforderlichen Nachweisversuch. Definieren Sie Annahme vor dem Versuch. Ein unauffälliges Aussehen allein ist kein vollständiges Funktionsergebnis.",
+            "items": [
+              "Funktion, Schnittstelle und Folge einer verfehlten Anforderung bestimmen.",
+              "Material-, Werkzeug- oder Prozesskontrollen und Ergebnismessung vereinbaren.",
+              "Musterbedingungen, Annahmeentscheidung und offene Maßnahmen dokumentieren."
+            ],
+            "links": [
+              {
+                "url": "/testing",
+                "label": "Bauteil- und Baugruppenverifikation"
+              },
+              {
+                "url": "/blog/spc-in-rubber-molding-how-cpk-167-delivers-zero-defect-batches",
+                "label": "SPC- und Prozessfähigkeitsnachweise lesen (Englisch)"
+              }
+            ]
+          },
+          {
+            "heading": "Muster und Grundlage der Serienfertigung freigeben",
+            "body": "Vereinbaren Sie Zeichnungs- und Mischungsreferenzen, Werkzeugstand, Muster, Prüfplan, Nachweise und Verpackung. RubberQs Rezepturunterstützung, Mischen, Formen, Prüfen und ERP-Rückverfolgung lassen sich als zusammenhängendes Projekt besprechen. Bestätigen Sie Kontroll- und Vorlageumfang, Änderungsverantwortung und Produktionsbedingungen vor Folgebestellungen.",
+            "links": [
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Material-, Prozess- und Liefernachweise verbinden (Englisch)"
+              },
+              {
+                "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+                "label": "PPAP und kundenspezifische Vorlagen (Englisch)"
+              },
+              {
+                "url": "/quality",
+                "label": "Qualitäts- und Änderungsanforderungen"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Eine Formteilmusteranfrage vorbereiten"
+              }
+            ]
           }
         ],
         "cta": "Formgebungsprojekt besprechen",
@@ -3651,21 +3858,107 @@
       "RQ-PG-023": {
         "label": "LSR-Formgebung",
         "title": "LSR-Bauteile: Werkzeug und Fertigung abstimmen | RubberQ",
-        "description": "LSR-Bauteil nach Zeichnung besprechen: kritische Merkmale, Werkstoffsorte, Werkzeug, Fertigungsroute, Musterprüfung und Qualifizierungsunterlagen.",
+        "description": "Bereiten Sie LSR-Anfragen mit Sorte, Zeichnung, Werkzeug, Einlegeteilen und Bedarf vor. Vereinbaren Sie Musterprüfung, Haftungsbewertung und Lieferumfang.",
         "h1": "LSR-Bauteile: Werkzeug und Fertigung abstimmen",
         "intro": "Senden Sie die Zeichnung Ihres Flüssigsilikonteils für eine Bewertung von Werkstoff, Werkzeug und Herstellung. Kritische Merkmale, Sortenanforderungen und Menge bestimmen die Abstimmung.",
         "sections": [
           {
-            "heading": "Bauteilprioritäten festlegen",
-            "body": "Kennzeichnen Sie dünne Bereiche, Dichtkanten, optische Anforderungen und zulässige Trennebenen. Ergänzen Sie Baugruppenzeichnungen, wenn die Passung entscheidend ist."
+            "heading": "LSR-Fertigungsanfrage vorbereiten",
+            "body": "Bringen Sie aktuelle Zeichnung, Materialreferenz und Bedarfsmuster ein. Definieren Sie Funktion und montagebestimmende Merkmale des Fertigteils. Prozessvorschlag, Werkzeugumfang, Materialverfügbarkeit und Lieferfolge werden projektspezifisch bestätigt.",
+            "table": {
+              "caption": "Angaben zur LSR-Formgebungsbewertung",
+              "columns": [
+                "Angabe",
+                "Benötigte Informationen"
+              ],
+              "rows": [
+                [
+                  "Werkstoff",
+                  "Sorte oder Eigenschaftsspezifikation, Farbe und relevante Kontaktbedingungen"
+                ],
+                [
+                  "Geometrie",
+                  "3D-Daten und Zeichnungsstand, Wandbereiche, kritische Merkmale und Bezüge"
+                ],
+                [
+                  "Aussehen",
+                  "Oberflächenzonen, Trennfuge, Grat und freigegebene Sichtreferenz"
+                ],
+                [
+                  "Einlegeteile",
+                  "Substratwerkstoff mit vollständiger Sorte, Anlieferzustand und Maßanforderungen"
+                ],
+                [
+                  "Bedarf",
+                  "Versuchsmenge, Bestellrhythmus und erwarteter Produktionsbedarf"
+                ],
+                [
+                  "Annahme",
+                  "Maße, Aussehen, Funktionstests und kundenspezifische Vorlagen"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/materials/lsr",
+                "label": "LSR-Werkstoffweg bewerten"
+              },
+              {
+                "url": "/products/custom",
+                "label": "Anforderungen an Sonderbauteilprojekte"
+              }
+            ]
           },
           {
-            "heading": "Werkstoff und Fertigungsweg prüfen",
-            "body": "Nennen Sie Härte, Farbe, Betriebsbelastung und sortenbezogene Anforderungen. Produktionsvereinbarung und Prozessroute werden für das Projekt bestätigt."
+            "heading": "Werkzeugvorschlag vor dem Kostenvergleich prüfen",
+            "body": "Bestimmen Sie Kavitätenplan, Füllung und Entlüftung, Anschnitte, Trennfuge, Einlegeteilposition und Entformung. Vereinbaren Sie Werkzeugbereitstellung oder Eigentum, Wartung und Folgen von Zeichnungsänderungen für Versuche. Vergleichen Sie Angebote anhand derselben Mischung, Leistungen, Musterplanung und Bestellannahmen. Die Wirtschaftlichkeit hängt vom tatsächlichen Vorschlag ab."
           },
           {
-            "heading": "Qualifizierung planen",
-            "body": "Vereinbaren Sie Muster, Maßprüfungen, Funktionstests und benötigte Unterlagen vor Produktionsbeginn. Werkzeug- und Lieferzusagen folgen der technischen Abstimmung."
+            "heading": "Umspritzen und Haftungsanforderungen definieren",
+            "body": "Nennen Sie bei thermoplastischem Substrat die vollständige Sorte, Oberfläche, Vorbehandlungsgrenzen und Geometrie. Beschreiben Sie beigestelltes Einlegeteil, separaten Umspritzschritt oder Mehrkomponentenvorschlag. Bewerten Sie Materialpaar, Vulkanisationsbedingungen und Substratbelastung gemeinsam. Legen Sie Haftungs- oder Trennprüfung und Konditionierung fest. Prozessverfügbarkeit und Haftung werden für diese Kombination bestätigt.",
+            "links": [
+              {
+                "url": "/testing",
+                "label": "Haftungs- und Bauteilbewertung besprechen"
+              }
+            ]
+          },
+          {
+            "heading": "Nachweise der Versuchsmuster vereinbaren",
+            "body": "Ordnen Sie Versuchsmaterial, Werkzeugstand und Muster dem Prüfergebnis zu. Legen Sie Aussehens- und Maßannahme vor dem Versuch fest. Definieren Sie für Einlege- oder Verbundstellen Ausrichtung, Haftung und die funktionsrelevanten Baugruppenprüfungen.",
+            "items": [
+              "Zugeordnete Muster im vereinbarten Fertig- und Konditionierungszustand messen.",
+              "Grat, Oberfläche und Einlegeteilschnittstellen anhand Zeichnung oder freigegebener Referenz prüfen.",
+              "Geforderte Funktion bewerten und Änderungen vor Musterfreigabe dokumentieren."
+            ],
+            "links": [
+              {
+                "url": "/blog/flash-on-molded-parts-defining-flash-free-and-its-cost-implications",
+                "label": "Gratannahmekriterien definieren (Englisch)"
+              },
+              {
+                "url": "/blog/post-curing-silicone-rubber-parts-volatile-control-compression-set",
+                "label": "Temperanforderungen und Bewertung (Englisch)"
+              }
+            ]
+          },
+          {
+            "heading": "Freigegebenes Ergebnis in den Auftrag übernehmen",
+            "body": "Vereinbaren Sie freigegebene Zeichnung und Sorte, Verpackung, Chargenkennung, Prüfnachweise und Änderungsprüfung. Definieren Sie kundenspezifische Vorlagen getrennt vom Musterergebnis. Werkzeugkosten, Produktionsbedingungen und Lieferung folgen dem abgestimmten Umfang.",
+            "links": [
+              {
+                "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+                "label": "PPAP und kundenspezifischer Vorlageumfang (Englisch)"
+              },
+              {
+                "url": "/quality",
+                "label": "Qualitätsnachweise und Rückverfolgung"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Versuchsmuster besprechen"
+              }
+            ]
           }
         ],
         "cta": "LSR-Zeichnung senden",
@@ -3674,25 +3967,153 @@
       "RQ-PG-024": {
         "label": "Mischungsherstellung und Rezeptur",
         "title": "Gummimischungen und Rezepturunterstützung | RubberQ",
-        "description": "Japanische Rezepturunterstützung und Mischungsherstellung in China. Stimmen Sie Spezifikation, Chargenkontrolle, Freigabeprüfung und Lieferform ab.",
+        "description": "Verbinden Sie Rezepturunterstützung, Mischen und Teilebewertung. Vereinbaren Sie Spezifikation, Mischungskennung, Chargennachweise und Freigabeprüfungen.",
         "h1": "Gummimischungen und Rezepturunterstützung",
         "intro": "Compounded by Japan. Built in China. Tested in-House. Verbinden Sie Ihre Einsatzbedingungen mit einer geeigneten Mischung, kontrollierter Herstellung und einem vereinbarten Freigabeprüfplan.",
         "sections": [
           {
-            "heading": "Anwendung in eine Spezifikation übersetzen",
-            "body": "Nennen Sie Betriebsmedium, Temperatur, Bewegung, Zieleigenschaften und Verarbeitungsanforderungen. Ergänzen Sie eine bestehende Werkstoffspezifikation, falls verfügbar."
+            "heading": "Rezepturunterstützung mit dem gefertigten Teil verbinden",
+            "body": "RubberQ verbindet japanische Rezepturunterstützung mit internem Mischen, Formen, Prüfen und ERP-Rückverfolgung in Fuzhou. Beginnen Sie mit Einsatzanforderung und der durch den Kandidaten zu unterstützenden Entscheidung. Mischung, Werkzeug, Verarbeitung und Montage müssen projektspezifisch gemeinsam bewertet werden."
           },
           {
-            "heading": "Herstellungsablauf kontrollieren",
-            "body": "Rezeptur, Einwaage, Mischfolge und Chargenkennzeichnung verbinden Entwicklung und wiederholte Herstellung. Besprechen Sie die Kontrollen und Unterlagen für Ihr Projekt."
+            "heading": "Rezeptur- und Validierungsanfrage vorbereiten",
+            "body": "Nennen Sie vorhandene Spezifikation oder Referenzmischung, Einsatzbedingungen und die für das Teil wichtigen Eigenschaften. Kennzeichnen Sie feste Anforderungen und besprechbare Änderungen.",
+            "table": {
+              "caption": "Angaben zur Unterstützung bei Gummirezepturen",
+              "columns": [
+                "Angabe",
+                "Benötigte Informationen"
+              ],
+              "rows": [
+                [
+                  "Referenz",
+                  "Polymer- oder Mischungssorte, Vernetzungssystem, Spezifikation und Stand"
+                ],
+                [
+                  "Einsatz",
+                  "Vollständige Medien, Temperaturverlauf, mechanische Lasten und Reinigung"
+                ],
+                [
+                  "Eigenschaften",
+                  "Geforderte Prüfergebnisse, Vorbereitung und Annahmegrenzen"
+                ],
+                [
+                  "Sonderziele",
+                  "Mechanik, Elektrik, Geruch, Emissionen oder Sauberkeit mit passender Methode"
+                ],
+                [
+                  "Problemnachweise",
+                  "Zugeordnete Muster, Chargenangaben, Beobachtungen und Berichte"
+                ],
+                [
+                  "Projektumfang",
+                  "Fertigteile oder Mischung, empfangender Prozess, Menge und Versuchsziel"
+                ],
+                [
+                  "Verantwortung",
+                  "Spezifikationseigentum, Vertraulichkeit, Freigabe und Änderungen"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
+                "label": "Mischungsentwicklung anfragen (Englisch)"
+              },
+              {
+                "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+                "label": "Eine ASTM-D2000-Materialangabe lesen (Englisch)"
+              }
+            ]
           },
           {
-            "heading": "Chargenfreigabe vereinbaren",
-            "body": "Prüfen Sie relevante Merkmale wie Vernetzungsverhalten, Viskosität, Härte und physikalische Eigenschaften. Prüfungen und Grenzwerte werden für die Mischung vereinbart."
+            "heading": "Rezeptur- und Chargenangaben verknüpfen",
+            "body": "Vereinbaren Sie erforderliche Kennzeichnung und Nachweise. Besprechen Sie freigegebenen Rezepturstand, Rohstoffidentität, Kontrolle der Einwaage und Mischchargenreferenzen. Ordnen Sie Vorbereitung und Prozessinformationen dem geprüften Material und gefertigten Teil zu. ERP-Rückverfolgung unterstützt diese Abstimmung; Nachweisumfang und Aufbewahrung werden mit dem Auftrag vereinbart.",
+            "items": [
+              "Rezeptur und Ausgangsmaterialchargen identifizieren.",
+              "Projektbezogene Einwaage-, Vorbereitungs- und Mischnachweise definieren.",
+              "Muster- und Produktionschargen mit den relevanten Ergebnissen verknüpfen."
+            ],
+            "links": [
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Material-, Produktions- und Liefernachweise verfolgen (Englisch)"
+              }
+            ]
           },
           {
-            "heading": "Mischung oder Fertigteil beziehen",
-            "body": "Besprechen Sie, ob Ihr Projekt eine Mischung, ein Formteil oder beides benötigt. Nennen Sie bei externer Mischungslieferung den weiterverarbeitenden Prozess und die technische Spezifikation."
+            "heading": "Vulkanisationsbewertung und Freigaben festlegen",
+            "body": "Ein Vulkanisationsvergleich benötigt identifiziertes Material und Prüfbedingungen. Vereinbaren Sie Kurvenmerkmale, Annahmebasis und Abweichungsbehandlung, bevor ein Ergebnis Versuchsmaterial oder einen Produktionsauftrag freigibt.",
+            "table": {
+              "caption": "Angaben zur Vulkanisations- und Chargenfreigabe",
+              "columns": [
+                "Nachweis",
+                "Zu vereinbarende Informationen"
+              ],
+              "rows": [
+                [
+                  "Probe",
+                  "Mischungsstand, Charge, Lagerzustand, Vorbereitung und Kennzeichnung"
+                ],
+                [
+                  "Methode",
+                  "Verfahren und Ausgabe, Prüftemperatur, Probe und Berichtsbedingungen"
+                ],
+                [
+                  "Ergebnis",
+                  "Geforderte Kurvenmerkmale, Trennung von Messwert und Spezifikationsgrenze"
+                ],
+                [
+                  "Freigabe",
+                  "Erforderliche Prüfungen, Stichprobe oder Häufigkeit, Verantwortung und Unterlagen"
+                ],
+                [
+                  "Abweichung",
+                  "Temperatur- oder Verweilgeschichte, Verunreinigung, betroffene Charge und Bewertung vor Entscheidung"
+                ]
+              ]
+            }
+          },
+          {
+            "heading": "Sonderziele mit konkreten Nachweisen verbinden",
+            "body": "Vereinbaren Sie die entscheidenden Beobachtungen und Messungen. Füllstoffname, Vernetzungssystem oder Werkstofffamilie ersetzt nicht die Prüfnachweise der vorgeschlagenen Mischung.",
+            "items": [
+              "Für Verstärkung oder elektrische Ziele verfügbare Füllstoff- oder Materialreferenz, Rezepturkontext, Dispersionsfrage und Probenmethode benennen.",
+              "Bei Wärmealterung bestimmte Mischungen und Vernetzungssysteme unter gleicher Belastung vergleichen.",
+              "Für Geruch, VOC oder Verunreinigung getrennte Methoden, Muster- und Verpackungsverlauf, Eintragspfade und Kriterien festlegen."
+            ],
+            "links": [
+              {
+                "url": "/blog/rubber-aging-tests-interpreting-arrhenius-plots-for-service-life-prediction",
+                "label": "Alterungsnachweise verstehen (Englisch)"
+              },
+              {
+                "url": "/testing",
+                "label": "Prüf- und Berichtsanforderungen besprechen"
+              }
+            ]
+          },
+          {
+            "heading": "Vom Versuchsmaterial zur freigegebenen Belieferung",
+            "body": "Vereinbaren Sie Versuch, Teile- oder Empfängerprozessbewertung und Freigabe vor Folgelieferungen. Bestätigen Sie Mischungskennung, zulässige Änderungen, Verpackung und Nachweise. Bei Formteilen bleibt die Mischung mit Werkzeug und Montageanforderungen verknüpft. Beim reinen Mischungsbezug werden empfangender Prozess und Handhabung gesondert definiert.",
+            "links": [
+              {
+                "url": "/products/custom",
+                "label": "Sonderteilbewertung"
+              },
+              {
+                "url": "/compounds",
+                "label": "Lieferspezifikation für Mischungen"
+              },
+              {
+                "url": "/quality",
+                "label": "Änderungen und Qualitätsnachweise"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Versuchsmaterial oder Teilemuster besprechen"
+              }
+            ]
           }
         ],
         "cta": "Mischungsanforderung besprechen",

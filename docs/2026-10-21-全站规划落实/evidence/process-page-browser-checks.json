@@ -1,0 +1,27 @@
+{
+  "scope": "Representative desktop content and navigation; not all mobile views, actual submission or production publication",
+  "checks": [
+    {
+      "path": "/capabilities/rubber-molding",
+      "observation": "Six sections, process comparison and distinct trial-investigation tables visible",
+      "screenshot": "evidence/rubber-molding-process-module-en.png"
+    },
+    {
+      "path": "/de/compounding",
+      "observation": "Six German sections, formulation and cure-release tables present; original English slogan unchanged in intro and footer"
+    },
+    {
+      "path": "/ja/materials/lsr",
+      "observation": "Five Japanese sections and route-comparison table; local LSR molding link clicked"
+    },
+    {
+      "path": "/ja/capabilities/lsr-molding",
+      "observation": "Five Japanese sections, tooling/insert/overmolding and sample requirements visible; enquiry CTA clicked"
+    },
+    {
+      "url": "http://127.0.0.1:4397/ja/contact?source=%2Fcapabilities%2Flsr-molding&cta=project-review",
+      "observation": "Japanese contact form present and molding-page source retained; no submission"
+    }
+  ],
+  "form_submissions": 0
+}

@@ -395,6 +395,17 @@
       "use": "核对EPDM页臭氧评价的输入项及外观/功能分工；不复制限值，不表示RubberQ已执行该标准或全部测试自有。",
       "paid_access": false,
       "public_use": "Internal method-scope cross-check; no standard text reproduced or external link added on material pages."
+    },
+    {
+      "id": "WACKER-MOLDING-PROCESS-SCOPE",
+      "title": "Solid and liquid silicone rubber — process selection and molding options",
+      "url": "https://www.wacker.com/h/medias/6709-EN.pdf",
+      "publisher": "Wacker Chemie AG",
+      "read_scope": "Public section5.1 process-selection discussion, compression/transfer portions of5.3 and2K/insert-process options excerpt in5.4; not a full verification of processing instructions.",
+      "checked_on": "2026-10-21",
+      "use": "核对固态/液态材料路线、工艺选择和基材/模具/试样输入；不复制供应商参数或将其产品、设备、2K能力和性能转移给RubberQ。",
+      "paid_access": false,
+      "public_use": "Internal terminology/process-scope cross-check; no vendor process values or product examples on these pages."
     }
   ],
   "paid_access": false
