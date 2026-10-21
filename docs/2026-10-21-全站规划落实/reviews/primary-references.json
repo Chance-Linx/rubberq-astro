@@ -406,6 +406,17 @@
       "use": "核对固态/液态材料路线、工艺选择和基材/模具/试样输入；不复制供应商参数或将其产品、设备、2K能力和性能转移给RubberQ。",
       "paid_access": false,
       "public_use": "Internal terminology/process-scope cross-check; no vendor process values or product examples on these pages."
+    },
+    {
+      "id": "IEC60529-SCOPE",
+      "title": "IEC60529 — Degrees of protection provided by enclosures, public scope",
+      "url": "https://webstore.iec.ch/en/publication/2452",
+      "publisher": "IEC",
+      "read_scope": "Public title and scope only; not paid standard text or test instructions",
+      "checked_on": "2026-10-21",
+      "use": "区别垫片材料资料与完整箱体IP评价，不声称RubberQ提供已获IP等级的总成。",
+      "paid_access": false,
+      "public_use": "Internal scope cross-check; no external standard link or standard text added to the product page."
     }
   ],
   "paid_access": false

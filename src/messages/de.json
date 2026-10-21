@@ -2497,21 +2497,139 @@
       "RQ-PG-005": {
         "label": "Flachdichtungen nach Zeichnung",
         "title": "Kundenspezifische Gummidichtungen | RubberQ",
-        "description": "Gummidichtungen passend zu Flansch und Gehäuse. Besprechen Sie Werkstoff, Kompression, Montage und Musterprüfung für Ihre industrielle Anwendung.",
+        "description": "Bereiten Sie Gummidichtungsanfragen mit Fuge, Verpressung, Medien und Montage vor. Vergleichen Sie Lieferwege und definieren Sie die Musterannahme.",
         "h1": "Kundenspezifische Gummidichtungen",
         "intro": "Entwickeln Sie eine Dichtung für die Verbindung, die sie abdichten soll. Flansch- oder Gehäusezeichnung, Kontaktmedien, Verpressungsgrenzen und Montageverfahren ermöglichen die gemeinsame Abstimmung von Werkstoff und Geometrie.",
         "sections": [
           {
-            "heading": "Mit der Verbindung beginnen",
-            "body": "Beschreiben Sie Gegenflächen, Befestigungselemente, Kompressionsanschläge, zulässigen Spalt und Montage. Diese Angaben bestimmen Dichtungsquerschnitt und Validierungsplan."
+            "heading": "Die Verbindung vor der Dichtungsauswahl definieren",
+            "body": "Senden Sie Flansch- oder Gehäusezeichnung mit Dichtungskontur. Bestimmen Sie geschlossene Fuge, Anschläge und Befestigung, um Dicke, Werkstoff und Montage gemeinsam zu bewerten.",
+            "table": {
+              "caption": "Angaben für eine kundenspezifische Gummiflachdichtung",
+              "columns": [
+                "Angabe",
+                "Benötigte Informationen"
+              ],
+              "rows": [
+                [
+                  "Verbindung",
+                  "Flanschgeometrie, geschlossener Spalt, Anschläge, Gegenbauteiltoleranzen und Oberflächen"
+                ],
+                [
+                  "Dichtung",
+                  "Kontur, Dickenbereich, Löcher, Dichtmerkmale und Zeichnungsstand"
+                ],
+                [
+                  "Montage",
+                  "Befestiger, Reihenfolge, Einschränkungen und vorgesehene Verpressung"
+                ],
+                [
+                  "Betrieb",
+                  "Vollständiges Medium, Schmierstoff, Temperatur- und Druckverlauf"
+                ],
+                [
+                  "Umgebung",
+                  "Witterung, Staub, Feuchte, Salzkontakt und Reinigung"
+                ],
+                [
+                  "Belieferung",
+                  "Fertigdichtung oder Plattenanfrage, Werkstoff, Muster- und Bestellmengen"
+                ],
+                [
+                  "Annahme",
+                  "Maß-, Sicht- und Baugruppenprüfkriterien sowie Nachweise"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Mischung an die Umgebung anpassen",
-            "body": "Berücksichtigen Sie Medienkontakt, Temperaturwechsel, Witterung und Rückstellverhalten. EPDM, FKM, NBR und Silikon werden als mögliche Werkstofffamilien für die konkrete Anwendung verglichen."
+            "heading": "Die Maßkette prüfen",
+            "body": "Für ein einfaches Flachquerschnittsbeispiel beträgt die Verpressung 100 × (t − g) / t. Dabei ist t die freie Dichtungsdicke und g der geschlossene Spalt. Die folgenden Zeichnungswerte veranschaulichen die Rechnung. Legen Sie tatsächliche Grenzen anhand Verbindung und Funktionsbewertung fest.",
+            "table": {
+              "caption": "Geometriebeispiel: Flachdichtung und geschlossener Spalt",
+              "columns": [
+                "Beispieleingabe oder Ergebnis",
+                "Wert"
+              ],
+              "rows": [
+                [
+                  "Freie Dicke t",
+                  "2,00–2,10 mm"
+                ],
+                [
+                  "Geschlossener Spalt g",
+                  "1,50–1,60 mm"
+                ],
+                [
+                  "Kleinste berechnete Verpressung",
+                  "20,0 %, bei t = 2,00 mm und g = 1,60 mm"
+                ],
+                [
+                  "Größte berechnete Verpressung",
+                  "Etwa 28,6 %, bei t = 2,10 mm und g = 1,50 mm"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/over-compression-when-tighter-is-not-better-for-gasket-performance",
+                "label": "Überverpressung untersuchen (Englisch)"
+              },
+              {
+                "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+                "label": "Rückstellung und verbleibende Dichtkraft (Englisch)"
+              }
+            ]
           },
           {
-            "heading": "Vom Muster zum Folgeauftrag",
-            "body": "Vereinbaren Sie Maße, Aussehen, Prüfpunkte und Verpackung. Bei wiederkehrendem Bedarf nennen Sie die Jahresmenge und die Unterlagen, die jeder Charge beiliegen sollen."
+            "heading": "Geformte und aus Platten geschnittene Vorschläge vergleichen",
+            "body": "Definieren Sie bei Formdichtungen Rippen, Konturen, Trennfuge, Dickenübergänge und Oberfläche. Für Stanz- oder Schneidvorschläge sind Plattenwerkstoff, Dicke, Kontur, Löcher und Kantenqualität erforderlich. Vergleichen Sie Menge und Prüfung auf derselben Basis. Bestätigen Sie den tatsächlichen Fertigteil- oder Plattenlieferweg anhand der Zeichnung. Unvulkanisierte Mischung ist eine eigene Beschaffungsaufgabe.",
+            "links": [
+              {
+                "url": "/capabilities/rubber-molding",
+                "label": "Formgebungsverfahren bewerten"
+              },
+              {
+                "url": "/compounds",
+                "label": "Anforderungen an Mischungslieferungen"
+              }
+            ]
+          },
+          {
+            "heading": "Umgebung und Baugruppenprüfung festlegen",
+            "body": "Nennen Sie Druckimpulse, Abstützung und Spaltänderungen zusammen mit Temperatur und Medien. Spezifizieren Sie gegebenenfalls tatsächliches Isolieröl, Salzwasser oder Reinigung. Vereinbaren Sie bei Außengehäusen Klima-, Staub- und Wasserprüfungen an der vollständigen Baugruppe. Mischungsbericht und Gehäuse-IP-Bewertung betreffen unterschiedliche Prüfobjekte.",
+            "links": [
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Medien- und Belastungsangaben"
+              },
+              {
+                "url": "/materials/epdm",
+                "label": "EPDM-Kandidaten bewerten"
+              }
+            ]
+          },
+          {
+            "heading": "Elektrische und Dichtungsanforderungen trennen",
+            "body": "Unterscheiden Sie bei EMI-Dichtungen Werkstoffwiderstand, Kontaktwiderstand und Baugruppenabschirmung. Definieren Sie Vorrichtung, Frequenz, Verpressung und Bedingungen nach Temperaturzyklen oder anderer Belastung. Bestätigen Sie Material- und Lieferoption anhand dieser Spezifikation und legen Sie ein eigenes Dichtheitskriterium fest."
+          },
+          {
+            "heading": "Repräsentative Muster und Auftragsnachweise freigeben",
+            "body": "Vereinbaren Sie Musterzustand, Maßprüfung, Oberflächenreferenz und Baugruppenergebnis. Verknüpfen Sie Material und Muster mit Chargennachweisen. Bestätigen Sie Verpackung, Prüfumfang und Änderungen vor Folgelieferungen.",
+            "links": [
+              {
+                "url": "/testing",
+                "label": "Werkstoff- und Baugruppenbewertung"
+              },
+              {
+                "url": "/quality",
+                "label": "Qualitätsnachweise und Änderungsprüfung"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Dichtungsmuster besprechen"
+              }
+            ]
           }
         ],
         "cta": "Angebot für Dichtungen anfragen",
@@ -2520,21 +2638,95 @@
       "RQ-PG-006": {
         "label": "Faltenbälge und Schutzmanschetten",
         "title": "Gummifaltenbälge und Schutzmanschetten nach Zeichnung | RubberQ",
-        "description": "Faltenbälge und Schutzmanschetten aus Gummi nach Zeichnung. Stimmen Sie Hub, Einbauraum, Befestigung, Werkstoff und Musterprüfung mit RubberQ ab.",
+        "description": "Definieren Sie Gummifaltenbälge mit Hub, Befestigung, Bauraum und Medien. Bewerten Sie Werkstoffkandidaten und eingebaute Muster unter realer Bewegung.",
         "h1": "Gummifaltenbälge und Schutzmanschetten nach Zeichnung",
         "intro": "Flexible Faltenbälge und Schutzmanschetten für industrielle Mechanismen. Einbaulänge, Hub, Kontaktmedien und Befestigung bestimmen die Anforderungen an Geometrie und Werkstoff.",
         "sections": [
           {
-            "heading": "Den gesamten Bewegungsbereich beschreiben",
-            "body": "Nennen Sie gestauchte und gestreckte Länge, seitliche Bewegung, Lastzyklen und verfügbaren Bauraum. Beschreiben Sie die Befestigung an beiden Enden."
+            "heading": "Mechanismus und Schutzaufgabe beschreiben",
+            "body": "Senden Sie Balg- oder Manschettenzeichnung mit bewegter Baugruppe. Nennen Sie Schutzobjekt und ob das Teil eine Abdeckung oder eine druckbegrenzende Funktion hat. Beschreiben Sie Bewegung sowie tatsächlichen Medien-, Staub- oder Spritzkontakt am Einbauort."
           },
           {
-            "heading": "Umgebung und mögliche Berührungen erfassen",
-            "body": "Berücksichtigen Sie Staub, Spritzwasser, Öl, Reinigungsmittel und Wärmequellen. Prüfen Sie, wo Falten an Nachbarteilen reiben oder während der Bewegung eingeklemmt werden können."
+            "heading": "Den vollständigen Bewegungsraum angeben",
+            "body": "Eine freie Länge allein beschreibt die Einbaubewegung nicht. Nennen Sie Positionen und Befestigung, um Falten und umliegenden Freiraum zu bewerten.",
+            "table": {
+              "caption": "Angaben für Gummifaltenbälge und Schutzmanschetten",
+              "columns": [
+                "Angabe",
+                "Benötigte Einzelheiten"
+              ],
+              "rows": [
+                [
+                  "Axialhub",
+                  "Freie und eingebaute Länge sowie gestauchte und gestreckte Position"
+                ],
+                [
+                  "Weitere Bewegung",
+                  "Seitenversatz, Winkelbewegung oder Torsion und deren Ablauf"
+                ],
+                [
+                  "Enden",
+                  "Beide Befestigungen, Durchmesser, Klemmen oder Halterung"
+                ],
+                [
+                  "Bauraum",
+                  "Radialer Bauraum, Nachbarteile und Freiraum über den gesamten Hub"
+                ],
+                [
+                  "Betrieb",
+                  "Geschwindigkeit, Zyklen oder Ablauf, Haltezeit, Differenzdruck oder Entlüftung"
+                ],
+                [
+                  "Belastung",
+                  "Medien auf beiden Seiten, Temperatur, Staub, Reinigung und Spritzkontakt"
+                ],
+                [
+                  "Annahme",
+                  "Zeichnungsmerkmale, Einbaubewegung und Schutzkriterien"
+                ],
+                [
+                  "Belieferung",
+                  "Werkstoffreferenz, Muster- und Bestellmengen, Verpackung und Nachweise"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Das eingebaute Bauteil prüfen",
-            "body": "Vereinbaren Sie eine Musterbewertung zu Passung, Bewegung, Halt und Aussehen. Eine Lebensdaueranforderung benötigt eine festgelegte Prüfmethode mit Abnahmekriterium."
+            "heading": "Werkstoff nach tatsächlichem Kontakt auswählen",
+            "body": "Identifizieren Sie bei Pumpenmanschetten oder anderen Mechanismen das Betriebsmedium und äußere Medien. Nennen Sie Schmierung, Reinigung sowie Hitze und Kälte. Vergleichen Sie bestimmte Mischungen anhand Kontakt und Bewegung gemeinsam. Die Polymerbezeichnung allein bestimmt die Funktion des vorgeschlagenen Teils nicht.",
+            "links": [
+              {
+                "url": "/blog/industrial-bellows-material-selection-flex-life-media-exposure",
+                "label": "Balgwerkstoff, Bewegung und Medien bewerten (Englisch)"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Angaben zur Medienverträglichkeit"
+              }
+            ]
+          },
+          {
+            "heading": "Muster über den vollständigen Hub bewerten",
+            "body": "Vereinbaren Sie Musterkennung, Konditionierung, Befestigung und repräsentativen Bewegungsablauf. Beobachten Sie Faltenkontakt, Kollision, Endhalt und geforderten Schutz oder Dichtheit. Definieren Sie Temperatur, Kontakt, Zyklen und Annahme für den Einsatz statt einer allgemeinen Lebensdauerzahl.",
+            "items": [
+              "Gestauchte, gestreckte und versetzte Positionen im realen Bauraum prüfen.",
+              "Vorgegebene Medien, Verschmutzung und Schnittstellen bewerten.",
+              "Ergebnisse dokumentieren und Zeichnung, Werkstoff sowie Prüfbasis für Folgelieferungen freigeben."
+            ],
+            "links": [
+              {
+                "url": "/testing",
+                "label": "Bauteil- und Baugruppenprüfungen planen"
+              },
+              {
+                "url": "/quality",
+                "label": "Chargennachweise und Änderungsprüfung"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Balgmusteranfrage vorbereiten"
+              }
+            ]
           }
         ],
         "cta": "Faltenbalg-Konstruktion besprechen",
@@ -2656,21 +2848,95 @@
       "RQ-PG-008": {
         "label": "Membranen",
         "title": "Gummimembranen nach Zeichnung | RubberQ",
-        "description": "Gummimembranen für Ihre Einspannung und Arbeitsbewegung. Stimmen Sie Hub, Druckdifferenz, Medienkontakt, Geometrie und Funktionsprüfung ab.",
+        "description": "Definieren Sie Gummimembranen mit Klemmung, Hub, Druck, Medien und Temperatur. Vereinbaren Sie Werkstoffnachweise, Funktionsmuster und Lieferunterlagen.",
         "h1": "Gummimembranen nach Zeichnung",
         "intro": "Besprechen Sie eine geformte Membran anhand von Arbeitsbewegung, Medienkontakt und Einbau. Einspanngeometrie, Hub und Druckbedingungen bilden die Grundlage für Werkstoff- und Fertigungsabstimmung.",
         "sections": [
           {
-            "heading": "Bewegung und Belastung festlegen",
-            "body": "Nennen Sie Arbeitshub, Druckdifferenz, Lastzyklen und Befestigung. Kennzeichnen Sie Kontakt- oder Reibflächen und das geforderte Verhalten an den Hubgrenzen."
+            "heading": "Die eingebaute Bewegung beschreiben",
+            "body": "Senden Sie Membranzeichnung und Gegenbaugruppe. Bestimmen Sie Klemmbereich, aktive Geometrie, Dickenübergänge und Hub. Geben Sie eine spezifizierte Verstärkung an, damit Material, Position und Fertigungsweg gemeinsam mit dem Gummi bewertet werden können."
           },
           {
-            "heading": "Werkstoff und Querschnitt abstimmen",
-            "body": "Medien, Temperatur und wiederholte Verformung beeinflussen die Mischungsauswahl. Eine Zeichnung mit Wandstärkenübergängen und Einspanndetails unterstützt die Fertigungsbewertung."
+            "heading": "Eine vollständige Membrananforderung vorbereiten",
+            "body": "Nennen Sie den gesamten Betriebsablauf statt nur einer Druckgrenze.",
+            "table": {
+              "caption": "Angaben für eine Formmembrananfrage",
+              "columns": [
+                "Angabe",
+                "Benötigte Informationen"
+              ],
+              "rows": [
+                [
+                  "Geometrie",
+                  "Zeichnungsstand, Dickenprofil, wirksamer Durchmesser und Befestigung"
+                ],
+                [
+                  "Klemmung",
+                  "Gegenmaße, Randabstützung, Verpressung und Montage"
+                ],
+                [
+                  "Bewegung",
+                  "Hub, Auslenkung, Frequenz oder Ablauf, Haltezeit und Rückkehr"
+                ],
+                [
+                  "Druck",
+                  "Differenzdruck, Richtung, Impulse und An- oder Abfahren"
+                ],
+                [
+                  "Medien",
+                  "Flüssigkeits- oder Gaszusammensetzung, Konzentration, Reinigung und Kontaktdauer"
+                ],
+                [
+                  "Temperatur",
+                  "Kaltstart, Betriebsverlauf, Spitzen und Konditionierung"
+                ],
+                [
+                  "Annahme",
+                  "Maß-, Leckage-, Ansprech- und Zyklusbewertungskriterien"
+                ],
+                [
+                  "Belieferung",
+                  "Werkstoffreferenz, Muster- und Bestellmenge, Verpackung und Nachweise"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Funktionsprüfung am Muster vereinbaren",
-            "body": "Definieren Sie Maßprüfung und einen repräsentativen Einbauversuch. Anforderungen an Verstärkung, Permeation oder Dauerfestigkeit sollten zu Projektbeginn genannt werden."
+            "heading": "Werkstoffkontakt, Gastransport und Funktion trennen",
+            "body": "Definieren Sie bei Gasbetrieb reale Zusammensetzung und Kältebedingungen. Materialpermeation und Leckage am Klemmrand sind verschiedene Fragen. Vereinbaren Sie Verstärkungs-, Gastransport- oder Zyklusanforderungen für die vorgeschlagene Konstruktion. Werkstoffalterung und wiederholte Biegung benötigen ebenfalls getrennte Bewertungspläne.",
+            "links": [
+              {
+                "url": "/blog/permeation-vs-leakage-understanding-the-difference-in-gas-systems",
+                "label": "Permeation und Leckage unterscheiden (Englisch)"
+              },
+              {
+                "url": "/materials",
+                "label": "Werkstoffkandidaten für die Belastung"
+              },
+              {
+                "url": "/testing",
+                "label": "Werkstoff- und Membranprüfungen planen"
+              }
+            ]
+          },
+          {
+            "heading": "Repräsentative Muster in der Baugruppe bewerten",
+            "body": "Vereinbaren Sie Musterkennung, Konditionierung, Klemmung und Druck- oder Bewegungsablauf. Legen Sie bei relevanter Kennlinie Achsen, Lastrichtung und Annahmebasis fest. Vergleichen Sie Dichtheit, Bewegung und Rückkehr mit den Kriterien vor Musterfreigabe. Behalten Sie freigegebene Zeichnung, Werkstoff und Prüfbasis für Folgelieferungen bei.",
+            "items": [
+              "Maße und eingebauten Randzustand bestätigen.",
+              "Funktion bei festgelegtem Druck, Hub und Temperatur bewerten.",
+              "Ergebnis, Freigabeverantwortung und offene Änderungen dokumentieren."
+            ],
+            "links": [
+              {
+                "url": "/quality",
+                "label": "Qualitätsnachweise und Rückverfolgung"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Membranmusteranfrage vorbereiten"
+              }
+            ]
           }
         ],
         "cta": "Membranprojekt besprechen",
@@ -2679,21 +2945,109 @@
       "RQ-PG-009": {
         "label": "Gummi-Metall-Bauteile",
         "title": "Gummi-Metall-Verbundteile | RubberQ",
-        "description": "Gummi-Metall-Verbundteile nach Zeichnung. Besprechen Sie Elastomer, Einleger, Oberflächenvorbereitung, Kraftfluss und repräsentative Haftprüfung.",
+        "description": "Bewerten Sie Gummi-Metall-Teile anhand von Metall, Oberfläche, Mischung und Last. Definieren Sie Einlegeteilkontrolle, Haftung, Dynamik und Muster.",
         "h1": "Gummi-Metall-Verbundteile",
         "intro": "Besprechen Sie Verbundbauteile mit Blick auf Elastomer, Metalleinleger und Betriebsbelastung. Baugruppenzeichnung und Lastbedingungen helfen, Entwicklung und Prüfung festzulegen.",
         "sections": [
           {
-            "heading": "Den Kraftfluss verstehen",
-            "body": "Beschreiben Sie Druck, Schub, Zug und wiederholte Bewegung. Markieren Sie Haftflächen und Belastungsrichtung in der Zeichnung."
+            "heading": "Gummi, Metall und fertige Schnittstelle definieren",
+            "body": "Senden Sie Baugruppenzeichnung, Gummianforderung und Metalleinlegeteilspezifikation. Bestimmen Sie Haftfläche, Montageflächen und Funktionsmaße. Bewerten Sie Metallsorte, Oberfläche und Anlieferzustand gemeinsam mit Mischung und Fertigungsanforderungen."
           },
           {
-            "heading": "Einlegeteil und Vorbereitung prüfen",
-            "body": "Nennen Sie Metallsorte, Oberflächenzustand, Beschichtung und Bereitstellung der Einleger. Oberflächenvorbereitung, Haftsystem und Formgebungsbedingungen müssen zusammenpassen."
+            "heading": "Bauteilspezifikation vorbereiten",
+            "body": "Nennen Sie die zur Bewertung von Gummi und Metallschnittstelle benötigten Informationen.",
+            "table": {
+              "caption": "Angaben zur Bewertung von Gummi-Metall-Bauteilen",
+              "columns": [
+                "Angabe",
+                "Benötigte Informationen"
+              ],
+              "rows": [
+                [
+                  "Gummi",
+                  "Mischungsreferenz, geforderte Eigenschaften und Kontaktmedien"
+                ],
+                [
+                  "Metall",
+                  "Sorte, Beschichtung, Korrosionsanforderung und Zeichnungsstand"
+                ],
+                [
+                  "Einlegeteilversorgung",
+                  "Lieferverantwortung, Chargenkennung, Vorbehandlungsgrenzen und Schutz vor der Verbundherstellung"
+                ],
+                [
+                  "Geometrie",
+                  "Haftfläche, Positionierung, Ausrichtung und Maßkriterien"
+                ],
+                [
+                  "Belastung",
+                  "Richtung, Druck, Schub oder Zug, Vorspannung, Frequenz, Amplitude und Lastverlauf"
+                ],
+                [
+                  "Umgebung",
+                  "Temperatur, Gummimedienkontakt und Salz- oder Korrosionsbelastung des Metalls"
+                ],
+                [
+                  "Annahme",
+                  "Einlegeteilposition, Haftungsprüfung und Bauteil- oder Baugruppenfunktion"
+                ],
+                [
+                  "Belieferung",
+                  "Muster- und Serienmengen, Verpackung und Nachweise"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Haftprüfung vereinbaren",
-            "body": "Legen Sie Probengeometrie, Lastrichtung, Konditionierung und Abnahmekriterien fest. Ein allgemeiner Haftfestigkeitswert ersetzt keine repräsentative Bauteilprüfung."
+            "heading": "Positionsprüfung von Haftungsbewertung trennen",
+            "body": "Spezifizieren Sie Einlegeteilposition und Messmethode. Vereinbaren Sie für die Haftung Probe oder repräsentatives Teil, Vorrichtung, Belastung, Konditionierung und Annahmekriterium. Verknüpfen Sie Material-, Oberflächen- und Prozesskennung mit dem Bericht. Dokumentieren Sie Trennstelle und Rückstände auf beiden Flächen zusätzlich zum Messwert.",
+            "links": [
+              {
+                "url": "/blog/bonding-strength-testing-interpreting-90-degree-vs-180-degree-peel-tests",
+                "label": "Schälprüfberichte vergleichen (Englisch)"
+              },
+              {
+                "url": "/blog/rubber-to-metal-bonding-failure-analyzing-adhesive-vs-material-separation",
+                "label": "Trennung von Gummi und Metall untersuchen (Englisch)"
+              }
+            ]
+          },
+          {
+            "heading": "Dynamische Aufgabe im eingebauten System festlegen",
+            "body": "Nennen Sie für Robotermechanismen oder andere bewegte Baugruppen getragene Masse, Vorspannung, Montagegeometrie und Lastrichtung. Definieren Sie Frequenz, Amplitude, Temperatur und entscheidungsrelevantes Ergebnis. Rückprallwert, statische Steifigkeit und dynamische Isolation sind unterschiedliche Bewertungen.",
+            "items": [
+              "Vorrichtung, Last und Musterzustand der dynamischen Bewertung vereinbaren.",
+              "Medienkontakt des Gummis und Metallkorrosion getrennt erfassen.",
+              "Baugruppenreaktion unter definierter Montage und Betriebsbedingung bewerten."
+            ],
+            "links": [
+              {
+                "url": "/blog/vibration-damping-mounts-dynamic-stiffness-humanoid-robot-actuators",
+                "label": "Dynamische Steifigkeit von Gummilagern (Englisch)"
+              },
+              {
+                "url": "/testing",
+                "label": "Bauteil- und Baugruppenprüfungen besprechen"
+              }
+            ]
+          },
+          {
+            "heading": "Folgelieferungen anhand von Versuchsnachweisen freigeben",
+            "body": "Bei Einlegeteilverschiebung im Formprozess halten Sie Lage, Kavität, Positionierung, Werkzeugabstützung und Fließ- oder Prozessnachweise zum Vergleich fest. Vereinbaren Sie kontrollierten Versuch und getrennte Positions- und Haftungsbewertung. Bestätigen Sie für Folgeaufträge Metall und Gummi, Zeichnung, Prüfung, Oberflächenschutz, Verpackung und Chargenunterlagen.",
+            "links": [
+              {
+                "url": "/capabilities/rubber-molding",
+                "label": "Formgebung und Einlegeteile bewerten"
+              },
+              {
+                "url": "/quality",
+                "label": "Qualitätsnachweise und Änderungssteuerung"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Gummi-Metall-Muster vorbereiten"
+              }
+            ]
           }
         ],
         "cta": "Verbundbauteil besprechen",

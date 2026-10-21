@@ -1,0 +1,16 @@
+{
+  "baseline_commit": "5184254fc66451e05b61c9a6cfb4d64034dfbc57",
+  "scope": [
+    "/products/gaskets",
+    "/products/diaphragms",
+    "/products/bellows",
+    "/products/rubber-to-metal-bonded-parts"
+  ],
+  "files": {
+    "src/messages/en.json": "3646df0498616404ce8a6f02ef8b258fa3cfc9cbc684e81fb7e0757a5a0c86e7",
+    "src/messages/de.json": "add1dbb0f9af4af3b1f682815c8cdd689d426f04564663fc88f867fd7fa9b65b",
+    "src/messages/ja.json": "8cf2db0e67bc33681680d11b0d33cd7dceba4e16317fe054cf1712bc33a02d95",
+    "src/messages/es.json": "f759ff00315cd41abb852121bbb1600c88c6eb0cef8aff525e18c84b676ac231",
+    "src/messages/zh.json": "68568900acd71493f98b8ba1fb094cf1518cd1809dff699639412d464e30cb9e"
+  }
+}

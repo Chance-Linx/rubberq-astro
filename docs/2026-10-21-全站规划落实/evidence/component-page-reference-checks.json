@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-21",
+  "scope": "Public scope/abstract cross-checks and existing article reference reuse; no purchased standards or new factory data",
+  "references": [
+    {
+      "id": "IEC60529-SCOPE",
+      "url": "https://webstore.iec.ch/en/publication/2452",
+      "scope_read": "Public IEC title and scope, lines55–61",
+      "use": "Distinguish enclosure IP evaluation from a gasket compound report; no IP rating promised."
+    },
+    {
+      "id": "ISO-10846-1",
+      "url": "https://www.iso.org/standard/38936.html",
+      "scope_read": "Public abstract",
+      "use": "Laboratory transfer-property method-selection context; no robotic qualification or claim of all methods in-house."
+    },
+    {
+      "id": "NASA-DYNAMIC-STIFFNESS",
+      "url": "https://ntrs.nasa.gov/citations/19740026255",
+      "scope_read": "Public research abstract",
+      "use": "Specimen, preload and frequency-specific reporting context; no numerical results transferred to RubberQ."
+    },
+    {
+      "id": "ASTM-D429",
+      "url": "https://store.astm.org/standards/d429",
+      "scope_read": "Existing accepted public-scope reference reused; title verified by search this round",
+      "use": "Adhesion evaluation remains dependent on specimen, geometry, loading and acceptance selected for the project."
+    }
+  ],
+  "not_relied_on": "Instron technical-body lookup did not return usable body text; no new technical statement is attributed to that attempted lookup. Trelleborg search result was not read or used as performance evidence.",
+  "arithmetic_artifact": "evidence/gasket-geometry-example-check.json",
+  "paid_calls": 0,
+  "new_factory_test_results": 0
+}

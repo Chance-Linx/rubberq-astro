@@ -1,0 +1,14 @@
+{
+  "scope": "Independent arithmetic check of an explicitly illustrative uniform flat-section drawing stack; not material recommendations, RubberQ tolerances or production test data",
+  "formula": "100 * (free_thickness - closed_gap) / free_thickness",
+  "unit": "mm",
+  "free_thickness_min": "2.00",
+  "free_thickness_max": "2.10",
+  "closed_gap_min": "1.50",
+  "closed_gap_max": "1.60",
+  "minimum_percent": "20.0",
+  "maximum_percent_unrounded": "28.57142857142857142857142857",
+  "maximum_percent_display": "28.6",
+  "rounding": "one decimal place",
+  "pass": true
+}

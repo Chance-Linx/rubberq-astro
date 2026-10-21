@@ -2469,21 +2469,139 @@
       "RQ-PG-005": {
         "label": "Custom Gaskets",
         "title": "Custom Rubber Gaskets | RubberQ",
-        "description": "Develop a gasket around the joint it needs to seal. Share the flange or enclosure drawing, fluid exposure, compression limits and assembly method so.",
+        "description": "Prepare a custom rubber gasket enquiry with joint geometry, compression, media and assembly details. Compare supply routes and define sample acceptance.",
         "h1": "Custom Rubber Gaskets",
         "intro": "Develop a gasket around the joint it needs to seal. Share the flange or enclosure drawing, fluid exposure, compression limits and assembly method so material and geometry can be reviewed together.",
         "sections": [
           {
-            "heading": "Start with the joint",
-            "body": "Identify the mating surfaces, fasteners, compression stops, allowable gap and installation method. These details shape the gasket section and validation plan."
+            "heading": "Define the joint before choosing the gasket",
+            "body": "Share the flange or enclosure drawing with the gasket profile. Identify the closed joint, stops and fastening method so thickness, material and assembly can be reviewed together.",
+            "table": {
+              "caption": "Inputs for a custom rubber gasket enquiry",
+              "columns": [
+                "Input",
+                "What to provide"
+              ],
+              "rows": [
+                [
+                  "Joint",
+                  "Flange geometry, closed gap, stops, mating-part tolerances and surfaces"
+                ],
+                [
+                  "Gasket",
+                  "Profile, thickness range, holes, sealing features and drawing revision"
+                ],
+                [
+                  "Assembly",
+                  "Fasteners, sequence, constraints and intended compression"
+                ],
+                [
+                  "Duty",
+                  "Complete medium, lubricant, temperature and pressure history"
+                ],
+                [
+                  "Environment",
+                  "Weather, dust, moisture, salt exposure and cleaning"
+                ],
+                [
+                  "Supply",
+                  "Finished gasket or sheet request, material, sample and order quantities"
+                ],
+                [
+                  "Acceptance",
+                  "Dimensional, visual and assembly test criteria and required records"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Match the compound to the environment",
-            "body": "Review fluid contact, temperature cycles, weather exposure and compression recovery. EPDM, FKM, NBR and silicone are candidate material families, selected for the specific application."
+            "heading": "Check the dimensional stack-up",
+            "body": "For a simple flat-section example, compression is 100 × (t − g) / t, where t is free gasket thickness and g is the closed gap. The following drawing values illustrate the calculation. Set the actual compression limits from the joint and functional evaluation.",
+            "table": {
+              "caption": "Worked geometry example: flat gasket and closed gap",
+              "columns": [
+                "Illustrative input or result",
+                "Value"
+              ],
+              "rows": [
+                [
+                  "Free thickness t",
+                  "2.00–2.10 mm"
+                ],
+                [
+                  "Closed gap g",
+                  "1.50–1.60 mm"
+                ],
+                [
+                  "Smallest calculated compression",
+                  "20.0%, using t = 2.00 mm and g = 1.60 mm"
+                ],
+                [
+                  "Largest calculated compression",
+                  "Approximately 28.6%, using t = 2.10 mm and g = 1.50 mm"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/over-compression-when-tighter-is-not-better-for-gasket-performance",
+                "label": "Investigating gasket over-compression"
+              },
+              {
+                "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+                "label": "Recovery and retained sealing force"
+              }
+            ]
           },
           {
-            "heading": "Move from sample to repeat order",
-            "body": "Agree dimensions, appearance requirements, inspection points and packaging. For a recurring program, include annual demand and the documentation expected with each batch."
+            "heading": "Compare molded and sheet-cut proposals",
+            "body": "For a molded gasket, define ribs, contours, parting line, thickness transitions and finish. For a die-cut or sheet-cut proposal, specify the sheet material, thickness, profile, holes and edge quality. Compare quantities and inspection on the same basis. Confirm the actual finished-part or sheet supply route for the drawing; uncured compound supply is a separate purchasing task.",
+            "links": [
+              {
+                "url": "/capabilities/rubber-molding",
+                "label": "Molded-part process review"
+              },
+              {
+                "url": "/compounds",
+                "label": "Compound supply requirements"
+              }
+            ]
+          },
+          {
+            "heading": "Define the environment and the assembly test",
+            "body": "Include pressure pulses, support and gap changes with temperature and media. Specify actual insulating oil, saltwater or cleaning exposure where relevant. For an outdoor enclosure, agree climate, dust and water tests on the complete assembly. A compound report and an enclosure IP evaluation address different objects.",
+            "links": [
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Media and exposure inputs"
+              },
+              {
+                "url": "/materials/epdm",
+                "label": "EPDM candidate evaluation"
+              }
+            ]
+          },
+          {
+            "heading": "Separate electrical and sealing requirements",
+            "body": "If an EMI gasket is specified, distinguish material resistivity, contact resistance and assembly shielding. Define fixture, frequency, compression and conditions after temperature cycling or other exposure. Confirm the required material and supply option against that specification, with a separate sealing acceptance criterion."
+          },
+          {
+            "heading": "Approve representative samples and order records",
+            "body": "Agree the sample state, dimensional inspection, surface reference and assembly result. Link material and samples to their lot records. Confirm packaging, inspection scope and changes before repeat supply.",
+            "links": [
+              {
+                "url": "/testing",
+                "label": "Material and assembly evaluation"
+              },
+              {
+                "url": "/quality",
+                "label": "Quality records and change review"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Discuss gasket samples"
+              }
+            ]
           }
         ],
         "cta": "Request a Gasket Quote",
@@ -2492,21 +2610,95 @@
       "RQ-PG-006": {
         "label": "Bellows & Boots",
         "title": "Custom Rubber Bellows and Protective Boots | RubberQ",
-        "description": "Review flexible bellows and protective boots for industrial mechanisms. Installed length, travel, surrounding media and attachment details define the.",
+        "description": "Define custom rubber bellows and boots with full travel, attachment, space and media requirements. Review material candidates and installed sample tests.",
         "h1": "Custom Rubber Bellows and Protective Boots",
         "intro": "Review flexible bellows and protective boots for industrial mechanisms. Installed length, travel, surrounding media and attachment details define the geometry and material requirements.",
         "sections": [
           {
-            "heading": "Describe the full movement",
-            "body": "Provide compressed and extended dimensions, lateral movement, cycling conditions and available installation space. Include the attachment features at both ends."
+            "heading": "Describe the mechanism and protection task",
+            "body": "Share the bellows or boot drawing with the moving assembly. State what must be protected and whether the part is a cover or has a pressure-boundary function. Include the motion and the fluid, dust or splash exposure at the actual location."
           },
           {
-            "heading": "Control exposure and interference",
-            "body": "Identify dust, splash, oil, cleaning chemicals and heat sources. Review where folds may rub against adjacent parts or become trapped during movement."
+            "heading": "Provide the full movement envelope",
+            "body": "A single free length does not describe the installed motion. Supply the positions and attachment details needed to review the folds and surrounding clearance.",
+            "table": {
+              "caption": "Inputs for a rubber bellows or boot review",
+              "columns": [
+                "Input",
+                "Details to provide"
+              ],
+              "rows": [
+                [
+                  "Axial travel",
+                  "Free and installed length, compressed and extended positions"
+                ],
+                [
+                  "Other motion",
+                  "Lateral offset, angular movement or torsion, and their sequence"
+                ],
+                [
+                  "Ends",
+                  "Both attachment interfaces, diameters, clamp or retention details"
+                ],
+                [
+                  "Space",
+                  "Radial envelope, adjacent parts and clearance throughout travel"
+                ],
+                [
+                  "Duty",
+                  "Speed, cycles or sequence, dwell and any differential pressure or venting"
+                ],
+                [
+                  "Exposure",
+                  "Media on each side, temperature, dust, cleaning and splash"
+                ],
+                [
+                  "Acceptance",
+                  "Drawing features, installed movement and protection criteria"
+                ],
+                [
+                  "Supply",
+                  "Material reference, sample and order quantities, packaging and records"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Check the installed part",
-            "body": "Agree a sample review that includes fit, movement, retention and visual inspection. Any cycle-life requirement should include an agreed test method and acceptance criterion."
+            "heading": "Select the material against actual exposure",
+            "body": "For a pump boot or other industrial mechanism, identify the working fluid and the media reaching the outside. Include lubrication, cleaning and hot or cold conditions. Compare identified compounds using the exposure and movement requirements together; the polymer name alone does not determine the proposed part’s function.",
+            "links": [
+              {
+                "url": "/blog/industrial-bellows-material-selection-flex-life-media-exposure",
+                "label": "Bellows material, motion and exposure review"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Media-compatibility inputs"
+              }
+            ]
+          },
+          {
+            "heading": "Evaluate the sample over the complete travel",
+            "body": "Agree sample identity, conditioning, attachment and the representative motion sequence. Observe fold contact, interference, end retention and the required protection or leakage result. Define temperature, exposure, cycles and acceptance for the application rather than using a generic service-life figure.",
+            "items": [
+              "Check compressed, extended and offset positions in the actual envelope.",
+              "Evaluate the specified media, contamination and interface conditions.",
+              "Record findings and approve the drawing, material and inspection basis for repeat supply."
+            ],
+            "links": [
+              {
+                "url": "/testing",
+                "label": "Part and assembly test planning"
+              },
+              {
+                "url": "/quality",
+                "label": "Lot records and change review"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Prepare a bellows sample request"
+              }
+            ]
           }
         ],
         "cta": "Discuss a Bellows Design",
@@ -2628,21 +2820,95 @@
       "RQ-PG-008": {
         "label": "Diaphragms",
         "title": "Custom Rubber Diaphragms | RubberQ",
-        "description": "Discuss a molded diaphragm around its working movement, fluid exposure and assembly. Share the clamping geometry, stroke and pressure conditions for a.",
+        "description": "Define a rubber diaphragm with clamping geometry, stroke, pressure, media and temperature. Agree material evidence, functional samples and supply records.",
         "h1": "Custom Rubber Diaphragms",
         "intro": "Discuss a molded diaphragm around its working movement, fluid exposure and assembly. Share the clamping geometry, stroke and pressure conditions for a material and manufacturing review.",
         "sections": [
           {
-            "heading": "Define movement and loading",
-            "body": "Supply the working stroke, pressure differential, cycling conditions and mounting arrangement. Identify contact or rubbing surfaces and the required behaviour at the travel limits."
+            "heading": "Describe the installed movement",
+            "body": "Provide the diaphragm drawing and the mating assembly. Identify the clamped area, active geometry, thickness transitions and required stroke. State whether a reinforcement is part of the specification so its material, position and manufacturing route can be reviewed with the rubber."
           },
           {
-            "heading": "Review material and section geometry",
-            "body": "Fluid exposure, temperature and repeated deformation affect compound selection. A drawing with thickness transitions and clamping details helps assess the manufacturing route."
+            "heading": "Prepare a complete diaphragm requirement",
+            "body": "Include the full operating sequence rather than a pressure limit alone.",
+            "table": {
+              "caption": "Inputs for a molded diaphragm enquiry",
+              "columns": [
+                "Input",
+                "Information to provide"
+              ],
+              "rows": [
+                [
+                  "Geometry",
+                  "Drawing revision, thickness profile, active diameter and attachment features"
+                ],
+                [
+                  "Clamping",
+                  "Mating dimensions, edge support, compression and assembly method"
+                ],
+                [
+                  "Movement",
+                  "Stroke, deflection, frequency or sequence, dwell and return conditions"
+                ],
+                [
+                  "Pressure",
+                  "Differential pressure, direction, pulses and startup or shutdown"
+                ],
+                [
+                  "Media",
+                  "Fluid or gas composition, concentrations, cleaning and contact time"
+                ],
+                [
+                  "Temperature",
+                  "Cold start, operating history, peaks and conditioning"
+                ],
+                [
+                  "Acceptance",
+                  "Required dimensional, leakage, response and cycle-evaluation criteria"
+                ],
+                [
+                  "Supply",
+                  "Material reference, sample and order quantity, packaging and records"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Set a functional sample review",
-            "body": "Agree dimensional checks and a representative installation test. Reinforcement, permeability or endurance requirements should be identified at the start of the project."
+            "heading": "Separate material exposure, gas transfer and function",
+            "body": "For gas service, define the actual composition and cold conditions. Permeation through a material and leakage at the clamped interface are different questions. Agree any reinforcement, gas-transfer or cycle requirement for the proposed construction. Material aging and repeated flexing also need distinct evaluation plans.",
+            "links": [
+              {
+                "url": "/blog/permeation-vs-leakage-understanding-the-difference-in-gas-systems",
+                "label": "Distinguishing permeation and leakage"
+              },
+              {
+                "url": "/materials",
+                "label": "Material candidates for the specified exposure"
+              },
+              {
+                "url": "/testing",
+                "label": "Material and diaphragm test planning"
+              }
+            ]
+          },
+          {
+            "heading": "Evaluate representative samples in the assembly",
+            "body": "Agree sample identity, conditioning, clamping and the pressure or motion sequence. If a response curve matters, define its axes, loading direction and acceptance basis. Compare the required leak, movement and return results with the agreed criteria before sample approval. Retain the approved drawing, material and inspection basis for repeat supply.",
+            "items": [
+              "Confirm dimensions and the installed edge condition.",
+              "Evaluate function using the defined pressure, stroke and temperature.",
+              "Record the result, approval responsibility and any open changes."
+            ],
+            "links": [
+              {
+                "url": "/quality",
+                "label": "Quality records and traceability"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Prepare a diaphragm sample request"
+              }
+            ]
           }
         ],
         "cta": "Discuss a Diaphragm Project",
@@ -2651,21 +2917,109 @@
       "RQ-PG-009": {
         "label": "Rubber-to-Metal Parts",
         "title": "Rubber-to-Metal Bonded Components | RubberQ",
-        "description": "Review bonded rubber components with attention to the elastomer, metal insert and service load. Share the assembly drawing and loading conditions to discuss.",
+        "description": "Review rubber-to-metal parts with metal grade, surface, compound and service loads. Define insert control, adhesion tests, dynamic evaluation and samples.",
         "h1": "Rubber-to-Metal Bonded Components",
         "intro": "Review bonded rubber components with attention to the elastomer, metal insert and service load. Share the assembly drawing and loading conditions to discuss a development and inspection route.",
         "sections": [
           {
-            "heading": "Understand the load path",
-            "body": "Describe compression, shear, tension and repeated movement. Mark the bonded surfaces and the functional direction of loading on the drawing."
+            "heading": "Define the rubber, metal and finished interface",
+            "body": "Share the assembly drawing, rubber requirement and metal insert specification. Identify the bond area, mounting interfaces and functional dimensions. Review the metal grade, surface and supplied state together with the compound and manufacturing requirements."
           },
           {
-            "heading": "Review the insert and preparation",
-            "body": "Identify the metal grade, finish, coating and insert supply arrangement. Surface preparation, bonding system and molding conditions need to be considered together."
+            "heading": "Prepare the component specification",
+            "body": "Include the information needed to evaluate both the rubber and its metal interface.",
+            "table": {
+              "caption": "Inputs for rubber-to-metal component review",
+              "columns": [
+                "Input",
+                "What to provide"
+              ],
+              "rows": [
+                [
+                  "Rubber",
+                  "Compound reference, required properties and contacting media"
+                ],
+                [
+                  "Metal",
+                  "Grade, coating, corrosion requirements and drawing revision"
+                ],
+                [
+                  "Insert supply",
+                  "Who supplies it, lot identity, preparation limits and protection before bonding"
+                ],
+                [
+                  "Geometry",
+                  "Bond area, locating features, alignment and dimensional criteria"
+                ],
+                [
+                  "Loading",
+                  "Direction, compression, shear or tension, preload, frequency, amplitude and load history"
+                ],
+                [
+                  "Environment",
+                  "Temperature, rubber fluid exposure and metal salt or corrosion exposure"
+                ],
+                [
+                  "Acceptance",
+                  "Insert position, adhesion method and component or assembly function"
+                ],
+                [
+                  "Supply",
+                  "Sample and production quantities, packaging and required records"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Agree bond verification",
-            "body": "Define the test geometry, load direction, conditioning and acceptance criteria. A generic bond-strength number is not a substitute for a representative part test."
+            "heading": "Separate position inspection from adhesion evaluation",
+            "body": "Specify the insert’s dimensional location and how it is measured. For adhesion, agree a specimen or representative part, fixture, loading method, conditioning and acceptance criterion. Keep material, surface and process identification with the report. Record where separation occurs and what remains on each surface, as well as the measured result.",
+            "links": [
+              {
+                "url": "/blog/bonding-strength-testing-interpreting-90-degree-vs-180-degree-peel-tests",
+                "label": "Comparing peel-test report conditions"
+              },
+              {
+                "url": "/blog/rubber-to-metal-bonding-failure-analyzing-adhesive-vs-material-separation",
+                "label": "Investigating rubber-to-metal separation"
+              }
+            ]
+          },
+          {
+            "heading": "Define the dynamic task in the installed system",
+            "body": "For a robot mechanism or another moving assembly, provide the supported mass, preload, mounting geometry and required load direction. Define frequency, amplitude, temperature and the output needed for the decision. A rebound result, static stiffness and dynamic isolation describe different evaluations.",
+            "items": [
+              "Agree the fixture, loading and sample condition for the dynamic result.",
+              "Keep rubber media exposure and metal corrosion requirements separately identified.",
+              "Evaluate the required assembly response under its defined mounting and operating conditions."
+            ],
+            "links": [
+              {
+                "url": "/blog/vibration-damping-mounts-dynamic-stiffness-humanoid-robot-actuators",
+                "label": "Dynamic stiffness of rubber mounts"
+              },
+              {
+                "url": "/testing",
+                "label": "Discuss component and assembly testing"
+              }
+            ]
+          },
+          {
+            "heading": "Use trial evidence to approve repeat supply",
+            "body": "If an insert shifts during molding, retain its location, cavity, locating features, mold restraints and flow or process records for comparison. Agree the controlled trial and evaluate position and adhesion separately. For repeat orders, confirm the approved metal and rubber references, drawing, inspection basis, surface protection, packaging and lot records.",
+            "links": [
+              {
+                "url": "/capabilities/rubber-molding",
+                "label": "Molding and insert review"
+              },
+              {
+                "url": "/quality",
+                "label": "Quality records and change control"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Prepare bonded-component samples"
+              }
+            ]
           }
         ],
         "cta": "Review a Bonded Part",

@@ -1,0 +1,27 @@
+{
+  "scope": "Representative desktop views and one primary enquiry path; not full mobile, all source-attribution paths, actual submission or production publication",
+  "checks": [
+    {
+      "path": "/products/gaskets",
+      "observation": "Six sections, enquiry and worked stack-up tables, formula and20.0/28.6percent illustrative results present",
+      "screenshot": "evidence/gasket-stackup-module-en.png"
+    },
+    {
+      "path": "/ja/products/rubber-to-metal-bonded-parts",
+      "observation": "Five Japanese sections, metal/rubber/insert/load table, separate adhesion and dynamic tasks and English article labels visible"
+    },
+    {
+      "path": "/de/products/bellows",
+      "observation": "Four German sections, full travel/attachment/space table and sample task visible"
+    },
+    {
+      "path": "/es/products/diaphragms",
+      "observation": "Four Spanish sections, clamping/stroke/pressure table and separate permeability/leakage evaluation visible"
+    },
+    {
+      "url": "http://127.0.0.1:4397/contact?source=%2Fproducts%2Fgaskets&cta=project-review",
+      "observation": "Gasket primary CTA clicked; English contact form present with gasket-page source retained; no submission"
+    }
+  ],
+  "form_submissions": 0
+}

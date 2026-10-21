@@ -1,0 +1,96 @@
+{
+  "baseline_commit": "5184254fc66451e05b61c9a6cfb4d64034dfbc57",
+  "checks": [
+    {
+      "locale": "en",
+      "pass": true,
+      "changed_ids": [
+        "RQ-PG-005",
+        "RQ-PG-006",
+        "RQ-PG-008",
+        "RQ-PG-009"
+      ],
+      "fields": [
+        "sections",
+        "description"
+      ],
+      "headers_intro_cta_brand_unchanged": true,
+      "illustrative_geometry_inputs_formula_and_displayed_results_match": true
+    },
+    {
+      "locale": "de",
+      "pass": true,
+      "changed_ids": [
+        "RQ-PG-005",
+        "RQ-PG-006",
+        "RQ-PG-008",
+        "RQ-PG-009"
+      ],
+      "fields": [
+        "sections",
+        "description"
+      ],
+      "headers_intro_cta_brand_unchanged": true,
+      "illustrative_geometry_inputs_formula_and_displayed_results_match": true
+    },
+    {
+      "locale": "ja",
+      "pass": true,
+      "changed_ids": [
+        "RQ-PG-005",
+        "RQ-PG-006",
+        "RQ-PG-008",
+        "RQ-PG-009"
+      ],
+      "fields": [
+        "sections",
+        "description"
+      ],
+      "headers_intro_cta_brand_unchanged": true,
+      "illustrative_geometry_inputs_formula_and_displayed_results_match": true
+    },
+    {
+      "locale": "es",
+      "pass": true,
+      "changed_ids": [
+        "RQ-PG-005",
+        "RQ-PG-006",
+        "RQ-PG-008",
+        "RQ-PG-009"
+      ],
+      "fields": [
+        "sections",
+        "description"
+      ],
+      "headers_intro_cta_brand_unchanged": true,
+      "illustrative_geometry_inputs_formula_and_displayed_results_match": true
+    },
+    {
+      "locale": "zh",
+      "pass": true,
+      "changed_ids": [
+        "RQ-PG-005",
+        "RQ-PG-006",
+        "RQ-PG-008",
+        "RQ-PG-009"
+      ],
+      "fields": [
+        "sections",
+        "description"
+      ],
+      "headers_intro_cta_brand_unchanged": true,
+      "illustrative_geometry_inputs_formula_and_displayed_results_match": true
+    }
+  ],
+  "preexisting_file_hashes_unchanged": true,
+  "package_checks": {
+    "passed": 27,
+    "total": 27
+  },
+  "implemented_modules": 20,
+  "remaining_modules": 15,
+  "accepted_coverage": 0,
+  "cms_writes": 0,
+  "production_deployments": 0,
+  "final_review": "not_started"
+}

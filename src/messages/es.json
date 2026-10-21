@@ -2535,21 +2535,139 @@
       "RQ-PG-005": {
         "label": "Juntas planas a medida",
         "title": "Juntas planas de caucho a medida | RubberQ",
-        "description": "Desarrolle una junta según la unión que debe sellar.",
+        "description": "Prepare una consulta de juntas de caucho con unión, compresión, medios y montaje. Compare formatos de suministro y defina la aceptación de muestras.",
         "h1": "Juntas planas de caucho a medida",
         "intro": "Desarrolle una junta según la unión que debe sellar. Comparta plano de brida o carcasa, exposición a fluidos, límites de compresión y montaje para evaluar juntos material y geometría.",
         "sections": [
           {
-            "heading": "Empezar por la unión",
-            "body": "Identifique superficies de contacto, fijaciones, topes de compresión, holgura permitida y montaje. Estos datos definen la sección de la junta y el plan de validación."
+            "heading": "Definir la unión antes de elegir la junta",
+            "body": "Aporte plano de brida o envolvente con el perfil de junta. Identifique unión cerrada, topes y fijación para revisar juntos espesor, material y montaje.",
+            "table": {
+              "caption": "Información para una junta de caucho a medida",
+              "columns": [
+                "Dato",
+                "Qué aportar"
+              ],
+              "rows": [
+                [
+                  "Unión",
+                  "Geometría de brida, holgura cerrada, topes, tolerancias y superficies"
+                ],
+                [
+                  "Junta",
+                  "Perfil, rango de espesor, agujeros, zonas de sellado y revisión del plano"
+                ],
+                [
+                  "Montaje",
+                  "Fijaciones, secuencia, restricciones y compresión prevista"
+                ],
+                [
+                  "Servicio",
+                  "Medio completo, lubricante, historial térmico y de presión"
+                ],
+                [
+                  "Entorno",
+                  "Intemperie, polvo, humedad, sal y limpieza"
+                ],
+                [
+                  "Suministro",
+                  "Junta terminada o lámina, material y cantidades"
+                ],
+                [
+                  "Aceptación",
+                  "Criterios dimensionales, visuales y del conjunto, y registros"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Adaptar el compuesto al entorno",
-            "body": "Revise fluidos, ciclos térmicos, intemperie y recuperación tras compresión. EPDM, FKM, NBR y silicona son familias candidatas que se seleccionan para la aplicación concreta."
+            "heading": "Comprobar la cadena dimensional",
+            "body": "Para un ejemplo de sección plana, la compresión es 100 × (t − g) / t; t es espesor libre y g la holgura cerrada. Los siguientes valores de plano ilustran el cálculo. Acuerde límites reales según unión y evaluación funcional.",
+            "table": {
+              "caption": "Ejemplo geométrico: junta plana y holgura cerrada",
+              "columns": [
+                "Entrada o resultado ilustrativo",
+                "Valor"
+              ],
+              "rows": [
+                [
+                  "Espesor libre t",
+                  "2,00–2,10 mm"
+                ],
+                [
+                  "Holgura cerrada g",
+                  "1,50–1,60 mm"
+                ],
+                [
+                  "Compresión calculada mínima",
+                  "20,0 %, con t = 2,00 mm y g = 1,60 mm"
+                ],
+                [
+                  "Compresión calculada máxima",
+                  "Aproximadamente 28,6 %, con t = 2,10 mm y g = 1,50 mm"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/over-compression-when-tighter-is-not-better-for-gasket-performance",
+                "label": "Investigar sobrecompresión de juntas (inglés)"
+              },
+              {
+                "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+                "label": "Recuperación y fuerza de sellado residual (inglés)"
+              }
+            ]
           },
           {
-            "heading": "Pasar de la muestra al pedido recurrente",
-            "body": "Acuerde dimensiones, aspecto, puntos de inspección y embalaje. Para programas recurrentes, incluya demanda anual y documentación por lote."
+            "heading": "Comparar piezas moldeadas y cortadas de lámina",
+            "body": "Para una junta moldeada, defina nervios, contorno, partición, transiciones y acabado. Para troquelado o corte, especifique material de lámina, espesor, perfil, agujeros y bordes. Compare cantidades e inspección en la misma base. Confirme la ruta real de pieza o lámina para el plano; el compuesto sin vulcanizar es otra compra.",
+            "links": [
+              {
+                "url": "/capabilities/rubber-molding",
+                "label": "Revisar el proceso de moldeo"
+              },
+              {
+                "url": "/compounds",
+                "label": "Requisitos de suministro de compuesto"
+              }
+            ]
+          },
+          {
+            "heading": "Definir entorno y ensayo del conjunto",
+            "body": "Incluya pulsos de presión, apoyos y cambios de holgura con temperatura y medios. Especifique aceite aislante, agua salada o limpieza reales cuando proceda. Para envolventes exteriores, acuerde clima, polvo y agua en el conjunto completo. Un informe de compuesto y una evaluación IP de envolvente tratan objetos distintos.",
+            "links": [
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Datos de medios y exposición"
+              },
+              {
+                "url": "/materials/epdm",
+                "label": "Evaluación de candidatos EPDM"
+              }
+            ]
+          },
+          {
+            "heading": "Separar requisitos eléctricos y de sellado",
+            "body": "Para juntas EMI, distinga resistividad del material, resistencia de contacto y apantallamiento del conjunto. Defina útil, frecuencias, compresión y condiciones tras ciclos térmicos u otra exposición. Confirme material y suministro según la especificación, con aceptación de sellado independiente."
+          },
+          {
+            "heading": "Aprobar muestras representativas y registros",
+            "body": "Acuerde estado de muestra, inspección dimensional, referencia superficial y resultado del conjunto. Vincule material y muestras con sus lotes. Confirme embalaje, inspección y cambios antes del suministro recurrente.",
+            "links": [
+              {
+                "url": "/testing",
+                "label": "Evaluación de material y conjunto"
+              },
+              {
+                "url": "/quality",
+                "label": "Registros y revisión de cambios"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Consultar muestras de juntas"
+              }
+            ]
           }
         ],
         "cta": "Solicitar presupuesto de juntas planas",
@@ -2558,21 +2676,95 @@
       "RQ-PG-006": {
         "label": "Fuelles y protectores",
         "title": "Fuelles y guardapolvos de caucho a medida | RubberQ",
-        "description": "Evalúe fuelles flexibles y guardapolvos para mecanismos industriales.",
+        "description": "Defina fuelles y guardapolvos de caucho con recorrido, fijación, espacio y medios. Revise materiales y muestras instaladas durante el movimiento previsto.",
         "h1": "Fuelles y guardapolvos de caucho a medida",
         "intro": "Evalúe fuelles flexibles y guardapolvos para mecanismos industriales. Longitud instalada, recorrido, medios de contacto y fijaciones definen geometría y material.",
         "sections": [
           {
-            "heading": "Describir todo el movimiento",
-            "body": "Indique dimensiones comprimida y extendida, desplazamiento lateral, ciclos y espacio disponible. Incluya las fijaciones de ambos extremos."
+            "heading": "Describir mecanismo y protección",
+            "body": "Aporte plano del fuelle o guardapolvo y conjunto móvil. Indique qué protege y si actúa como cubierta o barrera de presión. Incluya movimiento y exposición real a fluidos, polvo o salpicaduras."
           },
           {
-            "heading": "Controlar exposición e interferencias",
-            "body": "Identifique polvo, salpicaduras, aceite, productos de limpieza y fuentes de calor. Revise dónde los pliegues pueden rozar piezas cercanas o quedar atrapados."
+            "heading": "Aportar toda la envolvente de movimiento",
+            "body": "Una longitud libre no describe el movimiento instalado. Aporte posiciones y fijaciones para revisar pliegues y espacio circundante.",
+            "table": {
+              "caption": "Información para fuelles y guardapolvos de caucho",
+              "columns": [
+                "Dato",
+                "Detalles necesarios"
+              ],
+              "rows": [
+                [
+                  "Recorrido axial",
+                  "Longitud libre e instalada, posiciones comprimida y extendida"
+                ],
+                [
+                  "Otros movimientos",
+                  "Desplazamiento lateral, ángulo o torsión y secuencia"
+                ],
+                [
+                  "Extremos",
+                  "Ambas interfaces, diámetros, abrazaderas o retención"
+                ],
+                [
+                  "Espacio",
+                  "Envolvente radial, piezas próximas y holgura en todo el recorrido"
+                ],
+                [
+                  "Servicio",
+                  "Velocidad, ciclos o secuencia, permanencia, diferencial o venteo pertinente"
+                ],
+                [
+                  "Exposición",
+                  "Medios a ambos lados, temperatura, polvo, limpieza y salpicaduras"
+                ],
+                [
+                  "Aceptación",
+                  "Características del plano, movimiento y protección"
+                ],
+                [
+                  "Suministro",
+                  "Material, muestras, pedidos, embalaje y registros"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Comprobar la pieza montada",
-            "body": "Acuerde una evaluación de muestra que incluya ajuste, movimiento, retención y aspecto. Los objetivos de vida útil necesitan método de ensayo y criterio de aceptación."
+            "heading": "Elegir material según exposición real",
+            "body": "Para un guardapolvo de bomba u otro mecanismo, identifique fluido de trabajo y medios exteriores. Incluya lubricación, limpieza, calor y frío. Compare compuestos identificados usando exposición y movimiento conjuntamente. El nombre del polímero no determina por sí solo la función de la pieza.",
+            "links": [
+              {
+                "url": "/blog/industrial-bellows-material-selection-flex-life-media-exposure",
+                "label": "Revisar material, movimiento y exposición (inglés)"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Información de compatibilidad"
+              }
+            ]
+          },
+          {
+            "heading": "Evaluar muestras en todo el recorrido",
+            "body": "Acuerde identidad, acondicionamiento, fijación y secuencia representativa. Observe contacto de pliegues, interferencia, retención y resultado de protección o fugas. Defina temperatura, exposición, ciclos y aceptación de la aplicación sin usar una vida genérica.",
+            "items": [
+              "Comprobar posiciones comprimida, extendida y desplazada en el espacio real.",
+              "Evaluar medios, contaminación e interfaces especificados.",
+              "Registrar resultados y aprobar plano, material e inspección para suministro recurrente."
+            ],
+            "links": [
+              {
+                "url": "/testing",
+                "label": "Planificar pruebas de pieza y conjunto"
+              },
+              {
+                "url": "/quality",
+                "label": "Registros de lote y cambios"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Preparar muestras de fuelles"
+              }
+            ]
           }
         ],
         "cta": "Consultar un diseño de fuelle",
@@ -2694,21 +2886,95 @@
       "RQ-PG-008": {
         "label": "Membranas",
         "title": "Membranas de caucho a medida | RubberQ",
-        "description": "Consulte una membrana moldeada según su movimiento, contacto con fluidos y montaje.",
+        "description": "Defina diafragmas de caucho por sujeción, carrera, presión, medios y temperatura. Acuerde datos de material, muestras funcionales y registros de suministro.",
         "h1": "Membranas de caucho a medida",
         "intro": "Consulte una membrana moldeada según su movimiento, contacto con fluidos y montaje. Comparta geometría de sujeción, carrera y presión para revisar material y fabricación.",
         "sections": [
           {
-            "heading": "Definir movimiento y carga",
-            "body": "Indique carrera útil, diferencia de presión, ciclos y fijación. Identifique superficies de contacto o roce y comportamiento requerido en los límites de carrera."
+            "heading": "Describir el movimiento instalado",
+            "body": "Aporte plano de diafragma y conjunto de contacto. Identifique sujeción, geometría activa, transiciones de espesor y carrera. Indique si la especificación exige refuerzo para revisar material, posición y fabricación junto con el caucho."
           },
           {
-            "heading": "Revisar material y sección",
-            "body": "Fluidos, temperatura y deformación repetida influyen en el compuesto. Un plano con transiciones de espesor y sujeciones permite evaluar la fabricación."
+            "heading": "Preparar el requisito completo",
+            "body": "Incluya la secuencia operativa completa, además de un límite de presión.",
+            "table": {
+              "caption": "Información para un diafragma moldeado",
+              "columns": [
+                "Dato",
+                "Información necesaria"
+              ],
+              "rows": [
+                [
+                  "Geometría",
+                  "Revisión, perfil de espesor, diámetro activo y fijación"
+                ],
+                [
+                  "Sujeción",
+                  "Dimensiones de contacto, apoyo del borde, compresión y montaje"
+                ],
+                [
+                  "Movimiento",
+                  "Carrera, flexión, frecuencia o secuencia, permanencia y retorno"
+                ],
+                [
+                  "Presión",
+                  "Diferencial, dirección, pulsos y arranque o parada"
+                ],
+                [
+                  "Medios",
+                  "Composición de líquido o gas, concentraciones, limpieza y contacto"
+                ],
+                [
+                  "Temperatura",
+                  "Arranque en frío, historial, picos y acondicionamiento"
+                ],
+                [
+                  "Aceptación",
+                  "Criterios dimensionales, de fugas, respuesta y ciclos"
+                ],
+                [
+                  "Suministro",
+                  "Material, cantidades de muestra y pedido, embalaje y registros"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Acordar una prueba funcional de muestra",
-            "body": "Defina comprobaciones dimensionales y un ensayo de montaje representativo. Indique al inicio los requisitos de refuerzo, permeabilidad o duración."
+            "heading": "Separar exposición, transferencia de gas y función",
+            "body": "Para gas, defina composición real y frío. Permeación del material y fuga en la sujeción son preguntas distintas. Acuerde refuerzo, transferencia de gas o ciclos para la construcción propuesta. Envejecimiento del material y flexión repetida requieren planes de evaluación diferentes.",
+            "links": [
+              {
+                "url": "/blog/permeation-vs-leakage-understanding-the-difference-in-gas-systems",
+                "label": "Distinguir permeación y fugas (inglés)"
+              },
+              {
+                "url": "/materials",
+                "label": "Materiales para la exposición definida"
+              },
+              {
+                "url": "/testing",
+                "label": "Planificar pruebas de material y diafragma"
+              }
+            ]
+          },
+          {
+            "heading": "Evaluar muestras representativas en el conjunto",
+            "body": "Acuerde identidad, acondicionamiento, sujeción y secuencia de presión o movimiento. Si importa la curva de respuesta, defina ejes, dirección de carga y aceptación. Compare fugas, movimiento y retorno con los criterios antes de aprobar. Conserve plano, material e inspección aprobados para suministro recurrente.",
+            "items": [
+              "Confirmar dimensiones y estado del borde instalado.",
+              "Evaluar función con presión, carrera y temperatura definidas.",
+              "Registrar resultado, responsable y cambios pendientes."
+            ],
+            "links": [
+              {
+                "url": "/quality",
+                "label": "Registros y trazabilidad"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Preparar muestras de diafragma"
+              }
+            ]
           }
         ],
         "cta": "Consultar un proyecto de membrana",
@@ -2717,21 +2983,109 @@
       "RQ-PG-009": {
         "label": "Piezas de caucho-metal",
         "title": "Componentes adheridos de caucho-metal | RubberQ",
-        "description": "Evalúe piezas adheridas considerando elastómero, inserto metálico y carga de servicio.",
+        "description": "Revise piezas caucho-metal según metal, superficie, compuesto y cargas. Defina control de insertos, adhesión, evaluación dinámica y muestras del proyecto.",
         "h1": "Componentes adheridos de caucho-metal",
         "intro": "Evalúe piezas adheridas considerando elastómero, inserto metálico y carga de servicio. Comparta plano de conjunto y condiciones de carga para acordar desarrollo e inspección.",
         "sections": [
           {
-            "heading": "Entender la transmisión de cargas",
-            "body": "Describa compresión, cizalladura, tracción y movimientos repetidos. Marque superficies adheridas y dirección funcional de carga en el plano."
+            "heading": "Definir caucho, metal e interfaz final",
+            "body": "Aporte plano de conjunto, requisitos del caucho y especificación del inserto. Identifique área de unión, interfaces y dimensiones funcionales. Revise grado, superficie y estado del metal junto con compuesto y fabricación."
           },
           {
-            "heading": "Revisar el inserto y su preparación",
-            "body": "Identifique calidad del metal, acabado, recubrimiento y suministro de insertos. Preparación superficial, sistema de adhesión y moldeo deben evaluarse juntos."
+            "heading": "Preparar la especificación del componente",
+            "body": "Incluya información para evaluar caucho e interfaz metálica.",
+            "table": {
+              "caption": "Información para componentes de caucho-metal",
+              "columns": [
+                "Dato",
+                "Qué aportar"
+              ],
+              "rows": [
+                [
+                  "Caucho",
+                  "Compuesto, propiedades requeridas y medios de contacto"
+                ],
+                [
+                  "Metal",
+                  "Grado, recubrimiento, corrosión exigida y revisión del plano"
+                ],
+                [
+                  "Insertos",
+                  "Responsable, lote, límites de preparación y protección antes de unir"
+                ],
+                [
+                  "Geometría",
+                  "Área de unión, posicionamiento, alineación y criterios dimensionales"
+                ],
+                [
+                  "Carga",
+                  "Dirección, compresión, corte o tracción, precarga, frecuencia, amplitud e historial"
+                ],
+                [
+                  "Entorno",
+                  "Temperatura, exposición del caucho y sal o corrosión del metal"
+                ],
+                [
+                  "Aceptación",
+                  "Posición, método de adhesión y función del componente o conjunto"
+                ],
+                [
+                  "Suministro",
+                  "Cantidades de prueba y serie, embalaje y registros"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Acordar la verificación de adhesión",
-            "body": "Defina geometría de ensayo, dirección de carga, acondicionamiento y aceptación. Un valor genérico de adhesión no sustituye un ensayo representativo de la pieza."
+            "heading": "Separar posición y evaluación de adhesión",
+            "body": "Especifique posición dimensional y cómo medirla. Para adhesión, acuerde probeta o pieza representativa, útil, carga, acondicionamiento y aceptación. Vincule identificación de material, superficie y proceso al informe. Registre lugar de separación y restos en cada superficie además del resultado medido.",
+            "links": [
+              {
+                "url": "/blog/bonding-strength-testing-interpreting-90-degree-vs-180-degree-peel-tests",
+                "label": "Comparar condiciones de ensayos de pelado (inglés)"
+              },
+              {
+                "url": "/blog/rubber-to-metal-bonding-failure-analyzing-adhesive-vs-material-separation",
+                "label": "Investigar separación caucho-metal (inglés)"
+              }
+            ]
+          },
+          {
+            "heading": "Definir la función dinámica instalada",
+            "body": "Para un mecanismo robótico u otro conjunto móvil, aporte masa soportada, precarga, montaje y dirección de carga. Defina frecuencia, amplitud, temperatura y resultado requerido. Rebote, rigidez estática y aislamiento dinámico son evaluaciones distintas.",
+            "items": [
+              "Acordar útil, cargas y estado de muestra del resultado dinámico.",
+              "Identificar por separado exposición del caucho y corrosión del metal.",
+              "Evaluar respuesta del conjunto con montaje y uso definidos."
+            ],
+            "links": [
+              {
+                "url": "/blog/vibration-damping-mounts-dynamic-stiffness-humanoid-robot-actuators",
+                "label": "Rigidez dinámica de soportes de caucho (inglés)"
+              },
+              {
+                "url": "/testing",
+                "label": "Consultar ensayos de pieza y conjunto"
+              }
+            ]
+          },
+          {
+            "heading": "Aprobar suministro mediante datos de prueba",
+            "body": "Si el inserto se desplaza en el moldeo, conserve posición, cavidad, elementos de localización, restricciones y registros de flujo o proceso. Acuerde prueba controlada y evalúe posición y adhesión por separado. Para pedidos recurrentes, confirme metal, caucho, plano, inspección, protección superficial, embalaje y lotes aprobados.",
+            "links": [
+              {
+                "url": "/capabilities/rubber-molding",
+                "label": "Revisión de moldeo e insertos"
+              },
+              {
+                "url": "/quality",
+                "label": "Registros y control de cambios"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Preparar muestras de piezas unidas"
+              }
+            ]
           }
         ],
         "cta": "Consultar una pieza de caucho-metal",

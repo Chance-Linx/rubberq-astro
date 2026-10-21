@@ -643,8 +643,9 @@
           "required_updates": "纠正HNBR材料解释；实验设备小型减振可作参考，但不能由牌号家族证明整机平衡、安全或医疗资格，需动态及接口输入。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
@@ -824,8 +825,9 @@
           "required_updates": "以保护靴实际功能和全行程、固定界面、泵介质、验证来写；材料只作候选，不泛化NBR水解与FKM万能结论。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/materials/lsr",
@@ -1271,8 +1273,9 @@
           "required_updates": "工业板材与切件需求可讨论，但实际形态/材料/供货需核实；统一片材任务，不复制造未来主URL。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/resources/seal-failure-analysis",
@@ -2325,8 +2328,9 @@
           "required_updates": "保留隔膜技术参考，需结构/增强层、挠曲、流体组分、压力和寿命评价输入；不承诺燃气表部件已获项目批准。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/blog/bonding-strength-testing-interpreting-90-degree-vs-180-degree-peel-tests",
