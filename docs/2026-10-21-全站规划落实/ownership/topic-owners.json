@@ -1,0 +1,3421 @@
+{
+  "decision_scope": "Primary editorial URL assignment only; implementation, coverage, publication and traffic are separate. No redirects, deletions, CMS writes or dates changed.",
+  "reviewed_inventory_records": 271,
+  "topic_count": 63,
+  "new_urls_created": 0,
+  "decisions": [
+    {
+      "topic_id": "RQ-T-001",
+      "topic_title": "O-Ring Manufacturer Selection: Drawing and Inspection Checklist",
+      "primary_keyword": "o-ring manufacturer",
+      "buyer_job": "比较供应商并准备图纸",
+      "original_parent": "/products/seals",
+      "primary_owner_url": "/products/seals",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "商业词和供应商比较先进入密封件产品页，再连接质量/工厂证据。",
+      "required_content_updates": "补图纸、关键尺寸、材料/批次资料与检验问题清单；不把所有检验项目写成每批承诺。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-004",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "21e150f392561067e0b45478a309feed7573dbb5e37636224e8cf38bc9c0e2a6"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 182,
+          "article_id": "article-batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+          "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+          "body_sha256": "7dc1224602e4eb4d1d839f7f2ac8872304efe52c76ed1ea79d2f4d31789f7297",
+          "finding": "全文确实解释原料/配方/过程/检验/出货关联并给买方问题，符合已确认ERP与自有制造链；“fewer use it well”等同行概括无来源，具体记录可提供性仍需项目确认。"
+        },
+        {
+          "source_index": 195,
+          "article_id": "article-iatf-16949-quality-discipline-precision-rubber-parts",
+          "url": "/blog/iatf-16949-quality-discipline-precision-rubber-parts",
+          "body_sha256": "d0f08fd75e025819c5cd05ac574186dd04a0a85aa322374c189280e1cd28d99c",
+          "finding": "主体明确区分体系与产品并提出过程/批次/变更/纠正问题，符合事实库；“Our current public positioning”是内部表述，同行首批/低价比较及抽象改善结果需收敛。"
+        },
+        {
+          "source_index": 199,
+          "article_id": "article-ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+          "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+          "body_sha256": "57b719c3d8a725a44d9cc968bf52106b0aebfcdaa97bbdb855bff9fe457e54fc",
+          "finding": "全文确实提供资料、风险/客户要求、具体胶料和样件评价，未将所有订单写成同一级别；“structured way to prove”及自有完整包能力仍需收敛到具体项目。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-001",
+        "RQ-T-002",
+        "RQ-T-005"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-002",
+      "topic_title": "Custom O-Rings: Information Needed for an Engineering Review",
+      "primary_keyword": "custom o-rings",
+      "buyer_job": "提交非标O圈需求",
+      "original_parent": "/products/seals",
+      "primary_owner_url": "/products/seals",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "非标O圈是同一商业产品任务，不另建custom同义URL。",
+      "required_content_updates": "补非标尺寸/截面、静动工况、装配与样件批准输入，连接原图纸和询价入口。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-004",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "21e150f392561067e0b45478a309feed7573dbb5e37636224e8cf38bc9c0e2a6"
+      },
+      "related_saved_articles": [],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-001",
+        "RQ-T-002",
+        "RQ-T-005"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-003",
+      "topic_title": "O-Ring Size References and Custom Dimension Requests",
+      "primary_keyword": "o-ring size chart",
+      "buyer_job": "识别尺寸与沟槽",
+      "original_parent": "/resources/o-ring-size-guide",
+      "primary_owner_url": "/resources/o-ring-size-guide",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "尺寸识别与材料批准不同，指南是主要入口。",
+      "required_content_updates": "补单位、尺寸系列/编号、ID/截面和图纸记录，明确未知系列需要客户参考。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-038",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "661815c42d74d77f90536f09bd50adc99718a13aa82c379ea76b304f09dc3e10"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 232,
+          "article_id": "article-sem-122",
+          "url": "/blog/sem-122-viton-metric-o-rings-engineering-selection",
+          "body_sha256": "ee82e07b9b7b664e67c720afe45f30b615d0d57c2c655368f8531f5b875c93b9",
+          "finding": "Metric O-Rings没有公制尺寸、公差、图纸或品牌牌号对应，仍是FFKM高纯模板。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        },
+        {
+          "source_index": 245,
+          "article_id": "article-sem-178",
+          "url": "/blog/sem-178-sae-o-rings-engineering-selection",
+          "body_sha256": "f1b9c8e56593dda1b0f8871f383ff50909b80d2a1d19ba5168b90c563b2f847b",
+          "finding": "SAE O-Rings没有尺寸系列、单位、编号或公差，不能由FFKM高纯表回答选尺寸。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-003"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-004",
+      "topic_title": "O-Ring Groove Review: Information to Include with a Drawing",
+      "primary_keyword": "o-ring groove design",
+      "buyer_job": "检查装配设计",
+      "original_parent": "/resources/o-ring-size-guide",
+      "primary_owner_url": "/blog/groove-design-calculating-percentage-fill-and-squeeze-for-o-rings",
+      "owner_kind": "existing_article",
+      "decision": "ASSIGNED",
+      "decision_basis": "沟槽与装配评审比尺寸识别更深，已有同URL文章可重写承接。",
+      "required_content_updates": "重写空泛材料表，解释压缩/填充计算输入及公差/热胀/介质条件，具体数值方法须一手依据，不给通用安全限值。",
+      "owner_source": {
+        "kind": "saved_article",
+        "source_index": 96,
+        "article_id": "JKXFHBvvO5hPVDVOF66045",
+        "revision": "eN7xRzolB5Lpd79D0070lU",
+        "body_sha256": "b2a064436ec3de039bafc3f30203f14cca884044453f8c974fb372f989c427cd"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 96,
+          "article_id": "JKXFHBvvO5hPVDVOF66045",
+          "url": "/blog/groove-design-calculating-percentage-fill-and-squeeze-for-o-rings",
+          "body_sha256": "b2a064436ec3de039bafc3f30203f14cca884044453f8c974fb372f989c427cd",
+          "finding": "标题承诺计算，但全文没有沟槽尺寸、压缩率/填充公式、静动密封或公差链；只有FKM/EPDM/NBR性能排名。"
+        },
+        {
+          "source_index": 158,
+          "article_id": "QeuV1LXZQHOxh8iFCMnkTO",
+          "url": "/blog/extrusion-damage-solving-o-ring-gaps-in-high-pressure-systems",
+          "body_sha256": "e80b611af360e2a31d8fe96e831efe235c4be6088016316019bdd3dbb0b3648d",
+          "finding": "自有789X、胶种35/25/30MPa抗挤出及成本/膨胀值无结构和报告；未给间隙、支承、压力循环或温度尺寸变化。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-004"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-005",
+      "topic_title": "Micro O-Rings: Handling and Inspection Questions",
+      "primary_keyword": "micro o-rings",
+      "buyer_job": "评估微小件检测",
+      "original_parent": "/products/seals",
+      "primary_owner_url": "/products/seals",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "微型O圈仍是密封件采购，主产品页内提供独立检测/处理要求。",
+      "required_content_updates": "补尺寸测量、取样、搬运/包装与装配确认问题；不填未验证最小尺寸、公差或100%视觉能力。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-004",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "21e150f392561067e0b45478a309feed7573dbb5e37636224e8cf38bc9c0e2a6"
+      },
+      "related_saved_articles": [],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-001",
+        "RQ-T-002",
+        "RQ-T-005"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-006",
+      "topic_title": "Custom Gasket RFQ: Flange, Material and Quantity Checklist",
+      "primary_keyword": "custom gaskets",
+      "buyer_job": "形成可报价需求",
+      "original_parent": "/products/gaskets",
+      "primary_owner_url": "/products/gaskets",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "定制垫片RFQ为商业入口，归产品页。",
+      "required_content_updates": "补法兰/间隙/止挡、介质、装配、图纸与数量清单，表单来源保留。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-005",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "8c882497438330263dce3b7457725694f0397fa053f348736683b986789a7b0e"
+      },
+      "related_saved_articles": [],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-006",
+        "RQ-T-007",
+        "RQ-T-009"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-007",
+      "topic_title": "Molded Gaskets and Cut Gaskets: Which Route Fits the Joint?",
+      "primary_keyword": "rubber gaskets",
+      "buyer_job": "比较工艺路线",
+      "original_parent": "/products/gaskets",
+      "primary_owner_url": "/products/gaskets",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "模压与切片是同一垫片项目的路线比较，不默认另一采购页。",
+      "required_content_updates": "补两种路线需评审的结构/材料/批量/边缘要求，具体切片供货可用性按项目确认。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-005",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "8c882497438330263dce3b7457725694f0397fa053f348736683b986789a7b0e"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 236,
+          "article_id": "article-sem-133",
+          "url": "/blog/sem-133-rubber-sheets-engineering-selection",
+          "body_sha256": "83885fcd3ab48336f9d1d12bfe8bb772fd630d2b48f6579284d90e64a7624118",
+          "finding": "Rubber Sheets没有材料、厚度、规格或下游任务，不提供可核对片材采购信息。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        },
+        {
+          "source_index": 257,
+          "article_id": "article-sem-261",
+          "url": "/blog/sem-261-rubber-gasket-sheet-engineering-selection",
+          "body_sha256": "8929155bacb47b7979fdf7492e3a40f4d251b98831a8a575753594dc2dbcd79c",
+          "finding": "Gasket Sheet没有片材条件、切件、公差或验证，和236/252任务重叠。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-006",
+        "RQ-T-007",
+        "RQ-T-009"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-008",
+      "topic_title": "Gasket Compression: Define the Joint Before Choosing Hardness",
+      "primary_keyword": "gasket compression",
+      "buyer_job": "确认压缩和法兰条件",
+      "original_parent": "/products/gaskets",
+      "primary_owner_url": "/blog/over-compression-when-tighter-is-not-better-for-gasket-performance",
+      "owner_kind": "existing_article",
+      "decision": "ASSIGNED",
+      "decision_basis": "过压缩与接合界面是可独立解释的工程问题，保留原文章。",
+      "required_content_updates": "用闭合量、止挡、槽深、公差和使用条件重写，区分尺寸恢复、保力和泄漏，不给固定压缩率。",
+      "owner_source": {
+        "kind": "saved_article",
+        "source_index": 40,
+        "article_id": "Iht31guWKGVyy0fDUhwqHh",
+        "revision": "eN7xRzolB5Lpd79D0071Qf",
+        "body_sha256": "6aac1dbc4ee1bcd857ea4c9770cccac8544d494ce2c47cf3235ea72d3df74808"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 40,
+          "article_id": "Iht31guWKGVyy0fDUhwqHh",
+          "url": "/blog/over-compression-when-tighter-is-not-better-for-gasket-performance",
+          "body_sha256": "6aac1dbc4ee1bcd857ea4c9770cccac8544d494ce2c47cf3235ea72d3df74808",
+          "finding": "正文用FKM家族优胜代替过压缩的几何与装配分析，没有闭合量、槽深、止挡或接合件参数。"
+        },
+        {
+          "source_index": 98,
+          "article_id": "JKXFHBvvO5hPVDVOF660gv",
+          "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+          "body_sha256": "7d09409ff7f7924397f6312fc7392ed97908f7653b2ee428b102776da5d6fef2",
+          "finding": "无佐证的EV冷却液压案例与SEM根因，FKM70的85%保力、±1%含氟量和t90±3秒均无报告；释义有用但不能由材料表或压缩变形推保力。"
+        },
+        {
+          "source_index": 157,
+          "article_id": "QeuV1LXZQHOxh8iFCMnkLO",
+          "url": "/blog/compression-set-failure-why-your-seal-lost-its-bounce",
+          "body_sha256": "34feb7f30a00512dfd9157bfeb40cd8624ad607f6860fd6ba0c8a55db41bcc51",
+          "finding": "液压案例、85/28%压缩值、22%交联提升及ISO3601流体A+等级无报告；固定ACN不能证明指定失效根因。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-008"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-009",
+      "topic_title": "Enclosure Gaskets: Drawing and Environmental Requirements",
+      "primary_keyword": "enclosure gasket",
+      "buyer_job": "准备箱体垫片工况",
+      "original_parent": "/products/gaskets",
+      "primary_owner_url": "/products/gaskets",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "箱体垫片是产品任务，行业页提供储能等上下文。",
+      "required_content_updates": "补气候/粉尘/清洗、箱体接口、压缩和总成验收，区分胶料性能与IP/整机测试。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-005",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "8c882497438330263dce3b7457725694f0397fa053f348736683b986789a7b0e"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 74,
+          "article_id": "JKXFHBvvO5hPVDVOF65lQE",
+          "url": "/blog/solar-inverters-uv-resistant-gaskets-for-20-year-outdoor-exposure",
+          "body_sha256": "84276bf493b1e171c3cad6548d337ddee1cbfda84d17d45a5c790cf895458e23",
+          "finding": "20年暴露标题无寿命推导，正文泛称EPDM不耐UV并推荐FKM，未给应力状态、湿热、光照或试验依据。"
+        },
+        {
+          "source_index": 112,
+          "article_id": "JKXFHBvvO5hPVDVOF6Cmrz",
+          "url": "/blog/battery-energy-storage-systems-bess-fire-retardant-gaskets-for-housing-units",
+          "body_sha256": "ddbf2ffc4d8626277c00c39782660a560b1cc78b7e09b92179b92a369d52266b",
+          "finding": "自有782、ATH方案和UL94V0等无试样厚度/报告；材料阻燃被用来回答热失控及总成泄漏，固定循环寿命也未证实。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-006",
+        "RQ-T-007",
+        "RQ-T-009"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-010",
+      "topic_title": "Custom Molded Rubber Parts: From Drawing to Sample Approval",
+      "primary_keyword": "custom molded rubber parts",
+      "buyer_job": "选择定制供应商",
+      "original_parent": "/products/custom",
+      "primary_owner_url": "/products/custom",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "定制模压零件是商业主入口，工艺页作为评审支持。",
+      "required_content_updates": "补图纸版本、材料/工况、关键特性、模具和样件验收的完整流程。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-007",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "27e3ab63b847a8412efe07fd66add53cef2d03633342852dee2109aa06fd6187"
+      },
+      "related_saved_articles": [],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-010",
+        "RQ-T-013",
+        "RQ-T-014"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-011",
+      "topic_title": "Rubber Molding Supplier Checklist for OEM Buyers",
+      "primary_keyword": "rubber molding companies",
+      "buyer_job": "采购比较",
+      "original_parent": "/capabilities/rubber-molding",
+      "primary_owner_url": "/capabilities/rubber-molding",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "供应商与制造路线比较归能力页，避免重复companies文章。",
+      "required_content_updates": "补工艺适配、过程记录、量测/检测和试模问题；以真实工厂证据支撑，不贬低外购胶料同行。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-022",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "46246387946c8cb27617db7f99584a385bcce4014417be56543d995053c93274"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 270,
+          "article_id": "article-what-is-in-house-rubber-compounding",
+          "url": "/blog/what-is-in-house-rubber-compounding",
+          "body_sha256": "b4fb940332fdb7fcfda15cf78446e4dedf18690d147a73ed1539d929b3c3ac26",
+          "finding": "95/4/1%供应商分层、各地区比例、设备/实验室投资、5–10倍寿命和同行必失败无调研；自封L3单线/每批/同设备多年保证超出事实库。"
+        },
+        {
+          "source_index": 195,
+          "article_id": "article-iatf-16949-quality-discipline-precision-rubber-parts",
+          "url": "/blog/iatf-16949-quality-discipline-precision-rubber-parts",
+          "body_sha256": "d0f08fd75e025819c5cd05ac574186dd04a0a85aa322374c189280e1cd28d99c",
+          "finding": "主体明确区分体系与产品并提出过程/批次/变更/纠正问题，符合事实库；“Our current public positioning”是内部表述，同行首批/低价比较及抽象改善结果需收敛。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-011",
+        "RQ-T-012"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-012",
+      "topic_title": "Compression, Transfer and Injection Molding: Review Criteria",
+      "primary_keyword": "rubber compression molding",
+      "buyer_job": "选择成型路线",
+      "original_parent": "/capabilities/rubber-molding",
+      "primary_owner_url": "/capabilities/rubber-molding",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "三种成型路线在同一能力页横向比较最清楚。",
+      "required_content_updates": "补几何、胶料、嵌件、型腔、量产和验收条件比较，项目工艺可用性另确认。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-022",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "46246387946c8cb27617db7f99584a385bcce4014417be56543d995053c93274"
+      },
+      "related_saved_articles": [],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-011",
+        "RQ-T-012"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-013",
+      "topic_title": "Rubber Part Tolerances: Identify Functional Dimensions",
+      "primary_keyword": "rubber molding tolerances",
+      "buyer_job": "制定尺寸验收",
+      "original_parent": "/products/custom",
+      "primary_owner_url": "/products/custom",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "尺寸公差直接影响定制件图纸和验收，保留为产品页功能章节。",
+      "required_content_updates": "补功能尺寸/量测基准、脱模/后处理/调节状态和图纸评审，不宣称所有零件固定公差。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-007",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "27e3ab63b847a8412efe07fd66add53cef2d03633342852dee2109aa06fd6187"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 164,
+          "article_id": "QeuV1LXZQHOxh8iFCMnlTO",
+          "url": "/blog/inconsistent-weight-controlling-volume-in-high-precision-molding",
+          "body_sha256": "b71ca85962c6e7f9382256fd3b9d8ae25117101b3a77f0347dd1f89c7cd87a06",
+          "finding": "优化HNBR配方、密度/流长/1.2%波动、在线流变和真空送料无设备/试验记录；称预成型重量符合ISO3601ClassA也未给依据。"
+        },
+        {
+          "source_index": 181,
+          "article_id": "QeuV1LXZQHOxh8iFCMqLZO",
+          "url": "/blog/pre-forming-equipment-precision-blanking-for-consistent-molding-quality",
+          "body_sha256": "08ae648eacd393f4a668495356dc6c19d00eb84f17711260253368eb19bf291a",
+          "finding": "伺服设备0.01mm/120件分钟、62%回弹改善、15%压缩改善和真空除屑无资产/试验记录；ISO3601ClassA被当毛坯统一公差。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-010",
+        "RQ-T-013",
+        "RQ-T-014"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-014",
+      "topic_title": "Rubber Tooling RFQ: Parting Lines, Inserts and Revisions",
+      "primary_keyword": "rubber tooling",
+      "buyer_job": "准备开模评估",
+      "original_parent": "/products/custom",
+      "primary_owner_url": "/products/custom",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "开模RFQ与定制件项目绑定，细分浇口/嵌件文章作为参考。",
+      "required_content_updates": "补分型线、嵌件、图纸修订、样件、模具责任和变更所需资料，不给固定开发期。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-007",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "27e3ab63b847a8412efe07fd66add53cef2d03633342852dee2109aa06fd6187"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 139,
+          "article_id": "QeuV1LXZQHOxh8iFCMncbO",
+          "url": "/blog/liquid-silicone-rubber-lsr-tooling-why-initial-investment-pays-off-in-precision",
+          "body_sha256": "670cdd9f56bdd2ad4be4d68b6720729881750d857c97cb4b021324e3681f6d98",
+          "finding": "模具投资主题无模具/型腔/寿命/数量/报价依据，反而保证LSR耐油燃料酸和优于所有EPDM/NBR，不能支持经济性判断。"
+        },
+        {
+          "source_index": 167,
+          "article_id": "QeuV1LXZQHOxh8iFCMnlrO",
+          "url": "/blog/mold-design-engineering-optimizing-gating-for-minimal-waste",
+          "body_sha256": "52c69ea76e4ee275b1771f712d6f29b66088e75b22527fd47795d30619dc283f",
+          "finding": "残留生成口吻和自我评价；12–15%浪费、边浇口180°C降解与型腔±1°C无记录，全文没有浇口尺寸、位置、流动/排气或废料核算。"
+        },
+        {
+          "source_index": 179,
+          "article_id": "QeuV1LXZQHOxh8iFCMqKLO",
+          "url": "/blog/parting-line-misalignment-troubleshooting-tooling-wear",
+          "body_sha256": "1205bb5a3d5b2d9c8db3fa48afefe574f8da51cb70191235d6266f9ae7ffe81d",
+          "finding": "无佐证5万模次案例、磨损/硬度变化及每5千次激光扫描；直接给D2钢、减炭黑和PTFE处方，不见尺寸/定位/磨损实测对照。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-010",
+        "RQ-T-013",
+        "RQ-T-014"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-015",
+      "topic_title": "Rubber Part Flash: Drawing Limits and Inspection Methods",
+      "primary_keyword": "rubber molding flash",
+      "buyer_job": "定义外观验收",
+      "original_parent": "/products/custom",
+      "primary_owner_url": "/blog/flash-on-molded-parts-defining-flash-free-and-its-cost-implications",
+      "owner_kind": "existing_article",
+      "decision": "ASSIGNED",
+      "decision_basis": "飞边验收有独立工程问题，已有同URL应重写，不再新建flash-free页。",
+      "required_content_updates": "定义位置、功能边缘、图纸限值、检测和去边试样；ISO3601仅按适用O圈规范核对，删固定价格/周期。",
+      "owner_source": {
+        "kind": "saved_article",
+        "source_index": 160,
+        "article_id": "QeuV1LXZQHOxh8iFCMnkjO",
+        "revision": "eN7xRzolB5Lpd79D0071Qf",
+        "body_sha256": "3106eca87e5ce62839b581dca3224dd5f44121e1c2af3885f1befe2840599b30"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 83,
+          "article_id": "JKXFHBvvO5hPVDVOF65r3m",
+          "url": "/blog/iso-3601-3-visual-inspection-standards-for-o-rings-what-is-acceptable",
+          "body_sha256": "e1ed8e6a7edb0062bf7c7c9d70bef72b067409d5d0b78a694a86ef25f0c19e66",
+          "finding": "23%失效占比及0.25mm飞边/0.5mm孔洞等通用阈值没有版本、等级或表格依据；又把材料牌号A/B/C和标准等级混在一起，并宣称100%检查及QR证明。"
+        },
+        {
+          "source_index": 127,
+          "article_id": "JKXFHBvvO5hPVDVOF6CwoY",
+          "url": "/blog/secondary-deflashing-cryogenic-vs-manual-choosing-the-right-finish",
+          "body_sha256": "22e9a3b3130b9e40e39784c60f94884d43890827f42e43b0f207f216b793a401",
+          "finding": "固定-160至-180°C/2–3分钟、FKM压缩变形<10%和零脱胶缺报告，去边方式被当成材料性能保证；设备存在性也待核实。"
+        },
+        {
+          "source_index": 160,
+          "article_id": "QeuV1LXZQHOxh8iFCMnkjO",
+          "url": "/blog/flash-on-molded-parts-defining-flash-free-and-its-cost-implications",
+          "body_sha256": "3106eca87e5ce62839b581dca3224dd5f44121e1c2af3885f1befe2840599b30",
+          "finding": "标题要定义无飞边和成本，正文却按胶种给120/90/100秒周期及每kg价格，无报价/日期/模具依据，也未规定飞边位置/尺寸。"
+        },
+        {
+          "source_index": 189,
+          "article_id": "article-cryogenic-deflashing-vs-manual-trimming-precision-rubber-parts",
+          "url": "/blog/cryogenic-deflashing-vs-manual-trimming-precision-rubber-parts",
+          "body_sha256": "3b0a42449c29d996ff58ff6412e91ca5d72dc6c99531f5034ec0d99f30aaf05d",
+          "finding": "完整比较手工与冷冻去边的适用、风险和试样验证，没有127的固定时效/物性保证；工厂具体路线仍需实际记录，正文可作为主文候选。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-015"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-016",
+      "topic_title": "Rubber Bellows: Travel and Attachment Design Checklist",
+      "primary_keyword": "rubber bellows",
+      "buyer_job": "准备波纹管行程图",
+      "original_parent": "/products/bellows",
+      "primary_owner_url": "/products/bellows",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "行程和附件是波纹管商业入口的核心。",
+      "required_content_updates": "补压缩/伸长、侧移/扭转、两端夹持、安装包络、介质和样件验收字段。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-006",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "22cfcca477ffd6450701cb63036e773916d7ce890d48535e97fb712a52113248"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 196,
+          "article_id": "article-industrial-bellows-material-selection-flex-life-media-exposure",
+          "url": "/blog/industrial-bellows-material-selection-flex-life-media-exposure",
+          "body_sha256": "462c74de01f2446d8efe9a8b7d7bc11c4a4f5ef4696c38cf90857580f68dc035",
+          "finding": "全文确实提供行程/周期/介质/温度/几何输入、条件化材料比较及功能样件验证，符合精密件定位；原行业链接已核对在当前注册表有效，文章仍不证明某实际循环寿命。"
+        },
+        {
+          "source_index": 204,
+          "article_id": "article-rob-004",
+          "url": "/blog/dust-fluid-protection-boots-robotic-harmonic-drive-actuators",
+          "body_sha256": "711a7c7c7870576e08b805c7427df660100fbcc06b82811ed28c786959c6a60b",
+          "finding": "标题防尘/液体护套，完整正文与201同文，缺护套行程、壁厚、夹持、介质和功能防护条件；剥离图不能回答波纹护套任务。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-016"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-017",
+      "topic_title": "Rubber Diaphragms: Stroke, Pressure and Clamping Details",
+      "primary_keyword": "rubber diaphragm manufacturer",
+      "buyer_job": "选择隔膜供应商",
+      "original_parent": "/products/diaphragms",
+      "primary_owner_url": "/products/diaphragms",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "隔膜采购在产品页集中结构、压差和循环要求。",
+      "required_content_updates": "补行程、夹持、厚度过渡、介质/温度和功能样件，增强层/渗透或寿命需项目确认。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-008",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "c23e0eb283b3aa23f84a10127ca6a6d3f2a52f9202f4719c9a6ca8728b578353"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 115,
+          "article_id": "JKXFHBvvO5hPVDVOF6CnoF",
+          "url": "/blog/gas-meters-long-term-diaphragm-stability-in-natural-gas-environments",
+          "body_sha256": "22c38a5e8fe04569a71e283a1dfb117048c5f294760b731f76b41f67d7f584da",
+          "finding": "HNBR-50°C和透甲烷120/450/85等缺压差、温度、厚度/试样条件和报告，压缩变形不能替代隔膜反复挠曲稳定性。"
+        },
+        {
+          "source_index": 194,
+          "article_id": "article-hydrogen-economy-sealing-low-permeability-elastomers",
+          "url": "/blog/hydrogen-economy-sealing-low-permeability-elastomers-for-fuel-cells-and-electrol",
+          "body_sha256": "e6173890ace601f3952fd51b0a1006d7bc79f12ba66c1adb0ad57d20215b3d12",
+          "finding": "氢安全应用给所有胶种透过星级、30/10bar选择、FFKM50–100倍成本和几何/RGD方案，无具体配方、结构、方法或合格报告；以自有胶料与体系直接推氢能力。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-017"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-018",
+      "topic_title": "Protective Boots: Specifying Motion and Fluid Exposure",
+      "primary_keyword": "rubber boots",
+      "buyer_job": "保护运动机构",
+      "original_parent": "/products/bellows",
+      "primary_owner_url": "/blog/industrial-bellows-material-selection-flex-life-media-exposure",
+      "owner_kind": "existing_article",
+      "decision": "ASSIGNED",
+      "decision_basis": "运动机构保护的材料/几何评估比产品入口更深，已有完整文章可优化。",
+      "required_content_updates": "沿用定向优化稿，补保护与密封任务区别，连接波纹管产品页；不声称任意周期寿命。",
+      "owner_source": {
+        "kind": "saved_article",
+        "source_index": 196,
+        "article_id": "article-industrial-bellows-material-selection-flex-life-media-exposure",
+        "revision": "ABrvN9p4HTT2BOyLeRplUa",
+        "body_sha256": "462c74de01f2446d8efe9a8b7d7bc11c4a4f5ef4696c38cf90857580f68dc035"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 196,
+          "article_id": "article-industrial-bellows-material-selection-flex-life-media-exposure",
+          "url": "/blog/industrial-bellows-material-selection-flex-life-media-exposure",
+          "body_sha256": "462c74de01f2446d8efe9a8b7d7bc11c4a4f5ef4696c38cf90857580f68dc035",
+          "finding": "全文确实提供行程/周期/介质/温度/几何输入、条件化材料比较及功能样件验证，符合精密件定位；原行业链接已核对在当前注册表有效，文章仍不证明某实际循环寿命。"
+        },
+        {
+          "source_index": 204,
+          "article_id": "article-rob-004",
+          "url": "/blog/dust-fluid-protection-boots-robotic-harmonic-drive-actuators",
+          "body_sha256": "711a7c7c7870576e08b805c7427df660100fbcc06b82811ed28c786959c6a60b",
+          "finding": "标题防尘/液体护套，完整正文与201同文，缺护套行程、壁厚、夹持、介质和功能防护条件；剥离图不能回答波纹护套任务。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "local_draft_prepared_final_review_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-018",
+        "RQ-T-061"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-019",
+      "topic_title": "Rubber-to-Metal Bonding: Insert and Load Review Checklist",
+      "primary_keyword": "rubber to metal bonding",
+      "buyer_job": "评估硫化粘接件",
+      "original_parent": "/products/rubber-to-metal-bonded-parts",
+      "primary_owner_url": "/products/rubber-to-metal-bonded-parts",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "商业硫化粘接件任务进入产品页。",
+      "required_content_updates": "补金属/表面、载荷方向、嵌件供料和样件接着评价，测试方法依代表性结构确认。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-009",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "1f6e1243f155e043713fc9781061024ffdc8d6c1152f77bd220b52e914d0ecc8"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 91,
+          "article_id": "JKXFHBvvO5hPVDVOF65vMn",
+          "url": "/blog/rubber-to-metal-bonding-failure-analyzing-adhesive-vs-material-separation",
+          "body_sha256": "f4f7c64bd5ebf66decdf5dee76f87966325cb5932347f156c0927885d7564b33",
+          "finding": "用未证实发动机支座案例、指定胶粘剂及8.5MPa等数据下根因结论；界面分离与胶体破坏叙述缺照片/试验位置，D429被误当表面处理规范。"
+        },
+        {
+          "source_index": 124,
+          "article_id": "JKXFHBvvO5hPVDVOF6CvU1",
+          "url": "/blog/bonding-strength-testing-interpreting-90-degree-vs-180-degree-peel-tests",
+          "body_sha256": "fdfb8ccfe6515ec45f9d440b00c2b40f0e444abd93fc023de22a966ea36079ca",
+          "finding": "客户案例与8.5/6/5.5N/mm材料排名无报告；90/180角度的应力解释过简，缺方法、试样、速度、温度和破坏位置。"
+        },
+        {
+          "source_index": 197,
+          "article_id": "article-overmolding-rubber-to-metal-adhesion-failure-analysis",
+          "url": "/blog/overmolding-rubber-to-metal-adhesion-science-and-failure-mode-analysis",
+          "body_sha256": "cb7228113d4a3a419136a1502b21e4b5eadc13e90322e84a39120cb19f8ebe4b",
+          "finding": "方法与失效分类内容丰富，但CP/RC分类、25–75µmRa/涂膜厚度/硫化优劣被通用化；“rarely the rubber”、超声必要性和既有发动机支座案例无资料，D429未分具体方法。"
+        },
+        {
+          "source_index": 201,
+          "article_id": "article-rob-001",
+          "url": "/blog/rubber-to-metal-bonding-humanoid-robot-joint-damping",
+          "body_sha256": "711a7c7c7870576e08b805c7427df660100fbcc06b82811ed28c786959c6a60b",
+          "finding": "自有HNBR60剥离14.8对7.2N/mm图表无报告，未给动态刚度/疲劳曲线；零释气、Chemlok/低tanδ配方及每批AOI/CMM是未证实承诺，RFQ仍套密封压缩率。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-019",
+        "RQ-T-063"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-020",
+      "topic_title": "Bonded Rubber Failure: Adhesion, Cohesion and Test Direction",
+      "primary_keyword": "rubber metal bond failure",
+      "buyer_job": "识别粘接失效",
+      "original_parent": "/products/rubber-to-metal-bonded-parts",
+      "primary_owner_url": "/blog/rubber-to-metal-bonding-failure-analyzing-adhesive-vs-material-separation",
+      "owner_kind": "existing_article",
+      "decision": "ASSIGNED",
+      "decision_basis": "接着破坏位置与试验方向是独立工程任务，重写现有失效文章。",
+      "required_content_updates": "按照片/残胶/露底、基材和试验条件组织，分类/方法核对一手资料，删未证实案例及通用接着数值。",
+      "owner_source": {
+        "kind": "saved_article",
+        "source_index": 91,
+        "article_id": "JKXFHBvvO5hPVDVOF65vMn",
+        "revision": "eN7xRzolB5Lpd79D00725q",
+        "body_sha256": "f4f7c64bd5ebf66decdf5dee76f87966325cb5932347f156c0927885d7564b33"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 91,
+          "article_id": "JKXFHBvvO5hPVDVOF65vMn",
+          "url": "/blog/rubber-to-metal-bonding-failure-analyzing-adhesive-vs-material-separation",
+          "body_sha256": "f4f7c64bd5ebf66decdf5dee76f87966325cb5932347f156c0927885d7564b33",
+          "finding": "用未证实发动机支座案例、指定胶粘剂及8.5MPa等数据下根因结论；界面分离与胶体破坏叙述缺照片/试验位置，D429被误当表面处理规范。"
+        },
+        {
+          "source_index": 124,
+          "article_id": "JKXFHBvvO5hPVDVOF6CvU1",
+          "url": "/blog/bonding-strength-testing-interpreting-90-degree-vs-180-degree-peel-tests",
+          "body_sha256": "fdfb8ccfe6515ec45f9d440b00c2b40f0e444abd93fc023de22a966ea36079ca",
+          "finding": "客户案例与8.5/6/5.5N/mm材料排名无报告；90/180角度的应力解释过简，缺方法、试样、速度、温度和破坏位置。"
+        },
+        {
+          "source_index": 197,
+          "article_id": "article-overmolding-rubber-to-metal-adhesion-failure-analysis",
+          "url": "/blog/overmolding-rubber-to-metal-adhesion-science-and-failure-mode-analysis",
+          "body_sha256": "cb7228113d4a3a419136a1502b21e4b5eadc13e90322e84a39120cb19f8ebe4b",
+          "finding": "方法与失效分类内容丰富，但CP/RC分类、25–75µmRa/涂膜厚度/硫化优劣被通用化；“rarely the rubber”、超声必要性和既有发动机支座案例无资料，D429未分具体方法。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-020"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-021",
+      "topic_title": "Vibration Mount Specifications: What a Static Load Omits",
+      "primary_keyword": "vibration isolation mounts",
+      "buyer_job": "准备减振件工程要求",
+      "original_parent": "/products/rubber-to-metal-bonded-parts",
+      "primary_owner_url": "/blog/vibration-damping-mounts-dynamic-stiffness-humanoid-robot-actuators",
+      "owner_kind": "existing_article",
+      "decision": "ASSIGNED",
+      "decision_basis": "动态刚度与静载区别需要独立工程说明，复用已有执行器减振URL。",
+      "required_content_updates": "重写同文剥离模板，明确预载、频率、温度、振幅、几何和响应指标，不把材料表或剥离值当减振性能。",
+      "owner_source": {
+        "kind": "saved_article",
+        "source_index": 202,
+        "article_id": "article-rob-002",
+        "revision": "kF0pH8zAeRz6etg9XH9FLr",
+        "body_sha256": "711a7c7c7870576e08b805c7427df660100fbcc06b82811ed28c786959c6a60b"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 68,
+          "article_id": "JKXFHBvvO5hPVDVOF65i8K",
+          "url": "/blog/micro-cellular-rubber-vibration-isolation-in-high-precision-metrology",
+          "body_sha256": "b97d0ebae1e2876ec741f71765ade2058b77df23259b1077158a99284e64bb63",
+          "finding": "自有微孔EPDM、泡孔85–92%、阻尼0.72和密度±3%无资料，微发泡生产能力也未确认；静态压缩表不足以证明仪器隔振。"
+        },
+        {
+          "source_index": 75,
+          "article_id": "JKXFHBvvO5hPVDVOF65ltM",
+          "url": "/blog/industrial-drones-lightweight-rubber-dampers-for-camera-gimbal-stabilization",
+          "body_sha256": "39154a110e27c593b0cb47d7cf69c349bebc2de8a7a95ca57782ac95d2adfdcc",
+          "finding": "静态硬度和物性表不能支持全温区隔振效率；同时把VMQ普遍耐油燃料与零脱胶写成性能。"
+        },
+        {
+          "source_index": 113,
+          "article_id": "JKXFHBvvO5hPVDVOF6CnBP",
+          "url": "/blog/pneumatic-tools-vibration-reduction-sleeves-for-ergonomic-operator-safety",
+          "body_sha256": "1b854b2deb6832f486d617bd9d061aa2ed92e450e4ebea1b61a6c5303051c0af",
+          "finding": "自有842、85%回弹和82%减振值没有结构/夹持/频谱或报告，静态表不能证明整机减振或操作者健康效果。"
+        },
+        {
+          "source_index": 201,
+          "article_id": "article-rob-001",
+          "url": "/blog/rubber-to-metal-bonding-humanoid-robot-joint-damping",
+          "body_sha256": "711a7c7c7870576e08b805c7427df660100fbcc06b82811ed28c786959c6a60b",
+          "finding": "自有HNBR60剥离14.8对7.2N/mm图表无报告，未给动态刚度/疲劳曲线；零释气、Chemlok/低tanδ配方及每批AOI/CMM是未证实承诺，RFQ仍套密封压缩率。"
+        },
+        {
+          "source_index": 202,
+          "article_id": "article-rob-002",
+          "url": "/blog/vibration-damping-mounts-dynamic-stiffness-humanoid-robot-actuators",
+          "body_sha256": "711a7c7c7870576e08b805c7427df660100fbcc06b82811ed28c786959c6a60b",
+          "finding": "与201完整内容和SVG严格同文，标题强调动态刚度但只有未证实14.8/7.2Nmm剥离图，没有预载、频率、温度/振幅或响应。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-021"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-022",
+      "topic_title": "FFKM O-Rings: Compound and Application Review Guide",
+      "primary_keyword": "ffkm o-rings",
+      "buyer_job": "选择FFKM材料与制品",
+      "original_parent": "/materials/ffkm",
+      "primary_owner_url": "/materials/ffkm",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "FFKM O圈材料/配方评审是材料商业页主任务。",
+      "required_content_updates": "补材料/零件规格、工艺暴露、图纸与样件计划；不填统一温区、纯度、释气或等离子值。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-012",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "101db938615cd50b45aa5616b23d1c3a429db80dd8306d6309ad70d5d4ce0fd0"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 111,
+          "article_id": "JKXFHBvvO5hPVDVOF6CmOr",
+          "url": "/blog/semiconductor-etching-equipment-high-purity-ffkm-seals-for-plasma-resistance",
+          "body_sha256": "dd131306f7a552f3c6efa5c007a30a2900c6521548697412880ac4f639d5ed62",
+          "finding": "未确认FFKM7000牌号，刻蚀率<0.1µm/h、TML0.05%、500小时失重0.3%及ISO3601高纯A/C/D无报告；通用键能不能证明指定等离子免降解。"
+        },
+        {
+          "source_index": 205,
+          "article_id": "article-sem-001",
+          "url": "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+          "body_sha256": "cbf6d4a38709efeb6be24420ab64b3dfa5a8bd1b99c4f27787ce2dcc923e9444",
+          "finding": "自有FFKM8100侵蚀0.018对FKM0.450图表无原始报告/等离子条件，300°C真空24小时去尽挥发物、零释气/每批AOI/CMM未证实。"
+        },
+        {
+          "source_index": 267,
+          "article_id": "article-semiconductor-ffkm-seals-plasma-wafer-processing",
+          "url": "/blog/semiconductor-wafer-processing-ultra-clean-ffkm-seals-for-plasma-environments",
+          "body_sha256": "bcd10c623abc7a704a1f07ad73cddb36139dc4b618e28fe7771d62cc73b82341",
+          "finding": "把FFKM近乎普遍耐化学/低释气写成家族事实，匿名三等级温区/成本表、统一压缩率和表面粗糙度无工程依据；汽车级首位与项目定位不符，体系不证明半导体就绪。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-022"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-023",
+      "topic_title": "FFKM Replacement Seals: A Qualification Checklist",
+      "primary_keyword": "ffkm replacement seals",
+      "buyer_job": "制定售后替代验证",
+      "original_parent": "/products/ffkm-replacement-seals",
+      "primary_owner_url": "/products/ffkm-replacement-seals",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "替代件是独立商业供货评估入口。",
+      "required_content_updates": "补原件编号/规格/位置/失效史、材料和总成批准责任，不保证通用互换或寿命等效。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-010",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "852b4998b7bbf7e27b4a2079f607e767b2ccfc430bcc8a93343d9763b496ebc5"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 1,
+          "article_id": "Iht31guWKGVyy0fDUhwnFo",
+          "url": "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
+          "body_sha256": "391942cc6acabcb187cb21400cb57c18149e8e7e2de46494d0630e0a3a0b7b44",
+          "finding": "标题、正文和成本表把3倍当作固定价格；未给尺寸、配方、数量或报价日期。327°C与压缩永久变形同样不是RubberQ配方报告。"
+        },
+        {
+          "source_index": 215,
+          "article_id": "article-sem-025",
+          "url": "/blog/sem-025-kalrez-o-rings-engineering-selection",
+          "body_sha256": "b43eaa44325d23caeaff2bec4e5c876be17cd80d0f0bc41d4da94524cf2581e3",
+          "finding": "商业替代任务相关，但正文称RubberQ验证每批Kalrez并把匿名高纯数据与品牌关联，无原厂关系、具体牌号、原规格或等效报告。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-023",
+        "RQ-T-024",
+        "RQ-T-055"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-024",
+      "topic_title": "Kalrez Alternatives: Compare the Specification, Not the Name",
+      "primary_keyword": "kalrez alternative",
+      "buyer_job": "原件参照与替代评估",
+      "original_parent": "/products/ffkm-replacement-seals",
+      "primary_owner_url": "/products/ffkm-replacement-seals",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "品牌替代与一般FFKM替代是同一批准任务，不另造Kalrez同义产品页。",
+      "required_content_updates": "说明原厂参考仅用于识别，候选与原规格逐项比较，补原厂定义出处但不暗示授权/关联或原厂性能转移。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-010",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "852b4998b7bbf7e27b4a2079f607e767b2ccfc430bcc8a93343d9763b496ebc5"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 215,
+          "article_id": "article-sem-025",
+          "url": "/blog/sem-025-kalrez-o-rings-engineering-selection",
+          "body_sha256": "b43eaa44325d23caeaff2bec4e5c876be17cd80d0f0bc41d4da94524cf2581e3",
+          "finding": "商业替代任务相关，但正文称RubberQ验证每批Kalrez并把匿名高纯数据与品牌关联，无原厂关系、具体牌号、原规格或等效报告。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-023",
+        "RQ-T-024",
+        "RQ-T-055"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-025",
+      "topic_title": "FKM vs FFKM: Questions to Resolve Before Material Selection",
+      "primary_keyword": "fkm vs ffkm",
+      "buyer_job": "比较候选材料",
+      "original_parent": "/materials/ffkm",
+      "primary_owner_url": "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
+      "owner_kind": "existing_article",
+      "decision": "ASSIGNED",
+      "decision_basis": "材料/验证/成本比较有已有同URL稿，不另建第二个FKM-vs-FFKM页面。",
+      "required_content_updates": "落实现有修订稿，必要时补具体候选比较的报告条件；不恢复固定3倍价格或家族性能排名。",
+      "owner_source": {
+        "kind": "saved_article",
+        "source_index": 1,
+        "article_id": "Iht31guWKGVyy0fDUhwnFo",
+        "revision": "eN7xRzolB5Lpd79D00725q",
+        "body_sha256": "391942cc6acabcb187cb21400cb57c18149e8e7e2de46494d0630e0a3a0b7b44"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 1,
+          "article_id": "Iht31guWKGVyy0fDUhwnFo",
+          "url": "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
+          "body_sha256": "391942cc6acabcb187cb21400cb57c18149e8e7e2de46494d0630e0a3a0b7b44",
+          "finding": "标题、正文和成本表把3倍当作固定价格；未给尺寸、配方、数量或报价日期。327°C与压缩永久变形同样不是RubberQ配方报告。"
+        },
+        {
+          "source_index": 169,
+          "article_id": "QeuV1LXZQHOxh8iFCMqFHO",
+          "url": "/blog/perfluoroelastomer-ffkm-pricing-analyzing-the-supply-chain-of-high-performance-p",
+          "body_sha256": "2da85d107ce6f70c4f1c8a57ead5cecb2914e8e61b8c88caefd3aef0c717c0a6",
+          "finding": "FFKM300–500/FKM50–100/EPDM20–40每kg无报价、牌号或时间，不能作为当前采购价格；327°C和300°C压缩<10%也无报告。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "local_draft_prepared_final_review_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-025"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-026",
+      "topic_title": "Outgassing Data for Vacuum Seals: Conditions to Keep with Results",
+      "primary_keyword": "low outgassing seals",
+      "buyer_job": "读懂出气数据条件",
+      "original_parent": "/materials/ffkm",
+      "primary_owner_url": "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing",
+      "owner_kind": "existing_article",
+      "decision": "ASSIGNED",
+      "decision_basis": "释气数据的条件解读是跨配方工程问题，已有真空/光学文章可重写。",
+      "required_content_updates": "从牌号排名改为样品、预处理、真空/温度/时间、测量/沉积污染指标，删匿名释气表，不将一次测试代表全部真空系统。",
+      "owner_source": {
+        "kind": "saved_article",
+        "source_index": 82,
+        "article_id": "JKXFHBvvO5hPVDVOF65qCN",
+        "revision": "tOg8rPBjlu3UwNHWI5LxCN",
+        "body_sha256": "3c29f237d691fe04ec3ced20f335e8d45be687a168e6fca20ec85bcbb0fed65a"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 82,
+          "article_id": "JKXFHBvvO5hPVDVOF65qCN",
+          "url": "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing",
+          "body_sha256": "3c29f237d691fe04ec3ced20f335e8d45be687a168e6fca20ec85bcbb0fed65a",
+          "finding": "列Viton GLT与≤0.1μg/cm²等释气数据无试验方法和样件报告，含氟量被直接等同光学清洁与真空适用。"
+        },
+        {
+          "source_index": 205,
+          "article_id": "article-sem-001",
+          "url": "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+          "body_sha256": "cbf6d4a38709efeb6be24420ab64b3dfa5a8bd1b99c4f27787ce2dcc923e9444",
+          "finding": "自有FFKM8100侵蚀0.018对FKM0.450图表无原始报告/等离子条件，300°C真空24小时去尽挥发物、零释气/每批AOI/CMM未证实。"
+        },
+        {
+          "source_index": 206,
+          "article_id": "article-sem-002",
+          "url": "/blog/cleanroom-degassing-low-outgassing-rubber-seals-lithography",
+          "body_sha256": "cbf6d4a38709efeb6be24420ab64b3dfa5a8bd1b99c4f27787ce2dcc923e9444",
+          "finding": "与205完整正文严格相同，标题Class5洁净/光刻但只给等离子侵蚀图和无证据零释气后处理，没有光刻条件/洁净设施或释气报告。"
+        },
+        {
+          "source_index": 268,
+          "article_id": "article-single-line-mixing-semiconductor-ffkm-contamination",
+          "url": "/blog/single-line-mixing-semiconductor-ffkm-contamination",
+          "body_sha256": "b08372256a57b02e887f9504adfdef86cf69ad29ff7f07120265db7870b72288",
+          "finding": "单线作为全球合格基线、具体周排产/拆机超声/报废试炼、FTIR/RGA可用和每批全套测试未证实；4/6检查即合格及2–3周候选保证无依据。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-026"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-027",
+      "topic_title": "Plasma Seal Evaluation: Why Compound-Specific Data Matters",
+      "primary_keyword": "plasma resistant seals",
+      "buyer_job": "制定工况验证",
+      "original_parent": "/materials/ffkm",
+      "primary_owner_url": "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+      "owner_kind": "existing_article",
+      "decision": "ASSIGNED",
+      "decision_basis": "等离子评估有独立工艺任务，重写已存在的准确主题URL。",
+      "required_content_updates": "补工艺气体/能量、位置、暴露/清洗循环、试样及侵蚀/颗粒方法，删除8100/自述实测图及固定后处理处方。",
+      "owner_source": {
+        "kind": "saved_article",
+        "source_index": 205,
+        "article_id": "article-sem-001",
+        "revision": "ek4pKd5NOgHrvnAUS0zgr5",
+        "body_sha256": "cbf6d4a38709efeb6be24420ab64b3dfa5a8bd1b99c4f27787ce2dcc923e9444"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 111,
+          "article_id": "JKXFHBvvO5hPVDVOF6CmOr",
+          "url": "/blog/semiconductor-etching-equipment-high-purity-ffkm-seals-for-plasma-resistance",
+          "body_sha256": "dd131306f7a552f3c6efa5c007a30a2900c6521548697412880ac4f639d5ed62",
+          "finding": "未确认FFKM7000牌号，刻蚀率<0.1µm/h、TML0.05%、500小时失重0.3%及ISO3601高纯A/C/D无报告；通用键能不能证明指定等离子免降解。"
+        },
+        {
+          "source_index": 205,
+          "article_id": "article-sem-001",
+          "url": "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+          "body_sha256": "cbf6d4a38709efeb6be24420ab64b3dfa5a8bd1b99c4f27787ce2dcc923e9444",
+          "finding": "自有FFKM8100侵蚀0.018对FKM0.450图表无原始报告/等离子条件，300°C真空24小时去尽挥发物、零释气/每批AOI/CMM未证实。"
+        },
+        {
+          "source_index": 267,
+          "article_id": "article-semiconductor-ffkm-seals-plasma-wafer-processing",
+          "url": "/blog/semiconductor-wafer-processing-ultra-clean-ffkm-seals-for-plasma-environments",
+          "body_sha256": "bcd10c623abc7a704a1f07ad73cddb36139dc4b618e28fe7771d62cc73b82341",
+          "finding": "把FFKM近乎普遍耐化学/低释气写成家族事实，匿名三等级温区/成本表、统一压缩率和表面粗糙度无工程依据；汽车级首位与项目定位不符，体系不证明半导体就绪。"
+        },
+        {
+          "source_index": 268,
+          "article_id": "article-single-line-mixing-semiconductor-ffkm-contamination",
+          "url": "/blog/single-line-mixing-semiconductor-ffkm-contamination",
+          "body_sha256": "b08372256a57b02e887f9504adfdef86cf69ad29ff7f07120265db7870b72288",
+          "finding": "单线作为全球合格基线、具体周排产/拆机超声/报废试炼、FTIR/RGA可用和每批全套测试未证实；4/6检查即合格及2–3周候选保证无依据。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-027"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-028",
+      "topic_title": "FKM O-Rings: Grade, Fluid and Temperature Review",
+      "primary_keyword": "fkm o-rings",
+      "buyer_job": "选定具体FKM牌号",
+      "original_parent": "/materials/fkm",
+      "primary_owner_url": "/materials/fkm",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "FKM牌号/流体/温度采购归材料主页面。",
+      "required_content_updates": "补完整牌号、介质、冷热历程、硫化/测试条件和尺寸接口，不由含氟量一项判断适用。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-013",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "f7a82690a163b1d5f4842e8ad241f52ff1d8ce3575e1e758bcad6db98202f8ba"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 2,
+          "article_id": "Iht31guWKGVyy0fDUhwnHw",
+          "url": "/blog/fluorine-content-in-fkm-how-66-vs-70-impacts-chemical-degradation",
+          "body_sha256": "7bd6b7e0e0b1559dcf6ea7bc6bf9434a24bf4ad4699e06ac0e79d81fd7084a94",
+          "finding": "用含氟量直接推导交联密度和全部化学适配，并列无样品出处的35/25压缩变形与15/8膨胀值。"
+        },
+        {
+          "source_index": 217,
+          "article_id": "article-sem-028",
+          "url": "/blog/sem-028-viton-glt-o-rings-engineering-selection",
+          "body_sha256": "aab9ae117878d6178d988ce21a1e099ef77fccbba31ae90636f7cec1c15877df",
+          "finding": "GLT牌号词未对应任何原厂资料或低温测试，不能由高纯FFKM表判断品牌牌号性能。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        },
+        {
+          "source_index": 221,
+          "article_id": "article-sem-041",
+          "url": "/blog/sem-041-fkm-o-ring-material-engineering-selection",
+          "body_sha256": "76e14027632ac3277e2f09d282bb8b6cb7f100dd2028d7305945a75e7ee682ca",
+          "finding": "FKM O圈任务未区分牌号、硫化、低温、流体与尺寸，直接套超纯FFKM参数。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        },
+        {
+          "source_index": 224,
+          "article_id": "article-sem-051",
+          "url": "/blog/sem-051-viton-extreme-o-rings-engineering-selection",
+          "body_sha256": "a36ff2b55efd248ed15cfae3c5354f3ea31fc0bca0baec7b900f69b0428f6fca",
+          "finding": "Extreme系列词没有具体原厂牌号/适用资料，不能套325°C或超纯离子表。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        },
+        {
+          "source_index": 263,
+          "article_id": "article-sem-314",
+          "url": "/blog/sem-314-viton-o-rings-material-engineering-selection",
+          "body_sha256": "1dcc2161ad8a7c355b0e46959e8068b27298fdec688bb34214612597aadaaef3",
+          "finding": "Viton O-Rings Material与221及264几乎同一采购叫法，主体未提供品牌牌号或FKM工况数据。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        },
+        {
+          "source_index": 264,
+          "article_id": "article-sem-315",
+          "url": "/blog/sem-315-viton-o-ring-material-engineering-selection",
+          "body_sha256": "8bcb298f8e903d4293c7aa2a1447e46b4fc7e4fb35509474703c75f6c4b3a667",
+          "finding": "Viton O-Ring Material与263仅单复数差异，完整模板仍不能作为牌号选择证据。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-028",
+        "RQ-T-029"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-029",
+      "topic_title": "Viton and FKM: Material Designations in a Seal RFQ",
+      "primary_keyword": "viton o-rings",
+      "buyer_job": "厘清品牌与聚合物称谓",
+      "original_parent": "/materials/fkm",
+      "primary_owner_url": "/materials/fkm",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "品牌与材料家族称谓是FKM页中必须说明的定义，避免品牌同义URL。",
+      "required_content_updates": "补Viton与FKM称谓及原厂来源，具体牌号/候选单独验证，不暗示原厂关系或承诺所有品牌料可供。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-013",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "f7a82690a163b1d5f4842e8ad241f52ff1d8ce3575e1e758bcad6db98202f8ba"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 214,
+          "article_id": "article-sem-023",
+          "url": "/blog/sem-023-viton-o-ring-hardness-engineering-selection",
+          "body_sha256": "81f5508a9aa77c9f07682458586d2d2e5eefcfc08e573898211b184e7f3d2d80",
+          "finding": "硬度主题仅套FFKM/FKM半导体模板及75±3，没有标尺、试样条件或具体品牌牌号；自有lot验证措辞不能证明原厂品牌/性能。"
+        },
+        {
+          "source_index": 217,
+          "article_id": "article-sem-028",
+          "url": "/blog/sem-028-viton-glt-o-rings-engineering-selection",
+          "body_sha256": "aab9ae117878d6178d988ce21a1e099ef77fccbba31ae90636f7cec1c15877df",
+          "finding": "GLT牌号词未对应任何原厂资料或低温测试，不能由高纯FFKM表判断品牌牌号性能。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        },
+        {
+          "source_index": 224,
+          "article_id": "article-sem-051",
+          "url": "/blog/sem-051-viton-extreme-o-rings-engineering-selection",
+          "body_sha256": "a36ff2b55efd248ed15cfae3c5354f3ea31fc0bca0baec7b900f69b0428f6fca",
+          "finding": "Extreme系列词没有具体原厂牌号/适用资料，不能套325°C或超纯离子表。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        },
+        {
+          "source_index": 263,
+          "article_id": "article-sem-314",
+          "url": "/blog/sem-314-viton-o-rings-material-engineering-selection",
+          "body_sha256": "1dcc2161ad8a7c355b0e46959e8068b27298fdec688bb34214612597aadaaef3",
+          "finding": "Viton O-Rings Material与221及264几乎同一采购叫法，主体未提供品牌牌号或FKM工况数据。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        },
+        {
+          "source_index": 264,
+          "article_id": "article-sem-315",
+          "url": "/blog/sem-315-viton-o-ring-material-engineering-selection",
+          "body_sha256": "8bcb298f8e903d4293c7aa2a1447e46b4fc7e4fb35509474703c75f6c4b3a667",
+          "finding": "Viton O-Ring Material与263仅单复数差异，完整模板仍不能作为牌号选择证据。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-028",
+        "RQ-T-029"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-030",
+      "topic_title": "EPDM vs FKM: Compare the Complete Service Fluid",
+      "primary_keyword": "epdm vs fkm",
+      "buyer_job": "比较介质适配",
+      "original_parent": "/materials/fkm",
+      "primary_owner_url": "/resources/material-compatibility",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "两种材料的比较需要中立介质依据，改归兼容性资源而非单一FKM页。",
+      "required_content_updates": "补EPDM/FKM比较的完整介质、配方、温度与试验条件；蒸汽细节可由132重写支持，不给家族总排名。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-040",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "0d3bad7e068989b186142ff5ff84db7bc7e1cfb0de08c8ccb38dfd0ab2d8ed4f"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 70,
+          "article_id": "JKXFHBvvO5hPVDVOF65jO0",
+          "url": "/blog/coolant-manifolds-in-evs-why-epdm-remains-the-standard-for-thermal-management",
+          "body_sha256": "d17bd3a6011ee5650cbcba6439de1e5e175416fc7d30cb06da2e0e5ce044afde",
+          "finding": "此处把EPDM列优而多篇把FKM列优，说明结论未绑定具体冷却液和配方；仍给固定成本指数与零脱胶保证。"
+        },
+        {
+          "source_index": 108,
+          "article_id": "JKXFHBvvO5hPVDVOF6Cidp",
+          "url": "/blog/chemical-resistance-chart-a-guide-to-polar-vs-non-polar-solvents",
+          "body_sha256": "1b185cd9ad5d33d8bdbb02efb5d6f31aa25f91152f3aea9ff38593cc589b065e",
+          "finding": "极性/非极性被写成可一概判断的化学等级，表内EPDM结论与前文相反；FKM全部极性溶剂优秀无具体试验。"
+        },
+        {
+          "source_index": 132,
+          "article_id": "QeuV1LXZQHOxh8iFCMnahO",
+          "url": "/blog/epdm-vs-fkm-which-material-is-better-for-industrial-steam-applications",
+          "body_sha256": "f5666d58622fec0865ed5bbded025183b52b720b18816b911749be9272ca1ec0",
+          "finding": "保存正文只到一张短表，未完成方法/决策/采购输入；FKM蒸汽Good和22h物性均无具体牌号/报告，与源索引106重叠。"
+        },
+        {
+          "source_index": 178,
+          "article_id": "QeuV1LXZQHOxh8iFCMqJ5O",
+          "url": "/blog/chemical-swelling-how-to-predict-seal-life-in-unknown-fluid-mixtures",
+          "body_sha256": "85aed876e61eb0eff135741b40d22f3e7983486dfc9061f0510b2d9efe7c7851",
+          "finding": "未识别混合液即推荐FKM，标题寿命预测但全文没有成分、浓度、实际暴露或寿命模型；通用家族物性不足以做未知液适配判断。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-030",
+        "RQ-T-048"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-031",
+      "topic_title": "Compression Set Results: Compare the Test Basis",
+      "primary_keyword": "compression set",
+      "buyer_job": "制定材料验收",
+      "original_parent": "/materials/fkm",
+      "primary_owner_url": "/blog/compression-set-failure-why-your-seal-lost-its-bounce",
+      "owner_kind": "existing_article",
+      "decision": "ASSIGNED",
+      "decision_basis": "压缩永久变形测试基础有独立任务，现有失效文章可承担方法说明。",
+      "required_content_updates": "修正85%案例与虚构流体等级，说明尺寸恢复条件，区分保力/释气/总成泄漏并链接98相关概念。",
+      "owner_source": {
+        "kind": "saved_article",
+        "source_index": 157,
+        "article_id": "QeuV1LXZQHOxh8iFCMnkLO",
+        "revision": "eN7xRzolB5Lpd79D0070lU",
+        "body_sha256": "34feb7f30a00512dfd9157bfeb40cd8624ad607f6860fd6ba0c8a55db41bcc51"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 98,
+          "article_id": "JKXFHBvvO5hPVDVOF660gv",
+          "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+          "body_sha256": "7d09409ff7f7924397f6312fc7392ed97908f7653b2ee428b102776da5d6fef2",
+          "finding": "无佐证的EV冷却液压案例与SEM根因，FKM70的85%保力、±1%含氟量和t90±3秒均无报告；释义有用但不能由材料表或压缩变形推保力。"
+        },
+        {
+          "source_index": 157,
+          "article_id": "QeuV1LXZQHOxh8iFCMnkLO",
+          "url": "/blog/compression-set-failure-why-your-seal-lost-its-bounce",
+          "body_sha256": "34feb7f30a00512dfd9157bfeb40cd8624ad607f6860fd6ba0c8a55db41bcc51",
+          "finding": "液压案例、85/28%压缩值、22%交联提升及ISO3601流体A+等级无报告；固定ACN不能证明指定失效根因。"
+        },
+        {
+          "source_index": 185,
+          "article_id": "article-compression-set-vmq-cure-system-long-term-static-sealing",
+          "url": "/blog/compression-set-vmq-cure-system-long-term-static-sealing",
+          "body_sha256": "247d2dd45a019e4d3b9513631e285386a728d0e0fd53310a345fa1fe28148cbf",
+          "finding": "主体RFQ和硫化因素可用，但把压缩永久变形定义为力损失，和98保力指标混淆；将其直接作长期可靠性代理仍需功能数据，/materials/vmq非新注册表目标。"
+        },
+        {
+          "source_index": 198,
+          "article_id": "article-post-curing-silicone-rubber-parts-volatile-control-compression-set",
+          "url": "/blog/post-curing-silicone-rubber-parts-volatile-control-compression-set",
+          "body_sha256": "9535aeae75ced7e6d34635dcd08a3ae7c4f3c87c9f981620e0b0bcd694f7d71e",
+          "finding": "主体给条件化后硫化讨论、装载/通风/批次与试验要求，没有固定周期保证；但压缩变形与保力仍混用，后硫化必然缩小批内差异和自有控制细节需资料支撑。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-031"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-032",
+      "topic_title": "EPDM Seals: Define the Fluid and Compressed Joint",
+      "primary_keyword": "epdm seals",
+      "buyer_job": "EPDM密封选型",
+      "original_parent": "/materials/epdm",
+      "primary_owner_url": "/materials/epdm",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "EPDM密封选择是材料页主任务。",
+      "required_content_updates": "补实际介质、配方、压缩接口和温度历程，具体样件验收，不写所有冷却液/蒸汽通用适用。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-014",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "07354f2a0cbeae5f011220d0b77428d14c134b54b7b3af4d5fda79d937d34763"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 70,
+          "article_id": "JKXFHBvvO5hPVDVOF65jO0",
+          "url": "/blog/coolant-manifolds-in-evs-why-epdm-remains-the-standard-for-thermal-management",
+          "body_sha256": "d17bd3a6011ee5650cbcba6439de1e5e175416fc7d30cb06da2e0e5ce044afde",
+          "finding": "此处把EPDM列优而多篇把FKM列优，说明结论未绑定具体冷却液和配方；仍给固定成本指数与零脱胶保证。"
+        },
+        {
+          "source_index": 81,
+          "article_id": "JKXFHBvvO5hPVDVOF65pjF",
+          "url": "/blog/diesel-exhaust-fluid-def-systems-epdm-resistance-to-urea-solutions",
+          "body_sha256": "9184c764da5bd2263e766e495e458a422346b0c1d36edbbba6626915b2d85bbb",
+          "finding": "DEF需求相关但用统一EPDM物性和材料等级表承诺适用，未给尿素浓度、杂质、温度循环与具体配方报告；ISO3601不应代替整套密封性能验证。"
+        },
+        {
+          "source_index": 230,
+          "article_id": "article-sem-106",
+          "url": "/blog/sem-106-epdm-rubber-engineering-selection",
+          "body_sha256": "331a66181a9f428606c2b807cf3896255136bf87f62e3f6711688e309b05353b",
+          "finding": "EPDM词下缺水/冷却液/户外与具体配方资料，模板对象为FFKM/FKM。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        },
+        {
+          "source_index": 235,
+          "article_id": "article-sem-128",
+          "url": "/blog/sem-128-epdm-o-rings-engineering-selection",
+          "body_sha256": "c74e3e738db7beef77db005afbe9cfdafe5ca3d0e11fd21852134e4e90c86499",
+          "finding": "EPDM O圈没有实际介质、配方和尺寸要求，FFKM超纯指标被错误挪用。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-032",
+        "RQ-T-033",
+        "RQ-T-034"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-033",
+      "topic_title": "Coolant Compatibility: Fluid Formulation and Immersion Test Plan",
+      "primary_keyword": "coolant compatible epdm",
+      "buyer_job": "确定冷却液测试",
+      "original_parent": "/materials/epdm",
+      "primary_owner_url": "/materials/epdm",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "EPDM冷却液相容性是同一材料选择的章节，不新增同义商业页。",
+      "required_content_updates": "补完整冷却液/添加剂、混合比例、清洗、浸泡条件和验收；区分材料与总成试验。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-014",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "07354f2a0cbeae5f011220d0b77428d14c134b54b7b3af4d5fda79d937d34763"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 0,
+          "article_id": "Iht31guWKGVyy0fDUhwnDg",
+          "url": "/blog/the-role-of-hnbr-in-high-temperature-automotive-sealing-environments",
+          "body_sha256": "88bb9e3cd863a6d46c2bb83ab4ae236bd80b0f90d701741b60e28b466a5ebe6e",
+          "finding": "正文把EPDM乙二醇适配列为Poor，却没有具体配方、冷却液浓度或试验依据；固定强度与压缩永久变形值没有样品条件。"
+        },
+        {
+          "source_index": 70,
+          "article_id": "JKXFHBvvO5hPVDVOF65jO0",
+          "url": "/blog/coolant-manifolds-in-evs-why-epdm-remains-the-standard-for-thermal-management",
+          "body_sha256": "d17bd3a6011ee5650cbcba6439de1e5e175416fc7d30cb06da2e0e5ce044afde",
+          "finding": "此处把EPDM列优而多篇把FKM列优，说明结论未绑定具体冷却液和配方；仍给固定成本指数与零脱胶保证。"
+        },
+        {
+          "source_index": 131,
+          "article_id": "QeuV1LXZQHOxh8iFCMnaVO",
+          "url": "/blog/technical-comparison-why-fkm-o-rings-are-replacing-nbr-in-ev-cooling-systems",
+          "body_sha256": "7ce5b92a5fc8581d0ef0da2ac31d37457d2baa04d95918ae75df70d004ba3c2f",
+          "finding": "替代趋势没有市场来源，FKM耐全部冷却液结论与源索引70相反，行业体系/尺寸标准不能证明媒体适用或长期密封。"
+        },
+        {
+          "source_index": 180,
+          "article_id": "QeuV1LXZQHOxh8iFCMqLRO",
+          "url": "/blog/in-house-lab-capabilities-from-rheometers-to-tensile-testing-machines",
+          "body_sha256": "3d2049fc055fb822265325a4c4a0753aa4343841b446216342bdd41b6e389e96",
+          "finding": "工厂体系被写成实验室专门认证，FTIR/DSC/每日校准与HNBR3.2%冷却液数据无记录；试验机主题没有设备范围、样件与方法证据。"
+        },
+        {
+          "source_index": 186,
+          "article_id": "article-cool-001",
+          "url": "/blog/coolant-resistant-epdm-gaskets-ai-liquid-cooling-cdu",
+          "body_sha256": "dad7aae59397464362b3461792d392b49ebaf861d720005f71a3f9e43023c885",
+          "finding": "宣称实验室实测并绘EPDM-LC0.7%/普通EPDM6.2%溶胀，无原始报告；零释气/析出、UL94V0、100%视觉和每批CMM/AOI等无证据；与187正文规范hash完全相同。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-032",
+        "RQ-T-033",
+        "RQ-T-034"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-034",
+      "topic_title": "EPDM Gasket Weathering: Specify Exposure and Acceptance",
+      "primary_keyword": "epdm gaskets",
+      "buyer_job": "户外工况选型",
+      "original_parent": "/materials/epdm",
+      "primary_owner_url": "/materials/epdm",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "户外垫片材料与EPDM页密切相关，行业/产品页提供结构上下文。",
+      "required_content_updates": "补日照/臭氧/湿热、受力与接合界面、外观/功能判据，不给20年寿命保证。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-014",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "07354f2a0cbeae5f011220d0b77428d14c134b54b7b3af4d5fda79d937d34763"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 6,
+          "article_id": "Iht31guWKGVyy0fDUhwnVm",
+          "url": "/blog/anti-ozonants-in-epdm-extending-the-service-life-of-outdoor-architectural-seals",
+          "body_sha256": "c8ab22ec4ad9f31d1a1478a3502ae7fee41508475846951d829043a5de51637f",
+          "finding": "把自有专有防臭氧配方和对标准EPDM的优越性当事实，无配方或试验文件；寿命延长缺条件。"
+        },
+        {
+          "source_index": 74,
+          "article_id": "JKXFHBvvO5hPVDVOF65lQE",
+          "url": "/blog/solar-inverters-uv-resistant-gaskets-for-20-year-outdoor-exposure",
+          "body_sha256": "84276bf493b1e171c3cad6548d337ddee1cbfda84d17d45a5c790cf895458e23",
+          "finding": "20年暴露标题无寿命推导，正文泛称EPDM不耐UV并推荐FKM，未给应力状态、湿热、光照或试验依据。"
+        },
+        {
+          "source_index": 150,
+          "article_id": "QeuV1LXZQHOxh8iFCMnfpO",
+          "url": "/blog/heavy-duty-trucks-air-suspension-bellows-and-environmental-durability",
+          "body_sha256": "5e9f668fe7910708552daa955900b7d1426d8a4c981f3abbf2af99090a266df0",
+          "finding": "卡车空气悬架总成与增强气囊路线未确认，75%乙烯/纳米黏土、1000小时盐雾和50万循环比较无报告；EPDM被泛称易臭氧裂。"
+        },
+        {
+          "source_index": 156,
+          "article_id": "QeuV1LXZQHOxh8iFCMnkDO",
+          "url": "/blog/shelf-life-of-rubber-parts-how-to-store-seals-to-prevent-ozone-cracking",
+          "body_sha256": "a506f777f4edac8f245b50d614dcd8d4e24eb5d34a629b28d7132ea32245e1e5",
+          "finding": "将EPDM低臭氧耐受和HNBR高含氟写成材料结论，与手册材料说明不符；储存期限没有具体胶料和包装/验收资料。"
+        },
+        {
+          "source_index": 161,
+          "article_id": "QeuV1LXZQHOxh8iFCMnkvO",
+          "url": "/blog/ozone-cracking-identifying-environmental-stress-vs-chemical-attack",
+          "body_sha256": "0ff5a0fbbfe2fc1114fe77fcb1ac7cbf6ac90ca67a0745a92cb850c2bb8904ea",
+          "finding": "EPDM臭氧口径与156相反，说明全站需要统一；正文虽有机制简介，但未给裂纹方向、受拉、暴露及对照，通用物性表未回答鉴别任务。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-032",
+        "RQ-T-033",
+        "RQ-T-034"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-035",
+      "topic_title": "NBR vs HNBR: Fluid, Temperature and Mechanical Duty",
+      "primary_keyword": "nbr vs hnbr",
+      "buyer_job": "选择油接触材料",
+      "original_parent": "/materials/hnbr",
+      "primary_owner_url": "/materials/hnbr",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "NBR/HNBR比较用于HNBR候选评审，NBR页面双向连接。",
+      "required_content_updates": "补油液、ACN/牌号、冷热与机械任务，不用氢化或单一物性自动推出所有介质优势。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-015",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "9d154458eb8ecb41dbe77ed6695cf0b31e034ec3d67d6c5643f0d90291f32f6f"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 0,
+          "article_id": "Iht31guWKGVyy0fDUhwnDg",
+          "url": "/blog/the-role-of-hnbr-in-high-temperature-automotive-sealing-environments",
+          "body_sha256": "88bb9e3cd863a6d46c2bb83ab4ae236bd80b0f90d701741b60e28b466a5ebe6e",
+          "finding": "正文把EPDM乙二醇适配列为Poor，却没有具体配方、冷却液浓度或试验依据；固定强度与压缩永久变形值没有样品条件。"
+        },
+        {
+          "source_index": 50,
+          "article_id": "Iht31guWKGVyy0fDUhxZ5Y",
+          "url": "/blog/the-role-of-acrylonitrile-content-in-nbr-balancing-low-temp-flex-vs-oil-swelling",
+          "body_sha256": "8c3d2a3533ac5534bff5dd63252bf5f9c8b2ee0b674884973e320819c7dc4b6f",
+          "finding": "把ACN28–34%写成通用最优，给固定膨胀/TR10值和ISO3601流体等级，还承诺FTIR保证±2%ACN，均缺配方与原始报告。"
+        },
+        {
+          "source_index": 193,
+          "article_id": "article-hnbr-vs-fkm-ev-thermal-management-compound-guide",
+          "url": "/blog/hnbr-vs-fkm-ev-thermal-management-compound-guide",
+          "body_sha256": "823ae6a542fa34ef23fb92dd691ad7a6f87dc16a1951dd1156c4b8b89531a9e5",
+          "finding": "HNBR作所有乙二醇默认、FKM广泛适配浸没液/制冷剂、温区和实测比较无具体牌号报告；成本倍数前后不一；4–8/12–24周开发与2–3周候选交付均未确认。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-035",
+        "RQ-T-036"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-036",
+      "topic_title": "HNBR Seals: A Functional Test Checklist",
+      "primary_keyword": "hnbr seals",
+      "buyer_job": "HNBR试样验收",
+      "original_parent": "/materials/hnbr",
+      "primary_owner_url": "/materials/hnbr",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "HNBR试样验收在材料主页面集中，和通用测试页连接。",
+      "required_content_updates": "补候选识别、加载/运动、摩擦/磨耗及代表性样件条件，不给通用摩擦/寿命数值。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-015",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "9d154458eb8ecb41dbe77ed6695cf0b31e034ec3d67d6c5643f0d90291f32f6f"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 60,
+          "article_id": "Iht31guWKGVyy0fDUhxaDo",
+          "url": "/blog/friction-build-up-reducing-break-out-torque-in-pneumatic-cylinders",
+          "body_sha256": "b27d7532588b80967effc9ed8d78fbb4a11a9d91b595e2b385a3ea8629c1deae",
+          "finding": "自有HNBR70、PTFE5%、摩擦0.12和250万次寿命缺报告，且直线缸场景用扭矩表，没有对应机构与测量。"
+        },
+        {
+          "source_index": 69,
+          "article_id": "JKXFHBvvO5hPVDVOF65ius",
+          "url": "/blog/coefficient-of-friction-cof-reducing-stick-slip-in-dynamic-hydraulic-seals",
+          "body_sha256": "a509f7c239ac34a89992a9f32a6f70161786353dcb2eb3b2a9a316fd6dffc1b2",
+          "finding": "自有742摩擦值与ISO3601测试关联缺依据；给全量接着、清洁等级和粘度范围保证；与第60篇启动摩擦直接重叠。"
+        },
+        {
+          "source_index": 113,
+          "article_id": "JKXFHBvvO5hPVDVOF6CnBP",
+          "url": "/blog/pneumatic-tools-vibration-reduction-sleeves-for-ergonomic-operator-safety",
+          "body_sha256": "1b854b2deb6832f486d617bd9d061aa2ed92e450e4ebea1b61a6c5303051c0af",
+          "finding": "自有842、85%回弹和82%减振值没有结构/夹持/频谱或报告，静态表不能证明整机减振或操作者健康效果。"
+        },
+        {
+          "source_index": 144,
+          "article_id": "QeuV1LXZQHOxh8iFCMnenO",
+          "url": "/blog/laboratory-centrifuges-high-speed-balance-dampers-in-specialized-nitrile",
+          "body_sha256": "1ae39d68c5eff035a4e3e1efada4d165e7c0a87132846a7a7e856748e786435c",
+          "finding": "HNBR被误写为靠含氟量耐介质；标题高速平衡/减振没有载荷、转速谱、刚度或传递率数据，只有通用物性。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-035",
+        "RQ-T-036"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-037",
+      "topic_title": "NBR O-Rings: Drawing and Material Information for a Quote",
+      "primary_keyword": "nbr o-rings",
+      "buyer_job": "NBR采购准备",
+      "original_parent": "/materials/nbr",
+      "primary_owner_url": "/materials/nbr",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "NBR O圈采购归NBR材料页，产品结构由密封页承接。",
+      "required_content_updates": "补图纸、油液/温度/低温、材料识别和数量，避免将NBR模板写成FFKM指标。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-016",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "362110ec98ed302ca70a3838f52c4ac3a645d202a6575953a3e24ee4500f5566"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 10,
+          "article_id": "Iht31guWKGVyy0fDUhwngQ",
+          "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+          "body_sha256": "2e8bb4382acd0adb08004d427961b910552ff9efa24d3efefb40cae469b0f951",
+          "finding": "材料表把固定油胀与成本倍数当标准结果；ISO3601被写成流体适配等级；每30分钟及首末件100%拉伸测试缺记录。"
+        },
+        {
+          "source_index": 50,
+          "article_id": "Iht31guWKGVyy0fDUhxZ5Y",
+          "url": "/blog/the-role-of-acrylonitrile-content-in-nbr-balancing-low-temp-flex-vs-oil-swelling",
+          "body_sha256": "8c3d2a3533ac5534bff5dd63252bf5f9c8b2ee0b674884973e320819c7dc4b6f",
+          "finding": "把ACN28–34%写成通用最优，给固定膨胀/TR10值和ISO3601流体等级，还承诺FTIR保证±2%ACN，均缺配方与原始报告。"
+        },
+        {
+          "source_index": 218,
+          "article_id": "article-sem-034",
+          "url": "/blog/sem-034-nbr-rubber-engineering-selection",
+          "body_sha256": "aa070e25249c7e598d9a086992b9458e86437634b7ba86335603c78579a863a2",
+          "finding": "NBR主题实际没有ACN、油液、低温与具体NBR资料，正文对象却一直是FFKM/FKM。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        },
+        {
+          "source_index": 249,
+          "article_id": "article-sem-224",
+          "url": "/blog/sem-224-nbr-o-rings-engineering-selection",
+          "body_sha256": "6abb50250e9511f7974f6762c12e58b7a6f38bc50d6ce407a17aa116da281ba3",
+          "finding": "NBR O-Rings没有NBR配方、介质或尺寸证据，参数对象却为FFKM/FKM。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-037"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-038",
+      "topic_title": "LSR Molding RFQ: Grade, Geometry and Volume",
+      "primary_keyword": "liquid silicone rubber molding",
+      "buyer_job": "LSR项目采购",
+      "original_parent": "/capabilities/lsr-molding",
+      "primary_owner_url": "/capabilities/lsr-molding",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "LSR制造供应商/采购是工艺商业入口。",
+      "required_content_updates": "补牌号、几何、外观/嵌件、需求节奏、模具和试样验收，路线与交付按项目确认。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-023",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "76fa4c24c49174c30a79fa2bf44ab7ad5845a8ff2c17d38e423d84b4c88165f0"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 110,
+          "article_id": "JKXFHBvvO5hPVDVOF6Cjew",
+          "url": "/blog/overmolding-techniques-solving-adhesion-issues-between-lsr-and-thermoplastics",
+          "body_sha256": "e454461bc85a35ebbee579772e6eff7c03c66818258fe149d7d8a39e037c6a5d",
+          "finding": "LSR路线可以纳入讨论，但特定PC/PA包胶、底涂及2.5N/mm²接着无配方/基材报告，不能由LSR能力推全部包胶组合。"
+        },
+        {
+          "source_index": 139,
+          "article_id": "QeuV1LXZQHOxh8iFCMncbO",
+          "url": "/blog/liquid-silicone-rubber-lsr-tooling-why-initial-investment-pays-off-in-precision",
+          "body_sha256": "670cdd9f56bdd2ad4be4d68b6720729881750d857c97cb4b021324e3681f6d98",
+          "finding": "模具投资主题无模具/型腔/寿命/数量/报价依据，反而保证LSR耐油燃料酸和优于所有EPDM/NBR，不能支持经济性判断。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-038"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-039",
+      "topic_title": "Silicone Rubber Parts: Parting Lines and Appearance Requirements",
+      "primary_keyword": "silicone rubber molding",
+      "buyer_job": "定义硅胶成型验收",
+      "original_parent": "/materials/silicone",
+      "primary_owner_url": "/materials/silicone",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "硅胶成型验收涉及材料/外观/装配，归材料页并连接LSR能力。",
+      "required_content_updates": "补分型线、表面、颜色/透明、尺寸与后处理评价，不宣称全部光学/接触认证或任意薄壁能力。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-017",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "a7d2bd06ebf4dc2f3960e445774b9ff9ca6db443f2e53bd50baa166c5fcd1a46"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 119,
+          "article_id": "JKXFHBvvO5hPVDVOF6Cqhs",
+          "url": "/blog/color-matching-challenges-in-achieving-consistent-ralpantone-in-rubber",
+          "body_sha256": "fbe782a8262ed0ba9d10049427ea14a246a7405c279a156b9062342f427b3dd2",
+          "finding": "颜色配准被直接归为ISO3601验收，材料家族颜料优劣无色差测量；缺色样载体、光照、表面状态与容差。"
+        },
+        {
+          "source_index": 185,
+          "article_id": "article-compression-set-vmq-cure-system-long-term-static-sealing",
+          "url": "/blog/compression-set-vmq-cure-system-long-term-static-sealing",
+          "body_sha256": "247d2dd45a019e4d3b9513631e285386a728d0e0fd53310a345fa1fe28148cbf",
+          "finding": "主体RFQ和硫化因素可用，但把压缩永久变形定义为力损失，和98保力指标混淆；将其直接作长期可靠性代理仍需功能数据，/materials/vmq非新注册表目标。"
+        },
+        {
+          "source_index": 198,
+          "article_id": "article-post-curing-silicone-rubber-parts-volatile-control-compression-set",
+          "url": "/blog/post-curing-silicone-rubber-parts-volatile-control-compression-set",
+          "body_sha256": "9535aeae75ced7e6d34635dcd08a3ae7c4f3c87c9f981620e0b0bcd694f7d71e",
+          "finding": "主体给条件化后硫化讨论、装载/通风/批次与试验要求，没有固定周期保证；但压缩变形与保力仍混用，后硫化必然缩小批内差异和自有控制细节需资料支撑。"
+        },
+        {
+          "source_index": 200,
+          "article_id": "article-reinforced-transparent-silicone-clarity-tear-strength-molded-parts",
+          "url": "/blog/reinforced-transparent-silicone-clarity-tear-strength-molded-parts",
+          "body_sha256": "8ff35236ad008d84080ae7f9d8b960d79c2fa9b4191df73f0903db72aa78f8cb",
+          "finding": "主体确实提供透明/半透明外观、力学、几何和样件需求，没有具体未证实物性；“one of the harder”及实际控制细节仍需收敛，透明不等于已具光学等级能力。"
+        },
+        {
+          "source_index": 244,
+          "article_id": "article-sem-158",
+          "url": "/blog/sem-158-silicone-rubber-engineering-selection",
+          "body_sha256": "a87c067fe657b42964d821ee6c9cb7cdae2bd2c92b8695c18464323e58f30388",
+          "finding": "Silicone Rubber没有VMQ/LSR牌号、硫化、介质或样件资料，实际参数仍为FFKM。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        },
+        {
+          "source_index": 262,
+          "article_id": "article-sem-302",
+          "url": "/blog/sem-302-clear-rubber-engineering-selection",
+          "body_sha256": "523dcfb52ea04bd77d1690729576232f042f2349747f375fdfc5f8f79d011015",
+          "finding": "Clear Rubber没有基材、厚度或透明评价，FFKM高纯表与外观任务无对应。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-039"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-040",
+      "topic_title": "LSR and Solid Silicone: Questions for a Process Review",
+      "primary_keyword": "lsr vs silicone",
+      "buyer_job": "评估工艺适配",
+      "original_parent": "/materials/lsr",
+      "primary_owner_url": "/materials/lsr",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "LSR与固体硅胶是材料形态/工艺比较，LSR页内说明避免LSR-vs-silicone概念混淆。",
+      "required_content_updates": "补两种供料/加工路线需评审的几何、材料与批量条件，具体项目可用性另确认。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-018",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "c02385591cb28336e6dc0f94cbf968a080d1fe7fc2153bd39eee33b4c3e05f38"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 110,
+          "article_id": "JKXFHBvvO5hPVDVOF6Cjew",
+          "url": "/blog/overmolding-techniques-solving-adhesion-issues-between-lsr-and-thermoplastics",
+          "body_sha256": "e454461bc85a35ebbee579772e6eff7c03c66818258fe149d7d8a39e037c6a5d",
+          "finding": "LSR路线可以纳入讨论，但特定PC/PA包胶、底涂及2.5N/mm²接着无配方/基材报告，不能由LSR能力推全部包胶组合。"
+        },
+        {
+          "source_index": 139,
+          "article_id": "QeuV1LXZQHOxh8iFCMncbO",
+          "url": "/blog/liquid-silicone-rubber-lsr-tooling-why-initial-investment-pays-off-in-precision",
+          "body_sha256": "670cdd9f56bdd2ad4be4d68b6720729881750d857c97cb4b021324e3681f6d98",
+          "finding": "模具投资主题无模具/型腔/寿命/数量/报价依据，反而保证LSR耐油燃料酸和优于所有EPDM/NBR，不能支持经济性判断。"
+        },
+        {
+          "source_index": 244,
+          "article_id": "article-sem-158",
+          "url": "/blog/sem-158-silicone-rubber-engineering-selection",
+          "body_sha256": "a87c067fe657b42964d821ee6c9cb7cdae2bd2c92b8695c18464323e58f30388",
+          "finding": "Silicone Rubber没有VMQ/LSR牌号、硫化、介质或样件资料，实际参数仍为FFKM。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-040"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-041",
+      "topic_title": "Rubber Compound Supply: A Buyer Specification Checklist",
+      "primary_keyword": "rubber compounder",
+      "buyer_job": "准备胶料外供采购",
+      "original_parent": "/compounds",
+      "primary_owner_url": "/compounds",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "胶料外供有独立采购合同/接收工艺任务，使用已批准商业页面。",
+      "required_content_updates": "补聚合物/胶料识别、交付形式、接收工艺、数量、保密/责任和批次放行要求，不自动承诺库存或所有家族可供。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-025",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "1e9ee863a845d346ed84434ed873cdb119c6b221b8de2a4ea43e87783d6fdffe"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 234,
+          "article_id": "article-sem-126",
+          "url": "/blog/sem-126-bulk-o-ring-material-engineering-selection",
+          "body_sha256": "e0c49890835cefbd9e9e5c3dc5bef7e86eeaaf8332a2cb089297db9814e98d10",
+          "finding": "Bulk O-Ring Material未说明采购成品数量还是胶料，主体不能支持任一批量交付规格。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        },
+        {
+          "source_index": 270,
+          "article_id": "article-what-is-in-house-rubber-compounding",
+          "url": "/blog/what-is-in-house-rubber-compounding",
+          "body_sha256": "b4fb940332fdb7fcfda15cf78446e4dedf18690d147a73ed1539d929b3c3ac26",
+          "finding": "95/4/1%供应商分层、各地区比例、设备/实验室投资、5–10倍寿命和同行必失败无调研；自封L3单线/每批/同设备多年保证超出事实库。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-041",
+        "RQ-T-044"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-042",
+      "topic_title": "Rubber Compounding: From Application Conditions to Batch Release",
+      "primary_keyword": "rubber compounding",
+      "buyer_job": "了解配方与批次控制",
+      "original_parent": "/compounding",
+      "primary_owner_url": "/compounding",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "混炼与配方支持是能力主页面，已有同义文章需统一分工。",
+      "required_content_updates": "保留确认的配方/计量/混炼/检测与ERP事实，不填单线、固定排产、设备精度、每批全套或研发时效。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-024",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "edacf951b346170bcbb87bfaaa049269ed511ee12a1b3b088366cd66cd0ab056"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 14,
+          "article_id": "Iht31guWKGVyy0fDUhwo2m",
+          "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
+          "body_sha256": "a6a232a4f80f7f13c806341b1f644b19199400d32044356bb0e799fd861210ff",
+          "finding": "出现自有HNBR-X7、62%改进、22.4MPa及清洁等级，无试验报告；并未回答客户如何提出非标需求。"
+        },
+        {
+          "source_index": 51,
+          "article_id": "Iht31guWKGVyy0fDUhxZD0",
+          "url": "/blog/vulcanization-kinetics-how-cure-speed-impacts-batch-to-batch-consistency",
+          "body_sha256": "b61575fa1456327b6a2c4d7c95075f7e471bd73d2cf525fce6b38a2fac164bf5",
+          "finding": "自有过氧化物配方、硫化时间±5%、每2小时试验与烘箱±2°C均无记录；未说明批次曲线怎样形成验收。"
+        },
+        {
+          "source_index": 64,
+          "article_id": "Iht31guWKGVyy0fDUhxalL",
+          "url": "/blog/automatic-weighing-systems-eliminating-human-error-in-chemical-compounding",
+          "body_sha256": "09783cffc0c7988fcd6e792bcfbaca690fee63acd8f79eb477796524c4c4108d",
+          "finding": "自动计量被写成消灭人为错误，99.9%一致性和±0.1%精度及设备存在性没有记录，材料物性与称重方式错误绑定。"
+        },
+        {
+          "source_index": 66,
+          "article_id": "JKXFHBvvO5hPVDVOF65fhp",
+          "url": "/blog/a-batch-mixing-how-rubberqs-internal-compound-development-ensures-material-purit",
+          "body_sha256": "d4228e1234010a43315bba4ea271eedcbd51e38bbee6f2eb450ed97a1322b500",
+          "finding": "把A炼写成消灭污染并给99.7%纯度、Class5清洁与自有FKM冷却液数据，无配方/报告；与第129/268等主题可能重叠。"
+        },
+        {
+          "source_index": 129,
+          "article_id": "JKXFHBvvO5hPVDVOF6Cxb6",
+          "url": "/blog/a-batch-mixing-in-house-the-secret-to-high-precision-rubber-quality",
+          "body_sha256": "e6fc69d71a251d0f31d0a4214c2bd413ec2eba7a135203d6071a69cc60dc2deb",
+          "finding": "自有混炼已确认，但双螺杆/85±1°C、±0.8硬度、12%压缩与Cpk1.67没有记录；以未证实案例贬低所有商业胶料，与源索引66高度交叉。"
+        },
+        {
+          "source_index": 166,
+          "article_id": "QeuV1LXZQHOxh8iFCMnljO",
+          "url": "/blog/material-development-from-concept-to-custom-formulation-in-14-days",
+          "body_sha256": "48e04099b04abc3aa69a1779a208b8d1240e1a500add6054b50c5045ee6af6f6",
+          "finding": "标题承诺14天从概念到配方，正文没有计划或交期依据；高温EV冷却任务、通用性能和零脱胶仍无报告，与14定制开发稿重叠。"
+        },
+        {
+          "source_index": 183,
+          "article_id": "article-compound-chemistry-vs-molder-ev-thermal-energy-storage-seals",
+          "url": "/blog/compound-chemistry-vs-molder-ev-thermal-energy-storage-seals",
+          "body_sha256": "d16b43e74ffe19a6124575c4b51910533aaf188b9a8feb70d8a7881581151106",
+          "finding": "未经证实第一手失效经验、5年20–30点差、EV统一130–160°C持续8–15年、L1/L2/L3层级及仅某类厂能给10年寿命均缺依据；单线设备/排产消除污染和每批测试也未证实。"
+        },
+        {
+          "source_index": 268,
+          "article_id": "article-single-line-mixing-semiconductor-ffkm-contamination",
+          "url": "/blog/single-line-mixing-semiconductor-ffkm-contamination",
+          "body_sha256": "b08372256a57b02e887f9504adfdef86cf69ad29ff7f07120265db7870b72288",
+          "finding": "单线作为全球合格基线、具体周排产/拆机超声/报废试炼、FTIR/RGA可用和每批全套测试未证实；4/6检查即合格及2–3周候选保证无依据。"
+        },
+        {
+          "source_index": 270,
+          "article_id": "article-what-is-in-house-rubber-compounding",
+          "url": "/blog/what-is-in-house-rubber-compounding",
+          "body_sha256": "b4fb940332fdb7fcfda15cf78446e4dedf18690d147a73ed1539d929b3c3ac26",
+          "finding": "95/4/1%供应商分层、各地区比例、设备/实验室投资、5–10倍寿命和同行必失败无调研；自封L3单线/每批/同设备多年保证超出事实库。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-042"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-043",
+      "topic_title": "Compound Trial Plan: Validate Material in the Receiving Process",
+      "primary_keyword": "custom rubber compounds",
+      "buyer_job": "外供试料验证",
+      "original_parent": "/compounds",
+      "primary_owner_url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
+      "owner_kind": "existing_article",
+      "decision": "ASSIGNED",
+      "decision_basis": "试料开发有已有完整本地稿，可独立说明需求、样件和接收过程验证。",
+      "required_content_updates": "落实现有开发稿，并明确外供试料在客户接收/成型过程的评价输入，不能由实验室合格自动推客户工艺通过。",
+      "owner_source": {
+        "kind": "saved_article",
+        "source_index": 14,
+        "article_id": "Iht31guWKGVyy0fDUhwo2m",
+        "revision": "yy3AgfhEInbCSF63Vxvki5",
+        "body_sha256": "a6a232a4f80f7f13c806341b1f644b19199400d32044356bb0e799fd861210ff"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 14,
+          "article_id": "Iht31guWKGVyy0fDUhwo2m",
+          "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
+          "body_sha256": "a6a232a4f80f7f13c806341b1f644b19199400d32044356bb0e799fd861210ff",
+          "finding": "出现自有HNBR-X7、62%改进、22.4MPa及清洁等级，无试验报告；并未回答客户如何提出非标需求。"
+        },
+        {
+          "source_index": 130,
+          "article_id": "JKXFHBvvO5hPVDVOF6CySV",
+          "url": "/blog/prototyping-services-fast-track-sampling-for-engineering-validation",
+          "body_sha256": "c80484ed34915ba169499924d264bbaabaecd93f2b655c2991e9dbc803875d89",
+          "finding": "样件服务主题没有样件目标、模具和验收安排，反而给未确认FKM70牌号、±2%硫化和全样件ClassA表面保证。"
+        },
+        {
+          "source_index": 166,
+          "article_id": "QeuV1LXZQHOxh8iFCMnljO",
+          "url": "/blog/material-development-from-concept-to-custom-formulation-in-14-days",
+          "body_sha256": "48e04099b04abc3aa69a1779a208b8d1240e1a500add6054b50c5045ee6af6f6",
+          "finding": "标题承诺14天从概念到配方，正文没有计划或交期依据；高温EV冷却任务、通用性能和零脱胶仍无报告，与14定制开发稿重叠。"
+        },
+        {
+          "source_index": 193,
+          "article_id": "article-hnbr-vs-fkm-ev-thermal-management-compound-guide",
+          "url": "/blog/hnbr-vs-fkm-ev-thermal-management-compound-guide",
+          "body_sha256": "823ae6a542fa34ef23fb92dd691ad7a6f87dc16a1951dd1156c4b8b89531a9e5",
+          "finding": "HNBR作所有乙二醇默认、FKM广泛适配浸没液/制冷剂、温区和实测比较无具体牌号报告；成本倍数前后不一；4–8/12–24周开发与2–3周候选交付均未确认。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "local_draft_prepared_final_review_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-043"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-044",
+      "topic_title": "Rubber Compound Storage and Handling: Questions for the Supplier",
+      "primary_keyword": "rubber compound storage",
+      "buyer_job": "确认储运和保质条件",
+      "original_parent": "/compounds",
+      "primary_owner_url": "/compounds",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "未硫化胶料的储存/使用与成品密封储存不同，应在外供页单独约定。",
+      "required_content_updates": "补交付形态、批次/日期、开包与使用条件及供应商材料专用说明，不将ISO2230成品规则直接套给胶料。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-025",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "1e9ee863a845d346ed84434ed873cdb119c6b221b8de2a4ea43e87783d6fdffe"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 118,
+          "article_id": "JKXFHBvvO5hPVDVOF6CpDd",
+          "url": "/blog/shelf-life-standards-analyzing-din-7716-and-iso-2230-for-rubber-storage",
+          "body_sha256": "64cd16767598243f0aa8bca5ccd0855b4ac876785e737c983a0ecf512e04ee48",
+          "finding": "两标准温湿度/臭氧/寿命表未给版次条款，工厂15±3°C/50±5%RH/活性炭仓与60个月物性数据无记录；复验不能自动证明延长货架寿命。"
+        },
+        {
+          "source_index": 156,
+          "article_id": "QeuV1LXZQHOxh8iFCMnkDO",
+          "url": "/blog/shelf-life-of-rubber-parts-how-to-store-seals-to-prevent-ozone-cracking",
+          "body_sha256": "a506f777f4edac8f245b50d614dcd8d4e24eb5d34a629b28d7132ea32245e1e5",
+          "finding": "将EPDM低臭氧耐受和HNBR高含氟写成材料结论，与手册材料说明不符；储存期限没有具体胶料和包装/验收资料。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-041",
+        "RQ-T-044"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-045",
+      "topic_title": "Reading a Rubber Compound Test Report",
+      "primary_keyword": "rubber compound testing",
+      "buyer_job": "评估批次报告",
+      "original_parent": "/compounds",
+      "primary_owner_url": "/testing",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "报告解读跨材料/供货形式，归共同测试页而非重复外供文章。",
+      "required_content_updates": "补胶料/样品/方法版次、调节/温度/时间、单位、结果与判据，区分实测、典型值和限值。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-026",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "5a39f9e705923e96fd8e511be630c42cfd141ae1fe5a6033667c055e595c6ba2"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 56,
+          "article_id": "Iht31guWKGVyy0fDUhxZvB",
+          "url": "/blog/calibration-of-lab-equipment-how-rubberq-ensures-test-result-accuracy",
+          "body_sha256": "8be2416dea75b7108f2133463a6a0e024120a7b748f029247793b90646d765c3",
+          "finding": "校准主题仍以材料性能表为主，并列所有设备季度校准/NIST追溯和量测精度，无校准证书或设备标识。"
+        },
+        {
+          "source_index": 89,
+          "article_id": "JKXFHBvvO5hPVDVOF65tsY",
+          "url": "/blog/measurement-system-analysis-msa-ensuring-gage-rr-in-rubber-testing",
+          "body_sha256": "d1f9183ad6b3a51d97f4deac3ad1b97a73a65e5a8fb4946ad0adbc5c64dcac6c",
+          "finding": "GageR&R≤10%、0.1Shore设备、500次校准及3°C对应1Shore均无记录，材料性能表不能说明量测系统，标准精确加载速度亦缺条款。"
+        },
+        {
+          "source_index": 180,
+          "article_id": "QeuV1LXZQHOxh8iFCMqLRO",
+          "url": "/blog/in-house-lab-capabilities-from-rheometers-to-tensile-testing-machines",
+          "body_sha256": "3d2049fc055fb822265325a4c4a0753aa4343841b446216342bdd41b6e389e96",
+          "finding": "工厂体系被写成实验室专门认证，FTIR/DSC/每日校准与HNBR3.2%冷却液数据无记录；试验机主题没有设备范围、样件与方法证据。"
+        },
+        {
+          "source_index": 182,
+          "article_id": "article-batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+          "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+          "body_sha256": "7dc1224602e4eb4d1d839f7f2ac8872304efe52c76ed1ea79d2f4d31789f7297",
+          "finding": "全文确实解释原料/配方/过程/检验/出货关联并给买方问题，符合已确认ERP与自有制造链；“fewer use it well”等同行概括无来源，具体记录可提供性仍需项目确认。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-045",
+        "RQ-T-058",
+        "RQ-T-060"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-046",
+      "topic_title": "Shore A Hardness: How to Write a Useful Specification",
+      "primary_keyword": "shore a hardness",
+      "buyer_job": "制定硬度验收",
+      "original_parent": "/resources/rubber-hardness-guide",
+      "primary_owner_url": "/resources/rubber-hardness-guide",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "ShoreA要求是硬度资源主任务。",
+      "required_content_updates": "补标尺/方法、试样厚度/形状、调节与测量时点，不填所有件统一硬度公差或未验证设备精度。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-039",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "124aa2b96b00897e4807341fec053e48fee072aa79ddce02cc97f8cfaed92cc9"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 89,
+          "article_id": "JKXFHBvvO5hPVDVOF65tsY",
+          "url": "/blog/measurement-system-analysis-msa-ensuring-gage-rr-in-rubber-testing",
+          "body_sha256": "d1f9183ad6b3a51d97f4deac3ad1b97a73a65e5a8fb4946ad0adbc5c64dcac6c",
+          "finding": "GageR&R≤10%、0.1Shore设备、500次校准及3°C对应1Shore均无记录，材料性能表不能说明量测系统，标准精确加载速度亦缺条款。"
+        },
+        {
+          "source_index": 109,
+          "article_id": "JKXFHBvvO5hPVDVOF6CjLW",
+          "url": "/blog/hardness-measurement-shore-a-vs-shore-d-when-to-switch",
+          "body_sha256": "e9edac3dbd708c089371a3adc8b573d56ff5827129f4df46c2d0df6481a12f70",
+          "finding": "ShoreA/D等值和60phr即转标尺等通用断言无依据，ISO3601被写成硬度公差标准，周校准与±2/3Shore均未有记录。"
+        },
+        {
+          "source_index": 214,
+          "article_id": "article-sem-023",
+          "url": "/blog/sem-023-viton-o-ring-hardness-engineering-selection",
+          "body_sha256": "81f5508a9aa77c9f07682458586d2d2e5eefcfc08e573898211b184e7f3d2d80",
+          "finding": "硬度主题仅套FFKM/FKM半导体模板及75±3，没有标尺、试样条件或具体品牌牌号；自有lot验证措辞不能证明原厂品牌/性能。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-046",
+        "RQ-T-047"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-047",
+      "topic_title": "Durometer Charts: What They Do and Do Not Compare",
+      "primary_keyword": "durometer chart",
+      "buyer_job": "避免换算替代实测",
+      "original_parent": "/resources/rubber-hardness-guide",
+      "primary_owner_url": "/resources/rubber-hardness-guide",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "图表与换算限制属于同一硬度说明，不再另开durometer同义页。",
+      "required_content_updates": "补不同标尺不能代替规定方法实测的说明，具体换算数据需可靠来源，不生造通用A/D对应表。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-039",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "124aa2b96b00897e4807341fec053e48fee072aa79ddce02cc97f8cfaed92cc9"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 109,
+          "article_id": "JKXFHBvvO5hPVDVOF6CjLW",
+          "url": "/blog/hardness-measurement-shore-a-vs-shore-d-when-to-switch",
+          "body_sha256": "e9edac3dbd708c089371a3adc8b573d56ff5827129f4df46c2d0df6481a12f70",
+          "finding": "ShoreA/D等值和60phr即转标尺等通用断言无依据，ISO3601被写成硬度公差标准，周校准与±2/3Shore均未有记录。"
+        },
+        {
+          "source_index": 214,
+          "article_id": "article-sem-023",
+          "url": "/blog/sem-023-viton-o-ring-hardness-engineering-selection",
+          "body_sha256": "81f5508a9aa77c9f07682458586d2d2e5eefcfc08e573898211b184e7f3d2d80",
+          "finding": "硬度主题仅套FFKM/FKM半导体模板及75±3，没有标尺、试样条件或具体品牌牌号；自有lot验证措辞不能证明原厂品牌/性能。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-046",
+        "RQ-T-047"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-048",
+      "topic_title": "Rubber Chemical Compatibility: Define the Exposure First",
+      "primary_keyword": "chemical compatibility chart",
+      "buyer_job": "准备介质兼容性数据",
+      "original_parent": "/resources/material-compatibility",
+      "primary_owner_url": "/resources/material-compatibility",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "完整暴露与试验对照是兼容性资源主任务。",
+      "required_content_updates": "补混合物、浓度、添加剂/清洗、温压/时间、试样及物性/功能变化；不做所有化学品泛绿灯图表。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-040",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "0d3bad7e068989b186142ff5ff84db7bc7e1cfb0de08c8ccb38dfd0ab2d8ed4f"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 10,
+          "article_id": "Iht31guWKGVyy0fDUhwngQ",
+          "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+          "body_sha256": "2e8bb4382acd0adb08004d427961b910552ff9efa24d3efefb40cae469b0f951",
+          "finding": "材料表把固定油胀与成本倍数当标准结果；ISO3601被写成流体适配等级；每30分钟及首末件100%拉伸测试缺记录。"
+        },
+        {
+          "source_index": 108,
+          "article_id": "JKXFHBvvO5hPVDVOF6Cidp",
+          "url": "/blog/chemical-resistance-chart-a-guide-to-polar-vs-non-polar-solvents",
+          "body_sha256": "1b185cd9ad5d33d8bdbb02efb5d6f31aa25f91152f3aea9ff38593cc589b065e",
+          "finding": "极性/非极性被写成可一概判断的化学等级，表内EPDM结论与前文相反；FKM全部极性溶剂优秀无具体试验。"
+        },
+        {
+          "source_index": 123,
+          "article_id": "JKXFHBvvO5hPVDVOF6Cv0t",
+          "url": "/blog/fluid-contamination-how-leaching-rubber-chemicals-impact-sensors",
+          "body_sha256": "16c587dcf37dedac12cf9637d2281abadf192fa0e221a587dfc773a307227684",
+          "finding": "无证据的ATF传感器案例、FTIR结果和9.2/0.3%提取数据；称过氧化物FKM无可提取物，具体标准与量测对应亦未核实。"
+        },
+        {
+          "source_index": 178,
+          "article_id": "QeuV1LXZQHOxh8iFCMqJ5O",
+          "url": "/blog/chemical-swelling-how-to-predict-seal-life-in-unknown-fluid-mixtures",
+          "body_sha256": "85aed876e61eb0eff135741b40d22f3e7983486dfc9061f0510b2d9efe7c7851",
+          "finding": "未识别混合液即推荐FKM，标题寿命预测但全文没有成分、浓度、实际暴露或寿命模型；通用家族物性不足以做未知液适配判断。"
+        },
+        {
+          "source_index": 240,
+          "article_id": "article-sem-151",
+          "url": "/blog/sem-151-chemical-resistant-o-rings-engineering-selection",
+          "body_sha256": "0561b4f10b235b4fee8c6feeaad9bdc4d420180d3d6355a867fb0d6afa5d5514",
+          "finding": "Chemical Resistant词没有化学品、浓度、混合物、温度或实际配方，套FFKM家族即可选材的暗示不成立。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        },
+        {
+          "source_index": 253,
+          "article_id": "article-sem-236",
+          "url": "/blog/sem-236-gasoline-resistant-rubber-engineering-selection",
+          "body_sha256": "f74f1c227fed3028c016f1b4566f4201645f2354f915fc59ef5efc389178abc3",
+          "finding": "Gasoline Resistant未写完整燃料、添加组分、温度、时间或具体配方，模板高纯指标不能证明燃料适用。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        },
+        {
+          "source_index": 265,
+          "article_id": "article-sem-319",
+          "url": "/blog/sem-319-viton-o-rings-compatibility-engineering-selection",
+          "body_sha256": "3897225301e793698f836042b02122f63b32a13cda91f2c33cf10bed7c85a604",
+          "finding": "Viton Compatibility没有化学品、浓度、温度、配方或原厂数据，模板不能证明泛化相容性。 完整HTML严格仅四处主题词不同，其余FFKM/FKM晶圆场景、325°C、金属<5ppb、Class5与100%可靠性/视觉承诺均与209相同，未有对应工程报告。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-030",
+        "RQ-T-048"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-049",
+      "topic_title": "Seal Failure Review: Preserve the Part and Operating History",
+      "primary_keyword": "rubber seal failure",
+      "buyer_job": "组织失效调查",
+      "original_parent": "/resources/seal-failure-analysis",
+      "primary_owner_url": "/resources/seal-failure-analysis",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "失效证据保留与原因分流是工程资源主任务。",
+      "required_content_updates": "补安装/介质/机械/温度记录和未用对照样件，链接具体裂纹、挤出、压缩和接着调查，不杜撰根因或案例。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-041",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "28162e5cf147ed5ac5acbe7b7dbaf7af3c8e42701e365310a33ab5092fc2293f"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 58,
+          "article_id": "Iht31guWKGVyy0fDUhxa0V",
+          "url": "/blog/installation-damage-preventing-nicks-and-cuts-during-assembly",
+          "body_sha256": "80a69c38a57204b573f9a73fcfb0d238df1458752dc86f63fa4759e7c981a7d9",
+          "finding": "划伤主题没有导入倒角、锐边、工具、润滑与安装伸长的检查项，只把材料排名和含氟量当抗切伤结论。"
+        },
+        {
+          "source_index": 62,
+          "article_id": "Iht31guWKGVyy0fDUhxaVN",
+          "url": "/blog/tensile-failure-analyzing-break-points-in-high-stretch-applications",
+          "body_sha256": "a5d61fad53d036240d70afda04a2b722affe0087e7b5046dbe6879272b1be7a6",
+          "finding": "标题要分析断点，但正文把HNBR500%伸长当解决方案，没有缺口、装配变形或断口证据。"
+        },
+        {
+          "source_index": 67,
+          "article_id": "JKXFHBvvO5hPVDVOF65hou",
+          "url": "/blog/plasticizer-migration-why-your-rubber-parts-become-brittle-over-time",
+          "body_sha256": "250b3dd184e5ee6d702ca82a9c084ee115e69269231089eadf86240aff43a2b9",
+          "finding": "有明确脆化任务但直接将FKM作为通解，正文多数为物性表，缺接触介质、储存史和对照。"
+        },
+        {
+          "source_index": 90,
+          "article_id": "JKXFHBvvO5hPVDVOF65utf",
+          "url": "/blog/why-do-o-rings-fail-analyzing-spiral-failure-and-explosive-decompression",
+          "body_sha256": "69ea2db20a9aa8b9401e841ddfe5b2f3f704b39fe4508f451ef5fb9b6b453572",
+          "finding": "把FKM写成不会发生减压损伤并给未验证ISO23936等级、扭转模量和吸气降幅；未围绕实际运动、沟槽和减压历史调查。"
+        },
+        {
+          "source_index": 92,
+          "article_id": "JKXFHBvvO5hPVDVOF65wEC",
+          "url": "/blog/surface-blooming-is-that-white-powder-on-your-rubber-part-a-defect",
+          "body_sha256": "f4259df94de53032581a18055dc2b1afdd777de74d3ce729d04cfa80a29463e3",
+          "finding": "把白粉直接归因硫黄/硬脂酸并推断过氧化物配方零喷霜，自有700/600牌号、D2000喷霜等级和每批72小时出货检测缺依据。"
+        },
+        {
+          "source_index": 98,
+          "article_id": "JKXFHBvvO5hPVDVOF660gv",
+          "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+          "body_sha256": "7d09409ff7f7924397f6312fc7392ed97908f7653b2ee428b102776da5d6fef2",
+          "finding": "无佐证的EV冷却液压案例与SEM根因，FKM70的85%保力、±1%含氟量和t90±3秒均无报告；释义有用但不能由材料表或压缩变形推保力。"
+        },
+        {
+          "source_index": 100,
+          "article_id": "JKXFHBvvO5hPVDVOF661TT",
+          "url": "/blog/permeation-vs-leakage-understanding-the-difference-in-gas-systems",
+          "body_sha256": "2d87586226ee7eecf5751bd0362aa30a195bc5a71e72f4ff8a0e30e1b14f441c",
+          "finding": "开头区分任务有用，但0.05/0.50/0.80透过率没写气体、温度、样件或报告；含氟量被等同全部气体低透过。"
+        },
+        {
+          "source_index": 157,
+          "article_id": "QeuV1LXZQHOxh8iFCMnkLO",
+          "url": "/blog/compression-set-failure-why-your-seal-lost-its-bounce",
+          "body_sha256": "34feb7f30a00512dfd9157bfeb40cd8624ad607f6860fd6ba0c8a55db41bcc51",
+          "finding": "液压案例、85/28%压缩值、22%交联提升及ISO3601流体A+等级无报告；固定ACN不能证明指定失效根因。"
+        },
+        {
+          "source_index": 158,
+          "article_id": "QeuV1LXZQHOxh8iFCMnkTO",
+          "url": "/blog/extrusion-damage-solving-o-ring-gaps-in-high-pressure-systems",
+          "body_sha256": "e80b611af360e2a31d8fe96e831efe235c4be6088016316019bdd3dbb0b3648d",
+          "finding": "自有789X、胶种35/25/30MPa抗挤出及成本/膨胀值无结构和报告；未给间隙、支承、压力循环或温度尺寸变化。"
+        },
+        {
+          "source_index": 159,
+          "article_id": "QeuV1LXZQHOxh8iFCMnkbO",
+          "url": "/blog/glass-transition-temperature-tg-when-rubber-becomes-brittle-as-glass",
+          "body_sha256": "fb3e82167e26fdb73b56114a55c00fc2b02910aa19a43a76b6e0b0cd1a19aacc",
+          "finding": "开头将120°C开裂归因Tg，随后列EPDM Tg-50至-40°C，叙述自相矛盾且案例无原始记录；FKM材料排名不能解释该根因。"
+        },
+        {
+          "source_index": 161,
+          "article_id": "QeuV1LXZQHOxh8iFCMnkvO",
+          "url": "/blog/ozone-cracking-identifying-environmental-stress-vs-chemical-attack",
+          "body_sha256": "0ff5a0fbbfe2fc1114fe77fcb1ac7cbf6ac90ca67a0745a92cb850c2bb8904ea",
+          "finding": "EPDM臭氧口径与156相反，说明全站需要统一；正文虽有机制简介，但未给裂纹方向、受拉、暴露及对照，通用物性表未回答鉴别任务。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-049"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-050",
+      "topic_title": "ASTM D2000 Callouts: Prepare a Material Review Request",
+      "primary_keyword": "astm d2000",
+      "buyer_job": "理解材料代号",
+      "original_parent": "/standards",
+      "primary_owner_url": "/standards",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "材料代号与完整规格请求属于标准资源。",
+      "required_content_updates": "补完整callout/版次/后缀与客户特殊要求，区分材料分类、尺寸和产品批准，不从公开摘要杜撰限值。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-037",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "30a25e309ef4385c45d43f79b9aa47996e8064bdd33183d146f6ee7d9ebbd307"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 83,
+          "article_id": "JKXFHBvvO5hPVDVOF65r3m",
+          "url": "/blog/iso-3601-3-visual-inspection-standards-for-o-rings-what-is-acceptable",
+          "body_sha256": "e1ed8e6a7edb0062bf7c7c9d70bef72b067409d5d0b78a694a86ef25f0c19e66",
+          "finding": "23%失效占比及0.25mm飞边/0.5mm孔洞等通用阈值没有版本、等级或表格依据；又把材料牌号A/B/C和标准等级混在一起，并宣称100%检查及QR证明。"
+        },
+        {
+          "source_index": 151,
+          "article_id": "QeuV1LXZQHOxh8iFCMnfxO",
+          "url": "/blog/ppap-level-3-why-documentation-is-as-important-as-the-part-itself",
+          "body_sha256": "dab65183f9686538ab59473ebfced8a43ab65d65463767041b49127878da6723",
+          "finding": "PPAP3主题没有逐项资料/客户要求/提交安排，仍是FKM推荐物性表；所有模压件清洁报告和全套Level3被写成既有普遍能力，缺对应项目包。"
+        },
+        {
+          "source_index": 174,
+          "article_id": "QeuV1LXZQHOxh8iFCMqHnO",
+          "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+          "body_sha256": "d966107665c70a35cd4713b0497318aa22edfc31962b1915d602d14709f155a0",
+          "finding": "标题承诺规格解释，但没有识别callout各段或客户附加要求，仅重复FKM/HNBR/EPDM物性；称与ISO3601兼容无法证明成品适用。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-050"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-051",
+      "topic_title": "Rubber Sample Approval: A Buyer Checklist",
+      "primary_keyword": "rubber sample approval",
+      "buyer_job": "形成样品验收表",
+      "original_parent": "/sample-request",
+      "primary_owner_url": "/sample-request",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "样件申请与验收标准在同一转换入口最清楚。",
+      "required_content_updates": "补图纸版本、样件身份、数量、材料/功能检查、评价责任及后续批准；保留未知数量空值，不承诺免费/固定交付。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-045",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "951af20122c2c7eb3170370618abba1631baf03c55f284e9b1bddf3de58d8916"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 14,
+          "article_id": "Iht31guWKGVyy0fDUhwo2m",
+          "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
+          "body_sha256": "a6a232a4f80f7f13c806341b1f644b19199400d32044356bb0e799fd861210ff",
+          "finding": "出现自有HNBR-X7、62%改进、22.4MPa及清洁等级，无试验报告；并未回答客户如何提出非标需求。"
+        },
+        {
+          "source_index": 130,
+          "article_id": "JKXFHBvvO5hPVDVOF6CySV",
+          "url": "/blog/prototyping-services-fast-track-sampling-for-engineering-validation",
+          "body_sha256": "c80484ed34915ba169499924d264bbaabaecd93f2b655c2991e9dbc803875d89",
+          "finding": "样件服务主题没有样件目标、模具和验收安排，反而给未确认FKM70牌号、±2%硫化和全样件ClassA表面保证。"
+        },
+        {
+          "source_index": 199,
+          "article_id": "article-ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+          "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+          "body_sha256": "57b719c3d8a725a44d9cc968bf52106b0aebfcdaa97bbdb855bff9fe457e54fc",
+          "finding": "全文确实提供资料、风险/客户要求、具体胶料和样件评价，未将所有订单写成同一级别；“structured way to prove”及自有完整包能力仍需收敛到具体项目。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-051"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-052",
+      "topic_title": "Rubber Supplier Evaluation: Factory, Testing and Traceability",
+      "primary_keyword": "rubber supplier audit",
+      "buyer_job": "评估制造商可信度",
+      "original_parent": "/quality",
+      "primary_owner_url": "/quality",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "供应商信任/评估主任务由质量页面承接，工厂和方法文章支撑。",
+      "required_content_updates": "补证书/范围、记录/批次、量测、变更及问题闭环的索取清单，不把体系当每个零件通过。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-027",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "0f47abbecfcafbfdb80a67a9c8d38e9199b7be42b219c22ed93413572b8c6add"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 182,
+          "article_id": "article-batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+          "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+          "body_sha256": "7dc1224602e4eb4d1d839f7f2ac8872304efe52c76ed1ea79d2f4d31789f7297",
+          "finding": "全文确实解释原料/配方/过程/检验/出货关联并给买方问题，符合已确认ERP与自有制造链；“fewer use it well”等同行概括无来源，具体记录可提供性仍需项目确认。"
+        },
+        {
+          "source_index": 184,
+          "article_id": "article-compound-traceability-ppap-10-year-reproducibility",
+          "url": "/blog/compound-traceability-ppap-10-year-reproducibility",
+          "body_sha256": "202bee3d6f30d408c9910428c7e02ecb817ca6ea1c9f04507a3a008658893649",
+          "finding": "追溯主题完整但将十年同机同人同配方、1995以来未改设备、5年实物留样和15–25年工龄写为现有事实；L1/L3费用15–30%与100–1000倍损失无来源。"
+        },
+        {
+          "source_index": 195,
+          "article_id": "article-iatf-16949-quality-discipline-precision-rubber-parts",
+          "url": "/blog/iatf-16949-quality-discipline-precision-rubber-parts",
+          "body_sha256": "d0f08fd75e025819c5cd05ac574186dd04a0a85aa322374c189280e1cd28d99c",
+          "finding": "主体明确区分体系与产品并提出过程/批次/变更/纠正问题，符合事实库；“Our current public positioning”是内部表述，同行首批/低价比较及抽象改善结果需收敛。"
+        },
+        {
+          "source_index": 199,
+          "article_id": "article-ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+          "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+          "body_sha256": "57b719c3d8a725a44d9cc968bf52106b0aebfcdaa97bbdb855bff9fe457e54fc",
+          "finding": "全文确实提供资料、风险/客户要求、具体胶料和样件评价，未将所有订单写成同一级别；“structured way to prove”及自有完整包能力仍需收敛到具体项目。"
+        },
+        {
+          "source_index": 269,
+          "article_id": "article-spc-rubber-molding-cpk-zero-defect",
+          "url": "/blog/spc-in-rubber-molding-how-cpk-167-delivers-zero-defect-batches",
+          "body_sha256": "0895996fbb983dc4afb7dfbf782bd0346cd1dbf4bd13892a63e5fb4878a3814e",
+          "finding": "将Cpk1.67推成零缺陷和通用OEM标准，漏掉稳定性/分布/量测与样本条件；5–15%漏检、1.5万模次零不合格案例和全产品同目标无原始记录。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-052"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-053",
+      "topic_title": "Semiconductor Seal RFQ: Process and Cleanliness Inputs",
+      "primary_keyword": "semiconductor seals",
+      "buyer_job": "准备设备密封评估",
+      "original_parent": "/industries/semiconductor",
+      "primary_owner_url": "/industries/semiconductor",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "行业页承担半导体项目评估与转化，材料细分由FFKM和工程文章支撑。",
+      "required_content_updates": "补位置、工艺化学、温度/真空、污染判据、原图纸及样件批准，不宣传未确认洁净等级或批次性能。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-030",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "604f0e5f44344db852e42354741d1add6b2a54de4f16340c5f9a276d9ef81298"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 111,
+          "article_id": "JKXFHBvvO5hPVDVOF6CmOr",
+          "url": "/blog/semiconductor-etching-equipment-high-purity-ffkm-seals-for-plasma-resistance",
+          "body_sha256": "dd131306f7a552f3c6efa5c007a30a2900c6521548697412880ac4f639d5ed62",
+          "finding": "未确认FFKM7000牌号，刻蚀率<0.1µm/h、TML0.05%、500小时失重0.3%及ISO3601高纯A/C/D无报告；通用键能不能证明指定等离子免降解。"
+        },
+        {
+          "source_index": 205,
+          "article_id": "article-sem-001",
+          "url": "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+          "body_sha256": "cbf6d4a38709efeb6be24420ab64b3dfa5a8bd1b99c4f27787ce2dcc923e9444",
+          "finding": "自有FFKM8100侵蚀0.018对FKM0.450图表无原始报告/等离子条件，300°C真空24小时去尽挥发物、零释气/每批AOI/CMM未证实。"
+        },
+        {
+          "source_index": 206,
+          "article_id": "article-sem-002",
+          "url": "/blog/cleanroom-degassing-low-outgassing-rubber-seals-lithography",
+          "body_sha256": "cbf6d4a38709efeb6be24420ab64b3dfa5a8bd1b99c4f27787ce2dcc923e9444",
+          "finding": "与205完整正文严格相同，标题Class5洁净/光刻但只给等离子侵蚀图和无证据零释气后处理，没有光刻条件/洁净设施或释气报告。"
+        },
+        {
+          "source_index": 207,
+          "article_id": "article-sem-003",
+          "url": "/blog/ultra-low-metal-ion-contamination-ffkm-seals-wafer-processing",
+          "body_sha256": "cbf6d4a38709efeb6be24420ab64b3dfa5a8bd1b99c4f27787ce2dcc923e9444",
+          "finding": "标题超低金属离子300mm晶圆，完整正文与205同文，图为侵蚀失重，没有提取条件、分析元素、检出限或样件报告。"
+        },
+        {
+          "source_index": 267,
+          "article_id": "article-semiconductor-ffkm-seals-plasma-wafer-processing",
+          "url": "/blog/semiconductor-wafer-processing-ultra-clean-ffkm-seals-for-plasma-environments",
+          "body_sha256": "bcd10c623abc7a704a1f07ad73cddb36139dc4b618e28fe7771d62cc73b82341",
+          "finding": "把FFKM近乎普遍耐化学/低释气写成家族事实，匿名三等级温区/成本表、统一压缩率和表面粗糙度无工程依据；汽车级首位与项目定位不符，体系不证明半导体就绪。"
+        },
+        {
+          "source_index": 268,
+          "article_id": "article-single-line-mixing-semiconductor-ffkm-contamination",
+          "url": "/blog/single-line-mixing-semiconductor-ffkm-contamination",
+          "body_sha256": "b08372256a57b02e887f9504adfdef86cf69ad29ff7f07120265db7870b72288",
+          "finding": "单线作为全球合格基线、具体周排产/拆机超声/报废试炼、FTIR/RGA可用和每批全套测试未证实；4/6检查即合格及2–3周候选保证无依据。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-053",
+        "RQ-T-054"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-054",
+      "topic_title": "Vacuum Chamber Seals: Geometry, Temperature and Media",
+      "primary_keyword": "vacuum chamber seals",
+      "buyer_job": "确认真空腔密封工况",
+      "original_parent": "/industries/semiconductor",
+      "primary_owner_url": "/industries/semiconductor",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "真空腔体几何/工况是半导体评估的一章，释气数据解读另归82。",
+      "required_content_updates": "补压力/抽放、接口/沟槽、热历程、装配、透过/释气与清洗条件，不给通用真空/寿命资格。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-030",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "604f0e5f44344db852e42354741d1add6b2a54de4f16340c5f9a276d9ef81298"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 82,
+          "article_id": "JKXFHBvvO5hPVDVOF65qCN",
+          "url": "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing",
+          "body_sha256": "3c29f237d691fe04ec3ced20f335e8d45be687a168e6fca20ec85bcbb0fed65a",
+          "finding": "列Viton GLT与≤0.1μg/cm²等释气数据无试验方法和样件报告，含氟量被直接等同光学清洁与真空适用。"
+        },
+        {
+          "source_index": 100,
+          "article_id": "JKXFHBvvO5hPVDVOF661TT",
+          "url": "/blog/permeation-vs-leakage-understanding-the-difference-in-gas-systems",
+          "body_sha256": "2d87586226ee7eecf5751bd0362aa30a195bc5a71e72f4ff8a0e30e1b14f441c",
+          "finding": "开头区分任务有用，但0.05/0.50/0.80透过率没写气体、温度、样件或报告；含氟量被等同全部气体低透过。"
+        },
+        {
+          "source_index": 134,
+          "article_id": "QeuV1LXZQHOxh8iFCMnbNO",
+          "url": "/blog/fluoroelastomer-permeability-gas-barrier-properties-in-high-vacuum-applications",
+          "body_sha256": "6ad5f7f92a0216fafe241abd9b513403f01d2830924491c557f81fc5a8af75e4",
+          "finding": "给氦气透过0.5/15/10的胶种固定数值但无温度/具体试样/报告；含氟量直接推出高真空适用，与100气体透过任务重叠。"
+        },
+        {
+          "source_index": 205,
+          "article_id": "article-sem-001",
+          "url": "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+          "body_sha256": "cbf6d4a38709efeb6be24420ab64b3dfa5a8bd1b99c4f27787ce2dcc923e9444",
+          "finding": "自有FFKM8100侵蚀0.018对FKM0.450图表无原始报告/等离子条件，300°C真空24小时去尽挥发物、零释气/每批AOI/CMM未证实。"
+        },
+        {
+          "source_index": 267,
+          "article_id": "article-semiconductor-ffkm-seals-plasma-wafer-processing",
+          "url": "/blog/semiconductor-wafer-processing-ultra-clean-ffkm-seals-for-plasma-environments",
+          "body_sha256": "bcd10c623abc7a704a1f07ad73cddb36139dc4b618e28fe7771d62cc73b82341",
+          "finding": "把FFKM近乎普遍耐化学/低释气写成家族事实，匿名三等级温区/成本表、统一压缩率和表面粗糙度无工程依据；汽车级首位与项目定位不符，体系不证明半导体就绪。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-053",
+        "RQ-T-054"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-055",
+      "topic_title": "Maintenance Seal Replacement: Document the Original Specification",
+      "primary_keyword": "semiconductor replacement seals",
+      "buyer_job": "维护替代件评估",
+      "original_parent": "/industries/semiconductor",
+      "primary_owner_url": "/products/ffkm-replacement-seals",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "设备维护原规格与验证同FFKM售后替代任务，归商业页。",
+      "required_content_updates": "补原件识别、设备位置、图纸/牌号、服务记录与客户批准，不将维修参考号当OEM认可。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-010",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "852b4998b7bbf7e27b4a2079f607e767b2ccfc430bcc8a93343d9763b496ebc5"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 215,
+          "article_id": "article-sem-025",
+          "url": "/blog/sem-025-kalrez-o-rings-engineering-selection",
+          "body_sha256": "b43eaa44325d23caeaff2bec4e5c876be17cd80d0f0bc41d4da94524cf2581e3",
+          "finding": "商业替代任务相关，但正文称RubberQ验证每批Kalrez并把匿名高纯数据与品牌关联，无原厂关系、具体牌号、原规格或等效报告。"
+        },
+        {
+          "source_index": 267,
+          "article_id": "article-semiconductor-ffkm-seals-plasma-wafer-processing",
+          "url": "/blog/semiconductor-wafer-processing-ultra-clean-ffkm-seals-for-plasma-environments",
+          "body_sha256": "bcd10c623abc7a704a1f07ad73cddb36139dc4b618e28fe7771d62cc73b82341",
+          "finding": "把FFKM近乎普遍耐化学/低释气写成家族事实，匿名三等级温区/成本表、统一压缩率和表面粗糙度无工程依据；汽车级首位与项目定位不符，体系不证明半导体就绪。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-023",
+        "RQ-T-024",
+        "RQ-T-055"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-056",
+      "topic_title": "Liquid Cooling Seal Review: Fluid Formulation and Joint Geometry",
+      "primary_keyword": "liquid cooling seals",
+      "buyer_job": "确认冷却系统部件需求",
+      "original_parent": "/industries/liquid-cooling-energy-storage",
+      "primary_owner_url": "/industries/liquid-cooling-energy-storage",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "液冷采购评估由行业页承接，材料与密封结构分别链接。",
+      "required_content_updates": "补实际冷却液/添加剂、接口、温压循环及污染需求，避免把水乙二醇与介电液统一成EPDM保证。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-031",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "939d3073ab988adfa2db4942394fbdd3810fbde8381995d756de40753c5b0289"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 70,
+          "article_id": "JKXFHBvvO5hPVDVOF65jO0",
+          "url": "/blog/coolant-manifolds-in-evs-why-epdm-remains-the-standard-for-thermal-management",
+          "body_sha256": "d17bd3a6011ee5650cbcba6439de1e5e175416fc7d30cb06da2e0e5ce044afde",
+          "finding": "此处把EPDM列优而多篇把FKM列优，说明结论未绑定具体冷却液和配方；仍给固定成本指数与零脱胶保证。"
+        },
+        {
+          "source_index": 186,
+          "article_id": "article-cool-001",
+          "url": "/blog/coolant-resistant-epdm-gaskets-ai-liquid-cooling-cdu",
+          "body_sha256": "dad7aae59397464362b3461792d392b49ebaf861d720005f71a3f9e43023c885",
+          "finding": "宣称实验室实测并绘EPDM-LC0.7%/普通EPDM6.2%溶胀，无原始报告；零释气/析出、UL94V0、100%视觉和每批CMM/AOI等无证据；与187正文规范hash完全相同。"
+        },
+        {
+          "source_index": 187,
+          "article_id": "article-cool-002",
+          "url": "/blog/quick-disconnect-o-rings-low-outgassing-liquid-cooling-seals",
+          "body_sha256": "dad7aae59397464362b3461792d392b49ebaf861d720005f71a3f9e43023c885",
+          "finding": "标题QD低释气而正文与186逐字同文，未讨论连接/断开循环、滑动、锁止、接口及污染；相同0.7%/6.2%图表与放行承诺均无报告。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-056",
+        "RQ-T-057"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-057",
+      "topic_title": "Energy Storage Enclosure Gaskets: Define the Assembly Test",
+      "primary_keyword": "energy storage gaskets",
+      "buyer_job": "储能柜体垫片验收",
+      "original_parent": "/industries/liquid-cooling-energy-storage",
+      "primary_owner_url": "/industries/liquid-cooling-energy-storage",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "储能箱体评估与液冷同战略入口，但须分开独立章节。",
+      "required_content_updates": "补箱体界面、压缩/环境、材料阻燃试样与系统验收的区别，不用V0推热失控或整机资格。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-031",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "939d3073ab988adfa2db4942394fbdd3810fbde8381995d756de40753c5b0289"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 74,
+          "article_id": "JKXFHBvvO5hPVDVOF65lQE",
+          "url": "/blog/solar-inverters-uv-resistant-gaskets-for-20-year-outdoor-exposure",
+          "body_sha256": "84276bf493b1e171c3cad6548d337ddee1cbfda84d17d45a5c790cf895458e23",
+          "finding": "20年暴露标题无寿命推导，正文泛称EPDM不耐UV并推荐FKM，未给应力状态、湿热、光照或试验依据。"
+        },
+        {
+          "source_index": 112,
+          "article_id": "JKXFHBvvO5hPVDVOF6Cmrz",
+          "url": "/blog/battery-energy-storage-systems-bess-fire-retardant-gaskets-for-housing-units",
+          "body_sha256": "ddbf2ffc4d8626277c00c39782660a560b1cc78b7e09b92179b92a369d52266b",
+          "finding": "自有782、ATH方案和UL94V0等无试样厚度/报告；材料阻燃被用来回答热失控及总成泄漏，固定循环寿命也未证实。"
+        },
+        {
+          "source_index": 188,
+          "article_id": "article-cool-003",
+          "url": "/blog/flame-retardant-ul94-v0-epdm-gaskets-ess-liquid-cooling",
+          "body_sha256": "dad7aae59397464362b3461792d392b49ebaf861d720005f71a3f9e43023c885",
+          "finding": "正文与186/187规范hash一致，实际主图是0.7%/6.2%冷却液溶胀，未提供V0试样/厚度/报告；每批AOI/CMM与零释气等仍无依据。"
+        },
+        {
+          "source_index": 146,
+          "article_id": "QeuV1LXZQHOxh8iFCMnf7O",
+          "url": "/blog/renewable-energy-storage-flow-battery-gaskets-and-chemical-compatibility",
+          "body_sha256": "ff09bdf3089011980030aa75e7bf4c2012826ee461ef1b297e1c105550a1d768",
+          "finding": "自有7280、70°C500h体积变化<5%、5000循环要求及100%接着无记录；含氟键能被当成阻止酸渗透和系统适用证明。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-056",
+        "RQ-T-057"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-058",
+      "topic_title": "Coolant Seal Validation: Material Tests and Assembly Checks",
+      "primary_keyword": "coolant seal validation",
+      "buyer_job": "选择验证方法",
+      "original_parent": "/industries/liquid-cooling-energy-storage",
+      "primary_owner_url": "/testing",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "材料相容与总成检查是共同验证方法，避免在各行业重复一套保证。",
+      "required_content_updates": "补材料试样/浸泡与装配泄漏/循环的独立目标、样件状态和客户判据，特殊测试可讨论但不宣称全部自有能力。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-026",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "5a39f9e705923e96fd8e511be630c42cfd141ae1fe5a6033667c055e595c6ba2"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 70,
+          "article_id": "JKXFHBvvO5hPVDVOF65jO0",
+          "url": "/blog/coolant-manifolds-in-evs-why-epdm-remains-the-standard-for-thermal-management",
+          "body_sha256": "d17bd3a6011ee5650cbcba6439de1e5e175416fc7d30cb06da2e0e5ce044afde",
+          "finding": "此处把EPDM列优而多篇把FKM列优，说明结论未绑定具体冷却液和配方；仍给固定成本指数与零脱胶保证。"
+        },
+        {
+          "source_index": 180,
+          "article_id": "QeuV1LXZQHOxh8iFCMqLRO",
+          "url": "/blog/in-house-lab-capabilities-from-rheometers-to-tensile-testing-machines",
+          "body_sha256": "3d2049fc055fb822265325a4c4a0753aa4343841b446216342bdd41b6e389e96",
+          "finding": "工厂体系被写成实验室专门认证，FTIR/DSC/每日校准与HNBR3.2%冷却液数据无记录；试验机主题没有设备范围、样件与方法证据。"
+        },
+        {
+          "source_index": 186,
+          "article_id": "article-cool-001",
+          "url": "/blog/coolant-resistant-epdm-gaskets-ai-liquid-cooling-cdu",
+          "body_sha256": "dad7aae59397464362b3461792d392b49ebaf861d720005f71a3f9e43023c885",
+          "finding": "宣称实验室实测并绘EPDM-LC0.7%/普通EPDM6.2%溶胀，无原始报告；零释气/析出、UL94V0、100%视觉和每批CMM/AOI等无证据；与187正文规范hash完全相同。"
+        },
+        {
+          "source_index": 187,
+          "article_id": "article-cool-002",
+          "url": "/blog/quick-disconnect-o-rings-low-outgassing-liquid-cooling-seals",
+          "body_sha256": "dad7aae59397464362b3461792d392b49ebaf861d720005f71a3f9e43023c885",
+          "finding": "标题QD低释气而正文与186逐字同文，未讨论连接/断开循环、滑动、锁止、接口及污染；相同0.7%/6.2%图表与放行承诺均无报告。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-045",
+        "RQ-T-058",
+        "RQ-T-060"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-059",
+      "topic_title": "Thermal Management Rubber Parts: Drawing and Fluid Review",
+      "primary_keyword": "ev thermal management seals",
+      "buyer_job": "准备热管理零件需求",
+      "original_parent": "/industries/ev-energy-storage",
+      "primary_owner_url": "/industries/ev-energy-storage",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "EV热管理行业页承担场景转化，材料数据不替代项目批准。",
+      "required_content_updates": "补图纸/接口、完整流体/清洗、冷热/压力循环及文档要求，不枚举未确认高压应用。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-032",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "f18334e1bc82983f3f4fc7421552c09a2618569e5eddb96d52809eb696c17ee8"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 0,
+          "article_id": "Iht31guWKGVyy0fDUhwnDg",
+          "url": "/blog/the-role-of-hnbr-in-high-temperature-automotive-sealing-environments",
+          "body_sha256": "88bb9e3cd863a6d46c2bb83ab4ae236bd80b0f90d701741b60e28b466a5ebe6e",
+          "finding": "正文把EPDM乙二醇适配列为Poor，却没有具体配方、冷却液浓度或试验依据；固定强度与压缩永久变形值没有样品条件。"
+        },
+        {
+          "source_index": 70,
+          "article_id": "JKXFHBvvO5hPVDVOF65jO0",
+          "url": "/blog/coolant-manifolds-in-evs-why-epdm-remains-the-standard-for-thermal-management",
+          "body_sha256": "d17bd3a6011ee5650cbcba6439de1e5e175416fc7d30cb06da2e0e5ce044afde",
+          "finding": "此处把EPDM列优而多篇把FKM列优，说明结论未绑定具体冷却液和配方；仍给固定成本指数与零脱胶保证。"
+        },
+        {
+          "source_index": 131,
+          "article_id": "QeuV1LXZQHOxh8iFCMnaVO",
+          "url": "/blog/technical-comparison-why-fkm-o-rings-are-replacing-nbr-in-ev-cooling-systems",
+          "body_sha256": "7ce5b92a5fc8581d0ef0da2ac31d37457d2baa04d95918ae75df70d004ba3c2f",
+          "finding": "替代趋势没有市场来源，FKM耐全部冷却液结论与源索引70相反，行业体系/尺寸标准不能证明媒体适用或长期密封。"
+        },
+        {
+          "source_index": 183,
+          "article_id": "article-compound-chemistry-vs-molder-ev-thermal-energy-storage-seals",
+          "url": "/blog/compound-chemistry-vs-molder-ev-thermal-energy-storage-seals",
+          "body_sha256": "d16b43e74ffe19a6124575c4b51910533aaf188b9a8feb70d8a7881581151106",
+          "finding": "未经证实第一手失效经验、5年20–30点差、EV统一130–160°C持续8–15年、L1/L2/L3层级及仅某类厂能给10年寿命均缺依据；单线设备/排产消除污染和每批测试也未证实。"
+        },
+        {
+          "source_index": 193,
+          "article_id": "article-hnbr-vs-fkm-ev-thermal-management-compound-guide",
+          "url": "/blog/hnbr-vs-fkm-ev-thermal-management-compound-guide",
+          "body_sha256": "823ae6a542fa34ef23fb92dd691ad7a6f87dc16a1951dd1156c4b8b89531a9e5",
+          "finding": "HNBR作所有乙二醇默认、FKM广泛适配浸没液/制冷剂、温区和实测比较无具体牌号报告；成本倍数前后不一；4–8/12–24周开发与2–3周候选交付均未确认。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-059"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-060",
+      "topic_title": "Temperature Cycling: Information Needed for a Seal Review",
+      "primary_keyword": "thermal cycling seals",
+      "buyer_job": "制定热循环验证",
+      "original_parent": "/industries/ev-energy-storage",
+      "primary_owner_url": "/testing",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "温度循环的条件与报告跨行业适用，归共同测试页。",
+      "required_content_updates": "补上下限/驻留/转换、介质/压力/加载、样件和失效判据，不列未验证设备范围或统一周期寿命。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-026",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "5a39f9e705923e96fd8e511be630c42cfd141ae1fe5a6033667c055e595c6ba2"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 98,
+          "article_id": "JKXFHBvvO5hPVDVOF660gv",
+          "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+          "body_sha256": "7d09409ff7f7924397f6312fc7392ed97908f7653b2ee428b102776da5d6fef2",
+          "finding": "无佐证的EV冷却液压案例与SEM根因，FKM70的85%保力、±1%含氟量和t90±3秒均无报告；释义有用但不能由材料表或压缩变形推保力。"
+        },
+        {
+          "source_index": 180,
+          "article_id": "QeuV1LXZQHOxh8iFCMqLRO",
+          "url": "/blog/in-house-lab-capabilities-from-rheometers-to-tensile-testing-machines",
+          "body_sha256": "3d2049fc055fb822265325a4c4a0753aa4343841b446216342bdd41b6e389e96",
+          "finding": "工厂体系被写成实验室专门认证，FTIR/DSC/每日校准与HNBR3.2%冷却液数据无记录；试验机主题没有设备范围、样件与方法证据。"
+        },
+        {
+          "source_index": 193,
+          "article_id": "article-hnbr-vs-fkm-ev-thermal-management-compound-guide",
+          "url": "/blog/hnbr-vs-fkm-ev-thermal-management-compound-guide",
+          "body_sha256": "823ae6a542fa34ef23fb92dd691ad7a6f87dc16a1951dd1156c4b8b89531a9e5",
+          "finding": "HNBR作所有乙二醇默认、FKM广泛适配浸没液/制冷剂、温区和实测比较无具体牌号报告；成本倍数前后不一；4–8/12–24周开发与2–3周候选交付均未确认。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-045",
+        "RQ-T-058",
+        "RQ-T-060"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-061",
+      "topic_title": "Robotic Protective Bellows: Movement and Retention Review",
+      "primary_keyword": "robot bellows",
+      "buyer_job": "核对防护套行程",
+      "original_parent": "/industries/humanoid-robotics",
+      "primary_owner_url": "/blog/industrial-bellows-material-selection-flex-life-media-exposure",
+      "owner_kind": "existing_article",
+      "decision": "ASSIGNED",
+      "decision_basis": "机器人护套与工业保护件共享运动/保持任务，复用196方法文章，行业页作上下文。",
+      "required_content_updates": "在同一评估框架补安装包络、夹持/干涉和污染需求，不新建同义机器人护套模板或宣称现有谐波传动案例。",
+      "owner_source": {
+        "kind": "saved_article",
+        "source_index": 196,
+        "article_id": "article-industrial-bellows-material-selection-flex-life-media-exposure",
+        "revision": "ABrvN9p4HTT2BOyLeRplUa",
+        "body_sha256": "462c74de01f2446d8efe9a8b7d7bc11c4a4f5ef4696c38cf90857580f68dc035"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 196,
+          "article_id": "article-industrial-bellows-material-selection-flex-life-media-exposure",
+          "url": "/blog/industrial-bellows-material-selection-flex-life-media-exposure",
+          "body_sha256": "462c74de01f2446d8efe9a8b7d7bc11c4a4f5ef4696c38cf90857580f68dc035",
+          "finding": "全文确实提供行程/周期/介质/温度/几何输入、条件化材料比较及功能样件验证，符合精密件定位；原行业链接已核对在当前注册表有效，文章仍不证明某实际循环寿命。"
+        },
+        {
+          "source_index": 204,
+          "article_id": "article-rob-004",
+          "url": "/blog/dust-fluid-protection-boots-robotic-harmonic-drive-actuators",
+          "body_sha256": "711a7c7c7870576e08b805c7427df660100fbcc06b82811ed28c786959c6a60b",
+          "finding": "标题防尘/液体护套，完整正文与201同文，缺护套行程、壁厚、夹持、介质和功能防护条件；剥离图不能回答波纹护套任务。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "local_draft_prepared_final_review_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-018",
+        "RQ-T-061"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-062",
+      "topic_title": "Robot Contact Pads: Friction, Wear and Test Conditions",
+      "primary_keyword": "robot gripper pads",
+      "buyer_job": "定义接触面性能测试",
+      "original_parent": "/industries/humanoid-robotics",
+      "primary_owner_url": "/industries/humanoid-robotics",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "接触垫先是具体零件需求讨论，当前资料不足以建独立已验证产品页。",
+      "required_content_updates": "补接触面/法向载荷/摩擦/磨耗/污染及电性条件的请求模块，明确需项目评估，不宣称触觉、ESD或摩擦性能。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-033",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "a6302b2443678e887ad39ce71c72e20c45544f36e5e1d93f0c05e81c21add392"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 203,
+          "article_id": "article-rob-003",
+          "url": "/blog/robotic-hand-tactile-rubber-pads-high-friction-compounds",
+          "body_sha256": "711a7c7c7870576e08b805c7427df660100fbcc06b82811ed28c786959c6a60b",
+          "finding": "标题触觉/高摩擦/防静电，实际与201完整同文，只讲关节减振和剥离；无触觉接口、摩擦、电阻或对应配方/试验，不能当接触垫覆盖。"
+        },
+        {
+          "source_index": 208,
+          "article_id": "article-sem-004",
+          "url": "/blog/esd-anti-static-rubber-suction-cups-wafer-handling",
+          "body_sha256": "cbf6d4a38709efeb6be24420ab64b3dfa5a8bd1b99c4f27787ce2dcc923e9444",
+          "finding": "标题ESD吸盘/搬运机器人，完整正文与205同文，只讲等离子FFKM密封；没有吸盘几何、真空吸附、电阻、颗粒或晶圆接触报告。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-062"
+      ]
+    },
+    {
+      "topic_id": "RQ-T-063",
+      "topic_title": "Bonded Components for Moving Mechanisms: Load and Interface Inputs",
+      "primary_keyword": "robot rubber components",
+      "buyer_job": "评估机器人粘接件",
+      "original_parent": "/industries/humanoid-robotics",
+      "primary_owner_url": "/products/rubber-to-metal-bonded-parts",
+      "owner_kind": "existing_page_section",
+      "decision": "ASSIGNED",
+      "decision_basis": "机器人运动粘接件与一般载荷/界面评估共享产品主入口。",
+      "required_content_updates": "补移动机构的载荷方向、预载/接口和样件要求；动态指标链接202，不用关节剥离图当整机疲劳资格。",
+      "owner_source": {
+        "kind": "local_page",
+        "page_id": "RQ-PG-009",
+        "message_file": "src/messages/en.json",
+        "page_message_sha256": "1f6e1243f155e043713fc9781061024ffdc8d6c1152f77bd220b52e914d0ecc8"
+      },
+      "related_saved_articles": [
+        {
+          "source_index": 201,
+          "article_id": "article-rob-001",
+          "url": "/blog/rubber-to-metal-bonding-humanoid-robot-joint-damping",
+          "body_sha256": "711a7c7c7870576e08b805c7427df660100fbcc06b82811ed28c786959c6a60b",
+          "finding": "自有HNBR60剥离14.8对7.2N/mm图表无报告，未给动态刚度/疲劳曲线；零释气、Chemlok/低tanδ配方及每批AOI/CMM是未证实承诺，RFQ仍套密封压缩率。"
+        },
+        {
+          "source_index": 202,
+          "article_id": "article-rob-002",
+          "url": "/blog/vibration-damping-mounts-dynamic-stiffness-humanoid-robot-actuators",
+          "body_sha256": "711a7c7c7870576e08b805c7427df660100fbcc06b82811ed28c786959c6a60b",
+          "finding": "与201完整内容和SVG严格同文，标题强调动态刚度但只有未证实14.8/7.2Nmm剥离图，没有预载、频率、温度/振幅或响应。"
+        },
+        {
+          "source_index": 197,
+          "article_id": "article-overmolding-rubber-to-metal-adhesion-failure-analysis",
+          "url": "/blog/overmolding-rubber-to-metal-adhesion-science-and-failure-mode-analysis",
+          "body_sha256": "cb7228113d4a3a419136a1502b21e4b5eadc13e90322e84a39120cb19f8ebe4b",
+          "finding": "方法与失效分类内容丰富，但CP/RC分类、25–75µmRa/涂膜厚度/硫化优劣被通用化；“rarely the rubber”、超声必要性和既有发动机支座案例无资料，D429未分具体方法。"
+        }
+      ],
+      "related_articles_are_coverage": false,
+      "implementation_status": "content_and_links_pending",
+      "coverage_verified": false,
+      "production_verified": false,
+      "cms_action": "none",
+      "decision_by": "Codex",
+      "decision_on": "2026-10-21",
+      "topics_sharing_primary_url": [
+        "RQ-T-019",
+        "RQ-T-063"
+      ]
+    }
+  ],
+  "paid_calls": 0,
+  "cms_writes": 0,
+  "assignment_baseline_commit": "ced39c518fdd51da9f316ee88c2c306f6072e6df",
+  "assignment_page_source": "src/messages/en.json at assignment_baseline_commit"
+}

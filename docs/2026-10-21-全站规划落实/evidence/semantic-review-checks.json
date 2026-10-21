@@ -1,17 +1,22 @@
 {
   "saved_source_articles": 271,
-  "full_body_reviews": 200,
-  "action_proposals": {
-    "REWRITE_EXISTING": 123,
-    "HOLD_SCOPE": 38,
-    "REFERENCE_REWRITE": 32,
-    "RETAIN_OPTIMIZE": 7
+  "full_body_reviews": 271,
+  "body_review_methods": {
+    "full_saved_text_including_svg": 215,
+    "canonical_content_identity_reuse": 6,
+    "exact_template_body_comparison": 50
   },
-  "local_existing_url_drafts": 6,
+  "action_proposals": {
+    "REWRITE_EXISTING": 157,
+    "HOLD_SCOPE": 52,
+    "REFERENCE_REWRITE": 54,
+    "RETAIN_OPTIMIZE": 8
+  },
+  "local_existing_url_drafts": 7,
   "final_ownership_decisions": 0,
-  "topic_ownership_decisions": 0,
+  "topic_ownership_decisions": 63,
   "cms_writes": 0,
   "paid_calls": 0,
   "final_project_audit": "not_started",
-  "scope": "Source/hash/revision/anchor/draft/board consistency; authored semantic findings remain proposals until full inventory reconciliation"
+  "scope": "Complete saved-body or exact full-body/template comparison provenance, metadata, draft and board consistency; per-article findings remain proposals until full inventory reconciliation"
 }

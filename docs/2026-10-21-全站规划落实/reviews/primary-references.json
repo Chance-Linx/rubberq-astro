@@ -184,6 +184,18 @@
       ],
       "use": "公开范围确认固定变形下反力随时间降低的量测任务，区别于尺寸恢复指标；没有购买标准、提供通用保力限值或证明工厂已具该具体项目能力。",
       "checked_on": "2026-10-21"
+    },
+    {
+      "id": "NIST-PROCESS-CAPABILITY",
+      "title": "What is Process Capability?",
+      "url": "https://itl.nist.gov/div898/handbook/pmc/section1/pmc16.htm",
+      "publisher": "NIST/SEMATECH e-Handbook of Statistical Methods",
+      "read_sections": [
+        "Process capability and stability",
+        "Capability indices and distribution assumptions"
+      ],
+      "use": "一手公开方法用于核对稳定性、规格与能力估计的关系，不由Cpk阈值推出零缺陷或证明工厂已有特定指数/案例。",
+      "checked_on": "2026-10-21"
     }
   ],
   "paid_access": false

@@ -1,0 +1,27 @@
+{
+  "url": "http://127.0.0.1:8797/map",
+  "checks": [
+    {
+      "topic": "RQ-T-044",
+      "surface": "topic table and owner drawer",
+      "result": "PASS",
+      "observed_owner": "/compounds",
+      "scope": "page_section; reason, required updates and source proof visible"
+    },
+    {
+      "topic": "RQ-T-025",
+      "surface": "topic table and owner drawer",
+      "result": "PASS",
+      "observed_owner": "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
+      "scope": "existing_article; saved ID, revision and body hash visible"
+    },
+    {
+      "surface": "filtered CSV export",
+      "result": "UI_TOAST_ONLY",
+      "observed": "已导出当前筛选结果",
+      "download_file_independently_read": false
+    }
+  ],
+  "screenshot": "topic-owner-detail.png",
+  "scope": "Local board interaction checks only, not content coverage, CMS write or final consolidated audit"
+}
