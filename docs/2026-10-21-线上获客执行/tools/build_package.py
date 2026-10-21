@@ -19,7 +19,7 @@ def dump(path, obj):
 def csvout(path, rows):
     p=BASE/path; p.parent.mkdir(parents=True,exist_ok=True)
     with p.open('w',newline='',encoding='utf-8-sig') as f:
-        w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+        w=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator="\n");w.writeheader();w.writerows(rows)
 
 def add(url, name, role, keyword, h1, intro, sections, links, evidence, priority='P1', new=False, cta='Discuss Your Project', cta_url='/contact', faq=None):
     pid=f'RQ-PG-{len(PAGES)+1:03}'
@@ -310,7 +310,7 @@ TOPIC_SEEDS=[
 
 def main():
     for original,name in [(RESEARCH/'data/kw_us_classified_2026-10-21.csv','reused-keywords.csv'),(RESEARCH/'codex/competitors.json','reused-competitors.json'),(RESEARCH/'00-第1步-市场调研与获客方向报告.md','approved-research-report.md'),(ROOT/'rubberq-astro/docs/2026-10-21-GGS重新审查/运行基线.json','reused-baseline.json')]:
-        (BASE/'evidence'/name).write_bytes(original.read_bytes())
+        (BASE/'evidence'/name).write_bytes(original.read_bytes().replace(b'\r\n',b'\n') if name.endswith('.csv') else original.read_bytes().rstrip()+b'\n')
     source_rows=list(csv.DictReader((RESEARCH/'data/kw_us_classified_2026-10-21.csv').open(encoding='utf-8-sig')))
     kws=[]
     for i,r in enumerate(source_rows,1):
@@ -321,7 +321,7 @@ def main():
     assert all(not k['planned_owner'] or k['planned_owner'] in page_urls for k in kws)
     with (BASE/'data/页面职责与URL归属.csv').open('w',encoding='utf-8-sig',newline='') as f:
         fields=['id','url','name','role','keyword','priority','new','status','cta','cta_url','evidence']
-        w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows({k:p[k] for k in fields} for p in PAGES)
+        w=csv.DictWriter(f,fieldnames=fields,lineterminator="\n");w.writeheader();w.writerows({k:p[k] for k in fields} for p in PAGES)
     for p in PAGES:
         p['artifact']='pages/'+p['id']+'.md'
         internal=f"# {p['id']} · {p['name']}\n\n目的：交付本页面的结构与英文文案。\n\n| 项目 | 约定 |\n|---|---|\n| 规划英文URL | `{p['url']}` |\n| 动作 | {'新页规划' if p['new'] else '保留现有URL，优化文案'} |\n| 页面职责 | {p['role']} |\n| 主关键词 | {p['keyword'] or '非SEO获客页'} |\n| 优先级 | {p['priority']} |\n| 当前状态 | {p['status']} |\n| 主CTA | {p['cta']} → `{p['cta_url']}` |\n\n结构顺序：Hero → {' → '.join(s[0] for s in p['sections'])} → CTA。\n\n## 页面SEO草稿\n\nTitle: {p['title']}\n\nDescription: {p['meta']}\n\n## 英文页面稿\n\n"

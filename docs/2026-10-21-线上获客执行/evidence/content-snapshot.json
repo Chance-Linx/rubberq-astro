@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T02:30:01.565687+00:00",
+  "generated_at": "2026-10-21T02:33:02.652290+00:00",
   "project": {
     "id": "rubberq-acquisition-20261021",
     "name": "RubberQ 内容与获客工作台",
@@ -17,7 +17,7 @@
       }
     ]
   },
-  "state_version": "26dfd60ac6b8c257d1584d30012ca6fc2913085b0ba1f3f361ac144e1af46616",
+  "state_version": "94dd89be7802e91e2fcac96bf2275db20331bf7290cde42e59dad19b7a1e8c14",
   "scope": "项目机会池与验收回执，不代表历史全站完成率",
   "pool_rows": 63,
   "unique_ids": 63,
@@ -2124,10 +2124,10 @@
       "opportunity_count": 21,
       "reason": "依据当前支柱、实际回执及制作包状态排序；页面不启动任务。",
       "conditions": "机会数不等于文章数；部分更新、已有覆盖和完整交付分别计数。",
-      "prompt": "本次接续 RubberQ 内容与获客工作台 的“products”。机会范围：RQ-T-001、RQ-T-002、RQ-T-003、RQ-T-004、RQ-T-005、RQ-T-006、RQ-T-007、RQ-T-008、RQ-T-009、RQ-T-010、RQ-T-011、RQ-T-012、RQ-T-013、RQ-T-014、RQ-T-015、RQ-T-016、RQ-T-017、RQ-T-018、RQ-T-019、RQ-T-020、RQ-T-021。只复核新增证据与原解除条件；没有新证据不得原样重派研究。内部逐组验收后接续，不要求用户逐篇调度，不扩展其他支柱。用户已批准四项方向；不重复询问方向；Slogan保持原文；付费预算待定，先不花费；不以规划URL或标题匹配认定覆盖；生产实施与上线须记录真实回执；无外发、无周期采集、无自动派稿。完成本包全部可执行项后更新原仪表盘、核对计数与下一步指令，并验证刷新、展开、复制，然后停止。\n任务标识：0e3a257f5cd14998ab62\n状态版本：26dfd60ac6b8c257d1584d30012ca6fc2913085b0ba1f3f361ac144e1af46616\n执行前：python3 '/Users/LINLAN/1 赚钱事业/外贸跨境项目/全球增长系统复用/skills/ggs-content-production-dashboard/scripts/dashboard.py' validate --config '/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/docs/2026-10-21-线上获客执行/project-config.json' --token eyJwcm9qZWN0X2lkIjoicnViYmVycS1hY3F1aXNpdGlvbi0yMDI2MTAyMSIsImtpbmQiOiJibG9ja2VkIiwiaWRzIjpbIlJRLVQtMDAxIiwiUlEtVC0wMDIiLCJSUS1ULTAwMyIsIlJRLVQtMDA0IiwiUlEtVC0wMDUiLCJSUS1ULTAwNiIsIlJRLVQtMDA3IiwiUlEtVC0wMDgiLCJSUS1ULTAwOSIsIlJRLVQtMDEwIiwiUlEtVC0wMTEiLCJSUS1ULTAxMiIsIlJRLVQtMDEzIiwiUlEtVC0wMTQiLCJSUS1ULTAxNSIsIlJRLVQtMDE2IiwiUlEtVC0wMTciLCJSUS1ULTAxOCIsIlJRLVQtMDE5IiwiUlEtVC0wMjAiLCJSUS1ULTAyMSJdLCJwYWNrYWdlX2lkcyI6W10sImNsdXN0ZXIiOm51bGwsInRhc2tfaWQiOiIwZTNhMjU3ZjVjZDE0OTk4YWI2MiIsInN0YXRlX3ZlcnNpb24iOiIyNmRmZDYwYWM2YjhjMjU3ZDE1ODRkMzAwMTJjYTZmYzI5MTMwODViMGJhMWYzZjM2MWFjMTQ0ZTFhZjQ2NjE2In0\n只有 READY 才可开始；ALREADY_COMPLETED 只核账；STALE/BLOCKED 重新读取状态，不执行旧指令。",
+      "prompt": "本次接续 RubberQ 内容与获客工作台 的“products”。机会范围：RQ-T-001、RQ-T-002、RQ-T-003、RQ-T-004、RQ-T-005、RQ-T-006、RQ-T-007、RQ-T-008、RQ-T-009、RQ-T-010、RQ-T-011、RQ-T-012、RQ-T-013、RQ-T-014、RQ-T-015、RQ-T-016、RQ-T-017、RQ-T-018、RQ-T-019、RQ-T-020、RQ-T-021。只复核新增证据与原解除条件；没有新证据不得原样重派研究。内部逐组验收后接续，不要求用户逐篇调度，不扩展其他支柱。用户已批准四项方向；不重复询问方向；Slogan保持原文；付费预算待定，先不花费；不以规划URL或标题匹配认定覆盖；生产实施与上线须记录真实回执；无外发、无周期采集、无自动派稿。完成本包全部可执行项后更新原仪表盘、核对计数与下一步指令，并验证刷新、展开、复制，然后停止。\n任务标识：0e3a257f5cd14998ab62\n状态版本：94dd89be7802e91e2fcac96bf2275db20331bf7290cde42e59dad19b7a1e8c14\n执行前：python3 '/Users/LINLAN/1 赚钱事业/外贸跨境项目/全球增长系统复用/skills/ggs-content-production-dashboard/scripts/dashboard.py' validate --config '/Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro/docs/2026-10-21-线上获客执行/project-config.json' --token eyJwcm9qZWN0X2lkIjoicnViYmVycS1hY3F1aXNpdGlvbi0yMDI2MTAyMSIsImtpbmQiOiJibG9ja2VkIiwiaWRzIjpbIlJRLVQtMDAxIiwiUlEtVC0wMDIiLCJSUS1ULTAwMyIsIlJRLVQtMDA0IiwiUlEtVC0wMDUiLCJSUS1ULTAwNiIsIlJRLVQtMDA3IiwiUlEtVC0wMDgiLCJSUS1ULTAwOSIsIlJRLVQtMDEwIiwiUlEtVC0wMTEiLCJSUS1ULTAxMiIsIlJRLVQtMDEzIiwiUlEtVC0wMTQiLCJSUS1ULTAxNSIsIlJRLVQtMDE2IiwiUlEtVC0wMTciLCJSUS1ULTAxOCIsIlJRLVQtMDE5IiwiUlEtVC0wMjAiLCJSUS1ULTAyMSJdLCJwYWNrYWdlX2lkcyI6W10sImNsdXN0ZXIiOm51bGwsInRhc2tfaWQiOiIwZTNhMjU3ZjVjZDE0OTk4YWI2MiIsInN0YXRlX3ZlcnNpb24iOiI5NGRkODliZTc4MDJlOTFlMmZjYWM5NmJmMjI3NWRiMjAzMzFiZjcyOTBjZGU0MmU1OWRhZDE5YjdhMWU4YzE0In0\n只有 READY 才可开始；ALREADY_COMPLETED 只核账；STALE/BLOCKED 重新读取状态，不执行旧指令。",
       "task_id": "0e3a257f5cd14998ab62",
-      "state_version": "26dfd60ac6b8c257d1584d30012ca6fc2913085b0ba1f3f361ac144e1af46616",
-      "token": "eyJwcm9qZWN0X2lkIjoicnViYmVycS1hY3F1aXNpdGlvbi0yMDI2MTAyMSIsImtpbmQiOiJibG9ja2VkIiwiaWRzIjpbIlJRLVQtMDAxIiwiUlEtVC0wMDIiLCJSUS1ULTAwMyIsIlJRLVQtMDA0IiwiUlEtVC0wMDUiLCJSUS1ULTAwNiIsIlJRLVQtMDA3IiwiUlEtVC0wMDgiLCJSUS1ULTAwOSIsIlJRLVQtMDEwIiwiUlEtVC0wMTEiLCJSUS1ULTAxMiIsIlJRLVQtMDEzIiwiUlEtVC0wMTQiLCJSUS1ULTAxNSIsIlJRLVQtMDE2IiwiUlEtVC0wMTciLCJSUS1ULTAxOCIsIlJRLVQtMDE5IiwiUlEtVC0wMjAiLCJSUS1ULTAyMSJdLCJwYWNrYWdlX2lkcyI6W10sImNsdXN0ZXIiOm51bGwsInRhc2tfaWQiOiIwZTNhMjU3ZjVjZDE0OTk4YWI2MiIsInN0YXRlX3ZlcnNpb24iOiIyNmRmZDYwYWM2YjhjMjU3ZDE1ODRkMzAwMTJjYTZmYzI5MTMwODViMGJhMWYzZjM2MWFjMTQ0ZTFhZjQ2NjE2In0",
+      "state_version": "94dd89be7802e91e2fcac96bf2275db20331bf7290cde42e59dad19b7a1e8c14",
+      "token": "eyJwcm9qZWN0X2lkIjoicnViYmVycS1hY3F1aXNpdGlvbi0yMDI2MTAyMSIsImtpbmQiOiJibG9ja2VkIiwiaWRzIjpbIlJRLVQtMDAxIiwiUlEtVC0wMDIiLCJSUS1ULTAwMyIsIlJRLVQtMDA0IiwiUlEtVC0wMDUiLCJSUS1ULTAwNiIsIlJRLVQtMDA3IiwiUlEtVC0wMDgiLCJSUS1ULTAwOSIsIlJRLVQtMDEwIiwiUlEtVC0wMTEiLCJSUS1ULTAxMiIsIlJRLVQtMDEzIiwiUlEtVC0wMTQiLCJSUS1ULTAxNSIsIlJRLVQtMDE2IiwiUlEtVC0wMTciLCJSUS1ULTAxOCIsIlJRLVQtMDE5IiwiUlEtVC0wMjAiLCJSUS1ULTAyMSJdLCJwYWNrYWdlX2lkcyI6W10sImNsdXN0ZXIiOm51bGwsInRhc2tfaWQiOiIwZTNhMjU3ZjVjZDE0OTk4YWI2MiIsInN0YXRlX3ZlcnNpb24iOiI5NGRkODliZTc4MDJlOTFlMmZjYWM5NmJmMjI3NWRiMjAzMzFiZjcyOTBjZGU0MmU1OWRhZDE5YjdhMWU4YzE0In0",
       "stop_condition": "完成本包全部可执行项后更新原仪表盘、核对计数与下一步指令，并验证刷新、展开、复制，然后停止。"
     }
   ],

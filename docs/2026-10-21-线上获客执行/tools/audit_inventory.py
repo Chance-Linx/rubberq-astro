@@ -26,7 +26,7 @@ def norm(s):return ' '.join(re.findall(r'[a-z0-9]+',s.lower()))
 def save(name,obj):(base/name).write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n')
 def csvout(name,rows):
     with (base/name).open('w',encoding='utf-8-sig',newline='') as f:
-        w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+        w=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator="\n");w.writeheader();w.writerows(rows)
 raw=json.loads((base/'evidence/cms-published-source.json').read_text())['result']
 rows=[];bodies={};groups=defaultdict(list)
 for a in raw:
