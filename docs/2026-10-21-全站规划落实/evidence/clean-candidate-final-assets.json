@@ -1,0 +1,20 @@
+{
+  "candidate_commit": "0656d4fe93e1e87d0391122b847220ab1ba57413",
+  "llms_runtime_matches_final_source": true,
+  "llms_sha256": "46de53852118441114ce12127aeab467f0e144e6908db11147c535f7d30d7969",
+  "content_type": "text/plain; charset=utf-8",
+  "private_routes": [
+    {
+      "path": "/__review",
+      "status": 404
+    },
+    {
+      "path": "/__local/sql",
+      "status": 404
+    }
+  ],
+  "test_entrypoints_and_credentials_absent_from_bundle": true,
+  "environment_files_copied": false,
+  "production_deployments": 0,
+  "paid_calls": 0
+}
