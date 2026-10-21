@@ -1,12 +1,13 @@
 # RubberQ Astro — Cloudflare Pages
 name = "rubberq-astro"
-compatibility_date = "2025-05-05"
+pages_build_output_dir = "./dist"
+compatibility_date = "2026-05-14"
 compatibility_flags = ["nodejs_compat"]
 
 # Required by @astrojs/cloudflare for session management
 [[kv_namespaces]]
 binding = "SESSION"
-id = "rubberq-sessions"
+id = "a3aa3fb1f6ac4eb68986c5fd18f1f8f6"
 
 # Account-level R2 bucket used for RubberQ public assets.
 [[r2_buckets]]
