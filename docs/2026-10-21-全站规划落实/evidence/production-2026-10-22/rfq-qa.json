@@ -1,0 +1,24 @@
+{
+  "scope": "one explicitly marked internal production browser test, independent D1/R2 readback",
+  "business_inquiry": false,
+  "excluded_from_metrics": true,
+  "d1_row_id": 20,
+  "preexisting_rows_preserved": 19,
+  "rows_after_internal_qa": 20,
+  "submission_id": "c408fb4f-d36e-4890-990b-6b564aa77515",
+  "source_page": "/materials/ffkm",
+  "cta": "release-qa",
+  "attachment": {
+    "name": "RubberQ-DEPLOY-QA.pdf",
+    "mimeType": "application/pdf",
+    "size": 75,
+    "storageKey": "rfq/c408fb4f-d36e-4890-990b-6b564aa77515",
+    "sha256": "593c1b2030c820c5c170b3e0f8cb6db80d4ce8484221257d8b3c052a7f02aee6"
+  },
+  "attachment_independent_download_sha256": "593c1b2030c820c5c170b3e0f8cb6db80d4ce8484221257d8b3c052a7f02aee6",
+  "attachment_bytes_match": true,
+  "provider_id": "01a15f2a-0bbe-77a1-8003-2e0ff3684917",
+  "notification_status": "accepted",
+  "inbox_delivery_verified": false,
+  "limitation": "RubberQ mailbox account and matching Resend provider account not connected; acceptance is not delivery"
+}

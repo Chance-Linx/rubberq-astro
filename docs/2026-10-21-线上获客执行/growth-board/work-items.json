@@ -183,12 +183,12 @@
       "type": "任务",
       "title": "批准页面的代码/CMS实施与上线",
       "owner": "Codex",
-      "status": "待验收",
+      "status": "已上线",
       "dependencies": [
         "RQ-EXEC-01"
       ],
       "start_date": "2026-10-21",
-      "completion_date": null,
+      "completion_date": "2026-10-22",
       "outputs": [
         "rubberq-astro/docs/2026-10-21-全站规划落实/execution-state.json",
         "rubberq-astro/docs/2026-10-21-全站规划落实/content-revisions/manifest.json",
@@ -207,13 +207,14 @@
         "rubberq-astro/docs/2026-10-21-线上获客执行/00-交付入口.md",
         "rubberq-astro/docs/2026-10-21-全站规划落实/21-询盘附件保存通知与失败重试.md",
         "rubberq-astro/docs/2026-10-21-全站规划落实/22-关键词运行归属与全站移动端.md",
-        "rubberq-astro/docs/2026-10-21-全站规划落实/24-集中终审与统一验收入口.md"
+        "rubberq-astro/docs/2026-10-21-全站规划落实/24-集中终审与统一验收入口.md",
+        "rubberq-astro/docs/2026-10-21-全站规划落实/25-正式部署与线上验证.md"
       ],
-      "next_step": "用户统一验收；通过后按第23份交接核对资源并发布，未上线",
+      "next_step": "已完成正式发布及线上验证；RubberQ收件箱实际送达状态尚未回读，勿把供应商accepted称为delivered。",
       "channel": "content",
       "source": "根任务清单RQAC系列的只读阶段投影",
-      "note": "整套本地实现及集中自审完成；production部署、CMS写入、真实邮件均未执行。",
-      "delivered_at": null
+      "note": "用户授权发布；225页面、27同ID文章和21专用检查通过；1条内部QA排除商业指标；无付费SEO采集。",
+      "delivered_at": "2026-10-22"
     }
   ]
 }

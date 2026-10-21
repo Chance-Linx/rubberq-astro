@@ -1,0 +1,168 @@
+{
+  "checked": 27,
+  "passed": 27,
+  "checks": [
+    {
+      "id": "Iht31guWKGVyy0fDUhwo2m",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "Iht31guWKGVyy0fDUhwnFo",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "JKXFHBvvO5hPVDVOF65r3m",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "JKXFHBvvO5hPVDVOF65tZ8",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "article-batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "article-industrial-bellows-material-selection-flex-life-media-exposure",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "article-spc-rubber-molding-cpk-zero-defect",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "JKXFHBvvO5hPVDVOF66045",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "Iht31guWKGVyy0fDUhwqHh",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "JKXFHBvvO5hPVDVOF65vMn",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "QeuV1LXZQHOxh8iFCMnkLO",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "JKXFHBvvO5hPVDVOF65qCN",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "QeuV1LXZQHOxh8iFCMnkjO",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "article-rob-002",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "article-sem-001",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "JKXFHBvvO5hPVDVOF660gv",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "JKXFHBvvO5hPVDVOF6CvU1",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "QeuV1LXZQHOxh8iFCMqHnO",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "article-cryogenic-deflashing-vs-manual-trimming-precision-rubber-parts",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "article-post-curing-silicone-rubber-parts-volatile-control-compression-set",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "article-ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "Iht31guWKGVyy0fDUhwnXu",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "Iht31guWKGVyy0fDUhwnb6",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "Iht31guWKGVyy0fDUhwndE",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "Iht31guWKGVyy0fDUhwngQ",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "JKXFHBvvO5hPVDVOF65tsY",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    },
+    {
+      "id": "JKXFHBvvO5hPVDVOF661TT",
+      "revision": "Tpx3uW67vVmtuGAgwhApwY",
+      "fieldsMatch": true,
+      "preservedFields": true
+    }
+  ]
+}

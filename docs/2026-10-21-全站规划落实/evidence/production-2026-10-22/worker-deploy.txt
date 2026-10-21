@@ -1,0 +1,16 @@
+
+ ⛅️ wrangler 4.88.0 (update available 4.151.3)
+──────────────────────────────────────────────
+Total Upload: 24.34 KiB / gzip: 7.11 KiB
+Your Worker has access to the following bindings:
+Binding                                                               Resource
+env.DB (rubberq_rfq)                                                  D1 Database
+env.RFQ_ATTACHMENTS (rubberq-rfq-attachments)                         R2 Bucket
+env.ALLOWED_ORIGIN ("https://rubberq.com,https://www.rubbe...")       Environment Variable
+env.FROM_EMAIL ("RubberQ RFQ <contact@rubberq.com>")                  Environment Variable
+env.TO_EMAIL ("contact@rubberq.com")                                  Environment Variable
+
+Uploaded rubberq-rfq-api (9.31 sec)
+Deployed rubberq-rfq-api triggers (6.29 sec)
+  rubberq.com/api/* (zone name: rubberq.com)
+Current Version ID: a1c1e099-df69-4a49-86e4-adff4d1cb82f

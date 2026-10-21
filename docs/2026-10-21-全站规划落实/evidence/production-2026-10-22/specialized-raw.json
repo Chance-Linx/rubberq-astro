@@ -1,0 +1,379 @@
+{
+  "scope": "Production specialized metadata, complete current legal strings, public blog and localized search; read-only curl transport after Python SSL EOF; semantic checks unchanged.",
+  "rows": [
+    {
+      "path": "/search",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "noindex": true,
+        "form_label": true
+      },
+      "pass": true,
+      "html_sha256": "6dbb5b2152d422106d6541f11fc75fbbcd27945fc3861f9641c4876620d23e94"
+    },
+    {
+      "path": "/privacy",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "legal_source_matches_targeted_revision": true,
+        "legal_body_strings_rendered": false,
+        "localized_title": true
+      },
+      "pass": false,
+      "html_sha256": "5034696cdc751085baea89393f853a73519ce8f2618b09ba2a613edc70e04104"
+    },
+    {
+      "path": "/terms",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "legal_source_matches_targeted_revision": true,
+        "legal_body_strings_rendered": true,
+        "localized_title": true
+      },
+      "pass": true,
+      "html_sha256": "f420b376c3a56d283358bb06b526302ca6fe5a258fbb476a17439ef5cff046ca"
+    },
+    {
+      "path": "/de/search",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "noindex": true,
+        "form_label": true
+      },
+      "pass": true,
+      "html_sha256": "65921485dad7df869d2aec6132bac22df3b9090b936db7188fd76c21401ee3bd"
+    },
+    {
+      "path": "/de/privacy",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "legal_source_matches_targeted_revision": true,
+        "legal_body_strings_rendered": false,
+        "localized_title": true
+      },
+      "pass": false,
+      "html_sha256": "419a0c4b7f862c246cd6df2867a0778da91ad707e07f1256403098f8f4f318b6"
+    },
+    {
+      "path": "/de/terms",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "legal_source_matches_targeted_revision": true,
+        "legal_body_strings_rendered": true,
+        "localized_title": true
+      },
+      "pass": true,
+      "html_sha256": "f6ba9d9abe5f216306ff9aee91826b02312ef3fdf286bac89d08173fa7fe6568"
+    },
+    {
+      "path": "/ja/search",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "noindex": true,
+        "form_label": true
+      },
+      "pass": true,
+      "html_sha256": "4bf95b8b5182bc24477e868ed355ba8e24d322a786c9e752bad1cc69b431f5ea"
+    },
+    {
+      "path": "/ja/privacy",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "legal_source_matches_targeted_revision": true,
+        "legal_body_strings_rendered": false,
+        "localized_title": true
+      },
+      "pass": false,
+      "html_sha256": "b48e41586061bec809d77fc7742599e83f76e8cbf8dc5c9d07057b118def44d1"
+    },
+    {
+      "path": "/ja/terms",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "legal_source_matches_targeted_revision": true,
+        "legal_body_strings_rendered": true,
+        "localized_title": true
+      },
+      "pass": true,
+      "html_sha256": "931d60bd95cba50617214c2b0685012251230f9cd371e720b3f5d7153e944349"
+    },
+    {
+      "path": "/es/search",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "noindex": true,
+        "form_label": true
+      },
+      "pass": true,
+      "html_sha256": "a5964ad4894b171b0fb502e3120c6cdda522e695a5a7a70b24b65db10e081239"
+    },
+    {
+      "path": "/es/privacy",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "legal_source_matches_targeted_revision": true,
+        "legal_body_strings_rendered": false,
+        "localized_title": true
+      },
+      "pass": false,
+      "html_sha256": "1d710932775adcb26db0c8d821c08b4947a0c019ec9b4fc77f058b64283fbfbe"
+    },
+    {
+      "path": "/es/terms",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "legal_source_matches_targeted_revision": true,
+        "legal_body_strings_rendered": true,
+        "localized_title": true
+      },
+      "pass": true,
+      "html_sha256": "192d21fef5ed78732dfd41eda26fe4556b7bb22eb163eac01c720a40d703463a"
+    },
+    {
+      "path": "/zh/search",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "noindex": true,
+        "form_label": true
+      },
+      "pass": true,
+      "html_sha256": "eb6d8d2566709e97b64957d3e9beae332fec4a4e517d30788e81c00edf3c1bc2"
+    },
+    {
+      "path": "/zh/privacy",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "legal_source_matches_targeted_revision": true,
+        "legal_body_strings_rendered": false,
+        "localized_title": true
+      },
+      "pass": false,
+      "html_sha256": "cfae9a387e27287655be3636c846f7e421876062d1cba996a0f4d0519f5138a0"
+    },
+    {
+      "path": "/zh/terms",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "legal_source_matches_targeted_revision": true,
+        "legal_body_strings_rendered": true,
+        "localized_title": true
+      },
+      "pass": true,
+      "html_sha256": "51f398d6a17f4434ae24b8e6b0c5697284deb54fcd21c9273495f96ba3c70829"
+    },
+    {
+      "path": "/blog",
+      "checks": {
+        "http": true,
+        "h1": true,
+        "title": true,
+        "canonical": true,
+        "public": true,
+        "pagination": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/search?q=FFKM",
+      "checks": {
+        "http": true,
+        "material_result": true,
+        "replacement_result": true,
+        "input_preserved": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/de/search?q=FFKM",
+      "checks": {
+        "http": true,
+        "material_result": true,
+        "replacement_result": true,
+        "input_preserved": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ja/search?q=FFKM",
+      "checks": {
+        "http": true,
+        "material_result": true,
+        "replacement_result": true,
+        "input_preserved": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/es/search?q=FFKM",
+      "checks": {
+        "http": true,
+        "material_result": true,
+        "replacement_result": true,
+        "input_preserved": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/zh/search?q=FFKM",
+      "checks": {
+        "http": true,
+        "material_result": true,
+        "replacement_result": true,
+        "input_preserved": true
+      },
+      "pass": true
+    }
+  ],
+  "passed": 16,
+  "total": 21
+}

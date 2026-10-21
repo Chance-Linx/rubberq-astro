@@ -1,0 +1,96 @@
+{
+  "base": "https://rubberq.com",
+  "scope": "Implementation verification only; not final whole-project acceptance, visual review, CMS ownership, form delivery, publication or ranking proof",
+  "source_errors": [],
+  "source_checks": [
+    {
+      "locale": "en",
+      "page_count": 49,
+      "pass": true,
+      "issues": [],
+      "file_sha256": "4c67dd7d3208b5f92e0b2684c37eafc4bcd8fabc03dfb0085fd91192d7aa955f"
+    },
+    {
+      "locale": "de",
+      "page_count": 49,
+      "pass": true,
+      "issues": [],
+      "file_sha256": "60615f8775f932e40ef1baa6f706954da3dffb86b0512e553eb2cdf6feb6d212"
+    },
+    {
+      "locale": "ja",
+      "page_count": 49,
+      "pass": true,
+      "issues": [],
+      "file_sha256": "f8b0f112f75ccc4fde77e0221621f143f81690e90d82e71b8b22937bf6477747"
+    },
+    {
+      "locale": "es",
+      "page_count": 49,
+      "pass": true,
+      "issues": [],
+      "file_sha256": "da66422803b733672cf9dffecd2a26edc66520ae1ffcf7148796ea371f9aee3e"
+    },
+    {
+      "locale": "zh",
+      "page_count": 49,
+      "pass": true,
+      "issues": [],
+      "file_sha256": "9384cbeee0f490b0c1e83f1949c374f5725acf9a3675f23955007f92a18f9c41"
+    }
+  ],
+  "page_results": [
+    {
+      "locale": "es",
+      "path": "/es/materials/nbr",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "rich_tables": 1,
+      "contextual_links": 11,
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "6dcdc5c247ece83a9caddbb27341cef2699c3845e2922032eaa0ee535c3d08ee"
+    },
+    {
+      "locale": "es",
+      "path": "/es/industries/automotive-tier2",
+      "status": 200,
+      "pass": true,
+      "issues": [],
+      "rich_tables": 0,
+      "contextual_links": 0,
+      "forms": 0,
+      "form_options": [],
+      "html_sha256": "aa93c6eabb0b66e30d05658f43ab7b006ba68da64e00376f3ffc74056bd55e30"
+    }
+  ],
+  "unknown_routes": [
+    {
+      "path": "/fr/compounds",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "/de/products/does-not-exist",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "/ja/materials/does-not-exist",
+      "status": 404,
+      "pass": true
+    },
+    {
+      "path": "/industries/does-not-exist",
+      "status": 404,
+      "pass": true
+    }
+  ],
+  "summary": {
+    "routes": 2,
+    "passed": 2,
+    "guards_passed": 4,
+    "failed": []
+  }
+}

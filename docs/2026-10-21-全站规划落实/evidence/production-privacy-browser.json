@@ -1,0 +1,41 @@
+{
+  "rows": [
+    {
+      "locale": "en",
+      "path": "/privacy",
+      "pass": true,
+      "missing": [],
+      "emailVisible": true
+    },
+    {
+      "locale": "de",
+      "path": "/de/privacy",
+      "pass": true,
+      "missing": [],
+      "emailVisible": true
+    },
+    {
+      "locale": "ja",
+      "path": "/ja/privacy",
+      "pass": true,
+      "missing": [],
+      "emailVisible": true
+    },
+    {
+      "locale": "es",
+      "path": "/es/privacy",
+      "pass": true,
+      "missing": [],
+      "emailVisible": true
+    },
+    {
+      "locale": "zh",
+      "path": "/zh/privacy",
+      "pass": true,
+      "missing": [],
+      "emailVisible": true
+    }
+  ],
+  "passed": 5,
+  "total": 5
+}

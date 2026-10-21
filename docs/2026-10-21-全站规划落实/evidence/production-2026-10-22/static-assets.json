@@ -1,0 +1,44 @@
+[
+  {
+    "path": "/sitemap.xml",
+    "status": 200,
+    "type": "application/xml; charset=utf-8",
+    "sha256": "13489b6d61fcca25f66682800cbcdd6d85029764ca8f6b867ac826c1ee21a3b6",
+    "urls": 476,
+    "unique": 476,
+    "expected_static": 236,
+    "missing_static": [],
+    "no_search_or_private_urls": true
+  },
+  {
+    "path": "/robots.txt",
+    "status": 200,
+    "type": "text/plain; charset=utf-8",
+    "sha256": "f540d1f974d363b91cabb1c3d53c5ad0efaab88f20ea684456eec89510656128",
+    "matches_source": true
+  },
+  {
+    "path": "/llms.txt",
+    "status": 200,
+    "type": "text/plain; charset=utf-8",
+    "sha256": "46de53852118441114ce12127aeab467f0e144e6908db11147c535f7d30d7969",
+    "matches_source": true
+  },
+  {
+    "path": "/__review",
+    "status": 404,
+    "pass": true
+  },
+  {
+    "path": "/__local/sql",
+    "status": 404,
+    "pass": true
+  },
+  {
+    "path": "/a1b84df21c0948239901312ec82bacb5.txt",
+    "status": 200,
+    "type": "text/plain; charset=utf-8",
+    "sha256": "139a06d81db0bec7c1c83d9c2c62a09ec00a9b28d201b2ac826c4e78fbe77e3b",
+    "matches_source": true
+  }
+]

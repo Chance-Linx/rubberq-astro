@@ -1,0 +1,20 @@
+{
+  "authorization": "用户明确指令：请提交推送部署",
+  "closed_at": "2026-10-22",
+  "production_url": "https://rubberq.com",
+  "application_source_commit": "28492bf26be151b6950dc05c24d6f0f05b618ced",
+  "pages_deployment": "ee3b83aa-6fc5-4736-8e19-690d52c7cb86",
+  "worker_version": "a1c1e099-df69-4a49-86e4-adff4d1cb82f",
+  "cms_transaction": "Tpx3uW67vVmtuGAgwhApwY",
+  "cms_updated_same_ids": 27,
+  "common_pages_passed": 225,
+  "specialized_checks_passed": 21,
+  "public_article_checks_passed": 27,
+  "private_bucket": "rubberq-rfq-attachments",
+  "paid_seo_calls": 0,
+  "new_recurring_monitors": 0,
+  "mailbox_delivery": "unverified",
+  "evidence_directory": "evidence/production-2026-10-22",
+  "git_production_branch": "main",
+  "git_alignment": "fast-forward approved source; automatic build receipt retained separately"
+}

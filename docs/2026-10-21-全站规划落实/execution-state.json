@@ -2,8 +2,8 @@
   "objective": "完整落实已批准规划，全部完成后集中审核",
   "authorization": "用户2026-10-21明确继续完整实施，非仅交付策划",
   "paid_budget": "待定，零新增付费调用",
-  "final_review": "completed_self_review_user_acceptance_pending",
-  "publication": "not_started",
+  "final_review": "completed_user_authorized_release",
+  "publication": "production_deployed_and_live_verified",
   "requirements": {
     "pages": [
       {
@@ -18,7 +18,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-002",
@@ -32,7 +33,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-003",
@@ -46,7 +48,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-004",
@@ -60,7 +63,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-005",
@@ -74,7 +78,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-006",
@@ -88,7 +93,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-007",
@@ -102,7 +108,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-008",
@@ -116,7 +123,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-009",
@@ -130,7 +138,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-010",
@@ -144,7 +153,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-011",
@@ -158,7 +168,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-012",
@@ -172,7 +183,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-013",
@@ -186,7 +198,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-014",
@@ -200,7 +213,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-015",
@@ -214,7 +228,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-016",
@@ -228,7 +243,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-017",
@@ -242,7 +258,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-018",
@@ -256,7 +273,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-019",
@@ -270,7 +288,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-020",
@@ -284,7 +303,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-021",
@@ -298,7 +318,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-022",
@@ -312,7 +333,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-023",
@@ -326,7 +348,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-024",
@@ -340,7 +363,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-025",
@@ -354,7 +378,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-026",
@@ -368,7 +393,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-027",
@@ -382,7 +408,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-028",
@@ -396,7 +423,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-029",
@@ -410,7 +438,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-030",
@@ -424,7 +453,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-031",
@@ -438,7 +468,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-032",
@@ -452,7 +483,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-033",
@@ -466,7 +498,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-034",
@@ -480,7 +513,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-035",
@@ -494,7 +528,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-036",
@@ -508,7 +543,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-037",
@@ -522,7 +558,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-038",
@@ -536,7 +573,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-039",
@@ -550,7 +588,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-040",
@@ -564,7 +603,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-041",
@@ -578,7 +618,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-042",
@@ -592,7 +633,8 @@
           "zh": "localized_labels_authored_specialized_body_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-043",
@@ -606,7 +648,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-044",
@@ -620,7 +663,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-045",
@@ -634,7 +678,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-046",
@@ -648,7 +693,8 @@
           "zh": "implemented_route_checks_passed_final_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-047",
@@ -662,7 +708,8 @@
           "zh": "localized_labels_authored_specialized_body_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-048",
@@ -676,7 +723,8 @@
           "zh": "localized_labels_authored_specialized_body_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       },
       {
         "id": "RQ-PG-049",
@@ -690,7 +738,8 @@
           "zh": "localized_labels_authored_specialized_body_review_pending"
         },
         "self_review": "complete",
-        "user_acceptance": "pending"
+        "user_acceptance": "release_authorized_by_user",
+        "production_verification": "225-route production evidence; locale-specific paths checked"
       }
     ],
     "inventory_semantic_ownership": {
@@ -739,7 +788,7 @@
     "final_audit": "consolidated_self_review_completed_user_acceptance_pending",
     "content_revision_drafts": {
       "prepared": 27,
-      "cms_written": 0,
+      "cms_written": 27,
       "manifest": "content-revisions/manifest.json",
       "article_to_article_links": 30,
       "article_to_page_links": 83,
@@ -861,11 +910,13 @@
       "browser_form_locale_submissions_passed": 15,
       "independent_d1_r2_notification_readbacks": 15,
       "client_retry_tests_passed": 7,
-      "production_private_bucket": "not_provisioned_or_verified",
-      "production_migration": "not_applied_or_verified",
-      "production_submissions": 0,
-      "real_emails": 0,
-      "evidence": "evidence/rfq-pipeline-integration.json"
+      "production_private_bucket": "provisioned_private_and_binding_verified",
+      "production_migration": "unique_submission_index_applied_and_read_back",
+      "production_submissions": 1,
+      "real_emails": 1,
+      "evidence": "evidence/rfq-pipeline-integration.json",
+      "notification_status": "accepted_not_inbox_verified",
+      "production_evidence": "evidence/production-2026-10-22/rfq-qa.json"
     },
     "keyword_operational_map": {
       "rows_reviewed": 292,
@@ -909,7 +960,7 @@
       "final_evidence": "evidence/consolidated-review.json"
     }
   },
-  "next_action": "User consolidated acceptance of the full implemented candidate; after acceptance, execute the separately recorded production prerequisites and release readbacks without adding paid monitoring.",
+  "next_action": "Production publication complete. Check the internal QA receipt in the RubberQ mailbox when account access is available; measure organic results from non-test inquiries; no paid collection or periodic monitoring authorized.",
   "status_evidence": {
     "implemented_page_specs": 45,
     "message_page_specs": 49,
@@ -925,11 +976,51 @@
     "rfq_local_contract_checks_passed": 116,
     "evidence_file": "evidence/five-locale-implementation-checks.json",
     "rfq_evidence_file": "evidence/rfq-contract-checks.json",
-    "checks_scope": "local source parity, rendered text, metadata, JSON-LD, form accessibility names and local payload normalization; not production publication, live email delivery or final acceptance",
+    "checks_scope": "local source parity, rendered text, metadata, JSON-LD, form accessibility names and local payload normalization; not production publication, live email delivery or final acceptance; historical local snapshot retained. Current production state is production_release and production_layer.",
     "specialized_routes": "blog/search/privacy/terms kept; their bodies require separate final review",
     "paid_calls": 0,
     "cms_writes": 0,
     "production_deployments": 0,
-    "page_content_module_artifact": "ownership/page-content-modules.json"
+    "page_content_module_artifact": "ownership/page-content-modules.json",
+    "production_layer": {
+      "authorization": "用户明确指令：请提交推送部署",
+      "closed_at": "2026-10-22",
+      "production_url": "https://rubberq.com",
+      "application_source_commit": "28492bf26be151b6950dc05c24d6f0f05b618ced",
+      "pages_deployment": "ee3b83aa-6fc5-4736-8e19-690d52c7cb86",
+      "worker_version": "a1c1e099-df69-4a49-86e4-adff4d1cb82f",
+      "cms_transaction": "Tpx3uW67vVmtuGAgwhApwY",
+      "cms_updated_same_ids": 27,
+      "common_pages_passed": 225,
+      "specialized_checks_passed": 21,
+      "public_article_checks_passed": 27,
+      "private_bucket": "rubberq-rfq-attachments",
+      "paid_seo_calls": 0,
+      "new_recurring_monitors": 0,
+      "mailbox_delivery": "unverified",
+      "evidence_directory": "evidence/production-2026-10-22",
+      "git_production_branch": "main",
+      "git_alignment": "fast-forward approved source; automatic build receipt retained separately"
+    }
+  },
+  "production_release": {
+    "authorization": "用户明确指令：请提交推送部署",
+    "closed_at": "2026-10-22",
+    "production_url": "https://rubberq.com",
+    "application_source_commit": "28492bf26be151b6950dc05c24d6f0f05b618ced",
+    "pages_deployment": "ee3b83aa-6fc5-4736-8e19-690d52c7cb86",
+    "worker_version": "a1c1e099-df69-4a49-86e4-adff4d1cb82f",
+    "cms_transaction": "Tpx3uW67vVmtuGAgwhApwY",
+    "cms_updated_same_ids": 27,
+    "common_pages_passed": 225,
+    "specialized_checks_passed": 21,
+    "public_article_checks_passed": 27,
+    "private_bucket": "rubberq-rfq-attachments",
+    "paid_seo_calls": 0,
+    "new_recurring_monitors": 0,
+    "mailbox_delivery": "unverified",
+    "evidence_directory": "evidence/production-2026-10-22",
+    "git_production_branch": "main",
+    "git_alignment": "fast-forward approved source; automatic build receipt retained separately"
   }
 }

@@ -1,0 +1,53 @@
+{
+  "workerBindings": [
+    {
+      "name": "ALLOWED_ORIGIN",
+      "type": "plain_text"
+    },
+    {
+      "name": "DB",
+      "type": "d1"
+    },
+    {
+      "name": "FROM_EMAIL",
+      "type": "plain_text"
+    },
+    {
+      "name": "RESEND_API_KEY",
+      "type": "secret_text"
+    },
+    {
+      "name": "RFQ_ATTACHMENTS",
+      "type": "r2_bucket",
+      "bucketName": "rubberq-rfq-attachments"
+    },
+    {
+      "name": "TO_EMAIL",
+      "type": "plain_text"
+    }
+  ],
+  "pagesDeployment": "ee3b83aa-6fc5-4736-8e19-690d52c7cb86",
+  "productionBranch": "main",
+  "kv": {
+    "SESSION": {
+      "namespace_id": "a3aa3fb1f6ac4eb68986c5fd18f1f8f6"
+    }
+  },
+  "r2": {
+    "R2_BUCKET": {
+      "name": "rubberq-images"
+    }
+  },
+  "compatibility": "2026-05-14",
+  "flags": [
+    "nodejs_compat"
+  ],
+  "privateBucketManagedDomain": {
+    "enabled": false,
+    "bucketId": "9d9eb5efc0fc4738a0ca544bbc9407c7",
+    "domain": "pub-9d9eb5efc0fc4738a0ca544bbc9407c7.r2.dev"
+  },
+  "privateBucketCustomDomains": {
+    "domains": []
+  }
+}
