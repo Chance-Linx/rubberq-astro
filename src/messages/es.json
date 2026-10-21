@@ -4913,21 +4913,98 @@
       "RQ-PG-030": {
         "label": "Equipos de semiconductores",
         "title": "Juntas de caucho para equipos de semiconductores | RubberQ",
-        "description": "Evalúe un sello del equipo según sus condiciones reales de proceso.",
+        "description": "Defina sellos para equipos semiconductores por ubicación, química, vacío y criterios de contaminación. Planifique evaluación de materiales y muestras.",
         "h1": "Juntas de caucho para equipos de semiconductores",
         "intro": "Evalúe un sello del equipo según sus condiciones reales de proceso. Los candidatos FFKM y FKM necesitan especificación definida, revisión de aplicación y plan de cualificación.",
         "sections": [
           {
-            "heading": "Identificar el entorno del sello",
-            "body": "Indique ubicación, química, ciclos térmicos y vacío. Incluya limpieza, mantenimiento y límites de contaminación."
+            "heading": "Empezar por la posición real del sello",
+            "body": "Identifique ubicación y requisito del sello. Aporte plano original, material y motivo de evaluación. Una interfaz de cámara, conexión de fluido o sustitución necesitan exposición y aprobación propias; la familia del material es solo un dato."
           },
           {
-            "heading": "Separar material y cualificación del equipo",
-            "body": "Una designación no demuestra resistencia a plasma, limpieza ni duración. Consulte datos del compuesto y ensayos relevantes para su proceso."
+            "heading": "Preparar datos de proceso e interfaz",
+            "body": "Describa la secuencia en el sello, incluidos limpieza, calentamiento y cambios de presión.",
+            "table": {
+              "caption": "Información para sellos de equipos semiconductores",
+              "columns": [
+                "Dato",
+                "Información necesaria"
+              ],
+              "rows": [
+                [
+                  "Identidad",
+                  "Revisión del plano, referencia original, dimensiones y muestra disponible"
+                ],
+                [
+                  "Posición",
+                  "Ubicación, geometría de contacto, alojamiento, holgura y apoyo"
+                ],
+                [
+                  "Química",
+                  "Gases o fluidos reales, composición, limpieza y secuencia"
+                ],
+                [
+                  "Temperatura",
+                  "Servicio normal, picos, permanencia, transiciones y recuperación"
+                ],
+                [
+                  "Vacío o presión",
+                  "Historial, evacuación o venteo y cambios"
+                ],
+                [
+                  "Montaje",
+                  "Instalación, compresión, superficie y lubricante permitido"
+                ],
+                [
+                  "Pruebas",
+                  "Resultados de contaminación, métodos, criterios y aprobación del equipo"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Apoyar mantenimiento y desarrollo",
-            "body": "Aporte plano o especificación existente para revisar muestras. Repuestos de mantenimiento y nuevos desarrollos requieren una ruta de aprobación acordada."
+            "heading": "Relacionar cada preocupación con su prueba",
+            "body": "Plasma, partículas, desgasificación, permeación y fugas del conjunto son evaluaciones distintas. Acuerde compuesto, estado de muestra, condiciones y resultado de cada informe. Si importan metales extraíbles, especifique analitos, extracción, medición, preparación y límites de informe con el equipo responsable.",
+            "links": [
+              {
+                "url": "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+                "label": "Condiciones de evaluación para plasma (inglés)"
+              },
+              {
+                "url": "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing",
+                "label": "Interpretar informes de desgasificación (inglés)"
+              },
+              {
+                "url": "/blog/permeation-vs-leakage-understanding-the-difference-in-gas-systems",
+                "label": "Separar permeación y fugas (inglés)"
+              }
+            ]
+          },
+          {
+            "heading": "Evaluar candidatos antes de cambiar suministro",
+            "body": "Compare compuesto y pieza con especificación original e historial. Acuerde ensayos, muestras identificadas y prueba del equipo antes de aprobar. Vincule plano, grado, lote, embalaje y cambios para pedidos recurrentes. Una referencia de marca identifica la pieza original; el candidato requiere evaluación propia.",
+            "links": [
+              {
+                "url": "/materials/ffkm",
+                "label": "Requisitos de materiales FFKM"
+              },
+              {
+                "url": "/materials/fkm",
+                "label": "Requisitos de materiales FKM"
+              },
+              {
+                "url": "/products/ffkm-replacement-seals",
+                "label": "Evaluación de sustitución FFKM"
+              },
+              {
+                "url": "/quality",
+                "label": "Registros de calidad y trazabilidad"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Consultar muestras de sellos de equipo"
+              }
+            ]
           }
         ],
         "cta": "Consultar su aplicación",
@@ -4936,21 +5013,108 @@
       "RQ-PG-031": {
         "label": "Refrigeración líquida y energía",
         "title": "Caucho para refrigeración líquida y almacenamiento de energía | RubberQ",
-        "description": "Consulte juntas según fluidos, uniones y condiciones ambientales de sus equipos de refrigeración o almacenamiento.",
+        "description": "Revise sellos y juntas para refrigeración líquida y almacenamiento según fluido, interfaz y envolvente. Defina pruebas de material y conjunto.",
         "h1": "Caucho para refrigeración líquida y almacenamiento de energía",
         "intro": "Consulte juntas según fluidos, uniones y condiciones ambientales de sus equipos de refrigeración o almacenamiento. Selección de material y validación del montaje se revisan juntas.",
         "sections": [
           {
-            "heading": "Identificar el contacto con fluidos",
-            "body": "Aporte composición completa, aditivos, ciclos térmicos y de presión. Incluya limpieza e interfaces de material que tocan la junta."
+            "heading": "Identificar fluido y función de la pieza",
+            "body": "Describa conjunto y posición del caucho. Distinga refrigerante acuoso, fluido dieléctrico y electrolito de sistema de flujo por producto y exposición reales. Evalúe cada compuesto para ese servicio sin trasladar un resultado entre sistemas."
           },
           {
-            "heading": "Separar unión y carcasa",
-            "body": "Los sellos de fluido y las juntas de carcasa cumplen funciones distintas. Comparta alojamiento, abrazadera o brida, con compresión y movimiento exigidos."
+            "heading": "Preparar interfaz y exposición",
+            "body": "Empiece por plano e información disponible del fluido y acuerde detalles para evaluar material y conjunto.",
+            "table": {
+              "caption": "Información para caucho en refrigeración y almacenamiento",
+              "columns": [
+                "Dato",
+                "Qué aportar"
+              ],
+              "rows": [
+                [
+                  "Fluido",
+                  "Producto o especificación, mezcla, aditivos y composición disponible"
+                ],
+                [
+                  "Exposición",
+                  "Historial térmico y de presión, circulación, permanencia, limpieza y cambios"
+                ],
+                [
+                  "Interfaz",
+                  "Plano, holgura, compresión, fijación y secuencia de montaje"
+                ],
+                [
+                  "Movimiento",
+                  "Conexión o retirada, movimiento y cargas pertinentes"
+                ],
+                [
+                  "Contaminación",
+                  "Cambios del material, extraíbles o mediciones del fluido exigidos"
+                ],
+                [
+                  "Envolvente",
+                  "Perfil, topes, intemperie, polvo, humedad e instalación"
+                ],
+                [
+                  "Aprobación",
+                  "Informes, conjuntos representativos, criterios y equipo responsable"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Definir la validación",
-            "body": "Consulte inmersión, cambios dimensionales, recuperación y pruebas de conjunto. Los requisitos eléctricos o de inflamabilidad deben identificar método y compuesto concreto."
+            "heading": "Separar compatibilidad y sellado instalado",
+            "body": "Acuerde compuesto y probeta, preparación del fluido, exposición y criterios del informe. Defina aparte fugas y ciclos térmicos o de presión del conjunto. Para contaminación, identifique mediciones de material o fluido y métodos. La composición y concentración del electrolito corresponden al sistema real.",
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Leer resultados de exposición a fluidos (inglés)"
+              },
+              {
+                "url": "/materials/epdm",
+                "label": "Requisitos de candidatos EPDM"
+              },
+              {
+                "url": "/materials/hnbr",
+                "label": "Requisitos de candidatos HNBR"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Preparar una consulta de compatibilidad"
+              }
+            ]
+          },
+          {
+            "heading": "Evaluar sellado y combustión en sus niveles",
+            "body": "Para juntas de envolvente, defina unión, compresión y ensayo ambiental del armario montado. Si se exige combustión, identifique material ensayado, espesor, acondicionamiento, método e informe. Resultados del material, sellado y validación de seguridad del sistema son aceptaciones independientes.",
+            "links": [
+              {
+                "url": "/products/gaskets",
+                "label": "Geometría de juntas y envolventes"
+              },
+              {
+                "url": "/testing",
+                "label": "Consultar alcance de pruebas"
+              }
+            ]
+          },
+          {
+            "heading": "Acordar muestras y base de compra",
+            "body": "Envíe referencia, revisión, fluido, cantidad y objetivo. Acuerde muestras representativas, aprobación, embalaje y lotes antes del suministro recurrente. Vincule material y alcance de ensayo de cada pieza con su especificación aprobada.",
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "Juntas tóricas y sellos a medida"
+              },
+              {
+                "url": "/quality",
+                "label": "Registros y cambios"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Consultar muestras de refrigeración o envolvente"
+              }
+            ]
           }
         ],
         "cta": "Consultar su aplicación",
@@ -4959,21 +5123,107 @@
       "RQ-PG-032": {
         "label": "Gestión térmica de vehículos eléctricos",
         "title": "Caucho para gestión térmica de vehículos eléctricos | RubberQ",
-        "description": "Evalúe un componente según fluido, ciclos térmicos y montaje de su proyecto.",
+        "description": "Prepare piezas de caucho para gestión térmica EV con plano, refrigerante, interfaz y ciclos. Acuerde muestras, datos de ensayo y documentación requerida.",
         "h1": "Caucho para gestión térmica de vehículos eléctricos",
         "intro": "Evalúe un componente según fluido, ciclos térmicos y montaje de su proyecto. Plano y especificación permiten concretar material y fabricación.",
         "sections": [
           {
-            "heading": "Especificar la exposición",
-            "body": "Identifique fluido y aditivos, rango térmico, ciclos y limpieza. Incluya requisitos eléctricos únicamente con sus criterios de ensayo."
+            "heading": "Definir el componente de gestión térmica",
+            "body": "Empiece por plano, interfaz y función. Aporte especificación, fluido, cantidad y documentos del cliente. La revisión de material y fabricación debe responder al servicio térmico y la aprobación reales del componente."
           },
           {
-            "heading": "Revisar interfaces del componente",
-            "body": "Comparta geometría de contacto, tolerancias, compresión e instalación. Los requisitos de la pieza determinan la validación necesaria."
+            "heading": "Describir toda la secuencia de servicio",
+            "body": "Use refrigerante y limpieza reales en lugar de una categoría genérica.",
+            "table": {
+              "caption": "Información para piezas de gestión térmica EV",
+              "columns": [
+                "Dato",
+                "Qué aportar"
+              ],
+              "rows": [
+                [
+                  "Identidad",
+                  "Número de pieza, revisión y material existente"
+                ],
+                [
+                  "Interfaz",
+                  "Geometría, alojamiento o unión, holgura, compresión y superficie"
+                ],
+                [
+                  "Fluido",
+                  "Producto o especificación, mezcla, aditivos y limpiadores"
+                ],
+                [
+                  "Temperatura",
+                  "Arranque en frío, operación caliente, picos, permanencia y transiciones"
+                ],
+                [
+                  "Presión",
+                  "Cambios, pulsos, interrupciones y condiciones de flujo"
+                ],
+                [
+                  "Montaje",
+                  "Instalación, inserción o retirada, carga y estado representativo"
+                ],
+                [
+                  "Aceptación",
+                  "Criterios de material, dimensiones, fugas y ciclos; informes necesarios"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Preparar documentación del proveedor",
-            "body": "Consulte trazabilidad, inspección y documentación del cliente. Aprobación de muestras y compromisos de producción siguen a la revisión técnica."
+            "heading": "Evaluar material y conjunto por separado",
+            "body": "Compare compuestos, probetas, exposiciones y métodos identificados. Un resultado de material necesita contexto; el componente instalado, criterios funcionales propios. Defina ciclo térmico y de presión, acondicionamiento, observaciones y aceptación del conjunto.",
+            "items": [
+              "Revisar cambios tras exposición al fluido especificado.",
+              "Evaluar frío y recuperación pertinentes.",
+              "Comprobar fugas y función con instalación y secuencia definidas."
+            ],
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Leer resultados de exposición (inglés)"
+              },
+              {
+                "url": "/blog/low-temperature-retraction-tr-10-predicting-seal-failure-in-arctic-conditions",
+                "label": "Interpretar datos a baja temperatura (inglés)"
+              },
+              {
+                "url": "/materials",
+                "label": "Información para evaluar materiales"
+              },
+              {
+                "url": "/testing",
+                "label": "Planificar ciclos térmicos y pruebas del conjunto"
+              }
+            ]
+          },
+          {
+            "heading": "Acordar muestras, documentación y suministro",
+            "body": "Identifique material de muestra, plano y base productiva. Especifique presentación al cliente y responsable, incluido PPAP si se exige. Vincule requisitos, lotes, embalaje y cambios a pedidos recurrentes. Inicie la consulta con plano e información de servicio disponible.",
+            "links": [
+              {
+                "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+                "label": "Preparar presentaciones PPAP (inglés)"
+              },
+              {
+                "url": "/products/seals",
+                "label": "Requisitos de juntas tóricas y sellos"
+              },
+              {
+                "url": "/products/gaskets",
+                "label": "Requisitos de interfaces de junta"
+              },
+              {
+                "url": "/quality",
+                "label": "Registros y control de cambios"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Consultar muestras de gestión térmica"
+              }
+            ]
           }
         ],
         "cta": "Consultar su aplicación",
@@ -4982,21 +5232,104 @@
       "RQ-PG-033": {
         "label": "Robótica humanoide",
         "title": "Componentes de caucho para robótica humanoide | RubberQ",
-        "description": "Evalúe protección flexible, superficies de contacto y piezas adheridas según el movimiento y la carga del mecanismo.",
+        "description": "Defina requisitos de piezas de caucho para mecanismos humanoides: movimiento, carga, contacto y entorno. Planifique muestras y evaluación en el conjunto.",
         "h1": "Componentes de caucho para robótica humanoide",
         "intro": "Evalúe protección flexible, superficies de contacto y piezas adheridas según el movimiento y la carga del mecanismo. Comparta plano y función requerida para una consulta técnica.",
         "sections": [
           {
-            "heading": "Describir movimiento y contacto",
-            "body": "Indique recorrido, rotación, cargas repetidas, superficies de contacto y espacio. Añada exposición a polvo, fluidos y limpieza."
+            "heading": "Definir la función de la pieza en el mecanismo",
+            "body": "Parta del plano y de la función en el punto de montaje: protección flexible, superficie de contacto o pieza unida a metal. Identifique los elementos de contacto y el movimiento que debe admitir el caucho. Estos datos orientan la elección del material y del moldeo antes de definir muestras."
           },
           {
-            "heading": "Ajustar geometría y material",
-            "body": "Fuelles, almohadillas y piezas adheridas requieren revisiones distintas. Consulte fricción, deformación, retención e interfaces que controlan la función."
+            "heading": "Describir movimiento, contacto y cargas",
+            "body": "La forma por sí sola no describe el servicio de una pieza. Incluya las condiciones que determinan la evaluación de las muestras.",
+            "table": {
+              "caption": "Información para evaluar un componente de robótica",
+              "columns": [
+                "Dato",
+                "Información que debe aportar"
+              ],
+              "rows": [
+                [
+                  "Pieza e interfaz",
+                  "Revisión del plano, función, elementos de contacto y espacio disponible"
+                ],
+                [
+                  "Movimiento",
+                  "Carrera completa, movimiento lateral o angular, posiciones finales y fijaciones"
+                ],
+                [
+                  "Carga",
+                  "Masa soportada, precarga, dirección y, cuando proceda, frecuencia y amplitud"
+                ],
+                [
+                  "Entorno",
+                  "Temperatura, lubricante, productos de limpieza, polvo y otras exposiciones"
+                ],
+                [
+                  "Superficie de contacto",
+                  "Contracara, fuerza normal, velocidad, permanencia, contaminantes y criterio de desgaste"
+                ],
+                [
+                  "Requisito eléctrico",
+                  "Propiedad exigida, método de medida, probeta y acondicionamiento"
+                ],
+                [
+                  "Aprobación",
+                  "Cantidad de muestras, prueba montada, criterios de aceptación y registros necesarios"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Validar el trabajo mecánico",
-            "body": "Defina pruebas representativas con carga, movimiento y condiciones ambientales. Duración y rendimiento dinámico necesitan su propia base de medición."
+            "heading": "Evaluar protecciones flexibles y piezas unidas según su función",
+            "body": "En una protección flexible, revise conjuntamente la envolvente completa de movimiento, la fijación y la función protectora. En una pieza unida a metal, distinga la posición del metal y la aceptación de la unión de la respuesta estática o dinámica del conjunto. Evaluar la amortiguación exige conocer la carga y el rango de trabajo, incluida la estructura de apoyo.",
+            "links": [
+              {
+                "url": "/products/bellows",
+                "label": "Geometría y movimiento de fuelles"
+              },
+              {
+                "url": "/products/rubber-to-metal-bonded-parts",
+                "label": "Requisitos de piezas de caucho-metal"
+              },
+              {
+                "url": "/blog/industrial-bellows-material-selection-flex-life-media-exposure",
+                "label": "Material y exposición del fuelle"
+              },
+              {
+                "url": "/blog/vibration-damping-mounts-dynamic-stiffness-humanoid-robot-actuators",
+                "label": "Evaluar rigidez dinámica y amortiguación"
+              }
+            ]
+          },
+          {
+            "heading": "Especificar superficies de contacto con criterios medibles",
+            "body": "Para una almohadilla de contacto, identifique la superficie manipulada y la tarea. Acuerde el montaje de ensayo para agarre, desgaste y transferencia superficial con la fuerza, velocidad y contaminación pertinentes. Si necesita una propiedad eléctrica, defina por separado el método y el acondicionamiento. Vincule cada resultado al compuesto y a la geometría ensayados.",
+            "links": [
+              {
+                "url": "/products/custom",
+                "label": "Revisar una pieza moldeada a medida"
+              },
+              {
+                "url": "/testing",
+                "label": "Acordar los requisitos de ensayo"
+              }
+            ]
+          },
+          {
+            "heading": "Vincular las muestras a la prueba montada",
+            "body": "Elija condiciones de muestra que representen la instalación prevista. Acuerde quién evalúa el conjunto, qué se considera aceptable y cómo se gestionan los cambios. Conserve revisión del plano, compuesto, lote y registros de muestras para los pedidos posteriores.",
+            "links": [
+              {
+                "url": "/quality",
+                "label": "Documentación de calidad y trazabilidad"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Consultar muestras para robótica"
+              }
+            ]
           }
         ],
         "cta": "Consultar su aplicación",
@@ -5005,21 +5338,106 @@
       "RQ-PG-034": {
         "label": "Industria general",
         "title": "Piezas de caucho para equipos industriales | RubberQ",
-        "description": "Comparta requisitos de una junta, cubierta flexible o componente moldeado.",
+        "description": "Solicite piezas de caucho a medida para equipos industriales: planos, materiales, cantidades e inspección. Defina muestras y registros para pedidos repetidos.",
         "h1": "Piezas de caucho para equipos industriales",
         "intro": "Comparta requisitos de una junta, cubierta flexible o componente moldeado. Material, geometría, volumen e inspección orientan la fabricación.",
         "sections": [
           {
-            "heading": "Empezar por la función",
-            "body": "Describa qué debe sellar, proteger, soportar o tocar la pieza. Incluya plano, interfaces y entorno."
+            "heading": "Presentar un requisito concreto de componente",
+            "body": "RubberQ combina apoyo japonés en formulación con mezclado, moldeo, ensayos internos y trazabilidad ERP en China. Para un sello, junta, cubierta flexible o pieza unida a metal de uso industrial, empiece por la función y la interfaz. Revise conjuntamente plano, requisitos del compuesto y perfil de pedidos para definir la fabricación."
           },
           {
-            "heading": "Elegir una ruta práctica",
-            "body": "Consulte una muestra de referencia, un material existente o un plano nuevo. Identifique dimensiones y pruebas que permitan aceptar una muestra."
+            "heading": "Preparar la documentación para una oferta técnica",
+            "body": "Identifique los requisitos de cada pieza. Una muestra ayuda a explicar el componente; adjunte el plano y la especificación aprobados cuando estén disponibles.",
+            "table": {
+              "caption": "Datos para cotizar componentes industriales",
+              "columns": [
+                "Dato",
+                "Información que debe aportar"
+              ],
+              "rows": [
+                [
+                  "Plano e interfaz",
+                  "Referencia de pieza, revisión, dimensiones, geometría de contacto y montaje"
+                ],
+                [
+                  "Material y servicio",
+                  "Grado existente o propiedades exigidas, medios reales, temperatura y cargas"
+                ],
+                [
+                  "Cantidad",
+                  "Muestras, cantidad por pedido, demanda prevista y requisitos de entrega"
+                ],
+                [
+                  "Inspección",
+                  "Dimensiones críticas, criterios visuales, métodos y registros necesarios"
+                ],
+                [
+                  "Utillaje y cambios",
+                  "Información del molde existente, requisitos de propiedad y procedimiento de cambios"
+                ],
+                [
+                  "Evaluación",
+                  "Aprobación de muestras, ensayos del material y aceptación montada"
+                ],
+                [
+                  "Alcance del suministro",
+                  "Componentes terminados o compuesto, embalaje y documentación"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Planificar el suministro recurrente",
-            "body": "Acuerde identificación de lote, inspección, embalaje y previsión de demanda para pedidos continuados."
+            "heading": "Separar la función de sellado de la de vibración",
+            "body": "Para un sello expuesto a líquido de lavado, aporte la composición completa y sus aditivos, la secuencia de limpieza y las condiciones de la unión. Para una pieza antivibratoria, aporte masa soportada, precarga, rango de frecuencias, interfaces y criterio de respuesta o ruido. Si el equipo necesita ambas, defina un plano y una base de aceptación para cada pieza.",
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "Revisar geometría y material del sello"
+              },
+              {
+                "url": "/products/gaskets",
+                "label": "Requisitos de la interfaz de junta"
+              },
+              {
+                "url": "/products/rubber-to-metal-bonded-parts",
+                "label": "Requisitos de piezas unidas a metal"
+              },
+              {
+                "url": "/blog/vibration-damping-mounts-dynamic-stiffness-humanoid-robot-actuators",
+                "label": "Evaluar la respuesta estática y dinámica"
+              }
+            ]
+          },
+          {
+            "heading": "Pasar de la oferta al suministro repetido",
+            "body": "En una solicitud con varias piezas, indique por separado referencia, revisión, material y cantidad. Acuerde la ruta de fabricación, inspección de muestras y documentos de aprobación antes de pedidos repetidos. Vincule la especificación aprobada al compuesto y al lote de producción. Si solicita compuesto, defina su forma de entrega y condiciones de procesado por separado del suministro de piezas terminadas.",
+            "links": [
+              {
+                "url": "/products/custom",
+                "label": "Revisar un proyecto de piezas a medida"
+              },
+              {
+                "url": "/capabilities/rubber-molding",
+                "label": "Ruta de moldeo del caucho"
+              },
+              {
+                "url": "/compounds",
+                "label": "Consultar suministro de compuesto"
+              },
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Interpretar registros de trazabilidad por lote"
+              },
+              {
+                "url": "/batch-rfq",
+                "label": "Solicitar oferta para varias piezas"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Consultar muestras para uso industrial"
+              }
+            ]
           }
         ],
         "cta": "Consultar su aplicación",

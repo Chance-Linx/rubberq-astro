@@ -1,0 +1,66 @@
+16:40:18 [@astrojs/cloudflare] Enabling sessions with Cloudflare KV with the "SESSION" KV binding.
+16:40:18 [@astrojs/cloudflare] If you see the error "Invalid binding `SESSION`" in your build output, you need to add the binding to your wrangler config file.
+16:40:18 [content] Syncing content
+16:40:18 [content] Synced content
+16:40:18 [types] Generated 43ms
+16:40:18 [check] Getting diagnostics for Astro files in /Users/LINLAN/1 赚钱事业/外贸跨境项目/2026年项目/2024-03-02 橡胶独立站/rubberq-astro...
+src/middleware.ts:146:7 - warning ts(6133): 'legacyWordPressBlogFallbackSlugs' is declared but its value is never read.
+
+146 const legacyWordPressBlogFallbackSlugs = new Set(decodeLegacyBlogFallbackSlugs());
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/components/BatchRfqForm.tsx:186:27 - warning ts(6133): 'source' is declared but its value is never read.
+
+186     const trackAbandon = (source: string) => {
+                              ~~~~~~
+
+src/components/ContactForm.tsx:275:27 - warning ts(6133): 'source' is declared but its value is never read.
+
+275     const trackAbandon = (source: string) => {
+                              ~~~~~~
+
+src/components/Navbar.astro:9:17 - warning ts(6133): 'currentPath' is declared but its value is never read.
+
+9 const { locale, currentPath = '/' } = Astro.props;
+                  ~~~~~~~~~~~
+src/components/Navbar.astro:199:9 - warning astro(4000): This script will be treated as if it has the `is:inline` directive because it contains an attribute. Therefore, features that require processing (e.g. using TypeScript or npm packages in the script) are unavailable.
+
+See docs for more details: https://docs.astro.build/en/guides/client-side-scripts/#script-processing.
+
+Add the `is:inline` directive explicitly to silence this hint.
+
+199 <script define:vars={{ locales: [...locales], current }}>
+            ~~~~~~~~~~~
+
+src/components/SampleRequestForm.tsx:150:27 - warning ts(6133): 'source' is declared but its value is never read.
+
+150     const trackAbandon = (source: string) => {
+                              ~~~~~~
+
+src/components/TrustSignals.astro:168:27 - warning ts(7044): Parameter 'index' implicitly has an 'any' type, but a better type may be inferred from usage.
+
+168   function updateCarousel(index) {
+                              ~~~~~
+
+src/lib/case-studies.ts:132:22 - warning ts(80007): 'await' has no effect on the type of this expression.
+
+132       const image = (await getFeaturedImageUrl(post)) || DEFAULT_IMAGE;
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/lib/case-studies.ts:57:10 - warning ts(6133): 'extractResults' is declared but its value is never read.
+
+57 function extractResults(content: string) {
+            ~~~~~~~~~~~~~~
+src/lib/case-studies.ts:47:10 - warning ts(6133): 'extractFirstSentence' is declared but its value is never read.
+
+47 function extractFirstSentence(value: string) {
+            ~~~~~~~~~~~~~~~~~~~~
+
+src/pages/en/blog/[slug].astro:4:73 - warning ts(6133): 'getBlogUrl' is declared but its value is never read.
+
+4 import { findCanonicalBlogSlug, getBlogPostBySlug, getFeaturedImageUrl, getBlogUrl, getRelatedPosts, getAllBlogPosts, getUnavailableBlogPostStatus } from '@/lib/sanity';
+                                                                          ~~~~~~~~~~
+
+Result (86 files):
+- 0 errors
+- 0 warnings
+- 11 hints

@@ -1,0 +1,229 @@
+{
+  "date": "2026-10-21",
+  "scope": [
+    "/industries/semiconductor",
+    "/industries/liquid-cooling-energy-storage",
+    "/industries/ev-energy-storage",
+    "/industries/humanoid-robotics",
+    "/industries/industrial-equipment"
+  ],
+  "baseline_commit": "106eda51154dc7149f434c50deca4eb4f7c7a6fa",
+  "message_checks": [
+    {
+      "locale": "en",
+      "only_changed_ids": [
+        "RQ-PG-030",
+        "RQ-PG-031",
+        "RQ-PG-032",
+        "RQ-PG-033",
+        "RQ-PG-034"
+      ],
+      "only_fields": [
+        "sections",
+        "description"
+      ],
+      "all_other_message_values_unchanged": true,
+      "description_lengths": {
+        "/industries/semiconductor": 160,
+        "/industries/liquid-cooling-energy-storage": 154,
+        "/industries/ev-energy-storage": 157,
+        "/industries/humanoid-robotics": 154,
+        "/industries/industrial-equipment": 156
+      },
+      "current_file_sha256": "49fe1fa4431ceeff513a106641639451a79953047f69f4db70cb8621bf101b74"
+    },
+    {
+      "locale": "de",
+      "only_changed_ids": [
+        "RQ-PG-030",
+        "RQ-PG-031",
+        "RQ-PG-032",
+        "RQ-PG-033",
+        "RQ-PG-034"
+      ],
+      "only_fields": [
+        "sections",
+        "description"
+      ],
+      "all_other_message_values_unchanged": true,
+      "description_lengths": {
+        "/industries/semiconductor": 158,
+        "/industries/liquid-cooling-energy-storage": 156,
+        "/industries/ev-energy-storage": 152,
+        "/industries/humanoid-robotics": 143,
+        "/industries/industrial-equipment": 160
+      },
+      "current_file_sha256": "9abc10de7c1472cb22775cbc5cffbf41280e849796c93a9055ea2504e74e304b"
+    },
+    {
+      "locale": "ja",
+      "only_changed_ids": [
+        "RQ-PG-030",
+        "RQ-PG-031",
+        "RQ-PG-032",
+        "RQ-PG-033",
+        "RQ-PG-034"
+      ],
+      "only_fields": [
+        "sections",
+        "description"
+      ],
+      "all_other_message_values_unchanged": true,
+      "description_lengths": {
+        "/industries/semiconductor": 58,
+        "/industries/liquid-cooling-energy-storage": 57,
+        "/industries/ev-energy-storage": 60,
+        "/industries/humanoid-robotics": 58,
+        "/industries/industrial-equipment": 60
+      },
+      "current_file_sha256": "6ac9733d64eb85b4053e6a3bcc63fd5ca7479205443fa98db528217e1d7630e6"
+    },
+    {
+      "locale": "es",
+      "only_changed_ids": [
+        "RQ-PG-030",
+        "RQ-PG-031",
+        "RQ-PG-032",
+        "RQ-PG-033",
+        "RQ-PG-034"
+      ],
+      "only_fields": [
+        "sections",
+        "description"
+      ],
+      "all_other_message_values_unchanged": true,
+      "description_lengths": {
+        "/industries/semiconductor": 150,
+        "/industries/liquid-cooling-energy-storage": 142,
+        "/industries/ev-energy-storage": 153,
+        "/industries/humanoid-robotics": 153,
+        "/industries/industrial-equipment": 158
+      },
+      "current_file_sha256": "6d975283da33b291539a0dd2ab10ffc08ed3e1f0030889cf7babcc4bd9e136da"
+    },
+    {
+      "locale": "zh",
+      "only_changed_ids": [
+        "RQ-PG-030",
+        "RQ-PG-031",
+        "RQ-PG-032",
+        "RQ-PG-033",
+        "RQ-PG-034"
+      ],
+      "only_fields": [
+        "sections",
+        "description"
+      ],
+      "all_other_message_values_unchanged": true,
+      "description_lengths": {
+        "/industries/semiconductor": 53,
+        "/industries/liquid-cooling-energy-storage": 57,
+        "/industries/ev-energy-storage": 55,
+        "/industries/humanoid-robotics": 52,
+        "/industries/industrial-equipment": 52
+      },
+      "current_file_sha256": "6db11d087c8ca6ff8cf510d680858f7a81767ffa2265ea5bba389513fd8f0358"
+    }
+  ],
+  "preexisting_changes": [
+    {
+      "path": "scripts/govern-sanity-redline-articles.mjs",
+      "sha256": "7a5b5ac3045c95435cbbfcae82b9075bd1b40073aa0957287e210dbca11655a7",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/sanity.ts",
+      "sha256": "05a1b5594ffc8e94a3d3c444ba5b1b6dd29a5a024da7f99a7cf6eaaa75a460a6",
+      "unchanged": true
+    },
+    {
+      "path": "tools/rfq-worker-v2/worker.mjs",
+      "sha256": "0ad533b4ca7f3aef65de85f70f65f4ce66ddf945470b4fc2276c18a741179819",
+      "unchanged": true
+    },
+    {
+      "path": "tools/rfq-worker-v2/wrangler.toml",
+      "sha256": "93a1750d46f224d0e95040a6105889fc5e6c2d42029376fe4c0776ca362ececd",
+      "unchanged": true
+    }
+  ],
+  "local_new_routes": 25,
+  "local_new_sections": 110,
+  "local_new_tables": 25,
+  "local_new_context_links": 220,
+  "local_new_article_link_placements": 55,
+  "english_article_link_targets": [
+    {
+      "page": "/industries/ev-energy-storage",
+      "label": "Reading fluid-exposure results",
+      "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+      "draft_title": "Rubber Fluid-Swell Reports: Compare the Liquid and Test Conditions"
+    },
+    {
+      "page": "/industries/ev-energy-storage",
+      "label": "Interpreting low-temperature data",
+      "url": "/blog/low-temperature-retraction-tr-10-predicting-seal-failure-in-arctic-conditions",
+      "draft_title": "Low-Temperature Retraction: Use TR Data with Seal Requirements"
+    },
+    {
+      "page": "/industries/ev-energy-storage",
+      "label": "Preparing customer PPAP submissions",
+      "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+      "draft_title": "PPAP for Rubber Parts: Link the Drawing, Compound and Process"
+    },
+    {
+      "page": "/industries/humanoid-robotics",
+      "label": "Bellows material and exposure review",
+      "url": "/blog/industrial-bellows-material-selection-flex-life-media-exposure",
+      "draft_title": "Industrial Rubber Bellows: Material and Motion Review"
+    },
+    {
+      "page": "/industries/humanoid-robotics",
+      "label": "Reviewing dynamic stiffness and damping",
+      "url": "/blog/vibration-damping-mounts-dynamic-stiffness-humanoid-robot-actuators",
+      "draft_title": "Dynamic Stiffness of Robot Rubber Mounts: Reading the Test Evidence"
+    },
+    {
+      "page": "/industries/industrial-equipment",
+      "label": "Static and dynamic response evaluation",
+      "url": "/blog/vibration-damping-mounts-dynamic-stiffness-humanoid-robot-actuators",
+      "draft_title": "Dynamic Stiffness of Robot Rubber Mounts: Reading the Test Evidence"
+    },
+    {
+      "page": "/industries/industrial-equipment",
+      "label": "Reading batch traceability records",
+      "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+      "draft_title": "Rubber Batch Traceability: Records for Repeat Orders"
+    },
+    {
+      "page": "/industries/liquid-cooling-energy-storage",
+      "label": "Reading fluid-exposure results",
+      "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+      "draft_title": "Rubber Fluid-Swell Reports: Compare the Liquid and Test Conditions"
+    },
+    {
+      "page": "/industries/semiconductor",
+      "label": "Plasma-seal evaluation conditions",
+      "url": "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+      "draft_title": "FFKM Seals for Plasma Equipment: Define the Evaluation Conditions"
+    },
+    {
+      "page": "/industries/semiconductor",
+      "label": "Reading vacuum-outgassing reports",
+      "url": "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing",
+      "draft_title": "Vacuum Seal Outgassing: Comparing Reports for Sensitive Equipment"
+    },
+    {
+      "page": "/industries/semiconductor",
+      "label": "Separating permeation from leakage",
+      "url": "/blog/permeation-vs-leakage-understanding-the-difference-in-gas-systems",
+      "draft_title": "Gas Permeation vs Leakage: Define the Seal Evaluation"
+    }
+  ],
+  "implemented_modules": 25,
+  "remaining_modules": 10,
+  "accepted_coverage": 0,
+  "cms_writes": 0,
+  "production_deployments": 0,
+  "new_paid_calls": 0
+}

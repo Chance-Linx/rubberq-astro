@@ -1837,8 +1837,9 @@
           "required_updates": "保留EV热管理任务，收集完整冷却液、接口、压缩和循环，不使用跨文章相反的家族排名或自动转移到液冷全场景。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/industries/industrial-equipment",
@@ -1857,8 +1858,9 @@
           "required_updates": "区分密封和减振任务，围绕洗涤液、载荷频率、几何与噪声评价，不默认归为消费者流量，也不扩展主行业。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/blog/iso-3601-3-visual-inspection-standards-for-o-rings-what-is-acceptable",
@@ -2245,8 +2247,9 @@
           "required_updates": "与112BESS阻燃任务统筹，若保留需补具体材料/试样的阻燃方法和箱体密封要求，不用溶胀图替代阻燃或系统安全证明。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/products/custom",
@@ -2679,8 +2682,9 @@
           "required_updates": "保留URL范围记录，不用关节稿证明手部触觉或ESD供货；先确认零件任务、接触/磨耗和电性要求，再决定是否独立内容。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/industries/semiconductor",
@@ -2713,8 +2717,9 @@
           "required_updates": "仅在真实采购需求和可提供资料支持下单独讨论金属提取评价；不由FFKM家族、尺寸标准或等离子图推出超低离子或晶圆适用。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/products/ffkm-replacement-seals",

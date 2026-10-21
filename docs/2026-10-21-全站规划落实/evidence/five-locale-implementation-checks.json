@@ -8,35 +8,35 @@
       "page_count": 49,
       "pass": true,
       "issues": [],
-      "file_sha256": "8335d94aeca2577e826fee523ca888b552fddfc75d63ad6d495be6a142f0818f"
+      "file_sha256": "49fe1fa4431ceeff513a106641639451a79953047f69f4db70cb8621bf101b74"
     },
     {
       "locale": "de",
       "page_count": 49,
       "pass": true,
       "issues": [],
-      "file_sha256": "90a2c1395eb82e009e7abdf940a3807ed53f4b9c905a4a7a3eb34b31dd5fed0c"
+      "file_sha256": "9abc10de7c1472cb22775cbc5cffbf41280e849796c93a9055ea2504e74e304b"
     },
     {
       "locale": "ja",
       "page_count": 49,
       "pass": true,
       "issues": [],
-      "file_sha256": "f7c88f7ade761e91200cb4f2fe5934ff42d6703d23fb6a3dabd5589e25a4248a"
+      "file_sha256": "6ac9733d64eb85b4053e6a3bcc63fd5ca7479205443fa98db528217e1d7630e6"
     },
     {
       "locale": "es",
       "page_count": 49,
       "pass": true,
       "issues": [],
-      "file_sha256": "d41bb9e417bc0473a143df6a228c5a5db53b6c62e1c6b8518e69db99d912b876"
+      "file_sha256": "6d975283da33b291539a0dd2ab10ffc08ed3e1f0030889cf7babcc4bd9e136da"
     },
     {
       "locale": "zh",
       "page_count": 49,
       "pass": true,
       "issues": [],
-      "file_sha256": "fadafb095d3c444f40d1c93791cc5919072e956ed312c23d40aab6eaf8a9396c"
+      "file_sha256": "6db11d087c8ca6ff8cf510d680858f7a81767ffa2265ea5bba389513fd8f0358"
     }
   ],
   "page_results": [
@@ -394,11 +394,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 8,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "02e7f6b559b4838ce9614a21832e8e33743a835c56af002b066d21a8ae94766f"
+      "html_sha256": "0ae9556e2f828ed048834a0bbdf9a9dfb312c2150cb18199a1dc267c82c573e7"
     },
     {
       "locale": "en",
@@ -406,11 +406,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 9,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "3e8e78f36b87b9c4b13727d20a6891adee2f4840d871d0e94556c6e2272d6fd6"
+      "html_sha256": "e8c9942d722c09d0e043f5a5d120e7c723e41b1856084bdc6f72c30f155cb0c1"
     },
     {
       "locale": "en",
@@ -418,11 +418,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 9,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "95da65e035c57f5210250d95d10b576bf1bc1a7c08f8c3810c5b0eb4a38d0dd8"
+      "html_sha256": "eb2b4730c163c8c98a7721dcb7be45ab745ded92bc7ec1834404f80be8ea01d6"
     },
     {
       "locale": "en",
@@ -430,11 +430,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 8,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "cb1a5168667abe46c7d08b6e985e424c7f779cf6cee8835359eb069af4c90eaa"
+      "html_sha256": "b603e9a40bb93a74698ff2491e045118219990f6d7979861012da4dde03876f0"
     },
     {
       "locale": "en",
@@ -442,11 +442,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 10,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "a7057c11bd2d0e61b63380fb2bfb879a92644bd32618ac2fe16f25329ec662b4"
+      "html_sha256": "b7759ff3711b0c906d83b5e82a9aae263561074a68f829b83f6dcc409f0e1af5"
     },
     {
       "locale": "en",
@@ -655,7 +655,7 @@
           "select": "rq-contact-projectStage"
         }
       ],
-      "html_sha256": "ab235081bb0080ec462762678a56b9abb58d3e2ddc7503d034c4d0963bda78fb"
+      "html_sha256": "e4cece9660667bf89a965ec16258a0dedda5acba0795a8bd4f54efd6dc3c4e1d"
     },
     {
       "locale": "en",
@@ -758,7 +758,7 @@
           "select": "Project Stage"
         }
       ],
-      "html_sha256": "3373dacdfb6e70d15b682d1f8059272b99c69e09cd902f5e7ae019506c0a9398"
+      "html_sha256": "2ffda7923260fe58d77dd35a35e8eb468ea7329f5019b2d27a11b8e4b843f72b"
     },
     {
       "locale": "en",
@@ -806,7 +806,7 @@
           "select": "Project Stage"
         }
       ],
-      "html_sha256": "21ef3077eef6cd9e88f8da73ec659ab9861c3c8001bd1323b63397d4e7d97e7c"
+      "html_sha256": "2896ab2608fc06dbc462cd9af0e417127cf008ca24e11a386f9bb062681d75c7"
     },
     {
       "locale": "de",
@@ -1162,11 +1162,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 8,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "33f84883b7a508cbbc9f49b55ea7aee71ded1e66b8706afba7e81d147030ee60"
+      "html_sha256": "a58898dd69c957449ceff16022f1c5270f143a518604a53ea0a6ddd7b33f62f3"
     },
     {
       "locale": "de",
@@ -1174,11 +1174,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 9,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "b3a2cd92ff7d4ffc043e35501f31e5d15e5c2dfb6109e6997f64c3c09a752b29"
+      "html_sha256": "5ae20a6e31c0399e2ffba13a412c434546d286a8285da4f9536a86af00d79901"
     },
     {
       "locale": "de",
@@ -1186,11 +1186,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 9,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "52799a48e051759b608d69e9454c7b1f1c8ae6dffa977828e67b11157118ac00"
+      "html_sha256": "ef7267ddc92532f12a23338808acfd21c6aa47b29e36d81f72a5180156c48ad3"
     },
     {
       "locale": "de",
@@ -1198,11 +1198,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 8,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "cf080061df11f77d249039211dc3340d076757609faa0e1b1a55def1528ceee0"
+      "html_sha256": "6d43d007e202d9b025ee560a0b4b48ed2c2c5146fa4701fcc24b8ee0010a068f"
     },
     {
       "locale": "de",
@@ -1210,11 +1210,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 10,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "322b3398f8cfff9cac5c38354924735af387743277f3c8fa9f1913de8e35d27d"
+      "html_sha256": "bbe92b2f69e1f7fbb8516c827323671f5f9edebef1065c7b3bcabb7417fa39c1"
     },
     {
       "locale": "de",
@@ -1423,7 +1423,7 @@
           "select": "rq-contact-projectStage"
         }
       ],
-      "html_sha256": "a78c2d20393386f0fb103659cab773f5906db4bc753be4901c9d54c33adb2976"
+      "html_sha256": "156d911df5fd360ad11cb82c6c0fa4b333be68a9212b0731fac98796aaf1815a"
     },
     {
       "locale": "de",
@@ -1526,7 +1526,7 @@
           "select": "Projektphase"
         }
       ],
-      "html_sha256": "34a615a8223e1a648532e908da6c2d28900c644abaa554f1287561f04e828b7a"
+      "html_sha256": "3cc38ff084a0eec15abee4c5529b8a38a01a34db67369266a4b854c9e73f209b"
     },
     {
       "locale": "de",
@@ -1574,7 +1574,7 @@
           "select": "Projektphase"
         }
       ],
-      "html_sha256": "9eb79c1702210038bf561b181c60048deccdc93f5d067f6403815ba91d3442c7"
+      "html_sha256": "f3f057cf36ab96845d2bd912b62fb3569bcb5f43e156560c69b6139f454b6c32"
     },
     {
       "locale": "ja",
@@ -1930,11 +1930,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 8,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "13289e1b63ef4c3c38ed91ec85d4b60b287dec44e9164e288371f8c0ae55e6b9"
+      "html_sha256": "a5dae271cbfe79df973e0676ffc847af2108e9f15805a2adf5440110966689d4"
     },
     {
       "locale": "ja",
@@ -1942,11 +1942,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 9,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "1a772b49bd082a8d66df3c4382e05d2cfb4d493384c8a02d458306ceecdcf637"
+      "html_sha256": "6f688f4dcb62fc8fd817741beeb9334c6577357434181779d5d4e0cf03715118"
     },
     {
       "locale": "ja",
@@ -1954,11 +1954,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 9,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "f1f328b8ce7aabb03ee6f84650906fe2d51837ea00e36dd3a6ade3246a8c1370"
+      "html_sha256": "7c15a89510e746ae6bcc9d413793d4499a6640bfe43a9f5684321979e645248b"
     },
     {
       "locale": "ja",
@@ -1966,11 +1966,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 8,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "6e90b4926ba55fb13f64286ea500306a9c71540f502b7a7040c01cf893a58533"
+      "html_sha256": "dbd4f1d47c49ed033e9ba2cd94dc8913b00819a58e260e5213900b4392b2a297"
     },
     {
       "locale": "ja",
@@ -1978,11 +1978,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 10,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "6ae77285b838663ba7d62a9debca4c8ec52a67ac81bf3a6b0c39fe04cf44e689"
+      "html_sha256": "5ecee55e9425d0a8b975595a59eea7ba18bb1314c35609798ec8e50716781681"
     },
     {
       "locale": "ja",
@@ -2191,7 +2191,7 @@
           "select": "rq-contact-projectStage"
         }
       ],
-      "html_sha256": "52ae772188ced38da761be0d2369892da22ec480c44a8b31c47059bc0134dccc"
+      "html_sha256": "6dcabbb59f302dfe83af6bd658351a9e87d99c667a2b665abb7a4aef425a93ad"
     },
     {
       "locale": "ja",
@@ -2294,7 +2294,7 @@
           "select": "案件の段階"
         }
       ],
-      "html_sha256": "b7b0051b510c024a1bf0177855354ef58b63c2dcd48ffff7dacbafc31f64db64"
+      "html_sha256": "f648fce711718b1d6f820f78902c1b0ca59d8e2b96a8e3cc829a8255824e75f1"
     },
     {
       "locale": "ja",
@@ -2342,7 +2342,7 @@
           "select": "プロジェクト段階"
         }
       ],
-      "html_sha256": "ea1d8252a41c7cc3b17ab410abe3a4401be83e7a63bd4fd79edad21ceddd3ed7"
+      "html_sha256": "9712b560ba13033e3e09990a8907ad753395ae575e11afaf679e81d3e2c93e8b"
     },
     {
       "locale": "es",
@@ -2698,11 +2698,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 8,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "a8a52070b42f86efc0b4e95f0b4d057ae708e45c53507a5b8561df7fd312b18c"
+      "html_sha256": "f01bdd60b4690a58b5fb87a0df4bfbd98f347aed1eaf23a907451865f6e225b4"
     },
     {
       "locale": "es",
@@ -2710,11 +2710,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 9,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "979972302090ea79774f21e857a89fd11c9ff85c1eaf2e7396df69a70d75f3d3"
+      "html_sha256": "75c7dec2e5b2c2336cd713e43d0a191f449e76ccd73ef50aa4819985f405760f"
     },
     {
       "locale": "es",
@@ -2722,11 +2722,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 9,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "f355f95923b7b472f4bef091001ff0818bb3a132052be1562f61e48f686721e4"
+      "html_sha256": "85a19b6aa7d3530127d02a2f23edd1ba5a44f72f627e07080e948f0d9af67262"
     },
     {
       "locale": "es",
@@ -2734,11 +2734,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 8,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "83ab729b5540659e4973a25e62dcb21769d0337e65fd0543f087756de5d6a620"
+      "html_sha256": "8c76c5b5730a3042c473b45423aa180e65e0a809630f5aa41085e8519fe950f4"
     },
     {
       "locale": "es",
@@ -2746,11 +2746,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 10,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "54f40b77c0d9c381af67e4bfdedc813fae1c30a82f490f45856edaac495f770b"
+      "html_sha256": "8329b1b4ada17270a89825726fe0f47adbffa6abf44a4d6d69aba17c2010e71b"
     },
     {
       "locale": "es",
@@ -2959,7 +2959,7 @@
           "select": "rq-contact-projectStage"
         }
       ],
-      "html_sha256": "43e212eae406f2b369f9bfcf336231670f5d790dcc02fe5d94c328db44ab770c"
+      "html_sha256": "8b742a7a986f393ccb5ac1d285d37b4549cb986e0f5fdd09586e248faa93c0b7"
     },
     {
       "locale": "es",
@@ -3062,7 +3062,7 @@
           "select": "Etapa del proyecto"
         }
       ],
-      "html_sha256": "85400c0471d47d6cf5ee813ccdc586ebb2c2b0dd629f36e42764e01e6a910a2a"
+      "html_sha256": "fd5a3b673277546915c899927a7fd3256a16ce9ed9b5d3cf81f9eeb62196eca1"
     },
     {
       "locale": "es",
@@ -3110,7 +3110,7 @@
           "select": "Etapa del proyecto"
         }
       ],
-      "html_sha256": "e042ed1fceffaf018b99785363d1944eb32113644c7f5fd0799a5cf8e3d68257"
+      "html_sha256": "f77212e6cd42de19e478cf25a721f8e445c5661568bc6486eb099990c7131942"
     },
     {
       "locale": "zh",
@@ -3466,11 +3466,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 8,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "dc108ebc81d7eee03d6ad95581d05f8d0e5f0b6927ac05cf9e7b725326f24f21"
+      "html_sha256": "c4fe95f56488ce06dc10199eada5ee557b703926176866af88489797ad59bbf6"
     },
     {
       "locale": "zh",
@@ -3478,11 +3478,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 9,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "da432cfd7c6e13c31341987a254b160c889fd54c8772f4502eabfe8a1c3c44cc"
+      "html_sha256": "5114a3e575344730bd371d6c5a1e8d90241b0be6e76ffc0ac6251813db53525e"
     },
     {
       "locale": "zh",
@@ -3490,11 +3490,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 9,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "12cad335cbdee8d9f7302ac455d320958d142a981aadb8181f60ef4e63b1a715"
+      "html_sha256": "5a80ebbc8d93b14b1487d31928f03d4eb3dea7b7d9a35bbc25a41fd038767091"
     },
     {
       "locale": "zh",
@@ -3502,11 +3502,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 8,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "d99f6f026c9d49c0a257364baeb41297f115dbc72946176cb891c0fadf01db8c"
+      "html_sha256": "117e947ef2f6c8e656c4af1d17a8d6e8db0e61af9f33c2d7812c3c1cb2c20483"
     },
     {
       "locale": "zh",
@@ -3514,11 +3514,11 @@
       "status": 200,
       "pass": true,
       "issues": [],
-      "rich_tables": 0,
-      "contextual_links": 0,
+      "rich_tables": 1,
+      "contextual_links": 10,
       "forms": 0,
       "form_options": [],
-      "html_sha256": "b557a55320c504b9af7066863e9dc85e75e1e14aec8a67436547187bc602308f"
+      "html_sha256": "b1e00adba4ed7eccf845baace1cdd84fa8ded13369ea71c9b28f685643a5e212"
     },
     {
       "locale": "zh",
@@ -3727,7 +3727,7 @@
           "select": "rq-contact-projectStage"
         }
       ],
-      "html_sha256": "09077adf0e9d41b55d8d98a534652b533b68b45cb6ea9f593ea343c7bd290bf8"
+      "html_sha256": "ff357ad255b1437873a996deed146dbef20c131749d9b0a6786bb8b663bfffa7"
     },
     {
       "locale": "zh",
@@ -3830,7 +3830,7 @@
           "select": "项目阶段"
         }
       ],
-      "html_sha256": "cf93803e39061984f4a01e2a741c729e7fc6aba9c6e72add9224919269ec6683"
+      "html_sha256": "2c1d24d4ce6a04172936b304790bbfd2c588232f06e2f1d9422809bc560c7006"
     },
     {
       "locale": "zh",
@@ -3878,7 +3878,7 @@
           "select": "项目阶段"
         }
       ],
-      "html_sha256": "d5cf731ba0c07a7618771ca33ce4e114eb5fc1ddde17bc37fc62e1390d9572fe"
+      "html_sha256": "d489ea7156b9fb9dddeaaaf73b8418af8f3e5d119726a8012e5fdad6d2242e36"
     }
   ],
   "unknown_routes": [

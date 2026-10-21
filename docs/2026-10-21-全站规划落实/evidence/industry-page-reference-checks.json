@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-21",
+  "scope": "Public primary scope cross-checks; no paid standards, certification or new factory performance evidence.",
+  "references": [
+    {
+      "id": "UL94-TESTING",
+      "url": "https://www.ul.com/services/combustion-fire-tests-plastics",
+      "scope_read": "UL 94 flame ratings, public small-scale specimen context",
+      "use": "Material flame results remain separate from enclosure sealing and system safety acceptance; no numerical flame rating promised."
+    },
+    {
+      "id": "OCP-IMMERSION-COMPATIBILITY-2022",
+      "url": "https://www.opencompute.org/documents/material-compatibility-in-immersion-cooling-document-version-1-0-nov-28-2022-1-pdf",
+      "scope_read": [
+        "Introduction and scope",
+        "Material-compatibility definitions excerpts",
+        "Recommended test methods introductory text"
+      ],
+      "use": "仅作浸没式介电液场景与试验对象/条件的一手范围核对；不延伸到所有水乙二醇冷板或储能系统，不采用阈值、程序、兼容图表或数据证明RubberQ配方。"
+    },
+    {
+      "id": "SEMI-LIQUID-CHEMICAL-INDEX",
+      "url": "https://www.semi.org/en/products-services/LiquidChemicalStandards",
+      "scope_read": [
+        "Public F57 title in Liquid Chemical Standards index"
+      ],
+      "use": "仅核对F57标题所指超纯水和液体化学品分配系统，不把该范围套用为所有等离子或设备密封件资格；未购买标准全文或使用其中限值。"
+    }
+  ],
+  "existing_sources_reused": [
+    "Prior material, vacuum and dynamic-stiffness references retained with the revised articles"
+  ],
+  "public_external_links_added": 0,
+  "thresholds_or_certifications_added": false,
+  "new_paid_calls": 0
+}

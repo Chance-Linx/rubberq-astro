@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-21",
+  "scope": "Local browser rendering and one primary CTA navigation only; no form submission or production release.",
+  "pages": [
+    {
+      "url": "http://127.0.0.1:4397/industries/semiconductor",
+      "locale": "en",
+      "page_title_present": true,
+      "table_present": true
+    },
+    {
+      "url": "http://127.0.0.1:4397/de/industries/liquid-cooling-energy-storage",
+      "locale": "de",
+      "page_title_present": true,
+      "table_present": true
+    },
+    {
+      "url": "http://127.0.0.1:4397/ja/industries/humanoid-robotics",
+      "locale": "ja",
+      "page_title_present": true,
+      "table_present": true
+    },
+    {
+      "url": "http://127.0.0.1:4397/zh/industries/ev-energy-storage",
+      "locale": "zh",
+      "page_title_present": true,
+      "table_present": true
+    },
+    {
+      "url": "http://127.0.0.1:4397/es/industries/industrial-equipment",
+      "locale": "es",
+      "page_title_present": true,
+      "table_present": true
+    }
+  ],
+  "cta": {
+    "from": "/es/industries/industrial-equipment",
+    "observed_contact_url": "http://127.0.0.1:4397/es/contact?source=%2Findustries%2Findustrial-equipment&cta=project-review",
+    "url_source_observed": true,
+    "form_fields_observed": true,
+    "submitted": false,
+    "full_attribution_contract_verified": false
+  },
+  "screenshot": "evidence/semiconductor-industry-module-en.png",
+  "mobile_checked": false,
+  "dashboard": {
+    "url": "http://127.0.0.1:8797/map",
+    "page_module_progress_observed": true,
+    "final_release_pending_observed": true
+  }
+}

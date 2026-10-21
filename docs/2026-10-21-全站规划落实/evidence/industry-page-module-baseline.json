@@ -1,0 +1,17 @@
+{
+  "baseline_commit": "106eda51154dc7149f434c50deca4eb4f7c7a6fa",
+  "scope": [
+    "/industries/semiconductor",
+    "/industries/liquid-cooling-energy-storage",
+    "/industries/ev-energy-storage",
+    "/industries/humanoid-robotics",
+    "/industries/industrial-equipment"
+  ],
+  "files": {
+    "src/messages/en.json": "8335d94aeca2577e826fee523ca888b552fddfc75d63ad6d495be6a142f0818f",
+    "src/messages/de.json": "90a2c1395eb82e009e7abdf940a3807ed53f4b9c905a4a7a3eb34b31dd5fed0c",
+    "src/messages/ja.json": "f7c88f7ade761e91200cb4f2fe5934ff42d6703d23fb6a3dabd5589e25a4248a",
+    "src/messages/es.json": "d41bb9e417bc0473a143df6a228c5a5db53b6c62e1c6b8518e69db99d912b876",
+    "src/messages/zh.json": "fadafb095d3c444f40d1c93791cc5919072e956ed312c23d40aab6eaf8a9396c"
+  }
+}

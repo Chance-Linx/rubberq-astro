@@ -4847,21 +4847,98 @@
       "RQ-PG-030": {
         "label": "Semiconductor Equipment",
         "title": "Rubber Seals for Semiconductor Equipment | RubberQ",
-        "description": "Review an equipment seal against its actual process conditions. FFKM and FKM candidates require a defined specification, application review and.",
+        "description": "Define semiconductor equipment seal requirements by position, process chemistry, vacuum history and contamination criteria. Plan material and sample evaluation.",
         "h1": "Rubber Seals for Semiconductor Equipment",
         "intro": "Review an equipment seal against its actual process conditions. FFKM and FKM candidates require a defined specification, application review and qualification plan.",
         "sections": [
           {
-            "heading": "Map the seal environment",
-            "body": "Identify the seal location, process chemistry, temperature cycle and vacuum requirements. Include cleaning and maintenance conditions and any contamination limits."
+            "heading": "Start with the actual seal position",
+            "body": "Identify the equipment position and the requirement the seal must meet. Share the original drawing, material reference and reason for evaluation. A chamber interface, fluid connection and replacement request need their own exposure and approval basis; the material-family name is only one input."
           },
           {
-            "heading": "Separate material and equipment qualification",
-            "body": "A material designation does not establish plasma resistance, cleanliness or seal life. Discuss the compound-specific data and tests relevant to your process."
+            "heading": "Prepare the process and interface information",
+            "body": "Describe the sequence at the seal, including cleaning, heating and pressure changes.",
+            "table": {
+              "caption": "Inputs for a semiconductor equipment seal review",
+              "columns": [
+                "Input",
+                "Information to provide"
+              ],
+              "rows": [
+                [
+                  "Part identity",
+                  "Drawing revision, original part reference, dimensions and available sample"
+                ],
+                [
+                  "Position",
+                  "Seal location, mating geometry, groove, gap and support"
+                ],
+                [
+                  "Process chemistry",
+                  "Actual gases or fluids, composition, cleaning and sequence"
+                ],
+                [
+                  "Thermal duty",
+                  "Normal temperature, peaks, dwell, transitions and recovery"
+                ],
+                [
+                  "Vacuum or pressure",
+                  "Operating history, pump-down or venting and pressure changes"
+                ],
+                [
+                  "Assembly",
+                  "Installation, compression, surface condition and permitted lubricant"
+                ],
+                [
+                  "Evidence",
+                  "Required contamination outputs, methods, acceptance criteria and equipment approval"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Support maintenance and development",
-            "body": "Bring the drawing or existing part specification for sample review. Equipment maintenance replacements and new developments need an agreed approval route."
+            "heading": "Keep each process concern with its own evidence",
+            "body": "Plasma exposure, particles, outgassing, permeation and assembly leakage describe different evaluations. Agree the compound, sample state, conditions and output for each required report. If extractable metals matter, specify analytes, extraction and measurement methods, sample preparation and reporting limits with the equipment team.",
+            "links": [
+              {
+                "url": "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+                "label": "Plasma-seal evaluation conditions"
+              },
+              {
+                "url": "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing",
+                "label": "Reading vacuum-outgassing reports"
+              },
+              {
+                "url": "/blog/permeation-vs-leakage-understanding-the-difference-in-gas-systems",
+                "label": "Separating permeation from leakage"
+              }
+            ]
+          },
+          {
+            "heading": "Evaluate candidates before changing supply",
+            "body": "Compare the proposed compound and part with the original specification and service history. Agree material tests, identified samples and the equipment trial before approval. Keep the drawing, grade, lot, packaging and change requirements linked for repeat supply. An original brand reference identifies the part being reviewed; the candidate requires its own evaluation.",
+            "links": [
+              {
+                "url": "/materials/ffkm",
+                "label": "FFKM material requirements"
+              },
+              {
+                "url": "/materials/fkm",
+                "label": "FKM material requirements"
+              },
+              {
+                "url": "/products/ffkm-replacement-seals",
+                "label": "FFKM replacement review"
+              },
+              {
+                "url": "/quality",
+                "label": "Quality records and traceability"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Discuss equipment-seal samples"
+              }
+            ]
           }
         ],
         "cta": "Discuss Your Application",
@@ -4870,21 +4947,108 @@
       "RQ-PG-031": {
         "label": "Liquid Cooling & Energy Storage",
         "title": "Rubber Components for Liquid Cooling and Energy Storage",
-        "description": "Discuss sealing components against the fluid, joint and environmental conditions of your cooling or energy-storage equipment. Material selection and.",
+        "description": "Review rubber seals and gaskets for liquid cooling and energy storage using fluid, interface and cabinet requirements. Define material and assembly tests.",
         "h1": "Rubber Components for Liquid Cooling and Energy Storage",
         "intro": "Discuss sealing components against the fluid, joint and environmental conditions of your cooling or energy-storage equipment. Material selection and assembly validation are reviewed together.",
         "sections": [
           {
-            "heading": "Identify the fluid-contact requirement",
-            "body": "Provide the full fluid formulation, additives, temperature and pressure cycles. Include cleaning exposure and the material interfaces in contact with the seal."
+            "heading": "Identify the fluid and the component task",
+            "body": "Describe the cooling or energy-storage assembly and where the rubber part is used. Distinguish an aqueous coolant, a dielectric fluid and a flow-system electrolyte by the actual product and exposure. Review each candidate compound for that duty rather than carrying one fluid result into another system."
           },
           {
-            "heading": "Review the joint and enclosure separately",
-            "body": "Fluid-contact seals and enclosure gaskets perform different jobs. Share the groove, clamp or flange design and the compression and movement requirements."
+            "heading": "Prepare the interface and exposure brief",
+            "body": "Start with the drawing and available fluid information, then agree the details needed for material and assembly evaluation.",
+            "table": {
+              "caption": "Inputs for cooling and energy-storage rubber components",
+              "columns": [
+                "Input",
+                "What to provide"
+              ],
+              "rows": [
+                [
+                  "Fluid",
+                  "Product or specification, mixture, additives and available composition"
+                ],
+                [
+                  "Exposure",
+                  "Temperature and pressure history, circulation, dwell, cleaning and fluid changes"
+                ],
+                [
+                  "Interface",
+                  "Drawing, joint gap, compression, attachment and assembly sequence"
+                ],
+                [
+                  "Movement",
+                  "Connection or removal actions, motion and loading where relevant"
+                ],
+                [
+                  "Contamination",
+                  "Required material changes, extractables or fluid-property measurements"
+                ],
+                [
+                  "Cabinet",
+                  "Gasket profile, stops, weather, dust, moisture and installation"
+                ],
+                [
+                  "Approval",
+                  "Material reports, representative assemblies, test criteria and responsible team"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Define the validation route",
-            "body": "Discuss immersion tests, dimensional changes, compression recovery and assembled checks. Electrical or flame requirements must identify the actual method and compound being assessed."
+            "heading": "Separate compatibility from installed sealing",
+            "body": "Agree compound and specimen identity, fluid preparation, exposure and acceptance criteria for material reports. Define assembly leakage and temperature or pressure cycling separately. Where contamination matters, identify the required material or fluid measurements and their methods. Electrolyte composition and concentration belong with the actual flow-system evaluation.",
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Reading fluid-exposure results"
+              },
+              {
+                "url": "/materials/epdm",
+                "label": "EPDM candidate requirements"
+              },
+              {
+                "url": "/materials/hnbr",
+                "label": "HNBR candidate requirements"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Prepare a fluid-compatibility request"
+              }
+            ]
+          },
+          {
+            "heading": "Evaluate cabinet sealing and flame evidence at their own levels",
+            "body": "For an enclosure gasket, define the joint, compression and environmental test on the assembled cabinet. Where flame evidence is specified, identify the tested material, specimen thickness, conditioning, method and report. Keep material flame results, cabinet sealing and the customer’s system safety validation as separate acceptance tasks.",
+            "links": [
+              {
+                "url": "/products/gaskets",
+                "label": "Gasket geometry and enclosure inputs"
+              },
+              {
+                "url": "/testing",
+                "label": "Discuss material and assembly test scope"
+              }
+            ]
+          },
+          {
+            "heading": "Agree samples and the purchasing basis",
+            "body": "Send the part reference, drawing revision, fluid information, quantity and evaluation objective. Agree representative samples, approval responsibility, packaging and required lot records before recurring supply. Keep each part’s material and test scope with its approved specification.",
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "O-rings and custom seals"
+              },
+              {
+                "url": "/quality",
+                "label": "Quality records and change review"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Discuss cooling or enclosure samples"
+              }
+            ]
           }
         ],
         "cta": "Discuss Your Application",
@@ -4893,21 +5057,107 @@
       "RQ-PG-032": {
         "label": "EV Thermal Management",
         "title": "Rubber Components for EV Thermal Management | RubberQ",
-        "description": "Review a rubber component for the fluid, temperature cycle and assembly conditions of your thermal-management project. Bring the drawing and specification.",
+        "description": "Prepare EV thermal-management rubber part requirements with drawing, coolant, interface and operating cycles. Agree samples, test evidence and documentation.",
         "h1": "Rubber Components for EV Thermal Management",
         "intro": "Review a rubber component for the fluid, temperature cycle and assembly conditions of your thermal-management project. Bring the drawing and specification to define the material and manufacturing discussion.",
         "sections": [
           {
-            "heading": "Specify the exposure",
-            "body": "Identify the service fluid and additives, temperature range, cycling profile and any cleaning exposure. Include electrical requirements only with the applicable test criteria."
+            "heading": "Define the thermal-management component",
+            "body": "Start with the part drawing, assembly interface and intended function. Share the existing specification, fluid information, quantity and customer documentation needs. Material and manufacturing review should address the component’s actual thermal duty and approval requirements."
           },
           {
-            "heading": "Review component interfaces",
-            "body": "Share the mating geometry, tolerances, compression and installation method. Part-level requirements determine the validation needed."
+            "heading": "Describe the complete service sequence",
+            "body": "Use the real coolant and cleaning sequence rather than a broad fluid label.",
+            "table": {
+              "caption": "Inputs for an EV thermal-management part review",
+              "columns": [
+                "Input",
+                "What to provide"
+              ],
+              "rows": [
+                [
+                  "Identity",
+                  "Part number, drawing revision and existing material reference"
+                ],
+                [
+                  "Interface",
+                  "Mating geometry, groove or joint, gap, compression and surface"
+                ],
+                [
+                  "Fluid",
+                  "Product or specification, mixing ratio, additives and cleaning agents"
+                ],
+                [
+                  "Temperature",
+                  "Cold start, hot operation, peaks, dwell and transitions"
+                ],
+                [
+                  "Pressure",
+                  "Operating pressure changes, pulses, interruptions and flow conditions"
+                ],
+                [
+                  "Assembly",
+                  "Installation, insertion or removal, loading and representative part state"
+                ],
+                [
+                  "Acceptance",
+                  "Material, dimensional, leakage and cycle criteria; required reports"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Prepare supplier documentation",
-            "body": "Discuss traceability, inspection plans and customer-required documentation. Sample approval and production commitments follow the technical review."
+            "heading": "Evaluate material and assembly results separately",
+            "body": "Compare candidate reports using identified compounds, specimens, exposure and methods. A material result needs its test context; the installed component needs its own functional criteria. Define the thermal and pressure cycle, sample conditioning, observations and acceptance decision for the assembly.",
+            "items": [
+              "Review changes after the specified fluid exposure.",
+              "Evaluate the cold condition and recovery relevant to the part.",
+              "Check leakage and required function in the defined installation and operating sequence."
+            ],
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Reading fluid-exposure results"
+              },
+              {
+                "url": "/blog/low-temperature-retraction-tr-10-predicting-seal-failure-in-arctic-conditions",
+                "label": "Interpreting low-temperature data"
+              },
+              {
+                "url": "/materials",
+                "label": "Material evaluation inputs"
+              },
+              {
+                "url": "/testing",
+                "label": "Temperature-cycle and assembly test planning"
+              }
+            ]
+          },
+          {
+            "heading": "Agree samples, documentation and repeat supply",
+            "body": "Identify the sample material, drawing and production basis. Specify the customer submission scope and approval responsibility, including PPAP where requested. Keep the agreed part requirements, lot records, packaging and change review with recurring orders. Begin the enquiry with the drawing and available service information.",
+            "links": [
+              {
+                "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+                "label": "Preparing customer PPAP submissions"
+              },
+              {
+                "url": "/products/seals",
+                "label": "O-ring and custom-seal requirements"
+              },
+              {
+                "url": "/products/gaskets",
+                "label": "Gasket interface requirements"
+              },
+              {
+                "url": "/quality",
+                "label": "Quality records and change control"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Discuss thermal-management samples"
+              }
+            ]
           }
         ],
         "cta": "Discuss Your Application",
@@ -4916,21 +5166,104 @@
       "RQ-PG-033": {
         "label": "Humanoid Robotics",
         "title": "Rubber Components for Humanoid Robotics | RubberQ",
-        "description": "Review flexible protection, contact surfaces and bonded components around the movement and loading of your mechanism. Share the drawing and functional.",
+        "description": "Define rubber component requirements for humanoid mechanisms with motion, loading, contact and environmental inputs. Plan samples and assembly evaluation.",
         "h1": "Rubber Components for Humanoid Robotics",
         "intro": "Review flexible protection, contact surfaces and bonded components around the movement and loading of your mechanism. Share the drawing and functional requirements for an engineering discussion.",
         "sections": [
           {
-            "heading": "Describe movement and contact",
-            "body": "Identify travel, rotation, repeated loading, contact surfaces and available installation space. Include dust, fluid and cleaning exposure."
+            "heading": "Define the component’s job in the mechanism",
+            "body": "Start with the drawing and the function at the installation point: flexible protection, a contact surface or a bonded component. Identify the mating parts and the movement the rubber must accommodate. These inputs guide the material and molding discussion before samples are specified."
           },
           {
-            "heading": "Match geometry and material",
-            "body": "Bellows, pads and bonded parts need different material and design reviews. Discuss friction, deformation, retention and the assembly interfaces that control function."
+            "heading": "Describe movement, contact and loading",
+            "body": "A part’s shape alone does not describe its duty. Include the conditions that determine the sample evaluation.",
+            "table": {
+              "caption": "Information for a robotics component review",
+              "columns": [
+                "Input",
+                "Information to provide"
+              ],
+              "rows": [
+                [
+                  "Part and interface",
+                  "Drawing revision, function, mating parts and available installation space"
+                ],
+                [
+                  "Movement",
+                  "Full travel, lateral or angular movement, end positions and fixing points"
+                ],
+                [
+                  "Loading",
+                  "Supported mass, preload, load direction, frequency and amplitude where relevant"
+                ],
+                [
+                  "Environment",
+                  "Temperature, lubricant, cleaning agents, dust and other exposure"
+                ],
+                [
+                  "Contact surface",
+                  "Counterface, normal force, speed, dwell, contaminants and wear criterion"
+                ],
+                [
+                  "Electrical requirement",
+                  "Required property, measurement method, specimen and conditioning"
+                ],
+                [
+                  "Approval",
+                  "Sample quantity, assembly trial, acceptance criteria and required records"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Validate the mechanical duty",
-            "body": "Define a representative sample test with the loading, motion and environmental conditions. Endurance or dynamic-performance targets need their own measurement basis."
+            "heading": "Review flexible covers and bonded components by function",
+            "body": "For a flexible cover, check the full motion envelope, attachment and protection requirement together. For a bonded component, distinguish metal position and bond acceptance from the static or dynamic response of the assembly. A damping assessment needs the load and operating range, including the mating structure.",
+            "links": [
+              {
+                "url": "/products/bellows",
+                "label": "Bellows geometry and movement"
+              },
+              {
+                "url": "/products/rubber-to-metal-bonded-parts",
+                "label": "Rubber-to-metal component requirements"
+              },
+              {
+                "url": "/blog/industrial-bellows-material-selection-flex-life-media-exposure",
+                "label": "Bellows material and exposure review"
+              },
+              {
+                "url": "/blog/vibration-damping-mounts-dynamic-stiffness-humanoid-robot-actuators",
+                "label": "Reviewing dynamic stiffness and damping"
+              }
+            ]
+          },
+          {
+            "heading": "Specify contact surfaces with measurable criteria",
+            "body": "For a contact pad, identify the handled surface and the task it performs. Agree the test setup for grip, wear and surface transfer under the relevant force, speed and contamination. If an electrical property is required, define its method and conditioning separately. Keep each result associated with the tested compound and geometry.",
+            "links": [
+              {
+                "url": "/products/custom",
+                "label": "Custom molded component review"
+              },
+              {
+                "url": "/testing",
+                "label": "Agree component test requirements"
+              }
+            ]
+          },
+          {
+            "heading": "Connect samples to the assembly trial",
+            "body": "Choose sample conditions that represent the intended installation. Agree who evaluates the assembly, what constitutes acceptance and how changes are handled. Keep the drawing revision, compound, lot and sample records available when moving to repeat orders.",
+            "links": [
+              {
+                "url": "/quality",
+                "label": "Quality documentation and traceability"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Discuss robotics component samples"
+              }
+            ]
           }
         ],
         "cta": "Discuss Your Application",
@@ -4939,21 +5272,106 @@
       "RQ-PG-034": {
         "label": "General Industrial",
         "title": "Custom Rubber Components for Industrial Equipment | RubberQ",
-        "description": "Bring a seal, gasket, flexible cover or molded component requirement for review. Material, geometry, production volume and inspection requirements guide the.",
+        "description": "Source custom rubber components for industrial equipment with drawing, material and inspection support. Define quantities, samples and repeat-order records.",
         "h1": "Custom Rubber Components for Industrial Equipment",
         "intro": "Bring a seal, gasket, flexible cover or molded component requirement for review. Material, geometry, production volume and inspection requirements guide the manufacturing route.",
         "sections": [
           {
-            "heading": "Start with the component job",
-            "body": "Describe what the part must seal, protect, support or contact. Include the drawing and interfaces as well as the surrounding environment."
+            "heading": "Bring a defined component requirement",
+            "body": "RubberQ combines Japanese formulation support with mixing, molding, in-house testing and ERP traceability in China. For an industrial seal, gasket, flexible cover or bonded component, start with the function and interface. Review the drawing, compound requirements and order profile together to define the manufacturing discussion."
           },
           {
-            "heading": "Choose a practical development route",
-            "body": "Discuss a reference sample, an existing material or a new drawing. Identify the functional dimensions and tests that will establish a suitable sample."
+            "heading": "Prepare a package for an engineering quotation",
+            "body": "Keep requirements identifiable for each part. A sample helps explain a component; include the approved drawing and specification when available.",
+            "table": {
+              "caption": "Industrial component quotation inputs",
+              "columns": [
+                "Input",
+                "Information to provide"
+              ],
+              "rows": [
+                [
+                  "Drawing and interface",
+                  "Part number, revision, dimensions, mating geometry and assembly"
+                ],
+                [
+                  "Material and duty",
+                  "Existing grade or required properties, actual media, temperature and loads"
+                ],
+                [
+                  "Quantity",
+                  "Sample quantity, order quantity, expected demand and delivery requirements"
+                ],
+                [
+                  "Inspection",
+                  "Critical dimensions, visual criteria, methods and required records"
+                ],
+                [
+                  "Tooling and changes",
+                  "Existing tooling information, ownership requirements and change procedure"
+                ],
+                [
+                  "Evaluation",
+                  "Sample approval, material tests and assembly acceptance"
+                ],
+                [
+                  "Supply scope",
+                  "Finished components or compound supply, packaging and documentation"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Plan repeat supply",
-            "body": "Agree batch identification, inspection, packaging and forecast requirements for ongoing orders."
+            "heading": "Separate the sealing task from the vibration task",
+            "body": "For a seal exposed to a wash fluid, provide the complete fluid and additives, cleaning sequence and joint conditions. For a vibration component, provide supported mass, preload, frequency range, interfaces and the response or noise criterion. If the equipment needs both, give each component its own drawing and acceptance basis.",
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "Seal geometry and material review"
+              },
+              {
+                "url": "/products/gaskets",
+                "label": "Gasket interface requirements"
+              },
+              {
+                "url": "/products/rubber-to-metal-bonded-parts",
+                "label": "Bonded component requirements"
+              },
+              {
+                "url": "/blog/vibration-damping-mounts-dynamic-stiffness-humanoid-robot-actuators",
+                "label": "Static and dynamic response evaluation"
+              }
+            ]
+          },
+          {
+            "heading": "Move from quotation to repeat supply",
+            "body": "For a package containing several parts, list each part number, revision, material and quantity separately. Agree the manufacturing route, sample inspection and the records needed for approval before repeat orders. Link the approved specification to the compound and production lot. Where compound supply is requested, define its delivery form and processing requirements separately from finished-part supply.",
+            "links": [
+              {
+                "url": "/products/custom",
+                "label": "Custom component project review"
+              },
+              {
+                "url": "/capabilities/rubber-molding",
+                "label": "Rubber molding route"
+              },
+              {
+                "url": "/compounds",
+                "label": "Discuss compound supply"
+              },
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Reading batch traceability records"
+              },
+              {
+                "url": "/batch-rfq",
+                "label": "Submit a multiple-part quotation request"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Discuss industrial component samples"
+              }
+            ]
           }
         ],
         "cta": "Discuss Your Application",

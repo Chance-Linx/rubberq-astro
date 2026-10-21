@@ -4875,21 +4875,98 @@
       "RQ-PG-030": {
         "label": "Halbleiterausrüstung",
         "title": "Gummidichtungen für Halbleiterausrüstung | RubberQ",
-        "description": "FFKM- und FKM-Dichtungen für Halbleiterausrüstung bewerten. Prozesschemie, Temperatur, Vakuum, Sauberkeitsanforderungen und Qualifizierung abstimmen.",
+        "description": "Definieren Sie Halbleiterdichtungen anhand von Einbauort, Prozesschemie, Vakuumverlauf und Kontaminationskriterien. Planen Sie Werkstoff- und Musterbewertung.",
         "h1": "Gummidichtungen für Halbleiterausrüstung",
         "intro": "Bewerten Sie eine Anlagendichtung anhand ihrer tatsächlichen Prozessbedingungen. Für FFKM und FKM sind eine definierte Spezifikation, Anwendungsbewertung und ein Qualifizierungsplan erforderlich.",
         "sections": [
           {
-            "heading": "Dichtungsumgebung erfassen",
-            "body": "Nennen Sie Einbauposition, Prozesschemie, Temperaturzyklus und Vakuumanforderungen. Ergänzen Sie Reinigung, Wartung und mögliche Kontaminationsgrenzen."
+            "heading": "Mit der tatsächlichen Dichtungsposition beginnen",
+            "body": "Bestimmen Sie Einbauort und Dichtungsanforderung. Senden Sie Originalzeichnung, Materialreferenz und Bewertungsgrund. Kammerschnittstelle, Fluidanschluss und Ersatzanfrage benötigen jeweils eine eigene Belastungs- und Freigabebasis. Die Werkstofffamilie ist nur eine Angabe."
           },
           {
-            "heading": "Werkstoff- und Anlagenqualifizierung unterscheiden",
-            "body": "Eine Werkstoffbezeichnung belegt weder Plasmabeständigkeit noch Sauberkeit oder Lebensdauer. Besprechen Sie mischungsbezogene Daten und für Ihren Prozess relevante Prüfungen."
+            "heading": "Prozess- und Schnittstellendaten vorbereiten",
+            "body": "Beschreiben Sie den Ablauf an der Dichtung einschließlich Reinigung, Erwärmung und Druckänderungen.",
+            "table": {
+              "caption": "Angaben zur Dichtungsbewertung für Halbleiterausrüstung",
+              "columns": [
+                "Angabe",
+                "Benötigte Informationen"
+              ],
+              "rows": [
+                [
+                  "Teilidentität",
+                  "Zeichnungsstand, Originalreferenz, Maße und verfügbares Muster"
+                ],
+                [
+                  "Position",
+                  "Einbauort, Gegenkontur, Nut, Spalt und Abstützung"
+                ],
+                [
+                  "Prozesschemie",
+                  "Tatsächliche Gase oder Flüssigkeiten, Zusammensetzung, Reinigung und Ablauf"
+                ],
+                [
+                  "Temperatur",
+                  "Normaltemperatur, Spitzen, Haltezeiten, Übergänge und Erholung"
+                ],
+                [
+                  "Vakuum oder Druck",
+                  "Betriebsverlauf, Abpumpen oder Belüften und Druckänderungen"
+                ],
+                [
+                  "Montage",
+                  "Einbau, Verpressung, Oberfläche und zulässiger Schmierstoff"
+                ],
+                [
+                  "Nachweise",
+                  "Geforderte Kontaminationswerte, Methoden, Kriterien und Anlagenfreigabe"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Wartung und Entwicklung unterstützen",
-            "body": "Senden Sie Zeichnung oder bestehende Bauteilspezifikation für die Musterbewertung. Wartungsersatz und Neuentwicklung benötigen einen abgestimmten Freigabeweg."
+            "heading": "Jede Prozessfrage mit eigenem Nachweis betrachten",
+            "body": "Plasmakontakt, Partikel, Ausgasung, Permeation und Baugruppenleckage sind unterschiedliche Bewertungen. Vereinbaren Sie Mischung, Probenzustand, Bedingungen und Ergebnis jedes geforderten Berichts. Wenn extrahierbare Metalle relevant sind, legen Sie Analyten, Extraktions- und Messverfahren, Probenvorbereitung und Berichtsgrenzen mit dem Anlagenteam fest.",
+            "links": [
+              {
+                "url": "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+                "label": "Prüfbedingungen für Plasmadichtungen (Englisch)"
+              },
+              {
+                "url": "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing",
+                "label": "Vakuum-Ausgasungsberichte lesen (Englisch)"
+              },
+              {
+                "url": "/blog/permeation-vs-leakage-understanding-the-difference-in-gas-systems",
+                "label": "Permeation und Leckage trennen (Englisch)"
+              }
+            ]
+          },
+          {
+            "heading": "Kandidaten vor dem Lieferwechsel bewerten",
+            "body": "Vergleichen Sie Mischung und Teil mit Originalanforderung und Betriebsverlauf. Vereinbaren Sie Werkstoffprüfungen, zugeordnete Muster und Anlagenversuch vor der Freigabe. Verknüpfen Sie Zeichnung, Sorte, Charge, Verpackung und Änderungsanforderungen für Folgelieferungen. Eine Markenreferenz identifiziert das Ausgangsteil; der Kandidat benötigt eine eigene Bewertung.",
+            "links": [
+              {
+                "url": "/materials/ffkm",
+                "label": "FFKM-Werkstoffanforderungen"
+              },
+              {
+                "url": "/materials/fkm",
+                "label": "FKM-Werkstoffanforderungen"
+              },
+              {
+                "url": "/products/ffkm-replacement-seals",
+                "label": "FFKM-Ersatzteilbewertung"
+              },
+              {
+                "url": "/quality",
+                "label": "Qualitätsnachweise und Rückverfolgung"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Anlagendichtungsmuster besprechen"
+              }
+            ]
           }
         ],
         "cta": "Anwendung besprechen",
@@ -4898,21 +4975,108 @@
       "RQ-PG-031": {
         "label": "Flüssigkeitskühlung und Energiespeicher",
         "title": "Gummibauteile für Flüssigkeitskühlung und Energiespeicher | RubberQ",
-        "description": "Dichtungen für Flüssigkeitskühlung und Energiespeicher. Fluidzusammensetzung, Einbau, Temperaturzyklen und Validierung der konkreten Mischung abstimmen.",
+        "description": "Bewerten Sie Gummiteile für Flüssigkeitskühlung und Speicher anhand von Fluid, Schnittstelle und Gehäuse. Definieren Sie Werkstoff- und Baugruppenprüfungen.",
         "h1": "Gummibauteile für Flüssigkeitskühlung und Energiespeicher",
         "intro": "Besprechen Sie Dichtungen anhand von Medien, Verbindungen und Umgebungsbedingungen Ihrer Kühl- oder Energiespeicherausrüstung. Werkstoffauswahl und Einbauvalidierung werden gemeinsam betrachtet.",
         "sections": [
           {
-            "heading": "Medienkontakt vollständig beschreiben",
-            "body": "Nennen Sie Fluidzusammensetzung, Additive, Temperatur- und Druckzyklen. Ergänzen Sie Reinigung und die Werkstoffe der Kontaktflächen."
+            "heading": "Fluid und Bauteilaufgabe bestimmen",
+            "body": "Beschreiben Sie Kühl- oder Speicherbaugruppe und Einsatzort des Gummiteils. Unterscheiden Sie wässriges Kühlmittel, dielektrisches Fluid und Elektrolyt anhand des tatsächlichen Produkts und Kontakts. Bewerten Sie jede Mischung für diesen Einsatz, statt ein Fluidergebnis auf ein anderes System zu übertragen."
           },
           {
-            "heading": "Verbindung und Gehäuse getrennt betrachten",
-            "body": "Medienberührte Dichtungen und Gehäusedichtungen erfüllen unterschiedliche Aufgaben. Senden Sie Nut-, Klemm- oder Flanschkonstruktion mit Kompressions- und Bewegungsanforderungen."
+            "heading": "Schnittstellen- und Belastungsangaben vorbereiten",
+            "body": "Beginnen Sie mit Zeichnung und verfügbaren Fluidinformationen. Vereinbaren Sie anschließend die Angaben für Werkstoff- und Baugruppenbewertung.",
+            "table": {
+              "caption": "Angaben zu Gummiteilen für Kühlung und Energiespeicherung",
+              "columns": [
+                "Angabe",
+                "Benötigte Informationen"
+              ],
+              "rows": [
+                [
+                  "Fluid",
+                  "Produkt oder Spezifikation, Mischung, Additive und verfügbare Zusammensetzung"
+                ],
+                [
+                  "Belastung",
+                  "Temperatur- und Druckverlauf, Umlauf, Haltezeiten, Reinigung und Fluidwechsel"
+                ],
+                [
+                  "Schnittstelle",
+                  "Zeichnung, Spalt, Verpressung, Befestigung und Montagefolge"
+                ],
+                [
+                  "Bewegung",
+                  "Kuppeln oder Trennen, Bewegung und gegebenenfalls Lasten"
+                ],
+                [
+                  "Kontamination",
+                  "Geforderte Materialänderungen, Extraktstoffe oder Fluideigenschaftsmessungen"
+                ],
+                [
+                  "Gehäuse",
+                  "Dichtungsprofil, Anschläge, Witterung, Staub, Feuchte und Montage"
+                ],
+                [
+                  "Freigabe",
+                  "Werkstoffberichte, repräsentative Baugruppen, Kriterien und zuständiges Team"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Validierung festlegen",
-            "body": "Besprechen Sie Eintauchtests, Maßänderungen, Rückstellverhalten und Prüfungen in der Baugruppe. Elektrische oder Brandanforderungen müssen Methode und konkret geprüfte Mischung benennen."
+            "heading": "Verträglichkeit von eingebauter Dichtheit trennen",
+            "body": "Vereinbaren Sie Mischung und Probe, Fluidvorbereitung, Kontakt und Kriterien für Werkstoffberichte. Definieren Sie Baugruppenleckage sowie Temperatur- oder Druckzyklen getrennt. Legen Sie bei Kontaminationsfragen Material- oder Fluidmessungen und Methoden fest. Elektrolytzusammensetzung und Konzentration gehören zur tatsächlichen Flusssystembewertung.",
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Medienprüfergebnisse lesen (Englisch)"
+              },
+              {
+                "url": "/materials/epdm",
+                "label": "EPDM-Kandidatenanforderungen"
+              },
+              {
+                "url": "/materials/hnbr",
+                "label": "HNBR-Kandidatenanforderungen"
+              },
+              {
+                "url": "/resources/material-compatibility",
+                "label": "Fluidverträglichkeitsanfrage vorbereiten"
+              }
+            ]
+          },
+          {
+            "heading": "Gehäusedichtheit und Brandnachweise getrennt bewerten",
+            "body": "Definieren Sie Fuge, Verpressung und Umweltprüfung am montierten Gehäuse. Falls Brandnachweise gefordert sind, identifizieren Sie Werkstoff, Probendicke, Konditionierung, Methode und Bericht. Werkstoffbrandverhalten, Gehäusedichtheit und kundenseitige Systemsicherheitsvalidierung bleiben eigene Annahmeaufgaben.",
+            "links": [
+              {
+                "url": "/products/gaskets",
+                "label": "Dichtungsgeometrie und Gehäuseangaben"
+              },
+              {
+                "url": "/testing",
+                "label": "Werkstoff- und Baugruppenprüfumfang besprechen"
+              }
+            ]
+          },
+          {
+            "heading": "Muster und Beschaffungsgrundlage vereinbaren",
+            "body": "Senden Sie Teilebezug, Zeichnungsstand, Fluidinformationen, Menge und Bewertungsziel. Vereinbaren Sie Muster, Freigabeverantwortung, Verpackung und Chargenunterlagen vor Folgelieferungen. Ordnen Sie Werkstoff und Prüfumfang jedes Teils seiner freigegebenen Spezifikation zu.",
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "O-Ringe und Sonderdichtungen"
+              },
+              {
+                "url": "/quality",
+                "label": "Qualitätsnachweise und Änderungsprüfung"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Kühlungs- oder Gehäusemuster besprechen"
+              }
+            ]
           }
         ],
         "cta": "Anwendung besprechen",
@@ -4921,21 +5085,107 @@
       "RQ-PG-032": {
         "label": "EV-Thermomanagement",
         "title": "Gummibauteile für EV-Thermomanagement | RubberQ",
-        "description": "Gummibauteile für EV-Thermomanagement: Medienkontakt, Temperaturzyklen, Zeichnung, Montage, Prüfplan und erforderliche Lieferantenunterlagen besprechen.",
+        "description": "Bereiten Sie EV-Thermomanagementteile mit Zeichnung, Kühlmittel, Schnittstelle und Betriebszyklen vor. Vereinbaren Sie Muster, Prüfungen und Unterlagen.",
         "h1": "Gummibauteile für EV-Thermomanagement",
         "intro": "Bewerten Sie ein Gummibauteil anhand von Medien, Temperaturzyklen und Einbaubedingungen Ihres Thermomanagementprojekts. Zeichnung und Spezifikation bilden die Grundlage für Werkstoff- und Fertigungsabstimmung.",
         "sections": [
           {
-            "heading": "Betriebsbelastung spezifizieren",
-            "body": "Nennen Sie Betriebsmedium, Additive, Temperaturbereich, Zyklusprofil und Reinigung. Ergänzen Sie elektrische Anforderungen nur zusammen mit den zutreffenden Prüfkriterien."
+            "heading": "Thermomanagementbauteil definieren",
+            "body": "Beginnen Sie mit Teilezeichnung, Montageschnittstelle und Funktion. Nennen Sie vorhandene Spezifikation, Fluidinformationen, Menge und Kundendokumentation. Werkstoff- und Fertigungsbewertung sollen tatsächlichen Temperatureinsatz und Freigabeanforderungen des Teils abdecken."
           },
           {
-            "heading": "Bauteilschnittstellen prüfen",
-            "body": "Senden Sie Gegenstückgeometrie, Toleranzen, Verpressung und Montageverfahren. Die Bauteilanforderungen bestimmen die notwendige Validierung."
+            "heading": "Den vollständigen Betriebsablauf beschreiben",
+            "body": "Verwenden Sie reales Kühlmittel und Reinigungsfolge statt einer allgemeinen Medienbezeichnung.",
+            "table": {
+              "caption": "Angaben für EV-Thermomanagementbauteile",
+              "columns": [
+                "Angabe",
+                "Benötigte Informationen"
+              ],
+              "rows": [
+                [
+                  "Identität",
+                  "Teilenummer, Zeichnungsstand und vorhandene Materialreferenz"
+                ],
+                [
+                  "Schnittstelle",
+                  "Gegenkontur, Nut oder Fuge, Spalt, Verpressung und Oberfläche"
+                ],
+                [
+                  "Fluid",
+                  "Produkt oder Spezifikation, Mischungsverhältnis, Additive und Reiniger"
+                ],
+                [
+                  "Temperatur",
+                  "Kaltstart, Heißbetrieb, Spitzen, Haltezeiten und Übergänge"
+                ],
+                [
+                  "Druck",
+                  "Änderungen, Impulse, Unterbrechungen und Strömungsbedingungen"
+                ],
+                [
+                  "Montage",
+                  "Einbau, Einsetzen oder Entfernen, Last und repräsentativer Teilezustand"
+                ],
+                [
+                  "Annahme",
+                  "Werkstoff-, Maß-, Leckage- und Zykluskriterien sowie Berichte"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Lieferantendokumentation vorbereiten",
-            "body": "Besprechen Sie Rückverfolgbarkeit, Prüfpläne und kundenbezogene Unterlagen. Musterfreigabe und Produktionszusagen folgen der technischen Bewertung."
+            "heading": "Werkstoff- und Baugruppenergebnisse getrennt bewerten",
+            "body": "Vergleichen Sie Berichte anhand bestimmter Mischungen, Proben, Belastungen und Methoden. Werkstoffergebnisse benötigen ihren Prüfkontext, eingebaute Teile eigene Funktionskriterien. Definieren Sie Temperatur- und Druckzyklus, Konditionierung, Beobachtungen und Annahmeentscheidung der Baugruppe.",
+            "items": [
+              "Änderungen nach festgelegtem Fluidkontakt bewerten.",
+              "Einsatzrelevante Kälte und Erholung prüfen.",
+              "Dichtheit und Funktion im definierten Einbau- und Betriebsablauf prüfen."
+            ],
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Medienprüfergebnisse lesen (Englisch)"
+              },
+              {
+                "url": "/blog/low-temperature-retraction-tr-10-predicting-seal-failure-in-arctic-conditions",
+                "label": "Tieftemperaturdaten verstehen (Englisch)"
+              },
+              {
+                "url": "/materials",
+                "label": "Angaben zur Werkstoffbewertung"
+              },
+              {
+                "url": "/testing",
+                "label": "Temperaturzyklus- und Baugruppenprüfung planen"
+              }
+            ]
+          },
+          {
+            "heading": "Muster, Unterlagen und Folgelieferungen vereinbaren",
+            "body": "Identifizieren Sie Mustermaterial, Zeichnung und Produktionsbasis. Nennen Sie Kundenvorlageumfang und Freigabeverantwortung, bei Bedarf einschließlich PPAP. Verknüpfen Sie Teileanforderungen, Chargennachweise, Verpackung und Änderungsprüfung mit Folgeaufträgen. Beginnen Sie die Anfrage mit Zeichnung und verfügbaren Einsatzangaben.",
+            "links": [
+              {
+                "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+                "label": "PPAP-Kundenvorlagen vorbereiten (Englisch)"
+              },
+              {
+                "url": "/products/seals",
+                "label": "Anforderungen an O-Ringe und Sonderdichtungen"
+              },
+              {
+                "url": "/products/gaskets",
+                "label": "Anforderungen an Dichtungsfugen"
+              },
+              {
+                "url": "/quality",
+                "label": "Qualitätsnachweise und Änderungssteuerung"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Thermomanagementmuster besprechen"
+              }
+            ]
           }
         ],
         "cta": "Anwendung besprechen",
@@ -4944,21 +5194,104 @@
       "RQ-PG-033": {
         "label": "Humanoide Robotik",
         "title": "Gummibauteile für humanoide Robotik | RubberQ",
-        "description": "Gummibauteile für humanoide Robotik: flexible Schutzteile, Kontaktflächen und Verbundteile nach Bewegung, Belastung, Geometrie und Prüfkriterien bewerten.",
+        "description": "Anforderungen an Gummiteile für humanoide Mechanismen: Bewegung, Last, Kontakt und Umgebung erfassen sowie Muster und Prüfung im Einbau planen.",
         "h1": "Gummibauteile für humanoide Robotik",
         "intro": "Besprechen Sie flexible Schutzelemente, Kontaktflächen und Verbundbauteile anhand von Bewegung und Last Ihres Mechanismus. Senden Sie Zeichnung und Funktionsanforderungen für die technische Abstimmung.",
         "sections": [
           {
-            "heading": "Bewegung und Kontakt beschreiben",
-            "body": "Nennen Sie Hub, Rotation, wiederholte Lasten, Kontaktflächen und Bauraum. Ergänzen Sie Staub, Flüssigkeiten und Reinigungseinflüsse."
+            "heading": "Die Aufgabe des Bauteils im Mechanismus festlegen",
+            "body": "Ausgangspunkt sind Zeichnung und Funktion am Einbauort: flexibler Schutz, Kontaktfläche oder ein Verbundteil. Benennen Sie Gegenbauteile und Bewegungen, die das Gummi aufnehmen soll. Diese Angaben bilden die Grundlage für Werkstoff- und Formgebungsfragen vor der Musterfestlegung."
           },
           {
-            "heading": "Geometrie und Werkstoff zusammenführen",
-            "body": "Faltenbälge, Auflagen und Verbundteile erfordern unterschiedliche Bewertungen. Besprechen Sie Reibung, Verformung, Fixierung und funktionsrelevante Einbauschnittstellen."
+            "heading": "Bewegung, Kontakt und Belastung beschreiben",
+            "body": "Die Form allein beschreibt den Einsatz eines Bauteils nicht. Geben Sie die Bedingungen für die Musterbewertung an.",
+            "table": {
+              "caption": "Angaben zur Bewertung eines Robotikbauteils",
+              "columns": [
+                "Eingabe",
+                "Benötigte Angaben"
+              ],
+              "rows": [
+                [
+                  "Bauteil und Schnittstelle",
+                  "Zeichnungsstand, Funktion, Gegenbauteile und verfügbarer Bauraum"
+                ],
+                [
+                  "Bewegung",
+                  "Gesamthub, Quer- oder Winkelbewegung, Endlagen und Befestigungspunkte"
+                ],
+                [
+                  "Belastung",
+                  "Abgestützte Masse, Vorspannung, Lastrichtung sowie gegebenenfalls Frequenz und Amplitude"
+                ],
+                [
+                  "Umgebung",
+                  "Temperatur, Schmierstoff, Reinigungsmittel, Staub und weitere Einwirkungen"
+                ],
+                [
+                  "Kontaktfläche",
+                  "Gegenfläche, Normalkraft, Geschwindigkeit, Verweilzeit, Verunreinigungen und Verschleißkriterium"
+                ],
+                [
+                  "Elektrische Anforderung",
+                  "Geforderte Eigenschaft, Messverfahren, Prüfkörper und Konditionierung"
+                ],
+                [
+                  "Freigabe",
+                  "Musterzahl, Einbauversuch, Abnahmekriterien und benötigte Nachweise"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Mechanische Belastung validieren",
-            "body": "Definieren Sie einen repräsentativen Musterprüfplan mit Last, Bewegung und Umgebung. Lebensdauer- oder Dynamikziele benötigen eine eigene Messgrundlage."
+            "heading": "Flexible Abdeckungen und Verbundteile nach Funktion bewerten",
+            "body": "Bei flexiblen Abdeckungen gehören der gesamte Bewegungsraum, die Befestigung und die Schutzaufgabe zusammen. Bei Verbundteilen sind Metalllage und Verbundabnahme getrennt vom statischen oder dynamischen Verhalten der Baugruppe zu betrachten. Eine Dämpfungsbewertung benötigt Last und Betriebsbereich einschließlich der Gegenstruktur.",
+            "links": [
+              {
+                "url": "/products/bellows",
+                "label": "Geometrie und Bewegung von Faltenbälgen"
+              },
+              {
+                "url": "/products/rubber-to-metal-bonded-parts",
+                "label": "Anforderungen an Gummi-Metall-Teile"
+              },
+              {
+                "url": "/blog/industrial-bellows-material-selection-flex-life-media-exposure",
+                "label": "Faltenbalgwerkstoff und Medienexposition"
+              },
+              {
+                "url": "/blog/vibration-damping-mounts-dynamic-stiffness-humanoid-robot-actuators",
+                "label": "Dynamische Steifigkeit und Dämpfung bewerten"
+              }
+            ]
+          },
+          {
+            "heading": "Kontaktflächen mit messbaren Kriterien spezifizieren",
+            "body": "Benennen Sie bei einem Kontaktpad die berührte Oberfläche und seine Aufgabe. Vereinbaren Sie den Prüfaufbau für Haftung, Verschleiß und Stoffübertrag bei relevanter Kraft, Geschwindigkeit und Verschmutzung. Für eine elektrische Eigenschaft sind Verfahren und Konditionierung gesondert festzulegen. Ordnen Sie jedes Ergebnis der geprüften Mischung und Geometrie zu.",
+            "links": [
+              {
+                "url": "/products/custom",
+                "label": "Kundenspezifische Formteile besprechen"
+              },
+              {
+                "url": "/testing",
+                "label": "Prüfanforderungen für Bauteile vereinbaren"
+              }
+            ]
+          },
+          {
+            "heading": "Muster mit dem Einbauversuch verbinden",
+            "body": "Wählen Sie Musterbedingungen, die den vorgesehenen Einbau abbilden. Vereinbaren Sie die Zuständigkeit für die Baugruppenbewertung, Abnahmekriterien und den Umgang mit Änderungen. Halten Sie Zeichnungsstand, Mischung, Charge und Musterunterlagen für Folgeaufträge verfügbar.",
+            "links": [
+              {
+                "url": "/quality",
+                "label": "Qualitätsunterlagen und Rückverfolgbarkeit"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Muster für Robotikbauteile besprechen"
+              }
+            ]
           }
         ],
         "cta": "Anwendung besprechen",
@@ -4967,21 +5300,106 @@
       "RQ-PG-034": {
         "label": "Industrielle Anwendungen",
         "title": "Gummibauteile für Industrieausrüstung nach Zeichnung | RubberQ",
-        "description": "Gummidichtungen, Schutzteile und Formteile für Industrieausrüstung. Zeichnung, Werkstoff, Bemusterung, Prüfung und wiederkehrenden Bedarf abstimmen.",
+        "description": "Kundenspezifische Gummiteile für Industrieanlagen: Zeichnung, Werkstoff, Mengen und Prüfungen abstimmen sowie Muster und Unterlagen für Folgeaufträge festlegen.",
         "h1": "Gummibauteile für Industrieausrüstung nach Zeichnung",
         "intro": "Besprechen Sie eine Dichtung, einen flexiblen Schutz oder ein Formteil. Werkstoff, Geometrie, Bedarf und Prüfanforderungen bestimmen den Fertigungsweg.",
         "sections": [
           {
-            "heading": "Mit der Bauteilfunktion beginnen",
-            "body": "Beschreiben Sie, was das Bauteil abdichten, schützen, abstützen oder berühren soll. Ergänzen Sie Zeichnung, Schnittstellen und Betriebsumgebung."
+            "heading": "Mit einer konkreten Bauteilanforderung beginnen",
+            "body": "RubberQ verbindet japanische Rezepturunterstützung mit Mischen, Formen, eigener Prüfung und ERP-Rückverfolgbarkeit in China. Beginnen Sie bei Dichtungen, Flachdichtungen, flexiblen Abdeckungen oder Verbundteilen mit Funktion und Schnittstelle. Zeichnung, Mischungsanforderungen und Bestellprofil bilden gemeinsam die Grundlage für die Fertigungsbesprechung."
           },
           {
-            "heading": "Einen passenden Entwicklungsweg wählen",
-            "body": "Besprechen Sie Referenzmuster, bestehenden Werkstoff oder neue Zeichnung. Legen Sie Funktionsmaße und Prüfungen fest, mit denen ein geeignetes Muster bewertet werden kann."
+            "heading": "Unterlagen für ein technisches Angebot zusammenstellen",
+            "body": "Halten Sie die Anforderungen für jedes Teil eindeutig zuordenbar. Ein Muster veranschaulicht das Bauteil; ergänzen Sie nach Möglichkeit freigegebene Zeichnung und Spezifikation.",
+            "table": {
+              "caption": "Angaben für ein Angebot zu Industriebauteilen",
+              "columns": [
+                "Eingabe",
+                "Benötigte Angaben"
+              ],
+              "rows": [
+                [
+                  "Zeichnung und Schnittstelle",
+                  "Teilenummer, Revision, Maße, Gegenkontur und Montage"
+                ],
+                [
+                  "Werkstoff und Einsatz",
+                  "Vorhandener Typ oder geforderte Eigenschaften, tatsächliche Medien, Temperatur und Lasten"
+                ],
+                [
+                  "Menge",
+                  "Musterzahl, Bestellmenge, erwarteter Bedarf und Lieferanforderungen"
+                ],
+                [
+                  "Prüfung",
+                  "Kritische Maße, Sichtkriterien, Verfahren und benötigte Nachweise"
+                ],
+                [
+                  "Werkzeuge und Änderungen",
+                  "Vorhandene Werkzeuge, Eigentumsanforderungen und Änderungsverfahren"
+                ],
+                [
+                  "Bewertung",
+                  "Musterfreigabe, Werkstoffprüfungen und Abnahme im Einbau"
+                ],
+                [
+                  "Lieferumfang",
+                  "Fertigteile oder Mischungslieferung, Verpackung und Dokumentation"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Wiederholte Lieferung planen",
-            "body": "Vereinbaren Sie Chargenkennzeichnung, Prüfung, Verpackung und Bedarfsprognose für laufende Aufträge."
+            "heading": "Dichtungs- und Schwingungsaufgabe getrennt betrachten",
+            "body": "Für eine Dichtung im Kontakt mit Waschflüssigkeit benötigen wir deren vollständige Zusammensetzung einschließlich Zusätzen, Reinigungsablauf und Verbindungsbedingungen. Bei einem Schwingungselement sind abgestützte Masse, Vorspannung, Frequenzbereich, Schnittstellen sowie Antwort- oder Geräuschkriterium relevant. Benötigt eine Anlage beides, erhält jedes Bauteil eine eigene Zeichnung und Abnahmegrundlage.",
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "Dichtungsgeometrie und Werkstoff bewerten"
+              },
+              {
+                "url": "/products/gaskets",
+                "label": "Schnittstellen von Flachdichtungen"
+              },
+              {
+                "url": "/products/rubber-to-metal-bonded-parts",
+                "label": "Anforderungen an Verbundteile"
+              },
+              {
+                "url": "/blog/vibration-damping-mounts-dynamic-stiffness-humanoid-robot-actuators",
+                "label": "Statisches und dynamisches Verhalten bewerten"
+              }
+            ]
+          },
+          {
+            "heading": "Vom Angebot zur wiederholbaren Lieferung",
+            "body": "Führen Sie bei Anfragen mit mehreren Teilen Nummer, Revision, Werkstoff und Menge einzeln auf. Vereinbaren Sie Fertigungsweg, Musterprüfung und Freigabeunterlagen vor Folgeaufträgen. Ordnen Sie die freigegebene Spezifikation der Mischung und Produktionscharge zu. Bei gewünschter Mischungslieferung sind Lieferform und Verarbeitungsanforderungen gesondert von der Fertigteillieferung festzulegen.",
+            "links": [
+              {
+                "url": "/products/custom",
+                "label": "Kundenspezifisches Bauteilprojekt besprechen"
+              },
+              {
+                "url": "/capabilities/rubber-molding",
+                "label": "Verfahren zur Gummiformgebung"
+              },
+              {
+                "url": "/compounds",
+                "label": "Mischungslieferung besprechen"
+              },
+              {
+                "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+                "label": "Chargenrückverfolgung nachvollziehen"
+              },
+              {
+                "url": "/batch-rfq",
+                "label": "Angebot für mehrere Teile anfragen"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Muster für Industriebauteile besprechen"
+              }
+            ]
           }
         ],
         "cta": "Anwendung besprechen",

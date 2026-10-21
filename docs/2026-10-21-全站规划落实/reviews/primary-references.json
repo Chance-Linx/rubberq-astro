@@ -417,6 +417,31 @@
       "use": "区别垫片材料资料与完整箱体IP评价，不声称RubberQ提供已获IP等级的总成。",
       "paid_access": false,
       "public_use": "Internal scope cross-check; no external standard link or standard text added to the product page."
+    },
+    {
+      "id": "OCP-IMMERSION-COMPATIBILITY-2022",
+      "title": "Material Compatibility in Immersion Cooling — Revision 1.0, 28 November 2022",
+      "url": "https://www.opencompute.org/documents/material-compatibility-in-immersion-cooling-document-version-1-0-nov-28-2022-1-pdf",
+      "publisher": "Open Compute Project",
+      "checked_on": "2026-10-21",
+      "read_sections": [
+        "Introduction and scope",
+        "Material-compatibility definitions excerpts",
+        "Recommended test methods introductory text"
+      ],
+      "use": "仅作浸没式介电液场景与试验对象/条件的一手范围核对；不延伸到所有水乙二醇冷板或储能系统，不采用阈值、程序、兼容图表或数据证明RubberQ配方。",
+      "scope_limit": "公开PDF，CC BY-SA 4.0。页面清单按项目买方输入独立撰写，无复制图表或固定试验数值。"
+    },
+    {
+      "id": "SEMI-LIQUID-CHEMICAL-INDEX",
+      "title": "SEMI Standards Liquid Chemicals — public index",
+      "url": "https://www.semi.org/en/products-services/LiquidChemicalStandards",
+      "publisher": "SEMI",
+      "checked_on": "2026-10-21",
+      "read_sections": [
+        "Public F57 title in Liquid Chemical Standards index"
+      ],
+      "use": "仅核对F57标题所指超纯水和液体化学品分配系统，不把该范围套用为所有等离子或设备密封件资格；未购买标准全文或使用其中限值。"
     }
   ],
   "paid_access": false
