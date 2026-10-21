@@ -598,12 +598,13 @@
     "inventory_semantic_ownership": {
       "required": 271,
       "completed": 0,
-      "full_body_reviews_completed": 150,
-      "dispositions_proposed": 150,
+      "full_body_reviews_completed": 200,
+      "dispositions_proposed": 200,
       "review_artifacts": [
         "reviews/batch-001.json",
         "reviews/batch-002.json",
-        "reviews/batch-003.json"
+        "reviews/batch-003.json",
+        "reviews/batch-004.json"
       ],
       "completion_definition": "completed counts cross-inventory final ownership decisions, not body-read or rewrite proposals"
     },
@@ -617,12 +618,12 @@
     "dashboard_reconciliation": "local_implementation_progress_reconciled_inventory_still_pending",
     "final_audit": "pending",
     "content_revision_drafts": {
-      "prepared": 4,
+      "prepared": 6,
       "cms_written": 0,
       "manifest": "content-revisions/manifest.json"
     }
   },
-  "next_action": "Continue full-body review at saved source indices 150–270; then finalize unique URL ownership for all articles and 63 buyer jobs. Four existing-URL rewrites prepared locally, with no CMS writes.",
+  "next_action": "Continue full-body review at saved source indices 200–270; then finalize unique URL ownership for all articles and 63 buyer jobs. Six existing-URL revisions prepared locally, with no CMS writes.",
   "status_evidence": {
     "implemented_page_specs": 45,
     "message_page_specs": 49,

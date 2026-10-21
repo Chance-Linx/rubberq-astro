@@ -9,12 +9,12 @@ SOURCE=ROOT/'docs/2026-10-21-线上获客执行/evidence/cms-published-source.js
 class BodyText(HTMLParser):
  def __init__(self):super().__init__(convert_charrefs=True);self.parts=[];self.skip=0
  def handle_starttag(self,tag,attrs):
-  if tag in ('script','style','svg'):self.skip+=1
-  if tag in ('p','h1','h2','h3','h4','h5','h6','li','tr','br','div','section'):self.parts.append('\n')
+  if tag in ('script','style'):self.skip+=1
+  if tag in ('p','h1','h2','h3','h4','h5','h6','li','tr','br','div','section','text','tspan'):self.parts.append('\n')
   if tag in ('td','th'):self.parts.append(' | ')
   if tag=='a':self.parts.append(' [link='+dict(attrs).get('href','')+'] ')
  def handle_endtag(self,tag):
-  if tag in ('script','style','svg'):self.skip=max(0,self.skip-1)
+  if tag in ('script','style'):self.skip=max(0,self.skip-1)
  def handle_data(self,text):
   if not self.skip:self.parts.append(text)
 def plain(content):

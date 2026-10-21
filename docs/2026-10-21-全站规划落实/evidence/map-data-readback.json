@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:8797/map",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "artifact_sha256": "a70b1977e547b415260eac71b28e573000480036cac5e7b91d44c6e05c84f01f",
+  "served_review_rows": 200,
+  "served_local_revision_count": 6,
+  "matches_local_generated_artifact": true,
+  "scope": "HTTP response and embedded data; not a new browser visual acceptance"
+}

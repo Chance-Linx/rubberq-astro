@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """Verify provenance/consistency. Does not substitute for the authored semantic read."""
-import collections,csv,hashlib,json,re,runpy,subprocess
+import collections,csv,hashlib,json,re,runpy,subprocess,html
 from pathlib import Path
 B=Path(__file__).resolve().parent;R=B.parents[1]
 helper=runpy.run_path(str(B/'tools_read_inventory.py'));source=helper['records']();byid={a['_id']:a for a in source}
@@ -14,6 +14,15 @@ for file in sorted((B/'reviews').glob('batch-*.json')):
  assert batch['reviewed_indices']==[min(x['source_index'] for x in batch['rows']),max(x['source_index'] for x in batch['rows'])]
  rows.extend(batch['rows'])
 assert len(rows)==len({x['article_id'] for x in rows})
+# Chart labels/numbers are part of the reviewed body; independently extract SVG text.
+for x in rows:
+ content=byid[x['article_id']]['content']
+ if isinstance(content,str):
+  for svg in re.findall(r'<svg\b.*?</svg>',content,re.S|re.I):
+   for value in re.findall(r'<text\b[^>]*>(.*?)</text>',svg,re.S|re.I):
+    expected=re.sub(r'\s+','',html.unescape(re.sub(r'<[^>]*>','',value)))
+    assert expected in re.sub(r'\s+','',plain(content)),(x['source_index'],expected)
+
 with (B/'reviews/存量正文审读与处置提案.csv').open(encoding='utf-8-sig',newline='') as f: exported=list(csv.DictReader(f))
 assert len(exported)==len(rows)
 for item, original in zip(exported,rows):

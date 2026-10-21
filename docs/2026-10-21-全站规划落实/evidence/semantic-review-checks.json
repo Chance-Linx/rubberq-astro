@@ -1,13 +1,13 @@
 {
   "saved_source_articles": 271,
-  "full_body_reviews": 150,
+  "full_body_reviews": 200,
   "action_proposals": {
-    "REWRITE_EXISTING": 91,
-    "HOLD_SCOPE": 30,
-    "REFERENCE_REWRITE": 28,
-    "RETAIN_OPTIMIZE": 1
+    "REWRITE_EXISTING": 123,
+    "HOLD_SCOPE": 38,
+    "REFERENCE_REWRITE": 32,
+    "RETAIN_OPTIMIZE": 7
   },
-  "local_existing_url_drafts": 4,
+  "local_existing_url_drafts": 6,
   "final_ownership_decisions": 0,
   "topic_ownership_decisions": 0,
   "cms_writes": 0,

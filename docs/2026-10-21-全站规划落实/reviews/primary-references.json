@@ -126,6 +126,64 @@
       ],
       "use": "公开摘要核对制品/组件检验、记录、包装与储存范围；2026年版元数据已查，不复制付费限值表，不把它直接当作生胶仓储规定或自动延寿证明。客户合同的适用版仍需逐项确认。",
       "checked_on": "2026-10-21"
+    },
+    {
+      "id": "AIAG-PPAP-SCOPE",
+      "title": "Production Part Approval Process (PPAP) Overview",
+      "url": "https://www.aiag.org/training-and-resources/training-catalog/details/PPAP?CourseCode=PPAP",
+      "publisher": "AIAG",
+      "read_sections": [
+        "Agenda; submission and records/sample-retention overview"
+      ],
+      "use": "公开培训概览确认PPAP涉及程序、提交、记录与样品资料；未购买培训或手册，不据此编造所有项目统一Level3、固定保管年限或RubberQ已获客户批准。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "ECHA-ARTICLES-SCOPE",
+      "title": "Candidate List substances in articles",
+      "url": "https://echa.europa.eu/regulations/reach/candidate-list-substances-in-articles",
+      "publisher": "European Chemicals Agency",
+      "read_sections": [
+        "Article/supply-chain information overview"
+      ],
+      "use": "公开范围用于确认具体制品与供应链成分资料的重要性，不按胶种名称给统一Full/Partial等级；未判定特定订单的法律义务或合规结论。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "EC-ROHS-SCOPE",
+      "title": "Restriction of Hazardous Substances in Electrical and Electronic Equipment",
+      "url": "https://environment.ec.europa.eu/topics/waste-and-recycling/rohs-directive_en",
+      "publisher": "European Commission",
+      "read_sections": [
+        "Objectives",
+        "Law and substance-list overview"
+      ],
+      "use": "公开概览确认适用对象与物质范围，不将其简化成所有橡胶的重金属筛查，不证明RubberQ存在XRF或某产品符合。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "ASTM-D395",
+      "title": "D395 — Rubber Property, Compression Set",
+      "url": "https://store.astm.org/standards/d395",
+      "publisher": "ASTM International",
+      "read_sections": [
+        "Significance and Use",
+        "Scope"
+      ],
+      "use": "公开范围用于核对压缩永久变形评价；不复制付费试验程序、限值或由此推断长期密封寿命。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "ASTM-D6147",
+      "title": "D6147 — Determination of Force Decay (Stress Relaxation) in Compression",
+      "url": "https://store.astm.org/d6147-97r26.html",
+      "publisher": "ASTM International",
+      "read_sections": [
+        "Significance and Use",
+        "Scope"
+      ],
+      "use": "公开范围确认固定变形下反力随时间降低的量测任务，区别于尺寸恢复指标；没有购买标准、提供通用保力限值或证明工厂已具该具体项目能力。",
+      "checked_on": "2026-10-21"
     }
   ],
   "paid_access": false

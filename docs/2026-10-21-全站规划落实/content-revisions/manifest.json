@@ -137,6 +137,76 @@
       "primary_reference_ids": [
         "ASQ-8D"
       ]
+    },
+    {
+      "article_id": "article-batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+      "expected_source_revision": "u4SPfG4EtNHvvP9LxnXQgh",
+      "source_body_sha256": "7dc1224602e4eb4d1d839f7f2ac8872304efe52c76ed1ea79d2f4d31789f7297",
+      "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+      "content_file": "content-revisions/batch-traceability-records.html",
+      "fields": {
+        "title": "Rubber Batch Traceability: Records for Repeat Orders",
+        "excerpt": "Define the material, process, inspection and shipment records needed to support repeat rubber-part orders and investigate a lot-specific concern.",
+        "content": "<p>Traceability is the ability to connect a finished rubber part to the material, process, inspection, and shipment records that produced it. In a simple purchase, that may sound like paperwork. In a repeat production program, these records support comparisons between lots and the investigation of unexpected variation.</p>\n\n<p>When a buyer asks why one lot feels different, why dimensions moved or why a part behaved differently after assembly, use the linked records to identify the material, process and inspection information available for comparison.</p>\n\n<h2>What a Traceable Rubber Lot Should Connect</h2>\n\n<p>A useful traceability system should not stop at a shipping label. It should connect several production layers:</p>\n\n<ul>\n  <li>Raw polymer and ingredient batches.</li>\n  <li>Compound recipe and mixing record.</li>\n  <li>Cure curve or rheometer data when required.</li>\n  <li>Molding machine, tool, shift, and process parameters.</li>\n  <li>Trimming or finishing method.</li>\n  <li>Inspection results and test reports.</li>\n  <li>Packing and shipment records.</li>\n</ul>\n\n<p>The point is not to create a large document package for every order. The point is to make the record available when the application or buyer requirement calls for it.</p>\n\n<h2>Why Traceability Matters for Repeat Orders</h2>\n\n<p>Rubber materials are sensitive to small changes. Polymer supplier, filler lot, cure-package handling, mixing sequence, mold temperature, post-cure cycle, and storage condition can all influence final properties. For repeat orders, discuss how those variables are identified in the records and how the supplier retrieves the information associated with a shipment.</p>\n\n<p>For EV, industrial equipment, semiconductor-related hardware, and Tier 2 supply programs, the risk is not only one bad part. The risk is losing confidence in whether the same material and process can be repeated over years.</p>\n\n<h2>ERP Records Are Useful Only When the Shop Floor Uses Them</h2>\n\n<p>When reviewing an ERP-based traceability system, ask how records are created and connected at receiving, weighing, mixing, molding, inspection, packing and shipment. Discuss the lot identifiers used, the records available and how the information can be retrieved for a particular order.</p>\n\n<p>RubberQ uses ERP traceability alongside in-house compound preparation, molding and testing. During the enquiry, identify the records your program requires so the documentation scope can be discussed with the component and inspection requirements.</p>\n\n<h2>What Buyers Should Ask For</h2>\n\n<table>\n  <thead>\n    <tr><th>Buyer question</th><th>What it reveals</th></tr>\n  </thead>\n  <tbody>\n    <tr><td>Can you trace this shipment to a compound batch?</td><td>Whether material identity is controlled.</td></tr>\n    <tr><td>Can you reproduce the same compound next year?</td><td>Whether recipe and process records are stable.</td></tr>\n    <tr><td>Which tests are connected to the lot?</td><td>Whether inspection evidence follows the shipment.</td></tr>\n    <tr><td>How are changes approved?</td><td>How material and process changes are reviewed and approved.</td></tr>\n  </tbody>\n</table>\n\n<h2>Use Records During Supplier Evaluation</h2>\n\n<p>Use the available records to assess how the supplier identifies material, controls the process and documents inspection. Where PPAP or another customer-specific submission is required, agree the applicable scope and the records to be included.</p>\n\n<p>When a concern arises, connect the observed condition to the affected part, lot and order. Material and process records can help narrow the investigation; comparisons, inspection and relevant tests are still needed to establish the cause.</p>\n\n<h2>Discuss Record Requirements with RubberQ</h2>\n\n<p>RubberQ combines in-house compound preparation, molded-part production, inspection and testing. Include your drawing, material requirement, expected order pattern and documentation needs in the enquiry. These inputs help define the component, sample and record requirements for the program.</p>\n\n<p><a href=\"/quality\">Review RubberQ quality capability</a>, <a href=\"/factory\">see factory operations</a>, or <a href=\"/contact\">send a project brief</a>.</p>"
+      },
+      "preserve": [
+        "slug",
+        "publishedAt",
+        "status",
+        "category",
+        "tags",
+        "author",
+        "coverImage"
+      ],
+      "stage": "local_body_draft",
+      "revision_mode": "targeted_optimization_of_existing_body",
+      "final_review": false,
+      "cms_written": false,
+      "release_dependencies": [
+        "Five-locale acquisition page release",
+        "Fresh CMS read and revision comparison",
+        "Full inventory URL ownership decision",
+        "Consolidated final review"
+      ],
+      "content_sha256": "6e57605c26f9a474211e9754f410def3fc355ee0dfb6fb8c843b5ccebc30f66f",
+      "word_count": 556,
+      "word_count_method": "Visible HTML text, whitespace split; href target markers excluded",
+      "primary_reference_ids": []
+    },
+    {
+      "article_id": "article-industrial-bellows-material-selection-flex-life-media-exposure",
+      "expected_source_revision": "ABrvN9p4HTT2BOyLeRplUa",
+      "source_body_sha256": "462c74de01f2446d8efe9a8b7d7bc11c4a4f5ef4696c38cf90857580f68dc035",
+      "url": "/blog/industrial-bellows-material-selection-flex-life-media-exposure",
+      "content_file": "content-revisions/industrial-bellows-material-motion.html",
+      "fields": {
+        "title": "Industrial Rubber Bellows: Material and Motion Review",
+        "excerpt": "Prepare movement, media, temperature and geometry requirements for industrial rubber bellows, then agree material and functional sample checks.",
+        "content": "<p>Industrial rubber bellows protect moving components from dust, fluids, metal chips, coolant spray, weather, and repeated flexing. They are used around shafts, linkages, sliding mechanisms, sensors, tool heads, and exposed moving assemblies. The material choice matters because a bellows does not simply seal a gap. It must move without cracking while resisting the surrounding environment.</p>\n\n<p>A good bellows design starts with movement and exposure, not with a generic material name.</p>\n\n<h2>The Five Inputs That Drive Material Choice</h2>\n\n<ul>\n  <li><strong>Movement pattern.</strong> Axial compression, bending, torsion, and combined movement create different stress zones.</li>\n  <li><strong>Cycle expectation.</strong> A cover moved a few times per day has different needs from a part flexed continuously.</li>\n  <li><strong>Media exposure.</strong> Oil, coolant, grease, cleaning fluid, ozone, UV, and dust all influence compound choice.</li>\n  <li><strong>Temperature range.</strong> Heat aging and low-temperature flexibility should be checked against actual service conditions.</li>\n  <li><strong>Geometry.</strong> Wall thickness, fold radius, parting line, and mounting details determine where failure begins.</li>\n</ul>\n\n<h2>Common Material Families</h2>\n\n<table>\n  <thead>\n    <tr><th>Material family</th><th>Typical reason to consider it</th></tr>\n  </thead>\n  <tbody>\n    <tr><td>EPDM</td><td>Weather, ozone, water, and outdoor exposure.</td></tr>\n    <tr><td>NBR</td><td>Oil and grease exposure in industrial equipment.</td></tr>\n    <tr><td>HNBR</td><td>Combined heat, oil and movement requirements, subject to candidate-grade data.</td></tr>\n    <tr><td>VMQ silicone</td><td>Wide temperature range and flexibility, when fluid exposure fits.</td></tr>\n    <tr><td>FKM</td><td>Heat and specified fluid exposure where the candidate grade fits.</td></tr>\n  </tbody>\n</table>\n\n<p>The table is only a starting point. A bellows compound may need customized hardness, filler package, cure system, and tear-strength balance to fit the part geometry.</p>\n\n<h2>Review Geometry Alongside Material</h2>\n\n<p>Review geometry alongside material when investigating a bellows failure. Fold-root shape, wall thickness, compression travel and mounting edges affect where movement and contact occur. Photographs and a comparison with unused parts can help identify the areas that need further evaluation.</p>\n\n<p>Before tooling, buyers should share the full installed envelope, movement range, mounting method, and neighboring metal or plastic parts. That allows the supplier to review both compound and geometry together.</p>\n\n<h2>Testing That Helps</h2>\n\n<p>Useful validation depends on the application. For most industrial bellows projects, the buyer and supplier should discuss hardness, tensile strength, elongation, tear strength, heat aging, fluid resistance, and flex-cycle testing where practical. A simple material datasheet is not enough for a bellows that will move repeatedly in a dirty or hot environment.</p>\n\n<p>RubberQ can help review drawings, recommend compound families, and produce samples for functional evaluation. When the project requires custom material support, our compounding and testing workflow can connect material design with molded-part behavior.</p>\n\n<h2>RFQ Checklist</h2>\n\n<ul>\n  <li>Send the drawing plus installed movement range.</li>\n  <li>List oils, coolants, cleaning fluids, outdoor exposure, and temperature range.</li>\n  <li>Define target cycle expectation or service life.</li>\n  <li>Identify critical surfaces that cannot crack or rub through.</li>\n  <li>Ask the supplier to review fold geometry before tooling.</li>\n</ul>\n\n<p>Define movement, exposure and acceptance requirements before approving a bellows material or tool. Discuss the drawing, installed envelope and sample evaluation together.</p>\n\n<p><a href=\"/products/bellows\">Review molded bellows requirements</a> or <a href=\"/contact\">send a bellows drawing for review</a>.</p>"
+      },
+      "preserve": [
+        "slug",
+        "publishedAt",
+        "status",
+        "category",
+        "tags",
+        "author",
+        "coverImage"
+      ],
+      "stage": "local_body_draft",
+      "revision_mode": "targeted_optimization_of_existing_body",
+      "final_review": false,
+      "cms_written": false,
+      "release_dependencies": [
+        "Five-locale acquisition page release",
+        "Fresh CMS read and revision comparison",
+        "Full inventory URL ownership decision",
+        "Consolidated final review"
+      ],
+      "content_sha256": "12d6ebac5954800c2cac8dd53630ad84e47e4be72ff04839bc8722d2d72c1c5e",
+      "word_count": 487,
+      "word_count_method": "Visible HTML text, whitespace split; href target markers excluded",
+      "primary_reference_ids": []
     }
   ],
   "cms_writes": 0,
