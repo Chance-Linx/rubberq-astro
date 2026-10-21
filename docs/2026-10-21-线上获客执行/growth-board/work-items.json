@@ -109,7 +109,9 @@
         "rubberq-astro/docs/2026-10-21-线上获客执行/05-关键词话题与竞品资产说明.md",
         "rubberq-astro/docs/2026-10-21-线上获客执行/data/话题库.csv",
         "rubberq-astro/docs/2026-10-21-线上获客执行/data/关键词-URL地图.csv",
-        "rubberq-astro/docs/2026-10-21-线上获客执行/data/竞品参考清单.csv"
+        "rubberq-astro/docs/2026-10-21-线上获客执行/data/竞品参考清单.csv",
+        "rubberq-astro/docs/2026-10-21-全站规划落实/ownership/keyword-owners.json",
+        "rubberq-astro/docs/2026-10-21-全站规划落实/ownership/operational-graph.json"
       ],
       "reports": [
         "rubberq-astro/docs/2026-10-21-线上获客执行/00-交付入口.md"
@@ -117,7 +119,7 @@
       "next_step": "继续完整实施，全部完成后一次性审核；不重复请求阶段验收",
       "channel": "content",
       "source": "根任务清单RQAC系列的只读阶段投影",
-      "note": "本轮交付，未实施外部发布",
+      "note": "292行运行归属已复核；651条实际正文关系独立回读，原始快照保留。最终验收与上线另计。",
       "delivered_at": "2026-10-21"
     },
     {
@@ -202,9 +204,11 @@
         "rubberq-astro/docs/2026-10-21-全站规划落实/evidence/rfq-dataflow-source-review.json"
       ],
       "reports": [
-        "rubberq-astro/docs/2026-10-21-线上获客执行/00-交付入口.md"
+        "rubberq-astro/docs/2026-10-21-线上获客执行/00-交付入口.md",
+        "rubberq-astro/docs/2026-10-21-全站规划落实/21-询盘附件保存通知与失败重试.md",
+        "rubberq-astro/docs/2026-10-21-全站规划落实/22-关键词运行归属与全站移动端.md"
       ],
-      "next_step": "七项法律页事实已本地修订，Cookie重开/停用与询盘来源已落实；继续完整RFQ附件/存储/通知路径、实际关键词图谱、全站手机路径及干净候选，全部完成后集中审核。",
+      "next_step": "干净候选与一次集中终审；未上线",
       "channel": "content",
       "source": "根任务清单RQAC系列的只读阶段投影",
       "note": "35模块、27文章与博客/搜索保持；本轮115个五语种法律字段定向修订，9项隐私/来源用例和五语种设置UI通过，20法律页视口+5手机面板无溢出。已定位Worker通知只含附件名的问题，尚未证明文件送达。CMS/付费/部署0，集中审核未开始。",

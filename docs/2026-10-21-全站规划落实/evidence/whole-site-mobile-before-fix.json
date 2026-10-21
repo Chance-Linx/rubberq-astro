@@ -1,0 +1,355 @@
+{
+  "failures": [
+    {
+      "locale": "en",
+      "path": "/about",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Precision Rubber Manufacturing Since 1995",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/products",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Custom Rubber Parts for Industrial Assemblies",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/products/seals",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "O-Rings and Custom Rubber Seals",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/products/gaskets",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Custom Rubber Gaskets",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/products/bellows",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Custom Rubber Bellows and Protective Boots",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/products/custom",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Custom Molded Rubber Parts",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/products/diaphragms",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Custom Rubber Diaphragms",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/products/rubber-to-metal-bonded-parts",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Rubber-to-Metal Bonded Components",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/products/ffkm-replacement-seals",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "FFKM Replacement Seals for Equipment Maintenance",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/materials",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Rubber Materials for Precision Components",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/materials/ffkm",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "FFKM Materials for Demanding Sealing Conditions",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/materials/fkm",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "FKM Materials for Industrial Seals",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/materials/epdm",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "EPDM Materials for Seals and Gaskets",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/materials/hnbr",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "HNBR Materials for Mechanical Sealing Parts",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/materials/nbr",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "NBR Materials for Industrial Rubber Parts",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/materials/silicone",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Silicone Materials for Custom Molded Parts",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/materials/lsr",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Liquid Silicone Rubber Materials and Part Review",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/capabilities/rubber-molding",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Custom Rubber Molding",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/capabilities/lsr-molding",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "LSR Molding Project Review",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/compounding",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Rubber Compounding and Formulation Support",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/compounds",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Custom Rubber Compound Supply",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/testing",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "In-House Rubber Testing and Inspection",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/quality",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Quality Control and Production Traceability",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/factory",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Inside RubberQ Manufacturing",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/industries/semiconductor",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Rubber Seals for Semiconductor Equipment",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/industries/liquid-cooling-energy-storage",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Rubber Components for Liquid Cooling and Energy Storage",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/industries/ev-energy-storage",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Rubber Components for EV Thermal Management",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/industries/humanoid-robotics",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Rubber Components for Humanoid Robotics",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/industries/industrial-equipment",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Custom Rubber Components for Industrial Equipment",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/standards",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Rubber Standards and Specification Support",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/resources/o-ring-size-guide",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "O-Ring Size and Drawing Guide",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/resources/rubber-hardness-guide",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Rubber Hardness: Specifying a Useful Requirement",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/resources/material-compatibility",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Rubber Material Compatibility: What to Specify",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/resources/seal-failure-analysis",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Rubber Seal Failure: A Practical Review Checklist",
+      "overflow": true
+    },
+    {
+      "locale": "en",
+      "path": "/sample-request",
+      "width": 375,
+      "status": 200,
+      "scrollWidth": 540,
+      "mainWidth": 375,
+      "h1": "Request Rubber Component Samples",
+      "overflow": true
+    }
+  ],
+  "scope": "First English sweep before shared grid min-width correction; duplicate specialized route inputs removed in final sweep."
+}

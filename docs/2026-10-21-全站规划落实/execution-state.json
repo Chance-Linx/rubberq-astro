@@ -757,9 +757,38 @@
       "production_submissions": 0,
       "real_emails": 0,
       "evidence": "evidence/rfq-pipeline-integration.json"
+    },
+    "keyword_operational_map": {
+      "rows_reviewed": 292,
+      "target_now": 206,
+      "context_only": 50,
+      "evidence_required": 26,
+      "exclude_geography": 2,
+      "exclude_unrelated": 8,
+      "owner_changes": 109,
+      "evidence": "ownership/keyword-owners.json",
+      "final_review": "pending"
+    },
+    "operational_graph": {
+      "nodes": 76,
+      "actual_unique_main_links": 651,
+      "unknown_targets": 0,
+      "evidence": "ownership/operational-graph.json",
+      "production_verified": false
+    },
+    "whole_site_mobile": {
+      "viewport_checks_passed": 536,
+      "viewports": [
+        375,
+        768
+      ],
+      "navigation_journeys_passed": 5,
+      "shared_grid_overflow_fixed": true,
+      "evidence": "evidence/whole-site-mobile-layout.json",
+      "production_verified": false
     }
   },
-  "next_action": "Reconcile operational keyword and graph relationships; complete whole-site mobile paths and a clean candidate, then perform one consolidated final review.",
+  "next_action": "Export and verify a clean candidate; perform one consolidated final review of the complete planning and local implementation package.",
   "status_evidence": {
     "implemented_page_specs": 45,
     "message_page_specs": 49,

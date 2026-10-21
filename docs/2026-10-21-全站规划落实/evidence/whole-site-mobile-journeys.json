@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "locale": "en",
+      "industries": [
+        "/industries",
+        "/industries/semiconductor",
+        "/industries/liquid-cooling-energy-storage",
+        "/industries/ev-energy-storage",
+        "/industries/humanoid-robotics",
+        "/industries/industrial-equipment",
+        "/industries/automotive-tier2"
+      ],
+      "materialUrl": "http://127.0.0.1:4398/materials/ffkm",
+      "destination": "http://127.0.0.1:4398/contact?source=%2Fmaterials%2Fffkm&cta=project-review",
+      "overflow": false
+    },
+    {
+      "locale": "de",
+      "industries": [
+        "/de/industries",
+        "/de/industries/semiconductor",
+        "/de/industries/liquid-cooling-energy-storage",
+        "/de/industries/ev-energy-storage",
+        "/de/industries/humanoid-robotics",
+        "/de/industries/industrial-equipment",
+        "/de/industries/automotive-tier2"
+      ],
+      "materialUrl": "http://127.0.0.1:4398/de/materials/ffkm",
+      "destination": "http://127.0.0.1:4398/de/contact?source=%2Fmaterials%2Fffkm&cta=project-review",
+      "overflow": false
+    },
+    {
+      "locale": "ja",
+      "industries": [
+        "/ja/industries",
+        "/ja/industries/semiconductor",
+        "/ja/industries/liquid-cooling-energy-storage",
+        "/ja/industries/ev-energy-storage",
+        "/ja/industries/humanoid-robotics",
+        "/ja/industries/industrial-equipment",
+        "/ja/industries/automotive-tier2"
+      ],
+      "materialUrl": "http://127.0.0.1:4398/ja/materials/ffkm",
+      "destination": "http://127.0.0.1:4398/ja/contact?source=%2Fmaterials%2Fffkm&cta=project-review",
+      "overflow": false
+    },
+    {
+      "locale": "es",
+      "industries": [
+        "/es/industries",
+        "/es/industries/semiconductor",
+        "/es/industries/liquid-cooling-energy-storage",
+        "/es/industries/ev-energy-storage",
+        "/es/industries/humanoid-robotics",
+        "/es/industries/industrial-equipment",
+        "/es/industries/automotive-tier2"
+      ],
+      "materialUrl": "http://127.0.0.1:4398/es/materials/ffkm",
+      "destination": "http://127.0.0.1:4398/es/contact?source=%2Fmaterials%2Fffkm&cta=project-review",
+      "overflow": false
+    },
+    {
+      "locale": "zh",
+      "industries": [
+        "/zh/industries",
+        "/zh/industries/semiconductor",
+        "/zh/industries/liquid-cooling-energy-storage",
+        "/zh/industries/ev-energy-storage",
+        "/zh/industries/humanoid-robotics",
+        "/zh/industries/industrial-equipment",
+        "/zh/industries/automotive-tier2"
+      ],
+      "materialUrl": "http://127.0.0.1:4398/zh/materials/ffkm",
+      "destination": "http://127.0.0.1:4398/zh/contact?source=%2Fmaterials%2Fffkm&cta=project-review",
+      "overflow": false
+    }
+  ],
+  "passed": 5
+}

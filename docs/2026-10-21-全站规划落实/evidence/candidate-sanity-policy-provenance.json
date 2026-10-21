@@ -1,0 +1,11 @@
+{
+  "file": "src/lib/sanity.ts",
+  "adopted_preexisting_change": true,
+  "reason": "Existing removal of broad robotics and data-center bans matches the explicitly approved strategy; preserve remaining redlines and scheduled publication filter. CMS changes not performed.",
+  "base_commit": "164caa9",
+  "committed_baseline_sha256": "3196d2695eb9640fde51f49fea6a753c7b8f3e4f1bd0213dfb722c9b0ee8c16c",
+  "adopted_sha256": "05a1b5594ffc8e94a3d3c444ba5b1b6dd29a5a024da7f99a7cf6eaaa75a460a6",
+  "exact_patch": "diff --git a/src/lib/sanity.ts b/src/lib/sanity.ts\nindex 3f3fed4..08e8a57 100644\n--- a/src/lib/sanity.ts\n+++ b/src/lib/sanity.ts\n@@ -44,12 +44,6 @@ const blockedBlogTerms = [\n   'med' + 'ical',\n   'bio' + 'compatibility',\n   'usp-class',\n-  'robot' + 'ic',\n-  'robot' + 'ics',\n-  'robot' + 's',\n-  'ai-server',\n-  'ai-and-automation',\n-  'data-center',\n   'battery-pack',\n   'p' + 'du',\n   'b' + 'ms',\n",
+  "local_revised_bodies_allowed": 27,
+  "cms_writes": 0
+}
