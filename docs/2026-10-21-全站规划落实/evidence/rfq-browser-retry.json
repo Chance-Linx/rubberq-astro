@@ -5,7 +5,7 @@
       "ok": false,
       "errorCode": "storage_failed"
     },
-    "submissionId": "3b6f485a-fa13-4939-b3b2-c37294d7e7d1",
+    "submissionId": "12f7b649-cb5b-4ceb-b4e7-6c6ce14a7ed8",
     "errorVisible": true,
     "detailsPreserved": true
   },
@@ -13,13 +13,13 @@
     "status": 200,
     "data": {
       "ok": true,
-      "receiptId": "3b6f485a-fa13-4939-b3b2-c37294d7e7d1",
+      "receiptId": "12f7b649-cb5b-4ceb-b4e7-6c6ce14a7ed8",
       "recordSaved": true,
       "attachmentSaved": true,
       "notificationAccepted": true,
       "notificationStatus": "accepted"
     },
-    "submissionId": "3b6f485a-fa13-4939-b3b2-c37294d7e7d1",
+    "submissionId": "12f7b649-cb5b-4ceb-b4e7-6c6ce14a7ed8",
     "successVisible": true
   },
   "sameSubmissionId": true,

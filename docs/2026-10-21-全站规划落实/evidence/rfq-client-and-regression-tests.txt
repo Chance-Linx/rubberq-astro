@@ -2,195 +2,207 @@ TAP version 13
 # Subtest: existing publisher HTML retains its exact established output
 ok 1 - existing publisher HTML retains its exact established output
   ---
-  duration_ms: 13.941958
+  duration_ms: 12.575708
   type: 'test'
   ...
 # Subtest: prose-first mixed content parses formatting and lists after HTML
 ok 2 - prose-first mixed content parses formatting and lists after HTML
   ---
-  duration_ms: 6.447875
+  duration_ms: 6.594875
   type: 'test'
   ...
 # Subtest: HTML-first mixed content parses subsequent Markdown blocks
 ok 3 - HTML-first mixed content parses subsequent Markdown blocks
   ---
-  duration_ms: 1.733084
+  duration_ms: 1.816709
   type: 'test'
   ...
 # Subtest: plain prose before HTML still recognizes a following Markdown list
 ok 4 - plain prose before HTML still recognizes a following Markdown list
   ---
-  duration_ms: 1.051
+  duration_ms: 1.011625
   type: 'test'
   ...
 # Subtest: Markdown headings, tables, lists and links produce HTML and retain a single page H1
 ok 5 - Markdown headings, tables, lists and links produce HTML and retain a single page H1
   ---
-  duration_ms: 2.693958
+  duration_ms: 3.306667
   type: 'test'
   ...
 # Subtest: mixed Markdown and HTML preserves body text and removes executable elements
 ok 6 - mixed Markdown and HTML preserves body text and removes executable elements
   ---
-  duration_ms: 0.991083
+  duration_ms: 0.970125
   type: 'test'
   ...
 # Subtest: Markdown rejects script/data URLs, event handlers and unsafe images
 ok 7 - Markdown rejects script/data URLs, event handlers and unsafe images
   ---
-  duration_ms: 2.436708
+  duration_ms: 2.218083
   type: 'test'
   ...
 # Subtest: Portable Text renders paragraphs, marks, line breaks and safe links
 ok 8 - Portable Text renders paragraphs, marks, line breaks and safe links
   ---
-  duration_ms: 0.766833
+  duration_ms: 1.598958
   type: 'test'
   ...
 # Subtest: Portable Text keeps contiguous and nested lists structurally valid
 ok 9 - Portable Text keeps contiguous and nested lists structurally valid
   ---
-  duration_ms: 0.485875
+  duration_ms: 0.576834
   type: 'test'
   ...
 # Subtest: Portable Text uses Sanity image references and refuses malicious links or image URLs
 ok 10 - Portable Text uses Sanity image references and refuses malicious links or image URLs
   ---
-  duration_ms: 0.603375
+  duration_ms: 0.877708
   type: 'test'
   ...
 # Subtest: empty and unsupported content types do not stringify objects
 ok 11 - empty and unsupported content types do not stringify objects
   ---
-  duration_ms: 0.243
+  duration_ms: 0.2595
   type: 'test'
   ...
 # Subtest: an image decision requires the exact reviewed article and asset pair
 ok 12 - an image decision requires the exact reviewed article and asset pair
   ---
-  duration_ms: 0.517292
+  duration_ms: 0.530958
   type: 'test'
   ...
 # Subtest: scroll regions preserve table markup, links, labels, units and surrounding content
 ok 13 - scroll regions preserve table markup, links, labels, units and surrounding content
   ---
-  duration_ms: 0.314833
+  duration_ms: 0.418666
   type: 'test'
   ...
 # Subtest: all five search indexes use real localized page titles and cover new acquisition routes
 ok 14 - all five search indexes use real localized page titles and cover new acquisition routes
   ---
-  duration_ms: 91.146416
+  duration_ms: 79.554
   type: 'test'
   ...
 # Subtest: search distinguishes FKM from FFKM and supports exact CJK substrings
 ok 15 - search distinguishes FKM from FFKM and supports exact CJK substrings
   ---
-  duration_ms: 0.507333
+  duration_ms: 0.472125
   type: 'test'
   ...
 # Subtest: article indexes exclude draft, archived, future and invalid dates
 ok 16 - article indexes exclude draft, archived, future and invalid dates
   ---
-  duration_ms: 0.192791
+  duration_ms: 0.191292
   type: 'test'
   ...
 # Subtest: pagination traverses each entry once and query URLs preserve filters safely
 ok 17 - pagination traverses each entry once and query URLs preserve filters safely
   ---
-  duration_ms: 0.382625
+  duration_ms: 0.580167
   type: 'test'
   ...
 # Subtest: no choice, invalid data and denied analytics do not load Google or retain first-touch storage
 ok 18 - no choice, invalid data and denied analytics do not load Google or retain first-touch storage
   ---
-  duration_ms: 4.693625
+  duration_ms: 3.105916
   type: 'test'
   ...
 # Subtest: opt-in loads once, uses clean analytics URLs and preserves the consented entry record
 ok 19 - opt-in loads once, uses clean analytics URLs and preserves the consented entry record
   ---
-  duration_ms: 1.411333
+  duration_ms: 0.477333
   type: 'test'
   ...
 # Subtest: withdrawal stops event queueing, clears optional records and deletes only analytics cookies
 ok 20 - withdrawal stops event queueing, clears optional records and deletes only analytics cookies
   ---
-  duration_ms: 1.328792
+  duration_ms: 0.461459
   type: 'test'
   ...
 # Subtest: a storage change in another tab applies the latest denied choice
 ok 21 - a storage change in another tab applies the latest denied choice
   ---
-  duration_ms: 1.34525
+  duration_ms: 0.393667
   type: 'test'
   ...
 # Subtest: blocked browser storage cannot crash the loader
 ok 22 - blocked browser storage cannot crash the loader
   ---
-  duration_ms: 3.082625
+  duration_ms: 1.329417
   type: 'test'
   ...
 # Subtest: an inquiry retains current source/CTA without writing optional storage when analytics is denied
 ok 23 - an inquiry retains current source/CTA without writing optional storage when analytics is denied
   ---
-  duration_ms: 4.503084
+  duration_ms: 2.417834
   type: 'test'
   ...
 # Subtest: direct article links retain a same-site referring page; external referral is not invented as a source page
 ok 24 - direct article links retain a same-site referring page; external referral is not invented as a source page
   ---
-  duration_ms: 0.287875
+  duration_ms: 0.258333
   type: 'test'
   ...
 # Subtest: consented entry attribution is preserved and blocked storage still allows an inquiry
 ok 25 - consented entry attribution is preserved and blocked storage still allows an inquiry
   ---
-  duration_ms: 0.161
+  duration_ms: 0.147542
   type: 'test'
   ...
 # Subtest: source context survives the existing Worker/D1 JSON contract and appears in the notification body
 ok 26 - source context survives the existing Worker/D1 JSON contract and appears in the notification body
   ---
-  duration_ms: 3.043791
+  duration_ms: 2.25725
   type: 'test'
   ...
 # Subtest: network failure retains a submission ID; retry preserves it despite new source timestamps
 ok 27 - network failure retains a submission ID; retry preserves it despite new source timestamps
   ---
-  duration_ms: 39.280083
+  duration_ms: 18.236792
   type: 'test'
   ...
 # Subtest: changed business details receive a new ID after a failed attempt
 ok 28 - changed business details receive a new ID after a failed attempt
   ---
-  duration_ms: 0.536834
+  duration_ms: 0.484833
   type: 'test'
   ...
 # Subtest: HTTP errors, non-JSON bodies and explicit unsaved results never become success
 ok 29 - HTTP errors, non-JSON bodies and explicit unsaved results never become success
   ---
-  duration_ms: 0.809125
+  duration_ms: 0.754875
   type: 'test'
   ...
 # Subtest: a successful persisted inquiry remains successful if notification is still pending
 ok 30 - a successful persisted inquiry remains successful if notification is still pending
   ---
-  duration_ms: 0.451041
+  duration_ms: 0.280291
   type: 'test'
   ...
 # Subtest: a bounded request abort retains the ID for a safe retry
 ok 31 - a bounded request abort retains the ID for a safe retry
   ---
-  duration_ms: 5.892208
+  duration_ms: 5.554833
   type: 'test'
   ...
-1..31
-# tests 31
+# Subtest: legacy or mismatched receipts never acknowledge the current inquiry
+ok 32 - legacy or mismatched receipts never acknowledge the current inquiry
+  ---
+  duration_ms: 1.163584
+  type: 'test'
+  ...
+# Subtest: an uploaded file requires explicit storage acknowledgement
+ok 33 - an uploaded file requires explicit storage acknowledgement
+  ---
+  duration_ms: 0.373208
+  type: 'test'
+  ...
+1..33
+# tests 33
 # suites 0
-# pass 31
+# pass 33
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 444.86975
+# duration_ms 591.761667

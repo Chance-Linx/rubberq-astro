@@ -14,7 +14,8 @@ export async function submitInquiry(payload: Record<string, unknown>, state: Sub
       body:JSON.stringify({...payload, submissionId:id}) });
     let data;
     try { data = await response.json(); } catch { return {ok:false}; }
-    if (!response.ok || data?.ok !== true || data.recordSaved === false) return {ok:false};
+    if (!response.ok || data?.ok !== true || data.recordSaved !== true || data.receiptId !== id ||
+      (payload.attachment && data.attachmentSaved !== true)) return {ok:false};
     if (state.current?.id === id) state.current = null;
     return {ok:true};
   } finally { clearTimeout(timer); }
