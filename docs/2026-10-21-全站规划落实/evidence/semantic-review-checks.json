@@ -1,0 +1,17 @@
+{
+  "saved_source_articles": 271,
+  "full_body_reviews": 50,
+  "action_proposals": {
+    "REWRITE_EXISTING": 31,
+    "HOLD_SCOPE": 12,
+    "REFERENCE_REWRITE": 6,
+    "RETAIN_OPTIMIZE": 1
+  },
+  "local_existing_url_drafts": 2,
+  "final_ownership_decisions": 0,
+  "topic_ownership_decisions": 0,
+  "cms_writes": 0,
+  "paid_calls": 0,
+  "final_project_audit": "not_started",
+  "scope": "Source/hash/revision/anchor/draft/board consistency; authored semantic findings remain proposals until full inventory reconciliation"
+}

@@ -1,0 +1,72 @@
+{
+  "drafts": [
+    {
+      "article_id": "Iht31guWKGVyy0fDUhwo2m",
+      "expected_source_revision": "yy3AgfhEInbCSF63Vxvki5",
+      "source_body_sha256": "a6a232a4f80f7f13c806341b1f644b19199400d32044356bb0e799fd861210ff",
+      "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
+      "content_file": "content-revisions/custom-compound-development.html",
+      "fields": {
+        "title": "Custom Rubber Compound Development: What to Specify",
+        "excerpt": "Prepare a custom rubber compound request with operating conditions, material requirements, trial-process details and a measurable sample-approval plan.",
+        "content": "<p>Start a custom rubber compound project with a measurable specification: the contacting media, temperature cycle, mechanical duty, required properties and receiving manufacturing process. A useful development discussion connects those inputs to trial material, agreed tests and a clear sample-approval decision.</p>\n<p>RubberQ brings Japanese formulation support together with compounding, molding and in-house testing in Fuzhou. The first step is to establish what the material must do in your component and how your team will judge the result.</p>\n<h2>Prepare the operating conditions before selecting a compound</h2>\n<p>A polymer name and hardness value give only part of the requirement. Describe the complete exposure sequence, including cleaning, storage and installation. Identify the dimensions and interfaces that control the component's function.</p>\n<table><thead><tr><th>Information to share</th><th>Details that make the review useful</th></tr></thead><tbody>\n<tr><td>Contact media</td><td>Fluid or gas identity, concentration, additives, contamination and cleaning agents</td></tr>\n<tr><td>Temperature and time</td><td>Normal and peak conditions, duration, cycling and any cold-start requirement</td></tr>\n<tr><td>Mechanical duty</td><td>Compression, movement, loading direction, contact surfaces and installation</td></tr>\n<tr><td>Component definition</td><td>Drawing revision, critical dimensions, mating geometry and available reference parts</td></tr>\n<tr><td>Material specification</td><td>Existing designation, hardness scale and tolerance, physical properties and acceptance methods</td></tr>\n<tr><td>Manufacturing route</td><td>Whether you need molded parts or compound for your own process, including receiving-process requirements</td></tr>\n<tr><td>Project demand</td><td>Trial quantity, expected recurring demand, delivery destination and project stage</td></tr>\n</tbody></table>\n<h2>Agree what will be developed and who controls the specification</h2>\n<p>An existing specification may be the starting point. Where a requirement is still open, identify the function it needs to support and the evidence required to choose between candidates. Include the relevant customer requirements and the edition of any referenced standard.</p>\n<p><a href=\"https://store.astm.org/d2000-18.html\">ASTM D2000</a> provides a classification system for rubber materials. A designation should be considered together with the detailed requirements for the particular part. Include the complete callout and any additional test requirements in the project information.</p>\n<p>Clarify specification ownership, confidentiality, permitted changes and approval responsibility. These arrangements help keep trial work and later production aligned as the drawing or material requirement develops.</p>\n<h2>Define the test basis with the candidate material</h2>\n<p>Agree the properties that matter to the application and the conditions under which they will be measured. Hardness, tensile behavior, aging, compression set or fluid exposure may form part of the discussion. Each requested result needs an identified material, sample, method and acceptance criterion.</p>\n<p>A material test and a component test answer different questions. Include checks of fit, assembly and function where geometry or installation affects the result. For a bonded part, identify the insert and the loading direction as well as the elastomer requirements.</p>\n<h2>Evaluate trial material in the intended process</h2>\n<p>For finished parts, connect the trial to the drawing revision and the component inspection plan. Record what your team checks during sample approval and which results are needed before a recurring order.</p>\n<p>For <a href=\"/compounds\">external compound supply</a>, include the receiving process and intended finished-part requirements. Discuss trial-material form, packaging, storage information, batch identification and release documentation. Evaluate the trial in that process before agreeing the supply specification.</p>\n<h2>Connect the approved sample to repeat supply</h2>\n<p>Keep the approved drawing, material identification, test basis and change requirements together. RubberQ's ERP production records support traceability through manufacturing. Discuss the records and inspection information required for your orders, including how later specification changes will be communicated.</p>\n<p>Development scope, tooling, trial charges and timing are agreed after the requirements have been reviewed. The project information above helps distinguish the material-development work from component tooling, testing and recurring production.</p>\n<h2>Send your compound-development requirements</h2>\n<p><a href=\"/contact\">Contact RubberQ</a> with your drawing or application description, existing specification and expected quantity. Tell us whether you need <a href=\"/compounding\">formulation and compounding support</a>, compound supply or a finished molded component so the technical discussion can begin with the right requirements.</p>\n"
+      },
+      "preserve": [
+        "slug",
+        "publishedAt",
+        "status",
+        "category",
+        "tags",
+        "author",
+        "coverImage"
+      ],
+      "stage": "local_body_draft",
+      "final_review": false,
+      "cms_written": false,
+      "release_dependencies": [
+        "Five-locale acquisition page release",
+        "Fresh CMS read and revision comparison",
+        "Full inventory URL ownership decision",
+        "Consolidated final review"
+      ],
+      "content_sha256": "de9182cd8e8220190e2b919b4fbc399319e6d7101e8a54ef68440169af58d3da",
+      "word_count": 627,
+      "word_count_method": "Visible HTML text, whitespace split; href target markers excluded"
+    },
+    {
+      "article_id": "Iht31guWKGVyy0fDUhwnFo",
+      "expected_source_revision": "eN7xRzolB5Lpd79D00725q",
+      "source_body_sha256": "391942cc6acabcb187cb21400cb57c18149e8e7e2de46494d0630e0a3a0b7b44",
+      "url": "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
+      "content_file": "content-revisions/fkm-vs-ffkm-cost.html",
+      "fields": {
+        "title": "FKM vs FFKM: Compare Cost and Validation Requirements",
+        "excerpt": "Compare FKM and FFKM quotations using the same seal specification, candidate compounds, qualification work and your own maintenance-cost assumptions.",
+        "content": "<p>Evaluate an FKM-to-FFKM change by comparing the actual seal specification, operating conditions, validation effort and cost of a seal-related interruption. Request quotations for the same geometry and quantity, using identified candidate compounds. A fixed price multiple does not describe every material, part or order.</p>\n<p>The useful purchasing question is which candidate can meet the documented requirements and what it takes to approve and maintain that choice. An upgrade should resolve a defined problem with an agreed test plan.</p>\n<h2>Describe the application before comparing quotations</h2>\n<p>Provide the drawing revision, inside diameter and cross-section or other critical dimensions, mating geometry and installation method. Identify the complete process exposure, including media, concentration, cleaning and temperature cycles. For equipment service, include the seal location and operating history.</p>\n<p>When an existing seal has failed, retain photographs, unused reference parts and the conditions recorded around the failure. These inputs help distinguish a material question from damage during installation, a geometry issue or a change in operating conditions.</p>\n<h2>Keep material family and compound specification separate</h2>\n<p><a href=\"/materials/fkm\">FKM</a> and <a href=\"/materials/ffkm\">FFKM</a> are material families. The candidate for approval needs an identifiable formulation or grade, relevant data and a defined inspection basis. Ask which test conditions apply to the information being compared.</p>\n<p>Review hardness, physical properties, exposure and functional checks as a connected requirement. Where purity, outgassing or plasma exposure matters, identify the relevant method and acceptance criteria for the particular process. A family name does not establish those results for an individual compound.</p>\n<h2>Request quotations on a common basis</h2>\n<table><thead><tr><th>Compare this item</th><th>Keep these details consistent or explain the difference</th></tr></thead><tbody>\n<tr><td>Component</td><td>Drawing revision, dimensions, tolerances, surface requirements and quantity</td></tr>\n<tr><td>Material</td><td>Candidate identification, hardness requirement, supporting data and release tests</td></tr>\n<tr><td>Development</td><td>Trial material, sample quantities, tooling and responsibilities</td></tr>\n<tr><td>Qualification</td><td>Material tests, assembly checks, equipment trials and approval responsibility</td></tr>\n<tr><td>Supply</td><td>Order pattern, packaging, documentation, delivery destination and quotation validity</td></tr>\n<tr><td>Change control</td><td>Approved specification, notification requirements and treatment of later changes</td></tr>\n</tbody></table>\n<p>Separate one-time development or tooling charges from recurring part prices. Ask for the assumptions behind lead-time and supply discussions so procurement and engineering evaluate the same scope.</p>\n<h2>Compare the consequences of the decision</h2>\n<p>Use your own maintenance and operating records to estimate what a seal change could affect. Relevant items may include part consumption, planned replacement work, investigation time, downtime and the effort to qualify an alternative. Keep estimates separate from observed results.</p>\n<p>A lower purchase price can be assessed alongside the work needed to approve and maintain the material. A higher purchase price also needs a clear technical reason. Compare both against your actual process, rather than assigning a universal cost ratio or service-life advantage to a polymer family.</p>\n<h2>Agree the validation before changing supply</h2>\n<p>Define what a sample must demonstrate and who accepts the result. Include fit and assembly checks with the material evaluation. Equipment-specific requirements may need a trial under representative operating conditions before the change is approved.</p>\n<p>For an existing branded part, provide the reference together with the original specification and available dimensions. The reference helps identify the part being discussed; approval of a replacement depends on the application review and validation. See the <a href=\"/products/ffkm-replacement-seals\">FFKM replacement-seal review</a> for the information needed to begin.</p>\n<h2>Prepare a comparison your team can approve</h2>\n<p>Bring the drawing, service conditions, current material reference, quantity and the problem your team needs to resolve. <a href=\"/contact\">Discuss the FKM or FFKM requirement with RubberQ</a> to define the candidate materials, sample work and quotation scope.</p>\n"
+      },
+      "preserve": [
+        "slug",
+        "publishedAt",
+        "status",
+        "category",
+        "tags",
+        "author",
+        "coverImage"
+      ],
+      "stage": "local_body_draft",
+      "final_review": false,
+      "cms_written": false,
+      "release_dependencies": [
+        "Five-locale acquisition page release",
+        "Fresh CMS read and revision comparison",
+        "Full inventory URL ownership decision",
+        "Consolidated final review"
+      ],
+      "content_sha256": "238c48c2db88b1dfa3c214128fc8d34fa530719a2d882eb8341a409f48e15367",
+      "word_count": 581,
+      "word_count_method": "Visible HTML text, whitespace split; href target markers excluded"
+    }
+  ],
+  "cms_writes": 0,
+  "publications": 0
+}

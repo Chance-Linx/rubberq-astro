@@ -1,0 +1,62 @@
+{
+  "references": [
+    {
+      "id": "PARKER-HANDBOOK",
+      "title": "Parker O-Ring Handbook",
+      "url": "https://www.parker.com/content/dam/Parker-com/Literature/Praedifa/Catalogs/Catalog_O-Ring-Handbook_PTD5705-EN.pdf",
+      "publisher": "Parker Hannifin",
+      "read_sections": [
+        "6.3.9 EPM/EPDM",
+        "6.3.10 FKM",
+        "6.3.12 HNBR"
+      ],
+      "pdf_pages_zero_based": [
+        70,
+        71
+      ],
+      "use": "材料家族比较的一手交叉核对：媒体、温度和具体配方影响适用性；手册不能证明RubberQ配方或性能。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "UL94-TESTING",
+      "title": "Combustion (Fire) Tests for Plastics",
+      "url": "https://www.ul.com/services/combustion-fire-tests-plastics",
+      "publisher": "UL Solutions",
+      "use": "核对等级对应试样、方法和测试条件，不把FKM/EPDM/NBR家族直接列为固定等级。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "ASTM-D573",
+      "title": "D573 — Rubber Deterioration in an Air Oven",
+      "url": "https://store.astm.org/standards/d573",
+      "publisher": "ASTM International",
+      "use": "仅使用公开摘要核对方法范围；没有购买、获取或复现付费标准全文，不将烘箱老化方法本身当成寿命预测结果。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "ASTM-D1329",
+      "title": "D1329 — Retraction at Lower Temperatures",
+      "url": "https://store.astm.org/d1329-16r21.html",
+      "publisher": "ASTM International",
+      "use": "公开范围说明用于核对TR试验与其他低温评价的关系；不提供付费程序或自有低温能力值。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "ASTM-D429",
+      "title": "D429 — Adhesion to Rigid Substrates",
+      "url": "https://store.astm.org/d0429-14.html",
+      "publisher": "ASTM International",
+      "use": "公开摘要用于核对接着试验的对象；试验方法名不证明零脱胶、动态寿命或具体批次符合性。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "ASTM-D2000",
+      "title": "D2000 — Classification of Rubber Materials",
+      "url": "https://store.astm.org/d2000-18.html",
+      "publisher": "ASTM International",
+      "use": "公开摘要用于核对材料分类与详细产品规格的关系；不声称网页摘要替代客户指定版完整标准。",
+      "checked_on": "2026-10-21"
+    }
+  ],
+  "paid_access": false
+}

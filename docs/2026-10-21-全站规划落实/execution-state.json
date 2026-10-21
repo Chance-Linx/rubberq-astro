@@ -597,7 +597,13 @@
     ],
     "inventory_semantic_ownership": {
       "required": 271,
-      "completed": 0
+      "completed": 0,
+      "full_body_reviews_completed": 50,
+      "dispositions_proposed": 50,
+      "review_artifacts": [
+        "reviews/batch-001.json"
+      ],
+      "completion_definition": "completed counts cross-inventory final ownership decisions, not body-read or rewrite proposals"
     },
     "topic_ownership": {
       "required": 63,
@@ -607,9 +613,14 @@
     "rfq": "five_locale_ui_and_116_local_contract_checks_passed_live_contract_release_pending",
     "seo_sitemap_schema": "225_routes_metadata_and_jsonld_passed_sitemap_and_specialized_routes_final_review_pending",
     "dashboard_reconciliation": "local_implementation_progress_reconciled_inventory_still_pending",
-    "final_audit": "pending"
+    "final_audit": "pending",
+    "content_revision_drafts": {
+      "prepared": 2,
+      "cms_written": 0,
+      "manifest": "content-revisions/manifest.json"
+    }
   },
-  "next_action": "Review all 271 stored article bodies semantically; assign the 63 buyer jobs to unique existing or justified new owners, reconcile dashboard; finish specialized routes/mobile/forms; then one consolidated final review",
+  "next_action": "Continue full-body review at saved source indices 50–270; then finalize unique URL ownership for all articles and 63 buyer jobs. Two existing-URL rewrites prepared locally, with no CMS writes.",
   "status_evidence": {
     "implemented_page_specs": 45,
     "message_page_specs": 49,
