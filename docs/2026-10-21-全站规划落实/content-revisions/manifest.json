@@ -65,6 +65,78 @@
       "content_sha256": "238c48c2db88b1dfa3c214128fc8d34fa530719a2d882eb8341a409f48e15367",
       "word_count": 581,
       "word_count_method": "Visible HTML text, whitespace split; href target markers excluded"
+    },
+    {
+      "article_id": "JKXFHBvvO5hPVDVOF65r3m",
+      "expected_source_revision": "yy3AgfhEInbCSF63VxvjSv",
+      "source_body_sha256": "e1ed8e6a7edb0062bf7c7c9d70bef72b067409d5d0b78a694a86ef25f0c19e66",
+      "url": "/blog/iso-3601-3-visual-inspection-standards-for-o-rings-what-is-acceptable",
+      "content_file": "content-revisions/o-ring-visual-inspection.html",
+      "fields": {
+        "title": "O-Ring Visual Inspection: Specify Acceptance with ISO 3601-3",
+        "excerpt": "Prepare O-ring surface acceptance requirements, record imperfections and agree the inspection evidence needed for supplier review.",
+        "content": "<p>Agree the O-ring surface acceptance requirements before approving samples or production. State the applicable standard edition and quality grade, drawing requirements and inspection arrangement. A photograph can identify a concern, but acceptance needs the relevant criteria and a clear record of the part being assessed.</p>\n<p><a href=\"https://www.iso.org/standard/40409.html\">ISO 3601-3</a> addresses quality acceptance criteria and surface imperfections for O-rings. Use the applicable document to assess a specific imperfection; the standard's public summary does not provide the complete limits.</p>\n<h2>Put the acceptance basis on the purchasing specification</h2>\n<p>Give the supplier the O-ring dimensions, material specification, drawing revision and intended service. Include the standard edition and amendments required by the project, the selected quality grade and any additional customer requirements. Resolve differences between the purchase order, drawing and inspection instruction before production approval.</p>\n<p>Keep dimensional tolerances, material properties and surface acceptance identifiable in the specification. A hardness value or material-family name cannot describe the permitted surface condition. Likewise, a dimensional inspection result does not record what was found on the surface.</p>\n<h2>Record what you see before deciding what it means</h2>\n<p>Identify the part, lot and quantity examined. Photograph the feature with a scale and enough context to show its location around the ring and across its cross-section. Record the viewing conditions and measurement method so the supplier can repeat the observation.</p>\n<table><thead><tr><th>Observation to record</th><th>Information useful for supplier review</th></tr></thead><tbody>\n<tr><td>Raised material or a visible mould line</td><td>Location, measured size and whether the feature extends around the ring</td></tr>\n<tr><td>Depression, opening or missing material</td><td>Shape, dimensions, distribution and photographs from more than one angle</td></tr>\n<tr><td>Mark, cut or local damage</td><td>Location, handling history and whether the part has been installed</td></tr>\n<tr><td>Discolouration or surface deposit</td><td>Packaging, storage conditions, contact history and a retained sample</td></tr>\n</tbody></table>\n<p>These descriptions help communicate the observation. Classifying the feature and deciding acceptance still require the applicable specification. Avoid assigning a pass or fail from a general defect photograph without the necessary dimensions and criteria.</p>\n<h2>Separate incoming condition from installation damage</h2>\n<p>State whether the O-ring was examined as received, after cleaning, after assembly or after service. Keep unused parts from the same lot available for comparison. Record any tools, lubricants or cleaning agents used and retain the packaging identification.</p>\n<p>If leakage or damage appeared during operation, include the groove drawing, assembly sequence, media, pressure and temperature history. Surface appearance is one part of that investigation. See the <a href=\"/resources/seal-failure-analysis\">seal failure investigation guide</a> for the information needed to compare the component and its operating conditions.</p>\n<h2>Agree the inspection and reporting arrangement</h2>\n<p>Before ordering, discuss which characteristics will be checked, how samples will be selected, what equipment and viewing conditions will be used, and what report is required. Specify the handling of suspect parts and who can approve a deviation. Keep these arrangements connected to the drawing and purchase order.</p>\n<p>When a concern arises, report the number examined and the number affected, together with lot identification and representative images. This gives the supplier a defined population to investigate and helps distinguish an isolated observation from a recurring issue.</p>\n<h2>Prepare a clear O-ring enquiry</h2>\n<p>Send the drawing, material requirement, standard references, quantity and intended application. If the enquiry concerns an existing part, add labelled photographs and the incoming or service history. RubberQ's <a href=\"/products/seals\">precision seal enquiry</a> can begin with these inputs, while the <a href=\"/testing\">testing information</a> helps frame the inspection and documentation discussion.</p>\n<p><a href=\"/contact\">Contact RubberQ</a> to discuss the part specification, sample requirements and acceptance information for your project.</p>\n"
+      },
+      "preserve": [
+        "slug",
+        "publishedAt",
+        "status",
+        "category",
+        "tags",
+        "author",
+        "coverImage"
+      ],
+      "stage": "local_body_draft",
+      "final_review": false,
+      "cms_written": false,
+      "release_dependencies": [
+        "Five-locale acquisition page release",
+        "Fresh CMS read and revision comparison",
+        "Full inventory URL ownership decision",
+        "Consolidated final review"
+      ],
+      "content_sha256": "1f340a00c71214a79f0aa29657cae3786f5faba4351dc39e642cb457dcad7b1c",
+      "word_count": 578,
+      "word_count_method": "Visible HTML text, whitespace split; href target markers excluded",
+      "primary_reference_ids": [
+        "ISO-3601-3-SCOPE"
+      ]
+    },
+    {
+      "article_id": "JKXFHBvvO5hPVDVOF65tZ8",
+      "expected_source_revision": "tOg8rPBjlu3UwNHWI5LxCN",
+      "source_body_sha256": "670a32964ac8a8848e5b5d4c39e5be8ca634583dedde832b4b6a5c91f0fb72e8",
+      "url": "/blog/root-cause-analysis-8d-rubberqs-process-for-resolving-quality-deviations",
+      "content_file": "content-revisions/rubber-quality-deviation-8d.html",
+      "fields": {
+        "title": "Rubber Part Quality Issues: Prepare an 8D Review",
+        "excerpt": "Organise part identification, affected quantities, samples and verification evidence for an 8D investigation of a rubber component quality issue.",
+        "content": "<p>When a rubber part shows a quality deviation, begin with the part identification, drawing requirement and observed condition. Preserve affected and unused samples, identify the quantities involved and agree how suspect material will be handled. These inputs support a useful investigation before a material or process change is proposed.</p>\n<p>The <a href=\"https://asq.org/quality-resources/eight-disciplines-8d\">8D problem-solving approach</a> provides a structure for organising the team, containing the issue, verifying causes and checking corrective action. For a purchased rubber component, the report needs to connect those activities to the actual part, lot, assembly and operating conditions.</p>\n<h2>Build an issue record the supplier can investigate</h2>\n<table><thead><tr><th>Input</th><th>What to provide</th></tr></thead><tbody>\n<tr><td>Part identity</td><td>Part number, drawing revision, material specification, order and lot markings</td></tr>\n<tr><td>Observed condition</td><td>Measured result or photographs, location on the part, and the requirement used for comparison</td></tr>\n<tr><td>Extent</td><td>Quantity examined, quantity affected, locations and dates where the issue was found</td></tr>\n<tr><td>History</td><td>Storage, cleaning, assembly and service conditions, including recent changes</td></tr>\n<tr><td>Comparison samples</td><td>Unused parts from the same lot and available parts that performed as expected</td></tr>\n<tr><td>Immediate need</td><td>Suspect stock locations, assembly impact and the information needed for the next decision</td></tr>\n</tbody></table>\n<p>Describe the observation precisely. “Leakage after assembly” and “surface damage found during incoming inspection” lead to different investigation paths. Keep a suspected cause separate from the condition that was actually measured or observed.</p>\n<h2>Use the 8D structure to make responsibilities clear</h2>\n<p>Agree the report format, responsible contacts and the updates the customer needs. The sequence below is a practical way to organise the discussion; the customer's required form and timing should be established for the project.</p>\n<ol>\n<li>Bring together the people who understand the component and its use.</li>\n<li>Define the problem and its affected population.</li>\n<li>Identify and check temporary containment.</li>\n<li>Investigate and verify the causes of occurrence and escape.</li>\n<li>Choose corrective actions and establish how to validate them.</li>\n<li>Implement the actions and check their effectiveness.</li>\n<li>Update relevant controls to reduce recurrence.</li>\n<li>Close the issue with an agreed record and team acknowledgement.</li>\n</ol>\n<h2>Connect the cause to the evidence</h2>\n<p>For a rubber seal, useful comparisons may include incoming dimensions and surface condition, material identification, assembly records and exposure history. A bonded part may also need photographs showing where separation occurred and the relevant substrate and process records.</p>\n<p>A proposed material change should explain which requirement it addresses and what comparison will test that explanation. Changing a compound, a tool setting and an assembly method together can make the effect of each change difficult to assess. Define the comparison and retain the relevant samples and records.</p>\n<p>Review why the issue occurred and why the applicable controls did not detect or prevent it. A replacement shipment may resolve an immediate supply need, while the investigation still requires evidence about the cause and the longer-term action.</p>\n<h2>Define what closes the issue</h2>\n<p>Agree the acceptance criteria, sample identification, test conditions and person responsible for confirming the result. Record which drawing, material or process revision applies to the evaluated parts. If the action changes an approved specification, establish the customer's approval requirements before further supply.</p>\n<p>The closing record should state the action taken, the evidence reviewed and the follow-up needed under the agreed conditions. Separate a laboratory result, an assembly trial and observed service performance so procurement and engineering can assess each on its own basis.</p>\n<h2>Discuss a component concern with RubberQ</h2>\n<p>For an existing order or a new development enquiry, provide the part identity, requirement and available evidence. RubberQ's <a href=\"/quality\">quality information</a>, <a href=\"/testing\">testing discussion</a> and <a href=\"/resources/seal-failure-analysis\">seal investigation guide</a> can help organise the technical questions.</p>\n<p><a href=\"/contact\">Contact RubberQ</a> with the drawing, lot details and observed condition to begin the discussion.</p>\n"
+      },
+      "preserve": [
+        "slug",
+        "publishedAt",
+        "status",
+        "category",
+        "tags",
+        "author",
+        "coverImage"
+      ],
+      "stage": "local_body_draft",
+      "final_review": false,
+      "cms_written": false,
+      "release_dependencies": [
+        "Five-locale acquisition page release",
+        "Fresh CMS read and revision comparison",
+        "Full inventory URL ownership decision",
+        "Consolidated final review"
+      ],
+      "content_sha256": "9ea63f99d0a92c8794d6f10b3eac09384c3653e24b528a649071e99e8b5e37f0",
+      "word_count": 608,
+      "word_count_method": "Visible HTML text, whitespace split; href target markers excluded",
+      "primary_reference_ids": [
+        "ASQ-8D"
+      ]
     }
   ],
   "cms_writes": 0,

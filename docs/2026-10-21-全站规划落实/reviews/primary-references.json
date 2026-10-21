@@ -56,6 +56,52 @@
       "publisher": "ASTM International",
       "use": "公开摘要用于核对材料分类与详细产品规格的关系；不声称网页摘要替代客户指定版完整标准。",
       "checked_on": "2026-10-21"
+    },
+    {
+      "id": "ISO-3601-3-SCOPE",
+      "title": "ISO 3601-3:2005 — Quality acceptance criteria",
+      "url": "https://www.iso.org/standard/40409.html",
+      "publisher": "ISO",
+      "read_sections": [
+        "Abstract; edition/amendment listing"
+      ],
+      "use": "公开摘要确认O圈表面缺陷与验收范围；未取得付费限值表，不自行给通用缺陷尺寸。具体版次、修订与等级由项目规格确定。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "ISO-15156-1-SCOPE",
+      "title": "ISO 15156-1:2020 — Scope",
+      "url": "https://www.iso.org/obp/ui?_escaped_fragment_=iso%3Astd%3Aiso%3A15156%3A-1%3Aed-4%3Av1%3Aen",
+      "publisher": "ISO",
+      "read_sections": [
+        "1 Scope",
+        "Bibliography NACE MR0175 entry"
+      ],
+      "use": "公开范围针对含H2S环境金属材料选用与资格评价，不能当作弹性体配方的认证证明。此处核对范围，不代表已检查客户所需最新适用版全文。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "AIAG-FMEA-SCOPE",
+      "title": "Quality Core Tools — AIAG & VDA FMEA Handbook overview",
+      "url": "https://www.aiag.org/expertise-areas/quality/quality-core-tools",
+      "publisher": "AIAG",
+      "read_sections": [
+        "FMEA Handbook overview"
+      ],
+      "use": "公开简介确认设计与过程FMEA任务；不购买手册或复制受限流程、评分表，也不证明RubberQ已执行特定项目。",
+      "checked_on": "2026-10-21"
+    },
+    {
+      "id": "ASQ-8D",
+      "title": "Eight Disciplines 8D",
+      "url": "https://asq.org/quality-resources/eight-disciplines-8d",
+      "publisher": "American Society for Quality",
+      "read_sections": [
+        "Overview",
+        "How to use the 8D approach"
+      ],
+      "use": "公开方法定义与步骤用于组织客户问题资料和验证讨论，不当作RubberQ客户案例、时效或具体体系执行证明。",
+      "checked_on": "2026-10-21"
     }
   ],
   "paid_access": false
