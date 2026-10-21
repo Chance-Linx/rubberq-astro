@@ -19,7 +19,7 @@
         "form_label": true
       },
       "pass": true,
-      "html_sha256": "6eef5ec4829424db5a6c1cde8866c7fe5f0c68b24f77a7ff639d4fcae9b64c2d"
+      "html_sha256": "033e8299720656aeac5c136aaddbce7bc0bee3a0d81523093d9f125ebe9f44ff"
     },
     {
       "path": "/privacy",
@@ -40,7 +40,7 @@
         "localized_title": true
       },
       "pass": true,
-      "html_sha256": "0f2a4600469f46c2005025af9a9214669c8bc1b3204c79d3e4f2a5cf45dc32a5"
+      "html_sha256": "eaec556b18e962a39bebff6a2043eb8d61973eae1913630f131c6b0697a6e72b"
     },
     {
       "path": "/terms",
@@ -61,7 +61,7 @@
         "localized_title": true
       },
       "pass": true,
-      "html_sha256": "9dc981057fccec887c0b53352b5e414883bf23ac069b4af9190e16f4c4ad435f"
+      "html_sha256": "1640983b8e3e1d834ad91a511796d95478a29c34a0c3aaa74fc469b604abad44"
     },
     {
       "path": "/de/search",
@@ -81,7 +81,7 @@
         "form_label": true
       },
       "pass": true,
-      "html_sha256": "951148a397527ef96d9c7d44ef5391322827be5adecdc4ad3e74d1bc411cde29"
+      "html_sha256": "ff387c38b4cfcc6d465ab6ddbc0d2e3f326f4634923f7794ccb686aecf33096a"
     },
     {
       "path": "/de/privacy",
@@ -102,7 +102,7 @@
         "localized_title": true
       },
       "pass": true,
-      "html_sha256": "f8dd7628a0be13b40dfc8c12925571b8f1a2a4c6ec6a5167eaf63724c60b69ef"
+      "html_sha256": "6a14416d1c1835ce2f95a6b065ba60f25b2e8faee5d588d1583e34f43c107a14"
     },
     {
       "path": "/de/terms",
@@ -123,7 +123,7 @@
         "localized_title": true
       },
       "pass": true,
-      "html_sha256": "31fcba3a72f29b537fa51bbdef35201a1d6b0ec81578babd4f08f637ac4181be"
+      "html_sha256": "2bfa9e44c3b07be7c5b3ce7c20ae6596a5dfc5c7a6deb7b8e6176f8fd2f256ef"
     },
     {
       "path": "/ja/search",
@@ -143,7 +143,7 @@
         "form_label": true
       },
       "pass": true,
-      "html_sha256": "7f4f850899efaccfa475de077bc21d919ceda475602b8f39d89df3b7703edbe0"
+      "html_sha256": "a1746a3783ba75d347650322f2d338f940dfe773befe8b542f6ed14f1f5c1584"
     },
     {
       "path": "/ja/privacy",
@@ -164,7 +164,7 @@
         "localized_title": true
       },
       "pass": true,
-      "html_sha256": "a51400cfc32358c73afd02dfaa32e92ab82b84e357ac76742c7ecccd821c5214"
+      "html_sha256": "81e624d4aca86a4156324080f4285f14e93507c958dbefa0c69c9c99de4fa8bd"
     },
     {
       "path": "/ja/terms",
@@ -185,7 +185,7 @@
         "localized_title": true
       },
       "pass": true,
-      "html_sha256": "3e068874077799097ef758f276640d6d4f39c92424bdc3fb9157c04a63daae39"
+      "html_sha256": "36843acba2a9e6d01fedafca7f899b3ee97f722f9e2e548a0c108d97bb5d82df"
     },
     {
       "path": "/es/search",
@@ -205,7 +205,7 @@
         "form_label": true
       },
       "pass": true,
-      "html_sha256": "20c7d90976eb69adc186250dbb6a73d57490dbb70c55bc9afe673535a86ace8a"
+      "html_sha256": "dc75517741b8720d24b7a9f8b9540ac1c2767950996e24af819bf3896585a942"
     },
     {
       "path": "/es/privacy",
@@ -226,7 +226,7 @@
         "localized_title": true
       },
       "pass": true,
-      "html_sha256": "50413a1a7e71e405da36bdf23a6804653b5a0efda48e88b113b7d9fad764a879"
+      "html_sha256": "7ee8c48b0ed5a72958b71f561970427c00b39ce30cc6f76890039b5f6d8065a3"
     },
     {
       "path": "/es/terms",
@@ -247,7 +247,7 @@
         "localized_title": true
       },
       "pass": true,
-      "html_sha256": "732981ac765bb8dd4a93870ca1901efc6ac8c44ad16acea79e747373d0b01a9c"
+      "html_sha256": "f49b3d32c49fa33fdf298a7d42c4104d4f26968afe705e6fb53d9ecf3d6d52b9"
     },
     {
       "path": "/zh/search",
@@ -267,7 +267,7 @@
         "form_label": true
       },
       "pass": true,
-      "html_sha256": "2624292193eaa2e5e45be48a12ac1e28896485147307ce27a8deaf69dbae9b97"
+      "html_sha256": "ed0ab3bcb733dd667b33f47b352efff792c9e2b30868403eb31694c7ffc1345e"
     },
     {
       "path": "/zh/privacy",
@@ -288,7 +288,7 @@
         "localized_title": true
       },
       "pass": true,
-      "html_sha256": "53b167f159b03fcbe0619a3983303e1a9bac0de491a51aa691151cf9f724e643"
+      "html_sha256": "8c387e24574dd35b4c1d0f6678c4c5233e3b13bb280c173d1374217dd0c4a85b"
     },
     {
       "path": "/zh/terms",
@@ -309,7 +309,7 @@
         "localized_title": true
       },
       "pass": true,
-      "html_sha256": "a7b87e89169da19499ec2f1533dc74fb7c570d11916b9fa3bf52123e8f59f6bf"
+      "html_sha256": "8c7c18d8f151f19c9d165b87815e1393d23193f05d8f789b69b0d7cedf505d4d"
     }
   ],
   "candidate_blog": [
@@ -680,11 +680,11 @@
     "src/pages/[locale]/search.astro": "ee1707cc283078301b4a639b465a34aba90d0b9e1a53373fdeb6f1a6c7e0af7a",
     "src/pages/[locale]/privacy.astro": "ad6bc3d7128683f3b9110526564fbfddc4ae2b79667552d648e1479b4666899a",
     "src/pages/[locale]/terms.astro": "d94378e32a89a011307d01d2764362bee432d5738c8858960b0ca2b66a926fc3",
-    "src/messages/en.json": "27717c6243a1179dd3e8314293e5ae78ef5d70cd2ad36b737d37648999a76da6",
-    "src/messages/de.json": "041af04e71fa0f6621d8b8fbe38b62a2530987c33fde3d1d2133c0987b8a4a76",
-    "src/messages/ja.json": "3b238dadbc1fe6ff920bf67ef8f6eea8d3819d32c01853f28cc6676488f06675",
-    "src/messages/es.json": "82f3b9d9ed3556fea00744387c75a4b90c7af8b9b6b30d28386a6ed95ba79794",
-    "src/messages/zh.json": "b85328b3f4e938defb30e5cdd53fe3c25601d33052808fa3a970a146a7f5e65a"
+    "src/messages/en.json": "4c67dd7d3208b5f92e0b2684c37eafc4bcd8fabc03dfb0085fd91192d7aa955f",
+    "src/messages/de.json": "60615f8775f932e40ef1baa6f706954da3dffb86b0512e553eb2cdf6feb6d212",
+    "src/messages/ja.json": "f8b0f112f75ccc4fde77e0221621f143f81690e90d82e71b8b22937bf6477747",
+    "src/messages/es.json": "da66422803b733672cf9dffecd2a26edc66520ae1ffcf7148796ea371f9aee3e",
+    "src/messages/zh.json": "9384cbeee0f490b0c1e83f1949c374f5725acf9a3675f23955007f92a18f9c41"
   },
   "summary": {
     "checks": 36,

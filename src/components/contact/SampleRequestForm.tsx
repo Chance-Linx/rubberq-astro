@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import type { FormEvent } from 'react';
+import { submitInquiry, type SubmissionState } from '../../lib/submitInquiry';
 import { Loader2, Send, CheckCircle, XCircle } from 'lucide-react';
 import {
   buildFieldPriorityPayload,
@@ -42,6 +43,7 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
   const [hasSubmitted, setHasSubmitted] = useState(false);
   const touchedFieldsRef = useRef(new Set<string>());
   const abandonTrackedRef = useRef(false);
+  const submissionState = useRef<SubmissionState["current"]>(null);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -127,10 +129,7 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
         }
       );
 
-      const res = await fetch('https://rubberq.com/api/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
+      const data = await submitInquiry({
           name: formData.name,
           email: formData.email,
           company: formData.company,
@@ -147,10 +146,7 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
           pageUrl,
           sourceTracking: collectSourceTracking(pageUrl),
           fieldPriority,
-        }),
-      });
-
-      const data = await res.json();
+        }, submissionState);
 
       if (data.ok) {
         setStatus('success');

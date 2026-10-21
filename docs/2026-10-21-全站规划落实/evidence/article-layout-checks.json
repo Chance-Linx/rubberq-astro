@@ -757,7 +757,7 @@
     "src/data/article-media.json": "11ecdb7d6f72bd0385f2bf5e840876e0367e821b1a7cf6819e7f8a6821786a15",
     "tools/article-review/astro.config.mjs": "8e68e4a0d46bdde1c059265ea3725f685ec9f638f285b71dc60d730741977a79",
     "tools/article-review/records.ts": "e6b39f8588273f7bdc0fee29e622dcbfb1101b2165da367202e3efc2282a5cb4",
-    "tools/article-review/middleware.ts": "d1c0c10ff609b933863e528f31a1c3ace8dbc42fb8201cddadb9d9b4aed667e8",
+    "tools/article-review/middleware.ts": "16061d7cfe07f362074fc48761a7085a22bbd8c0beff438d1b0c52d641f64aed",
     "tools/article-review/article.astro": "120cb1066f7917e55e7926f3073e3254e126b58ebe5fccac980bdffbffe54497",
     "tools/article-review/index.astro": "7a6815698c9d53fa54cbc265ba1ac7a2de83ecee0580b85ccc17acf1eebf53b7"
   },

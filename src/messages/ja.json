@@ -237,7 +237,7 @@
       "submit": "見積もり送信",
       "submitting": "送信中...",
       "success": "送信完了",
-      "successMessage": "RFQを受け付けました。12〜24時間以内に回答いたします。",
+      "successMessage": "プロジェクト情報を受け付けました。追加情報はcontact@rubberq.comへお送りください。",
       "error": "送信失敗",
       "errorMessage": "後でもう一度お試しください。",
       "required": "必須項目"
@@ -2260,7 +2260,7 @@
         "submit": "サンプル依頼を送信",
         "submitting": "送信中...",
         "success": "送信完了",
-        "successMessage": "サンプル依頼を受け付けました。今後の進め方について担当者よりご連絡します。",
+        "successMessage": "プロジェクト情報を受け付けました。追加情報はcontact@rubberq.comへお送りください。",
         "error": "送信失敗",
         "errorMessage": "再試行するか直接お問い合わせください。"
       },
@@ -2284,7 +2284,7 @@
         "submit": "一括見積を送信",
         "submitting": "送信中...",
         "success": "送信完了",
-        "successMessage": "複数部品のご依頼を受け付けました。担当者よりご連絡します。",
+        "successMessage": "プロジェクト情報を受け付けました。追加情報はcontact@rubberq.comへお送りください。",
         "error": "送信失敗",
         "errorMessage": "再試行するか直接お問い合わせください。"
       },

@@ -743,11 +743,23 @@
       "browser_layout_measurements": 25,
       "rfq_existing_contract_cases_passed": 116,
       "source_d1_json_notification_contract": "checked_local_no_D1_insert_or_email_send",
-      "attachment_delivery": "pending_worker_payload_implementation_and_end_to_end_check",
+      "attachment_delivery": "implemented_and_verified_in_isolated_local_worker_and_browser;production_pending",
       "evidence": "evidence/rfq-dataflow-source-review.json"
+    },
+    "rfq_pipeline": {
+      "status": "local_implementation_and_integration_passed_final_review_pending",
+      "integration_scenarios_passed": 9,
+      "browser_form_locale_submissions_passed": 15,
+      "independent_d1_r2_notification_readbacks": 15,
+      "client_retry_tests_passed": 5,
+      "production_private_bucket": "not_provisioned_or_verified",
+      "production_migration": "not_applied_or_verified",
+      "production_submissions": 0,
+      "real_emails": 0,
+      "evidence": "evidence/rfq-pipeline-integration.json"
     }
   },
-  "next_action": "Implement and verify the complete RFQ attachment/persistence/notification path locally; reconcile operational keyword and graph relationships; complete whole-site mobile paths and a clean candidate, then perform one consolidated final review.",
+  "next_action": "Reconcile operational keyword and graph relationships; complete whole-site mobile paths and a clean candidate, then perform one consolidated final review.",
   "status_evidence": {
     "implemented_page_specs": 45,
     "message_page_specs": 49,

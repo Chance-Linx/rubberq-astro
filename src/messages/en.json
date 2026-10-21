@@ -317,7 +317,7 @@
       "submit": "SUBMIT RFQ",
       "submitting": "SUBMITTING...",
       "success": "Submission successful!",
-      "successMessage": "We've received your RFQ and will respond within 12-24 hours.",
+      "successMessage": "Your project details have been received. To add information, email contact@rubberq.com.",
       "error": "Submission failed",
       "errorMessage": "Please try again later.",
       "required": "Required field"
@@ -6745,7 +6745,7 @@
         "submit": "Submit Sample Request",
         "submitting": "Submitting...",
         "success": "Request Submitted",
-        "successMessage": "Your sample request was received. Engineering sales will contact you shortly.",
+        "successMessage": "Your project details have been received. To add information, email contact@rubberq.com.",
         "error": "Submission Failed",
         "errorMessage": "Please retry or contact us directly."
       },
@@ -6769,7 +6769,7 @@
         "submit": "Submit Batch RFQ",
         "submitting": "Submitting...",
         "success": "Batch RFQ Submitted",
-        "successMessage": "Your request has been delivered to engineering sales.",
+        "successMessage": "Your project details have been received. To add information, email contact@rubberq.com.",
         "error": "Submission Failed",
         "errorMessage": "Please retry or contact us directly."
       },

@@ -1,0 +1,28 @@
+{
+  "failure": {
+    "status": 500,
+    "data": {
+      "ok": false,
+      "errorCode": "storage_failed"
+    },
+    "submissionId": "3b6f485a-fa13-4939-b3b2-c37294d7e7d1",
+    "errorVisible": true,
+    "detailsPreserved": true
+  },
+  "recovery": {
+    "status": 200,
+    "data": {
+      "ok": true,
+      "receiptId": "3b6f485a-fa13-4939-b3b2-c37294d7e7d1",
+      "recordSaved": true,
+      "attachmentSaved": true,
+      "notificationAccepted": true,
+      "notificationStatus": "accepted"
+    },
+    "submissionId": "3b6f485a-fa13-4939-b3b2-c37294d7e7d1",
+    "successVisible": true
+  },
+  "sameSubmissionId": true,
+  "productionSubmissions": 0,
+  "realEmails": 0
+}

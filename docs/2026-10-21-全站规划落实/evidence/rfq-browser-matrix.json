@@ -1,0 +1,247 @@
+{
+  "results": [
+    {
+      "locale": "en",
+      "type": "contact",
+      "name": "Local Browser Matrix en contact",
+      "status": 200,
+      "receipt": {
+        "ok": true,
+        "receiptId": "aa6acb18-4be9-4505-ad74-78504d747c4d",
+        "recordSaved": true,
+        "attachmentSaved": true,
+        "notificationAccepted": true,
+        "notificationStatus": "accepted"
+      },
+      "successVisible": true,
+      "url": "http://127.0.0.1:4398/contact?source=%2Fmaterials%2Fffkm&cta=local-browser-matrix"
+    },
+    {
+      "locale": "en",
+      "type": "sample",
+      "name": "Local Browser Matrix en sample",
+      "status": 200,
+      "receipt": {
+        "ok": true,
+        "receiptId": "e6ae81e4-85ec-44ad-bdbb-54a8cff26f31",
+        "recordSaved": true,
+        "attachmentSaved": false,
+        "notificationAccepted": true,
+        "notificationStatus": "accepted"
+      },
+      "successVisible": true,
+      "url": "http://127.0.0.1:4398/sample-request?source=%2Fmaterials%2Fffkm&cta=local-browser-matrix"
+    },
+    {
+      "locale": "en",
+      "type": "batch",
+      "name": "Local Browser Matrix en batch",
+      "status": 200,
+      "receipt": {
+        "ok": true,
+        "receiptId": "939aa5be-6b0b-4dd2-9101-c90aefc82d09",
+        "recordSaved": true,
+        "attachmentSaved": false,
+        "notificationAccepted": true,
+        "notificationStatus": "accepted"
+      },
+      "successVisible": true,
+      "url": "http://127.0.0.1:4398/batch-rfq?source=%2Fmaterials%2Fffkm&cta=local-browser-matrix"
+    },
+    {
+      "locale": "de",
+      "type": "contact",
+      "name": "Local Browser Matrix de contact",
+      "status": 200,
+      "receipt": {
+        "ok": true,
+        "receiptId": "f5f1bec7-67ce-4891-b60d-f73d07c67b3f",
+        "recordSaved": true,
+        "attachmentSaved": true,
+        "notificationAccepted": true,
+        "notificationStatus": "accepted"
+      },
+      "successVisible": true,
+      "url": "http://127.0.0.1:4398/de/contact?source=%2Fmaterials%2Fffkm&cta=local-browser-matrix"
+    },
+    {
+      "locale": "de",
+      "type": "sample",
+      "name": "Local Browser Matrix de sample",
+      "status": 200,
+      "receipt": {
+        "ok": true,
+        "receiptId": "eec9416e-ee36-4714-8a88-dfe4ec5ac4e0",
+        "recordSaved": true,
+        "attachmentSaved": false,
+        "notificationAccepted": true,
+        "notificationStatus": "accepted"
+      },
+      "successVisible": true,
+      "url": "http://127.0.0.1:4398/de/sample-request?source=%2Fmaterials%2Fffkm&cta=local-browser-matrix"
+    },
+    {
+      "locale": "de",
+      "type": "batch",
+      "name": "Local Browser Matrix de batch",
+      "status": 200,
+      "receipt": {
+        "ok": true,
+        "receiptId": "80f9ef52-8143-41d9-a81b-6e0aaae0ea53",
+        "recordSaved": true,
+        "attachmentSaved": false,
+        "notificationAccepted": true,
+        "notificationStatus": "accepted"
+      },
+      "successVisible": true,
+      "url": "http://127.0.0.1:4398/de/batch-rfq?source=%2Fmaterials%2Fffkm&cta=local-browser-matrix"
+    },
+    {
+      "locale": "ja",
+      "type": "contact",
+      "name": "Local Browser Matrix ja contact",
+      "status": 200,
+      "receipt": {
+        "ok": true,
+        "receiptId": "f6655c0c-4606-4ae7-a54b-d32624a29268",
+        "recordSaved": true,
+        "attachmentSaved": true,
+        "notificationAccepted": true,
+        "notificationStatus": "accepted"
+      },
+      "successVisible": true,
+      "url": "http://127.0.0.1:4398/ja/contact?source=%2Fmaterials%2Fffkm&cta=local-browser-matrix"
+    },
+    {
+      "locale": "ja",
+      "type": "sample",
+      "name": "Local Browser Matrix ja sample",
+      "status": 200,
+      "receipt": {
+        "ok": true,
+        "receiptId": "360d8660-5cd4-47d9-ac01-8a424bd1ac77",
+        "recordSaved": true,
+        "attachmentSaved": false,
+        "notificationAccepted": true,
+        "notificationStatus": "accepted"
+      },
+      "successVisible": true,
+      "url": "http://127.0.0.1:4398/ja/sample-request?source=%2Fmaterials%2Fffkm&cta=local-browser-matrix"
+    },
+    {
+      "locale": "ja",
+      "type": "batch",
+      "name": "Local Browser Matrix ja batch",
+      "status": 200,
+      "receipt": {
+        "ok": true,
+        "receiptId": "f8d10c78-2a08-43ef-b2f8-f9519fc459b2",
+        "recordSaved": true,
+        "attachmentSaved": false,
+        "notificationAccepted": true,
+        "notificationStatus": "accepted"
+      },
+      "successVisible": true,
+      "url": "http://127.0.0.1:4398/ja/batch-rfq?source=%2Fmaterials%2Fffkm&cta=local-browser-matrix"
+    },
+    {
+      "locale": "es",
+      "type": "contact",
+      "name": "Local Browser Matrix es contact",
+      "status": 200,
+      "receipt": {
+        "ok": true,
+        "receiptId": "a08c7e86-2bbe-4960-a8a1-43bc4041520a",
+        "recordSaved": true,
+        "attachmentSaved": true,
+        "notificationAccepted": true,
+        "notificationStatus": "accepted"
+      },
+      "successVisible": true,
+      "url": "http://127.0.0.1:4398/es/contact?source=%2Fmaterials%2Fffkm&cta=local-browser-matrix"
+    },
+    {
+      "locale": "es",
+      "type": "sample",
+      "name": "Local Browser Matrix es sample",
+      "status": 200,
+      "receipt": {
+        "ok": true,
+        "receiptId": "da4dba0e-e0c4-41b4-a2e7-11bbacbd741b",
+        "recordSaved": true,
+        "attachmentSaved": false,
+        "notificationAccepted": true,
+        "notificationStatus": "accepted"
+      },
+      "successVisible": true,
+      "url": "http://127.0.0.1:4398/es/sample-request?source=%2Fmaterials%2Fffkm&cta=local-browser-matrix"
+    },
+    {
+      "locale": "es",
+      "type": "batch",
+      "name": "Local Browser Matrix es batch",
+      "status": 200,
+      "receipt": {
+        "ok": true,
+        "receiptId": "28d0f52c-a520-436b-94f3-dbd1d1647851",
+        "recordSaved": true,
+        "attachmentSaved": false,
+        "notificationAccepted": true,
+        "notificationStatus": "accepted"
+      },
+      "successVisible": true,
+      "url": "http://127.0.0.1:4398/es/batch-rfq?source=%2Fmaterials%2Fffkm&cta=local-browser-matrix"
+    },
+    {
+      "locale": "zh",
+      "type": "contact",
+      "name": "Local Browser Matrix zh contact",
+      "status": 200,
+      "receipt": {
+        "ok": true,
+        "receiptId": "3e79b3ea-feb0-4049-aa92-9bc3e89ee36e",
+        "recordSaved": true,
+        "attachmentSaved": true,
+        "notificationAccepted": true,
+        "notificationStatus": "accepted"
+      },
+      "successVisible": true,
+      "url": "http://127.0.0.1:4398/zh/contact?source=%2Fmaterials%2Fffkm&cta=local-browser-matrix"
+    },
+    {
+      "locale": "zh",
+      "type": "sample",
+      "name": "Local Browser Matrix zh sample",
+      "status": 200,
+      "receipt": {
+        "ok": true,
+        "receiptId": "5a78b794-e5db-4d23-8e10-81d713dd1534",
+        "recordSaved": true,
+        "attachmentSaved": false,
+        "notificationAccepted": true,
+        "notificationStatus": "accepted"
+      },
+      "successVisible": true,
+      "url": "http://127.0.0.1:4398/zh/sample-request?source=%2Fmaterials%2Fffkm&cta=local-browser-matrix"
+    },
+    {
+      "locale": "zh",
+      "type": "batch",
+      "name": "Local Browser Matrix zh batch",
+      "status": 200,
+      "receipt": {
+        "ok": true,
+        "receiptId": "046fdcbb-230a-4f1c-959c-908396b2561b",
+        "recordSaved": true,
+        "attachmentSaved": false,
+        "notificationAccepted": true,
+        "notificationStatus": "accepted"
+      },
+      "successVisible": true,
+      "url": "http://127.0.0.1:4398/zh/batch-rfq?source=%2Fmaterials%2Fffkm&cta=local-browser-matrix"
+    }
+  ],
+  "passed": 15,
+  "productionSubmissions": 0,
+  "realEmails": 0
+}

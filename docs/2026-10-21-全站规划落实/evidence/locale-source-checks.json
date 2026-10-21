@@ -5,35 +5,35 @@
       "page_count": 49,
       "pass": true,
       "issues": [],
-      "file_sha256": "27717c6243a1179dd3e8314293e5ae78ef5d70cd2ad36b737d37648999a76da6"
+      "file_sha256": "4c67dd7d3208b5f92e0b2684c37eafc4bcd8fabc03dfb0085fd91192d7aa955f"
     },
     {
       "locale": "de",
       "page_count": 49,
       "pass": true,
       "issues": [],
-      "file_sha256": "041af04e71fa0f6621d8b8fbe38b62a2530987c33fde3d1d2133c0987b8a4a76"
+      "file_sha256": "60615f8775f932e40ef1baa6f706954da3dffb86b0512e553eb2cdf6feb6d212"
     },
     {
       "locale": "ja",
       "page_count": 49,
       "pass": true,
       "issues": [],
-      "file_sha256": "3b238dadbc1fe6ff920bf67ef8f6eea8d3819d32c01853f28cc6676488f06675"
+      "file_sha256": "f8b0f112f75ccc4fde77e0221621f143f81690e90d82e71b8b22937bf6477747"
     },
     {
       "locale": "es",
       "page_count": 49,
       "pass": true,
       "issues": [],
-      "file_sha256": "82f3b9d9ed3556fea00744387c75a4b90c7af8b9b6b30d28386a6ed95ba79794"
+      "file_sha256": "da66422803b733672cf9dffecd2a26edc66520ae1ffcf7148796ea371f9aee3e"
     },
     {
       "locale": "zh",
       "page_count": 49,
       "pass": true,
       "issues": [],
-      "file_sha256": "d2b1fae0458e7fd3c6b7218482937561cfb7115542ad4802be3098ae7e3c0eb2"
+      "file_sha256": "9384cbeee0f490b0c1e83f1949c374f5725acf9a3675f23955007f92a18f9c41"
     }
   ],
   "errors": []

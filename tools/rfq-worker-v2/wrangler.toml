@@ -2,6 +2,10 @@ name = "rubberq-rfq-api"
 main = "worker.mjs"
 compatibility_date = "2025-10-08"
 
+routes = [
+  { pattern = "rubberq.com/api/*", zone_name = "rubberq.com" }
+]
+
 [[d1_databases]]
 binding = "DB"
 database_name = "rubberq_rfq"
@@ -9,5 +13,11 @@ database_id = "e51f8f7e-6137-45f4-acb4-61dc4eb3def7"
 
 [vars]
 ALLOWED_ORIGIN = "https://rubberq.com,https://www.rubberq.com,https://rubberq-site.pages.dev,https://rubberq-astro.pages.dev"
-FROM_EMAIL = "RubberQ RFQ <onboarding@resend.dev>"
+FROM_EMAIL = "RubberQ RFQ <contact@rubberq.com>"
 TO_EMAIL = "contact@rubberq.com"
+
+# Required for uploaded files. This is a private bucket, separate from website images.
+# Provision/bind only in the reviewed release; no cloud resource is created by this file.
+[[r2_buckets]]
+binding = "RFQ_ATTACHMENTS"
+bucket_name = "rubberq-rfq-attachments"

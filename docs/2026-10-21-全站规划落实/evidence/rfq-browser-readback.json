@@ -1,0 +1,180 @@
+{
+  "scope": "Local browser submissions independently read back from real local D1/R2; Resend requests captured, not mailbox delivery.",
+  "checks": [
+    {
+      "locale": "en",
+      "type": "contact",
+      "rowId": 4,
+      "submissionId": "aa6acb18-4be9-4505-ad74-78504d747c4d",
+      "sourcePreserved": true,
+      "capturedNotificationMatches": true,
+      "attachment": {
+        "size": 44,
+        "sha256": "9f60ad41f87d3a2b8758a08dd27eefc629893080be2ea240b9caf0ab52979deb",
+        "privateKey": "rfq/aa6acb18-4be9-4505-ad74-78504d747c4d"
+      },
+      "pass": true
+    },
+    {
+      "locale": "en",
+      "type": "sample",
+      "rowId": 5,
+      "submissionId": "e6ae81e4-85ec-44ad-bdbb-54a8cff26f31",
+      "sourcePreserved": true,
+      "capturedNotificationMatches": true,
+      "attachment": null,
+      "pass": true
+    },
+    {
+      "locale": "en",
+      "type": "batch",
+      "rowId": 6,
+      "submissionId": "939aa5be-6b0b-4dd2-9101-c90aefc82d09",
+      "sourcePreserved": true,
+      "capturedNotificationMatches": true,
+      "attachment": null,
+      "pass": true
+    },
+    {
+      "locale": "de",
+      "type": "contact",
+      "rowId": 7,
+      "submissionId": "f5f1bec7-67ce-4891-b60d-f73d07c67b3f",
+      "sourcePreserved": true,
+      "capturedNotificationMatches": true,
+      "attachment": {
+        "size": 44,
+        "sha256": "9f60ad41f87d3a2b8758a08dd27eefc629893080be2ea240b9caf0ab52979deb",
+        "privateKey": "rfq/f5f1bec7-67ce-4891-b60d-f73d07c67b3f"
+      },
+      "pass": true
+    },
+    {
+      "locale": "de",
+      "type": "sample",
+      "rowId": 8,
+      "submissionId": "eec9416e-ee36-4714-8a88-dfe4ec5ac4e0",
+      "sourcePreserved": true,
+      "capturedNotificationMatches": true,
+      "attachment": null,
+      "pass": true
+    },
+    {
+      "locale": "de",
+      "type": "batch",
+      "rowId": 9,
+      "submissionId": "80f9ef52-8143-41d9-a81b-6e0aaae0ea53",
+      "sourcePreserved": true,
+      "capturedNotificationMatches": true,
+      "attachment": null,
+      "pass": true
+    },
+    {
+      "locale": "ja",
+      "type": "contact",
+      "rowId": 10,
+      "submissionId": "f6655c0c-4606-4ae7-a54b-d32624a29268",
+      "sourcePreserved": true,
+      "capturedNotificationMatches": true,
+      "attachment": {
+        "size": 44,
+        "sha256": "9f60ad41f87d3a2b8758a08dd27eefc629893080be2ea240b9caf0ab52979deb",
+        "privateKey": "rfq/f6655c0c-4606-4ae7-a54b-d32624a29268"
+      },
+      "pass": true
+    },
+    {
+      "locale": "ja",
+      "type": "sample",
+      "rowId": 11,
+      "submissionId": "360d8660-5cd4-47d9-ac01-8a424bd1ac77",
+      "sourcePreserved": true,
+      "capturedNotificationMatches": true,
+      "attachment": null,
+      "pass": true
+    },
+    {
+      "locale": "ja",
+      "type": "batch",
+      "rowId": 12,
+      "submissionId": "f8d10c78-2a08-43ef-b2f8-f9519fc459b2",
+      "sourcePreserved": true,
+      "capturedNotificationMatches": true,
+      "attachment": null,
+      "pass": true
+    },
+    {
+      "locale": "es",
+      "type": "contact",
+      "rowId": 13,
+      "submissionId": "a08c7e86-2bbe-4960-a8a1-43bc4041520a",
+      "sourcePreserved": true,
+      "capturedNotificationMatches": true,
+      "attachment": {
+        "size": 44,
+        "sha256": "9f60ad41f87d3a2b8758a08dd27eefc629893080be2ea240b9caf0ab52979deb",
+        "privateKey": "rfq/a08c7e86-2bbe-4960-a8a1-43bc4041520a"
+      },
+      "pass": true
+    },
+    {
+      "locale": "es",
+      "type": "sample",
+      "rowId": 14,
+      "submissionId": "da4dba0e-e0c4-41b4-a2e7-11bbacbd741b",
+      "sourcePreserved": true,
+      "capturedNotificationMatches": true,
+      "attachment": null,
+      "pass": true
+    },
+    {
+      "locale": "es",
+      "type": "batch",
+      "rowId": 15,
+      "submissionId": "28d0f52c-a520-436b-94f3-dbd1d1647851",
+      "sourcePreserved": true,
+      "capturedNotificationMatches": true,
+      "attachment": null,
+      "pass": true
+    },
+    {
+      "locale": "zh",
+      "type": "contact",
+      "rowId": 16,
+      "submissionId": "3e79b3ea-feb0-4049-aa92-9bc3e89ee36e",
+      "sourcePreserved": true,
+      "capturedNotificationMatches": true,
+      "attachment": {
+        "size": 44,
+        "sha256": "9f60ad41f87d3a2b8758a08dd27eefc629893080be2ea240b9caf0ab52979deb",
+        "privateKey": "rfq/3e79b3ea-feb0-4049-aa92-9bc3e89ee36e"
+      },
+      "pass": true
+    },
+    {
+      "locale": "zh",
+      "type": "sample",
+      "rowId": 17,
+      "submissionId": "5a78b794-e5db-4d23-8e10-81d713dd1534",
+      "sourcePreserved": true,
+      "capturedNotificationMatches": true,
+      "attachment": null,
+      "pass": true
+    },
+    {
+      "locale": "zh",
+      "type": "batch",
+      "rowId": 18,
+      "submissionId": "046fdcbb-230a-4f1c-959c-908396b2561b",
+      "sourcePreserved": true,
+      "capturedNotificationMatches": true,
+      "attachment": null,
+      "pass": true
+    }
+  ],
+  "passed": 15,
+  "retryCreatesOneRow": true,
+  "productionSubmissions": 0,
+  "realEmails": 0,
+  "paidCalls": 0
+}

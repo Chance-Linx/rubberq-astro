@@ -3,6 +3,7 @@
 import { Send, CheckCircle, XCircle, Loader2, Upload } from 'lucide-react';
 import { useState, useEffect, useRef } from 'react';
 import type { FormEvent } from 'react';
+import { submitInquiry, type SubmissionState } from '../../lib/submitInquiry';
 import {
   buildFieldPriorityPayload,
   collectSourceTracking,
@@ -124,6 +125,7 @@ export default function ContactForm({
   const [hasSubmitted, setHasSubmitted] = useState(false);
   const touchedFieldsRef = useRef(new Set<string>());
   const abandonTrackedRef = useRef(false);
+  const submissionState = useRef<SubmissionState["current"]>(null);
 
   const uploadLabels = labels.upload;
 
@@ -259,13 +261,7 @@ export default function ContactForm({
         ),
       };
 
-      const res = await fetch('https://rubberq.com/api/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload),
-      });
-
-      const data = await res.json();
+      const data = await submitInquiry(payload, submissionState);
 
       if (data.ok) {
         setStatus('success');

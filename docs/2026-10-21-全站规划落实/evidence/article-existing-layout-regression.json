@@ -2,7 +2,7 @@
   "scope": "Existing CMS article on ordinary local server before/after shared presentation. Rendering/debug source attributes are not date values. Reviewed cover omission is intentional; no production deployment.",
   "url": "http://127.0.0.1:4397/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
   "before_sha256": "3b140c7973cb29c4d198a94489ce40a3a0f99d0d4e91d24283eb523d66e3bed7",
-  "after_sha256": "34776125617decb3add9a6b7b05894585fb3b082dde56f03fae2db2747b6f3ea",
+  "after_sha256": "4094764f4a381dc4e174233b5caa4e2a9f734506121cee8712bfcefeeaa3f191",
   "checks": {
     "status": true,
     "body_text_unchanged": true,

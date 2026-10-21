@@ -1,0 +1,13 @@
+{
+  "baseline_commit": "cb8283ec1ad07b86cdf6df6520dbe031e3ea50ac",
+  "files": {
+    "tools/rfq-worker-v2/worker.mjs": "0ad533b4ca7f3aef65de85f70f65f4ce66ddf945470b4fc2276c18a741179819",
+    "tools/rfq-worker-v2/wrangler.toml": "93a1750d46f224d0e95040a6105889fc5e6c2d42029376fe4c0776ca362ececd",
+    "tools/rfq-worker-v2/rfq-v2-contract.mjs": "40f624fa8c22e0ce467ea053039dbaa8acbcb438cc5733077be214a4a5d135b2",
+    "src/components/contact/ContactForm.tsx": "4476873f1bc6137b3bd44f00b07987562eea776effeb967cfc5f154b4590624a",
+    "src/components/contact/SampleRequestForm.tsx": "22ad758103047a2383fe710bcbba0dca133c6b0e7219e00f73edba7a72e47a8c",
+    "src/components/contact/BatchRfqForm.tsx": "b92dc538b185ff5b6d6746e7eb0bee954c24de97dadb71d2dc657d552195196f"
+  },
+  "preexisting_worker_patch": "diff --git a/tools/rfq-worker-v2/worker.mjs b/tools/rfq-worker-v2/worker.mjs\nindex cefbcb9..69f9b2c 100644\n--- a/tools/rfq-worker-v2/worker.mjs\n+++ b/tools/rfq-worker-v2/worker.mjs\n@@ -145,7 +145,7 @@ async function notifySales(env, lead) {\n   const email = renderRfqEmail(lead);\n \n   await sendWithResend(env, {\n-    from: env.FROM_EMAIL || 'RubberQ RFQ <onboarding@resend.dev>',\n+    from: env.FROM_EMAIL || 'RubberQ RFQ <contact@rubberq.com>',\n     to: env.TO_EMAIL || 'contact@rubberq.com',\n     reply_to: lead.email,\n     subject: email.subject,\ndiff --git a/tools/rfq-worker-v2/wrangler.toml b/tools/rfq-worker-v2/wrangler.toml\nindex 4ed0ca8..70de950 100644\n--- a/tools/rfq-worker-v2/wrangler.toml\n+++ b/tools/rfq-worker-v2/wrangler.toml\n@@ -2,6 +2,10 @@ name = \"rubberq-rfq-api\"\n main = \"worker.mjs\"\n compatibility_date = \"2025-10-08\"\n \n+routes = [\n+  { pattern = \"rubberq.com/api/*\", zone_name = \"rubberq.com\" }\n+]\n+\n [[d1_databases]]\n binding = \"DB\"\n database_name = \"rubberq_rfq\"\n@@ -9,5 +13,5 @@ database_id = \"e51f8f7e-6137-45f4-acb4-61dc4eb3def7\"\n \n [vars]\n ALLOWED_ORIGIN = \"https://rubberq.com,https://www.rubberq.com,https://rubberq-site.pages.dev,https://rubberq-astro.pages.dev\"\n-FROM_EMAIL = \"RubberQ RFQ <onboarding@resend.dev>\"\n+FROM_EMAIL = \"RubberQ RFQ <contact@rubberq.com>\"\n TO_EMAIL = \"contact@rubberq.com\"\n",
+  "scope": "Preserve and adopt the existing correct sender-domain and production-route changes as required RFQ release prerequisites. Other preexisting changes remain excluded."
+}

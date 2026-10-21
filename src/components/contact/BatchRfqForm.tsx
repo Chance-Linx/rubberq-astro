@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { FormEvent } from 'react';
+import { submitInquiry, type SubmissionState } from '../../lib/submitInquiry';
 import { CheckCircle, Loader2, Send, XCircle } from 'lucide-react';
 import {
   buildFieldPriorityPayload,
@@ -57,6 +58,7 @@ export default function BatchRfqForm({
   const [hasSubmitted, setHasSubmitted] = useState(false);
   const touchedFieldsRef = useRef(new Set<string>());
   const abandonTrackedRef = useRef(false);
+  const submissionState = useRef<SubmissionState["current"]>(null);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -170,10 +172,7 @@ export default function BatchRfqForm({
         }
       );
 
-      const res = await fetch('https://rubberq.com/api/', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
+      const data = await submitInquiry({
           name: formData.name,
           email: formData.email,
           company: formData.company,
@@ -191,10 +190,7 @@ export default function BatchRfqForm({
           pageUrl,
           sourceTracking: collectSourceTracking(pageUrl),
           fieldPriority,
-        }),
-      });
-
-      const data = await res.json();
+        }, submissionState);
 
       if (data.ok) {
         setStatus('success');

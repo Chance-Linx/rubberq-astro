@@ -341,7 +341,7 @@
       "submit": "提交询价",
       "submitting": "提交中...",
       "success": "提交成功！",
-      "successMessage": "我们已收到您的询价，将在12-24小时内回复。",
+      "successMessage": "已收到您的项目资料。如需补充信息，请发送至contact@rubberq.com。",
       "error": "提交失败",
       "errorMessage": "请稍后再试。",
       "required": "必填项"
@@ -2296,7 +2296,7 @@
         "submit": "提交样品申请",
         "submitting": "提交中...",
         "success": "提交成功",
-        "successMessage": "已收到您的样品申请，工程销售将尽快联系您。",
+        "successMessage": "已收到您的项目资料。如需补充信息，请发送至contact@rubberq.com。",
         "error": "提交失败",
         "errorMessage": "请重试或直接联系我们。"
       },
@@ -2320,7 +2320,7 @@
         "submit": "提交批量询价",
         "submitting": "提交中...",
         "success": "提交成功",
-        "successMessage": "批量询价已发送至工程销售团队。",
+        "successMessage": "已收到您的项目资料。如需补充信息，请发送至contact@rubberq.com。",
         "error": "提交失败",
         "errorMessage": "请重试或直接联系我们。"
       },

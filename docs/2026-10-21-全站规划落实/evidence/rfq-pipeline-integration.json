@@ -1,0 +1,47 @@
+{
+  "scope": "Actual local workerd/D1 SQLite/R2 and captured Resend request; no cloud resource, production database or mailbox delivery. Browser form checks recorded separately.",
+  "cases": [
+    {
+      "name": "contact upload is stored byte-for-byte and sent as an actual attachment",
+      "pass": true
+    },
+    {
+      "name": "sample and batch inquiries preserve required details and unknown quantity",
+      "pass": true
+    },
+    {
+      "name": "email rejection preserves the record/file and administrative recovery reads the saved file",
+      "pass": true
+    },
+    {
+      "name": "database failure returns an error and retry reuses the saved file without losing its bytes",
+      "pass": true
+    },
+    {
+      "name": "concurrent duplicate requests create one row and one notification",
+      "pass": true
+    },
+    {
+      "name": "invalid origin and invalid payloads never add a record or send mail",
+      "pass": true
+    },
+    {
+      "name": "the full advertised 5 MiB PDF boundary is stored and attached intact",
+      "pass": true
+    },
+    {
+      "name": "oversized streaming JSON and malformed JSON are rejected before persistence",
+      "pass": true
+    },
+    {
+      "name": "missing private storage fails closed for a file inquiry",
+      "pass": true
+    }
+  ],
+  "passed": 9,
+  "localRecords": 7,
+  "simulatedAcceptedNotifications": 7,
+  "productionSubmissions": 0,
+  "realEmails": 0,
+  "paidCalls": 0
+}

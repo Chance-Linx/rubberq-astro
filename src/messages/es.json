@@ -237,7 +237,7 @@
       "submit": "ENVingenieríaR SOLICITUD",
       "submitting": "ENVingenieríaNDO...",
       "success": "¡Envío exitoso!",
-      "successMessage": "Hemos recibido su RFQ y responderemos dentro de 12-24 horas.",
+      "successMessage": "Hemos recibido los datos de su proyecto. Para añadir información, escriba a contact@rubberq.com.",
       "error": "Envío fallido",
       "errorMessage": "Por favor intente nuevamente más tarde.",
       "required": "Campo obligatorio"
@@ -2260,7 +2260,7 @@
         "submit": "Enviar solicitud de muestras",
         "submitting": "Enviando...",
         "success": "Solicitud enviada",
-        "successMessage": "Hemos recibido su solicitud. Nuestro equipo se pondrá en contacto para concretar los siguientes pasos.",
+        "successMessage": "Hemos recibido los datos de su proyecto. Para añadir información, escriba a contact@rubberq.com.",
         "error": "Error al enviar",
         "errorMessage": "Inténtelo de nuevo o contacte directamente con nosotros."
       },
@@ -2284,7 +2284,7 @@
         "submit": "Enviar RFQ por lote",
         "submitting": "Enviando...",
         "success": "Solicitud enviada",
-        "successMessage": "Su consulta se ha enviado al equipo técnico comercial.",
+        "successMessage": "Hemos recibido los datos de su proyecto. Para añadir información, escriba a contact@rubberq.com.",
         "error": "Error de envio",
         "errorMessage": "Inténtelo de nuevo o contacte directamente con nosotros."
       },

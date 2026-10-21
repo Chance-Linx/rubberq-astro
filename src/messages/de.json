@@ -237,7 +237,7 @@
       "submit": "ANFRAGE SENDEN",
       "submitting": "WIRD GESENDET...",
       "success": "Übermittlung erfolgreich!",
-      "successMessage": "Wir haben Ihre Anfrage erhalten und werden innerhalb von 12-24 Stunden antworten.",
+      "successMessage": "Ihre Projektdaten sind eingegangen. Weitere Informationen senden Sie bitte an contact@rubberq.com.",
       "error": "Übermittlung fehlgeschlagen",
       "errorMessage": "Bitte versuchen Sie es später erneut.",
       "required": "Pflichtfeld"
@@ -2260,7 +2260,7 @@
         "submit": "Musteranfrage senden",
         "submitting": "Wird gesendet...",
         "success": "Anfrage gesendet",
-        "successMessage": "Ihre Musteranfrage ist eingegangen. Unser Team meldet sich mit den nächsten Schritten.",
+        "successMessage": "Ihre Projektdaten sind eingegangen. Weitere Informationen senden Sie bitte an contact@rubberq.com.",
         "error": "Senden fehlgeschlagen",
         "errorMessage": "Bitte erneut versuchen oder direkt Kontakt aufnehmen."
       },
@@ -2284,7 +2284,7 @@
         "submit": "Sammelanfrage senden",
         "submitting": "Wird gesendet...",
         "success": "Anfrage gesendet",
-        "successMessage": "Ihre Sammelanfrage wurde an den technischen Vertrieb übermittelt.",
+        "successMessage": "Ihre Projektdaten sind eingegangen. Weitere Informationen senden Sie bitte an contact@rubberq.com.",
         "error": "Senden fehlgeschlagen",
         "errorMessage": "Bitte erneut versuchen oder direkt Kontakt aufnehmen."
       },

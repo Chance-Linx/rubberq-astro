@@ -205,3 +205,19 @@ curl -i https://rubberq-rfq-api.midnightblue-lin.workers.dev \
 ```
 
 Run the live check only from a network that can access `workers.dev`, or after the Worker is mapped under a RubberQ-owned hostname.
+
+
+## 2026-10-21 implementation update
+
+The historical integration sketch above is retained for provenance. The executable contract is now `worker.mjs`, which uses `toD1UpdateArgs`; do not copy the older sketch into production. Full local implementation, isolated browser/D1/R2 evidence and release prerequisites are recorded in `docs/2026-10-21-全站规划落实/21-询盘附件保存通知与失败重试.md`.
+
+The frontend now posts to same-origin `/api/`. Private `RFQ_ATTACHMENTS` storage and `migrations/2026-10-21-rfq-idempotency.sql` are prerequisites for the reviewed release. Neither a cloud bucket nor a remote migration was created/applied in this change. Local `tools/rfq-review/entry.mjs` admin endpoints and fake mail bindings are test-only and must never be deployed.
+
+Reproduce the isolated backend and client checks from the repository root:
+
+```bash
+node scripts/test-rfq-pipeline.mjs
+node --test scripts/test-submit-inquiry.mjs
+```
+
+For browser verification, run `node tools/rfq-review/server.mjs` alongside `npm run review:articles`, and use only `http://127.0.0.1:4398`. All outbound mail is intercepted. `scripts/verify-rfq-browser-readback.py` independently checks the recorded browser receipt IDs while that ephemeral runtime is still running; a fresh runtime will not contain those rows.

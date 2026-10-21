@@ -1,0 +1,25 @@
+{
+  "checks": {
+    "unit": 31,
+    "rfq_contract": 116,
+    "page_routes": 225,
+    "unknown_guards": 4,
+    "articles": 27,
+    "specialized": 36,
+    "astro_errors": 0,
+    "astro_warnings": 0,
+    "astro_hints": 13,
+    "build_passed": true
+  },
+  "source_sha256": {
+    "src/lib/submitInquiry.ts": "cfffb9a6934931df7f93fa2e83b8805536aa95c5cd57b005c0135dffecfd2ee1",
+    "tools/rfq-worker-v2/worker.mjs": "2b319017f014142f743f6ea1fc45d4a8aeff4e82c73a29cce6f7cdb71559fc67",
+    "tools/rfq-worker-v2/attachment.mjs": "2453be4ebcb51a2eeec0ec89fd6b923085c3fbe761c57ed922425f0f123f408c",
+    "tools/rfq-worker-v2/wrangler.toml": "19557bfb53bfd1348ee1af46a5d96cafd7a26041bc4376de497a0cab3833f91f",
+    "tools/rfq-worker-v2/migrations/2026-10-21-rfq-idempotency.sql": "ff50ca13d7e8d164709231ed8e79670ba223a866914c8f850b8faa7902d298ec",
+    "tools/article-review/middleware.ts": "16061d7cfe07f362074fc48761a7085a22bbd8c0beff438d1b0c52d641f64aed"
+  },
+  "production_deployments": 0,
+  "real_emails": 0,
+  "paid_calls": 0
+}
