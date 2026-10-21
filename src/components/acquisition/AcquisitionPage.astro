@@ -13,7 +13,7 @@ if (!result?.copy) return new Response('Not Found', { status: 404 });
 const { page, messages, copy } = result;
 const ui = tRaw(messages, 'acquisition.ui');
 const copies = tRaw(messages, 'acquisition.pages');
-const localized = (url: string) => url === '/blog' || url.startsWith('/blog/') ? url : localizedPath(locale, url);
+const localized = (url: string) => url.startsWith('https://') || url === '/blog' || url.startsWith('/blog/') ? url : localizedPath(locale, url);
 const related = page.links.map((url) => acquisitionPages.find((p) => p.url === url)).filter(Boolean);
 const canonical = createLocaleAlternates(locale, path).canonical;
 const inquiry = localizedPath(locale, page.cta_url) + inquiryPath('', path);
@@ -92,7 +92,7 @@ const schema = {
             <tbody>{section.table.rows.map((row) => <tr>{row.map((cell, index) => index === 0 ? <th scope="row">{cell}</th> : <td>{cell}</td>)}</tr>)}</tbody>
           </table>
         </div>}
-        {(section.links?.length ?? 0) > 0 && <ul class="rq-acq-content-links">{section.links?.map((link) => <li><a href={localized(link.url)} hreflang={link.url.startsWith('/blog/') ? 'en' : locale}>{link.label}<span aria-hidden="true"> ↗</span></a></li>)}</ul>}
+        {(section.links?.length ?? 0) > 0 && <ul class="rq-acq-content-links">{section.links?.map((link) => <li><a href={localized(link.url)} hreflang={link.url.startsWith('/blog/') || link.url.startsWith('https://') ? 'en' : locale}>{link.label}<span aria-hidden="true"> ↗</span></a></li>)}</ul>}
       </section>)}
       {copy.faq.length > 0 && <section class="rq-acq-section" data-section-name="project-questions">
         <h2>{ui.questions}</h2>

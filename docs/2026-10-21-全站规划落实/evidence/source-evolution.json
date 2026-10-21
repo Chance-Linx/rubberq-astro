@@ -4,8 +4,8 @@
     {
       "path": "rubberq-astro/src/messages/en.json",
       "baseline_sha256": "1ddcaf6f8d37447025afbd364d362f778445d5801f36ee20d73719e88f1126d6",
-      "current_sha256": "21d68f8b9b0e2f0dd271b25aa301d9a7de67c4a091a4d8b935ae96f9feff47cc",
-      "reason": "Approved acquisition implementation, five-locale form/UI copy and four task-specific page modules; original planning input retained in baseline Git object",
+      "current_sha256": "3e8a83785d57e9908e879a99e8ea930ca56094d0752c6a9c3d6929f8b8a6f940",
+      "reason": "Approved acquisition implementation and task-specific five-locale page content; original planning input retained in baseline Git object",
       "verification": "evidence/five-locale-implementation-checks.json"
     }
   ]

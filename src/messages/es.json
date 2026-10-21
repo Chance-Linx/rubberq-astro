@@ -2409,21 +2409,115 @@
       "RQ-PG-004": {
         "label": "Juntas tóricas y sellos",
         "title": "Juntas tóricas y sellos de caucho a medida | RubberQ",
-        "description": "Revise juntas tóricas y sellos según el alojamiento, el medio de servicio y las condiciones de montaje.",
+        "description": "Solicite juntas tóricas y sellos de caucho con plano, material, alojamiento y condiciones de servicio. Acuerde inspección, muestras y fabricación recurrente.",
         "h1": "Juntas tóricas y sellos de caucho a medida",
         "intro": "Revise juntas tóricas y sellos según el alojamiento, el medio de servicio y las condiciones de montaje. Comparta plano, material y cantidad para acordar geometría, compuesto e inspección.",
         "sections": [
           {
-            "heading": "Definir el sello y su alojamiento",
-            "body": "Indique diámetro interior y sección, o envíe el plano con las dimensiones del alojamiento y las piezas de contacto. Añada funcionamiento estático o dinámico, dirección de presión, montaje y rebaba admisible."
+            "heading": "Revisar el sello y las piezas de contacto",
+            "body": "Para una junta tórica normalizada, indique la designación y el sistema dimensional de referencia. Para un sello especial, aporte la sección y la geometría de contacto. RubberQ revisa conjuntamente compuesto, moldeo e inspección, también para piezas pequeñas de precisión que requieren atención en la manipulación y el montaje."
           },
           {
-            "heading": "Seleccionar material para la exposición real",
-            "body": "Compare FKM, FFKM, EPDM, HNBR, NBR y silicona con el fluido, los ciclos térmicos y las exigencias mecánicas. La familia de polímero por sí sola no define un compuesto cualificado."
+            "heading": "Preparar el plano y las condiciones de suministro",
+            "body": "La interfaz instalada exige más información que las dimensiones libres del sello. Aporte la revisión vigente del plano e identifique las características que controlan el montaje o la función.",
+            "table": {
+              "caption": "Información para consultar sobre juntas tóricas y sellos especiales",
+              "columns": [
+                "Dato",
+                "Qué especificar"
+              ],
+              "rows": [
+                [
+                  "Geometría",
+                  "Diámetro interior, sección o perfil completo, tolerancias y revisión del plano"
+                ],
+                [
+                  "Interfaz",
+                  "Alojamiento, holgura, estado superficial y método de montaje"
+                ],
+                [
+                  "Servicio",
+                  "Estático, alternativo o rotativo; carrera o velocidad cuando proceda"
+                ],
+                [
+                  "Material",
+                  "Compuesto de referencia o propiedades exigidas, método de dureza y medios de contacto"
+                ],
+                [
+                  "Suministro",
+                  "Cantidades de muestras y serie, patrón de entrega, embalaje y registros de lote"
+                ],
+                [
+                  "Aceptación",
+                  "Criterios dimensionales y visuales, muestreo y comprobaciones de montaje"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/resources/o-ring-size-guide",
+                "label": "Dimensiones de juntas tóricas y alojamientos"
+              },
+              {
+                "url": "/blog/groove-design-calculating-percentage-fill-and-squeeze-for-o-rings",
+                "label": "Llenado del alojamiento y compresión (inglés)"
+              }
+            ]
           },
           {
-            "heading": "Acordar cómo inspeccionar la pieza",
-            "body": "Especifique referencias dimensionales, tolerancias, superficies y método de aceptación. Las muestras relacionan el plano con el sello montado antes del suministro recurrente."
+            "heading": "Identificar la construcción real",
+            "body": "Un anillo de sección cuadrada, un perfil X, un anillo unido, uno encapsulado y una pieza de caucho-metal son construcciones distintas. Envíe un plano o referencia clara, además del nombre del producto. La viabilidad y el suministro deben revisarse para cada construcción. Distinga los sellos terminados del compuesto sin vulcanizar en los pedidos a granel.",
+            "links": [
+              {
+                "url": "/products/rubber-to-metal-bonded-parts",
+                "label": "Requisitos de piezas de caucho-metal"
+              },
+              {
+                "url": "/compounds",
+                "label": "Suministro de compuestos"
+              }
+            ]
+          },
+          {
+            "heading": "Describir presión, temperatura y medios conjuntamente",
+            "body": "Indique picos y cambios de presión, holguras de extrusión y apoyos, límites térmicos y tiempos de permanencia. La dureza por sí sola no determina la capacidad de presión. Identifique el fluido completo y la limpieza: refrigerante, baño de tintura, tratamiento del agua o un ATF específico requieren composición e historial de exposición. En un conector rápido de refrigeración líquida, describa conexiones, montaje y comprobación de fugas del conjunto. Para presión estática prolongada o alta temperatura, especifique duración, criterio de fuerza residual o fugas y pruebas para el intervalo de mantenimiento previsto.",
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Interpretar ensayos de hinchamiento (inglés)"
+              },
+              {
+                "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+                "label": "Deformación remanente y fuerza de sellado (inglés)"
+              }
+            ]
+          },
+          {
+            "heading": "Definir movimiento, fricción y contaminación",
+            "body": "Aporte contracara, lubricación, carga, velocidad, temperatura y tiempo de parada para el sello dinámico. Distinga fuerza lineal de arranque, fricción en movimiento y par de giro. Para exclusión de polvo, indique diámetro de vástago, contacto del labio, carrera y contaminantes reales. Acuerde medición y prueba de componente en lugar de elegir un compuesto por un único valor de fricción.",
+            "items": [
+              "Registrar las condiciones antes del arranque o rearranque.",
+              "Evaluar movimiento y lubricación representativos de la aplicación.",
+              "Comparar el resultado con el criterio funcional acordado."
+            ]
+          },
+          {
+            "heading": "Acordar inspección y aprobación de muestras",
+            "body": "Para sellos miniatura, revise apoyo de medición, muestreo, manipulación, embalaje y ajuste en el conjunto real. Relacione los informes con el compuesto y lote de muestras. Antes del suministro recurrente, acuerde características, método y frecuencia de inspección. Consultar sobre una pieza pequeña no establece un tamaño mínimo universal ni una inspección de todas las unidades.",
+            "links": [
+              {
+                "url": "/blog/iso-3601-3-visual-inspection-standards-for-o-rings-what-is-acceptable",
+                "label": "Aceptación visual de juntas tóricas (inglés)"
+              },
+              {
+                "url": "/blog/measurement-system-analysis-msa-ensuring-gage-rr-in-rubber-testing",
+                "label": "Evaluación del sistema de medición (inglés)"
+              },
+              {
+                "url": "/products/ffkm-replacement-seals",
+                "label": "Evaluación de sustitución FFKM"
+              }
+            ]
           }
         ],
         "cta": "Solicitar presupuesto de juntas tóricas",
@@ -2487,21 +2581,111 @@
       "RQ-PG-007": {
         "label": "Piezas moldeadas a medida",
         "title": "Piezas de caucho moldeadas a medida | RubberQ",
-        "description": "Convierta un plano o requisito funcional en una consulta de desarrollo.",
+        "description": "Desarrolle piezas de caucho moldeadas a medida a partir de planos y requisitos. Revise compuesto, moldes, dimensiones críticas, muestras y registros.",
         "h1": "Piezas de caucho moldeadas a medida",
         "intro": "Convierta un plano o requisito funcional en una consulta de desarrollo. RubberQ evalúa compuesto, geometría, molde e inspección como una tarea de fabricación conjunta.",
         "sections": [
           {
-            "heading": "Diseñar teniendo en cuenta el caucho",
-            "body": "Identifique dimensiones críticas y funciones de montaje. Revise particiones, límites de rebaba, desmoldeo, espesores y características afectadas por moldeo y contracción."
+            "heading": "Relacionar el plano con la fabricación",
+            "body": "Aporte un plano vigente, una pieza de referencia o un requisito funcional. RubberQ revisa formulación, mezclado, moldeo, ensayos y trazabilidad como un proyecto conectado. Describa la función y las interfaces de la pieza para que material y geometría respondan al mismo requisito."
           },
           {
-            "heading": "Elegir el proceso según la pieza",
-            "body": "Geometría, compuesto, insertos y volumen orientan la ruta de moldeo. Los requisitos del molde y de las muestras se acuerdan después de la revisión técnica."
+            "heading": "Preparar una solicitud de oferta técnica",
+            "body": "Distinga requisitos fijos y características negociables. Si el diseño sigue abierto, identifique dimensiones, requisitos de material y restricciones de montaje pendientes.",
+            "table": {
+              "caption": "Información para una pieza de caucho moldeada a medida",
+              "columns": [
+                "Dato",
+                "Información necesaria"
+              ],
+              "rows": [
+                [
+                  "Diseño",
+                  "Revisión del plano, archivo 3D si existe, interfaces y muestras de referencia"
+                ],
+                [
+                  "Servicio",
+                  "Medios, historial térmico, movimiento, cargas y limpieza"
+                ],
+                [
+                  "Material",
+                  "Compuesto existente o propiedades requeridas y especificación aplicable"
+                ],
+                [
+                  "Características críticas",
+                  "Dimensiones funcionales, referencias, superficie y método de inspección"
+                ],
+                [
+                  "Molde",
+                  "Restricciones de partición, insertos, cambios permitidos y responsabilidades"
+                ],
+                [
+                  "Suministro",
+                  "Cantidades de muestras y serie, pedidos, embalaje y registros"
+                ],
+                [
+                  "Aprobación",
+                  "Ensayos de muestras, informe dimensional, prueba de montaje y responsables"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
+                "label": "Preparar una solicitud de desarrollo de compuesto (inglés)"
+              },
+              {
+                "url": "/capabilities/rubber-molding",
+                "label": "Revisión del proceso de moldeo"
+              }
+            ]
           },
           {
-            "heading": "Preparar la producción recurrente",
-            "body": "Incluya revisión del plano, previsión de demanda, inspección y embalaje. Acuerde cómo conservar muestras aprobadas, identificación del compuesto y registros de producción."
+            "heading": "Acordar molde y aceptación dimensional",
+            "body": "Revise partición, posición de insertos y acabado antes de decidir el molde. Defina propiedad, mantenimiento y consecuencias de cambios del plano sobre muestras y aprobación. Una tolerancia necesita característica, referencia de medición y estado acordado de la pieza. Incluya desmoldeo, acabado y acondicionamiento cuando influyan en el resultado.",
+            "items": [
+              "Marcar dimensiones funcionales y apoyo o referencia de medición.",
+              "Especificar rebaba, bordes y alineación de insertos cuando proceda.",
+              "Medir muestras identificadas en el estado acordado antes de aprobar la serie."
+            ],
+            "links": [
+              {
+                "url": "/blog/flash-on-molded-parts-defining-flash-free-and-its-cost-implications",
+                "label": "Definir la aceptación de rebabas (inglés)"
+              },
+              {
+                "url": "/blog/cryogenic-deflashing-vs-manual-trimming-precision-rubber-parts",
+                "label": "Elegir el método de desbarbado (inglés)"
+              }
+            ]
+          },
+          {
+            "heading": "Evaluar aspecto y función por separado",
+            "body": "Para piezas de color, aporte designación y referencia física si está disponible. Acuerde material, acabado, iluminación y método de diferencia de color antes de aprobar la muestra. Un código no establece una coincidencia universal. Para manguitos, tapones o piezas antivibratorias, defina montaje, cargas, movimiento y medición del conjunto. La aprobación del color y la funcional necesitan criterios propios.",
+            "links": [
+              {
+                "url": "/blog/vibration-damping-mounts-dynamic-stiffness-humanoid-robot-actuators",
+                "label": "Evaluar rigidez dinámica y vibraciones (inglés)"
+              }
+            ]
+          },
+          {
+            "heading": "Trasladar la muestra aprobada al suministro recurrente",
+            "body": "Relacione plano aprobado, compuesto, criterios de inspección y resultado de muestras antes de confirmar pedidos recurrentes. Acuerde identificación de lotes, registros de liberación, embalaje y notificación de cambios. Defina con el pedido cualquier presentación exigida por el cliente. Coste del molde, secuencia de desarrollo y plazo se confirman según el proyecto definido.",
+            "links": [
+              {
+                "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+                "label": "PPAP y presentación de muestras al cliente (inglés)"
+              },
+              {
+                "url": "/quality",
+                "label": "Registros de calidad y control de cambios"
+              },
+              {
+                "url": "/testing",
+                "label": "Evaluación de materiales y piezas"
+              }
+            ]
           }
         ],
         "cta": "Solicitar presupuesto de una pieza a medida",
@@ -2675,21 +2859,110 @@
       "RQ-PG-012": {
         "label": "FFKM",
         "title": "FFKM para condiciones de sellado exigentes | RubberQ",
-        "description": "FFKM es una familia candidata cuando la química y la temperatura de servicio exigen más que otros elastómeros.",
+        "description": "Evalúe FFKM según compuesto, exposición, geometría del sello y ensayos de muestras. Prepare una especificación de material y pieza para el servicio previsto.",
         "h1": "FFKM para condiciones de sellado exigentes",
         "intro": "FFKM es una familia candidata cuando la química y la temperatura de servicio exigen más que otros elastómeros. La formulación y las condiciones reales determinan los ensayos necesarios.",
         "sections": [
           {
-            "heading": "Especificar la exposición del proceso",
-            "body": "Enumere gases o líquidos, limpieza, ciclos térmicos, vacío y ubicación del sello. Incluya limpieza técnica y límites de contaminación."
+            "heading": "Definir el servicio antes de elegir FFKM",
+            "body": "FFKM identifica una familia de perfluoroelastómeros; la especificación de compra necesita compuesto y pieza identificados. Explique por qué se revisa el sello actual y qué debe demostrar el candidato. Compare exposición química, temperatura, compresión y función del equipo sin tratar el nombre de la familia como una especificación completa."
           },
           {
-            "heading": "Evaluar el compuesto concreto",
-            "body": "Revise dureza, propiedades físicas y ensayos relevantes para su equipo. Pureza, desgasificación y comportamiento frente a plasma requieren pruebas de la formulación específica."
+            "heading": "Preparar los requisitos del material y la pieza",
+            "body": "Use la exposición real en la posición del sello, incluida la limpieza y los cambios entre etapas. Registre por separado límites de operación y excursiones.",
+            "table": {
+              "caption": "Información para evaluar un material FFKM",
+              "columns": [
+                "Requisito",
+                "Información para la evaluación"
+              ],
+              "rows": [
+                [
+                  "Identificación",
+                  "Compuesto o grado original, revisión de especificación y referencia trazable"
+                ],
+                [
+                  "Pieza",
+                  "Plano, sección, alojamiento, superficies y montaje"
+                ],
+                [
+                  "Exposición",
+                  "Composición de gases o líquidos, concentraciones, limpieza y secuencia"
+                ],
+                [
+                  "Carga térmica y mecánica",
+                  "Historial térmico, presión o vacío, compresión y movimiento"
+                ],
+                [
+                  "Resultados del proceso",
+                  "Evaluación requerida de erosión, partículas, desgasificación, extraíbles o fugas"
+                ],
+                [
+                  "Aprobación",
+                  "Identificación de muestras, condiciones, criterios y equipo responsable"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "Geometría del sello y suministro"
+              },
+              {
+                "url": "/testing",
+                "label": "Ensayos de material, pieza y conjunto"
+              }
+            ]
           },
           {
-            "heading": "Conectar el material con el sello",
-            "body": "Planifique muestras según plano, alojamiento y montaje. En mantenimiento, compare la especificación existente antes de considerar un cambio de suministro."
+            "heading": "Separar los datos de cada evaluación",
+            "body": "El resultado de plasma, la desgasificación, los extraíbles y la fuga del conjunto responden a preguntas diferentes. Acuerde los resultados que exige su proceso, el método y las condiciones de muestra. Compare así el compuesto y la pieza propuestos. Los datos de otra formulación o ubicación deben revisarse por su pertinencia.",
+            "links": [
+              {
+                "url": "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+                "label": "Condiciones de evaluación de sellos para plasma (inglés)"
+              },
+              {
+                "url": "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing",
+                "label": "Interpretar datos de desgasificación en vacío (inglés)"
+              },
+              {
+                "url": "/blog/permeation-vs-leakage-understanding-the-difference-in-gas-systems",
+                "label": "Separar permeación y fugas (inglés)"
+              }
+            ]
+          },
+          {
+            "heading": "Comparar candidatos con la misma decisión",
+            "body": "Defina las pruebas necesarias antes de comparar FFKM con un candidato FKM o un sello de marca existente. Incluya coste de pieza, inspección, cualificación e hipótesis de mantenimiento en la comparación. Una referencia de marca identifica la especificación original; el candidato debe aprobarse para la aplicación.",
+            "links": [
+              {
+                "url": "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
+                "label": "Comparar FKM, FFKM, coste y validación (inglés)"
+              },
+              {
+                "url": "/materials/fkm",
+                "label": "Evaluación de materiales FKM"
+              },
+              {
+                "url": "/products/ffkm-replacement-seals",
+                "label": "Evaluación de sustitución FFKM"
+              }
+            ]
+          },
+          {
+            "heading": "Pasar de muestras a una especificación de suministro",
+            "body": "Aporte revisión del plano, cantidad, servicio del equipo e informes necesarios con las muestras. Mantenga relacionados compuesto, pieza y lote durante la evaluación. Antes del suministro recurrente, acuerde responsables de aprobación, embalaje, identificación y revisión de cambios. La formulación y fabricación se estudian según el alcance definido; ensayos y disponibilidad del material se confirman para el proyecto.",
+            "links": [
+              {
+                "url": "/quality",
+                "label": "Registros de calidad y trazabilidad"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Consultar una muestra de evaluación"
+              }
+            ]
           }
         ],
         "cta": "Consultar una aplicación FFKM",
@@ -2698,21 +2971,115 @@
       "RQ-PG-013": {
         "label": "FKM",
         "title": "FKM para juntas industriales | RubberQ",
-        "description": "Evalúe compuestos FKM para un entorno de fluidos y temperaturas definido.",
+        "description": "Especifique FKM por compuesto, fluidos, historial térmico y geometría del sello. Revise referencias de grado, datos de muestras y condiciones de suministro.",
         "h1": "FKM para juntas industriales",
         "intro": "Evalúe compuestos FKM para un entorno de fluidos y temperaturas definido. Compatibilidad química, comportamiento en frío y recuperación tras compresión dependen de formulación y aplicación.",
         "sections": [
           {
-            "heading": "Describir todos los fluidos",
-            "body": "Incluya combustibles, aceites, aditivos, soluciones de limpieza y mezclas. La familia del material no demuestra aptitud para toda la secuencia de exposición."
+            "heading": "Identificar el compuesto detrás del nombre",
+            "body": "FKM designa una familia de materiales. Viton™ es una marca de Chemours para fluoroelastómeros. Identifique la referencia comercial mediante documentos del fabricante y especifique por separado el compuesto propuesto. Una marca en la consulta no acredita autorización de RubberQ, disponibilidad de todos los grados ni equivalencia de sustitución.",
+            "links": [
+              {
+                "url": "https://www.viton.com/en/products/product-selection",
+                "label": "Referencia de selección del fabricante de Viton™ (inglés)"
+              }
+            ]
           },
           {
-            "heading": "Revisar temperatura y movimiento",
-            "body": "Indique temperatura continua y máxima, arranque en frío, presión y movimiento del sello. Añada compresión prevista y requisitos de montaje."
+            "heading": "Comparar especificaciones completas",
+            "body": "Aporte grado o designación existentes, propiedades exigidas y servicio real. Revise grado de polímero, sistema de curado y compuesto terminado. El contenido de flúor por sí solo no basta para aprobar.",
+            "table": {
+              "caption": "Información para evaluar grado y compuesto FKM",
+              "columns": [
+                "Dato",
+                "Qué comparar"
+              ],
+              "rows": [
+                [
+                  "Referencia de material",
+                  "Grado original completo, código de compuesto, especificación y revisión documental"
+                ],
+                [
+                  "Formulación",
+                  "Información disponible del polímero y sistema de curado del candidato"
+                ],
+                [
+                  "Medios",
+                  "Aceite, combustible, producto o limpiador completos y concentración"
+                ],
+                [
+                  "Historial térmico",
+                  "Arranque en frío, temperatura normal, picos, permanencia y recuperación"
+                ],
+                [
+                  "Interfaz del sello",
+                  "Plano, alojamiento, contracara, compresión y movimiento"
+                ],
+                [
+                  "Pruebas",
+                  "Probeta, preparación, estado de curado o poscurado, método y límites de aceptación"
+                ],
+                [
+                  "Suministro",
+                  "Pieza o compuesto, cantidad, identificación de lote y requisitos de cambio"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Especificar y validar",
-            "body": "Acuerde especificación del compuesto y ensayo representativo antes del suministro recurrente. Si cita un material existente, indique el grado exacto."
+            "heading": "Evaluar frío y medios conjuntamente",
+            "body": "Defina temperatura de arranque y durante el movimiento, además del máximo operativo. Indique combustible, producto químico o lubricante concretos. Compare informes de candidatos en condiciones pertinentes e identifique las comprobaciones del conjunto.",
+            "items": [
+              "Indicar estado de muestra y método de recuperación del resultado a baja temperatura.",
+              "Registrar composición del fluido, duración y cambios de propiedades.",
+              "Verificar la función de sellado en el conjunto definido."
+            ],
+            "links": [
+              {
+                "url": "/blog/low-temperature-retraction-tr-10-predicting-seal-failure-in-arctic-conditions",
+                "label": "Interpretar datos de retracción a baja temperatura (inglés)"
+              },
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Interpretar hinchamiento en fluidos (inglés)"
+              }
+            ]
+          },
+          {
+            "heading": "Separar datos de material y aceptación de pieza",
+            "body": "El informe de probeta necesita identidad del compuesto, método y preparación. El sello terminado requiere también criterios dimensionales, superficiales y de montaje. Acuerde la evaluación de compresión o fuerza residual pertinente y compare resultados en las mismas condiciones.",
+            "links": [
+              {
+                "url": "/blog/compression-set-failure-why-your-seal-lost-its-bounce",
+                "label": "Interpretar fallos por deformación remanente (inglés)"
+              },
+              {
+                "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+                "label": "Usar una designación ASTM D2000 (inglés)"
+              }
+            ]
+          },
+          {
+            "heading": "Preparar muestras y decisión de compra",
+            "body": "Envíe revisión del plano, material de referencia, cantidad y requisitos de evaluación. Para cambiar de candidato, identifique la exigencia original y la responsabilidad de aprobación antes del suministro recurrente. Consulte opciones disponibles e informes según ese alcance; acuerde embalaje, registros de lote y revisión de cambios con el pedido.",
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "Juntas tóricas y sellos de caucho especiales"
+              },
+              {
+                "url": "/materials/ffkm",
+                "label": "Evaluación de materiales FFKM"
+              },
+              {
+                "url": "/testing",
+                "label": "Alcance de ensayos e informes"
+              },
+              {
+                "url": "/quality",
+                "label": "Registros de calidad para compras"
+              }
+            ]
           }
         ],
         "cta": "Consultar una aplicación FKM",
@@ -3282,7 +3649,7 @@
               },
               {
                 "url": "/blog/spc-in-rubber-molding-how-cpk-167-delivers-zero-defect-batches",
-                "label": "Información para una RFQ de piezas de caucho (inglés)"
+                "label": "SPC y capacidad de proceso en piezas de caucho (inglés)"
               },
               {
                 "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",

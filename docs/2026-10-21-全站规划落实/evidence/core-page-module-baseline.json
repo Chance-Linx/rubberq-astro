@@ -1,0 +1,16 @@
+{
+  "baseline_commit": "840b961504bec67dba63ef6378344405429e5c4a",
+  "scope": [
+    "/products/seals",
+    "/products/custom",
+    "/materials/ffkm",
+    "/materials/fkm"
+  ],
+  "files": {
+    "src/messages/en.json": "21d68f8b9b0e2f0dd271b25aa301d9a7de67c4a091a4d8b935ae96f9feff47cc",
+    "src/messages/de.json": "9b8661d03999cbd6b4d694de3b3279f431714dfaac53e77ac97e78df6248a384",
+    "src/messages/ja.json": "f7520cb29abada43fcb6a48c40da3af93c9e1daf49b0f7f5e9b816b8cf8f03b2",
+    "src/messages/es.json": "4f925cbba6df8a90a705725ab303edb72b25b4992f6d67360c3c6083438ad19d",
+    "src/messages/zh.json": "565a333a6733db6a244165a8bea356a4b1b7e7cea9c3fe77365f39a7b7342349"
+  }
+}

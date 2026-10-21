@@ -2371,21 +2371,115 @@
       "RQ-PG-004": {
         "label": "O-Ringe und Dichtungen",
         "title": "O-Ringe und kundenspezifische Gummidichtungen | RubberQ",
-        "description": "O-Ringe und Gummidichtungen nach Zeichnung. Stimmen Sie Nut, Maße, Medium, Werkstoff und Musterprüfung für Ihre Baugruppe mit RubberQ ab.",
+        "description": "Beschaffen Sie O-Ringe und Gummidichtungen nach Zeichnung, Werkstoff- und Einsatzvorgaben. Klären Sie Nutgeometrie, Prüfung, Muster und Folgelieferungen.",
         "h1": "O-Ringe und kundenspezifische Gummidichtungen",
         "intro": "O-Ringe und Dichtungen für Ihre Nutgeometrie, Kontaktmedien und Einbaubedingungen. Senden Sie Zeichnung, Werkstoffanforderungen und Menge, damit wir Geometrie, Mischung und Prüfplan gemeinsam besprechen können.",
         "sections": [
           {
-            "heading": "Dichtung und Nut gemeinsam betrachten",
-            "body": "Nennen Sie Innendurchmesser und Schnurstärke oder senden Sie eine Zeichnung, möglichst mit Nut- und Gegenstückmaßen. Beschreiben Sie statischen oder dynamischen Betrieb, Druckrichtung, Montage und zulässigen Grat."
+            "heading": "Dichtung und Gegenbauteile gemeinsam betrachten",
+            "body": "Nennen Sie bei einem O-Ring in Standardgröße die Größenbezeichnung und das Bezugssystem. Für Sonderdichtungen benötigen wir Querschnittszeichnung und Gegenkontur. RubberQ betrachtet Mischung, Formgebung und Prüfung gemeinsam, auch bei kleinen Präzisionsteilen mit besonderen Anforderungen an Handhabung und Montage."
           },
           {
-            "heading": "Werkstoff nach tatsächlicher Belastung auswählen",
-            "body": "Vergleichen Sie FKM, FFKM, EPDM, HNBR, NBR und Silikon anhand von Medium, Temperaturzyklus und mechanischen Anforderungen. Die Polymerfamilie allein legt noch keine qualifizierte Mischung fest."
+            "heading": "Zeichnung und Lieferanforderungen vorbereiten",
+            "body": "Die Einbauschnittstelle umfasst mehr als die freien Dichtungsmaße. Geben Sie den aktuellen Zeichnungsstand an und kennzeichnen Sie montage- oder funktionsbestimmende Merkmale.",
+            "table": {
+              "caption": "Angaben für eine O-Ring- oder Sonderdichtungsanfrage",
+              "columns": [
+                "Angabe",
+                "Benötigte Spezifikation"
+              ],
+              "rows": [
+                [
+                  "Geometrie",
+                  "Innendurchmesser, Schnurstärke oder vollständiges Profil, Toleranzen und Zeichnungsstand"
+                ],
+                [
+                  "Schnittstelle",
+                  "Nut, Einbauspalt, Oberflächenzustand und Montageverfahren"
+                ],
+                [
+                  "Betrieb",
+                  "Statisch, linear oder rotierend; gegebenenfalls Hub oder Geschwindigkeit"
+                ],
+                [
+                  "Werkstoff",
+                  "Mischungsreferenz oder geforderte Eigenschaften, Härteprüfverfahren und Kontaktmedien"
+                ],
+                [
+                  "Belieferung",
+                  "Muster- und Serienmenge, Bestellrhythmus, Verpackung und Chargenunterlagen"
+                ],
+                [
+                  "Annahme",
+                  "Maß- und Sichtkriterien, Stichproben und Montageprüfungen"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/resources/o-ring-size-guide",
+                "label": "O-Ring-Maße und Nutangaben"
+              },
+              {
+                "url": "/blog/groove-design-calculating-percentage-fill-and-squeeze-for-o-rings",
+                "label": "Nutfüllung und Verpressung (Englisch)"
+              }
+            ]
           },
           {
-            "heading": "Prüfgrundlage vereinbaren",
-            "body": "Legen Sie Maßbezug, Toleranzen, Oberflächenanforderungen und Abnahmemethode fest. Muster verbinden die Zeichnung mit dem eingebauten Zustand, bevor wiederholte Lieferungen beginnen."
+            "heading": "Die tatsächliche Konstruktion bestimmen",
+            "body": "Vierkantring, X-Profil, verbundener Ring, ummantelter Ring und Gummi-Metall-Teil sind unterschiedliche Konstruktionen. Senden Sie eine Zeichnung oder eindeutige Referenz statt nur eines Produktnamens. Herstellbarkeit und Lieferung sind konstruktionsbezogen zu prüfen. Unterscheiden Sie bei Großmengen fertige Dichtungen von unvulkanisierter Mischung.",
+            "links": [
+              {
+                "url": "/products/rubber-to-metal-bonded-parts",
+                "label": "Anforderungen an Gummi-Metall-Bauteile"
+              },
+              {
+                "url": "/compounds",
+                "label": "Mischungslieferung"
+              }
+            ]
+          },
+          {
+            "heading": "Druck, Temperatur und Medien gemeinsam beschreiben",
+            "body": "Nennen Sie Druckspitzen und -änderungen, Extrusionsspalte und Abstützung sowie Temperaturgrenzen und Haltezeiten. Härte allein bestimmt die Druckeignung nicht. Beschreiben Sie Betriebsmedium und Reinigungsfolge vollständig. Kühlmittel, Färbebad, Wasseraufbereitungschemikalien oder ein bestimmtes ATF benötigen Zusammensetzung und Belastungsverlauf. Bei Schnellkupplungen für Flüssigkeitskühlung gehören Kuppelvorgänge, Montage und Dichtheitsprüfung der Baugruppe dazu. Nennen Sie bei langer statischer Druckbelastung oder hohen Temperaturen die Dauer, das Restkraft- oder Leckagekriterium und die für das Wartungsintervall benötigten Nachweise.",
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Quellprüfungen in Flüssigkeiten verstehen (Englisch)"
+              },
+              {
+                "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+                "label": "Druckverformungsrest und verbleibende Dichtkraft (Englisch)"
+              }
+            ]
+          },
+          {
+            "heading": "Bewegung, Reibung und Verunreinigung festlegen",
+            "body": "Nennen Sie Gegenfläche, Schmierung, Last, Geschwindigkeit, Temperatur und Stillstandszeit für eine bewegte Dichtung. Unterscheiden Sie lineare Losbrechkraft, Laufreibung und Drehmoment. Für Staubabstreifung benötigen wir Stangendurchmesser, Dichtlippenkontakt, Hub und reale Verschmutzung. Vereinbaren Sie Messung und Bauteilversuch, statt eine Mischung anhand eines Reibungswerts auszuwählen.",
+            "items": [
+              "Bedingungen vor dem Start oder Wiederanlauf dokumentieren.",
+              "Anwendungsnahe Bewegung und Schmierung bewerten.",
+              "Beobachtungen mit dem vereinbarten Funktionskriterium vergleichen."
+            ]
+          },
+          {
+            "heading": "Prüfung und Musterfreigabe abstimmen",
+            "body": "Bei Kleindichtungen sind Messaufnahme, Stichproben, Handhabung, Verpackung und Passung in der Baugruppe zu besprechen. Ordnen Sie Berichte Mischung und Mustercharge zu. Vereinbaren Sie Prüfmerkmale, Methode und Häufigkeit für Folgelieferungen. Eine Kleinteilanfrage begründet weder eine allgemeine Mindestgröße noch eine Einzelstückprüfung.",
+            "links": [
+              {
+                "url": "/blog/iso-3601-3-visual-inspection-standards-for-o-rings-what-is-acceptable",
+                "label": "Sichtannahmekriterien für O-Ringe (Englisch)"
+              },
+              {
+                "url": "/blog/measurement-system-analysis-msa-ensuring-gage-rr-in-rubber-testing",
+                "label": "Messsystembewertung (Englisch)"
+              },
+              {
+                "url": "/products/ffkm-replacement-seals",
+                "label": "FFKM-Ersatzteilbewertung"
+              }
+            ]
           }
         ],
         "cta": "Angebot für O-Ringe anfragen",
@@ -2449,21 +2543,111 @@
       "RQ-PG-007": {
         "label": "Gummiformteile nach Zeichnung",
         "title": "Kundenspezifische Gummiformteile | RubberQ",
-        "description": "Gummiformteile nach Zeichnung: Besprechen Sie Mischung, Geometrie, Werkzeug, Bemusterung und Prüfanforderungen für wiederkehrende Lieferungen.",
+        "description": "Entwickeln Sie Gummiformteile nach Zeichnung und Einsatzvorgaben. Klären Sie Mischung, Werkzeug, Funktionsmaße, Musterfreigabe und Produktionsnachweise.",
         "h1": "Kundenspezifische Gummiformteile",
         "intro": "Besprechen Sie die Entwicklung eines Gummibauteils anhand Ihrer Zeichnung oder Funktionsanforderung. RubberQ betrachtet Mischung, Geometrie, Werkzeug und Prüfung als zusammenhängende Fertigungsaufgabe.",
         "sections": [
           {
-            "heading": "Für Gummi konstruieren",
-            "body": "Kennzeichnen Sie kritische Maße und Einbaufunktionen. Stimmen Sie Trennebenen, Gratgrenzen, Entformungsschrägen, Wandstärken sowie durch Formgebung und Schwindung beeinflusste Merkmale ab."
+            "heading": "Zeichnung und Fertigungsaufgabe verbinden",
+            "body": "Bringen Sie eine aktuelle Zeichnung, ein Referenzteil oder eine Funktionsanforderung ein. RubberQ betrachtet Rezepturunterstützung, Mischen, Formen, Prüfen und Rückverfolgung als zusammenhängendes Projekt. Beschreiben Sie Teilefunktion und Schnittstellen, damit Werkstoff und Geometrie dieselbe Anforderung erfüllen."
           },
           {
-            "heading": "Fertigungsverfahren am Bauteil ausrichten",
-            "body": "Geometrie, Mischung, Einlegeteile und Bestellmenge bestimmen den Fertigungsweg. Werkzeug und Bemusterung werden nach der technischen Prüfung abgestimmt."
+            "heading": "Angaben für ein technisches Angebot vorbereiten",
+            "body": "Trennen Sie feste Anforderungen von besprechbaren Merkmalen. Kennzeichnen Sie bei einem Entwurf offene Maße, Werkstoffanforderungen und Montagebedingungen.",
+            "table": {
+              "caption": "Angaben für ein Gummiformteil nach Zeichnung",
+              "columns": [
+                "Angabe",
+                "Benötigte Informationen"
+              ],
+              "rows": [
+                [
+                  "Konstruktion",
+                  "Zeichnungsstand, gegebenenfalls 3D-Datei, Schnittstellen und Referenzmuster"
+                ],
+                [
+                  "Betrieb",
+                  "Medien, Temperaturverlauf, Bewegung, Lasten und Reinigung"
+                ],
+                [
+                  "Werkstoff",
+                  "Vorhandene Mischung oder geforderte Eigenschaften und geltende Spezifikation"
+                ],
+                [
+                  "Kritische Merkmale",
+                  "Funktionsmaße, Bezüge, Oberfläche und Prüfverfahren"
+                ],
+                [
+                  "Werkzeug",
+                  "Vorgaben zur Trennfuge, Einlegeteile, zulässige Änderungen und Verantwortlichkeiten"
+                ],
+                [
+                  "Belieferung",
+                  "Muster- und Serienmengen, Bestellrhythmus, Verpackung und Nachweise"
+                ],
+                [
+                  "Freigabe",
+                  "Musterprüfungen, Maßbericht, Montageversuch und Entscheidungsverantwortung"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
+                "label": "Eine Mischungsentwicklung anfragen (Englisch)"
+              },
+              {
+                "url": "/capabilities/rubber-molding",
+                "label": "Formgebungsverfahren abstimmen"
+              }
+            ]
           },
           {
-            "heading": "Wiederholte Fertigung vorbereiten",
-            "body": "Nennen Sie Zeichnungsstand, Bedarf, Prüfanforderungen und Verpackung. Vereinbaren Sie die Zuordnung freigegebener Muster, Mischungskennzeichnung und Produktionsaufzeichnungen."
+            "heading": "Werkzeug und Maßannahme abstimmen",
+            "body": "Prüfen Sie Trennfuge, Einlegeteilposition und Nacharbeit vor der Werkzeugentscheidung. Vereinbaren Sie Werkzeugeigentum, Wartung und die Folgen von Zeichnungsänderungen für Muster und Freigabe. Eine Toleranz benötigt Merkmal, Messbezug und definierten Teilezustand. Berücksichtigen Sie Entformung, Nacharbeit und Konditionierung, soweit sie das Ergebnis beeinflussen.",
+            "items": [
+              "Funktionsmaße und die Messaufnahme beziehungsweise den Bezug markieren.",
+              "Zulässigen Grat, Kantenzustand und Einlegeteilposition bei Bedarf festlegen.",
+              "Zugeordnete Muster im vereinbarten Zustand vor Serienfreigabe messen."
+            ],
+            "links": [
+              {
+                "url": "/blog/flash-on-molded-parts-defining-flash-free-and-its-cost-implications",
+                "label": "Gratannahmekriterien festlegen (Englisch)"
+              },
+              {
+                "url": "/blog/cryogenic-deflashing-vs-manual-trimming-precision-rubber-parts",
+                "label": "Entgratungsverfahren auswählen (Englisch)"
+              }
+            ]
+          },
+          {
+            "heading": "Aussehen und Funktion getrennt bewerten",
+            "body": "Nennen Sie für farbige Teile den Farbcode und möglichst eine physische Referenz. Vereinbaren Sie Werkstoff, Oberfläche, Beleuchtung und Farbabstandsmethode vor der Musterfreigabe. Ein Farbcode allein legt keine allgemeine Übereinstimmung fest. Bei Hülsen, Stopfen oder Schwingungsteilen sind Montage, Last, Bewegung und Baugruppenmessung zu beschreiben. Farb- und Funktionsfreigabe benötigen eigene Kriterien.",
+            "links": [
+              {
+                "url": "/blog/vibration-damping-mounts-dynamic-stiffness-humanoid-robot-actuators",
+                "label": "Dynamische Steifigkeit und Schwingungen bewerten (Englisch)"
+              }
+            ]
+          },
+          {
+            "heading": "Das freigegebene Muster mit Folgelieferungen verbinden",
+            "body": "Verknüpfen Sie freigegebene Zeichnung, Mischung, Prüfkriterien und Musterergebnis vor der Serienbestellung. Vereinbaren Sie Chargenkennung, Freigabenachweise, Verpackung und Änderungsmitteilungen. Stimmen Sie kundenspezifische Vorlagen mit dem Auftrag ab. Werkzeugkosten, Entwicklungsfolge und Liefertermin richten sich nach dem definierten Projekt.",
+            "links": [
+              {
+                "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+                "label": "PPAP und kundenspezifische Bemusterung (Englisch)"
+              },
+              {
+                "url": "/quality",
+                "label": "Qualitätsnachweise und Änderungssteuerung"
+              },
+              {
+                "url": "/testing",
+                "label": "Werkstoff- und Bauteilbewertung"
+              }
+            ]
           }
         ],
         "cta": "Formteil anfragen",
@@ -2637,21 +2821,110 @@
       "RQ-PG-012": {
         "label": "FFKM",
         "title": "FFKM für anspruchsvolle Dichtungsbedingungen | RubberQ",
-        "description": "FFKM für Ihre Dichtungsanwendung bewerten: Prozesschemie, Temperatur, Vakuum, konkrete Rezeptur und erforderliche Musterprüfungen gemeinsam betrachten.",
+        "description": "Bewerten Sie FFKM anhand von Mischung, Prozesskontakt, Dichtungsgeometrie und Musterprüfungen. Bereiten Sie eine einsatzbezogene Spezifikation vor.",
         "h1": "FFKM für anspruchsvolle Dichtungsbedingungen",
         "intro": "Wenn Prozesschemie und Temperatur andere Elastomere an ihre Grenzen bringen, kommt FFKM als Werkstofffamilie infrage. Die konkrete Rezeptur und die tatsächlichen Prozessbedingungen bestimmen den Prüfbedarf.",
         "sections": [
           {
-            "heading": "Prozessbelastung beschreiben",
-            "body": "Nennen Sie Prozessgase oder Flüssigkeiten, Reinigungsschritte, Temperaturzyklen, Vakuum und Dichtungsposition. Ergänzen Sie Anforderungen an Sauberkeit oder Verunreinigungen."
+            "heading": "Vor der FFKM-Auswahl den Einsatz festlegen",
+            "body": "FFKM bezeichnet eine Perfluorelastomerfamilie. Eine Beschaffungsspezifikation benötigt eine bestimmte Mischung und ein bestimmtes Teil. Beschreiben Sie den Anlass der Dichtungsbewertung und die Nachweise des Kandidaten. Vergleichen Sie chemische Belastung, Temperatur, Verpressung und Anlagenfunktion, statt den Familiennamen als vollständige Spezifikation zu behandeln."
           },
           {
-            "heading": "Die konkrete Mischung betrachten",
-            "body": "Besprechen Sie Härte, physikalische Eigenschaften und anlagenbezogene Prüfungen. Reinheit, Ausgasung und Verhalten unter Plasma erfordern Nachweise zur jeweiligen Rezeptur."
+            "heading": "Werkstoff- und Bauteilanforderungen zusammenstellen",
+            "body": "Beschreiben Sie die reale Belastung an der Dichtungsposition einschließlich Reinigung und Prozesswechsel. Halten Sie Betriebsgrenzen und kurzzeitige Überschreitungen getrennt fest.",
+            "table": {
+              "caption": "Angaben zur FFKM-Werkstoffbewertung",
+              "columns": [
+                "Anforderung",
+                "Information für die Bewertung"
+              ],
+              "rows": [
+                [
+                  "Identifikation",
+                  "Vorhandene Mischung oder Originalsorte, Spezifikationsstand und nachvollziehbare Referenz"
+                ],
+                [
+                  "Bauteil",
+                  "Zeichnung, Querschnitt, Nut, Gegenflächen und Montage"
+                ],
+                [
+                  "Kontakt",
+                  "Gas- oder Flüssigkeitszusammensetzung, Konzentration, Reinigung und Prozessfolge"
+                ],
+                [
+                  "Thermische und mechanische Last",
+                  "Temperaturverlauf, Druck oder Vakuum, Verpressung und Bewegung"
+                ],
+                [
+                  "Prozessrelevante Ergebnisse",
+                  "Geforderte Bewertung von Erosion, Partikeln, Ausgasung, Extraktstoffen oder Leckage"
+                ],
+                [
+                  "Freigabe",
+                  "Musterkennung, Prüfbedingungen, Kriterien und zuständiges Anlagenteam"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "Dichtungsgeometrie und Lieferanforderungen"
+              },
+              {
+                "url": "/testing",
+                "label": "Werkstoff-, Bauteil- und Baugruppenprüfungen"
+              }
+            ]
           },
           {
-            "heading": "Werkstoff mit Dichtung verbinden",
-            "body": "Planen Sie Muster anhand von Zeichnung, Nut und Montage. Vergleichen Sie bei Wartungsersatz zuerst die bestehende Spezifikation, bevor Sie einen Lieferantenwechsel erwägen."
+            "heading": "Nachweise für die einzelnen Prozessfragen trennen",
+            "body": "Plasmaergebnis, Ausgasungsbericht, Extraktstoffmessung und Dichtheitsprüfung einer Baugruppe beantworten unterschiedliche Fragen. Vereinbaren Sie benötigte Ergebnisse sowie Methode und Musterbedingungen. Vergleichen Sie die vorgeschlagene Mischung und das Teil auf dieser Basis. Nachweise anderer Rezepturen oder Einbauorte müssen auf ihre Übertragbarkeit geprüft werden.",
+            "links": [
+              {
+                "url": "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+                "label": "Prüfbedingungen für Plasmadichtungen (Englisch)"
+              },
+              {
+                "url": "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing",
+                "label": "Ausgasungsnachweise lesen (Englisch)"
+              },
+              {
+                "url": "/blog/permeation-vs-leakage-understanding-the-difference-in-gas-systems",
+                "label": "Permeation und Leckage getrennt bewerten (Englisch)"
+              }
+            ]
+          },
+          {
+            "heading": "Kandidaten anhand derselben Entscheidung vergleichen",
+            "body": "Legen Sie die Nachweise fest, bevor Sie FFKM mit FKM oder einer vorhandenen Markendichtung vergleichen. Berücksichtigen Sie Teilepreis, Prüfung, Qualifizierung und Wartungsannahmen. Eine Markenreferenz bezeichnet die ursprüngliche Spezifikation; die Kandidatenfreigabe bleibt einsatzbezogen.",
+            "links": [
+              {
+                "url": "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
+                "label": "FKM, FFKM, Kosten und Validierung vergleichen (Englisch)"
+              },
+              {
+                "url": "/materials/fkm",
+                "label": "FKM-Werkstoffbewertung"
+              },
+              {
+                "url": "/products/ffkm-replacement-seals",
+                "label": "FFKM-Ersatzteilbewertung"
+              }
+            ]
+          },
+          {
+            "heading": "Von der Musterbewertung zur Lieferspezifikation",
+            "body": "Nennen Sie Zeichnungsstand, Menge, Anlageneinsatz und erforderliche Musterberichte. Halten Sie Mischung, Teil und Mustercharge während der Bewertung zugeordnet. Vereinbaren Sie Freigabeverantwortung, Verpackung, Kennzeichnung und Änderungsprüfung vor Folgelieferungen. Rezepturunterstützung und Fertigungsabstimmung beginnen mit dem definierten Umfang. Prüfplanung und Materialverfügbarkeit werden projektspezifisch bestätigt.",
+            "links": [
+              {
+                "url": "/quality",
+                "label": "Qualitätsnachweise und Rückverfolgung"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Ein Bewertungsmuster besprechen"
+              }
+            ]
           }
         ],
         "cta": "FFKM-Anwendung besprechen",
@@ -2660,21 +2933,115 @@
       "RQ-PG-013": {
         "label": "FKM",
         "title": "FKM für industrielle Dichtungen | RubberQ",
-        "description": "FKM-Mischungen für industrielle Dichtungen. Besprechen Sie Kontaktmedien, Temperaturzyklen, Tieftemperaturverhalten und anwendungsbezogene Validierung.",
+        "description": "Spezifizieren Sie FKM nach Mischung, Medien, Temperaturverlauf und Dichtungsgeometrie. Prüfen Sie Sortenreferenzen, Musterberichte und Lieferanforderungen.",
         "h1": "FKM für industrielle Dichtungen",
         "intro": "Prüfen Sie FKM-Mischungen für eine definierte Medien- und Temperaturumgebung. Chemische Beständigkeit, Tieftemperaturverhalten und Rückstellvermögen hängen von Rezeptur und Anwendung ab.",
         "sections": [
           {
-            "heading": "Alle Kontaktmedien benennen",
-            "body": "Erfassen Sie Kraftstoff, Öl, Additive, Reinigungslösungen und Gemische. Die Werkstofffamilie allein belegt keine Eignung für die vollständige Abfolge der Medienkontakte."
+            "heading": "Die Mischung hinter der Werkstoffbezeichnung bestimmen",
+            "body": "FKM ist eine Werkstofffamilienbezeichnung. Viton™ ist eine Marke von Chemours für Fluorelastomere. Identifizieren Sie eine Markenreferenz anhand der Herstellerunterlagen und spezifizieren Sie die vorgeschlagene Mischung gesondert. Ein Markenname in einer Anfrage belegt weder RubberQ-Autorisierung noch Verfügbarkeit jeder Sorte oder Ersatzgleichwertigkeit.",
+            "links": [
+              {
+                "url": "https://www.viton.com/en/products/product-selection",
+                "label": "Viton™-Produktauswahl des Herstellers (Englisch)"
+              }
+            ]
           },
           {
-            "heading": "Temperatur und Bewegung prüfen",
-            "body": "Nennen Sie Dauer- und Spitzentemperatur, Kaltstart, Druck und Dichtungsbewegung. Ergänzen Sie die erwartete Verpressung und Montagebedingungen."
+            "heading": "Vollständige Spezifikationen vergleichen",
+            "body": "Nennen Sie vorhandene Sorte oder Materialangabe, geforderte Eigenschaften und realen Einsatz. Polymersorte, Vernetzungssystem und fertige Mischung gehören gemeinsam in die Bewertung. Der Fluorgehalt allein genügt nicht zur Freigabe.",
+            "table": {
+              "caption": "Angaben zur Bewertung von FKM-Sorte und Mischung",
+              "columns": [
+                "Angabe",
+                "Vergleichsdaten"
+              ],
+              "rows": [
+                [
+                  "Werkstoffreferenz",
+                  "Vollständige Originalsorte, Mischungscode, Spezifikation und Dokumentenstand"
+                ],
+                [
+                  "Rezepturkontext",
+                  "Verfügbare Angaben zu Polymer und Vernetzungssystem des Kandidaten"
+                ],
+                [
+                  "Medien",
+                  "Vollständiges Öl, Kraftstoff, Prozess- oder Reinigungsmedium samt Konzentration"
+                ],
+                [
+                  "Temperaturverlauf",
+                  "Kaltstart, Regeltemperatur, Spitzen, Halte- und Erholungsbedingungen"
+                ],
+                [
+                  "Dichtungsschnittstelle",
+                  "Zeichnung, Nut, Gegenfläche, Verpressung und Bewegung"
+                ],
+                [
+                  "Nachweise",
+                  "Probe, Vorbereitung, Vulkanisations- oder Temperzustand, Methode und Annahmegrenzen"
+                ],
+                [
+                  "Belieferung",
+                  "Bauteil oder Mischung, Menge, Chargenkennung und Änderungsanforderungen"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Spezifizieren und validieren",
-            "body": "Vereinbaren Sie Mischungsspezifikation und repräsentative Musterprüfung vor der Freigabe für Folgeaufträge. Nennen Sie bei Referenzwerkstoffen die genaue Sorte."
+            "heading": "Kälte und Medien gemeinsam bewerten",
+            "body": "Definieren Sie Starttemperatur und Temperatur bei Bewegung, nicht nur die höchste Betriebstemperatur. Nennen Sie den konkreten Kraftstoff, die Prozesschemikalie oder das Schmiermittel. Vergleichen Sie Kandidatenberichte unter relevanten Bedingungen und bestimmen Sie die notwendigen Baugruppenprüfungen.",
+            "items": [
+              "Probenzustand und Erholungsverfahren des Tieftemperaturergebnisses angeben.",
+              "Medienzusammensetzung, Einwirkdauer und Eigenschaftsänderungen dokumentieren.",
+              "Geforderte Dichtfunktion in der definierten Baugruppe prüfen."
+            ],
+            "links": [
+              {
+                "url": "/blog/low-temperature-retraction-tr-10-predicting-seal-failure-in-arctic-conditions",
+                "label": "Tieftemperatur-Rückstellwerte verstehen (Englisch)"
+              },
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Quellergebnisse in Flüssigkeiten lesen (Englisch)"
+              }
+            ]
+          },
+          {
+            "heading": "Werkstoffdaten von Bauteilannahme trennen",
+            "body": "Ein Probenbericht benötigt Mischungsidentität, Methode und Vorbereitung. Die fertige Dichtung braucht außerdem Maß-, Oberflächen- und Montagekriterien. Vereinbaren Sie die einsatzrelevante Frage zu Verformung oder Restkraft und vergleichen Sie Ergebnisse unter gleichen Bedingungen.",
+            "links": [
+              {
+                "url": "/blog/compression-set-failure-why-your-seal-lost-its-bounce",
+                "label": "Versagen durch Druckverformungsrest verstehen (Englisch)"
+              },
+              {
+                "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+                "label": "Eine ASTM-D2000-Materialangabe verwenden (Englisch)"
+              }
+            ]
+          },
+          {
+            "heading": "Muster- und Beschaffungsentscheidung vorbereiten",
+            "body": "Senden Sie Zeichnungsstand, Werkstoffreferenz, Menge und Bewertungsanforderungen. Benennen Sie bei einem Wechsel ursprüngliche Anforderung und Freigabeverantwortung vor Folgelieferungen. Besprechen Sie verfügbare Mischungen und Berichte anhand dieses Umfangs. Vereinbaren Sie Verpackung, Chargenunterlagen und Änderungsprüfung im Auftrag.",
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "O-Ringe und Gummidichtungen nach Zeichnung"
+              },
+              {
+                "url": "/materials/ffkm",
+                "label": "FFKM-Werkstoffbewertung"
+              },
+              {
+                "url": "/testing",
+                "label": "Prüfumfang und Berichte"
+              },
+              {
+                "url": "/quality",
+                "label": "Qualitätsnachweise für die Beschaffung"
+              }
+            ]
           }
         ],
         "cta": "FKM-Anwendung besprechen",
@@ -3244,7 +3611,7 @@
               },
               {
                 "url": "/blog/spc-in-rubber-molding-how-cpk-167-delivers-zero-defect-batches",
-                "label": "Angaben für eine Gummibauteil-Anfrage (Englisch)"
+                "label": "SPC und Prozessfähigkeit von Gummiteilen (Englisch)"
               },
               {
                 "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",

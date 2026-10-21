@@ -1,0 +1,78 @@
+{
+  "baseline_commit": "840b961504bec67dba63ef6378344405429e5c4a",
+  "checks": [
+    {
+      "locale": "en",
+      "pass": true,
+      "changed_page_ids": [
+        "RQ-PG-004",
+        "RQ-PG-007",
+        "RQ-PG-012",
+        "RQ-PG-013",
+        "RQ-PG-027"
+      ],
+      "new_modules": 4,
+      "quality_link_label_corrections": 1
+    },
+    {
+      "locale": "de",
+      "pass": true,
+      "changed_page_ids": [
+        "RQ-PG-004",
+        "RQ-PG-007",
+        "RQ-PG-012",
+        "RQ-PG-013",
+        "RQ-PG-027"
+      ],
+      "new_modules": 4,
+      "quality_link_label_corrections": 1
+    },
+    {
+      "locale": "ja",
+      "pass": true,
+      "changed_page_ids": [
+        "RQ-PG-004",
+        "RQ-PG-007",
+        "RQ-PG-012",
+        "RQ-PG-013",
+        "RQ-PG-027"
+      ],
+      "new_modules": 4,
+      "quality_link_label_corrections": 1
+    },
+    {
+      "locale": "es",
+      "pass": true,
+      "changed_page_ids": [
+        "RQ-PG-004",
+        "RQ-PG-007",
+        "RQ-PG-012",
+        "RQ-PG-013",
+        "RQ-PG-027"
+      ],
+      "new_modules": 4,
+      "quality_link_label_corrections": 1
+    },
+    {
+      "locale": "zh",
+      "pass": true,
+      "changed_page_ids": [
+        "RQ-PG-004",
+        "RQ-PG-007",
+        "RQ-PG-012",
+        "RQ-PG-013",
+        "RQ-PG-027"
+      ],
+      "new_modules": 4,
+      "quality_link_label_corrections": 1
+    }
+  ],
+  "preexisting_file_hashes_unchanged": true,
+  "package_checks": {
+    "passed": 27,
+    "total": 27
+  },
+  "module_receipt_matches_current_sources": true,
+  "final_review": "not_started",
+  "production_deployments": 0
+}

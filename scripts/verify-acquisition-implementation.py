@@ -95,6 +95,8 @@ def main():
     ids={p['id'] for p in pages}; urls={p['url'] for p in pages}
     drafts=read('docs/2026-10-21-全站规划落实/content-revisions/manifest.json')
     article_urls={x['url'] for x in drafts['drafts']}
+    references=read('docs/2026-10-21-全站规划落实/reviews/primary-references.json')
+    reference_urls={x['url'] for x in references['references'] if x['url'].startswith('https://')}
     reference=key_paths(messages['en']['acquisition'])
     for locale,m in messages.items():
         acq=m['acquisition']; localerrors=[]
@@ -119,7 +121,7 @@ def main():
                     if len(section.get(field,[]))!=len(ensection.get(field,[])):localerrors.append(label+' '+field+' parity')
                 if 'items' in section and (not section['items'] or not all(isinstance(x,str) and x.strip() for x in section['items'])):localerrors.append(label+' empty list')
                 for link in section.get('links',[]):
-                    if not link.get('label') or link.get('url') not in urls|article_urls:localerrors.append(label+' invalid contextual link')
+                    if not link.get('label') or link.get('url') not in urls|article_urls|reference_urls:localerrors.append(label+' invalid contextual link')
                 if 'table' in section:
                     table=section['table'];columns=table.get('columns',[]);rows=table.get('rows',[])
                     if not table.get('caption') or len(columns)<2 or not rows or not all(len(row)==len(columns) for row in rows):localerrors.append(label+' table shape')
@@ -157,8 +159,8 @@ def main():
                 for item in s.get('items',[]):
                     if not any(e['tag']=='li' and e['text']==normalize(item) for e in doc.elements):issues.append('missing list item '+s['heading'])
                 for link in s.get('links',[]):
-                    blog=link['url'].startswith('/blog/');href=link['url'] if blog else localized(locale,link['url'])
-                    if not any(e['tag']=='a' and e['attrs'].get('href')==href and e['attrs'].get('hreflang')==('en' if blog else locale) and e['text']==normalize(link['label']+' ↗') for e in doc.elements):issues.append('contextual link '+link['url'])
+                    english=link['url'].startswith(('/blog/','https://'));href=link['url'] if english else localized(locale,link['url'])
+                    if not any(e['tag']=='a' and e['attrs'].get('href')==href and e['attrs'].get('hreflang')==('en' if english else locale) and e['text']==normalize(link['label']+' ↗') for e in doc.elements):issues.append('contextual link '+link['url'])
                 if 'table' in s:
                     table=s['table'];matches=[t for t in doc.tables if t['caption']==normalize(table['caption'])]
                     expected_rows=[table['columns']]+table['rows']

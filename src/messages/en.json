@@ -2343,21 +2343,115 @@
       "RQ-PG-004": {
         "label": "O-Rings & Seals",
         "title": "O-Rings and Custom Rubber Seals | RubberQ",
-        "description": "Discuss O-rings and sealing profiles for your assembly. Material, groove dimensions, motion, pressure and service medium guide the review, from a reference.",
+        "description": "Source O-rings and custom rubber seals with drawing, material, groove and operating requirements. Discuss inspection, samples and repeat manufacturing.",
         "h1": "O-Rings and Custom Rubber Seals",
         "intro": "Discuss O-rings and sealing profiles for your assembly. Material, groove dimensions, motion, pressure and service medium guide the review, from a reference size to a custom molded seal.",
         "sections": [
           {
-            "heading": "Define the sealing interface",
-            "body": "Send the seal drawing and, where available, groove and mating-part dimensions. Identify static or dynamic operation, pressure direction, installation method and permissible flash."
+            "heading": "Start with the seal and the mating parts",
+            "body": "For a standard-size O-ring, provide the size designation and its referenced system. For a custom seal, share the section drawing and mating geometry. RubberQ reviews the compound, molding and inspection requirements together, including small precision parts whose handling and assembly need particular attention."
           },
           {
-            "heading": "Select a material for the actual exposure",
-            "body": "Compare FKM, FFKM, EPDM, HNBR, NBR and silicone families with the fluid, temperature cycle and mechanical requirements. A polymer family alone does not define a qualified compound."
+            "heading": "Prepare the drawing and supply requirements",
+            "body": "The installed interface defines more than the free dimensions of the seal. Include the current drawing revision and identify the characteristics that control assembly or function.",
+            "table": {
+              "caption": "Information for an O-ring or custom seal enquiry",
+              "columns": [
+                "Input",
+                "What to specify"
+              ],
+              "rows": [
+                [
+                  "Geometry",
+                  "Inside diameter, cross-section or full profile, tolerances and drawing revision"
+                ],
+                [
+                  "Interface",
+                  "Groove, mating gap, surface condition and assembly method"
+                ],
+                [
+                  "Duty",
+                  "Static, reciprocating or rotating service; stroke or speed where relevant"
+                ],
+                [
+                  "Material",
+                  "Compound reference or required properties, hardness method and contact media"
+                ],
+                [
+                  "Supply",
+                  "Sample and production quantities, delivery pattern, packaging and lot records"
+                ],
+                [
+                  "Acceptance",
+                  "Dimensional and visual criteria, sampling and assembly checks"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/resources/o-ring-size-guide",
+                "label": "O-ring dimensions and groove inputs"
+              },
+              {
+                "url": "/blog/groove-design-calculating-percentage-fill-and-squeeze-for-o-rings",
+                "label": "Groove fill and seal squeeze"
+              }
+            ]
           },
           {
-            "heading": "Agree how the part will be checked",
-            "body": "Specify the dimension reference, tolerances, surface requirements and acceptance method. Samples help connect the drawing to the assembled seal before repeat supply."
+            "heading": "Identify the actual seal construction",
+            "body": "A square-section ring, X-profile, joined ring, encapsulated ring and rubber-to-metal part describe different constructions. Send a drawing or clear reference rather than relying on a product name. Construction-specific manufacturability and supply need review. For bulk orders, distinguish finished seals from uncured compound supply.",
+            "links": [
+              {
+                "url": "/products/rubber-to-metal-bonded-parts",
+                "label": "Rubber-to-metal component requirements"
+              },
+              {
+                "url": "/compounds",
+                "label": "Compounded-rubber supply"
+              }
+            ]
+          },
+          {
+            "heading": "Describe pressure, temperature and media together",
+            "body": "Include pressure peaks and changes, extrusion gaps and support, temperature limits and dwell periods. Hardness alone does not determine pressure capability. Identify the complete working fluid and cleaning sequence: coolant, dye solution, water treatment chemicals or a specific ATF need their actual composition and exposure history. For a liquid-cooling quick connector, describe connection actions, installation and the assembled leak check. For prolonged static pressure or high-temperature service, specify the exposure duration, retained-force or leakage criterion and the evidence required for the intended maintenance interval.",
+            "links": [
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Interpreting fluid-swell tests"
+              },
+              {
+                "url": "/blog/stress-relaxation-how-it-differs-from-compression-set",
+                "label": "Compression set and retained sealing force"
+              }
+            ]
+          },
+          {
+            "heading": "Define movement, friction and contamination",
+            "body": "Provide the counterface, lubrication, load, speed, temperature and standing time for a dynamic seal. State whether the concern is linear starting force, running friction or rotary torque. For dust exclusion, include rod diameter, lip interface, stroke and the actual contamination. Agree the measurement and component trial rather than selecting a compound from one friction figure.",
+            "items": [
+              "Record the conditions before a start or restart.",
+              "Evaluate the movement and lubricant representative of the application.",
+              "Compare the observed result with an agreed functional criterion."
+            ]
+          },
+          {
+            "heading": "Agree inspection and sample approval",
+            "body": "For miniature seals, discuss measurement support, sampling, handling, packaging and fit in the actual assembly. Identify the compound and sample lot in reports. Agree which characteristics are checked, by what method and at what frequency before repeat supply; an enquiry for a small part does not establish a universal minimum size or all-piece inspection.",
+            "links": [
+              {
+                "url": "/blog/iso-3601-3-visual-inspection-standards-for-o-rings-what-is-acceptable",
+                "label": "Visual acceptance for O-rings"
+              },
+              {
+                "url": "/blog/measurement-system-analysis-msa-ensuring-gage-rr-in-rubber-testing",
+                "label": "Measurement-system evaluation"
+              },
+              {
+                "url": "/products/ffkm-replacement-seals",
+                "label": "FFKM replacement evaluation"
+              }
+            ]
           }
         ],
         "cta": "Request an O-Ring Quote",
@@ -2421,21 +2515,111 @@
       "RQ-PG-007": {
         "label": "Custom Molded Parts",
         "title": "Custom Molded Rubber Parts | RubberQ",
-        "description": "Turn a drawing or functional requirement into a rubber component development discussion. RubberQ reviews compound selection, geometry, tooling and.",
+        "description": "Develop custom molded rubber parts from drawings and service requirements. Review compounds, tooling, critical dimensions, sample approval and batch records.",
         "h1": "Custom Molded Rubber Parts",
         "intro": "Turn a drawing or functional requirement into a rubber component development discussion. RubberQ reviews compound selection, geometry, tooling and inspection as a connected manufacturing task.",
         "sections": [
           {
-            "heading": "Make the drawing work for rubber",
-            "body": "Identify critical dimensions and assembly features. Review parting lines, flash limits, draft, wall sections and features that may be affected by molding and shrinkage."
+            "heading": "Connect the drawing to the manufacturing task",
+            "body": "Bring a current drawing, reference part or functional requirement. RubberQ reviews formulation support, mixing, molding, testing and traceability as a connected project. Describe the purpose of the part and its interfaces so material and geometry decisions address the same requirement."
           },
           {
-            "heading": "Choose the process around the part",
-            "body": "Part geometry, compound, insert requirements and order volume guide the molding route. Tooling and sampling requirements are discussed after the technical review."
+            "heading": "Prepare the information for an engineering quotation",
+            "body": "Separate fixed requirements from features that can be discussed. If the drawing is still developing, identify the unresolved dimensions, material requirements and assembly constraints.",
+            "table": {
+              "caption": "Inputs for a custom molded rubber part",
+              "columns": [
+                "Input",
+                "Information to include"
+              ],
+              "rows": [
+                [
+                  "Design",
+                  "Drawing revision, 3D file if available, interfaces and reference samples"
+                ],
+                [
+                  "Service",
+                  "Media, temperature history, movement, loads and cleaning"
+                ],
+                [
+                  "Material",
+                  "Existing compound or required properties and applicable specification"
+                ],
+                [
+                  "Critical features",
+                  "Functional dimensions, datums, surface condition and inspection method"
+                ],
+                [
+                  "Tooling",
+                  "Parting-line constraints, inserts, permitted changes and tooling responsibilities"
+                ],
+                [
+                  "Supply",
+                  "Sample and production quantities, order pattern, packaging and required records"
+                ],
+                [
+                  "Approval",
+                  "Sample tests, dimensional report, assembly trial and decision responsibilities"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
+                "label": "Preparing a compound-development request"
+              },
+              {
+                "url": "/capabilities/rubber-molding",
+                "label": "Molding process review"
+              }
+            ]
           },
           {
-            "heading": "Prepare for repeat production",
-            "body": "Include drawing revision, forecast demand, inspection requirements and packaging. Agree how approved samples, compound identification and production records will be maintained."
+            "heading": "Agree tooling and dimensional acceptance",
+            "body": "Review the parting line, insert location and finishing needs before the tooling decision. Define mold ownership, maintenance responsibilities and how drawing changes affect samples and approval. A tolerance needs a feature, measurement datum and agreed part condition; include demolding, finishing and conditioning where they affect the result.",
+            "items": [
+              "Mark functional dimensions and the support or datum used for measurement.",
+              "Specify acceptable flash, edge condition and insert alignment where relevant.",
+              "Measure identified samples in the agreed state before approving repeat production."
+            ],
+            "links": [
+              {
+                "url": "/blog/flash-on-molded-parts-defining-flash-free-and-its-cost-implications",
+                "label": "Defining flash acceptance"
+              },
+              {
+                "url": "/blog/cryogenic-deflashing-vs-manual-trimming-precision-rubber-parts",
+                "label": "Choosing a deflashing approach"
+              }
+            ]
+          },
+          {
+            "heading": "Evaluate appearance and function separately",
+            "body": "For colored parts, provide the color designation and a physical reference where available. Agree the material, surface finish, viewing light and color-difference method before signing a sample; a color code alone is not a universal match criterion. For sleeves, plugs or vibration parts, identify installation, load, motion and the assembly measurement required. Color approval and functional approval need their own criteria.",
+            "links": [
+              {
+                "url": "/blog/vibration-damping-mounts-dynamic-stiffness-humanoid-robot-actuators",
+                "label": "Dynamic stiffness and vibration evaluation"
+              }
+            ]
+          },
+          {
+            "heading": "Carry the approved sample into repeat supply",
+            "body": "Link the approved drawing, compound, inspection criteria and sample result before confirming recurring orders. Agree required batch identification, release records, packaging and change notifications. If a customer submission is required, define its scope with the order. Tooling cost, development sequence and delivery timing follow the defined project.",
+            "links": [
+              {
+                "url": "/blog/ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+                "label": "PPAP and customer sample submissions"
+              },
+              {
+                "url": "/quality",
+                "label": "Quality records and change control"
+              },
+              {
+                "url": "/testing",
+                "label": "Material and part evaluation"
+              }
+            ]
           }
         ],
         "cta": "Send a Custom Part RFQ",
@@ -2609,21 +2793,110 @@
       "RQ-PG-012": {
         "label": "FFKM",
         "title": "FFKM Materials for Demanding Sealing Conditions | RubberQ",
-        "description": "Where service chemistry and temperature challenge other elastomers, FFKM is a candidate family for sealing evaluation. The formulation and actual process.",
+        "description": "Evaluate FFKM using compound identification, process exposure, seal geometry and sample tests. Define material specifications and approval requirements.",
         "h1": "FFKM Materials for Demanding Sealing Conditions",
         "intro": "Where service chemistry and temperature challenge other elastomers, FFKM is a candidate family for sealing evaluation. The formulation and actual process conditions determine the testing needed.",
         "sections": [
           {
-            "heading": "Specify the process exposure",
-            "body": "List process gases or liquids, cleaning steps, temperature cycles, vacuum conditions and the seal location. Include any cleanliness or contamination requirements."
+            "heading": "Specify the duty before selecting FFKM",
+            "body": "FFKM identifies a perfluoroelastomer family; a purchasing specification needs an identified compound and part. Describe why the present seal is being reviewed and what the candidate must demonstrate. Compare requirements for chemical exposure, temperature, compression and equipment function without treating one family name as a complete specification."
           },
           {
-            "heading": "Review a compound, not only a family",
-            "body": "Discuss hardness, physical properties and the tests relevant to your equipment. Purity, outgassing and plasma behaviour require formulation-specific evidence."
+            "heading": "Build the material and part requirement",
+            "body": "Use the actual exposure at the seal position, including cleaning and changes between process steps. Record operating limits and excursions separately.",
+            "table": {
+              "caption": "Inputs for an FFKM material review",
+              "columns": [
+                "Requirement",
+                "Information for the evaluation"
+              ],
+              "rows": [
+                [
+                  "Identification",
+                  "Existing compound or original grade, specification revision and traceable reference"
+                ],
+                [
+                  "Part",
+                  "Drawing, cross-section, groove, mating surfaces and installation"
+                ],
+                [
+                  "Exposure",
+                  "Gas or fluid composition, concentrations, cleaning and process sequence"
+                ],
+                [
+                  "Thermal and mechanical duty",
+                  "Temperature history, pressure or vacuum, compression and movement"
+                ],
+                [
+                  "Process-sensitive outputs",
+                  "Required erosion, particles, outgassing, extractables or leakage evaluation"
+                ],
+                [
+                  "Approval",
+                  "Sample identification, test conditions, criteria and responsible equipment team"
+                ]
+              ]
+            },
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "Seal geometry and supply requirements"
+              },
+              {
+                "url": "/testing",
+                "label": "Material, part and assembly tests"
+              }
+            ]
           },
           {
-            "heading": "Connect selection to the seal",
-            "body": "Use the drawing, gland and assembly conditions to plan samples. For equipment maintenance, compare the existing specification before considering a supply change."
+            "heading": "Separate the evidence for each process concern",
+            "body": "A plasma exposure result, an outgassing report, an extractables measurement and an assembly leak test answer different questions. Agree which outputs your process requires and the method and sample conditions for each. Compare the proposed compound and part on that basis; evidence for another formulation or process location needs its own relevance review.",
+            "links": [
+              {
+                "url": "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+                "label": "Defining plasma-seal evaluation conditions"
+              },
+              {
+                "url": "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing",
+                "label": "Reading vacuum-outgassing evidence"
+              },
+              {
+                "url": "/blog/permeation-vs-leakage-understanding-the-difference-in-gas-systems",
+                "label": "Permeation and leakage as separate tasks"
+              }
+            ]
+          },
+          {
+            "heading": "Compare candidates against the same decision",
+            "body": "Set the required evidence before comparing FFKM with an FKM candidate or an existing branded seal. Include the cost of the part, inspection, qualification and maintenance assumptions in a purchasing comparison. A branded reference identifies an original specification; approval of the candidate still depends on the application.",
+            "links": [
+              {
+                "url": "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
+                "label": "Comparing FKM, FFKM, cost and validation"
+              },
+              {
+                "url": "/materials/fkm",
+                "label": "FKM material review"
+              },
+              {
+                "url": "/products/ffkm-replacement-seals",
+                "label": "Reviewing an FFKM replacement"
+              }
+            ]
+          },
+          {
+            "heading": "Move from sample evaluation to an agreed supply specification",
+            "body": "Provide drawing revision, quantity, intended equipment duty and the reports needed with samples. Keep compound, part and sample lot linked through evaluation. Agree approval responsibility, packaging, identification and change review before recurring supply. Formulation support and manufacturing discussion begin with the defined scope; specific test arrangements and material availability are confirmed for the project.",
+            "links": [
+              {
+                "url": "/quality",
+                "label": "Quality records and traceability"
+              },
+              {
+                "url": "/sample-request",
+                "label": "Discuss an evaluation sample"
+              }
+            ]
           }
         ],
         "cta": "Review an FFKM Application",
@@ -2632,21 +2905,115 @@
       "RQ-PG-013": {
         "label": "FKM",
         "title": "FKM Materials for Industrial Seals | RubberQ",
-        "description": "Review FKM compounds for a specified fluid and temperature environment. Chemical compatibility, low-temperature behaviour and compression recovery depend on.",
+        "description": "Specify FKM rubber by compound, fluid exposure, temperature history and seal geometry. Review grade references, sample evidence and supply requirements.",
         "h1": "FKM Materials for Industrial Seals",
         "intro": "Review FKM compounds for a specified fluid and temperature environment. Chemical compatibility, low-temperature behaviour and compression recovery depend on the formulation and application.",
         "sections": [
           {
-            "heading": "Describe every fluid",
-            "body": "Include fuel, oil, additives, cleaning solutions and mixtures. Material family names alone do not establish suitability for the full exposure sequence."
+            "heading": "Identify the compound behind the material name",
+            "body": "FKM is a material-family designation. Viton™ is a Chemours trademark for fluoroelastomers. Use the manufacturer’s grade documentation to identify a branded reference; specify the proposed compound separately. A brand name in an enquiry does not establish RubberQ authorization, availability of every grade or replacement equivalence.",
+            "links": [
+              {
+                "url": "https://www.viton.com/en/products/product-selection",
+                "label": "Viton™ manufacturer product-selection reference"
+              }
+            ]
           },
           {
-            "heading": "Review temperature and movement",
-            "body": "Provide continuous and peak temperatures, cold-start conditions, pressure and seal motion. Include the expected compression and installation requirements."
+            "heading": "Compare complete specifications",
+            "body": "Share the existing grade or material callout, the required properties and the actual duty. Polymer grade, cure system and the finished compound all belong in the review. A fluorine-content figure alone is insufficient for approval.",
+            "table": {
+              "caption": "Information for an FKM grade and compound review",
+              "columns": [
+                "Input",
+                "Details to compare"
+              ],
+              "rows": [
+                [
+                  "Material reference",
+                  "Full original grade, compound code, specification and document revision"
+                ],
+                [
+                  "Formulation context",
+                  "Polymer and cure-system information available for the candidate"
+                ],
+                [
+                  "Media",
+                  "Complete oil, fuel, chemical or cleaning fluid and its concentration"
+                ],
+                [
+                  "Thermal history",
+                  "Cold start, normal temperature, peaks, dwell and recovery conditions"
+                ],
+                [
+                  "Seal interface",
+                  "Drawing, groove, mating surface, compression and motion"
+                ],
+                [
+                  "Evidence",
+                  "Specimen, preparation, cure or post-cure state, method and acceptance limits"
+                ],
+                [
+                  "Supply",
+                  "Part or compound form, quantity, lot identification and change requirements"
+                ]
+              ]
+            }
           },
           {
-            "heading": "Specify and validate",
-            "body": "Agree the compound specification and a representative sample test before approving repeat supply. If an existing designation is referenced, include its exact grade."
+            "heading": "Evaluate cold conditions and media together",
+            "body": "Define the temperature at startup and during motion, not only the highest operating temperature. Provide a specific fuel, process chemical or lubricant rather than a general fluid category. Compare candidate reports under relevant conditions and identify the assembly checks needed.",
+            "items": [
+              "State the sample condition and recovery method for a low-temperature result.",
+              "Record fluid composition, exposure time and measured property changes.",
+              "Verify the required sealing function in the defined assembly."
+            ],
+            "links": [
+              {
+                "url": "/blog/low-temperature-retraction-tr-10-predicting-seal-failure-in-arctic-conditions",
+                "label": "Interpreting low-temperature retraction data"
+              },
+              {
+                "url": "/blog/oil-swell-percentages-correlating-laboratory-data-with-real-world-performance",
+                "label": "Reading fluid-swell results"
+              }
+            ]
+          },
+          {
+            "heading": "Separate material data from part acceptance",
+            "body": "A specimen report needs its compound identity, method and preparation. A finished seal also needs dimensional, surface and assembly criteria. Agree which compression or retained-force question matters to the duty, and compare results using the same conditions.",
+            "links": [
+              {
+                "url": "/blog/compression-set-failure-why-your-seal-lost-its-bounce",
+                "label": "Interpreting compression-set failure"
+              },
+              {
+                "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
+                "label": "Using an ASTM D2000 material callout"
+              }
+            ]
+          },
+          {
+            "heading": "Prepare the sample and purchasing decision",
+            "body": "Send the drawing revision, material reference, quantity and evaluation requirements. For a candidate change, identify the original requirement and approval responsibility before regular supply. Discuss available compound options and required reports against that scope; agree packaging, lot records and change review with the order.",
+            "links": [
+              {
+                "url": "/products/seals",
+                "label": "O-rings and custom rubber seals"
+              },
+              {
+                "url": "/materials/ffkm",
+                "label": "FFKM material review"
+              },
+              {
+                "url": "/testing",
+                "label": "Test scope and reporting"
+              },
+              {
+                "url": "/quality",
+                "label": "Quality records for purchasing"
+              }
+            ]
           }
         ],
         "cta": "Review an FKM Application",
@@ -3216,7 +3583,7 @@
               },
               {
                 "url": "/blog/spc-in-rubber-molding-how-cpk-167-delivers-zero-defect-batches",
-                "label": "What to include in a rubber component RFQ"
+                "label": "SPC and process capability for rubber parts"
               },
               {
                 "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",

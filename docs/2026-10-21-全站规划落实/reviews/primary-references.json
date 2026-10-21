@@ -373,6 +373,17 @@
       "publisher": "Leybold",
       "read_scope": "公开技术定义，区分缺陷泄漏/材料透过和量测任务；不推荐设备、不借用厂家检测下限。",
       "checked_on": "2026-10-21"
+    },
+    {
+      "id": "VITON-OFFICIAL-SELECTION",
+      "title": "Viton™ Product Selection Guide",
+      "url": "https://www.viton.com/en/products/product-selection",
+      "publisher": "The Chemours Company",
+      "read_scope": "Public material-family selection introduction and trademark footer; source lines167–177 and235 read on2026-10-21",
+      "use": "FKM家族称谓与Viton品牌关系的原厂出处，具体牌号文件用于识别原规格；不复制牌号数值、不证明RubberQ授权、供货或等效性。",
+      "checked_on": "2026-10-21",
+      "material_role": "original_brand_definition",
+      "public_use": "manufacturer reference link with English language label"
     }
   ],
   "paid_access": false

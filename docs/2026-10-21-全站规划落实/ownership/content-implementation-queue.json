@@ -143,8 +143,9 @@
           "required_updates": "与263/221/Viton资料整合归属，保留原URL记录，不把单复数和未来日期当新增独立需求。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/materials/nbr",
@@ -576,8 +577,9 @@
           "required_updates": "先用图纸确定结构，区分接合圈、橡胶金属复合或客户其它定义；与橡胶金属页按实际任务连接，不凭词名推能力。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/products/rubber-to-metal-bonded-parts",
@@ -2286,8 +2288,9 @@
           "required_updates": "先明确工业OEM任务与图纸，供货条件按项目确认，不默认等同零售瓶塞或食品/医用资质。"
         }
       ],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/products/diaphragms",
@@ -2813,8 +2816,9 @@
         }
       ],
       "buyer_jobs": [],
-      "implementation_status": "content_and_links_pending",
-      "coverage_verified": false
+      "implementation_status": "local_modules_render_checks_passed_final_review_pending",
+      "coverage_verified": false,
+      "implementation_evidence": "ownership/page-content-modules.json"
     },
     {
       "target_url": "/compounds",

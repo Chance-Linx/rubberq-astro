@@ -1,0 +1,19 @@
+{
+  "scope": "Representative desktop views only; not mobile completeness or production release",
+  "checks": [
+    {
+      "path": "/products/seals",
+      "observation": "Six sections, enquiry table, media/pressure/history and inspection tasks visible; screenshot saved",
+      "screenshot": "evidence/seal-product-module-en.png"
+    },
+    {
+      "path": "/ja/materials/fkm",
+      "observation": "Japanese material table, five sections, English manufacturer source and English article labels visible; source link targets https://www.viton.com/en/products/product-selection without a locale prefix"
+    },
+    {
+      "path": "/de/products/custom",
+      "observation": "Five German sections, tooling table and color/sample acceptance conditions visible"
+    }
+  ],
+  "form_submissions": 0
+}
