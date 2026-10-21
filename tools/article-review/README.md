@@ -21,3 +21,13 @@ node --test scripts/test-article-content.mjs scripts/test-article-presentation.m
 ```
 
 以上检查不计作全项目集中审核、文章覆盖验收、CMS写入或上线。博客列表等专用页的进一步落实单列在执行台账。
+
+
+## 博客列表与搜索接续
+
+专用端口的 `/blog` 使用同一个 `BlogIndex.astro` 展示27篇本地稿，支持真实分类和每页12篇的分页；`/__review` 仍是逐图对照与文章入口。五语种 `/search` 在此端口将本地稿与真实页面内容一起检索。普通开发/生产配置继续从CMS读取文章，不会导入本地修订稿。
+
+```bash
+python3 scripts/verify-discovery-implementation.py
+node --test scripts/test-content-discovery.mjs
+```

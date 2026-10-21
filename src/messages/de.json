@@ -60,7 +60,7 @@
     },
     "privacy": {
       "title": "Datenschutzerklärung | RubberQ",
-      "description": "Wie RubberQ Ihre Geschäftsdaten sammelt, verwendet und schützt."
+      "description": "Erfahren Sie, wie RubberQ Kontaktdaten, Anfragen und technische Dateien dieser Website verarbeitet und wie Sie uns bei Fragen zu Ihren Daten erreichen."
     },
     "quality": {
       "title": "Qualitätssicherung | RubberQ",
@@ -75,8 +75,8 @@
       "description": "Umfassender Leitfaden zur Einhaltung von ASTM D2000, SAE J200, RoHS, REACH."
     },
     "terms": {
-      "title": "Terms of Service | RubberQ",
-      "description": "Terms and conditions for RubberQ website and manufacturing services."
+      "title": "Nutzungsbedingungen | RubberQ",
+      "description": "Lesen Sie die RubberQ-Nutzungsbedingungen zu technischen Inhalten, geistigem Eigentum, Angeboten und Bestellungen sowie die Kontaktinformationen."
     },
     "about": {
       "title": "Unser Erbe | RubberQ",
@@ -6739,5 +6739,35 @@
       "search": "RubberQ durchsuchen",
       "sitemap": "Sitemap"
     }
+  },
+  "search": {
+    "inputLabel": "RubberQ durchsuchen",
+    "button": "Suchen",
+    "placeholder": "Werkstoff, Bauteil, Verfahren oder technische Frage",
+    "initial": "Suchen Sie nach Werkstoff, Bauteilart, Fertigungsverfahren oder einer technischen Frage.",
+    "empty": "Keine passenden Seiten oder Artikel gefunden. Versuchen Sie einen Werkstoffnamen oder einen kürzeren Suchbegriff.",
+    "results": "{count} Ergebnisse für „{query}“",
+    "pageLabel": "Webseite",
+    "articleLabel": "Englischer Artikel",
+    "pagination": "Suchergebnisseiten",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "pageCount": "Seite {page} von {total}",
+    "tooLong": "Verwenden Sie höchstens 160 Zeichen.",
+    "contact": "Bauteilanforderungen besprechen",
+    "resources": "Technische Ressourcen ansehen"
+  },
+  "blogListing": {
+    "all": "Alle Artikel",
+    "categoryLabel": "Artikelkategorien",
+    "pagination": "Artikelseiten",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "pageCount": "Seite {page} von {total}",
+    "count": "{count} Artikel",
+    "empty": "Keine Artikel in dieser Kategorie. Alle Artikel und technische Ressourcen stehen Ihnen zur Verfügung.",
+    "resources": "Technische Ressourcen",
+    "contact": "Bauteilanforderungen besprechen",
+    "pageSuffix": "Seite {page}"
   }
 }

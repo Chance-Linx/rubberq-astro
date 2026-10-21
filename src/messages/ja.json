@@ -60,7 +60,7 @@
     },
     "privacy": {
       "title": "プライバシーポリシー | RubberQ",
-      "description": "RubberQがお客様のビジネスデータを収集、使用、保護する方法。"
+      "description": "RubberQのウェブサイトで送信される業務連絡先、見積依頼、技術ファイルの取り扱いと、データに関するお問い合わせ先をご確認ください。"
     },
     "quality": {
       "title": "品質保証 | RubberQ",
@@ -75,8 +75,8 @@
       "description": "ASTM D2000、SAE J200、RoHS、REACHコンプライアンスへの包括的ガイド。"
     },
     "terms": {
-      "title": "Terms of Service | RubberQ",
-      "description": "Terms and conditions for RubberQ website and manufacturing services."
+      "title": "利用規約 | RubberQ",
+      "description": "技術情報、知的財産、見積もり、注文に関するRubberQウェブサイトの利用条件と、お問い合わせ先をご確認ください。"
     },
     "about": {
       "title": "私たちの歴史 | RubberQ",
@@ -6739,5 +6739,35 @@
         "faq": []
       }
     }
+  },
+  "search": {
+    "inputLabel": "RubberQ内を検索",
+    "button": "検索",
+    "placeholder": "材料、部品、製造工程、技術的な質問",
+    "initial": "材料名、部品の種類、製造工程、技術的な質問で検索できます。",
+    "empty": "該当するページや記事が見つかりませんでした。材料名や短い語句で検索してください。",
+    "results": "「{query}」の検索結果：{count}件",
+    "pageLabel": "ウェブページ",
+    "articleLabel": "英語記事",
+    "pagination": "検索結果のページ",
+    "previous": "前へ",
+    "next": "次へ",
+    "pageCount": "{page} / {total} ページ",
+    "tooLong": "160文字以内で入力してください。",
+    "contact": "部品の要件を相談する",
+    "resources": "技術資料を見る"
+  },
+  "blogListing": {
+    "all": "すべての記事",
+    "categoryLabel": "記事のカテゴリー",
+    "pagination": "記事のページ",
+    "previous": "前へ",
+    "next": "次へ",
+    "pageCount": "{page} / {total} ページ",
+    "count": "{count}件の記事",
+    "empty": "このカテゴリーに該当する記事がありません。すべての記事や技術資料をご覧ください。",
+    "resources": "技術資料",
+    "contact": "部品の要件を相談する",
+    "pageSuffix": "{page}ページ目"
   }
 }

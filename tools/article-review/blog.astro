@@ -1,0 +1,9 @@
+---
+import BlogIndex from '../../src/components/blog/BlogIndex.astro';
+import { records } from './records';
+Astro.response.headers.set('X-Robots-Tag', 'noindex, nofollow, noarchive');
+Astro.response.headers.set('Cache-Control', 'no-store');
+---
+<BlogIndex posts={records.map(record => record.post)}>
+  {!Astro.url.searchParams.get("category") && <meta slot="head" name="robots" content="noindex,nofollow,noarchive" />}
+</BlogIndex>

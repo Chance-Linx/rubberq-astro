@@ -1,5 +1,7 @@
 ---
 import LocaleLayout from '@/layouts/LocaleLayout.astro';
+import JsonLd from '@/components/JsonLd';
+import { createLocaleAlternates } from '@/lib/seoMetadata';
 import { getTranslations, t } from '@/lib/i18n';
 
 export function getStaticPaths() {
@@ -9,6 +11,7 @@ export function getStaticPaths() {
 const { locale = 'en' } = Astro.params;
 const messages = await getTranslations(locale);
 const meta = messages?.metadata || {};
+const canonical = createLocaleAlternates(locale, '/terms').canonical;
 const _ = (key: string, fallback = '') => t(messages, `termsPage.${key}`, fallback);
 ---
 
@@ -16,9 +19,14 @@ const _ = (key: string, fallback = '') => t(messages, `termsPage.${key}`, fallba
   <Fragment slot="head">
     <title>{meta.terms?.title || 'Terms of Service | RubberQ'}</title>
     <meta name="description" content={meta.terms?.description || ''} />
+    <meta property="og:title" content={meta.terms?.title} /><meta property="og:description" content={meta.terms?.description} />
+    <meta property="og:url" content={canonical} /><meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" /><meta name="twitter:title" content={meta.terms?.title} />
+    <meta name="twitter:description" content={meta.terms?.description} />
+    <JsonLd data={{ '@context':'https://schema.org', '@type':'WebPage', name:meta.terms?.title, description:meta.terms?.description, url:canonical, inLanguage:locale }} />
   </Fragment>
 
-  <div class="bg-white min-h-screen">
+  <div class="bg-white min-h-screen hyphens-auto [overflow-wrap:anywhere]">
     <!-- Header -->
     <section class="bg-industrial-900 text-white py-20 px-4">
       <div class="max-w-4xl mx-auto">
@@ -29,14 +37,14 @@ const _ = (key: string, fallback = '') => t(messages, `termsPage.${key}`, fallba
 
     <!-- Content -->
     <section class="py-16 px-4">
-      <div class="max-w-4xl mx-auto prose prose-industrial max-w-none">
+      <div class="max-w-4xl mx-auto prose prose-industrial">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           <div class="flex gap-4 p-6 border border-industrial-100 bg-industrial-50">
             <svg class="w-10 h-10 text-accent-orange shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <polyline points="4 17 10 11 4 5"/>
               <line x1="12" y1="19" x2="20" y2="19"/>
             </svg>
-            <div>
+            <div class="min-w-0">
               <h3 class="font-bold uppercase mb-2">{_('cards.legalBinding.title')}</h3>
               <p class="text-sm text-industrial-600">{_('cards.legalBinding.description')}</p>
             </div>
@@ -47,7 +55,7 @@ const _ = (key: string, fallback = '') => t(messages, `termsPage.${key}`, fallba
               <line x1="12" y1="9" x2="12" y2="13"/>
               <line x1="12" y1="17" x2="12.01" y2="17"/>
             </svg>
-            <div>
+            <div class="min-w-0">
               <h3 class="font-bold uppercase mb-2">{_('cards.technicalDisclaimer.title')}</h3>
               <p class="text-sm text-industrial-600">{_('cards.technicalDisclaimer.description')}</p>
             </div>
@@ -83,7 +91,7 @@ const _ = (key: string, fallback = '') => t(messages, `termsPage.${key}`, fallba
 
           <section>
             <h2 class="text-2xl font-bold border-b border-industrial-200 pb-2 mb-4 uppercase tracking-wide">{_('sections.engineeringDisclaimer.title')}</h2>
-            <p class="leading-relaxed bg-industrial-50 p-6 italic border border-industrial-200 border-t-4 border-t-accent-orange">
+            <p class:list={["leading-relaxed bg-industrial-50 p-6 border border-industrial-200 border-t-4 border-t-accent-orange", { italic: !["ja", "zh"].includes(locale) }]}>
               {_('sections.engineeringDisclaimer.content')}
             </p>
           </section>

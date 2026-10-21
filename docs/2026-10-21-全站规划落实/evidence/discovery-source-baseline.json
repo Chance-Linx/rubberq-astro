@@ -1,0 +1,17 @@
+{
+  "baseline_commit": "270ad5f71ac2755b00959f2a5a5a05065dfb4036",
+  "files": {
+    "src/pages/blog/index.astro": "a0f00102de8be935d45c6f5e012cfb05104375c51eaad990cc0ac450081ab71d",
+    "src/pages/en/blog/index.astro": "ce595bac61335494e2e1a794394287356361d10cea77afa330ead3f764abe40a",
+    "src/pages/[locale]/search.astro": "6f15c9260279bb4b09580f5330d7d4b4ae28f328b884c5bf81418b196ffe32cb",
+    "src/pages/[locale]/privacy.astro": "4bcb6f19844aca91b5eaaefdc19197a5af65bf70af48efe5926c987462e7277f",
+    "src/pages/[locale]/terms.astro": "2a51f003807e92b4b5b050e794d38dba28f0accd600dd3b86ab7649fe88ea3be",
+    "src/components/search/SearchPageClient.tsx": "3d0c383977e75b32f297d508b8915a11d0a90528ab65ef4f9cf4a83b46c92e71",
+    "src/layouts/BlogLayout.astro": "4683187f504e478dcc5093a64aaa42a256a6de8acc8e12d154133df00013624a",
+    "src/messages/en.json": "dc4e55c331f18501b1ee497e7545a4ccd8a244f522e25df58bc6a3d8a9f97621",
+    "src/messages/de.json": "d5290fe3409e8613ae2cb7dd2408a97e260d8d8536da74bd6b593d13ded43c49",
+    "src/messages/ja.json": "ac653d67495c4d7b95b23491cefd5d4844c041d6d119c364807335d623953b80",
+    "src/messages/es.json": "97198ef3722e7c98227caf70be4e6da04c6e45f702810533229bcd262f00f14a",
+    "src/messages/zh.json": "c0b6d1abdc2c211383532bdd89622e67b85ee78f8b910c2531d09daf2223dbdd"
+  }
+}

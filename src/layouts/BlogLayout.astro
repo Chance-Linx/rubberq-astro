@@ -9,7 +9,7 @@ interface Props { canonicalPath?: string; locale?: string }
 const { canonicalPath } = Astro.props;
 const locale = 'en';
 const normalizedPathname = Astro.url.pathname.replace(/^\/en\/blog(?=\/|$)/, '/blog');
-const canonicalPathname = canonicalPath && (canonicalPath === '/blog' || canonicalPath.startsWith('/blog/')) ? canonicalPath : normalizedPathname;
+const canonicalPathname = canonicalPath && (/^\/blog(?:\/|\?|$)/.test(canonicalPath)) ? canonicalPath : normalizedPathname;
 const canonicalUrl = `https://rubberq.com${canonicalPathname}`;
 const orgSchema = createOrganizationSchema(locale);
 ---

@@ -1,0 +1,104 @@
+{
+  "viewport": {
+    "width": 375,
+    "height": 812
+  },
+  "results": [
+    {
+      "overflow": [],
+      "path": "/blog",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "overflow": [],
+      "path": "/search?q=FFKM",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "overflow": [],
+      "path": "/de/search?q=FFKM",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "overflow": [],
+      "path": "/ja/search?q=%E6%B6%B2%E5%86%B7",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "overflow": [],
+      "path": "/es/search?q=FFKM",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "overflow": [],
+      "path": "/zh/search?q=%E6%B6%B2%E5%86%B7",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "overflow": [],
+      "path": "/privacy",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "overflow": [],
+      "path": "/de/privacy",
+      "scrollWidth": 465,
+      "width": 375
+    },
+    {
+      "overflow": [],
+      "path": "/ja/privacy",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "overflow": [],
+      "path": "/es/privacy",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "overflow": [],
+      "path": "/zh/privacy",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "overflow": [],
+      "path": "/terms",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "overflow": [],
+      "path": "/de/terms",
+      "scrollWidth": 466,
+      "width": 375
+    },
+    {
+      "overflow": [],
+      "path": "/ja/terms",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "overflow": [],
+      "path": "/es/terms",
+      "scrollWidth": 375,
+      "width": 375
+    },
+    {
+      "overflow": [],
+      "path": "/zh/terms",
+      "scrollWidth": 375,
+      "width": 375
+    }
+  ]
+}

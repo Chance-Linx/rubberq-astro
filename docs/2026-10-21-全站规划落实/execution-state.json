@@ -626,7 +626,7 @@
     },
     "navigation": "implemented_local_desktop_path_verified_mobile_final_review_pending",
     "rfq": "five_locale_ui_and_116_local_contract_checks_passed_live_contract_release_pending",
-    "seo_sitemap_schema": "225_routes_metadata_and_jsonld_passed_sitemap_and_specialized_routes_final_review_pending",
+    "seo_sitemap_schema": "225_ordinary_routes_and_16_specialized_metadata_routes_checked_local;sitemap_full_candidate_and_final_review_pending",
     "dashboard_reconciliation": "Editorial ownership reconciled; 35/35 page modules and source links implemented, operational keyword/graph reconciliation remains pending.",
     "final_audit": "pending",
     "content_revision_drafts": {
@@ -666,8 +666,9 @@
         "/privacy",
         "/terms"
       ],
-      "specialized_metadata": "pending",
-      "artifact": "evidence/acquisition-metadata-checks.json"
+      "specialized_metadata": "16_actual_blog_search_privacy_terms_routes_checked_local;legal_factual_review_pending;not_final_SEO_acceptance",
+      "artifact": "evidence/acquisition-metadata-checks.json",
+      "specialized_evidence": "evidence/discovery-implementation-checks.json"
     },
     "article_media_layout": {
       "revised_local_articles": 27,
@@ -681,14 +682,56 @@
       "source_cover_refs_preserved": true,
       "ordinary_server_preview_routes_absent": true,
       "production_build_preview_modules_absent": true,
-      "article_list_media_review": "pending_with_specialized_pages",
+      "article_list_media_review": "27_local_revision_list_checked;ordinary_list_uses_same_exact_article_asset_decisions;other_CMS_assets_not_in_this_revision_scope",
       "final_review": "pending",
       "artifact": "evidence/article-layout-checks.json",
       "cover_artifact": "evidence/article-cover-decisions.json",
       "mobile_artifact": "evidence/article-mobile-layout-checks.json"
+    },
+    "specialized_pages": {
+      "blog": {
+        "local_implementation": "shared_blog_list_with_category_filter_and_12_per_page_pagination",
+        "candidate_revision_articles_traversed": 27,
+        "normal_cms_list_checked": true,
+        "article_cover_display": "same_exact_asset_decisions_as_article_component;no_empty_image_boxes",
+        "metadata_checked": true,
+        "final_review": "pending"
+      },
+      "search": {
+        "local_implementation": "server_rendered_get_search_from_45_localized_pages_and_public_articles",
+        "locales": [
+          "en",
+          "de",
+          "ja",
+          "es",
+          "zh"
+        ],
+        "functions_checked": "localized_results;english_article_labels;empty_and_long_query;safe_text_echo;pagination",
+        "metadata_checked": true,
+        "noindex": true,
+        "final_review": "pending"
+      },
+      "privacy_terms": {
+        "presentation_metadata_locales_checked": [
+          "en",
+          "de",
+          "ja",
+          "es",
+          "zh"
+        ],
+        "legal_body_objects_preserved": 10,
+        "legal_factual_followups": 7,
+        "factual_review": "pending",
+        "followup_artifact": "evidence/legal-factual-followups.json",
+        "legal_acceptance": false
+      },
+      "actual_metadata_routes_checked": 16,
+      "mobile_tablet_browser_checks_passed": 32,
+      "verification_artifact": "evidence/discovery-implementation-checks.json",
+      "mobile_artifact": "evidence/discovery-mobile-layout-checks.json"
     }
   },
-  "next_action": "Review specialized blog listing, search, privacy and terms including media and metadata; reconcile operational keyword/graph relationships; complete five-locale mobile and RFQ checks; prepare clean candidate, then one consolidated final review.",
+  "next_action": "Resolve existing legal factual statements against company/RFQ/cookie evidence; reconcile operational keyword/graph relationships; complete five-locale whole-site mobile and full RFQ checks; prepare a clean candidate and perform one consolidated final review.",
   "status_evidence": {
     "implemented_page_specs": 45,
     "message_page_specs": 49,

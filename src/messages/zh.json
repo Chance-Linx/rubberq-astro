@@ -56,7 +56,7 @@
     },
     "privacy": {
       "title": "隐私政策 | RubberQ",
-      "description": "RubberQ如何收集、使用和保护您的商业数据。"
+      "description": "了解RubberQ如何处理通过本网站提交的业务联系信息、询价资料和技术文件，以及数据相关问题的联系途径。"
     },
     "quality": {
       "title": "质量保证 | RubberQ",
@@ -71,8 +71,8 @@
       "description": "ASTM D2000、SAE J200、RoHS、REACH合规综合指南。"
     },
     "terms": {
-      "title": "Terms of Service | RubberQ",
-      "description": "Terms and conditions for RubberQ website and manufacturing services."
+      "title": "服务条款 | RubberQ",
+      "description": "阅读RubberQ网站有关技术信息、知识产权、报价与订单的使用条款，并查看相关问题的联系方式。"
     },
     "about": {
       "title": "我们的传承 | RubberQ",
@@ -6775,5 +6775,35 @@
       "search": "搜索 RubberQ",
       "sitemap": "网站地图"
     }
+  },
+  "search": {
+    "inputLabel": "搜索RubberQ",
+    "button": "搜索",
+    "placeholder": "材料、零件、工艺或工程问题",
+    "initial": "输入材料名称、零件类型、制造工艺或工程问题进行搜索。",
+    "empty": "没有找到匹配的页面或文章。请尝试材料名称或更短的词组。",
+    "results": "“{query}”的搜索结果：{count}项",
+    "pageLabel": "网站页面",
+    "articleLabel": "英文文章",
+    "pagination": "搜索结果分页",
+    "previous": "上一页",
+    "next": "下一页",
+    "pageCount": "第{page}页，共{total}页",
+    "tooLong": "请输入不超过160个字符的内容。",
+    "contact": "讨论零部件需求",
+    "resources": "浏览工程资源"
+  },
+  "blogListing": {
+    "all": "全部文章",
+    "categoryLabel": "文章分类",
+    "pagination": "文章分页",
+    "previous": "上一页",
+    "next": "下一页",
+    "pageCount": "第{page}页，共{total}页",
+    "count": "{count}篇文章",
+    "empty": "该分类没有匹配的文章。请浏览全部文章或工程资源。",
+    "resources": "工程资源",
+    "contact": "讨论零部件需求",
+    "pageSuffix": "第{page}页"
   }
 }

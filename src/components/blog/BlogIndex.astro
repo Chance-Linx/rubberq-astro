@@ -1,0 +1,77 @@
+---
+import BlogLayout from '@/layouts/BlogLayout.astro';
+import { getFeaturedImageUrl, getBlogUrl, type BlogPost } from '@/lib/sanity';
+import { acquisitionCopy } from '@/lib/acquisition';
+import { tRaw } from '@/lib/i18n';
+import { isArticleCoverSuppressed } from '@/lib/articlePresentation';
+import { publicArticles, paginate, discoveryUrl } from '@/lib/contentDiscovery';
+import JsonLd from '@/components/JsonLd';
+interface Props { posts: BlogPost[] }
+const { posts } = Astro.props;
+const data = (await acquisitionCopy('en', '/blog'))!;
+const labels = tRaw(data.messages, 'blogListing') as Record<string, string>;
+const allPosts = publicArticles(posts);
+const category = (Astro.url.searchParams.get('category') || '').trim();
+const categories = [...new Set(allPosts.map(post => post.category).filter(Boolean))].sort();
+const selected = category ? allPosts.filter(post => post.category === category) : allPosts;
+const list = paginate(selected, Astro.url.searchParams.get('page'));
+const urlFor = (page = 1, selectedCategory = category) => discoveryUrl('/blog', { category: selectedCategory, page });
+const canonicalPath = urlFor(list.page);
+const title = data.copy.title + (list.page > 1 ? ' · ' + labels.pageSuffix.replace('{page}', String(list.page)) : '');
+const schema = { '@context': 'https://schema.org', '@type': 'CollectionPage', name: data.copy.h1,
+  url: 'https://rubberq.com' + canonicalPath, inLanguage: 'en',
+  mainEntity: { '@type': 'ItemList', itemListElement: list.items.map((post, i) => ({ '@type': 'ListItem',
+    position: (list.page - 1) * 12 + i + 1, name: post.title, url: 'https://rubberq.com' + getBlogUrl(post.slug) })) } };
+---
+<BlogLayout locale="en" canonicalPath={canonicalPath}>
+  <Fragment slot="head">
+    <title>{title}</title><meta name="description" content={data.copy.description} />
+    <meta property="og:title" content={title} /><meta property="og:description" content={data.copy.description} />
+    <meta property="og:type" content="website" /><meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={title} /><meta name="twitter:description" content={data.copy.description} />
+    {category && <meta name="robots" content="noindex,follow" />}
+    <JsonLd data={schema} /><slot name="head" />
+  </Fragment>
+  <section class="py-16 border-b border-border">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-4xl sm:text-5xl font-bold tracking-tight mb-4">{data.copy.h1}</h1>
+      <p class="text-lg text-muted max-w-3xl">{data.copy.intro}</p>
+    </div>
+  </section>
+  <section class="py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {categories.length > 0 && <nav aria-label={labels.categoryLabel} class="flex flex-wrap gap-2 mb-8">
+        <a href="/blog" aria-current={!category ? 'page' : undefined} class:list={['px-4 py-2 text-xs font-bold border border-border', { 'bg-foreground text-background': !category }]}>{labels.all}</a>
+        {categories.map(cat => <a href={urlFor(1,cat!)} aria-current={category === cat ? 'page' : undefined}
+          class:list={['px-4 py-2 text-xs font-bold border border-border break-words', { 'bg-foreground text-background': category === cat }]}>{cat} ({allPosts.filter(post => post.category === cat).length})</a>)}
+      </nav>}
+      <p class="text-sm text-muted mb-6" data-discovery-count>{labels.count.replace('{count}', String(list.total))}</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" data-blog-grid>
+        {list.items.map(post => {
+          const image = isArticleCoverSuppressed(post._id, post.coverImage?.asset?._ref) ? undefined : getFeaturedImageUrl(post);
+          return <article data-article-id={post._id} class="group border border-border hover:border-primary transition-colors min-w-0">
+            <a href={getBlogUrl(post.slug)} class="flex flex-col h-full">
+              {image && <img src={image} alt={post.title} class="w-full h-48 object-cover" loading="lazy" />}
+              <div class="p-6 flex flex-col flex-1">
+                {post.category && <span class="text-xs font-bold text-primary mb-2 block">{post.category}</span>}
+                <h2 class="text-lg font-bold mb-3 group-hover:text-primary break-words">{post.title}</h2>
+                {post.excerpt && <p class="text-sm text-muted mb-5">{post.excerpt}</p>}
+                <time class="text-xs text-muted mt-auto" datetime={post.publishedAt}>{new Date(post.publishedAt).toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'})}</time>
+              </div>
+            </a>
+          </article>;
+        })}
+      </div>
+      {list.total === 0 && <p class="py-12 text-muted" role="status">{labels.empty}</p>}
+      {list.totalPages > 1 && <nav aria-label={labels.pagination} class="flex flex-wrap items-center justify-between gap-4 border-t border-border mt-12 pt-6">
+        {list.page > 1 ? <a rel="prev" href={urlFor(list.page-1)} class="underline underline-offset-4">← {labels.previous}</a> : <span />}
+        <span class="text-sm">{labels.pageCount.replace('{page}',String(list.page)).replace('{total}',String(list.totalPages))}</span>
+        {list.page < list.totalPages ? <a rel="next" href={urlFor(list.page+1)} class="underline underline-offset-4">{labels.next} →</a> : <span />}
+      </nav>}
+      <div class="flex flex-wrap gap-6 mt-12 border-t border-border pt-6">
+        <a class="underline underline-offset-4" href="/resources">{labels.resources}</a>
+        <a class="underline underline-offset-4" href="/contact?source=%2Fblog&cta=article-list">{labels.contact}</a>
+      </div>
+    </div>
+  </section>
+</BlogLayout>

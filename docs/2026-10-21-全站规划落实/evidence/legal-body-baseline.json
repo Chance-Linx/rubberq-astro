@@ -1,0 +1,677 @@
+{
+  "en": {
+    "privacyPage": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last Updated: January 26, 2026",
+      "cards": {
+        "dataSecurity": {
+          "title": "Data Security",
+          "description": "Your technical drawings and proprietary designs are protected under our industrial-grade security protocols."
+        },
+        "zeroSharing": {
+          "title": "Zero Sharing",
+          "description": "We never sell your business contact information or project details to third-party marketing firms."
+        },
+        "transparency": {
+          "title": "Transparency",
+          "description": "Clear documentation on how we use your data to provide manufacturing and engineering services."
+        }
+      },
+      "sections": {
+        "informationCollect": {
+          "title": "1. Information We Collect",
+          "content": "Fuzhou RubberQ Rubber Co., Ltd. (\"RubberQ\", \"we\", \"us\", or \"our\") collects information that you provide directly to us when you:",
+          "items": [
+            "Submit a Request for Quote (RFQ) or contact form.",
+            "Upload technical drawings, specifications, or 3D models.",
+            "Request material samples or technical consultations.",
+            "Communicate with our engineering and sales teams."
+          ],
+          "additionalInfo": "This information may include your name, company name, email address, phone number, country, and specific project requirements."
+        },
+        "howWeUse": {
+          "title": "2. How We Use Your Information",
+          "content": "We use the collected data for specific industrial and business purposes:",
+          "items": [
+            {
+              "label": "RFQ Processing:",
+              "text": "To evaluate manufacturing feasibility and provide accurate pricing."
+            },
+            {
+              "label": "Engineering Consultation:",
+              "text": "To offer material selection and design-for-manufacturability (DFM) advice."
+            },
+            {
+              "label": "Order Fulfillment:",
+              "text": "To manufacture and ship your custom rubber components."
+            },
+            {
+              "label": "Quality Control:",
+              "text": "To maintain production records as required by IATF 16949 and ISO 9001 standards."
+            }
+          ]
+        },
+        "intellectualProperty": {
+          "title": "3. Protection of Intellectual Property",
+          "content": "As an OEM supplier for leading automotive brands, we understand the critical importance of Intellectual Property (IP). Any drawings or proprietary data uploaded to our platform are treated with strict confidentiality. Access is restricted to necessary engineering and production personnel. We are prepared to sign formal Non-Disclosure Agreements (NDAs) for your projects."
+        },
+        "cookies": {
+          "title": "4. Cookies and Tracking",
+          "content": "Our website uses essential cookies to ensure site functionality and performance. We may also use analytics tools (such as Google Analytics) to understand how visitors interact with our content, which helps us improve our technical documentation and user experience."
+        },
+        "dataRetention": {
+          "title": "5. Data Retention",
+          "content": "In compliance with IATF 16949 automotive standards, we may retain production and quality records for specified periods to ensure traceability. Business contact information is retained as long as necessary to maintain our professional relationship."
+        },
+        "yourRights": {
+          "title": "6. Your Rights",
+          "content": "You have the right to request access to, correction of, or deletion of your personal business data. For such requests, please contact our data compliance officer at the email provided below."
+        }
+      },
+      "contact": {
+        "title": "Contact Us",
+        "description": "If you have questions about this Privacy Policy, please contact:",
+        "company": "Fuzhou RubberQ Rubber Co., Ltd.",
+        "department": "Data Protection Office",
+        "email": "Email: contact@rubberq.com",
+        "address": "Address: Fuzhou, Fujian Province, China"
+      }
+    },
+    "termsPage": {
+      "title": "Terms of Service",
+      "lastUpdated": "Last Updated: January 26, 2026",
+      "cards": {
+        "legalBinding": {
+          "title": "Legal Binding",
+          "description": "By accessing this site, you agree to comply with our terms of use and industrial standards."
+        },
+        "technicalDisclaimer": {
+          "title": "Technical Disclaimer",
+          "description": "Engineering data provided is for reference. Final specifications depend on validated drawings."
+        }
+      },
+      "sections": {
+        "acceptance": {
+          "title": "1. Acceptance of Terms",
+          "content": "By accessing and using the website of Fuzhou RubberQ Rubber Co., Ltd. (the \"Site\"), you acknowledge that you have read, understood, and agree to be bound by these Terms of Service. If you do not agree, please refrain from using the Site."
+        },
+        "siteContent": {
+          "title": "2. Use of Site Content",
+          "content": "The content on this Site, including technical data sheets, material specifications, and manufacturing process descriptions, is provided for professional informational purposes.",
+          "items": [
+            "You may download material for your company's evaluation of our services.",
+            "Unauthorized distribution or reproduction for commercial gain is prohibited.",
+            "Misuse of our RFQ system or automated scraping of technical data is strictly forbidden."
+          ]
+        },
+        "intellectualProperty": {
+          "title": "3. Intellectual Property",
+          "content": "All trademarks, logos, and service marks displayed on the Site are the property of RubberQ or third parties. \"RubberQ\" and the RubberQ logo are registered trademarks. The design, layout, and \"look and feel\" of the Site are protected under copyright laws."
+        },
+        "engineeringDisclaimer": {
+          "title": "4. Engineering Disclaimer",
+          "content": "While we strive for 100% accuracy in our technical blog and material guides, the information provided is for general reference only. Rubber component performance is highly dependent on specific application environments. Final material selection and part design should be validated through professional engineering reviews and prototyping."
+        },
+        "quotations": {
+          "title": "5. Quotations and Orders",
+          "content": "Submitting an RFQ through this Site does not constitute a binding contract. A formal manufacturing agreement is only established once a Purchase Order (PO) is accepted by RubberQ in writing, subject to our standard Industrial Sales Terms & Conditions."
+        },
+        "liability": {
+          "title": "6. Limitation of Liability",
+          "content": "RubberQ shall not be liable for any direct, indirect, incidental, or consequential damages arising from your use of the Site or reliance on any information provided herein."
+        },
+        "governingLaw": {
+          "title": "7. Governing Law",
+          "content": "These terms are governed by the laws of the People's Republic of China. Any disputes arising from the use of this Site shall be subject to the exclusive jurisdiction of the courts in Fuzhou, Fujian Province."
+        }
+      },
+      "contact": {
+        "title": "Questions?",
+        "description": "For legal inquiries regarding our terms, please contact:",
+        "department": "Legal Department",
+        "company": "Fuzhou RubberQ Rubber Co., Ltd.",
+        "email": "Email: contact@rubberq.com"
+      }
+    }
+  },
+  "de": {
+    "privacyPage": {
+      "title": "Datenschutzrichtlinie",
+      "lastUpdated": "Zuletzt aktualisiert: 26. Januar 2026",
+      "cards": {
+        "dataSecurity": {
+          "title": "Datensicherheit",
+          "description": "Ihre technischen Zeichnungen und proprietären Designs sind durch unsere Sicherheitsprotokolle in Industriestandard geschützt."
+        },
+        "zeroSharing": {
+          "title": "Keine Weitergabe",
+          "description": "Wir verkaufen Ihre geschäftlichen Kontaktinformationen oder Projektdetails niemals an Marketingfirmen Dritter."
+        },
+        "transparency": {
+          "title": "Transparenz",
+          "description": "Klare Dokumentation darüber, wie wir Ihre Daten verwenden, um Fertigungs- und Ingenieurdienstleistungen zu erbringen."
+        }
+      },
+      "sections": {
+        "informationCollect": {
+          "title": "1. Informationen, die wir sammeln",
+          "content": "Fuzhou RubberQ Rubber Co., Ltd. (\"RubberQ\", \"wir\", \"uns\" oder \"unser\") sammelt Informationen, die Sie uns direkt zur Verfügung stellen, wenn Sie:",
+          "items": [
+            "Eine Anfrage (RFQ) oder ein Kontaktformular absenden.",
+            "Technische Zeichnungen, Spezifikationen oder 3D-Modelle hochladen.",
+            "Materialmuster oder technische Beratungen anfordern.",
+            "Mit unseren Ingenieur- und Vertriebsteams kommunizieren."
+          ],
+          "additionalInfo": "Diese Informationen können Ihren Namen, Firmennamen, E-Mail-Adresse, Telefonnummer, Land und spezifische Projektanforderungen umfassen."
+        },
+        "howWeUse": {
+          "title": "2. Wie wir Ihre Informationen verwenden",
+          "content": "Wir verwenden die gesammelten Daten für spezifische industrielle und geschäftliche Zwecke:",
+          "items": [
+            {
+              "label": "Angebotsbearbeitung:",
+              "text": "Zur Bewertung der Herstellbarkeit und Bereitstellung genauer Preise."
+            },
+            {
+              "label": "Technische Beratung:",
+              "text": "Um Materialauswahl- und Design-for-Manufacturability (DFM) Beratung anzubieten."
+            },
+            {
+              "label": "Auftragsabwicklung:",
+              "text": "Zur Herstellung und zum Versand Ihrer kundenspezifischen Gummikomponenten."
+            },
+            {
+              "label": "Qualitätskontrolle:",
+              "text": "Zur Führung von Produktionsaufzeichnungen gemäß IATF 16949 und ISO 9001 Standards."
+            }
+          ]
+        },
+        "intellectualProperty": {
+          "title": "3. Schutz des geistigen Eigentums",
+          "content": "Als OEM-Lieferant für führende Automobilmarken verstehen wir die entscheidende Bedeutung von geistigem Eigentum (IP). Alle auf unsere Plattform hochgeladenen Zeichnungen oder proprietären Daten werden streng vertraulich behandelt. Der Zugang ist auf notwendiges Ingenieur- und Produktionspersonal beschränkt. Wir sind bereit, formelle Geheimhaltungsvereinbarungen (NDAs) für Ihre Projekte zu unterzeichnen."
+        },
+        "cookies": {
+          "title": "4. Cookies und Tracking",
+          "content": "Unsere Website verwendet essentielle Cookies, um die Funktionalität und Leistung der Website zu gewährleisten. Wir können auch Analysetools (wie Google Analytics) verwenden, um zu verstehen, wie Besucher mit unseren Inhalten interagieren, was uns hilft, unsere technische Dokumentation und Benutzererfahrung zu verbessern."
+        },
+        "dataRetention": {
+          "title": "5. Vorratsdatenspeicherung",
+          "content": "In Übereinstimmung mit IATF 16949 Automobilstandards können wir Produktions- und Qualitätsaufzeichnungen für bestimmte Zeiträume aufbewahren, um die Rückverfolgbarkeit zu gewährleisten. Geschäftliche Kontaktinformationen werden so lange aufbewahrt, wie es zur Aufrechterhaltung unserer professionellen Beziehung erforderlich ist."
+        },
+        "yourRights": {
+          "title": "6. Ihre Rechte",
+          "content": "Sie haben das Recht, Zugang zu, Korrektur von oder Löschung Ihrer persönlichen Geschäftsdaten zu verlangen. Für solche Anfragen wenden Sie sich bitte an unseren Datenschutzbeauftragten unter der unten angegebenen E-Mail-Adresse."
+        }
+      },
+      "contact": {
+        "title": "Kontaktieren Sie uns",
+        "description": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, wenden Sie sich bitte an:",
+        "company": "Fuzhou RubberQ Rubber Co., Ltd.",
+        "department": "Datenschutzbüro",
+        "email": "E-Mail: contact@rubberq.com",
+        "address": "Adresse: Fuzhou, Provinz Fujian, China"
+      }
+    },
+    "termsPage": {
+      "title": "Nutzungsbedingungen",
+      "lastUpdated": "Zuletzt aktualisiert: 26. Januar 2026",
+      "cards": {
+        "legalBinding": {
+          "title": "Rechtliche Bindung",
+          "description": "Durch den Zugriff auf diese Website erklären Sie sich mit unseren Nutzungsbedingungen und Industriestandards einverstanden."
+        },
+        "technicalDisclaimer": {
+          "title": "Technischer Haftungsausschluss",
+          "description": "Die bereitgestellten technischen Daten dienen als Referenz. Endgültige Spezifikationen hängen von validierten Zeichnungen ab."
+        }
+      },
+      "sections": {
+        "acceptance": {
+          "title": "1. Annahme der Bedingungen",
+          "content": "Durch den Zugriff auf und die Nutzung der Website von Fuzhou RubberQ Rubber Co., Ltd. (die \"Website\") bestätigen Sie, dass Sie diese Nutzungsbedingungen gelesen und verstanden haben und damit einverstanden sind. Wenn Sie nicht einverstanden sind, nutzen Sie die Website bitte nicht."
+        },
+        "siteContent": {
+          "title": "2. Nutzung von Website-Inhalten",
+          "content": "Der Inhalt dieser Website, einschließlich technischer Datenblätter, Materialspezifikationen und Beschreibungen von Fertigungsverfahren, wird zu professionellen Informationszwecken bereitgestellt.",
+          "items": [
+            "Sie dürfen Material zur Bewertung unserer Dienstleistungen durch Ihr Unternehmen herunterladen.",
+            "Die unbefugte Verbreitung oder Vervielfältigung zu kommerziellen Zwecken ist untersagt.",
+            "Der Missbrauch unseres Angebotssystems oder das automatisierte Auslesen (Scraping) technischer Daten ist streng verboten."
+          ]
+        },
+        "intellectualProperty": {
+          "title": "3. Geistiges Eigentum",
+          "content": "Alle auf der Website angezeigten Marken, Logos und Dienstleistungsmarken sind Eigentum von RubberQ oder Dritten. \"RubberQ\" und das RubberQ-Logo sind eingetragene Marken. Das Design, Layout und \"Erscheinungsbild\" der Website sind urheberrechtlich geschützt."
+        },
+        "engineeringDisclaimer": {
+          "title": "4. Technischer Haftungsausschluss",
+          "content": "Obwohl wir uns um 100%ige Genauigkeit in unserem technischen Blog und unseren Materialleitfäden bemühen, dienen die bereitgestellten Informationen nur als allgemeine Referenz. Die Leistung von Gummikomponenten hängt stark von den spezifischen Anwendungsumgebungen ab. Die endgültige Materialauswahl und das Teiledesign sollten durch professionelle technische Überprüfungen und Prototyping validiert werden."
+        },
+        "quotations": {
+          "title": "5. Angebote und Bestellungen",
+          "content": "Das Einreichen einer Anfrage über diese Website stellt keinen verbindlichen Vertrag dar. Ein formeller Fertigungsvertrag kommt erst zustande, wenn eine Bestellung (Purchase Order, PO) von RubberQ schriftlich angenommen wurde, vorbehaltlich unserer Allgemeinen Verkaufsbedingungen für die Industrie."
+        },
+        "liability": {
+          "title": "6. Haftungsbeschränkung",
+          "content": "RubberQ haftet nicht für direkte, indirekte, zufällige oder Folgeschäden, die aus Ihrer Nutzung der Website oder dem Vertrauen auf die hierin bereitgestellten Informationen entstehen."
+        },
+        "governingLaw": {
+          "title": "7. Geltendes Recht",
+          "content": "Diese Bedingungen unterliegen den Gesetzen der Volksrepublik China. Alle Streitigkeiten, die sich aus der Nutzung dieser Website ergeben, unterliegen der ausschließlichen Zuständigkeit der Gerichte in Fuzhou, Provinz Fujian."
+        }
+      },
+      "contact": {
+        "title": "Fragen?",
+        "description": "Für rechtliche Anfragen zu unseren Bedingungen wenden Sie sich bitte an:",
+        "department": "Rechtsabteilung",
+        "company": "Fuzhou RubberQ Rubber Co., Ltd.",
+        "email": "E-Mail: contact@rubberq.com"
+      }
+    }
+  },
+  "ja": {
+    "privacyPage": {
+      "title": "プライバシーポリシー",
+      "lastUpdated": "最終更新日: 2026年1月26日",
+      "cards": {
+        "dataSecurity": {
+          "title": "データセキュリティ",
+          "description": "お客様の技術図面と独自の設計は、当社の産業グレードのセキュリティプロトコル下で保護されています。"
+        },
+        "zeroSharing": {
+          "title": "共有ゼロ",
+          "description": "お客様のビジネス連絡先情報やプロジェクトの詳細を第三者のマーケティング会社に販売することはありません。"
+        },
+        "transparency": {
+          "title": "透明性",
+          "description": "製造およびエンジニアリングサービスを提供するためにデータをどのように使用するかについての明確な文書。"
+        }
+      },
+      "sections": {
+        "informationCollect": {
+          "title": "1. 収集する情報",
+          "content": "福州RubberQゴム有限公司（以下「RubberQ」、「当社」）は、お客様が以下を行う際に直接提供する情報を収集します：",
+          "items": [
+            "見積もり依頼（RFQ）またはお問い合わせフォームの送信。",
+            "技術図面、仕様書、または3Dモデルのアップロード。",
+            "材料サンプルまたは技術相談の依頼。",
+            "当社のエンジニアリングおよび営業チームとの通信。"
+          ],
+          "additionalInfo": "この情報には、お名前、会社名、メールアドレス、電話番号、国、および特定のプロジェクト要件が含まれる場合があります。"
+        },
+        "howWeUse": {
+          "title": "2. 情報の利用目的",
+          "content": "収集したデータは、特定の産業およびビジネス目的で使用されます：",
+          "items": [
+            {
+              "label": "RFQ処理:",
+              "text": "製造の実現可能性を評価し、正確な価格を提供するため。"
+            },
+            {
+              "label": "技術相談:",
+              "text": "材料選択および製造性考慮設計（DFM）のアドバイスを提供するため。"
+            },
+            {
+              "label": "注文履行:",
+              "text": "カスタムゴム部品を製造および出荷するため。"
+            },
+            {
+              "label": "品質管理:",
+              "text": "IATF 16949およびISO 9001規格で要求される生産記録を維持するため。"
+            }
+          ]
+        },
+        "intellectualProperty": {
+          "title": "3. 知的財産の保護",
+          "content": "主要な自動車ブランドのOEMサプライヤーとして、当社は知的財産（IP）の重要性を理解しています。当社のプラットフォームにアップロードされた図面や独自データは、厳格な機密保持の下で扱われます。アクセスは必要なエンジニアリングおよび生産担当者に制限されます。プロジェクトのために正式な秘密保持契約（NDA）を締結する用意があります。"
+        },
+        "cookies": {
+          "title": "4. Cookieとトラッキング",
+          "content": "当社のウェブサイトは、サイトの機能とパフォーマンスを確保するために必須のCookieを使用しています。また、訪問者がコンテンツとどのように対話するかを理解するために分析ツール（Google Analyticsなど）を使用する場合があり、これは技術文書とユーザーエクスペリエンスの改善に役立ちます。"
+        },
+        "dataRetention": {
+          "title": "5. データ保持",
+          "content": "IATF 16949自動車規格に準拠して、トレーサビリティを確保するために生産および品質記録を指定された期間保持する場合があります。ビジネス連絡先情報は、専門的な関係を維持するために必要な期間保持されます。"
+        },
+        "yourRights": {
+          "title": "6. お客様の権利",
+          "content": "お客様は、自身の個人的なビジネスデータへのアクセス、訂正、または削除を要求する権利を有します。そのような要求については、下記のメールアドレスのデータコンプライアンス責任者にご連絡ください。"
+        }
+      },
+      "contact": {
+        "title": "お問い合わせ",
+        "description": "このプライバシーポリシーについてご質問がある場合は、以下にご連絡ください：",
+        "company": "福州RubberQゴム有限公司",
+        "department": "データ保護室",
+        "email": "メール: contact@rubberq.com",
+        "address": "住所: 中国福建省福州市"
+      }
+    },
+    "termsPage": {
+      "title": "利用規約",
+      "lastUpdated": "最終更新日: 2026年1月26日",
+      "cards": {
+        "legalBinding": {
+          "title": "法的拘束力",
+          "description": "このサイトにアクセスすることにより、当社の利用規約および産業基準に従うことに同意したことになります。"
+        },
+        "technicalDisclaimer": {
+          "title": "技術的免責事項",
+          "description": "提供されるエンジニアリングデータは参照用です。最終仕様は検証された図面に依存します。"
+        }
+      },
+      "sections": {
+        "acceptance": {
+          "title": "1. 規約の受諾",
+          "content": "福州RubberQゴム有限公司（以下「サイト」）のウェブサイトにアクセスして使用することにより、お客様はこれらの利用規約を読み、理解し、拘束されることに同意したことになります。同意しない場合は、サイトの使用をお控えください。"
+        },
+        "siteContent": {
+          "title": "2. サイトコンテンツの使用",
+          "content": "技術データシート、材料仕様、製造プロセス記述を含む本サイトのコンテンツは、専門的な情報提供を目的としています。",
+          "items": [
+            "当社のサービスを評価するためにお客様の会社用に資料をダウンロードすることができます。",
+            "商業的利益のための無許可の配布または複製は禁止されています。",
+            "当社のRFQシステムの悪用または技術データの自動スクレイピングは固く禁じられています。"
+          ]
+        },
+        "intellectualProperty": {
+          "title": "3. 知的財産",
+          "content": "サイトに表示されるすべての商標、ロゴ、サービスマークは、RubberQまたは第三者の財産です。「RubberQ」およびRubberQロゴは登録商標です。サイトのデザイン、レイアウト、「ルック＆フィール」は著作権法により保護されています。"
+        },
+        "engineeringDisclaimer": {
+          "title": "4. エンジニアリング免責事項",
+          "content": "技術ブログや材料ガイドの正確性を100%目指していますが、提供される情報は一般的な参照のみを目的としています。ゴム部品の性能は特定のアプリケーション環境に大きく依存します。最終的な材料選択と部品設計は、専門的なエンジニアリングレビューとプロトタイピングを通じて検証する必要があります。"
+        },
+        "quotations": {
+          "title": "5. 見積もりと注文",
+          "content": "このサイトを通じてRFQを送信しても、拘束力のある契約は成立しません。正式な製造契約は、当社の標準産業販売条件に従い、RubberQが書面で注文書（PO）を受諾した時点で初めて成立します。"
+        },
+        "liability": {
+          "title": "6. 責任の制限",
+          "content": "RubberQは、サイトの使用または提供された情報への依存から生じる直接的、間接的、偶発的、または結果的な損害について責任を負いません。"
+        },
+        "governingLaw": {
+          "title": "7. 準拠法",
+          "content": "これらの規約は中華人民共和国の法律に準拠します。本サイトの使用から生じる紛争は、福建省福州市の裁判所の専属管轄権に従うものとします。"
+        }
+      },
+      "contact": {
+        "title": "ご質問ですか？",
+        "description": "当社の規約に関する法的なお問い合わせは、以下にご連絡ください：",
+        "department": "法務部",
+        "company": "福州RubberQゴム有限公司",
+        "email": "メール: contact@rubberq.com"
+      }
+    }
+  },
+  "es": {
+    "privacyPage": {
+      "title": "Política de Privacidad",
+      "lastUpdated": "Última Actualización: 26 de Enero, 2026",
+      "cards": {
+        "dataSecurity": {
+          "title": "Seguridad de Datos",
+          "description": "Sus dibujos técnicos y diseños propietarios están protegidos bajo nuestros protocolos de seguridad de grado industrial."
+        },
+        "zeroSharing": {
+          "title": "Cero Compartición",
+          "description": "Nunca vendemos su información de contacto comercial o detalles del proyecto a firmas de marketing de terceros."
+        },
+        "transparency": {
+          "title": "Transparencia",
+          "description": "Documentación clara sobre cómo utilizamos sus datos para proporcionar servicios de fabricación e ingeniería."
+        }
+      },
+      "sections": {
+        "informationCollect": {
+          "title": "1. Información Que Recopilamos",
+          "content": "Fuzhou RubberQ Rubber Co., Ltd. (\"RubberQ\", \"nosotros\", \"nos\" o \"nuestro\") recopila información que usted nos proporciona directamente cuando:",
+          "items": [
+            "Envía una Solicitud de Cotización (RFQ) o formulario de contacto.",
+            "Sube dibujos técnicos, especificaciones o modelos 3D.",
+            "Solicita muestras de materiales o consultas técnicas.",
+            "Se comunica con nuestros equipos de ingeniería y ventas."
+          ],
+          "additionalInfo": "Esta información puede incluir su nombre, nombre de la empresa, dirección de correo electrónico, número de teléfono, país y requisitos específicos del proyecto."
+        },
+        "howWeUse": {
+          "title": "2. Cómo Utilizamos Su Información",
+          "content": "Utilizamos los datos recopilados para fines industriales y comerciales específicos:",
+          "items": [
+            {
+              "label": "Procesamiento de RFQ:",
+              "text": "Para evaluar la viabilidad de fabricación y proporcionar precios precisos."
+            },
+            {
+              "label": "Consulta de Ingeniería:",
+              "text": "Para ofrecer asesoramiento sobre selección de materiales y diseño para manufactura (DFM)."
+            },
+            {
+              "label": "Cumplimiento de Pedidos:",
+              "text": "Para fabricar y enviar sus componentes de caucho personalizados."
+            },
+            {
+              "label": "Control de Calidad:",
+              "text": "Para mantener registros de producción según lo requerido por los estándares IATF 16949 e ISO 9001."
+            }
+          ]
+        },
+        "intellectualProperty": {
+          "title": "3. Protección de la Propiedad Intelectual",
+          "content": "Como proveedor OEM para marcas automotrices líderes, entendemos la importancia crítica de la Propiedad Intelectual (IP). Cualquier dibujo o dato propietario subido a nuestra plataforma se trata con estricta confidencialidad. El acceso está restringido al personal de ingeniería y producción necesario. Estamos preparados para firmar Acuerdos de Confidencialidad (NDA) formales para sus proyectos."
+        },
+        "cookies": {
+          "title": "4. Cookies y Rastreo",
+          "content": "Nuestro sitio web utiliza cookies esenciales para garantizar la funcionalidad y el rendimiento del sitio. También podemos utilizar herramientas de análisis (como Google Analytics) para entender cómo los visitantes interactúan con nuestro contenido, lo que nos ayuda a mejorar nuestra documentación técnica y experiencia de usuario."
+        },
+        "dataRetention": {
+          "title": "5. Retención de Datos",
+          "content": "En cumplimiento con los estándares automotrices IATF 16949, podemos retener registros de producción y calidad por períodos especificados para asegurar la trazabilidad. La información de contacto comercial se retiene tanto tiempo como sea necesario para mantener nuestra relación profesional."
+        },
+        "yourRights": {
+          "title": "6. Sus Derechos",
+          "content": "Usted tiene el derecho de solicitar acceso a, corrección de o eliminación de sus datos comerciales personales. Para tales solicitudes, por favor contacte a nuestro oficial de cumplimiento de datos en el correo electrónico proporcionado a continuación."
+        }
+      },
+      "contact": {
+        "title": "Contáctenos",
+        "description": "Si tiene preguntas sobre esta Política de Privacidad, por favor contacte:",
+        "company": "Fuzhou RubberQ Rubber Co., Ltd.",
+        "department": "Oficina de Protección de Datos",
+        "email": "Correo: contact@rubberq.com",
+        "address": "Dirección: Fuzhou, Provincia de Fujian, China"
+      }
+    },
+    "termsPage": {
+      "title": "Términos de Servicio",
+      "lastUpdated": "Última Actualización: 26 de Enero, 2026",
+      "cards": {
+        "legalBinding": {
+          "title": "Vinculación Legal",
+          "description": "Al acceder a este sitio, usted acepta cumplir con nuestros términos de uso y estándares industriales."
+        },
+        "technicalDisclaimer": {
+          "title": "Descargo de Responsabilidad Técnico",
+          "description": "Los datos de ingeniería proporcionados son para referencia. Las especificaciones finales dependen de los dibujos validados."
+        }
+      },
+      "sections": {
+        "acceptance": {
+          "title": "1. Aceptación de los Términos",
+          "content": "Al acceder y utilizar el sitio web de Fuzhou RubberQ Rubber Co., Ltd. (el \"Sitio\"), usted reconoce que ha leído, entendido y acepta estar sujeto a estos Términos de Servicio. Si no está de acuerdo, por favor absténgase de usar el Sitio."
+        },
+        "siteContent": {
+          "title": "2. Uso del Contenido del Sitio",
+          "content": "El contenido en este Sitio, incluyendo hojas de datos técnicos, especificaciones de materiales y descripciones de procesos de fabricación, se proporciona con fines informativos profesionales.",
+          "items": [
+            "Puede descargar material para la evaluación de nuestros servicios por parte de su empresa.",
+            "La distribución no autorizada o reproducción para ganancia comercial está prohibida.",
+            "El mal uso de nuestro sistema RFQ o el raspado automatizado de datos técnicos está estrictamente prohibido."
+          ]
+        },
+        "intellectualProperty": {
+          "title": "3. Propiedad Intelectual",
+          "content": "Todas las marcas comerciales, logotipos y marcas de servicio mostradas en el Sitio son propiedad de RubberQ o de terceros. \"RubberQ\" y el logotipo de RubberQ son marcas registradas. El diseño, disposición y \"apariencia\" del Sitio están protegidos bajo leyes de derechos de autor."
+        },
+        "engineeringDisclaimer": {
+          "title": "4. Descargo de Responsabilidad de Ingeniería",
+          "content": "Si bien nos esforzamos por lograr una precisión del 100% en nuestro blog técnico y guías de materiales, la información proporcionada es solo para referencia general. El rendimiento de los componentes de caucho depende en gran medida de los entornos de aplicación específicos. La selección final del material y el diseño de la pieza deben validarse a través de revisiones de ingeniería profesional y prototipado."
+        },
+        "quotations": {
+          "title": "5. Cotizaciones y Pedidos",
+          "content": "Enviar una solicitud de cotización (RFQ) a través de este Sitio no constituye un contrato vinculante. Un acuerdo de fabricación formal solo se establece una vez que una Orden de Compra (PO) es aceptada por RubberQ por escrito, sujeta a nuestros Términos y Condiciones de Ventas Industriales estándar."
+        },
+        "liability": {
+          "title": "6. Limitación de Responsabilidad",
+          "content": "RubberQ no será responsable de ningún daño directo, indirecto, incidental o consecuente que surja de su uso del Sitio o la confianza en cualquier información proporcionada en el mismo."
+        },
+        "governingLaw": {
+          "title": "7. Ley Aplicable",
+          "content": "Estos términos se rigen por las leyes de la República Popular China. Cualquier disputa que surja del uso de este Sitio estará sujeta a la jurisdicción exclusiva de los tribunales en Fuzhou, Provincia de Fujian."
+        }
+      },
+      "contact": {
+        "title": "¿Preguntas?",
+        "description": "Para consultas legales con respecto a nuestros términos, por favor contacte:",
+        "department": "Departamento Legal",
+        "company": "Fuzhou RubberQ Rubber Co., Ltd.",
+        "email": "Correo: contact@rubberq.com"
+      }
+    }
+  },
+  "zh": {
+    "privacyPage": {
+      "title": "隐私政策",
+      "lastUpdated": "最后更新：2026年1月26日",
+      "cards": {
+        "dataSecurity": {
+          "title": "数据安全",
+          "description": "您的技术图纸和专有设计受到我们工业级安全协议的保护。"
+        },
+        "zeroSharing": {
+          "title": "零共享",
+          "description": "我们绝不会将您的商业联系信息或项目详情出售给第三方营销公司。"
+        },
+        "transparency": {
+          "title": "透明度",
+          "description": "清晰记录我们如何使用您的数据来提供制造和工程服务。"
+        }
+      },
+      "sections": {
+        "informationCollect": {
+          "title": "1. 我们收集的信息",
+          "content": "福州瑞博橡胶有限公司（以下简称「RubberQ」、「我们」）在您进行以下操作时收集您直接提供给我们的信息：",
+          "items": [
+            "提交询价（RFQ）或联系表单。",
+            "上传技术图纸、规格或3D模型。",
+            "请求材料样品或技术咨询。",
+            "与我们的工程和销售团队沟通。"
+          ],
+          "additionalInfo": "这些信息可能包括您的姓名、公司名称、电子邮件地址、电话号码、国家和具体项目需求。"
+        },
+        "howWeUse": {
+          "title": "2. 信息使用方式",
+          "content": "我们将收集的数据用于特定的工业和商业目的：",
+          "items": [
+            {
+              "label": "询价处理：",
+              "text": "评估制造可行性并提供准确报价。"
+            },
+            {
+              "label": "工程咨询：",
+              "text": "提供材料选择和可制造性设计（DFM）建议。"
+            },
+            {
+              "label": "订单履行：",
+              "text": "制造和运输您的定制橡胶部件。"
+            },
+            {
+              "label": "质量控制：",
+              "text": "按照IATF 16949和ISO 9001标准维护生产记录。"
+            }
+          ]
+        },
+        "intellectualProperty": {
+          "title": "3. 知识产权保护",
+          "content": "作为领先汽车品牌的OEM供应商，我们深知知识产权（IP）的重要性。上传到我们平台的任何图纸或专有数据都将被严格保密处理。访问权限仅限于必要的工程和生产人员。我们随时准备为您的项目签署正式的保密协议（NDA）。"
+        },
+        "cookies": {
+          "title": "4. Cookie与追踪",
+          "content": "我们的网站使用必要的Cookie来确保网站功能和性能。我们还可能使用分析工具（如Google Analytics）来了解访问者如何与我们的内容互动，这有助于我们改进技术文档和用户体验。"
+        },
+        "dataRetention": {
+          "title": "5. 数据保留",
+          "content": "根据IATF 16949汽车标准的要求，我们可能会在规定期限内保留生产和质量记录以确保可追溯性。商业联系信息将在维持我们专业关系所需的期限内保留。"
+        },
+        "yourRights": {
+          "title": "6. 您的权利",
+          "content": "您有权请求访问、更正或删除您的个人商业数据。如需提出此类请求，请通过以下提供的电子邮件联系我们的数据合规官。"
+        }
+      },
+      "contact": {
+        "title": "联系我们",
+        "description": "如果您对本隐私政策有任何疑问，请联系：",
+        "company": "福州瑞博橡胶有限公司",
+        "department": "数据保护办公室",
+        "email": "邮箱：contact@rubberq.com",
+        "address": "地址：中国福建省福州市"
+      }
+    },
+    "termsPage": {
+      "title": "服务条款",
+      "lastUpdated": "最后更新：2026年1月26日",
+      "cards": {
+        "legalBinding": {
+          "title": "法律约束",
+          "description": "访问本网站即表示您同意遵守我们的使用条款和工业标准。"
+        },
+        "technicalDisclaimer": {
+          "title": "技术免责声明",
+          "description": "所提供的工程数据仅供参考。最终规格取决于经验证的图纸。"
+        }
+      },
+      "sections": {
+        "acceptance": {
+          "title": "1. 条款接受",
+          "content": "访问和使用福州瑞博橡胶有限公司（以下简称「本网站」）的网站，即表示您已阅读、理解并同意受这些服务条款的约束。如果您不同意，请停止使用本网站。"
+        },
+        "siteContent": {
+          "title": "2. 网站内容使用",
+          "content": "本网站上的内容，包括技术数据表、材料规格和制造工艺描述，仅供专业参考之用。",
+          "items": [
+            "您可以下载材料用于贵公司对我们服务的评估。",
+            "未经授权的商业分发或复制是被禁止的。",
+            "滥用我们的询价系统或自动抓取技术数据是严格禁止的。"
+          ]
+        },
+        "intellectualProperty": {
+          "title": "3. 知识产权",
+          "content": "本网站上显示的所有商标、标志和服务标记均为RubberQ或第三方的财产。「RubberQ」和RubberQ标志是注册商标。本网站的设计、布局和「外观和感觉」受版权法保护。"
+        },
+        "engineeringDisclaimer": {
+          "title": "4. 工程免责声明",
+          "content": "虽然我们力求在技术博客和材料指南中达到100%的准确性，但所提供的信息仅供一般参考。橡胶部件的性能高度依赖于具体的应用环境。最终的材料选择和零件设计应通过专业的工程审查和原型验证来确认。"
+        },
+        "quotations": {
+          "title": "5. 报价与订单",
+          "content": "通过本网站提交询价并不构成具有约束力的合同。正式的制造协议仅在RubberQ以书面形式接受采购订单（PO）后才成立，并受我们标准的工业销售条款和条件约束。"
+        },
+        "liability": {
+          "title": "6. 责任限制",
+          "content": "RubberQ不对因您使用本网站或依赖本网站提供的任何信息而产生的任何直接、间接、附带或后果性损害承担责任。"
+        },
+        "governingLaw": {
+          "title": "7. 适用法律",
+          "content": "这些条款受中华人民共和国法律管辖。因使用本网站而产生的任何争议应由福建省福州市的法院专属管辖。"
+        }
+      },
+      "contact": {
+        "title": "有疑问？",
+        "description": "如有关于我们条款的法律咨询，请联系：",
+        "department": "法务部",
+        "company": "福州瑞博橡胶有限公司",
+        "email": "邮箱：contact@rubberq.com"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "Normal local production build; no candidate draft modules or private injected routes. Not a deployment.",
+  "markers": {
+    "rubberq-local-article-review": [],
+    "/__review/articles/": [],
+    "/__review/blog": [],
+    "article-metadata-current.json": [],
+    "expected_source_revision": []
+  },
+  "pass": true
+}

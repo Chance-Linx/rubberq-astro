@@ -60,7 +60,7 @@
     },
     "privacy": {
       "title": "Privacy Policy | RubberQ",
-      "description": "How RubberQ collects, uses, and protects your business data."
+      "description": "Read how RubberQ handles business contact details, RFQ information and technical files submitted through this website, and how to contact us about your data."
     },
     "quality": {
       "title": "Quality Assurance | RubberQ",
@@ -76,7 +76,7 @@
     },
     "terms": {
       "title": "Terms of Service | RubberQ",
-      "description": "Terms and conditions for RubberQ website and manufacturing services."
+      "description": "Read RubberQ’s website terms covering technical information, intellectual property, quotations and orders, and how to contact us with questions."
     },
     "about": {
       "title": "Our Heritage | RubberQ",
@@ -6775,5 +6775,35 @@
       "slogan": "Japanese Formulation. Chinese Precision. Trusted Since 1995.",
       "tagline": "Compounded by Japan. Built in China. Tested in-House."
     }
+  },
+  "search": {
+    "inputLabel": "Search RubberQ",
+    "button": "Search",
+    "placeholder": "Material, part, process or engineering question",
+    "initial": "Search by material, part type, manufacturing process or an engineering question.",
+    "empty": "No matching pages or articles were returned. Try a material name or a shorter phrase.",
+    "results": "{count} results for “{query}”",
+    "pageLabel": "Website page",
+    "articleLabel": "English article",
+    "pagination": "Search results pages",
+    "previous": "Previous",
+    "next": "Next",
+    "pageCount": "Page {page} of {total}",
+    "tooLong": "Use 160 characters or fewer.",
+    "contact": "Discuss your component requirement",
+    "resources": "Browse engineering resources"
+  },
+  "blogListing": {
+    "all": "All articles",
+    "categoryLabel": "Article categories",
+    "pagination": "Article pages",
+    "previous": "Previous",
+    "next": "Next",
+    "pageCount": "Page {page} of {total}",
+    "count": "{count} articles",
+    "empty": "No articles match this category. Browse all articles or explore our engineering resources.",
+    "resources": "Engineering resources",
+    "contact": "Discuss your component requirement",
+    "pageSuffix": "Page {page}"
   }
 }

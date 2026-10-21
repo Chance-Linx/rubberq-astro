@@ -1,5 +1,7 @@
 ---
 import LocaleLayout from '@/layouts/LocaleLayout.astro';
+import JsonLd from '@/components/JsonLd';
+import { createLocaleAlternates } from '@/lib/seoMetadata';
 import { getTranslations, t } from '@/lib/i18n';
 
 export function getStaticPaths() {
@@ -9,6 +11,7 @@ export function getStaticPaths() {
 const { locale = 'en' } = Astro.params;
 const messages = await getTranslations(locale);
 const meta = messages?.metadata || {};
+const canonical = createLocaleAlternates(locale, '/privacy').canonical;
 const _ = (key: string, fallback = '') => t(messages, `privacyPage.${key}`, fallback);
 ---
 
@@ -16,9 +19,14 @@ const _ = (key: string, fallback = '') => t(messages, `privacyPage.${key}`, fall
   <Fragment slot="head">
     <title>{meta.privacy?.title || 'Privacy Policy | RubberQ'}</title>
     <meta name="description" content={meta.privacy?.description || ''} />
+    <meta property="og:title" content={meta.privacy?.title} /><meta property="og:description" content={meta.privacy?.description} />
+    <meta property="og:url" content={canonical} /><meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" /><meta name="twitter:title" content={meta.privacy?.title} />
+    <meta name="twitter:description" content={meta.privacy?.description} />
+    <JsonLd data={{ '@context':'https://schema.org', '@type':'WebPage', name:meta.privacy?.title, description:meta.privacy?.description, url:canonical, inLanguage:locale }} />
   </Fragment>
 
-  <div class="bg-white min-h-screen">
+  <div class="bg-white min-h-screen hyphens-auto [overflow-wrap:anywhere]">
     <!-- Header -->
     <section class="bg-industrial-900 text-white py-20 px-4">
       <div class="max-w-4xl mx-auto">
@@ -29,7 +37,7 @@ const _ = (key: string, fallback = '') => t(messages, `privacyPage.${key}`, fall
 
     <!-- Content -->
     <section class="py-16 px-4">
-      <div class="max-w-4xl mx-auto prose prose-industrial max-w-none">
+      <div class="max-w-4xl mx-auto prose prose-industrial">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
           <div class="p-6 bg-industrial-50 border border-industrial-100">
             <svg class="w-8 h-8 text-accent-orange mb-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

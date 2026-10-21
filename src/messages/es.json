@@ -60,7 +60,7 @@
     },
     "privacy": {
       "title": "Política de Privacidad | RubberQ",
-      "description": "Cómo RubberQ recopila, utiliza y protege sus datos comerciales."
+      "description": "Consulte cómo RubberQ trata los datos de contacto, solicitudes de cotización y archivos técnicos del sitio, y cómo plantear consultas sobre sus datos."
     },
     "quality": {
       "title": "Garantía de Calidad | RubberQ",
@@ -75,8 +75,8 @@
       "description": "Guía completa de cumplimiento ASTM D2000, SAE J200, RoHS, REACH."
     },
     "terms": {
-      "title": "Terms of Service | RubberQ",
-      "description": "Terms and conditions for RubberQ website and manufacturing services."
+      "title": "Términos de Servicio | RubberQ",
+      "description": "Lea las condiciones de RubberQ sobre información técnica, propiedad intelectual, cotizaciones y pedidos, y encuentre nuestros datos de contacto."
     },
     "about": {
       "title": "Nuestro Legado | RubberQ",
@@ -6739,5 +6739,35 @@
         "faq": []
       }
     }
+  },
+  "search": {
+    "inputLabel": "Buscar en RubberQ",
+    "button": "Buscar",
+    "placeholder": "Material, pieza, proceso o pregunta técnica",
+    "initial": "Busque por material, tipo de pieza, proceso de fabricación o pregunta técnica.",
+    "empty": "No se encontraron páginas ni artículos coincidentes. Pruebe con un material o una frase más corta.",
+    "results": "{count} resultados para «{query}»",
+    "pageLabel": "Página web",
+    "articleLabel": "Artículo en inglés",
+    "pagination": "Páginas de resultados",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "pageCount": "Página {page} de {total}",
+    "tooLong": "Use un máximo de 160 caracteres.",
+    "contact": "Consultar los requisitos de su pieza",
+    "resources": "Ver recursos de ingeniería"
+  },
+  "blogListing": {
+    "all": "Todos los artículos",
+    "categoryLabel": "Categorías de artículos",
+    "pagination": "Páginas de artículos",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "pageCount": "Página {page} de {total}",
+    "count": "{count} artículos",
+    "empty": "No hay artículos en esta categoría. Consulte todos los artículos o los recursos de ingeniería.",
+    "resources": "Recursos de ingeniería",
+    "contact": "Consultar los requisitos de su pieza",
+    "pageSuffix": "Página {page}"
   }
 }

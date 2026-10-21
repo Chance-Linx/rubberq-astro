@@ -51,12 +51,12 @@ def main():
  for url in selected:
   targets[url]['implementation_status']=STAGE;targets[url]['implementation_evidence']='ownership/page-content-modules.json';targets[url]['coverage_verified']=False
  write(BASE/'ownership/page-content-modules.json',report);write(BASE/'ownership/content-implementation-queue.json',queue)
- state=read(BASE/'execution-state.json');state['requirements']['page_content_modules']={'required':len(targets),'implemented_local':len(selected),'remaining':len(targets)-len(selected),'locales':LOCALES,'rendered_routes_checked':summary['rendered_routes'],'accepted_topic_coverage':0,'artifact':'ownership/page-content-modules.json'}
- remaining=len(targets)-len(selected)
+ state=read(BASE/'execution-state.json');remaining=len(targets)-len(selected)
+ state['requirements']['page_content_modules']={'required':len(targets),'implemented_local':len(selected),'remaining':len(targets)-len(selected),'locales':LOCALES,'rendered_routes_checked':summary['rendered_routes'],'accepted_topic_coverage':0,'artifact':'ownership/page-content-modules.json'}
  backlink_stage='page_modules_implemented' if remaining==0 else 'partially_implemented'
  state['requirements']['content_revision_drafts']['page_backlinks']=f'{backlink_stage}_{len(selected)}_of_{len(targets)}_pages_local_only_final_review_pending'
- state['requirements']['dashboard_reconciliation']=f'Editorial ownership reconciled; {len(selected)}/{len(targets)} page modules and source links implemented, operational keyword/graph reconciliation remains pending.'
- state['next_action']=(f"Continue the remaining {remaining} page-owner modules in five locales, then " if remaining else "Complete ")+"article assets/production layout, metadata repairs, keyword/graph reconciliation, specialized pages/mobile/RFQ, then one consolidated final review."
+ if remaining: state['requirements']['dashboard_reconciliation']=f'Editorial ownership reconciled; {len(selected)}/{len(targets)} page modules and source links implemented, operational keyword/graph reconciliation remains pending.'
+ if remaining: state['next_action']=f"Continue the remaining {remaining} page-owner modules in five locales, then complete the outstanding article, specialized page, keyword/graph and RFQ work before consolidated final review."
  write(BASE/'execution-state.json',state)
  evolution=read(BASE/'evidence/source-evolution.json');record=next(x for x in evolution['changes'] if x['path']=='rubberq-astro/src/messages/en.json');record['current_sha256']=sha(ROOT/'src/messages/en.json');record['reason']='Approved acquisition implementation and task-specific five-locale page content; original planning input retained in baseline Git object';write(BASE/'evidence/source-evolution.json',evolution)
  print(json.dumps({'implemented_pages':len(selected),'remaining_pages':len(targets)-len(selected),**summary},ensure_ascii=False))

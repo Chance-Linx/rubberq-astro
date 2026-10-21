@@ -1,0 +1,699 @@
+{
+  "scope": "Local SSR body/function/metadata checks only. Legal source bodies retained; operational/legal assertions are separately pending, not legal approval. Candidate articles are local revisions, ordinary blog/search still read CMS.",
+  "metadata": [
+    {
+      "path": "/search",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "noindex": true,
+        "form_label": true
+      },
+      "pass": true,
+      "html_sha256": "bb7a42df5117cf4a3a722f56269ded24e9700434d6e2c309cde6b280836082d8"
+    },
+    {
+      "path": "/privacy",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "legal_source_body_retained": true,
+        "legal_body_strings_rendered": true,
+        "localized_title": true
+      },
+      "pass": true,
+      "html_sha256": "b94d6997026589d55ce02a5c3257026de2243b1b4992ec61e426e6d97076af3f"
+    },
+    {
+      "path": "/terms",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "legal_source_body_retained": true,
+        "legal_body_strings_rendered": true,
+        "localized_title": true
+      },
+      "pass": true,
+      "html_sha256": "e91d3fd8b4f8ff02b0da575d8009b12403be66c4198394eb26c30dee872c2e3b"
+    },
+    {
+      "path": "/de/search",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "noindex": true,
+        "form_label": true
+      },
+      "pass": true,
+      "html_sha256": "9716708cb7db7ae71647b1e1c7b2ff9a33f19268f8a5dee4e70a40336445e98e"
+    },
+    {
+      "path": "/de/privacy",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "legal_source_body_retained": true,
+        "legal_body_strings_rendered": true,
+        "localized_title": true
+      },
+      "pass": true,
+      "html_sha256": "b6f21405ab277e1e8fad758a01de1f77e441a81cd2d329c687d0dbbc5a8dbade"
+    },
+    {
+      "path": "/de/terms",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "legal_source_body_retained": true,
+        "legal_body_strings_rendered": true,
+        "localized_title": true
+      },
+      "pass": true,
+      "html_sha256": "a7bca37c4e2c39fd08ef995ae19164f7b7e083fcad2d337752899e8b0f23ca26"
+    },
+    {
+      "path": "/ja/search",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "noindex": true,
+        "form_label": true
+      },
+      "pass": true,
+      "html_sha256": "12dd1b7b87c2331cdb5f0bc56b6e2f28398f8d0fe2c39d378368c66a21efd864"
+    },
+    {
+      "path": "/ja/privacy",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "legal_source_body_retained": true,
+        "legal_body_strings_rendered": true,
+        "localized_title": true
+      },
+      "pass": true,
+      "html_sha256": "fba9d135dcf1df4f2cfddf01398da4c76e7d75e410c173a0c1aee43479f569fe"
+    },
+    {
+      "path": "/ja/terms",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "legal_source_body_retained": true,
+        "legal_body_strings_rendered": true,
+        "localized_title": true
+      },
+      "pass": true,
+      "html_sha256": "b0a4b4cff8e228c37ebecb169e8e1a5331bce5921c500d206a804d311673c282"
+    },
+    {
+      "path": "/es/search",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "noindex": true,
+        "form_label": true
+      },
+      "pass": true,
+      "html_sha256": "092fc6df430aed061961b4899b5d217e01d9bb1d1bb13d7fc5e9bf79ee6c1711"
+    },
+    {
+      "path": "/es/privacy",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "legal_source_body_retained": true,
+        "legal_body_strings_rendered": true,
+        "localized_title": true
+      },
+      "pass": true,
+      "html_sha256": "828d80990ded52320a7bf24a8db77e4d139b2b90cb20cec5e66dfa46f7921720"
+    },
+    {
+      "path": "/es/terms",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "legal_source_body_retained": true,
+        "legal_body_strings_rendered": true,
+        "localized_title": true
+      },
+      "pass": true,
+      "html_sha256": "41e2a66ed22be927b9348e52001641612fb6cbe0b91fdca11e8ca07c9f177932"
+    },
+    {
+      "path": "/zh/search",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "noindex": true,
+        "form_label": true
+      },
+      "pass": true,
+      "html_sha256": "01a7a314575e9af335c7d9a32fa78ffba9531afdf365a98db369aad931a0ebf8"
+    },
+    {
+      "path": "/zh/privacy",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "legal_source_body_retained": true,
+        "legal_body_strings_rendered": true,
+        "localized_title": true
+      },
+      "pass": true,
+      "html_sha256": "33b7521a42dad574dfe81a7f68a43423321b2fb4ffe745f905f8f426273ad5e4"
+    },
+    {
+      "path": "/zh/terms",
+      "checks": {
+        "status": true,
+        "h1": true,
+        "title": true,
+        "description": true,
+        "canonical": true,
+        "hreflang": true,
+        "og_title": true,
+        "og_description": true,
+        "og_url": true,
+        "twitter_description": true,
+        "schema": true,
+        "legal_source_body_retained": true,
+        "legal_body_strings_rendered": true,
+        "localized_title": true
+      },
+      "pass": true,
+      "html_sha256": "b9d20660b63423dc6cabc491617b9ee3f4448be3008a658f3c8483424a2293d8"
+    }
+  ],
+  "candidate_blog": [
+    {
+      "path": "/blog",
+      "ids": [
+        "article-rob-002",
+        "article-sem-001",
+        "JKXFHBvvO5hPVDVOF6CvU1",
+        "QeuV1LXZQHOxh8iFCMqHnO",
+        "article-ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+        "article-cryogenic-deflashing-vs-manual-trimming-precision-rubber-parts",
+        "article-industrial-bellows-material-selection-flex-life-media-exposure",
+        "article-batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
+        "article-post-curing-silicone-rubber-parts-volatile-control-compression-set",
+        "JKXFHBvvO5hPVDVOF65r3m",
+        "Iht31guWKGVyy0fDUhwndE",
+        "Iht31guWKGVyy0fDUhwo2m"
+      ],
+      "checks": {
+        "status": true,
+        "page_size": true,
+        "only_expected": true,
+        "canonical": true,
+        "no_source_cover_images": true,
+        "private_noindex": true,
+        "schema_items": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/blog?page=2",
+      "ids": [
+        "JKXFHBvvO5hPVDVOF660gv",
+        "JKXFHBvvO5hPVDVOF661TT",
+        "JKXFHBvvO5hPVDVOF66045",
+        "QeuV1LXZQHOxh8iFCMnkLO",
+        "Iht31guWKGVyy0fDUhwnb6",
+        "JKXFHBvvO5hPVDVOF65tsY",
+        "QeuV1LXZQHOxh8iFCMnkjO",
+        "Iht31guWKGVyy0fDUhwqHh",
+        "JKXFHBvvO5hPVDVOF65qCN",
+        "Iht31guWKGVyy0fDUhwngQ",
+        "Iht31guWKGVyy0fDUhwnXu",
+        "JKXFHBvvO5hPVDVOF65tZ8"
+      ],
+      "checks": {
+        "status": true,
+        "page_size": true,
+        "only_expected": true,
+        "canonical": true,
+        "no_source_cover_images": true,
+        "private_noindex": true,
+        "schema_items": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/blog?page=3",
+      "ids": [
+        "JKXFHBvvO5hPVDVOF65vMn",
+        "Iht31guWKGVyy0fDUhwnFo",
+        "article-spc-rubber-molding-cpk-zero-defect"
+      ],
+      "checks": {
+        "status": true,
+        "page_size": true,
+        "only_expected": true,
+        "canonical": true,
+        "no_source_cover_images": true,
+        "private_noindex": true,
+        "schema_items": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/blog?category=Industrial+Equipment",
+      "ids": [
+        "article-industrial-bellows-material-selection-flex-life-media-exposure"
+      ],
+      "checks": {
+        "exact_category_subset": true,
+        "noindex": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/blog?category=Process+Engineering",
+      "ids": [
+        "article-cryogenic-deflashing-vs-manual-trimming-precision-rubber-parts",
+        "article-post-curing-silicone-rubber-parts-volatile-control-compression-set"
+      ],
+      "checks": {
+        "exact_category_subset": true,
+        "noindex": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/blog?category=Quality",
+      "ids": [
+        "article-ppap-rubber-parts-ev-industrial-tier-2-buyer-checklist",
+        "article-batch-traceability-rubber-manufacturing-raw-polymer-shipment-records"
+      ],
+      "checks": {
+        "exact_category_subset": true,
+        "noindex": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/blog?category=technical",
+      "ids": [
+        "article-spc-rubber-molding-cpk-zero-defect"
+      ],
+      "checks": {
+        "exact_category_subset": true,
+        "noindex": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/blog?category=Unknown-category-rq-20261021",
+      "ids": [],
+      "checks": {
+        "exact_category_subset": true,
+        "noindex": true
+      },
+      "pass": true
+    }
+  ],
+  "ordinary_blog": {
+    "path": "/blog",
+    "checks": {
+      "pagination": true,
+      "ordinary_no_private_header": true,
+      "canonical": true,
+      "schema": true,
+      "has_public_articles": true,
+      "h1": true,
+      "title": true,
+      "description": true,
+      "og_description": true
+    },
+    "pass": true
+  },
+  "candidate_search": [
+    {
+      "path": "/search?q=FFKM",
+      "links": [
+        "/products/ffkm-replacement-seals",
+        "/materials/ffkm",
+        "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+        "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
+        "/about",
+        "/products",
+        "/products/seals",
+        "/materials",
+        "/materials/fkm",
+        "/industries/semiconductor",
+        "/resources/material-compatibility",
+        "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing"
+      ],
+      "checks": {
+        "localized_ffkm_page": true,
+        "localized_replacement_page": true,
+        "revised_english_article": true,
+        "retained_input": true,
+        "no_browser_cms_query": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/de/search?q=FFKM",
+      "links": [
+        "/de/products/ffkm-replacement-seals",
+        "/de/materials/ffkm",
+        "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+        "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
+        "/de/about",
+        "/de/products",
+        "/de/products/seals",
+        "/de/materials",
+        "/de/materials/fkm",
+        "/de/industries/semiconductor",
+        "/de/resources/material-compatibility",
+        "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing"
+      ],
+      "checks": {
+        "localized_ffkm_page": true,
+        "localized_replacement_page": true,
+        "revised_english_article": true,
+        "retained_input": true,
+        "no_browser_cms_query": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/ja/search?q=FFKM",
+      "links": [
+        "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+        "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
+        "/ja/products/ffkm-replacement-seals",
+        "/ja/materials/ffkm",
+        "/ja/materials",
+        "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing"
+      ],
+      "checks": {
+        "localized_ffkm_page": true,
+        "localized_replacement_page": true,
+        "revised_english_article": true,
+        "retained_input": true,
+        "no_browser_cms_query": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/es/search?q=FFKM",
+      "links": [
+        "/es/products/ffkm-replacement-seals",
+        "/es/materials/ffkm",
+        "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+        "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
+        "/es/about",
+        "/es/products",
+        "/es/products/seals",
+        "/es/materials",
+        "/es/materials/fkm",
+        "/es/industries/semiconductor",
+        "/es/resources/material-compatibility",
+        "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing"
+      ],
+      "checks": {
+        "localized_ffkm_page": true,
+        "localized_replacement_page": true,
+        "revised_english_article": true,
+        "retained_input": true,
+        "no_browser_cms_query": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/zh/search?q=FFKM",
+      "links": [
+        "/zh/products/ffkm-replacement-seals",
+        "/zh/materials/ffkm",
+        "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+        "/blog/fkm-vs-ffkm-when-is-the-3x-cost-increase-justified-for-chemical-processing",
+        "/zh/products/seals",
+        "/zh/industries/semiconductor",
+        "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing"
+      ],
+      "checks": {
+        "localized_ffkm_page": true,
+        "localized_replacement_page": true,
+        "revised_english_article": true,
+        "retained_input": true,
+        "no_browser_cms_query": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/search?q=rqzznomatch20261021",
+      "checks": {
+        "no_results": true,
+        "no_injected_script_node": true,
+        "input_value_roundtrip": true,
+        "no_injected_event_handler": true,
+        "accessible_feedback": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/search?q=%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+      "checks": {
+        "no_results": true,
+        "no_injected_script_node": true,
+        "input_value_roundtrip": true,
+        "no_injected_event_handler": true,
+        "accessible_feedback": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/search?q=%22%3E%3Cscript%3Ealert%281%29%3C%2Fscript%3E",
+      "checks": {
+        "no_results": true,
+        "no_injected_script_node": true,
+        "input_value_roundtrip": true,
+        "no_injected_event_handler": true,
+        "accessible_feedback": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/search?q=%22+autofocus+onfocus%3Dalert%281%29+x%3D%22",
+      "checks": {
+        "no_results": true,
+        "no_injected_script_node": true,
+        "input_value_roundtrip": true,
+        "no_injected_event_handler": true,
+        "accessible_feedback": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/search?q=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "checks": {
+        "no_results": true,
+        "no_injected_script_node": true,
+        "input_value_roundtrip": true,
+        "no_injected_event_handler": true,
+        "accessible_feedback": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/search?q=rubber&page=1",
+      "links": [
+        "/about",
+        "/products",
+        "/products/seals",
+        "/products/gaskets",
+        "/products/bellows",
+        "/products/custom",
+        "/products/diaphragms",
+        "/products/rubber-to-metal-bonded-parts",
+        "/materials",
+        "/materials/nbr",
+        "/materials/lsr",
+        "/materials/acm"
+      ],
+      "checks": {
+        "full_page": true,
+        "query_retained_in_pagination": true
+      },
+      "pass": true
+    },
+    {
+      "path": "/search?q=rubber&page=2",
+      "links": [
+        "/capabilities",
+        "/capabilities/rubber-molding",
+        "/compounding",
+        "/compounds",
+        "/testing",
+        "/industries",
+        "/industries/semiconductor",
+        "/industries/liquid-cooling-energy-storage",
+        "/industries/ev-energy-storage",
+        "/industries/humanoid-robotics",
+        "/industries/industrial-equipment",
+        "/industries/automotive-tier2"
+      ],
+      "checks": {
+        "full_page": true,
+        "query_retained_in_pagination": true
+      },
+      "pass": true
+    }
+  ],
+  "source_sha256": {
+    "src/lib/contentDiscovery.ts": "1fe4846506b1b0ece1d852def24db66f4ee4b0714a8d913c0935dd77c4236ea7",
+    "src/components/blog/BlogIndex.astro": "f6a704ff52780b18423a7e1d95270f90857e62a1e0cee074e5052dba0964ebaf",
+    "src/layouts/BlogLayout.astro": "fc71ffa1466a813f40f19046cb5c44e7412b8d889358d5173cb7722a8ea915c7",
+    "src/pages/blog/index.astro": "bc1c300797069ea5ea295f3d2021e422d21eac688cf79426bd29024532d3681a",
+    "src/pages/en/blog/index.astro": "bc1c300797069ea5ea295f3d2021e422d21eac688cf79426bd29024532d3681a",
+    "src/pages/[locale]/search.astro": "ee1707cc283078301b4a639b465a34aba90d0b9e1a53373fdeb6f1a6c7e0af7a",
+    "src/pages/[locale]/privacy.astro": "02d254238bc8a81d7241320077b43709a38336d9fa6ffaf6cf43c8539167851c",
+    "src/pages/[locale]/terms.astro": "d94378e32a89a011307d01d2764362bee432d5738c8858960b0ca2b66a926fc3",
+    "src/messages/en.json": "b2a177f2d5cb5c188e221ddd3d81cd8d64e8fa4b224f47e60e05ec143dc6b6ab",
+    "src/messages/de.json": "db519ef1a601ca1653025ce516cec9a74b40221affa0fc56d39c589b0f32b9fb",
+    "src/messages/ja.json": "65fe8eac110e5bbd37bef0a6862ade2f4269375898316188d5b2e55021908cbb",
+    "src/messages/es.json": "2df10cc50ee7a8b3e7d8f9076fc20d9e05e13a8fb7b9903c67149007e8b6d4e7",
+    "src/messages/zh.json": "09ad5a231f49f77564b5d63f578b8261f623281161f64298b45323f24a766146"
+  },
+  "summary": {
+    "checks": 36,
+    "passed": 36,
+    "metadata_routes": 15,
+    "candidate_articles_traversed": 27,
+    "legal_body_fields_preserved": 10,
+    "cms_writes": 0,
+    "paid_calls": 0,
+    "production_deployments": 0
+  }
+}

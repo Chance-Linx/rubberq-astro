@@ -1,0 +1,325 @@
+{
+  "scope": "Actual browser DOM for 16 blog/search/legal routes at 375x812 and 768x1024; not full-site mobile acceptance",
+  "results": [
+    {
+      "h1": "Rubber Component Guides and Application Notes",
+      "path": "/blog",
+      "scrollWidth": 375,
+      "width": 375,
+      "viewport": {
+        "width": 375,
+        "height": 812
+      }
+    },
+    {
+      "h1": "Search RubberQ",
+      "path": "/search?q=FFKM",
+      "scrollWidth": 375,
+      "width": 375,
+      "viewport": {
+        "width": 375,
+        "height": 812
+      }
+    },
+    {
+      "h1": "RubberQ durchsuchen",
+      "path": "/de/search?q=FFKM",
+      "scrollWidth": 375,
+      "width": 375,
+      "viewport": {
+        "width": 375,
+        "height": 812
+      }
+    },
+    {
+      "h1": "RubberQを検索",
+      "path": "/ja/search?q=%E6%B6%B2%E5%86%B7",
+      "scrollWidth": 375,
+      "width": 375,
+      "viewport": {
+        "width": 375,
+        "height": 812
+      }
+    },
+    {
+      "h1": "Buscar en RubberQ",
+      "path": "/es/search?q=FFKM",
+      "scrollWidth": 375,
+      "width": 375,
+      "viewport": {
+        "width": 375,
+        "height": 812
+      }
+    },
+    {
+      "h1": "搜索 RubberQ",
+      "path": "/zh/search?q=%E6%B6%B2%E5%86%B7",
+      "scrollWidth": 375,
+      "width": 375,
+      "viewport": {
+        "width": 375,
+        "height": 812
+      }
+    },
+    {
+      "h1": "Privacy Policy",
+      "path": "/privacy",
+      "scrollWidth": 375,
+      "width": 375,
+      "viewport": {
+        "width": 375,
+        "height": 812
+      }
+    },
+    {
+      "h1": "Datenschutzrichtlinie",
+      "path": "/de/privacy",
+      "scrollWidth": 375,
+      "width": 375,
+      "viewport": {
+        "width": 375,
+        "height": 812
+      }
+    },
+    {
+      "h1": "プライバシーポリシー",
+      "path": "/ja/privacy",
+      "scrollWidth": 375,
+      "width": 375,
+      "viewport": {
+        "width": 375,
+        "height": 812
+      }
+    },
+    {
+      "h1": "Política de Privacidad",
+      "path": "/es/privacy",
+      "scrollWidth": 375,
+      "width": 375,
+      "viewport": {
+        "width": 375,
+        "height": 812
+      }
+    },
+    {
+      "h1": "隐私政策",
+      "path": "/zh/privacy",
+      "scrollWidth": 375,
+      "width": 375,
+      "viewport": {
+        "width": 375,
+        "height": 812
+      }
+    },
+    {
+      "h1": "Terms of Service",
+      "path": "/terms",
+      "scrollWidth": 375,
+      "width": 375,
+      "viewport": {
+        "width": 375,
+        "height": 812
+      }
+    },
+    {
+      "h1": "Nutzungsbedingungen",
+      "path": "/de/terms",
+      "scrollWidth": 375,
+      "width": 375,
+      "viewport": {
+        "width": 375,
+        "height": 812
+      }
+    },
+    {
+      "h1": "利用規約",
+      "path": "/ja/terms",
+      "scrollWidth": 375,
+      "width": 375,
+      "viewport": {
+        "width": 375,
+        "height": 812
+      }
+    },
+    {
+      "h1": "Términos de Servicio",
+      "path": "/es/terms",
+      "scrollWidth": 375,
+      "width": 375,
+      "viewport": {
+        "width": 375,
+        "height": 812
+      }
+    },
+    {
+      "h1": "服务条款",
+      "path": "/zh/terms",
+      "scrollWidth": 375,
+      "width": 375,
+      "viewport": {
+        "width": 375,
+        "height": 812
+      }
+    },
+    {
+      "h1": "Rubber Component Guides and Application Notes",
+      "path": "/blog",
+      "scrollWidth": 768,
+      "width": 768,
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "h1": "Search RubberQ",
+      "path": "/search?q=FFKM",
+      "scrollWidth": 768,
+      "width": 768,
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "h1": "RubberQ durchsuchen",
+      "path": "/de/search?q=FFKM",
+      "scrollWidth": 768,
+      "width": 768,
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "h1": "RubberQを検索",
+      "path": "/ja/search?q=%E6%B6%B2%E5%86%B7",
+      "scrollWidth": 768,
+      "width": 768,
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "h1": "Buscar en RubberQ",
+      "path": "/es/search?q=FFKM",
+      "scrollWidth": 768,
+      "width": 768,
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "h1": "搜索 RubberQ",
+      "path": "/zh/search?q=%E6%B6%B2%E5%86%B7",
+      "scrollWidth": 768,
+      "width": 768,
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "h1": "Privacy Policy",
+      "path": "/privacy",
+      "scrollWidth": 768,
+      "width": 768,
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "h1": "Datenschutzrichtlinie",
+      "path": "/de/privacy",
+      "scrollWidth": 768,
+      "width": 768,
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "h1": "プライバシーポリシー",
+      "path": "/ja/privacy",
+      "scrollWidth": 768,
+      "width": 768,
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "h1": "Política de Privacidad",
+      "path": "/es/privacy",
+      "scrollWidth": 768,
+      "width": 768,
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "h1": "隐私政策",
+      "path": "/zh/privacy",
+      "scrollWidth": 768,
+      "width": 768,
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "h1": "Terms of Service",
+      "path": "/terms",
+      "scrollWidth": 768,
+      "width": 768,
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "h1": "Nutzungsbedingungen",
+      "path": "/de/terms",
+      "scrollWidth": 768,
+      "width": 768,
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "h1": "利用規約",
+      "path": "/ja/terms",
+      "scrollWidth": 768,
+      "width": 768,
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "h1": "Términos de Servicio",
+      "path": "/es/terms",
+      "scrollWidth": 768,
+      "width": 768,
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "h1": "服务条款",
+      "path": "/zh/terms",
+      "scrollWidth": 768,
+      "width": 768,
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    }
+  ]
+}
