@@ -137,7 +137,7 @@ export default function SampleRequestForm({ labels }: { labels: SampleRequestLab
         }
       );
 
-      const res = await fetch('https://rubberq-rfq-api.midnightblue-lin.workers.dev', {
+      const res = await fetch('https://rubberq.com/api/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

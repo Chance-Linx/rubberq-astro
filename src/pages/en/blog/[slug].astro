@@ -1,5 +1,6 @@
 ---
 import BlogLayout from '@/layouts/BlogLayout.astro';
+import { renderArticleContent } from '@/lib/articleContent';
 import { findCanonicalBlogSlug, getBlogPostBySlug, getFeaturedImageUrl, getBlogUrl, getRelatedPosts, getAllBlogPosts, getUnavailableBlogPostStatus } from '@/lib/sanity';
 import JsonLd from '@/components/JsonLd';
 import { createBlogPostingSchema } from '@/lib/structuredData';
@@ -98,9 +99,9 @@ const blogSchema = createBlogPostingSchema({
         </div>
       )}
 
-      <div class="prose prose-invert prose-lg max-w-none mb-16">
+      <div class="prose prose-lg max-w-none mb-16">
         {post.content ? (
-          <Fragment set:html={post.content} />
+          <Fragment set:html={renderArticleContent(post.content)} />
         ) : (
           <p class="text-muted">Content loading...</p>
         )}

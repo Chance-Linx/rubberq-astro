@@ -17,19 +17,29 @@ const messages = await getTranslations(locale);
 // Map slug → i18n key under industriesPage
 const slugToKey: Record<string, string> = {
   'semiconductor': 'semiconductor',
+  'ev-energy-storage': 'ev',
+  'industrial-equipment': 'industrial',
+  'automotive-tier2': 'automotive',
   'humanoid-robotics': 'robotics',
   'ai-data-center-cooling': 'cooling',
   'ev-high-voltage': 'ev',
 };
 const slugToMetaKey: Record<string, string> = {
   'semiconductor': 'industriesSemiconductor',
+  'ev-energy-storage': 'industriesEv',
+  'industrial-equipment': 'industriesIndustrial',
+  'automotive-tier2': 'industriesAutomotive',
   'humanoid-robotics': 'industriesIndustrial',
   'ai-data-center-cooling': 'industriesEv',
   'ev-high-voltage': 'industriesAutomotive',
 };
 
-const i18nKey = slugToKey[slug!] || 'semiconductor';
-const metaKey = slugToMetaKey[slug!] || 'industriesSemiconductor';
+if (!slug || !Object.hasOwn(slugToKey, slug)) {
+  return new Response(null, { status: 404 });
+}
+
+const i18nKey = slugToKey[slug];
+const metaKey = slugToMetaKey[slug];
 const meta = messages?.metadata?.[metaKey] || {};
 const ip = (key: string, fallback = '') => t(messages, `industriesPage.${i18nKey}.${key}`, fallback);
 const pageLabels = {
@@ -38,6 +48,8 @@ const pageLabels = {
 };
 const sectorImages: Record<string, string> = {
   semiconductor: '/images/visuals/semiconductor-cleanroom.jpg',
+  industrial: '/images/visuals/factory-manufacturing.jpg',
+  automotive: '/images/visuals/factory-manufacturing.jpg',
   robotics: '/images/visuals/humanoid-robotics-joint.jpg',
   cooling: '/images/visuals/ai-liquid-cooling.jpg',
   ev: '/images/visuals/ev-high-voltage.jpg',
