@@ -1,0 +1,3 @@
+﻿target_url,category,affected_pages,priority,action,replacement_url,evidence,manual_decision
+https://rubberq.com/cdn-cgi/l/email-protection,Cloudflare生成的失效邮箱链接，应从输出中消除,495,P0,公共布局输出一对email_off标记，移除子组件嵌套标记，保留mailto入口,mailto:contact@rubberq.com,Ahrefs CSV；production-before.json；BaseLayout/LocaleLayout/BlogLayout,无
+https://rubberq.com/materials/vmq,站内错误材料slug，已有等价页面,1,P1,博客输出直连规范地址；共享精确别名表补301并覆盖五语种及旧/en路径,https://rubberq.com/materials/silicone,src/lib/materials.ts silicone.name=Silicone (VMQ)；旧Next材料列表使用silicone；CMS文章HTML,无

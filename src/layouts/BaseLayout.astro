@@ -100,7 +100,11 @@ const cookieConsentMessages = messages.cookieConsent;
     <slot name="head" />
   </head>
   <body class="bg-background text-foreground antialiased min-h-screen">
+    {/* Keep public email addresses clickable in SSR HTML. Child components must
+        not nest these Cloudflare markers, which would expose the footer again. */}
+    <Fragment set:html={'<!--email_off-->'} />
     <slot />
+    <Fragment set:html={'<!--/email_off-->'} />
     <CookieConsent locale={normalizedLang} messages={cookieConsentMessages} client:load />
   </body>
 </html>

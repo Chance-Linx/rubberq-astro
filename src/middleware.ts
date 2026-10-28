@@ -1,5 +1,6 @@
 import { defineMiddleware } from 'astro:middleware';
 import acquisitionPages from './data/acquisition-pages.json';
+import legacyMaterialRedirects from './data/legacy-material-redirects.json';
 
 const locales = new Set(['en', 'de', 'ja', 'es', 'zh']);
 const internalRewriteHeader = 'x-rubberq-internal-rewrite';
@@ -10,6 +11,7 @@ const legacyLocalizedFiles = new Map([
 ]);
 
 const legacyPathRedirects = new Map([
+  ...Object.entries(legacyMaterialRedirects),
   ['/home', '/'],
   ['/es/casos', '/es/case-studies'],
   ['/es/calidad', '/es/quality'],

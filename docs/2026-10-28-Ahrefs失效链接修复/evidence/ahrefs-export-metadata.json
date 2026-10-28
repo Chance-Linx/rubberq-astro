@@ -1,0 +1,18 @@
+{
+  "project": "Rubberq",
+  "project_id": 10553569,
+  "crawl": "2026-10-26 10:56:17 +08:00",
+  "downloaded_on": "2026-10-28",
+  "issue": "Page has links to broken page",
+  "report_url": "https://app.ahrefs.com/site-audit/10553569/data-explorer?columns=pageRating%2Curl%2Ctraffic%2ChttpCode%2CcontentType%2Cdepth%2ClinksInternal4xx%2ClinksCountInternal4xx%2ClinksExternal4xx%2ClinksCountExternal4xx&current=26-10-2026T105617P0800&filterId=ef910605970b081acfca3ff161170299&issueId=c64daf06-d0f4-11e7-8ed1-001e67ed4656&sorting=-pageRating",
+  "csv_sha256": "bdcb071cd618305f7af48913541d47a576646ecefe5cca70068a23f73e9c7019",
+  "source_pages": 495,
+  "blog_article_pages": 243,
+  "other_pages": 252,
+  "broken_link_pairs": 496,
+  "unique_targets": {
+    "https://rubberq.com/cdn-cgi/l/email-protection": 495,
+    "https://rubberq.com/materials/vmq": 1
+  },
+  "external_broken_links": 0
+}

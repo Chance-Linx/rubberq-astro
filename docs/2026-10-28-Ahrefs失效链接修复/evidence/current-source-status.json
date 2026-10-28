@@ -1,0 +1,18 @@
+{
+  "query": "*[_type == \"article\" && slug.current == \"chemical-tankers-lining-solutions-using-bromobutyl-rubber-for-acid-resistance\"][0]{_id,_updatedAt,title,\"slug\":slug.current,status,publishedAt}",
+  "result": {
+    "_id": "Iht31guWKGVyy0fDUhwoXe",
+    "_updatedAt": "2026-05-02T09:04:55Z",
+    "publishedAt": "2026-03-28T05:45:10.000Z",
+    "slug": "chemical-tankers-lining-solutions-using-bromobutyl-rubber-for-acid-resistance",
+    "status": "published",
+    "title": "Chemical Tankers: Lining Solutions using Bromobutyl Rubber for Acid Resistance."
+  },
+  "syncTags": [
+    "s1:aF4yHA"
+  ],
+  "ms": 2,
+  "public_filter_matches": [],
+  "availability_note": "The local 410 during concurrent requests was transient. The lower-concurrency retry returned 200 and passed the same email/link checks. CMS status is published and no existing public-filter term matched.",
+  "local_retry_status": 200
+}

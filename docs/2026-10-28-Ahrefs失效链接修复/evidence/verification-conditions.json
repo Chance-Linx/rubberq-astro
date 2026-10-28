@@ -1,0 +1,20 @@
+{
+  "checked_on": "2026-10-28",
+  "build": "npm run build: passed, including public-redlines and brand-colors",
+  "typecheck": {
+    "files": 91,
+    "errors": 0,
+    "warnings": 0,
+    "hints": 13
+  },
+  "unit_tests": {
+    "passed": 27,
+    "failed": 0
+  },
+  "local_runtime_command": "npx wrangler pages dev dist --port 8897 --ip 127.0.0.1 --compatibility-date 2026-05-11 --log-level error",
+  "local_runtime_note": "Installed workerd supports through 2026-05-11; only the local preview command overrides the date. wrangler.toml remains 2026-05-14. This does not execute the Cloudflare edge email transform.",
+  "source_sha256": "332b461753f3ecbc3e4fa79d41218198558252e9fa4fbc60d87450c249133f2b",
+  "deployment": "not_requested; not_performed",
+  "cms_mutations": 0,
+  "manual_decision_urls": []
+}

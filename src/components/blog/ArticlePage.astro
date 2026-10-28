@@ -1,6 +1,7 @@
 ---
 import BlogLayout from '@/layouts/BlogLayout.astro';
 import { renderArticleContent } from '@/lib/articleContent';
+import { normalizeArticleLinks } from '@/lib/articleLinks';
 import { isArticleCoverSuppressed, makeArticleTablesScrollable } from '@/lib/articlePresentation';
 import { getFeaturedImageUrl, getBlogUrl } from '@/lib/sanity';
 import JsonLd from '@/components/JsonLd';
@@ -75,7 +76,7 @@ const blogSchema = createBlogPostingSchema({
       <!-- Content - rendered as HTML from Sanity portable text or markdown -->
       <div class="article-body prose prose-lg max-w-none min-w-0 mb-16">
         {post.content ? (
-          <Fragment set:html={makeArticleTablesScrollable(renderArticleContent(post.content))} />
+          <Fragment set:html={makeArticleTablesScrollable(normalizeArticleLinks(renderArticleContent(post.content)))} />
         ) : (
           <p class="text-muted">Content loading...</p>
         )}
