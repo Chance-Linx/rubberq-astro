@@ -1,0 +1,22 @@
+{
+  "recorded_at": "2026-10-28T19:43:45.315740+08:00",
+  "project": "rubberq-astro",
+  "production_domain": "https://rubberq.com",
+  "code_commit": "a9e5f8bb59bb17921a8f4245dbcede6f26c5ddcd",
+  "source_sha256": "332b461753f3ecbc3e4fa79d41218198558252e9fa4fbc60d87450c249133f2b",
+  "deployment_command": "npx wrangler pages deploy dist --project-name=rubberq-astro --branch=main --commit-hash=a9e5f8b --commit-message=修复Ahrefs发现的全站邮箱及VMQ失效链接 --commit-dirty=true",
+  "deployment_exit_code": 0,
+  "build": "npm run build: passed; includes public redlines and brand colors",
+  "environment": "Production",
+  "previous_production_deployment_id": "1b67054b-b977-4dac-a1ce-64fdb147961f",
+  "platform_record": {
+    "Id": "59c6117e-c00e-458a-b8a5-b16a8c58ac12",
+    "Environment": "Production",
+    "Branch": "main",
+    "Source": "a9e5f8b",
+    "Deployment": "https://59c6117e.rubberq-astro.pages.dev",
+    "Status": "2 minutes ago",
+    "Build": "https://dash.cloudflare.com/bd6443a7f85aea8396ebb239016261e3/pages/view/rubberq-astro/59c6117e-c00e-458a-b8a5-b16a8c58ac12"
+  },
+  "working_tree": "Existing uncommitted Astro cache, governance script and unrelated local documents were retained; src/public/config/package files match commit. No Git push was required for this direct Pages upload."
+}
