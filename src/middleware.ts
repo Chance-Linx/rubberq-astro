@@ -1,6 +1,7 @@
 import { defineMiddleware } from 'astro:middleware';
 import acquisitionPages from './data/acquisition-pages.json';
 import legacyMaterialRedirects from './data/legacy-material-redirects.json';
+import retiredArticleRedirects from './data/retired-article-redirects.json';
 
 const locales = new Set(['en', 'de', 'ja', 'es', 'zh']);
 const internalRewriteHeader = 'x-rubberq-internal-rewrite';
@@ -12,6 +13,8 @@ const legacyLocalizedFiles = new Map([
 
 const legacyPathRedirects = new Map([
   ...Object.entries(legacyMaterialRedirects),
+  // 2026-10-31: template articles with unsupported data, consolidated into owner pages per the 10-21 disposition table.
+  ...Object.entries(retiredArticleRedirects),
   ['/home', '/'],
   ['/es/casos', '/es/case-studies'],
   ['/es/calidad', '/es/quality'],
