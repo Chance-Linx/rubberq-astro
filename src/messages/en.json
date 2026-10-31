@@ -5941,11 +5941,11 @@
         "faq": []
       },
       "RQ-PG-038": {
-        "label": "O-Ring Size Guide",
-        "title": "O-Ring Size and Drawing Guide | RubberQ",
-        "description": "Identify O-ring size with inside diameter, cross-section, units and drawing revision. Check the specified size series, groove and material before quoting.",
-        "h1": "O-Ring Size and Drawing Guide",
-        "intro": "Prepare the dimensions needed for an O-ring review. Record the inside diameter, cross-section, groove and mating-part dimensions together with the service conditions.",
+        "label": "O-Ring Size Chart",
+        "title": "AS568 O-Ring Size Chart (Inch & Metric) | RubberQ",
+        "description": "Searchable AS568 O-ring size chart: all 369 dash sizes with ID, cross-section and OD in inches and mm, plus tolerances. Find a size from measured dimensions.",
+        "h1": "AS568 O-Ring Size Chart",
+        "intro": "Look up any AS568 dash size, or match a measured inside diameter and cross-section to the nearest standard O-ring. Then check the groove, material and service conditions before quoting.",
         "sections": [
           {
             "heading": "Identify dimensions and the size reference",
@@ -6820,5 +6820,56 @@
     "resources": "Engineering resources",
     "contact": "Discuss your component requirement",
     "pageSuffix": "Page {page}"
+  },
+  "tools": {
+    "oringChart": {
+      "kicker": "AS568 reference",
+      "title": "AS568 O-ring size chart",
+      "intro": "All 369 SAE AS568 dash sizes with inside diameter, cross-section and outside diameter in inches and millimetres. Search by dash number, or enter a measured ID or CS (for example 24.99 or 0.139) to find the nearest standard sizes.",
+      "series": {
+        "000": {
+          "label": "-001 to -050",
+          "cs": "CS 0.070 in / 1.78 mm"
+        },
+        "100": {
+          "label": "-102 to -178",
+          "cs": "CS 0.103 in / 2.62 mm"
+        },
+        "200": {
+          "label": "-201 to -284",
+          "cs": "CS 0.139 in / 3.53 mm"
+        },
+        "300": {
+          "label": "-309 to -395",
+          "cs": "CS 0.210 in / 5.33 mm"
+        },
+        "400": {
+          "label": "-425 to -475",
+          "cs": "CS 0.275 in / 6.99 mm"
+        },
+        "900": {
+          "label": "-901 to -932",
+          "cs": "Boss seals, CS 0.056–0.118 in"
+        }
+      },
+      "searchLabel": "Dash number or dimension",
+      "searchPlaceholder": "e.g. 214, 24.99 or 0.139",
+      "seriesLabel": "Series",
+      "allSeries": "All series",
+      "countTemplate": "Showing {shown} of {total} sizes",
+      "caption": "SAE AS568 O-ring dimensions. Tolerances shown as ±.",
+      "columns": {
+        "dash": "Dash no.",
+        "idIn": "ID (in)",
+        "csIn": "CS (in)",
+        "odIn": "OD (in)",
+        "idMm": "ID (mm)",
+        "csMm": "CS (mm)",
+        "odMm": "OD (mm)"
+      },
+      "note": "OD is calculated as ID + 2 × CS. Dimensions follow SAE AS568; confirm the edition and tolerance class specified on your drawing. A standard size does not define the compound, hardness or groove: state those separately.",
+      "ctaText": "Need these sizes in FKM, FFKM, EPDM, HNBR or a non-standard dimension? Send the dash number or dimensions with the material requirement.",
+      "ctaButton": "Request an O-ring quotation"
+    }
   }
 }

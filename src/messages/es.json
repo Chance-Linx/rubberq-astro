@@ -6007,11 +6007,11 @@
         "faq": []
       },
       "RQ-PG-038": {
-        "label": "Medidas de juntas tóricas",
-        "title": "Medidas y planos de juntas tóricas | RubberQ",
-        "description": "Identifique tamaño de O-ring con diámetro interior, sección, unidades y revisión del plano. Revise serie, alojamiento y material antes de pedir una oferta.",
-        "h1": "Medidas y planos de juntas tóricas",
-        "intro": "Prepare las dimensiones para evaluar una junta tórica. Registre diámetro interior, sección, alojamiento y piezas de contacto junto con las condiciones de servicio.",
+        "label": "Tabla de juntas tóricas",
+        "title": "Tabla de tamaños de juntas tóricas AS568 (in y mm) | RubberQ",
+        "description": "Tabla AS568 con búsqueda: los 369 tamaños con DI, sección y DE en pulgadas y mm, con tolerancias. Encuentre el tamaño estándar a partir de medidas reales.",
+        "h1": "Tabla de tamaños de juntas tóricas AS568",
+        "intro": "Consulte cualquier tamaño AS568 o relacione un diámetro interior y una sección medidos con la junta tórica estándar más cercana. Después revise el alojamiento, el material y las condiciones de servicio.",
         "sections": [
           {
             "heading": "Identificar dimensiones y referencia de tamaño",
@@ -6784,5 +6784,56 @@
     "resources": "Recursos de ingeniería",
     "contact": "Consultar los requisitos de su pieza",
     "pageSuffix": "Página {page}"
+  },
+  "tools": {
+    "oringChart": {
+      "kicker": "Referencia AS568",
+      "title": "Tabla de tamaños de juntas tóricas AS568",
+      "intro": "Los 369 tamaños SAE AS568 con diámetro interior, sección y diámetro exterior en pulgadas y milímetros. Busque por número de tamaño o introduzca un DI o una sección medidos (por ejemplo 24.99 o 0.139) para encontrar los tamaños estándar más cercanos.",
+      "series": {
+        "000": {
+          "label": "-001 a -050",
+          "cs": "Sección 0,070 in / 1,78 mm"
+        },
+        "100": {
+          "label": "-102 a -178",
+          "cs": "Sección 0,103 in / 2,62 mm"
+        },
+        "200": {
+          "label": "-201 a -284",
+          "cs": "Sección 0,139 in / 3,53 mm"
+        },
+        "300": {
+          "label": "-309 a -395",
+          "cs": "Sección 0,210 in / 5,33 mm"
+        },
+        "400": {
+          "label": "-425 a -475",
+          "cs": "Sección 0,275 in / 6,99 mm"
+        },
+        "900": {
+          "label": "-901 a -932",
+          "cs": "Juntas para racores, 0,056–0,118 in"
+        }
+      },
+      "searchLabel": "Número de tamaño o dimensión",
+      "searchPlaceholder": "p. ej. 214, 24.99 o 0.139",
+      "seriesLabel": "Serie",
+      "allSeries": "Todas las series",
+      "countTemplate": "{shown} de {total} tamaños",
+      "caption": "Dimensiones de juntas tóricas SAE AS568. Tolerancias en ±.",
+      "columns": {
+        "dash": "Tamaño",
+        "idIn": "DI (in)",
+        "csIn": "Sección (in)",
+        "odIn": "DE (in)",
+        "idMm": "DI (mm)",
+        "csMm": "Sección (mm)",
+        "odMm": "DE (mm)"
+      },
+      "note": "El DE se calcula como DI + 2 × sección. Dimensiones según SAE AS568; confirme la edición y la clase de tolerancia indicadas en su plano. Un tamaño estándar no define el compuesto, la dureza ni el alojamiento: indíquelos por separado.",
+      "ctaText": "¿Necesita estos tamaños en FKM, FFKM, EPDM, HNBR o una dimensión especial? Envíe el número de tamaño o las dimensiones junto con el requisito de material.",
+      "ctaButton": "Solicitar cotización de juntas tóricas"
+    }
   }
 }

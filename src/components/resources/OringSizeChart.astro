@@ -1,0 +1,143 @@
+---
+import data from '@/data/as568.json';
+import { getTranslations, localizedPath, tRaw } from '@/lib/i18n';
+import { inquiryPath } from '@/lib/acquisition';
+
+interface Props { locale: string }
+const { locale } = Astro.props;
+const messages = await getTranslations(locale);
+const ui = tRaw(messages, 'tools.oringChart');
+const sizes = data.sizes;
+const series = ['000', '100', '200', '300', '400', '900'];
+const inch = (v: number) => v.toFixed(3);
+const mm = (v: number) => v.toFixed(2);
+const tol = (v: number | null, f: (n: number) => string) => (v == null ? '' : ` ± ${f(v)}`);
+const inquiry = localizedPath(locale, '/contact') + inquiryPath('', '/resources/o-ring-size-guide');
+---
+<section class="rq-oring" id="as568-size-chart" data-section-name="as568-size-chart" aria-labelledby="as568-title">
+  <p class="rq-oring-kicker">{ui.kicker}</p>
+  <h2 id="as568-title">{ui.title}</h2>
+  <p class="rq-oring-intro">{ui.intro}</p>
+  <dl class="rq-oring-series">
+    {series.map((s) => <div><dt>{ui.series[s].label}</dt><dd>{ui.series[s].cs}</dd></div>)}
+  </dl>
+  <div class="rq-oring-controls">
+    <label>
+      <span>{ui.searchLabel}</span>
+      <input type="search" inputmode="decimal" placeholder={ui.searchPlaceholder} data-oring-search autocomplete="off" />
+    </label>
+    <label>
+      <span>{ui.seriesLabel}</span>
+      <select data-oring-series>
+        <option value="">{ui.allSeries}</option>
+        {series.map((s) => <option value={s}>{ui.series[s].label}</option>)}
+      </select>
+    </label>
+  </div>
+  <p class="rq-oring-count" aria-live="polite" data-oring-count data-template={ui.countTemplate}>{ui.countTemplate.replace('{shown}', String(sizes.length)).replace('{total}', String(sizes.length))}</p>
+  <div class="rq-oring-table" role="region" aria-label={ui.title} tabindex="0">
+    <table>
+      <caption>{ui.caption}</caption>
+      <thead>
+        <tr>
+          <th scope="col">{ui.columns.dash}</th>
+          <th scope="col">{ui.columns.idIn}</th>
+          <th scope="col">{ui.columns.csIn}</th>
+          <th scope="col">{ui.columns.odIn}</th>
+          <th scope="col">{ui.columns.idMm}</th>
+          <th scope="col">{ui.columns.csMm}</th>
+          <th scope="col">{ui.columns.odMm}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {sizes.map((r) => (
+          <tr data-dash={r.dash} data-series={r.series} data-v={`${r.idIn} ${r.csIn} ${r.idMm} ${r.csMm}`}>
+            <th scope="row">AS568-{r.dash}</th>
+            <td>{inch(r.idIn)}{tol(r.idTolIn, inch)}</td>
+            <td>{inch(r.csIn)}{tol(r.csTolIn, inch)}</td>
+            <td>{inch(r.odIn)}</td>
+            <td>{mm(r.idMm)}{tol(r.idTolMm, mm)}</td>
+            <td>{mm(r.csMm)}{tol(r.csTolMm, mm)}</td>
+            <td>{mm(r.odMm)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <p class="rq-oring-note">{ui.note}</p>
+  <div class="rq-oring-cta">
+    <p>{ui.ctaText}</p>
+    <a class="rq-oring-button" href={inquiry} data-cta="oring-size-quote">{ui.ctaButton} <span aria-hidden="true">→</span></a>
+  </div>
+</section>
+
+<script>
+  function init() {
+    const root = document.getElementById('as568-size-chart');
+    if (!root) return;
+    const search = root.querySelector<HTMLInputElement>('[data-oring-search]');
+    const select = root.querySelector<HTMLSelectElement>('[data-oring-series]');
+    const count = root.querySelector<HTMLElement>('[data-oring-count]');
+    const rows = Array.from(root.querySelectorAll<HTMLTableRowElement>('tbody tr'));
+    const template = count?.dataset.template ?? '{shown} / {total}';
+    const apply = () => {
+      const raw = (search?.value ?? '').trim().replace(/^as568-?/i, '').replace(',', '.');
+      const s = select?.value ?? '';
+      const n = Number(raw);
+      const numeric = raw !== '' && !Number.isNaN(n) && /[.]/.test(raw);
+      let shown = 0;
+      for (const row of rows) {
+        let ok = !s || row.dataset.series === s;
+        if (ok && raw) {
+          if (numeric) {
+            const vals = (row.dataset.v ?? '').split(' ').map(Number);
+            ok = vals.some((v) => Math.abs(v - n) <= Math.max(0.005, n * 0.03));
+          } else {
+            ok = (row.dataset.dash ?? '').includes(raw.padStart(raw.length > 3 ? raw.length : 1, '0'));
+          }
+        }
+        row.hidden = !ok;
+        if (ok) shown++;
+      }
+      if (count) count.textContent = template.replace('{shown}', String(shown)).replace('{total}', String(rows.length));
+    };
+    search?.addEventListener('input', apply);
+    select?.addEventListener('change', apply);
+  }
+  init();
+  document.addEventListener('astro:page-load', init);
+</script>
+
+<style>
+  .rq-oring{padding:0 0 40px;margin-bottom:40px;border-bottom:1px solid #E5E5E5}
+  .rq-oring-kicker{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#525252}
+  .rq-oring h2{font-weight:800;line-height:1.2;letter-spacing:-.025em;font-size:clamp(26px,3vw,38px);margin:12px 0 20px;text-transform:uppercase}
+  .rq-oring-intro{color:#525252;line-height:1.85;font-size:17px}
+  .rq-oring-series{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin:28px 0;border-top:1px solid #0A0A0A}
+  .rq-oring-series div{padding:14px 12px 14px 0;border-bottom:1px solid #E5E5E5}
+  .rq-oring-series dt{font-weight:700;font-size:14px}
+  .rq-oring-series dd{margin:4px 0 0;font:500 13px 'JetBrains Mono',monospace;color:#525252}
+  .rq-oring-controls{display:grid;grid-template-columns:2fr 1fr;gap:16px;margin:24px 0 8px}
+  .rq-oring-controls label{display:flex;flex-direction:column;gap:6px;font-size:12px;font-weight:700;color:#0A0A0A}
+  .rq-oring-controls input,.rq-oring-controls select{min-height:48px;padding:10px 14px;border:1px solid #A3A3A3;background:#FFFFFF;font-size:15px;color:#0A0A0A;border-radius:0}
+  .rq-oring-controls input:focus-visible,.rq-oring-controls select:focus-visible{outline:2px solid #F97316;outline-offset:2px}
+  .rq-oring-count{font-size:13px;color:#525252;margin:8px 0 12px}
+  .rq-oring-table{max-height:640px;overflow:auto;border:1px solid #E5E5E5}
+  .rq-oring-table:focus-visible{outline:2px solid #F97316;outline-offset:4px}
+  .rq-oring-table table{width:100%;min-width:760px;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
+  .rq-oring-table caption{text-align:left;color:#525252;font-size:12px;font-weight:600;padding:12px}
+  .rq-oring-table thead th{position:sticky;top:0;background:#FAFAFA;z-index:1;font-weight:700;text-align:left;padding:12px;border-bottom:1px solid #D4D4D4;white-space:nowrap}
+  .rq-oring-table tbody th{font-weight:700;text-align:left;padding:10px 12px;white-space:nowrap;position:sticky;left:0;background:#FFFFFF}
+  .rq-oring-table thead th:first-child{left:0;z-index:2}
+  .rq-oring-table tbody tr:hover th{background:#FFEDD5}
+  .rq-oring-table td{padding:10px 12px;color:#404040;white-space:nowrap}
+  .rq-oring-table tbody tr{border-bottom:1px solid #E5E5E5}
+  .rq-oring-table tbody tr:hover{background:#FFEDD5}
+  .rq-oring-note{font-size:13px;color:#525252;line-height:1.75;margin-top:16px}
+  .rq-oring-cta{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:24px;padding:20px 24px;background:#0A0A0A;color:#FFFFFF}
+  .rq-oring-cta p{font-size:15px;color:#D4D4D4;margin:0}
+  .rq-oring-button{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:14px 22px;background:#F97316;color:#0A0A0A;font-size:13px;font-weight:700;text-decoration:none;flex-shrink:0}
+  .rq-oring-button:hover{background:#EA580C}
+  .rq-oring-button:focus-visible{outline:2px solid #FFFFFF;outline-offset:3px}
+  @media(max-width:800px){.rq-oring-series{grid-template-columns:repeat(2,minmax(0,1fr))}.rq-oring-controls{grid-template-columns:1fr}.rq-oring-cta{flex-direction:column;align-items:flex-start}.rq-oring-table{max-height:520px}}
+</style>

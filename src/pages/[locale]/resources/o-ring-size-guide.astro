@@ -1,5 +1,8 @@
 ---
 import AcquisitionPage from '@/components/acquisition/AcquisitionPage.astro';
+import OringSizeChart from '@/components/resources/OringSizeChart.astro';
 const { locale = 'en' } = Astro.params;
 ---
-<AcquisitionPage locale={locale} path="/resources/o-ring-size-guide"></AcquisitionPage>
+<AcquisitionPage locale={locale} path="/resources/o-ring-size-guide">
+  <OringSizeChart slot="tool" locale={locale} />
+</AcquisitionPage>

@@ -5969,11 +5969,11 @@
         "faq": []
       },
       "RQ-PG-038": {
-        "label": "O-Ring-Maße",
-        "title": "O-Ring-Maße und Zeichnungsangaben | RubberQ",
-        "description": "O-Ring-Größen mit Innendurchmesser, Schnurstärke, Einheit und Zeichnungsstand bestimmen. Größenreihe, Nut und Werkstoff vor dem Angebot gemeinsam prüfen.",
-        "h1": "O-Ring-Maße und Zeichnungsangaben",
-        "intro": "Bereiten Sie die Maße für eine O-Ring-Bewertung vor. Erfassen Sie Innendurchmesser, Schnurstärke, Nut- und Gegenstückmaße gemeinsam mit den Betriebsbedingungen.",
+        "label": "O-Ring-Größentabelle",
+        "title": "AS568 O-Ring-Größentabelle (Zoll & mm) | RubberQ",
+        "description": "Durchsuchbare AS568-Größentabelle: alle 369 Größen mit ID, Schnurstärke und AD in Zoll und mm inklusive Toleranzen. Normgröße aus gemessenen Maßen finden.",
+        "h1": "AS568 O-Ring-Größentabelle",
+        "intro": "Schlagen Sie jede AS568-Größe nach oder ordnen Sie gemessenen Innendurchmesser und Schnurstärke der nächsten Normgröße zu. Prüfen Sie anschließend Nut, Werkstoff und Einsatzbedingungen.",
         "sections": [
           {
             "heading": "Maße und Größenreferenz identifizieren",
@@ -6784,5 +6784,56 @@
     "resources": "Technische Ressourcen",
     "contact": "Bauteilanforderungen besprechen",
     "pageSuffix": "Seite {page}"
+  },
+  "tools": {
+    "oringChart": {
+      "kicker": "AS568-Referenz",
+      "title": "AS568 O-Ring-Größentabelle",
+      "intro": "Alle 369 Größen nach SAE AS568 mit Innendurchmesser, Schnurstärke und Außendurchmesser in Zoll und Millimeter. Suchen Sie nach Größennummer oder geben Sie einen gemessenen ID oder Schnurstärke ein (z. B. 24.99 oder 0.139), um die nächstliegenden Normgrößen zu finden.",
+      "series": {
+        "000": {
+          "label": "-001 bis -050",
+          "cs": "Schnur 0,070 in / 1,78 mm"
+        },
+        "100": {
+          "label": "-102 bis -178",
+          "cs": "Schnur 0,103 in / 2,62 mm"
+        },
+        "200": {
+          "label": "-201 bis -284",
+          "cs": "Schnur 0,139 in / 3,53 mm"
+        },
+        "300": {
+          "label": "-309 bis -395",
+          "cs": "Schnur 0,210 in / 5,33 mm"
+        },
+        "400": {
+          "label": "-425 bis -475",
+          "cs": "Schnur 0,275 in / 6,99 mm"
+        },
+        "900": {
+          "label": "-901 bis -932",
+          "cs": "Einschraubdichtungen, 0,056–0,118 in"
+        }
+      },
+      "searchLabel": "Größennummer oder Maß",
+      "searchPlaceholder": "z. B. 214, 24.99 oder 0.139",
+      "seriesLabel": "Reihe",
+      "allSeries": "Alle Reihen",
+      "countTemplate": "{shown} von {total} Größen",
+      "caption": "O-Ring-Abmessungen nach SAE AS568. Toleranzen als ±.",
+      "columns": {
+        "dash": "Größe",
+        "idIn": "ID (in)",
+        "csIn": "Schnur (in)",
+        "odIn": "AD (in)",
+        "idMm": "ID (mm)",
+        "csMm": "Schnur (mm)",
+        "odMm": "AD (mm)"
+      },
+      "note": "Der Außendurchmesser ergibt sich aus ID + 2 × Schnurstärke. Maße nach SAE AS568; prüfen Sie die auf Ihrer Zeichnung genannte Ausgabe und Toleranzklasse. Eine Normgröße legt weder Werkstoff noch Härte oder Nut fest – bitte gesondert angeben.",
+      "ctaText": "Benötigen Sie diese Größen in FKM, FFKM, EPDM, HNBR oder ein Sondermaß? Senden Sie Größennummer oder Maße zusammen mit der Werkstoffanforderung.",
+      "ctaButton": "O-Ring-Angebot anfragen"
+    }
   }
 }
