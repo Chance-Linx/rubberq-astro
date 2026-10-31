@@ -1,0 +1,303 @@
+{
+ "verified_at": "2026-10-31T14:51+08:00",
+ "production_commit": "f1d4b8f",
+ "deploy_trigger": "git push origin main (Cloudflare Pages GitHub integration)",
+ "redirects_checked": 41,
+ "redirects_ok": 41,
+ "redirects": [
+  {
+   "source": "/blog/cleanroom-degassing-low-outgassing-rubber-seals-lithography",
+   "expected_target": "/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing",
+   "status": 301,
+   "location": "https://rubberq.com/blog/optical-instruments-outgassing-prevention-in-high-precision-lens-housing",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/esd-anti-static-rubber-suction-cups-wafer-handling",
+   "expected_target": "/industries/semiconductor",
+   "status": 301,
+   "location": "https://rubberq.com/industries/semiconductor",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-006-ptfe-material-engineering-selection",
+   "expected_target": "/materials",
+   "status": 301,
+   "location": "https://rubberq.com/materials",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-010-3d-printing-rubber-like-material-engineering-selection",
+   "expected_target": "/sample-request",
+   "status": 301,
+   "location": "https://rubberq.com/sample-request",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-016-butyl-o-rings-engineering-selection",
+   "expected_target": "/products/seals",
+   "status": 301,
+   "location": "https://rubberq.com/products/seals",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-019-high-temperature-o-ring-material-engineering-selection",
+   "expected_target": "/products/seals",
+   "status": 301,
+   "location": "https://rubberq.com/products/seals",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-022-ptfe-encapsulated-o-rings-engineering-selection",
+   "expected_target": "/products/seals",
+   "status": 301,
+   "location": "https://rubberq.com/products/seals",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-023-viton-o-ring-hardness-engineering-selection",
+   "expected_target": "/resources/rubber-hardness-guide",
+   "status": 301,
+   "location": "https://rubberq.com/resources/rubber-hardness-guide",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-025-kalrez-o-rings-engineering-selection",
+   "expected_target": "/products/ffkm-replacement-seals",
+   "status": 301,
+   "location": "https://rubberq.com/products/ffkm-replacement-seals",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-027-gum-rubber-engineering-selection",
+   "expected_target": "/materials",
+   "status": 301,
+   "location": "https://rubberq.com/materials",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-028-viton-glt-o-rings-engineering-selection",
+   "expected_target": "/materials/fkm",
+   "status": 301,
+   "location": "https://rubberq.com/materials/fkm",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-034-nbr-rubber-engineering-selection",
+   "expected_target": "/materials/nbr",
+   "status": 301,
+   "location": "https://rubberq.com/materials/nbr",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-035-rubber-products-engineering-selection",
+   "expected_target": "/products",
+   "status": 301,
+   "location": "https://rubberq.com/products",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-038-rubber-bung-engineering-selection",
+   "expected_target": "/products/custom",
+   "status": 301,
+   "location": "https://rubberq.com/products/custom",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-041-fkm-o-ring-material-engineering-selection",
+   "expected_target": "/materials/fkm",
+   "status": 301,
+   "location": "https://rubberq.com/materials/fkm",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-042-viton-square-o-rings-engineering-selection",
+   "expected_target": "/products/seals",
+   "status": 301,
+   "location": "https://rubberq.com/products/seals",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-043-polyurethane-rubber-engineering-selection",
+   "expected_target": "/resources/material-compatibility",
+   "status": 301,
+   "location": "https://rubberq.com/resources/material-compatibility",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-051-viton-extreme-o-rings-engineering-selection",
+   "expected_target": "/materials/fkm",
+   "status": 301,
+   "location": "https://rubberq.com/materials/fkm",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-054-tpr-rubber-engineering-selection",
+   "expected_target": "/materials",
+   "status": 301,
+   "location": "https://rubberq.com/materials",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-060-rubber-dam-engineering-selection",
+   "expected_target": "/materials",
+   "status": 301,
+   "location": "https://rubberq.com/materials",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-065-neoprene-rubber-sheet-engineering-selection",
+   "expected_target": "/products/gaskets",
+   "status": 301,
+   "location": "https://rubberq.com/products/gaskets",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-066-neoprene-rubber-engineering-selection",
+   "expected_target": "/materials",
+   "status": 301,
+   "location": "https://rubberq.com/materials",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-084-silicone-rubber-sheet-engineering-selection",
+   "expected_target": "/materials/silicone",
+   "status": 301,
+   "location": "https://rubberq.com/materials/silicone",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-106-epdm-rubber-engineering-selection",
+   "expected_target": "/materials/epdm",
+   "status": 301,
+   "location": "https://rubberq.com/materials/epdm",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-108-epdm-rubber-sheet-engineering-selection",
+   "expected_target": "/materials/epdm",
+   "status": 301,
+   "location": "https://rubberq.com/materials/epdm",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-122-viton-metric-o-rings-engineering-selection",
+   "expected_target": "/resources/o-ring-size-guide",
+   "status": 301,
+   "location": "https://rubberq.com/resources/o-ring-size-guide",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-125-flexible-material-for-3d-printing-engineering-selection",
+   "expected_target": "/sample-request",
+   "status": 301,
+   "location": "https://rubberq.com/sample-request",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-126-bulk-o-ring-material-engineering-selection",
+   "expected_target": "/products/seals",
+   "status": 301,
+   "location": "https://rubberq.com/products/seals",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-128-epdm-o-rings-engineering-selection",
+   "expected_target": "/products/seals",
+   "status": 301,
+   "location": "https://rubberq.com/products/seals",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-133-rubber-sheets-engineering-selection",
+   "expected_target": "/products/gaskets",
+   "status": 301,
+   "location": "https://rubberq.com/products/gaskets",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-142-rubber-molding-engineering-selection",
+   "expected_target": "/capabilities/rubber-molding",
+   "status": 301,
+   "location": "https://rubberq.com/capabilities/rubber-molding",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-147-butyl-rubber-engineering-selection",
+   "expected_target": "/materials",
+   "status": 301,
+   "location": "https://rubberq.com/materials",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-148-high-heat-o-rings-engineering-selection",
+   "expected_target": "/products/seals",
+   "status": 301,
+   "location": "https://rubberq.com/products/seals",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-151-chemical-resistant-o-rings-engineering-selection",
+   "expected_target": "/resources/material-compatibility",
+   "status": 301,
+   "location": "https://rubberq.com/resources/material-compatibility",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-152-rubber-filament-engineering-selection",
+   "expected_target": "/sample-request",
+   "status": 301,
+   "location": "https://rubberq.com/sample-request",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-155-natural-rubber-engineering-selection",
+   "expected_target": "/materials",
+   "status": 301,
+   "location": "https://rubberq.com/materials",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-156-teflon-alternative-engineering-selection",
+   "expected_target": "/resources/material-compatibility",
+   "status": 301,
+   "location": "https://rubberq.com/resources/material-compatibility",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/sem-158-silicone-rubber-engineering-selection",
+   "expected_target": "/materials/silicone",
+   "status": 301,
+   "location": "https://rubberq.com/materials/silicone",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/semiconductor-etching-equipment-high-purity-ffkm-seals-for-plasma-resistance",
+   "expected_target": "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+   "status": 301,
+   "location": "https://rubberq.com/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/semiconductor-wafer-processing-ultra-clean-ffkm-seals-for-plasma-environments",
+   "expected_target": "/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+   "status": 301,
+   "location": "https://rubberq.com/blog/high-vacuum-ffkm-seals-plasma-etching-semiconductor",
+   "target_status": 200
+  },
+  {
+   "source": "/blog/ultra-low-metal-ion-contamination-ffkm-seals-wafer-processing",
+   "expected_target": "/industries/semiconductor",
+   "status": 301,
+   "location": "https://rubberq.com/industries/semiconductor",
+   "target_status": 200
+  }
+ ],
+ "sitemap_urls": 443,
+ "retired_in_sitemap": 0,
+ "cms_after": {
+  "published_live": 207,
+  "queued_future": 0,
+  "template_table_published": 0
+ }
+}
