@@ -1,4 +1,5 @@
 import { createClient } from '@sanity/client';
+import { sanityImageReference, type ArticleVisual } from './articleVisuals';
 
 const PROJECT_ID = import.meta.env.SANITY_PROJECT_ID || 'tcjl4afv';
 const DATASET = import.meta.env.SANITY_DATASET || 'production';
@@ -24,7 +25,10 @@ export interface BlogPost {
   author?: string;
   category?: string;
   tags?: string[];
+  articleVisuals?: ArticleVisual[] | null;
   coverImage?: {
+    alt?: string;
+    preserveAspectRatio?: boolean;
     asset?: {
       _ref: string;
       _type: string;
@@ -73,7 +77,8 @@ export async function getAllBlogPosts(): Promise<BlogPost[]> {
     const query = `*[${PUBLIC_ARTICLE_FILTER}] | order(publishedAt desc) {
       _id, _createdAt, _updatedAt, title, "slug": slug.current,
       excerpt, content, publishedAt, author, category, tags,
-      coverImage { asset { _ref, _type } },
+      coverImage { asset { _ref, _type }, alt, preserveAspectRatio },
+      articleVisuals[] { id, alt, width, height, asset { _ref, _type } },
       status
     }`;
     const posts = await sanityClient.fetch<BlogPost[]>(query);
@@ -90,7 +95,8 @@ export async function getBlogPostBySlug(slug: string): Promise<BlogPost | null> 
     const query = `*[${PUBLIC_ARTICLE_FILTER} && slug.current == $slug][0] {
       _id, _createdAt, _updatedAt, title, "slug": slug.current,
       excerpt, content, publishedAt, author, category, tags,
-      coverImage { asset { _ref, _type } },
+      coverImage { asset { _ref, _type }, alt, preserveAspectRatio },
+      articleVisuals[] { id, alt, width, height, asset { _ref, _type } },
       status
     }`;
     const post = await sanityClient.fetch<BlogPost | null>(query, { slug });
@@ -109,7 +115,8 @@ export async function getUnavailableBlogPostStatus(slug: string): Promise<'sched
     const query = `*[_type == "article" && slug.current == $slug][0] {
       _id, _createdAt, _updatedAt, title, "slug": slug.current,
       excerpt, content, publishedAt, author, category, tags,
-      coverImage { asset { _ref, _type } },
+      coverImage { asset { _ref, _type }, alt, preserveAspectRatio },
+      articleVisuals[] { id, alt, width, height, asset { _ref, _type } },
       status
     }`;
     const post = await sanityClient.fetch<BlogPost | null>(query, { slug });
@@ -154,6 +161,10 @@ export async function findCanonicalBlogSlug(slug: string): Promise<string | null
 // Get featured image URL
 export function getFeaturedImageUrl(post: BlogPost): string | null {
   if (!post.coverImage?.asset?._ref) return null;
+  if (post.coverImage.preserveAspectRatio) {
+    const asset = sanityImageReference(post.coverImage.asset._ref);
+    return asset ? `https://cdn.sanity.io/images/${PROJECT_ID}/${DATASET}/${asset.filename}?w=1600&fit=max&fm=webp&q=100` : null;
+  }
   const projectId = PROJECT_ID;
   const dataset = DATASET;
   const ref = post.coverImage.asset._ref.replace(/^image-/, '');
@@ -185,7 +196,8 @@ export async function getRelatedPosts(currentPost: BlogPost, limit = 3): Promise
   try {
     const query = `*[${PUBLIC_ARTICLE_FILTER} && _id != $currentId && category == $category] | order(publishedAt desc)[0...${limit}] {
       _id, title, "slug": slug.current, excerpt, publishedAt, author, category,
-      coverImage { asset { _ref, _type } },
+      coverImage { asset { _ref, _type }, alt, preserveAspectRatio },
+      articleVisuals[] { id, alt, width, height, asset { _ref, _type } },
       status
     }`;
     const posts = await sanityClient.fetch<BlogPost[]>(query, { currentId: currentPost._id, category: currentPost.category });

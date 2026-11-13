@@ -51,7 +51,7 @@ const schema = { '@context': 'https://schema.org', '@type': 'CollectionPage', na
           const image = isArticleCoverSuppressed(post._id, post.coverImage?.asset?._ref) ? undefined : getFeaturedImageUrl(post);
           return <article data-article-id={post._id} class="group border border-border hover:border-primary transition-colors min-w-0">
             <a href={getBlogUrl(post.slug)} class="flex flex-col h-full">
-              {image && <img src={image} alt={post.title} class="w-full h-48 object-cover" loading="lazy" />}
+              {image && <img src={image} alt={post.coverImage?.alt || post.title} class:list={["w-full h-48", post.coverImage?.preserveAspectRatio ? "object-contain" : "object-cover"]} loading="lazy" />}
               <div class="p-6 flex flex-col flex-1">
                 {post.category && <span class="text-xs font-bold text-primary mb-2 block">{post.category}</span>}
                 <h2 class="text-lg font-bold mb-3 group-hover:text-primary break-words">{post.title}</h2>
