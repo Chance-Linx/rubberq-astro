@@ -4692,7 +4692,7 @@
             "links": [
               {
                 "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
-                "label": "Mischungsentwicklung anfragen (Englisch)"
+                "label": "Spezifikation und Musterfreigabe vorbereiten (Englisch)"
               },
               {
                 "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
@@ -4703,17 +4703,42 @@
           {
             "heading": "Rezeptur- und Chargenangaben verknüpfen",
             "body": "Vereinbaren Sie erforderliche Kennzeichnung und Nachweise. Besprechen Sie freigegebenen Rezepturstand, Rohstoffidentität, Kontrolle der Einwaage und Mischchargenreferenzen. Ordnen Sie Vorbereitung und Prozessinformationen dem geprüften Material und gefertigten Teil zu. ERP-Rückverfolgung unterstützt diese Abstimmung; Nachweisumfang und Aufbewahrung werden mit dem Auftrag vereinbart.",
-            "items": [
-              "Rezeptur und Ausgangsmaterialchargen identifizieren.",
-              "Projektbezogene Einwaage-, Vorbereitungs- und Mischnachweise definieren.",
-              "Muster- und Produktionschargen mit den relevanten Ergebnissen verknüpfen."
-            ],
             "links": [
               {
                 "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
                 "label": "Material-, Produktions- und Liefernachweise verfolgen (Englisch)"
               }
-            ]
+            ],
+            "table": {
+              "caption": "Chargenkontrollen für Ihr Projekt vereinbaren",
+              "columns": [
+                "Kontrollpunkt",
+                "Zuzuordnende Aufzeichnungen",
+                "Unterstützte Entscheidung"
+              ],
+              "rows": [
+                [
+                  "Rohstoffidentifikation",
+                  "Materialkennung und Herkunftschargen",
+                  "Welche Rohstoffe gehören zur bewerteten Mischcharge?"
+                ],
+                [
+                  "Wiegen und Mischen",
+                  "Rezepturstand, Einwaagekontrollen und vereinbarte Prozessdaten",
+                  "Wurde die Charge nach der vereinbarten Fertigungsgrundlage hergestellt?"
+                ],
+                [
+                  "Prüfung und Freigabe",
+                  "Proben- und Chargenkennungen, Methoden, Ergebnisse und Grenzwerte",
+                  "Erfüllt die Charge die vereinbarten Freigabekriterien?"
+                ],
+                [
+                  "Abweichung oder Änderung",
+                  "Betroffene Chargen, geplante Maßnahmen und Freigabevermerk",
+                  "Was muss vor Freigabe oder geänderter Lieferung bewertet oder erneut geprüft werden?"
+                ]
+              ]
+            }
           },
           {
             "heading": "Vulkanisationsbewertung und Freigaben festlegen",
@@ -4786,7 +4811,16 @@
               {
                 "url": "/sample-request",
                 "label": "Versuchsmaterial oder Teilemuster besprechen"
+              },
+              {
+                "url": "/blog/material-development-from-concept-to-custom-formulation-in-14-days",
+                "label": "Versuchsmeilensteine und Entwicklungsdauer planen (Englisch)"
               }
+            ],
+            "items": [
+              "Versuchsmischung, Formteilmuster und montiertes Bauteil getrennt bewerten und die jeweilige Freigabeverantwortung vereinbaren.",
+              "Erfordern Versuchsergebnisse eine Änderung, den neuen Mischungs- oder Prozessstand mit Wiederholungsprüfungen und erneuter Freigabe verknüpfen.",
+              "Eigene Meilensteine für Versuchsvorbereitung, Kundenbewertung und Freigabe der Folgelieferung festlegen; Termine richten sich nach dem vereinbarten Umfang."
             ]
           }
         ],
@@ -4802,7 +4836,32 @@
         "sections": [
           {
             "heading": "Mischung und Verarbeitungsprozess definieren",
-            "body": "Stimmen Sie die Mischungslieferung auf die Werkstoffanforderung und den Prozess zum Fertigteil ab. Übermitteln Sie Spezifikation oder Leistungsziele, Fertigungsverfahren und Bedingungen am Verarbeitungsort. RubberQ verbindet Rezepturunterstützung, eigenes Mischen und Prüfen mit ERP-gestützter Rückverfolgbarkeit."
+            "body": "Stimmen Sie die Mischungslieferung auf die Werkstoffanforderung und den Prozess zum Fertigteil ab. Übermitteln Sie Spezifikation oder Leistungsziele, Fertigungsverfahren und Bedingungen am Verarbeitungsort. RubberQ verbindet Rezepturunterstützung, eigenes Mischen und Prüfen mit ERP-gestützter Rückverfolgbarkeit.",
+            "table": {
+              "caption": "Den Ausgangspunkt der Beschaffung festlegen",
+              "columns": [
+                "Beschaffungssituation",
+                "Benötigte Angaben",
+                "Vor dem Versuch zu klären"
+              ],
+              "rows": [
+                [
+                  "Vorgegebene Mischung",
+                  "Mischungsbezeichnung, Spezifikationsstand und Verarbeitungsprozess",
+                  "Ob Spezifikation und Lieferanforderungen erfüllt werden können"
+                ],
+                [
+                  "Anpassung einer bestehenden Mischung",
+                  "Referenzmaterial, zu lösendes Problem und beizubehaltende Eigenschaften",
+                  "Änderungsziel, Vergleichsmethode und Abnahmegrenzen"
+                ],
+                [
+                  "Entwicklung aus Anwendungsanforderungen",
+                  "Einsatzbedingungen, Bauteilanforderungen und offene Ziele",
+                  "Machbarkeit, Kandidatenumfang und Prüfungen vor der Lieferfreigabe"
+                ]
+              ]
+            }
           },
           {
             "heading": "Lieferspezifikation vorbereiten",
@@ -4849,18 +4908,23 @@
             "heading": "Versuchsmaterial im eigenen Prozess bewerten",
             "body": "Vereinbaren Sie Ziel, Menge und Bewertung des Versuchs. Halten Sie Liefercharge und Verarbeitungsbedingungen nachvollziehbar. Materialprüfungen und die Funktion des Fertigteils beantworten unterschiedliche Fragen; definieren Sie bei Bedarf beide.",
             "items": [
-              "Materialkennung und Grundlage der Wareneingangsprüfung bestätigen.",
-              "Verarbeitungsbedingungen und Beobachtungen zum vereinbarten Versuchsziel dokumentieren.",
-              "Die für Folgelieferungen geltenden Material- und Fertigteilanforderungen freigeben."
+              "Vor dem Versand Versuchsziel, Materialkennung, Menge, gewünschte Form und Unterlagen für die Wareneingangsprüfung vereinbaren.",
+              "Im Versuch Liefercharge, Prozesseinstellungen und Beobachtungen dokumentieren und anhand der vereinbarten Material- und Bauteilkriterien bewerten.",
+              "Bei Zielabweichungen Probe und Prüfbedingungen identifizieren; Untersuchung, nächsten Versuch und zu wiederholende Prüfungen abstimmen.",
+              "Vor Folgelieferungen freigegebenen Materialstand, Versuchsergebnisse und Freigabeverantwortliche dokumentieren."
             ],
             "links": [
               {
                 "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
-                "label": "Anfrage zur Mischungsentwicklung vorbereiten (Englisch)"
+                "label": "Spezifikation und Musterfreigabe vorbereiten (Englisch)"
               },
               {
                 "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
                 "label": "Vollständige ASTM-D2000-Bezeichnung verwenden (Englisch)"
+              },
+              {
+                "url": "/blog/material-development-from-concept-to-custom-formulation-in-14-days",
+                "label": "Versuchsmeilensteine und Entwicklungsdauer planen (Englisch)"
               }
             ]
           },
@@ -4876,11 +4940,25 @@
                 "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
                 "label": "Chargenunterlagen vom Material bis zum Versand (Englisch)"
               }
+            ],
+            "items": [
+              "Jede Liefercharge dem freigegebenen Mischungs- und Spezifikationsstand zuordnen; Kennzeichnung und Freigabeunterlagen mit dem Auftrag vereinbaren.",
+              "Bei Abweichungen betroffene Chargen benennen, relevante Muster und Prozessdaten aufbewahren und das Vorgehen vor der Verwendung abstimmen.",
+              "Für geplante Material- oder Prozessänderungen Mitteilung, Bewertung und Freigabe vor Lieferung des geänderten Stands vereinbaren."
             ]
           }
         ],
         "cta": "Mischungslieferung anfragen",
-        "faq": []
+        "faq": [
+          {
+            "question": "Wie werden Menge, Lieferform und Termine vereinbart?",
+            "answer": "Nennen Sie Versuchsmenge, erwarteten Folgebedarf, gewünschte Materialform, Verpackungsgröße und Lieferziel. Mindestbestellmenge, verfügbare Lieferform, Versuchskosten und Lieferzeit werden nach Prüfung von Material und Prozess bestätigt. Unterscheiden Sie den Versandtermin der Muster vom Termin für Prüfergebnisse und Freigabe."
+          },
+          {
+            "question": "Was ist vor Folgebestellungen freizugeben?",
+            "answer": "Vereinbaren Sie Materialstand, Verarbeitungsversuch, Material- und Bauteilprüfungen, Abnahmegrenzen und Freigabeverantwortliche. Halten Sie offene Abweichungen vor einer Folgebestellung fest und klären Sie deren Behandlung. Der Versand von Versuchsmaterial stellt noch keine Freigabe dar."
+          }
+        ]
       },
       "RQ-PG-026": {
         "label": "Prüfungen",

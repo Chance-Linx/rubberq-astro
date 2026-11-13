@@ -4664,7 +4664,7 @@
             "links": [
               {
                 "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
-                "label": "Preparing a compound-development request"
+                "label": "Prepare the specification and sample-approval plan"
               },
               {
                 "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
@@ -4675,17 +4675,42 @@
           {
             "heading": "Keep recipe and batch information connected",
             "body": "Agree the identification and records needed for the project. Discuss the approved formulation version, raw-material identity, weighed-charge review and mixing-lot references. Link preparation and process information to the material tested and the part produced. ERP traceability supports this discussion; the requested record scope and retention are agreed with the order.",
-            "items": [
-              "Identify the formulation and the source material lots.",
-              "Define the weighing, preparation and mixing records required for the project.",
-              "Keep sample and production-lot identification with the relevant results."
-            ],
             "links": [
               {
                 "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
                 "label": "Following material, production and delivery records"
               }
-            ]
+            ],
+            "table": {
+              "caption": "Batch controls to agree for your project",
+              "columns": [
+                "Control point",
+                "Record to connect",
+                "Buyer decision supported"
+              ],
+              "rows": [
+                [
+                  "Raw-material identification",
+                  "Material identity and source-lot references",
+                  "Which inputs belong to the mixing lot being evaluated?"
+                ],
+                [
+                  "Weighing and mixing",
+                  "Formulation revision, charge checks and agreed process records",
+                  "Was the lot prepared against the agreed production basis?"
+                ],
+                [
+                  "Testing and release",
+                  "Sample and batch IDs, methods, results and acceptance limits",
+                  "Does the lot meet the agreed release requirements?"
+                ],
+                [
+                  "Deviation or change",
+                  "Affected lots, proposed action and approval record",
+                  "What must be reviewed or retested before release or a revised supply?"
+                ]
+              ]
+            }
           },
           {
             "heading": "Define cure evaluation and release decisions",
@@ -4758,7 +4783,16 @@
               {
                 "url": "/sample-request",
                 "label": "Discuss trial material or part samples"
+              },
+              {
+                "url": "/blog/material-development-from-concept-to-custom-formulation-in-14-days",
+                "label": "Plan trial milestones and development timing"
               }
+            ],
+            "items": [
+              "Distinguish the trial compound, molded sample and assembled-part evaluations; agree who approves each result.",
+              "If trial results require a change, connect the revised compound or process to the repeat-test plan and a new approval decision.",
+              "Set separate milestones for trial preparation, customer evaluation and repeat-supply approval; timing follows the agreed scope."
             ]
           }
         ],
@@ -4774,7 +4808,32 @@
         "sections": [
           {
             "heading": "Define the compound and receiving process",
-            "body": "Discuss compound supply around the material requirement and the process that will turn it into a finished part. Share the existing specification or performance targets, intended manufacturing route and receiving-site conditions. RubberQ combines formulation support, in-house mixing and testing with ERP production traceability."
+            "body": "Discuss compound supply around the material requirement and the process that will turn it into a finished part. Share the existing specification or performance targets, intended manufacturing route and receiving-site conditions. RubberQ combines formulation support, in-house mixing and testing with ERP production traceability.",
+            "table": {
+              "caption": "Choose the starting point for your purchase",
+              "columns": [
+                "Purchase route",
+                "What to share",
+                "What to establish before a trial"
+              ],
+              "rows": [
+                [
+                  "A specified compound",
+                  "Compound designation, specification revision and receiving process",
+                  "Whether the requested specification and supply requirements can be met"
+                ],
+                [
+                  "An adjustment to an existing compound",
+                  "Reference material, the problem to solve and properties to retain",
+                  "The proposed change, comparison method and acceptance limits"
+                ],
+                [
+                  "Development from an application brief",
+                  "Service conditions, part requirements and unresolved targets",
+                  "Feasibility, candidate scope and tests needed before supply approval"
+                ]
+              ]
+            }
           },
           {
             "heading": "Prepare a supply specification",
@@ -4821,18 +4880,23 @@
             "heading": "Evaluate trial material in your process",
             "body": "Agree the trial objective, quantity and evaluation before comparing candidates. Keep the supplied lot and the receiving-process settings identifiable. Material-test results and finished-part function answer different questions, so define both where the application requires them.",
             "items": [
-              "Confirm the material identification and receiving inspection basis.",
-              "Record trial processing conditions and observations against the agreed objective.",
-              "Approve the material and finished-part requirements that will govern repeat supply."
+              "Before dispatch, agree the trial objective, material identification, quantity, requested form and receiving-inspection documents.",
+              "During the trial, record the supplied lot, process settings and observations; compare results with the agreed material and finished-part criteria.",
+              "If a result misses the target, identify the affected sample and conditions, then agree the investigation, next trial and tests to repeat.",
+              "Record the approved material version, trial results and decision owner before repeat supply."
             ],
             "links": [
               {
                 "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
-                "label": "Preparing a custom compound-development request"
+                "label": "Prepare the specification and sample-approval plan"
               },
               {
                 "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
                 "label": "Using a complete ASTM D2000 material callout"
+              },
+              {
+                "url": "/blog/material-development-from-concept-to-custom-formulation-in-14-days",
+                "label": "Plan trial milestones and development timing"
               }
             ]
           },
@@ -4848,11 +4912,25 @@
                 "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
                 "label": "Batch records from material to shipment"
               }
+            ],
+            "items": [
+              "Match each delivery lot to the approved compound and specification revision; agree label and release-document requirements with the order.",
+              "Identify the affected lot and retain relevant samples and process records when reporting a discrepancy; agree disposition before use.",
+              "Agree notification, evaluation and approval requirements for proposed material or process changes before the changed version is supplied."
             ]
           }
         ],
         "cta": "Request a Compound Supply Review",
-        "faq": []
+        "faq": [
+          {
+            "question": "How are quantity, supply form and timing agreed?",
+            "answer": "State the quantity needed for trials, expected repeat demand, required material form, pack size and delivery destination. Minimum order quantity, available supply form, trial charges and lead time are confirmed after the material and process review. Separate the required sample-dispatch date from the date you need test results and approval."
+          },
+          {
+            "question": "What should be approved before repeat orders?",
+            "answer": "Agree the material version, receiving-process trial, required material and part tests, acceptance limits and approver. Record any unresolved deviation and agree its disposition before placing a repeat order; a trial shipment alone does not establish approval."
+          }
+        ]
       },
       "RQ-PG-026": {
         "label": "Testing",

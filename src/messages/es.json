@@ -4730,7 +4730,7 @@
             "links": [
               {
                 "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
-                "label": "Preparar una solicitud de desarrollo de compuesto (inglés)"
+                "label": "Preparar la especificación y la aprobación de muestras (inglés)"
               },
               {
                 "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
@@ -4741,17 +4741,42 @@
           {
             "heading": "Vincular receta e información de lote",
             "body": "Acuerde identificación y registros del proyecto. Revise versión aprobada, materias primas, control de pesaje y referencias de mezcla. Relacione preparación y proceso con material ensayado y pieza producida. La trazabilidad ERP apoya esta revisión; alcance y conservación se acuerdan con el pedido.",
-            "items": [
-              "Identificar formulación y lotes de materias primas.",
-              "Definir registros de pesaje, preparación y mezclado del proyecto.",
-              "Mantener muestras y lotes de producción vinculados a sus resultados."
-            ],
             "links": [
               {
                 "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
                 "label": "Seguir registros de material, producción y entrega (inglés)"
               }
-            ]
+            ],
+            "table": {
+              "caption": "Controles de lote que deben acordarse",
+              "columns": [
+                "Punto de control",
+                "Registros relacionados",
+                "Decisión que facilitan"
+              ],
+              "rows": [
+                [
+                  "Identificación de materias primas",
+                  "Identidad del material y lotes de origen",
+                  "¿Qué materias primas corresponden al lote de mezcla evaluado?"
+                ],
+                [
+                  "Pesaje y mezcla",
+                  "Revisión de fórmula, comprobación de cargas y registros de proceso acordados",
+                  "¿Se preparó el lote conforme a la base de fabricación acordada?"
+                ],
+                [
+                  "Ensayo y liberación",
+                  "Identificación de muestra y lote, métodos, resultados y límites",
+                  "¿Cumple el lote los requisitos de liberación acordados?"
+                ],
+                [
+                  "Desviación o cambio",
+                  "Lotes afectados, medidas propuestas y registro de aprobación",
+                  "¿Qué debe evaluarse o repetirse antes de liberar o modificar el suministro?"
+                ]
+              ]
+            }
           },
           {
             "heading": "Definir evaluación de curado y liberación",
@@ -4824,7 +4849,16 @@
               {
                 "url": "/sample-request",
                 "label": "Consultar material o piezas de prueba"
+              },
+              {
+                "url": "/blog/material-development-from-concept-to-custom-formulation-in-14-days",
+                "label": "Planificar hitos y plazos de desarrollo (inglés)"
               }
+            ],
+            "items": [
+              "Distinga la evaluación del compuesto de prueba, la muestra moldeada y la pieza montada; acuerde quién aprueba cada resultado.",
+              "Si los resultados requieren un cambio, vincule la nueva versión del compuesto o proceso con los ensayos que deben repetirse y una nueva aprobación.",
+              "Separe los hitos de preparación, evaluación del cliente y aprobación del suministro recurrente; el plazo depende del alcance acordado."
             ]
           }
         ],
@@ -4840,7 +4874,32 @@
         "sections": [
           {
             "heading": "Defina el compuesto y el proceso receptor",
-            "body": "Estudie el suministro del compuesto junto con los requisitos del material y el proceso que producirá la pieza final. Comparta la especificación o los objetivos, el método de fabricación y las condiciones de recepción. RubberQ combina apoyo de formulación, mezclado y ensayos internos con trazabilidad de producción mediante ERP."
+            "body": "Estudie el suministro del compuesto junto con los requisitos del material y el proceso que producirá la pieza final. Comparta la especificación o los objetivos, el método de fabricación y las condiciones de recepción. RubberQ combina apoyo de formulación, mezclado y ensayos internos con trazabilidad de producción mediante ERP.",
+            "table": {
+              "caption": "Defina el punto de partida de la compra",
+              "columns": [
+                "Situación de compra",
+                "Información necesaria",
+                "Qué acordar antes del ensayo"
+              ],
+              "rows": [
+                [
+                  "Compuesto especificado",
+                  "Designación, revisión de la especificación y proceso receptor",
+                  "Si pueden cumplirse la especificación y los requisitos de suministro"
+                ],
+                [
+                  "Ajuste de un compuesto existente",
+                  "Material de referencia, problema y propiedades que deben mantenerse",
+                  "Cambio propuesto, método de comparación y límites de aceptación"
+                ],
+                [
+                  "Desarrollo a partir de la aplicación",
+                  "Condiciones de servicio, requisitos de la pieza y objetivos pendientes",
+                  "Viabilidad, alcance de los candidatos y ensayos previos a la aprobación"
+                ]
+              ]
+            }
           },
           {
             "heading": "Prepare una especificación de suministro",
@@ -4887,18 +4946,23 @@
             "heading": "Evalúe el material en su proceso",
             "body": "Acuerde objetivo, cantidad y evaluación de la prueba antes de comparar candidatos. Identifique el lote suministrado y los parámetros del proceso receptor. Los ensayos de material y la función de la pieza final responden a preguntas distintas; defina ambos cuando la aplicación lo requiera.",
             "items": [
-              "Confirme la identificación del material y la base de inspección de recepción.",
-              "Registre condiciones de proceso y observaciones frente al objetivo acordado.",
-              "Apruebe los requisitos de material y pieza final que regirán el suministro recurrente."
+              "Antes del envío, acuerde el objetivo, la identificación del material, la cantidad, el formato y los documentos de inspección de recepción.",
+              "Durante la prueba, registre lote, ajustes de proceso y observaciones; compare los resultados con los criterios acordados para material y pieza terminada.",
+              "Si no se alcanza el objetivo, identifique la muestra y las condiciones; acuerde la investigación, la siguiente prueba y los ensayos que deben repetirse.",
+              "Antes del suministro recurrente, registre la versión aprobada, los resultados y el responsable de aprobación."
             ],
             "links": [
               {
                 "url": "/blog/custom-compound-development-how-rubberq-approaches-non-standard-requests",
-                "label": "Preparar una solicitud de desarrollo de compuesto (inglés)"
+                "label": "Preparar la especificación y la aprobación de muestras (inglés)"
               },
               {
                 "url": "/blog/astm-d2000-explained-the-universal-language-for-specifying-rubber-materials",
                 "label": "Usar la designación completa ASTM D2000 (inglés)"
+              },
+              {
+                "url": "/blog/material-development-from-concept-to-custom-formulation-in-14-days",
+                "label": "Planificar hitos y plazos de desarrollo (inglés)"
               }
             ]
           },
@@ -4914,11 +4978,25 @@
                 "url": "/blog/batch-traceability-rubber-manufacturing-raw-polymer-shipment-records",
                 "label": "Registros de lote desde el material al envío (inglés)"
               }
+            ],
+            "items": [
+              "Relacione cada lote entregado con el compuesto y la revisión aprobados; acuerde etiquetado y documentos de liberación con el pedido.",
+              "Al comunicar una discrepancia, identifique los lotes afectados y conserve muestras y registros pertinentes; acuerde el tratamiento antes de usar el material.",
+              "Para cambios de material o proceso, acuerde notificación, evaluación y aprobación antes de suministrar la versión modificada."
             ]
           }
         ],
         "cta": "Solicitar revisión de suministro de compuesto",
-        "faq": []
+        "faq": [
+          {
+            "question": "¿Cómo se acuerdan la cantidad, el formato y los plazos?",
+            "answer": "Indique la cantidad para pruebas, la demanda recurrente prevista, el formato de material, el tamaño del embalaje y el destino. El pedido mínimo, los formatos disponibles, los costes de prueba y el plazo se confirman tras revisar el material y el proceso. Distinga la fecha de envío de muestras de la fecha necesaria para obtener resultados y aprobación."
+          },
+          {
+            "question": "¿Qué debe aprobarse antes de repetir pedidos?",
+            "answer": "Acuerde la versión del material, la prueba en el proceso receptor, los ensayos de material y pieza, los límites de aceptación y el responsable de aprobación. Registre las desviaciones pendientes y acuerde su tratamiento antes de repetir el pedido; el envío de material de prueba no constituye una aprobación."
+          }
+        ]
       },
       "RQ-PG-026": {
         "label": "Ensayos",
