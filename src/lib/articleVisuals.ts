@@ -54,3 +54,8 @@ export function withArticleImages(blog: Record<string, unknown>, images: ReturnT
     ],
   };
 }
+
+/** Asset hashes are identifiers, not editorial claims; keep all visible labels in policy checks. */
+export function withoutSanityAssetUrls(text: string): string {
+  return text.replace(/https:\/\/cdn\.sanity\.io\/images\/[a-z0-9]+\/[a-z0-9_-]+\/[a-f0-9]+-\d+x\d+\.(?:avif|jpe?g|png|webp)(?:\?[^"'<>\s]*)?/gi, '');
+}

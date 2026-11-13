@@ -1,5 +1,5 @@
 import { createClient } from '@sanity/client';
-import { sanityImageReference, type ArticleVisual } from './articleVisuals';
+import { sanityImageReference, withoutSanityAssetUrls, type ArticleVisual } from './articleVisuals';
 
 const PROJECT_ID = import.meta.env.SANITY_PROJECT_ID || 'tcjl4afv';
 const DATASET = import.meta.env.SANITY_DATASET || 'production';
@@ -68,7 +68,8 @@ function isPublicAllowedBlogPost(post: Pick<BlogPost, 'title' | 'slug' | 'excerp
     .join(' ')
     .toLowerCase();
 
-  return !blockedBlogTerms.some((term) => source.includes(term));
+  const editorialSource = withoutSanityAssetUrls(source);
+  return !blockedBlogTerms.some((term) => editorialSource.includes(term));
 }
 
 // Get all public blog posts. Future publishedAt values act as scheduled publishing.
