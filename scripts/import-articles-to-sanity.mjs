@@ -2,7 +2,7 @@
 /**
  * import-articles-to-sanity.mjs
  *
- * Batch-imports markdown articles from docs/content/articles-v2/ to Sanity CMS.
+ * Batch-imports markdown articles from ../全球增长系统/项目文档/content/articles-v2/ to Sanity CMS.
  *
  * Usage:
  *   # Dry run (parse + validate, don't upload)
@@ -75,7 +75,7 @@ function loadDotEnv(filePath) {
 loadDotEnv(path.join(ROOT, '.env'));
 loadDotEnv(path.join(ROOT, '.env.local'));
 
-const ARTICLES_DIR = path.join(ROOT, 'docs/content/articles-v2');
+const ARTICLES_DIR = path.join(ROOT, '../全球增长系统/项目文档/content/articles-v2');
 const PROJECT_ID = process.env.SANITY_PROJECT_ID || 'tcjl4afv';
 const DATASET = process.env.SANITY_DATASET || 'production';
 const API_VERSION = '2024-01-01';

@@ -7,7 +7,7 @@ from urllib.request import urlopen
 from urllib.error import HTTPError
 
 ROOT=Path(__file__).resolve().parents[1]
-BASE=ROOT/'docs/2026-10-21-全站规划落实'
+BASE=ROOT/'../全球增长系统/项目文档/2026-10-21-全站规划落实'
 VOID={'area','base','br','col','embed','hr','img','input','link','meta','param','source','track','wbr'}
 def norm(s): return ' '.join(s.split())
 class Doc(HTMLParser):

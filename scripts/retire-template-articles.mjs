@@ -11,7 +11,7 @@
  *   node scripts/retire-template-articles.mjs --batch live --apply       # only after the redirect deploy
  *
  * Each patch is conditional on the document revision read in the same run.
- * A JSON backup of the prior status/_rev is written to docs/2026-10-31-模板文章清理/.
+ * A JSON backup of the prior status/_rev is written to ../全球增长系统/项目文档/2026-10-31-模板文章清理/.
  */
 import { createClient } from '@sanity/client';
 import fs from 'node:fs';
@@ -55,7 +55,7 @@ console.log(`batch=${batch} expected=${ids.length} found=${docs.length} problems
 if (problems) process.exit(2);
 if (!APPLY) { for (const d of docs) console.log(`- ${d.status}\t${d.publishedAt}\t${d.slug}`); process.exit(0); }
 
-const outDir = path.join(ROOT, 'docs/2026-10-31-模板文章清理');
+const outDir = path.join(ROOT, '../全球增长系统/项目文档/2026-10-31-模板文章清理');
 fs.mkdirSync(outDir, { recursive: true });
 fs.writeFileSync(path.join(outDir, `backup-${batch}-${Date.now()}.json`), JSON.stringify(docs, null, 2));
 let ok = 0;

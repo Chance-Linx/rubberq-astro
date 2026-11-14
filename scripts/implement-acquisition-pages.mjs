@@ -12,7 +12,7 @@ if (JSON.parse(fs.readFileSync('src/messages/en.json', 'utf8')).acquisition?.pag
 }
 
 const root = process.cwd();
-const input = 'docs/2026-10-21-线上获客执行/data/pages.json';
+const input = '../全球增长系统/项目文档/2026-10-21-线上获客执行/data/pages.json';
 const pages = JSON.parse(fs.readFileSync(input, 'utf8'));
 const labels = {
   '/': 'Precision Rubber Components', '/about': 'About RubberQ', '/products': 'Products',

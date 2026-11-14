@@ -3,7 +3,7 @@ import base64, hashlib, json, urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-EVIDENCE = ROOT / 'docs/2026-10-21-全站规划落实/evidence'
+EVIDENCE = ROOT / '../全球增长系统/项目文档/2026-10-21-全站规划落实/evidence'
 def admin(endpoint, payload):
     request = urllib.request.Request('http://127.0.0.1:4399/__local/' + endpoint,
         data=json.dumps(payload).encode(), headers={'Content-Type':'application/json','X-RQ-Local-Test':'local-only'})

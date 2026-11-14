@@ -93,9 +93,9 @@ def main():
     messages={loc:read(f'src/messages/{loc}.json') for loc in LOCALES}
     errors=[]; sources=[]
     ids={p['id'] for p in pages}; urls={p['url'] for p in pages}
-    drafts=read('docs/2026-10-21-全站规划落实/content-revisions/manifest.json')
+    drafts=read('../全球增长系统/项目文档/2026-10-21-全站规划落实/content-revisions/manifest.json')
     article_urls={x['url'] for x in drafts['drafts']}
-    references=read('docs/2026-10-21-全站规划落实/reviews/primary-references.json')
+    references=read('../全球增长系统/项目文档/2026-10-21-全站规划落实/reviews/primary-references.json')
     reference_urls={x['url'] for x in references['references'] if x['url'].startswith('https://')}
     reference=key_paths(messages['en']['acquisition'])
     for locale,m in messages.items():
@@ -134,7 +134,7 @@ def main():
         if any(x not in urls for x in p['links']+[p['cta_url']]):errors.append(p['id']+' missing link destination')
     industry=next(g for g in nav if g['url']=='/industries')['children']
     if industry[:4]!=['/industries/semiconductor','/industries/liquid-cooling-energy-storage','/industries/ev-energy-storage','/industries/humanoid-robotics']:errors.append('industry priority order')
-    evidence=ROOT/'docs/2026-10-21-全站规划落实/evidence';evidence.mkdir(exist_ok=True)
+    evidence=ROOT/'../全球增长系统/项目文档/2026-10-21-全站规划落实/evidence';evidence.mkdir(exist_ok=True)
     (evidence/'locale-source-checks.json').write_text(json.dumps({'sources':sources,'errors':errors},ensure_ascii=False,indent=2)+'\n')
     if args.source_only:
         print(json.dumps({'sources':len(sources),'passed':sum(s['pass'] for s in sources),'errors':errors},ensure_ascii=False));return bool(errors)

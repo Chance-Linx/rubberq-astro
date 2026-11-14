@@ -1,93 +1,39 @@
-# AGENTS.md
+# RubberQ 网站事实
 
-本文件是 `rubberq-astro/` 活跃站点实现的工作入口。更上层项目说明见根目录 `../AGENTS.md`，本文件只记录当前 Astro 仓库的执行规则。
+`rubberq-astro/` 是 RubberQ 的活跃网站实现，项目背景位于 `../AGENTS.md`。`../RubberQ-B2B-Site/`、`../RubberQ-readdy/` 和 `../rqing.com/` 是历史站点或参考资料。
 
-## 当前定位
+## 技术与资源
 
-`rubberq-astro/` 是 RubberQ 唯一活跃维护的网站实现。不要在 `../RubberQ-B2B-Site/`、`../RubberQ-readdy/` 或 `../rqing.com/` 中开发新功能或部署生产站。
+- 技术栈：Astro 5、React 18 islands、Tailwind CSS 3、Sanity CMS、Cloudflare Pages 服务端渲染。
+- 正式域名：<https://rubberq.com>。
+- Cloudflare Pages project：`rubberq-astro`；构建产物：`dist/`。
+- R2 bucket：`rubberq-images`；binding：`R2_BUCKET`；CDN：`https://images.rubberq.com`。
+- KV binding：`SESSION`。
+- Sanity projectId：`tcjl4afv`；dataset：`production`。
+- RFQ Worker：`rubberq-rfq-api`；D1 database：`rubberq_rfq`；table：`rfqs`。
 
-## 常用命令
+## 代码与文档位置
+
+- UI 语言文件：`src/messages/{en,de,ja,es,zh}.json`。
+- 多语言 canonical/hreflang 工具：`createLocaleAlternates()`；结构化数据组件：`JsonLd`。
+- 询盘组件：`src/components/contact/`；追踪字段：`src/lib/inquiryTracking.ts`；Worker 参考源码：`tools/rfq-worker-v2/`。
+- 项目文档：`docs/`；文档镜像：`../项目文档/`。
+- 任务、日志和设计资料：`../全球增长系统/任务清单/任务清单.md`、`../全球增长系统/工作日志/工作日志.md`、`../全球增长系统/项目资料/Design.md`。
+- 2026-10-21 获客规划：`docs/2026-10-21-线上获客执行/01-验收决策与执行口径.md`。规划行业顺序为半导体 → 液冷与储能 → EV 热管理 → 人形机器人，通用工业定制件为搜索获客主力，胶料外供和 FFKM 替代件纳入规划，付费数据与监测预算尚未确定。
+
+## 现有命令
 
 ```bash
 npm run dev
 npm run build
 npm run preview
 npm run deploy
+npm run check:public-redlines
+npm run check:brand-colors
 ```
 
-部署目标必须是 Cloudflare Pages project `rubberq-astro`。
+`build`、`preview`、`deploy` 脚本均包含文案和品牌色检查；部署脚本指定 Cloudflare Pages 项目 `rubberq-astro`。
 
-## 关键资源
+## 资料存放规则（2026-11-14）
 
-- Production domain: `https://rubberq.com`
-- Cloudflare Pages project: `rubberq-astro`
-- R2 bucket: `rubberq-images`
-- R2 binding: `R2_BUCKET`
-- KV binding: `SESSION`
-- Sanity projectId: `tcjl4afv`
-- Sanity dataset: `production`
-- RFQ Worker: `rubberq-rfq-api`
-- D1 database: `rubberq_rfq`
-- D1 table: `rfqs`
-
-## 文档规则
-
-主文档目录是 `docs/`。根目录 `../项目文档/` 是镜像，不作为主编辑位置。
-
-更新任务清单、项目日志或规范文档时：
-
-```bash
-rsync -a docs/ ../项目文档/
-```
-
-既有 `.md` 管理文档遵守追加式记录：只在文末追加，不删除、不覆盖旧记录。
-
-## 公开文案规则
-
-客户可见文案必须是工厂专业、客户可理解的表达。不要把后台讨论口吻、审核措辞、内部合规审稿语言或占位说明放到前台页面。
-
-默认表达方向：
-
-- 材料和配方支持
-- 工艺能力
-- 检测验证
-- 追溯体系
-- 项目配合方式
-- 客户下一步需要提供的信息
-
-## 硬性红线
-
-1. 不公开披露日方合作伙伴公司名。
-2. 不在页面枚举未确认的 EV 高压具体应用。
-3. 不承诺不真实的开发周期。
-4. 不宣传医疗资质。
-5. 不把“汽车级”作为首位定位。
-6. Industries 顺序保持 EV -> Industrial -> Semiconductor -> Automotive Tier 2。
-
-## 代码规则
-
-- UI 文案走 `src/messages/{en,de,ja,es,zh}.json`。
-- 多语言页面用 `createLocaleAlternates()` 生成 canonical/hreflang。
-- 新页面按需注入 `JsonLd`。
-- 表单字段变更必须同步 `src/lib/inquiryTracking.ts`、RFQ Worker 入参、D1 字段。
-- 修改前先读现有组件和数据结构，优先沿用本仓库模式。
-
-## 验证规则
-
-前端或内容规则变更后默认运行：
-
-```bash
-npm run build
-```
-
-只改 Markdown 文档时，可不跑构建，但需要检查文件同步和 git 状态。
-
-## Git 规则
-
-- 提交备注用中文。
-- 不回滚用户未要求回滚的改动。
-- 推送前确认只包含本次任务相关文件。
-
-## 2026-10-21 用户验收决定覆盖旧行业排序
-
-根AGENTS.md最新决定及 `docs/2026-10-21-线上获客执行/01-验收决策与执行口径.md` 为本轮方向依据。半导体 → 液冷与储能 → EV热管理 → 人形机器人；通用工业定制件为搜索获客主力。新IA不再沿用本文件旧Industries排序。胶料外供和FFKM替代件纳入规划；Slogan不变。预算待定、先不花费，不新增付费采集或周期监测。规划和文案交付不自动计作CMS写入或生产上线。
+文档、文章、审计证据、发布回执和原始资产统一存放于项目根目录的 `全球增长系统/`。Astro 原 `docs/` 已迁至 `全球增长系统/项目文档/`；旧镜像在 `全球增长系统/历史归档/项目文档旧镜像/`。网站代码、运行所需静态资源及开发说明保留代码仓库。文章发布到 Sanity，不能把本地文稿目录重新放回 Astro。配图当前暂停，整理文件不构成恢复配图或 CMS 发布授权。

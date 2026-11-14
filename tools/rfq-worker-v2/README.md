@@ -209,7 +209,7 @@ Run the live check only from a network that can access `workers.dev`, or after t
 
 ## 2026-10-21 implementation update
 
-The historical integration sketch above is retained for provenance. The executable contract is now `worker.mjs`, which uses `toD1UpdateArgs`; do not copy the older sketch into production. Full local implementation, isolated browser/D1/R2 evidence and release prerequisites are recorded in `docs/2026-10-21-全站规划落实/21-询盘附件保存通知与失败重试.md`.
+The historical integration sketch above is retained for provenance. The executable contract is now `worker.mjs`, which uses `toD1UpdateArgs`; do not copy the older sketch into production. Full local implementation, isolated browser/D1/R2 evidence and release prerequisites are recorded in `../全球增长系统/项目文档/2026-10-21-全站规划落实/21-询盘附件保存通知与失败重试.md`.
 
 The frontend now posts to same-origin `/api/`. Private `RFQ_ATTACHMENTS` storage and `migrations/2026-10-21-rfq-idempotency.sql` are prerequisites for the reviewed release. Neither a cloud bucket nor a remote migration was created/applied in this change. Local `tools/rfq-review/entry.mjs` admin endpoints and fake mail bindings are test-only and must never be deployed.
 

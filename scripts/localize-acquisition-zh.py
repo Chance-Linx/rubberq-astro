@@ -6,7 +6,7 @@ import json,hashlib
 root=Path(__file__).resolve().parents[1]
 if json.loads((root/'src/messages/zh.json').read_text()).get('acquisition',{}).get('pages'):
     raise SystemExit('Initial Chinese migration already applied. Maintain src/messages/zh.json directly.')
-source=json.loads((root/'docs/2026-10-21-线上获客执行/data/pages.json').read_text())
+source=json.loads((root/'../全球增长系统/项目文档/2026-10-21-线上获客执行/data/pages.json').read_text())
 records={}
 def page(n,h1,intro,cta,*sections,faq=()):
     p=source[n-1]
@@ -150,6 +150,6 @@ page(49,'使用条款','阅读本网站现行使用条款。','联系 RubberQ')
 
 ui={'manufacturer':'精密橡胶制造 · 始于1995年','factoryImage':'RubberQ 福州制造厂区','factoryCaption':'中国福州 · 胶料制备、成型与检验','projectInputs':'准备项目评估资料','inputs':['图纸或参考零件','材料与实际工况','数量与项目阶段'],'engineering':'讨论工程需求','sample':'申请样品','manufacturingFacts':'制造基础','established':'在福州成立','facilities':'生产厂区','factoryArea':'厂区总面积约','traceability':'生产追溯','questions':'项目常见问题','nextStep':'明确下一步','nextStepDescription':'提供图纸、使用工况和数量，一同讨论材料、样品与报价要求。','supplierInformation':'供应商资料','quality':'质量与追溯','testing':'自有检测','factory':'工厂信息','continue':'继续推进项目','explore':'找到适合的项目入口','related':'相关零件与工程资源','projectStart':'从需求开始评估零件','closing':'发送图纸或描述应用，同时提供使用工况、材料要求和数量。','sendRequirements':'发送项目要求','home':'首页','navigation':'主导航','language':'语言','menu':'菜单','closeMenu':'关闭菜单','search':'搜索 RubberQ'}
 file=root/'src/messages/zh.json';messages=json.loads(file.read_text());messages['acquisition']['pages']=records;messages['acquisition']['ui']=ui;file.write_text(json.dumps(messages,ensure_ascii=False,indent=2)+'\n')
-receipt={'locale':'zh','page_count':len(records),'source':'approved English buyer tasks; native Chinese rendering','source_sha256':hashlib.sha256((root/'docs/2026-10-21-线上获客执行/data/pages.json').read_bytes()).hexdigest(),'output_sha256':hashlib.sha256(json.dumps(records,ensure_ascii=False,sort_keys=True).encode()).hexdigest(),'final_review':False}
-(root/'docs/2026-10-21-全站规划落实/evidence/translation-zh.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n')
+receipt={'locale':'zh','page_count':len(records),'source':'approved English buyer tasks; native Chinese rendering','source_sha256':hashlib.sha256((root/'../全球增长系统/项目文档/2026-10-21-线上获客执行/data/pages.json').read_bytes()).hexdigest(),'output_sha256':hashlib.sha256(json.dumps(records,ensure_ascii=False,sort_keys=True).encode()).hexdigest(),'final_review':False}
+(root/'../全球增长系统/项目文档/2026-10-21-全站规划落实/evidence/translation-zh.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n')
 print('Chinese page messages:',len(records))

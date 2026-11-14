@@ -2,7 +2,7 @@ import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
 
 const root = process.cwd();
-const scanRoots = ['src', 'public/llms.txt', 'docs/content'].filter((path) => existsSync(join(root, path)));
+const scanRoots = ['src', 'public/llms.txt', '../全球增长系统/项目文档/content'].filter((path) => existsSync(join(root, path)));
 const filePattern = /\.(astro|md|mdx|json|txt|ts|tsx)$/;
 
 const blockedPatterns = [

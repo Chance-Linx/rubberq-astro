@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import { normalizeRfqPayload } from '../tools/rfq-worker-v2/rfq-v2-contract.mjs';
 
 const root = new URL('../', import.meta.url);
-const file = new URL('docs/2026-10-21-全站规划落实/evidence/five-locale-implementation-checks.json', root);
+const file = new URL('../全球增长系统/项目文档/2026-10-21-全站规划落实/evidence/five-locale-implementation-checks.json', root);
 const report = JSON.parse(fs.readFileSync(file, 'utf8'));
 assert.equal(report.summary.passed, 225, 'Build the current rendered implementation report before testing payloads');
 const cases = [];
@@ -41,5 +41,5 @@ for (const stage of ['concept','feasibility','sample','tooling','production']) i
 const bad = normalizeRfqPayload({name:'Local Test',email:'local-test@example.invalid',inquiryType:'sample_request',country:'Test destination',productType:''});
 assert.equal(bad.ok,false);assert.ok(bad.errors.productType);cases.push({name:'Sample product choice is required',pass:true});
 const result = { scope:'Local normalization and rendered form options only; not a live submission, D1 insert or email delivery test',passed:cases.length,cases };
-fs.writeFileSync(new URL('docs/2026-10-21-全站规划落实/evidence/rfq-contract-checks.json',root),JSON.stringify(result,null,2)+'\n');
+fs.writeFileSync(new URL('../全球增长系统/项目文档/2026-10-21-全站规划落实/evidence/rfq-contract-checks.json',root),JSON.stringify(result,null,2)+'\n');
 console.log(JSON.stringify({passed:result.passed, scope:result.scope}));

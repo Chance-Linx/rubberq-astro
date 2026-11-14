@@ -7,6 +7,7 @@ export default defineConfig({
   root: fileURLToPath(new URL('../../', import.meta.url)),
   cacheDir: fileURLToPath(new URL('../../node_modules/.astro-article-review/', import.meta.url)),
   server: { host: '127.0.0.1', port: 4398 },
+  devToolbar: { enabled: false },
   vite: { ...base.vite, cacheDir: 'node_modules/.vite-article-review' },
   integrations: [
     ...base.integrations,

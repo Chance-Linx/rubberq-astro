@@ -5,7 +5,7 @@ from pathlib import Path
 from urllib.parse import quote, urlencode
 from urllib.request import urlopen
 
-ROOT=Path(__file__).resolve().parents[1];BASE=ROOT/'docs/2026-10-21-全站规划落实'
+ROOT=Path(__file__).resolve().parents[1];BASE=ROOT/'../全球增长系统/项目文档/2026-10-21-全站规划落实'
 spec=importlib.util.spec_from_file_location('acquisition_checks',ROOT/'scripts/verify-acquisition-implementation.py');module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
 Document=module.Document;norm=module.normalize
 class DiscoveryDocument(Document):
